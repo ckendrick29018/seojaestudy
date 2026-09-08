@@ -3,7 +3,8 @@ export type UiLang = "en" | "ko";
 type Dict = Record<string, { en: string; ko: string }>;
 
 export const dict = {
-  appName: { en: "SeoJae Story", ko: "서재 이야기" },
+  // Brand name — never localized, identical in every UI language.
+  appName: { en: "SeoJae Story", ko: "SeoJae Story" },
   tagline: { en: "Short stories, gentle progress.", ko: "짧은 이야기로, 천천히 성장해요." },
   library: { en: "Library", ko: "서재" },
   classics: { en: "Classics", ko: "고전" },
@@ -71,7 +72,7 @@ export const dict = {
 
   // --- Billing / paywall ---
   premium: { en: "Premium", ko: "프리미엄" },
-  premiumTitle: { en: "SeoJae Story Premium", ko: "서재 이야기 프리미엄" },
+  premiumTitle: { en: "SeoJae Story Premium", ko: "SeoJae Story 프리미엄" },
   premiumLockedTitle: { en: "This is a Premium lesson", ko: "프리미엄 레슨이에요" },
   premiumLockedBody: {
     en: "Subscribe to unlock this story and the rest of the library.",
@@ -192,7 +193,7 @@ export const dict = {
   settings: { en: "Settings", ko: "설정" },
   settingsSubtitle: {
     en: "Personalize how SeoJae Story works for you.",
-    ko: "서재 이야기를 내게 맞게 설정하세요.",
+    ko: "SeoJae Story를 내게 맞게 설정하세요.",
   },
   settingsLearningTitle: { en: "Your learning", ko: "학습 설정" },
   settingsNotOnboarded: {
