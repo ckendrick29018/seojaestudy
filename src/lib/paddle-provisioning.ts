@@ -1,5 +1,8 @@
 import "server-only";
 import { createAdminClient } from "@/lib/supabase/admin";
+import type { Database } from "@/lib/supabase/database.types";
+
+type ProfileUpdate = Database["public"]["Tables"]["profiles"]["Update"];
 
 // Loose shapes — the Paddle SDK's webhook `*Notification` entities and its
 // REST `*` entities carry the same fields we need but are nominally
@@ -38,7 +41,7 @@ export async function provisionSubscription(sub: PaddleSubscriptionLike, userIdO
 
   // Prefer the user id from customData; fall back to matching the row that
   // already stores this subscription id (renewals, dashboard edits).
-  const match = async (patch: Record<string, unknown>) => {
+  const match = async (patch: ProfileUpdate) => {
     if (userId) {
       await admin.from("profiles").update(patch).eq("id", userId);
     } else {
@@ -51,7 +54,7 @@ export async function provisionSubscription(sub: PaddleSubscriptionLike, userIdO
   const scheduledCancel = sub.scheduledChange?.action === "cancel";
 
   if (active) {
-    const patch: Record<string, unknown> = {
+    const patch: ProfileUpdate = {
       is_subscribed: true,
       cancel_at_period_end: scheduledCancel,
       paddle_subscription_id: sub.id,
