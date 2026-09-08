@@ -99,6 +99,25 @@ export interface Database {
         };
         Relationships: [];
       };
+      reading_days: {
+        Row: {
+          user_id: string;
+          /** Local calendar day, "YYYY-MM-DD". */
+          day: string;
+          created_at: string;
+        };
+        Insert: {
+          user_id: string;
+          day: string;
+          created_at?: string;
+        };
+        Update: {
+          user_id?: string;
+          day?: string;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;

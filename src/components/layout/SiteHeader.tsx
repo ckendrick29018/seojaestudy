@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
+import { useDaily } from "@/components/providers/DailyProvider";
 import { BookOpenIcon, CardsIcon, SettingsIcon, UserIcon } from "@/components/ui/icons";
 import { SignOutButton } from "@/components/auth/SignOutButton";
 
@@ -15,6 +16,7 @@ export function SiteHeader() {
   const isHome = pathname === "/";
   const { user, authAvailable } = useAuth();
   const { dueItems } = useStudyPlan();
+  const { streak } = useDaily();
 
   return (
     <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream/90 px-5 py-4 backdrop-blur">
@@ -23,6 +25,16 @@ export function SiteHeader() {
         {isHome && <span className="hidden text-xs text-charcoal/50 sm:inline">{t("tagline")}</span>}
       </Link>
       <nav className="flex items-center gap-1.5">
+        {streak > 0 && (
+          <span
+            className="mr-0.5 inline-flex items-center gap-1 rounded-full bg-rose-light/40 px-2 py-1 text-xs font-semibold text-rose"
+            aria-label={`${streak} ${t("dayStreak")}`}
+            title={`${streak} ${t("dayStreak")}`}
+          >
+            <span aria-hidden>🔥</span>
+            {streak}
+          </span>
+        )}
         <Link
           href="/saved"
           className="rounded-full p-2 text-charcoal/60 transition hover:bg-sage/40 hover:text-charcoal"

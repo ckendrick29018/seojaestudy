@@ -201,6 +201,17 @@ export const dict = {
     ko: "메뉴와 안내 문구의 언어예요. 언제든 바꿀 수 있어요.",
   },
   settingsNoInterests: { en: "No interests picked", ko: "선택한 관심사 없음" },
+
+  // --- Daily habit ---
+  lessonOfDay: { en: "Today's story", ko: "오늘의 이야기" },
+  startTodaysLesson: { en: "Start today's story", ko: "오늘의 이야기 시작하기" },
+  lessonOfDayDone: { en: "You've read this one", ko: "이 이야기를 읽었어요" },
+  lessonOfDayDoneToday: { en: "Done for today — nice work!", ko: "오늘 학습 완료 — 잘했어요!" },
+  readAgain: { en: "Read again", ko: "다시 읽기" },
+  streakKeepGoing: {
+    en: "Come back tomorrow to keep your streak going.",
+    ko: "내일 다시 오면 연속 기록이 이어져요.",
+  },
 } satisfies Dict;
 
 export function t(key: keyof typeof dict, lang: UiLang): string {

@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Lesson } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { useDaily } from "@/components/providers/DailyProvider";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { generateFeedback, type FeedbackResult } from "@/lib/feedback";
@@ -12,9 +13,15 @@ import { CheckIcon } from "@/components/ui/icons";
 export function SummaryBox({ lesson }: { lesson: Lesson }) {
   const t = useT();
   const { markLessonComplete, isLessonComplete } = useProgress();
+  const { streak, recordReadDay } = useDaily();
   const [value, setValue] = useState("");
   const [feedback, setFeedback] = useState<FeedbackResult | null>(null);
   const complete = isLessonComplete(lesson.slug);
+
+  function completeLesson() {
+    markLessonComplete(lesson.slug);
+    recordReadDay();
+  }
 
   return (
     <section className="border-t border-rose-light/40 px-5 py-8">
@@ -31,7 +38,7 @@ export function SummaryBox({ lesson }: { lesson: Lesson }) {
         <Button variant="outline" onClick={() => setFeedback(generateFeedback(lesson, value))} disabled={value.trim().length === 0}>
           {t("getFeedback")}
         </Button>
-        <Button variant={complete ? "ghost" : "primary"} onClick={() => markLessonComplete(lesson.slug)} disabled={complete}>
+        <Button variant={complete ? "ghost" : "primary"} onClick={completeLesson} disabled={complete}>
           {complete ? (
             <>
               <CheckIcon className="h-4 w-4" /> {t("completed")}
@@ -41,6 +48,16 @@ export function SummaryBox({ lesson }: { lesson: Lesson }) {
           )}
         </Button>
       </div>
+
+      {complete && streak > 0 && (
+        <p className="mt-3 flex flex-wrap items-center gap-2 text-sm text-charcoal/60">
+          <span className="inline-flex items-center gap-1 font-semibold text-rose">
+            <span aria-hidden>🔥</span>
+            {streak} {t("dayStreak")}
+          </span>
+          {t("streakKeepGoing")}
+        </p>
+      )}
 
       {feedback && (
         <div
