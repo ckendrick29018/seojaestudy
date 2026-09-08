@@ -13,6 +13,15 @@ export const dict = {
     ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",
   },
   classicsSeeAll: { en: "See all", ko: "전체 보기" },
+  bookshelf: { en: "Bookshelf", ko: "책장" },
+  bookshelfSubtitle: {
+    en: "Every story you finish finds a place here.",
+    ko: "완독한 이야기가 하나씩 이곳에 꽂혀요.",
+  },
+  bookshelfEmpty: {
+    en: "Your shelf is empty for now. Finish a story to place your first book — your cat is waiting.",
+    ko: "아직 책장이 비어 있어요. 이야기를 하나 완독하면 첫 책이 꽂혀요. 고양이가 기다리고 있어요.",
+  },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
   minRead: { en: "min read", ko: "분 소요" },
 

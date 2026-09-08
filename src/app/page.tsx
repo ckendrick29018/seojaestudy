@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { lessons } from "@/lib/data/lessons";
 import { LessonCard } from "@/components/home/LessonCard";
 import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
+import { BookshelfPreview } from "@/components/home/BookshelfPreview";
 import { ClassicsSection } from "@/components/home/ClassicsSection";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
@@ -51,7 +52,8 @@ export default function HomePage() {
       <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal">{t("appName")}</h1>
       <p className="mb-8 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
       <LessonOfDayCard />
-      <div className="space-y-3">
+      <BookshelfPreview />
+      <div className="mt-8 space-y-3">
         {ordered.map((lesson) => (
           <LessonCard key={lesson.slug} lesson={lesson} />
         ))}

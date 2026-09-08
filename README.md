@@ -101,8 +101,12 @@ the Paddle checkout (see `src/lib/platform.ts`).
 - **Story section** — tap any word for an instant translation bottom sheet;
   tap the 🌐 icon at the end of a sentence to reveal its full translation
   inline; a **Listen** button narrates the whole story using the browser's
-  built-in Web Speech API (no API key, works offline) — see
-  `src/components/lesson/StoryReader.tsx` and `src/lib/speech.ts`
+  built-in Web Speech API (no API key, works offline). `src/lib/speech.ts`
+  picks the best neural/cloud voice the device offers (Google / "Natural" /
+  Siri voices on Chrome, Edge, Android, macOS) and reads sentence-by-sentence
+  so long stories don't cut off; on a bare Windows box with only the old
+  SAPI voices it still sounds robotic — that needs a paid TTS to fix. See
+  also `src/components/lesson/StoryReader.tsx`
 - **Comprehension check** — 2–3 multiple-choice questions per lesson with
   immediate right/wrong feedback and an explanation
 - **Vocabulary flashcards** — tap-to-flip cards with audio pronunciation and
@@ -165,6 +169,7 @@ src/
     page.tsx                 library / lesson list
     lesson/[slug]/page.tsx    one-page scrolling lesson (or paywall, if gated)
     classics/page.tsx         full "Classics" shelf (grid) — dashboard shows a carousel
+    bookshelf/page.tsx        completed-books shelf + a mascot cat that levels up
     saved/page.tsx            saved vocabulary words
     login/page.tsx            Google + email/password sign-in
     auth/callback/route.ts    OAuth / email-confirmation callback
@@ -174,7 +179,8 @@ src/
     providers/                Language/Auth/Progress providers
     layout/                   SiteHeader, MenuDrawer (slide-over nav)
     home/                     LessonCard, LessonOfDayCard, ClassicCard,
-                              ClassicsSection + ClassicsCarousel
+                              ClassicsSection + ClassicsCarousel,
+                              Bookshelf + BookshelfPreview + ReadingCat
     lesson/                   LessonHero, StoryReader, ComprehensionCheck,
                               VocabFlashcards, SummaryBox, LessonView,
                               LessonPaywall, ...

@@ -135,6 +135,16 @@ export function BooksIcon(props: IconProps) {
   );
 }
 
+export function CatIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M5 3.2l1.7 4.3M15 3.2l-1.7 4.3" />
+      <path d="M4 10c0 3.3 2.7 6 6 6s6-2.7 6-6c0-2-1-3.9-2.6-5a10 10 0 01-6.8 0C5 6.1 4 8 4 10z" />
+      <path d="M8.6 11.4h2.8M6.2 10.2l-2.1.5M13.8 10.2l2.1.5" />
+    </svg>
+  );
+}
+
 export function CardsIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinejoin="round" {...props}>
