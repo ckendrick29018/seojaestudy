@@ -32,6 +32,8 @@ import type { Lesson } from "../types";
  *    Austen's novel (first published 1813, Project Gutenberg #1342).
  *  - "Jane Eyre" is a simplified retelling of Chapter 1 of Charlotte
  *    Brontë's novel (first published 1847, Project Gutenberg #1260).
+ *  - "The Selfish Giant" is a simplified, gently softened retelling of Oscar
+ *    Wilde's fairy tale (first published 1888, Project Gutenberg #902).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -1942,6 +1944,223 @@ export const lessons: Lesson[] = [
         correctIndex: 1,
         explanation:
           "Jane normally bore John's bullying in silence; this time she called him cruel and wicked and struck back with her hands.",
+      },
+    ],
+  },
+  {
+    slug: "the-selfish-giant",
+    title: "The Selfish Giant",
+    titleTranslation: "이기적인 거인",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Oscar Wilde (1854–1900)",
+    coverEmoji: "🌳",
+    coverImage: "/covers/the-selfish-giant.svg",
+    source:
+      "Adapted from Oscar Wilde's fairy tale \"The Selfish Giant\" (first published 1888 in \"The Happy Prince and Other Tales\"; long in the public domain, Project Gutenberg #902). This simplified retelling and its Korean translation are original text written for SeoJae Story; the story's final scene has been gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the Giant did when he first came home, and what later changed his heart.",
+    paragraphs: [
+      [
+        {
+          id: "sg-1",
+          text: "The Giant had a big, beautiful garden with soft green grass and sweet flowers.",
+          translation:
+            "거인에게는 부드러운 초록 잔디와 향기로운 꽃이 가득한, 크고 아름다운 정원이 있었어요.",
+        },
+        {
+          id: "sg-2",
+          text: "Every afternoon, on their way home from school, the children came to play there.",
+          translation:
+            "매일 오후, 아이들은 학교에서 집으로 가는 길에 그 정원에 들러 놀았어요.",
+        },
+        {
+          id: "sg-3",
+          text: "The Giant had been away for seven years, and now he came home and saw the children in his garden.",
+          translation:
+            "거인은 칠 년 동안 집을 떠나 있었는데, 이제 돌아와 보니 아이들이 자기 정원에서 놀고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sg-4",
+          text: "\"My garden is my own garden,\" he shouted. \"No one may play here but me!\"",
+          translation:
+            "\"내 정원은 내 정원이야.\" 거인이 소리쳤어요. \"여기서는 나 말고 아무도 놀 수 없어!\"",
+        },
+        {
+          id: "sg-5",
+          text: "The Giant was selfish, so he built a high wall around the garden and put up a sign that said, \"Keep out.\"",
+          translation:
+            "거인은 이기적이어서, 정원 둘레에 높은 담을 쌓고 \"들어오지 마시오\"라고 쓴 팻말을 세웠어요.",
+        },
+        {
+          id: "sg-6",
+          text: "Now the children had nowhere to play, and the road outside was hard and full of dust and stones.",
+          translation:
+            "이제 아이들은 놀 곳이 없었고, 담 밖의 길은 딱딱하고 먼지와 돌투성이였어요.",
+        },
+      ],
+      [
+        {
+          id: "sg-7",
+          text: "Then Spring came to all the country, but in the Giant's garden it was still Winter.",
+          translation:
+            "이윽고 온 나라에 봄이 찾아왔지만, 거인의 정원만은 여전히 겨울이었어요.",
+        },
+        {
+          id: "sg-8",
+          text: "No birds sang there, the trees did not flower, and cold snow lay on the grass.",
+          translation:
+            "그곳에서는 새도 울지 않았고, 나무에는 꽃도 피지 않았으며, 차가운 눈이 잔디를 덮고 있었어요.",
+        },
+        {
+          id: "sg-9",
+          text: "\"I don't understand why Spring is so late,\" the Giant said, looking out at his white, empty garden.",
+          translation:
+            "\"봄이 왜 이렇게 늦는지 모르겠군.\" 거인은 하얗고 텅 빈 정원을 내다보며 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "sg-10",
+          text: "One morning the Giant heard a little bird singing, and he saw that the children had crept back in through a small hole in the wall.",
+          translation:
+            "어느 아침 거인은 작은 새 한 마리가 지저귀는 소리를 들었고, 아이들이 담에 난 작은 구멍으로 몰래 다시 들어온 것을 보았어요.",
+        },
+        {
+          id: "sg-11",
+          text: "They were sitting in the trees, and on every branch where a child sat, the tree had burst into flowers again.",
+          translation:
+            "아이들은 나무에 올라앉아 있었고, 아이가 앉은 가지마다 나무가 다시 꽃을 활짝 피웠어요.",
+        },
+        {
+          id: "sg-12",
+          text: "But in one corner it was still cold, for a very small boy could not climb up, and he stood by the tree and cried.",
+          translation:
+            "하지만 한 구석은 여전히 추웠어요. 아주 작은 소년이 나무에 오르지 못한 채, 나무 옆에 서서 울고 있었거든요.",
+        },
+      ],
+      [
+        {
+          id: "sg-13",
+          text: "The Giant's heart grew soft; he went out quietly and lifted the little boy up into the tree, which at once broke into flowers.",
+          translation:
+            "거인의 마음이 부드러워졌어요. 거인은 조용히 밖으로 나가 그 작은 소년을 안아 나무 위에 올려 주었고, 나무는 곧바로 꽃을 활짝 피웠어요.",
+        },
+        {
+          id: "sg-14",
+          text: "\"It is your garden now, children,\" said the Giant, and he knocked the wall down with his great hammer.",
+          translation:
+            "\"이제 이 정원은 너희 것이란다, 얘들아.\" 거인은 이렇게 말하며 커다란 망치로 담을 허물었어요.",
+        },
+        {
+          id: "sg-15",
+          text: "He played with the children all afternoon, but the small boy he loved best was gone, and no one knew where he lived.",
+          translation:
+            "거인은 오후 내내 아이들과 놀았지만, 가장 아끼던 그 작은 소년은 사라졌고, 아무도 그 아이가 어디 사는지 몰랐어요.",
+        },
+      ],
+      [
+        {
+          id: "sg-16",
+          text: "Many years passed, and the Giant grew old and weak; then one winter morning he saw the little boy again, under a tree covered with soft white flowers.",
+          translation:
+            "여러 해가 지나 거인은 늙고 쇠약해졌어요. 그러던 어느 겨울 아침, 거인은 부드러운 하얀 꽃으로 뒤덮인 나무 아래에서 그 작은 소년을 다시 보았어요.",
+        },
+        {
+          id: "sg-17",
+          text: "\"You once let me play in your garden,\" the boy said with a smile. \"Today you will come and play in mine.\" That afternoon the children found the Giant lying still under the tree, a peaceful smile on his face, covered all over with white flowers.",
+          translation:
+            "\"예전에 아저씨가 저를 정원에서 놀게 해 주셨죠.\" 소년이 미소 지으며 말했어요. \"오늘은 아저씨가 제 정원에 오셔서 노실 차례예요.\" 그날 오후 아이들은 나무 아래에 조용히 누운 거인을 발견했어요. 얼굴에는 평온한 미소가 떠 있었고, 온몸이 하얀 꽃으로 뒤덮여 있었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sg-v1",
+        term: "selfish",
+        partOfSpeech: "adjective",
+        translation: "이기적인",
+        example: "It was selfish to keep the whole garden for himself.",
+        exampleTranslation: "정원을 통째로 자기만 쓰려고 한 것은 이기적이었어요.",
+      },
+      {
+        id: "sg-v2",
+        term: "wall",
+        partOfSpeech: "noun",
+        translation: "담, 벽",
+        example: "He built a high wall around the garden.",
+        exampleTranslation: "그는 정원 둘레에 높은 담을 쌓았어요.",
+      },
+      {
+        id: "sg-v3",
+        term: "climb",
+        partOfSpeech: "verb",
+        translation: "오르다, 기어오르다",
+        example: "The little boy was too small to climb the tree.",
+        exampleTranslation: "그 작은 소년은 너무 어려서 나무에 오르지 못했어요.",
+      },
+      {
+        id: "sg-v4",
+        term: "corner",
+        partOfSpeech: "noun",
+        translation: "구석, 모퉁이",
+        example: "In one corner of the garden it was still winter.",
+        exampleTranslation: "정원 한 구석은 여전히 겨울이었어요.",
+      },
+      {
+        id: "sg-v5",
+        term: "weak",
+        partOfSpeech: "adjective",
+        translation: "약한, 쇠약한",
+        example: "The Giant grew old and weak.",
+        exampleTranslation: "거인은 늙고 쇠약해졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sg-q1",
+        prompt: "Why did the Giant build a wall around his garden?",
+        options: [
+          "He wanted to keep the garden only for himself.",
+          "He wanted to protect the flowers from the snow.",
+          "The children had asked him to build it.",
+          "He needed the stones from the road outside.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The Giant was selfish. He said the garden was his own and that no one else could play in it, so he shut the children out.",
+      },
+      {
+        id: "sg-q2",
+        prompt: "What happened to the garden while the children were shut out?",
+        options: [
+          "It grew larger and more beautiful than before.",
+          "Spring never came, and it stayed cold and full of snow.",
+          "The flowers bloomed there all year round.",
+          "Other children climbed over the wall to play.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Spring came to the rest of the country, but the Giant's garden stayed in winter for as long as the children were kept out.",
+      },
+      {
+        id: "sg-q3",
+        prompt: "What brought Spring back to the garden?",
+        options: [
+          "The Giant paid workers to plant new trees.",
+          "The snow and the cold wind simply grew tired and left.",
+          "The children crept back in, and the Giant lifted the smallest boy into a tree.",
+          "The weather slowly grew warmer as the year went on.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The trees flowered again wherever a child sat; the last cold corner warmed only after the Giant helped the little boy who could not climb.",
       },
     ],
   },
