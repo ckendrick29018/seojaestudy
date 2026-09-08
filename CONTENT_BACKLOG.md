@@ -145,7 +145,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 30 | Emma | Jane Austen (1817) | 158 | B1 | Ch. 1 — "handsome, clever, and rich" | ☐ |
 | 31 | Persuasion | Jane Austen (1817) | 105 | B2 | Ch. 4 — Anne and Wentworth's history | ☐ |
 | 32 | Northanger Abbey | Jane Austen (1817) | 121 | B1 | Ch. 1 — "no one would have supposed her born to be a heroine" | ☐ |
-| 33 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B1 | Ch. 1 — the red-room / window seat | ☐ |
+| 33 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B2 | Ch. 1 — the window seat and John Reed (simplified retelling, 17 sentences) | ☑ |
 | 34 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B2 | Ch. 5 — arrival at Lowood | ☐ |
 | 35 | Wuthering Heights | Emily Brontë (1848) | 768 | B2 | Ch. 3 — Lockwood's dream at the window | ☐ |
 | 36 | Agnes Grey | Anne Brontë (1849) | 767 | B1 | Ch. 1 — "the beginning" | ☐ |
@@ -200,15 +200,17 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (7):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (8):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
-  (row 27). Follow their shape in `src/lib/data/lessons.ts`.
-- Levels on the shelf now: A1 ×2 (Cinderella, and Fox/Grapes sits in the
-  main list), A2 ×4 (Story of an Hour, Anne, Little Women, Ugly Duckling),
-  B1 ×2 (Gift of the Magi, Pride and Prejudice). Still no B2.
-- Good next lessons to build: **The Secret Garden Ch. 1**, **The Happy
-  Prince**, **The Selfish Giant**, **Alice's Adventures in Wonderland Ch. 1**,
-  **The Emperor's New Clothes** — short, famous, and easy to level. The
-  shelf still leans fairy tales, so a non-fairy-tale A2 (Secret Garden) and
-  a first B2 (Jane Eyre Ch. 1, row 33) would broaden it.
+  (row 27), Jane Eyre Ch. 1 (row 33). Follow their shape in
+  `src/lib/data/lessons.ts`.
+- Levels on the shelf now: A1 ×1 (Cinderella), A2 ×4 (Story of an Hour,
+  Anne, Little Women, Ugly Duckling), B1 ×2 (Gift of the Magi, Pride and
+  Prejudice), B2 ×1 (Jane Eyre). Spread is reasonable; A1 is now the thin
+  end.
+- Good next lessons to build: **The Selfish Giant** (row 8, A1 — fills the
+  thin A1 end), **The Secret Garden Ch. 1** (row 49, A2 — a non-fairy-tale
+  A2), **The Happy Prince** (row 7, A2), **Alice's Adventures in Wonderland
+  Ch. 1** (row 23, A2), **The Emperor's New Clothes** (row 17, A1). All
+  short, famous, and easy to level.

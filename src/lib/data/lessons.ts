@@ -30,6 +30,8 @@ import type { Lesson } from "../types";
  *    Grimm tale "Aschenputtel" (collected 1812, Project Gutenberg #2591).
  *  - "Pride and Prejudice" is a simplified retelling of Chapter 1 of Jane
  *    Austen's novel (first published 1813, Project Gutenberg #1342).
+ *  - "Jane Eyre" is a simplified retelling of Chapter 1 of Charlotte
+ *    Brontë's novel (first published 1847, Project Gutenberg #1260).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -1726,6 +1728,220 @@ export const lessons: Lesson[] = [
         correctIndex: 1,
         explanation:
           "Mr. Bennet enjoys joking at his wife's expense: he acts uninterested, suggests she go herself, and gently mocks her \"poor nerves.\"",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre",
+    title: "Jane Eyre",
+    titleTranslation: "제인 에어",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "📕",
+    coverImage: "/covers/jane-eyre.svg",
+    source:
+      "Adapted from Chapter 1 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how John Reed treated Jane in this scene, and what Jane did differently this time.",
+    paragraphs: [
+      [
+        {
+          id: "je-1",
+          text: "There would be no walk that day: since morning a cold wind had driven the rain against the windows without stopping.",
+          translation:
+            "그날은 산책을 할 수 없었어요. 아침부터 찬 바람이 쉬지 않고 창문에 비를 몰아쳤거든요.",
+        },
+        {
+          id: "je-2",
+          text: "Jane Eyre was ten years old, an orphan, and lived with her aunt, Mrs. Reed, and her three cousins at a house called Gateshead.",
+          translation:
+            "제인 에어는 열 살 난 고아로, 이모인 리드 부인과 사촌 셋과 함께 게이츠헤드라는 집에서 살았어요.",
+        },
+        {
+          id: "je-3",
+          text: "That afternoon Mrs. Reed sat by the fire with her own children around her, and told Jane to keep away until she learned to behave like a pleasant, contented child.",
+          translation:
+            "그날 오후 리드 부인은 자기 아이들을 곁에 두고 난롯가에 앉아 있었고, 제인에게는 상냥하고 만족할 줄 아는 아이가 되는 법을 배우기 전까지는 가까이 오지 말라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "je-4",
+          text: "Jane was not sorry to be sent away.",
+          translation: "제인은 쫓겨나도 서운하지 않았어요.",
+        },
+        {
+          id: "je-5",
+          text: "She slipped into the empty breakfast-room, took down a book full of pictures of birds, and climbed onto the window seat.",
+          translation:
+            "제인은 아무도 없는 아침 식사방으로 몰래 들어가, 새 그림이 가득한 책을 한 권 꺼내 들고 창가 자리에 올라앉았어요.",
+        },
+        {
+          id: "je-6",
+          text: "She pulled the heavy red curtain almost shut, so that she was hidden in her own small, quiet corner, half reading and half watching the grey rain outside.",
+          translation:
+            "제인은 두꺼운 빨간 커튼을 거의 닫아, 자기만의 작고 조용한 구석에 숨은 채, 반쯤은 책을 읽고 반쯤은 창밖의 잿빛 비를 바라보았어요.",
+        },
+      ],
+      [
+        {
+          id: "je-7",
+          text: "The peace did not last.",
+          translation: "그 평온은 오래가지 않았어요.",
+        },
+        {
+          id: "je-8",
+          text: "John Reed, her fourteen-year-old cousin, was a large, rough boy who bullied Jane whenever he could, and no one in the house ever stopped him.",
+          translation:
+            "열네 살 난 사촌 존 리드는 덩치가 크고 거친 아이로, 기회만 있으면 제인을 괴롭혔지만, 집안의 누구도 그를 말리지 않았어요.",
+        },
+        {
+          id: "je-9",
+          text: "He hunted through the room, found her behind the curtain, and ordered her to come out and stand in front of him.",
+          translation:
+            "존은 방 안을 뒤지다가 커튼 뒤에 있는 제인을 찾아냈고, 나와서 자기 앞에 서라고 명령했어요.",
+        },
+      ],
+      [
+        {
+          id: "je-10",
+          text: "He reminded her that she had no money and no home of her own, and that she had no right to live with a gentleman's family or to touch his books.",
+          translation:
+            "존은 제인에게 돈도 없고 자기 집도 없으면서, 신사 집안과 함께 살거나 자기 책에 손댈 자격이 없다고 쏘아붙였어요.",
+        },
+        {
+          id: "je-11",
+          text: "Then he threw the heavy book straight at her.",
+          translation: "그러고는 그 무거운 책을 제인에게 곧장 던졌어요.",
+        },
+        {
+          id: "je-12",
+          text: "It struck her, and she fell and cut her head against the door, so that it began to bleed.",
+          translation:
+            "책에 맞은 제인은 쓰러지면서 문에 머리를 부딪쳐 베였고, 피가 나기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "je-13",
+          text: "Something in Jane broke that day, and for the first time she shouted back: \"You cruel, wicked boy — you are like a murderer!\"",
+          translation:
+            "그날 제인의 마음속에서 무언가가 무너졌고, 제인은 난생처음 소리쳐 대들었어요. \"이 잔인하고 못된 애 — 너는 살인자나 다름없어!\"",
+        },
+        {
+          id: "je-14",
+          text: "John rushed at her, seizing her hair and her shoulder, and this time she did not stay still — she fought him with her hands.",
+          translation:
+            "존이 제인에게 달려들어 머리채와 어깨를 움켜잡았지만, 이번에는 제인도 가만있지 않고 두 손으로 맞서 싸웠어요.",
+        },
+        {
+          id: "je-15",
+          text: "She hardly knew what her hands were doing; she felt only the blood on her face and a wild, reckless anger.",
+          translation:
+            "제인은 자기 손이 무엇을 하고 있는지도 잘 몰랐어요. 그저 얼굴에 흐르는 피와, 걷잡을 수 없이 무모한 분노만이 느껴졌어요.",
+        },
+      ],
+      [
+        {
+          id: "je-16",
+          text: "Two servants ran in and pulled the children apart, crying that Jane had flown at Master John like a mad thing.",
+          translation:
+            "하인 둘이 달려 들어와 아이들을 떼어 놓으며, 제인이 미친 아이처럼 존 도련님에게 덤벼들었다고 소리쳤어요.",
+        },
+        {
+          id: "je-17",
+          text: "Mrs. Reed did not ask what had happened; she only said, \"Take her away to the red-room, and lock her in,\" and Jane was carried off, still struggling.",
+          translation:
+            "리드 부인은 무슨 일이 있었는지 묻지도 않고, 그저 \"저 애를 붉은 방으로 데려가서 가둬 두어라\"라고만 했고, 제인은 여전히 발버둥 치며 끌려갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "je-v1",
+        term: "bully",
+        partOfSpeech: "verb",
+        translation: "괴롭히다, 못살게 굴다",
+        example: "John Reed bullied Jane whenever the adults were not watching.",
+        exampleTranslation: "존 리드는 어른들이 보지 않을 때마다 제인을 괴롭혔어요.",
+      },
+      {
+        id: "je-v2",
+        term: "wicked",
+        partOfSpeech: "adjective",
+        translation: "사악한, 못된",
+        example: "\"You cruel, wicked boy!\" Jane shouted.",
+        exampleTranslation: "\"이 잔인하고 못된 애!\" 제인이 소리쳤어요.",
+      },
+      {
+        id: "je-v3",
+        term: "seize",
+        partOfSpeech: "verb",
+        translation: "와락 붙잡다, 움켜쥐다",
+        example: "He seized her hair and pulled hard.",
+        exampleTranslation: "존은 제인의 머리채를 움켜쥐고 세게 잡아당겼어요.",
+      },
+      {
+        id: "je-v4",
+        term: "reckless",
+        partOfSpeech: "adjective",
+        translation: "무모한, 앞뒤를 가리지 않는",
+        example: "A wild, reckless anger made her forget her fear.",
+        exampleTranslation: "걷잡을 수 없이 무모한 분노가 그녀에게 두려움을 잊게 했어요.",
+      },
+      {
+        id: "je-v5",
+        term: "struggle",
+        partOfSpeech: "verb",
+        translation: "몸부림치다, 발버둥 치다",
+        example: "Jane was carried away, still struggling.",
+        exampleTranslation: "제인은 여전히 발버둥 치며 끌려갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "je-q1",
+        prompt: "Why was Jane sitting in the window seat behind the curtain?",
+        options: [
+          "Mrs. Reed had told her to stay away from the family until she behaved better.",
+          "She was hiding from John Reed, who had been chasing her all morning.",
+          "She wanted to watch her cousins playing outside in the rain.",
+          "She had been shut in the room alone as a punishment.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Mrs. Reed had told Jane to keep her distance until she learned to seem pleasant and contented, so Jane found a quiet corner with a book of birds.",
+      },
+      {
+        id: "je-q2",
+        prompt: "What did John Reed say to Jane before he threw the book?",
+        options: [
+          "That he would tell Mrs. Reed she had been reading in secret.",
+          "That she was poor, had no home of her own, and no right to his books.",
+          "That she had to give the book back and say sorry to him.",
+          "That she could keep the book if she did his lessons for him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "John reminded Jane that she was a penniless dependent with no claim on the family or on anything in the house.",
+      },
+      {
+        id: "je-q3",
+        prompt: "How was Jane's reaction this time different from usual?",
+        options: [
+          "She ran to Mrs. Reed for help instead of staying silent.",
+          "She fought back and shouted at John for the first time.",
+          "She managed to avoid him completely and was not hurt.",
+          "She began to cry and refused to leave the window seat.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Jane normally bore John's bullying in silence; this time she called him cruel and wicked and struck back with her hands.",
       },
     ],
   },
