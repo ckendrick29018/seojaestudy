@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Lady with the Dog by Anton Chekhov">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 172)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-15 -16 C -33 -4 -34 28 -24 50 L 24 50 C 34 28 33 -4 15 -16 C 8 -11 -8 -11 -15 -16 Z" stroke-width="2"/>
+    <path d="M-15 3 Q 0 19 15 3" stroke-width="1.4" opacity="0.8"/>
+    <path d="M25 22 C 43 17 44 -7 27 -9 C 37 1 33 15 21 13" stroke-width="2"/>
+    <circle cx="0" cy="-28" r="18" stroke-width="2"/>
+    <path d="M-16 -36 L -27 -58 L -4 -43 Z" stroke-width="2"/>
+    <path d="M16 -36 L 27 -58 L 4 -43 Z" stroke-width="2"/>
+    <path d="M-14 -40 L -19 -50 L -8 -43 Z" stroke-width="1" opacity="0.7"/>
+    <path d="M14 -40 L 19 -50 L 8 -43 Z" stroke-width="1" opacity="0.7"/>
+    <circle cx="-7" cy="-30" r="1.9" fill="#C9A66B" stroke="none"/>
+    <circle cx="7" cy="-30" r="1.9" fill="#C9A66B" stroke="none"/>
+    <path d="M-6 -22 Q 0 -14 6 -22" stroke-width="1.4"/>
+    <circle cx="0" cy="-23" r="2.4" fill="#C9A66B" stroke="none"/>
+    <path d="M-11 50 V 41 M0 50 V 41 M11 50 V 41" stroke-width="1.4" opacity="0.8"/>
+    <path d="M-42 60 q 10 -7 21 0 t 21 0 t 21 0" stroke-width="1.4" opacity="0.55"/>
+  </g>
+
+  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#2C2C2C" letter-spacing="1">The Lady</text>
+  <text x="200" y="362" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#2C2C2C" letter-spacing="1">with the Dog</text>
+
+  <line x1="150" y1="396" x2="250" y2="396" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="438" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#C57B57" letter-spacing="2.5">ANTON CHEKHOV</text>
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#9A8F80" letter-spacing="2">1899</text>
+
+  <text x="200" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

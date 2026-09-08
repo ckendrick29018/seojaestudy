@@ -39,6 +39,10 @@ import type { Lesson } from "../types";
  *  - "A Christmas Carol" is a simplified retelling of Stave One ("Marley's
  *    Ghost") from Charles Dickens's novella (first published 1843, Project
  *    Gutenberg #46), long in the public domain.
+ *  - "The Lady with the Dog" is a simplified retelling of Part I of Anton
+ *    Chekhov's short story "Дама с собачкой" (first published 1899; the
+ *    English text on Project Gutenberg, #13415, is Constance Garnett's 1917
+ *    translation), long in the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -2600,6 +2604,223 @@ export const lessons: Lesson[] = [
         correctIndex: 3,
         explanation:
           "Marley tells Scrooge he still has a chance to escape Marley's fate, and that he will be haunted by three spirits over the next three nights.",
+      },
+    ],
+  },
+  {
+    slug: "the-lady-with-the-dog",
+    title: "The Lady with the Dog",
+    titleTranslation: "개를 데리고 다니는 부인",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Anton Chekhov (1860–1904)",
+    coverEmoji: "🐩",
+    coverImage: "/covers/the-lady-with-the-dog.svg",
+    source:
+      "Adapted from Part I of Anton Chekhov's short story \"The Lady with the Dog\" (\"Дама с собачкой,\" first published 1899; the English text on Project Gutenberg, #13415, is Constance Garnett's 1917 translation). The story is long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Gurov and Anna Sergeyevna first met in Yalta, and what Gurov thought of her once he was alone again.",
+    paragraphs: [
+      [
+        {
+          id: "ld-1",
+          text: "People at Yalta were saying that a new face had appeared on the sea-front: a lady with a little dog.",
+          translation:
+            "얄타의 해안 산책로에 새로운 얼굴이 나타났다는 이야기가 사람들 사이에 돌고 있었어요. 작은 개를 데리고 다니는 어느 부인이었어요.",
+        },
+        {
+          id: "ld-2",
+          text: "Dmitri Gurov, who had already spent two weeks in the town and was thoroughly bored, had begun to take an interest in everyone who was new.",
+          translation:
+            "이미 그 도시에서 두 주를 보내며 완전히 지루해져 있던 드미트리 구로프는, 새로 오는 사람이라면 누구에게나 관심을 갖기 시작한 참이었어요.",
+        },
+        {
+          id: "ld-3",
+          text: "From a table outside a café he watched the fair-haired young woman walk past along the water, a white Pomeranian trotting after her.",
+          translation:
+            "카페 밖 탁자에 앉아 그는 금발의 젊은 여인이 물가를 따라 지나가는 모습을 바라보았고, 하얀 포메라니안 한 마리가 그 뒤를 종종거리며 따라가고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ld-4",
+          text: "Gurov was not yet forty, but he already had a daughter of twelve and two sons at school.",
+          translation:
+            "구로프는 아직 마흔이 되지 않았지만, 벌써 열두 살 난 딸 하나와 학교에 다니는 아들 둘이 있었어요.",
+        },
+        {
+          id: "ld-5",
+          text: "He had married young, and by now his wife seemed almost twice his age: a tall, serious woman who read a great deal and thought of herself as clever.",
+          translation:
+            "그는 젊어서 결혼했고, 이제 그의 아내는 그보다 거의 두 배는 나이 들어 보였어요. 책을 많이 읽고 스스로 똑똑하다고 여기는, 키가 크고 진지한 여자였어요.",
+        },
+        {
+          id: "ld-6",
+          text: "He privately thought her narrow and dull, was a little afraid of her, and did not like to be at home.",
+          translation:
+            "그는 속으로 아내가 속이 좁고 따분하다고 생각했고, 그녀를 조금 두려워했으며, 집에 있는 것을 좋아하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ld-7",
+          text: "He had been unfaithful to her for years, and often, and he had picked up the habit of speaking of women unkindly, calling them \"the lower race.\"",
+          translation:
+            "그는 여러 해 동안, 그것도 자주 아내를 두고 바람을 피워 왔고, 여자들을 \"열등한 족속\"이라 부르며 함부로 말하는 버릇이 들어 있었어요.",
+        },
+        {
+          id: "ld-8",
+          text: "And yet he could not get through two days without them; among men he was bored and stiff, but with women he felt free and knew exactly what to say.",
+          translation:
+            "그러면서도 그는 여자들 없이는 이틀도 견디지 못했어요. 남자들 사이에서는 지루하고 서먹했지만, 여자들과 있으면 마음이 편했고 무슨 말을 해야 할지 정확히 알았어요.",
+        },
+        {
+          id: "ld-9",
+          text: "Something in his looks and his manner attracted women, and he knew it.",
+          translation:
+            "그의 외모와 태도에는 여자들을 끌어당기는 무언가가 있었고, 그는 그것을 알고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ld-10",
+          text: "One evening, while he was dining in the public gardens, the woman in the béret came over and sat down at the next table.",
+          translation:
+            "어느 날 저녁, 그가 공원 식당에서 저녁을 먹고 있을 때, 베레모를 쓴 그 여인이 다가와 옆 탁자에 앉았어요.",
+        },
+        {
+          id: "ld-11",
+          text: "Her expression, her walk, and her dress all told him that she was married, that she was travelling alone, and that she was not enjoying herself.",
+          translation:
+            "그녀의 표정과 걸음걸이, 옷차림 모두가 그에게 말해 주었어요. 그녀가 결혼했고, 혼자 여행 중이며, 조금도 즐거워하지 않는다는 것을요.",
+        },
+        {
+          id: "ld-12",
+          text: "He beckoned to the little dog, and when it came near he wagged his finger at it; the dog growled, and the woman said quickly, \"He doesn't bite,\" and blushed.",
+          translation:
+            "그가 작은 개를 손짓해 불렀고, 개가 가까이 오자 손가락을 흔들어 겁을 주었어요. 개가 으르렁대자 여인은 얼른 \"물지 않아요\"라고 말하고는 얼굴을 붉혔어요.",
+        },
+      ],
+      [
+        {
+          id: "ld-13",
+          text: "He asked whether he might give the dog a bone, and with that the two of them began to talk.",
+          translation:
+            "그가 개에게 뼈다귀를 하나 줘도 되겠느냐고 물었고, 그 말로 두 사람은 이야기를 시작했어요.",
+        },
+        {
+          id: "ld-14",
+          text: "She told him that she had grown up in Petersburg but had married and moved to the town of S—, where she had lived for two years, and that her name was Anna Sergeyevna.",
+          translation:
+            "그녀는 페테르부르크에서 자랐지만 결혼해서 S시로 옮겨 와 그곳에서 두 해를 살았다고, 그리고 자기 이름은 안나 세르게예브나라고 말했어요.",
+        },
+        {
+          id: "ld-15",
+          text: "She spoke of her husband vaguely, half-laughing that she could not even say for certain where it was that he worked.",
+          translation:
+            "그녀는 남편에 대해 어렴풋하게 이야기하며, 남편이 정확히 어디서 일하는지조차 확실히 말할 수 없다고 반쯤 웃으며 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "ld-16",
+          text: "Later, alone in his room, he thought about her — how young she still seemed, how shy, how new to all of this — and he felt certain he would meet her again the next day.",
+          translation:
+            "나중에 방에 혼자 있을 때 그는 그녀를 생각했어요. 그녀가 아직 얼마나 어려 보이는지, 얼마나 수줍어하는지, 이 모든 것에 얼마나 서툰지를요. 그리고 다음 날 그녀를 다시 만나게 되리라고 확신했어요.",
+        },
+        {
+          id: "ld-17",
+          text: "\"There is something pathetic about her, all the same,\" he thought, and fell asleep.",
+          translation:
+            "\"그래도 저 여자에게는 어딘가 가여운 데가 있어,\" 그는 그렇게 생각하며 잠이 들었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ld-v1",
+        term: "unfaithful",
+        partOfSpeech: "adjective",
+        translation: "부정한, 바람을 피우는",
+        example: "Gurov had been unfaithful to his wife for years before he came to Yalta.",
+        exampleTranslation: "구로프는 얄타에 오기 전부터 여러 해 동안 아내를 두고 바람을 피워 왔어요.",
+      },
+      {
+        id: "ld-v2",
+        term: "dull",
+        partOfSpeech: "adjective",
+        translation: "따분한, 재미없는",
+        example: "He thought his wife was narrow and dull, and he avoided being at home.",
+        exampleTranslation: "그는 아내가 속이 좁고 따분하다고 생각했고, 집에 있는 것을 피했어요.",
+      },
+      {
+        id: "ld-v3",
+        term: "blush",
+        partOfSpeech: "verb",
+        translation: "얼굴을 붉히다, 얼굴이 빨개지다",
+        example: "The young woman blushed and said that the dog would not bite.",
+        exampleTranslation: "젊은 여인은 얼굴을 붉히며 개가 물지 않을 거라고 말했어요.",
+      },
+      {
+        id: "ld-v4",
+        term: "attract",
+        partOfSpeech: "verb",
+        translation: "(마음을) 끌다, 끌어당기다",
+        example: "Something in his manner attracted women, and he was well aware of it.",
+        exampleTranslation: "그의 태도에는 여자들을 끌어당기는 무언가가 있었고, 그는 그것을 잘 알고 있었어요.",
+      },
+      {
+        id: "ld-v5",
+        term: "pathetic",
+        partOfSpeech: "adjective",
+        translation: "가여운, 애처로운",
+        example: "Alone in his room, he decided there was something pathetic about her.",
+        exampleTranslation: "방에 혼자 있을 때, 그는 그녀에게 어딘가 가여운 데가 있다고 생각했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ld-q1",
+        prompt: "Why had Gurov started paying attention to newcomers like the lady with the dog?",
+        options: [
+          "He was expecting friends from Moscow to arrive at the resort.",
+          "He had been in Yalta about two weeks and was bored.",
+          "His wife had asked him to make new friends while he was away.",
+          "He was hoping to meet someone who could help his career.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Gurov had already been a fortnight at Yalta and had grown bored, so he had begun taking an interest in every new face on the sea-front.",
+      },
+      {
+        id: "ld-q2",
+        prompt: "How does Part I describe Gurov's marriage and home life?",
+        options: [
+          "He adored his wife but was forced to travel constantly for work.",
+          "He had married for money and openly quarrelled with his wife.",
+          "He had married young, thought his wife dull, and disliked being at home.",
+          "He and his wife had quietly agreed to spend the year apart.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Gurov married while he was still young; by now he considered his wife narrow and dull, was slightly afraid of her, and preferred not to be at home.",
+      },
+      {
+        id: "ld-q3",
+        prompt: "How does Gurov's first evening with Anna Sergeyevna end?",
+        options: [
+          "Her husband appears at the gardens and leads her away.",
+          "She is offended by him and refuses to say another word.",
+          "They agree to leave Yalta together the next morning.",
+          "They say good night, and alone in his room he thinks about her and expects to see her again.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "After talking over dinner they simply part for the night; back in his room Gurov reflects on how young and shy she seems, thinks there is \"something pathetic\" about her, and feels sure they will meet the next day.",
       },
     ],
   },
