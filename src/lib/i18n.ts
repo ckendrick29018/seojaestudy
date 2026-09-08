@@ -6,6 +6,11 @@ export const dict = {
   appName: { en: "SeoJae Story", ko: "서재 이야기" },
   tagline: { en: "Short stories, gentle progress.", ko: "짧은 이야기로, 천천히 성장해요." },
   library: { en: "Library", ko: "서재" },
+  classics: { en: "Classics", ko: "고전" },
+  classicsSubtitle: {
+    en: "Timeless stories, gently adapted for learners.",
+    ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",
+  },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
   minRead: { en: "min read", ko: "분 소요" },
   story: { en: "The Story", ko: "이야기" },

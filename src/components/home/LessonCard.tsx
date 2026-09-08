@@ -19,8 +19,14 @@ export function LessonCard({ lesson }: { lesson: Lesson }) {
       href={`/lesson/${lesson.slug}`}
       className="group flex items-center gap-4 rounded-xl2 border border-rose-light/50 bg-white/60 p-4 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
     >
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl2 bg-sage/50 text-2xl">
-        {lesson.coverEmoji}
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl2 bg-sage/50 text-2xl">
+        {lesson.coverImage ? (
+          // Local static asset (see public/covers); next/image would refuse the SVG and needs no optimization here.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={lesson.coverImage} alt="" className="h-full w-full object-cover" />
+        ) : (
+          lesson.coverEmoji
+        )}
       </div>
       <div className="min-w-0 flex-1">
         <div className="mb-1 flex flex-wrap items-center gap-1.5">

@@ -13,9 +13,12 @@ import type { Lesson } from "../types";
  *  - "흥부와 놀부" (Heungbu and Nolbu) retells Heungbu-jeon (흥부전), an
  *    anonymous traditional Korean folktale of unknown authorship from the
  *    late Joseon era, also long in the public domain.
+ *  - "The Gift of the Magi" is a simplified retelling of O. Henry's short
+ *    story (first published 1905, Project Gutenberg #7256), long in the
+ *    public domain. It opens the "Classics" collection (see CONTENT_BACKLOG.md).
  *
- * The English and Korean text in both lessons — including every
- * translation — was written fresh for this app, so there are no
+ * The English and Korean text in every lesson — including all
+ * translations — was written fresh for this app, so there are no
  * translation-copyright concerns. When you add more lessons, keep sourcing
  * from public-domain works (e.g. Project Gutenberg, Korean Wikisource /
  * Gongyumadang) and write your own translations rather than copying an
@@ -316,6 +319,185 @@ export const lessons: Lesson[] = [
         options: ["더 많은 제비", "쌀과 금은보화", "빈 상자", "편지 한 장"],
         correctIndex: 1,
         explanation: "박을 가르자 쌀과 금은보화가 쏟아져 나와 흥부는 부자가 되었어요.",
+      },
+    ],
+  },
+  {
+    slug: "gift-of-the-magi",
+    title: "The Gift of the Magi",
+    titleTranslation: "동방박사의 선물",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1862–1910)",
+    coverEmoji: "🎁",
+    coverImage: "/covers/gift-of-the-magi.svg",
+    source:
+      "Adapted from O. Henry's short story \"The Gift of the Magi\" (first published 1905; public domain, Project Gutenberg #7256). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Della and Jim each gave up, and what they bought for each other.",
+    paragraphs: [
+      [
+        {
+          id: "gm-1",
+          text: "It was the day before Christmas, and Della had only one dollar and eighty-seven cents.",
+          translation: "크리스마스 전날이었고, 델라에게는 단돈 1달러 87센트밖에 없었어요.",
+        },
+        {
+          id: "gm-2",
+          text: "She wanted to buy a present for her husband, Jim, but it was not nearly enough.",
+          translation: "델라는 남편 짐에게 선물을 사 주고 싶었지만, 그 돈으로는 턱없이 부족했어요.",
+        },
+      ],
+      [
+        {
+          id: "gm-3",
+          text: "Della and Jim did not have much money, but each of them owned one treasure.",
+          translation: "델라와 짐은 가진 돈이 많지 않았지만, 두 사람에게는 각자 보물이 하나씩 있었어요.",
+        },
+        {
+          id: "gm-4",
+          text: "Jim had a gold watch that had belonged to his father and his grandfather.",
+          translation: "짐에게는 아버지와 할아버지가 대대로 쓰시던 금시계가 있었어요.",
+        },
+        {
+          id: "gm-5",
+          text: "Della had beautiful brown hair that fell in waves below her knees.",
+          translation: "델라에게는 무릎 아래까지 물결치며 내려오는 아름다운 갈색 머리카락이 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "gm-6",
+          text: "Della looked at herself in the mirror for a long time, and then she made a decision.",
+          translation: "델라는 한참 동안 거울 속 자신을 바라보다가, 마침내 결심을 했어요.",
+        },
+        {
+          id: "gm-7",
+          text: "She put on her old brown coat, went out, and sold her long hair for twenty dollars.",
+          translation: "델라는 낡은 갈색 외투를 걸치고 나가서, 긴 머리카락을 팔고 20달러를 받았어요.",
+        },
+      ],
+      [
+        {
+          id: "gm-8",
+          text: "With the money she bought a plain platinum chain for Jim's gold watch.",
+          translation: "그 돈으로 델라는 짐의 금시계에 어울리는 소박한 백금 시곗줄을 샀어요.",
+        },
+        {
+          id: "gm-9",
+          text: "Then she went home and waited, nervous about what Jim would think of her short hair.",
+          translation: "그러고는 집에 돌아와, 짧아진 머리를 짐이 어떻게 볼지 마음 졸이며 기다렸어요.",
+        },
+      ],
+      [
+        {
+          id: "gm-10",
+          text: "When Jim came in, he stopped and stared at her with a strange look on his face.",
+          translation: "짐이 들어오더니 걸음을 멈추고, 묘한 표정으로 델라를 빤히 바라보았어요.",
+        },
+        {
+          id: "gm-11",
+          text: "He had sold his gold watch to buy a set of pretty combs for Della's long hair.",
+          translation: "짐은 델라의 긴 머리에 꽂을 예쁜 빗 세트를 사려고 자기 금시계를 팔아 버렸던 거예요.",
+        },
+      ],
+      [
+        {
+          id: "gm-12",
+          text: "Neither gift could be used that night, yet each had given the other everything they had.",
+          translation: "그날 밤 두 선물 다 쓸 수 없었지만, 두 사람은 서로에게 가진 모든 것을 내어 준 셈이었어요.",
+        },
+        {
+          id: "gm-13",
+          text: "Of everyone who gives gifts, these two were the wisest of all.",
+          translation: "선물을 주는 모든 사람 가운데, 이 두 사람이 가장 지혜로웠어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "gm-v1",
+        term: "treasure",
+        partOfSpeech: "noun",
+        translation: "보물, 소중한 것",
+        example: "Each of them owned one treasure.",
+        exampleTranslation: "두 사람에게는 각자 보물이 하나씩 있었어요.",
+      },
+      {
+        id: "gm-v2",
+        term: "platinum",
+        partOfSpeech: "noun",
+        translation: "백금",
+        example: "She bought a plain platinum chain for the watch.",
+        exampleTranslation: "델라는 시계에 어울리는 소박한 백금 시곗줄을 샀어요.",
+      },
+      {
+        id: "gm-v3",
+        term: "nervous",
+        partOfSpeech: "adjective",
+        translation: "불안한, 초조한",
+        example: "She waited at home, nervous about her short hair.",
+        exampleTranslation: "델라는 짧아진 머리가 걱정되어 초조하게 집에서 기다렸어요.",
+      },
+      {
+        id: "gm-v4",
+        term: "stare",
+        partOfSpeech: "verb",
+        translation: "빤히 쳐다보다",
+        example: "Jim stopped and stared at her.",
+        exampleTranslation: "짐은 걸음을 멈추고 델라를 빤히 바라보았어요.",
+      },
+      {
+        id: "gm-v5",
+        term: "wise",
+        partOfSpeech: "adjective",
+        translation: "지혜로운",
+        example: "These two were the wisest of all.",
+        exampleTranslation: "이 두 사람이 가장 지혜로웠어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "gm-q1",
+        prompt: "Why couldn't Della buy Jim a present at first?",
+        options: [
+          "The shops were closed for Christmas.",
+          "She had only one dollar and eighty-seven cents.",
+          "She had lost her money on the street.",
+          "Jim had asked her not to.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the day before Christmas, Della had only $1.87 — not nearly enough for the gift she wanted to give.",
+      },
+      {
+        id: "gm-q2",
+        prompt: "How did Della get the money for Jim's gift?",
+        options: [
+          "She borrowed it from a neighbor.",
+          "She sold Jim's gold watch.",
+          "She sold her long hair.",
+          "She returned her old coat to the shop.",
+        ],
+        correctIndex: 2,
+        explanation: "Della sold her beautiful long hair for twenty dollars and used it to buy the watch chain.",
+      },
+      {
+        id: "gm-q3",
+        prompt: "Why was Jim's gift a surprise at the end?",
+        options: [
+          "He had bought combs for the hair Della had just sold.",
+          "He had forgotten that it was Christmas.",
+          "He had bought her a new brown coat.",
+          "He had made the gift with his own hands.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jim had sold his gold watch to buy combs for Della's long hair — the same hair she had sold to buy his watch chain.",
       },
     ],
   },

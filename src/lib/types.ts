@@ -56,6 +56,18 @@ export interface Lesson {
   /** Instructions shown above the free-writing summary box, in nativeLanguage. */
   summaryPrompt: string;
   coverEmoji: string;
+  /**
+   * Library grouping. Absent = the default leveled "Library" list; "classics"
+   * pulls the lesson into the home-page Classics shelf instead.
+   */
+  collection?: "classics";
+  /**
+   * Path to a cover image under /public (e.g. "/covers/gift-of-the-magi.svg").
+   * When absent, the UI falls back to `coverEmoji`.
+   */
+  coverImage?: string;
+  /** Original author + dates, shown on the Classics card and lesson hero. */
+  author?: string;
   /** Public-domain sourcing / attribution note, shown at the end of the lesson. */
   source: string;
   paragraphs: StorySentence[][];

@@ -29,46 +29,49 @@ current Top 100.
 
 ---
 
-## The "Classics" library section
+## The "Classics" library section — SHIPPED
 
-A new grouped section on the home page (`src/app/page.tsx`), above or below the
-existing lesson list, showing only lessons in this collection, with a book-cover
-image instead of the emoji tile.
+A grouped shelf on the home page (`src/app/page.tsx`), rendered below the leveled
+lesson list, showing only lessons in this collection with a book-cover image
+instead of the emoji tile.
 
-**Schema** (`src/lib/types.ts`, `Lesson`):
+**Schema** (`src/lib/types.ts`, `Lesson`) — implemented:
 
 ```ts
-/** Grouping for the library. Absent = ungrouped ("Library"). */
+/** Library grouping. Absent = the default leveled "Library" list. */
 collection?: "classics";
-/** Path under /public (e.g. "/covers/pride-and-prejudice.jpg"). Falls back to coverEmoji. */
+/** Path under /public (e.g. "/covers/gift-of-the-magi.svg"). Falls back to coverEmoji. */
 coverImage?: string;
-/** Original author + dates, shown on the classics card. */
+/** Original author + dates, shown on the Classics card and lesson hero. */
 author?: string;
 ```
 
-**Rendering:**
+**Rendering — implemented:**
 
-- New `ClassicsSection` component; filters `lessons` by `collection === "classics"`,
-  renders nothing when empty (so it can ship before content exists).
-- Card = larger cover image (portrait, ~3:4) + title + author + level badge +
-  minutes. Reuse `LessonCard`'s link/complete/premium treatment.
-- `LessonCard` / `LessonOfDayCard`: if `coverImage` is set, render an `<img>`;
-  else keep the `coverEmoji` tile.
+- `src/components/home/ClassicsSection.tsx`: filters `lessons` by
+  `collection === "classics"`, renders nothing when empty (so it ships ahead of
+  the backlog). 2-col grid of portrait cards (cover `aspect-[3/4]` + title +
+  author + level/premium/complete badges + minutes).
+- `src/app/page.tsx`: classics are filtered *out* of the leveled list so they
+  only appear on the shelf.
+- `LessonCard` and `LessonHero`: if `coverImage` is set, render a plain `<img>`
+  (local static asset — `next/image` refuses SVG and adds nothing here); else the
+  `coverEmoji` tile as before. `LessonOfDayCard` still shows the emoji — wire in
+  `coverImage` there too if a classic ever becomes the daily pick.
 
-**Cover images — recommended approach:**
+**Cover images — what we do:**
 
-Gutenberg exposes a cover for most books at:
-
-```
-https://www.gutenberg.org/cache/epub/<id>/pg<id>.cover.medium.jpg
-```
-
-Don't hotlink these. At lesson-authoring time, download the cover once into
-`public/covers/<slug>.jpg` (≈small, keeps the app offline-capable, no CSP/remote-
-image config, no layout shift). If a cover is auto-generated/ugly, make a simple
-typographic cover in the app's palette instead. No image → `coverEmoji` tile, as
-today. (Alternative if we ever want remote loading: add `images.remotePatterns`
-for `www.gutenberg.org` in `next.config.mjs` and use `next/image`.)
+Gutenberg exposes a cover for most books at
+`https://www.gutenberg.org/cache/epub/<id>/pg<id>.cover.medium.jpg`, but for many
+older texts (e.g. #7256) it's an auto-generated green placeholder — off-brand and
+not worth vendoring. So: **hand-make a typographic SVG cover in the app palette**
+at `public/covers/<slug>.svg` (see `gift-of-the-magi.svg` — cream gradient, rose
+double frame, serif title, gold ornament, "SEOJAE STORY · CLASSICS" footer). SVG
+is tiny, sharp at any size, and needs no CSP/remote-image config. If a real book
+has a genuine period cover/illustration in the public domain, download that into
+`public/covers/<slug>.jpg` instead. No image → `coverEmoji` tile.
+(If we ever want remote loading: add `images.remotePatterns` for
+`www.gutenberg.org` in `next.config.mjs` and use `next/image`.)
 
 ---
 
@@ -101,7 +104,7 @@ for `www.gutenberg.org` in `next.config.mjs` and use `next/image`.)
 | 1 | The Yellow Wallpaper | Charlotte Perkins Gilman (1935) | 1952 | B1 | opening 2–3 journal entries | ☐ |
 | 2 | The Story of an Hour | Kate Chopin (1904) | — | A2 | whole (~1,000 w) | ☐ |
 | 3 | A Pair of Silk Stockings | Kate Chopin (1904) | — | A2 | whole | ☐ |
-| 4 | The Gift of the Magi | O. Henry (1910) | 7256 | A2 | whole (~2,000 w) | ☐ |
+| 4 | The Gift of the Magi | O. Henry (1910) | 7256 | B1 | simplified retelling, 13 sentences — **seed lesson for the collection** | ☑ |
 | 5 | The Last Leaf | O. Henry (1910) | — | A2 | whole | ☐ |
 | 6 | The Necklace | Guy de Maupassant (1893) | — | B1 | whole (~3,000 w) | ☐ |
 | 7 | The Happy Prince | Oscar Wilde (1900) | 902 | A2 | whole | ☐ |
@@ -190,6 +193,7 @@ for `www.gutenberg.org` in `next.config.mjs` and use `next/image`.)
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- Good first lessons to build: **The Gift of the Magi**, **The Ugly Duckling**,
-  **Cinderella**, **Anne of Green Gables Ch. 2**, **Little Women Ch. 1** — short,
-  famous, and easy to level.
+- Good next lessons to build: **The Ugly Duckling**, **Cinderella**,
+  **The Story of an Hour**, **Anne of Green Gables Ch. 2**, **Little Women Ch. 1**
+  — short, famous, and easy to level. The Gift of the Magi (row 4) is live as the
+  seed lesson; follow its shape in `src/lib/data/lessons.ts`.

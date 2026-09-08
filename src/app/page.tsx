@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { lessons } from "@/lib/data/lessons";
 import { LessonCard } from "@/components/home/LessonCard";
 import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
+import { ClassicsSection } from "@/components/home/ClassicsSection";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
 import { LEVELS, GOALS, labelFor } from "@/lib/onboarding";
@@ -17,10 +18,12 @@ export default function HomePage() {
   const { data } = useOnboarding();
 
   const ordered = useMemo(() => {
-    if (!data.completed || !data.level) return lessons;
+    // Classics have their own shelf below; keep them out of the leveled list.
+    const base = lessons.filter((lesson) => lesson.collection !== "classics");
+    if (!data.completed || !data.level) return base;
     const target = LEVEL_RANK[data.level] ?? 0;
     // Stable sort: closest to the learner's level first, original order within a tie.
-    return lessons
+    return base
       .map((lesson, i) => ({ lesson, i, d: Math.abs((LEVEL_RANK[lesson.level] ?? 0) - target) }))
       .sort((a, b) => a.d - b.d || a.i - b.i)
       .map((x) => x.lesson);
@@ -53,6 +56,7 @@ export default function HomePage() {
           <LessonCard key={lesson.slug} lesson={lesson} />
         ))}
       </div>
+      <ClassicsSection />
     </div>
   );
 }
