@@ -5,7 +5,7 @@ import type { Lesson } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { estimateReadingTime } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
-import { CheckIcon, LockIcon } from "@/components/ui/icons";
+import { LockIcon } from "@/components/ui/icons";
 
 /**
  * Portrait book-cover card for a "Classics" lesson. Used on the full shelf
@@ -44,10 +44,10 @@ export function ClassicCard({ lesson, complete }: { lesson: Lesson; complete: bo
           )}
         </div>
         {complete && (
-          <div className="absolute right-2 top-2">
-            <Badge tone="gold">
-              <CheckIcon className="h-3 w-3" /> {t("completed")}
-            </Badge>
+          <div
+            className="pointer-events-none absolute right-[-44px] top-[20px] w-[150px] rotate-45 whitespace-nowrap bg-rose py-1 text-center text-[11px] font-bold uppercase tracking-wide text-cream shadow-[0_1px_4px_rgba(44,44,44,0.28)]"
+          >
+            {t("completed")}
           </div>
         )}
       </div>
