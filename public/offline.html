@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LuminaRead — Offline</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background: #fdfbf7;
+        color: #2c2c2c;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      }
+      .wrap {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 24px;
+      }
+      .emoji { font-size: 48px; margin-bottom: 12px; }
+      h1 { font-size: 20px; margin: 0 0 8px; }
+      p { font-size: 14px; color: rgba(44, 44, 44, 0.6); max-width: 280px; }
+      button {
+        margin-top: 20px;
+        border: 1px solid rgba(197, 123, 87, 0.4);
+        background: white;
+        color: #c57b57;
+        border-radius: 999px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="emoji">📡</div>
+      <h1>You're offline</h1>
+      <p>LuminaRead needs a connection to load a story. Check your connection and try again.</p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+  </body>
+</html>
