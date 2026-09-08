@@ -19,6 +19,9 @@ import type { Lesson } from "../types";
  *  - "The Story of an Hour" is a simplified retelling of Kate Chopin's short
  *    story (first published 1894), long in the public domain — the second
  *    lesson in the "Classics" collection.
+ *  - "Anne of Green Gables" is a simplified retelling of Chapter 2 of
+ *    L. M. Montgomery's novel (first published 1908, Project Gutenberg #45),
+ *    long in the public domain — the third lesson in the "Classics" collection.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -701,6 +704,206 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Brently walks in unharmed. The doctors call it \"a joy too great to bear,\" though the story lets us wonder whether it was joy or the sudden loss of her new freedom.",
+      },
+    ],
+  },
+  {
+    slug: "anne-of-green-gables",
+    title: "Anne of Green Gables",
+    titleTranslation: "빨간 머리 앤",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🌸",
+    coverImage: "/covers/anne-of-green-gables.svg",
+    source:
+      "Adapted from Chapter 2 of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what mistake happened at the station, and how Matthew felt about the girl by the time they reached Green Gables.",
+    paragraphs: [
+      [
+        {
+          id: "ag-1",
+          text: "Matthew Cuthbert lived with his sister Marilla on a quiet farm called Green Gables.",
+          translation: "매튜 커스버트는 여동생 마릴라와 함께 '초록지붕 집'이라는 조용한 농장에서 살았어요.",
+        },
+        {
+          id: "ag-2",
+          text: "Matthew was growing old, and the farm work was becoming too much for him alone.",
+          translation: "매튜는 나이가 들어 가고 있었고, 혼자서 하기에 농장 일이 점점 벅차졌어요.",
+        },
+        {
+          id: "ag-3",
+          text: "So he and Marilla decided to adopt a boy from an orphanage to help them.",
+          translation: "그래서 매튜와 마릴라는 일손을 도와줄 남자아이를 고아원에서 입양하기로 했어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-4",
+          text: "One June afternoon, Matthew drove his horse and buggy to the little station to meet the boy.",
+          translation: "어느 6월 오후, 매튜는 그 아이를 데리러 말이 끄는 마차를 몰고 작은 기차역으로 갔어요.",
+        },
+        {
+          id: "ag-5",
+          text: "But the stationmaster told him that no boy had come on the train.",
+          translation: "그런데 역장은 기차에 남자아이는 오지 않았다고 말했어요.",
+        },
+        {
+          id: "ag-6",
+          text: "Instead, a girl of about eleven sat alone on the platform, waiting.",
+          translation: "대신 열한 살쯤 되어 보이는 여자아이가 승강장에 혼자 앉아 기다리고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-7",
+          text: "She had red hair in two long braids, a thin freckled face, and big eager eyes.",
+          translation: "여자아이는 길게 두 갈래로 땋은 빨간 머리에, 주근깨가 가득한 마른 얼굴, 그리고 초롱초롱한 큰 눈을 하고 있었어요.",
+        },
+        {
+          id: "ag-8",
+          text: "Someone had made a mistake, but Matthew was too shy to explain it to her there.",
+          translation: "누군가 실수를 한 것이 분명했지만, 매튜는 너무 수줍어서 그 자리에서 아이에게 사정을 설명하지 못했어요.",
+        },
+        {
+          id: "ag-9",
+          text: "He decided to take her home and let Marilla sort everything out.",
+          translation: "매튜는 일단 아이를 집으로 데려가서 마릴라에게 모든 일을 맡기기로 했어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-10",
+          text: "The girl jumped up and shook his hand, her face bright with happiness.",
+          translation: "여자아이는 벌떡 일어나 매튜의 손을 잡고 흔들었고, 얼굴이 기쁨으로 환하게 빛났어요.",
+        },
+        {
+          id: "ag-11",
+          text: "She said that if no one had come, she had planned to climb the big cherry tree by the road and sleep there all night.",
+          translation: "아이는 아무도 오지 않았다면 길가의 커다란 벚나무에 올라가 밤새 거기서 잘 생각이었다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-12",
+          text: "On the drive home, the girl talked without stopping.",
+          translation: "집으로 가는 길 내내, 여자아이는 쉬지 않고 이야기했어요.",
+        },
+        {
+          id: "ag-13",
+          text: "She was so happy, because at last she was going to have a real home.",
+          translation: "드디어 진짜 집이 생긴다는 사실에 아이는 몹시 행복했어요.",
+        },
+        {
+          id: "ag-14",
+          text: "When they passed a road lined with apple trees in white bloom, she went quiet for the first time.",
+          translation: "하얀 꽃이 활짝 핀 사과나무가 늘어선 길을 지날 때, 아이는 처음으로 말을 멈췄어요.",
+        },
+        {
+          id: "ag-15",
+          text: "Then she said, \"A place this pretty needs a prettier name. I will call it the White Way of Delight.\"",
+          translation: "그러더니 이렇게 말했어요. \"이렇게 예쁜 곳에는 더 예쁜 이름이 필요해요. 저는 여기를 '기쁨의 하얀 길'이라고 부를래요.\"",
+        },
+      ],
+      [
+        {
+          id: "ag-16",
+          text: "Matthew was a shy man, and he usually felt uncomfortable around girls.",
+          translation: "매튜는 수줍은 사람이라, 평소에는 여자아이들 앞에서 늘 불편했어요.",
+        },
+        {
+          id: "ag-17",
+          text: "But to his surprise, he liked this one, and he hoped Marilla would let her stay.",
+          translation: "하지만 뜻밖에도 이 아이는 마음에 들었고, 매튜는 마릴라가 아이를 곁에 두게 해 주기를 바랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ag-v1",
+        term: "adopt",
+        partOfSpeech: "verb",
+        translation: "입양하다",
+        example: "They decided to adopt a boy from an orphanage.",
+        exampleTranslation: "그들은 고아원에서 남자아이를 입양하기로 했어요.",
+      },
+      {
+        id: "ag-v2",
+        term: "orphanage",
+        partOfSpeech: "noun",
+        translation: "고아원",
+        example: "The child came from an orphanage far away.",
+        exampleTranslation: "그 아이는 멀리 떨어진 고아원에서 왔어요.",
+      },
+      {
+        id: "ag-v3",
+        term: "platform",
+        partOfSpeech: "noun",
+        translation: "(기차역의) 승강장, 플랫폼",
+        example: "A girl sat alone on the station platform.",
+        exampleTranslation: "한 여자아이가 역 승강장에 혼자 앉아 있었어요.",
+      },
+      {
+        id: "ag-v4",
+        term: "braid",
+        partOfSpeech: "noun",
+        translation: "땋은 머리",
+        example: "Her red hair hung in two long braids.",
+        exampleTranslation: "그녀의 빨간 머리는 두 갈래로 길게 땋여 있었어요.",
+      },
+      {
+        id: "ag-v5",
+        term: "shy",
+        partOfSpeech: "adjective",
+        translation: "수줍은, 부끄럼을 타는",
+        example: "Matthew was too shy to talk to the girl.",
+        exampleTranslation: "매튜는 너무 수줍어서 그 여자아이에게 말을 걸지 못했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ag-q1",
+        prompt: "Why did Matthew and Marilla want to adopt a boy?",
+        options: [
+          "They wanted a playmate for a child they already had.",
+          "Matthew was getting old and needed help with the farm work.",
+          "They had always wanted a large family.",
+          "A neighbor had asked them to take the child in.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Matthew was growing old, and running the Green Gables farm alone had become too much for him.",
+      },
+      {
+        id: "ag-q2",
+        prompt: "What did Matthew find at the station?",
+        options: [
+          "The train had arrived several hours late.",
+          "The boy he expected had already gone home.",
+          "A girl was waiting there instead of a boy.",
+          "Marilla had come to meet him.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The stationmaster told him no boy had come — a red-haired girl of about eleven was sitting alone on the platform instead.",
+      },
+      {
+        id: "ag-q3",
+        prompt: "How did Matthew feel about the girl by the time they reached Green Gables?",
+        options: [
+          "He was annoyed by how much she talked.",
+          "He had decided to take her back to the station the next day.",
+          "He hoped Marilla would let her stay.",
+          "He still had not spoken a single word to her.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Though Matthew was shy around girls, he found he liked this one and was hoping Marilla would agree to keep her.",
       },
     ],
   },

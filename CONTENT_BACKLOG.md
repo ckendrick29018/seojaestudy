@@ -148,7 +148,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 40 | Little Women | Louisa May Alcott (1888) | 37106 | B1 | Ch. 8 — Amy and the limes / the burned manuscript | ☐ |
 | 41 | An Old-Fashioned Girl | Louisa May Alcott (1888) | 2787 | A2 | Ch. 1 — Polly arrives in the city | ☐ |
 | 42 | Rose in Bloom | Louisa May Alcott (1888) | 2804 | B1 | Ch. 1 — Rose comes home | ☐ |
-| 43 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | A2 | Ch. 2 — Matthew at the station | ☐ |
+| 43 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | A2 | Ch. 2 — Matthew at the station (simplified retelling, 17 sentences) | ☑ |
 | 44 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | B1 | Ch. 3 — Marilla is astonished | ☐ |
 | 45 | The Blue Castle | L. M. Montgomery (1942) | 67979 | B1 | Ch. 1 — Valancy's rainy birthday morning | ☐ |
 | 46 | Emily of New Moon | L. M. Montgomery (1942) | 61236 | B1 | Ch. 1 — "the house in the hollow" | ☐ |
@@ -193,7 +193,8 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- Good next lessons to build: **The Ugly Duckling**, **Cinderella**,
-  **Anne of Green Gables Ch. 2**, **Little Women Ch. 1** — short, famous, and
-  easy to level. The Gift of the Magi (row 4) and The Story of an Hour (row 2)
-  are live; follow their shape in `src/lib/data/lessons.ts`.
+- Good next lessons to build: **Little Women Ch. 1**, **The Ugly Duckling**,
+  **Cinderella**, **The Secret Garden Ch. 1** — short, famous, and easy to
+  level. The Gift of the Magi (row 4), The Story of an Hour (row 2) and
+  Anne of Green Gables Ch. 2 (row 43) are live; follow their shape in
+  `src/lib/data/lessons.ts`.
