@@ -139,7 +139,7 @@ has a genuine period cover/illustration in the public domain, download that into
 
 | # | Title | Author (d.) | PG# | Level | Excerpt scope | Status |
 |--|--|--|--|--|--|--|
-| 27 | Pride and Prejudice | Jane Austen (1817) | 1342 | B1 | Ch. 1 — the Bennets discuss Mr. Bingley | ☐ |
+| 27 | Pride and Prejudice | Jane Austen (1817) | 1342 | B1 | Ch. 1 — the Bennets discuss Mr. Bingley (simplified retelling, 17 sentences) | ☑ |
 | 28 | Pride and Prejudice | Jane Austen (1817) | 1342 | B2 | Ch. 34 — Darcy's first proposal | ☐ |
 | 29 | Sense and Sensibility | Jane Austen (1817) | 21839 | B1 | Ch. 1 — the Dashwoods lose Norland | ☐ |
 | 30 | Emma | Jane Austen (1817) | 158 | B1 | Ch. 1 — "handsome, clever, and rich" | ☐ |
@@ -200,12 +200,15 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (6):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (7):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
-  The Ugly Duckling (row 16), Cinderella (row 10). Follow their shape in
-  `src/lib/data/lessons.ts`.
+  The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
+  (row 27). Follow their shape in `src/lib/data/lessons.ts`.
+- Levels on the shelf now: A1 ×2 (Cinderella, and Fox/Grapes sits in the
+  main list), A2 ×4 (Story of an Hour, Anne, Little Women, Ugly Duckling),
+  B1 ×2 (Gift of the Magi, Pride and Prejudice). Still no B2.
 - Good next lessons to build: **The Secret Garden Ch. 1**, **The Happy
   Prince**, **The Selfish Giant**, **Alice's Adventures in Wonderland Ch. 1**,
-  **The Emperor's New Clothes** — short, famous, and easy to level. Balance
-  the shelf: it now leans A1–A2 fairy tales and Christmas (Magi + Little
-  Women), so a B1 and a non-seasonal novel opening would round it out.
+  **The Emperor's New Clothes** — short, famous, and easy to level. The
+  shelf still leans fairy tales, so a non-fairy-tale A2 (Secret Garden) and
+  a first B2 (Jane Eyre Ch. 1, row 33) would broaden it.

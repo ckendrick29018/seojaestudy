@@ -28,6 +28,8 @@ import type { Lesson } from "../types";
  *    Andersen's fairy tale (first published 1843, Project Gutenberg #1597).
  *  - "Cinderella" is a simplified, gently softened retelling of the Brothers
  *    Grimm tale "Aschenputtel" (collected 1812, Project Gutenberg #2591).
+ *  - "Pride and Prejudice" is a simplified retelling of Chapter 1 of Jane
+ *    Austen's novel (first published 1813, Project Gutenberg #1342).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -1510,6 +1512,220 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Cinderella left one golden shoe on the stairs; the prince searched from house to house until he found the girl it fit.",
+      },
+    ],
+  },
+  {
+    slug: "pride-and-prejudice",
+    title: "Pride and Prejudice",
+    titleTranslation: "오만과 편견",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🪭",
+    coverImage: "/covers/pride-and-prejudice.svg",
+    source:
+      "Adapted from Chapter 1 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what news Mrs. Bennet was so excited about, and why she wanted Mr. Bennet to visit their new neighbour.",
+    paragraphs: [
+      [
+        {
+          id: "pp-1",
+          text: "It is a truth that nearly everyone accepts: a single man with a large fortune must be looking for a wife.",
+          translation:
+            "재산이 넉넉한 독신 남자라면 반드시 아내를 찾고 있기 마련이다 — 이것은 거의 모든 사람이 당연하게 여기는 진리였어요.",
+        },
+        {
+          id: "pp-2",
+          text: "So whenever such a man moves into a neighbourhood, the families nearby soon begin to see him as a husband for one of their daughters.",
+          translation:
+            "그래서 그런 남자가 어느 동네에 들어오면, 근처 집안들은 곧 그를 자기 딸들 가운데 하나의 신랑감으로 여기기 시작했어요.",
+        },
+        {
+          id: "pp-3",
+          text: "One day Mrs. Bennet came to her husband with exciting news: Netherfield Park, the big house nearby, had been rented at last.",
+          translation:
+            "어느 날 베넷 부인이 남편에게 반가운 소식을 가지고 왔어요. 근처의 큰 저택인 네더필드 파크가 드디어 세를 나갔다는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "pp-4",
+          text: "\"Don't you want to know who has taken it?\" she asked, because her husband said nothing.",
+          translation:
+            "\"누가 들어왔는지 궁금하지도 않아요?\" 남편이 아무 말이 없자 부인이 물었어요.",
+        },
+        {
+          id: "pp-5",
+          text: "\"You want to tell me,\" he answered calmly, \"and I have no objection to hearing it.\"",
+          translation:
+            "\"당신은 나한테 말하고 싶어 하잖소.\" 남편이 태연하게 대답했어요. \"그리고 나도 그 얘기를 듣는 데 반대할 이유는 없고.\"",
+        },
+        {
+          id: "pp-6",
+          text: "That was invitation enough, and Mrs. Bennet happily told him everything.",
+          translation: "그 말이면 충분한 허락이었고, 베넷 부인은 신이 나서 남편에게 모든 것을 이야기했어요.",
+        },
+      ],
+      [
+        {
+          id: "pp-7",
+          text: "The new neighbour was a young man named Mr. Bingley, from the north of England, and he was very rich.",
+          translation:
+            "새 이웃은 잉글랜드 북부에서 온 빙리 씨라는 젊은 남자였고, 아주 부유했어요.",
+        },
+        {
+          id: "pp-8",
+          text: "He had an income of four or five thousand pounds a year, and best of all, he was single.",
+          translation:
+            "그는 일 년에 사오천 파운드의 수입이 있었고, 무엇보다 좋은 것은 독신이라는 점이었어요.",
+        },
+        {
+          id: "pp-9",
+          text: "\"What a fine thing for our girls!\" cried Mrs. Bennet.",
+          translation: "\"우리 딸들한테 얼마나 좋은 일이에요!\" 베넷 부인이 소리쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "pp-10",
+          text: "\"How can that affect them?\" asked Mr. Bennet, though he understood her meaning very well.",
+          translation:
+            "\"그게 우리 딸들한테 무슨 영향이 있단 말이오?\" 베넷 씨가 물었지만, 그는 아내의 속뜻을 아주 잘 알고 있었어요.",
+        },
+        {
+          id: "pp-11",
+          text: "\"You know I am thinking of his marrying one of them,\" she said, \"so you must call on him as soon as he arrives.\"",
+          translation:
+            "\"그 사람이 우리 딸 중 하나와 결혼하는 걸 생각하고 있는 거잖아요.\" 부인이 말했어요. \"그러니 그 사람이 오자마자 당신이 찾아가서 인사를 해야 해요.\"",
+        },
+        {
+          id: "pp-12",
+          text: "In those days, the women of a family could not meet a new gentleman until the father had visited him first.",
+          translation:
+            "그 시절에는 아버지가 먼저 찾아가 인사를 해야만, 그 집 여자들이 새로 온 신사를 만날 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "pp-13",
+          text: "Mr. Bennet liked to tease his wife, so he pretended he had no wish to go.",
+          translation: "베넷 씨는 아내를 놀리기를 좋아해서, 갈 마음이 없는 척했어요.",
+        },
+        {
+          id: "pp-14",
+          text: "\"Send the girls on their own,\" he said, \"or go with them yourself — though you are so handsome that Mr. Bingley may like you best of the party.\"",
+          translation:
+            "\"딸들만 보내구려.\" 그가 말했어요. \"아니면 당신이 직접 같이 가든지. 하기야 당신이 어찌나 고운지, 빙리 씨가 그중에서 당신을 제일 마음에 들어 할지도 모르지.\"",
+        },
+        {
+          id: "pp-15",
+          text: "\"You take delight in vexing me,\" she replied. \"You have no pity for my poor nerves.\"",
+          translation:
+            "\"당신은 나를 약 올리는 게 그렇게 즐거워요?\" 부인이 대꾸했어요. \"내 가엾은 신경은 조금도 안쓰럽지 않은가 보군요.\"",
+        },
+      ],
+      [
+        {
+          id: "pp-16",
+          text: "\"You mistake me, my dear,\" he said gently. \"I have great respect for your nerves. They have been my old friends for twenty years.\"",
+          translation:
+            "\"오해하지 마시오, 여보.\" 그가 부드럽게 말했어요. \"나는 당신 신경을 아주 존중한다오. 이십 년 동안 나의 오랜 친구였는걸.\"",
+        },
+        {
+          id: "pp-17",
+          text: "Mrs. Bennet's one purpose in life was to see her daughters married; her clever, quiet, joking husband had puzzled her for three-and-twenty years.",
+          translation:
+            "베넷 부인이 인생에서 품은 단 하나의 목적은 딸들이 시집가는 것을 보는 일이었고, 영리하고 과묵하며 농담을 즐기는 남편은 스물세 해가 지나도록 부인에게는 알 수 없는 사람이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "pp-v1",
+        term: "fortune",
+        partOfSpeech: "noun",
+        translation: "재산, 부(富)",
+        example: "A single man with a large fortune must want a wife.",
+        exampleTranslation: "재산이 많은 독신 남자는 아내를 원하기 마련이에요.",
+      },
+      {
+        id: "pp-v2",
+        term: "neighbourhood",
+        partOfSpeech: "noun",
+        translation: "동네, 인근 지역",
+        example: "A rich young man had moved into the neighbourhood.",
+        exampleTranslation: "부유한 젊은 남자가 그 동네로 이사 왔어요.",
+      },
+      {
+        id: "pp-v3",
+        term: "pretend",
+        partOfSpeech: "verb",
+        translation: "~인 척하다",
+        example: "Mr. Bennet pretended he had no wish to go.",
+        exampleTranslation: "베넷 씨는 갈 마음이 없는 척했어요.",
+      },
+      {
+        id: "pp-v4",
+        term: "tease",
+        partOfSpeech: "verb",
+        translation: "놀리다, 장난치다",
+        example: "He liked to tease his wife at the dinner table.",
+        exampleTranslation: "그는 식탁에서 아내를 놀리기를 좋아했어요.",
+      },
+      {
+        id: "pp-v5",
+        term: "vex",
+        partOfSpeech: "verb",
+        translation: "짜증 나게 하다, 약 올리다",
+        example: "\"You take delight in vexing me,\" she said.",
+        exampleTranslation: "\"당신은 나를 약 올리는 걸 즐기는군요,\" 부인이 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "pp-q1",
+        prompt: "What was the news that made Mrs. Bennet so excited?",
+        options: [
+          "Their daughter Jane had received a marriage proposal.",
+          "A rich single man had rented Netherfield Park nearby.",
+          "Mr. Bingley had already visited the Bennet family.",
+          "The Bennets were going to move to the north of England.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mrs. Bennet had just heard that Netherfield Park was let at last — to Mr. Bingley, a young man with a large fortune and, importantly, no wife.",
+      },
+      {
+        id: "pp-q2",
+        prompt: "Why did Mrs. Bennet want her husband to visit Mr. Bingley?",
+        options: [
+          "To borrow money from him for the household.",
+          "To ask whether they could rent part of Netherfield.",
+          "So that their daughters could then be introduced to him.",
+          "To invite him to speak at the local church.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "By the custom of the time, the women of a family could not meet a new gentleman until the father had called on him first, so Mr. Bennet's visit had to come before any match.",
+      },
+      {
+        id: "pp-q3",
+        prompt: "How does Mr. Bennet behave toward his wife in this scene?",
+        options: [
+          "He shares her excitement and offers to visit at once.",
+          "He teases her, pretending he has no interest in Mr. Bingley.",
+          "He grows angry and forbids her to mention the subject.",
+          "He says nothing at all for the whole conversation.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. Bennet enjoys joking at his wife's expense: he acts uninterested, suggests she go herself, and gently mocks her \"poor nerves.\"",
       },
     ],
   },
