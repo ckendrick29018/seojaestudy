@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "@/components/providers/Providers";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { OnboardingFlow } from "@/components/onboarding/OnboardingFlow";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
@@ -25,14 +26,14 @@ const notoSerifKr = Noto_Serif_KR({
 });
 
 export const metadata: Metadata = {
-  title: "LuminaRead — Short Stories for Language Learners",
+  title: "SeoJae Story — Short Stories for Language Learners",
   description:
     "Learn English or Korean through short stories, with instant translations, listening practice, vocabulary flashcards, and gentle writing feedback.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "LuminaRead",
+    title: "SeoJae Story",
   },
   icons: {
     icon: [
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <SiteHeader />
             <main className="flex-1">{children}</main>
           </div>
+          <OnboardingFlow />
         </Providers>
       </body>
     </html>

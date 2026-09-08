@@ -1,4 +1,4 @@
-# Shipping LuminaRead to the Google Play Store
+# Shipping SeoJae Story to the Google Play Store
 
 This app becomes an Android app via a **Trusted Web Activity (TWA)** —
 Google's recommended way to publish a web app to Play with minimal native
@@ -66,7 +66,7 @@ piece of work not included here.
    ```
 
    You'll be prompted for an Android package name (reverse-domain style,
-   e.g. `com.yourcompany.luminaread`), app name, and to generate (or point
+   e.g. `com.yourcompany.seojaestory`), app name, and to generate (or point
    to) a signing keystore. **Back up that keystore and its password
    somewhere safe** — losing it means you can never update the app again
    under the same listing.

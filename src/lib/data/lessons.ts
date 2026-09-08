@@ -4,7 +4,7 @@ import type { Lesson } from "../types";
  * Sample content library.
  *
  * Sourcing note: both stories below are simplified original retellings of
- * public-domain source material, written specifically for LuminaRead so
+ * public-domain source material, written specifically for SeoJae Story so
  * that no modern, copyrighted translation is used anywhere in the app:
  *
  *  - "The Fox and the Grapes" retells a fable attributed to Aesop
@@ -33,7 +33,7 @@ export const lessons: Lesson[] = [
     isFree: true,
     coverEmoji: "🦊",
     source:
-      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for LuminaRead.",
+      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
     summaryPrompt: "In 1–2 sentences, describe what the fox did and how she reacted at the end.",
     paragraphs: [
       [
@@ -184,7 +184,7 @@ export const lessons: Lesson[] = [
     isFree: false,
     coverEmoji: "🐦",
     source:
-      "Based on Heungbu-jeon (흥부전), an anonymous traditional Korean folktale of unknown authorship believed to date from the late Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for LuminaRead.",
+      "Based on Heungbu-jeon (흥부전), an anonymous traditional Korean folktale of unknown authorship believed to date from the late Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story.",
     summaryPrompt: "In 1–2 sentences, describe what Heungbu did for the swallow and what happened afterward.",
     paragraphs: [
       [

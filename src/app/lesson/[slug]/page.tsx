@@ -13,7 +13,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const lesson = lessons.find((l) => l.slug === params.slug);
   return {
-    title: lesson ? `${lesson.title} · LuminaRead` : "LuminaRead",
+    title: lesson ? `${lesson.title} · SeoJae Story` : "SeoJae Story",
     description: lesson?.summaryPrompt,
   };
 }

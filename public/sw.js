@@ -6,7 +6,7 @@
 // requests — this app depends on live auth sessions and billing state that
 // must never be served stale. Only the offline fallback page itself is
 // precached.
-const CACHE = "luminaread-shell-v1";
+const CACHE = "seojae-story-shell-v1";
 const OFFLINE_URL = "/offline.html";
 
 self.addEventListener("install", (event) => {

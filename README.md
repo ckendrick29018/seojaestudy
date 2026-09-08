@@ -1,8 +1,8 @@
-# LuminaRead
+# SeoJae Story
 
 A one-page scrolling reading-lesson app for women 20–40 learning English or
-Korean through short stories — built for the **SeoJaeStory** project, headed
-for the Google Play Store.
+Korean through short stories — the **SeoJae Story** project, headed for the
+Google Play Store.
 
 Soft, feminine, elegant aesthetic: cream backgrounds, muted rose/terracotta
 accents, sage highlights, serif headings (Playfair Display / Noto Serif KR)
@@ -144,7 +144,7 @@ material that is in the public domain:
 
 - **"The Fox and the Grapes"** retells a fable attributed to Aesop
   (~6th century BCE, public domain). English text and Korean translation
-  are original, written for LuminaRead. Free to read.
+  are original, written for SeoJae Story. Free to read.
 - **"흥부와 놀부" (Heungbu and Nolbu)** retells *Heungbu-jeon* (흥부전), an
   anonymous traditional Korean folktale from the late Joseon era, also
   public domain. Korean text and English translation are original. Gated
