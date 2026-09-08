@@ -37,6 +37,7 @@ export interface Database {
           paddle_subscription_id?: string | null;
           created_at?: string;
         };
+        Relationships: [];
       };
       saved_words: {
         Row: {
@@ -78,6 +79,7 @@ export interface Database {
           example_translation?: string;
           saved_at?: string;
         };
+        Relationships: [];
       };
       completed_lessons: {
         Row: {
@@ -95,7 +97,12 @@ export interface Database {
           lesson_slug?: string;
           completed_at?: string;
         };
+        Relationships: [];
       };
     };
+    Views: Record<string, never>;
+    Functions: Record<string, never>;
+    Enums: Record<string, never>;
+    CompositeTypes: Record<string, never>;
   };
 }

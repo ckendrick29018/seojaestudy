@@ -7,14 +7,18 @@ import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
+// Noto Sans/Serif KR ship all Hangul glyphs in the font file regardless of the
+// `subsets` hint; next/font only uses `subsets` for preload <link> generation,
+// and Google's metadata for these families doesn't expose a `korean` subset
+// (build fails with "Unknown subset `korean`" otherwise).
 const notoSansKr = Noto_Sans_KR({
-  subsets: ["korean"],
+  subsets: ["latin"],
   weight: ["400", "500", "700"],
   variable: "--font-noto-sans-kr",
   display: "swap",
 });
 const notoSerifKr = Noto_Serif_KR({
-  subsets: ["korean"],
+  subsets: ["latin"],
   weight: ["400", "600", "700"],
   variable: "--font-noto-serif-kr",
   display: "swap",
