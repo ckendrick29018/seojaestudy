@@ -13,6 +13,9 @@ interface OnboardingContextValue {
   toggleInterest: (id: string) => void;
   setGoal: (id: string) => void;
   complete: () => void;
+  /** Re-open the onboarding flow, keeping current answers as a starting point. */
+  restart: () => void;
+  /** Wipe every answer and re-open the onboarding flow. */
   reset: () => void;
 }
 
@@ -54,6 +57,7 @@ export function OnboardingProvider({ children }: { children: ReactNode }) {
     [],
   );
   const complete = useCallback(() => setData((d) => ({ ...d, completed: true })), []);
+  const restart = useCallback(() => setData((d) => ({ ...d, completed: false })), []);
   const reset = useCallback(() => setData(EMPTY_ONBOARDING), []);
 
   const value: OnboardingContextValue = {
@@ -64,6 +68,7 @@ export function OnboardingProvider({ children }: { children: ReactNode }) {
     toggleInterest,
     setGoal,
     complete,
+    restart,
     reset,
   };
 

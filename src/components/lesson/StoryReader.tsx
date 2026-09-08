@@ -20,6 +20,8 @@ interface SheetState {
   sentence: StorySentence | null;
   term: VocabTerm | null;
   isPhrase: boolean;
+  /** Which granularity the sheet is currently showing (word taps can toggle). */
+  view: "word" | "sentence";
 }
 
 export function StoryReader({ lesson }: { lesson: Lesson }) {
@@ -95,6 +97,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       sentence,
       term,
       isPhrase: false,
+      view: "word",
     });
   }
 
@@ -106,7 +109,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   function onTranslate(sel: StorySelection) {
     const { translation, term } = resolvePhrase(sel.text, sel.sentenceIds);
     const single = sel.sentenceIds.length === 1 ? sentenceMap.get(sel.sentenceIds[0]) ?? null : null;
-    setSheet({ title: sel.text, translation, sentence: single, term, isPhrase: true });
+    setSheet({ title: sel.text, translation, sentence: single, term, isPhrase: true, view: "word" });
   }
 
   function onHighlightSelection(sel: StorySelection) {
@@ -134,18 +137,33 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   }
 
   // --- bottom sheet actions ---
+  // A plain word tap can flip between the word and its whole sentence.
+  const canToggleView = !!sheet && !sheet.isPhrase && !!sheet.sentence;
+  const sentenceView = !!sheet && sheet.view === "sentence" && !!sheet.sentence;
+
   const sheetInPlan = sheet
-    ? sheet.term
-      ? hasItem(sheet.term.id)
-      : hasPhrase(lesson.slug, sheet.title)
+    ? sentenceView && sheet.sentence
+      ? hasPhrase(lesson.slug, sheet.sentence.text)
+      : sheet.term
+        ? hasItem(sheet.term.id)
+        : hasPhrase(lesson.slug, sheet.title)
     : false;
 
   function addSheetToPlan() {
     if (!sheet) return;
-    if (sheet.term) addVocab(sheet.term, lesson);
-    else addPhrase(sheet.title, sheet.translation ?? sheet.sentence?.translation ?? "", lesson);
+    if (sentenceView && sheet.sentence) {
+      addPhrase(sheet.sentence.text, sheet.sentence.translation, lesson);
+    } else if (sheet.term) {
+      addVocab(sheet.term, lesson);
+    } else {
+      addPhrase(sheet.title, sheet.translation ?? sheet.sentence?.translation ?? "", lesson);
+    }
     setToast(t("addedToStudyPlan"));
     setSheet(null);
+  }
+
+  function setSheetView(view: "word" | "sentence") {
+    setSheet((s) => (s ? { ...s, view } : s));
   }
 
   function toggleSheetHighlight() {
@@ -234,7 +252,9 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
             className="fixed inset-x-0 bottom-0 z-40 mx-auto max-w-app animate-fade-in rounded-t-xl2 border border-rose-light/60 bg-white p-5 shadow-soft"
           >
             <div className="mb-1 flex items-start justify-between gap-3">
-              <span className="font-serif text-lg font-semibold text-charcoal">{sheet.title}</span>
+              <span className="font-serif text-lg font-semibold text-charcoal">
+                {sentenceView && sheet.sentence ? sheet.sentence.text : sheet.title}
+              </span>
               <button
                 onClick={() => setSheet(null)}
                 className="shrink-0 text-sm text-charcoal/40 hover:text-charcoal"
@@ -244,10 +264,33 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               </button>
             </div>
 
+            {canToggleView && (
+              <div className="mb-2 inline-flex rounded-full border border-rose-light/60 p-0.5 text-xs font-medium">
+                <button
+                  onClick={() => setSheetView("word")}
+                  className={`rounded-full px-3 py-1 transition ${
+                    sheet.view === "word" ? "bg-rose text-cream" : "text-charcoal/50 hover:text-charcoal/80"
+                  }`}
+                >
+                  {t("translateWord")}
+                </button>
+                <button
+                  onClick={() => setSheetView("sentence")}
+                  className={`rounded-full px-3 py-1 transition ${
+                    sheet.view === "sentence" ? "bg-rose text-cream" : "text-charcoal/50 hover:text-charcoal/80"
+                  }`}
+                >
+                  {t("translateSentence")}
+                </button>
+              </div>
+            )}
+
             <p className="text-charcoal/70">
-              {sheet.translation ?? sheet.sentence?.translation ?? t("translationOf")}
+              {sentenceView && sheet.sentence
+                ? sheet.sentence.translation
+                : sheet.translation ?? sheet.sentence?.translation ?? t("translationOf")}
             </p>
-            {sheet.term?.example && (
+            {!sentenceView && sheet.term?.example && (
               <p className="mt-2 text-sm italic text-charcoal/55">
                 {sheet.term.example}
                 <span className="not-italic text-charcoal/40"> — {sheet.term.exampleTranslation}</span>

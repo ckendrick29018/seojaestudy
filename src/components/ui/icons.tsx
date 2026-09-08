@@ -134,6 +134,15 @@ export function PlusIcon(props: IconProps) {
   );
 }
 
+export function SettingsIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="10" cy="10" r="2.6" />
+      <path d="M10 1.7v2.1M10 16.2v2.1M3.16 3.16l1.48 1.48M15.36 15.36l1.48 1.48M1.7 10h2.1M16.2 10h2.1M3.16 16.84l1.48-1.48M15.36 4.64l1.48-1.48" />
+    </svg>
+  );
+}
+
 export function TrashIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>

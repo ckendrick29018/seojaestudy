@@ -116,6 +116,8 @@ export const dict = {
   highlight: { en: "Highlight", ko: "형광펜" },
   highlightLine: { en: "Highlight line", ko: "이 문장 표시" },
   removeHighlight: { en: "Remove highlight", ko: "형광펜 지우기" },
+  translateWord: { en: "Word", ko: "단어" },
+  translateSentence: { en: "Sentence", ko: "문장" },
 
   // --- Study plan ---
   studyPlan: { en: "Study Plan", ko: "학습 계획" },
@@ -175,6 +177,30 @@ export const dict = {
   onbRecapGoal: { en: "Goal", ko: "목표" },
   onbRecapInterests: { en: "Interests", ko: "관심사" },
   forYou: { en: "For you", ko: "맞춤 추천" },
+
+  // --- Settings ---
+  settings: { en: "Settings", ko: "설정" },
+  settingsSubtitle: {
+    en: "Personalize how SeoJae Story works for you.",
+    ko: "서재 이야기를 내게 맞게 설정하세요.",
+  },
+  settingsLearningTitle: { en: "Your learning", ko: "학습 설정" },
+  settingsNotOnboarded: {
+    en: "You haven't set up your learning profile yet.",
+    ko: "아직 학습 프로필을 설정하지 않았어요.",
+  },
+  redoOnboarding: { en: "Redo onboarding", ko: "온보딩 다시 하기" },
+  startOnboarding: { en: "Set up my profile", ko: "프로필 설정하기" },
+  redoOnboardingHint: {
+    en: "Walk through the questions again. Your current answers are kept as a starting point.",
+    ko: "질문에 다시 답해요. 지금 답변이 기본값으로 유지돼요.",
+  },
+  settingsLanguageTitle: { en: "Interface language", ko: "인터페이스 언어" },
+  settingsLanguageHint: {
+    en: "The language for menus and instructions — you can switch anytime.",
+    ko: "메뉴와 안내 문구의 언어예요. 언제든 바꿀 수 있어요.",
+  },
+  settingsNoInterests: { en: "No interests picked", ko: "선택한 관심사 없음" },
 } satisfies Dict;
 
 export function t(key: keyof typeof dict, lang: UiLang): string {
