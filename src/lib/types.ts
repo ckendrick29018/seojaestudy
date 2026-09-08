@@ -30,6 +30,17 @@ export interface ComprehensionQuestion {
   explanation: string;
 }
 
+/** A reader's highlight, one per story sentence. */
+export interface Highlight {
+  /** `${lessonSlug}::${sentenceId}` */
+  id: string;
+  lessonSlug: string;
+  sentenceId: string;
+  /** The sentence text at the time it was highlighted (target language). */
+  text: string;
+  createdAt: number;
+}
+
 export interface Lesson {
   slug: string;
   title: string;

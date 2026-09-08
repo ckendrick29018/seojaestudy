@@ -3,7 +3,7 @@ export type UiLang = "en" | "ko";
 type Dict = Record<string, { en: string; ko: string }>;
 
 export const dict = {
-  appName: { en: "LuminaRead", ko: "루미나리드" },
+  appName: { en: "SeoJae Story", ko: "서재 이야기" },
   tagline: { en: "Short stories, gentle progress.", ko: "짧은 이야기로, 천천히 성장해요." },
   library: { en: "Library", ko: "서재" },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
@@ -66,7 +66,7 @@ export const dict = {
 
   // --- Billing / paywall ---
   premium: { en: "Premium", ko: "프리미엄" },
-  premiumTitle: { en: "LuminaRead Premium", ko: "루미나리드 프리미엄" },
+  premiumTitle: { en: "SeoJae Story Premium", ko: "서재 이야기 프리미엄" },
   premiumLockedTitle: { en: "This is a Premium lesson", ko: "프리미엄 레슨이에요" },
   premiumLockedBody: {
     en: "Subscribe to unlock this story and the rest of the library.",
@@ -106,6 +106,75 @@ export const dict = {
     en: "We're confirming your payment. This can take a minute — refresh if it doesn't update.",
     ko: "결제를 확인하고 있어요. 잠시 시간이 걸릴 수 있어요. 반영되지 않으면 새로고침해 주세요.",
   },
+
+  // --- Reader: select / highlight / translate ---
+  readerHint: {
+    en: "Tap a word to translate it. Select text to highlight it or add it to your study plan.",
+    ko: "단어를 탭하면 번역돼요. 문장을 선택하면 형광펜을 칠하거나 학습 계획에 추가할 수 있어요.",
+  },
+  translate: { en: "Translate", ko: "번역" },
+  highlight: { en: "Highlight", ko: "형광펜" },
+  highlightLine: { en: "Highlight line", ko: "이 문장 표시" },
+  removeHighlight: { en: "Remove highlight", ko: "형광펜 지우기" },
+
+  // --- Study plan ---
+  studyPlan: { en: "Study Plan", ko: "학습 계획" },
+  studyPlanSubtitle: {
+    en: "Review your saved cards with spaced repetition.",
+    ko: "저장한 카드를 간격 반복으로 복습하세요.",
+  },
+  addToStudyPlan: { en: "Add to Study Plan", ko: "학습 계획에 추가" },
+  inStudyPlan: { en: "In Study Plan", ko: "학습 계획에 있음" },
+  addedToStudyPlan: { en: "Added to your study plan", ko: "학습 계획에 추가했어요" },
+  totalCards: { en: "Cards", ko: "카드" },
+  dueToday: { en: "Due", ko: "복습할 카드" },
+  dayStreak: { en: "Day streak", ko: "연속 학습" },
+  startReview: { en: "Start review", ko: "복습 시작" },
+  tapToReveal: { en: "Tap to reveal", ko: "탭해서 정답 보기" },
+  again: { en: "Again", ko: "다시" },
+  good: { en: "Good", ko: "알맞음" },
+  easy: { en: "Easy", ko: "쉬움" },
+  reviewCaughtUp: {
+    en: "All caught up — nothing due right now.",
+    ko: "지금 복습할 카드가 없어요.",
+  },
+  reviewDone: { en: "Done", ko: "완료" },
+  noStudyItems: {
+    en: "Your study plan is empty. Add words from a lesson's flashcards, or select text while reading.",
+    ko: "학습 계획이 비어 있어요. 레슨의 플래시카드에서 단어를 추가하거나, 읽으면서 문장을 선택해 보세요.",
+  },
+  yourHighlights: { en: "Highlights", ko: "형광펜 표시" },
+  noHighlights: {
+    en: "No highlights yet. Select a sentence while reading to mark it.",
+    ko: "아직 형광펜 표시가 없어요. 읽으면서 문장을 선택해 표시해 보세요.",
+  },
+  openLesson: { en: "Open lesson", ko: "레슨 열기" },
+
+  // --- Onboarding ---
+  onbSkip: { en: "Skip", ko: "건너뛰기" },
+  onbBack: { en: "Back", ko: "이전" },
+  onbContinue: { en: "Continue", ko: "계속" },
+  onbStart: { en: "Start reading", ko: "읽기 시작하기" },
+  onbWelcomeBody: {
+    en: "A few quick questions so your stories fit you. This takes about a minute.",
+    ko: "이야기를 맞춤 추천하기 위한 짧은 질문이에요. 1분이면 충분해요.",
+  },
+  onbDirectionTitle: { en: "Which describes you?", ko: "어느 쪽에 해당하나요?" },
+  onbDirKoEnSub: { en: "I speak Korean, learning English", ko: "한국어가 모국어이고, 영어를 배워요" },
+  onbDirEnKoSub: { en: "I speak English, learning Korean", ko: "영어가 모국어이고, 한국어를 배워요" },
+  onbLevelTitle: { en: "How's your level?", ko: "지금 수준은 어느 정도인가요?" },
+  onbLevelBody: { en: "Pick the one that feels closest. You can change this later.", ko: "가장 가까운 것을 골라주세요. 나중에 바꿀 수 있어요." },
+  onbInterestsTitle: { en: "What are you into?", ko: "어떤 주제에 관심이 있나요?" },
+  onbInterestsBody: { en: "Pick a few — or none. We'll lean your library this way.", ko: "몇 개 골라도 되고, 안 골라도 돼요. 서재를 이 방향으로 채워드릴게요." },
+  onbGoalTitle: { en: "What's your goal?", ko: "목표가 무엇인가요?" },
+  onbGoalBody: { en: "This helps us shape the practice and feedback.", ko: "연습과 피드백을 맞추는 데 참고할게요." },
+  onbSummaryTitle: { en: "You're all set", ko: "준비 완료예요" },
+  onbSummaryBody: { en: "Here's what we'll use to pick your stories.", ko: "이 정보로 이야기를 골라드릴게요." },
+  onbRecapLearning: { en: "Learning", ko: "학습 방향" },
+  onbRecapLevel: { en: "Level", ko: "수준" },
+  onbRecapGoal: { en: "Goal", ko: "목표" },
+  onbRecapInterests: { en: "Interests", ko: "관심사" },
+  forYou: { en: "For you", ko: "맞춤 추천" },
 } satisfies Dict;
 
 export function t(key: keyof typeof dict, lang: UiLang): string {

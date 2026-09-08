@@ -5,20 +5,23 @@ import type { TouchEvent } from "react";
 import type { Lesson } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { BookmarkIcon, SpeakerIcon, ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
-import { speak, isSpeechSupported } from "@/lib/speech";
+import { BookmarkIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, PlusIcon, SpeakerIcon } from "@/components/ui/icons";
+import { speak, useSpeechSupported } from "@/lib/speech";
 
 export function VocabFlashcards({ lesson }: { lesson: Lesson }) {
   const t = useT();
   const { saveWord, removeWord, isWordSaved } = useProgress();
+  const { addVocab, removeItem, hasItem } = useStudyPlan();
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const touchStartX = useRef<number | null>(null);
-  const speechAvailable = isSpeechSupported();
+  const speechAvailable = useSpeechSupported();
 
   const term = lesson.vocab[index];
   const saved = isWordSaved(term.id);
+  const inPlan = hasItem(term.id);
 
   function goTo(newIndex: number) {
     setFlipped(false);
@@ -42,6 +45,11 @@ export function VocabFlashcards({ lesson }: { lesson: Lesson }) {
   function toggleSave() {
     if (saved) removeWord(term.id);
     else saveWord(term, lesson.slug);
+  }
+
+  function toggleStudyPlan() {
+    if (inPlan) removeItem(term.id);
+    else addVocab(term, lesson);
   }
 
   return (
@@ -108,6 +116,18 @@ export function VocabFlashcards({ lesson }: { lesson: Lesson }) {
           <ChevronRightIcon className="h-4 w-4" />
         </button>
       </div>
+
+      <button
+        onClick={toggleStudyPlan}
+        className={`mx-auto mt-4 flex w-full max-w-sm items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition ${
+          inPlan
+            ? "border-sage-dark/50 bg-sage/40 text-charcoal/70"
+            : "border-rose-soft/50 text-rose hover:bg-rose-light/30"
+        }`}
+      >
+        {inPlan ? <CheckIcon className="h-4 w-4" /> : <PlusIcon className="h-4 w-4" />}
+        {inPlan ? t("inStudyPlan") : t("addToStudyPlan")}
+      </button>
     </section>
   );
 }

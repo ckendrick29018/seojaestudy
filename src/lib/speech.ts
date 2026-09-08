@@ -1,7 +1,21 @@
+import { useEffect, useState } from "react";
 import type { LangCode } from "./types";
 
 export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
+}
+
+/**
+ * Speech-support flag safe for render: `false` on the server and on the first
+ * client render (so it never causes a hydration mismatch), then the real
+ * value once mounted.
+ */
+export function useSpeechSupported(): boolean {
+  const [supported, setSupported] = useState(false);
+  useEffect(() => {
+    setSupported(isSpeechSupported());
+  }, []);
+  return supported;
 }
 
 /**

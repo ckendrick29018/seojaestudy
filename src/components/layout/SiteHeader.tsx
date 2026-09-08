@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useAuth } from "@/components/providers/AuthProvider";
-import { BookOpenIcon, UserIcon } from "@/components/ui/icons";
+import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
+import { BookOpenIcon, CardsIcon, UserIcon } from "@/components/ui/icons";
 import { SignOutButton } from "@/components/auth/SignOutButton";
 
 export function SiteHeader() {
@@ -13,6 +14,7 @@ export function SiteHeader() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const { user, authAvailable } = useAuth();
+  const { dueItems } = useStudyPlan();
 
   return (
     <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream/90 px-5 py-4 backdrop-blur">
@@ -27,6 +29,16 @@ export function SiteHeader() {
           aria-label={t("savedWords")}
         >
           <BookOpenIcon className="h-5 w-5" />
+        </Link>
+        <Link
+          href="/study"
+          className="relative rounded-full p-2 text-charcoal/60 transition hover:bg-sage/40 hover:text-charcoal"
+          aria-label={t("studyPlan")}
+        >
+          <CardsIcon className="h-5 w-5" />
+          {dueItems.length > 0 && (
+            <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-rose ring-2 ring-cream" />
+          )}
         </Link>
         {authAvailable &&
           (user ? (

@@ -5,13 +5,13 @@ import { lessons } from "@/lib/data/lessons";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { useT } from "@/components/providers/LanguageProvider";
 import { SpeakerIcon } from "@/components/ui/icons";
-import { speak, isSpeechSupported } from "@/lib/speech";
+import { speak, useSpeechSupported } from "@/lib/speech";
 import type { LangCode } from "@/lib/types";
 
 export default function SavedWordsPage() {
   const { savedWords, removeWord } = useProgress();
   const t = useT();
-  const speechAvailable = isSpeechSupported();
+  const speechAvailable = useSpeechSupported();
 
   function lessonTargetLang(slug: string): LangCode {
     return lessons.find((l) => l.slug === slug)?.targetLanguage ?? "en";

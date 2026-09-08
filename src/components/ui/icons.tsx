@@ -108,3 +108,36 @@ export function BookOpenIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function CardsIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinejoin="round" {...props}>
+      <rect x="6.5" y="3.5" width="10" height="10" rx="2" />
+      <path d="M13 16.5H5.5A2 2 0 013.5 14.5V7" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function HighlighterIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M8 12l-2.5 2.5M4 16.5h4M11.5 4.5l4 4-6 6-4-4z" />
+    </svg>
+  );
+}
+
+export function PlusIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" {...props}>
+      <path d="M10 4v12M4 10h12" />
+    </svg>
+  );
+}
+
+export function TrashIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M4.5 6h11M8 6V4.5h4V6M6 6l.7 9.5a1 1 0 001 .9h4.6a1 1 0 001-.9L15 6" />
+    </svg>
+  );
+}
