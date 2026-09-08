@@ -22,6 +22,12 @@ import type { Lesson } from "../types";
  *  - "Anne of Green Gables" is a simplified retelling of Chapter 2 of
  *    L. M. Montgomery's novel (first published 1908, Project Gutenberg #45),
  *    long in the public domain — the third lesson in the "Classics" collection.
+ *  - "Little Women" is a simplified retelling of Chapter 1 of Louisa May
+ *    Alcott's novel (first published 1868, Project Gutenberg #37106).
+ *  - "The Ugly Duckling" is a simplified retelling of Hans Christian
+ *    Andersen's fairy tale (first published 1843, Project Gutenberg #1597).
+ *  - "Cinderella" is a simplified, gently softened retelling of the Brothers
+ *    Grimm tale "Aschenputtel" (collected 1812, Project Gutenberg #2591).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -904,6 +910,606 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Though Matthew was shy around girls, he found he liked this one and was hoping Marilla would agree to keep her.",
+      },
+    ],
+  },
+  {
+    slug: "little-women",
+    title: "Little Women",
+    titleTranslation: "작은 아씨들",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/little-women.svg",
+    source:
+      "Adapted from Chapter 1 of Louisa May Alcott's novel \"Little Women\" (first published 1868; public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the sisters felt sad at first, and what they decided to do with their money.",
+    paragraphs: [
+      [
+        {
+          id: "lw-1",
+          text: "It was the night before Christmas, and the four March sisters sat around the fire.",
+          translation: "크리스마스 전날 밤, 마치 가의 네 자매가 난롯가에 둘러앉아 있었어요.",
+        },
+        {
+          id: "lw-2",
+          text: "Their father was far away, helping the soldiers in the war, and money was short that year.",
+          translation: "아버지는 멀리서 전쟁터의 군인들을 돕고 있었고, 그해에는 살림이 넉넉하지 않았어요.",
+        },
+        {
+          id: "lw-3",
+          text: "\"Christmas won't be Christmas without any presents,\" said Jo, lying on the rug.",
+          translation: "\"선물도 없는데 크리스마스가 무슨 크리스마스야.\" 조가 양탄자에 드러누운 채 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lw-4",
+          text: "Meg, the oldest, sighed and looked down at her worn dress.",
+          translation: "맏이인 메그는 한숨을 쉬며 낡은 원피스를 내려다봤어요.",
+        },
+        {
+          id: "lw-5",
+          text: "Shy little Beth said softly that they still had Father and Mother and each other.",
+          translation: "수줍음 많은 막내 베스는 그래도 아버지와 어머니, 그리고 서로가 있지 않냐고 조용히 말했어요.",
+        },
+        {
+          id: "lw-6",
+          text: "But young Amy added that they had no money, and just then that felt very hard.",
+          translation: "하지만 어린 에이미는 돈이 한 푼도 없다고 덧붙였고, 그 순간에는 그 사실이 무척 서럽게 느껴졌어요.",
+        },
+      ],
+      [
+        {
+          id: "lw-7",
+          text: "Each girl had one dollar, and each had planned to spend it on herself.",
+          translation: "네 자매에게는 각자 1달러가 있었고, 저마다 그 돈을 자기 자신을 위해 쓸 생각이었어요.",
+        },
+        {
+          id: "lw-8",
+          text: "But their mother, whom they called Marmee, had a gentler idea.",
+          translation: "그런데 자매들이 '마미'라고 부르는 어머니에게는 더 다정한 생각이 있었어요.",
+        },
+        {
+          id: "lw-9",
+          text: "Because the winter was hard and the soldiers were suffering, she asked them to spend nothing on themselves this year.",
+          translation: "겨울은 혹독하고 군인들은 고생하고 있으니, 올해에는 자기 자신을 위해서는 아무것도 사지 말자고 하셨어요.",
+        },
+      ],
+      [
+        {
+          id: "lw-10",
+          text: "The sisters were quiet for a moment, and then Jo spoke up.",
+          translation: "자매들은 잠시 말이 없다가, 조가 먼저 입을 열었어요.",
+        },
+        {
+          id: "lw-11",
+          text: "\"Let's each buy a present for Marmee, and nothing for ourselves,\" she said.",
+          translation: "\"우리 각자 마미한테 드릴 선물을 사고, 우리 것은 사지 말자.\" 조가 말했어요.",
+        },
+        {
+          id: "lw-12",
+          text: "The others agreed at once, glad to have found a way to give.",
+          translation: "다른 자매들도 곧바로 찬성했고, 무언가를 베풀 방법을 찾았다는 것이 기뻤어요.",
+        },
+      ],
+      [
+        {
+          id: "lw-13",
+          text: "That evening Marmee came home cold and tired, but with a letter from Father.",
+          translation: "그날 저녁 마미는 춥고 지친 모습으로 집에 왔지만, 아버지의 편지를 가지고 왔어요.",
+        },
+        {
+          id: "lw-14",
+          text: "He wrote that he hoped his \"little women\" would be brave and kind and do their duty while he was gone.",
+          translation: "아버지는 자신의 '작은 아씨들'이 용감하고 다정하게, 자기가 없는 동안 각자 할 일을 잘 해내기를 바란다고 썼어요.",
+        },
+        {
+          id: "lw-15",
+          text: "When he came home, he would love them and be proud of them more than ever.",
+          translation: "그리고 집에 돌아오면 그 어느 때보다 딸들을 더 사랑하고 자랑스러워할 것이라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "lw-16",
+          text: "The girls tried not to cry, and each quietly promised to be a little better.",
+          translation: "자매들은 눈물을 참으며, 저마다 조금 더 나은 사람이 되겠다고 조용히 다짐했어요.",
+        },
+        {
+          id: "lw-17",
+          text: "Then they sang together before bed, the way their mother loved best.",
+          translation: "그러고는 잠자리에 들기 전, 어머니가 가장 좋아하는 대로 다 함께 노래를 불렀어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lw-v1",
+        term: "sigh",
+        partOfSpeech: "verb",
+        translation: "한숨을 쉬다",
+        example: "Meg sighed and looked at her old dress.",
+        exampleTranslation: "메그는 한숨을 쉬며 낡은 원피스를 바라봤어요.",
+      },
+      {
+        id: "lw-v2",
+        term: "worn",
+        partOfSpeech: "adjective",
+        translation: "낡은, 해진",
+        example: "Her dress was old and worn.",
+        exampleTranslation: "그녀의 원피스는 오래되고 해졌어요.",
+      },
+      {
+        id: "lw-v3",
+        term: "duty",
+        partOfSpeech: "noun",
+        translation: "해야 할 일, 본분",
+        example: "Father asked them to do their duty while he was away.",
+        exampleTranslation: "아버지는 자기가 없는 동안 각자 할 일을 해내라고 했어요.",
+      },
+      {
+        id: "lw-v4",
+        term: "suffer",
+        partOfSpeech: "verb",
+        translation: "고통받다, 고생하다",
+        example: "Many soldiers were suffering in the cold.",
+        exampleTranslation: "많은 군인이 추위 속에서 고생하고 있었어요.",
+      },
+      {
+        id: "lw-v5",
+        term: "proud",
+        partOfSpeech: "adjective",
+        translation: "자랑스러워하는",
+        example: "He would be proud of his daughters when he came home.",
+        exampleTranslation: "그는 집에 돌아오면 딸들을 자랑스러워할 거예요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lw-q1",
+        prompt: "Why was there no money for presents that year?",
+        options: [
+          "The sisters had already spent all of it.",
+          "Their father was away at the war and times were hard.",
+          "Marmee had lost her work in the town.",
+          "They had given every dollar to the soldiers.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. March was far from home helping in the war, and the family had very little money that winter.",
+      },
+      {
+        id: "lw-q2",
+        prompt: "What did the sisters decide to do with their dollars?",
+        options: [
+          "Save them until Father came home.",
+          "Buy small treats for themselves after all.",
+          "Buy Christmas presents for Marmee instead.",
+          "Send the money to their father.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Instead of spending on themselves, each sister chose to buy a present for their mother.",
+      },
+      {
+        id: "lw-q3",
+        prompt: "What did Father's letter ask of his \"little women\"?",
+        options: [
+          "To sell the house and move to the city.",
+          "To write to him every single day.",
+          "To be brave and kind and do their duty while he was gone.",
+          "To stop singing so much in the evenings.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He hoped they would be good and do their duty, so that he could be proud of them when he returned.",
+      },
+    ],
+  },
+  {
+    slug: "the-ugly-duckling",
+    title: "The Ugly Duckling",
+    titleTranslation: "미운 오리 새끼",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🦢",
+    coverImage: "/covers/the-ugly-duckling.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Ugly Duckling\" (first published 1843; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the other animals were unkind to the grey bird, and what he turned out to be.",
+    paragraphs: [
+      [
+        {
+          id: "ud-1",
+          text: "One summer a mother duck sat on her nest, waiting for her eggs to hatch.",
+          translation: "어느 여름, 어미 오리가 둥지에 앉아 알이 깨어나기를 기다리고 있었어요.",
+        },
+        {
+          id: "ud-2",
+          text: "One by one they broke open, and out came small yellow ducklings — all except the largest egg.",
+          translation: "알은 하나씩 갈라졌고, 작고 노란 새끼 오리들이 나왔어요 — 가장 큰 알 하나만 빼고요.",
+        },
+        {
+          id: "ud-3",
+          text: "At last that one cracked too, and a big, grey, clumsy bird tumbled out.",
+          translation: "마침내 그 알도 깨졌고, 크고 잿빛에 어설픈 새 한 마리가 굴러 나왔어요.",
+        },
+      ],
+      [
+        {
+          id: "ud-4",
+          text: "\"How ugly he is,\" said the other ducks, and they would not make room for him.",
+          translation: "\"정말 못생겼네.\" 다른 오리들이 말하며 그에게 자리를 내주지 않았어요.",
+        },
+        {
+          id: "ud-5",
+          text: "His brothers and sisters pushed him away, the hens pecked him, and the girl who fed the birds pushed him aside with her foot.",
+          translation: "친형제자매들마저 그를 밀쳐 냈고, 암탉들은 그를 쪼아 댔으며, 모이를 주는 여자아이는 발로 그를 밀어냈어요.",
+        },
+        {
+          id: "ud-6",
+          text: "Everywhere he went the animals laughed at him, so one day he ran away from the farm.",
+          translation: "어디를 가든 동물들이 그를 비웃어서, 어느 날 그는 농장을 떠나 달아났어요.",
+        },
+      ],
+      [
+        {
+          id: "ud-7",
+          text: "He hid among the reeds by a lake, but the wild birds there thought he was strange too.",
+          translation: "그는 호숫가 갈대밭에 숨었지만, 거기 사는 들새들도 그를 이상하게 여겼어요.",
+        },
+        {
+          id: "ud-8",
+          text: "Winter came, cold and lonely; the water froze, and he was often hungry.",
+          translation: "겨울이 왔고, 춥고 외로웠어요. 물은 얼어붙었고 그는 자주 굶주렸어요.",
+        },
+        {
+          id: "ud-9",
+          text: "A farmer found him half-frozen and took him home, but the noisy children frightened him and he escaped again.",
+          translation: "한 농부가 반쯤 얼어붙은 그를 발견해 집으로 데려갔지만, 시끄러운 아이들이 무서워서 그는 다시 달아났어요.",
+        },
+      ],
+      [
+        {
+          id: "ud-10",
+          text: "He lived through the long winter as best he could, hiding in the marsh.",
+          translation: "그는 습지에 몸을 숨긴 채, 그 긴 겨울을 겨우겨우 견뎌 냈어요.",
+        },
+        {
+          id: "ud-11",
+          text: "Then the sun grew warm, the birds began to sing, and spring had come at last.",
+          translation: "이윽고 햇살이 따뜻해지고 새들이 노래하기 시작했으며, 드디어 봄이 왔어요.",
+        },
+        {
+          id: "ud-12",
+          text: "On the bright water he saw three beautiful white swans gliding slowly toward him.",
+          translation: "환하게 빛나는 물 위로, 아름다운 백조 세 마리가 천천히 그에게 다가오는 것이 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "ud-13",
+          text: "\"I will go to them, even if such splendid birds drive me away,\" he thought.",
+          translation: "\"저렇게 멋진 새들이 나를 쫓아낸다 해도, 나는 저들에게 가겠어.\" 그는 생각했어요.",
+        },
+        {
+          id: "ud-14",
+          text: "He bent his head low over the water — and in his reflection he saw not a grey bird, but a white swan.",
+          translation: "그가 물 위로 고개를 깊이 숙이자 — 물에 비친 모습은 잿빛 새가 아니라 새하얀 백조였어요.",
+        },
+        {
+          id: "ud-15",
+          text: "The other swans swam around him and welcomed him as one of their own.",
+          translation: "다른 백조들이 그의 주위를 헤엄치며, 그를 자기들의 일원으로 반겨 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "ud-16",
+          text: "Children came to the water's edge and said the new swan was the most beautiful of them all.",
+          translation: "아이들이 물가로 다가와, 새로 온 백조가 그중에서 가장 아름답다고 말했어요.",
+        },
+        {
+          id: "ud-17",
+          text: "He thought of the hard days and was glad: it did not matter that he was born in a duck yard, because he had come from a swan's egg.",
+          translation: "그는 힘들었던 날들을 떠올리며 기뻐했어요. 오리 우리에서 태어난 것은 아무 상관이 없었어요. 백조의 알에서 나왔으니까요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ud-v1",
+        term: "hatch",
+        partOfSpeech: "verb",
+        translation: "(알이) 부화하다, 깨어나다",
+        example: "She waited for her eggs to hatch.",
+        exampleTranslation: "그녀는 알이 깨어나기를 기다렸어요.",
+      },
+      {
+        id: "ud-v2",
+        term: "clumsy",
+        partOfSpeech: "adjective",
+        translation: "어설픈, 서투른",
+        example: "The big grey bird was clumsy on land.",
+        exampleTranslation: "크고 잿빛인 그 새는 땅 위에서 어설펐어요.",
+      },
+      {
+        id: "ud-v3",
+        term: "peck",
+        partOfSpeech: "verb",
+        translation: "(부리로) 쪼다",
+        example: "The hens pecked the poor bird.",
+        exampleTranslation: "암탉들이 그 가엾은 새를 쪼아 댔어요.",
+      },
+      {
+        id: "ud-v4",
+        term: "lonely",
+        partOfSpeech: "adjective",
+        translation: "외로운",
+        example: "The winter was cold and lonely.",
+        exampleTranslation: "겨울은 춥고 외로웠어요.",
+      },
+      {
+        id: "ud-v5",
+        term: "reflection",
+        partOfSpeech: "noun",
+        translation: "(물이나 거울에) 비친 모습",
+        example: "He saw his reflection in the water.",
+        exampleTranslation: "그는 물에 비친 자기 모습을 보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ud-q1",
+        prompt: "Why did the farmyard animals treat the grey bird badly?",
+        options: [
+          "He ate far more food than the others.",
+          "He was big and different, and they thought he was ugly.",
+          "He could not swim like the ducklings.",
+          "He had wandered in from another farm.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The other animals judged him by his looks — grey, large, and unlike the yellow ducklings — and called him ugly.",
+      },
+      {
+        id: "ud-q2",
+        prompt: "What happened to him during the winter?",
+        options: [
+          "The mother duck took him back in.",
+          "He flew south with the wild birds.",
+          "He was cold, hungry, and alone, and a farmer's children frightened him.",
+          "He made friends with three swans on the ice.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He spent a hard, lonely winter near the frozen lake; a farmer took him in, but the children scared him and he fled.",
+      },
+      {
+        id: "ud-q3",
+        prompt: "What did the bird discover in the spring?",
+        options: [
+          "That he had grown into a swan.",
+          "That the ducks missed him and wanted him back.",
+          "That he could sing more sweetly than any other bird.",
+          "That the lake was warmer on the far side.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Seeing his reflection, he realised he had become a white swan, and the other swans welcomed him.",
+      },
+    ],
+  },
+  {
+    slug: "cinderella",
+    title: "Cinderella",
+    titleTranslation: "신데렐라",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "👠",
+    coverImage: "/covers/cinderella.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Cinderella\" (\"Aschenputtel,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's harsher details have been softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, say who helped Cinderella get to the festival, and how the prince found her again afterwards.",
+    paragraphs: [
+      [
+        {
+          id: "cd-1",
+          text: "A kind girl lived with her stepmother and two stepsisters.",
+          translation: "마음씨 고운 소녀가 새어머니, 그리고 두 의붓언니와 함께 살았어요.",
+        },
+        {
+          id: "cd-2",
+          text: "They made her do all the hard work and sleep beside the warm ashes of the fire.",
+          translation: "그들은 소녀에게 힘든 일을 모두 시키고, 난롯불의 따뜻한 잿더미 옆에서 자게 했어요.",
+        },
+        {
+          id: "cd-3",
+          text: "Because she was often grey with ash, they called her Cinderella.",
+          translation: "소녀는 늘 재를 뒤집어써서 잿빛이었기 때문에, 사람들은 그녀를 신데렐라라고 불렀어요.",
+        },
+      ],
+      [
+        {
+          id: "cd-4",
+          text: "One day the king held a festival so the prince could choose a wife.",
+          translation: "어느 날 임금님이 왕자님의 신붓감을 고르도록 잔치를 열었어요.",
+        },
+        {
+          id: "cd-5",
+          text: "The two stepsisters put on their best dresses and went.",
+          translation: "두 의붓언니는 가장 좋은 드레스를 차려입고 잔치에 갔어요.",
+        },
+        {
+          id: "cd-6",
+          text: "Cinderella wanted to go too, but they only laughed at her.",
+          translation: "신데렐라도 가고 싶었지만, 언니들은 그녀를 비웃기만 했어요.",
+        },
+      ],
+      [
+        {
+          id: "cd-7",
+          text: "She went to a little tree by her mother's grave and began to cry.",
+          translation: "신데렐라는 어머니의 무덤가에 있는 작은 나무로 가서 울기 시작했어요.",
+        },
+        {
+          id: "cd-8",
+          text: "A white bird lived in the tree, and it dropped down a golden dress and shoes for her.",
+          translation: "그 나무에는 하얀 새가 살고 있었는데, 새가 금빛 드레스와 구두를 떨어뜨려 주었어요.",
+        },
+        {
+          id: "cd-9",
+          text: "In the beautiful clothes, Cinderella looked so lovely that no one knew her.",
+          translation: "아름다운 옷을 입은 신데렐라가 너무 고와서, 아무도 그녀를 알아보지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "cd-10",
+          text: "At the festival, the prince danced with her all evening and with no one else.",
+          translation: "잔치에서 왕자님은 저녁 내내 다른 사람은 제쳐 두고 신데렐라하고만 춤을 췄어요.",
+        },
+        {
+          id: "cd-11",
+          text: "But each night she hurried home before he could ask her name.",
+          translation: "하지만 신데렐라는 밤마다 왕자님이 이름을 묻기 전에 서둘러 집으로 돌아갔어요.",
+        },
+        {
+          id: "cd-12",
+          text: "On the last night she ran so fast that she lost one golden shoe on the stairs.",
+          translation: "마지막 날 밤, 그녀는 너무 빨리 달리다가 금빛 구두 한 짝을 계단에 떨어뜨렸어요.",
+        },
+      ],
+      [
+        {
+          id: "cd-13",
+          text: "The prince said he would marry the girl whose foot fit the little shoe.",
+          translation: "왕자님은 그 작은 구두가 발에 꼭 맞는 아가씨와 결혼하겠다고 했어요.",
+        },
+        {
+          id: "cd-14",
+          text: "He went from house to house, but no one's foot would fit.",
+          translation: "왕자님은 집집마다 찾아다녔지만, 아무의 발에도 구두가 맞지 않았어요.",
+        },
+        {
+          id: "cd-15",
+          text: "The stepsisters tried hard, yet the shoe was far too small for them.",
+          translation: "의붓언니들도 무척 애를 썼지만, 구두는 그들에게 너무 작았어요.",
+        },
+      ],
+      [
+        {
+          id: "cd-16",
+          text: "Then Cinderella tried it on, and it fit her foot perfectly.",
+          translation: "그때 신데렐라가 구두를 신어 보니, 발에 꼭 맞았어요.",
+        },
+        {
+          id: "cd-17",
+          text: "The prince knew her at once, and took her home to be his bride.",
+          translation: "왕자님은 그녀를 곧바로 알아보았고, 신부로 맞이하려고 그녀를 데려갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cd-v1",
+        term: "stepmother",
+        partOfSpeech: "noun",
+        translation: "새어머니, 계모",
+        example: "She lived with her stepmother and stepsisters.",
+        exampleTranslation: "그녀는 새어머니, 의붓언니들과 함께 살았어요.",
+      },
+      {
+        id: "cd-v2",
+        term: "ash",
+        partOfSpeech: "noun",
+        translation: "재",
+        example: "She slept near the warm ash of the fire.",
+        exampleTranslation: "그녀는 난롯불의 따뜻한 재 옆에서 잤어요.",
+      },
+      {
+        id: "cd-v3",
+        term: "festival",
+        partOfSpeech: "noun",
+        translation: "잔치, 축제",
+        example: "The king held a festival at the palace.",
+        exampleTranslation: "임금님이 궁전에서 잔치를 열었어요.",
+      },
+      {
+        id: "cd-v4",
+        term: "grave",
+        partOfSpeech: "noun",
+        translation: "무덤",
+        example: "The little tree grew by her mother's grave.",
+        exampleTranslation: "그 작은 나무는 어머니의 무덤가에서 자랐어요.",
+      },
+      {
+        id: "cd-v5",
+        term: "fit",
+        partOfSpeech: "verb",
+        translation: "(크기가) 맞다",
+        example: "The golden shoe fit her foot perfectly.",
+        exampleTranslation: "금빛 구두는 그녀의 발에 꼭 맞았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cd-q1",
+        prompt: "Why was the girl called Cinderella?",
+        options: [
+          "It was the name her mother had given her.",
+          "She was often covered in grey ash from the fire.",
+          "She loved to sit and count the cinders.",
+          "She came from a town called Cinder.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She had to sleep beside the ashes and was often grey with ash, so they called her Cinderella.",
+      },
+      {
+        id: "cd-q2",
+        prompt: "Who gave Cinderella the golden dress and shoes?",
+        options: [
+          "Her stepmother, who felt sorry for her.",
+          "The prince, who sent them to her house.",
+          "A white bird in the tree by her mother's grave.",
+          "One of the kinder stepsisters.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "She cried by the little tree on her mother's grave, and a white bird there dropped down the golden clothes.",
+      },
+      {
+        id: "cd-q3",
+        prompt: "How did the prince find Cinderella again?",
+        options: [
+          "She sent him a letter with her name.",
+          "He knew her voice at the market.",
+          "Her lost golden shoe fit only her foot.",
+          "The white bird led him to her house.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Cinderella left one golden shoe on the stairs; the prince searched from house to house until he found the girl it fit.",
       },
     ],
   },

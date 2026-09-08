@@ -117,13 +117,13 @@ has a genuine period cover/illustration in the public domain, download that into
 | 7 | The Happy Prince | Oscar Wilde (1900) | 902 | A2 | whole | ☐ |
 | 8 | The Selfish Giant | Oscar Wilde (1900) | 902 | A1 | whole | ☐ |
 | 9 | The Nightingale and the Rose | Oscar Wilde (1900) | 902 | B1 | whole | ☐ |
-| 10 | Cinderella | Brothers Grimm (1863) | 2591 | A1 | trimmed to core scenes | ☐ |
+| 10 | Cinderella | Brothers Grimm (1863) | 2591 | A1 | core scenes, gently softened (17 sentences) | ☑ |
 | 11 | Little Red Riding Hood | Brothers Grimm (1863) | 2591 | A1 | whole | ☐ |
 | 12 | Snow White | Brothers Grimm (1863) | 2591 | A2 | trimmed | ☐ |
 | 13 | Rapunzel | Brothers Grimm (1863) | 2591 | A2 | whole | ☐ |
 | 14 | The Frog Prince | Brothers Grimm (1863) | 2591 | A1 | whole | ☐ |
 | 15 | The Little Mermaid | Hans Christian Andersen (1875) | 1597 | B1 | trimmed to 1–2 scenes | ☐ |
-| 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole | ☐ |
+| 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
 | 17 | The Emperor's New Clothes | Hans Christian Andersen (1875) | 1597 | A1 | whole | ☐ |
 | 18 | The Princess and the Pea | Hans Christian Andersen (1875) | 1597 | A1 | whole | ☐ |
 | 19 | Beauty and the Beast | Mme de Beaumont / Lang | 503 | A2 | trimmed (Blue Fairy Book) | ☐ |
@@ -151,7 +151,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 36 | Agnes Grey | Anne Brontë (1849) | 767 | B1 | Ch. 1 — "the beginning" | ☐ |
 | 37 | The Tenant of Wildfell Hall | Anne Brontë (1849) | 969 | B2 | Ch. 1 — the stranger at Wildfell | ☐ |
 | 38 | Villette | Charlotte Brontë (1855) | 21181 | B2 | Ch. 1 — Bretton | ☐ |
-| 39 | Little Women | Louisa May Alcott (1888) | 37106 | A2 | Ch. 1 — "Christmas won't be Christmas" | ☐ |
+| 39 | Little Women | Louisa May Alcott (1888) | 37106 | A2 | Ch. 1 — "Christmas won't be Christmas" (simplified retelling, 17 sentences) | ☑ |
 | 40 | Little Women | Louisa May Alcott (1888) | 37106 | B1 | Ch. 8 — Amy and the limes / the burned manuscript | ☐ |
 | 41 | An Old-Fashioned Girl | Louisa May Alcott (1888) | 2787 | A2 | Ch. 1 — Polly arrives in the city | ☐ |
 | 42 | Rose in Bloom | Louisa May Alcott (1888) | 2804 | B1 | Ch. 1 — Rose comes home | ☐ |
@@ -200,8 +200,12 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- Good next lessons to build: **Little Women Ch. 1**, **The Ugly Duckling**,
-  **Cinderella**, **The Secret Garden Ch. 1** — short, famous, and easy to
-  level. The Gift of the Magi (row 4), The Story of an Hour (row 2) and
-  Anne of Green Gables Ch. 2 (row 43) are live; follow their shape in
+- **Live now (6):** The Gift of the Magi (row 4), The Story of an Hour
+  (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
+  The Ugly Duckling (row 16), Cinderella (row 10). Follow their shape in
   `src/lib/data/lessons.ts`.
+- Good next lessons to build: **The Secret Garden Ch. 1**, **The Happy
+  Prince**, **The Selfish Giant**, **Alice's Adventures in Wonderland Ch. 1**,
+  **The Emperor's New Clothes** — short, famous, and easy to level. Balance
+  the shelf: it now leans A1–A2 fairy tales and Christmas (Magi + Little
+  Women), so a B1 and a non-seasonal novel opening would round it out.
