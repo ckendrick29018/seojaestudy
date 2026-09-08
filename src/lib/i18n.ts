@@ -118,6 +118,11 @@ export const dict = {
   removeHighlight: { en: "Remove highlight", ko: "형광펜 지우기" },
   translateWord: { en: "Word", ko: "단어" },
   translateSentence: { en: "Sentence", ko: "문장" },
+  noWordEntry: {
+    en: "No dictionary entry — use the Sentence tab for the full line.",
+    ko: "사전 항목이 없는 단어예요 — 전체 번역은 문장 탭을 확인하세요.",
+  },
+  readingLanguage: { en: "Reading language", ko: "읽기 언어" },
 
   // --- Study plan ---
   studyPlan: { en: "Study Plan", ko: "학습 계획" },

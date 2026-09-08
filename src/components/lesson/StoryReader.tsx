@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
-import type { Lesson, StorySentence, VocabTerm } from "@/lib/types";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { Lesson, LangCode, StorySentence, VocabTerm } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { speak, stopSpeaking, useSpeechSupported } from "@/lib/speech";
@@ -13,6 +13,9 @@ import { Toast } from "@/components/ui/Toast";
 function normalizeWord(raw: string): string {
   return raw.toLowerCase().replace(/[^a-z가-힣0-9']/gi, "");
 }
+
+/** Short label for the reading-language toggle. */
+const LANG_LABEL: Record<LangCode, string> = { en: "EN", ko: "한국어" };
 
 interface SheetState {
   title: string;
@@ -44,6 +47,34 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   const speechAvailable = useSpeechSupported();
 
+  const [readingLang, setReadingLang] = useState<LangCode>(lesson.targetLanguage);
+
+  // Which language the story *body* is shown in — independent of the app-chrome
+  // language toggle, and remembered across lessons.
+  useEffect(() => {
+    try {
+      const stored = window.localStorage.getItem("luminaread:reading-lang");
+      if (stored === "en" || stored === "ko") setReadingLang(stored);
+    } catch {
+      // localStorage unavailable — fall back to the lesson's target language.
+    }
+  }, []);
+
+  function chooseReadingLang(lang: LangCode) {
+    setReadingLang(lang);
+    try {
+      window.localStorage.setItem("luminaread:reading-lang", lang);
+    } catch {
+      // best-effort persistence only
+    }
+  }
+
+  const readingIsTarget = readingLang === lesson.targetLanguage;
+  /** The story body in the chosen reading language. */
+  const bodyText = (s: StorySentence) => (readingIsTarget ? s.text : s.translation);
+  /** The other language, shown on tap and via the globe button. */
+  const revealText = (s: StorySentence) => (readingIsTarget ? s.translation : s.text);
+
   const sentenceMap = useMemo(() => {
     const m = new Map<string, StorySentence>();
     lesson.paragraphs.flat().forEach((s) => m.set(s.id, s));
@@ -56,7 +87,10 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     return m;
   }, [lesson]);
 
-  const fullText = useMemo(() => lesson.paragraphs.flat().map((s) => s.text).join(" "), [lesson]);
+  const fullText = useMemo(
+    () => lesson.paragraphs.flat().map((s) => (readingIsTarget ? s.text : s.translation)).join(" "),
+    [lesson, readingIsTarget],
+  );
 
   function handleListen() {
     if (speaking) {
@@ -64,7 +98,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       setSpeaking(false);
       return;
     }
-    speak(fullText, lesson.targetLanguage);
+    speak(fullText, readingLang);
     setSpeaking(true);
     // The Web Speech API's onend event isn't reliable enough across browsers
     // to depend on here, so we clear the "speaking" state after a rough
@@ -76,10 +110,13 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   /** Resolve the best available translation for a free selection. */
   function resolvePhrase(text: string, sentenceIds: string[]): { translation: string | null; term: VocabTerm | null } {
-    const term = glossary.get(normalizeWord(text)) ?? null;
+    const term = readingIsTarget ? glossary.get(normalizeWord(text)) ?? null : null;
     if (term) return { translation: term.translation, term };
     const joined = sentenceIds
-      .map((id) => sentenceMap.get(id)?.translation)
+      .map((id) => {
+        const s = sentenceMap.get(id);
+        return s ? revealText(s) : undefined;
+      })
       .filter(Boolean)
       .join(" ");
     return { translation: joined || null, term: null };
@@ -90,7 +127,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     if ((window.getSelection()?.toString() ?? "").trim().length > 0) return;
     const key = normalizeWord(rawWord);
     if (!key) return;
-    const term = glossary.get(key) ?? null;
+    const term = readingIsTarget ? glossary.get(key) ?? null : null;
     setSheet({
       title: rawWord.replace(/[^a-z가-힣0-9']/gi, ""),
       translation: term?.translation ?? null,
@@ -149,6 +186,10 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
         : hasPhrase(lesson.slug, sheet.title)
     : false;
 
+  // A plain word with no glossary entry has nothing meaningful to save; the
+  // sentence view and real vocab terms / phrases still do.
+  const canAddToPlan = !!sheet && (sentenceView || !!sheet.term || sheet.isPhrase);
+
   function addSheetToPlan() {
     if (!sheet) return;
     if (sentenceView && sheet.sentence) {
@@ -174,17 +215,37 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   return (
     <section className="px-5 py-6">
-      <div className="mb-4 flex items-center justify-between">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h2 className="font-serif text-2xl font-semibold text-charcoal">{t("story")}</h2>
-        {speechAvailable && (
-          <button
-            onClick={handleListen}
-            className="inline-flex items-center gap-1.5 rounded-full border border-rose-soft/40 bg-white/70 px-3.5 py-1.5 text-xs font-medium text-rose transition hover:bg-rose-light/30"
+        <div className="flex items-center gap-2">
+          <div
+            role="group"
+            aria-label={t("readingLanguage")}
+            className="inline-flex rounded-full border border-rose-soft/40 bg-white/70 p-0.5 text-xs font-medium"
           >
-            {speaking ? <StopIcon className="h-3.5 w-3.5" /> : <SpeakerIcon className="h-3.5 w-3.5" />}
-            {speaking ? t("stop") : t("listen")}
-          </button>
-        )}
+            {([lesson.targetLanguage, lesson.nativeLanguage] as LangCode[]).map((lc) => (
+              <button
+                key={lc}
+                onClick={() => chooseReadingLang(lc)}
+                aria-pressed={readingLang === lc}
+                className={`rounded-full px-2.5 py-1 transition ${
+                  readingLang === lc ? "bg-rose text-cream" : "text-charcoal/50 hover:text-charcoal/80"
+                }`}
+              >
+                {LANG_LABEL[lc]}
+              </button>
+            ))}
+          </div>
+          {speechAvailable && (
+            <button
+              onClick={handleListen}
+              className="inline-flex items-center gap-1.5 rounded-full border border-rose-soft/40 bg-white/70 px-3.5 py-1.5 text-xs font-medium text-rose transition hover:bg-rose-light/30"
+            >
+              {speaking ? <StopIcon className="h-3.5 w-3.5" /> : <SpeakerIcon className="h-3.5 w-3.5" />}
+              {speaking ? t("stop") : t("listen")}
+            </button>
+          )}
+        </div>
       </div>
 
       <p className="mb-5 text-xs italic text-charcoal/40">{t("readerHint")}</p>
@@ -196,7 +257,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               const highlighted = isSentenceHighlighted(lesson.slug, sentence.id);
               return (
                 <span key={sentence.id} data-sentence-id={sentence.id} className="mr-1">
-                  {sentence.text.split(/(\s+)/).map((chunk, i) =>
+                  {bodyText(sentence).split(/(\s+)/).map((chunk, i) =>
                     chunk.trim() === "" ? (
                       <span key={i}>{chunk}</span>
                     ) : (
@@ -220,7 +281,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
                   </button>
                   {openSentenceId === sentence.id && (
                     <span className="mt-1 block rounded-xl2 bg-sage/30 px-3 py-2 font-sans text-sm not-italic leading-6 text-charcoal/80">
-                      {sentence.translation}
+                      {revealText(sentence)}
                     </span>
                   )}
                 </span>
@@ -253,7 +314,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
           >
             <div className="mb-1 flex items-start justify-between gap-3">
               <span className="font-serif text-lg font-semibold text-charcoal">
-                {sentenceView && sheet.sentence ? sheet.sentence.text : sheet.title}
+                {sentenceView && sheet.sentence ? bodyText(sheet.sentence) : sheet.title}
               </span>
               <button
                 onClick={() => setSheet(null)}
@@ -285,11 +346,21 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               </div>
             )}
 
-            <p className="text-charcoal/70">
-              {sentenceView && sheet.sentence
-                ? sheet.sentence.translation
-                : sheet.translation ?? sheet.sentence?.translation ?? t("translationOf")}
-            </p>
+            {sentenceView && sheet.sentence ? (
+              <p className="text-charcoal/70">{revealText(sheet.sentence)}</p>
+            ) : sheet.term ? (
+              <>
+                <p className="text-xs font-medium uppercase tracking-wide text-rose/60">
+                  {sheet.term.partOfSpeech}
+                  {sheet.term.reading ? ` · ${sheet.term.reading}` : ""}
+                </p>
+                <p className="text-charcoal/70">{sheet.term.translation}</p>
+              </>
+            ) : sheet.isPhrase ? (
+              <p className="text-charcoal/70">{sheet.translation ?? t("translationOf")}</p>
+            ) : (
+              <p className="text-sm text-charcoal/50">{t("noWordEntry")}</p>
+            )}
             {!sentenceView && sheet.term?.example && (
               <p className="mt-2 text-sm italic text-charcoal/55">
                 {sheet.term.example}
@@ -298,18 +369,20 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
             )}
 
             <div className="mt-4 flex flex-wrap gap-2">
-              <button
-                onClick={addSheetToPlan}
-                disabled={sheetInPlan}
-                className={`inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition ${
-                  sheetInPlan
-                    ? "border-sage-dark/50 bg-sage/40 text-charcoal/60"
-                    : "border-rose-soft/50 text-rose hover:bg-rose-light/30"
-                }`}
-              >
-                {sheetInPlan ? <CheckIcon className="h-3.5 w-3.5" /> : <PlusIcon className="h-3.5 w-3.5" />}
-                {sheetInPlan ? t("inStudyPlan") : t("addToStudyPlan")}
-              </button>
+              {canAddToPlan && (
+                <button
+                  onClick={addSheetToPlan}
+                  disabled={sheetInPlan}
+                  className={`inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition ${
+                    sheetInPlan
+                      ? "border-sage-dark/50 bg-sage/40 text-charcoal/60"
+                      : "border-rose-soft/50 text-rose hover:bg-rose-light/30"
+                  }`}
+                >
+                  {sheetInPlan ? <CheckIcon className="h-3.5 w-3.5" /> : <PlusIcon className="h-3.5 w-3.5" />}
+                  {sheetInPlan ? t("inStudyPlan") : t("addToStudyPlan")}
+                </button>
+              )}
 
               {sheet.sentence && (
                 <button
