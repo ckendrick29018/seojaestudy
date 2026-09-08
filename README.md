@@ -171,17 +171,17 @@ src/
     api/webhooks/paddle/      Paddle webhook handler
   components/
     providers/                Language/Auth/Progress providers
-    layout/                   SiteHeader
-    home/                     LessonCard
+    layout/                   SiteHeader, MenuDrawer (slide-over nav)
+    home/                     LessonCard, ClassicsSection
     lesson/                   LessonHero, StoryReader, ComprehensionCheck,
                               VocabFlashcards, SummaryBox, LessonView,
                               LessonPaywall, ...
-    auth/                     GoogleSignInButton, EmailAuthForm, SignOutButton
+    auth/                     GoogleSignInButton, EmailAuthForm
     billing/                  PaddleCheckout, SubscribeView, CancelSubscriptionButton
     ui/                       Badge, Button, SectionHeading, icons
   lib/
     types.ts                  Lesson / VocabTerm / ComprehensionQuestion types
-    data/lessons.ts            the two sample lessons (add more here)
+    data/lessons.ts            the sample lesson library (add more here)
     i18n.ts                    UI string dictionary (EN/KO)
     feedback.ts                heuristic "AI" feedback (swap for a real call)
     speech.ts                  Web Speech API helpers

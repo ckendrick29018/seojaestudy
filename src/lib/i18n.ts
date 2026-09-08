@@ -14,6 +14,11 @@ export const dict = {
   },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
   minRead: { en: "min read", ko: "분 소요" },
+
+  // --- Header / menu drawer ---
+  menu: { en: "Menu", ko: "메뉴" },
+  close: { en: "Close", ko: "닫기" },
+  signedInAs: { en: "Signed in as", ko: "로그인 계정" },
   story: { en: "The Story", ko: "이야기" },
   listen: { en: "Listen", ko: "듣기" },
   stop: { en: "Stop", ko: "정지" },
