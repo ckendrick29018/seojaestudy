@@ -124,7 +124,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 14 | The Frog Prince | Brothers Grimm (1863) | 2591 | A1 | whole | ☐ |
 | 15 | The Little Mermaid | Hans Christian Andersen (1875) | 1597 | B1 | trimmed to 1–2 scenes | ☐ |
 | 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
-| 17 | The Emperor's New Clothes | Hans Christian Andersen (1875) | 1597 | A1 | whole | ☐ |
+| 17 | The Emperor's New Clothes | Hans Christian Andersen (1875) | 1597 | A1 | whole (simplified retelling, 17 sentences) | ☑ |
 | 18 | The Princess and the Pea | Hans Christian Andersen (1875) | 1597 | A1 | whole | ☐ |
 | 19 | Beauty and the Beast | Mme de Beaumont / Lang | 503 | A2 | trimmed (Blue Fairy Book) | ☐ |
 | 20 | East of the Sun and West of the Moon | Asbjørnsen & Moe / Lang | 503 | B1 | trimmed | ☐ |
@@ -200,22 +200,25 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (14):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (15):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
   (row 27), Jane Eyre Ch. 1 (row 33), The Selfish Giant (row 8), The Necklace
   (row 6), A Christmas Carol Stave 1 (row 22), The Lady with the Dog Part I
   (row 26), Wuthering Heights Ch. 3 (row 35), The Secret Garden Ch. 1
-  (row 49). Follow their shape in `src/lib/data/lessons.ts`.
-- Levels on the shelf now: A1 ×2 (Cinderella, The Selfish Giant), A2 ×5
-  (Story of an Hour, Anne, Little Women, Ugly Duckling, The Secret Garden),
-  B1 ×4 (Gift of the Magi, Pride and Prejudice, The Necklace, A Christmas
-  Carol), B2 ×3 (Jane Eyre, The Lady with the Dog, Wuthering Heights). A1 is
-  now clearly the thinnest band, and both A1 entries are Grimm/Wilde fairy
-  tales — a fresh A1 with a different flavour would balance the shelf best.
-- Good next lessons to build: **The Emperor's New Clothes** (row 17, A1 — a
-  short, funny Andersen tale; varies the A1 tone from Cinderella / the
-  Giant), **Alice's Adventures in Wonderland Ch. 1** (row 23, A2 — "Down the
-  Rabbit-Hole", a non-fairy-tale A2), **Pride and Prejudice Ch. 34** (row 28,
-  B2 — Darcy's first proposal). The backlog has no true non-fairy-tale A1, so
-  the realistic A1 picks are the shorter Andersen/Grimm tales.
+  (row 49), The Emperor's New Clothes (row 17). Follow their shape in
+  `src/lib/data/lessons.ts`. Every live lesson also has pre-generated
+  narration audio — after adding one, run `npm run audio -- --lesson <slug>`
+  and commit `public/audio/` + `src/lib/audio-manifest.json` (see
+  `scripts/README.md`).
+- Levels on the shelf now: A1 ×3 (Cinderella, The Selfish Giant, The
+  Emperor's New Clothes), A2 ×5 (Story of an Hour, Anne, Little Women, Ugly
+  Duckling, The Secret Garden), B1 ×4 (Gift of the Magi, Pride and Prejudice,
+  The Necklace, A Christmas Carol), B2 ×3 (Jane Eyre, The Lady with the Dog,
+  Wuthering Heights). B2 and A1 are now the thinnest at 3 — and A1/A2 are
+  still all fairy tales or gentle domestic fiction.
+- Good next lessons to build: **Pride and Prejudice Ch. 34** (row 28, B2 —
+  Darcy's first proposal; grows the thin B2 band and there's already a P&P
+  cover/voice to echo), **Alice's Adventures in Wonderland Ch. 1** (row 23,
+  A2 — "Down the Rabbit-Hole", adds Lewis Carroll and a non-fairy-tale A2),
+  **The Happy Prince** (row 7, A2 — Wilde, if a gentler tale is wanted).

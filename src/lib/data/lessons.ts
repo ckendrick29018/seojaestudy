@@ -49,6 +49,9 @@ import type { Lesson } from "../types";
  *  - "The Secret Garden" is a simplified retelling of Chapter 1 of Frances
  *    Hodgson Burnett's novel (first published 1911, Project Gutenberg #113),
  *    long in the public domain.
+ *  - "The Emperor's New Clothes" is a simplified retelling of Hans Christian
+ *    Andersen's fairy tale "Keiserens nye Klæder" (first published 1837,
+ *    Project Gutenberg #1597), long in the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -3261,6 +3264,214 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Searchers find the forgotten child in the empty house, and with her parents and Ayah gone, Mary is sent to live with an uncle she has never met in England.",
+      },
+    ],
+  },
+  {
+    slug: "the-emperors-new-clothes",
+    title: "The Emperor's New Clothes",
+    titleTranslation: "벌거벗은 임금님",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "👑",
+    coverImage: "/covers/the-emperors-new-clothes.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Emperor's New Clothes\" (\"Keiserens nye Klæder\", first published 1837; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the two men said about their cloth and why no one admitted they could not see it.",
+    paragraphs: [
+      [
+        {
+          id: "enc-1",
+          text: "Once there was an emperor who loved fine clothes more than anything.",
+          translation: "옛날에 무엇보다 좋은 옷을 사랑하는 황제가 있었어요.",
+        },
+        {
+          id: "enc-2",
+          text: "One day two men came to his city and said, \"We are weavers.\"",
+          translation: "어느 날 두 남자가 그의 도시에 와서 \"우리는 베 짜는 사람입니다.\"라고 말했어요.",
+        },
+        {
+          id: "enc-3",
+          text: "\"We can make magic cloth,\" they said. \"A stupid person cannot see it, and a person who is bad at their job cannot see it either.\"",
+          translation:
+            "\"우리는 마법의 천을 만들 수 있어요.\" 그들이 말했어요. \"어리석은 사람은 그 천을 볼 수 없고, 자기 일을 잘 못하는 사람도 볼 수 없어요.\"",
+        },
+      ],
+      [
+        {
+          id: "enc-4",
+          text: "The emperor thought, \"With clothes like that, I can find out who in my land is clever and who is stupid.\"",
+          translation:
+            "황제는 생각했어요. \"그런 옷이 있으면, 내 나라에서 누가 똑똑하고 누가 어리석은지 알아낼 수 있겠구나.\"",
+        },
+        {
+          id: "enc-5",
+          text: "He gave the two men lots of gold, and they started to work.",
+          translation: "그는 두 남자에게 많은 금을 주었고, 그들은 일을 시작했어요.",
+        },
+        {
+          id: "enc-6",
+          text: "But their looms were empty; they asked for silk and fine thread, and hid it all in their bags.",
+          translation:
+            "하지만 그들의 베틀은 비어 있었어요. 그들은 비단과 고운 실을 달라고 한 뒤, 그것을 모두 자기 가방에 숨겼어요.",
+        },
+      ],
+      [
+        {
+          id: "enc-7",
+          text: "After a few days the emperor sent his honest old minister to look at the cloth.",
+          translation: "며칠 뒤 황제는 정직한 늙은 대신을 보내 그 천을 보게 했어요.",
+        },
+        {
+          id: "enc-8",
+          text: "The old man stared at the empty loom and saw nothing. \"Am I stupid?\" he thought. \"Am I bad at my job?\"",
+          translation:
+            "늙은 대신은 빈 베틀을 빤히 쳐다보았지만 아무것도 보이지 않았어요. \"내가 어리석은 걸까?\" 그가 생각했어요. \"내가 일을 잘 못하는 걸까?\"",
+        },
+        {
+          id: "enc-9",
+          text: "He was afraid to tell the truth, so he said, \"Oh, how beautiful! What lovely colours!\"",
+          translation:
+            "그는 사실대로 말하기가 두려워서, \"오, 정말 아름답군요! 색깔이 참 곱네요!\"라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "enc-10",
+          text: "Soon the whole city was talking about the emperor's wonderful new cloth.",
+          translation: "곧 도시 전체가 황제의 멋진 새 천에 대해 이야기했어요.",
+        },
+        {
+          id: "enc-11",
+          text: "Then the emperor went to see it himself, with his finest officers.",
+          translation: "그러자 황제는 가장 훌륭한 신하들을 데리고 직접 그것을 보러 갔어요.",
+        },
+        {
+          id: "enc-12",
+          text: "He looked and looked, but he saw nothing at all. \"I must not say so,\" he thought, and he said, \"Yes, it is very fine.\"",
+          translation:
+            "그는 보고 또 보았지만 아무것도 보이지 않았어요. \"그렇게 말하면 안 되지.\" 그가 생각하고는 \"그래, 아주 훌륭하구나.\"라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "enc-13",
+          text: "When the cloth was \"ready\", the two men helped the emperor put on his new clothes.",
+          translation: "천이 '다 되자', 두 남자는 황제가 새 옷을 입도록 도왔어요.",
+        },
+        {
+          id: "enc-14",
+          text: "\"Now walk through the city,\" they said, \"so all your people can see them.\"",
+          translation: "\"이제 도시를 걸어 보세요.\" 그들이 말했어요. \"그러면 모든 백성이 그 옷을 볼 수 있어요.\"",
+        },
+        {
+          id: "enc-15",
+          text: "So the emperor walked down the street with no clothes on, and everyone called out, \"How wonderful! What a beautiful suit!\"",
+          translation:
+            "그래서 황제는 아무 옷도 입지 않은 채 거리를 걸었고, 모두가 \"정말 멋지다! 참 아름다운 옷이야!\"라고 외쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "enc-16",
+          text: "Then a little child said in a loud, clear voice, \"But he has nothing on!\"",
+          translation: "그때 한 어린아이가 크고 또렷한 목소리로 말했어요. \"그런데 임금님은 아무것도 안 입었잖아요!\"",
+        },
+        {
+          id: "enc-17",
+          text: "Soon everyone was saying it, and the emperor knew it was true — but he lifted his head higher and walked on to the end.",
+          translation:
+            "곧 모두가 그렇게 말했고, 황제도 그것이 사실임을 알았어요. 하지만 그는 고개를 더 높이 들고 끝까지 걸어갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "enc-v1",
+        term: "weaver",
+        partOfSpeech: "noun",
+        translation: "베 짜는 사람, 직조공",
+        example: "The two weavers said their cloth was magic.",
+        exampleTranslation: "두 직조공은 자기들의 천이 마법이라고 말했어요.",
+      },
+      {
+        id: "enc-v2",
+        term: "cloth",
+        partOfSpeech: "noun",
+        translation: "천, 옷감",
+        example: "The magic cloth was not really there at all.",
+        exampleTranslation: "그 마법의 천은 사실 전혀 거기에 없었어요.",
+      },
+      {
+        id: "enc-v3",
+        term: "loom",
+        partOfSpeech: "noun",
+        translation: "베틀, 직조기",
+        example: "They sat at the loom and pretended to weave.",
+        exampleTranslation: "그들은 베틀에 앉아 베를 짜는 척했어요.",
+      },
+      {
+        id: "enc-v4",
+        term: "honest",
+        partOfSpeech: "adjective",
+        translation: "정직한, 솔직한",
+        example: "The honest old minister did not want to lie.",
+        exampleTranslation: "정직한 늙은 대신은 거짓말을 하고 싶지 않았어요.",
+      },
+      {
+        id: "enc-v5",
+        term: "stare",
+        partOfSpeech: "verb",
+        translation: "빤히 쳐다보다",
+        example: "He could only stare at the empty wooden frame.",
+        exampleTranslation: "그는 그저 텅 빈 나무 틀을 빤히 쳐다볼 수밖에 없었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "enc-q1",
+        prompt: "What did the two men say was special about their cloth?",
+        options: [
+          "It could change colour in the sunlight.",
+          "Only the emperor would ever be allowed to wear it.",
+          "A stupid person, or someone bad at their job, could not see it.",
+          "It would keep the wearer warm through any winter.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The men claimed the cloth was invisible to anyone who was stupid or not good at their job — so no one dared admit they saw nothing on the loom.",
+      },
+      {
+        id: "enc-q2",
+        prompt: "Why did the old minister praise the cloth when he could see nothing?",
+        options: [
+          "He was afraid people would think he was stupid or bad at his job.",
+          "He could actually see a faint pattern in the threads.",
+          "The two men had promised him a share of the gold.",
+          "The emperor had ordered him to praise it.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Seeing nothing on the loom, the minister feared it meant he was stupid or unfit for his post, so he pretended to admire the colours instead of telling the truth.",
+      },
+      {
+        id: "enc-q3",
+        prompt: "Who finally said out loud that the emperor was wearing nothing?",
+        options: [
+          "The honest old minister.",
+          "One of the two weavers.",
+          "A little child in the crowd.",
+          "The emperor himself.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "During the procession a small child called out that the emperor had nothing on; the crowd soon took up the cry, but the emperor proudly finished his walk anyway.",
       },
     ],
   },
