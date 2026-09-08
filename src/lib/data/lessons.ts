@@ -43,6 +43,9 @@ import type { Lesson } from "../types";
  *    Chekhov's short story "Дама с собачкой" (first published 1899; the
  *    English text on Project Gutenberg, #13415, is Constance Garnett's 1917
  *    translation), long in the public domain.
+ *  - "Wuthering Heights" is a simplified retelling of Chapter 3 of Emily
+ *    Brontë's novel (first published 1847, Project Gutenberg #768), long in
+ *    the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -2821,6 +2824,223 @@ export const lessons: Lesson[] = [
         correctIndex: 3,
         explanation:
           "After talking over dinner they simply part for the night; back in his room Gurov reflects on how young and shy she seems, thinks there is \"something pathetic\" about her, and feels sure they will meet the next day.",
+      },
+    ],
+  },
+  {
+    slug: "wuthering-heights",
+    title: "Wuthering Heights",
+    titleTranslation: "폭풍의 언덕",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Emily Brontë (1818–1848)",
+    coverEmoji: "🪟",
+    coverImage: "/covers/wuthering-heights.svg",
+    source:
+      "Adapted from Chapter 3 of Emily Brontë's novel \"Wuthering Heights\" (first published 1847, Project Gutenberg #768), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what Lockwood found scratched on the bed and written in the old books, and what happened at the window in his dream.",
+    paragraphs: [
+      [
+        {
+          id: "wh-1",
+          text: "Snow had shut me in at Wuthering Heights for the night, and a servant quietly led me to a bedroom that her master did not want anyone to use.",
+          translation:
+            "눈에 갇혀 그날 밤 나는 워더링 하이츠에서 묵게 되었고, 하녀가 주인이 아무도 쓰지 못하게 하던 침실로 나를 조용히 안내했어요.",
+        },
+        {
+          id: "wh-2",
+          text: "In it stood an old bed of dark oak, with tall panels that closed like the sides of a box around whoever lay inside.",
+          translation:
+            "그 방에는 검은 참나무로 만든 낡은 침대가 있었는데, 높은 판벽이 상자의 옆면처럼 그 안에 누운 사람을 에워싸며 닫히게 되어 있었어요.",
+        },
+        {
+          id: "wh-3",
+          text: "I set my candle on the wide ledge, and saw that the paint there was covered, over and over, with one name scratched into it: Catherine.",
+          translation:
+            "나는 촛불을 넓은 창턱 위에 올려놓았고, 그 위의 칠이 온통 한 이름으로 긁혀 새겨져 있는 것을 보았어요. 캐서린이라는 이름이었어요.",
+        },
+      ],
+      [
+        {
+          id: "wh-4",
+          text: "The name was written three ways — Catherine Earnshaw, Catherine Heathcliff, Catherine Linton — as if the girl who wrote it could not decide who she was.",
+          translation:
+            "그 이름은 세 가지로 적혀 있었어요. 캐서린 언쇼, 캐서린 히스클리프, 캐서린 린턴 — 마치 그것을 쓴 소녀가 자기가 누구인지 정하지 못한 것처럼요.",
+        },
+        {
+          id: "wh-5",
+          text: "A few old books lay on the ledge, and their margins were full of faded handwriting: a kind of diary, kept years before by a girl named Catherine Earnshaw.",
+          translation:
+            "창턱에는 낡은 책 몇 권이 놓여 있었고, 그 여백은 색이 바랜 손글씨로 가득했어요. 여러 해 전에 캐서린 언쇼라는 소녀가 쓴 일기 같은 것이었어요.",
+        },
+        {
+          id: "wh-6",
+          text: "I read the small, cramped lines until they blurred before my eyes, and then I fell asleep over the mouldy pages.",
+          translation:
+            "나는 작고 빽빽한 글줄이 눈앞에서 흐려질 때까지 읽다가, 곰팡이 낀 책장 위에 엎드려 잠이 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "wh-7",
+          text: "A fir branch was tapping and scraping at the window in the wind, and in my dream I got up to stop the noise.",
+          translation:
+            "전나무 가지 하나가 바람에 창문을 두드리며 긁고 있었고, 꿈속에서 나는 그 소리를 멈추려고 일어났어요.",
+        },
+        {
+          id: "wh-8",
+          text: "I thought I broke the glass and reached out to seize the branch, but my fingers closed instead on a small, ice-cold hand.",
+          translation:
+            "나는 유리를 깨고 손을 뻗어 그 가지를 붙잡았다고 생각했어요. 그런데 내 손가락에 잡힌 것은 작고 얼음장처럼 차가운 손이었어요.",
+        },
+        {
+          id: "wh-9",
+          text: "A voice sobbed, \"Let me in — let me in!\", and a child's face, white with cold, looked at me through the dark glass.",
+          translation:
+            "어떤 목소리가 \"들여보내 줘 — 들여보내 줘!\" 하고 흐느꼈고, 추위로 하얗게 질린 아이의 얼굴이 어두운 유리창 너머로 나를 바라보고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "wh-10",
+          text: "\"Who are you?\" I asked, pulling to get free. \"Catherine Linton,\" it answered. \"I have come home. I lost my way on the moor.\"",
+          translation:
+            "\"너는 누구냐?\" 내가 벗어나려고 몸을 당기며 물었어요. \"캐서린 린턴이에요.\" 그것이 대답했어요. \"집에 돌아왔어요. 황야에서 길을 잃었어요.\"",
+        },
+        {
+          id: "wh-11",
+          text: "The little fingers held on, and the sobbing did not stop, and a helpless terror rose in me.",
+          translation:
+            "작은 손가락들은 놓지 않았고, 흐느낌도 그치지 않았으며, 어찌할 수 없는 공포가 내 안에서 치밀어 올랐어요.",
+        },
+        {
+          id: "wh-12",
+          text: "In my fear I pulled the thin wrist hard against the broken glass until the hand let go; then I piled the books against the hole and stopped my ears.",
+          translation:
+            "두려움에 나는 그 가는 손목을 깨진 유리에 세게 밀어붙여 손이 놓을 때까지 잡아당겼어요. 그러고는 그 구멍에 책을 쌓아 막고 두 귀를 틀어막았어요.",
+        },
+      ],
+      [
+        {
+          id: "wh-13",
+          text: "My own cry woke me — and it had not been silent, for I heard quick steps outside, and Heathcliff came in holding a light, his hand shaking.",
+          translation:
+            "내 비명 소리에 내가 깨어났는데, 그 소리는 조용하지 않았던 모양이었어요. 밖에서 빠른 발소리가 들리더니, 히스클리프가 등불을 든 채 손을 떨며 들어왔어요.",
+        },
+        {
+          id: "wh-14",
+          text: "Half ashamed, I told him the room was haunted, and that a ghost calling herself \"Catherine Linton, or Earnshaw\" had come to the window.",
+          translation:
+            "나는 반쯤 부끄러워하며 그에게 이 방에 유령이 나온다고, \"캐서린 린턴, 아니 언쇼\"라고 자기를 부르는 유령이 창가에 왔었다고 말했어요.",
+        },
+        {
+          id: "wh-15",
+          text: "To my astonishment he sank onto the bed and fought to control some strong feeling, then told me in a broken voice to leave the room.",
+          translation:
+            "놀랍게도 그는 침대에 주저앉아 어떤 북받치는 감정을 억누르려 애쓰더니, 갈라진 목소리로 방에서 나가 달라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "wh-16",
+          text: "As I went out I looked back and saw him climb onto the bed, wrench the window open, and burst into tears.",
+          translation:
+            "내가 나가면서 뒤를 돌아보니, 그는 침대 위로 올라가 창문을 홱 열어젖히고는 왈칵 울음을 터뜨렸어요.",
+        },
+        {
+          id: "wh-17",
+          text: "\"Come in! Come in!\" he sobbed. \"Cathy, do come. Oh, do — once more! My heart's darling, hear me this time!\" But only the snow and the wind replied.",
+          translation:
+            "\"들어와! 들어와!\" 그가 흐느꼈어요. \"캐시, 제발 와 줘. 아, 제발 — 한 번만 더! 내 사랑, 이번엔 내 말을 들어 줘!\" 하지만 대답하는 것은 눈과 바람뿐이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wh-v1",
+        term: "haunted",
+        partOfSpeech: "adjective",
+        translation: "유령이 나오는, 귀신 들린",
+        example: "Lockwood was sure the cold little room was haunted.",
+        exampleTranslation: "록우드는 그 춥고 작은 방에 유령이 나온다고 확신했어요.",
+      },
+      {
+        id: "wh-v2",
+        term: "sob",
+        partOfSpeech: "verb",
+        translation: "흐느껴 울다",
+        example: "A voice at the window sobbed that it wanted to be let in.",
+        exampleTranslation: "창가의 어떤 목소리가 들여보내 달라고 흐느꼈어요.",
+      },
+      {
+        id: "wh-v3",
+        term: "seize",
+        partOfSpeech: "verb",
+        translation: "와락 붙잡다, 움켜쥐다",
+        example: "He reached through the glass to seize the branch, but caught a cold hand instead.",
+        exampleTranslation: "그는 유리 너머로 손을 뻗어 나뭇가지를 붙잡으려 했지만, 대신 차가운 손을 잡았어요.",
+      },
+      {
+        id: "wh-v4",
+        term: "moor",
+        partOfSpeech: "noun",
+        translation: "황야, 황무지 (히스가 자라는 넓은 들판)",
+        example: "The ghost child said she had lost her way on the moor.",
+        exampleTranslation: "유령 아이는 황야에서 길을 잃었다고 말했어요.",
+      },
+      {
+        id: "wh-v5",
+        term: "wrench",
+        partOfSpeech: "verb",
+        translation: "홱 잡아당기다, 비틀어 열다",
+        example: "Heathcliff climbed onto the bed and wrenched the window open.",
+        exampleTranslation: "히스클리프는 침대 위로 올라가 창문을 홱 열어젖혔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wh-q1",
+        prompt: "Why was Lockwood spending the night in that particular bedroom?",
+        options: [
+          "Heathcliff had given him the largest and warmest guest room.",
+          "A servant had quietly put him in a room her master kept unused.",
+          "He had asked to sleep close to the kitchen fire.",
+          "It was the only room whose window would still close.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Snowed in for the night, Lockwood was slipped into a disused, oak-panelled room by a servant, even though Heathcliff did not want anyone sleeping there.",
+      },
+      {
+        id: "wh-q2",
+        prompt: "In Lockwood's dream, what did he take hold of when he reached through the broken window?",
+        options: [
+          "The fir branch, which he pulled inside and snapped off.",
+          "A small, ice-cold hand belonging to a child who begged to be let in.",
+          "An iron latch that had frozen the window shut.",
+          "Nothing — the window turned out to be nailed over with boards.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Instead of the branch, Lockwood's fingers closed on a little ice-cold hand; a sobbing voice — \"Catherine Linton\" — begged to come in, saying she had lost her way on the moor.",
+      },
+      {
+        id: "wh-q3",
+        prompt: "How does Heathcliff behave after Lockwood tells him about the ghost at the window?",
+        options: [
+          "He laughs it off as a traveller's foolish nightmare.",
+          "He calmly examines the window and locks it for the night.",
+          "He is overcome with feeling, sends Lockwood out, then throws the window open and calls to Catherine.",
+          "He accuses Lockwood of inventing the story to leave early.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Heathcliff struggles with an emotion he cannot hide, orders Lockwood from the room, then climbs onto the bed, wrenches the window open, and sobs for Cathy to come to him.",
       },
     ],
   },
