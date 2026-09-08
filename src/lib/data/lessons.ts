@@ -46,6 +46,9 @@ import type { Lesson } from "../types";
  *  - "Wuthering Heights" is a simplified retelling of Chapter 3 of Emily
  *    Brontë's novel (first published 1847, Project Gutenberg #768), long in
  *    the public domain.
+ *  - "The Secret Garden" is a simplified retelling of Chapter 1 of Frances
+ *    Hodgson Burnett's novel (first published 1911, Project Gutenberg #113),
+ *    long in the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -3041,6 +3044,223 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Heathcliff struggles with an emotion he cannot hide, orders Lockwood from the room, then climbs onto the bed, wrenches the window open, and sobs for Cathy to come to him.",
+      },
+    ],
+  },
+  {
+    slug: "the-secret-garden",
+    title: "The Secret Garden",
+    titleTranslation: "비밀의 화원",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "🗝️",
+    coverImage: "/covers/the-secret-garden.svg",
+    source:
+      "Adapted from Chapter 1 of Frances Hodgson Burnett's novel \"The Secret Garden\" (first published 1911, Project Gutenberg #113), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Mary was left alone in the house in India and what happened to her at the end of the chapter.",
+    paragraphs: [
+      [
+        {
+          id: "tsg-1",
+          text: "Mary Lennox lived in India with her mother and father, but they did not want her, so she almost never saw them.",
+          translation:
+            "메리 레녹스는 인도에서 어머니, 아버지와 함께 살았지만, 부모님은 메리를 원하지 않아서 메리는 부모님을 거의 보지 못했어요.",
+        },
+        {
+          id: "tsg-2",
+          text: "An Indian servant she called her Ayah took care of her and gave her everything she asked for.",
+          translation:
+            "메리가 아야라고 부르던 인도인 하인이 메리를 돌봤고, 메리가 달라고 하는 것은 무엇이든 다 주었어요.",
+        },
+        {
+          id: "tsg-3",
+          text: "Because no one ever said no to her, Mary grew up cross, selfish, and unkind.",
+          translation:
+            "아무도 메리에게 안 된다고 말하지 않아서, 메리는 짜증이 많고 이기적이고 못된 아이로 자랐어요.",
+        },
+      ],
+      [
+        {
+          id: "tsg-4",
+          text: "One very hot morning Mary woke up and found a strange servant beside her bed instead of her Ayah.",
+          translation:
+            "몹시 더운 어느 날 아침, 메리는 잠에서 깨어 자기 아야 대신 낯선 하인이 침대 옆에 있는 것을 발견했어요.",
+        },
+        {
+          id: "tsg-5",
+          text: "\"Where is my Ayah?\" she asked, but the woman only looked frightened and hurried away.",
+          translation:
+            "\"내 아야는 어디 있어?\" 하고 메리가 물었지만, 그 여자는 겁먹은 얼굴로 서둘러 자리를 떠나기만 했어요.",
+        },
+        {
+          id: "tsg-6",
+          text: "All through the house people were whispering, and Mary's mother stood in the doorway, talking in a low, scared voice to a young officer.",
+          translation:
+            "집 안 곳곳에서 사람들이 소곤거렸고, 메리의 어머니는 문간에 서서 젊은 장교에게 낮고 겁에 질린 목소리로 이야기하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "tsg-7",
+          text: "A terrible illness called cholera had come to the town, and people were dying very quickly.",
+          translation:
+            "콜레라라는 무서운 병이 그 마을에 들이닥쳤고, 사람들이 아주 빠르게 죽어 가고 있었어요.",
+        },
+        {
+          id: "tsg-8",
+          text: "That day the house filled with crying and running feet, and everyone forgot about Mary.",
+          translation:
+            "그날 집은 울음소리와 뛰어다니는 발소리로 가득 찼고, 모두가 메리를 잊어버렸어요.",
+        },
+        {
+          id: "tsg-9",
+          text: "She hid in her room, frightened and alone, and after a long time she cried herself to sleep.",
+          translation:
+            "메리는 무섭고 외로운 채로 방에 숨었고, 한참이 지난 뒤 울다가 잠이 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "tsg-10",
+          text: "When she woke, the house was completely silent — no voices, no footsteps, nothing at all.",
+          translation:
+            "잠에서 깼을 때, 집은 완전히 고요했어요. 말소리도, 발소리도, 아무것도 없었어요.",
+        },
+        {
+          id: "tsg-11",
+          text: "Mary did not know that the illness had taken almost everyone, and that the rest had run away.",
+          translation:
+            "메리는 그 병이 거의 모든 사람을 데려갔고 남은 사람들은 달아났다는 것을 알지 못했어요.",
+        },
+        {
+          id: "tsg-12",
+          text: "She only wondered who would feed her now, and who would be her new Ayah.",
+          translation:
+            "메리는 그저 이제 누가 자기에게 밥을 줄지, 누가 자기의 새 아야가 될지 궁금해할 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "tsg-13",
+          text: "She walked through the empty rooms and saw a small snake slide across the floor, the only living thing left.",
+          translation:
+            "메리는 텅 빈 방들을 지나 걸었고, 작은 뱀 한 마리가 바닥을 미끄러지듯 지나가는 것을 보았어요. 그것이 남아 있는 유일한 생명체였어요.",
+        },
+        {
+          id: "tsg-14",
+          text: "In the dining room a meal sat half eaten, the chairs pushed back as if people had jumped up in a hurry.",
+          translation:
+            "식당에는 반쯤 먹다 만 식사가 놓여 있었고, 의자들은 사람들이 급히 일어난 것처럼 뒤로 밀려나 있었어요.",
+        },
+        {
+          id: "tsg-15",
+          text: "Mary ate a little fruit and some biscuits, then went back to her room and fell asleep again.",
+          translation:
+            "메리는 과일과 비스킷을 조금 먹고, 다시 방으로 돌아가 또 잠이 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "tsg-16",
+          text: "At last some men came into the quiet house, and one of them cried, \"There is no one left — and here is a child everyone forgot!\"",
+          translation:
+            "마침내 몇몇 남자들이 그 조용한 집으로 들어왔고, 그중 한 명이 소리쳤어요. \"남은 사람이 아무도 없어 — 그런데 여기 모두가 잊어버린 아이가 있어!\"",
+        },
+        {
+          id: "tsg-17",
+          text: "Mary's mother, her father, and her Ayah were all gone, and the unwanted little girl was sent far away to live with an uncle in England.",
+          translation:
+            "메리의 어머니와 아버지, 그리고 아야는 모두 떠나 버렸고, 아무도 원하지 않던 그 어린 소녀는 멀리 영국에 있는 삼촌에게 보내졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tsg-v1",
+        term: "selfish",
+        partOfSpeech: "adjective",
+        translation: "이기적인",
+        example: "A selfish child thinks only about what she wants.",
+        exampleTranslation: "이기적인 아이는 자기가 원하는 것만 생각해요.",
+      },
+      {
+        id: "tsg-v2",
+        term: "whisper",
+        partOfSpeech: "verb",
+        translation: "속삭이다, 소곤거리다",
+        example: "The servants whispered so that the children would not hear.",
+        exampleTranslation: "하인들은 아이들이 듣지 못하도록 소곤거렸어요.",
+      },
+      {
+        id: "tsg-v3",
+        term: "frightened",
+        partOfSpeech: "adjective",
+        translation: "겁먹은, 무서워하는",
+        example: "The frightened woman hurried out of the room.",
+        exampleTranslation: "겁먹은 여자는 서둘러 방을 빠져나갔어요.",
+      },
+      {
+        id: "tsg-v4",
+        term: "silent",
+        partOfSpeech: "adjective",
+        translation: "고요한, 아무 소리도 없는",
+        example: "After everyone had gone, the house was silent.",
+        exampleTranslation: "모두가 떠난 뒤, 집은 고요했어요.",
+      },
+      {
+        id: "tsg-v5",
+        term: "unwanted",
+        partOfSpeech: "adjective",
+        translation: "원치 않는, 반갑지 않은",
+        example: "The unwanted little girl was sent away to England.",
+        exampleTranslation: "아무도 원하지 않던 그 어린 소녀는 영국으로 보내졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tsg-q1",
+        prompt: "Why did Mary hardly ever see her mother and father in India?",
+        options: [
+          "They were often away, working in another town.",
+          "Her parents did not want her, so her Ayah raised her instead.",
+          "She had been sent to a school far from home.",
+          "They were both ill in bed for most of her childhood.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mary's parents did not want a child, so she was handed to her Indian servant, the Ayah, and grew up spoiled and almost never with her family.",
+      },
+      {
+        id: "tsg-q2",
+        prompt: "Why did the house suddenly become silent?",
+        options: [
+          "Everyone had gone into town for a party.",
+          "The servants were resting through the hottest part of the day.",
+          "Cholera had killed or driven away almost everyone in the house.",
+          "Mary's family had quietly moved to a new home.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Cholera swept through the town; most of the household died and the rest fled in the panic, leaving Mary alone without anyone remembering she was there.",
+      },
+      {
+        id: "tsg-q3",
+        prompt: "How does the chapter end for Mary?",
+        options: [
+          "Her Ayah comes back and takes care of her again.",
+          "She stays in the house with one faithful servant.",
+          "Men find her alone and send her to an uncle in England.",
+          "Her uncle travels to India to bring her home himself.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Searchers find the forgotten child in the empty house, and with her parents and Ayah gone, Mary is sent to live with an uncle she has never met in England.",
       },
     ],
   },

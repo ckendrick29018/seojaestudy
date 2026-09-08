@@ -161,7 +161,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 46 | Emily of New Moon | L. M. Montgomery (1942) | 61236 | B1 | Ch. 1 — "the house in the hollow" | ☐ |
 | 47 | The Story Girl | L. M. Montgomery (1942) | 26273 | B1 | Ch. 1 — the orchard | ☐ |
 | 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — Glen "Notes" and gossip | ☐ |
-| 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" | ☐ |
+| 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" (simplified retelling, 17 sentences) | ☑ |
 | 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary | ☐ |
 | 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 — the diamond mines / the fall | ☐ |
@@ -200,22 +200,22 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (13):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (14):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
   (row 27), Jane Eyre Ch. 1 (row 33), The Selfish Giant (row 8), The Necklace
   (row 6), A Christmas Carol Stave 1 (row 22), The Lady with the Dog Part I
-  (row 26), Wuthering Heights Ch. 3 (row 35). Follow their shape in
-  `src/lib/data/lessons.ts`.
-- Levels on the shelf now: A1 ×2 (Cinderella, The Selfish Giant), A2 ×4
-  (Story of an Hour, Anne, Little Women, Ugly Duckling), B1 ×4 (Gift of the
-  Magi, Pride and Prejudice, The Necklace, A Christmas Carol), B2 ×3
-  (Jane Eyre, The Lady with the Dog, Wuthering Heights). The B2 band is
-  healthier now — A1 is the thinnest, and both A1 entries are fairy tales,
-  so a non-fairy-tale A1/A2 would balance the shelf best.
-- Good next lessons to build: **The Secret Garden Ch. 1** (row 49, A2 — a
-  non-fairy-tale A2), **The Emperor's New Clothes** (row 17, A1 — still a
-  fairy tale, but a short, funny one), **Alice's Adventures in Wonderland
-  Ch. 1** (row 23, A2 — "Down the Rabbit-Hole"), **Pride and Prejudice
-  Ch. 34** (row 28, B2 — Darcy's first proposal). All short, famous, and
-  easy to level.
+  (row 26), Wuthering Heights Ch. 3 (row 35), The Secret Garden Ch. 1
+  (row 49). Follow their shape in `src/lib/data/lessons.ts`.
+- Levels on the shelf now: A1 ×2 (Cinderella, The Selfish Giant), A2 ×5
+  (Story of an Hour, Anne, Little Women, Ugly Duckling, The Secret Garden),
+  B1 ×4 (Gift of the Magi, Pride and Prejudice, The Necklace, A Christmas
+  Carol), B2 ×3 (Jane Eyre, The Lady with the Dog, Wuthering Heights). A1 is
+  now clearly the thinnest band, and both A1 entries are Grimm/Wilde fairy
+  tales — a fresh A1 with a different flavour would balance the shelf best.
+- Good next lessons to build: **The Emperor's New Clothes** (row 17, A1 — a
+  short, funny Andersen tale; varies the A1 tone from Cinderella / the
+  Giant), **Alice's Adventures in Wonderland Ch. 1** (row 23, A2 — "Down the
+  Rabbit-Hole", a non-fairy-tale A2), **Pride and Prejudice Ch. 34** (row 28,
+  B2 — Darcy's first proposal). The backlog has no true non-fairy-tale A1, so
+  the realistic A1 picks are the shorter Andersen/Grimm tales.
