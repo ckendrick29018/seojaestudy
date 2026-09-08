@@ -61,6 +61,11 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   }, []);
 
   function chooseReadingLang(lang: LangCode) {
+    // Switching language mid-narration would leave stale audio playing.
+    if (speaking) {
+      stopSpeaking();
+      setSpeaking(false);
+    }
     setReadingLang(lang);
     try {
       window.localStorage.setItem("luminaread:reading-lang", lang);
@@ -68,6 +73,9 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       // best-effort persistence only
     }
   }
+
+  // Never leave narration playing after the reader unmounts.
+  useEffect(() => () => stopSpeaking(), []);
 
   const readingIsTarget = readingLang === lesson.targetLanguage;
   /** The story body in the chosen reading language. */
@@ -98,13 +106,15 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       setSpeaking(false);
       return;
     }
-    speak(fullText, readingLang);
     setSpeaking(true);
-    // The Web Speech API's onend event isn't reliable enough across browsers
-    // to depend on here, so we clear the "speaking" state after a rough
-    // estimate based on text length. Tapping the button again always stops
-    // playback immediately regardless of this timer.
-    const approxDurationMs = Math.min(20000, fullText.length * 60);
+    speak(fullText, readingLang, {
+      onEnd: () => setSpeaking(false),
+      onError: () => setSpeaking(false),
+    });
+    // Belt-and-braces: some WebView wrappers never fire `onend`, so also
+    // clear the state after a length-based estimate. If playback really has
+    // finished by then, this is a harmless no-op.
+    const approxDurationMs = Math.min(180_000, Math.max(5_000, fullText.length * 55));
     window.setTimeout(() => setSpeaking(false), approxDurationMs);
   }
 
