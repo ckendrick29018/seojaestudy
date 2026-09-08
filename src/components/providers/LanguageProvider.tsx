@@ -15,7 +15,9 @@ const STORAGE_KEY = "luminaread:ui-lang";
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<UiLang>("en");
+  const [hydrated, setHydrated] = useState(false);
 
+  // Load the saved choice once, before we start persisting changes.
   useEffect(() => {
     try {
       const stored = window.localStorage.getItem(STORAGE_KEY);
@@ -23,16 +25,25 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     } catch {
       // localStorage unavailable (private mode, some WebViews) — fall back to default.
     }
+    setHydrated(true);
   }, []);
 
+  // Keep <html lang> in sync every render — cheap and not persisted.
   useEffect(() => {
     document.documentElement.lang = lang;
+  }, [lang]);
+
+  // Persist, but not until the initial load above has run. Otherwise the
+  // first commit's default ("en") would overwrite a saved choice before we
+  // ever read it — and a React StrictMode remount would then read that back.
+  useEffect(() => {
+    if (!hydrated) return;
     try {
       window.localStorage.setItem(STORAGE_KEY, lang);
     } catch {
       // best-effort persistence only
     }
-  }, [lang]);
+  }, [lang, hydrated]);
 
   const value: LanguageContextValue = {
     lang,
