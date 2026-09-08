@@ -54,10 +54,11 @@ author?: string;
   author + level/premium/complete badges + minutes).
 - `src/app/page.tsx`: classics are filtered *out* of the leveled list so they
   only appear on the shelf.
-- `LessonCard` and `LessonHero`: if `coverImage` is set, render a plain `<img>`
-  (local static asset — `next/image` refuses SVG and adds nothing here); else the
-  `coverEmoji` tile as before. `LessonOfDayCard` still shows the emoji — wire in
-  `coverImage` there too if a classic ever becomes the daily pick.
+- `LessonCard`, `LessonHero` and `LessonOfDayCard`: if `coverImage` is set,
+  render a plain `<img>` (local static asset — `next/image` refuses SVG and adds
+  nothing here); else the `coverEmoji` tile as before. In the small square tiles
+  (`LessonCard`, `LessonOfDayCard`) the portrait cover is `object-cover`
+  cropped; `LessonHero` shows it whole at `aspect-[3/4]`.
 
 **Cover images — what we do:**
 

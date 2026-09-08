@@ -37,8 +37,14 @@ export function LessonOfDayCard() {
       </div>
 
       <Link href={href} className="group flex items-center gap-4">
-        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl2 bg-white/70 text-3xl shadow-soft">
-          {lessonOfDay.coverEmoji}
+        <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl2 bg-white/70 text-3xl shadow-soft">
+          {lessonOfDay.coverImage ? (
+            // Local static asset (see public/covers); next/image would refuse the SVG and needs no optimization here.
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={lessonOfDay.coverImage} alt="" className="h-full w-full object-cover" />
+          ) : (
+            lessonOfDay.coverEmoji
+          )}
         </div>
         <div className="min-w-0 flex-1">
           <div className="mb-1 flex flex-wrap items-center gap-1.5">
