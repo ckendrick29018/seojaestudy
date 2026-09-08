@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Necklace by Guy de Maupassant">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 182)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-70 -20 Q 0 112 70 -20" stroke-width="2"/>
+    <circle cx="-70" cy="-20" r="2.6" fill="#C9A66B" stroke="none"/>
+    <circle cx="70" cy="-20" r="2.6" fill="#C9A66B" stroke="none"/>
+    <circle cx="-42" cy="22" r="2" fill="#C9A66B" stroke="none"/>
+    <circle cx="-21" cy="40" r="2" fill="#C9A66B" stroke="none"/>
+    <circle cx="21" cy="40" r="2" fill="#C9A66B" stroke="none"/>
+    <circle cx="42" cy="22" r="2" fill="#C9A66B" stroke="none"/>
+    <path d="M0 46 L0 52" stroke-width="1.5"/>
+    <path d="M0 52 L-9 60 L0 74 L9 60 Z" stroke-width="2"/>
+    <path d="M-9 60 H9 M0 52 V74" stroke-width="1" opacity="0.8"/>
+  </g>
+
+  <text x="200" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#2C2C2C">The</text>
+  <text x="200" y="378" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#2C2C2C" letter-spacing="1">Necklace</text>
+
+  <line x1="150" y1="414" x2="250" y2="414" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2.5">GUY DE MAUPASSANT</text>
+  <text x="200" y="480" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#9A8F80" letter-spacing="2">1884</text>
+
+  <text x="200" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

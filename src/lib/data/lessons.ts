@@ -34,6 +34,8 @@ import type { Lesson } from "../types";
  *    Brontë's novel (first published 1847, Project Gutenberg #1260).
  *  - "The Selfish Giant" is a simplified, gently softened retelling of Oscar
  *    Wilde's fairy tale (first published 1888, Project Gutenberg #902).
+ *  - "The Necklace" is a simplified retelling of Guy de Maupassant's short
+ *    story "La Parure" (first published 1884), long in the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -2161,6 +2163,223 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "The trees flowered again wherever a child sat; the last cold corner warmed only after the Giant helped the little boy who could not climb.",
+      },
+    ],
+  },
+  {
+    slug: "the-necklace",
+    title: "The Necklace",
+    titleTranslation: "목걸이",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Guy de Maupassant (1850–1893)",
+    coverEmoji: "💎",
+    coverImage: "/covers/the-necklace.svg",
+    source:
+      "Adapted from Guy de Maupassant's short story \"The Necklace\" (\"La Parure,\" first published 1884; long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what happened to the borrowed necklace, and what the Loisels did about it over the next ten years.",
+    paragraphs: [
+      [
+        {
+          id: "nk-1",
+          text: "Mathilde was a pretty, charming woman, but she had been born into a poor family and had married a clerk with a small salary.",
+          translation:
+            "마틸드는 예쁘고 매력적인 여자였지만, 가난한 집안에서 태어나 월급이 적은 하급 공무원과 결혼했어요.",
+        },
+        {
+          id: "nk-2",
+          text: "She had always believed she deserved a life of luxury, and her plain flat, with its worn chairs and ugly curtains, made her unhappy every day.",
+          translation:
+            "마틸드는 자신이 원래 호화로운 삶을 누릴 사람이라고 늘 믿었기에, 낡은 의자와 보기 흉한 커튼이 있는 초라한 집이 날마다 그녀를 우울하게 했어요.",
+        },
+        {
+          id: "nk-3",
+          text: "She had one rich friend from her school days, Madame Forestier, but visiting her hurt so much that she rarely went.",
+          translation:
+            "학창 시절 친구 중에 부유한 포레스티에 부인이 한 명 있었지만, 그 집에 다녀오면 너무 마음이 아파서 마틸드는 좀처럼 찾아가지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "nk-4",
+          text: "One evening her husband came home proudly with an invitation to a grand party at the Ministry where he worked.",
+          translation:
+            "어느 날 저녁, 남편이 자기가 일하는 정부 부처에서 열리는 성대한 파티 초대장을 자랑스럽게 가지고 왔어요.",
+        },
+        {
+          id: "nk-5",
+          text: "Instead of being pleased, Mathilde began to cry, because she had no fine dress to wear.",
+          translation:
+            "그런데 마틸드는 기뻐하기는커녕 울기 시작했어요. 입고 갈 좋은 드레스가 없었거든요.",
+        },
+        {
+          id: "nk-6",
+          text: "Her husband gave her the four hundred francs he had been saving for a gun, and she bought a beautiful gown.",
+          translation:
+            "남편은 사냥총을 사려고 모아 둔 400프랑을 마틸드에게 주었고, 그녀는 아름다운 드레스를 한 벌 샀어요.",
+        },
+      ],
+      [
+        {
+          id: "nk-7",
+          text: "Still she was not happy, because she had no jewels, and she did not want to look poor among rich women.",
+          translation:
+            "그래도 마틸드는 행복하지 않았어요. 보석이 하나도 없어서, 부유한 여자들 사이에서 초라해 보이고 싶지 않았거든요.",
+        },
+        {
+          id: "nk-8",
+          text: "Her husband told her to borrow something from Madame Forestier, so Mathilde went to her the next day.",
+          translation:
+            "남편이 포레스티에 부인에게 뭔가 빌려 보라고 하자, 마틸드는 이튿날 그 집을 찾아갔어요.",
+        },
+        {
+          id: "nk-9",
+          text: "Among her friend's jewels she found a magnificent diamond necklace, and she borrowed it with a beating heart.",
+          translation:
+            "친구의 보석들 중에서 마틸드는 눈부신 다이아몬드 목걸이를 발견했고, 가슴을 두근거리며 그것을 빌렸어요.",
+        },
+      ],
+      [
+        {
+          id: "nk-10",
+          text: "At the party Mathilde was the most beautiful woman in the room; everyone looked at her, and she danced all night, lost in joy.",
+          translation:
+            "파티에서 마틸드는 그 자리에서 가장 아름다운 여자였어요. 모두가 그녀를 바라보았고, 그녀는 밤새 기쁨에 취해 춤을 췄어요.",
+        },
+        {
+          id: "nk-11",
+          text: "They reached home at four in the morning, and in front of the mirror she saw that the necklace was gone from her neck.",
+          translation:
+            "두 사람은 새벽 네 시에 집에 도착했는데, 거울 앞에 선 마틸드는 목에서 목걸이가 사라진 것을 보았어요.",
+        },
+        {
+          id: "nk-12",
+          text: "They searched everywhere and told the police, but the diamonds were never found.",
+          translation:
+            "부부는 온 사방을 뒤지고 경찰에도 알렸지만, 다이아몬드는 끝내 찾지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "nk-13",
+          text: "In a shop they found a necklace exactly like it, priced at thirty-six thousand francs.",
+          translation:
+            "한 상점에서 두 사람은 그것과 똑같이 생긴 목걸이를 찾았는데, 값이 3만 6천 프랑이었어요.",
+        },
+        {
+          id: "nk-14",
+          text: "Loisel used the little money his father had left him and borrowed the rest from money-lenders, promising to pay far more back.",
+          translation:
+            "루아젤은 아버지가 남겨 준 얼마 안 되는 돈을 쓰고, 나머지는 훨씬 많이 갚겠다고 약속하며 여기저기 고리대금업자들에게 빌렸어요.",
+        },
+        {
+          id: "nk-15",
+          text: "They gave the new necklace to Madame Forestier, who did not open the case, and then began ten hard years of paying back the debt.",
+          translation:
+            "부부는 새 목걸이를 포레스티에 부인에게 건넸고, 부인은 상자를 열어 보지 않았어요. 그리고 빚을 갚는 고단한 10년이 시작되었어요.",
+        },
+      ],
+      [
+        {
+          id: "nk-16",
+          text: "Mathilde learned to scrub floors, wash clothes, and argue over every coin; she grew old, hard, and strong, like any woman of a poor household.",
+          translation:
+            "마틸드는 바닥을 닦고 빨래를 하고 한 푼을 두고도 흥정하는 법을 배웠어요. 그렇게 그녀는 가난한 집 여자들이 다 그렇듯 늙고 억세고 거칠어졌어요.",
+        },
+        {
+          id: "nk-17",
+          text: "One day she met Madame Forestier, still young and lovely, and told her the whole story at last — and her friend, taking her hands, said softly, \"Oh, my poor Mathilde! My necklace was not real. It was worth five hundred francs at most.\"",
+          translation:
+            "어느 날 마틸드는 여전히 젊고 아름다운 포레스티에 부인을 만나 마침내 그동안의 일을 모두 이야기했어요. 그러자 친구는 그녀의 두 손을 잡으며 나직이 말했어요. \"아, 가엾은 마틸드! 내 목걸이는 진짜가 아니었어. 기껏해야 500프랑짜리였는걸.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "nk-v1",
+        term: "clerk",
+        partOfSpeech: "noun",
+        translation: "사무원, (하급) 공무원",
+        example: "Her husband was a clerk with a small salary.",
+        exampleTranslation: "그녀의 남편은 월급이 적은 하급 공무원이었어요.",
+      },
+      {
+        id: "nk-v2",
+        term: "luxury",
+        partOfSpeech: "noun",
+        translation: "사치, 호화로움",
+        example: "She had always believed she deserved a life of luxury.",
+        exampleTranslation: "그녀는 자신이 호화로운 삶을 누릴 자격이 있다고 늘 믿었어요.",
+      },
+      {
+        id: "nk-v3",
+        term: "borrow",
+        partOfSpeech: "verb",
+        translation: "빌리다",
+        example: "Her husband told her to borrow something from Madame Forestier.",
+        exampleTranslation: "남편은 그녀에게 포레스티에 부인에게서 뭔가 빌리라고 했어요.",
+      },
+      {
+        id: "nk-v4",
+        term: "magnificent",
+        partOfSpeech: "adjective",
+        translation: "대단히 멋진, 눈부신",
+        example: "Among the jewels she found a magnificent necklace.",
+        exampleTranslation: "보석들 중에서 그녀는 눈부신 목걸이를 발견했어요.",
+      },
+      {
+        id: "nk-v5",
+        term: "debt",
+        partOfSpeech: "noun",
+        translation: "빚, 부채",
+        example: "Ten hard years of paying back the debt began.",
+        exampleTranslation: "빚을 갚는 고단한 10년이 시작되었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "nk-q1",
+        prompt: "Why did Mathilde borrow a necklace from Madame Forestier?",
+        options: [
+          "Her own necklace had broken the week before.",
+          "She had a fine new dress but no jewels to wear with it.",
+          "Madame Forestier had asked her to keep it safe.",
+          "She wanted to sell it and pay for the party.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Loisel had paid for a beautiful gown, but Mathilde felt she would look poor at the Ministry party without any jewels, so her husband suggested she borrow some.",
+      },
+      {
+        id: "nk-q2",
+        prompt: "What did the Loisels do after they lost the necklace?",
+        options: [
+          "They told Madame Forestier the truth at once and asked her to forgive them.",
+          "They bought a matching necklace with borrowed money and said nothing.",
+          "They left Paris so that no one would find out.",
+          "They reported it to the police, who soon returned it.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "They replaced it with a near-identical necklace costing thirty-six thousand francs, borrowed heavily to pay for it, and gave it back without admitting the loss.",
+      },
+      {
+        id: "nk-q3",
+        prompt: "What did Mathilde learn at the very end of the story?",
+        options: [
+          "Madame Forestier had known about the switch all along.",
+          "The lost necklace had been found by a cab driver.",
+          "The necklace she had replaced was fake, worth only about five hundred francs.",
+          "Her husband had secretly kept some of the borrowed money.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "After ten years of poverty spent repaying the debt, Madame Forestier tells her that the original necklace had been imitation, worth at most five hundred francs.",
       },
     ],
   },
