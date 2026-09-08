@@ -102,7 +102,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | # | Title | Author (d.) | PG# | Level | Excerpt scope | Status |
 |--|--|--|--|--|--|--|
 | 1 | The Yellow Wallpaper | Charlotte Perkins Gilman (1935) | 1952 | B1 | opening 2–3 journal entries | ☐ |
-| 2 | The Story of an Hour | Kate Chopin (1904) | — | A2 | whole (~1,000 w) | ☐ |
+| 2 | The Story of an Hour | Kate Chopin (1904) | — | A2 | simplified retelling, 17 sentences | ☑ |
 | 3 | A Pair of Silk Stockings | Kate Chopin (1904) | — | A2 | whole | ☐ |
 | 4 | The Gift of the Magi | O. Henry (1910) | 7256 | B1 | simplified retelling, 13 sentences — **seed lesson for the collection** | ☑ |
 | 5 | The Last Leaf | O. Henry (1910) | — | A2 | whole | ☐ |
@@ -194,6 +194,6 @@ has a genuine period cover/illustration in the public domain, download that into
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
 - Good next lessons to build: **The Ugly Duckling**, **Cinderella**,
-  **The Story of an Hour**, **Anne of Green Gables Ch. 2**, **Little Women Ch. 1**
-  — short, famous, and easy to level. The Gift of the Magi (row 4) is live as the
-  seed lesson; follow its shape in `src/lib/data/lessons.ts`.
+  **Anne of Green Gables Ch. 2**, **Little Women Ch. 1** — short, famous, and
+  easy to level. The Gift of the Magi (row 4) and The Story of an Hour (row 2)
+  are live; follow their shape in `src/lib/data/lessons.ts`.

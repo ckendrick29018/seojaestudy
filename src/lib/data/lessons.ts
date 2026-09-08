@@ -3,7 +3,7 @@ import type { Lesson } from "../types";
 /**
  * Sample content library.
  *
- * Sourcing note: both stories below are simplified original retellings of
+ * Sourcing note: the stories below are simplified original retellings of
  * public-domain source material, written specifically for SeoJae Story so
  * that no modern, copyrighted translation is used anywhere in the app:
  *
@@ -16,6 +16,9 @@ import type { Lesson } from "../types";
  *  - "The Gift of the Magi" is a simplified retelling of O. Henry's short
  *    story (first published 1905, Project Gutenberg #7256), long in the
  *    public domain. It opens the "Classics" collection (see CONTENT_BACKLOG.md).
+ *  - "The Story of an Hour" is a simplified retelling of Kate Chopin's short
+ *    story (first published 1894), long in the public domain — the second
+ *    lesson in the "Classics" collection.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -498,6 +501,206 @@ export const lessons: Lesson[] = [
         correctIndex: 0,
         explanation:
           "Jim had sold his gold watch to buy combs for Della's long hair — the same hair she had sold to buy his watch chain.",
+      },
+    ],
+  },
+  {
+    slug: "story-of-an-hour",
+    title: "The Story of an Hour",
+    titleTranslation: "한 시간의 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Kate Chopin (1850–1904)",
+    coverEmoji: "🕊️",
+    coverImage: "/covers/story-of-an-hour.svg",
+    source:
+      "Adapted from Kate Chopin's short story \"The Story of an Hour\" (first published 1894; long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Mrs. Mallard felt while she was alone in her room, and how the story ends.",
+    paragraphs: [
+      [
+        {
+          id: "sh-1",
+          text: "Mrs. Mallard had a weak heart, so her sister broke the news to her as gently as she could.",
+          translation: "맬러드 부인은 심장이 약했기 때문에, 언니가 최대한 조심스럽게 소식을 전했어요.",
+        },
+        {
+          id: "sh-2",
+          text: "There had been a train accident, and her husband, Brently, was among those who had died.",
+          translation: "기차 사고가 있었는데, 남편 브렌틀리가 사망자들 중에 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sh-3",
+          text: "She began to cry at once, with sudden, wild sadness, in her sister's arms.",
+          translation: "부인은 곧바로 언니의 품에 안겨, 걷잡을 수 없는 슬픔에 격하게 울기 시작했어요.",
+        },
+        {
+          id: "sh-4",
+          text: "Then she went up to her room alone and asked everyone not to follow her.",
+          translation: "그러고는 혼자 방으로 올라가, 아무도 따라오지 말라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "sh-5",
+          text: "She sank into a wide armchair in front of the open window.",
+          translation: "부인은 열린 창문 앞에 놓인 커다란 안락의자에 깊이 몸을 파묻었어요.",
+        },
+        {
+          id: "sh-6",
+          text: "Outside, the tops of the trees were bright with new spring leaves, and the air smelled of rain.",
+          translation: "창밖에는 나무 꼭대기마다 봄의 새잎이 돋아 환했고, 공기에서는 비 냄새가 났어요.",
+        },
+        {
+          id: "sh-7",
+          text: "Here and there, patches of blue sky showed between the clouds.",
+          translation: "구름 사이로 파란 하늘이 군데군데 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "sh-8",
+          text: "As she sat there, a strange feeling came slowly toward her, and at first she was afraid of it.",
+          translation: "그렇게 앉아 있는데 낯선 감정 하나가 천천히 다가왔고, 부인은 처음엔 그것이 두려웠어요.",
+        },
+        {
+          id: "sh-9",
+          text: "Then she stopped fighting it, and one word broke softly from her lips: \"Free.\"",
+          translation: "이윽고 부인은 맞서기를 그만두었고, 입술에서 한 마디가 조용히 새어 나왔어요. \"자유.\"",
+        },
+        {
+          id: "sh-10",
+          text: "She saw a long line of years ahead that would belong to her alone.",
+          translation: "앞으로 오롯이 자기만의 것이 될 긴 세월이 눈앞에 펼쳐졌어요.",
+        },
+      ],
+      [
+        {
+          id: "sh-11",
+          text: "She had loved her husband — sometimes. Often she had not.",
+          translation: "부인은 남편을 사랑했어요. 때로는요. 사랑하지 않은 때도 많았고요.",
+        },
+        {
+          id: "sh-12",
+          text: "But that seemed small now beside this new sense of freedom.",
+          translation: "하지만 그것은 이 새로운 자유의 느낌 앞에서는 이제 사소하게만 느껴졌어요.",
+        },
+        {
+          id: "sh-13",
+          text: "Her sister knelt outside the locked door and begged her to come out.",
+          translation: "언니는 잠긴 문 앞에 무릎을 꿇고 앉아 나오라고 애원했어요.",
+        },
+      ],
+      [
+        {
+          id: "sh-14",
+          text: "At last she opened the door, her eyes bright, and walked downstairs with her sister.",
+          translation: "마침내 부인은 문을 열었고, 눈을 반짝이며 언니와 함께 아래층으로 내려갔어요.",
+        },
+        {
+          id: "sh-15",
+          text: "Just then the front door opened, and Brently walked in, alive and well.",
+          translation: "바로 그때 현관문이 열리더니, 브렌틀리가 멀쩡히 살아서 걸어 들어왔어요.",
+        },
+        {
+          id: "sh-16",
+          text: "He had been nowhere near the accident and had not even heard of it.",
+          translation: "그는 사고 근처에 있지도 않았고, 사고가 났다는 것조차 듣지 못했어요.",
+        },
+        {
+          id: "sh-17",
+          text: "Mrs. Mallard gave a sudden cry and fell. The doctors said her weak heart had stopped — killed, they said, by a joy too great to bear.",
+          translation: "맬러드 부인은 짧은 비명을 지르며 쓰러졌어요. 의사들은 약한 심장이 멎었다고, 감당할 수 없이 큰 기쁨 때문이었다고 말했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sh-v1",
+        term: "gently",
+        partOfSpeech: "adverb",
+        translation: "부드럽게, 조심스럽게",
+        example: "Her sister broke the news to her as gently as she could.",
+        exampleTranslation: "언니는 최대한 조심스럽게 소식을 전했어요.",
+      },
+      {
+        id: "sh-v2",
+        term: "among",
+        partOfSpeech: "preposition",
+        translation: "~중에, ~에 속하여",
+        example: "Her husband was among those who had died.",
+        exampleTranslation: "남편은 사망한 사람들 중에 있었어요.",
+      },
+      {
+        id: "sh-v3",
+        term: "sink into",
+        partOfSpeech: "phrasal verb",
+        translation: "(의자 등에) 깊이 파묻히듯 앉다",
+        example: "She sank into a wide armchair by the window.",
+        exampleTranslation: "부인은 창가의 커다란 안락의자에 깊이 몸을 파묻었어요.",
+      },
+      {
+        id: "sh-v4",
+        term: "freedom",
+        partOfSpeech: "noun",
+        translation: "자유",
+        example: "She felt a new sense of freedom.",
+        exampleTranslation: "부인은 새로운 자유의 느낌을 받았어요.",
+      },
+      {
+        id: "sh-v5",
+        term: "beg",
+        partOfSpeech: "verb",
+        translation: "애원하다, 간청하다",
+        example: "Her sister begged her to come out.",
+        exampleTranslation: "언니는 부인에게 나오라고 애원했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sh-q1",
+        prompt: "How did Mrs. Mallard first react to the news of her husband's death?",
+        options: [
+          "She refused to believe it.",
+          "She cried at once in her sister's arms.",
+          "She fainted and had to be carried upstairs.",
+          "She went outside for a walk.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She wept at once, with sudden and wild sadness, and only afterward went up to her room alone.",
+      },
+      {
+        id: "sh-q2",
+        prompt: "What did Mrs. Mallard begin to feel while she sat alone by the window?",
+        options: [
+          "Fear that she would now be poor.",
+          "Anger at her sister for telling her.",
+          "A new sense of freedom about the years ahead.",
+          "A wish to leave the house at once.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Alone in her room she whispered \"Free\" and saw a long line of years that would belong to her alone.",
+      },
+      {
+        id: "sh-q3",
+        prompt: "Why does Mrs. Mallard die at the end of the story?",
+        options: [
+          "Her husband really had died in the accident.",
+          "She falls on the stairs while coming down.",
+          "The shock of seeing her husband alive is too much for her weak heart.",
+          "She had been seriously ill for many years.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Brently walks in unharmed. The doctors call it \"a joy too great to bear,\" though the story lets us wonder whether it was joy or the sudden loss of her new freedom.",
       },
     ],
   },
