@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
+import { FONT_SCALES, usePreferences, type FontScale } from "@/components/providers/PreferencesProvider";
 import {
   DIRECTION_BADGE,
   GOALS,
@@ -16,9 +17,17 @@ import type { UiLang } from "@/lib/i18n";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
+const FONT_SIZE_LABEL: Record<FontScale, "fontSizeSm" | "fontSizeMd" | "fontSizeLg" | "fontSizeXl"> = {
+  sm: "fontSizeSm",
+  md: "fontSizeMd",
+  lg: "fontSizeLg",
+  xl: "fontSizeXl",
+};
+
 export default function SettingsPage() {
   const t = useT();
   const { lang, setLang } = useLanguage();
+  const { fontScale, setFontScale } = usePreferences();
   const { hydrated, data, restart } = useOnboarding();
   const router = useRouter();
 
@@ -129,6 +138,32 @@ export default function SettingsPage() {
             ))}
           </div>
           <p className="mt-3 text-xs text-charcoal/45">{t("settingsLanguageHint")}</p>
+        </section>
+
+        {/* Text size */}
+        <section className="rounded-xl2 border border-rose-light/50 bg-white/60 p-5 shadow-soft">
+          <SectionHeading title={t("settingsFontSizeTitle")} />
+          <div
+            role="group"
+            aria-label={t("settingsFontSizeTitle")}
+            className="inline-flex flex-wrap gap-1 rounded-xl2 border border-rose-light/60 p-1"
+          >
+            {FONT_SCALES.map((scale) => (
+              <button
+                key={scale}
+                onClick={() => setFontScale(scale)}
+                aria-pressed={fontScale === scale}
+                className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+                  fontScale === scale
+                    ? "bg-rose text-cream shadow-soft"
+                    : "text-charcoal/50 hover:text-charcoal/80"
+                }`}
+              >
+                {t(FONT_SIZE_LABEL[scale])}
+              </button>
+            ))}
+          </div>
+          <p className="mt-3 text-xs text-charcoal/45">{t("settingsFontSizeHint")}</p>
         </section>
       </div>
 

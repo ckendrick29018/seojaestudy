@@ -228,6 +228,15 @@ export const dict = {
     ko: "메뉴와 안내 문구의 언어예요. 언제든 바꿀 수 있어요.",
   },
   settingsNoInterests: { en: "No interests picked", ko: "선택한 관심사 없음" },
+  settingsFontSizeTitle: { en: "Text size", ko: "글자 크기" },
+  settingsFontSizeHint: {
+    en: "Adjusts text across the whole app. A larger size can make reading easier.",
+    ko: "앱 전체의 글자 크기를 조절해요. 크게 하면 읽기가 더 편해질 수 있어요.",
+  },
+  fontSizeSm: { en: "Small", ko: "작게" },
+  fontSizeMd: { en: "Default", ko: "기본" },
+  fontSizeLg: { en: "Large", ko: "크게" },
+  fontSizeXl: { en: "Extra large", ko: "아주 크게" },
 
   // --- Daily habit ---
   lessonOfDay: { en: "Today's story", ko: "오늘의 이야기" },

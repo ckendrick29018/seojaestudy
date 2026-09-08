@@ -179,6 +179,14 @@ export function SettingsIcon(props: IconProps) {
   );
 }
 
+export function StarIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="currentColor" strokeLinejoin="round" {...props}>
+      <path d="M10 1.6L11.94 7.33 17.99 7.4 13.14 11.02 14.94 16.8 10 13.3 5.06 16.8 6.86 11.02 2.01 7.4 8.06 7.33Z" />
+    </svg>
+  );
+}
+
 export function TrashIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>

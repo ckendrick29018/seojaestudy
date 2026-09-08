@@ -6,7 +6,7 @@ import { useProgress } from "@/components/providers/ProgressProvider";
 import { useT } from "@/components/providers/LanguageProvider";
 import { estimateReadingTime } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
-import { CheckIcon } from "@/components/ui/icons";
+import { CheckIcon, StarIcon } from "@/components/ui/icons";
 
 /**
  * The home-screen "study this today" card: one deterministic pick per day
@@ -30,7 +30,7 @@ export function LessonOfDayCard() {
         <p className="text-xs font-semibold uppercase tracking-widest text-rose/70">{t("lessonOfDay")}</p>
         {streak > 0 && (
           <span className="inline-flex items-center gap-1 rounded-full bg-white/70 px-2.5 py-1 text-xs font-semibold text-rose">
-            <span aria-hidden>🔥</span>
+            <StarIcon className="h-3 w-3" aria-hidden />
             {streak} {t("dayStreak")}
           </span>
         )}

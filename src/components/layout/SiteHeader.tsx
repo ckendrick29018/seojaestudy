@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { useDaily } from "@/components/providers/DailyProvider";
-import { MenuIcon } from "@/components/ui/icons";
+import { MenuIcon, StarIcon } from "@/components/ui/icons";
 import { MenuDrawer } from "./MenuDrawer";
 
 export function SiteHeader() {
@@ -36,7 +36,7 @@ export function SiteHeader() {
               aria-label={`${streak} ${t("dayStreak")}`}
               title={`${streak} ${t("dayStreak")}`}
             >
-              <span aria-hidden>🔥</span>
+              <StarIcon className="h-3 w-3" aria-hidden />
               {streak}
             </span>
           )}

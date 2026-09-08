@@ -8,7 +8,7 @@ import { useDaily } from "@/components/providers/DailyProvider";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { generateFeedback, type FeedbackResult } from "@/lib/feedback";
-import { CheckIcon } from "@/components/ui/icons";
+import { CheckIcon, StarIcon } from "@/components/ui/icons";
 
 export function SummaryBox({ lesson }: { lesson: Lesson }) {
   const t = useT();
@@ -52,7 +52,7 @@ export function SummaryBox({ lesson }: { lesson: Lesson }) {
       {complete && streak > 0 && (
         <p className="mt-3 flex flex-wrap items-center gap-2 text-sm text-charcoal/60">
           <span className="inline-flex items-center gap-1 font-semibold text-rose">
-            <span aria-hidden>🔥</span>
+            <StarIcon className="h-3.5 w-3.5" aria-hidden />
             {streak} {t("dayStreak")}
           </span>
           {t("streakKeepGoing")}
