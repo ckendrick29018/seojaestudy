@@ -7,7 +7,7 @@ import { useT } from "@/components/providers/LanguageProvider";
 import { lessons } from "@/lib/data/lessons";
 import type { Highlight, StorySentence } from "@/lib/types";
 import { isDue, MAX_BOX, type StudyGrade, type StudyItem } from "@/lib/study";
-import { speak, useSpeechSupported } from "@/lib/speech";
+import { narrate, useSpeechSupported } from "@/lib/speech";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CheckIcon, SpeakerIcon, TrashIcon } from "@/components/ui/icons";
@@ -119,7 +119,7 @@ export default function StudyPage() {
               <div className="flex shrink-0 items-center gap-1">
                 {speechAvailable && (
                   <button
-                    onClick={() => speak(item.front, item.targetLanguage)}
+                    onClick={() => narrate([item.front], item.targetLanguage)}
                     className="rounded-full p-2 text-rose transition hover:bg-rose-light/30"
                     aria-label={t("listen")}
                   >
@@ -247,7 +247,7 @@ function ReviewPanel({
       {speechAvailable && (
         <div className="mt-2 flex justify-center">
           <button
-            onClick={() => speak(item.front, item.targetLanguage)}
+            onClick={() => narrate([item.front], item.targetLanguage)}
             className="rounded-full border border-rose-soft/40 p-2 text-rose transition hover:bg-rose-light/30"
             aria-label={labels.listen}
           >

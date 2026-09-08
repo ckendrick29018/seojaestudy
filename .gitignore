@@ -31,6 +31,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# audio pre-generation: the piper binary + voice models are fetched locally,
+# but the generated clips under public/audio/ ARE committed
+/scripts/bin/
+/scripts/voices/
+/scripts/**/__pycache__/
+
 # supabase cli
 supabase/.temp/
 supabase/.branches/

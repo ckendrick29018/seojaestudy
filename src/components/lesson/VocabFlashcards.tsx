@@ -8,7 +8,7 @@ import { useProgress } from "@/components/providers/ProgressProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { BookmarkIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, PlusIcon, SpeakerIcon } from "@/components/ui/icons";
-import { speak, useSpeechSupported } from "@/lib/speech";
+import { narrate, useSpeechSupported } from "@/lib/speech";
 
 export function VocabFlashcards({ lesson }: { lesson: Lesson }) {
   const t = useT();
@@ -92,7 +92,7 @@ export function VocabFlashcards({ lesson }: { lesson: Lesson }) {
         </button>
         {speechAvailable && (
           <button
-            onClick={() => speak(term.term, lesson.targetLanguage)}
+            onClick={() => narrate([term.term], lesson.targetLanguage)}
             className="rounded-full border border-rose-soft/40 p-2.5 text-rose transition hover:bg-rose-light/30"
             aria-label={t("listen")}
           >

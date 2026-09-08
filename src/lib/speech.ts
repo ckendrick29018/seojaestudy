@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { LangCode } from "./types";
+import { playClips } from "./audio";
 
 export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
@@ -152,7 +153,47 @@ export function speak(text: string, lang: LangCode, handlers: SpeakHandlers = {}
   });
 }
 
+/* ------------------------------------------------------------------------- *
+ * Narration entry point
+ *
+ * `narrate` is what the UI should call. It plays pre-generated neural-voice
+ * clips when every segment has one (crisp, identical on every device) and
+ * quietly falls back to the browser's Web Speech voice otherwise. Callers
+ * still stop playback with `stopSpeaking`, whichever path was taken.
+ * ------------------------------------------------------------------------- */
+
+let activeClipStop: (() => void) | null = null;
+
+export function narrate(segments: string[], lang: LangCode, handlers: SpeakHandlers = {}): void {
+  stopSpeaking();
+
+  const wrapped: SpeakHandlers = {
+    onEnd: () => {
+      activeClipStop = null;
+      handlers.onEnd?.();
+    },
+    onError: () => {
+      activeClipStop = null;
+      handlers.onError?.();
+    },
+  };
+
+  const stop = playClips(segments, lang, wrapped);
+  if (stop) {
+    activeClipStop = stop;
+    return;
+  }
+
+  // Nothing pre-generated for this text — use the live browser voice.
+  speak(segments.join(" "), lang, wrapped);
+}
+
 export function stopSpeaking(): void {
+  if (activeClipStop) {
+    const stop = activeClipStop;
+    activeClipStop = null;
+    stop();
+  }
   if (!isSpeechSupported()) return;
   window.speechSynthesis.cancel();
 }

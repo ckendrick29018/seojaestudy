@@ -5,7 +5,7 @@ import { lessons } from "@/lib/data/lessons";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { useT } from "@/components/providers/LanguageProvider";
 import { SpeakerIcon } from "@/components/ui/icons";
-import { speak, useSpeechSupported } from "@/lib/speech";
+import { narrate, useSpeechSupported } from "@/lib/speech";
 import type { LangCode } from "@/lib/types";
 
 export default function SavedWordsPage() {
@@ -40,7 +40,7 @@ export default function SavedWordsPage() {
               <div className="flex shrink-0 items-center gap-1.5">
                 {speechAvailable && (
                   <button
-                    onClick={() => speak(word.term, lessonTargetLang(word.lessonSlug))}
+                    onClick={() => narrate([word.term], lessonTargetLang(word.lessonSlug))}
                     className="rounded-full p-2 text-rose transition hover:bg-rose-light/30"
                     aria-label={t("listen")}
                   >

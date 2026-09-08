@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lesson, LangCode, StorySentence, VocabTerm } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
-import { speak, stopSpeaking, useSpeechSupported } from "@/lib/speech";
+import { narrate, stopSpeaking, useSpeechSupported } from "@/lib/speech";
 import { lookupWord } from "@/lib/dictionary";
 import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon, StopIcon } from "@/components/ui/icons";
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
@@ -47,6 +47,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   const [sheet, setSheet] = useState<SheetState | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const storyRef = useRef<HTMLDivElement>(null);
+  const speakTimer = useRef<number | null>(null);
 
   const speechAvailable = useSpeechSupported();
 
@@ -78,7 +79,13 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   }
 
   // Never leave narration playing after the reader unmounts.
-  useEffect(() => () => stopSpeaking(), []);
+  useEffect(
+    () => () => {
+      stopSpeaking();
+      if (speakTimer.current !== null) window.clearTimeout(speakTimer.current);
+    },
+    [],
+  );
 
   const readingIsTarget = readingLang === lesson.targetLanguage;
   /** The story body in the chosen reading language. */
@@ -98,27 +105,35 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     return m;
   }, [lesson]);
 
-  const fullText = useMemo(
-    () => lesson.paragraphs.flat().map((s) => (readingIsTarget ? s.text : s.translation)).join(" "),
+  // The story as an ordered list of sentences in the chosen reading language.
+  // `narrate` plays a pre-generated clip per sentence when it can, and falls
+  // back to reading the joined text with the browser voice otherwise.
+  const narrationSegments = useMemo(
+    () => lesson.paragraphs.flat().map((s) => (readingIsTarget ? s.text : s.translation)),
     [lesson, readingIsTarget],
   );
 
   function handleListen() {
+    if (speakTimer.current !== null) {
+      window.clearTimeout(speakTimer.current);
+      speakTimer.current = null;
+    }
     if (speaking) {
       stopSpeaking();
       setSpeaking(false);
       return;
     }
     setSpeaking(true);
-    speak(fullText, readingLang, {
+    narrate(narrationSegments, readingLang, {
       onEnd: () => setSpeaking(false),
       onError: () => setSpeaking(false),
     });
     // Belt-and-braces: some WebView wrappers never fire `onend`, so also
     // clear the state after a length-based estimate. If playback really has
     // finished by then, this is a harmless no-op.
-    const approxDurationMs = Math.min(180_000, Math.max(5_000, fullText.length * 55));
-    window.setTimeout(() => setSpeaking(false), approxDurationMs);
+    const chars = narrationSegments.reduce((n, s) => n + s.length, 0);
+    const approxDurationMs = Math.min(180_000, Math.max(5_000, chars * 55));
+    speakTimer.current = window.setTimeout(() => setSpeaking(false), approxDurationMs);
   }
 
   /** Resolve the best available translation for a free selection. */
