@@ -164,6 +164,7 @@ src/
     layout.tsx              root layout: fonts, providers, PWA meta, phone-frame shell
     page.tsx                 library / lesson list
     lesson/[slug]/page.tsx    one-page scrolling lesson (or paywall, if gated)
+    classics/page.tsx         full "Classics" shelf (grid) — dashboard shows a carousel
     saved/page.tsx            saved vocabulary words
     login/page.tsx            Google + email/password sign-in
     auth/callback/route.ts    OAuth / email-confirmation callback
@@ -172,7 +173,8 @@ src/
   components/
     providers/                Language/Auth/Progress providers
     layout/                   SiteHeader, MenuDrawer (slide-over nav)
-    home/                     LessonCard, ClassicsSection
+    home/                     LessonCard, LessonOfDayCard, ClassicCard,
+                              ClassicsSection + ClassicsCarousel
     lesson/                   LessonHero, StoryReader, ComprehensionCheck,
                               VocabFlashcards, SummaryBox, LessonView,
                               LessonPaywall, ...

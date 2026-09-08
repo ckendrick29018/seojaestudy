@@ -48,10 +48,16 @@ author?: string;
 
 **Rendering — implemented:**
 
-- `src/components/home/ClassicsSection.tsx`: filters `lessons` by
-  `collection === "classics"`, renders nothing when empty (so it ships ahead of
-  the backlog). 2-col grid of portrait cards (cover `aspect-[3/4]` + title +
-  author + level/premium/complete badges + minutes).
+- `src/components/home/ClassicsSection.tsx` + `ClassicsCarousel.tsx`: on the
+  dashboard, a swipeable, gently auto-rotating strip of up to 6 compact cards
+  (cover thumb + title + author + badges) with dot indicators and a "See all"
+  link. Auto-advance pauses on pointer/focus-within and is off under
+  `prefers-reduced-motion`. Renders nothing until a lesson opts in with
+  `collection: "classics"` (so it ships ahead of the backlog).
+- `src/app/classics/page.tsx`: the full shelf — a 2-col grid of portrait
+  `ClassicCard`s (`src/components/home/ClassicCard.tsx`, shared): cover
+  `aspect-[3/4]` + title + author + level/premium/complete badges + minutes.
+  Also reachable from the slide-over menu.
 - `src/app/page.tsx`: classics are filtered *out* of the leveled list so they
   only appear on the shelf.
 - `LessonCard`, `LessonHero` and `LessonOfDayCard`: if `coverImage` is set,

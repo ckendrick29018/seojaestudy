@@ -9,6 +9,7 @@ import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import type { UiLang } from "@/lib/i18n";
 import {
   BookOpenIcon,
+  BooksIcon,
   CardsIcon,
   HomeIcon,
   SettingsIcon,
@@ -69,6 +70,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
 
   const navItems = [
     { href: "/", label: t("library"), Icon: HomeIcon, badge: 0 },
+    { href: "/classics", label: t("classics"), Icon: BooksIcon, badge: 0 },
     { href: "/saved", label: t("savedWords"), Icon: BookOpenIcon, badge: 0 },
     { href: "/study", label: t("studyPlan"), Icon: CardsIcon, badge: dueItems.length },
     { href: "/settings", label: t("settings"), Icon: SettingsIcon, badge: 0 },

@@ -12,6 +12,7 @@ export const dict = {
     en: "Timeless stories, gently adapted for learners.",
     ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",
   },
+  classicsSeeAll: { en: "See all", ko: "전체 보기" },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
   minRead: { en: "min read", ko: "분 소요" },
 
