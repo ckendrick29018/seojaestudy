@@ -140,9 +140,10 @@ export const dict = {
   translateWord: { en: "Word", ko: "단어" },
   translateSentence: { en: "Sentence", ko: "문장" },
   noWordEntry: {
-    en: "No dictionary entry — use the Sentence tab for the full line.",
-    ko: "사전 항목이 없는 단어예요 — 전체 번역은 문장 탭을 확인하세요.",
+    en: "Not in the pocket dictionary yet — here's the whole line instead.",
+    ko: "아직 사전에 없는 단어예요 — 대신 문장 전체 번역을 보여 드릴게요.",
   },
+  inThisLine: { en: "In this line:", ko: "이 문장에서:" },
   readingLanguage: { en: "Reading language", ko: "읽기 언어" },
 
   // --- Study plan ---

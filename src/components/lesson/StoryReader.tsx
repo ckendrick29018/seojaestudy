@@ -5,6 +5,7 @@ import type { Lesson, LangCode, StorySentence, VocabTerm } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { speak, stopSpeaking, useSpeechSupported } from "@/lib/speech";
+import { lookupWord } from "@/lib/dictionary";
 import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon, StopIcon } from "@/components/ui/icons";
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
 import { Toast } from "@/components/ui/Toast";
@@ -22,6 +23,8 @@ interface SheetState {
   translation: string | null;
   sentence: StorySentence | null;
   term: VocabTerm | null;
+  /** Gloss from the offline pocket dictionary, when the word isn't lesson vocab. */
+  dictGloss: string | null;
   isPhrase: boolean;
   /** Which granularity the sheet is currently showing (word taps can toggle). */
   view: "word" | "sentence";
@@ -122,6 +125,12 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   function resolvePhrase(text: string, sentenceIds: string[]): { translation: string | null; term: VocabTerm | null } {
     const term = readingIsTarget ? glossary.get(normalizeWord(text)) ?? null : null;
     if (term) return { translation: term.translation, term };
+    // A single-word selection can still be resolved by the pocket dictionary.
+    const trimmed = text.trim();
+    if (!/\s/.test(trimmed)) {
+      const gloss = lookupWord(trimmed, readingLang);
+      if (gloss) return { translation: gloss, term: null };
+    }
     const joined = sentenceIds
       .map((id) => {
         const s = sentenceMap.get(id);
@@ -138,11 +147,13 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     const key = normalizeWord(rawWord);
     if (!key) return;
     const term = readingIsTarget ? glossary.get(key) ?? null : null;
+    const dictGloss = term ? null : lookupWord(rawWord, readingLang);
     setSheet({
-      title: rawWord.replace(/[^a-z가-힣0-9']/gi, ""),
-      translation: term?.translation ?? null,
+      title: rawWord.replace(/^[^0-9a-z가-힣'’-]+/i, "").replace(/[^0-9a-z가-힣'’-]+$/i, "") || rawWord,
+      translation: term?.translation ?? dictGloss ?? null,
       sentence,
       term,
+      dictGloss,
       isPhrase: false,
       view: "word",
     });
@@ -156,7 +167,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
   function onTranslate(sel: StorySelection) {
     const { translation, term } = resolvePhrase(sel.text, sel.sentenceIds);
     const single = sel.sentenceIds.length === 1 ? sentenceMap.get(sel.sentenceIds[0]) ?? null : null;
-    setSheet({ title: sel.text, translation, sentence: single, term, isPhrase: true, view: "word" });
+    setSheet({ title: sel.text, translation, sentence: single, term, dictGloss: null, isPhrase: true, view: "word" });
   }
 
   function onHighlightSelection(sel: StorySelection) {
@@ -196,9 +207,10 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
         : hasPhrase(lesson.slug, sheet.title)
     : false;
 
-  // A plain word with no glossary entry has nothing meaningful to save; the
-  // sentence view and real vocab terms / phrases still do.
-  const canAddToPlan = !!sheet && (sentenceView || !!sheet.term || sheet.isPhrase);
+  // A plain word can be saved once we have a gloss for it (lesson vocab, the
+  // pocket dictionary, or a phrase selection); a bare word with nothing cannot.
+  const canAddToPlan =
+    !!sheet && (sentenceView || !!sheet.term || sheet.isPhrase || !!sheet.dictGloss);
 
   function addSheetToPlan() {
     if (!sheet) return;
@@ -368,6 +380,8 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               </>
             ) : sheet.isPhrase ? (
               <p className="text-charcoal/70">{sheet.translation ?? t("translationOf")}</p>
+            ) : sheet.dictGloss ? (
+              <p className="text-charcoal/70">{sheet.dictGloss}</p>
             ) : (
               <p className="text-sm text-charcoal/50">{t("noWordEntry")}</p>
             )}
@@ -375,6 +389,13 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               <p className="mt-2 text-sm italic text-charcoal/55">
                 {sheet.term.example}
                 <span className="not-italic text-charcoal/40"> — {sheet.term.exampleTranslation}</span>
+              </p>
+            )}
+            {/* Always keep the line's meaning one glance away for a word tap. */}
+            {!sentenceView && !sheet.term && !sheet.isPhrase && sheet.sentence && (
+              <p className="mt-2 text-sm not-italic leading-6 text-charcoal/45">
+                <span className="text-charcoal/35">{t("inThisLine")} </span>
+                {revealText(sheet.sentence)}
               </p>
             )}
 
