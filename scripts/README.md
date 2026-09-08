@@ -23,18 +23,22 @@ everywhere, exactly as before.
 ## Quick start (edge-tts — recommended)
 
 `edge-tts` uses Microsoft Edge's free "Read Aloud" neural voices. No account,
-no API key, outputs MP3 directly, good English **and** Korean. It needs network
-access while generating; the committed `.mp3` files have no runtime dependency
-on it.
+no API key, outputs MP3, good English **and** Korean. It needs network access
+while generating; the committed `.mp3` files have no runtime dependency on it.
 
 ```bash
 pip install edge-tts
+pip install truststore   # optional, but do it if generation hits a TLS error
 npm run audio                       # generate everything that's missing
 npm run audio -- --lesson the-secret-garden   # just one lesson
 npm run audio -- --force            # re-render everything
 npm run audio -- --prune            # also delete clips no lesson uses now
 npm run audio -- --dry-run          # show what would be generated
 ```
+
+Generation runs through `scripts/lib/backends/_edge_tts.py` (not the bare
+`edge-tts` CLI) so a failed clip actually fails the run, and `truststore` — if
+installed — routes TLS through the OS certificate store.
 
 Voice / pace overrides (env vars):
 
@@ -49,16 +53,16 @@ Voice / pace overrides (env vars):
 
 ### TLS error on a corporate network
 
-If generation fails with `CERTIFICATE_VERIFY_FAILED`, your Python doesn't trust
-the proxy's root cert. Fixes, easiest first:
+If generation fails with `CERTIFICATE_VERIFY_FAILED`, your Python isn't trusting
+the proxy's root cert. The shim uses `truststore` when it's importable, which
+almost always fixes it:
 
 ```bash
-pip install --upgrade certifi
-# then point Python at it (PowerShell):
-$env:SSL_CERT_FILE = (python -c "import certifi; print(certifi.where())")
+pip install truststore
 ```
 
-or run the generation off the corporate network, or use the piper backend.
+Failing that, run the generation off the corporate network, or use the piper
+backend (no network at all).
 
 ## Fully offline (piper)
 

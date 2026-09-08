@@ -147,6 +147,12 @@ async function main() {
 
     try {
       await backend.synth(clip.text, clip.lang, abs);
+      // Some CLIs (edge-tts on a network/TLS error) exit 0 but write nothing.
+      const bytes = existsSync(abs) ? (await stat(abs)).size : 0;
+      if (bytes < 512) {
+        if (existsSync(abs)) await unlink(abs).catch(() => {});
+        throw new Error(`produced ${bytes} bytes — treated as a failure`);
+      }
       made++;
       process.stdout.write(`\r  generated ${made}  (skipped ${skipped}, failed ${failed})   `);
     } catch (err) {
