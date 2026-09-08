@@ -129,7 +129,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 19 | Beauty and the Beast | Mme de Beaumont / Lang | 503 | A2 | trimmed (Blue Fairy Book) | ☐ |
 | 20 | East of the Sun and West of the Moon | Asbjørnsen & Moe / Lang | 503 | B1 | trimmed | ☐ |
 | 21 | The Twelve Dancing Princesses | Brothers Grimm / Lang | 503 | A2 | whole | ☐ |
-| 22 | A Christmas Carol (Stave 1) | Charles Dickens (1870) | 46 | B1 | Stave 1 only, abridged | ☐ |
+| 22 | A Christmas Carol (Stave 1) | Charles Dickens (1870) | 46 | B1 | Stave 1 ("Marley's Ghost"), simplified retelling, 17 sentences | ☑ |
 | 23 | Alice's Adventures in Wonderland (Ch. 1) | Lewis Carroll (1898) | 11 | A2 | "Down the Rabbit-Hole" | ☐ |
 | 24 | The Gift of the Magi collection — pick 1 more | O. Henry (1910) | 2776 | A2/B1 | one story from *The Four Million* | ☐ |
 | 25 | The Bet | Anton Chekhov (1904) | — | B1 | whole | ☐ |
@@ -200,18 +200,18 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (10):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (11):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
   (row 27), Jane Eyre Ch. 1 (row 33), The Selfish Giant (row 8), The Necklace
-  (row 6). Follow their shape in `src/lib/data/lessons.ts`.
+  (row 6), A Christmas Carol Stave 1 (row 22). Follow their shape in
+  `src/lib/data/lessons.ts`.
 - Levels on the shelf now: A1 ×2 (Cinderella, The Selfish Giant), A2 ×4
-  (Story of an Hour, Anne, Little Women, Ugly Duckling), B1 ×3 (Gift of the
-  Magi, Pride and Prejudice, The Necklace), B2 ×1 (Jane Eyre). Spread is
-  healthy; B2 is now the thin end.
-- Good next lessons to build: **A Christmas Carol Stave 1** (row 22, B1 —
-  build now so it is live before December), **The Lady with the Dog Part I**
-  (row 26, B2 — shores up the thin B2 end), **Wuthering Heights Ch. 3**
-  (row 35, B2), **The Secret Garden Ch. 1** (row 49, A2 — a non-fairy-tale
-  A2), **The Emperor's New Clothes** (row 17, A1). All short, famous, and
-  easy to level.
+  (Story of an Hour, Anne, Little Women, Ugly Duckling), B1 ×4 (Gift of the
+  Magi, Pride and Prejudice, The Necklace, A Christmas Carol), B2 ×1
+  (Jane Eyre). B2 is clearly the thin end now — the next builds should feed it.
+- Good next lessons to build: **The Lady with the Dog Part I** (row 26, B2 —
+  shores up the thin B2 end), **Wuthering Heights Ch. 3** (row 35, B2),
+  **The Secret Garden Ch. 1** (row 49, A2 — a non-fairy-tale A2),
+  **The Emperor's New Clothes** (row 17, A1). All short, famous, and easy
+  to level.

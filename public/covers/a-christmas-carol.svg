@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A Christmas Carol by Charles Dickens">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 180)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 -50 C 8 -39 7 -27 0 -23 C -7 -27 -8 -39 0 -50 Z" stroke-width="2"/>
+    <path d="M0 -43 C 3.5 -36 3.5 -30 0 -27 C -3.5 -30 -3.5 -36 0 -43 Z" stroke-width="1" opacity="0.8"/>
+    <path d="M0 -23 L0 -18" stroke-width="1.5"/>
+    <rect x="-9" y="-18" width="18" height="56" rx="3" stroke-width="2"/>
+    <path d="M-9 -4 Q-13 4 -9 12" stroke-width="1.4" opacity="0.75"/>
+    <path d="M-24 -42 L-15 -38 M24 -42 L15 -38 M-29 -30 L-19 -30 M29 -30 L19 -30" stroke-width="1.4" opacity="0.7"/>
+    <circle cx="-6" cy="46" r="2.4" fill="#C9A66B" stroke="none"/>
+    <circle cx="0" cy="49" r="2.4" fill="#C9A66B" stroke="none"/>
+    <circle cx="6" cy="46" r="2.4" fill="#C9A66B" stroke="none"/>
+  </g>
+
+  <text x="200" y="318" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic" fill="#2C2C2C">A</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#2C2C2C" letter-spacing="1">Christmas</text>
+  <text x="200" y="400" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#2C2C2C" letter-spacing="1">Carol</text>
+
+  <line x1="150" y1="434" x2="250" y2="434" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="476" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#C57B57" letter-spacing="2.5">CHARLES DICKENS</text>
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#9A8F80" letter-spacing="2">1843</text>
+
+  <text x="200" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

@@ -36,6 +36,9 @@ import type { Lesson } from "../types";
  *    Wilde's fairy tale (first published 1888, Project Gutenberg #902).
  *  - "The Necklace" is a simplified retelling of Guy de Maupassant's short
  *    story "La Parure" (first published 1884), long in the public domain.
+ *  - "A Christmas Carol" is a simplified retelling of Stave One ("Marley's
+ *    Ghost") from Charles Dickens's novella (first published 1843, Project
+ *    Gutenberg #46), long in the public domain.
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -2380,6 +2383,223 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "After ten years of poverty spent repaying the debt, Madame Forestier tells her that the original necklace had been imitation, worth at most five hundred francs.",
+      },
+    ],
+  },
+  {
+    slug: "a-christmas-carol",
+    title: "A Christmas Carol",
+    titleTranslation: "크리스마스 캐럴",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Ghost story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Charles Dickens (1812–1870)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/a-christmas-carol.svg",
+    source:
+      "Adapted from Stave One (\"Marley's Ghost\") of Charles Dickens's novella \"A Christmas Carol\" (first published 1843; Project Gutenberg #46), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe who visited Scrooge on Christmas Eve and what warning that visitor gave him.",
+    paragraphs: [
+      [
+        {
+          id: "cc-1",
+          text: "Jacob Marley had been dead for seven years, and Ebenezer Scrooge, his old business partner, was the only person who had come to his funeral.",
+          translation:
+            "제이컵 말리가 죽은 지 7년이 되었고, 그의 옛 동업자인 에버니저 스크루지는 그의 장례식에 온 유일한 사람이었어요.",
+        },
+        {
+          id: "cc-2",
+          text: "Scrooge was a hard, greedy old man, cold inside and out, who cared for nothing but money and kept every fire small to save coal.",
+          translation:
+            "스크루지는 냉정하고 탐욕스러운 노인이었어요. 속도 겉도 차가웠고, 돈 말고는 아무것도 아끼지 않았으며, 석탄을 아끼려고 어느 난롯불이든 늘 작게만 피웠어요.",
+        },
+        {
+          id: "cc-3",
+          text: "On a bitter, foggy Christmas Eve he sat working in his counting-house, while his clerk copied letters in a freezing little room with only one lump of coal on the fire.",
+          translation:
+            "몹시 춥고 안개 낀 어느 크리스마스이브에 그는 회계 사무실에서 일하고 있었고, 그의 서기는 난로에 석탄 한 덩이만 넣은 채 얼어붙을 듯 추운 작은 방에서 편지를 옮겨 적고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "cc-4",
+          text: "His cheerful nephew looked in to wish him a merry Christmas and to invite him to dinner the next day, but Scrooge only said, \"Bah! Humbug!\" and sent him away.",
+          translation:
+            "그의 쾌활한 조카가 잠깐 들러 메리 크리스마스 인사를 건네고 이튿날 저녁 식사에 초대했지만, 스크루지는 \"흥, 다 헛소리야!\"라고만 말하고 그를 돌려보냈어요.",
+        },
+        {
+          id: "cc-5",
+          text: "Then two kind gentlemen came in, collecting money for the poor, but Scrooge refused to give a single coin and told them the poor could go to the prisons and the workhouses.",
+          translation:
+            "그다음에는 친절한 신사 두 사람이 들어와 가난한 사람들을 위해 모금을 했지만, 스크루지는 동전 한 닢도 내주기를 거부하며 가난한 이들은 감옥이나 구빈원에나 가면 된다고 말했어요.",
+        },
+        {
+          id: "cc-6",
+          text: "When the day's work was over, he grudgingly let his clerk have Christmas Day off with pay, and then walked home through the fog to the gloomy rooms that had once been Marley's.",
+          translation:
+            "하루 일이 끝나자 그는 마지못해 서기에게 급여를 주면서 크리스마스 당일을 쉬게 해 주고는, 안개를 헤치고 예전에 말리가 살던 음침한 방으로 걸어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "cc-7",
+          text: "As he put his key in the door, the knocker seemed to change into Marley's face, pale and staring, with spectacles pushed up on its ghostly forehead.",
+          translation:
+            "열쇠를 문에 꽂는 순간, 문고리가 말리의 얼굴로 변한 것처럼 보였어요. 창백하게 노려보는 얼굴이었고, 유령 같은 이마 위로 안경이 밀어 올려져 있었어요.",
+        },
+        {
+          id: "cc-8",
+          text: "He blinked, and it was only a knocker again; but upstairs, alone by his small fire, he heard a bell begin to ring by itself, and then a heavy clanking of chains coming up from below.",
+          translation:
+            "그가 눈을 깜박이자 그것은 다시 그냥 문고리일 뿐이었어요. 하지만 위층에서 작은 난롯불 앞에 홀로 있을 때, 종이 저절로 울리기 시작하더니 아래층에서 무거운 쇠사슬 소리가 철컹거리며 올라오는 것이 들렸어요.",
+        },
+        {
+          id: "cc-9",
+          text: "Straight through the closed door came the ghost of Jacob Marley, the same face Scrooge had known, but wound about with a long chain made of cash-boxes, keys, padlocks, ledgers, and heavy purses.",
+          translation:
+            "닫힌 문을 그대로 통과해 제이컵 말리의 유령이 들어왔어요. 스크루지가 알던 바로 그 얼굴이었지만, 돈궤와 열쇠, 자물쇠, 장부, 묵직한 돈주머니로 이어진 긴 쇠사슬이 몸을 칭칭 감고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "cc-10",
+          text: "Scrooge tried not to believe his eyes, saying the ghost might be nothing more than a bad piece of meat he had eaten, until the spirit gave a terrible cry and shook its chain so hard that Scrooge fell on his knees.",
+          translation:
+            "스크루지는 눈앞의 광경을 믿지 않으려고, 저 유령은 잘못 먹은 상한 고기 한 조각 때문일 뿐이라고 말했어요. 그러자 유령이 무시무시한 비명을 지르며 쇠사슬을 어찌나 세게 흔들었는지 스크루지는 무릎을 꿇고 말았어요.",
+        },
+        {
+          id: "cc-11",
+          text: "Marley explained that in life he had never looked beyond his own money, and so now he could find no rest: he was forced to wander the world and watch the people he could no longer help.",
+          translation:
+            "말리는 살아 있는 동안 자기 돈 너머를 한 번도 바라보지 않았기에 이제 안식을 얻지 못한다고 설명했어요. 그는 세상을 떠돌며, 이제는 도울 수 없는 사람들을 지켜봐야만 하는 신세였어요.",
+        },
+        {
+          id: "cc-12",
+          text: "\"This chain I wear, I made myself in life,\" he said, \"link by link — and yours was already longer and heavier than mine seven Christmas Eves ago.\"",
+          translation:
+            "\"내가 차고 있는 이 쇠사슬은 내가 살아서 직접 만든 거야,\" 그가 말했어요. \"한 고리 한 고리씩 말이지 — 그리고 네 것은 7년 전 크리스마스이브에 이미 내 것보다 더 길고 더 무거웠어.\"",
+        },
+      ],
+      [
+        {
+          id: "cc-13",
+          text: "He had come, he said, to warn Scrooge that there was still a chance to choose a different path, and that he would be haunted by three spirits.",
+          translation:
+            "그는 스크루지에게 아직 다른 길을 택할 기회가 남아 있다는 것을 경고하러 왔으며, 스크루지가 세 유령의 방문을 받게 될 거라고 말했어요.",
+        },
+        {
+          id: "cc-14",
+          text: "The first would come the next night when the bell struck one, the second the night after at the same hour, and the third when the last stroke of midnight had finished on the third night.",
+          translation:
+            "첫 번째 유령은 다음 날 밤 종이 한 시를 칠 때 오고, 두 번째 유령은 그다음 날 밤 같은 시각에, 세 번째 유령은 사흘째 되는 날 밤 자정을 알리는 마지막 종소리가 끝났을 때 온다고 했어요.",
+        },
+        {
+          id: "cc-15",
+          text: "Then Marley drew Scrooge to the window, and outside in the night air were crowds of moaning phantoms, each bound in chains, all of them wretched that they could no longer do any good among the living.",
+          translation:
+            "그러고 나서 말리는 스크루지를 창가로 데려갔는데, 밤공기 속 바깥에는 신음하는 유령들이 무리 지어 있었어요. 저마다 쇠사슬에 묶인 채, 이제 산 사람들 사이에서 아무런 선행도 할 수 없다는 사실에 모두가 비참해하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "cc-16",
+          text: "The ghost floated backward out into the dark, and when Scrooge looked again the phantoms had faded and the night was silent.",
+          translation:
+            "유령은 뒤로 둥실 떠서 어둠 속으로 나갔고, 스크루지가 다시 바라보았을 때 유령들은 사라지고 밤은 고요했어요.",
+        },
+        {
+          id: "cc-17",
+          text: "Worn out by all he had seen, Scrooge stumbled to his bed without undressing and fell asleep the moment he lay down.",
+          translation:
+            "본 것에 완전히 지쳐 버린 스크루지는 옷도 벗지 않은 채 비틀비틀 침대로 가서, 눕자마자 잠이 들었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cc-v1",
+        term: "greedy",
+        partOfSpeech: "adjective",
+        translation: "탐욕스러운, 욕심 많은",
+        example: "Scrooge was a hard, greedy old man who cared for nothing but money.",
+        exampleTranslation: "스크루지는 돈 말고는 아무것에도 관심이 없는 냉정하고 탐욕스러운 노인이었어요.",
+      },
+      {
+        id: "cc-v2",
+        term: "refuse",
+        partOfSpeech: "verb",
+        translation: "거부하다, 거절하다",
+        example: "Scrooge refused to give a single coin to the poor.",
+        exampleTranslation: "스크루지는 가난한 사람들에게 동전 한 닢 주는 것도 거부했어요.",
+      },
+      {
+        id: "cc-v3",
+        term: "haunt",
+        partOfSpeech: "verb",
+        translation: "(유령이) 출몰하다; 계속 따라다니며 괴롭히다",
+        example: "Marley warned that Scrooge would be haunted by three spirits.",
+        exampleTranslation: "말리는 스크루지가 세 유령에게 시달리게 될 거라고 경고했어요.",
+      },
+      {
+        id: "cc-v4",
+        term: "chain",
+        partOfSpeech: "noun",
+        translation: "쇠사슬, 사슬",
+        example: "The ghost was wound about with a long, heavy chain.",
+        exampleTranslation: "그 유령은 길고 무거운 쇠사슬을 몸에 칭칭 감고 있었어요.",
+      },
+      {
+        id: "cc-v5",
+        term: "wander",
+        partOfSpeech: "verb",
+        translation: "헤매다, 떠돌다, 배회하다",
+        example: "Marley was forced to wander the world without rest.",
+        exampleTranslation: "말리는 쉬지도 못한 채 온 세상을 떠돌아야만 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cc-q1",
+        prompt: "How did Scrooge respond to his nephew's Christmas invitation?",
+        options: [
+          "He accepted it, but only if Marley's ghost could come too.",
+          "He refused it, said \"Bah! Humbug!\", and sent his nephew away.",
+          "He agreed to come as long as dinner was at his own house.",
+          "He was too busy with the charity collectors to give an answer.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Scrooge's cheerful nephew looked in to invite him to dinner, but Scrooge dismissed Christmas as \"humbug\" and sent him off without accepting.",
+      },
+      {
+        id: "cc-q2",
+        prompt: "What was Marley's chain made of, and where had it come from?",
+        options: [
+          "Iron bars from the prisons, locked on him as a punishment.",
+          "Gold coins he had stolen, handed to him by the other phantoms.",
+          "Cash-boxes, keys, padlocks, and ledgers, which he had made himself in life.",
+          "Church bells, which had grown around him after his death.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The ghost's chain was formed of cash-boxes, keys, padlocks, ledgers, and heavy purses — the tools of his money-getting — and Marley says he made it himself, link by link, while he was alive.",
+      },
+      {
+        id: "cc-q3",
+        prompt: "Why had Marley's ghost come to see Scrooge?",
+        options: [
+          "To ask Scrooge to pay off a debt Marley had left behind.",
+          "To take Scrooge away with him that very night.",
+          "To beg Scrooge to give his clerk a warmer room and more pay.",
+          "To warn Scrooge that he could still change, and that three spirits would visit him.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Marley tells Scrooge he still has a chance to escape Marley's fate, and that he will be haunted by three spirits over the next three nights.",
       },
     ],
   },
