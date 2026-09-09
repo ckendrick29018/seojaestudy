@@ -11255,4 +11255,214 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "an-old-fashioned-girl",
+    title: "An Old-Fashioned Girl",
+    titleTranslation: "구식 소녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "👒",
+    coverImage: "/covers/an-old-fashioned-girl.svg",
+    source:
+      "Adapted from Chapter 1 (\"Polly Arrives\") of Louisa May Alcott's novel \"An Old-Fashioned Girl\" (first published 1870; long in the public domain, Project Gutenberg #2787). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Polly felt on her first day at the Shaws' house and who made her feel welcome.",
+    paragraphs: [
+      [
+        {
+          id: "ofg-1",
+          text: "Polly Milton was fourteen years old, and she lived in a small country town.",
+          translation: "폴리 밀턴은 열네 살이었고, 작은 시골 마을에 살았어요.",
+        },
+        {
+          id: "ofg-2",
+          text: "One winter day, she took the train to the city to visit her friend Fanny Shaw.",
+          translation:
+            "어느 겨울날, 폴리는 친구 패니 쇼를 만나러 기차를 타고 도시로 갔어요.",
+        },
+        {
+          id: "ofg-3",
+          text: "It was Polly's first visit, and she felt shy and a little afraid.",
+          translation: "폴리에게는 첫 방문이어서, 수줍고 조금 겁이 났어요.",
+        },
+      ],
+      [
+        {
+          id: "ofg-4",
+          text: "Fanny met her at the busy station.",
+          translation: "패니가 붐비는 역으로 폴리를 마중 나왔어요.",
+        },
+        {
+          id: "ofg-5",
+          text: "The two girls were the same age, but they did not look the same at all.",
+          translation: "두 소녀는 나이가 같았지만, 겉모습은 전혀 달랐어요.",
+        },
+        {
+          id: "ofg-6",
+          text: "Fanny wore a long fashionable coat, a fur hat, and high-heeled boots.",
+          translation:
+            "패니는 길고 유행하는 외투에 털모자를 쓰고, 굽 높은 부츠를 신고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ofg-7",
+          text: "Polly wore a simple grey coat and a plain round hat, and her boots were made for walking.",
+          translation:
+            "폴리는 수수한 회색 외투에 평범한 둥근 모자를 쓰고 있었고, 부츠는 걷기에 편한 것이었어요.",
+        },
+        {
+          id: "ofg-8",
+          text: "Fanny looked like a young lady. Polly still looked like a little girl.",
+          translation: "패니는 젊은 숙녀처럼 보였어요. 폴리는 아직 어린아이처럼 보였고요.",
+        },
+        {
+          id: "ofg-9",
+          text: "The Shaws' house was tall and grand, with thick carpets and many fine things.",
+          translation:
+            "쇼 씨네 집은 높고 으리으리했으며, 두꺼운 카펫과 값진 물건이 많았어요.",
+        },
+      ],
+      [
+        {
+          id: "ofg-10",
+          text: "Polly had never stayed in such a house before.",
+          translation: "폴리는 그런 집에 머물러 본 적이 한 번도 없었어요.",
+        },
+        {
+          id: "ofg-11",
+          text: "At dinner she met the whole family.",
+          translation: "저녁 식사 자리에서 폴리는 온 가족을 만났어요.",
+        },
+        {
+          id: "ofg-12",
+          text: "Mr. and Mrs. Shaw were polite but busy, and did not say much to her.",
+          translation:
+            "쇼 씨 부부는 예의는 발랐지만 바빴고, 폴리에게 말을 많이 걸지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ofg-13",
+          text: "Maud, the youngest child, stared at Polly's plain dress and asked why it was so old-fashioned.",
+          translation:
+            "막내인 모드는 폴리의 수수한 옷을 빤히 쳐다보며 왜 그렇게 구식이냐고 물었어요.",
+        },
+        {
+          id: "ofg-14",
+          text: "Tom, who was sixteen, laughed and teased Polly until her face turned red.",
+          translation:
+            "열여섯 살인 톰은 웃으면서 폴리의 얼굴이 빨개질 때까지 놀려 댔어요.",
+        },
+        {
+          id: "ofg-15",
+          text: "Only Grandma Shaw was truly kind; she smiled at Polly and made room for her by the fire.",
+          translation:
+            "오직 쇼 할머니만이 진심으로 다정했어요. 할머니는 폴리에게 미소 지으며 난롯가에 자리를 내주었어요.",
+        },
+      ],
+      [
+        {
+          id: "ofg-16",
+          text: "That night, alone in a strange room, Polly felt homesick and cried a little.",
+          translation:
+            "그날 밤, 낯선 방에 혼자 있으니 폴리는 집이 그리워 조금 울었어요.",
+        },
+        {
+          id: "ofg-17",
+          text: "But she remembered her mother's advice — to be herself — and she fell asleep feeling braver.",
+          translation:
+            "하지만 폴리는 그저 자기 자신답게 지내라던 엄마의 말을 떠올렸고, 조금 더 용감해진 기분으로 잠이 들었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ofg-v1",
+        term: "fashionable",
+        partOfSpeech: "adjective",
+        translation: "유행하는, 멋을 낸",
+        example: "Fanny wore a fashionable coat and a fur hat.",
+        exampleTranslation: "패니는 유행하는 외투를 입고 털모자를 쓰고 있었어요.",
+      },
+      {
+        id: "ofg-v2",
+        term: "grand",
+        partOfSpeech: "adjective",
+        translation: "웅장한, 으리으리한",
+        example: "The Shaws' house was tall and grand.",
+        exampleTranslation: "쇼 씨네 집은 높고 으리으리했어요.",
+      },
+      {
+        id: "ofg-v3",
+        term: "old-fashioned",
+        partOfSpeech: "adjective",
+        translation: "구식의, 옛날식의",
+        example: "Maud asked why Polly's dress was so old-fashioned.",
+        exampleTranslation: "모드는 폴리의 옷이 왜 그렇게 구식이냐고 물었어요.",
+      },
+      {
+        id: "ofg-v4",
+        term: "tease",
+        partOfSpeech: "verb",
+        translation: "놀리다, 장난치다",
+        example: "Tom teased Polly until her face turned red.",
+        exampleTranslation: "톰은 폴리의 얼굴이 빨개질 때까지 놀렸어요.",
+      },
+      {
+        id: "ofg-v5",
+        term: "homesick",
+        partOfSpeech: "adjective",
+        translation: "집을 그리워하는, 향수병에 걸린",
+        example: "Alone in a strange room, Polly felt homesick.",
+        exampleTranslation: "낯선 방에 혼자 있으니 폴리는 집이 그리웠어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ofg-q1",
+        prompt: "How were Polly and Fanny different when they met at the station?",
+        options: [
+          "Fanny was several years older than Polly.",
+          "Polly was dressed in the latest fashion, while Fanny wore plain country clothes.",
+          "They were the same age, but Fanny looked like a young lady while Polly still looked like a little girl.",
+          "Polly did not recognise Fanny at all.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The two girls were the same age, but Fanny wore a fashionable coat, a fur hat, and high-heeled boots and looked like a young lady, while Polly's plain grey coat and sensible walking boots made her still look like a child.",
+      },
+      {
+        id: "ofg-q2",
+        prompt: "How did the Shaw children treat Polly on her first evening?",
+        options: [
+          "They welcomed her warmly and showed her around the house.",
+          "Maud stared at her old-fashioned dress, and Tom teased her until she blushed.",
+          "They ignored her completely and would not speak to her.",
+          "They gave her presents and asked all about her town.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Maud, the youngest, stared at Polly's plain dress and asked why it was so old-fashioned, and sixteen-year-old Tom laughed and teased her until her face turned red.",
+      },
+      {
+        id: "ofg-q3",
+        prompt: "Who was kind to Polly, and how did the first night end?",
+        options: [
+          "Mrs. Shaw was kind, and Polly slept happily at once.",
+          "Fanny was kind, and the two girls stayed up talking all night.",
+          "No one was kind, and Polly went home the next morning.",
+          "Only Grandma Shaw was kind; Polly felt homesick and cried, but remembered her mother's advice and felt braver.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Only Grandma Shaw was truly kind, smiling at Polly and making room for her by the fire; alone in a strange room that night Polly felt homesick and cried a little, but she remembered her mother's advice to be herself and fell asleep feeling braver.",
+      },
+    ],
+  },
 ];
