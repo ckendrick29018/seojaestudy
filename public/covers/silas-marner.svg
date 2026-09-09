@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Silas Marner by George Eliot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 174)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-32 24 v-38 h64 v38" stroke-width="1.9"/>
+    <path d="M-40 -14 h80" stroke-width="1.7"/>
+    <path d="M-3 22 q -10 -15 0 -28 q 4 9 4 18 q 7 -7 4 -17 q 10 13 0 27 z" stroke-width="1.7"/>
+    <path d="M-16 22 q -6 -10 0 -18 q 2 5 2 11 q 4 -4 3 -10 q 6 9 0 17 z" stroke-width="1.3" opacity="0.85"/>
+    <path d="M15 22 q 6 -10 0 -18 q -2 5 -2 11 q -4 -4 -3 -10 q -6 9 0 17 z" stroke-width="1.3" opacity="0.85"/>
+    <path d="M-19 24 h34" stroke-width="1.3" opacity="0.7"/>
+    <circle cx="24" cy="18" r="6.5" stroke-width="1.6"/>
+    <path d="M19 13 q 5 -5 10 0 M18 20 q 6 5 12 0" stroke-width="1" opacity="0.7"/>
+    <path d="M-52 34 q 38 -9 56 -4 t 56 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="334" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#2C2C2C" letter-spacing="1">Silas Marner</text>
+
+  <line x1="150" y1="370" x2="250" y2="370" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="403" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Gold, and a child at the hearth</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#C57B57" letter-spacing="4">GEORGE ELIOT</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1861</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

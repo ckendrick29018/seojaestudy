@@ -9755,4 +9755,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "silas-marner",
+    title: "Silas Marner",
+    titleTranslation: "사일러스 마너",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "George Eliot (1819–1880)",
+    coverEmoji: "🔥",
+    coverImage: "/covers/silas-marner.svg",
+    source:
+      "Adapted from Chapter 12 of George Eliot's novel \"Silas Marner\" (first published 1861; long in the public domain, Project Gutenberg #550). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how a small child came to be at Silas Marner's fireside, and what he mistook her for at first.",
+    paragraphs: [
+      [
+        {
+          id: "sil-1",
+          text: "Silas Marner was a weaver who lived alone at the edge of the village of Raveloe, and for fifteen years his only friend had been his little pile of gold.",
+          translation:
+            "사일러스 마너는 레이블로 마을 어귀에 홀로 사는 베 짜는 사람이었고, 15년 동안 그의 유일한 벗은 조그맣게 쌓아 둔 금이었어요.",
+        },
+        {
+          id: "sil-2",
+          text: "Then, one dark night, a thief had crept in and carried the gold away.",
+          translation:
+            "그러던 어느 캄캄한 밤, 도둑 하나가 몰래 들어와 그 금을 가지고 사라졌어요.",
+        },
+        {
+          id: "sil-3",
+          text: "Since the robbery, Silas often left his cottage door open in the evening, staring out at the road, as if the money might somehow come back to him.",
+          translation:
+            "도둑을 맞은 뒤로 사일러스는 저녁이면 오두막 문을 열어 둔 채 길을 내다보곤 했는데, 마치 그 돈이 어떻게든 자기에게 돌아오기라도 할 것처럼요.",
+        },
+      ],
+      [
+        {
+          id: "sil-4",
+          text: "It was New Year's Eve, and snow was falling softly over the fields.",
+          translation:
+            "섣달그믐 밤이었고, 눈이 들판 위로 소리 없이 내리고 있었어요.",
+        },
+        {
+          id: "sil-5",
+          text: "Silas sometimes fell into a strange, still trance in which he stood without moving and saw nothing around him.",
+          translation:
+            "사일러스는 이따금 이상하고 고요한 무아지경에 빠졌는데, 그럴 때면 꼼짝도 않고 서서 주위의 아무것도 보지 못했어요.",
+        },
+        {
+          id: "sil-6",
+          text: "As he stood in the open doorway that night, one of these spells came over him, and he did not notice a small figure coming through the snow.",
+          translation:
+            "그날 밤 열린 문간에 서 있을 때 그런 발작이 다시 찾아왔고, 그는 눈 속을 헤치고 다가오는 작은 형체를 알아채지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "sil-7",
+          text: "A little girl, no more than two years old, had wandered away from something lying still in the snow by the road.",
+          translation:
+            "두 살이 채 안 된 어린 여자아이가, 길가 눈밭에 꼼짝 않고 누워 있는 무언가로부터 떨어져 나와 걸어온 것이었어요.",
+        },
+        {
+          id: "sil-8",
+          text: "She saw the bright firelight through Silas's open door, crawled toward the warmth, and sat down on the hearth.",
+          translation:
+            "아이는 사일러스의 열린 문 사이로 환한 불빛을 보고, 그 온기를 향해 기어가 난롯가 바닥에 앉았어요.",
+        },
+        {
+          id: "sil-9",
+          text: "There, close to the fire, she fell fast asleep.",
+          translation: "그렇게 불 가까이에서 아이는 깊이 잠이 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "sil-10",
+          text: "When the trance passed, Silas shut the door and turned back toward the fire — and saw something gold shining on the hearth.",
+          translation:
+            "무아지경이 걷히자 사일러스는 문을 닫고 다시 불 쪽으로 돌아섰고, 난롯가에서 금빛으로 반짝이는 무언가를 보았어요.",
+        },
+        {
+          id: "sil-11",
+          text: "His heart leaped: he thought his lost money had been brought back to him.",
+          translation:
+            "그의 가슴이 뛰었어요. 잃어버린 돈이 자기에게 되돌아온 줄로만 알았지요.",
+        },
+        {
+          id: "sil-12",
+          text: "But when he bent down and put out his hand, his fingers touched not hard coins but soft, warm golden curls.",
+          translation:
+            "그런데 몸을 숙여 손을 내밀자, 그의 손끝에 닿은 것은 딱딱한 동전이 아니라 부드럽고 따뜻한 금빛 곱슬머리였어요.",
+        },
+      ],
+      [
+        {
+          id: "sil-13",
+          text: "The child woke, looked up at the strange man, and cried out for her mother.",
+          translation:
+            "아이가 잠에서 깨어 낯선 남자를 올려다보더니, 엄마를 부르며 울음을 터뜨렸어요.",
+        },
+        {
+          id: "sil-14",
+          text: "Something in Silas stirred — a memory of a baby sister he had carried in his arms long ago, in the town he had left.",
+          translation:
+            "사일러스의 마음속에서 무언가가 일었어요. 오래전, 그가 떠나온 고향 마을에서 품에 안고 다니던 어린 여동생의 기억이었지요.",
+        },
+        {
+          id: "sil-15",
+          text: "He warmed some porridge and fed her, took off her wet little boots, and held her until she was quiet again.",
+          translation:
+            "그는 죽을 데워 아이에게 먹이고, 젖은 작은 신발을 벗겨 주었으며, 아이가 다시 잠잠해질 때까지 안고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sil-16",
+          text: "Following her small wet footprints back out into the night, Silas found a young woman lying dead in the snow, and understood that the child was now alone in the world.",
+          translation:
+            "아이의 작고 젖은 발자국을 따라 다시 밤 속으로 나간 사일러스는, 한 젊은 여인이 눈 속에 죽어 누워 있는 것을 발견했고, 이제 그 아이가 세상에 홀로 남았다는 것을 알았어요.",
+        },
+        {
+          id: "sil-17",
+          text: "He carried her to the great house to fetch help — and where his gold had shut him away from everyone, this child would slowly open his heart again.",
+          translation:
+            "그는 도움을 청하러 아이를 안고 큰 저택으로 갔어요. 그리고 금이 그를 모든 사람으로부터 닫아걸었던 자리에서, 이 아이가 그의 마음을 다시 천천히 열어 가게 되지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sil-v1",
+        term: "thief",
+        partOfSpeech: "noun",
+        translation: "도둑",
+        example: "A thief crept into the cottage and stole all of Silas's gold.",
+        exampleTranslation: "도둑 하나가 오두막에 몰래 들어와 사일러스의 금을 몽땅 훔쳤어요.",
+      },
+      {
+        id: "sil-v2",
+        term: "trance",
+        partOfSpeech: "noun",
+        translation: "무아지경, (의식이 흐려지는) 최면 상태",
+        example: "Silas would sometimes stand quite still, lost in a strange trance.",
+        exampleTranslation: "사일러스는 이따금 이상한 무아지경에 빠져 꼼짝 않고 서 있곤 했어요.",
+      },
+      {
+        id: "sil-v3",
+        term: "hearth",
+        partOfSpeech: "noun",
+        translation: "벽난로 앞바닥, 난롯가",
+        example: "The child sat down on the warm hearth in front of the fire.",
+        exampleTranslation: "아이는 불 앞의 따뜻한 난롯가 바닥에 앉았어요.",
+      },
+      {
+        id: "sil-v4",
+        term: "curl",
+        partOfSpeech: "noun",
+        translation: "곱슬머리 한 가닥, 고수머리",
+        example: "His fingers touched soft golden curls instead of coins.",
+        exampleTranslation: "그의 손끝에는 동전 대신 부드러운 금빛 곱슬머리가 닿았어요.",
+      },
+      {
+        id: "sil-v5",
+        term: "stir",
+        partOfSpeech: "verb",
+        translation: "(감정·기억 등이) 일다, 꿈틀하다",
+        example: "An old memory stirred in Silas as he held the little girl.",
+        exampleTranslation: "어린 소녀를 안고 있자 사일러스의 마음속에서 오래된 기억이 일었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sil-q1",
+        prompt: "Why did Silas Marner leave his cottage door open in the evenings?",
+        options: [
+          "He was expecting a visitor from the village.",
+          "He hoped, without much sense, that his stolen gold might somehow return.",
+          "The cottage was too warm with the door shut.",
+          "He wanted the villagers to see that he had nothing left to steal.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Since a thief had carried off the gold that had been his only companion for fifteen years, Silas would sit with the door open, gazing at the road, as though the money might somehow come back to him.",
+      },
+      {
+        id: "sil-q2",
+        prompt: "What did Silas find on his hearth when his trance passed?",
+        options: [
+          "The thief who had robbed him, warming himself.",
+          "His bag of gold coins, returned at last.",
+          "A sleeping child, whose golden curls he at first mistook for his gold.",
+          "A letter from the village doctor.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Turning back from the door, Silas saw something gold shining on the hearth and thought his money had come back; but when he reached out, his fingers found soft warm curls — a little girl asleep by the fire.",
+      },
+      {
+        id: "sil-q3",
+        prompt: "What did Silas discover when he followed the child's footprints outside?",
+        options: [
+          "The child's father, searching for her.",
+          "A young woman lying dead in the snow — the child's mother.",
+          "His stolen gold, dropped in the road.",
+          "Nothing; the snow had covered every track.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Following the child's small wet footprints back into the night, Silas found a young woman lying dead in the snow, and realised the child was now alone in the world; he carried her to the great house for help.",
+      },
+    ],
+  },
 ];
