@@ -41,7 +41,7 @@ function ThanksContent() {
       <p className="mb-8 max-w-xs text-sm text-charcoal/60">
         {status === "done" ? t("subscriptionActiveBody") : t("subscriptionPendingBody")}
       </p>
-      <Link href="/" className="text-sm text-rose underline-offset-4 hover:underline">
+      <Link href="/library" className="text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
     </div>

@@ -6,10 +6,7 @@ import { Providers } from "@/components/providers/Providers";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { OnboardingFlow } from "@/components/onboarding/OnboardingFlow";
-
-// Absolute base for OG/canonical URLs in metadata. Falls back to the production
-// domain when NEXT_PUBLIC_SITE_URL isn't set (e.g. local builds).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.seojaestory.app";
+import { SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
@@ -31,10 +28,37 @@ const notoSerifKr = Noto_Serif_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: "SeoJae Story — Short Stories for Language Learners",
-  description:
-    "Learn English or Korean through short stories, with instant translations, listening practice, vocabulary flashcards, and gentle writing feedback.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "SeoJae Story — Short Stories for Language Learners",
+    template: "%s · SeoJae Story",
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: "SeoJae Story",
+  keywords: [
+    "learn English through stories",
+    "learn Korean through stories",
+    "graded readers",
+    "short stories for language learners",
+    "ESL reading practice",
+    "Korean reading practice",
+    "bilingual short stories",
+    "CEFR A1 A2 B1 B2 reading",
+  ],
+  authors: [{ name: "SeoJae Story" }],
+  openGraph: {
+    type: "website",
+    siteName: "SeoJae Story",
+    title: "SeoJae Story — Short Stories for Language Learners",
+    description: SITE_DESCRIPTION,
+    locale: "en_US",
+    alternateLocale: "ko_KR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SeoJae Story — Short Stories for Language Learners",
+    description: SITE_DESCRIPTION,
+  },
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,

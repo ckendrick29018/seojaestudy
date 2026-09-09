@@ -12,7 +12,7 @@ import { MenuDrawer } from "./MenuDrawer";
 export function SiteHeader() {
   const t = useT();
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === "/library";
   const { dueItems } = useStudyPlan();
   const { streak } = useDaily();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ export function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream/90 px-5 py-4 backdrop-blur">
-        <Link href="/" className="flex items-baseline gap-2">
+        <Link href="/library" className="flex items-baseline gap-2">
           <span className="font-serif text-xl font-semibold tracking-tight text-charcoal">
             {t("appName")}
           </span>

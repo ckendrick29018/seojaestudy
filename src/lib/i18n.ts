@@ -248,6 +248,79 @@ export const dict = {
     en: "Come back tomorrow to keep your streak going.",
     ko: "내일 다시 오면 연속 기록이 이어져요.",
   },
+
+  // --- Landing page (the marketing home at "/") ---
+  landingEyebrow: {
+    en: "English & Korean through stories",
+    ko: "이야기로 배우는 영어와 한국어",
+  },
+  landingHeadline: {
+    en: "Learn a language the gentle way — one short story at a time.",
+    ko: "짧은 이야기 하나씩, 부드럽게 배우는 언어.",
+  },
+  landingSubhead: {
+    en: "SeoJae Story turns timeless short fiction into bite-size reading lessons — with instant word translations, natural narration, and kind feedback. No account needed to begin.",
+    ko: "SeoJae Story는 오래 사랑받은 단편 문학을 짧은 읽기 수업으로 바꿔 드려요. 단어를 탭하면 바로 번역되고, 자연스러운 낭독과 따뜻한 피드백이 함께해요. 계정 없이 바로 시작할 수 있어요.",
+  },
+  landingCtaPrimary: { en: "Start reading — it's free", ko: "무료로 읽기 시작하기" },
+  landingCtaSecondary: { en: "Browse the classics", ko: "고전 둘러보기" },
+  landingTrust: {
+    en: "Free first lessons · No sign-up · Works offline",
+    ko: "첫 수업 무료 · 가입 불필요 · 오프라인 지원",
+  },
+
+  landingHowTitle: { en: "How a lesson works", ko: "수업은 이렇게 진행돼요" },
+  landingStep1Title: { en: "Read a short story", ko: "짧은 이야기를 읽어요" },
+  landingStep1Body: {
+    en: "One self-contained scene, simplified to your level (A1–B2). One idea per sentence.",
+    ko: "하나의 완결된 장면을 지금 수준(A1–B2)에 맞게 다듬었어요. 한 문장에 한 가지 생각만.",
+  },
+  landingStep2Title: { en: "Tap any word", ko: "모르는 단어를 탭해요" },
+  landingStep2Body: {
+    en: "Instant meanings from a built-in dictionary — no lookups, no leaving the page. Reveal a whole line when you want it.",
+    ko: "내장 사전으로 뜻이 바로 떠요. 사전을 찾을 필요도, 페이지를 떠날 필요도 없어요. 원하면 문장 전체 번역도 볼 수 있어요.",
+  },
+  landingStep3Title: { en: "Check, save, reflect", ko: "확인하고, 저장하고, 정리해요" },
+  landingStep3Body: {
+    en: "A few comprehension questions, flashcards for the words you saved, and a gentle note on the summary you write.",
+    ko: "짧은 이해도 퀴즈, 저장한 단어로 만드는 플래시카드, 그리고 직접 쓴 요약에 대한 따뜻한 피드백.",
+  },
+
+  landingFeaturesTitle: { en: "Built for calm, steady progress", ko: "차분하고 꾸준한 성장을 위해" },
+  landingFeatureListenTitle: { en: "Natural narration", ko: "자연스러운 낭독" },
+  landingFeatureListenBody: {
+    en: "Every sentence pre-recorded with a neural voice, in English and Korean.",
+    ko: "모든 문장을 뉴럴 음성으로 미리 녹음했어요 — 영어와 한국어 모두.",
+  },
+  landingFeatureBilingualTitle: { en: "Fully bilingual", ko: "완전한 이중 언어" },
+  landingFeatureBilingualBody: {
+    en: "Learn English from Korean, or Korean from English. Switch the interface any time.",
+    ko: "한국어로 영어를, 영어로 한국어를 배워요. 인터페이스는 언제든 바꿀 수 있어요.",
+  },
+  landingFeatureShelfTitle: { en: "A shelf that grows", ko: "채워지는 책장" },
+  landingFeatureShelfBody: {
+    en: "Finish a story and it lands on your bookshelf. Keep a daily streak going.",
+    ko: "이야기를 완독하면 책장에 꽂혀요. 매일 이어가는 연속 기록도 쌓아 보세요.",
+  },
+  landingFeatureOfflineTitle: { en: "Yours offline", ko: "오프라인에서도" },
+  landingFeatureOfflineBody: {
+    en: "Install it like an app. Your progress stays on your device until you sign in.",
+    ko: "앱처럼 설치하세요. 로그인 전까지 진행 상황은 기기에 저장돼요.",
+  },
+
+  landingClassicsTitle: { en: "Start with a classic", ko: "고전으로 시작해요" },
+  landingClassicsBody: {
+    en: "Public-domain stories, retold and translated by us for learners.",
+    ko: "저작권이 만료된 이야기를 학습자를 위해 새로 옮기고 번역했어요.",
+  },
+  landingClassicsSeeAll: { en: "See all {count} stories", ko: "이야기 {count}편 모두 보기" },
+
+  landingClosingTitle: { en: "Your first story is waiting.", ko: "첫 이야기가 기다리고 있어요." },
+  landingClosingCta: { en: "Open the library", ko: "서재 열기" },
+  landingFooterRights: {
+    en: "Original retellings and translations © SeoJae Story. Source texts are in the public domain.",
+    ko: "새로 옮긴 이야기와 번역의 저작권은 SeoJae Story에 있습니다. 원문은 모두 퍼블릭 도메인입니다.",
+  },
 } satisfies Dict;
 
 export function t(key: keyof typeof dict, lang: UiLang): string {

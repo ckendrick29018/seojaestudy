@@ -1,64 +1,208 @@
 "use client";
 
-import { useMemo } from "react";
+import Link from "next/link";
 import { lessons } from "@/lib/data/lessons";
-import { LessonCard } from "@/components/home/LessonCard";
-import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
-import { BookshelfPreview } from "@/components/home/BookshelfPreview";
-import { ClassicsSection } from "@/components/home/ClassicsSection";
-import { useLanguage, useT } from "@/components/providers/LanguageProvider";
-import { useOnboarding } from "@/components/providers/OnboardingProvider";
-import { LEVELS, GOALS, labelFor } from "@/lib/onboarding";
+import { ClassicCard } from "@/components/home/ClassicCard";
+import { useT } from "@/components/providers/LanguageProvider";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import {
+  BookOpenIcon,
+  BooksIcon,
+  CatIcon,
+  CheckIcon,
+  GlobeIcon,
+  HomeIcon,
+  SpeakerIcon,
+} from "@/components/ui/icons";
 
-/** CEFR ordering, so "near my level" can be measured as a distance. */
-const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
+/** A handful of Classics to show the product on the landing page itself. */
+const FEATURED = lessons.filter((l) => l.collection === "classics");
+const CLASSICS_COUNT = FEATURED.length;
 
-export default function HomePage() {
+const CTA_BASE =
+  "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition";
+
+const JSON_LD = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: `${SITE_URL}/`,
+      name: SITE_NAME,
+      description: SITE_DESCRIPTION,
+      inLanguage: ["en", "ko"],
+      publisher: { "@id": `${SITE_URL}/#org` },
+    },
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#org`,
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      logo: `${SITE_URL}/icons/icon-512.png`,
+    },
+    {
+      "@type": "WebApplication",
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web, Android",
+      inLanguage: ["en", "ko"],
+      description: SITE_DESCRIPTION,
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+        description: "Free first lessons; optional Premium subscription unlocks the full library.",
+      },
+    },
+  ],
+};
+
+export default function LandingPage() {
   const t = useT();
-  const { lang } = useLanguage();
-  const { data } = useOnboarding();
 
-  const ordered = useMemo(() => {
-    // Classics have their own shelf below; keep them out of the leveled list.
-    const base = lessons.filter((lesson) => lesson.collection !== "classics");
-    if (!data.completed || !data.level) return base;
-    const target = LEVEL_RANK[data.level] ?? 0;
-    // Stable sort: closest to the learner's level first, original order within a tie.
-    return base
-      .map((lesson, i) => ({ lesson, i, d: Math.abs((LEVEL_RANK[lesson.level] ?? 0) - target) }))
-      .sort((a, b) => a.d - b.d || a.i - b.i)
-      .map((x) => x.lesson);
-  }, [data.completed, data.level]);
+  const steps = [
+    { Icon: BookOpenIcon, title: t("landingStep1Title"), body: t("landingStep1Body") },
+    { Icon: GlobeIcon, title: t("landingStep2Title"), body: t("landingStep2Body") },
+    { Icon: CheckIcon, title: t("landingStep3Title"), body: t("landingStep3Body") },
+  ];
 
-  const personalized =
-    data.completed && data.level
-      ? [
-          labelFor(
-            LEVELS.map((l) => ({ id: l.id, en: l.en, ko: l.ko })),
-            data.level,
-            lang,
-          ),
-          labelFor(GOALS, data.goal, lang),
-        ]
-          .filter(Boolean)
-          .join(" · ")
-      : null;
+  const features = [
+    { Icon: SpeakerIcon, title: t("landingFeatureListenTitle"), body: t("landingFeatureListenBody") },
+    { Icon: GlobeIcon, title: t("landingFeatureBilingualTitle"), body: t("landingFeatureBilingualBody") },
+    { Icon: CatIcon, title: t("landingFeatureShelfTitle"), body: t("landingFeatureShelfBody") },
+    { Icon: HomeIcon, title: t("landingFeatureOfflineTitle"), body: t("landingFeatureOfflineBody") },
+  ];
 
   return (
-    <div className="px-5 py-8">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70">
-        {personalized ? t("forYou") : t("library")}
-      </p>
-      <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal">{t("appName")}</h1>
-      <p className="mb-8 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
-      <LessonOfDayCard />
-      <BookshelfPreview />
-      <div className="mt-8 space-y-3">
-        {ordered.map((lesson) => (
-          <LessonCard key={lesson.slug} lesson={lesson} />
-        ))}
-      </div>
-      <ClassicsSection />
+    <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
+      />
+
+      {/* Hero */}
+      <section className="px-6 pb-12 pt-14 text-center">
+        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose/70">
+          {t("landingEyebrow")}
+        </p>
+        <h1 className="font-serif text-[2rem] font-semibold leading-tight text-charcoal">
+          {t("landingHeadline")}
+        </h1>
+        <p className="mx-auto mt-4 max-w-[34ch] text-sm leading-relaxed text-charcoal/60">
+          {t("landingSubhead")}
+        </p>
+
+        <div className="mt-7 flex flex-col items-center gap-3">
+          <Link href="/library" className={`${CTA_BASE} w-full bg-rose text-cream shadow-soft hover:bg-rose/90`}>
+            {t("landingCtaPrimary")}
+          </Link>
+          <Link
+            href="/classics"
+            className={`${CTA_BASE} w-full border border-rose-soft/50 text-rose hover:bg-rose-light/30`}
+          >
+            {t("landingCtaSecondary")}
+          </Link>
+        </div>
+        <p className="mt-4 text-xs text-charcoal/45">{t("landingTrust")}</p>
+      </section>
+
+      {/* How a lesson works */}
+      <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
+        <h2 className="mb-6 text-center font-serif text-2xl font-semibold text-charcoal">
+          {t("landingHowTitle")}
+        </h2>
+        <ol className="space-y-4">
+          {steps.map(({ Icon, title, body }, i) => (
+            <li
+              key={title}
+              className="flex gap-4 rounded-xl2 border border-rose-light/50 bg-cream/70 p-4"
+            >
+              <span
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl2 bg-sage/50 text-charcoal/70"
+                aria-hidden
+              >
+                <Icon className="h-5 w-5" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-sm font-semibold text-charcoal">
+                  <span className="text-rose/60">{i + 1}.</span> {title}
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-charcoal/60">{body}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      {/* Feature highlights */}
+      <section className="px-6 py-12">
+        <h2 className="mb-6 text-center font-serif text-2xl font-semibold text-charcoal">
+          {t("landingFeaturesTitle")}
+        </h2>
+        <div className="grid grid-cols-2 gap-3">
+          {features.map(({ Icon, title, body }) => (
+            <div key={title} className="rounded-xl2 border border-rose-light/50 bg-white/60 p-4 shadow-soft">
+              <Icon className="h-5 w-5 text-rose" aria-hidden />
+              <p className="mt-2 text-sm font-semibold text-charcoal">{title}</p>
+              <p className="mt-1 text-xs leading-relaxed text-charcoal/55">{body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Start with a classic */}
+      {FEATURED.length > 0 && (
+        <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
+          <h2 className="text-center font-serif text-2xl font-semibold text-charcoal">
+            {t("landingClassicsTitle")}
+          </h2>
+          <p className="mx-auto mb-6 mt-1.5 max-w-[36ch] text-center text-sm text-charcoal/55">
+            {t("landingClassicsBody")}
+          </p>
+          <div className="grid grid-cols-2 gap-3">
+            {FEATURED.slice(0, 4).map((lesson) => (
+              <ClassicCard key={lesson.slug} lesson={lesson} complete={false} />
+            ))}
+          </div>
+          <Link
+            href="/classics"
+            className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline"
+          >
+            {t("landingClassicsSeeAll").replace("{count}", String(CLASSICS_COUNT))}
+          </Link>
+        </section>
+      )}
+
+      {/* Closing CTA */}
+      <section className="px-6 py-14 text-center">
+        <BooksIcon className="mx-auto h-8 w-8 text-rose/50" aria-hidden />
+        <h2 className="mt-3 font-serif text-2xl font-semibold text-charcoal">
+          {t("landingClosingTitle")}
+        </h2>
+        <Link
+          href="/library"
+          className={`${CTA_BASE} mt-5 bg-rose text-cream shadow-soft hover:bg-rose/90`}
+        >
+          {t("landingClosingCta")}
+        </Link>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-rose-light/40 px-6 py-8 text-center">
+        <p className="font-serif text-lg font-semibold text-charcoal">{SITE_NAME}</p>
+        <p className="mt-1 text-xs text-charcoal/50">{t("tagline")}</p>
+        <nav className="mt-4 flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs font-medium text-charcoal/60">
+          <Link href="/library" className="hover:text-charcoal">{t("library")}</Link>
+          <Link href="/classics" className="hover:text-charcoal">{t("classics")}</Link>
+          <Link href="/login" className="hover:text-charcoal">{t("signIn")}</Link>
+          <Link href="/settings" className="hover:text-charcoal">{t("settings")}</Link>
+        </nav>
+        <p className="mx-auto mt-5 max-w-[40ch] text-[11px] leading-relaxed text-charcoal/40">
+          {t("landingFooterRights")}
+        </p>
+      </footer>
     </div>
   );
 }

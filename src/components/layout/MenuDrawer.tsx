@@ -70,7 +70,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   if (!render) return null;
 
   const navItems = [
-    { href: "/", label: t("library"), Icon: HomeIcon, badge: 0 },
+    { href: "/library", label: t("library"), Icon: HomeIcon, badge: 0 },
     { href: "/classics", label: t("classics"), Icon: BooksIcon, badge: 0 },
     { href: "/bookshelf", label: t("bookshelf"), Icon: CatIcon, badge: 0 },
     { href: "/saved", label: t("savedWords"), Icon: BookOpenIcon, badge: 0 },
@@ -79,7 +79,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   ];
 
   const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
+    href === "/library" ? pathname === "/library" : pathname === href || pathname.startsWith(`${href}/`);
 
   const rowClass =
     "flex items-center gap-3 rounded-xl2 px-3 py-2.5 text-sm font-medium transition text-charcoal/70 hover:bg-sage/40 hover:text-charcoal";
@@ -181,7 +181,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
                     <button
                       onClick={() => {
                         onClose();
-                        signOut().then(() => window.location.assign("/"));
+                        signOut().then(() => window.location.assign("/library"));
                       }}
                       className={`w-full ${rowClass}`}
                     >

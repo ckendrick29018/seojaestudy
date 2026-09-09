@@ -29,7 +29,7 @@ export default function ClassicsPage() {
       </div>
 
       <Link
-        href="/"
+        href="/library"
         className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline"
       >
         {t("backToLibrary")}

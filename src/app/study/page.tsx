@@ -146,7 +146,7 @@ export default function StudyPage() {
         </div>
       )}
 
-      <Link href="/" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
+      <Link href="/library" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
     </div>

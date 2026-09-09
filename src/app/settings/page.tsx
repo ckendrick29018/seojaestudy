@@ -33,7 +33,7 @@ export default function SettingsPage() {
 
   function redoOnboarding() {
     restart();
-    router.push("/");
+    router.push("/library");
   }
 
   const directionLabel =
@@ -167,7 +167,7 @@ export default function SettingsPage() {
         </section>
       </div>
 
-      <Link href="/" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
+      <Link href="/library" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
     </div>

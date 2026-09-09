@@ -59,7 +59,7 @@ export default function SavedWordsPage() {
         </ul>
       )}
 
-      <Link href="/" className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline">
+      <Link href="/library" className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
     </div>

@@ -12,9 +12,25 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const lesson = lessons.find((l) => l.slug === params.slug);
+  if (!lesson) return { title: { absolute: "Story not found · SeoJae Story" } };
+
+  const path = `/lesson/${lesson.slug}`;
+  const description =
+    `A ${lesson.level} ${lesson.targetLanguage === "en" ? "English" : "Korean"} reading lesson: ` +
+    `"${lesson.title}"${lesson.author ? ` by ${lesson.author}` : ""}. ` +
+    `Read it sentence by sentence with instant translations, narration, vocabulary, and a comprehension check.`;
+
   return {
-    title: lesson ? `${lesson.title} · SeoJae Story` : "SeoJae Story",
-    description: lesson?.summaryPrompt,
+    title: lesson.title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: "article",
+      url: path,
+      title: `${lesson.title} · SeoJae Story`,
+      description,
+    },
+    twitter: { card: "summary_large_image", title: `${lesson.title} · SeoJae Story`, description },
   };
 }
 

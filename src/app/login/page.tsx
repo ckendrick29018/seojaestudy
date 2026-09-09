@@ -13,7 +13,7 @@ function LoginContent() {
   const { user, authAvailable } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const next = searchParams.get("next") || "/";
+  const next = searchParams.get("next") || "/library";
 
   useEffect(() => {
     if (user) router.replace(next);
@@ -41,7 +41,7 @@ function LoginContent() {
         </div>
       )}
 
-      <Link href="/" className="mt-8 text-sm text-rose underline-offset-4 hover:underline">
+      <Link href="/library" className="mt-8 text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
     </div>

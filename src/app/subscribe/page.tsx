@@ -5,7 +5,7 @@ import { SubscribeView } from "@/components/billing/SubscribeView";
 
 export default async function SubscribePage() {
   const authConfigured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-  if (!authConfigured) redirect("/");
+  if (!authConfigured) redirect("/library");
 
   const supabase = createClient();
   const {

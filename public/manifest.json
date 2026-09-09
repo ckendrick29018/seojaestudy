@@ -2,7 +2,7 @@
   "name": "SeoJae Story",
   "short_name": "SeoJae Story",
   "description": "Learn English or Korean through short stories, with translations, listening practice, and vocabulary flashcards.",
-  "start_url": "/",
+  "start_url": "/library",
   "id": "/",
   "display": "standalone",
   "orientation": "portrait",
