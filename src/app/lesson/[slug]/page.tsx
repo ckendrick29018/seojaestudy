@@ -6,7 +6,7 @@ import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
 import { isActiveSubscription } from "@/lib/subscription";
 import { lessonDescription, lessonJsonLd, lessonKeywords, lessonMetaTitle } from "@/lib/seo";
-import { OG_IMAGE, SITE_NAME } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 
 export function generateStaticParams() {
   return lessons.map((lesson) => ({ slug: lesson.slug }));
@@ -26,14 +26,15 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     description,
     keywords: lessonKeywords(lesson),
     alternates: { canonical: path },
+    // og:image / twitter:image come from the sibling opengraph-image.tsx +
+    // twitter-image.tsx route (a per-lesson card).
     openGraph: {
       type: "article",
       url: path,
       title: socialTitle,
       description,
-      images: [OG_IMAGE],
     },
-    twitter: { card: "summary_large_image", title: socialTitle, description, images: [OG_IMAGE.url] },
+    twitter: { card: "summary_large_image", title: socialTitle, description },
   };
 }
 
