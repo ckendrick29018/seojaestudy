@@ -6935,4 +6935,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-little-mermaid",
+    title: "The Little Mermaid",
+    titleTranslation: "인어공주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🐚",
+    coverImage: "/covers/the-little-mermaid.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Little Mermaid\" (\"Den lille Havfrue\", first published 1837; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's details have been trimmed and gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the little mermaid gave up to become human, why she could not marry the prince, and what became of her in the end.",
+    paragraphs: [
+      [
+        {
+          id: "tlm-1",
+          text: "The youngest daughter of the Sea King longed more than anything to see the world above the water.",
+          translation:
+            "바다 왕의 막내딸은 무엇보다도 물 위의 세상을 보고 싶어 했어요.",
+        },
+        {
+          id: "tlm-2",
+          text: "On the night she was finally allowed to rise, she watched a ship where a young prince was keeping his birthday.",
+          translation:
+            "마침내 수면 위로 올라가도 좋다는 허락을 받은 밤, 그녀는 젊은 왕자가 생일을 축하하고 있는 배 한 척을 바라보았어요.",
+        },
+        {
+          id: "tlm-3",
+          text: "A storm broke the ship apart, and the little mermaid caught the drowning prince and held his head above the waves until she reached the shore.",
+          translation:
+            "폭풍이 배를 산산조각 냈고, 인어공주는 물에 빠져 죽어 가는 왕자를 붙잡아 해안에 닿을 때까지 그의 머리를 파도 위로 받쳐 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "tlm-4",
+          text: "She left him on the sand, where a girl from a nearby temple found him, so he never knew who had saved his life.",
+          translation:
+            "그녀가 왕자를 모래밭에 남겨 두자 근처 신전의 한 소녀가 그를 발견했고, 그래서 왕자는 누가 자기 목숨을 구했는지 끝내 알지 못했어요.",
+        },
+        {
+          id: "tlm-5",
+          text: "After that the mermaid could think of nothing but the prince, and of the human soul that mermaids do not have.",
+          translation:
+            "그 뒤로 인어공주는 오직 왕자 생각, 그리고 인어에게는 없는 인간의 영혼 생각뿐이었어요.",
+        },
+        {
+          id: "tlm-6",
+          text: "Her grandmother told her that only a man's true love and marriage could give her a share of such a soul.",
+          translation:
+            "할머니는 오직 한 남자의 진실한 사랑과 결혼만이 그녀에게 그런 영혼의 한 조각을 나누어 줄 수 있다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "tlm-7",
+          text: "So the mermaid swam to the sea witch, who made a drink that would turn her tail into legs.",
+          translation:
+            "그래서 인어공주는 바다 마녀에게 헤엄쳐 갔고, 마녀는 그녀의 꼬리를 다리로 바꿀 물약을 만들어 주었어요.",
+        },
+        {
+          id: "tlm-8",
+          text: "But every step would feel like walking on knives, she could never be a mermaid again, and if the prince married someone else she would melt into sea foam.",
+          translation:
+            "하지만 걸음마다 칼 위를 걷는 듯할 것이고, 다시는 인어가 될 수 없으며, 만약 왕자가 다른 사람과 결혼하면 그녀는 바다 물거품이 되어 사라질 것이었어요.",
+        },
+        {
+          id: "tlm-9",
+          text: "The price for the drink was the mermaid's voice, and the witch took it from her.",
+          translation:
+            "그 물약의 값은 인어공주의 목소리였고, 마녀는 그것을 그녀에게서 가져갔어요.",
+        },
+      ],
+      [
+        {
+          id: "tlm-10",
+          text: "On the prince's shore she drank the potion, and in the morning he found a lovely, silent girl and took her to his palace.",
+          translation:
+            "왕자의 해안에서 그녀는 물약을 마셨고, 아침에 왕자는 아름답지만 말을 못 하는 소녀를 발견해 자기 궁전으로 데려갔어요.",
+        },
+        {
+          id: "tlm-11",
+          text: "She danced for him, though each step gave her great pain, and he grew to love her as his dearest friend.",
+          translation:
+            "그녀는 걸음마다 큰 고통이 따랐지만 왕자를 위해 춤을 추었고, 왕자는 그녀를 가장 아끼는 친구로 사랑하게 되었어요.",
+        },
+        {
+          id: "tlm-12",
+          text: "But he said he could only marry the girl from the temple, whom he believed had saved him from the sea.",
+          translation:
+            "하지만 왕자는 자기를 바다에서 구해 주었다고 믿는 신전의 그 소녀하고만 결혼할 수 있다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "tlm-13",
+          text: "Then that very girl was found, the prince married her with great joy, and the mermaid knew that at sunrise she would turn to foam.",
+          translation:
+            "그러던 중 바로 그 소녀가 나타났고, 왕자는 크게 기뻐하며 그녀와 결혼했으며, 인어공주는 해가 뜨면 자신이 물거품이 되리라는 것을 알았어요.",
+        },
+        {
+          id: "tlm-14",
+          text: "That night her sisters rose from the water and offered her a way to save herself, but it would mean harming the prince, and she could not do it.",
+          translation:
+            "그날 밤 언니들이 물 위로 올라와 스스로를 구할 방법을 건넸지만, 그것은 왕자를 해쳐야 하는 일이었고, 그녀는 도저히 그럴 수 없었어요.",
+        },
+        {
+          id: "tlm-15",
+          text: "As the sun came up, she let herself fall into the sea.",
+          translation: "해가 떠오를 때, 그녀는 스스로 바다로 몸을 던졌어요.",
+        },
+      ],
+      [
+        {
+          id: "tlm-16",
+          text: "But instead of becoming foam, she felt herself lifted into the warm air among bright, kind spirits.",
+          translation:
+            "하지만 물거품이 되는 대신, 그녀는 자신이 따뜻한 공기 속으로, 빛나고 다정한 정령들 사이로 들어 올려지는 것을 느꼈어요.",
+        },
+        {
+          id: "tlm-17",
+          text: "They told her she was now a daughter of the air, and that through many years of good deeds she could still win a soul of her own.",
+          translation:
+            "정령들은 그녀에게 이제 공기의 딸이 되었으며, 여러 해에 걸친 선한 행동을 통해 자기만의 영혼을 얻을 수 있다고 말해 주었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tlm-v1",
+        term: "mermaid",
+        partOfSpeech: "noun",
+        translation: "인어",
+        example: "The little mermaid lived in her father's palace deep under the sea.",
+        exampleTranslation: "인어공주는 바다 깊은 곳 아버지의 궁전에서 살았어요.",
+      },
+      {
+        id: "tlm-v2",
+        term: "soul",
+        partOfSpeech: "noun",
+        translation: "영혼",
+        example: "Mermaids live for hundreds of years, but they have no soul.",
+        exampleTranslation: "인어는 수백 년을 살지만, 영혼이 없어요.",
+      },
+      {
+        id: "tlm-v3",
+        term: "drown",
+        partOfSpeech: "verb",
+        translation: "물에 빠져 죽다, 익사하다",
+        example: "She caught the prince before he could drown in the storm.",
+        exampleTranslation: "그녀는 왕자가 폭풍 속에서 익사하기 전에 그를 붙잡았어요.",
+      },
+      {
+        id: "tlm-v4",
+        term: "potion",
+        partOfSpeech: "noun",
+        translation: "물약, (마법의) 약",
+        example: "The sea witch made a potion that turned her tail into legs.",
+        exampleTranslation: "바다 마녀는 그녀의 꼬리를 다리로 바꾸는 물약을 만들었어요.",
+      },
+      {
+        id: "tlm-v5",
+        term: "foam",
+        partOfSpeech: "noun",
+        translation: "(파도의) 물거품, 거품",
+        example: "If the prince married another, she would melt into sea foam.",
+        exampleTranslation: "왕자가 다른 사람과 결혼하면, 그녀는 바다 물거품이 되어 사라질 운명이었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tlm-q1",
+        prompt: "How did the little mermaid help the prince?",
+        options: [
+          "She warned his ship away from the storm.",
+          "She saved him from drowning and brought him to the shore.",
+          "She sang to him from the rocks each night.",
+          "She gave him a magic drink to keep him safe.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "When the storm wrecked his ship, the mermaid held the drowning prince's head above the water and carried him to land, though he never knew it was her.",
+      },
+      {
+        id: "tlm-q2",
+        prompt: "What did the mermaid give the sea witch in exchange for legs?",
+        options: [
+          "Her long golden hair.",
+          "Three hundred years of her life.",
+          "Her voice.",
+          "Her father's crown.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The witch's drink would turn her tail to legs, but every step would hurt like knives and she could never return to the sea; the price was the mermaid's beautiful voice.",
+      },
+      {
+        id: "tlm-q3",
+        prompt: "What happened to the little mermaid at the end of the story?",
+        options: [
+          "She married the prince after the temple girl refused him.",
+          "She turned to sea foam and was gone forever.",
+          "She became a daughter of the air, with a chance to earn a soul through good deeds.",
+          "Her sisters carried her safely home to the Sea King.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Rather than harm the prince to save herself, she let herself fall into the sea at sunrise; instead of becoming foam she was lifted up as a daughter of the air, who could still win a soul through years of kindness.",
+      },
+    ],
+  },
 ];
