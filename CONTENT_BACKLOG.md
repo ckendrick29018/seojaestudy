@@ -157,7 +157,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 42 | Rose in Bloom | Louisa May Alcott (1888) | 2804 | B1 | Ch. 1 — Rose comes home | ☐ |
 | 43 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | A2 | Ch. 2 — Matthew at the station (simplified retelling, 17 sentences) | ☑ |
 | 44 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | B1 | Ch. 3 — Marilla is astonished ("Anne with an E"; simplified retelling, 17 sentences) | ☑ |
-| 45 | The Blue Castle | L. M. Montgomery (1942) | 67979 | B1 | Ch. 1 — Valancy's rainy birthday morning | ☐ |
+| 45 | The Blue Castle | L. M. Montgomery (1942) | 67979 | B1 | Ch. 1 — Valancy's rainy birthday morning (simplified retelling, 17 sentences) | ☑ |
 | 46 | Emily of New Moon | L. M. Montgomery (1942) | 61236 | B1 | Ch. 1 — "the house in the hollow" | ☐ |
 | 47 | The Story Girl | L. M. Montgomery (1942) | 26273 | B1 | Ch. 1 — the orchard | ☐ |
 | 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — Glen "Notes" and gossip | ☐ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (45):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (46):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -221,7 +221,8 @@ has a genuine period cover/illustration in the public domain, download that into
   Secret Garden Ch. 1 (row 49), The Emperor's New Clothes (row 17),
   Alice's Adventures in Wonderland Ch. 1 (row 23), The Happy Prince
   (row 7), The Princess and the Pea (row 18), Little Red Riding Hood
-  (row 11), The Frog Prince (row 14). Follow their shape in
+  (row 11), The Frog Prince (row 14), The Blue Castle Ch. 1 (row 45).
+  Follow their shape in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -231,23 +232,24 @@ has a genuine period cover/illustration in the public domain, download that into
   The Frog Prince), A2 ×13 (Story of an Hour, Anne Ch. 2, Little Women,
   Ugly Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy
   Prince, Snow White, The Last Leaf, Beauty and the Beast, Rapunzel, The
-  Twelve Dancing Princesses, A Little Princess Ch. 1), B1 ×14 (Gift of the
+  Twelve Dancing Princesses, A Little Princess Ch. 1), B1 ×16 (Gift of the
   Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol, Anne of
   Green Gables Ch. 3, Sense and Sensibility Ch. 1, The Yellow Wallpaper,
   Emma, The Nightingale and the Rose, The Little Mermaid, Ethan Frome
   prologue, East of the Sun and West of the Moon, The Bet, Cranford Ch. 1,
-  Silas Marner Ch. 12), B2 ×11 (Jane Eyre, The Lady with the Dog, Wuthering
-  Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
-  Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
-  Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
-  Ch. 1). Bands are now A1 ×6, B2 ×11, A2 ×13, B1 ×15 — A1 is far behind
-  the others. Within A2, Alice in Wonderland is still the only entry that
-  is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **The Blue Castle Ch. 1** (row 45, B1 —
-  Montgomery, Valancy's rainy birthday), **The Mysteries of Udolpho Vol. 1
-  Ch. 1** (row 72, B2 — La Vallée), **The Mill on the Floss Bk 1 Ch. 5**
-  (row 63, B2 — Tom comes home). A1 (6) is far behind and the backlog has
-  no more A1 rows — re-level an A2 tale down to A1, or add new A1 rows.
+  Silas Marner Ch. 12, The Blue Castle Ch. 1), B2 ×11 (Jane Eyre, The Lady
+  with the Dog, Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein
+  Letter 1, The Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1,
+  The House of Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2,
+  North and South Ch. 1). Bands are now A1 ×6, B2 ×11, A2 ×13, B1 ×16 — A1
+  is far behind the others. Within A2, Alice in Wonderland is still the only
+  entry that is neither a fairy tale nor gentle domestic fiction.
+- Good next lessons to build: **The Mysteries of Udolpho Vol. 1 Ch. 1**
+  (row 72, B2 — La Vallée), **The Mill on the Floss Bk 1 Ch. 5** (row 63,
+  B2 — Tom comes home), **Daddy-Long-Legs Ch. 1** (row 59, B1 — Jerusha's
+  "Blue Wednesday" at the orphanage). A1 (6) is far behind and the backlog
+  has no more A1 rows — re-level a gentle A2 tale down to A1 (e.g. The
+  Twelve Dancing Princesses or Rapunzel), or add new A1 rows.
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in

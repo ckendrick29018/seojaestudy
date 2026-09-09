@@ -9971,4 +9971,219 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-blue-castle",
+    title: "The Blue Castle",
+    titleTranslation: "푸른 성",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🏰",
+    coverImage: "/covers/the-blue-castle.svg",
+    source:
+      "Adapted from Chapter 1 of L. M. Montgomery's novel \"The Blue Castle\" (first published 1926; in the public domain, Project Gutenberg #67979). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Valancy's life on the morning of her twenty-ninth birthday and the three secrets she was keeping from her family.",
+    paragraphs: [
+      [
+        {
+          id: "blu-1",
+          text: "Valancy Stirling woke on the morning of her twenty-ninth birthday, and for one moment, before she was fully awake, she felt almost happy.",
+          translation:
+            "밸런시 스털링은 스물아홉 번째 생일 아침에 잠에서 깼고, 완전히 깨어나기 전 아주 잠깐은 거의 행복하다고 느꼈어요.",
+        },
+        {
+          id: "blu-2",
+          text: "Then she heard the rain against the window, and the grey light in the room told her that it was going to be another joyless day.",
+          translation:
+            "그러다 창문에 부딪치는 빗소리가 들렸고, 방 안의 잿빛 빛은 오늘도 또 하루 기쁨 없는 날이 되리라는 것을 알려 주었어요.",
+        },
+        {
+          id: "blu-3",
+          text: "She lay still in her hard, narrow bed and thought about her life, which seemed to her as dull and colourless as the sky outside.",
+          translation:
+            "그녀는 딱딱하고 좁은 침대에 가만히 누워 자기 삶을 생각했는데, 그 삶은 바깥 하늘만큼이나 따분하고 빛깔 없어 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "blu-4",
+          text: "She lived in a small, ugly house on Elm Street with her mother and an older cousin named Stickles, and neither of them had ever spoken to her with real warmth.",
+          translation:
+            "그녀는 엘름가(街)의 작고 볼품없는 집에서 어머니, 그리고 스티클스라는 나이 많은 사촌과 함께 살았는데, 두 사람 다 그녀에게 진심 어린 다정함을 보인 적이 없었어요.",
+        },
+        {
+          id: "blu-5",
+          text: "Her family was a large, proud clan of aunts, uncles, and cousins, and to them a woman still unmarried at twenty-nine was a quiet embarrassment.",
+          translation:
+            "그녀의 집안은 이모와 삼촌과 사촌들이 잔뜩 있는 크고 자존심 센 일가였고, 그들에게 스물아홉이 되도록 결혼하지 않은 여자는 조용한 골칫거리였어요.",
+        },
+        {
+          id: "blu-6",
+          text: "They said so at dinner, in front of everyone, in kind and smiling voices, and Valancy had long ago learned to say nothing.",
+          translation:
+            "그들은 저녁 식탁에서, 모두가 보는 앞에서, 다정하고 웃는 목소리로 그런 말을 했고, 밸런시는 오래전부터 아무 말도 하지 않는 법을 익혀 두었어요.",
+        },
+      ],
+      [
+        {
+          id: "blu-7",
+          text: "She had never been in love, and no young man had ever waited for her at the gate.",
+          translation:
+            "그녀는 한 번도 사랑에 빠져 본 적이 없었고, 어떤 젊은 남자도 대문 앞에서 그녀를 기다린 적이 없었어요.",
+        },
+        {
+          id: "blu-8",
+          text: "In twenty-nine years she had never once done a thing simply because she wanted to.",
+          translation:
+            "스물아홉 해를 사는 동안 그녀는 단지 하고 싶다는 이유만으로 무언가를 해 본 적이 한 번도 없었어요.",
+        },
+        {
+          id: "blu-9",
+          text: "But Valancy had two secret comforts that her family knew nothing about.",
+          translation: "하지만 밸런시에게는 가족이 전혀 모르는 두 가지 은밀한 위안이 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "blu-10",
+          text: "The first was her Blue Castle: an imaginary castle in Spain that she had built in her mind as a child and had lived in, in her daydreams, ever since.",
+          translation:
+            "첫 번째는 그녀의 '푸른 성'이었는데, 어릴 적 마음속에 지어 놓고 그 뒤로 줄곧 공상 속에서 살아온 스페인의 상상의 성이었어요.",
+        },
+        {
+          id: "blu-11",
+          text: "In the Blue Castle she was beautiful and brave and loved, and nothing there ever frightened her.",
+          translation:
+            "푸른 성에서 그녀는 아름답고 용감하고 사랑받았으며, 그곳에서는 무엇도 그녀를 무섭게 하지 않았어요.",
+        },
+        {
+          id: "blu-12",
+          text: "The second comfort was a shelf of nature books by a writer who called himself John Foster, which she borrowed from the library and read like poetry.",
+          translation:
+            "두 번째 위안은 존 포스터라는 필명을 쓰는 작가의 자연 책들이 꽂힌 책꽂이였는데, 그녀는 그 책들을 도서관에서 빌려 시(詩)처럼 읽었어요.",
+        },
+      ],
+      [
+        {
+          id: "blu-13",
+          text: "Her mother said the Foster books were a foolish waste of time.",
+          translation: "그녀의 어머니는 포스터의 책이 어리석은 시간 낭비라고 말했어요.",
+        },
+        {
+          id: "blu-14",
+          text: "That week Valancy was carrying a third secret, and this one frightened her.",
+          translation:
+            "그 주에 밸런시는 세 번째 비밀을 품고 있었는데, 이 비밀은 그녀를 두렵게 했어요.",
+        },
+        {
+          id: "blu-15",
+          text: "For months she had felt a strange pain near her heart, and she could not breathe easily when she climbed the stairs.",
+          translation:
+            "몇 달 동안 그녀는 심장 근처에 이상한 통증을 느꼈고, 계단을 오르면 숨을 편히 쉴 수가 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "blu-16",
+          text: "She had written quietly to a doctor in another town, Dr. Trent, because she could not bear for her family to find out that something might be wrong.",
+          translation:
+            "그녀는 다른 마을의 트렌트 의사에게 조용히 편지를 썼는데, 어딘가 잘못되었을지도 모른다는 것을 가족이 알게 되는 일을 견딜 수 없었기 때문이에요.",
+        },
+        {
+          id: "blu-17",
+          text: "Lying there listening to the rain on her birthday morning, she made a small, trembling decision: this year, somehow, her life was going to change.",
+          translation:
+            "생일 아침에 빗소리를 들으며 누워서, 그녀는 작지만 떨리는 결심을 했어요. 올해는, 어떻게든, 자기 삶이 달라지고야 말겠다고요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "blu-v1",
+        term: "clan",
+        partOfSpeech: "noun",
+        translation: "일가, 문중, 큰 친척 집단",
+        example: "The whole Stirling clan gathered for dinner every month.",
+        exampleTranslation: "스털링 일가 전체가 매달 저녁 식사에 모였어요.",
+      },
+      {
+        id: "blu-v2",
+        term: "embarrassment",
+        partOfSpeech: "noun",
+        translation: "당혹감, 창피함; (여기서는) 남부끄러운 존재",
+        example: "To her relatives, an unmarried woman of twenty-nine was a quiet embarrassment.",
+        exampleTranslation: "친척들에게 스물아홉의 미혼 여성은 조용한 골칫거리였어요.",
+      },
+      {
+        id: "blu-v3",
+        term: "imaginary",
+        partOfSpeech: "adjective",
+        translation: "상상의, 가상의",
+        example: "As a child she built an imaginary castle in her mind.",
+        exampleTranslation: "어릴 적 그녀는 마음속에 상상의 성을 지었어요.",
+      },
+      {
+        id: "blu-v4",
+        term: "comfort",
+        partOfSpeech: "noun",
+        translation: "위안, 위로(가 되는 것)",
+        example: "Her two secret comforts were the Blue Castle and the Foster books.",
+        exampleTranslation: "그녀의 두 가지 은밀한 위안은 푸른 성과 포스터의 책이었어요.",
+      },
+      {
+        id: "blu-v5",
+        term: "trembling",
+        partOfSpeech: "adjective",
+        translation: "떨리는, 떨면서 하는",
+        example: "She made a small, trembling decision to change her life.",
+        exampleTranslation: "그녀는 삶을 바꾸겠다는 작지만 떨리는 결심을 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "blu-q1",
+        prompt: "How did Valancy's family treat her for being unmarried at twenty-nine?",
+        options: [
+          "They mostly left her alone and rarely mentioned it.",
+          "They openly praised her independence.",
+          "They spoke of it kindly at dinner as a quiet failure, and she learned to stay silent.",
+          "They pushed her to move away and live on her own.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "In her large, proud clan, a woman still unmarried at twenty-nine was a quiet embarrassment; her relatives said so at family dinners in kind, smiling voices, and Valancy had long ago learned to say nothing.",
+      },
+      {
+        id: "blu-q2",
+        prompt: "What were Valancy's two secret comforts?",
+        options: [
+          "A close friend in another town and a private diary.",
+          "Her imaginary Blue Castle and a shelf of John Foster's nature books.",
+          "Her savings and a plan to leave Deerwood.",
+          "Long walks alone and letters from Dr. Trent.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The first was the Blue Castle, an imaginary castle in Spain she had lived in through daydreams since childhood; the second was the nature books of a writer called John Foster, which she borrowed from the library and read like poetry.",
+      },
+      {
+        id: "blu-q3",
+        prompt: "Why had Valancy written secretly to Dr. Trent in another town?",
+        options: [
+          "She wanted to ask him about a job.",
+          "Her mother had told her to make an appointment.",
+          "She was thanking him for a birthday gift.",
+          "She had felt a pain near her heart and did not want her family to know something might be wrong.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "For months she had felt a strange pain near her heart and could not breathe easily on the stairs, but she could not bear for her family to find out, so she quietly wrote to a doctor in another town.",
+      },
+    ],
+  },
 ];
