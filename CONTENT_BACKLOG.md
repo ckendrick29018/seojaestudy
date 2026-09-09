@@ -116,7 +116,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 6 | The Necklace | Guy de Maupassant (1893) | — | B1 | simplified retelling, 17 sentences | ☑ |
 | 7 | The Happy Prince | Oscar Wilde (1900) | 902 | A2 | whole (simplified retelling, 17 sentences; deaths kept, resolved on the Paradise coda) | ☑ |
 | 8 | The Selfish Giant | Oscar Wilde (1900) | 902 | A1 | whole (simplified retelling, 17 sentences; final scene gently softened) | ☑ |
-| 9 | The Nightingale and the Rose | Oscar Wilde (1900) | 902 | B1 | whole | ☐ |
+| 9 | The Nightingale and the Rose | Oscar Wilde (1900) | 902 | B1 | whole (simplified retelling, 17 sentences) | ☑ |
 | 10 | Cinderella | Brothers Grimm (1863) | 2591 | A1 | core scenes, gently softened (17 sentences) | ☑ |
 | 11 | Little Red Riding Hood | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 12 | Snow White | Brothers Grimm (1863) | 2591 | A2 | trimmed (simplified retelling, 17 sentences; gently softened) | ☑ |
@@ -200,20 +200,20 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (29):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (30):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
   (row 44), Little Women Ch. 1 (row 39), Middlemarch (row 61), The Yellow
   Wallpaper (row 1), The Ugly Duckling (row 16), Cinderella (row 10), Snow
   White (row 12), Pride and Prejudice Ch. 1 (row 27), Pride and Prejudice
   Ch. 34 (row 28), Sense and Sensibility Ch. 1 (row 29), Emma (row 30),
-  Jane Eyre Ch. 1
-  (row 33), Frankenstein Letter 1 (row 71), The Age of Innocence Ch. 1
-  (row 66), The Selfish Giant (row 8), The Necklace (row 6), A Christmas
-  Carol Stave 1 (row 22), The Lady with the Dog Part I (row 26), Wuthering
-  Heights Ch. 3 (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's
-  New Clothes (row 17), Alice's Adventures in Wonderland Ch. 1 (row 23),
-  The Happy Prince (row 7), The Princess and the Pea (row 18), Little Red
-  Riding Hood (row 11), The Frog Prince (row 14). Follow their shape in
+  Jane Eyre Ch. 1 (row 33), Frankenstein Letter 1 (row 71), The Age of
+  Innocence Ch. 1 (row 66), The Selfish Giant (row 8), The Nightingale and
+  the Rose (row 9), The Necklace (row 6), A Christmas Carol Stave 1
+  (row 22), The Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3
+  (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's New Clothes
+  (row 17), Alice's Adventures in Wonderland Ch. 1 (row 23), The Happy
+  Prince (row 7), The Princess and the Pea (row 18), Little Red Riding Hood
+  (row 11), The Frog Prince (row 14). Follow their shape in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -222,18 +222,17 @@ has a genuine period cover/illustration in the public domain, download that into
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince), A2 ×8 (Story of an Hour, Anne Ch. 2, Little Women, Ugly
   Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince,
-  Snow White), B1 ×6 (Gift of the Magi, Pride and Prejudice Ch. 1, The
+  Snow White), B1 ×9 (Gift of the Magi, Pride and Prejudice Ch. 1, The
   Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense and
-  Sensibility Ch. 1, The Yellow Wallpaper, Emma), B2 ×7 (Jane Eyre, The
-  Lady with the Dog, Wuthering Heights, Pride and Prejudice Ch. 34,
-  Frankenstein Letter 1, The Age of Innocence Ch. 1, Middlemarch). Bands
-  are now A1 ×6, B2 ×7, A2 ×8, B1 ×8 — well balanced; A1 is the lightest.
-  Within A2, Alice in Wonderland is still the only entry that is neither a
-  fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **The Nightingale and the Rose** (row 9,
-  B1 — Wilde, whole; a third Wilde tale), **The Last Leaf** (row 5, A2 —
-  O. Henry, whole; a second O. Henry), **The Little Mermaid** (row 15,
-  B1 — trimmed to 1–2 scenes; a first Andersen tragedy on the shelf).
-  Note: row 56 (A Room with a View) is **not** clear to build — Forster
-  died 1970, so it is not public domain in life+70 countries (including
-  Korea) until 2041.
+  Sensibility Ch. 1, The Yellow Wallpaper, Emma, The Nightingale and the
+  Rose), B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride
+  and Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1,
+  Middlemarch). Bands are now A1 ×6, B2 ×7, A2 ×8, B1 ×9 — A1 is the
+  lightest; B1 is now the deepest. Within A2, Alice in Wonderland is still
+  the only entry that is neither a fairy tale nor gentle domestic fiction.
+- Good next lessons to build: **The Last Leaf** (row 5, A2 — O. Henry,
+  whole; a second O. Henry), **The Little Mermaid** (row 15, B1 — trimmed
+  to 1–2 scenes; a first Andersen tragedy), **Rapunzel** (row 13, A2 —
+  Grimm, whole). Note: row 56 (A Room with a View) is **not** clear to
+  build — Forster died 1970, so it is not public domain in life+70
+  countries (including Korea) until 2041.

@@ -6501,4 +6501,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-nightingale-and-the-rose",
+    title: "The Nightingale and the Rose",
+    titleTranslation: "나이팅게일과 장미",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Oscar Wilde (1854–1900)",
+    coverEmoji: "🌹",
+    coverImage: "/covers/the-nightingale-and-the-rose.svg",
+    source:
+      "Adapted from Oscar Wilde's fairy tale \"The Nightingale and the Rose\" (first published 1888 in the collection \"The Happy Prince and Other Tales\"; long in the public domain, Project Gutenberg #902). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the Nightingale gave up to make the red rose, and how the Student and the girl treated her gift.",
+    paragraphs: [
+      [
+        {
+          id: "nar-1",
+          text: "A young Student sat in the garden and wept, because the girl he loved had said she would dance with him only if he brought her red roses.",
+          translation:
+            "한 젊은 학생이 정원에 앉아 울고 있었어요. 그가 사랑하는 아가씨가 빨간 장미를 가져와야만 그와 춤을 추겠다고 말했기 때문이에요.",
+        },
+        {
+          id: "nar-2",
+          text: "\"There is not one red rose in my whole garden,\" he cried. \"Such a little thing, and yet my happiness depends on it.\"",
+          translation:
+            "\"내 정원 어디에도 빨간 장미가 한 송이도 없어.\" 그가 외쳤어요. \"이렇게 작은 것에 내 행복이 달려 있다니.\"",
+        },
+        {
+          id: "nar-3",
+          text: "In the oak tree a little Nightingale heard him, and thought, \"Here at last is a true lover.\"",
+          translation:
+            "떡갈나무 위에서 작은 나이팅게일이 그 말을 듣고 생각했어요. \"드디어 진정한 사랑을 하는 사람을 만났구나.\"",
+        },
+      ],
+      [
+        {
+          id: "nar-4",
+          text: "The Nightingale flew from rose-tree to rose-tree, asking each one for a single red rose.",
+          translation:
+            "나이팅게일은 이 장미나무에서 저 장미나무로 날아다니며, 저마다에게 빨간 장미 한 송이를 부탁했어요.",
+        },
+        {
+          id: "nar-5",
+          text: "One had only white roses, another only yellow, and the last had been so hurt by winter that it would give no roses at all.",
+          translation:
+            "한 나무는 흰 장미뿐이었고, 다른 나무는 노란 장미뿐이었으며, 마지막 나무는 겨울에 너무 상해서 장미를 하나도 피우지 못할 형편이었어요.",
+        },
+        {
+          id: "nar-6",
+          text: "\"There is one way,\" the red rose-tree whispered, \"but it is so terrible that I hardly dare to tell you.\"",
+          translation:
+            "\"방법이 하나 있긴 해.\" 빨간 장미나무가 속삭였어요. \"하지만 너무 끔찍해서 차마 말해 주기가 두렵구나.\"",
+        },
+      ],
+      [
+        {
+          id: "nar-7",
+          text: "\"If you want a red rose, you must sing all night with your heart pressed against a thorn.\"",
+          translation:
+            "\"빨간 장미를 원한다면, 가시에 가슴을 댄 채 밤새도록 노래해야 해.\"",
+        },
+        {
+          id: "nar-8",
+          text: "\"The thorn must pierce your heart, and your life's blood must flow into mine and become the colour of the rose.\"",
+          translation:
+            "\"그 가시가 네 심장을 꿰뚫어야 하고, 네 생명의 피가 내 몸속으로 흘러들어 장미의 빛깔이 되어야 한단다.\"",
+        },
+        {
+          id: "nar-9",
+          text: "\"Death is a high price for a red rose,\" said the Nightingale, \"but Love is worth more than life.\"",
+          translation:
+            "\"빨간 장미 하나에 죽음이라니 너무 비싼 값이야.\" 나이팅게일이 말했어요. \"하지만 사랑은 목숨보다 더 값진 것이지.\"",
+        },
+      ],
+      [
+        {
+          id: "nar-10",
+          text: "That night the Nightingale set her breast against the sharp thorn and began to sing.",
+          translation:
+            "그날 밤 나이팅게일은 날카로운 가시에 가슴을 갖다 대고 노래하기 시작했어요.",
+        },
+        {
+          id: "nar-11",
+          text: "Hour by hour she sang of love, and slowly a rose grew on the tree — first pale, then pink, then deep and glowing red.",
+          translation:
+            "한 시간 또 한 시간, 나이팅게일은 사랑을 노래했고, 나무에는 장미 한 송이가 천천히 피어났어요. 처음에는 옅은 빛이었다가, 분홍빛이 되었다가, 마침내 짙고 타는 듯한 붉은빛이 되었어요.",
+        },
+        {
+          id: "nar-12",
+          text: "As the last of her song faded, the rose was perfect, but the Nightingale lay dead in the long grass.",
+          translation:
+            "노래의 마지막 가락이 스러질 무렵, 장미는 더없이 완벽했지만, 나이팅게일은 긴 풀밭에 죽어 누워 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "nar-13",
+          text: "In the morning the Student found the rose, amazed, and hurried with it to the girl.",
+          translation:
+            "아침에 학생은 그 장미를 발견하고 깜짝 놀라, 장미를 들고 서둘러 아가씨에게 달려갔어요.",
+        },
+        {
+          id: "nar-14",
+          text: "But she turned away and said the red rose would not match her dress, and that the rich man's nephew had sent her real jewels instead.",
+          translation:
+            "하지만 아가씨는 고개를 돌리며, 빨간 장미는 자기 드레스와 어울리지 않는다고, 그리고 부자의 조카가 대신 진짜 보석을 보내왔다고 말했어요.",
+        },
+        {
+          id: "nar-15",
+          text: "Angry, the Student threw the rose into the road, where a cart-wheel rolled over it and crushed it.",
+          translation:
+            "화가 난 학생은 장미를 길바닥에 내던졌고, 수레바퀴가 그 위를 지나가며 장미를 짓뭉갰어요.",
+        },
+      ],
+      [
+        {
+          id: "nar-16",
+          text: "\"What a foolish thing love is,\" the Student said. \"It is far less useful than logic, and it never tells you anything for certain.\"",
+          translation:
+            "\"사랑이란 참 어리석은 거야.\" 학생이 말했어요. \"논리학보다 훨씬 쓸모가 없고, 무엇 하나 확실하게 알려 주는 법이 없어.\"",
+        },
+        {
+          id: "nar-17",
+          text: "So he went back to his room, opened a great dusty book, and began to read.",
+          translation:
+            "그래서 그는 방으로 돌아가, 먼지 쌓인 두꺼운 책 한 권을 펼치고 읽기 시작했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "nar-v1",
+        term: "nightingale",
+        partOfSpeech: "noun",
+        translation: "나이팅게일 (밤에 아름답게 지저귀는 작은 새)",
+        example: "The nightingale sang more sweetly than any other bird in the wood.",
+        exampleTranslation: "그 나이팅게일은 숲의 어느 새보다도 아름답게 노래했어요.",
+      },
+      {
+        id: "nar-v2",
+        term: "weep",
+        partOfSpeech: "verb",
+        translation: "울다, 눈물을 흘리다",
+        example: "The young Student sat among the flowers and wept.",
+        exampleTranslation: "젊은 학생은 꽃들 사이에 앉아 울었어요.",
+      },
+      {
+        id: "nar-v3",
+        term: "thorn",
+        partOfSpeech: "noun",
+        translation: "가시",
+        example: "She pressed her breast against a long, sharp thorn.",
+        exampleTranslation: "그녀는 길고 날카로운 가시에 가슴을 갖다 댔어요.",
+      },
+      {
+        id: "nar-v4",
+        term: "pierce",
+        partOfSpeech: "verb",
+        translation: "꿰뚫다, 뚫고 들어가다",
+        example: "All night the thorn pressed closer, until at last it pierced her heart.",
+        exampleTranslation: "밤새 가시가 점점 더 깊이 파고들더니, 마침내 그녀의 심장을 꿰뚫었어요.",
+      },
+      {
+        id: "nar-v5",
+        term: "crush",
+        partOfSpeech: "verb",
+        translation: "으스러뜨리다, 짓밟다",
+        example: "A passing cart crushed the rose flat against the stones.",
+        exampleTranslation: "지나가던 수레가 그 장미를 돌바닥에 납작하게 짓뭉갰어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "nar-q1",
+        prompt: "Why did the Student need a red rose?",
+        options: [
+          "To give as a gift to the Prince at the ball.",
+          "The girl he loved would only dance with him if he brought her red roses.",
+          "To win a garden competition in the village.",
+          "The Nightingale had asked him for one.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The girl he loved had promised to dance with him at the Prince's ball only if he brought her red roses, and there was not a single red rose in his garden.",
+      },
+      {
+        id: "nar-q2",
+        prompt: "What did the Nightingale have to do to make a red rose?",
+        options: [
+          "Fly to a far country to fetch a red rose-bush.",
+          "Sing to the moon for seven nights in a row.",
+          "Sing all night with a thorn pressed into her heart, giving her life for it.",
+          "Bring the rose-tree water from a magic spring.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The red rose-tree told her the only way: to sing all night with her breast against a thorn until it pierced her heart, so that her life's blood would colour the rose red — a price that would cost her life.",
+      },
+      {
+        id: "nar-q3",
+        prompt: "What happened when the Student gave the girl the red rose?",
+        options: [
+          "She was delighted and agreed at once to dance with him.",
+          "She refused it, saying it did not match her dress and that jewels were worth more.",
+          "She thanked him but said she had already promised the dance to someone else.",
+          "She kept the rose but forgot her promise.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The girl turned the rose away — it would not go with her dress, and a rich man's nephew had sent her real jewels; the angry Student threw the rose into the road, and then decided love was foolish and went back to his books.",
+      },
+    ],
+  },
 ];
