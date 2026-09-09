@@ -186,7 +186,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 66 | The Age of Innocence | Edith Wharton (1937) | 541 | B2 | Ch. 1 — the opera (simplified retelling, 17 sentences) | ☑ |
 | 67 | The House of Mirth | Edith Wharton (1937) | 284 | B2 | Bk 1 Ch. 1 — Lily Bart at the station | ☐ |
 | 68 | Ethan Frome | Edith Wharton (1937) | 4517 | B1 | the prologue — the narrator sees Ethan | ☐ |
-| 69 | The Awakening | Kate Chopin (1904) | 160 | B2 | Ch. 1 — Grand Isle | ☐ |
+| 69 | The Awakening | Kate Chopin (1904) | 160 | B2 | Ch. 1 — Grand Isle (simplified retelling, 17 sentences) | ☑ |
 | 70 | The Country of the Pointed Firs | Sarah Orne Jewett (1909) | — | B2 | Ch. 1–2 — arriving at Dunnet Landing | ☐ |
 | 71 | Frankenstein | Mary Shelley (1851) | 84 | B2 | Letter 1 — Walton to his sister (simplified retelling, 17 sentences; kept as Walton's letter) | ☑ |
 | 72 | The Mysteries of Udolpho | Ann Radcliffe (1823) | — | B2 | Vol. 1 Ch. 1 — La Vallée | ☐ |
@@ -200,14 +200,14 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (34):** The Gift of the Magi (row 4), The Last Leaf (row 5),
-  The Story of an Hour (row 2), Anne of Green Gables Ch. 2 (row 43), Anne
-  of Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
-  (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
-  Cinderella (row 10), Snow White (row 12), Beauty and the Beast (row 19),
-  Rapunzel (row 13), Pride and Prejudice Ch. 1 (row 27), Pride and
-  Prejudice Ch. 34 (row 28), Sense and Sensibility Ch. 1 (row 29), Emma
-  (row 30), Jane Eyre Ch. 1 (row 33), Frankenstein
+- **Live now (35):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+  The Story of an Hour (row 2), The Awakening Ch. 1 (row 69), Anne of Green
+  Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3 (row 44), Little Women
+  Ch. 1 (row 39), Middlemarch (row 61), The Yellow Wallpaper (row 1), The
+  Ugly Duckling (row 16), Cinderella (row 10), Snow White (row 12), Beauty
+  and the Beast (row 19), Rapunzel (row 13), Pride and Prejudice Ch. 1
+  (row 27), Pride and Prejudice Ch. 34 (row 28), Sense and Sensibility
+  Ch. 1 (row 29), Emma (row 30), Jane Eyre Ch. 1 (row 33), Frankenstein
   Letter 1 (row 71), The Age of Innocence Ch. 1 (row 66), The Selfish
   Giant (row 8), The Nightingale and the Rose (row 9), The Little Mermaid
   (row 15), The Necklace (row 6), A Christmas Carol Stave 1 (row 22), The
@@ -228,16 +228,17 @@ has a genuine period cover/illustration in the public domain, download that into
   B1 ×10 (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A
   Christmas Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1,
   The Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little
-  Mermaid), B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering Heights,
+  Mermaid), B2 ×8 (Jane Eyre, The Lady with the Dog, Wuthering Heights,
   Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence
-  Ch. 1, Middlemarch). Bands are now A1 ×6, B2 ×7, B1 ×10, A2 ×11 — A1 and
-  B2 are the lightest; lean A1/B2 next. Within A2, Alice in Wonderland is
-  still the only entry that is neither a fairy tale nor gentle domestic
-  fiction.
-- Good next lessons to build: **The Awakening Ch. 1** (row 69, B2 — Chopin,
-  Grand Isle), **The House of Mirth Bk 1 Ch. 1** (row 67, B2 — Lily Bart at
-  the station), **East of the Sun and West of the Moon** (row 20, B1 —
-  Lang, trimmed). A1 is thin at 6 and its remaining unbuilt titles are
-  slight — consider re-levelling an A2 Grimm tale down to A1. Note: row 56
-  (A Room with a View) is **not** clear to build — Forster died 1970, so it
-  is not public domain in life+70 countries (including Korea) until 2041.
+  Ch. 1, Middlemarch, The Awakening Ch. 1). Bands are now A1 ×6, B2 ×8,
+  B1 ×10, A2 ×11 — A1 is clearly the lightest. Within A2, Alice in
+  Wonderland is still the only entry that is neither a fairy tale nor
+  gentle domestic fiction.
+- Good next lessons to build: **The House of Mirth Bk 1 Ch. 1** (row 67,
+  B2 — Lily Bart at the station), **East of the Sun and West of the Moon**
+  (row 20, B1 — Lang, trimmed), **Ethan Frome** prologue (row 68, B1 — the
+  narrator sees Ethan). A1 is thin at 6 and its remaining unbuilt titles
+  are slight — consider re-levelling an A2 Grimm tale down to A1. Note:
+  row 56 (A Room with a View) is **not** clear to build — Forster died
+  1970, so it is not public domain in life+70 countries (including Korea)
+  until 2041.

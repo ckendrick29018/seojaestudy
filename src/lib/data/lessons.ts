@@ -7585,4 +7585,222 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-awakening",
+    title: "The Awakening",
+    titleTranslation: "각성",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Kate Chopin (1850–1904)",
+    coverEmoji: "🌊",
+    coverImage: "/covers/the-awakening.svg",
+    source:
+      "Adapted from Chapter 1 of Kate Chopin's novel \"The Awakening\" (first published 1899; long in the public domain, Project Gutenberg #160). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Mr. Pontellier's attitude toward his wife, and how Edna spends the afternoon once he has left for Klein's.",
+    paragraphs: [
+      [
+        {
+          id: "awk-1",
+          text: "It was summer on Grand Isle, a resort of weathered cottages on the Gulf coast where well-off New Orleans families came to escape the heat.",
+          translation:
+            "그랜드아일의 여름이었어요. 그곳은 형편이 넉넉한 뉴올리언스 가족들이 더위를 피해 찾아오는, 비바람에 낡은 오두막들이 모인 멕시코만 해안의 휴양지였어요.",
+        },
+        {
+          id: "awk-2",
+          text: "Outside the main house a caged green-and-yellow parrot shrieked the same French phrases over and over, and a mockingbird answered from the far side of the door.",
+          translation:
+            "본채 밖에서는 새장에 갇힌 초록색과 노란색 앵무새가 똑같은 프랑스어 구절을 몇 번이고 되풀이해 꽥꽥거렸고, 문 반대편에서는 흉내지빠귀가 그 소리에 응답했어요.",
+        },
+        {
+          id: "awk-3",
+          text: "Mr. Léonce Pontellier, unable to read his newspaper for the noise, folded it under his arm and walked down to his own cottage.",
+          translation:
+            "레옹스 퐁텔리에 씨는 그 소음 때문에 신문을 읽을 수가 없어서, 신문을 겨드랑이에 접어 끼고 자기 오두막으로 내려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "awk-4",
+          text: "He was a neat, correct man of forty, with a trimmed beard and a careful part in his hair, and he liked his days to run to a plan.",
+          translation:
+            "그는 잘 다듬은 턱수염과 단정하게 가른 머리를 한, 마흔 살의 깔끔하고 반듯한 사람이었고, 하루하루가 계획대로 흘러가는 것을 좋아했어요.",
+        },
+        {
+          id: "awk-5",
+          text: "From his porch he looked toward the beach and saw, under a white sunshade, his wife Edna coming back from a swim with a young man named Robert Lebrun.",
+          translation:
+            "현관에서 해변 쪽을 바라보던 그는, 하얀 양산 아래로 아내 에드나가 로버트 르브룅이라는 젊은 남자와 함께 수영을 마치고 돌아오는 모습을 보았어요.",
+        },
+        {
+          id: "awk-6",
+          text: "He watched them without much interest, the way a man might glance at a costly thing that belonged to him.",
+          translation:
+            "그는 별다른 관심 없이 두 사람을 바라보았는데, 마치 자기 소유의 값비싼 물건을 흘깃 보는 듯한 눈길이었어요.",
+        },
+      ],
+      [
+        {
+          id: "awk-7",
+          text: "When Edna reached the house she held out her hands for the rings she had left with him, and slipped them back onto her fingers.",
+          translation:
+            "에드나는 집에 이르자 남편에게 맡겨 두었던 반지를 달라고 손을 내밀었고, 그것을 다시 손가락에 끼웠어요.",
+        },
+        {
+          id: "awk-8",
+          text: "\"You are burnt beyond recognition,\" her husband said, half scolding, looking her over.",
+          translation:
+            "\"알아볼 수 없을 만큼 새까맣게 탔군.\" 남편이 그녀를 훑어보며 반쯤 나무라듯 말했어요.",
+        },
+        {
+          id: "awk-9",
+          text: "Edna only laughed, spread out her strong, sunburnt hands, and turned to go on talking with Robert about their morning in the water.",
+          translation:
+            "에드나는 그저 웃으며, 볕에 그을린 야무진 두 손을 펼쳐 보이고는, 다시 로버트를 향해 물속에서 보낸 그날 아침 이야기를 이어 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "awk-10",
+          text: "Edna and Robert talked at the same time, laughing, finishing each other's stories, and Léonce could have followed it all if he had cared to listen.",
+          translation:
+            "에드나와 로버트는 동시에 이야기하고, 웃고, 서로의 말을 대신 마무리해 주었으며, 레옹스도 마음먹고 귀를 기울였다면 그 이야기를 다 따라갈 수 있었을 거예요.",
+        },
+        {
+          id: "awk-11",
+          text: "He stood up, stretched, and said he was going over to Klein's hotel to play billiards.",
+          translation:
+            "그는 자리에서 일어나 기지개를 켜고는, 클라인 호텔에 당구를 치러 가겠다고 말했어요.",
+        },
+        {
+          id: "awk-12",
+          text: "Edna asked whether he would be back for dinner; he shrugged and said it would depend on the company he found there.",
+          translation:
+            "에드나가 저녁 식사에 맞춰 돌아올 거냐고 묻자, 그는 어깨를 으쓱하며 거기서 누구를 만나느냐에 달렸다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "awk-13",
+          text: "After he had gone, the two little Pontellier boys stayed with their nurse under the oaks, and Edna and Robert settled on the porch steps.",
+          translation:
+            "그가 떠난 뒤, 퐁텔리에 집안의 어린 두 아들은 떡갈나무 아래에서 보모와 함께 있었고, 에드나와 로버트는 현관 계단에 자리를 잡고 앉았어요.",
+        },
+        {
+          id: "awk-14",
+          text: "They talked for hours, easily and without effort, about the sea, the wind, and the other guests at the pension.",
+          translation:
+            "두 사람은 바다와 바람, 그리고 그 하숙 여관의 다른 손님들에 대해 몇 시간이고 편안하게, 힘들이지 않고 이야기했어요.",
+        },
+        {
+          id: "awk-15",
+          text: "Robert spoke of his plan to go to Mexico in the autumn to make his fortune, as he did most summers without ever going.",
+          translation:
+            "로버트는 가을에 멕시코로 건너가 한몫 잡겠다는 계획을 이야기했는데, 그는 거의 매년 여름 그렇게 말하면서도 한 번도 간 적이 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "awk-16",
+          text: "Edna told him about her father's plantation in Mississippi and the Kentucky bluegrass country where she had grown up.",
+          translation:
+            "에드나는 미시시피에 있는 아버지의 농장과, 자신이 자란 켄터키의 풀밭 고장에 대해 그에게 들려주었어요.",
+        },
+        {
+          id: "awk-17",
+          text: "The afternoon slipped by while they talked, and neither of them thought about when Mr. Pontellier might come home.",
+          translation:
+            "두 사람이 이야기하는 동안 오후가 흘러갔고, 둘 중 누구도 퐁텔리에 씨가 언제 집에 돌아올지는 생각하지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "awk-v1",
+        term: "resort",
+        partOfSpeech: "noun",
+        translation: "휴양지, 리조트",
+        example: "Grand Isle was a quiet summer resort on the Gulf coast.",
+        exampleTranslation: "그랜드아일은 멕시코만 해안의 조용한 여름 휴양지였어요.",
+      },
+      {
+        id: "awk-v2",
+        term: "correct",
+        partOfSpeech: "adjective",
+        translation: "예의 바른, 나무랄 데 없는, 격식을 갖춘",
+        example: "Mr. Pontellier was a correct man who liked his days to follow a plan.",
+        exampleTranslation:
+          "퐁텔리에 씨는 하루하루가 계획대로 흘러가기를 좋아하는 반듯한 사람이었어요.",
+      },
+      {
+        id: "awk-v3",
+        term: "scold",
+        partOfSpeech: "verb",
+        translation: "꾸짖다, 나무라다",
+        example: "He scolded her lightly for letting herself get so sunburnt.",
+        exampleTranslation: "그는 그녀가 그렇게 심하게 볕에 탄 것을 두고 가볍게 나무랐어요.",
+      },
+      {
+        id: "awk-v4",
+        term: "shrug",
+        partOfSpeech: "verb",
+        translation: "어깨를 으쓱하다",
+        example: "He shrugged and said he did not know when he would be back.",
+        exampleTranslation: "그는 어깨를 으쓱하며 언제 돌아올지 모르겠다고 말했어요.",
+      },
+      {
+        id: "awk-v5",
+        term: "pension",
+        partOfSpeech: "noun",
+        translation: "(휴양지의) 하숙 여관, 펜션",
+        example: "Madame Lebrun ran the pension, a group of cottages by the sea.",
+        exampleTranslation: "르브룅 부인은 바닷가의 오두막들로 이루어진 하숙 여관을 운영했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "awk-q1",
+        prompt: "Why did Mr. Pontellier move from the main house to his own cottage?",
+        options: [
+          "He wanted to be closer to the beach.",
+          "The noise of the parrot and mockingbird kept him from reading.",
+          "Madame Lebrun asked the guests to leave the porch.",
+          "He was waiting for Edna and Robert to return.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A caged parrot was shrieking the same phrases over and over and a mockingbird was answering it; unable to read his newspaper, Léonce simply got up and walked to his cottage.",
+      },
+      {
+        id: "awk-q2",
+        prompt: "How does Mr. Pontellier look at his wife when she comes back from the beach?",
+        options: [
+          "With worry, because she seems unwell.",
+          "With warmth, hurrying down to meet her.",
+          "With mild interest, as at a valuable thing that belongs to him.",
+          "With anger, because she is late for dinner.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He watches Edna and Robert approach without much interest, and the narrator says he looks at his sunburnt wife the way a man looks at a costly piece of property that is his.",
+      },
+      {
+        id: "awk-q3",
+        prompt: "What did Edna and Robert do after Mr. Pontellier left for Klein's?",
+        options: [
+          "They took the children swimming again.",
+          "They sat on the porch and talked easily for hours.",
+          "They quarrelled about his plan to go to Mexico.",
+          "They walked to the Chênière with the other guests.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "With Léonce gone to play billiards, Edna and Robert settled on the porch steps and talked for hours — about the sea, the guests, his yearly plan to go to Mexico, and her childhood in Kentucky and Mississippi.",
+      },
+    ],
+  },
 ];
