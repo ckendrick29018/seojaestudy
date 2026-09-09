@@ -165,7 +165,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary | ☐ |
 | 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 — the diamond mines / the fall | ☐ |
-| 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" | ☐ |
+| 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" (simplified retelling, 17 sentences) | ☑ |
 | 54 | The Enchanted April | Elizabeth von Arnim (1941) | — | B1 | Ch. 1 — the advertisement | ☐ |
 | 55 | Elizabeth and Her German Garden | Elizabeth von Arnim (1941) | — | B1 | opening — the garden in May | ☐ |
 | 56 | A Room with a View | E. M. Forster (1970) — US PD (1908) | 2641 | B2 | Ch. 1 — "The Bertolini" | ☐ SKIP: Forster d. 1970, not PD in life+70 countries (incl. Korea) until 2041 — fails sourcing rule #1; do not build until cleared |
@@ -200,11 +200,11 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (41):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (42):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
-  (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), East of the
-  Sun and West of the Moon (row 20), The Twelve
+  (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
+  Ch. 1 (row 53), East of the Sun and West of the Moon (row 20), The Twelve
   Dancing Princesses (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of
   Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
   (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
@@ -233,17 +233,18 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 1, The Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense
   and Sensibility Ch. 1, The Yellow Wallpaper, Emma, The Nightingale and
   the Rose, The Little Mermaid, Ethan Frome prologue, East of the Sun and
-  West of the Moon, The Bet), B2 ×10 (Jane Eyre, The Lady with the Dog,
-  Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The
-  Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of
-  Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2). Bands are now
-  A1 ×6, B2 ×10, A2 ×12, B1 ×13 — A1 is far behind the others. Within A2,
-  Alice in Wonderland is still the only entry that is neither a fairy tale
-  nor gentle domestic fiction.
+  West of the Moon, The Bet, Cranford Ch. 1), B2 ×10 (Jane Eyre, The Lady
+  with the Dog, Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein
+  Letter 1, The Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1,
+  The House of Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2).
+  Bands are now A1 ×6, B2 ×10, A2 ×12, B1 ×14 — A1 is far behind the
+  others. Within A2, Alice in Wonderland is still the only entry that is
+  neither a fairy tale nor gentle domestic fiction.
 - Good next lessons to build: **North and South Ch. 1** (row 64, B2 —
-  Gaskell), **Cranford Ch. 1** (row 53, B1 — Gaskell, "the Amazons"),
-  **Silas Marner Ch. 12** (row 62, B1 — the child at the hearth). A1 (6) is
-  far behind and the backlog has no more A1 rows — re-level an A2 tale down
-  to A1, or add new A1 rows. Note: row 56 (A Room with a View) is **not**
+  Gaskell), **Silas Marner Ch. 12** (row 62, B1 — the child at the hearth),
+  **A Little Princess Ch. 1** (row 51, A2 — Sara arrives at the seminary; a
+  second Burnett). A1 (6) is far behind and the backlog has no more A1
+  rows — re-level an A2 tale down to A1, or add new A1 rows. Note: row 56
+  (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.

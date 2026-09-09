@@ -9105,4 +9105,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "cranford",
+    title: "Cranford",
+    titleTranslation: "크랜퍼드",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Elizabeth Gaskell (1810–1865)",
+    coverEmoji: "☕",
+    coverImage: "/covers/cranford.svg",
+    source:
+      "Adapted from Chapter 1 of Elizabeth Gaskell's novel \"Cranford\" (first published 1851–53; long in the public domain, Project Gutenberg #394). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how the town of Cranford was run, and what made Captain Brown such a shock when he arrived.",
+    paragraphs: [
+      [
+        {
+          id: "crf-1",
+          text: "The little country town of Cranford was ruled almost entirely by women.",
+          translation: "크랜퍼드라는 작은 시골 마을은 거의 전적으로 여성들이 다스렸어요.",
+        },
+        {
+          id: "crf-2",
+          text: "Every house of any size was kept by a lady, for the men had gone away — to the army, to sea, or to business in the big smoky town of Drumble, twenty miles off.",
+          translation:
+            "웬만한 크기의 집은 모두 어느 부인이 꾸려 나갔는데, 남자들은 다들 떠나 버렸기 때문이에요. 군대로, 바다로, 아니면 20마일 떨어진 크고 매연 자욱한 도시 드럼블의 일터로요.",
+        },
+        {
+          id: "crf-3",
+          text: "Whatever the men of Cranford did, they did it somewhere else, and were never seen.",
+          translation:
+            "크랜퍼드의 남자들은 무슨 일을 하든 다른 어딘가에서 했고, 마을에서는 좀처럼 눈에 띄지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "crf-4",
+          text: "The ladies managed everything: the gardens, the town news, questions of books and politics, and kindness to the poor.",
+          translation:
+            "부인들은 모든 것을 도맡았어요. 정원, 마을 소식, 책과 정치에 관한 문제들, 그리고 가난한 이들을 돕는 일까지요.",
+        },
+        {
+          id: "crf-5",
+          text: "They were poor themselves, mostly, but they had turned genteel poverty into a kind of fashion, which they called \"elegant economy.\"",
+          translation:
+            "그들 대부분은 스스로도 가난했지만, 점잖은 가난을 일종의 유행으로 바꿔 놓고는 그것을 \"우아한 절약\"이라고 불렀어요.",
+        },
+        {
+          id: "crf-6",
+          text: "At their card parties the only refreshment might be a single plate of thin bread and butter, and no one thought the worse of it.",
+          translation:
+            "그들의 카드 모임에서 나오는 다과라고는 얇게 썬 버터 바른 빵 한 접시가 전부일 때도 있었지만, 아무도 그것을 흉으로 여기지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "crf-7",
+          text: "Visits were paid strictly between twelve and three, and no caller ever stayed more than a quarter of an hour.",
+          translation:
+            "방문은 반드시 열두 시에서 세 시 사이에 이루어졌고, 어떤 손님도 15분 넘게 머무는 법이 없었어요.",
+        },
+        {
+          id: "crf-8",
+          text: "It was thought vulgar to speak of one's own money or household troubles.",
+          translation:
+            "자기 돈이나 집안의 골칫거리를 입에 올리는 것은 천박한 일로 여겨졌어요.",
+        },
+        {
+          id: "crf-9",
+          text: "So Cranford went on, quiet, careful, and very sure of its own good manners.",
+          translation:
+            "그렇게 크랜퍼드는 조용하고 조심스럽게, 자신들의 예의범절에 대한 대단한 자부심 속에 굴러갔어요.",
+        },
+      ],
+      [
+        {
+          id: "crf-10",
+          text: "Then Captain Brown came to town to help build the new railway, and at once he shocked everyone.",
+          translation:
+            "그러던 어느 날 브라운 대위가 새 철도를 놓는 일을 도우러 마을에 왔고, 그는 대번에 모두를 경악하게 했어요.",
+        },
+        {
+          id: "crf-11",
+          text: "He spoke of being poor openly, in a loud, cheerful voice, as though poverty were nothing to be ashamed of.",
+          translation:
+            "그는 크고 명랑한 목소리로, 마치 가난이 부끄러울 것 하나 없다는 듯이 자기가 가난하다는 이야기를 거리낌 없이 했어요.",
+        },
+        {
+          id: "crf-12",
+          text: "The ladies were offended — but he was so kind, so sensible, and so quick to help that they could not bring themselves to shut their doors on him.",
+          translation:
+            "부인들은 기분이 상했어요. 하지만 그가 어찌나 친절하고 사리에 밝으며 남을 돕는 데 빠른지, 그의 앞에서 문을 닫아걸 수는 도저히 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "crf-13",
+          text: "He carried an old woman's coal-scuttle up the street and gave up his seat in the coach without being asked.",
+          translation:
+            "그는 한 노파의 석탄 통을 들고 길을 올라가 주었고, 부탁을 받지도 않았는데 마차에서 자기 자리를 양보했어요.",
+        },
+        {
+          id: "crf-14",
+          text: "He had two daughters: Miss Brown, older, plain, and often ill, and Miss Jessie, younger, pretty, and with dimples she was really too old to have.",
+          translation:
+            "그에게는 딸이 둘 있었어요. 언니인 브라운 양은 나이가 많고 수수하며 자주 아팠고, 동생인 제시 양은 더 어리고 예뻤으며, 사실 그 나이에 갖고 있기엔 어울리지 않는 보조개가 있었어요.",
+        },
+        {
+          id: "crf-15",
+          text: "Little by little, Cranford took the Browns in, though it never quite forgave the Captain for being honest about his purse.",
+          translation:
+            "조금씩 크랜퍼드는 브라운 가족을 받아들였지만, 대위가 자기 주머니 사정에 대해 솔직했던 것만큼은 끝내 완전히 용서하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "crf-16",
+          text: "The one battle that never ended was between Captain Brown and Miss Jenkyns, the rector's daughter, over books.",
+          translation:
+            "끝날 줄 모르는 단 하나의 다툼은, 브라운 대위와 교구 목사의 딸 젠킨스 양 사이에 벌어진 책을 둘러싼 논쟁이었어요.",
+        },
+        {
+          id: "crf-17",
+          text: "He loved the funny new stories of Mr. Dickens; she held that no one had ever written English as finely as Dr. Johnson, and neither would give an inch.",
+          translation:
+            "그는 디킨스 씨의 우스운 새 이야기들을 좋아했고, 그녀는 존슨 박사만큼 영어를 훌륭하게 쓴 사람은 없다고 주장했으며, 둘 다 한 치도 물러서지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "crf-v1",
+        term: "genteel",
+        partOfSpeech: "adjective",
+        translation: "(특히 가난하면서도) 점잖은 체하는, 체면을 차리는",
+        example: "The ladies of Cranford made their genteel poverty into a kind of fashion.",
+        exampleTranslation: "크랜퍼드의 부인들은 자신들의 점잖은 가난을 일종의 유행으로 만들었어요.",
+      },
+      {
+        id: "crf-v2",
+        term: "refreshment",
+        partOfSpeech: "noun",
+        translation: "다과, 가벼운 음식이나 음료",
+        example: "The only refreshment at the party was a plate of thin bread and butter.",
+        exampleTranslation: "파티에서 나온 다과라고는 얇게 썬 버터 바른 빵 한 접시가 전부였어요.",
+      },
+      {
+        id: "crf-v3",
+        term: "vulgar",
+        partOfSpeech: "adjective",
+        translation: "천박한, 상스러운, 품위 없는",
+        example: "In Cranford it was thought vulgar to talk about money.",
+        exampleTranslation: "크랜퍼드에서는 돈 이야기를 하는 것이 천박하다고 여겨졌어요.",
+      },
+      {
+        id: "crf-v4",
+        term: "offended",
+        partOfSpeech: "adjective",
+        translation: "기분이 상한, 불쾌해진",
+        example: "The ladies were offended when the Captain spoke so freely of being poor.",
+        exampleTranslation: "대위가 가난하다는 이야기를 그토록 거리낌 없이 하자 부인들은 기분이 상했어요.",
+      },
+      {
+        id: "crf-v5",
+        term: "dimple",
+        partOfSpeech: "noun",
+        translation: "보조개",
+        example: "Miss Jessie had dimples that the town felt she was too old to keep.",
+        exampleTranslation:
+          "제시 양에게는 보조개가 있었는데, 마을 사람들은 그녀가 그것을 지니기엔 너무 나이가 많다고 여겼어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "crf-q1",
+        prompt: "Why were there so few men in Cranford?",
+        options: [
+          "A sickness had driven the men away years before.",
+          "The men had left for the army, the sea, or business in a larger town.",
+          "The town had a law against men owning houses.",
+          "The men preferred to live on the nearby farms.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Whatever a Cranford man did — soldiering, sailing, or business in smoky Drumble twenty miles off — he did it elsewhere, so the town's houses were kept and its affairs run almost entirely by women.",
+      },
+      {
+        id: "crf-q2",
+        prompt: "What was \"elegant economy\"?",
+        options: [
+          "A shop in Cranford that sold cheap goods.",
+          "A rule that no lady could spend money without permission.",
+          "The Cranford habit of being poor while keeping up genteel appearances, and being proud of it.",
+          "A charity the ladies ran for the poor of the town.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Most of the ladies were poor, but they had turned genteel poverty into a fashion they called \"elegant economy\" — spending almost nothing, serving the barest refreshments, and thinking none the worse of it.",
+      },
+      {
+        id: "crf-q3",
+        prompt: "Why did Captain Brown shock the ladies of Cranford?",
+        options: [
+          "He refused to visit any of them.",
+          "He talked openly and cheerfully about being poor.",
+          "He tried to build the railway through the church.",
+          "He brought his invalid daughter to every party.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Cranford thought it vulgar to mention money, but Captain Brown spoke of his poverty out loud, in a cheerful military voice, as if it were nothing to be ashamed of — though his kindness soon won the ladies over anyway.",
+      },
+    ],
+  },
 ];
