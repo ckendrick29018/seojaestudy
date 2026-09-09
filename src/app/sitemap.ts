@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/`, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/library`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/classics`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    ...["a1", "a2", "b1", "b2"].map((level) => ({
+      url: `${SITE_URL}/classics/${level}`,
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
   ];
 
   const lessonEntries: MetadataRoute.Sitemap = lessons.map((lesson) => ({

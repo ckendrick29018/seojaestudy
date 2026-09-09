@@ -12,6 +12,20 @@ export const dict = {
     en: "Timeless stories, gently adapted for learners.",
     ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",
   },
+  classicsIntro: {
+    en: "Read classic literature as a graded reader — novels and short stories by Jane Austen, the Brontës, Louisa May Alcott, O. Henry, Anton Chekhov and L. M. Montgomery, retold in simpler English at CEFR levels A1 to B2. Every story has a sentence-by-sentence Korean translation, audio narration, vocabulary flashcards, and a comprehension check.",
+    ko: "고전 문학을 단계별 리더로 읽어요. 제인 오스틴, 브론테 자매, 루이자 메이 올컷, 오 헨리, 안톤 체호프, L. M. 몽고메리의 장편과 단편을 CEFR A1~B2 수준의 쉬운 영어로 다시 썼어요. 모든 이야기에 문장별 한국어 번역, 음성 낭독, 어휘 플래시카드, 이해도 확인 문제가 있어요.",
+  },
+  classicsBrowseByLevel: { en: "Browse by level", ko: "수준별로 보기" },
+  classicsAllBooks: { en: "All classics", ko: "고전 전체" },
+  classicsLevelIntro: {
+    en: "{level} graded readers: classic short stories and novel openings retold in simple English at CEFR {level}, each with a sentence-by-sentence Korean translation, audio narration, and vocabulary practice.",
+    ko: "{level} 단계별 리더: 고전 단편과 장편 도입부를 CEFR {level} 수준의 쉬운 영어로 다시 썼어요. 각 이야기에 문장별 한국어 번역, 음성 낭독, 어휘 연습이 있어요.",
+  },
+  libraryIntro: {
+    en: "Every SeoJae Story lesson in one place — short stories and classic literature graded to CEFR A1–B2. Tap any word for an instant translation, listen to native-voice narration, review the vocabulary as flashcards, and check your understanding at the end.",
+    ko: "SeoJae Story의 모든 레슨을 한곳에. 단편과 고전 문학을 CEFR A1~B2로 나눴어요. 단어를 누르면 바로 번역되고, 원어민 음성 낭독을 듣고, 어휘를 플래시카드로 복습하고, 마지막에 이해도를 확인해요.",
+  },
   classicsSeeAll: { en: "See all", ko: "전체 보기" },
 
   // --- Classics shelf: search / filter / sort ---

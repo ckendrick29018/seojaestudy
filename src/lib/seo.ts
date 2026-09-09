@@ -161,8 +161,18 @@ export function collectionPageJsonLd(opts: {
   name: string;
   description: string;
   lessons: Lesson[];
+  /** Optional intermediate breadcrumb, e.g. { name: "Classics", path: "/classics" }. */
+  parent?: { name: string; path: string };
 }) {
   const url = `${SITE_URL}${opts.path}`;
+
+  const crumbs = [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    ...(opts.parent
+      ? [{ "@type": "ListItem", position: 2, name: opts.parent.name, item: `${SITE_URL}${opts.parent.path}` }]
+      : []),
+    { "@type": "ListItem", position: opts.parent ? 3 : 2, name: opts.name, item: url },
+  ];
 
   const itemList = {
     "@type": "ItemList",
@@ -198,10 +208,7 @@ export function collectionPageJsonLd(opts: {
       },
       {
         "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-          { "@type": "ListItem", position: 2, name: opts.name, item: url },
-        ],
+        itemListElement: crumbs,
       },
     ],
   };

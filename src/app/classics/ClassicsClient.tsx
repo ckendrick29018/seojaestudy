@@ -74,7 +74,24 @@ export function ClassicsClient() {
   return (
     <div className="px-5 py-8">
       <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal">{t("classics")}</h1>
-      <p className="mb-4 text-sm text-charcoal/50">{t("classicsSubtitle")}</p>
+      <p className="mb-3 text-sm text-charcoal/50">{t("classicsSubtitle")}</p>
+      <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/60">
+        {t("classicsIntro")}
+      </p>
+
+      {/* Crawlable per-level landing pages — also a quick jump for readers. */}
+      <nav aria-label={t("classicsBrowseByLevel")} className="mb-5 flex flex-wrap items-center gap-1.5 text-xs">
+        <span className="text-charcoal/45">{t("classicsBrowseByLevel")}:</span>
+        {LEVELS.map((lv) => (
+          <Link
+            key={lv}
+            href={`/classics/${lv.toLowerCase()}`}
+            className="rounded-full bg-white/70 px-3 py-1 font-medium text-charcoal/60 transition hover:bg-sage/40 hover:text-charcoal"
+          >
+            {lv}
+          </Link>
+        ))}
+      </nav>
 
       {/* Search / filter / sort — sticks below the header while the shelf scrolls. */}
       <div className="sticky top-[52px] z-20 -mx-5 mb-5 border-b border-rose-light/50 bg-cream/95 px-5 pb-3 pt-1 backdrop-blur">

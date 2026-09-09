@@ -51,7 +51,13 @@ export function LibraryClient() {
         {personalized ? t("forYou") : t("library")}
       </p>
       <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal">{t("appName")}</h1>
-      <p className="mb-8 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
+      <p className="mb-3 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
+      {!personalized && (
+        <p className="mb-8 max-w-[62ch] text-sm leading-relaxed text-charcoal/55">
+          {t("libraryIntro")}
+        </p>
+      )}
+      {personalized && <div className="mb-8" />}
       <LessonOfDayCard />
       <BookshelfPreview />
       <NewForYouSection />
