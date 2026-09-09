@@ -166,7 +166,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary (simplified retelling, 17 sentences) | ☑ |
 | 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 — the diamond mines / the fall | ☐ |
 | 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" (simplified retelling, 17 sentences) | ☑ |
-| 54 | The Enchanted April | Elizabeth von Arnim (1941) | — | B1 | Ch. 1 — the advertisement | ☐ |
+| 54 | The Enchanted April | Elizabeth von Arnim (1941) | 16389 | B1 | Ch. 1 — the advertisement, and Mrs. Wilkins' bold suggestion (simplified retelling, 17 sentences) | ☑ |
 | 55 | Elizabeth and Her German Garden | Elizabeth von Arnim (1941) | — | B1 | opening — the garden in May | ☐ |
 | 56 | A Room with a View | E. M. Forster (1970) — US PD (1908) | 2641 | B2 | Ch. 1 — "The Bertolini" | ☐ SKIP: Forster d. 1970, not PD in life+70 countries (incl. Korea) until 2041 — fails sourcing rule #1; do not build until cleared |
 | 57 | Rebecca of Sunnybrook Farm | Kate Douglas Wiggin (1923) | 498 | A2 | Ch. 1 — the stagecoach ride to Riverboro (simplified retelling, 17 sentences) | ☑ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (53):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (54):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -225,7 +225,8 @@ has a genuine period cover/illustration in the public domain, download that into
   Daddy-Long-Legs Ch. 1 (row 59), The Mysteries of Udolpho Vol. 1 Ch. 1
   (row 72), The Mill on the Floss Bk 1 Ch. 5 (row 63), Pollyanna Ch. 1
   (row 58), Rebecca of Sunnybrook Farm Ch. 1 (row 57), An Old-Fashioned
-  Girl Ch. 1 (row 41), Agnes Grey Ch. 1 (row 36). Follow their shape in
+  Girl Ch. 1 (row 41), Agnes Grey Ch. 1 (row 36), The Enchanted April
+  Ch. 1 (row 54). Follow their shape in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -243,19 +244,20 @@ has a genuine period cover/illustration in the public domain, download that into
   Emma, The Nightingale and the Rose, The Little Mermaid, Ethan Frome
   prologue, East of the Sun and West of the Moon, The Bet, Cranford Ch. 1,
   Silas Marner Ch. 12, The Blue Castle Ch. 1, Daddy-Long-Legs Ch. 1, Agnes
-  Grey Ch. 1), B2 ×13 (Jane Eyre, The Lady with the Dog, Wuthering
-  Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
-  Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
-  Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
-  Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
-  Ch. 5). Bands are now A1 ×7, A2 ×15, B1 ×18, B2 ×13 — A1 is still the
-  thinnest.
+  Grey Ch. 1, The Enchanted April Ch. 1), B2 ×13 (Jane Eyre, The Lady with
+  the Dog, Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein
+  Letter 1, The Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1,
+  The House of Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2,
+  North and South Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill
+  on the Floss Bk 1 Ch. 5). Bands are now A1 ×7, A2 ×15, B1 ×19, B2 ×13 —
+  A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Anne of Avonlea Ch. 1** (row 60, B1 —
-  Anne, now a teacher), **Emily of New Moon Ch. 1** (row 46, B1 — "the
-  house in the hollow"), **Little Women Ch. 8** (row 40, B1 — Amy and the
-  burned manuscript). A1 (7) is still behind and the backlog has no
+- Good next lessons to build: **The Tenant of Wildfell Hall Ch. 1**
+  (row 37, B2 — Anne Brontë, the stranger at Wildfell), **Wives and
+  Daughters Ch. 1** (row 65, B2 — Gaskell), **Little Women Ch. 8** (row
+  40, B1 — Amy and the burned manuscript). A1 (7) is still behind and the
+  backlog has no
   more A1 rows — re-level a gentle A2
   tale down to A1 (e.g.
   The Twelve Dancing Princesses or Rapunzel), or add new A1 rows.

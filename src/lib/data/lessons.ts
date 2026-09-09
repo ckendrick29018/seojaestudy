@@ -11675,4 +11675,215 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-enchanted-april",
+    title: "The Enchanted April",
+    titleTranslation: "마법에 걸린 사월",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Elizabeth von Arnim (1866–1941)",
+    coverEmoji: "🌸",
+    coverImage: "/covers/the-enchanted-april.svg",
+    source:
+      "Adapted from Chapter 1 of Elizabeth von Arnim's novel \"The Enchanted April\" (first published 1922; in the public domain, Project Gutenberg #16389). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the advertisement Mrs. Wilkins saw and the bold suggestion she made to Mrs. Arbuthnot.",
+    paragraphs: [
+      [
+        {
+          id: "tea-1",
+          text: "It was a wet, grey afternoon in February, and Mrs. Wilkins was sitting alone in her London ladies' club.",
+          translation:
+            "2월의 비 내리는 잿빛 오후였고, 윌킨스 부인은 런던의 여성 클럽에 혼자 앉아 있었어요.",
+        },
+        {
+          id: "tea-2",
+          text: "She felt small and tired, and she did not expect anything good to happen.",
+          translation:
+            "그녀는 자신이 작고 초라하게 느껴졌고, 좋은 일이 생기리라고는 기대하지 않았어요.",
+        },
+        {
+          id: "tea-3",
+          text: "Then she opened The Times and saw a strange advertisement.",
+          translation: "그때 그녀는 《타임스》를 펼쳤고, 이상한 광고 하나를 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "tea-4",
+          text: "A small medieval castle in Italy, close to the sea, was for rent for the month of April.",
+          translation:
+            "바닷가에 있는 이탈리아의 작은 중세 성을, 4월 한 달 동안 빌려준다는 것이었어요.",
+        },
+        {
+          id: "tea-5",
+          text: "It was offered \"to those who love wistaria and sunshine.\"",
+          translation: "그 성은 \"등나무 꽃과 햇살을 사랑하는 분들께\" 내놓은 것이었어요.",
+        },
+        {
+          id: "tea-6",
+          text: "The words made Mrs. Wilkins ache with longing.",
+          translation: "그 문구는 윌킨스 부인의 마음을 간절한 그리움으로 아리게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "tea-7",
+          text: "She thought of cold, grey Hampstead, where she lived.",
+          translation: "그녀는 자기가 사는, 춥고 잿빛인 햄스테드를 떠올렸어요.",
+        },
+        {
+          id: "tea-8",
+          text: "She thought of her husband, Mellersh, a lawyer who counted every penny and never praised her.",
+          translation:
+            "그녀는 남편 멜러시를 떠올렸는데, 그는 한 푼까지 따지고 아내를 한 번도 칭찬하지 않는 변호사였어요.",
+        },
+        {
+          id: "tea-9",
+          text: "She never spent money on herself, and she never did anything just because she wished to.",
+          translation:
+            "그녀는 자신을 위해 돈을 쓰는 법이 없었고, 그저 하고 싶다는 이유로 무언가를 하는 일도 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "tea-10",
+          text: "Looking up, she saw another woman across the room reading the very same page.",
+          translation:
+            "고개를 들자, 방 건너편에서 바로 그 같은 지면을 읽고 있는 또 다른 여자가 보였어요.",
+        },
+        {
+          id: "tea-11",
+          text: "It was Mrs. Arbuthnot, whom she knew a little from their church at home.",
+          translation:
+            "그 여자는 고향 교회에서 조금 알고 지내던 아버스넛 부인이었어요.",
+        },
+        {
+          id: "tea-12",
+          text: "Mrs. Arbuthnot had the same hungry look on her face.",
+          translation: "아버스넛 부인의 얼굴에도 똑같이 무언가를 갈망하는 표정이 떠올라 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "tea-13",
+          text: "Then Mrs. Wilkins did something she had never done before: she walked over and spoke to her.",
+          translation:
+            "그때 윌킨스 부인은 한 번도 해 본 적 없는 일을 했어요. 그 여자에게 걸어가 말을 건 거예요.",
+        },
+        {
+          id: "tea-14",
+          text: "\"What if we took that castle together for April,\" she said, \"and asked two more ladies to share the cost?\"",
+          translation:
+            "\"우리 둘이 4월에 저 성을 함께 빌리고, 다른 부인 두 사람을 더 구해서 비용을 나누면 어떨까요?\" 그녀가 말했어요.",
+        },
+        {
+          id: "tea-15",
+          text: "Mrs. Arbuthnot was startled and said it was impossible — the money, the husbands, the sheer folly of it.",
+          translation:
+            "아버스넛 부인은 깜짝 놀라며, 그건 불가능하다고 말했어요. 돈도 그렇고, 남편들도 그렇고, 도무지 터무니없는 짓이라고요.",
+        },
+      ],
+      [
+        {
+          id: "tea-16",
+          text: "But she could not put the idea out of her mind either.",
+          translation: "하지만 그녀 역시 그 생각을 머릿속에서 떨쳐낼 수가 없었어요.",
+        },
+        {
+          id: "tea-17",
+          text: "By the time the rain stopped, the two near-strangers had almost agreed to run away to Italy.",
+          translation:
+            "비가 그칠 무렵, 서로 거의 남남이던 두 사람은 이탈리아로 떠나기로 거의 마음을 정하고 있었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tea-v1",
+        term: "advertisement",
+        partOfSpeech: "noun",
+        translation: "광고",
+        example: "She read the advertisement twice, hardly believing it.",
+        exampleTranslation: "그녀는 그 광고를 두 번 읽으며 좀처럼 믿지 못했어요.",
+      },
+      {
+        id: "tea-v2",
+        term: "medieval",
+        partOfSpeech: "adjective",
+        translation: "중세의",
+        example: "The castle was a small medieval one, close to the sea.",
+        exampleTranslation: "그 성은 바닷가에 있는 작은 중세 성이었어요.",
+      },
+      {
+        id: "tea-v3",
+        term: "longing",
+        partOfSpeech: "noun",
+        translation: "갈망, 간절한 그리움",
+        example: "The words filled her with a sudden longing for sunshine.",
+        exampleTranslation: "그 문구는 그녀를 햇살에 대한 갑작스러운 갈망으로 가득 채웠어요.",
+      },
+      {
+        id: "tea-v4",
+        term: "folly",
+        partOfSpeech: "noun",
+        translation: "어리석음, 어리석은 짓",
+        example: "Mrs. Arbuthnot called the whole plan sheer folly.",
+        exampleTranslation: "아버스넛 부인은 그 계획 전체를 순전한 어리석음이라고 불렀어요.",
+      },
+      {
+        id: "tea-v5",
+        term: "startled",
+        partOfSpeech: "adjective",
+        translation: "깜짝 놀란",
+        example: "Mrs. Arbuthnot was startled by the sudden question.",
+        exampleTranslation: "아버스넛 부인은 갑작스러운 질문에 깜짝 놀랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tea-q1",
+        prompt: "What did the advertisement in The Times offer?",
+        options: [
+          "A cottage in the English countryside for the whole summer.",
+          "A small medieval Italian castle by the sea, to rent for the month of April.",
+          "Cheap tickets on a train to the south of France.",
+          "A post as a lady companion to a family in Italy.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The advertisement offered a small medieval castle in Italy, close to the sea, for rent for the month of April, \"to those who love wistaria and sunshine\" — and the words filled Mrs. Wilkins with longing.",
+      },
+      {
+        id: "tea-q2",
+        prompt: "Why did the advertisement affect Mrs. Wilkins so strongly?",
+        options: [
+          "She had visited that very castle as a child.",
+          "She was looking for somewhere to move to permanently.",
+          "Her life in grey Hampstead was joyless, with a penny-counting husband and nothing she ever did for herself.",
+          "She wanted to buy the castle and sell it again for a profit.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Wilkins thought of cold, grey Hampstead, of her husband Mellersh who counted every penny and never praised her, and of how she never spent money on herself or did anything simply because she wished to.",
+      },
+      {
+        id: "tea-q3",
+        prompt: "What did Mrs. Wilkins do about it?",
+        options: [
+          "She wrote to the castle's owner on her own.",
+          "She decided it was folly and put it out of her mind.",
+          "She asked her husband for the money to go.",
+          "She spoke to Mrs. Arbuthnot, a near-stranger, and suggested they rent the castle together and find two more ladies to share the cost.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Seeing Mrs. Arbuthnot reading the same advertisement with the same hungry look, Mrs. Wilkins did something quite unlike her — she went over and proposed that the two of them take the castle for April and ask two more ladies to share the cost; by the time the rain stopped they had almost agreed.",
+      },
+    ],
+  },
 ];
