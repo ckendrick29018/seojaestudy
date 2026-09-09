@@ -183,7 +183,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 63 | The Mill on the Floss | George Eliot (1880) | — | B2 | Bk 1 Ch. 5 — Tom comes home | ☐ |
 | 64 | North and South | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — "Haste to the Wedding" | ☐ |
 | 65 | Wives and Daughters | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — the "old rigmarole of childhood" | ☐ |
-| 66 | The Age of Innocence | Edith Wharton (1937) | 541 | B2 | Ch. 1 — the opera | ☐ |
+| 66 | The Age of Innocence | Edith Wharton (1937) | 541 | B2 | Ch. 1 — the opera (simplified retelling, 17 sentences) | ☑ |
 | 67 | The House of Mirth | Edith Wharton (1937) | 284 | B2 | Bk 1 Ch. 1 — Lily Bart at the station | ☐ |
 | 68 | Ethan Frome | Edith Wharton (1937) | 4517 | B1 | the prologue — the narrator sees Ethan | ☐ |
 | 69 | The Awakening | Kate Chopin (1904) | 160 | B2 | Ch. 1 — Grand Isle | ☐ |
@@ -200,18 +200,19 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (23):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (24):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
   (row 44), Little Women Ch. 1 (row 39), The Ugly Duckling (row 16),
   Cinderella (row 10), Pride and Prejudice Ch. 1 (row 27), Pride and
   Prejudice Ch. 34 (row 28), Sense and Sensibility Ch. 1 (row 29), Jane
-  Eyre Ch. 1 (row 33), Frankenstein Letter 1 (row 71), The Selfish Giant
-  (row 8), The Necklace (row 6), A Christmas Carol Stave 1 (row 22), The
-  Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3 (row 35), The
-  Secret Garden Ch. 1 (row 49), The Emperor's New Clothes (row 17), Alice's
-  Adventures in Wonderland Ch. 1 (row 23), The Happy Prince (row 7), The
-  Princess and the Pea (row 18), Little Red Riding Hood (row 11). Follow
-  their shape in `src/lib/data/lessons.ts`. Every live
+  Eyre Ch. 1 (row 33), Frankenstein Letter 1 (row 71), The Age of Innocence
+  Ch. 1 (row 66), The Selfish Giant (row 8), The Necklace (row 6), A
+  Christmas Carol Stave 1 (row 22), The Lady with the Dog Part I (row 26),
+  Wuthering Heights Ch. 3 (row 35), The Secret Garden Ch. 1 (row 49), The
+  Emperor's New Clothes (row 17), Alice's Adventures in Wonderland Ch. 1
+  (row 23), The Happy Prince (row 7), The Princess and the Pea (row 18),
+  Little Red Riding Hood (row 11). Follow their shape in
+  `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
@@ -220,15 +221,15 @@ has a genuine period cover/illustration in the public domain, download that into
   A2 ×7 (Story of an Hour, Anne Ch. 2, Little Women, Ugly Duckling, The
   Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince), B1 ×6 (Gift
   of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol,
-  Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1), B2 ×5 (Jane
+  Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1), B2 ×6 (Jane
   Eyre, The Lady with the Dog, Wuthering Heights, Pride and Prejudice
-  Ch. 34, Frankenstein Letter 1). Bands are now A1 ×5, B2 ×5, B1 ×6,
-  A2 ×7 — fairly even; A1 and B2 are the lightest. Alice in Wonderland is
-  still A2's only entry that is neither a fairy tale nor gentle domestic
-  fiction.
-- Good next lessons to build: **The Age of Innocence Ch. 1** (row 66, B2 —
-  the opera; a first Wharton), **Middlemarch Prelude + Ch. 1** (row 61,
-  B2 — Dorothea; a first George Eliot), **The Frog Prince** (row 14, A1 —
-  Grimm, whole; a sixth A1). Note: row 56 (A Room with a View) is **not**
-  clear to build — Forster died 1970, so it is not public domain in
+  Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1). Bands are now
+  A1 ×5, B1 ×6, B2 ×6, A2 ×7 — very even; A1 is the lightest. Alice in
+  Wonderland is still A2's only entry that is neither a fairy tale nor
+  gentle domestic fiction.
+- Good next lessons to build: **The Frog Prince** (row 14, A1 — Grimm,
+  whole; a sixth A1), **Snow White** (row 12, A2 — trimmed; a fairy tale
+  the shelf still lacks), **Middlemarch Prelude + Ch. 1** (row 61, B2 —
+  Dorothea; a first George Eliot). Note: row 56 (A Room with a View) is
+  **not** clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.

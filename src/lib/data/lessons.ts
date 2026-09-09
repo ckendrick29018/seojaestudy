@@ -5200,4 +5200,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-age-of-innocence",
+    title: "The Age of Innocence",
+    titleTranslation: "순수의 시대",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "🎭",
+    coverImage: "/covers/the-age-of-innocence.svg",
+    source:
+      "Adapted from Chapter 1 of Edith Wharton's novel \"The Age of Innocence\" (first published 1920; long in the public domain, Project Gutenberg #541). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain who the Countess Olenska was, why her presence at the opera caused a stir, and how Newland Archer decided to respond.",
+    paragraphs: [
+      [
+        {
+          id: "aoi-1",
+          text: "On a snowy January evening in the 1870s, fashionable New York filled the old Academy of Music to hear a famous soprano sing in Faust.",
+          translation:
+            "1870년대의 눈 내리는 어느 1월 저녁, 뉴욕의 상류 사회 사람들이 유명한 소프라노가 '파우스트'를 부르는 것을 들으려고 오래된 뮤직 아카데미를 가득 채웠어요.",
+        },
+        {
+          id: "aoi-2",
+          text: "Newland Archer arrived late on purpose, since arriving late was one of the small rules by which his world lived.",
+          translation:
+            "뉴랜드 아처는 일부러 늦게 도착했는데, 늦게 도착하는 것이 그의 세계가 따르는 자잘한 규칙 중 하나였기 때문이에요.",
+        },
+        {
+          id: "aoi-3",
+          text: "On the stage the singer pulled the petals from a daisy, one by one, singing softly, \"He loves me — he loves me not.\"",
+          translation:
+            "무대 위에서 가수는 데이지 꽃잎을 하나씩 하나씩 뜯으며 나지막이 노래했어요. \"그는 나를 사랑해 — 사랑하지 않아.\"",
+        },
+      ],
+      [
+        {
+          id: "aoi-4",
+          text: "Across the theatre, in old Mrs. Mingott's box, sat a girl in white with lilies of the valley at her breast.",
+          translation:
+            "극장 건너편, 나이 든 밍곳 부인의 특별석에는 가슴에 은방울꽃을 단, 흰옷 차림의 한 아가씨가 앉아 있었어요.",
+        },
+        {
+          id: "aoi-5",
+          text: "She was May Welland, and that night Newland's engagement to her was to be quietly made known to their families.",
+          translation:
+            "그 아가씨는 메이 웰런드였고, 그날 밤 뉴랜드와 그녀의 약혼이 양가 가족에게 조용히 알려질 예정이었어요.",
+        },
+        {
+          id: "aoi-6",
+          text: "He watched her with pride, glad that she was too innocent to follow the meaning of the opera.",
+          translation:
+            "그는 뿌듯한 마음으로 그녀를 바라보며, 그녀가 그 오페라의 뜻을 알아듣기에는 너무 순진하다는 것을 다행으로 여겼어요.",
+        },
+      ],
+      [
+        {
+          id: "aoi-7",
+          text: "Then he noticed a young woman he did not know, sitting a little behind May in the same box.",
+          translation:
+            "그때 그는 같은 특별석에서 메이보다 조금 뒤에 앉아 있는, 알지 못하는 젊은 여인을 발견했어요.",
+        },
+        {
+          id: "aoi-8",
+          text: "Her dark blue velvet dress, cut low, and her loosely curled hair did not belong to the careful New York style.",
+          translation:
+            "목선이 깊게 파인 짙은 파란색 벨벳 드레스와 느슨하게 곱슬거리는 머리는 조심스러운 뉴욕의 방식과는 어울리지 않았어요.",
+        },
+        {
+          id: "aoi-9",
+          text: "It was the Countess Ellen Olenska, May's cousin, just back from Europe after leaving a cruel husband.",
+          translation:
+            "그 여인은 메이의 사촌인 엘렌 올렌스카 백작 부인으로, 잔인한 남편을 떠나 막 유럽에서 돌아온 참이었어요.",
+        },
+      ],
+      [
+        {
+          id: "aoi-10",
+          text: "A stir passed through the theatre, and in Newland's club box the men lowered their voices.",
+          translation:
+            "극장 안에 술렁임이 번졌고, 뉴랜드가 있던 클럽 특별석의 남자들은 목소리를 낮췄어요.",
+        },
+        {
+          id: "aoi-11",
+          text: "It was one thing for the family to take the Countess back, they said, and quite another to show her off in a public opera box.",
+          translation:
+            "가족이 백작 부인을 다시 받아들이는 것과, 그녀를 사람들 앞의 오페라 특별석에 내보이는 것은 전혀 다른 문제라고 그들은 말했어요.",
+        },
+        {
+          id: "aoi-12",
+          text: "To bring her out on this of all nights, they murmured, was a strange and awkward thing to do.",
+          translation:
+            "하필 이런 날 밤에 그녀를 데리고 나온 것은 이상하고 난처한 일이라고 그들은 수군거렸어요.",
+        },
+      ],
+      [
+        {
+          id: "aoi-13",
+          text: "Newland felt a flash of annoyance that May's family had drawn her — and himself — so close to gossip.",
+          translation:
+            "뉴랜드는 메이의 가족이 그녀를, 그리고 자신까지도 험담에 그토록 가까이 끌어들였다는 데에 짜증이 확 치밀었어요.",
+        },
+        {
+          id: "aoi-14",
+          text: "Yet he also felt that a man's first duty was to stand by the family he was about to enter.",
+          translation:
+            "하지만 그는 한편으로, 남자의 첫 번째 의무는 자신이 곧 들어갈 가족의 편에 서는 것이라고 느꼈어요.",
+        },
+        {
+          id: "aoi-15",
+          text: "If they had decided to support the Countess, then he would support her too, and let everyone see it.",
+          translation:
+            "가족이 백작 부인을 지지하기로 했다면, 그도 그녀를 지지할 것이고, 그것을 모두가 보도록 할 생각이었어요.",
+        },
+      ],
+      [
+        {
+          id: "aoi-16",
+          text: "He rose, left his own box, and made his way around the crowded horseshoe of red and gold toward the Mingott box.",
+          translation:
+            "그는 자리에서 일어나 자기 특별석을 나와, 붉은색과 금색으로 이어진 붐비는 말굽 모양 관람석을 돌아 밍곳 부인의 특별석 쪽으로 향했어요.",
+        },
+        {
+          id: "aoi-17",
+          text: "He would take his place at May's side that very evening, in front of all of New York.",
+          translation:
+            "그는 바로 그날 저녁, 온 뉴욕이 지켜보는 앞에서 메이의 곁에 자리를 잡을 작정이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aoi-v1",
+        term: "soprano",
+        partOfSpeech: "noun",
+        translation: "소프라노 (여성의 가장 높은 음역, 또는 그 가수)",
+        example: "The famous soprano sang the part of Marguerite in Faust.",
+        exampleTranslation: "그 유명한 소프라노가 '파우스트'에서 마르그리트 역을 노래했어요.",
+      },
+      {
+        id: "aoi-v2",
+        term: "engagement",
+        partOfSpeech: "noun",
+        translation: "약혼",
+        example: "That evening Newland's engagement to May was to be announced to the families.",
+        exampleTranslation: "그날 저녁 뉴랜드와 메이의 약혼이 양가 가족에게 알려질 예정이었어요.",
+      },
+      {
+        id: "aoi-v3",
+        term: "innocent",
+        partOfSpeech: "adjective",
+        translation: "순진한, 세상 물정을 모르는",
+        example: "He liked to think of May as too innocent to understand such things.",
+        exampleTranslation: "그는 메이가 그런 것들을 이해하기에는 너무 순진하다고 여기고 싶어 했어요.",
+      },
+      {
+        id: "aoi-v4",
+        term: "countess",
+        partOfSpeech: "noun",
+        translation: "백작 부인",
+        example: "The Countess Olenska had married a Polish count and then left him.",
+        exampleTranslation: "올렌스카 백작 부인은 폴란드 백작과 결혼했다가 그를 떠났어요.",
+      },
+      {
+        id: "aoi-v5",
+        term: "gossip",
+        partOfSpeech: "noun",
+        translation: "험담, 남의 말",
+        example: "The family feared that the Countess would become the subject of gossip.",
+        exampleTranslation: "가족은 백작 부인이 험담의 대상이 될까 봐 두려워했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aoi-q1",
+        prompt: "Why did Newland Archer arrive late at the opera?",
+        options: [
+          "His carriage had been delayed by the heavy snow.",
+          "Arriving late was one of the social customs of his world.",
+          "He did not really want to see May Welland that night.",
+          "He had been arguing with the men in his club box.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "In Archer's New York, small unwritten rules governed everything; arriving after the opera had begun was simply what fashionable people did.",
+      },
+      {
+        id: "aoi-q2",
+        prompt: "Who was the unknown woman in Mrs. Mingott's box, and why did she draw attention?",
+        options: [
+          "A famous European singer visiting New York for one night.",
+          "May Welland's older sister, newly married in Paris.",
+          "Countess Ellen Olenska, May's cousin, just back from Europe after leaving a cruel husband.",
+          "A rival of May's for Newland's affections.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The woman in the low-cut blue velvet dress was the Countess Olenska; her European looks, and the scandal of a wife who had left her husband, made her presence in a public box a talking point.",
+      },
+      {
+        id: "aoi-q3",
+        prompt: "What did Newland decide to do by the end of the chapter?",
+        options: [
+          "To leave the opera quietly and avoid the gossip.",
+          "To speak sharply to the men in his club box.",
+          "To cross to the Mingott box and stand openly at May's side.",
+          "To postpone the announcement of his engagement.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Though annoyed that May's family had exposed them both to gossip by parading the Countess, Archer felt he must stand by the family he was joining, so he set off around the theatre to take his place beside May.",
+      },
+    ],
+  },
 ];
