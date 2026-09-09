@@ -181,7 +181,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 61 | Middlemarch | George Eliot (1880) | 145 | B2 | "Prelude" + Ch. 1 — Dorothea (simplified retelling, 17 sentences) | ☑ |
 | 62 | Silas Marner | George Eliot (1880) | — | B1 | Ch. 12 — the child at the hearth | ☐ |
 | 63 | The Mill on the Floss | George Eliot (1880) | — | B2 | Bk 1 Ch. 5 — Tom comes home | ☐ |
-| 64 | North and South | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — "Haste to the Wedding" | ☐ |
+| 64 | North and South | Elizabeth Gaskell (1865) | 4276 | B2 | Ch. 1 — "Haste to the Wedding" (simplified retelling, 17 sentences) | ☑ |
 | 65 | Wives and Daughters | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — the "old rigmarole of childhood" | ☐ |
 | 66 | The Age of Innocence | Edith Wharton (1937) | 541 | B2 | Ch. 1 — the opera (simplified retelling, 17 sentences) | ☑ |
 | 67 | The House of Mirth | Edith Wharton (1937) | 284 | B2 | Bk 1 Ch. 1 — Lily Bart at the station (simplified retelling, 17 sentences) | ☑ |
@@ -200,12 +200,12 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (43):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (44):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
-  Ch. 1 (row 53), A Little Princess Ch. 1 (row 51), East of the Sun and
-  West of the Moon (row 20), The Twelve
+  Ch. 1 (row 53), North and South Ch. 1 (row 64), A Little Princess Ch. 1
+  (row 51), East of the Sun and West of the Moon (row 20), The Twelve
   Dancing Princesses (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of
   Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
   (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
@@ -235,18 +235,18 @@ has a genuine period cover/illustration in the public domain, download that into
   Green Gables Ch. 3, Sense and Sensibility Ch. 1, The Yellow Wallpaper,
   Emma, The Nightingale and the Rose, The Little Mermaid, Ethan Frome
   prologue, East of the Sun and West of the Moon, The Bet, Cranford Ch. 1),
-  B2 ×10 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and
+  B2 ×11 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and
   Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1,
   Middlemarch, The Awakening Ch. 1, The House of Mirth Bk 1 Ch. 1, The
-  Country of the Pointed Firs Ch. 1–2). Bands are now A1 ×6, B2 ×10,
-  A2 ×13, B1 ×14 — A1 is far behind the others. Within A2, Alice in
-  Wonderland is still the only entry that is neither a fairy tale nor
-  gentle domestic fiction.
-- Good next lessons to build: **North and South Ch. 1** (row 64, B2 —
-  Gaskell), **Silas Marner Ch. 12** (row 62, B1 — the child at the hearth),
-  **The Blue Castle Ch. 1** (row 45, B1 — Montgomery, Valancy's rainy
-  birthday). A1 (6) is far behind and the backlog has no more A1 rows —
-  re-level an A2 tale down to A1, or add new A1 rows. Note: row 56
-  (A Room with a View) is **not**
+  Country of the Pointed Firs Ch. 1–2, North and South Ch. 1). Bands are
+  now A1 ×6, B2 ×11, A2 ×13, B1 ×14 — A1 is far behind the others. Within
+  A2, Alice in Wonderland is still the only entry that is neither a fairy
+  tale nor gentle domestic fiction.
+- Good next lessons to build: **Silas Marner Ch. 12** (row 62, B1 — the
+  child at the hearth), **The Blue Castle Ch. 1** (row 45, B1 — Montgomery,
+  Valancy's rainy birthday), **The Mysteries of Udolpho Vol. 1 Ch. 1**
+  (row 72, B2 — La Vallée). A1 (6) is far behind and the backlog has no
+  more A1 rows — re-level an A2 tale down to A1, or add new A1 rows. Note:
+  row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.

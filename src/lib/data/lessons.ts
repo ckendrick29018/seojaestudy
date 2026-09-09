@@ -9539,4 +9539,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "north-and-south",
+    title: "North and South",
+    titleTranslation: "북과 남",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Elizabeth Gaskell (1810–1865)",
+    coverEmoji: "🧣",
+    coverImage: "/covers/north-and-south.svg",
+    source:
+      "Adapted from Chapter 1 of Elizabeth Gaskell's novel \"North and South\" (first published 1854–55; long in the public domain, Project Gutenberg #4276). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Margaret's situation at the start of the novel, and how she felt about leaving London for Helstone.",
+    paragraphs: [
+      [
+        {
+          id: "nas-1",
+          text: "For most of the last ten years, Margaret Hale had lived in London with her aunt, Mrs. Shaw, and her cousin Edith.",
+          translation:
+            "지난 10년의 대부분을, 마거릿 헤일은 런던에서 이모인 쇼 부인, 그리고 사촌 이디스와 함께 살았어요.",
+        },
+        {
+          id: "nas-2",
+          text: "Now the house was in a happy uproar, for Edith was to be married the next morning to Captain Lennox.",
+          translation:
+            "이제 집 안은 즐거운 야단법석이었는데, 이디스가 이튿날 아침 레녹스 대위와 결혼하기로 되어 있었기 때문이에요.",
+        },
+        {
+          id: "nas-3",
+          text: "There were flowers everywhere, and boxes of new clothes, and callers all day long.",
+          translation:
+            "사방에 꽃이 놓여 있었고, 새 옷이 담긴 상자들이 있었으며, 온종일 방문객이 드나들었어요.",
+        },
+      ],
+      [
+        {
+          id: "nas-4",
+          text: "Margaret had shared Edith's lessons and her London seasons, but every summer she had gone back to Helstone, her father's country parsonage.",
+          translation:
+            "마거릿은 이디스와 함께 수업을 받고 런던의 사교 철도 함께 보냈지만, 여름마다 아버지의 시골 목사관이 있는 헬스톤으로 돌아갔어요.",
+        },
+        {
+          id: "nas-5",
+          text: "Helstone was a small village on the edge of a great forest in the south of England, and Margaret loved it more than any place on earth.",
+          translation:
+            "헬스톤은 잉글랜드 남부의 드넓은 숲 가장자리에 자리한 작은 마을이었고, 마거릿은 그곳을 세상 어느 곳보다 사랑했어요.",
+        },
+        {
+          id: "nas-6",
+          text: "When the wedding was over she would go home to Helstone for good, and the thought filled her with a quiet happiness.",
+          translation:
+            "결혼식이 끝나면 그녀는 헬스톤으로 아주 돌아갈 참이었고, 그 생각만으로도 잔잔한 행복이 차올랐어요.",
+        },
+      ],
+      [
+        {
+          id: "nas-7",
+          text: "That evening, after a dinner party, the ladies sat in the drawing-room while the gentlemen stayed downstairs over their wine.",
+          translation:
+            "그날 저녁, 만찬이 끝난 뒤 신사들은 아래층에서 포도주를 마시며 남았고, 부인들은 응접실에 앉아 있었어요.",
+        },
+        {
+          id: "nas-8",
+          text: "Edith had fallen asleep on the sofa in her white dress, looking like a picture.",
+          translation:
+            "이디스는 흰 드레스 차림으로 소파에서 잠이 들어 있었는데, 마치 그림 같았어요.",
+        },
+        {
+          id: "nas-9",
+          text: "Mrs. Shaw, a comfortable, fretful widow, worried aloud about Edith going so far away, to the regiment's post on the island of Corfu.",
+          translation:
+            "여유롭게 살면서도 늘 안달하는 미망인인 쇼 부인은, 이디스가 연대가 주둔한 코르푸섬까지 그렇게 멀리 간다며 소리 내어 걱정했어요.",
+        },
+      ],
+      [
+        {
+          id: "nas-10",
+          text: "Mrs. Shaw had married a much older man for his money and had been perfectly comfortable ever since.",
+          translation:
+            "쇼 부인은 재산을 보고 훨씬 나이 많은 남자와 결혼했고, 그 뒤로 줄곧 아무 부족함 없이 지냈어요.",
+        },
+        {
+          id: "nas-11",
+          text: "Yet now she liked to speak of Edith's marriage as a pure love-match, and to sigh over how romantic it all was.",
+          translation:
+            "그런데도 이제 와서는 이디스의 결혼을 순전한 연애결혼이라고 말하기를 좋아했고, 그 모든 것이 얼마나 낭만적인지 한숨을 쉬며 이야기했어요.",
+        },
+        {
+          id: "nas-12",
+          text: "Margaret listened politely, and said little.",
+          translation: "마거릿은 예의 바르게 듣기만 하고, 말은 거의 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "nas-13",
+          text: "Mr. Henry Lennox, the bridegroom's clever lawyer brother, came up from the dining-room and sat down beside Margaret.",
+          translation:
+            "신랑의 형제이자 영리한 변호사인 헨리 레녹스 씨가 식당에서 올라와 마거릿 옆에 앉았어요.",
+        },
+        {
+          id: "nas-14",
+          text: "He asked her to describe Helstone, and she said it was \"like a village in a poem — in one of Tennyson's poems.\"",
+          translation:
+            "그가 헬스톤이 어떤 곳이냐고 묻자, 그녀는 \"시 속의 마을 같아요. 테니슨의 시 어딘가에 나오는.\"이라고 답했어요.",
+        },
+        {
+          id: "nas-15",
+          text: "She told him of the old grey church, the cottages half hidden in roses, and the great trees of the forest, and he half teased and half envied her for loving it so.",
+          translation:
+            "그녀는 오래된 잿빛 교회와, 장미에 반쯤 파묻힌 오두막들, 그리고 숲의 큰 나무들에 대해 이야기했고, 그는 그녀가 그곳을 그토록 사랑하는 것을 반쯤은 놀리고 반쯤은 부러워했어요.",
+        },
+      ],
+      [
+        {
+          id: "nas-16",
+          text: "Before bed, Mrs. Shaw made Margaret stand still and model the soft Indian shawls that were part of Edith's wedding gifts, heavy and warm and smelling of sandalwood.",
+          translation:
+            "잠자리에 들기 전, 쇼 부인은 마거릿을 가만히 세워 두고 이디스의 결혼 선물 중 하나인 부드러운 인도 숄들을 걸쳐 보게 했는데, 그 숄들은 묵직하고 따뜻했으며 백단향 냄새가 났어요.",
+        },
+        {
+          id: "nas-17",
+          text: "Margaret stood patient among the silks, thinking all the while of the forest paths at Helstone, and of going home.",
+          translation:
+            "마거릿은 비단들 사이에서 참을성 있게 서서, 내내 헬스톤의 숲길과 집으로 돌아갈 일을 생각했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "nas-v1",
+        term: "uproar",
+        partOfSpeech: "noun",
+        translation: "야단법석, 큰 소동",
+        example: "The house was in a happy uproar the day before the wedding.",
+        exampleTranslation: "결혼식 전날, 집 안은 즐거운 야단법석이었어요.",
+      },
+      {
+        id: "nas-v2",
+        term: "caller",
+        partOfSpeech: "noun",
+        translation: "(집을) 방문하는 사람, 방문객",
+        example: "Callers came all day to wish Edith well.",
+        exampleTranslation: "이디스를 축하하려는 방문객들이 온종일 찾아왔어요.",
+      },
+      {
+        id: "nas-v3",
+        term: "fretful",
+        partOfSpeech: "adjective",
+        translation: "안달하는, 늘 불안해하고 걱정하는",
+        example: "Mrs. Shaw was a comfortable but fretful widow.",
+        exampleTranslation: "쇼 부인은 여유롭게 살면서도 늘 안달하는 미망인이었어요.",
+      },
+      {
+        id: "nas-v4",
+        term: "regiment",
+        partOfSpeech: "noun",
+        translation: "연대 (군대의 편성 단위)",
+        example: "Captain Lennox's regiment was posted to the island of Corfu.",
+        exampleTranslation: "레녹스 대위의 연대는 코르푸섬으로 파견되었어요.",
+      },
+      {
+        id: "nas-v5",
+        term: "envy",
+        partOfSpeech: "verb",
+        translation: "부러워하다",
+        example: "Henry Lennox half envied Margaret for loving her home so much.",
+        exampleTranslation: "헨리 레녹스는 마거릿이 자기 고향을 그토록 사랑하는 것을 반쯤은 부러워했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "nas-q1",
+        prompt: "Where had Margaret spent most of the last ten years, and where did her heart truly belong?",
+        options: [
+          "In Helstone all year, dreaming of London.",
+          "In London with the Shaws, but her heart was at Helstone, her father's country village.",
+          "Travelling abroad with Captain Lennox's regiment.",
+          "At school in the New Forest, longing for her cousin Edith.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Margaret had lived in London with her aunt and cousin, sharing Edith's lessons and seasons, but every summer she returned to Helstone, the country parsonage she loved above any place on earth — and after the wedding she would go home there for good.",
+      },
+      {
+        id: "nas-q2",
+        prompt: "How is Mrs. Shaw described?",
+        options: [
+          "A poor relation who depended on the Hales.",
+          "A stern woman who disapproved of Edith's marriage.",
+          "A comfortable, fretful widow who had married for money but liked to talk of love-matches.",
+          "A famous London hostess admired for her wit.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Shaw was a well-off, easily worried widow; she had married a much older man for his money, yet now liked to speak of Edith's marriage as a romantic love-match and to sigh over it.",
+      },
+      {
+        id: "nas-q3",
+        prompt: "How did Margaret describe Helstone to Henry Lennox?",
+        options: [
+          "As a dull, muddy place she was glad to leave.",
+          "As a busy market town near the sea.",
+          "As \"like a village in a poem,\" with an old church, rose-covered cottages, and great forest trees.",
+          "As too far from London for anyone to visit.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Margaret told Henry Lennox that Helstone was \"like a village in a poem — in one of Tennyson's poems,\" and spoke of its grey church, its cottages half hidden in roses, and the great trees of the forest.",
+      },
+    ],
+  },
 ];
