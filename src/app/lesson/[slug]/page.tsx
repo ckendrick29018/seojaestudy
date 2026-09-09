@@ -5,6 +5,8 @@ import { LessonView } from "@/components/lesson/LessonView";
 import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
 import { isActiveSubscription } from "@/lib/subscription";
+import { lessonDescription, lessonJsonLd } from "@/lib/seo";
+import { OG_IMAGE, SITE_NAME } from "@/lib/site";
 
 export function generateStaticParams() {
   return lessons.map((lesson) => ({ slug: lesson.slug }));
@@ -12,13 +14,11 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const lesson = lessons.find((l) => l.slug === params.slug);
-  if (!lesson) return { title: { absolute: "Story not found · SeoJae Story" } };
+  if (!lesson) return { title: { absolute: `Story not found · ${SITE_NAME}` } };
 
   const path = `/lesson/${lesson.slug}`;
-  const description =
-    `A ${lesson.level} ${lesson.targetLanguage === "en" ? "English" : "Korean"} reading lesson: ` +
-    `"${lesson.title}"${lesson.author ? ` by ${lesson.author}` : ""}. ` +
-    `Read it sentence by sentence with instant translations, narration, vocabulary, and a comprehension check.`;
+  const description = lessonDescription(lesson);
+  const socialTitle = `${lesson.title} · ${SITE_NAME}`;
 
   return {
     title: lesson.title,
@@ -27,10 +27,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     openGraph: {
       type: "article",
       url: path,
-      title: `${lesson.title} · SeoJae Story`,
+      title: socialTitle,
       description,
+      images: [OG_IMAGE],
     },
-    twitter: { card: "summary_large_image", title: `${lesson.title} · SeoJae Story`, description },
+    twitter: { card: "summary_large_image", title: socialTitle, description, images: [OG_IMAGE.url] },
   };
 }
 
@@ -57,9 +58,15 @@ export default async function LessonPage({ params }: { params: { slug: string } 
   const lesson = lessons.find((l) => l.slug === params.slug);
   if (!lesson) notFound();
 
-  if (!lesson.isFree && !(await hasActiveSubscription())) {
-    return <LessonPaywall lesson={lesson} />;
-  }
+  const locked = !lesson.isFree && !(await hasActiveSubscription());
 
-  return <LessonView lesson={lesson} />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(lessonJsonLd(lesson)) }}
+      />
+      {locked ? <LessonPaywall lesson={lesson} /> : <LessonView lesson={lesson} />}
+    </>
+  );
 }
