@@ -173,7 +173,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 57 | Rebecca of Sunnybrook Farm | Kate Douglas Wiggin (1923) | 498 | A2 | Ch. 1 — the stagecoach ride to Riverboro (simplified retelling, 17 sentences) | ☑ |
 | 58 | Pollyanna | Eleanor H. Porter (1920) | 1450 | A1 | Ch. 1 ("Miss Polly") — the letter, and Miss Polly's duty (simplified retelling, 17 sentences; re-levelled A2 → A1 to fill the thin A1 band) | ☑ |
 | 59 | Daddy-Long-Legs | Jean Webster (1916) | 157 | B1 | Ch. 1 — "Blue Wednesday" (simplified retelling, 17 sentences) | ☑ |
-| 60 | Anne of Avonlea | L. M. Montgomery (1942) | — | B1 | Ch. 1 — Anne, now a teacher | ☐ |
+| 60 | Anne of Avonlea | L. M. Montgomery (1942) | 47 | B1 | Ch. 1 ("An Irate Neighbor") — Anne, now a teacher, quarrels with the new neighbour Mr. Harrison over the Jersey cow (simplified retelling, 17 sentences) | ☑ |
 
 ### Tier 3 — advanced / longer (B1–B2, later)
 
@@ -201,9 +201,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (62):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (63):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
-  The Tale of Peter Rabbit (row 74),
+  The Tale of Peter Rabbit (row 74), Anne of Avonlea Ch. 1 (row 60),
   The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -251,25 +251,31 @@ has a genuine period cover/illustration in the public domain, download that into
   Ethan Frome prologue, East of the Sun and West of the Moon, The Bet,
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
-  Little Women Ch. 8, A Little Princess Ch. 7), B2 ×17 (Jane Eyre, The
+  Little Women Ch. 8, A Little Princess Ch. 7, Anne of Avonlea Ch. 1),
+  B2 ×17 (Jane Eyre, The
   Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
   Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×8, A2 ×16, B1 ×21,
-  B2 ×17 — A1 is still the thinnest, but B1 (21) is the one that no longer
-  needs feeding.
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×8, A2 ×16, B1 ×22,
+  B2 ×17 — A1 is still the thinnest; B1 (22) is well-stocked, so steer new
+  work to A1/A2.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Northanger Abbey Ch. 1** (row 32, B1 —
-  Austen, "born to be a heroine"), **The Story Girl Ch. 1** (row 47, B1 —
-  the orchard), **Rose in Bloom Ch. 1** (row 42, B1 — Alcott). For A1,
-  Beatrix Potter is now the seam to mine — **The Tale of Benjamin Bunny**
-  (PG #14407), **Jemima Puddle-Duck**, **Mrs. Tiggy-Winkle** are all short,
-  gentle, and world-famous; or re-level a gentle A2 tale (The Twelve
-  Dancing Princesses, Rapunzel) down to A1.
+- Good next lessons to build — favour **A1/A2** (B1 is now full at 22):
+  - A1: Beatrix Potter is the seam to mine — **The Tale of Benjamin
+    Bunny** (PG #14407), **Jemima Puddle-Duck**, **Mrs. Tiggy-Winkle**,
+    **The Tale of Two Bad Mice** — all short, gentle, world-famous; or
+    re-level a gentle A2 tale (The Twelve Dancing Princesses, Rapunzel)
+    down to A1.
+  - A2: another *Four Million* story (row 24, O. Henry), or an Andersen
+    tale not yet done (**Thumbelina**, **The Steadfast Tin Soldier** —
+    softened ending).
+  - B1 only if the story really wants it: **Northanger Abbey Ch. 1**
+    (row 32), **The Story Girl Ch. 1** (row 47), **Rose in Bloom Ch. 1**
+    (row 42).
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in

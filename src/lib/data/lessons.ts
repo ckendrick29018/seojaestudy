@@ -13596,4 +13596,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "anne-of-avonlea",
+    title: "Anne of Avonlea",
+    titleTranslation: "에이번리의 앤",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "📗",
+    coverImage: "/covers/anne-of-avonlea.svg",
+    source:
+      "Adapted from Chapter 1 of L. M. Montgomery's novel \"Anne of Avonlea\" (first published 1909; public domain, Project Gutenberg #47). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Anne's meeting with her new neighbour Mr. Harrison went, and how she felt about it afterwards.",
+    paragraphs: [
+      [
+        {
+          id: "aa-1",
+          text: "It was a warm afternoon in late August on Prince Edward Island.",
+          translation: "8월 말의 어느 따뜻한 오후, 프린스에드워드섬에서였어요.",
+        },
+        {
+          id: "aa-2",
+          text: "Anne Shirley, now sixteen and a half, sat on the steps of Green Gables with a Latin book open on her knee.",
+          translation:
+            "이제 열여섯 살 반이 된 앤 셜리는 무릎에 라틴어 책을 펼쳐 놓은 채 초록지붕 집 계단에 앉아 있었어요.",
+        },
+        {
+          id: "aa-3",
+          text: "But she was not really reading. She was dreaming about September, when she would begin teaching at the Avonlea school.",
+          translation:
+            "하지만 앤은 사실 책을 읽고 있지 않았어요. 9월에 에이번리 학교에서 아이들을 가르치기 시작할 생각에 잠겨 있었지요.",
+        },
+      ],
+      [
+        {
+          id: "aa-4",
+          text: "Anne had grown tall and thoughtful, though her hair was still red and her imagination was still as large as ever.",
+          translation:
+            "앤은 키가 크고 생각이 깊어졌지만, 머리카락은 여전히 빨갰고 상상력도 예전만큼이나 풍부했어요.",
+        },
+        {
+          id: "aa-5",
+          text: "Suddenly a man marched into the yard. It was Mr. Harrison, the new neighbour, and he looked very angry.",
+          translation:
+            "갑자기 한 남자가 마당으로 성큼성큼 들어왔어요. 새 이웃인 해리슨 씨였는데, 몹시 화가 난 얼굴이었어요.",
+        },
+      ],
+      [
+        {
+          id: "aa-6",
+          text: "\"Your Jersey cow has been in my oats again,\" he shouted. \"That is the third time this week.\"",
+          translation:
+            "\"댁의 저지 소가 또 우리 귀리밭에 들어왔소.\" 그가 소리쳤어요. \"이번 주에만 벌써 세 번째요.\"",
+        },
+        {
+          id: "aa-7",
+          text: "Anne stood up with as much dignity as she could manage and began to apologise.",
+          translation: "앤은 최대한 위엄을 갖추어 자리에서 일어나 사과를 하기 시작했어요.",
+        },
+        {
+          id: "aa-8",
+          text: "But Mr. Harrison would not stop complaining, and soon Anne's quick temper caught fire.",
+          translation:
+            "하지만 해리슨 씨가 불평을 멈추지 않자, 곧 앤의 불같은 성질에 불이 붙고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "aa-9",
+          text: "He made a rude remark about her red hair. She made an equally rude remark about his bald head.",
+          translation:
+            "그가 앤의 빨간 머리를 두고 무례한 말을 했어요. 앤도 그의 벗어진 머리를 두고 똑같이 무례한 말로 맞받았어요.",
+        },
+        {
+          id: "aa-10",
+          text: "For a moment they simply glared at each other, both ashamed and both too proud to say so.",
+          translation:
+            "잠시 두 사람은 서로를 노려보기만 했어요. 둘 다 부끄러웠지만, 둘 다 자존심이 세서 그렇다고 말하지 못했지요.",
+        },
+        {
+          id: "aa-11",
+          text: "Then Anne took a breath. \"I am truly sorry about the cow,\" she said. \"I give you my word of honour that it will not happen again.\"",
+          translation:
+            "그때 앤이 숨을 골랐어요. \"소 때문에 정말 죄송해요.\" 앤이 말했어요. \"다시는 이런 일이 없을 거라고 명예를 걸고 약속드릴게요.\"",
+        },
+      ],
+      [
+        {
+          id: "aa-12",
+          text: "Mr. Harrison muttered something and stamped back down the lane to his own farm.",
+          translation:
+            "해리슨 씨는 뭐라고 중얼거리더니 발을 쿵쿵 구르며 오솔길을 따라 자기 농장으로 돌아갔어요.",
+        },
+        {
+          id: "aa-13",
+          text: "Anne shut the cow safely in the milking pen and sat down again on the steps, cross with herself.",
+          translation:
+            "앤은 소를 젖 짜는 우리에 안전하게 가둔 뒤, 다시 계단에 앉아 스스로에게 화가 났어요.",
+        },
+        {
+          id: "aa-14",
+          text: "She had meant to be calm and grown-up, and instead she had quarrelled like a child.",
+          translation:
+            "차분하고 어른스럽게 굴려고 했는데, 오히려 어린애처럼 다투고 말았으니까요.",
+        },
+      ],
+      [
+        {
+          id: "aa-15",
+          text: "When Marilla came home, Anne told her the whole story.",
+          translation: "마릴라가 집에 돌아오자, 앤은 있었던 일을 전부 이야기했어요.",
+        },
+        {
+          id: "aa-16",
+          text: "Marilla almost smiled. \"Mr. Harrison keeps a parrot that says dreadful words,\" she said. \"Perhaps the two of them suit each other.\"",
+          translation:
+            "마릴라는 웃음이 나오려는 걸 참았어요. \"해리슨 씨는 험한 말을 하는 앵무새를 기른다더구나.\" 마릴라가 말했어요. \"어쩌면 그 둘이 잘 어울리는지도 모르지.\"",
+        },
+        {
+          id: "aa-17",
+          text: "Anne laughed at last, and the warm evening settled quietly over Green Gables.",
+          translation: "앤은 마침내 웃음을 터뜨렸고, 따뜻한 저녁이 초록지붕 집 위로 조용히 내려앉았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aa-v1",
+        term: "dignity",
+        partOfSpeech: "noun",
+        translation: "위엄, 품위",
+        example: "Anne stood up with as much dignity as she could manage.",
+        exampleTranslation: "앤은 최대한 위엄을 갖추어 일어섰어요.",
+      },
+      {
+        id: "aa-v2",
+        term: "temper",
+        partOfSpeech: "noun",
+        translation: "(화를 잘 내는) 성질, 성미",
+        example: "Anne's quick temper caught fire when he would not stop.",
+        exampleTranslation: "그가 멈추지 않자 앤의 불같은 성질에 불이 붙었어요.",
+      },
+      {
+        id: "aa-v3",
+        term: "rude",
+        partOfSpeech: "adjective",
+        translation: "무례한, 버릇없는",
+        example: "He made a rude remark about her red hair.",
+        exampleTranslation: "그는 앤의 빨간 머리에 대해 무례한 말을 했어요.",
+      },
+      {
+        id: "aa-v4",
+        term: "glare",
+        partOfSpeech: "verb",
+        translation: "노려보다",
+        example: "For a moment they simply glared at each other.",
+        exampleTranslation: "잠시 두 사람은 서로를 노려보기만 했어요.",
+      },
+      {
+        id: "aa-v5",
+        term: "quarrel",
+        partOfSpeech: "verb",
+        translation: "다투다, 말다툼하다",
+        example: "She had quarrelled with her neighbour like a child.",
+        exampleTranslation: "앤은 이웃과 어린애처럼 말다툼을 하고 말았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aa-q1",
+        prompt: "Why was Anne sitting on the steps instead of studying?",
+        options: [
+          "She was waiting for Marilla to come home.",
+          "She was daydreaming about teaching at the Avonlea school in September.",
+          "She was watching for Mr. Harrison's cow.",
+          "She was too tired to read her Latin book.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Anne had a Latin book open on her knee, but she was not really reading it — she was lost in thoughts about the coming September, when she would begin teaching at the Avonlea school.",
+      },
+      {
+        id: "aa-q2",
+        prompt: "What happened when Mr. Harrison complained about the cow?",
+        options: [
+          "Anne apologised calmly and he thanked her warmly.",
+          "Marilla came out and sent Mr. Harrison away.",
+          "Anne and Mr. Harrison lost their tempers and traded insults before she finally apologised.",
+          "Anne agreed to give Mr. Harrison the cow to keep.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Anne tried to apologise with dignity, but Mr. Harrison kept complaining until her temper flared; they traded rude remarks about her red hair and his bald head before Anne calmed down and gave her word of honour that it would not happen again.",
+      },
+      {
+        id: "aa-q3",
+        prompt: "How did Anne feel after Mr. Harrison left?",
+        options: [
+          "Proud of how maturely she had handled him.",
+          "Annoyed with herself for quarrelling like a child instead of staying calm.",
+          "Frightened that he would never forgive her.",
+          "Delighted to have made a new friend.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Once the cow was shut safely in the pen, Anne sat down cross with herself: she had meant to be calm and grown-up, but had ended up quarrelling like a child. Marilla's joke about the parrot finally made her laugh.",
+      },
+    ],
+  },
 ];

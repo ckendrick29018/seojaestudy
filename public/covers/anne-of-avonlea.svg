@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Anne of Avonlea by L. M. Montgomery">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 168)" stroke="#C9A66B" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-4 -44 a 4 4 0 1 1 8 0" />
+    <path d="M0 -44 q -6 2 -6 10 q -26 12 -26 44 l -4 8 h 72 l -4 -8 q 0 -32 -26 -44 q 0 -8 -6 -10 z" />
+    <path d="M-36 18 h 72" />
+    <circle cx="0" cy="30" r="6" fill="#C9A66B" stroke="none"/>
+    <path d="M40 -14 q 12 8 15 26" stroke-width="1" opacity="0.4"/>
+    <path d="M-40 -14 q -12 8 -15 26" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Anne of</text>
+  <text x="200" y="349" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Avonlea</text>
+
+  <line x1="150" y1="384" x2="250" y2="384" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="416" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Now the teacher of Avonlea</text>
+
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#C57B57" letter-spacing="3">L. M. MONTGOMERY</text>
+  <text x="200" y="484" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1909</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
