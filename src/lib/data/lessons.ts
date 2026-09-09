@@ -5634,4 +5634,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "snow-white",
+    title: "Snow White",
+    titleTranslation: "백설공주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🍎",
+    coverImage: "/covers/snow-white.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Snow White\" (\"Sneewittchen,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's harsher details have been softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the queen was jealous of Snow White, and how Snow White was saved in the end.",
+    paragraphs: [
+      [
+        {
+          id: "snw-1",
+          text: "A princess named Snow White had skin as white as snow, lips as red as blood, and hair as black as night.",
+          translation:
+            "백설공주라는 공주는 눈처럼 하얀 피부와 피처럼 붉은 입술, 그리고 밤처럼 검은 머리를 가지고 있었어요.",
+        },
+        {
+          id: "snw-2",
+          text: "Her stepmother, the queen, had a magic mirror, and every day she asked it, \"Mirror, mirror, who is the fairest of all?\"",
+          translation:
+            "계모인 왕비에게는 마법 거울이 있었고, 그녀는 날마다 거울에게 물었어요. \"거울아, 거울아, 누가 세상에서 제일 예쁘지?\"",
+        },
+        {
+          id: "snw-3",
+          text: "For years the mirror answered, \"You are\" — until one day it said, \"Snow White is fairer than you.\"",
+          translation:
+            "여러 해 동안 거울은 \"당신입니다.\"라고 답했지만, 어느 날 이렇게 말했어요. \"백설공주가 당신보다 더 예쁩니다.\"",
+        },
+      ],
+      [
+        {
+          id: "snw-4",
+          text: "The jealous queen ordered a huntsman to take Snow White deep into the forest and leave her there.",
+          translation:
+            "질투에 사로잡힌 왕비는 사냥꾼에게 백설공주를 숲 깊은 곳으로 데려가 그곳에 버리고 오라고 명령했어요.",
+        },
+        {
+          id: "snw-5",
+          text: "But the huntsman felt sorry for the girl, and he whispered, \"Run away, child, and never come back.\"",
+          translation:
+            "하지만 사냥꾼은 그 아이가 가여워서, \"얘야, 달아나거라. 그리고 다시는 돌아오지 마라.\" 하고 속삭였어요.",
+        },
+        {
+          id: "snw-6",
+          text: "Alone and frightened, Snow White ran through the dark trees until she came to a tiny cottage.",
+          translation:
+            "혼자가 되어 겁에 질린 백설공주는 어두운 나무들 사이를 달려 마침내 자그마한 오두막에 이르렀어요.",
+        },
+      ],
+      [
+        {
+          id: "snw-7",
+          text: "Inside stood a table with seven little plates and, along the wall, seven little beds.",
+          translation:
+            "안에는 작은 접시 일곱 개가 놓인 식탁이 있었고, 벽을 따라 작은 침대 일곱 개가 있었어요.",
+        },
+        {
+          id: "snw-8",
+          text: "She ate a little food, lay down, and fell asleep, and that evening seven dwarfs came home from the mountain where they dug for gold.",
+          translation:
+            "공주는 음식을 조금 먹고 누워서 잠이 들었고, 그날 저녁 일곱 난쟁이가 금을 캐던 산에서 집으로 돌아왔어요.",
+        },
+        {
+          id: "snw-9",
+          text: "When they heard her story they said, \"Stay with us and keep house, but let no one in while we are away.\"",
+          translation:
+            "난쟁이들은 공주의 이야기를 듣고 말했어요. \"우리와 함께 지내면서 집안일을 돌봐 주렴. 대신 우리가 없는 동안에는 아무도 들이지 마.\"",
+        },
+      ],
+      [
+        {
+          id: "snw-10",
+          text: "The queen soon learned from her mirror that Snow White was still alive.",
+          translation:
+            "왕비는 곧 거울을 통해 백설공주가 아직 살아 있다는 것을 알게 되었어요.",
+        },
+        {
+          id: "snw-11",
+          text: "She dressed as an old woman, walked to the cottage, and offered Snow White a beautiful red apple.",
+          translation:
+            "왕비는 노파로 변장하고 오두막까지 걸어가서, 백설공주에게 탐스러운 빨간 사과를 내밀었어요.",
+        },
+        {
+          id: "snw-12",
+          text: "Snow White took one bite, fell to the floor, and lay as still as if she were dead.",
+          translation:
+            "백설공주가 한 입 베어 물자, 그대로 바닥에 쓰러져 죽은 듯이 꼼짝도 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "snw-13",
+          text: "The dwarfs could not wake her, and they wept for three days.",
+          translation: "난쟁이들은 공주를 깨우지 못했고, 사흘 동안 울었어요.",
+        },
+        {
+          id: "snw-14",
+          text: "Because she still looked so lovely, they would not bury her, but laid her in a coffin made of glass on the hillside.",
+          translation:
+            "공주가 여전히 너무나 아름다워 보였기에, 난쟁이들은 그녀를 땅에 묻지 않고 언덕에 유리로 만든 관에 뉘었어요.",
+        },
+        {
+          id: "snw-15",
+          text: "One day a prince rode by, saw her through the glass, and begged the dwarfs to let him take the coffin to his castle.",
+          translation:
+            "어느 날 한 왕자가 말을 타고 지나가다 유리 너머로 공주를 보고는, 그 관을 자기 성으로 가져가게 해 달라고 난쟁이들에게 간청했어요.",
+        },
+      ],
+      [
+        {
+          id: "snw-16",
+          text: "As the servants lifted the coffin, they stumbled, the piece of apple fell from Snow White's lips, and she opened her eyes.",
+          translation:
+            "하인들이 관을 들어 올리다가 발을 헛디뎠고, 그 바람에 사과 조각이 백설공주의 입술에서 떨어져 나왔으며, 공주는 눈을 떴어요.",
+        },
+        {
+          id: "snw-17",
+          text: "The prince took her home to be his wife, and the cruel queen was never seen in that land again.",
+          translation:
+            "왕자는 공주를 아내로 삼으려고 집으로 데려갔고, 잔인한 왕비는 다시는 그 나라에서 볼 수 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "snw-v1",
+        term: "mirror",
+        partOfSpeech: "noun",
+        translation: "거울",
+        example: "The queen asked her magic mirror who was the most beautiful in the land.",
+        exampleTranslation: "왕비는 자기 마법 거울에게 이 나라에서 누가 가장 아름다운지 물었어요.",
+      },
+      {
+        id: "snw-v2",
+        term: "jealous",
+        partOfSpeech: "adjective",
+        translation: "질투하는, 시기하는",
+        example: "The jealous queen could not bear that Snow White was more beautiful.",
+        exampleTranslation: "질투에 사로잡힌 왕비는 백설공주가 더 아름답다는 것을 견딜 수 없었어요.",
+      },
+      {
+        id: "snw-v3",
+        term: "cottage",
+        partOfSpeech: "noun",
+        translation: "오두막, 시골의 작은 집",
+        example: "Deep in the forest, Snow White found a tiny cottage with seven little beds.",
+        exampleTranslation: "숲 깊은 곳에서 백설공주는 작은 침대 일곱 개가 있는 자그마한 오두막을 발견했어요.",
+      },
+      {
+        id: "snw-v4",
+        term: "dwarf",
+        partOfSpeech: "noun",
+        translation: "난쟁이",
+        example: "Seven dwarfs lived in the cottage and dug for gold in the mountain.",
+        exampleTranslation: "일곱 난쟁이가 그 오두막에 살면서 산에서 금을 캤어요.",
+      },
+      {
+        id: "snw-v5",
+        term: "coffin",
+        partOfSpeech: "noun",
+        translation: "관 (시신을 넣는 상자)",
+        example: "The dwarfs laid Snow White in a coffin made of clear glass.",
+        exampleTranslation: "난쟁이들은 백설공주를 투명한 유리로 만든 관에 뉘었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "snw-q1",
+        prompt: "Why did the queen want to get rid of Snow White?",
+        options: [
+          "Snow White had broken the queen's magic mirror.",
+          "The mirror said Snow White was more beautiful than the queen.",
+          "Snow White had run away from the castle without asking.",
+          "The king loved Snow White more than the queen.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Every day the mirror told the queen she was the fairest — until it said Snow White was fairer, and the jealous queen could not accept it.",
+      },
+      {
+        id: "snw-q2",
+        prompt: "What did the huntsman do when he took Snow White into the forest?",
+        options: [
+          "He built her a small cottage to live in.",
+          "He brought her back to the castle in secret.",
+          "He felt sorry for her and told her to run away.",
+          "He left her with the seven dwarfs.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The huntsman could not harm the girl; he told her to run away and never come back, and Snow White fled through the forest until she found the dwarfs' cottage.",
+      },
+      {
+        id: "snw-q3",
+        prompt: "How did Snow White wake up again?",
+        options: [
+          "The dwarfs found a cure and gave it to her.",
+          "The prince's servants stumbled and the piece of apple fell from her lips.",
+          "The queen returned and lifted the spell.",
+          "She had only been sleeping deeply the whole time.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "As the prince's servants carried the glass coffin away, they stumbled; the bite of apple was jolted from Snow White's mouth, and she opened her eyes.",
+      },
+    ],
+  },
 ];
