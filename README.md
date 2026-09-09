@@ -146,13 +146,16 @@ same `{ message, tip, tone }` return shape.
 Both sample lessons are original text written for this app, based on
 material that is in the public domain:
 
-- **"The Fox and the Grapes"** retells a fable attributed to Aesop
-  (~6th century BCE, public domain). English text and Korean translation
-  are original, written for SeoJae Story. Free to read.
+- **Aesop's fables** — "The Fox and the Grapes", "The Tortoise and the
+  Hare", "The Lion and the Mouse", "The Ant and the Grasshopper" and
+  "The Boy Who Cried Wolf" (~6th century BCE, public domain). English
+  text and Korean translation are original, written for SeoJae Story.
+  English-target, level A1. Free to read.
 - **"흥부와 놀부" (Heungbu and Nolbu)** retells *Heungbu-jeon* (흥부전), an
   anonymous traditional Korean folktale from the late Joseon era, also
-  public domain. Korean text and English translation are original. Gated
-  behind the Premium subscription, as a demo of the paywall.
+  public domain. Korean text and English translation are original.
+  Korean-target, level A2. Free to read (was the paywall demo; gate
+  lifted for Beta).
 
 When adding more lessons, keep sourcing from public-domain material (e.g.
 [Project Gutenberg](https://www.gutenberg.org) for English,

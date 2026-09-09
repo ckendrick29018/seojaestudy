@@ -15,10 +15,11 @@ memory).
 
 - **Remove the premium gate entirely.** Every user gets the full library and all
   premium features while Beta testing is running.
-- Today only `heungbu-and-nolbu` has `isFree: false`; flipping the gate off means
-  either forcing all lessons free or short-circuiting the paywall check in
+- Every lesson currently has `isFree: true` (`heungbu-and-nolbu` was flipped free
+  for Beta on 2026-09-09). When Beta ends, re-gating means either setting
+  `isFree: false` on the premium set again or putting the paywall check in
   `src/app/lesson/[slug]/page.tsx` / `LessonPaywall` behind a "beta" flag so it's
-  a one-line revert when Beta ends.
+  a one-line revert.
 
 ### After Beta
 

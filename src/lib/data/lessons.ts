@@ -220,7 +220,7 @@ export const lessons: Lesson[] = [
     nativeLanguage: "en",
     topic: "Folktale",
     level: "A2",
-    isFree: false,
+    isFree: true,
     coverEmoji: "🐦",
     source:
       "Based on Heungbu-jeon (흥부전), an anonymous traditional Korean folktale of unknown authorship believed to date from the late Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story.",
@@ -15315,6 +15315,711 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Jimmy came to the spot on time and knew Bob's face at once as a man wanted by the Chicago police. He could not arrest his old friend with his own hands, so he sent another officer and left a note explaining what he had done.",
+      },
+    ],
+  },
+  {
+    slug: "the-tortoise-and-the-hare",
+    title: "The Tortoise and the Hare",
+    titleTranslation: "거북이와 토끼",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fables",
+    level: "A1",
+    isFree: true,
+    coverEmoji: "🐢",
+    source:
+      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the fast hare lost the race to the slow tortoise.",
+    paragraphs: [
+      [
+        {
+          id: "tah-1",
+          text: "A hare was very proud of how fast he could run.",
+          translation: "토끼는 자기가 얼마나 빨리 달릴 수 있는지를 무척 자랑스러워했어요.",
+        },
+        {
+          id: "tah-2",
+          text: "He laughed at a slow tortoise. \"You are the slowest animal I know!\"",
+          translation:
+            "토끼는 느린 거북이를 비웃었어요. \"너는 내가 아는 동물 중에 제일 느려!\"",
+        },
+      ],
+      [
+        {
+          id: "tah-3",
+          text: "\"Then let us have a race,\" said the tortoise quietly.",
+          translation: "\"그럼 우리 달리기 시합을 하자.\" 거북이가 조용히 말했어요.",
+        },
+        {
+          id: "tah-4",
+          text: "All the animals came to watch. A fox marked the start and the finish.",
+          translation:
+            "동물들이 모두 구경하러 왔어요. 여우가 출발선과 결승선을 그었어요.",
+        },
+      ],
+      [
+        {
+          id: "tah-5",
+          text: "The hare ran off so fast that the tortoise was soon far behind.",
+          translation:
+            "토끼가 아주 빠르게 달려 나가서, 거북이는 곧 한참 뒤처졌어요.",
+        },
+        {
+          id: "tah-6",
+          text: "\"This race is too easy,\" thought the hare. \"I have time for a rest.\"",
+          translation:
+            "\"이 시합은 너무 쉬워.\" 토끼는 생각했어요. \"잠깐 쉴 시간도 있겠는걸.\"",
+        },
+      ],
+      [
+        {
+          id: "tah-7",
+          text: "He lay down under a shady tree and fell fast asleep.",
+          translation: "토끼는 그늘진 나무 아래 누워서 깊이 잠들어 버렸어요.",
+        },
+        {
+          id: "tah-8",
+          text: "The tortoise walked on and on. He never stopped, not even once.",
+          translation:
+            "거북이는 계속해서 걸었어요. 단 한 번도 멈추지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "tah-9",
+          text: "He passed the sleeping hare and kept going towards the finish.",
+          translation:
+            "거북이는 잠든 토끼를 지나쳐서 결승선을 향해 계속 나아갔어요.",
+        },
+        {
+          id: "tah-10",
+          text: "The hare woke up and ran as fast as he could, but he was too late.",
+          translation:
+            "토끼는 잠에서 깨어 있는 힘껏 달렸지만, 이미 너무 늦었어요.",
+        },
+      ],
+      [
+        {
+          id: "tah-11",
+          text: "The tortoise had already won. Slow and steady wins the race.",
+          translation:
+            "거북이가 이미 이긴 뒤였어요. 느려도 꾸준히 하면 시합에서 이겨요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tah-v1",
+        term: "hare",
+        partOfSpeech: "noun",
+        translation: "산토끼",
+        example: "The hare could run much faster than the tortoise.",
+        exampleTranslation: "토끼는 거북이보다 훨씬 빨리 달릴 수 있었어요.",
+      },
+      {
+        id: "tah-v2",
+        term: "proud",
+        partOfSpeech: "adjective",
+        translation: "자랑스러워하는, 우쭐한",
+        example: "He was proud of how fast he could run.",
+        exampleTranslation: "그는 자기가 얼마나 빨리 달리는지를 자랑스러워했어요.",
+      },
+      {
+        id: "tah-v3",
+        term: "race",
+        partOfSpeech: "noun",
+        translation: "달리기 시합, 경주",
+        example: "\"Then let us have a race,\" said the tortoise.",
+        exampleTranslation: "\"그럼 우리 달리기 시합을 하자.\" 거북이가 말했어요.",
+      },
+      {
+        id: "tah-v4",
+        term: "asleep",
+        partOfSpeech: "adjective",
+        translation: "잠든",
+        example: "He lay under a tree and fell fast asleep.",
+        exampleTranslation: "그는 나무 아래 누워서 깊이 잠들었어요.",
+      },
+      {
+        id: "tah-v5",
+        term: "steady",
+        partOfSpeech: "adjective",
+        translation: "꾸준한, 한결같은",
+        example: "Slow and steady wins the race.",
+        exampleTranslation: "느려도 꾸준히 하면 시합에서 이겨요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tah-q1",
+        prompt: "Why did the hare stop to sleep during the race?",
+        options: [
+          "He was hurt and could not run.",
+          "He was so far ahead that he thought the race was too easy.",
+          "The fox told him to rest.",
+          "It was too hot to run.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The hare ran off so fast that the tortoise was soon far behind. Sure he could not lose, the hare decided he had time for a rest and fell fast asleep under a shady tree.",
+      },
+      {
+        id: "tah-q2",
+        prompt: "What did the tortoise do while the hare slept?",
+        options: [
+          "He waited for the hare to wake up.",
+          "He went home and came back later.",
+          "He kept walking without stopping and passed the hare.",
+          "He asked the fox to carry him.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The tortoise walked on and on and never stopped, not even once. He passed the sleeping hare and kept going all the way to the finish.",
+      },
+      {
+        id: "tah-q3",
+        prompt: "What is the lesson of this fable?",
+        options: [
+          "Always run as fast as you can.",
+          "Never race against a friend.",
+          "Slow and steady wins the race.",
+          "Rest whenever you feel tired.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The quick but careless hare lost to the slow tortoise who simply kept going. Steady effort beats speed that stops halfway.",
+      },
+    ],
+  },
+  {
+    slug: "the-lion-and-the-mouse",
+    title: "The Lion and the Mouse",
+    titleTranslation: "사자와 생쥐",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fables",
+    level: "A1",
+    isFree: true,
+    coverEmoji: "🦁",
+    source:
+      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how the tiny mouse repaid the lion for setting her free.",
+    paragraphs: [
+      [
+        {
+          id: "lm-1",
+          text: "A big lion was asleep in the warm sun.",
+          translation: "커다란 사자가 따뜻한 햇볕 아래에서 잠들어 있었어요.",
+        },
+        {
+          id: "lm-2",
+          text: "A little mouse ran across his paw and woke him up.",
+          translation:
+            "작은 생쥐 한 마리가 사자의 앞발 위를 지나가는 바람에 사자가 잠에서 깼어요.",
+        },
+      ],
+      [
+        {
+          id: "lm-3",
+          text: "The lion caught the mouse in his great paw. \"Now I will eat you!\"",
+          translation:
+            "사자는 커다란 앞발로 생쥐를 붙잡았어요. \"이제 너를 잡아먹어야겠다!\"",
+        },
+        {
+          id: "lm-4",
+          text: "\"Please let me go,\" cried the mouse. \"One day I may help you.\"",
+          translation:
+            "\"제발 놓아주세요.\" 생쥐가 애원했어요. \"언젠가 제가 도와드릴 수도 있어요.\"",
+        },
+      ],
+      [
+        {
+          id: "lm-5",
+          text: "The lion laughed. How could such a tiny mouse ever help a lion? But he let her go.",
+          translation:
+            "사자는 웃었어요. 이렇게 작은 생쥐가 어떻게 사자를 돕는단 말이야? 그래도 사자는 생쥐를 놓아주었어요.",
+        },
+        {
+          id: "lm-6",
+          text: "Some days later, the lion was caught in a hunter's net.",
+          translation: "며칠 뒤, 사자는 사냥꾼의 그물에 걸리고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "lm-7",
+          text: "He roared and pulled, but he could not get free.",
+          translation:
+            "사자는 울부짖으며 몸부림쳤지만, 빠져나올 수 없었어요.",
+        },
+        {
+          id: "lm-8",
+          text: "The little mouse heard him and came running.",
+          translation: "작은 생쥐가 그 소리를 듣고 달려왔어요.",
+        },
+      ],
+      [
+        {
+          id: "lm-9",
+          text: "She bit the thick ropes, one by one, until the net fell open.",
+          translation:
+            "생쥐는 굵은 밧줄을 하나씩 하나씩 물어뜯었고, 마침내 그물이 열렸어요.",
+        },
+        {
+          id: "lm-10",
+          text: "\"You were right,\" said the lion. \"Even a small friend can be a great help.\"",
+          translation:
+            "\"네 말이 맞았어.\" 사자가 말했어요. \"작은 친구도 큰 도움이 될 수 있구나.\"",
+        },
+      ],
+      [
+        {
+          id: "lm-11",
+          text: "A kind act is never wasted.",
+          translation: "친절한 행동은 결코 헛되지 않아요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lm-v1",
+        term: "paw",
+        partOfSpeech: "noun",
+        translation: "(동물의) 발, 앞발",
+        example: "The mouse ran across the lion's paw.",
+        exampleTranslation: "생쥐가 사자의 앞발 위를 지나갔어요.",
+      },
+      {
+        id: "lm-v2",
+        term: "roar",
+        partOfSpeech: "verb",
+        translation: "울부짖다, 으르렁거리다",
+        example: "He roared and pulled, but he could not get free.",
+        exampleTranslation: "사자는 울부짖으며 몸부림쳤지만 빠져나올 수 없었어요.",
+      },
+      {
+        id: "lm-v3",
+        term: "hunter",
+        partOfSpeech: "noun",
+        translation: "사냥꾼",
+        example: "The lion was caught in a hunter's net.",
+        exampleTranslation: "사자는 사냥꾼의 그물에 걸렸어요.",
+      },
+      {
+        id: "lm-v4",
+        term: "net",
+        partOfSpeech: "noun",
+        translation: "그물",
+        example: "The mouse chewed the net until it fell open.",
+        exampleTranslation: "생쥐는 그물이 열릴 때까지 갉았어요.",
+      },
+      {
+        id: "lm-v5",
+        term: "rope",
+        partOfSpeech: "noun",
+        translation: "밧줄, 끈",
+        example: "She bit the thick ropes one by one.",
+        exampleTranslation: "생쥐는 굵은 밧줄을 하나씩 물어뜯었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lm-q1",
+        prompt: "Why did the lion let the mouse go?",
+        options: [
+          "The mouse was too small to be worth eating, and she begged him to spare her.",
+          "The hunter told him to.",
+          "The mouse gave him some food.",
+          "He was not hungry at all.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The mouse begged to be freed and promised she might help him one day. The lion laughed at the idea that so tiny a creature could ever help him — but he let her go.",
+      },
+      {
+        id: "lm-q2",
+        prompt: "How did the mouse help the lion later?",
+        options: [
+          "She frightened the hunter away.",
+          "She bit through the ropes of the hunter's net and set him free.",
+          "She led the other animals to rescue him.",
+          "She brought him water and food.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "When the lion was trapped in the hunter's net, the mouse heard him roar and came running. She bit the thick ropes one by one until the net fell open.",
+      },
+      {
+        id: "lm-q3",
+        prompt: "What is the lesson of this fable?",
+        options: [
+          "Big animals should never trust small ones.",
+          "Always sleep somewhere safe.",
+          "Even a small friend can be a great help, and a kindness is never wasted.",
+          "Never make a promise you cannot keep.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The lion spared the mouse, and in return the mouse saved his life. A kind act, however small it seems, is never wasted.",
+      },
+    ],
+  },
+  {
+    slug: "the-ant-and-the-grasshopper",
+    title: "The Ant and the Grasshopper",
+    titleTranslation: "개미와 베짱이",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fables",
+    level: "A1",
+    isFree: true,
+    coverEmoji: "🐜",
+    source:
+      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story; the ending has been gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the ants did that the grasshopper did not, and why it mattered when winter came.",
+    paragraphs: [
+      [
+        {
+          id: "ag-1",
+          text: "All summer long, a grasshopper sang and played in the warm grass.",
+          translation:
+            "여름 내내 베짱이는 따뜻한 풀밭에서 노래하고 놀았어요.",
+        },
+        {
+          id: "ag-2",
+          text: "Near him, a line of ants worked hard, carrying seeds of corn to their nest.",
+          translation:
+            "그 옆에서는 개미들이 줄지어 옥수수 낟알을 집으로 나르며 열심히 일했어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-3",
+          text: "\"Why work on such a fine day?\" laughed the grasshopper. \"Come and sing with me!\"",
+          translation:
+            "\"이렇게 좋은 날에 왜 일을 해?\" 베짱이가 웃으며 말했어요. \"이리 와서 나랑 노래하자!\"",
+        },
+        {
+          id: "ag-4",
+          text: "\"We are storing food for the winter,\" said one ant. \"You should do the same.\"",
+          translation:
+            "\"우리는 겨울에 먹을 양식을 모으고 있어.\" 한 개미가 말했어요. \"너도 그렇게 해야 해.\"",
+        },
+      ],
+      [
+        {
+          id: "ag-5",
+          text: "The grasshopper only laughed and went on singing.",
+          translation: "베짱이는 그저 웃기만 하고 계속 노래를 불렀어요.",
+        },
+        {
+          id: "ag-6",
+          text: "Then summer ended, and cold winter came.",
+          translation: "이윽고 여름이 끝나고, 추운 겨울이 왔어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-7",
+          text: "The fields were bare, and snow covered the ground.",
+          translation: "들판은 텅 비었고, 땅은 눈으로 덮였어요.",
+        },
+        {
+          id: "ag-8",
+          text: "The grasshopper had nothing to eat, and he was very hungry.",
+          translation: "베짱이는 먹을 것이 하나도 없었고, 몹시 배가 고팠어요.",
+        },
+      ],
+      [
+        {
+          id: "ag-9",
+          text: "He came to the ants' door and asked them for a little food.",
+          translation:
+            "베짱이는 개미들의 문 앞에 와서 먹을 것을 조금만 달라고 부탁했어요.",
+        },
+        {
+          id: "ag-10",
+          text: "\"We told you so,\" said the ants, \"but come in out of the cold.\"",
+          translation:
+            "\"그러게 우리가 뭐랬어.\" 개미들이 말했어요. \"그래도 얼른 추운 데서 들어와.\"",
+        },
+      ],
+      [
+        {
+          id: "ag-11",
+          text: "They shared a little food, and after that the grasshopper worked in summer too, so that he would be ready for the winter.",
+          translation:
+            "개미들은 먹을 것을 조금 나누어 주었고, 그 뒤로 베짱이도 여름에 일을 해서 겨울에 대비했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ag-v1",
+        term: "grasshopper",
+        partOfSpeech: "noun",
+        translation: "베짱이, 메뚜기",
+        example: "The grasshopper sang all summer instead of working.",
+        exampleTranslation: "베짱이는 일하지 않고 여름 내내 노래만 불렀어요.",
+      },
+      {
+        id: "ag-v2",
+        term: "ant",
+        partOfSpeech: "noun",
+        translation: "개미",
+        example: "A line of ants carried seeds to their nest.",
+        exampleTranslation: "개미들이 줄지어 낟알을 집으로 날랐어요.",
+      },
+      {
+        id: "ag-v3",
+        term: "store",
+        partOfSpeech: "verb",
+        translation: "모아 두다, 저장하다",
+        example: "\"We are storing food for the winter,\" said the ant.",
+        exampleTranslation: "\"우리는 겨울에 먹을 양식을 모으고 있어.\" 개미가 말했어요.",
+      },
+      {
+        id: "ag-v4",
+        term: "bare",
+        partOfSpeech: "adjective",
+        translation: "텅 빈, 헐벗은",
+        example: "The fields were bare, and snow covered the ground.",
+        exampleTranslation: "들판은 텅 비었고, 땅은 눈으로 덮였어요.",
+      },
+      {
+        id: "ag-v5",
+        term: "prepare",
+        partOfSpeech: "verb",
+        translation: "대비하다, 준비하다",
+        example: "He worked in summer to prepare for the winter.",
+        exampleTranslation: "그는 겨울에 대비하려고 여름에 일했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ag-q1",
+        prompt: "What were the ants doing while the grasshopper sang?",
+        options: [
+          "Sleeping through the warm days.",
+          "Carrying seeds of corn to their nest to store food for the winter.",
+          "Listening to the grasshopper's songs.",
+          "Building a new nest in a tree.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "All summer the ants worked in a line, carrying seeds of corn to their nest. They were storing food so they would have enough to eat when winter came.",
+      },
+      {
+        id: "ag-q2",
+        prompt: "What happened to the grasshopper when winter came?",
+        options: [
+          "He flew south to a warmer place.",
+          "He had stored plenty of food of his own.",
+          "The fields were bare and snow-covered, and he had nothing to eat.",
+          "He kept singing and did not feel the cold.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When summer ended, the fields were bare and snow covered the ground. The grasshopper, who had only played, had nothing to eat and was very hungry.",
+      },
+      {
+        id: "ag-q3",
+        prompt: "What is the lesson of this fable?",
+        options: [
+          "Never share your food with others.",
+          "Singing is a waste of time.",
+          "Prepare in the good times for the hard times to come.",
+          "Winter is the best season to work.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The ants worked in summer so they were ready for winter; the grasshopper did not. It is wise to prepare while you can for the days when you will be in need.",
+      },
+    ],
+  },
+  {
+    slug: "the-boy-who-cried-wolf",
+    title: "The Boy Who Cried Wolf",
+    titleTranslation: "양치기 소년",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fables",
+    level: "A1",
+    isFree: true,
+    coverEmoji: "🐺",
+    source:
+      "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the villagers did not help the shepherd boy when a real wolf finally came.",
+    paragraphs: [
+      [
+        {
+          id: "cw-1",
+          text: "A young shepherd boy watched his sheep on a hill near the village.",
+          translation:
+            "어린 양치기 소년이 마을 근처 언덕에서 양들을 지키고 있었어요.",
+        },
+        {
+          id: "cw-2",
+          text: "The work was quiet, and the boy was often bored.",
+          translation: "그 일은 조용했고, 소년은 자주 지루했어요.",
+        },
+      ],
+      [
+        {
+          id: "cw-3",
+          text: "One day, for fun, he shouted, \"Wolf! Wolf! A wolf is chasing the sheep!\"",
+          translation:
+            "어느 날, 소년은 장난삼아 소리쳤어요. \"늑대다! 늑대! 늑대가 양들을 쫓고 있어요!\"",
+        },
+        {
+          id: "cw-4",
+          text: "The villagers ran up the hill to help him — but there was no wolf.",
+          translation:
+            "마을 사람들이 소년을 도우러 언덕으로 뛰어 올라왔어요. 하지만 늑대는 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "cw-5",
+          text: "The boy laughed and laughed. He thought his trick was very funny.",
+          translation:
+            "소년은 깔깔거리며 웃었어요. 자기 장난이 아주 재미있다고 생각했어요.",
+        },
+        {
+          id: "cw-6",
+          text: "A few days later, he played the same trick again. \"Wolf! Wolf!\"",
+          translation:
+            "며칠 뒤, 소년은 똑같은 장난을 또 쳤어요. \"늑대다! 늑대!\"",
+        },
+      ],
+      [
+        {
+          id: "cw-7",
+          text: "Again the villagers ran up the hill, and again there was no wolf.",
+          translation:
+            "마을 사람들은 다시 언덕으로 뛰어 올라왔고, 이번에도 늑대는 없었어요.",
+        },
+        {
+          id: "cw-8",
+          text: "This time they were angry. \"Do not call for help when nothing is wrong!\"",
+          translation:
+            "이번에는 사람들이 화가 났어요. \"아무 일도 없는데 도와달라고 소리치지 마라!\"",
+        },
+      ],
+      [
+        {
+          id: "cw-9",
+          text: "Then one evening, a real wolf came out of the wood.",
+          translation: "그러던 어느 날 저녁, 진짜 늑대가 숲에서 나왔어요.",
+        },
+        {
+          id: "cw-10",
+          text: "\"Wolf! Wolf!\" cried the boy. \"Please, this time it is true!\"",
+          translation:
+            "\"늑대다! 늑대!\" 소년이 외쳤어요. \"제발요, 이번엔 정말이에요!\"",
+        },
+      ],
+      [
+        {
+          id: "cw-11",
+          text: "But the villagers thought it was another trick, and no one came.",
+          translation:
+            "하지만 마을 사람들은 또 장난이라고 생각했고, 아무도 오지 않았어요.",
+        },
+        {
+          id: "cw-12",
+          text: "Nobody believes a liar, even when he tells the truth.",
+          translation:
+            "거짓말쟁이는 진실을 말할 때조차 아무도 믿어 주지 않아요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cw-v1",
+        term: "shepherd",
+        partOfSpeech: "noun",
+        translation: "양치기, 목동",
+        example: "The shepherd boy watched his sheep on the hill.",
+        exampleTranslation: "양치기 소년은 언덕에서 양들을 지켰어요.",
+      },
+      {
+        id: "cw-v2",
+        term: "bored",
+        partOfSpeech: "adjective",
+        translation: "지루한, 심심한",
+        example: "The work was quiet, and the boy was often bored.",
+        exampleTranslation: "그 일은 조용했고, 소년은 자주 지루했어요.",
+      },
+      {
+        id: "cw-v3",
+        term: "trick",
+        partOfSpeech: "noun",
+        translation: "장난, 속임수",
+        example: "He thought his trick was very funny.",
+        exampleTranslation: "그는 자기 장난이 아주 재미있다고 생각했어요.",
+      },
+      {
+        id: "cw-v4",
+        term: "villager",
+        partOfSpeech: "noun",
+        translation: "마을 사람",
+        example: "The villagers ran up the hill to help him.",
+        exampleTranslation: "마을 사람들이 그를 도우러 언덕으로 뛰어 올라왔어요.",
+      },
+      {
+        id: "cw-v5",
+        term: "liar",
+        partOfSpeech: "noun",
+        translation: "거짓말쟁이",
+        example: "Nobody believes a liar, even when he tells the truth.",
+        exampleTranslation: "거짓말쟁이는 진실을 말할 때조차 아무도 믿어 주지 않아요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cw-q1",
+        prompt: "Why did the boy first shout \"Wolf!\" when there was no wolf?",
+        options: [
+          "He really saw a wolf far away.",
+          "He was bored and thought it would be a funny trick.",
+          "He wanted the villagers to bring him food.",
+          "His sheep had run away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Watching the sheep was quiet work, and the boy was bored. For fun, he shouted that a wolf was chasing the sheep, then laughed when the villagers came running for nothing.",
+      },
+      {
+        id: "cw-q2",
+        prompt: "How did the villagers feel the second time the boy cried wolf?",
+        options: [
+          "Frightened, so they hid in their houses.",
+          "Happy that the boy was playing with them.",
+          "Angry, and they told him not to call for help when nothing was wrong.",
+          "Worried that the boy was ill.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "They climbed the hill a second time and again found no wolf. This time they were angry and warned the boy not to call for help when there was no danger.",
+      },
+      {
+        id: "cw-q3",
+        prompt: "Why did no one come when the real wolf appeared?",
+        options: [
+          "They were too far away to hear him.",
+          "They thought it was another one of his tricks.",
+          "They were angry and wanted to punish him.",
+          "It was too dark to climb the hill.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The boy had fooled the villagers twice. When he cried out about the real wolf, they believed it was the same trick again, so no one came to help.",
       },
     ],
   },
