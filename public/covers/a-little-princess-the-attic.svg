@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A Little Princess, The Attic, by Frances Hodgson Burnett">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 168)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-50 20 L0 -30 L50 16" stroke-width="1.8"/>
+    <path d="M-15 20 v-26 h26 v26 z" stroke-width="1.7"/>
+    <path d="M-2 -6 v26 M-15 7 h26" stroke-width="1.2" opacity="0.8"/>
+    <path d="M-18 20 h32" stroke-width="1.5"/>
+    <path d="M28 -12 l1.7 4.4 l4.6 1.5 l-4.6 1.5 l-1.7 4.6 l-1.7 -4.6 l-4.6 -1.5 l4.6 -1.5 z" stroke-width="1.1"/>
+    <path d="M-56 32 q 42 -9 58 -3 t 58 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="304" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2C2C2C" letter-spacing="1">A Little</text>
+  <text x="200" y="342" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2C2C2C" letter-spacing="1">Princess</text>
+
+  <line x1="140" y1="372" x2="260" y2="372" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="404" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" fill="#C57B57">The Attic</text>
+  <text x="200" y="426" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="4">CHAPTER 7</text>
+
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#C57B57" letter-spacing="2">FRANCES HODGSON BURNETT</text>
+  <text x="200" y="492" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1905</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

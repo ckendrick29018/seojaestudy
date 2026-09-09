@@ -164,7 +164,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" (simplified retelling, 17 sentences) | ☑ |
 | 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary (simplified retelling, 17 sentences) | ☑ |
-| 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 — the diamond mines / the fall | ☐ |
+| 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 ("The Diamond Mines Again") — the ruin, and Sara made a servant in the attic (simplified retelling, 17 sentences) | ☑ |
 | 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" (simplified retelling, 17 sentences) | ☑ |
 | 54 | The Enchanted April | Elizabeth von Arnim (1941) | 16389 | B1 | Ch. 1 — the advertisement, and Mrs. Wilkins' bold suggestion (simplified retelling, 17 sentences) | ☑ |
 | 55 | Elizabeth and Her German Garden | Elizabeth von Arnim (1941) | — | B1 | opening — the garden in May | ☐ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (59):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (60):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -228,7 +228,8 @@ has a genuine period cover/illustration in the public domain, download that into
   Girl Ch. 1 (row 41), Agnes Grey Ch. 1 (row 36), The Enchanted April
   Ch. 1 (row 54), Little Women Ch. 8 (row 40), The Tenant of Wildfell Hall
   Ch. 1 (row 37), Wives and Daughters Ch. 1 (row 65), Villette Ch. 1
-  (row 38), Persuasion Ch. 4 (row 31). Follow their shape in
+  (row 38), Persuasion Ch. 4 (row 31), A Little Princess Ch. 7 (row 52).
+  Follow their shape in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -239,20 +240,21 @@ has a genuine period cover/illustration in the public domain, download that into
   Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
   Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
   Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
-  Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl Ch. 1), B1 ×20
+  Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl Ch. 1), B1 ×21
   (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas
   Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The
   Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid,
   Ethan Frome prologue, East of the Sun and West of the Moon, The Bet,
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
-  Little Women Ch. 8), B2 ×16 (Jane Eyre, The Lady with the Dog, Wuthering
+  Little Women Ch. 8, A Little Princess Ch. 7), B2 ×17 (Jane Eyre, The
+  Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
   Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×7, A2 ×15, B1 ×20,
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×7, A2 ×15, B1 ×21,
   B2 ×17 — A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.

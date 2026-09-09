@@ -12961,4 +12961,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "a-little-princess-the-attic",
+    title: "A Little Princess: The Attic",
+    titleTranslation: "소공녀: 다락방",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "👑",
+    coverImage: "/covers/a-little-princess-the-attic.svg",
+    source:
+      "Adapted from Chapter 7 (\"The Diamond Mines Again\") of Frances Hodgson Burnett's novel \"A Little Princess\" (first published 1905; long in the public domain, Project Gutenberg #146). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how Sara Crewe lost her fortune and her father, and how her life at the school changed.",
+    paragraphs: [
+      [
+        {
+          id: "alpa-1",
+          text: "It was Sara Crewe's eleventh birthday, and Miss Minchin's school was full of flowers and presents.",
+          translation:
+            "세라 크루의 열한 번째 생일이었고, 민친 선생님의 학교는 꽃과 선물로 가득했어요.",
+        },
+        {
+          id: "alpa-2",
+          text: "Sara's father, Captain Crewe, was rich, and the whole school treated Sara like a little princess.",
+          translation:
+            "세라의 아버지 크루 대위는 부자였고, 학교 전체가 세라를 작은 공주님처럼 대했어요.",
+        },
+        {
+          id: "alpa-3",
+          text: "In the middle of the party, a serious man came to see Miss Minchin; he was her lawyer.",
+          translation:
+            "파티가 한창일 때, 근엄한 남자 한 명이 민친 선생님을 찾아왔어요. 그녀의 변호사였어요.",
+        },
+      ],
+      [
+        {
+          id: "alpa-4",
+          text: "He brought very bad news.",
+          translation: "그는 아주 나쁜 소식을 가져왔어요.",
+        },
+        {
+          id: "alpa-5",
+          text: "Captain Crewe had put all his money into a friend's diamond mine in India.",
+          translation:
+            "크루 대위는 인도에 있는 친구의 다이아몬드 광산에 전 재산을 넣었어요.",
+        },
+        {
+          id: "alpa-6",
+          text: "The friend had run away, and the mine turned out to be worth nothing.",
+          translation: "그 친구는 달아났고, 광산은 아무런 가치도 없는 것으로 드러났어요.",
+        },
+      ],
+      [
+        {
+          id: "alpa-7",
+          text: "Captain Crewe lost everything he had.",
+          translation: "크루 대위는 가진 것을 전부 잃었어요.",
+        },
+        {
+          id: "alpa-8",
+          text: "Then he caught a fever, and, far away in India, he died.",
+          translation:
+            "그러고 나서 그는 열병에 걸렸고, 머나먼 인도에서 세상을 떠났어요.",
+        },
+        {
+          id: "alpa-9",
+          text: "Sara was now an orphan, and there was no money left for her at all.",
+          translation:
+            "이제 세라는 고아가 되었고, 그녀에게 남은 돈은 한 푼도 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "alpa-10",
+          text: "Miss Minchin was not sad; she was angry about the cost of the party and years of Sara's fine clothes.",
+          translation:
+            "민친 선생님은 슬퍼하지 않았어요. 파티 비용과 여러 해 동안 세라에게 들인 고운 옷값 때문에 화가 나 있었어요.",
+        },
+        {
+          id: "alpa-11",
+          text: "She sent for Sara and told her, in a hard voice, that her father was dead and the money was gone.",
+          translation:
+            "그녀는 세라를 불러, 차가운 목소리로 아버지가 돌아가셨고 돈은 사라졌다고 말했어요.",
+        },
+        {
+          id: "alpa-12",
+          text: "She took away the birthday presents and the pretty dress.",
+          translation: "그녀는 생일 선물들과 예쁜 드레스를 빼앗아 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "alpa-13",
+          text: "From now on, she said, Sara would work for her food and her bed.",
+          translation:
+            "이제부터 세라는 밥과 잠자리를 얻는 대가로 일을 해야 한다고 그녀는 말했어요.",
+        },
+        {
+          id: "alpa-14",
+          text: "Sara would run errands, teach the little children, and help in the kitchen.",
+          translation:
+            "세라는 심부름을 다니고, 어린아이들을 가르치고, 부엌일을 도와야 했어요.",
+        },
+        {
+          id: "alpa-15",
+          text: "She would sleep in a cold attic room next to Becky, the tired little servant girl.",
+          translation:
+            "그리고 지치고 조그만 하녀 아이 베키 옆의 추운 다락방에서 자야 했어요.",
+        },
+      ],
+      [
+        {
+          id: "alpa-16",
+          text: "Sara was too shocked to cry; she said almost nothing and went slowly up the stairs.",
+          translation:
+            "세라는 너무 충격을 받아 울지도 못했어요. 그녀는 거의 아무 말도 하지 않고 천천히 계단을 올라갔어요.",
+        },
+        {
+          id: "alpa-17",
+          text: "But alone in the bare attic, she made a quiet promise to herself: whatever happened, inside she would still be a princess.",
+          translation:
+            "하지만 텅 빈 다락방에 혼자 있게 되자, 세라는 스스로에게 조용히 다짐했어요. 무슨 일이 있어도, 마음속으로는 여전히 공주로 살겠다고요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "alpa-v1",
+        term: "lawyer",
+        partOfSpeech: "noun",
+        translation: "변호사",
+        example: "Miss Minchin's lawyer arrived with the news of Captain Crewe.",
+        exampleTranslation: "민친 선생님의 변호사가 크루 대위의 소식을 가지고 도착했어요.",
+      },
+      {
+        id: "alpa-v2",
+        term: "fever",
+        partOfSpeech: "noun",
+        translation: "열, 열병",
+        example: "Captain Crewe caught a fever and died in India.",
+        exampleTranslation: "크루 대위는 열병에 걸려 인도에서 세상을 떠났어요.",
+      },
+      {
+        id: "alpa-v3",
+        term: "errand",
+        partOfSpeech: "noun",
+        translation: "심부름",
+        example: "Now Sara had to run errands for the whole school.",
+        exampleTranslation: "이제 세라는 학교 전체의 심부름을 다녀야 했어요.",
+      },
+      {
+        id: "alpa-v4",
+        term: "shocked",
+        partOfSpeech: "adjective",
+        translation: "충격을 받은",
+        example: "Sara was too shocked by the news to cry.",
+        exampleTranslation: "세라는 그 소식에 너무 충격을 받아 울지도 못했어요.",
+      },
+      {
+        id: "alpa-v5",
+        term: "bare",
+        partOfSpeech: "adjective",
+        translation: "텅 빈, 아무것도 없는",
+        example: "The attic room was cold and bare.",
+        exampleTranslation: "다락방은 춥고 텅 비어 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "alpa-q1",
+        prompt: "What news did Miss Minchin's lawyer bring during Sara's birthday party?",
+        options: [
+          "Captain Crewe was coming to visit the school.",
+          "Captain Crewe had lost all his money in a failed diamond mine and had died of a fever in India.",
+          "Sara had won a prize at another school.",
+          "The school had to move to a new building.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The lawyer told Miss Minchin that Captain Crewe had put everything into a friend's diamond mine, that the friend had vanished and the mine was worthless, and that Captain Crewe, ruined and ill with fever, had died in India — leaving Sara a penniless orphan.",
+      },
+      {
+        id: "alpa-q2",
+        prompt: "How did Miss Minchin react to the news?",
+        options: [
+          "She wept for Captain Crewe and comforted Sara.",
+          "She was not sad but angry about the money the party and Sara's clothes had cost her.",
+          "She promised to raise Sara as her own daughter.",
+          "She sent Sara away to live with relatives.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Miss Minchin felt no grief; she was angry about being out of pocket for the party and for years of Sara's fine clothes, and she told Sara coldly that her father was dead and the money gone.",
+      },
+      {
+        id: "alpa-q3",
+        prompt: "What happened to Sara after that day?",
+        options: [
+          "She was allowed to keep her room and her lessons as before.",
+          "She was taken away from the school at once.",
+          "She lost her presents and fine clothes and became a servant — running errands, helping in the kitchen, sleeping in a cold attic — but privately vowed to stay a princess inside.",
+          "She ran away to look for her father's friend.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Miss Minchin took away Sara's presents and pretty dress and made her work for her food and bed — errands, minding the little ones, kitchen work, and a cold attic beside Becky — but alone up there Sara quietly promised herself that inside she would still be a princess.",
+      },
+    ],
+  },
 ];
