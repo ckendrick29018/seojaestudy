@@ -1752,6 +1752,221 @@ export const lessons: Lesson[] = [
     ],
   },
   {
+    slug: "pride-and-prejudice-proposal",
+    title: "Pride and Prejudice: The Proposal",
+    titleTranslation: "오만과 편견: 첫 청혼",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "💍",
+    coverImage: "/covers/pride-and-prejudice-proposal.svg",
+    source:
+      "Adapted from Chapter 34 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Mr. Darcy offered Elizabeth in this scene, and give two reasons she gave for refusing him.",
+    paragraphs: [
+      [
+        {
+          id: "ppp-1",
+          text: "That evening Elizabeth stayed alone at the parsonage while the others dined at Rosings, and she spent the time rereading Jane's letters.",
+          translation:
+            "그날 저녁 다른 사람들이 로징스에서 식사하는 동안 엘리자베스는 목사관에 혼자 남아, 언니 제인이 보낸 편지들을 다시 읽으며 시간을 보냈어요.",
+        },
+        {
+          id: "ppp-2",
+          text: "In every line she seemed to hear how low her sister's spirits were, and she blamed Mr. Darcy for it, since it was he who had drawn Mr. Bingley away from Netherfield and from Jane.",
+          translation:
+            "편지의 문장마다 언니의 가라앉은 마음이 느껴지는 듯했고, 엘리자베스는 그것이 다아시 씨 탓이라고 여겼어요. 빙리 씨를 네더필드에서, 그리고 제인에게서 떼어 놓은 사람이 바로 그였으니까요.",
+        },
+      ],
+      [
+        {
+          id: "ppp-3",
+          text: "The doorbell rang, and to her complete astonishment Mr. Darcy walked into the room.",
+          translation:
+            "초인종이 울렸고, 방으로 들어온 사람은 놀랍게도 다아시 씨였어요.",
+        },
+        {
+          id: "ppp-4",
+          text: "He asked hurriedly after her health, sat down for a moment, then rose again and paced about the room in silence.",
+          translation:
+            "그는 서둘러 그녀의 안부를 물은 뒤 잠시 앉았다가, 다시 일어나 말없이 방 안을 서성였어요.",
+        },
+        {
+          id: "ppp-5",
+          text: "At last he came toward her and said, \"In vain I have struggled. It will not do. You must allow me to tell you how ardently I admire and love you.\"",
+          translation:
+            "마침내 그는 그녀에게 다가와 말했어요. \"아무리 애를 써도 소용이 없습니다. 이대로는 안 되겠습니다. 제가 당신을 얼마나 뜨겁게 흠모하고 사랑하는지 말하게 해 주십시오.\"",
+        },
+      ],
+      [
+        {
+          id: "ppp-6",
+          text: "But he did not speak of love alone.",
+          translation: "하지만 그는 사랑만을 이야기하지는 않았어요.",
+        },
+        {
+          id: "ppp-7",
+          text: "He spoke just as plainly of her family's lower rank, of the disgrace such a marriage would bring him, and of how long his judgement had fought against his heart.",
+          translation:
+            "그는 그녀 집안의 낮은 지위와, 그런 결혼이 자기에게 안겨 줄 수치와, 자신의 이성이 얼마나 오랫동안 마음에 맞서 싸워 왔는지를 그에 못지않게 솔직하게 늘어놓았어요.",
+        },
+        {
+          id: "ppp-8",
+          text: "He seemed quite sure that she would accept him.",
+          translation: "그는 그녀가 자신의 청혼을 받아들이리라고 꽤 확신하는 듯했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppp-9",
+          text: "Elizabeth's anger rose as she listened, but she tried at first to reply calmly.",
+          translation:
+            "엘리자베스는 그 말을 들으며 화가 치밀었지만, 처음에는 차분하게 대답하려고 애썼어요.",
+        },
+        {
+          id: "ppp-10",
+          text: "She said she was sorry to cause him pain, but that she had never sought his good opinion and could not accept his offer.",
+          translation:
+            "그녀는 그에게 고통을 주게 되어 미안하지만, 자신은 한 번도 그의 호의를 바란 적이 없으며 그 청혼을 받아들일 수 없다고 말했어요.",
+        },
+        {
+          id: "ppp-11",
+          text: "Darcy, leaning against the mantelpiece, went pale, and demanded to know why he was refused with so little courtesy.",
+          translation:
+            "벽난로 선반에 기대선 다아시는 얼굴이 창백해졌고, 어째서 이토록 예의 없이 거절당하는지 알아야겠다고 다그쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "ppp-12",
+          text: "Elizabeth answered that he had just insulted her by saying he loved her against his will, against his reason, and against his own character.",
+          translation:
+            "엘리자베스는, 그가 자신의 뜻과 이성과 성품까지 거스르며 그녀를 사랑한다고 말한 것이야말로 방금 자신을 모욕한 것이라고 대꾸했어요.",
+        },
+        {
+          id: "ppp-13",
+          text: "Then she named her true reasons: that he had destroyed her beloved sister's happiness by parting her from Mr. Bingley, and that he had treated Mr. Wickham with cruelty and injustice.",
+          translation:
+            "그러고는 진짜 이유들을 하나하나 들었어요. 그가 사랑하는 언니를 빙리 씨와 갈라놓아 언니의 행복을 무너뜨렸고, 위컴 씨를 잔인하고 부당하게 대했다는 것이었어요.",
+        },
+        {
+          id: "ppp-14",
+          text: "Darcy did not deny either charge; he admitted he had worked to separate his friend from Jane, and only grew angrier that she should think so ill of him.",
+          translation:
+            "다아시는 두 가지 비난 중 어느 것도 부인하지 않았어요. 친구를 제인에게서 떼어 놓으려 애썼다는 것은 인정했고, 그녀가 자신을 그토록 나쁘게 여긴다는 사실에 오히려 더 화를 낼 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "ppp-15",
+          text: "\"You could not have made me the offer of your hand in any possible way that would have tempted me to accept it,\" she told him.",
+          translation:
+            "\"어떤 식으로 청혼하셨더라도, 제가 그 청을 받아들이고 싶어질 방법은 없었을 거예요.\" 그녀가 그에게 말했어요.",
+        },
+        {
+          id: "ppp-16",
+          text: "From almost the first moment she had known him, she said, his arrogance, his conceit, and his contempt for the feelings of others had made him the last man in the world she could ever be persuaded to marry.",
+          translation:
+            "그를 알게 된 거의 첫 순간부터, 그의 거만함과 자만심, 그리고 남의 감정을 하찮게 여기는 태도 때문에, 그는 이 세상에서 그녀가 도저히 결혼할 마음이 들지 않는 마지막 남자가 되었다고 그녀는 말했어요.",
+        },
+        {
+          id: "ppp-17",
+          text: "\"You have said quite enough, madam,\" Darcy replied; he wished her health and happiness, and left the house — and Elizabeth sat down and cried for half an hour.",
+          translation:
+            "\"충분히 말씀하셨습니다, 부인.\" 다아시가 대답했어요. 그는 그녀의 건강과 행복을 빈다는 말을 남기고 집을 나섰고, 엘리자베스는 주저앉아 삼십 분 동안 울었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ppp-v1",
+        term: "parsonage",
+        partOfSpeech: "noun",
+        translation: "목사관 (교구 목사가 사는 집)",
+        example: "The Collinses lived in a small parsonage near Rosings.",
+        exampleTranslation: "콜린스 부부는 로징스 근처의 작은 목사관에 살았어요.",
+      },
+      {
+        id: "ppp-v2",
+        term: "in vain",
+        partOfSpeech: "phrase",
+        translation: "헛되이, 아무리 애써도 소용없이",
+        example: "In vain I have struggled; my feelings will not be silenced.",
+        exampleTranslation: "아무리 애를 써도 소용이 없었습니다. 제 감정은 잠재워지지 않습니다.",
+      },
+      {
+        id: "ppp-v3",
+        term: "ardently",
+        partOfSpeech: "adverb",
+        translation: "열렬히, 뜨겁게",
+        example: "He told Elizabeth how ardently he admired and loved her.",
+        exampleTranslation: "그는 엘리자베스에게 자신이 그녀를 얼마나 열렬히 흠모하고 사랑하는지 말했어요.",
+      },
+      {
+        id: "ppp-v4",
+        term: "disgrace",
+        partOfSpeech: "noun",
+        translation: "수치, 불명예",
+        example: "Darcy spoke of the disgrace that such a marriage would bring him.",
+        exampleTranslation: "다아시는 그런 결혼이 자기에게 가져올 수치에 대해 말했어요.",
+      },
+      {
+        id: "ppp-v5",
+        term: "conceit",
+        partOfSpeech: "noun",
+        translation: "자만심, 우쭐함",
+        example: "His pride and conceit made Elizabeth dislike him from the start.",
+        exampleTranslation: "그의 자존심과 자만심 때문에 엘리자베스는 처음부터 그를 싫어했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ppp-q1",
+        prompt: "Why had Elizabeth been rereading Jane's letters that evening?",
+        options: [
+          "To find Mr. Bingley's address so that she could write to him.",
+          "To make herself feel even more angry with Mr. Darcy.",
+          "Because Jane had asked her to send the letters back.",
+          "To copy out passages from them for Mr. Collins.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She read the letters over on purpose, hearing her sister's low spirits in every line and blaming Darcy, who had drawn Bingley away from Jane.",
+      },
+      {
+        id: "ppp-q2",
+        prompt: "When Darcy proposed, what did he talk about besides his love for Elizabeth?",
+        options: [
+          "His plans to travel abroad for a year.",
+          "How much her family would gain from the match.",
+          "Her family's lower rank and the disgrace the marriage would bring him.",
+          "The illness that had kept him away from Netherfield.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He dwelt openly on the inferiority of her connections and on how long his judgement had resisted his feelings, yet still expected her to accept him.",
+      },
+      {
+        id: "ppp-q3",
+        prompt: "What did Elizabeth accuse Darcy of when she refused him?",
+        options: [
+          "Lying about his fortune and insulting Mr. Collins.",
+          "Separating Jane from Mr. Bingley and treating Mr. Wickham cruelly.",
+          "Reading her private letters and mocking her in public.",
+          "Refusing to dance with her and ignoring her younger sisters.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Beyond the ungracious manner of the proposal, she charged him with ruining Jane's happiness by parting her from Bingley and with the cruel, unjust treatment of Wickham; Darcy did not deny his part in the first.",
+      },
+    ],
+  },
+  {
     slug: "jane-eyre",
     title: "Jane Eyre",
     titleTranslation: "제인 에어",

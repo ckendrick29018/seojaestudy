@@ -140,7 +140,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | # | Title | Author (d.) | PG# | Level | Excerpt scope | Status |
 |--|--|--|--|--|--|--|
 | 27 | Pride and Prejudice | Jane Austen (1817) | 1342 | B1 | Ch. 1 — the Bennets discuss Mr. Bingley (simplified retelling, 17 sentences) | ☑ |
-| 28 | Pride and Prejudice | Jane Austen (1817) | 1342 | B2 | Ch. 34 — Darcy's first proposal | ☐ |
+| 28 | Pride and Prejudice | Jane Austen (1817) | 1342 | B2 | Ch. 34 — Darcy's first proposal (simplified retelling, 17 sentences) | ☑ |
 | 29 | Sense and Sensibility | Jane Austen (1817) | 21839 | B1 | Ch. 1 — the Dashwoods lose Norland | ☐ |
 | 30 | Emma | Jane Austen (1817) | 158 | B1 | Ch. 1 — "handsome, clever, and rich" | ☐ |
 | 31 | Persuasion | Jane Austen (1817) | 105 | B2 | Ch. 4 — Anne and Wentworth's history | ☐ |
@@ -200,25 +200,26 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (15):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (16):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
-  (row 27), Jane Eyre Ch. 1 (row 33), The Selfish Giant (row 8), The Necklace
-  (row 6), A Christmas Carol Stave 1 (row 22), The Lady with the Dog Part I
-  (row 26), Wuthering Heights Ch. 3 (row 35), The Secret Garden Ch. 1
-  (row 49), The Emperor's New Clothes (row 17). Follow their shape in
-  `src/lib/data/lessons.ts`. Every live lesson also has pre-generated
-  narration audio — after adding one, run `npm run audio -- --lesson <slug>`
-  and commit `public/audio/` + `src/lib/audio-manifest.json` (see
-  `scripts/README.md`).
+  (row 27), Pride and Prejudice Ch. 34 (row 28), Jane Eyre Ch. 1 (row 33),
+  The Selfish Giant (row 8), The Necklace (row 6), A Christmas Carol Stave 1
+  (row 22), The Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3
+  (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's New Clothes
+  (row 17). Follow their shape in `src/lib/data/lessons.ts`. Every live
+  lesson also has pre-generated narration audio — after adding one, run
+  `npm run audio -- --lesson <slug>` and commit `public/audio/` +
+  `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×3 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes), A2 ×5 (Story of an Hour, Anne, Little Women, Ugly
-  Duckling, The Secret Garden), B1 ×4 (Gift of the Magi, Pride and Prejudice,
-  The Necklace, A Christmas Carol), B2 ×3 (Jane Eyre, The Lady with the Dog,
-  Wuthering Heights). B2 and A1 are now the thinnest at 3 — and A1/A2 are
-  still all fairy tales or gentle domestic fiction.
-- Good next lessons to build: **Pride and Prejudice Ch. 34** (row 28, B2 —
-  Darcy's first proposal; grows the thin B2 band and there's already a P&P
-  cover/voice to echo), **Alice's Adventures in Wonderland Ch. 1** (row 23,
-  A2 — "Down the Rabbit-Hole", adds Lewis Carroll and a non-fairy-tale A2),
-  **The Happy Prince** (row 7, A2 — Wilde, if a gentler tale is wanted).
+  Duckling, The Secret Garden), B1 ×4 (Gift of the Magi, Pride and Prejudice
+  Ch. 1, The Necklace, A Christmas Carol), B2 ×4 (Jane Eyre, The Lady with
+  the Dog, Wuthering Heights, Pride and Prejudice Ch. 34). A1 is now the
+  thinnest at 3 — and A1/A2 are still all fairy tales or gentle domestic
+  fiction.
+- Good next lessons to build: **Alice's Adventures in Wonderland Ch. 1**
+  (row 23, A2 — "Down the Rabbit-Hole", adds Lewis Carroll and a
+  non-fairy-tale A2), **The Happy Prince** (row 7, A2 — Wilde, if a gentler
+  tale is wanted), **A Little Princess Ch. 1** (row 51, A2 — Sara arrives at
+  the seminary; adds a second Burnett).
