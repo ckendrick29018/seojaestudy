@@ -4550,4 +4550,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "anne-of-green-gables-with-an-e",
+    title: "Anne of Green Gables: Anne with an E",
+    titleTranslation: "빨간 머리 앤: E가 붙은 앤",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "✍️",
+    coverImage: "/covers/anne-of-green-gables-with-an-e.svg",
+    source:
+      "Adapted from Chapter 3 of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the girl cried when she arrived at Green Gables, and how Marilla's feelings toward her began to change.",
+    paragraphs: [
+      [
+        {
+          id: "awe-1",
+          text: "When Matthew and the girl reached Green Gables, Marilla came to the door — and stopped, astonished.",
+          translation:
+            "매튜와 여자아이가 초록지붕 집에 도착했을 때, 마릴라가 문으로 나오다가 깜짝 놀라 걸음을 멈췄어요.",
+        },
+        {
+          id: "awe-2",
+          text: "\"Matthew Cuthbert, who is that?\" she asked. \"Where is the boy we asked for?\"",
+          translation:
+            "\"매튜 커스버트, 저 아이는 누구예요?\" 마릴라가 물었어요. \"우리가 부탁한 남자아이는 어디 있어요?\"",
+        },
+        {
+          id: "awe-3",
+          text: "\"There wasn't any boy,\" Matthew said unhappily. \"There was only her.\"",
+          translation:
+            "\"남자아이는 없었어.\" 매튜가 난처한 얼굴로 말했어요. \"이 아이뿐이었어.\"",
+        },
+      ],
+      [
+        {
+          id: "awe-4",
+          text: "The girl had been listening, and suddenly she dropped her bag and began to cry.",
+          translation:
+            "가만히 듣고 있던 여자아이가 갑자기 가방을 떨어뜨리고 울기 시작했어요.",
+        },
+        {
+          id: "awe-5",
+          text: "\"You don't want me because I'm not a boy!\" she sobbed. \"Nobody has ever wanted me.\"",
+          translation:
+            "\"제가 남자아이가 아니어서 저를 원하지 않는 거죠!\" 아이가 흐느꼈어요. \"저를 원한 사람은 아무도 없었어요.\"",
+        },
+        {
+          id: "awe-6",
+          text: "Marilla and Matthew did not know what to say to a child who was crying so hard.",
+          translation:
+            "마릴라와 매튜는 그토록 서럽게 우는 아이에게 무슨 말을 해야 할지 몰랐어요.",
+        },
+      ],
+      [
+        {
+          id: "awe-7",
+          text: "\"There is no need to cry about it,\" Marilla said, rather stiffly.",
+          translation:
+            "\"그렇게 울 것까지는 없잖니.\" 마릴라가 다소 딱딱하게 말했어요.",
+        },
+        {
+          id: "awe-8",
+          text: "\"There IS need,\" said the girl, lifting her wet face. \"You would cry too, if you were an orphan who had come to a place you thought would be home, and found they didn't want you.\"",
+          translation:
+            "\"울 일이 맞아요.\" 아이가 젖은 얼굴을 들며 말했어요. \"고아인 당신이 집이라고 믿었던 곳에 왔는데 사람들이 당신을 원하지 않는다는 걸 알게 된다면, 당신도 울 거예요.\"",
+        },
+        {
+          id: "awe-9",
+          text: "\"This is the most tragical thing that has ever happened to me.\"",
+          translation: "\"이건 제 인생에서 가장 비극적인 일이에요.\"",
+        },
+      ],
+      [
+        {
+          id: "awe-10",
+          text: "Marilla almost smiled, though she did not want to. \"Well, don't cry any more,\" she said.",
+          translation:
+            "마릴라는 그러고 싶지 않았지만 하마터면 웃을 뻔했어요. \"자, 이제 그만 울어라.\" 마릴라가 말했어요.",
+        },
+        {
+          id: "awe-11",
+          text: "\"We won't send you away tonight. You may stay here until we find out what went wrong. What is your name?\"",
+          translation:
+            "\"오늘 밤에 너를 내보내지는 않을 거야. 무엇이 잘못됐는지 알아낼 때까지 여기 있어도 된다. 네 이름이 뭐니?\"",
+        },
+        {
+          id: "awe-12",
+          text: "The girl hesitated. \"Will you please call me Cordelia?\" she asked.",
+          translation:
+            "아이는 잠시 망설였어요. \"저를 코델리아라고 불러 주시겠어요?\" 아이가 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "awe-13",
+          text: "\"Is Cordelia your name?\" asked Marilla. \"No, but it is such a beautiful name, and I love to pretend it is mine.\"",
+          translation:
+            "\"코델리아가 네 이름이니?\" 마릴라가 물었어요. \"아니요, 하지만 정말 아름다운 이름이라서, 제 이름인 척하는 게 너무 좋아요.\"",
+        },
+        {
+          id: "awe-14",
+          text: "\"My real name is Anne Shirley,\" she said sadly, \"but if you must call me Anne, please call me Anne spelled with an E.\"",
+          translation:
+            "\"제 진짜 이름은 앤 셜리예요.\" 아이가 슬프게 말했어요. \"하지만 꼭 앤이라고 불러야 한다면, E를 붙여서 쓰는 앤으로 불러 주세요.\"",
+        },
+        {
+          id: "awe-15",
+          text: "\"What difference does the spelling make?\" asked Marilla, with the ghost of a smile.",
+          translation:
+            "\"철자가 무슨 상관이니?\" 마릴라가 희미한 미소를 띠며 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "awe-16",
+          text: "\"Oh, it makes a great difference! A-n-n looks dreadful, but A-n-n-e looks so much more distinguished.\"",
+          translation:
+            "\"아, 아주 큰 상관이 있어요! A-n-n은 끔찍해 보이지만, A-n-n-e은 훨씬 더 기품 있어 보이거든요.\"",
+        },
+        {
+          id: "awe-17",
+          text: "Marilla decided that supper could come first and the questions could wait: the next day they would drive to Mrs. Spencer's and find out the truth.",
+          translation:
+            "마릴라는 저녁부터 먹고 질문은 나중에 하기로 마음먹었어요. 다음 날 스펜서 부인 댁으로 마차를 몰고 가서 진실을 알아보기로 했지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "awe-v1",
+        term: "astonished",
+        partOfSpeech: "adjective",
+        translation: "깜짝 놀란",
+        example: "Marilla was astonished to see a girl instead of the boy she had asked for.",
+        exampleTranslation:
+          "마릴라는 자기가 부탁한 남자아이 대신 여자아이가 온 것을 보고 깜짝 놀랐어요.",
+      },
+      {
+        id: "awe-v2",
+        term: "sob",
+        partOfSpeech: "verb",
+        translation: "흐느끼다, 흐느껴 울다",
+        example: "The girl sat down and sobbed with her face in her hands.",
+        exampleTranslation: "여자아이는 자리에 앉아 두 손에 얼굴을 묻고 흐느꼈어요.",
+      },
+      {
+        id: "awe-v3",
+        term: "orphan",
+        partOfSpeech: "noun",
+        translation: "고아",
+        example: "Anne was an orphan who had never had a real home.",
+        exampleTranslation: "앤은 진짜 집을 가져 본 적 없는 고아였어요.",
+      },
+      {
+        id: "awe-v4",
+        term: "hesitate",
+        partOfSpeech: "verb",
+        translation: "망설이다, 머뭇거리다",
+        example: "She hesitated before she answered the question.",
+        exampleTranslation: "그 아이는 질문에 답하기 전에 망설였어요.",
+      },
+      {
+        id: "awe-v5",
+        term: "distinguished",
+        partOfSpeech: "adjective",
+        translation: "기품 있는, 품위 있어 보이는",
+        example: "Anne thought the name spelled with an E looked more distinguished.",
+        exampleTranslation: "앤은 E를 넣어 쓴 이름이 더 기품 있어 보인다고 생각했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "awe-q1",
+        prompt: "Why did Marilla stop and stare when Matthew arrived?",
+        options: [
+          "Matthew had come home much later than she expected.",
+          "He had brought back a girl, not the boy they had asked for.",
+          "The girl was wearing one of Marilla's old dresses.",
+          "Matthew had forgotten the shopping in town.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Marilla and Matthew had arranged to adopt a boy to help on the farm, so seeing Matthew arrive with a girl left her astonished and confused.",
+      },
+      {
+        id: "awe-q2",
+        prompt: "Why did the girl burst into tears?",
+        options: [
+          "She was tired and hungry after the long train journey.",
+          "Marilla had spoken to her very unkindly.",
+          "She realised they had wanted a boy and might not keep her.",
+          "She had left her favourite bag on the train.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Hearing that there was supposed to be a boy, the girl understood that the Cuthberts might not want her, and — never having been wanted before — she broke down crying.",
+      },
+      {
+        id: "awe-q3",
+        prompt: "Why did the girl want to be called \"Anne spelled with an E\"?",
+        options: [
+          "It was the name written on her papers from the orphanage.",
+          "Her mother had always spelled it that way.",
+          "She thought \"Anne\" looked far nicer and more distinguished than \"Ann\".",
+          "Another girl at the orphanage was already called Ann.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Her real name was Anne Shirley; she begged to be called Cordelia, but if she had to be Anne, she insisted on the E because \"A-n-n-e\" looked more distinguished to her than plain \"A-n-n\".",
+      },
+    ],
+  },
 ];

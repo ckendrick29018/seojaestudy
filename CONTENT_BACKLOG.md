@@ -156,7 +156,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 41 | An Old-Fashioned Girl | Louisa May Alcott (1888) | 2787 | A2 | Ch. 1 — Polly arrives in the city | ☐ |
 | 42 | Rose in Bloom | Louisa May Alcott (1888) | 2804 | B1 | Ch. 1 — Rose comes home | ☐ |
 | 43 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | A2 | Ch. 2 — Matthew at the station (simplified retelling, 17 sentences) | ☑ |
-| 44 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | B1 | Ch. 3 — Marilla is astonished | ☐ |
+| 44 | Anne of Green Gables | L. M. Montgomery (1942) | 45 | B1 | Ch. 3 — Marilla is astonished ("Anne with an E"; simplified retelling, 17 sentences) | ☑ |
 | 45 | The Blue Castle | L. M. Montgomery (1942) | 67979 | B1 | Ch. 1 — Valancy's rainy birthday morning | ☐ |
 | 46 | Emily of New Moon | L. M. Montgomery (1942) | 61236 | B1 | Ch. 1 — "the house in the hollow" | ☐ |
 | 47 | The Story Girl | L. M. Montgomery (1942) | 26273 | B1 | Ch. 1 — the orchard | ☐ |
@@ -200,30 +200,31 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (20):** The Gift of the Magi (row 4), The Story of an Hour
-  (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
-  The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
-  (row 27), Pride and Prejudice Ch. 34 (row 28), Jane Eyre Ch. 1 (row 33),
-  The Selfish Giant (row 8), The Necklace (row 6), A Christmas Carol Stave 1
-  (row 22), The Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3
-  (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's New Clothes
-  (row 17), Alice's Adventures in Wonderland Ch. 1 (row 23), The Happy
-  Prince (row 7), The Princess and the Pea (row 18), Little Red Riding Hood
-  (row 11). Follow their shape in `src/lib/data/lessons.ts`. Every live
+- **Live now (21):** The Gift of the Magi (row 4), The Story of an Hour
+  (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
+  (row 44), Little Women Ch. 1 (row 39), The Ugly Duckling (row 16),
+  Cinderella (row 10), Pride and Prejudice Ch. 1 (row 27), Pride and
+  Prejudice Ch. 34 (row 28), Jane Eyre Ch. 1 (row 33), The Selfish Giant
+  (row 8), The Necklace (row 6), A Christmas Carol Stave 1 (row 22), The
+  Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3 (row 35), The
+  Secret Garden Ch. 1 (row 49), The Emperor's New Clothes (row 17), Alice's
+  Adventures in Wonderland Ch. 1 (row 23), The Happy Prince (row 7), The
+  Princess and the Pea (row 18), Little Red Riding Hood (row 11). Follow
+  their shape in `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×5 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood),
-  A2 ×7 (Story of an Hour, Anne, Little Women, Ugly Duckling, The Secret
-  Garden, Alice in Wonderland Ch. 1, The Happy Prince), B1 ×4 (Gift of the
-  Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol), B2 ×4
-  (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and Prejudice
-  Ch. 34). B1 and B2 now sit at 4 each (thinnest), A1 at 5, A2 the deepest
-  at 7; next builds should lean B1. Alice in Wonderland is still A2's only
-  entry that is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Anne of Green Gables Ch. 3** (row 44, B1 —
-  "Marilla is astonished"; the natural sequel to the live Ch. 2 lesson),
-  **Sense and Sensibility Ch. 1** (row 29, B1 — the Dashwoods lose Norland;
-  adds a third Austen), **The Nightingale and the Rose** (row 9, B1 —
-  Wilde, whole; a third Wilde tale).
+  A2 ×7 (Story of an Hour, Anne Ch. 2, Little Women, Ugly Duckling, The
+  Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince), B1 ×5 (Gift
+  of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol,
+  Anne of Green Gables Ch. 3), B2 ×4 (Jane Eyre, The Lady with the Dog,
+  Wuthering Heights, Pride and Prejudice Ch. 34). B2 is now the thinnest at
+  4, A1/B1 at 5, A2 the deepest at 7; next builds should lean B2. Alice in
+  Wonderland is still A2's only entry that is neither a fairy tale nor
+  gentle domestic fiction.
+- Good next lessons to build: **Sense and Sensibility Ch. 1** (row 29, B1 —
+  the Dashwoods lose Norland; adds a third Austen), **A Room with a View
+  Ch. 1** (row 56, B2 — "The Bertolini"; a first Forster), **Frankenstein
+  Letter 1** (row 71, B2 — Walton to his sister; a first Shelley).
