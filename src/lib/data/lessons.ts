@@ -8021,4 +8021,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "ethan-frome",
+    title: "Ethan Frome",
+    titleTranslation: "이선 프롬",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "❄️",
+    coverImage: "/covers/ethan-frome.svg",
+    source:
+      "Adapted from the prologue of Edith Wharton's novel \"Ethan Frome\" (first published 1911; long in the public domain, Project Gutenberg #4517). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Ethan Frome first appeared to the narrator, and what the narrator came to feel he understood after the storm night at the farm.",
+    paragraphs: [
+      [
+        {
+          id: "etf-1",
+          text: "I had been sent to Starkfield, a small town in the Massachusetts hills, to work through the winter on the new power-house.",
+          translation:
+            "나는 새 발전소 공사를 맡아 겨우내 일하기 위해 매사추세츠 산간의 작은 마을 스타크필드로 보내졌어요.",
+        },
+        {
+          id: "etf-2",
+          text: "A workers' strike held up the job, and I found myself stranded there for months in the deep snow and cold.",
+          translation:
+            "노동자 파업으로 공사가 지연되면서, 나는 깊은 눈과 추위 속에서 몇 달이나 그곳에 발이 묶이고 말았어요.",
+        },
+        {
+          id: "etf-3",
+          text: "It was in Starkfield that I first saw Ethan Frome.",
+          translation: "내가 이선 프롬을 처음 본 곳이 바로 스타크필드였어요.",
+        },
+      ],
+      [
+        {
+          id: "etf-4",
+          text: "He was the most striking figure in the town, tall and powerfully built, but bent and stiff down one side, and lame in his right leg.",
+          translation:
+            "그는 마을에서 가장 눈에 띄는 인물이었어요. 키가 크고 다부진 체격이었지만, 한쪽 옆구리가 굽고 뻣뻣했으며, 오른쪽 다리를 절었어요.",
+        },
+        {
+          id: "etf-5",
+          text: "A red scar ran across his forehead, and though people told me he was only fifty-two, he looked far older.",
+          translation:
+            "붉은 흉터가 그의 이마를 가로질러 나 있었고, 사람들은 그가 겨우 쉰두 살이라고 했지만 훨씬 더 나이 들어 보였어요.",
+        },
+        {
+          id: "etf-6",
+          text: "\"He's been in Starkfield too many winters,\" the old stage-driver said.",
+          translation:
+            "\"저 사람은 스타크필드에서 너무 많은 겨울을 났지.\" 늙은 역마차꾼이 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "etf-7",
+          text: "Frome came to the post office every day for the mail, sat silent in his sleigh, and spoke to almost no one.",
+          translation:
+            "프롬은 날마다 우편물을 찾으러 우체국에 왔고, 썰매에 말없이 앉아 있었으며, 거의 누구와도 말을 섞지 않았어요.",
+        },
+        {
+          id: "etf-8",
+          text: "Little by little I gathered scraps of his story: a bad accident, a \"smash-up,\" twenty-four years ago had nearly killed him and left him lame.",
+          translation:
+            "나는 조금씩 그의 이야기를 토막토막 주워 모았어요. 24년 전 큰 사고, 이른바 '대참사'가 그를 죽일 뻔했고 다리를 절게 만들었다는 것이었어요.",
+        },
+        {
+          id: "etf-9",
+          text: "His family had been a sickly, unlucky one, people said, and there had been a wife, but no one would tell me much more.",
+          translation:
+            "사람들은 그의 집안이 병약하고 운이 없는 집안이었다고, 아내가 하나 있었다고 했지만, 그 이상은 아무도 말해 주려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "etf-10",
+          text: "When my own horse could not be hired in the worst weather, Frome agreed to drive me the long cold miles to the railway and back, for a dollar a day.",
+          translation:
+            "날씨가 가장 험할 때 내가 탈 말을 구할 수 없게 되자, 프롬은 하루 1달러를 받고 나를 태워 멀고 추운 길을 오가며 철도역까지 데려다주기로 했어요.",
+        },
+        {
+          id: "etf-11",
+          text: "For more than a week we made that silent journey together through the snow.",
+          translation:
+            "일주일 넘게 우리는 눈길을 헤치며 그 말 없는 여정을 함께했어요.",
+        },
+        {
+          id: "etf-12",
+          text: "I lent him a book about science, and later he said, with a slow flush, that he had once been \"crazy about that kind of thing.\"",
+          translation:
+            "내가 그에게 과학책 한 권을 빌려주었더니, 나중에 그는 얼굴을 서서히 붉히며 한때는 \"그런 것에 미쳐 있었다\"고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "etf-13",
+          text: "So there had been a time when this shut-up, frozen man had wanted more from life than Starkfield could give him.",
+          translation:
+            "그러니까 이 꽉 닫힌, 얼어붙은 남자에게도 스타크필드가 줄 수 있는 것 이상을 인생에서 바라던 때가 있었던 거예요.",
+        },
+        {
+          id: "etf-14",
+          text: "One evening a great storm came down, and Frome said the snow was too deep to reach the station.",
+          translation:
+            "어느 날 저녁 큰 눈보라가 몰아쳤고, 프롬은 눈이 너무 깊어 역까지 갈 수 없겠다고 말했어요.",
+        },
+        {
+          id: "etf-15",
+          text: "He would take me home instead, he said, to shelter for the night at the Frome farm.",
+          translation:
+            "그는 대신 나를 자기 집으로 데려가, 프롬 농장에서 하룻밤 묵게 해 주겠다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "etf-16",
+          text: "The house stood gaunt and half-ruined in the drifts, with one wing torn away, and inside I heard a woman's voice, thin and high, going on and on in complaint.",
+          translation:
+            "그 집은 눈더미 속에 앙상하고 반쯤 허물어진 채 서 있었고, 한쪽 별채는 뜯겨 나가 있었으며, 안에서는 가늘고 높은 여자 목소리가 그칠 줄 모르고 불평을 늘어놓는 것이 들렸어요.",
+        },
+        {
+          id: "etf-17",
+          text: "That night, I felt, I had found the key to Ethan Frome, and began to put his story together.",
+          translation:
+            "그날 밤, 나는 이선 프롬을 이해할 열쇠를 찾았다는 느낌이 들었고, 그의 이야기를 하나로 맞춰 나가기 시작했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "etf-v1",
+        term: "stranded",
+        partOfSpeech: "adjective",
+        translation: "발이 묶인, 오도 가도 못하는",
+        example: "The strike left the engineer stranded in Starkfield all winter.",
+        exampleTranslation: "파업 때문에 그 기술자는 겨우내 스타크필드에 발이 묶였어요.",
+      },
+      {
+        id: "etf-v2",
+        term: "lame",
+        partOfSpeech: "adjective",
+        translation: "다리를 저는, 절름거리는",
+        example: "Ever since the accident, Frome had been lame in his right leg.",
+        exampleTranslation: "그 사고 이후로 프롬은 오른쪽 다리를 절었어요.",
+      },
+      {
+        id: "etf-v3",
+        term: "scar",
+        partOfSpeech: "noun",
+        translation: "흉터",
+        example: "A red scar ran across Ethan Frome's forehead.",
+        exampleTranslation: "붉은 흉터가 이선 프롬의 이마를 가로질러 나 있었어요.",
+      },
+      {
+        id: "etf-v4",
+        term: "scrap",
+        partOfSpeech: "noun",
+        translation: "(정보 등의) 조각, 토막",
+        example: "The narrator picked up only scraps of Frome's story from the townspeople.",
+        exampleTranslation: "화자는 마을 사람들에게서 프롬의 이야기를 토막토막으로만 주워들었어요.",
+      },
+      {
+        id: "etf-v5",
+        term: "gaunt",
+        partOfSpeech: "adjective",
+        translation: "수척한, 앙상한",
+        example: "The Frome farmhouse stood gaunt and half-ruined in the snow.",
+        exampleTranslation: "프롬의 농가는 눈 속에 앙상하고 반쯤 허물어진 채 서 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "etf-q1",
+        prompt: "Why was the narrator staying in Starkfield?",
+        options: [
+          "He had family living there.",
+          "He was working there for the winter, and a strike kept him from leaving.",
+          "He had come to write about Ethan Frome.",
+          "His train had broken down in the town.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The narrator, an engineer, had been sent to Starkfield to work on the power-house; a workers' strike delayed the job and left him stranded there through the winter.",
+      },
+      {
+        id: "etf-q2",
+        prompt: "What did the narrator learn about Ethan Frome from the townspeople?",
+        options: [
+          "That he was the richest man in Starkfield.",
+          "That he had left town for many years and only just returned.",
+          "That a bad accident twenty-four years ago had nearly killed him and left him lame.",
+          "That he had never spoken to anyone in his life.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "People gave the narrator only scraps: Frome's family had been sickly and unlucky, there had been a wife, and a \"smash-up\" twenty-four years earlier had crippled him.",
+      },
+      {
+        id: "etf-q3",
+        prompt: "What did the science book reveal about the kind of man Frome had once been?",
+        options: [
+          "That he could not read.",
+          "That he had once been eager to learn and wanted more than Starkfield could offer.",
+          "That he had studied at a university in Florida.",
+          "That he disliked books and gave it straight back.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Frome kept the borrowed book and admitted, with a slow flush, that he had once been \"crazy about that kind of thing\" — a sign that the silent, shut-up man had once reached for a larger life.",
+      },
+    ],
+  },
 ];
