@@ -13809,4 +13809,219 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-tale-of-mrs-tiggy-winkle",
+    title: "The Tale of Mrs. Tiggy-Winkle",
+    titleTranslation: "티기윙클 부인 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Beatrix Potter (1866–1943)",
+    coverEmoji: "🦔",
+    coverImage: "/covers/the-tale-of-mrs-tiggy-winkle.svg",
+    source:
+      "Adapted from Beatrix Potter's \"The Tale of Mrs. Tiggy-Winkle\" (first published 1905; in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Lucie had lost, and who she met inside the little door in the hill.",
+    paragraphs: [
+      [
+        {
+          id: "mtw-1",
+          text: "There was once a little girl called Lucie, who lived on a farm called Little-town.",
+          translation:
+            "옛날에 '리틀타운'이라는 농장에 사는 루시라는 어린 여자아이가 있었어요.",
+        },
+        {
+          id: "mtw-2",
+          text: "She was a good little girl, but she was always losing her pocket handkerchiefs!",
+          translation: "루시는 착한 아이였지만, 늘 손수건을 잃어버리곤 했어요!",
+        },
+        {
+          id: "mtw-3",
+          text: "One day Lucie was crying because she had lost three handkerchiefs and her apron.",
+          translation:
+            "어느 날 루시는 손수건 세 장과 앞치마를 잃어버려서 울고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "mtw-4",
+          text: "She asked the cat, the hen, and the robin if they had seen them, but none of them could help.",
+          translation:
+            "루시는 고양이와 암탉과 울새에게 그것들을 봤느냐고 물었지만, 아무도 도와줄 수 없었어요.",
+        },
+        {
+          id: "mtw-5",
+          text: "Then Lucie saw some little white things lying on the grass, high up on the hill.",
+          translation:
+            "그때 루시는 언덕 높은 곳 풀밭에 하얀 것들이 조금 놓여 있는 것을 보았어요.",
+        },
+        {
+          id: "mtw-6",
+          text: "She climbed up a steep path until her house looked very small below her.",
+          translation:
+            "루시는 가파른 길을 올라갔고, 마침내 자기 집이 발아래로 아주 작게 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "mtw-7",
+          text: "At the top she found tiny footprints and a little door in the side of the hill.",
+          translation:
+            "꼭대기에서 루시는 아주 작은 발자국들과 언덕 옆구리에 난 작은 문 하나를 발견했어요.",
+        },
+        {
+          id: "mtw-8",
+          text: "Lucie knocked and went in. Inside was a warm kitchen with a stone floor.",
+          translation:
+            "루시는 문을 두드리고 안으로 들어갔어요. 안에는 돌바닥이 깔린 따뜻한 부엌이 있었어요.",
+        },
+        {
+          id: "mtw-9",
+          text: "A short, round person stood there, ironing clothes. It was Mrs. Tiggy-winkle.",
+          translation:
+            "그곳에는 키가 작고 통통한 사람이 서서 옷을 다리고 있었어요. 바로 티기윙클 부인이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mtw-10",
+          text: "She wore a print dress and an apron, and under her cap Lucie could see sharp little prickles.",
+          translation:
+            "부인은 무늬 있는 원피스에 앞치마를 둘렀고, 모자 아래로 루시는 뾰족한 작은 가시들을 볼 수 있었어요.",
+        },
+        {
+          id: "mtw-11",
+          text: "\"I am a washerwoman,\" said Mrs. Tiggy-winkle. \"I wash and iron for all the little animals.\"",
+          translation:
+            "\"나는 빨래하는 사람이란다.\" 티기윙클 부인이 말했어요. \"작은 동물들 모두의 옷을 빨고 다려 주지.\"",
+        },
+        {
+          id: "mtw-12",
+          text: "On the table Lucie saw Cock Robin's red waistcoat, Peter Rabbit's blue jacket, and her own three handkerchiefs, clean and white.",
+          translation:
+            "탁자 위에서 루시는 울새 로빈의 빨간 조끼와 피터 래빗의 파란 웃옷, 그리고 깨끗하고 하얗게 빤 자기 손수건 세 장을 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "mtw-13",
+          text: "Mrs. Tiggy-winkle made a pot of tea, and she and Lucie drank it by the fire.",
+          translation:
+            "티기윙클 부인은 차를 한 주전자 끓였고, 부인과 루시는 난롯가에서 그 차를 마셨어요.",
+        },
+        {
+          id: "mtw-14",
+          text: "Then they folded all the clean clothes into neat bundles.",
+          translation: "그런 다음 둘은 깨끗한 옷을 모두 깔끔한 꾸러미로 접었어요.",
+        },
+        {
+          id: "mtw-15",
+          text: "Lucie's handkerchiefs were wrapped inside her clean apron and fastened with a safety pin.",
+          translation:
+            "루시의 손수건은 깨끗한 앞치마 안에 싸여 안전핀으로 여며졌어요.",
+        },
+      ],
+      [
+        {
+          id: "mtw-16",
+          text: "They walked down the hill together, and at every gate they left a bundle for an animal.",
+          translation:
+            "둘은 함께 언덕을 내려갔고, 문마다 동물에게 줄 꾸러미를 하나씩 놓아 두었어요.",
+        },
+        {
+          id: "mtw-17",
+          text: "Mrs. Tiggy-winkle would take no money at all; then she turned and ran up the hill, and as she ran she seemed to grow smaller and browner, until Lucie saw that she was really just a little hedgehog.",
+          translation:
+            "티기윙클 부인은 돈을 한 푼도 받으려 하지 않았어요. 그러고는 몸을 돌려 언덕 위로 달려갔는데, 달리는 동안 점점 작아지고 갈색으로 변해서, 마침내 루시는 부인이 사실은 작은 고슴도치일 뿐이라는 것을 알게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mtw-v1",
+        term: "handkerchief",
+        partOfSpeech: "noun",
+        translation: "손수건",
+        example: "Lucie was always losing her handkerchiefs.",
+        exampleTranslation: "루시는 늘 손수건을 잃어버렸어요.",
+      },
+      {
+        id: "mtw-v2",
+        term: "steep",
+        partOfSpeech: "adjective",
+        translation: "가파른",
+        example: "She climbed up a steep path to the top of the hill.",
+        exampleTranslation: "루시는 언덕 꼭대기까지 가파른 길을 올라갔어요.",
+      },
+      {
+        id: "mtw-v3",
+        term: "iron",
+        partOfSpeech: "verb",
+        translation: "다리다, 다림질하다",
+        example: "Mrs. Tiggy-winkle was ironing the clothes.",
+        exampleTranslation: "티기윙클 부인은 옷을 다리고 있었어요.",
+      },
+      {
+        id: "mtw-v4",
+        term: "prickles",
+        partOfSpeech: "noun",
+        translation: "(동물 몸의) 가시",
+        example: "Under her cap Lucie could see sharp little prickles.",
+        exampleTranslation: "모자 아래로 루시는 뾰족한 작은 가시들을 볼 수 있었어요.",
+      },
+      {
+        id: "mtw-v5",
+        term: "bundle",
+        partOfSpeech: "noun",
+        translation: "꾸러미, 묶음",
+        example: "They folded the clothes into neat bundles.",
+        exampleTranslation: "그들은 옷을 깔끔한 꾸러미로 접었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mtw-q1",
+        prompt: "Why was Lucie crying at the start of the story?",
+        options: [
+          "She could not find her cat.",
+          "She had lost three handkerchiefs and her apron.",
+          "She was lost on the hill.",
+          "The hen had chased her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lucie was a good little girl but was always losing her pocket handkerchiefs. That day she had lost three of them and her apron, and the cat, the hen, and the robin could not help her.",
+      },
+      {
+        id: "mtw-q2",
+        prompt: "Who was Mrs. Tiggy-winkle, and what was she doing?",
+        options: [
+          "A farmer's wife cooking dinner.",
+          "A little girl like Lucie, playing on the hill.",
+          "A washerwoman ironing clean clothes for all the little animals.",
+          "A shopkeeper who sold handkerchiefs.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Behind the little door in the hill was a warm kitchen where Mrs. Tiggy-winkle — a short, round person with sharp prickles under her cap — washed and ironed clothes for all the little animals, including Lucie's own handkerchiefs.",
+      },
+      {
+        id: "mtw-q3",
+        prompt: "What did Lucie learn about Mrs. Tiggy-winkle at the end?",
+        options: [
+          "She was Lucie's neighbour from Little-town.",
+          "She wanted a coin for every bundle.",
+          "She kept Lucie's apron for herself.",
+          "She was really just a little hedgehog.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Mrs. Tiggy-winkle would take no money for her work. She turned and ran up the hill, and as she ran she seemed to grow smaller and browner, until Lucie saw that she was really just a little hedgehog.",
+      },
+    ],
+  },
 ];

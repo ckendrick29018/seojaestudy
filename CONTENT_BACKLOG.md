@@ -135,6 +135,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 25 | The Bet | Anton Chekhov (1904) | 13415 | B1 | whole (simplified retelling, 17 sentences; heavily trimmed) | ☑ |
 | 26 | The Lady with the Dog | Anton Chekhov (1904) | 13415 | B2 | Part I — the meeting at Yalta, simplified retelling, 17 sentences | ☑ |
 | 74 | The Tale of Peter Rabbit | Beatrix Potter (1943) | 14838 | A1 | whole (simplified retelling, 17 sentences; peril kept light) — new A1 row to thicken the thinnest band; Potter has more (Benjamin Bunny #14407, Jemima Puddle-Duck, Mrs. Tiggy-Winkle) | ☑ |
+| 75 | The Tale of Mrs. Tiggy-Winkle | Beatrix Potter (1943) | 15137 | A1 | whole (simplified retelling, 17 sentences; no peril — Lucie, the lost handkerchiefs, and the hedgehog washerwoman) | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -201,9 +202,10 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (63):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (64):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
-  The Tale of Peter Rabbit (row 74), Anne of Avonlea Ch. 1 (row 60),
+  The Tale of Peter Rabbit (row 74),
+  The Tale of Mrs. Tiggy-Winkle (row 75), Anne of Avonlea Ch. 1 (row 60),
   The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -237,9 +239,10 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×8 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×9 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit), A2 ×16 (Story of an Hour, Anne Ch. 2,
+  The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,
+  The Tale of Mrs. Tiggy-Winkle), A2 ×16 (Story of an Hour, Anne Ch. 2,
   Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
   Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
   Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
@@ -259,17 +262,17 @@ has a genuine period cover/illustration in the public domain, download that into
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×8, A2 ×16, B1 ×22,
-  B2 ×17 — A1 is still the thinnest; B1 (22) is well-stocked, so steer new
-  work to A1/A2.
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×9, A2 ×16, B1 ×22,
+  B2 ×17 — A1 is catching up; B1 (22) is well-stocked, so steer new work to
+  A1/A2.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
 - Good next lessons to build — favour **A1/A2** (B1 is now full at 22):
   - A1: Beatrix Potter is the seam to mine — **The Tale of Benjamin
-    Bunny** (PG #14407), **Jemima Puddle-Duck**, **Mrs. Tiggy-Winkle**,
+    Bunny** (PG #14407, sequel to Peter Rabbit), **Jemima Puddle-Duck**,
     **The Tale of Two Bad Mice** — all short, gentle, world-famous; or
     re-level a gentle A2 tale (The Twelve Dancing Princesses, Rapunzel)
-    down to A1.
+    down to A1. (Peter Rabbit + Mrs. Tiggy-Winkle already done.)
   - A2: another *Four Million* story (row 24, O. Henry), or an Andersen
     tale not yet done (**Thumbelina**, **The Steadfast Tin Soldier** —
     softened ending).
