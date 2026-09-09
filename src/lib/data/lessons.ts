@@ -10620,4 +10620,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-mill-on-the-floss",
+    title: "The Mill on the Floss",
+    titleTranslation: "플로스강의 물방앗간",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "George Eliot (1819–1880)",
+    coverEmoji: "🎣",
+    coverImage: "/covers/the-mill-on-the-floss.svg",
+    source:
+      "Adapted from Book First, Chapter 5 (\"Tom Comes Home\") of George Eliot's novel \"The Mill on the Floss\" (first published 1860; long in the public domain, Project Gutenberg #6688). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Maggie had to confess to Tom when he came home, how he reacted, and how the day ended.",
+    paragraphs: [
+      [
+        {
+          id: "mff-1",
+          text: "For a whole week Maggie Tulliver had thought of nothing but her brother Tom, who was coming home from school for the holidays.",
+          translation:
+            "한 주 내내 매기 털리버는 방학을 맞아 학교에서 집으로 오는 오빠 톰 생각밖에 하지 않았어요.",
+        },
+        {
+          id: "mff-2",
+          text: "Maggie was nine, quick and dark and clever, and she loved Tom with her whole fierce heart.",
+          translation:
+            "매기는 아홉 살이었고, 눈치 빠르고 가무잡잡하고 영리했으며, 온 마음을 다해 격렬하게 톰을 사랑했어요.",
+        },
+        {
+          id: "mff-3",
+          text: "Before he left, Tom had asked her to take care of his two rabbits while he was away.",
+          translation:
+            "톰은 떠나기 전에, 자기가 없는 동안 토끼 두 마리를 돌봐 달라고 매기에게 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "mff-4",
+          text: "But Maggie forgot things when her mind was full of books and daydreams, and for several days no one fed them.",
+          translation:
+            "하지만 매기는 머릿속이 책과 공상으로 가득 차면 이것저것 잊어버렸고, 며칠 동안 아무도 토끼에게 먹이를 주지 않았어요.",
+        },
+        {
+          id: "mff-5",
+          text: "By the time she remembered, both rabbits were dead.",
+          translation: "매기가 생각해 냈을 때에는 토끼 두 마리가 다 죽어 있었어요.",
+        },
+        {
+          id: "mff-6",
+          text: "She had been carrying the guilt of it about with her like a stone.",
+          translation: "그녀는 그 죄책감을 돌덩이처럼 안고 다녔어요.",
+        },
+      ],
+      [
+        {
+          id: "mff-7",
+          text: "When the cart finally brought Tom to the door, Maggie rushed at him and hugged him so hard that his cap fell off.",
+          translation:
+            "마침내 수레가 톰을 문 앞에 내려놓자, 매기는 그에게 달려들어 어찌나 세게 끌어안았는지 그의 모자가 벗겨져 떨어졌어요.",
+        },
+        {
+          id: "mff-8",
+          text: "Tom was pleased to be home, and pleased with himself, for he had something for her in his pocket.",
+          translation:
+            "톰은 집에 온 것이 기뻤고, 스스로도 뿌듯했어요. 주머니에 매기에게 줄 것이 있었거든요.",
+        },
+        {
+          id: "mff-9",
+          text: "It was a fishing-line — half of one he had bought with his own money — and a new hook, so that she could fish beside him.",
+          translation:
+            "그것은 낚싯줄이었는데, 자기 돈으로 산 낚싯줄의 절반과 새 낚싯바늘이어서, 매기도 그의 곁에서 낚시를 할 수 있게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "mff-10",
+          text: "Maggie was almost too happy to speak, and for a few minutes she let herself forget the rabbits.",
+          translation:
+            "매기는 너무 행복해서 말이 안 나올 지경이었고, 몇 분 동안은 토끼 일을 잊어버릴 수 있었어요.",
+        },
+        {
+          id: "mff-11",
+          text: "Then Tom asked, brightly, how his rabbits were getting on.",
+          translation: "그때 톰이 밝은 목소리로 자기 토끼들은 잘 지내느냐고 물었어요.",
+        },
+        {
+          id: "mff-12",
+          text: "Maggie's face changed, and after a struggle she told him the truth.",
+          translation: "매기의 얼굴빛이 변했고, 한참을 망설이다가 사실대로 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "mff-13",
+          text: "Tom's pleasure went cold at once. \"You're a very naughty girl,\" he said. \"I don't love you.\"",
+          translation:
+            "톰의 기쁨은 그 자리에서 싸늘하게 식었어요. \"너 정말 나쁜 애야.\" 그가 말했어요. \"난 너 안 좋아해.\"",
+        },
+        {
+          id: "mff-14",
+          text: "He would not look at her; he talked instead about going to see the mill and the pond.",
+          translation:
+            "그는 매기를 쳐다보려 하지 않고, 대신 방앗간과 연못을 보러 가겠다는 이야기만 했어요.",
+        },
+        {
+          id: "mff-15",
+          text: "Maggie's heart seemed to break, and she ran upstairs to the dark attic to cry alone.",
+          translation:
+            "매기는 가슴이 찢어지는 것 같아서, 혼자 울려고 어두운 다락방으로 뛰어 올라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "mff-16",
+          text: "But Tom's anger never lasted long, and before the afternoon was over he climbed up to fetch her, and they were friends again.",
+          translation:
+            "하지만 톰의 화는 오래가는 법이 없어서, 오후가 다 가기 전에 그는 매기를 데리러 다락으로 올라왔고, 둘은 다시 사이좋아졌어요.",
+        },
+        {
+          id: "mff-17",
+          text: "They walked down together to the Round Pool, and as she sat by the water with her line, Maggie thought that heaven could be nothing better than this: to sit beside Tom, and never be scolded.",
+          translation:
+            "둘은 함께 라운드 풀로 걸어 내려갔고, 낚싯줄을 드리운 채 물가에 앉아 매기는 천국이라 해도 이보다 나을 수는 없겠다고 생각했어요. 톰 곁에 앉아서, 야단맞는 일 없이 지내는 것 말이에요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mff-v1",
+        term: "fierce",
+        partOfSpeech: "adjective",
+        translation: "격렬한, 맹렬한; 사나운",
+        example: "Maggie loved her brother with a fierce, whole-hearted love.",
+        exampleTranslation: "매기는 오빠를 격렬하고 온 마음을 다한 사랑으로 사랑했어요.",
+      },
+      {
+        id: "mff-v2",
+        term: "guilt",
+        partOfSpeech: "noun",
+        translation: "죄책감",
+        example: "She carried the guilt of the dead rabbits like a stone.",
+        exampleTranslation: "그녀는 죽은 토끼들에 대한 죄책감을 돌덩이처럼 안고 다녔어요.",
+      },
+      {
+        id: "mff-v3",
+        term: "naughty",
+        partOfSpeech: "adjective",
+        translation: "(아이가) 버릇없는, 말을 안 듣는, 못된",
+        example: "Tom said she was a very naughty girl.",
+        exampleTranslation: "톰은 그녀가 아주 못된 아이라고 말했어요.",
+      },
+      {
+        id: "mff-v4",
+        term: "attic",
+        partOfSpeech: "noun",
+        translation: "다락방",
+        example: "Maggie ran up to the dark attic to cry alone.",
+        exampleTranslation: "매기는 혼자 울려고 어두운 다락방으로 뛰어 올라갔어요.",
+      },
+      {
+        id: "mff-v5",
+        term: "scold",
+        partOfSpeech: "verb",
+        translation: "꾸짖다, 야단치다",
+        example: "Maggie longed for a place where no one would scold her.",
+        exampleTranslation: "매기는 아무도 자기를 야단치지 않는 곳을 간절히 바랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mff-q1",
+        prompt: "What had happened to Tom's rabbits while he was away at school?",
+        options: [
+          "Maggie had given them away to a neighbour.",
+          "They had escaped from their hutch and could not be found.",
+          "No one had fed them, and by the time Maggie remembered, both were dead.",
+          "They were healthy and had had a litter of babies.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Tom had asked Maggie to look after his two rabbits, but she forgot while lost in books and daydreams; for several days no one fed them, and by the time she remembered, both rabbits had died.",
+      },
+      {
+        id: "mff-q2",
+        prompt: "How did Tom react when Maggie finally confessed about the rabbits?",
+        options: [
+          "He laughed and said it did not matter at all.",
+          "His pleasure went cold; he said she was very naughty and that he did not love her.",
+          "He cried, and Maggie had to comfort him.",
+          "He blamed their mother rather than Maggie.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Tom had just given Maggie a fishing-line and was happy to be home, but when she told him the truth his pleasure went cold at once; he called her very naughty, said \"I don't love you,\" and would not look at her.",
+      },
+      {
+        id: "mff-q3",
+        prompt: "How did the afternoon end?",
+        options: [
+          "Maggie stayed alone in the attic until nightfall.",
+          "Tom went fishing by himself and left Maggie behind.",
+          "Their father punished them both and sent them to bed.",
+          "Tom's anger passed, he fetched Maggie from the attic, and they went to fish at the Round Pool together.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Tom's anger never lasted long; before the afternoon was over he climbed up to the attic to fetch Maggie, they made up, and they walked down together to fish at the Round Pool, where Maggie felt perfectly happy.",
+      },
+    ],
+  },
 ];
