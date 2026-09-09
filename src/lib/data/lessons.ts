@@ -6718,4 +6718,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-last-leaf",
+    title: "The Last Leaf",
+    titleTranslation: "마지막 잎새",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1862–1910)",
+    coverEmoji: "🍂",
+    coverImage: "/covers/the-last-leaf.svg",
+    source:
+      "Adapted from O. Henry's short story \"The Last Leaf\" (collected in \"The Trimmed Lamp and Other Stories\", 1907; long in the public domain, Project Gutenberg #2777). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Johnsy believed about the last leaf, and what old Behrman did on the stormy night.",
+    paragraphs: [
+      [
+        {
+          id: "tll-1",
+          text: "Sue and Johnsy were two young painters who shared a small room at the top of an old house.",
+          translation:
+            "수와 존시는 오래된 집 꼭대기의 작은 방을 함께 쓰는 두 젊은 화가였어요.",
+        },
+        {
+          id: "tll-2",
+          text: "In November Johnsy caught pneumonia, and soon she lay very still in bed, looking out the window all day.",
+          translation:
+            "11월에 존시는 폐렴에 걸렸고, 곧 침대에 아주 가만히 누워 하루 종일 창밖만 바라보게 되었어요.",
+        },
+        {
+          id: "tll-3",
+          text: "The doctor told Sue quietly that Johnsy might not get better, because she had decided she was going to die.",
+          translation:
+            "의사는 수에게, 존시가 스스로 죽을 거라고 마음먹었기 때문에 나아지지 않을지도 모른다고 조용히 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "tll-4",
+          text: "Outside the window, an old ivy plant climbed the brick wall of the next house, and the cold wind was tearing off its leaves.",
+          translation:
+            "창밖에서는 오래된 담쟁이덩굴이 옆집 벽돌 벽을 타고 올라가 있었는데, 차가운 바람이 그 잎을 마구 떼어 내고 있었어요.",
+        },
+        {
+          id: "tll-5",
+          text: "Sue heard Johnsy counting softly: \"Ten... nine... eight... seven.\"",
+          translation:
+            "수는 존시가 나직이 세는 소리를 들었어요. \"열… 아홉… 여덟… 일곱.\"",
+        },
+        {
+          id: "tll-6",
+          text: "\"When the last leaf falls, I will go too,\" Johnsy said. \"I have known it for three days.\"",
+          translation:
+            "\"마지막 잎이 떨어지면, 나도 갈 거야.\" 존시가 말했어요. \"사흘 전부터 알고 있었어.\"",
+        },
+      ],
+      [
+        {
+          id: "tll-7",
+          text: "Downstairs lived Behrman, a poor old painter who had wanted all his life to paint one great picture but had never begun it.",
+          translation:
+            "아래층에는 베어먼이 살았는데, 평생 위대한 그림 한 점을 그리고 싶어 했지만 한 번도 시작하지 못한 가난한 늙은 화가였어요.",
+        },
+        {
+          id: "tll-8",
+          text: "He earned a little money as a model, and he watched over the two young women like a fierce old dog.",
+          translation:
+            "그는 모델 일로 약간의 돈을 벌었고, 사나운 늙은 개처럼 그 두 젊은 여자를 지켜 주었어요.",
+        },
+        {
+          id: "tll-9",
+          text: "When Sue told him about the leaves, he shouted that it was foolish nonsense — but then he grew quiet and stared out at the ivy.",
+          translation:
+            "수가 잎 이야기를 하자, 그는 어리석은 헛소리라고 소리쳤어요. 하지만 곧 조용해지더니 담쟁이덩굴을 물끄러미 바라보았어요.",
+        },
+      ],
+      [
+        {
+          id: "tll-10",
+          text: "That night a hard storm beat against the house, with rain, snow, and a howling wind.",
+          translation:
+            "그날 밤 비와 눈과 울부짖는 바람을 몰고 온 거센 폭풍이 집을 때렸어요.",
+        },
+        {
+          id: "tll-11",
+          text: "In the morning Johnsy asked Sue to raise the shade, sure that the vine would be bare.",
+          translation:
+            "아침에 존시는 담쟁이덩굴이 앙상해졌을 거라 믿으며, 수에게 블라인드를 올려 달라고 했어요.",
+        },
+        {
+          id: "tll-12",
+          text: "But one last leaf still hung on the wall, dark green, with only its edges turned yellow.",
+          translation:
+            "하지만 마지막 잎 하나가 여전히 벽에 매달려 있었어요. 짙은 초록색에, 가장자리만 노랗게 물든 채로요.",
+        },
+      ],
+      [
+        {
+          id: "tll-13",
+          text: "All that day and through another wild night the leaf held on.",
+          translation:
+            "그날 하루 내내, 그리고 또 한 번의 사나운 밤을 지나서도 그 잎은 버텼어요.",
+        },
+        {
+          id: "tll-14",
+          text: "When Johnsy saw it still there the next morning, something in her changed.",
+          translation:
+            "다음 날 아침에도 잎이 그대로 있는 것을 보고, 존시의 마음속 무언가가 바뀌었어요.",
+        },
+        {
+          id: "tll-15",
+          text: "\"I have been wicked,\" she said. \"That leaf stayed to show me. Bring me some soup, Sue — and one day I want to paint the Bay of Naples.\"",
+          translation:
+            "\"내가 못됐었어.\" 존시가 말했어요. \"저 잎이 그걸 보여 주려고 남아 있었던 거야. 수, 수프 좀 갖다줘. 그리고 언젠가 나폴리만을 그리고 싶어.\"",
+        },
+      ],
+      [
+        {
+          id: "tll-16",
+          text: "A few days later, when Johnsy was safe, Sue told her that old Behrman had died of pneumonia, caught out in the freezing storm.",
+          translation:
+            "며칠 뒤, 존시가 고비를 넘기고 나서, 수는 늙은 베어먼이 얼어붙을 듯한 폭풍 속에 나갔다가 폐렴에 걸려 세상을 떠났다고 이야기했어요.",
+        },
+        {
+          id: "tll-17",
+          text: "He had climbed a ladder that night with a lantern and paints, and had drawn the last leaf on the wall himself — the masterpiece he had waited a whole life to make.",
+          translation:
+            "그는 그날 밤 등불과 물감을 들고 사다리에 올라, 마지막 잎을 직접 벽에 그려 넣었던 거예요. 평생 기다려 온 바로 그 걸작을요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tll-v1",
+        term: "pneumonia",
+        partOfSpeech: "noun",
+        translation: "폐렴",
+        example: "Many people in the neighbourhood fell ill with pneumonia that cold winter.",
+        exampleTranslation: "그 추운 겨울에 동네 사람 많은 이가 폐렴에 걸렸어요.",
+      },
+      {
+        id: "tll-v2",
+        term: "ivy",
+        partOfSpeech: "noun",
+        translation: "담쟁이덩굴",
+        example: "An old ivy plant climbed the brick wall outside the window.",
+        exampleTranslation: "오래된 담쟁이덩굴이 창밖 벽돌 벽을 타고 올라가 있었어요.",
+      },
+      {
+        id: "tll-v3",
+        term: "shade",
+        partOfSpeech: "noun",
+        translation: "(창문에 치거나 내리는) 블라인드, 차양",
+        example: "Johnsy asked Sue to raise the shade so she could see the vine.",
+        exampleTranslation: "존시는 담쟁이덩굴을 볼 수 있게 수에게 블라인드를 올려 달라고 했어요.",
+      },
+      {
+        id: "tll-v4",
+        term: "ladder",
+        partOfSpeech: "noun",
+        translation: "사다리",
+        example: "Behrman carried a ladder out into the storm that night.",
+        exampleTranslation: "베어먼은 그날 밤 폭풍 속으로 사다리를 들고 나갔어요.",
+      },
+      {
+        id: "tll-v5",
+        term: "masterpiece",
+        partOfSpeech: "noun",
+        translation: "걸작, 명작",
+        example: "For forty years Behrman had waited to paint his masterpiece.",
+        exampleTranslation: "40년 동안 베어먼은 자신의 걸작을 그릴 날을 기다려 왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tll-q1",
+        prompt: "Why did the doctor think Johnsy might not get better?",
+        options: [
+          "Her illness was too far advanced to treat.",
+          "She had given up and decided she was going to die.",
+          "There was no medicine for pneumonia.",
+          "She refused to see the doctor at all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The doctor told Sue that medicine could do only so much; Johnsy's real problem was that she had made up her mind not to live.",
+      },
+      {
+        id: "tll-q2",
+        prompt: "What did Johnsy believe about the last ivy leaf?",
+        options: [
+          "That it would bring her good luck if it stayed.",
+          "That she would die when it fell from the vine.",
+          "That Sue had painted it to cheer her up.",
+          "That it marked the end of winter.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Johnsy watched the wind strip the ivy and decided that when the last leaf fell, she would die too.",
+      },
+      {
+        id: "tll-q3",
+        prompt: "How did the last leaf really stay on the wall?",
+        options: [
+          "It was a specially strong leaf that survived the storm.",
+          "Sue tied it to the vine with thread.",
+          "Old Behrman painted it on the wall during the storm, and caught the illness that killed him.",
+          "The warm spring weather had come early.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Behrman went out in the freezing storm with a ladder, a lantern and his paints and painted the last leaf on the brick wall; the cold gave him pneumonia and he died, but the painted leaf gave Johnsy back her will to live.",
+      },
+    ],
+  },
 ];
