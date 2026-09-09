@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Princess and the Pea by Hans Christian Andersen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 170)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-44 61 H 44 M-37 61 V 71 M37 61 V 71" stroke-width="2"/>
+    <circle cx="0" cy="57" r="2.4" fill="#C9A66B" stroke="none"/>
+    <rect x="-40" y="43" width="80" height="11" rx="5.5" stroke-width="1.7" transform="rotate(-1.5 0 48.5)"/>
+    <rect x="-42" y="30" width="84" height="11" rx="5.5" stroke-width="1.7" transform="rotate(1.3 0 35.5)"/>
+    <rect x="-38" y="17" width="76" height="11" rx="5.5" stroke-width="1.7" transform="rotate(-1 0 22.5)"/>
+    <rect x="-41" y="4" width="82" height="11" rx="5.5" stroke-width="1.7" transform="rotate(1.6 0 9.5)"/>
+    <rect x="-37" y="-9" width="74" height="11" rx="5.5" stroke-width="1.7" transform="rotate(-1.2 0 -3.5)"/>
+    <rect x="-39" y="-22" width="78" height="11" rx="5.5" stroke-width="1.7" transform="rotate(1 0 -16.5)"/>
+    <ellipse cx="0" cy="-31" rx="17" ry="7" stroke-width="1.4"/>
+    <path d="M-11 -39 L-11 -48 L-3.5 -42 L0 -51 L3.5 -42 L11 -48 L11 -39 Z" stroke-width="1.5"/>
+    <circle cx="0" cy="-51" r="1.5" fill="#C9A66B" stroke="none"/>
+    <circle cx="-11" cy="-48" r="1.5" fill="#C9A66B" stroke="none"/>
+    <circle cx="11" cy="-48" r="1.5" fill="#C9A66B" stroke="none"/>
+    <path d="M-46 76 q 30 -9 46 -4 t 46 0" stroke-width="1.1" opacity="0.35"/>
+  </g>
+
+  <text x="200" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">The Princess</text>
+  <text x="200" y="353" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">and the Pea</text>
+
+  <line x1="150" y1="388" x2="250" y2="388" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Twenty mattresses and one pea</text>
+
+  <text x="200" y="466" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#C57B57" letter-spacing="1.5">HANS CHRISTIAN ANDERSEN</text>
+  <text x="200" y="488" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1835</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

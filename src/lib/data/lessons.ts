@@ -4123,4 +4123,216 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-princess-and-the-pea",
+    title: "The Princess and the Pea",
+    titleTranslation: "공주와 완두콩",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "👸",
+    coverImage: "/covers/the-princess-and-the-pea.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Princess and the Pea\" (\"Prinsessen paa Ærten\", first published 1835; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain the test the old queen gave the girl, and how it proved she was a real princess.",
+    paragraphs: [
+      [
+        {
+          id: "pap-1",
+          text: "Once upon a time there was a prince who wanted to marry a princess.",
+          translation: "옛날에 한 왕자가 있었는데, 공주와 결혼하고 싶어 했어요.",
+        },
+        {
+          id: "pap-2",
+          text: "But she had to be a real princess, and that was not easy to find.",
+          translation:
+            "하지만 그 공주는 진짜 공주여야 했고, 그런 사람을 찾기는 쉽지 않았어요.",
+        },
+        {
+          id: "pap-3",
+          text: "He travelled all over the world, but there was always something wrong, and he came home very sad.",
+          translation:
+            "왕자는 온 세상을 돌아다녔지만 늘 무언가가 이상했고, 아주 슬픈 마음으로 집에 돌아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "pap-4",
+          text: "One evening a terrible storm came.",
+          translation: "어느 날 저녁, 무서운 폭풍이 몰아쳤어요.",
+        },
+        {
+          id: "pap-5",
+          text: "The rain poured down, and the thunder and lightning were frightening.",
+          translation: "비가 세차게 쏟아졌고, 천둥과 번개가 무서웠어요.",
+        },
+        {
+          id: "pap-6",
+          text: "Then someone knocked at the town gate, and the old king went to open it.",
+          translation:
+            "그때 누군가 마을 성문을 두드렸고, 늙은 왕이 문을 열러 나갔어요.",
+        },
+      ],
+      [
+        {
+          id: "pap-7",
+          text: "A young woman was standing outside in the rain.",
+          translation: "한 젊은 여자가 빗속에 밖에 서 있었어요.",
+        },
+        {
+          id: "pap-8",
+          text: "The water ran down her hair and her clothes, and even through her shoes.",
+          translation:
+            "물이 머리와 옷을 타고 흘러내렸고, 신발 속까지 다 젖어 있었어요.",
+        },
+        {
+          id: "pap-9",
+          text: "But she said, \"I am a real princess.\"",
+          translation: "그런데 그 여자는 \"저는 진짜 공주예요.\"라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "pap-10",
+          text: "\"We will soon see about that,\" the old queen thought, but she said nothing.",
+          translation:
+            "\"곧 알게 되겠지.\" 늙은 왕비는 생각했지만, 아무 말도 하지 않았어요.",
+        },
+        {
+          id: "pap-11",
+          text: "She went to the bedroom and put one little pea on the bottom of the bed.",
+          translation:
+            "왕비는 침실로 가서 침대 맨 아래에 작은 완두콩 하나를 놓았어요.",
+        },
+        {
+          id: "pap-12",
+          text: "Then she piled twenty mattresses and twenty soft quilts on top of the pea.",
+          translation:
+            "그런 다음 그 완두콩 위에 매트리스 스무 개와 푹신한 이불 스무 개를 쌓아 올렸어요.",
+        },
+      ],
+      [
+        {
+          id: "pap-13",
+          text: "The princess slept there all night.",
+          translation: "공주는 그 위에서 밤새 잠을 잤어요.",
+        },
+        {
+          id: "pap-14",
+          text: "In the morning they asked her, \"How did you sleep?\"",
+          translation: "아침에 사람들이 물었어요. \"잘 주무셨어요?\"",
+        },
+        {
+          id: "pap-15",
+          text: "\"Very badly!\" she said. \"There was something hard in the bed, and now I am black and blue all over.\"",
+          translation:
+            "\"아주 나빴어요!\" 공주가 말했어요. \"침대에 딱딱한 게 있어서, 지금 온몸에 멍이 들었어요.\"",
+        },
+      ],
+      [
+        {
+          id: "pap-16",
+          text: "Now the king and queen were happy, because only a real princess could feel a tiny pea through twenty mattresses and twenty quilts.",
+          translation:
+            "이제 왕과 왕비는 기뻤어요. 진짜 공주만이 매트리스 스무 개와 이불 스무 개를 뚫고 작은 완두콩을 느낄 수 있으니까요.",
+        },
+        {
+          id: "pap-17",
+          text: "So the prince married her, and the little pea was put in a museum, where you can still see it today.",
+          translation:
+            "그래서 왕자는 그 공주와 결혼했고, 작은 완두콩은 박물관에 놓였는데, 오늘날에도 거기서 볼 수 있어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "pap-v1",
+        term: "marry",
+        partOfSpeech: "verb",
+        translation: "결혼하다",
+        example: "The prince wanted to marry a real princess, not just any girl.",
+        exampleTranslation: "왕자는 아무 여자가 아니라 진짜 공주와 결혼하고 싶었어요.",
+      },
+      {
+        id: "pap-v2",
+        term: "storm",
+        partOfSpeech: "noun",
+        translation: "폭풍, 폭풍우",
+        example: "One evening a terrible storm brought rain, thunder, and lightning.",
+        exampleTranslation:
+          "어느 날 저녁, 무서운 폭풍이 비와 천둥과 번개를 몰고 왔어요.",
+      },
+      {
+        id: "pap-v3",
+        term: "gate",
+        partOfSpeech: "noun",
+        translation: "문, 성문",
+        example: "Someone knocked at the town gate late at night.",
+        exampleTranslation: "밤늦게 누군가 마을 성문을 두드렸어요.",
+      },
+      {
+        id: "pap-v4",
+        term: "pea",
+        partOfSpeech: "noun",
+        translation: "완두콩",
+        example: "The queen put one small pea under all the mattresses.",
+        exampleTranslation: "왕비는 작은 완두콩 하나를 모든 매트리스 밑에 두었어요.",
+      },
+      {
+        id: "pap-v5",
+        term: "black and blue",
+        partOfSpeech: "phrase",
+        translation: "온몸에 멍이 든",
+        example: "The bed was so hard that the princess was black and blue in the morning.",
+        exampleTranslation:
+          "침대가 너무 딱딱해서 공주는 아침에 온몸에 멍이 들었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "pap-q1",
+        prompt: "What kind of princess did the prince want to marry?",
+        options: [
+          "A princess who could sing and dance well.",
+          "A real princess, not just any girl.",
+          "A princess from his own country.",
+          "The richest princess in the world.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The prince did not want just any girl — he was looking for a true, real princess, and he could not find one anywhere in the world.",
+      },
+      {
+        id: "pap-q2",
+        prompt: "What did the old queen hide in the bed?",
+        options: [
+          "A gold ring under the pillow.",
+          "A letter for the princess to find.",
+          "One small pea under twenty mattresses and twenty quilts.",
+          "A hard piece of wood in the middle of the bed.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "To test the girl, the queen secretly placed a single pea at the bottom of the bed and piled twenty mattresses and twenty quilts on top of it.",
+      },
+      {
+        id: "pap-q3",
+        prompt: "How did everyone know she was a real princess?",
+        options: [
+          "She wore a golden crown to breakfast.",
+          "She knew the names of all the kings and queens.",
+          "She felt the tiny pea through all the mattresses and slept very badly.",
+          "She arrived in a carriage pulled by white horses.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Only a real princess could be so delicate: she felt the little pea through twenty mattresses and twenty quilts, and woke up black and blue.",
+      },
+    ],
+  },
 ];

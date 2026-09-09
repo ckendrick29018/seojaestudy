@@ -125,7 +125,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 15 | The Little Mermaid | Hans Christian Andersen (1875) | 1597 | B1 | trimmed to 1–2 scenes | ☐ |
 | 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
 | 17 | The Emperor's New Clothes | Hans Christian Andersen (1875) | 1597 | A1 | whole (simplified retelling, 17 sentences) | ☑ |
-| 18 | The Princess and the Pea | Hans Christian Andersen (1875) | 1597 | A1 | whole | ☐ |
+| 18 | The Princess and the Pea | Hans Christian Andersen (1875) | 1597 | A1 | whole (simplified retelling, 17 sentences) | ☑ |
 | 19 | Beauty and the Beast | Mme de Beaumont / Lang | 503 | A2 | trimmed (Blue Fairy Book) | ☐ |
 | 20 | East of the Sun and West of the Moon | Asbjørnsen & Moe / Lang | 503 | B1 | trimmed | ☐ |
 | 21 | The Twelve Dancing Princesses | Brothers Grimm / Lang | 503 | A2 | whole | ☐ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (18):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (19):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Little Women Ch. 1 (row 39),
   The Ugly Duckling (row 16), Cinderella (row 10), Pride and Prejudice Ch. 1
   (row 27), Pride and Prejudice Ch. 34 (row 28), Jane Eyre Ch. 1 (row 33),
@@ -208,21 +208,22 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 22), The Lady with the Dog Part I (row 26), Wuthering Heights Ch. 3
   (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's New Clothes
   (row 17), Alice's Adventures in Wonderland Ch. 1 (row 23), The Happy
-  Prince (row 7). Follow their shape in `src/lib/data/lessons.ts`. Every live
+  Prince (row 7), The Princess and the Pea (row 18). Follow their shape in
+  `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×3 (Cinderella, The Selfish Giant, The
-  Emperor's New Clothes), A2 ×7 (Story of an Hour, Anne, Little Women, Ugly
-  Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince),
-  B1 ×4 (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A
-  Christmas Carol), B2 ×4 (Jane Eyre, The Lady with the Dog, Wuthering
-  Heights, Pride and Prejudice Ch. 34). A1 is now the thinnest at 3 and A2
-  the deepest at 7; next builds should lean A1 and B1. Alice in Wonderland
-  is still A2's only entry that is neither a fairy tale nor gentle domestic
-  fiction.
-- Good next lessons to build: **The Princess and the Pea** (row 18, A1 —
-  Andersen, whole and very short), **Little Red Riding Hood** (row 11, A1 —
-  Grimm, whole) — both shore up the thin A1 band — and **Sense and
+- Levels on the shelf now: A1 ×4 (Cinderella, The Selfish Giant, The
+  Emperor's New Clothes, The Princess and the Pea), A2 ×7 (Story of an Hour,
+  Anne, Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
+  Ch. 1, The Happy Prince), B1 ×4 (Gift of the Magi, Pride and Prejudice
+  Ch. 1, The Necklace, A Christmas Carol), B2 ×4 (Jane Eyre, The Lady with
+  the Dog, Wuthering Heights, Pride and Prejudice Ch. 34). A1 and B1 now sit
+  at 4 each (thinnest), A2 the deepest at 7; next builds should lean B1.
+  Alice in Wonderland is still A2's only entry that is neither a fairy tale
+  nor gentle domestic fiction.
+- Good next lessons to build: **Little Red Riding Hood** (row 11, A1 —
+  Grimm, whole), **Anne of Green Gables Ch. 3** (row 44, B1 — "Marilla is
+  astonished"; the natural sequel to the live Ch. 2 lesson), **Sense and
   Sensibility Ch. 1** (row 29, B1 — the Dashwoods lose Norland; adds a third
   Austen).
