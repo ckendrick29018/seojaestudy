@@ -7368,4 +7368,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "rapunzel",
+    title: "Rapunzel",
+    titleTranslation: "라푼젤",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🗼",
+    coverImage: "/covers/rapunzel.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Rapunzel\" (collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's harsher details have been softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how the prince first reached Rapunzel's tower, what the witch did when she found out, and how the story ended.",
+    paragraphs: [
+      [
+        {
+          id: "rpz-1",
+          text: "A woman who was going to have a child longed for a green herb called rapunzel, which grew in a witch's garden.",
+          translation:
+            "곧 아이를 낳을 한 여인이 마녀의 정원에서 자라는 '라푼젤'이라는 푸른 풀을 몹시 먹고 싶어 했어요.",
+        },
+        {
+          id: "rpz-2",
+          text: "Her husband climbed the wall to pick some, but the witch caught him and made a hard bargain.",
+          translation:
+            "남편이 그 풀을 좀 뜯으려고 담을 넘었지만, 마녀에게 붙잡혀 가혹한 거래를 하고 말았어요.",
+        },
+        {
+          id: "rpz-3",
+          text: "He could take the herb, she said, only if he gave her the baby when it was born — and, afraid, he agreed.",
+          translation:
+            "마녀는 아이가 태어나면 자기에게 준다면 풀을 가져가도 좋다고 했고, 겁이 난 남편은 그러겠다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "rpz-4",
+          text: "The witch named the girl Rapunzel, and when Rapunzel was twelve she shut her in a tall tower with no stairs and no door.",
+          translation:
+            "마녀는 그 여자아이를 라푼젤이라 불렀고, 라푼젤이 열두 살이 되자 계단도 문도 없는 높은 탑에 가두었어요.",
+        },
+        {
+          id: "rpz-5",
+          text: "The tower had only one small window at the very top, and Rapunzel had long, shining golden hair.",
+          translation:
+            "탑에는 맨 꼭대기에 작은 창문 하나만 있었고, 라푼젤은 길고 반짝이는 금빛 머리카락을 가지고 있었어요.",
+        },
+        {
+          id: "rpz-6",
+          text: "When the witch wanted to come up, she called, \"Rapunzel, Rapunzel, let down your hair,\" and climbed up the golden braid.",
+          translation:
+            "마녀는 위로 올라가고 싶을 때면 \"라푼젤아, 라푼젤아, 머리카락을 내려 다오.\" 하고 외쳤고, 그 금빛 땋은 머리를 타고 올라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "rpz-7",
+          text: "One day a king's son rode through the forest and heard Rapunzel singing to herself in the tower.",
+          translation:
+            "어느 날 한 왕자가 숲을 지나 말을 달리다가, 탑 안에서 라푼젤이 혼자 노래하는 소리를 들었어요.",
+        },
+        {
+          id: "rpz-8",
+          text: "He watched from behind a tree, saw how the witch climbed up, and the next evening he called the same words.",
+          translation:
+            "왕자는 나무 뒤에 숨어 마녀가 어떻게 올라가는지 지켜보았고, 다음 날 저녁 똑같은 말을 외쳤어요.",
+        },
+        {
+          id: "rpz-9",
+          text: "Rapunzel was frightened at first, but the prince spoke so kindly that soon they were friends, and then they agreed to marry.",
+          translation:
+            "라푼젤은 처음에는 겁을 냈지만, 왕자가 아주 다정하게 말해서 곧 두 사람은 친구가 되었고, 이윽고 결혼하기로 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "rpz-10",
+          text: "Rapunzel asked him to bring a little silk each time he came, so that she could weave a ladder and climb down.",
+          translation:
+            "라푼젤은 왕자가 올 때마다 비단을 조금씩 가져다 달라고 했어요. 그것으로 사다리를 엮어 내려갈 생각이었지요.",
+        },
+        {
+          id: "rpz-11",
+          text: "But one day she forgot herself and asked the witch why she was so much heavier to pull up than the young prince.",
+          translation:
+            "그런데 어느 날 라푼젤은 그만 실수로, 마녀가 젊은 왕자보다 왜 그렇게 훨씬 무겁게 끌어올려지느냐고 물어 버렸어요.",
+        },
+        {
+          id: "rpz-12",
+          text: "The witch flew into a rage, took a pair of scissors, and cut off all of Rapunzel's beautiful hair.",
+          translation:
+            "마녀는 격분하여 가위를 들고, 라푼젤의 아름다운 머리카락을 몽땅 잘라 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "rpz-13",
+          text: "The witch sent Rapunzel far away to a wild and lonely place, then tied the cut hair to the window hook.",
+          translation:
+            "마녀는 라푼젤을 거칠고 외딴곳으로 멀리 보내 버린 뒤, 잘라 낸 머리카락을 창문 고리에 묶어 두었어요.",
+        },
+        {
+          id: "rpz-14",
+          text: "That evening the prince called the words, climbed up the hair — and found the angry witch waiting instead of Rapunzel.",
+          translation:
+            "그날 저녁 왕자는 그 말을 외치고 머리카락을 타고 올라갔지만, 라푼젤 대신 성난 마녀가 기다리고 있는 것을 보았어요.",
+        },
+        {
+          id: "rpz-15",
+          text: "In his grief he fell from the tower and was hurt, and for a long time he wandered blind through the forest, living on roots and berries.",
+          translation:
+            "슬픔에 빠진 왕자는 탑에서 떨어져 다쳤고, 오랫동안 앞을 보지 못한 채 나무뿌리와 산딸기로 연명하며 숲속을 헤맸어요.",
+        },
+      ],
+      [
+        {
+          id: "rpz-16",
+          text: "At last he came to the lonely place where Rapunzel lived, and she ran to him and wept for joy.",
+          translation:
+            "마침내 왕자는 라푼젤이 사는 외딴곳에 이르렀고, 라푼젤은 그에게 달려와 기쁨의 눈물을 흘렸어요.",
+        },
+        {
+          id: "rpz-17",
+          text: "Two of her tears fell on his eyes, and at once he could see again, and he took her home to his kingdom.",
+          translation:
+            "그녀의 눈물 두 방울이 왕자의 두 눈에 떨어지자 왕자는 곧바로 다시 앞을 볼 수 있게 되었고, 라푼젤을 자기 왕국으로 데려갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rpz-v1",
+        term: "herb",
+        partOfSpeech: "noun",
+        translation: "풀, 약초, 허브",
+        example: "The woman longed to eat the green herb growing in the witch's garden.",
+        exampleTranslation: "그 여인은 마녀의 정원에서 자라는 푸른 풀을 먹고 싶어 안달했어요.",
+      },
+      {
+        id: "rpz-v2",
+        term: "tower",
+        partOfSpeech: "noun",
+        translation: "탑",
+        example: "Rapunzel lived alone at the top of a tall tower with no door.",
+        exampleTranslation: "라푼젤은 문이 없는 높은 탑 꼭대기에서 혼자 살았어요.",
+      },
+      {
+        id: "rpz-v3",
+        term: "braid",
+        partOfSpeech: "noun",
+        translation: "땋은 머리, 땋은 것",
+        example: "The witch climbed up Rapunzel's long golden braid.",
+        exampleTranslation: "마녀는 라푼젤의 길고 금빛인 땋은 머리를 타고 올라갔어요.",
+      },
+      {
+        id: "rpz-v4",
+        term: "weave",
+        partOfSpeech: "verb",
+        translation: "(실·천 등을) 짜다, 엮다",
+        example: "Rapunzel planned to weave a ladder out of pieces of silk.",
+        exampleTranslation: "라푼젤은 비단 조각으로 사다리를 엮을 계획이었어요.",
+      },
+      {
+        id: "rpz-v5",
+        term: "rage",
+        partOfSpeech: "noun",
+        translation: "격분, 분노",
+        example: "The witch flew into a rage and cut off Rapunzel's hair.",
+        exampleTranslation: "마녀는 격분하여 라푼젤의 머리카락을 잘라 버렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rpz-q1",
+        prompt: "Why did the witch take the couple's baby?",
+        options: [
+          "The parents could not afford to feed her.",
+          "The father had promised the baby in exchange for herbs from the witch's garden.",
+          "The witch had no children of her own and asked kindly.",
+          "The baby was born with golden hair, which the witch wanted.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Caught stealing the herb rapunzel for his pregnant wife, the husband was forced to promise the witch the child in return, and she took the girl at birth.",
+      },
+      {
+        id: "rpz-q2",
+        prompt: "How did people climb up to Rapunzel in the tower?",
+        options: [
+          "They used a long rope ladder.",
+          "There was a hidden staircase inside the wall.",
+          "Rapunzel let her long hair fall from the window and they climbed it.",
+          "The witch carried them up by magic.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The tower had no door or stairs; anyone who wanted to come up called \"Rapunzel, Rapunzel, let down your hair,\" and climbed her long golden braid.",
+      },
+      {
+        id: "rpz-q3",
+        prompt: "How did the prince get his sight back at the end?",
+        options: [
+          "A doctor in his kingdom cured him.",
+          "The witch took pity and healed him.",
+          "Two of Rapunzel's tears fell on his eyes.",
+          "He washed his eyes in a magic spring.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "After years wandering blind, the prince found Rapunzel again; when she wept for joy, two of her tears fell on his eyes and his sight returned.",
+      },
+    ],
+  },
 ];

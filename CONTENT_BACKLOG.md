@@ -120,7 +120,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 10 | Cinderella | Brothers Grimm (1863) | 2591 | A1 | core scenes, gently softened (17 sentences) | ☑ |
 | 11 | Little Red Riding Hood | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 12 | Snow White | Brothers Grimm (1863) | 2591 | A2 | trimmed (simplified retelling, 17 sentences; gently softened) | ☑ |
-| 13 | Rapunzel | Brothers Grimm (1863) | 2591 | A2 | whole | ☐ |
+| 13 | Rapunzel | Brothers Grimm (1863) | 2591 | A2 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 14 | The Frog Prince | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 15 | The Little Mermaid | Hans Christian Andersen (1875) | 1597 | B1 | trimmed to 1–2 scenes (simplified retelling, 17 sentences; ends on the daughter-of-the-air coda) | ☑ |
 | 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
@@ -200,14 +200,14 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (33):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (34):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), Anne of Green Gables Ch. 2 (row 43), Anne
   of Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
   (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
   Cinderella (row 10), Snow White (row 12), Beauty and the Beast (row 19),
-  Pride and Prejudice Ch. 1
-  (row 27), Pride and Prejudice Ch. 34 (row 28), Sense and Sensibility
-  Ch. 1 (row 29), Emma (row 30), Jane Eyre Ch. 1 (row 33), Frankenstein
+  Rapunzel (row 13), Pride and Prejudice Ch. 1 (row 27), Pride and
+  Prejudice Ch. 34 (row 28), Sense and Sensibility Ch. 1 (row 29), Emma
+  (row 30), Jane Eyre Ch. 1 (row 33), Frankenstein
   Letter 1 (row 71), The Age of Innocence Ch. 1 (row 66), The Selfish
   Giant (row 8), The Nightingale and the Rose (row 9), The Little Mermaid
   (row 15), The Necklace (row 6), A Christmas Carol Stave 1 (row 22), The
@@ -222,21 +222,22 @@ has a genuine period cover/illustration in the public domain, download that into
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×6 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince), A2 ×10 (Story of an Hour, Anne Ch. 2, Little Women,
+  The Frog Prince), A2 ×11 (Story of an Hour, Anne Ch. 2, Little Women,
   Ugly Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy
-  Prince, Snow White, The Last Leaf, Beauty and the Beast), B1 ×10 (Gift
-  of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol,
-  Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The Yellow
-  Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid),
-  B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and
-  Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1,
-  Middlemarch). Bands are now A1 ×6, B2 ×7, A2 ×10, B1 ×10 — A1 is clearly
-  the lightest; lean A1 next. Within A2, Alice in Wonderland is still the
-  only entry that is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Rapunzel** (row 13, A2 — Grimm, whole),
-  **East of the Sun and West of the Moon** (row 20, B1 — Lang, trimmed),
-  **The Twelve Dancing Princesses** (row 21, A2 — Grimm/Lang, whole). A1 is
-  the lightest band at 6 and its remaining unbuilt titles are thin —
-  consider re-levelling an A2 Grimm tale down to A1. Note: row 56 (A Room
-  with a View) is **not** clear to build — Forster died 1970, so it is not
-  public domain in life+70 countries (including Korea) until 2041.
+  Prince, Snow White, The Last Leaf, Beauty and the Beast, Rapunzel),
+  B1 ×10 (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A
+  Christmas Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1,
+  The Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little
+  Mermaid), B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering Heights,
+  Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence
+  Ch. 1, Middlemarch). Bands are now A1 ×6, B2 ×7, B1 ×10, A2 ×11 — A1 and
+  B2 are the lightest; lean A1/B2 next. Within A2, Alice in Wonderland is
+  still the only entry that is neither a fairy tale nor gentle domestic
+  fiction.
+- Good next lessons to build: **The Awakening Ch. 1** (row 69, B2 — Chopin,
+  Grand Isle), **The House of Mirth Bk 1 Ch. 1** (row 67, B2 — Lily Bart at
+  the station), **East of the Sun and West of the Moon** (row 20, B1 —
+  Lang, trimmed). A1 is thin at 6 and its remaining unbuilt titles are
+  slight — consider re-levelling an A2 Grimm tale down to A1. Note: row 56
+  (A Room with a View) is **not** clear to build — Forster died 1970, so it
+  is not public domain in life+70 countries (including Korea) until 2041.
