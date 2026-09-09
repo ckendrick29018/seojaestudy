@@ -134,6 +134,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 24 | The Gift of the Magi collection — pick 1 more | O. Henry (1910) | 2776 | A2/B1 | one story from *The Four Million* | ☐ |
 | 25 | The Bet | Anton Chekhov (1904) | 13415 | B1 | whole (simplified retelling, 17 sentences; heavily trimmed) | ☑ |
 | 26 | The Lady with the Dog | Anton Chekhov (1904) | 13415 | B2 | Part I — the meeting at Yalta, simplified retelling, 17 sentences | ☑ |
+| 74 | The Tale of Peter Rabbit | Beatrix Potter (1943) | 14838 | A1 | whole (simplified retelling, 17 sentences; peril kept light) — new A1 row to thicken the thinnest band; Potter has more (Benjamin Bunny #14407, Jemima Puddle-Duck, Mrs. Tiggy-Winkle) | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -200,8 +201,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (61):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (62):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
+  The Tale of Peter Rabbit (row 74),
   The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -235,9 +237,9 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×7 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×8 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince, Pollyanna Ch. 1), A2 ×16 (Story of an Hour, Anne Ch. 2,
+  The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit), A2 ×16 (Story of an Hour, Anne Ch. 2,
   Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
   Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
   Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
@@ -256,17 +258,18 @@ has a genuine period cover/illustration in the public domain, download that into
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×7, A2 ×16, B1 ×21,
-  B2 ×17 — A1 is still the thinnest.
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×8, A2 ×16, B1 ×21,
+  B2 ×17 — A1 is still the thinnest, but B1 (21) is the one that no longer
+  needs feeding.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Anne of Avonlea Ch. 1** (row 60, B1 —
-  Anne, now a teacher), **Northanger Abbey Ch. 1** (row 32, B1 — Austen,
-  "born to be a heroine"), **The Story Girl Ch. 1** (row 47, B1 — the
-  orchard). A1 (7) is still behind and the backlog has no
-  more A1 rows — re-level a gentle A2
-  tale down to A1 (e.g.
-  The Twelve Dancing Princesses or Rapunzel), or add new A1 rows.
+- Good next lessons to build: **Northanger Abbey Ch. 1** (row 32, B1 —
+  Austen, "born to be a heroine"), **The Story Girl Ch. 1** (row 47, B1 —
+  the orchard), **Rose in Bloom Ch. 1** (row 42, B1 — Alcott). For A1,
+  Beatrix Potter is now the seam to mine — **The Tale of Benjamin Bunny**
+  (PG #14407), **Jemima Puddle-Duck**, **Mrs. Tiggy-Winkle** are all short,
+  gentle, and world-famous; or re-level a gentle A2 tale (The Twelve
+  Dancing Princesses, Rapunzel) down to A1.
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in

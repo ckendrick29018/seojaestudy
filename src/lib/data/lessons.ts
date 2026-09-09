@@ -13385,4 +13385,215 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-tale-of-peter-rabbit",
+    title: "The Tale of Peter Rabbit",
+    titleTranslation: "피터 래빗 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Beatrix Potter (1866–1943)",
+    coverEmoji: "🐰",
+    coverImage: "/covers/the-tale-of-peter-rabbit.svg",
+    source:
+      "Adapted from Beatrix Potter's \"The Tale of Peter Rabbit\" (first published 1902; in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain where Peter was told not to go, and what happened to him when he went there anyway.",
+    paragraphs: [
+      [
+        {
+          id: "pr-1",
+          text: "Once there were four little rabbits. Their names were Flopsy, Mopsy, Cotton-tail, and Peter.",
+          translation:
+            "옛날에 아기 토끼 네 마리가 있었어요. 이름은 플롭시, 몹시, 코튼테일, 그리고 피터였어요.",
+        },
+        {
+          id: "pr-2",
+          text: "They lived with their mother in a sandy burrow under a big fir tree.",
+          translation: "그들은 엄마와 함께 큰 전나무 아래 모래 굴에서 살았어요.",
+        },
+      ],
+      [
+        {
+          id: "pr-3",
+          text: "One morning their mother said, \"You may play in the fields, but do not go into Mr. McGregor's garden.\"",
+          translation:
+            "어느 날 아침, 엄마가 말했어요. \"들판에서는 놀아도 되지만, 맥그리거 아저씨네 밭에는 들어가지 마.\"",
+        },
+        {
+          id: "pr-4",
+          text: "\"Your father had trouble there. Now be good while I am away.\"",
+          translation: "\"너희 아빠가 거기서 큰일을 당했단다. 엄마가 없는 동안 얌전히 있으렴.\"",
+        },
+        {
+          id: "pr-5",
+          text: "Then she took her basket and went to the baker's shop.",
+          translation: "그러고 나서 엄마는 바구니를 들고 빵집에 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "pr-6",
+          text: "Flopsy, Mopsy, and Cotton-tail were good little rabbits. They went down the lane to pick blackberries.",
+          translation:
+            "플롭시, 몹시, 코튼테일은 착한 아기 토끼였어요. 그들은 오솔길을 따라 내려가 블랙베리를 땄어요.",
+        },
+        {
+          id: "pr-7",
+          text: "But Peter was naughty. He ran straight to Mr. McGregor's garden and squeezed under the gate.",
+          translation:
+            "하지만 피터는 장난꾸러기였어요. 피터는 곧장 맥그리거 아저씨네 밭으로 달려가 문 밑으로 비집고 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "pr-8",
+          text: "First he ate some lettuces. Then he ate some beans and some radishes.",
+          translation: "먼저 상추를 좀 먹었어요. 그다음에는 콩과 무를 먹었어요.",
+        },
+        {
+          id: "pr-9",
+          text: "Soon his stomach felt sick, so he went to look for some parsley.",
+          translation: "곧 배가 아파 와서, 피터는 파슬리를 찾으러 갔어요.",
+        },
+        {
+          id: "pr-10",
+          text: "But at the end of a row, he met Mr. McGregor!",
+          translation: "그런데 밭이랑 끝에서 맥그리거 아저씨와 딱 마주쳤어요!",
+        },
+      ],
+      [
+        {
+          id: "pr-11",
+          text: "Mr. McGregor jumped up and ran after him, shouting, \"Stop! Stop!\"",
+          translation:
+            "맥그리거 아저씨는 벌떡 일어나 \"거기 서! 서!\" 하고 소리치며 피터를 쫓아왔어요.",
+        },
+        {
+          id: "pr-12",
+          text: "Peter was very frightened. He ran this way and that way, and lost one of his shoes among the cabbages.",
+          translation:
+            "피터는 몹시 무서웠어요. 이리저리 뛰어다니다가 양배추밭에서 신발 한 짝을 잃어버렸어요.",
+        },
+        {
+          id: "pr-13",
+          text: "His little blue jacket caught on a net, so he wriggled out of it and ran on.",
+          translation:
+            "작은 파란 웃옷이 그물에 걸리자, 피터는 몸을 비틀어 웃옷을 벗어 두고 계속 달렸어요.",
+        },
+        {
+          id: "pr-14",
+          text: "He hid in a watering can in the shed, but then he sneezed and had to run again.",
+          translation:
+            "피터는 창고에 있던 물뿌리개 안에 숨었지만, 그만 재채기를 해서 다시 달아나야 했어요.",
+        },
+      ],
+      [
+        {
+          id: "pr-15",
+          text: "At last Peter found the gate. He slipped under it and was safe in the wood outside.",
+          translation:
+            "마침내 피터는 문을 찾았어요. 문 밑으로 빠져나가 바깥 숲으로 안전하게 도망쳤어요.",
+        },
+        {
+          id: "pr-16",
+          text: "He ran all the way home and lay down on the soft floor of the burrow. He was too tired to speak.",
+          translation:
+            "피터는 집까지 쉬지 않고 달려가 굴의 부드러운 바닥에 드러누웠어요. 너무 지쳐서 말도 할 수 없었어요.",
+        },
+        {
+          id: "pr-17",
+          text: "That evening his mother gave him a cup of warm camomile tea, while the other three had bread and milk and blackberries.",
+          translation:
+            "그날 저녁, 엄마는 피터에게 따뜻한 캐모마일 차 한 잔을 주었어요. 다른 세 마리는 빵과 우유와 블랙베리를 먹었지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "pr-v1",
+        term: "burrow",
+        partOfSpeech: "noun",
+        translation: "굴 (동물이 파서 사는 곳)",
+        example: "The rabbits lived in a burrow under a tree.",
+        exampleTranslation: "토끼들은 나무 아래 굴에서 살았어요.",
+      },
+      {
+        id: "pr-v2",
+        term: "lane",
+        partOfSpeech: "noun",
+        translation: "좁은 길, 오솔길",
+        example: "The three good rabbits went down the lane.",
+        exampleTranslation: "착한 토끼 세 마리는 오솔길을 따라 내려갔어요.",
+      },
+      {
+        id: "pr-v3",
+        term: "naughty",
+        partOfSpeech: "adjective",
+        translation: "말을 안 듣는, 장난꾸러기의",
+        example: "Peter was naughty and did not listen to his mother.",
+        exampleTranslation: "피터는 장난꾸러기여서 엄마 말을 듣지 않았어요.",
+      },
+      {
+        id: "pr-v4",
+        term: "frightened",
+        partOfSpeech: "adjective",
+        translation: "겁먹은, 무서워하는",
+        example: "Peter was frightened when Mr. McGregor ran after him.",
+        exampleTranslation: "맥그리거 아저씨가 쫓아오자 피터는 겁이 났어요.",
+      },
+      {
+        id: "pr-v5",
+        term: "safe",
+        partOfSpeech: "adjective",
+        translation: "안전한",
+        example: "Peter was safe when he reached the wood.",
+        exampleTranslation: "숲에 이르자 피터는 안전했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "pr-q1",
+        prompt: "Where did the mother rabbit tell her children not to go?",
+        options: [
+          "Down the lane.",
+          "Into Mr. McGregor's garden.",
+          "Under the fir tree.",
+          "To the baker's shop.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Before she left for the baker's, the mother rabbit said the little rabbits could play in the fields but must not go into Mr. McGregor's garden, because their father had had trouble there.",
+      },
+      {
+        id: "pr-q2",
+        prompt: "What did Peter do that his sisters did not do?",
+        options: [
+          "He picked blackberries by the lane.",
+          "He stayed at home with his mother.",
+          "He went straight into the garden and ate the vegetables.",
+          "He carried the basket to the baker's.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Flopsy, Mopsy, and Cotton-tail obediently gathered blackberries down the lane, but naughty Peter squeezed under the gate into Mr. McGregor's garden and ate lettuces, beans, and radishes.",
+      },
+      {
+        id: "pr-q3",
+        prompt: "How did Peter's adventure end?",
+        options: [
+          "Mr. McGregor caught him and kept him.",
+          "He found his jacket and shoes and put them back on.",
+          "He stayed in the garden until his mother came for him.",
+          "He escaped under the gate, ran home exhausted, and was given camomile tea.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Peter finally slipped under the gate to safety, ran all the way home too tired to speak, and that evening his mother put him to bed with a cup of warm camomile tea while his sisters had a good supper.",
+      },
+    ],
+  },
 ];
