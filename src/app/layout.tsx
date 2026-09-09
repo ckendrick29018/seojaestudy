@@ -1,10 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Noto_Sans_KR, Noto_Serif_KR, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Providers } from "@/components/providers/Providers";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { OnboardingFlow } from "@/components/onboarding/OnboardingFlow";
+
+// Absolute base for OG/canonical URLs in metadata. Falls back to the production
+// domain when NEXT_PUBLIC_SITE_URL isn't set (e.g. local builds).
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.seojaestory.app";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
@@ -26,6 +31,7 @@ const notoSerifKr = Noto_Serif_KR({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "SeoJae Story — Short Stories for Language Learners",
   description:
     "Learn English or Korean through short stories, with instant translations, listening practice, vocabulary flashcards, and gentle writing feedback.",
@@ -62,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <OnboardingFlow />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
