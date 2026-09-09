@@ -7803,4 +7803,222 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-house-of-mirth",
+    title: "The House of Mirth",
+    titleTranslation: "환락의 집",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "🚂",
+    coverImage: "/covers/the-house-of-mirth.svg",
+    source:
+      "Adapted from Book 1, Chapter 1 of Edith Wharton's novel \"The House of Mirth\" (first published 1905; long in the public domain, Project Gutenberg #284). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how Selden and Lily came to have tea together, and what the chapter suggests about Lily's situation in life.",
+    paragraphs: [
+      [
+        {
+          id: "hom-1",
+          text: "Passing through the crowded Grand Central Station one September afternoon, Lawrence Selden caught sight of Miss Lily Bart and stopped, pleased.",
+          translation:
+            "9월의 어느 오후, 붐비는 그랜드 센트럴 역을 지나가던 로런스 셀던은 릴리 바트 양을 발견하고는 반가운 마음에 걸음을 멈췄어요.",
+        },
+        {
+          id: "hom-2",
+          text: "She stood quite still in the middle of the hurrying crowd, and her bright, finished beauty made everyone around her look grey.",
+          translation:
+            "그녀는 바삐 오가는 인파 한가운데 가만히 서 있었고, 그 환하고 완성된 아름다움 때문에 주위 사람들이 온통 잿빛으로 보였어요.",
+        },
+        {
+          id: "hom-3",
+          text: "He had known her for years, and thought that at twenty-nine she was as lovely as ever, though perhaps a little tired underneath.",
+          translation:
+            "그는 여러 해 전부터 그녀를 알고 지냈는데, 스물아홉이 된 그녀가 여전히 예전만큼 아름답다고 생각했어요. 다만 그 아래로 어딘가 조금 지친 기색이 있긴 했지요.",
+        },
+      ],
+      [
+        {
+          id: "hom-4",
+          text: "Lily saw him and came over, smiling. \"Mr. Selden — what good luck. You can save me.\"",
+          translation:
+            "릴리는 그를 보고 웃으며 다가왔어요. \"셀던 씨, 이게 웬 행운이에요. 저를 구해 주실 수 있겠네요.\"",
+        },
+        {
+          id: "hom-5",
+          text: "She had missed her train to a country house party, and the next one would not leave for two long hours.",
+          translation:
+            "그녀는 시골 저택 파티로 가는 기차를 놓쳤고, 다음 기차는 무려 두 시간이 지나야 떠날 참이었어요.",
+        },
+        {
+          id: "hom-6",
+          text: "She could not bear to sit in the dismal ladies' waiting room, she said, and did not know what to do with herself.",
+          translation:
+            "그녀는 을씨년스러운 여성 대합실에 앉아 있는 것은 도저히 못 견디겠다고, 그렇다고 뭘 해야 할지도 모르겠다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "hom-7",
+          text: "Selden's rooms were only a street away, and on an impulse he asked whether she would come and have a cup of tea.",
+          translation:
+            "셀던의 거처는 겨우 한 블록 떨어진 곳이었고, 그는 충동적으로 그녀에게 차 한잔하러 오지 않겠느냐고 물었어요.",
+        },
+        {
+          id: "hom-8",
+          text: "A single young woman did not usually visit a bachelor's flat, and for a moment Lily glanced about her and hesitated.",
+          translation:
+            "미혼의 젊은 여성이 독신 남성의 집을 방문하는 일은 보통 있는 일이 아니었기에, 릴리는 잠시 주위를 둘러보며 망설였어요.",
+        },
+        {
+          id: "hom-9",
+          text: "Then she laughed. \"How delightful. One of the few pleasures of being poor is that now and then you may do something a little rash.\"",
+          translation:
+            "그러더니 그녀는 웃었어요. \"정말 근사하네요. 가난한 것의 몇 안 되는 즐거움 중 하나는, 이따금 조금 경솔한 일을 해도 된다는 거예요.\"",
+        },
+      ],
+      [
+        {
+          id: "hom-10",
+          text: "For Lily was poor, in her world's sense of the word, and she had been living for years on visits, invitations, and other people's houses.",
+          translation:
+            "릴리는, 그녀가 속한 세계의 기준으로 보면 가난했고, 여러 해 동안 남의 집 방문과 초대에 기대어 살아왔어요.",
+        },
+        {
+          id: "hom-11",
+          text: "She was beautiful and clever and admired, but she had no money and no husband, and both were beginning to feel overdue.",
+          translation:
+            "그녀는 아름답고 영리하고 뭇사람의 찬사를 받았지만, 돈도 남편도 없었고, 그 두 가지가 이제는 진작 있었어야 할 것처럼 느껴지기 시작했어요.",
+        },
+        {
+          id: "hom-12",
+          text: "The fine gold bracelet on her wrist, Selden thought, might almost have been a chain.",
+          translation:
+            "그녀의 손목에 걸린 고운 금팔찌가, 셀던이 보기에는 거의 쇠사슬이나 다름없어 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "hom-13",
+          text: "They left the station together and walked toward his building through the warm afternoon streets.",
+          translation:
+            "두 사람은 함께 역을 나와, 따뜻한 오후의 거리를 지나 그의 건물 쪽으로 걸었어요.",
+        },
+        {
+          id: "hom-14",
+          text: "On the steps a large charwoman was down on her knees scrubbing, and she lifted her red face and stared hard at Lily.",
+          translation:
+            "건물 계단에서는 덩치 큰 청소부 한 명이 무릎을 꿇고 바닥을 문질러 닦고 있었는데, 그녀는 벌게진 얼굴을 들어 릴리를 뚫어지게 쳐다보았어요.",
+        },
+        {
+          id: "hom-15",
+          text: "The look was rude and searching, and it left Lily faintly uneasy, though she could not have said why.",
+          translation:
+            "그 눈길은 무례하고 뭔가를 캐는 듯했고, 릴리는 이유는 몰라도 어쩐지 마음이 편치 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "hom-16",
+          text: "\"So this is the Benedick,\" she said, reading the name above the door. \"I never knew where it was.\"",
+          translation:
+            "\"여기가 베네딕이군요.\" 그녀가 문 위에 적힌 이름을 읽으며 말했어요. \"어디 있는 건물인지 여태 몰랐어요.\"",
+        },
+        {
+          id: "hom-17",
+          text: "Selden reminded her that it was a house for single men, and, still amused at her own boldness, she went up with him to tea.",
+          translation:
+            "셀던이 그곳은 독신 남성들이 사는 건물이라고 일러 주자, 그녀는 자신의 대담함이 여전히 우스운 듯 그와 함께 차를 마시러 올라갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hom-v1",
+        term: "impulse",
+        partOfSpeech: "noun",
+        translation: "충동, (갑작스러운) 마음",
+        example: "On an impulse, Selden asked her to come up for tea.",
+        exampleTranslation: "셀던은 충동적으로 그녀에게 차를 마시러 올라오라고 청했어요.",
+      },
+      {
+        id: "hom-v2",
+        term: "rash",
+        partOfSpeech: "adjective",
+        translation: "경솔한, 성급한, 무모한",
+        example: "She enjoyed doing something a little rash now and then.",
+        exampleTranslation: "그녀는 이따금 조금 경솔한 일을 하는 것을 즐겼어요.",
+      },
+      {
+        id: "hom-v3",
+        term: "dismal",
+        partOfSpeech: "adjective",
+        translation: "음침한, 을씨년스러운, 우울한",
+        example: "She did not want to spend two hours in the dismal waiting room.",
+        exampleTranslation: "그녀는 을씨년스러운 대합실에서 두 시간을 보내고 싶지 않았어요.",
+      },
+      {
+        id: "hom-v4",
+        term: "charwoman",
+        partOfSpeech: "noun",
+        translation: "(건물·가정의) 청소부, 파출부",
+        example: "A charwoman was scrubbing the steps when they arrived.",
+        exampleTranslation: "두 사람이 도착했을 때 청소부 한 명이 계단을 문질러 닦고 있었어요.",
+      },
+      {
+        id: "hom-v5",
+        term: "overdue",
+        partOfSpeech: "adjective",
+        translation: "진작 됐어야 할, 이미 늦은",
+        example: "At twenty-nine, both money and a husband were beginning to feel overdue.",
+        exampleTranslation:
+          "스물아홉이 되니, 돈도 남편도 이제는 진작 있었어야 할 것처럼 느껴지기 시작했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hom-q1",
+        prompt: "Why was Lily Bart waiting at the station?",
+        options: [
+          "She was meeting a friend arriving from the country.",
+          "She had missed her train and had two hours until the next one.",
+          "She was looking for Lawrence Selden.",
+          "Her luggage had been lost by the railway.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lily had missed her train to a country house party, and the next one would not leave for two hours; she was standing in the crowd, unsure what to do with the time.",
+      },
+      {
+        id: "hom-q2",
+        prompt: "Why did Lily hesitate before accepting Selden's invitation?",
+        options: [
+          "She did not really like him.",
+          "She was afraid of missing her later train.",
+          "It was not usual for a single young woman to visit a bachelor's flat.",
+          "She had already promised to have tea with someone else.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A single young woman calling at a bachelor's rooms was not quite proper; Lily glanced around and paused, then laughed and went anyway, enjoying the small daring of it.",
+      },
+      {
+        id: "hom-q3",
+        prompt: "How is Lily's position in society described in this chapter?",
+        options: [
+          "She is wealthy and secure, with nothing to worry about.",
+          "She is beautiful and admired, but poor and unmarried, living on other people's hospitality.",
+          "She has just inherited a large fortune from an aunt.",
+          "She has decided to give up society and live quietly.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lily is lovely, clever and much admired, but she has no money and no husband; she has been living for years on visits and invitations, and Selden thinks of her gold bracelet as almost a chain.",
+      },
+    ],
+  },
 ];
