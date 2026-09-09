@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A Little Princess by Frances Hodgson Burnett">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 170)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-16" cy="16" r="12" stroke-width="1.8"/>
+    <circle cx="18" cy="16" r="12" stroke-width="1.8"/>
+    <path d="M-16 4 v24 M-28 16 h24 M-24 8 l16 16 M-8 8 l-16 16" stroke-width="0.9" opacity="0.6"/>
+    <path d="M18 4 v24 M6 16 h24 M10 8 l16 16 M26 8 l-16 16" stroke-width="0.9" opacity="0.6"/>
+    <circle cx="-16" cy="16" r="2" fill="#C9A66B" stroke="none"/>
+    <circle cx="18" cy="16" r="2" fill="#C9A66B" stroke="none"/>
+    <path d="M-24 4 C -24 -14 24 -14 24 4 L24 8 L-24 8 Z" stroke-width="1.9"/>
+    <path d="M-7 -8 h14 v11 h-14 z" stroke-width="1.3"/>
+    <path d="M24 2 l16 -4 M24 7 l16 -1" stroke-width="1.4"/>
+    <path d="M-26 -3 l-5 -2 v7 l5 -1 z" stroke-width="1.3"/>
+    <circle cx="-29" cy="0" r="1" fill="#C9A66B" stroke="none" opacity="0.8"/>
+    <path d="M-56 -18 q 26 -4 52 0 M-58 26 q 30 -5 58 0" stroke-width="1" opacity="0.4"/>
+    <path d="M-52 34 q 38 -10 56 -4 t 56 0" stroke-width="1.1" opacity="0.35"/>
+  </g>
+
+  <text x="200" y="334" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#2C2C2C" letter-spacing="1">A Little Princess</text>
+
+  <line x1="150" y1="370" x2="250" y2="370" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="403" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">A cab in the London fog</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#C57B57" letter-spacing="1.5">FRANCES HODGSON BURNETT</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1905</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

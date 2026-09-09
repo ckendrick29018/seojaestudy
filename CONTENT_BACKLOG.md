@@ -163,7 +163,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — Glen "Notes" and gossip | ☐ |
 | 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" (simplified retelling, 17 sentences) | ☑ |
 | 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
-| 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary | ☐ |
+| 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary (simplified retelling, 17 sentences) | ☑ |
 | 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 — the diamond mines / the fall | ☐ |
 | 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" (simplified retelling, 17 sentences) | ☑ |
 | 54 | The Enchanted April | Elizabeth von Arnim (1941) | — | B1 | Ch. 1 — the advertisement | ☐ |
@@ -200,11 +200,12 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (42):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (43):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
-  Ch. 1 (row 53), East of the Sun and West of the Moon (row 20), The Twelve
+  Ch. 1 (row 53), A Little Princess Ch. 1 (row 51), East of the Sun and
+  West of the Moon (row 20), The Twelve
   Dancing Princesses (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of
   Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
   (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
@@ -226,25 +227,26 @@ has a genuine period cover/illustration in the public domain, download that into
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×6 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince), A2 ×12 (Story of an Hour, Anne Ch. 2, Little Women,
+  The Frog Prince), A2 ×13 (Story of an Hour, Anne Ch. 2, Little Women,
   Ugly Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy
   Prince, Snow White, The Last Leaf, Beauty and the Beast, Rapunzel, The
-  Twelve Dancing Princesses), B1 ×13 (Gift of the Magi, Pride and Prejudice
-  Ch. 1, The Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense
-  and Sensibility Ch. 1, The Yellow Wallpaper, Emma, The Nightingale and
-  the Rose, The Little Mermaid, Ethan Frome prologue, East of the Sun and
-  West of the Moon, The Bet, Cranford Ch. 1), B2 ×10 (Jane Eyre, The Lady
-  with the Dog, Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein
-  Letter 1, The Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1,
-  The House of Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2).
-  Bands are now A1 ×6, B2 ×10, A2 ×12, B1 ×14 — A1 is far behind the
-  others. Within A2, Alice in Wonderland is still the only entry that is
-  neither a fairy tale nor gentle domestic fiction.
+  Twelve Dancing Princesses, A Little Princess Ch. 1), B1 ×14 (Gift of the
+  Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol, Anne of
+  Green Gables Ch. 3, Sense and Sensibility Ch. 1, The Yellow Wallpaper,
+  Emma, The Nightingale and the Rose, The Little Mermaid, Ethan Frome
+  prologue, East of the Sun and West of the Moon, The Bet, Cranford Ch. 1),
+  B2 ×10 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and
+  Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1,
+  Middlemarch, The Awakening Ch. 1, The House of Mirth Bk 1 Ch. 1, The
+  Country of the Pointed Firs Ch. 1–2). Bands are now A1 ×6, B2 ×10,
+  A2 ×13, B1 ×14 — A1 is far behind the others. Within A2, Alice in
+  Wonderland is still the only entry that is neither a fairy tale nor
+  gentle domestic fiction.
 - Good next lessons to build: **North and South Ch. 1** (row 64, B2 —
   Gaskell), **Silas Marner Ch. 12** (row 62, B1 — the child at the hearth),
-  **A Little Princess Ch. 1** (row 51, A2 — Sara arrives at the seminary; a
-  second Burnett). A1 (6) is far behind and the backlog has no more A1
-  rows — re-level an A2 tale down to A1, or add new A1 rows. Note: row 56
+  **The Blue Castle Ch. 1** (row 45, B1 — Montgomery, Valancy's rainy
+  birthday). A1 (6) is far behind and the backlog has no more A1 rows —
+  re-level an A2 tale down to A1, or add new A1 rows. Note: row 56
   (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.

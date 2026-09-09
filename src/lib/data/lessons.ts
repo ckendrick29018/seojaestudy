@@ -9322,4 +9322,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "a-little-princess",
+    title: "A Little Princess",
+    titleTranslation: "소공녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "🌫️",
+    coverImage: "/covers/a-little-princess.svg",
+    source:
+      "Adapted from Chapter 1 of Frances Hodgson Burnett's novel \"A Little Princess\" (first published 1905, Project Gutenberg #146), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Sara was left at Miss Minchin's school, and why the school treated her so well at first.",
+    paragraphs: [
+      [
+        {
+          id: "alp-1",
+          text: "On a dark winter day, in a thick yellow London fog, a cab moved slowly through the streets.",
+          translation:
+            "어느 어두운 겨울날, 짙은 노란 런던 안개 속을 삯마차 한 대가 거리를 천천히 지나가고 있었어요.",
+        },
+        {
+          id: "alp-2",
+          text: "Inside sat a little girl of seven called Sara Crewe, holding tightly to her father's hand.",
+          translation:
+            "안에는 세라 크루라는 일곱 살 여자아이가 아버지의 손을 꼭 붙잡고 앉아 있었어요.",
+        },
+        {
+          id: "alp-3",
+          text: "Sara had a small, plain face and big, thoughtful grey-green eyes, and she looked much older than seven.",
+          translation:
+            "세라는 작고 수수한 얼굴에 크고 생각이 깊은 회록색 눈을 하고 있었으며, 일곱 살보다 훨씬 나이 들어 보였어요.",
+        },
+      ],
+      [
+        {
+          id: "alp-4",
+          text: "Sara and Captain Crewe had come all the way from India, where Sara was born and where they had always lived together.",
+          translation:
+            "세라와 크루 대위는 인도에서 먼 길을 왔는데, 세라가 태어난 곳이자 두 사람이 늘 함께 살아온 곳이 바로 그곳이었어요.",
+        },
+        {
+          id: "alp-5",
+          text: "Her mother had died long ago, and Sara loved her kind, cheerful father more than anyone in the world.",
+          translation:
+            "어머니는 오래전에 세상을 떠났고, 세라는 다정하고 명랑한 아버지를 세상 누구보다 사랑했어요.",
+        },
+        {
+          id: "alp-6",
+          text: "Now she was old enough for school, so he had brought her to England to leave her there — and neither of them wanted to say it aloud.",
+          translation:
+            "이제 세라가 학교에 갈 나이가 되어서, 아버지는 그녀를 두고 가려고 영국으로 데려왔어요. 그리고 두 사람 다 그 말을 소리 내어 하고 싶지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "alp-7",
+          text: "The cab stopped at a large, dull brick house with a shining brass plate: \"Miss Minchin's School for Young Ladies.\"",
+          translation:
+            "삯마차는 반짝이는 놋쇠 문패가 붙은 크고 칙칙한 벽돌집 앞에 멈췄어요. 문패에는 \"민친 선생의 숙녀 학교\"라고 적혀 있었지요.",
+        },
+        {
+          id: "alp-8",
+          text: "Inside, the front room was cold and stiff, with hard chairs and an unfriendly feeling.",
+          translation:
+            "안으로 들어가니 응접실은 차갑고 딱딱했고, 의자도 뻣뻣했으며, 어딘가 서먹한 느낌이 감돌았어요.",
+        },
+        {
+          id: "alp-9",
+          text: "Miss Minchin came in — a tall woman with large, cold, fish-like eyes and a large, cold smile.",
+          translation:
+            "민친 선생이 들어왔어요. 크고 차갑고 물고기 같은 눈에, 크고 차가운 미소를 지닌 키 큰 여자였어요.",
+        },
+      ],
+      [
+        {
+          id: "alp-10",
+          text: "She was very sweet to Captain Crewe, because he was rich, and a rich pupil was worth a great deal to her.",
+          translation:
+            "그녀는 크루 대위에게 아주 상냥했는데, 그가 부유했기 때문이에요. 부유한 학생 하나는 그녀에게 대단한 값어치가 있었거든요.",
+        },
+        {
+          id: "alp-11",
+          text: "\"What a beautiful, clever little girl,\" she said, though Sara knew quite well that she was not beautiful.",
+          translation:
+            "\"참으로 아름답고 영리한 아이로군요.\" 그녀가 말했지만, 세라는 자기가 아름답지 않다는 것을 아주 잘 알고 있었어요.",
+        },
+        {
+          id: "alp-12",
+          text: "Because her father had money, Sara was to have her own bedroom and sitting-room, a pony, a carriage, and a maid of her own.",
+          translation:
+            "아버지에게 돈이 있었기에, 세라는 자기만의 침실과 거실, 조랑말 한 마리, 마차 한 대, 그리고 전담 하녀 한 명을 두게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "alp-13",
+          text: "Miss Minchin promised to be like a mother to Sara while her father was far away.",
+          translation:
+            "민친 선생은 아버지가 멀리 가 있는 동안 세라에게 어머니처럼 대하겠다고 약속했어요.",
+        },
+        {
+          id: "alp-14",
+          text: "Captain Crewe could not bear a long goodbye, so he held Sara very tight, told her to be brave, and hurried out to the cab.",
+          translation:
+            "크루 대위는 긴 작별을 견딜 수가 없어서, 세라를 아주 꼭 껴안고 씩씩하게 지내라고 이른 뒤 서둘러 삯마차로 나갔어요.",
+        },
+        {
+          id: "alp-15",
+          text: "Sara stood at the window and watched the cab until it turned the corner and was gone.",
+          translation:
+            "세라는 창가에 서서 삯마차가 모퉁이를 돌아 사라질 때까지 그것을 지켜보았어요.",
+        },
+      ],
+      [
+        {
+          id: "alp-16",
+          text: "Then she went up to her fine new room, sat down on the floor, and stayed there very still, staring at nothing.",
+          translation:
+            "그러고 나서 세라는 근사한 새 방으로 올라가, 바닥에 앉아 아무것도 보지 않은 채 아주 가만히 있었어요.",
+        },
+        {
+          id: "alp-17",
+          text: "She did not cry, but she felt colder and more alone than she had ever felt in her life.",
+          translation:
+            "세라는 울지 않았지만, 살면서 느껴 본 적 없을 만큼 더 춥고 더 외로웠어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "alp-v1",
+        term: "fog",
+        partOfSpeech: "noun",
+        translation: "안개",
+        example: "The London streets were hidden in a thick yellow fog.",
+        exampleTranslation: "런던 거리는 짙은 노란 안개에 파묻혀 있었어요.",
+      },
+      {
+        id: "alp-v2",
+        term: "cab",
+        partOfSpeech: "noun",
+        translation: "(예전의 말이 끄는) 삯마차; (택시 같은) 영업용 차",
+        example: "Sara and her father rode slowly through the city in a cab.",
+        exampleTranslation: "세라와 아버지는 삯마차를 타고 도시를 천천히 지나갔어요.",
+      },
+      {
+        id: "alp-v3",
+        term: "plain",
+        partOfSpeech: "adjective",
+        translation: "수수한, 예쁘지도 못생기지도 않은",
+        example: "Sara had a small, plain face and quiet, thoughtful eyes.",
+        exampleTranslation: "세라는 작고 수수한 얼굴에, 조용하고 생각이 깊은 눈을 하고 있었어요.",
+      },
+      {
+        id: "alp-v4",
+        term: "pupil",
+        partOfSpeech: "noun",
+        translation: "학생, (한 선생님에게 배우는) 제자",
+        example: "A rich pupil like Sara was worth a great deal to Miss Minchin.",
+        exampleTranslation: "세라처럼 부유한 학생은 민친 선생에게 큰 가치가 있었어요.",
+      },
+      {
+        id: "alp-v5",
+        term: "maid",
+        partOfSpeech: "noun",
+        translation: "하녀, 가정부",
+        example: "Because her father was rich, Sara was given a maid of her own.",
+        exampleTranslation: "아버지가 부유했기 때문에, 세라에게는 전담 하녀가 한 명 주어졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "alp-q1",
+        prompt: "Why had Captain Crewe brought Sara to England?",
+        options: [
+          "To live with her grandmother.",
+          "To leave her at Miss Minchin's school while he returned to India.",
+          "To find a doctor for her mother.",
+          "To buy her a pony and a carriage.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Sara and her father had always lived together in India, but she was now old enough for school, so he had brought her to England to leave her at Miss Minchin's — a parting neither of them wanted.",
+      },
+      {
+        id: "alp-q2",
+        prompt: "Why was Miss Minchin especially sweet to Captain Crewe?",
+        options: [
+          "He was an old friend of hers.",
+          "She hoped he would marry her.",
+          "He was rich, and a rich pupil meant a great deal of money to her.",
+          "He had promised to teach at the school.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Miss Minchin had large cold fish-like eyes and a cold smile, but she was very sweet to Captain Crewe because he was wealthy, and she arranged for Sara to have her own rooms, a pony, a carriage and a maid.",
+      },
+      {
+        id: "alp-q3",
+        prompt: "How did Sara feel after her father left?",
+        options: [
+          "Excited about her new room and pony.",
+          "Angry with Miss Minchin.",
+          "Colder and more alone than she had ever felt, though she did not cry.",
+          "Sleepy after the long journey.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Sara watched the cab until it was out of sight, then sat down on the floor of her fine new room and stayed very still — not crying, but feeling colder and lonelier than ever before.",
+      },
+    ],
+  },
 ];
