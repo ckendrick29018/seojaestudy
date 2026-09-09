@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
@@ -41,6 +41,15 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   const [render, setRender] = useState(open);
   const [shown, setShown] = useState(false);
 
+  // Set synchronously (before onClose) when the drawer is closing because the
+  // user is navigating away via one of its links — tells the history effect's
+  // cleanup NOT to swallow that navigation with a history.back().
+  const closingToNavigateRef = useRef(false);
+  const closeForNavigation = () => {
+    closingToNavigateRef.current = true;
+    onClose();
+  };
+
   useEffect(() => {
     if (open) {
       setRender(true);
@@ -64,6 +73,32 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = prevOverflow;
+    };
+  }, [open, onClose]);
+
+  // Make the phone Back button (and browser back) close the drawer instead of
+  // navigating the page behind it. On open we push a throwaway history entry;
+  // a `popstate` while open then means "Back was pressed" → just close. If the
+  // drawer is closed any other way (Escape, backdrop, the X, a nav link) we pop
+  // that entry back off so it doesn't pile up — a client-side <Link> nav will
+  // have replaced history.state, so that check leaves real nav history intact.
+  useEffect(() => {
+    if (!open) return;
+    const base = window.history.state ?? {};
+    window.history.pushState({ ...base, __menuDrawer: true }, "");
+    let poppedByBack = false;
+    const onPopState = () => {
+      poppedByBack = true;
+      onClose();
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => {
+      window.removeEventListener("popstate", onPopState);
+      const state = window.history.state as { __menuDrawer?: boolean } | null;
+      if (!poppedByBack && !closingToNavigateRef.current && state?.__menuDrawer) {
+        window.history.back();
+      }
+      closingToNavigateRef.current = false;
     };
   }, [open, onClose]);
 
@@ -121,7 +156,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
                 <Link
                   key={href}
                   href={href}
-                  onClick={onClose}
+                  onClick={closeForNavigation}
                   aria-current={active ? "page" : undefined}
                   className={`flex items-center gap-3 rounded-xl2 px-3 py-2.5 text-sm font-medium transition ${
                     active
@@ -180,7 +215,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
                     )}
                     <button
                       onClick={() => {
-                        onClose();
+                        closeForNavigation();
                         signOut().then(() => window.location.assign("/library"));
                       }}
                       className={`w-full ${rowClass}`}
@@ -190,7 +225,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
                     </button>
                   </>
                 ) : (
-                  <Link href="/login" onClick={onClose} className={rowClass}>
+                  <Link href="/login" onClick={closeForNavigation} className={rowClass}>
                     <UserIcon className="h-5 w-5 shrink-0 text-charcoal/55" />
                     {t("signIn")}
                   </Link>

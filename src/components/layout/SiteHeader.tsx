@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
@@ -16,6 +16,9 @@ export function SiteHeader() {
   const { dueItems } = useStudyPlan();
   const { streak } = useDaily();
   const [menuOpen, setMenuOpen] = useState(false);
+  // Stable identity so MenuDrawer's open/close effects don't re-run on every
+  // header re-render (streak, due-count, …).
+  const closeMenu = useCallback(() => setMenuOpen(false), []);
 
   return (
     <>
@@ -55,7 +58,7 @@ export function SiteHeader() {
         </div>
       </header>
 
-      <MenuDrawer open={menuOpen} onClose={() => setMenuOpen(false)} />
+      <MenuDrawer open={menuOpen} onClose={closeMenu} />
     </>
   );
 }
