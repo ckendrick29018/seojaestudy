@@ -269,6 +269,23 @@ export const dict = {
     ko: "첫 수업 무료 · 가입 불필요 · 오프라인 지원",
   },
 
+  landingPreviewTitle: {
+    en: "See what a lesson looks like",
+    ko: "수업이 어떤 모습인지 살펴보세요",
+  },
+  landingPreviewBody: {
+    en: "Every line is paired with a natural translation, and the words worth keeping become flashcards.",
+    ko: "모든 문장에 자연스러운 번역이 함께 있고, 익혀 둘 만한 단어는 플래시카드가 돼요.",
+  },
+  landingPreviewReadCaption: {
+    en: "A screen from the reader: an English sentence with its Korean translation shown below it.",
+    ko: "리더 화면 예시: 영어 문장과 그 아래에 표시된 한국어 번역.",
+  },
+  landingPreviewCardCaption: {
+    en: "A vocabulary flashcard showing a word, its meaning, and an example sentence.",
+    ko: "단어와 뜻, 예문을 보여 주는 어휘 플래시카드.",
+  },
+
   landingHowTitle: { en: "How a lesson works", ko: "수업은 이렇게 진행돼요" },
   landingStep1Title: { en: "Read a short story", ko: "짧은 이야기를 읽어요" },
   landingStep1Body: {

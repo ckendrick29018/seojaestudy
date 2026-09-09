@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { lessons } from "@/lib/data/lessons";
 import { ClassicCard } from "@/components/home/ClassicCard";
+import { LandingPreview } from "@/components/home/LandingPreview";
 import { useT } from "@/components/providers/LanguageProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import {
@@ -107,6 +108,9 @@ export default function LandingPage() {
         </div>
         <p className="mt-4 text-xs text-charcoal/45">{t("landingTrust")}</p>
       </section>
+
+      {/* A look at the reader + flashcards */}
+      <LandingPreview />
 
       {/* How a lesson works */}
       <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
