@@ -3906,4 +3906,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-happy-prince",
+    title: "The Happy Prince",
+    titleTranslation: "행복한 왕자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Oscar Wilde (1854–1900)",
+    coverEmoji: "🤴",
+    coverImage: "/covers/the-happy-prince.svg",
+    source:
+      "Adapted from Oscar Wilde's fairy tale \"The Happy Prince\" (first published 1888 in the collection \"The Happy Prince and Other Tales\"; long in the public domain, Project Gutenberg #902). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how the Happy Prince used the swallow to help the poor, and what happened to the two of them in the end.",
+    paragraphs: [
+      [
+        {
+          id: "thp-1",
+          text: "High above the city stood the statue of the Happy Prince, covered from head to foot with fine gold, with two bright sapphires for eyes and a red ruby on his sword.",
+          translation:
+            "도시 높은 곳에 행복한 왕자의 동상이 서 있었는데, 온몸이 고운 금으로 덮여 있었고, 두 눈은 반짝이는 사파이어였으며, 칼자루에는 붉은 루비가 박혀 있었어요.",
+        },
+        {
+          id: "thp-2",
+          text: "One night a little swallow, flying late to the warm south, stopped to rest between the statue's feet.",
+          translation:
+            "어느 날 밤, 따뜻한 남쪽으로 뒤늦게 날아가던 작은 제비 한 마리가 동상의 두 발 사이에 내려앉아 쉬었어요.",
+        },
+        {
+          id: "thp-3",
+          text: "As he put his head under his wing, a drop of water fell on him, and then another — the Happy Prince was crying.",
+          translation:
+            "제비가 날개 밑에 머리를 넣으려는데, 물방울 하나가 그 위로 떨어졌고, 이어서 또 한 방울이 떨어졌어요. 행복한 왕자가 울고 있었던 거예요.",
+        },
+      ],
+      [
+        {
+          id: "thp-4",
+          text: "\"When I was alive, I did not know what tears were,\" said the Prince. \"But now I see all the sadness of the city below me, and I cannot stop crying.\"",
+          translation:
+            "\"내가 살아 있을 때는 눈물이 무엇인지 몰랐단다.\" 왕자가 말했어요. \"하지만 지금은 저 아래 도시의 온갖 슬픔이 다 보여서, 우는 것을 멈출 수가 없구나.\"",
+        },
+        {
+          id: "thp-5",
+          text: "\"In a poor room far off, a tired woman is sewing, and her little boy is sick and asking for oranges,\" he said. \"Swallow, take the ruby from my sword and carry it to her.\"",
+          translation:
+            "\"저 멀리 가난한 방에서 지친 여인이 바느질을 하고 있는데, 그 어린 아들은 병이 나서 오렌지를 달라고 하고 있단다.\" 왕자가 말했어요. \"제비야, 내 칼에서 루비를 빼내어 그 여인에게 가져다주렴.\"",
+        },
+        {
+          id: "thp-6",
+          text: "So the swallow carried the great ruby to the poor house, and he fanned the sick boy's face with his wings until the child fell into a cool sleep.",
+          translation:
+            "그래서 제비는 그 커다란 루비를 가난한 집으로 날라다 주었고, 날개로 아픈 아이의 얼굴에 부채질을 해 주어 아이가 시원하게 잠들 때까지 곁을 지켰어요.",
+        },
+      ],
+      [
+        {
+          id: "thp-7",
+          text: "The next night the Prince asked the swallow to fly to a young writer who was cold and hungry and could not finish his play.",
+          translation:
+            "다음 날 밤, 왕자는 제비에게 춥고 배고파서 희곡을 끝내지 못하고 있는 젊은 작가에게 날아가 달라고 부탁했어요.",
+        },
+        {
+          id: "thp-8",
+          text: "\"I have no more rubies,\" said the Prince, \"so take out one of my sapphire eyes and give it to him.\"",
+          translation:
+            "\"이제 나에게 루비는 없단다.\" 왕자가 말했어요. \"그러니 내 사파이어 눈 하나를 빼내어 그에게 주렴.\"",
+        },
+        {
+          id: "thp-9",
+          text: "The swallow cried and did not want to, but he obeyed, and the writer found the jewel and knew that someone cared for him.",
+          translation:
+            "제비는 울면서 그러고 싶지 않았지만 왕자의 말을 따랐고, 작가는 그 보석을 발견하고 누군가 자신을 아껴 주고 있다는 것을 알게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "thp-10",
+          text: "On the third night the swallow gave the Prince's other eye to a little girl who had dropped her matches and was afraid to go home.",
+          translation:
+            "셋째 날 밤, 제비는 성냥을 떨어뜨려 집에 갈 엄두를 못 내던 어린 소녀에게 왕자의 남은 눈 하나를 가져다주었어요.",
+        },
+        {
+          id: "thp-11",
+          text: "Now the Prince was blind, and the swallow decided to stay beside him and never fly to Egypt at all.",
+          translation:
+            "이제 왕자는 앞을 볼 수 없게 되었고, 제비는 이집트로 아예 떠나지 않고 왕자 곁에 머물기로 했어요.",
+        },
+        {
+          id: "thp-12",
+          text: "Day by day the swallow told the blind Prince what he saw: rich people laughing in fine houses, and hungry children sitting in the dark streets.",
+          translation:
+            "날마다 제비는 앞 못 보는 왕자에게 자기가 본 것을 이야기했어요. 좋은 집에서 웃고 있는 부자들, 그리고 어두운 거리에 앉아 있는 굶주린 아이들을요.",
+        },
+      ],
+      [
+        {
+          id: "thp-13",
+          text: "\"Take the gold off my body, piece by piece, and give it to the poor,\" said the Prince, and the swallow did this until the statue looked grey and dull.",
+          translation:
+            "\"내 몸에서 금을 한 조각씩 떼어내어 가난한 사람들에게 주렴.\" 왕자가 말했고, 제비는 동상이 잿빛으로 칙칙해 보일 때까지 그 일을 했어요.",
+        },
+        {
+          id: "thp-14",
+          text: "Then the snow came, and the frost, and the little swallow grew colder and colder and knew that he would die.",
+          translation:
+            "이윽고 눈이 내리고 서리가 앉았으며, 작은 제비는 점점 더 추워져서 자기가 죽으리라는 것을 알았어요.",
+        },
+        {
+          id: "thp-15",
+          text: "The swallow kissed the Happy Prince on the lips and fell down dead at his feet, and at that moment the Prince's heart, which was made of lead, broke in two.",
+          translation:
+            "제비는 행복한 왕자의 입술에 입을 맞추고 그의 발치에 떨어져 죽었고, 바로 그 순간 납으로 만들어진 왕자의 심장이 두 조각으로 갈라졌어요.",
+        },
+      ],
+      [
+        {
+          id: "thp-16",
+          text: "The next day the mayor took down the shabby statue and had it melted, but the broken heart would not melt, so it was thrown away beside the dead bird.",
+          translation:
+            "이튿날 시장은 초라해진 동상을 끌어내려 녹이게 했지만, 깨진 심장은 녹지 않아서 죽은 새 옆에 함께 버려졌어요.",
+        },
+        {
+          id: "thp-17",
+          text: "Then God asked an angel to bring him the two most precious things in the city. The angel chose the leaden heart and the dead swallow, and there in God's garden they lived for ever.",
+          translation:
+            "그때 하느님이 천사에게 그 도시에서 가장 귀중한 것 두 가지를 가져오라고 하셨어요. 천사는 납 심장과 죽은 제비를 골랐고, 그 둘은 하느님의 정원에서 영원히 살게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "thp-v1",
+        term: "statue",
+        partOfSpeech: "noun",
+        translation: "동상, 조각상",
+        example: "The statue of the Happy Prince stood high above the city.",
+        exampleTranslation: "행복한 왕자의 동상은 도시 높은 곳에 서 있었어요.",
+      },
+      {
+        id: "thp-v2",
+        term: "sew",
+        partOfSpeech: "verb",
+        translation: "바느질하다, 꿰매다",
+        example: "The tired woman had to sew all night to earn a little money.",
+        exampleTranslation: "지친 여인은 적은 돈이라도 벌기 위해 밤새 바느질을 해야 했어요.",
+      },
+      {
+        id: "thp-v3",
+        term: "lead",
+        partOfSpeech: "noun",
+        translation: "납 (무겁고 잘 휘는 회색 금속)",
+        example: "The Prince's heart was made of lead, a heavy grey metal.",
+        exampleTranslation: "왕자의 심장은 무거운 회색 금속인 납으로 만들어져 있었어요.",
+      },
+      {
+        id: "thp-v4",
+        term: "frost",
+        partOfSpeech: "noun",
+        translation: "서리",
+        example: "When the frost came, the little swallow grew too cold to fly.",
+        exampleTranslation: "서리가 내리자, 작은 제비는 너무 추워서 날 수 없게 되었어요.",
+      },
+      {
+        id: "thp-v5",
+        term: "precious",
+        partOfSpeech: "adjective",
+        translation: "귀중한, 소중한",
+        example: "God asked for the two most precious things in the whole city.",
+        exampleTranslation: "하느님은 도시 전체에서 가장 귀중한 것 두 가지를 달라고 하셨어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "thp-q1",
+        prompt: "Why was the Happy Prince crying?",
+        options: [
+          "He was afraid that the little swallow would leave him for Egypt.",
+          "From high up he could see all the poverty and sadness in his city.",
+          "The rain and frost had spoiled the gold on his body.",
+          "The people of the city had stopped coming to admire him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The statue stands so high that the Prince sees every unhappy corner of the city, and though his heart is only lead, the sight makes him weep.",
+      },
+      {
+        id: "thp-q2",
+        prompt: "What did the swallow do with the ruby and the two sapphires?",
+        options: [
+          "He hid them between the statue's feet to keep them safe.",
+          "He carried them to the warm south to sell them.",
+          "He gave them to a poor mother, a cold young writer, and a match girl.",
+          "He put them back into the Prince's sword and eyes each morning.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "One by one the swallow takes the jewels to people in need — the ruby to the seamstress's sick child, then a sapphire eye each to the starving writer and the frightened match girl.",
+      },
+      {
+        id: "thp-q3",
+        prompt: "How does the story end for the swallow and the Prince?",
+        options: [
+          "The swallow flies to Egypt at last, and the Prince is repaired with new gold.",
+          "Both die, but an angel carries the leaden heart and the dead bird to God's garden.",
+          "The mayor keeps the statue and builds a new one of the swallow beside it.",
+          "The Prince's heart heals, and he and the swallow live on the column together.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The swallow dies of cold at the Prince's feet and the leaden heart breaks; when the statue is melted down, God has the angel bring him the cracked heart and the dead swallow as the city's two most precious things.",
+      },
+    ],
+  },
 ];
