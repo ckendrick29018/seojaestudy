@@ -11042,4 +11042,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "rebecca-of-sunnybrook-farm",
+    title: "Rebecca of Sunnybrook Farm",
+    titleTranslation: "서니브룩 농장의 레베카",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Kate Douglas Wiggin (1856–1923)",
+    coverEmoji: "🌂",
+    coverImage: "/covers/rebecca-of-sunnybrook-farm.svg",
+    source:
+      "Adapted from Chapter 1 (\"Sunnybrook Farm\") of Kate Douglas Wiggin's novel \"Rebecca of Sunnybrook Farm\" (first published 1903; long in the public domain, Project Gutenberg #498). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Rebecca was on the stagecoach and what she was like as a passenger.",
+    paragraphs: [
+      [
+        {
+          id: "rsf-1",
+          text: "The old yellow stagecoach rolled slowly along the dusty road to Riverboro.",
+          translation: "낡은 노란색 역마차가 리버보로로 가는 먼지투성이 길을 천천히 굴러갔어요.",
+        },
+        {
+          id: "rsf-2",
+          text: "It was a hot morning in May, and the driver was a kind man named Mr. Jeremiah Cobb.",
+          translation:
+            "5월의 더운 아침이었고, 마부는 제리마이어 콥 씨라는 친절한 사람이었어요.",
+        },
+        {
+          id: "rsf-3",
+          text: "That day the coach had only one passenger: a small, thin girl with dark hair and bright eyes.",
+          translation:
+            "그날 마차에는 승객이 딱 한 명 있었어요. 검은 머리에 눈이 반짝이는 작고 마른 여자아이였어요.",
+        },
+      ],
+      [
+        {
+          id: "rsf-4",
+          text: "Her name was Rebecca Randall, and she was ten years old.",
+          translation: "아이의 이름은 레베카 랜들이었고, 열 살이었어요.",
+        },
+        {
+          id: "rsf-5",
+          text: "Rebecca lived far away on a poor farm called Sunnybrook Farm.",
+          translation: "레베카는 멀리 떨어진 서니브룩 농장이라는 가난한 농장에서 살았어요.",
+        },
+        {
+          id: "rsf-6",
+          text: "Her father was dead, and her mother had seven children and very little money.",
+          translation:
+            "아버지는 돌아가셨고, 어머니는 아이가 일곱이나 있었지만 돈은 아주 적었어요.",
+        },
+      ],
+      [
+        {
+          id: "rsf-7",
+          text: "So Rebecca was being sent to live with her two aunts in the brick house at Riverboro.",
+          translation:
+            "그래서 레베카는 리버보로의 벽돌집에 사는 두 이모와 함께 살도록 보내지는 참이었어요.",
+        },
+        {
+          id: "rsf-8",
+          text: "The aunts, Miranda and Jane, would give her a home and send her to school.",
+          translation:
+            "미란다 이모와 제인 이모가 레베카에게 집을 마련해 주고 학교에 보내 줄 거예요.",
+        },
+        {
+          id: "rsf-9",
+          text: "Rebecca sat alone on the hard back seat, holding a small pink parasol.",
+          translation:
+            "레베카는 딱딱한 뒷좌석에 혼자 앉아, 작은 분홍색 양산을 들고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "rsf-10",
+          text: "The parasol was old, but she loved it more than anything else she owned.",
+          translation:
+            "양산은 낡았지만, 레베카는 자기가 가진 그 무엇보다 그 양산을 좋아했어요.",
+        },
+        {
+          id: "rsf-11",
+          text: "After a while, she called out to the driver and asked if she could sit up front with him.",
+          translation:
+            "얼마 뒤, 레베카는 마부를 불러 앞자리에 함께 앉아도 되느냐고 물었어요.",
+        },
+        {
+          id: "rsf-12",
+          text: "Mr. Cobb was surprised, but he stopped the horses and let her climb up beside him.",
+          translation:
+            "콥 씨는 놀랐지만, 말을 세우고 레베카가 자기 옆으로 올라오게 해 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "rsf-13",
+          text: "From that moment, Rebecca did not stop talking.",
+          translation: "그 순간부터 레베카는 이야기를 멈추지 않았어요.",
+        },
+        {
+          id: "rsf-14",
+          text: "She told him about her family, her farm, her brothers and sisters, and her long name.",
+          translation:
+            "레베카는 자기 가족, 농장, 형제자매들, 그리고 자기 긴 이름에 대해 이야기했어요.",
+        },
+        {
+          id: "rsf-15",
+          text: "Her mother had loved two heroines from books, she explained, so she was called Rebecca Rowena.",
+          translation:
+            "어머니가 책 속 여주인공 두 명을 좋아해서 자기 이름이 레베카 로위나가 되었다고 레베카는 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "rsf-16",
+          text: "Mr. Cobb had never heard a child talk so much, or say such interesting things.",
+          translation:
+            "콥 씨는 아이가 그렇게 말을 많이 하는 것도, 그렇게 재미있는 말을 하는 것도 들어 본 적이 없었어요.",
+        },
+        {
+          id: "rsf-17",
+          text: "\"Mother told me to be quiet on the trip,\" Rebecca said at last, \"but it is so hard to remember.\"",
+          translation:
+            "\"엄마가 가는 길에 조용히 있으라고 했어요.\" 마침내 레베카가 말했어요. \"그런데 그걸 기억하기가 참 어려워요.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rsf-v1",
+        term: "stagecoach",
+        partOfSpeech: "noun",
+        translation: "역마차 (옛날에 사람과 우편물을 실어 나르던 마차)",
+        example: "The old stagecoach carried the mail and one or two passengers.",
+        exampleTranslation: "낡은 역마차는 우편물과 승객 한두 명을 실어 날랐어요.",
+      },
+      {
+        id: "rsf-v2",
+        term: "passenger",
+        partOfSpeech: "noun",
+        translation: "승객",
+        example: "That day Rebecca was the only passenger.",
+        exampleTranslation: "그날 레베카는 유일한 승객이었어요.",
+      },
+      {
+        id: "rsf-v3",
+        term: "parasol",
+        partOfSpeech: "noun",
+        translation: "양산",
+        example: "She held her pink parasol carefully on her lap.",
+        exampleTranslation: "레베카는 분홍색 양산을 무릎 위에 조심스럽게 들고 있었어요.",
+      },
+      {
+        id: "rsf-v4",
+        term: "aunt",
+        partOfSpeech: "noun",
+        translation: "이모, 고모, 아주머니 (부모의 여자 형제)",
+        example: "Rebecca was going to live with her aunts Miranda and Jane.",
+        exampleTranslation: "레베카는 미란다 이모, 제인 이모와 함께 살러 가는 길이었어요.",
+      },
+      {
+        id: "rsf-v5",
+        term: "heroine",
+        partOfSpeech: "noun",
+        translation: "(이야기·소설의) 여주인공",
+        example: "Her mother named her after two heroines from books.",
+        exampleTranslation: "어머니는 책 속 여주인공 두 명의 이름을 따서 딸의 이름을 지었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rsf-q1",
+        prompt: "Why was Rebecca travelling to Riverboro on the stagecoach?",
+        options: [
+          "To sell vegetables from Sunnybrook Farm at the market.",
+          "To visit her aunts for a short holiday.",
+          "To live with her two aunts, who would give her a home and send her to school.",
+          "To carry a message from her mother to Mr. Cobb.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Rebecca's father was dead and her mother had seven children and very little money, so Rebecca was being sent to live with her aunts Miranda and Jane in the brick house at Riverboro, where she would have a home and go to school.",
+      },
+      {
+        id: "rsf-q2",
+        prompt: "What did Rebecca do soon after the journey began?",
+        options: [
+          "She fell asleep on the hard back seat.",
+          "She asked to sit up front with the driver, and then talked without stopping.",
+          "She asked Mr. Cobb to turn the coach around.",
+          "She lost her pink parasol out of the window.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After a while Rebecca called to Mr. Cobb and asked to sit beside him; he was surprised but let her climb up front, and from that moment she did not stop talking about her family, her farm, and her name.",
+      },
+      {
+        id: "rsf-q3",
+        prompt: "How did Mr. Cobb react to Rebecca?",
+        options: [
+          "He was annoyed and told her to be silent.",
+          "He could not understand a word she said.",
+          "He asked her to get down and walk beside the coach.",
+          "He had never heard a child talk so much or say such interesting things.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Mr. Cobb was a kind man and, though bewildered, he had never heard a child talk so much or say such interesting things; Rebecca even admitted her mother had told her to stay quiet, but that it was hard to remember.",
+      },
+    ],
+  },
 ];

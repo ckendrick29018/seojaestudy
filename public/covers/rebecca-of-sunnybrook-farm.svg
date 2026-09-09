@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Rebecca of Sunnybrook Farm by Kate Douglas Wiggin">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 166)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-32 4 A 32 27 0 0 1 32 4" stroke-width="1.9"/>
+    <path d="M-32 4 q 5.3 8 10.7 0 q 5.3 8 10.7 0 q 5.3 8 10.7 0 q 5.3 8 10.7 0 q 5.3 8 10.7 0 q 5.3 8 10.7 0" stroke-width="1.4"/>
+    <path d="M0 -30 v-7" stroke-width="1.6"/>
+    <path d="M0 4 L-32 4 M0 4 L-16 -9 M0 4 L0 -30 M0 4 L16 -9 M0 4 L32 4" stroke-width="1.1" opacity="0.8"/>
+    <path d="M0 4 v34" stroke-width="1.8"/>
+    <path d="M0 38 q 0 8 -8 8 q -6 0 -6 -6" stroke-width="1.7"/>
+    <path d="M-54 42 q 40 -9 56 -3 t 56 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="310" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2C2C2C" letter-spacing="1">Rebecca of</text>
+  <text x="200" y="342" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2C2C2C" letter-spacing="1">Sunnybrook Farm</text>
+
+  <line x1="150" y1="376" x2="250" y2="376" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="408" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">The stagecoach to Riverboro</text>
+
+  <text x="200" y="454" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#C57B57" letter-spacing="2">KATE DOUGLAS WIGGIN</text>
+  <text x="200" y="476" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1903</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

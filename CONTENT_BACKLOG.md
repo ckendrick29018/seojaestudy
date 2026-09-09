@@ -169,7 +169,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 54 | The Enchanted April | Elizabeth von Arnim (1941) | — | B1 | Ch. 1 — the advertisement | ☐ |
 | 55 | Elizabeth and Her German Garden | Elizabeth von Arnim (1941) | — | B1 | opening — the garden in May | ☐ |
 | 56 | A Room with a View | E. M. Forster (1970) — US PD (1908) | 2641 | B2 | Ch. 1 — "The Bertolini" | ☐ SKIP: Forster d. 1970, not PD in life+70 countries (incl. Korea) until 2041 — fails sourcing rule #1; do not build until cleared |
-| 57 | Rebecca of Sunnybrook Farm | Kate Douglas Wiggin (1923) | — | A2 | Ch. 1 — the stagecoach ride | ☐ |
+| 57 | Rebecca of Sunnybrook Farm | Kate Douglas Wiggin (1923) | 498 | A2 | Ch. 1 — the stagecoach ride to Riverboro (simplified retelling, 17 sentences) | ☑ |
 | 58 | Pollyanna | Eleanor H. Porter (1920) | 1450 | A1 | Ch. 1 ("Miss Polly") — the letter, and Miss Polly's duty (simplified retelling, 17 sentences; re-levelled A2 → A1 to fill the thin A1 band) | ☑ |
 | 59 | Daddy-Long-Legs | Jean Webster (1916) | 157 | B1 | Ch. 1 — "Blue Wednesday" (simplified retelling, 17 sentences) | ☑ |
 | 60 | Anne of Avonlea | L. M. Montgomery (1942) | — | B1 | Ch. 1 — Anne, now a teacher | ☐ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (50):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (51):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -224,17 +224,19 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 11), The Frog Prince (row 14), The Blue Castle Ch. 1 (row 45),
   Daddy-Long-Legs Ch. 1 (row 59), The Mysteries of Udolpho Vol. 1 Ch. 1
   (row 72), The Mill on the Floss Bk 1 Ch. 5 (row 63), Pollyanna Ch. 1
-  (row 58). Follow their shape in
+  (row 58), Rebecca of Sunnybrook Farm Ch. 1 (row 57). Follow their shape
+  in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×7 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince, Pollyanna Ch. 1), A2 ×13 (Story of an Hour, Anne Ch. 2, Little Women,
-  Ugly Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy
-  Prince, Snow White, The Last Leaf, Beauty and the Beast, Rapunzel, The
-  Twelve Dancing Princesses, A Little Princess Ch. 1), B1 ×17 (Gift of the
+  The Frog Prince, Pollyanna Ch. 1), A2 ×14 (Story of an Hour, Anne Ch. 2,
+  Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
+  Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
+  Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
+  Rebecca of Sunnybrook Farm Ch. 1), B1 ×17 (Gift of the
   Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol, Anne of
   Green Gables Ch. 3, Sense and Sensibility Ch. 1, The Yellow Wallpaper,
   Emma, The Nightingale and the Rose, The Little Mermaid, Ethan Frome
@@ -245,13 +247,13 @@ has a genuine period cover/illustration in the public domain, download that into
   Middlemarch, The Awakening Ch. 1, The House of Mirth Bk 1 Ch. 1, The
   Country of the Pointed Firs Ch. 1–2, North and South Ch. 1, The
   Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1 Ch. 5).
-  Bands are now A1 ×7, B2 ×13, A2 ×13, B1 ×17 — A1 is still the thinnest.
+  Bands are now A1 ×7, A2 ×14, B2 ×13, B1 ×17 — A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
 - Good next lessons to build: **An Old-Fashioned Girl Ch. 1** (row 41, A2
-  — Polly arrives in the city), **Rebecca of Sunnybrook Farm Ch. 1**
-  (row 57, A2 — the stagecoach ride), **Anne of Avonlea Ch. 1** (row 60,
-  B1 — Anne, now a teacher). A1 (7) is still behind and the backlog has no
+  — Polly arrives in the city), **Anne of Avonlea Ch. 1** (row 60, B1 —
+  Anne, now a teacher), **Emily of New Moon Ch. 1** (row 46, B1 — "the
+  house in the hollow"). A1 (7) is still behind and the backlog has no
   more A1 rows — re-level a gentle A2
   tale down to A1 (e.g.
   The Twelve Dancing Princesses or Rapunzel), or add new A1 rows.
