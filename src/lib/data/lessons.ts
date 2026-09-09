@@ -4335,4 +4335,219 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "little-red-riding-hood",
+    title: "Little Red Riding Hood",
+    titleTranslation: "빨간 모자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🧺",
+    coverImage: "/covers/little-red-riding-hood.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Little Red Riding Hood\" (\"Rotkäppchen,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's harsher details have been softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the wolf did while Little Red Riding Hood picked flowers, and how the story ended safely.",
+    paragraphs: [
+      [
+        {
+          id: "lrrh-1",
+          text: "A little girl always wore a red hood her grandmother had made for her, so everyone called her Little Red Riding Hood.",
+          translation:
+            "한 어린 소녀는 할머니가 만들어 준 빨간 모자를 늘 쓰고 다녔고, 그래서 모두 그 아이를 빨간 모자라고 불렀어요.",
+        },
+        {
+          id: "lrrh-2",
+          text: "One day her mother said, \"Grandmother is ill. Take her this cake and be a good girl.\"",
+          translation:
+            "어느 날 어머니가 말했어요. \"할머니가 편찮으셔. 이 케이크를 갖다 드리고, 착하게 굴어야 한다.\"",
+        },
+        {
+          id: "lrrh-3",
+          text: "\"Walk straight to her house through the wood,\" said her mother, \"and do not leave the path.\"",
+          translation:
+            "\"숲을 지나 할머니 집까지 곧장 걸어가거라.\" 어머니가 말했어요. \"그리고 길에서 벗어나면 안 된다.\"",
+        },
+      ],
+      [
+        {
+          id: "lrrh-4",
+          text: "On the way, Little Red Riding Hood met a big wolf, but she did not know that wolves were dangerous.",
+          translation:
+            "가는 길에 빨간 모자는 커다란 늑대를 만났지만, 늑대가 위험하다는 것을 알지 못했어요.",
+        },
+        {
+          id: "lrrh-5",
+          text: "\"Where are you going?\" asked the wolf, and she told him, \"To my grandmother's house at the end of the wood.\"",
+          translation:
+            "\"어디 가니?\" 늑대가 물었고, 그 아이는 \"숲 끝에 있는 할머니 집에요.\"라고 대답했어요.",
+        },
+        {
+          id: "lrrh-6",
+          text: "\"Look at the pretty flowers,\" said the wolf. \"Why not pick some for her?\"",
+          translation:
+            "\"저 예쁜 꽃들을 보렴.\" 늑대가 말했어요. \"할머니께 좀 꺾어다 드리는 게 어때?\"",
+        },
+      ],
+      [
+        {
+          id: "lrrh-7",
+          text: "So Little Red Riding Hood left the path and picked flower after flower, going deeper into the wood.",
+          translation:
+            "그래서 빨간 모자는 길에서 벗어나 꽃을 한 송이씩 꺾으며 숲속으로 점점 더 깊이 들어갔어요.",
+        },
+        {
+          id: "lrrh-8",
+          text: "The wolf ran to Grandmother's house, opened his big mouth, and swallowed her whole.",
+          translation:
+            "늑대는 할머니 집으로 달려가, 커다란 입을 벌려 할머니를 통째로 삼켜 버렸어요.",
+        },
+        {
+          id: "lrrh-9",
+          text: "Then he put on Grandmother's cap and climbed into her bed to wait.",
+          translation: "그러고는 할머니의 모자를 쓰고 침대에 올라가 기다렸어요.",
+        },
+      ],
+      [
+        {
+          id: "lrrh-10",
+          text: "When Little Red Riding Hood came in, she thought Grandmother looked very strange.",
+          translation:
+            "빨간 모자가 안으로 들어왔을 때, 할머니의 모습이 아주 이상해 보인다고 생각했어요.",
+        },
+        {
+          id: "lrrh-11",
+          text: "\"Grandmother, what big eyes you have!\" \"All the better to see you with.\"",
+          translation: "\"할머니, 눈이 왜 그렇게 커요!\" \"너를 더 잘 보려고 그런단다.\"",
+        },
+        {
+          id: "lrrh-12",
+          text: "\"Grandmother, what a big mouth you have!\" \"All the better to eat you with!\" — and the wolf swallowed her too.",
+          translation:
+            "\"할머니, 입이 왜 그렇게 커요!\" \"너를 잡아먹으려고 그런단다!\" 그러더니 늑대는 빨간 모자까지 삼켜 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "lrrh-13",
+          text: "The wolf lay down in the bed and soon fell fast asleep, snoring very loudly.",
+          translation:
+            "늑대는 침대에 드러누웠고, 곧 깊이 잠들어 아주 큰 소리로 코를 골았어요.",
+        },
+        {
+          id: "lrrh-14",
+          text: "A huntsman was passing and heard the noise. \"That is not Grandmother,\" he thought, and he went inside.",
+          translation:
+            "지나가던 사냥꾼이 그 소리를 들었어요. \"저건 할머니가 아니야.\" 하고 생각하며 안으로 들어갔어요.",
+        },
+        {
+          id: "lrrh-15",
+          text: "He saw the wolf, took his knife, and carefully cut the sleeping wolf open.",
+          translation:
+            "사냥꾼은 늑대를 보고는, 칼을 꺼내 잠든 늑대의 배를 조심스럽게 갈랐어요.",
+        },
+      ],
+      [
+        {
+          id: "lrrh-16",
+          text: "Out jumped Little Red Riding Hood, and then Grandmother — both safe and well!",
+          translation:
+            "빨간 모자가 튀어나왔고, 이어서 할머니도 나왔어요. 두 사람 다 무사했어요!",
+        },
+        {
+          id: "lrrh-17",
+          text: "The huntsman took the wolf far away, and Little Red Riding Hood said, \"I will never leave the path again.\"",
+          translation:
+            "사냥꾼은 늑대를 멀리 데려갔고, 빨간 모자는 말했어요. \"다시는 길에서 벗어나지 않을 거예요.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lrrh-v1",
+        term: "hood",
+        partOfSpeech: "noun",
+        translation: "(외투 등에 달린) 모자, 두건",
+        example: "The girl's red hood kept her head warm on cold days.",
+        exampleTranslation: "소녀의 빨간 모자는 추운 날 머리를 따뜻하게 해 주었어요.",
+      },
+      {
+        id: "lrrh-v2",
+        term: "wood",
+        partOfSpeech: "noun",
+        translation: "숲",
+        example: "Grandmother's little house stood deep in the wood.",
+        exampleTranslation: "할머니의 작은 집은 숲 깊은 곳에 있었어요.",
+      },
+      {
+        id: "lrrh-v3",
+        term: "path",
+        partOfSpeech: "noun",
+        translation: "(좁은) 길, 오솔길",
+        example: "Her mother told her to walk straight along the path.",
+        exampleTranslation: "어머니는 길을 따라 곧장 걸어가라고 말했어요.",
+      },
+      {
+        id: "lrrh-v4",
+        term: "swallow",
+        partOfSpeech: "verb",
+        translation: "삼키다, 통째로 삼키다",
+        example: "The wolf opened his mouth and swallowed Grandmother whole.",
+        exampleTranslation: "늑대는 입을 벌려 할머니를 통째로 삼켰어요.",
+      },
+      {
+        id: "lrrh-v5",
+        term: "huntsman",
+        partOfSpeech: "noun",
+        translation: "사냥꾼",
+        example: "A huntsman heard the loud snoring and came to help.",
+        exampleTranslation: "사냥꾼이 요란한 코 고는 소리를 듣고 도우러 왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lrrh-q1",
+        prompt: "What did Little Red Riding Hood's mother tell her to do?",
+        options: [
+          "To run through the wood as fast as she could.",
+          "To stay on the path and take the cake to Grandmother.",
+          "To pick lots of flowers along the way.",
+          "To bring Grandmother back home with her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Her mother sent her straight through the wood to her sick grandmother with a cake, and told her not to leave the path.",
+      },
+      {
+        id: "lrrh-q2",
+        prompt: "Why did Little Red Riding Hood leave the path?",
+        options: [
+          "She saw her grandmother waving to her.",
+          "She was frightened of the wolf and ran away.",
+          "The wolf told her to pick flowers for Grandmother.",
+          "She heard the huntsman calling for help.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The wolf pointed out the pretty flowers and suggested she pick some, so she wandered off the path and deeper into the wood.",
+      },
+      {
+        id: "lrrh-q3",
+        prompt: "How were Grandmother and Little Red Riding Hood saved?",
+        options: [
+          "The wolf let them go and ran away.",
+          "They climbed out of a window while the wolf slept.",
+          "A huntsman heard the snoring, came in, and cut the sleeping wolf open.",
+          "Their mother arrived and chased the wolf off.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A passing huntsman realised the snoring was not Grandmother, found the wolf asleep, and cut it open — out jumped both of them, safe and well.",
+      },
+    ],
+  },
 ];
