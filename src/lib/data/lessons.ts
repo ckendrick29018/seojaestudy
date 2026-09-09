@@ -7151,4 +7151,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "beauty-and-the-beast",
+    title: "Beauty and the Beast",
+    titleTranslation: "미녀와 야수",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Jeanne-Marie Leprince de Beaumont (1711–1780)",
+    coverEmoji: "🏰",
+    coverImage: "/covers/beauty-and-the-beast.svg",
+    source:
+      "Adapted from Jeanne-Marie Leprince de Beaumont's fairy tale \"Beauty and the Beast\" (\"La Belle et la Bête\", 1756), as retold in Andrew Lang's \"The Blue Fairy Book\" (1889; long in the public domain, Project Gutenberg #503). This simplified retelling and its Korean translation are original text written for SeoJae Story; some details have been trimmed and gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Beauty went to the Beast's palace, and what she finally realised that set the Beast free.",
+    paragraphs: [
+      [
+        {
+          id: "bab-1",
+          text: "A merchant had three daughters, and the youngest, called Beauty, was as kind as she was lovely.",
+          translation:
+            "한 상인에게 딸이 셋 있었는데, 벨이라 불리는 막내딸은 예쁜 만큼이나 마음씨도 고왔어요.",
+        },
+        {
+          id: "bab-2",
+          text: "When the merchant had to travel, his elder daughters asked for fine dresses, but Beauty asked only for a single rose.",
+          translation:
+            "상인이 먼 길을 떠나게 되자, 두 언니는 고운 드레스를 사다 달라고 했지만, 벨은 오직 장미 한 송이만 부탁했어요.",
+        },
+        {
+          id: "bab-3",
+          text: "On his way home, lost in a snowy forest, he came to a great dark palace with warm fires and food, but no people at all.",
+          translation:
+            "집으로 돌아오는 길에 눈 덮인 숲에서 길을 잃은 그는, 따뜻한 불과 음식이 있지만 사람은 아무도 없는 크고 어두운 궁전에 이르렀어요.",
+        },
+      ],
+      [
+        {
+          id: "bab-4",
+          text: "In the morning, as he left, he picked one rose from the garden for Beauty.",
+          translation:
+            "아침에 궁전을 나서면서, 그는 벨에게 줄 장미 한 송이를 정원에서 꺾었어요.",
+        },
+        {
+          id: "bab-5",
+          text: "At once a terrible Beast appeared and roared, \"You have stolen my rose, and now you must stay here forever.\"",
+          translation:
+            "그 순간 무시무시한 야수가 나타나 포효했어요. \"네가 내 장미를 훔쳤으니, 이제 너는 영영 이곳에 머물러야 한다.\"",
+        },
+        {
+          id: "bab-6",
+          text: "But the Beast said that a daughter might come in his place instead — if she came of her own free will.",
+          translation:
+            "하지만 야수는 딸 하나가 그 대신 와도 된다고 말했어요. 단, 스스로 원해서 와야 한다는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "bab-7",
+          text: "Beauty would not let her father suffer, so she rode to the palace and told the Beast she would stay.",
+          translation:
+            "벨은 아버지가 고통받게 둘 수 없어서, 궁전으로 말을 달려가 야수에게 자신이 머물겠다고 말했어요.",
+        },
+        {
+          id: "bab-8",
+          text: "She found beautiful rooms, kind servants she could not see, and a garden full of roses.",
+          translation:
+            "그곳에는 아름다운 방들과, 눈에 보이지 않는 친절한 하인들, 그리고 장미가 가득한 정원이 있었어요.",
+        },
+        {
+          id: "bab-9",
+          text: "The Beast was gentle to her, and every evening at supper he asked, \"Beauty, will you marry me?\"",
+          translation:
+            "야수는 벨에게 다정했고, 저녁 식사 때마다 이렇게 물었어요. \"벨, 나와 결혼해 주겠소?\"",
+        },
+      ],
+      [
+        {
+          id: "bab-10",
+          text: "Every evening she answered \"No\" — but she was no longer afraid of him, and she began to look forward to his company.",
+          translation:
+            "저녁마다 벨은 \"싫어요\"라고 대답했어요. 하지만 이제는 야수가 무섭지 않았고, 그와 함께 있는 시간을 기다리게 되었어요.",
+        },
+        {
+          id: "bab-11",
+          text: "In a magic mirror she saw that her father was ill and grieving for her at home.",
+          translation:
+            "마법 거울 속에서 벨은 아버지가 집에서 병이 든 채 자신을 그리워하며 슬퍼하는 모습을 보았어요.",
+        },
+        {
+          id: "bab-12",
+          text: "The Beast gave her a ring and let her visit for one week, but warned that if she stayed away too long, he would die of sorrow.",
+          translation:
+            "야수는 벨에게 반지를 주며 일주일 동안 다녀오게 해 주었지만, 너무 오래 떨어져 있으면 자신이 슬픔으로 죽고 말 거라고 일러 두었어요.",
+        },
+      ],
+      [
+        {
+          id: "bab-13",
+          text: "At home her jealous sisters begged and wept until Beauty promised to stay a few days more.",
+          translation:
+            "집에서는 시샘하는 언니들이 애원하고 눈물을 흘려서, 벨은 며칠 더 머물겠다고 약속하고 말았어요.",
+        },
+        {
+          id: "bab-14",
+          text: "On the eighth night she dreamed the Beast was lying still and cold in his garden.",
+          translation:
+            "여드레째 되는 밤, 벨은 야수가 정원에 차갑게 굳은 채 누워 있는 꿈을 꾸었어요.",
+        },
+        {
+          id: "bab-15",
+          text: "She turned the ring at once and found herself back at the palace, where the Beast lay dying beside the rose bushes.",
+          translation:
+            "벨은 즉시 반지를 돌렸고, 어느새 궁전으로 돌아와 있었는데, 야수는 장미 덤불 곁에서 죽어 가고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "bab-16",
+          text: "\"Do not die,\" she cried. \"I know now that I love you, and I will marry you.\"",
+          translation:
+            "\"죽지 마세요.\" 벨이 울부짖었어요. \"이제 알겠어요. 저는 당신을 사랑해요. 당신과 결혼할게요.\"",
+        },
+        {
+          id: "bab-17",
+          text: "At her words the Beast rose up as a handsome prince, freed at last from a fairy's spell that only true love could break.",
+          translation:
+            "그 말에 야수는 잘생긴 왕자로 일어섰어요. 오직 진실한 사랑만이 풀 수 있는 요정의 마법에서 마침내 벗어난 것이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "bab-v1",
+        term: "merchant",
+        partOfSpeech: "noun",
+        translation: "상인, 무역상",
+        example: "The merchant had lost his ships and most of his money at sea.",
+        exampleTranslation: "그 상인은 배와 재산 대부분을 바다에서 잃었어요.",
+      },
+      {
+        id: "bab-v2",
+        term: "beast",
+        partOfSpeech: "noun",
+        translation: "짐승, 야수",
+        example: "A huge and frightening beast lived alone in the palace.",
+        exampleTranslation: "거대하고 무서운 야수 한 마리가 그 궁전에 혼자 살고 있었어요.",
+      },
+      {
+        id: "bab-v3",
+        term: "roar",
+        partOfSpeech: "verb",
+        translation: "으르렁거리다, 포효하다",
+        example: "The Beast roared with anger when the merchant picked a rose.",
+        exampleTranslation: "상인이 장미를 꺾자 야수는 분노하여 포효했어요.",
+      },
+      {
+        id: "bab-v4",
+        term: "sorrow",
+        partOfSpeech: "noun",
+        translation: "슬픔, 비탄",
+        example: "The Beast said he would die of sorrow if Beauty never came back.",
+        exampleTranslation: "야수는 벨이 다시 돌아오지 않으면 슬픔으로 죽고 말 거라고 말했어요.",
+      },
+      {
+        id: "bab-v5",
+        term: "gentle",
+        partOfSpeech: "adjective",
+        translation: "다정한, 온화한",
+        example: "In spite of his fearful shape, the Beast was always gentle to Beauty.",
+        exampleTranslation: "무시무시한 겉모습과 달리, 야수는 벨에게 늘 다정했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "bab-q1",
+        prompt: "What did Beauty ask her father to bring back?",
+        options: [
+          "A fine silk dress.",
+          "A single rose.",
+          "A box of gold.",
+          "A magic mirror.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "While her proud sisters asked for dresses and jewels, Beauty asked only for one rose — and it was that rose, picked in the Beast's garden, that began all the trouble.",
+      },
+      {
+        id: "bab-q2",
+        prompt: "Why did Beauty go to live in the Beast's palace?",
+        options: [
+          "She wanted to see the roses in his garden.",
+          "Her sisters forced her to leave home.",
+          "She went in her father's place, so that he would not be punished.",
+          "The Beast carried her there against her will.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The Beast said one of the merchant's daughters could come in his place if she came willingly; Beauty would not let her father suffer, so she went herself.",
+      },
+      {
+        id: "bab-q3",
+        prompt: "How was the Beast finally freed?",
+        options: [
+          "Beauty's father broke the fairy's spell.",
+          "Beauty told him she loved him and would marry him.",
+          "The Beast picked one of his own roses.",
+          "Beauty stayed at the palace for a whole year.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A fairy had cursed the prince to be a Beast until someone loved him for his goodness; when Beauty, finding him near death, said she loved him and would marry him, the spell broke and he became a prince again.",
+      },
+    ],
+  },
 ];
