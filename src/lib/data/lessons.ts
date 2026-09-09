@@ -4984,4 +4984,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "frankenstein",
+    title: "Frankenstein",
+    titleTranslation: "프랑켄슈타인",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Mary Shelley (1797–1851)",
+    coverEmoji: "🧭",
+    coverImage: "/covers/frankenstein.svg",
+    source:
+      "Adapted from Letter 1 of Mary Shelley's novel \"Frankenstein; or, The Modern Prometheus\" (first published 1818; long in the public domain, Project Gutenberg #84). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what Walton hopes to find at the North Pole, and what he has done over six years to prepare for the voyage.",
+    paragraphs: [
+      [
+        {
+          id: "frk-1",
+          text: "My dear sister, you will be glad to hear that no disaster has met the start of the journey you feared so much for me.",
+          translation:
+            "사랑하는 누이에게, 네가 그토록 걱정하던 여정이 아무 사고 없이 시작되었다는 소식을 들으면 기뻐하겠지.",
+        },
+        {
+          id: "frk-2",
+          text: "I arrived in St. Petersburg yesterday, and my first task is to tell you that I am well and that my hopes for the expedition are growing.",
+          translation:
+            "나는 어제 상트페테르부르크에 도착했고, 가장 먼저 할 일은 내가 잘 지내고 있으며 이 탐험에 대한 기대가 점점 커지고 있다는 것을 네게 전하는 거야.",
+        },
+        {
+          id: "frk-3",
+          text: "I am already far to the north of London, and as I walk the streets I feel a cold wind from the Arctic that sharpens my mind and fills me with delight.",
+          translation:
+            "나는 이미 런던보다 훨씬 북쪽에 와 있고, 거리를 걸으면 북극에서 불어오는 찬바람이 정신을 또렷하게 하고 나를 기쁨으로 가득 채운단다.",
+        },
+      ],
+      [
+        {
+          id: "frk-4",
+          text: "That wind has blown from the very regions I am travelling toward, and it gives me a foretaste of those icy seas.",
+          translation:
+            "그 바람은 바로 내가 향하고 있는 그 지역에서 불어온 것이라, 나에게 그 얼음 바다를 미리 맛보게 해 줘.",
+        },
+        {
+          id: "frk-5",
+          text: "Others tell me the North Pole is only a place of frost and empty desolation, but I cannot believe it.",
+          translation:
+            "사람들은 북극이 서리와 텅 빈 황량함뿐인 곳이라고 말하지만, 나는 그 말을 믿을 수가 없어.",
+        },
+        {
+          id: "frk-6",
+          text: "In my imagination it is a country of beauty, where the sun never sets and a calm sea carries the traveller to wonders no one has ever seen.",
+          translation:
+            "내 상상 속에서 그곳은 해가 결코 지지 않고, 잔잔한 바다가 여행자를 아무도 본 적 없는 경이로움으로 실어다 주는 아름다운 나라야.",
+        },
+      ],
+      [
+        {
+          id: "frk-7",
+          text: "There, I believe, I may learn what strange power turns the compass needle, and make discoveries useful to sailors for a hundred years.",
+          translation:
+            "나는 그곳에서 나침반 바늘을 돌리는 그 이상한 힘이 무엇인지 알아내고, 앞으로 백 년 동안 뱃사람들에게 도움이 될 발견을 할 수 있으리라 믿어.",
+        },
+        {
+          id: "frk-8",
+          text: "Above all, I will set my restless curiosity to rest by seeing a part of the world no human being has visited before.",
+          translation:
+            "무엇보다도, 나는 어떤 인간도 가 본 적 없는 세상의 한 부분을 직접 봄으로써 가만히 있지 못하는 내 호기심을 잠재울 거야.",
+        },
+        {
+          id: "frk-9",
+          text: "Writing this down has calmed the nervousness I felt when I began the letter, and my heart glows with a hope that lifts me up.",
+          translation:
+            "이렇게 적어 내려가다 보니 편지를 시작할 때 느꼈던 초조함이 가라앉았고, 내 가슴은 나를 들어 올리는 듯한 희망으로 뜨겁게 달아오른단다.",
+        },
+      ],
+      [
+        {
+          id: "frk-10",
+          text: "This voyage has been the favourite dream of my life since I was a boy.",
+          translation: "이 항해는 내가 소년이던 시절부터 내 인생에서 가장 좋아한 꿈이었어.",
+        },
+        {
+          id: "frk-11",
+          text: "My education was neglected, but I read hungrily, and my uncle's shelves of travel books were my whole school.",
+          translation:
+            "내 교육은 소홀히 되었지만, 나는 게걸스럽게 책을 읽었고, 삼촌의 여행기 책장이 내 학교의 전부였지.",
+        },
+        {
+          id: "frk-12",
+          text: "For one year I tried instead to become a poet, and lived in a paradise of my own making, but I failed, and turned back to the sea.",
+          translation:
+            "한 해 동안은 대신 시인이 되려고 애쓰며 내가 만든 낙원 속에서 살았지만, 실패하고는 다시 바다로 돌아왔어.",
+        },
+      ],
+      [
+        {
+          id: "frk-13",
+          text: "Since then I have given six years to getting ready for this single purpose.",
+          translation:
+            "그때부터 나는 이 한 가지 목표를 준비하는 데 육 년을 바쳤어.",
+        },
+        {
+          id: "frk-14",
+          text: "I joined whaling ships in the northern ice, bore cold, hunger, and sleeplessness, and worked harder by day than the common sailors.",
+          translation:
+            "나는 북쪽 얼음 바다의 포경선에 올라 추위와 굶주림과 잠 못 이루는 밤을 견뎠고, 낮에는 보통 선원들보다 더 힘들게 일했어.",
+        },
+        {
+          id: "frk-15",
+          text: "At night I studied mathematics, medicine, and science, and twice I sailed as an officer on a Greenland whaler and did well.",
+          translation:
+            "밤에는 수학과 의학과 과학을 공부했고, 두 번은 그린란드 포경선의 항해사로 배를 타서 훌륭히 해냈지.",
+        },
+      ],
+      [
+        {
+          id: "frk-16",
+          text: "Now I have come to hire a ship and a crew, and if all goes well we will sail in June.",
+          translation:
+            "이제 나는 배와 선원들을 구하러 왔고, 모든 일이 잘 풀리면 6월에 출항할 거야.",
+        },
+        {
+          id: "frk-17",
+          text: "Farewell, my dear Margaret; may Heaven bless you, and keep me safe, so that I can thank you again and again for all your kindness.",
+          translation:
+            "잘 있어, 사랑하는 마거릿. 하늘이 너에게 축복을 내리고 나를 지켜 주어, 내가 네 모든 친절에 몇 번이고 감사할 수 있기를.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "frk-v1",
+        term: "expedition",
+        partOfSpeech: "noun",
+        translation: "탐험, 원정",
+        example: "Walton had planned his polar expedition for many years.",
+        exampleTranslation: "월턴은 여러 해 동안 자신의 극지 탐험을 계획해 왔어요.",
+      },
+      {
+        id: "frk-v2",
+        term: "desolation",
+        partOfSpeech: "noun",
+        translation: "황량함, 쓸쓸함",
+        example: "Sailors warned him that the far north was a place of ice and desolation.",
+        exampleTranslation: "선원들은 먼 북쪽이 얼음과 황량함뿐인 곳이라고 그에게 경고했어요.",
+      },
+      {
+        id: "frk-v3",
+        term: "neglected",
+        partOfSpeech: "adjective",
+        translation: "소홀히 된, 방치된",
+        example: "His schooling had been neglected, but he read every book he could find.",
+        exampleTranslation: "그의 학교 교육은 소홀히 되었지만, 그는 찾을 수 있는 책은 모두 읽었어요.",
+      },
+      {
+        id: "frk-v4",
+        term: "restless",
+        partOfSpeech: "adjective",
+        translation: "가만히 있지 못하는, 안절부절못하는",
+        example: "Only a dangerous voyage could satisfy his restless curiosity.",
+        exampleTranslation: "위험한 항해만이 가만히 있지 못하는 그의 호기심을 채워 줄 수 있었어요.",
+      },
+      {
+        id: "frk-v5",
+        term: "crew",
+        partOfSpeech: "noun",
+        translation: "(배·항공기의) 승무원, 선원들",
+        example: "He came to the city to hire a ship and a crew for the journey.",
+        exampleTranslation: "그는 항해에 쓸 배와 선원들을 구하러 그 도시에 왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "frk-q1",
+        prompt: "Why is Walton writing to his sister at the start of the novel?",
+        options: [
+          "To ask her to send him money for a ship.",
+          "To tell her he has arrived safely and that his hopes for the expedition are rising.",
+          "To warn her that the voyage has already gone wrong.",
+          "To say goodbye because he does not expect to return.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Margaret had feared for him; Walton writes from St. Petersburg to reassure her that the journey has begun without disaster and that his confidence in success is growing.",
+      },
+      {
+        id: "frk-q2",
+        prompt: "How does Walton imagine the North Pole?",
+        options: [
+          "As a frozen wasteland that he must simply endure.",
+          "As a busy trading route full of other ships.",
+          "As a region of beauty and endless daylight, full of undiscovered wonders.",
+          "As a short, easy trip he can finish in a few weeks.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Although others describe the pole as frost and desolation, Walton pictures it as a place of beauty where the sun never sets and a calm sea leads to wonders no one has ever seen.",
+      },
+      {
+        id: "frk-q3",
+        prompt: "What had Walton done to prepare for this voyage?",
+        options: [
+          "He studied at university for a degree in navigation.",
+          "He spent six years reading travel books and nothing more.",
+          "He spent six years on whaling ships enduring hardship, and studied science at night.",
+          "He inherited a ship and crew from his uncle Thomas.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "For six years Walton served on whaling vessels in the northern ice, bearing cold, hunger and sleeplessness by day and studying mathematics, medicine and science by night; twice he sailed as an officer on a Greenland whaler.",
+      },
+    ],
+  },
 ];
