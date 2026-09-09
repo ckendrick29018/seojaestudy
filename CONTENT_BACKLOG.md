@@ -108,7 +108,7 @@ has a genuine period cover/illustration in the public domain, download that into
 
 | # | Title | Author (d.) | PG# | Level | Excerpt scope | Status |
 |--|--|--|--|--|--|--|
-| 1 | The Yellow Wallpaper | Charlotte Perkins Gilman (1935) | 1952 | B1 | opening 2–3 journal entries | ☐ |
+| 1 | The Yellow Wallpaper | Charlotte Perkins Gilman (1935) | 1952 | B1 | opening 2–3 journal entries (simplified retelling, 17 sentences; kept as her journal) | ☑ |
 | 2 | The Story of an Hour | Kate Chopin (1904) | — | A2 | simplified retelling, 17 sentences | ☑ |
 | 3 | A Pair of Silk Stockings | Kate Chopin (1904) | — | A2 | whole | ☐ |
 | 4 | The Gift of the Magi | O. Henry (1910) | 7256 | B1 | simplified retelling, 13 sentences — **seed lesson for the collection** | ☑ |
@@ -200,20 +200,20 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (27):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (28):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
-  (row 44), Little Women Ch. 1 (row 39), Middlemarch (row 61), The Ugly
-  Duckling (row 16), Cinderella (row 10), Snow White (row 12), Pride and
-  Prejudice Ch. 1
-  (row 27), Pride and Prejudice Ch. 34 (row 28), Sense and Sensibility
-  Ch. 1 (row 29), Jane Eyre Ch. 1 (row 33), Frankenstein Letter 1 (row 71),
-  The Age of Innocence Ch. 1 (row 66), The Selfish Giant (row 8), The
-  Necklace (row 6), A Christmas Carol Stave 1 (row 22), The Lady with the
-  Dog Part I (row 26), Wuthering Heights Ch. 3 (row 35), The Secret Garden
-  Ch. 1 (row 49), The Emperor's New Clothes (row 17), Alice's Adventures in
-  Wonderland Ch. 1 (row 23), The Happy Prince (row 7), The Princess and the
-  Pea (row 18), Little Red Riding Hood (row 11), The Frog Prince (row 14).
-  Follow their shape in `src/lib/data/lessons.ts`. Every live
+  (row 44), Little Women Ch. 1 (row 39), Middlemarch (row 61), The Yellow
+  Wallpaper (row 1), The Ugly Duckling (row 16), Cinderella (row 10), Snow
+  White (row 12), Pride and Prejudice Ch. 1 (row 27), Pride and Prejudice
+  Ch. 34 (row 28), Sense and Sensibility Ch. 1 (row 29), Jane Eyre Ch. 1
+  (row 33), Frankenstein Letter 1 (row 71), The Age of Innocence Ch. 1
+  (row 66), The Selfish Giant (row 8), The Necklace (row 6), A Christmas
+  Carol Stave 1 (row 22), The Lady with the Dog Part I (row 26), Wuthering
+  Heights Ch. 3 (row 35), The Secret Garden Ch. 1 (row 49), The Emperor's
+  New Clothes (row 17), Alice's Adventures in Wonderland Ch. 1 (row 23),
+  The Happy Prince (row 7), The Princess and the Pea (row 18), Little Red
+  Riding Hood (row 11), The Frog Prince (row 14). Follow their shape in
+  `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
@@ -223,15 +223,15 @@ has a genuine period cover/illustration in the public domain, download that into
   Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince,
   Snow White), B1 ×6 (Gift of the Magi, Pride and Prejudice Ch. 1, The
   Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense and
-  Sensibility Ch. 1), B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering
-  Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
-  Innocence Ch. 1, Middlemarch). Bands are now A1 ×6, B1 ×6, B2 ×7, A2 ×8.
-  Alice in Wonderland is still A2's only entry that is neither a fairy tale
-  nor gentle domestic fiction.
-- Good next lessons to build: **The Yellow Wallpaper** (row 1, B1 — the
-  opening journal entries; adds range to a shelf that leans gentle and
-  domestic), **Emma Ch. 1** (row 30, B1 — "handsome, clever, and rich"; a
-  fourth Austen), **The Nightingale and the Rose** (row 9, B1 — Wilde,
-  whole; a third Wilde tale). Note: row 56 (A Room with a View) is **not**
-  clear to build — Forster died 1970, so it is not public domain in life+70
-  countries (including Korea) until 2041.
+  Sensibility Ch. 1, The Yellow Wallpaper), B2 ×7 (Jane Eyre, The Lady with
+  the Dog, Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein
+  Letter 1, The Age of Innocence Ch. 1, Middlemarch). Bands are now
+  A1 ×6, B1 ×7, B2 ×7, A2 ×8 — well balanced; A1 is the lightest. Within
+  A2, Alice in Wonderland is still the only entry that is neither a fairy
+  tale nor gentle domestic fiction.
+- Good next lessons to build: **Emma Ch. 1** (row 30, B1 — "handsome,
+  clever, and rich"; a fourth Austen), **The Nightingale and the Rose**
+  (row 9, B1 — Wilde, whole; a third Wilde tale), **The Last Leaf** (row 5,
+  A2 — O. Henry, whole; a second O. Henry). Note: row 56 (A Room with a
+  View) is **not** clear to build — Forster died 1970, so it is not public
+  domain in life+70 countries (including Korea) until 2041.

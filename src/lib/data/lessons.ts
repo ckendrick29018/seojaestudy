@@ -6067,4 +6067,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-yellow-wallpaper",
+    title: "The Yellow Wallpaper",
+    titleTranslation: "누런 벽지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Perkins Gilman (1860–1935)",
+    coverEmoji: "📓",
+    coverImage: "/covers/the-yellow-wallpaper.svg",
+    source:
+      "Adapted from the opening of Charlotte Perkins Gilman's short story \"The Yellow Wallpaper\" (first published 1892; long in the public domain, Project Gutenberg #1952). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what John believes his wife needs, what he forbids her to do, and how she feels about the room and its wallpaper.",
+    paragraphs: [
+      [
+        {
+          id: "tyw-1",
+          text: "For the summer my husband John has rented an old house in the country, far from town, and we are here for my health.",
+          translation:
+            "여름 동안 남편 존이 마을에서 멀리 떨어진 시골의 오래된 집을 빌렸고, 우리는 내 건강 때문에 이곳에 와 있어요.",
+        },
+        {
+          id: "tyw-2",
+          text: "I have been ill since our baby was born — nervous, low, and easily tired — though John says there is really nothing wrong with me.",
+          translation:
+            "나는 아이를 낳은 뒤로 줄곧 아팠어요. 신경이 예민하고, 기운이 없고, 쉽게 지쳤지요. 존은 나에게 사실 아무 문제도 없다고 말하지만요.",
+        },
+        {
+          id: "tyw-3",
+          text: "John is a doctor, and a very practical man, and perhaps that is one reason I do not get well faster.",
+          translation:
+            "존은 의사이고 아주 현실적인 사람인데, 어쩌면 그것이 내가 더 빨리 낫지 못하는 한 가지 이유일지도 몰라요.",
+        },
+      ],
+      [
+        {
+          id: "tyw-4",
+          text: "He does not believe that I am sick, only that I need rest, fresh air, and no excitement at all.",
+          translation:
+            "그는 내가 아프다고 믿지 않아요. 그저 내게 휴식과 맑은 공기가 필요하고, 어떤 자극도 있으면 안 된다고만 생각해요.",
+        },
+        {
+          id: "tyw-5",
+          text: "Above everything, I am forbidden to work or to write until I am well again.",
+          translation:
+            "무엇보다도, 나는 다시 나을 때까지 일하거나 글을 쓰는 것이 금지되어 있어요.",
+        },
+        {
+          id: "tyw-6",
+          text: "So I write these pages in secret, when John is out seeing patients, and hide them when I hear him on the stairs.",
+          translation:
+            "그래서 나는 존이 환자를 보러 나가 있을 때 몰래 이 글을 쓰고, 그가 계단을 올라오는 소리가 들리면 얼른 숨겨요.",
+        },
+      ],
+      [
+        {
+          id: "tyw-7",
+          text: "I wanted a pretty room downstairs that opened onto the garden, but John chose the big room at the top of the house instead.",
+          translation:
+            "나는 정원으로 이어지는 아래층의 예쁜 방을 원했지만, 존은 대신 집 꼭대기의 큰 방을 골랐어요.",
+        },
+        {
+          id: "tyw-8",
+          text: "It was once a nursery, and the windows are barred, and there are strange rings fixed into the walls.",
+          translation:
+            "그곳은 한때 아기방이었고, 창문에는 창살이 달려 있으며, 벽에는 이상한 고리들이 박혀 있어요.",
+        },
+        {
+          id: "tyw-9",
+          text: "The bed is heavy and will not move, and a gate stands across the top of the stairs.",
+          translation:
+            "침대는 무거워서 꿈쩍도 하지 않고, 계단 맨 위에는 문이 하나 가로놓여 있어요.",
+        },
+      ],
+      [
+        {
+          id: "tyw-10",
+          text: "The worst thing in the room is the wallpaper, a dull, sickly yellow, torn away in patches.",
+          translation:
+            "그 방에서 가장 끔찍한 것은 벽지예요. 칙칙하고 병색이 도는 누런색인데, 군데군데 찢겨 나가 있어요.",
+        },
+        {
+          id: "tyw-11",
+          text: "Its pattern sprawls and curls in a way that seems to break every rule of good design.",
+          translation:
+            "그 무늬는 제대로 된 디자인의 모든 규칙을 어기는 듯한 방식으로 제멋대로 뻗어 나가고 휘감겨 있어요.",
+        },
+        {
+          id: "tyw-12",
+          text: "When I follow one of its lame, uncertain curves with my eye, it suddenly turns and goes somewhere I did not expect.",
+          translation:
+            "그 어설프고 갈피를 못 잡는 곡선 하나를 눈으로 따라가다 보면, 그것은 갑자기 방향을 틀어 내가 예상하지 못한 곳으로 가 버려요.",
+        },
+      ],
+      [
+        {
+          id: "tyw-13",
+          text: "I am sure that a little company, and some real work, would do me more good than all this quiet.",
+          translation:
+            "나는 이 모든 고요함보다 약간의 친구와 진짜 할 일이 나에게 더 이로우리라고 확신해요.",
+        },
+        {
+          id: "tyw-14",
+          text: "But whenever I say so, John takes my hand, calls me his \"little goose,\" and tells me not to think about my illness.",
+          translation:
+            "하지만 내가 그렇게 말할 때마다, 존은 내 손을 잡고 나를 \"내 귀여운 바보\"라고 부르며, 병에 대해서는 생각하지 말라고 해요.",
+        },
+        {
+          id: "tyw-15",
+          text: "My brother is also a doctor, and he says exactly the same thing, so I have stopped arguing.",
+          translation:
+            "내 오빠도 의사인데 똑같은 말을 하니, 나는 이제 말다툼하기를 그만두었어요.",
+        },
+      ],
+      [
+        {
+          id: "tyw-16",
+          text: "I lie here for hours, resting as I am told, and my eyes come back again and again to that yellow wall.",
+          translation:
+            "나는 시키는 대로 쉬면서 몇 시간이고 여기 누워 있고, 내 눈은 자꾸만 그 누런 벽으로 되돌아가요.",
+        },
+        {
+          id: "tyw-17",
+          text: "I am beginning to think there is something in the pattern that no one else has noticed — something that moves.",
+          translation:
+            "나는 그 무늬 속에 다른 누구도 알아채지 못한 무언가가 있다는 생각이 들기 시작했어요. 움직이는 무언가가요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tyw-v1",
+        term: "forbid",
+        partOfSpeech: "verb",
+        translation: "금지하다, 못 하게 하다",
+        example: "The doctor forbade her to write until she was well again.",
+        exampleTranslation: "의사는 그녀가 다 나을 때까지 글을 쓰지 못하게 했어요.",
+      },
+      {
+        id: "tyw-v2",
+        term: "practical",
+        partOfSpeech: "adjective",
+        translation: "현실적인, 실용적인",
+        example: "John was a practical man who had no patience with feelings or fancies.",
+        exampleTranslation: "존은 감정이나 공상을 조금도 참아 주지 않는 현실적인 사람이었어요.",
+      },
+      {
+        id: "tyw-v3",
+        term: "barred",
+        partOfSpeech: "adjective",
+        translation: "(창 등에) 창살이 달린, 빗장이 걸린",
+        example: "The windows of the old nursery were barred, like a cage.",
+        exampleTranslation: "옛 아기방의 창문에는 우리처럼 창살이 달려 있었어요.",
+      },
+      {
+        id: "tyw-v4",
+        term: "pattern",
+        partOfSpeech: "noun",
+        translation: "무늬, 패턴",
+        example: "The pattern on the wallpaper twisted and curled without any order.",
+        exampleTranslation: "벽지의 무늬는 아무 질서도 없이 뒤틀리고 휘감겨 있었어요.",
+      },
+      {
+        id: "tyw-v5",
+        term: "argue",
+        partOfSpeech: "verb",
+        translation: "말다툼하다, 언쟁하다; 주장하다",
+        example: "She was too tired to argue with her husband any longer.",
+        exampleTranslation: "그녀는 남편과 더 이상 말다툼할 기운이 없었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tyw-q1",
+        prompt: "Why have the narrator and her husband come to the old house?",
+        options: [
+          "John has inherited it from his family.",
+          "For the summer, so that the narrator can rest and recover her health.",
+          "To sell it after cleaning and repairing the rooms.",
+          "Because their house in town has been damaged.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "John, who is a doctor, has rented the country house for the summer so his wife can rest; she has been unwell and low since their baby was born.",
+      },
+      {
+        id: "tyw-q2",
+        prompt: "Why does the narrator write her journal in secret?",
+        options: [
+          "She is ashamed of how badly she writes.",
+          "The paper and ink are expensive and hard to get.",
+          "John has forbidden her to write until she is well, so she hides it from him.",
+          "She is writing letters to another man.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "John believes any work or excitement is bad for her and has forbidden writing; she keeps the journal anyway, writing when he is out and hiding it when he returns.",
+      },
+      {
+        id: "tyw-q3",
+        prompt: "How does the narrator feel about the room John chose?",
+        options: [
+          "She loves its view over the rose garden.",
+          "She dislikes it: it was a barred nursery, and the yellow wallpaper disturbs her.",
+          "She finds it too small and dark to rest in.",
+          "She is glad it is far from the noisy road.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She had wanted a pretty room downstairs opening on the garden, but John chose the large top-floor room — a former nursery with barred windows and hideous yellow wallpaper that she cannot stop staring at.",
+      },
+    ],
+  },
 ];
