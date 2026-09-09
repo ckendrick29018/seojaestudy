@@ -6284,4 +6284,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "emma",
+    title: "Emma",
+    titleTranslation: "엠마",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "💌",
+    coverImage: "/covers/emma.svg",
+    source:
+      "Adapted from Chapter 1 of Jane Austen's novel \"Emma\" (first published 1815; long in the public domain, Project Gutenberg #158). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Emma's character, how she felt about Miss Taylor's marriage, and what Mr. Knightley warned her against.",
+    paragraphs: [
+      [
+        {
+          id: "emm-1",
+          text: "Emma Woodhouse was handsome, clever, and rich, and in almost twenty-one years of life she had known very little trouble or sorrow.",
+          translation:
+            "에마 우드하우스는 아름답고, 영리하고, 부유했으며, 스물한 해 가까이 사는 동안 근심이나 슬픔을 거의 겪어 본 적이 없었어요.",
+        },
+        {
+          id: "emm-2",
+          text: "Her mother had died when she was small, and since her elder sister married, Emma had been the mistress of her father's comfortable house.",
+          translation:
+            "어머니는 에마가 어릴 때 세상을 떠났고, 언니가 결혼한 뒤로 에마는 아버지의 안락한 집의 안주인 노릇을 해 왔어요.",
+        },
+        {
+          id: "emm-3",
+          text: "The only real dangers in her happy life were that she was used to having her own way, and that she thought rather too well of herself.",
+          translation:
+            "그녀의 행복한 삶에서 유일하게 위험한 점이라면, 늘 자기 뜻대로 하는 데 익숙하다는 것과, 자기 자신을 다소 지나치게 높이 평가한다는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "emm-4",
+          text: "For sixteen years her governess, Miss Taylor, had been less a teacher than a dear friend, and had let Emma do exactly as she pleased.",
+          translation:
+            "16년 동안 가정교사 테일러 양은 선생님이라기보다 다정한 친구에 가까웠고, 에마가 하고 싶은 대로 다 하게 내버려 두었어요.",
+        },
+        {
+          id: "emm-5",
+          text: "Now Miss Taylor had married Mr. Weston and gone to live half a mile away, and the house felt suddenly quiet and empty.",
+          translation:
+            "이제 테일러 양은 웨스턴 씨와 결혼해 반 마일 떨어진 곳에 살게 되었고, 집은 갑자기 조용하고 텅 빈 듯했어요.",
+        },
+        {
+          id: "emm-6",
+          text: "Emma liked to say that she herself had arranged the whole match, and was very proud of it.",
+          translation:
+            "에마는 그 혼인을 자기가 다 성사시켰다고 말하기를 좋아했고, 그것을 무척 자랑스러워했어요.",
+        },
+      ],
+      [
+        {
+          id: "emm-7",
+          text: "Her father, Mr. Woodhouse, was a gentle, nervous old man who worried about draughts, damp, and rich food, and who hated any kind of change.",
+          translation:
+            "그녀의 아버지 우드하우스 씨는 온화하지만 신경이 예민한 노인으로, 외풍과 습기와 기름진 음식을 걱정했고, 어떤 종류의 변화든 몹시 싫어했어요.",
+        },
+        {
+          id: "emm-8",
+          text: "All evening he sighed over \"poor Miss Taylor,\" as though she had met with some misfortune instead of a happy marriage.",
+          translation:
+            "그는 저녁 내내 \"가엾은 테일러 양\" 하며 한숨을 쉬었는데, 마치 그녀가 행복한 결혼이 아니라 무슨 불행한 일을 당한 것처럼 굴었어요.",
+        },
+        {
+          id: "emm-9",
+          text: "He wished she had never married at all, and could not be comforted that she now lived so near.",
+          translation:
+            "그는 그녀가 아예 결혼하지 않았기를 바랐고, 이제 그녀가 그토록 가까이 산다는 말로도 위로가 되지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "emm-10",
+          text: "That evening Mr. Knightley called, a sensible man of about thirty-seven who had known the family for years.",
+          translation:
+            "그날 저녁 나이틀리 씨가 찾아왔어요. 서른일곱쯤 된 분별 있는 남자로, 여러 해 동안 그 집안과 알고 지낸 사이였어요.",
+        },
+        {
+          id: "emm-11",
+          text: "He was almost the only person who ever told Emma of her faults, and he did it kindly but plainly.",
+          translation:
+            "그는 에마에게 그녀의 결점을 말해 주는 거의 유일한 사람이었고, 다정하되 솔직하게 그렇게 했어요.",
+        },
+        {
+          id: "emm-12",
+          text: "When Emma boasted of making the marriage, he said she had only made a lucky guess, and that a young lady had no business match-making.",
+          translation:
+            "에마가 그 결혼을 성사시켰다고 자랑하자, 그는 그저 운 좋게 알아맞힌 것뿐이며, 젊은 아가씨가 중매에 나설 일이 아니라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "emm-13",
+          text: "Emma laughed and declared that she would make just one more match.",
+          translation:
+            "에마는 웃으며 딱 한 번만 더 중매를 서겠다고 선언했어요.",
+        },
+        {
+          id: "emm-14",
+          text: "She had chosen a wife for Mr. Elton, the young clergyman, who had been in the village a whole year and really ought not to stay single.",
+          translation:
+            "그녀는 젊은 성직자 엘턴 씨의 아내를 골라 두었는데, 그는 마을에 온 지 꼬박 일 년이 되었으니 정말이지 계속 혼자 있어서는 안 된다는 것이었어요.",
+        },
+        {
+          id: "emm-15",
+          text: "Mr. Knightley told her to leave Mr. Elton to choose for himself, but Emma had quite made up her mind.",
+          translation:
+            "나이틀리 씨는 엘턴 씨가 스스로 고르도록 내버려 두라고 했지만, 에마는 이미 마음을 굳힌 뒤였어요.",
+        },
+      ],
+      [
+        {
+          id: "emm-16",
+          text: "Mr. Woodhouse fretted that his guests would catch cold on the walk home, and begged them to wrap up warmly.",
+          translation:
+            "우드하우스 씨는 손님들이 걸어서 집에 가다 감기에 걸릴까 봐 안달하며, 따뜻하게 잘 챙겨 입으라고 신신당부했어요.",
+        },
+        {
+          id: "emm-17",
+          text: "And so the long, sad evening ended gently, with Emma already dreaming of her next piece of clever planning.",
+          translation:
+            "그렇게 길고 서글픈 저녁은 잔잔하게 저물었고, 에마는 벌써 다음번의 영리한 계획을 꿈꾸고 있었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "emm-v1",
+        term: "governess",
+        partOfSpeech: "noun",
+        translation: "(입주) 여자 가정교사",
+        example: "Miss Taylor had been Emma's governess for sixteen years, but felt more like a friend.",
+        exampleTranslation: "테일러 양은 16년 동안 에마의 가정교사였지만, 친구에 더 가깝게 느껴졌어요.",
+      },
+      {
+        id: "emm-v2",
+        term: "mistress",
+        partOfSpeech: "noun",
+        translation: "(집안을 관리하는) 안주인, 여주인",
+        example: "After her sister married, Emma became the mistress of her father's house.",
+        exampleTranslation: "언니가 결혼한 뒤, 에마는 아버지 집의 안주인이 되었어요.",
+      },
+      {
+        id: "emm-v3",
+        term: "misfortune",
+        partOfSpeech: "noun",
+        translation: "불운, 불행한 일",
+        example: "Mr. Woodhouse spoke of the wedding as if it were a misfortune.",
+        exampleTranslation: "우드하우스 씨는 그 결혼을 마치 불행한 일인 것처럼 이야기했어요.",
+      },
+      {
+        id: "emm-v4",
+        term: "boast",
+        partOfSpeech: "verb",
+        translation: "자랑하다, 뽐내다",
+        example: "Emma liked to boast that she had arranged the marriage herself.",
+        exampleTranslation: "에마는 자기가 그 결혼을 직접 성사시켰다고 자랑하기를 좋아했어요.",
+      },
+      {
+        id: "emm-v5",
+        term: "fret",
+        partOfSpeech: "verb",
+        translation: "안달하다, 조바심 내다, 걱정하다",
+        example: "Her father fretted that the guests would catch cold walking home.",
+        exampleTranslation: "그녀의 아버지는 손님들이 걸어서 집에 가다 감기에 걸릴까 봐 안달했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "emm-q1",
+        prompt: "What were the \"real dangers\" in Emma's comfortable life?",
+        options: [
+          "She had almost no money of her own.",
+          "She was used to getting her own way and thought too well of herself.",
+          "Her father expected her to marry very soon.",
+          "She had quarrelled with her elder sister.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Emma was handsome, clever and rich, with little to trouble her; the narrator warns that the true risks were her habit of having her own way and her rather high opinion of herself.",
+      },
+      {
+        id: "emm-q2",
+        prompt: "Why was Mr. Woodhouse unhappy on the day of the wedding?",
+        options: [
+          "He disliked Mr. Weston and did not want the marriage.",
+          "He thought Emma should have married first.",
+          "He hated change, and felt Miss Taylor's marriage as a loss, almost a misfortune.",
+          "He was angry that Emma had arranged the match.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mr. Woodhouse hated every kind of change; he sighed over \"poor Miss Taylor\" all evening as though she had suffered a misfortune, and wished she had never married.",
+      },
+      {
+        id: "emm-q3",
+        prompt: "What did Mr. Knightley think of Emma's match-making?",
+        options: [
+          "That she had a real gift for it and should do more.",
+          "That it was only a lucky guess, and she should stop.",
+          "That she should have asked his advice first.",
+          "That Mr. Weston was not good enough for Miss Taylor.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. Knightley, almost the only person who told Emma her faults, said she had merely made a lucky guess and that a young lady had no business making matches; he told her to leave Mr. Elton to choose his own wife.",
+      },
+    ],
+  },
 ];
