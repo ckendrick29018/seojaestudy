@@ -8454,4 +8454,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-twelve-dancing-princesses",
+    title: "The Twelve Dancing Princesses",
+    titleTranslation: "춤추는 열두 공주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "💃",
+    coverImage: "/covers/the-twelve-dancing-princesses.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"The Twelve Dancing Princesses\" (\"Die zertanzten Schuhe\", collected 1815), as retold in Andrew Lang's \"The Red Fairy Book\" (1890; long in the public domain, Project Gutenberg #540). This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale has been trimmed and gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how the old soldier managed to follow the princesses without being seen, and what proof he brought back to the king.",
+    paragraphs: [
+      [
+        {
+          id: "tdp-1",
+          text: "A king had twelve daughters who slept together in one locked room every night.",
+          translation:
+            "어느 왕에게는 딸이 열둘 있었는데, 이들은 밤마다 잠긴 방 하나에서 함께 잤어요.",
+        },
+        {
+          id: "tdp-2",
+          text: "Yet every morning their dancing shoes were found worn full of holes, as if they had danced all night.",
+          translation:
+            "그런데도 아침마다 공주들의 무도화는 마치 밤새 춤이라도 춘 것처럼 구멍이 나도록 닳아 있었어요.",
+        },
+        {
+          id: "tdp-3",
+          text: "The king promised that whoever could discover their secret might marry one of them.",
+          translation:
+            "왕은 공주들의 비밀을 알아내는 사람은 그들 중 하나와 결혼해도 좋다고 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "tdp-4",
+          text: "Many princes tried, but each drank the wine the princesses gave him at bedtime, fell fast asleep, and learned nothing.",
+          translation:
+            "많은 왕자가 도전했지만, 저마다 잠자리에 들 때 공주들이 준 포도주를 마시고 곯아떨어져 아무것도 알아내지 못했어요.",
+        },
+        {
+          id: "tdp-5",
+          text: "Then an old soldier came along, and on the road an old woman gave him two pieces of advice.",
+          translation:
+            "그러던 어느 날 늙은 병사 하나가 지나가는데, 길에서 한 노파가 그에게 두 가지 조언을 해 주었어요.",
+        },
+        {
+          id: "tdp-6",
+          text: "\"Do not drink the wine they give you,\" she said, \"and only pretend to sleep.\" She also gave him a cloak that made him invisible.",
+          translation:
+            "\"공주들이 주는 포도주는 마시지 말고,\" 노파가 말했어요. \"자는 척만 하게.\" 그러고는 그를 보이지 않게 해 주는 망토도 하나 건넸어요.",
+        },
+      ],
+      [
+        {
+          id: "tdp-7",
+          text: "That night the soldier poured the wine away without drinking, then lay still and snored loudly.",
+          translation:
+            "그날 밤 병사는 포도주를 마시지 않고 몰래 쏟아 버린 뒤, 가만히 누워 큰 소리로 코를 골았어요.",
+        },
+        {
+          id: "tdp-8",
+          text: "The princesses laughed, put on beautiful gowns, and the eldest tapped on her bed, which sank down to show a hidden stair.",
+          translation:
+            "공주들은 웃으며 아름다운 드레스를 차려입었고, 맏딸이 자기 침대를 톡톡 두드리자 침대가 아래로 가라앉으며 숨겨진 계단이 나타났어요.",
+        },
+        {
+          id: "tdp-9",
+          text: "One by one they went down, and the soldier threw on his cloak and crept after them.",
+          translation:
+            "공주들이 하나둘 내려갔고, 병사는 망토를 뒤집어쓰고 그들을 살금살금 뒤따랐어요.",
+        },
+      ],
+      [
+        {
+          id: "tdp-10",
+          text: "They passed through woods where the leaves were made of silver, then of gold, then of shining diamonds.",
+          translation:
+            "그들은 잎사귀가 은으로 된 숲, 이어서 금으로 된 숲, 그다음에는 반짝이는 다이아몬드로 된 숲을 지나갔어요.",
+        },
+        {
+          id: "tdp-11",
+          text: "The soldier quietly broke off one twig from each to keep as proof.",
+          translation:
+            "병사는 증거로 삼으려고 각 숲에서 잔가지를 하나씩 조용히 꺾었어요.",
+        },
+        {
+          id: "tdp-12",
+          text: "At a dark lake, twelve boats were waiting, and the princesses were rowed across to a bright castle full of music.",
+          translation:
+            "어두운 호수에는 배 열두 척이 기다리고 있었고, 공주들은 노를 저어 음악이 흐르는 환한 성으로 건너갔어요.",
+        },
+      ],
+      [
+        {
+          id: "tdp-13",
+          text: "There the princesses danced until three in the morning, when their shoes were worn through and they had to stop.",
+          translation:
+            "공주들은 그곳에서 새벽 세 시까지 춤을 추었고, 그때쯤이면 신발이 다 닳아 멈출 수밖에 없었어요.",
+        },
+        {
+          id: "tdp-14",
+          text: "Three nights the soldier followed them in secret, and on the last night he also carried off a golden cup.",
+          translation:
+            "병사는 사흘 밤을 몰래 그들을 따라다녔고, 마지막 밤에는 황금 잔도 하나 몰래 가지고 나왔어요.",
+        },
+        {
+          id: "tdp-15",
+          text: "Each morning he lay snoring in his bed before they returned, so they believed their secret was safe.",
+          translation:
+            "매일 아침 병사는 공주들이 돌아오기 전에 침대에 누워 코를 골았고, 그래서 공주들은 비밀이 안전하다고 믿었어요.",
+        },
+      ],
+      [
+        {
+          id: "tdp-16",
+          text: "When his three nights were up, the soldier showed the king the silver, gold, and diamond twigs and the golden cup, and told him everything.",
+          translation:
+            "사흘 밤이 지나자, 병사는 왕에게 은과 금과 다이아몬드 잔가지, 그리고 황금 잔을 내보이며 모든 것을 이야기했어요.",
+        },
+        {
+          id: "tdp-17",
+          text: "The princesses had to admit the truth, and the king let the soldier choose a bride — and, being old himself, he chose the eldest.",
+          translation:
+            "공주들은 사실을 인정할 수밖에 없었고, 왕은 병사에게 신붓감을 고르게 했는데, 병사는 자신도 나이가 많은지라 맏딸을 골랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tdp-v1",
+        term: "worn",
+        partOfSpeech: "adjective",
+        translation: "닳은, 해진, 낡은",
+        example: "Every morning the dancing shoes were worn through with holes.",
+        exampleTranslation: "매일 아침 무도화는 구멍이 나도록 닳아 있었어요.",
+      },
+      {
+        id: "tdp-v2",
+        term: "invisible",
+        partOfSpeech: "adjective",
+        translation: "눈에 보이지 않는",
+        example: "The magic cloak made the old soldier invisible.",
+        exampleTranslation: "그 마법 망토는 늙은 병사를 보이지 않게 만들었어요.",
+      },
+      {
+        id: "tdp-v3",
+        term: "twig",
+        partOfSpeech: "noun",
+        translation: "잔가지, 작은 나뭇가지",
+        example: "He broke off a silver twig to keep as proof.",
+        exampleTranslation: "그는 증거로 삼으려고 은으로 된 잔가지 하나를 꺾었어요.",
+      },
+      {
+        id: "tdp-v4",
+        term: "proof",
+        partOfSpeech: "noun",
+        translation: "증거",
+        example: "The soldier needed proof that his story was true.",
+        exampleTranslation: "병사는 자기 이야기가 사실이라는 증거가 필요했어요.",
+      },
+      {
+        id: "tdp-v5",
+        term: "gown",
+        partOfSpeech: "noun",
+        translation: "(여성용) 드레스, 가운",
+        example: "The princesses put on their finest gowns before going down.",
+        exampleTranslation: "공주들은 아래로 내려가기 전에 가장 좋은 드레스를 차려입었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tdp-q1",
+        prompt: "What puzzled the king every morning?",
+        options: [
+          "One of his daughters was always missing.",
+          "The princesses' dancing shoes were worn full of holes.",
+          "The door to their room stood open.",
+          "The princesses were too tired to get up.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Though the princesses' room was locked and guarded all night, their dancing shoes were found worn through with holes each morning, as if they had danced for hours.",
+      },
+      {
+        id: "tdp-q2",
+        prompt: "What advice did the old woman give the soldier?",
+        options: [
+          "To drink only a little of the wine.",
+          "To hide under the princesses' bed.",
+          "Not to drink the wine, and to pretend to be asleep.",
+          "To lock the princesses in a stronger room.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The old woman told him not to drink the wine the princesses offered and to pretend to sleep; she also gave him a cloak that made him invisible so he could follow them.",
+      },
+      {
+        id: "tdp-q3",
+        prompt: "How did the soldier prove where the princesses went?",
+        options: [
+          "He drew a map of the underground path.",
+          "He brought back silver, gold, and diamond twigs and a golden cup.",
+          "One of the princesses confessed to him.",
+          "He caught one of the underground princes.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Following them invisibly for three nights, the soldier broke a twig from each of the silver, gold, and diamond woods and carried off a golden cup from the castle; he showed all of it to the king.",
+      },
+    ],
+  },
 ];
