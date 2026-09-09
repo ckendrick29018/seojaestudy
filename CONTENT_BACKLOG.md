@@ -149,7 +149,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 34 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B2 | Ch. 5 — arrival at Lowood | ☐ |
 | 35 | Wuthering Heights | Emily Brontë (1848) | 768 | B2 | Ch. 3 — Lockwood's dream at the window, simplified retelling, 17 sentences | ☑ |
 | 36 | Agnes Grey | Anne Brontë (1849) | 767 | B1 | Ch. 1 ("The Parsonage") — the lost savings, and Agnes resolves to be a governess (simplified retelling, 17 sentences) | ☑ |
-| 37 | The Tenant of Wildfell Hall | Anne Brontë (1849) | 969 | B2 | Ch. 1 — the stranger at Wildfell | ☐ |
+| 37 | The Tenant of Wildfell Hall | Anne Brontë (1849) | 969 | B2 | Ch. 1 ("A Discovery") — the parish gossips about the widow at Wildfell (simplified retelling, 17 sentences) | ☑ |
 | 38 | Villette | Charlotte Brontë (1855) | 21181 | B2 | Ch. 1 — Bretton | ☐ |
 | 39 | Little Women | Louisa May Alcott (1888) | 37106 | A2 | Ch. 1 — "Christmas won't be Christmas" (simplified retelling, 17 sentences) | ☑ |
 | 40 | Little Women | Louisa May Alcott (1888) | 37106 | B1 | Ch. 8 ("Jo Meets Apollyon") — the burned manuscript and the ice (simplified retelling, 17 sentences) | ☑ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (55):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (56):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -226,7 +226,8 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 72), The Mill on the Floss Bk 1 Ch. 5 (row 63), Pollyanna Ch. 1
   (row 58), Rebecca of Sunnybrook Farm Ch. 1 (row 57), An Old-Fashioned
   Girl Ch. 1 (row 41), Agnes Grey Ch. 1 (row 36), The Enchanted April
-  Ch. 1 (row 54), Little Women Ch. 8 (row 40). Follow their shape in
+  Ch. 1 (row 54), Little Women Ch. 8 (row 40), The Tenant of Wildfell Hall
+  Ch. 1 (row 37). Follow their shape in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -244,20 +245,19 @@ has a genuine period cover/illustration in the public domain, download that into
   Ethan Frome prologue, East of the Sun and West of the Moon, The Bet,
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
-  Little Women Ch. 8), B2 ×13 (Jane Eyre, The Lady with the Dog, Wuthering
+  Little Women Ch. 8), B2 ×14 (Jane Eyre, The Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
   Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
-  Ch. 5). Bands are now A1 ×7, A2 ×15, B1 ×20, B2 ×13 — A1 is still the
-  thinnest.
+  Ch. 5, The Tenant of Wildfell Hall Ch. 1). Bands are now A1 ×7, A2 ×15,
+  B1 ×20, B2 ×14 — A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **The Tenant of Wildfell Hall Ch. 1**
-  (row 37, B2 — Anne Brontë, the stranger at Wildfell), **Wives and
-  Daughters Ch. 1** (row 65, B2 — Gaskell), **Anne of Avonlea Ch. 1**
-  (row 60, B1 — Anne, now a teacher). A1 (7) is still behind and the
-  backlog has no
+- Good next lessons to build: **Wives and Daughters Ch. 1** (row 65, B2 —
+  Gaskell), **Anne of Avonlea Ch. 1** (row 60, B1 — Anne, now a teacher),
+  **Villette Ch. 1** (row 38, B2 — Charlotte Brontë, Bretton). A1 (7) is
+  still behind and the backlog has no
   more A1 rows — re-level a gentle A2
   tale down to A1 (e.g.
   The Twelve Dancing Princesses or Rapunzel), or add new A1 rows.

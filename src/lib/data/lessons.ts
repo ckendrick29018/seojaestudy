@@ -12099,4 +12099,219 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-tenant-of-wildfell-hall",
+    title: "The Tenant of Wildfell Hall",
+    titleTranslation: "와일드펠 홀의 세입자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Anne Brontë (1820–1849)",
+    coverEmoji: "🏚️",
+    coverImage: "/covers/the-tenant-of-wildfell-hall.svg",
+    source:
+      "Adapted from Chapter 1 (\"A Discovery\") of Anne Brontë's novel \"The Tenant of Wildfell Hall\" (first published 1848; long in the public domain, Project Gutenberg #969). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the new tenant of Wildfell Hall and why she set the whole parish talking.",
+    paragraphs: [
+      [
+        {
+          id: "twh-1",
+          text: "In the autumn of 1827, the talk of our quiet country neighbourhood was all of one thing: Wildfell Hall had a tenant at last.",
+          translation:
+            "1827년 가을, 조용한 우리 시골 동네의 화제는 온통 한 가지였어요. 마침내 와일드펠 홀에 세입자가 들었다는 것이었지요.",
+        },
+        {
+          id: "twh-2",
+          text: "The Hall was an old, dark house of Elizabeth's time, standing alone on a windy hill above the village.",
+          translation:
+            "그 홀은 엘리자베스 여왕 시대의 오래되고 어두운 집으로, 마을 위 바람 부는 언덕에 홀로 서 있었어요.",
+        },
+        {
+          id: "twh-3",
+          text: "It had stood empty and half ruined for many years, and children were afraid to go near it after dark.",
+          translation:
+            "여러 해 동안 비어 반쯤 허물어진 채였고, 아이들은 날이 저물면 그 근처에 가기를 무서워했어요.",
+        },
+      ],
+      [
+        {
+          id: "twh-4",
+          text: "Now a single lady had taken a few of its rooms and moved in quietly, with one old servant and a young child.",
+          translation:
+            "그런데 한 부인이 그 집의 방 몇 개를 빌려, 나이 많은 하인 한 명과 어린아이 하나를 데리고 조용히 이사해 온 것이었어요.",
+        },
+        {
+          id: "twh-5",
+          text: "Her name was Mrs. Graham, and she said she was a widow.",
+          translation:
+            "그녀의 이름은 그레이엄 부인이었고, 자신이 미망인이라고 했어요.",
+        },
+        {
+          id: "twh-6",
+          text: "She kept entirely to herself, saw no visitors, and gave no account of where she had come from.",
+          translation:
+            "그녀는 완전히 혼자 지냈고, 손님을 만나지 않았으며, 어디서 왔는지도 전혀 밝히지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "twh-7",
+          text: "Naturally, this was enough to set every tongue in the parish moving.",
+          translation: "당연히 이것만으로도 교구의 모든 입이 움직이기에 충분했어요.",
+        },
+        {
+          id: "twh-8",
+          text: "My mother, my sister Rose, and the vicar's wife discussed her endlessly over their tea.",
+          translation:
+            "어머니와 누이 로즈, 그리고 목사의 부인은 차를 마시며 그녀 이야기를 끝없이 했어요.",
+        },
+        {
+          id: "twh-9",
+          text: "Some pitied her; some thought her proud; a few hinted that a woman so secret must have something to hide.",
+          translation:
+            "어떤 이는 그녀를 딱하게 여겼고, 어떤 이는 그녀가 도도하다고 생각했으며, 몇몇은 저렇게 비밀스러운 여자라면 숨기는 것이 있을 거라고 넌지시 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "twh-10",
+          text: "I told them I had no interest in the matter, which was not quite true.",
+          translation:
+            "나는 그 일에 관심 없다고 말했지만, 그것은 사실이 아니었어요.",
+        },
+        {
+          id: "twh-11",
+          text: "I first saw her the following Sunday, at church.",
+          translation: "나는 그다음 일요일에 교회에서 그녀를 처음 보았어요.",
+        },
+        {
+          id: "twh-12",
+          text: "She sat apart, dressed plainly in black, with her little boy close beside her.",
+          translation:
+            "그녀는 검은 옷을 수수하게 입고 어린 아들을 바짝 곁에 둔 채, 사람들과 떨어져 앉아 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "twh-13",
+          text: "Her face was pale and rather stern, but it was a striking face, not easily forgotten.",
+          translation:
+            "그녀의 얼굴은 창백하고 다소 엄해 보였지만, 한번 보면 쉽게 잊히지 않는 인상적인 얼굴이었어요.",
+        },
+        {
+          id: "twh-14",
+          text: "She looked at no one and spoke to no one, and left as soon as the service ended.",
+          translation:
+            "그녀는 아무도 쳐다보지 않고 아무와도 말하지 않았으며, 예배가 끝나자마자 떠났어요.",
+        },
+        {
+          id: "twh-15",
+          text: "On the walk home, everyone had an opinion about her, and none of them was kind.",
+          translation:
+            "집으로 걸어오는 길에 모두가 그녀에 대해 한마디씩 했는데, 그중 다정한 말은 하나도 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "twh-16",
+          text: "I found myself defending a woman I had never met, simply because the others were so sure of her faults.",
+          translation:
+            "나는 만난 적도 없는 여자를 변호하고 있는 나 자신을 발견했어요. 그저 다른 사람들이 그녀의 흠을 너무 확신했기 때문이었지요.",
+        },
+        {
+          id: "twh-17",
+          text: "Wildfell Hall and its silent tenant had caught my curiosity, and I could not quite let them go.",
+          translation:
+            "와일드펠 홀과 그 말 없는 세입자는 내 호기심을 사로잡았고, 나는 그것을 좀처럼 떨쳐 버릴 수 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "twh-v1",
+        term: "tenant",
+        partOfSpeech: "noun",
+        translation: "세입자, 임차인",
+        example: "The Hall had stood empty until a new tenant arrived.",
+        exampleTranslation: "그 홀은 새 세입자가 오기 전까지 비어 있었어요.",
+      },
+      {
+        id: "twh-v2",
+        term: "widow",
+        partOfSpeech: "noun",
+        translation: "미망인, 과부",
+        example: "Mrs. Graham told the neighbours she was a widow.",
+        exampleTranslation: "그레이엄 부인은 이웃들에게 자신이 미망인이라고 말했어요.",
+      },
+      {
+        id: "twh-v3",
+        term: "parish",
+        partOfSpeech: "noun",
+        translation: "(교회) 교구; 교구 사람들",
+        example: "News of the stranger spread through the whole parish.",
+        exampleTranslation: "낯선 이의 소식이 교구 전체에 퍼졌어요.",
+      },
+      {
+        id: "twh-v4",
+        term: "vicar",
+        partOfSpeech: "noun",
+        translation: "(영국 국교회의) 교구 목사",
+        example: "The vicar's wife had the most to say about Mrs. Graham.",
+        exampleTranslation: "그레이엄 부인에 대해 가장 말이 많았던 사람은 목사의 부인이었어요.",
+      },
+      {
+        id: "twh-v5",
+        term: "striking",
+        partOfSpeech: "adjective",
+        translation: "눈길을 끄는, 인상적인",
+        example: "Pale and stern, hers was a striking face.",
+        exampleTranslation: "창백하고 엄해 보이는 그녀의 얼굴은 인상적이었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "twh-q1",
+        prompt: "What was the whole neighbourhood talking about in the autumn of 1827?",
+        options: [
+          "A wedding at the village church.",
+          "That Wildfell Hall, long empty, finally had a tenant — a private young widow.",
+          "That the vicar was leaving the parish for good.",
+          "A storm that had badly damaged the village.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Wildfell Hall, an old, dark Elizabethan house that had stood empty and half ruined for years, had at last been taken by a single lady, Mrs. Graham, who moved in quietly with one old servant and a young child.",
+      },
+      {
+        id: "twh-q2",
+        prompt: "Why did the neighbourhood gossip so much about Mrs. Graham?",
+        options: [
+          "She had insulted the vicar's wife in public.",
+          "She was very rich and gave grand parties every week.",
+          "She kept entirely to herself, saw no visitors, and would not say where she had come from.",
+          "She had arrived with a large train of servants.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Graham lived completely apart, received no visitors, and gave no account of her past; that secrecy was enough to set every tongue in the parish moving, with some pitying her and others sure she had something to hide.",
+      },
+      {
+        id: "twh-q3",
+        prompt: "How did Gilbert feel after seeing Mrs. Graham at church and hearing the others talk?",
+        options: [
+          "He agreed that she was proud and disliked her.",
+          "He lost all interest in her and the Hall.",
+          "He found himself defending a woman he had never met, and his curiosity was caught.",
+          "He decided to warn her to leave the village.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Though Gilbert claimed to have no interest, the harsh certainty of the others made him defend a stranger; the mysterious Hall and its silent tenant had caught his curiosity, and he could not let the matter go.",
+      },
+    ],
+  },
 ];
