@@ -5417,4 +5417,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-frog-prince",
+    title: "The Frog Prince",
+    titleTranslation: "개구리 왕자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🐸",
+    coverImage: "/covers/the-frog-prince.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"The Frog Prince\" (\"Der Froschkönig,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; some of the original's harsher details have been softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain the promise the princess made to the frog, why she had to keep it, and what happened to the frog in the end.",
+    paragraphs: [
+      [
+        {
+          id: "tfp-1",
+          text: "A king had a young daughter who liked to play by a deep well in the woods with a golden ball.",
+          translation:
+            "어느 왕에게는 어린 딸이 있었는데, 그 딸은 숲속 깊은 우물 옆에서 황금 공을 가지고 노는 것을 좋아했어요.",
+        },
+        {
+          id: "tfp-2",
+          text: "One day she threw the ball too high, and it fell into the well and sank out of sight.",
+          translation:
+            "어느 날 공주는 공을 너무 높이 던졌고, 공은 우물 속으로 떨어져 보이지 않게 가라앉았어요.",
+        },
+        {
+          id: "tfp-3",
+          text: "The princess sat down and cried, because the golden ball was her favourite thing.",
+          translation:
+            "공주는 주저앉아 울었어요. 그 황금 공이 가장 아끼는 물건이었거든요.",
+        },
+      ],
+      [
+        {
+          id: "tfp-4",
+          text: "A frog put its head out of the water and asked, \"Why are you crying?\"",
+          translation:
+            "개구리 한 마리가 물 밖으로 머리를 내밀고 물었어요. \"왜 울고 있니?\"",
+        },
+        {
+          id: "tfp-5",
+          text: "\"My golden ball has fallen into the well,\" she said, \"and the water is far too deep.\"",
+          translation:
+            "\"내 황금 공이 우물에 빠졌어.\" 공주가 말했어요. \"그런데 물이 너무 깊어.\"",
+        },
+        {
+          id: "tfp-6",
+          text: "\"I will bring it back,\" said the frog, \"if you promise to let me be your friend, and eat from your plate, and sleep in your room.\"",
+          translation:
+            "\"내가 가져다줄게.\" 개구리가 말했어요. \"네가 나를 친구로 삼고, 네 접시에서 같이 먹고, 네 방에서 자게 해 주겠다고 약속한다면 말이야.\"",
+        },
+      ],
+      [
+        {
+          id: "tfp-7",
+          text: "The princess promised, though she did not really mean it, and the frog dived down and brought up the ball.",
+          translation:
+            "공주는 진심은 아니었지만 약속했고, 개구리는 물속으로 뛰어들어 공을 가지고 올라왔어요.",
+        },
+        {
+          id: "tfp-8",
+          text: "She snatched it and ran home as fast as she could, and soon she forgot all about the frog.",
+          translation:
+            "공주는 공을 낚아채 있는 힘껏 집으로 달려갔고, 곧 개구리에 대해 까맣게 잊어버렸어요.",
+        },
+        {
+          id: "tfp-9",
+          text: "But the next evening, something went flip, flap up the stairs and knocked at the door.",
+          translation:
+            "그런데 다음 날 저녁, 무언가가 찰박찰박 계단을 올라와 문을 두드렸어요.",
+        },
+      ],
+      [
+        {
+          id: "tfp-10",
+          text: "It was the frog, and the frightened princess shut the door in his face.",
+          translation:
+            "개구리였고, 겁이 난 공주는 개구리 앞에서 문을 쾅 닫아 버렸어요.",
+        },
+        {
+          id: "tfp-11",
+          text: "Her father the king asked what was wrong, and she told him about her promise by the well.",
+          translation:
+            "아버지인 왕이 무슨 일이냐고 물었고, 공주는 우물가에서 한 약속에 대해 이야기했어요.",
+        },
+        {
+          id: "tfp-12",
+          text: "\"You made a promise,\" said the king, \"so you must keep it. Let the frog come in.\"",
+          translation:
+            "\"네가 약속을 했으니,\" 왕이 말했어요. \"그 약속을 지켜야 한다. 개구리를 들여보내라.\"",
+        },
+      ],
+      [
+        {
+          id: "tfp-13",
+          text: "The frog hopped to the table and ate from her golden plate, while the princess could hardly eat at all.",
+          translation:
+            "개구리는 식탁으로 폴짝 뛰어올라 공주의 황금 접시에서 먹었고, 공주는 거의 아무것도 먹지 못했어요.",
+        },
+        {
+          id: "tfp-14",
+          text: "When it was time for bed, the frog asked to come upstairs too, and again the king told her to keep her word.",
+          translation:
+            "잘 시간이 되자 개구리는 자기도 위층에 올라가겠다고 했고, 왕은 다시 한번 공주에게 약속을 지키라고 말했어요.",
+        },
+        {
+          id: "tfp-15",
+          text: "She was very cross, and almost threw the frog down — but then she remembered her promise and set him down gently on a soft cushion.",
+          translation:
+            "공주는 몹시 화가 나서 개구리를 내동댕이칠 뻔했지만, 곧 약속을 떠올리고는 개구리를 푹신한 방석 위에 살며시 내려놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "tfp-16",
+          text: "At that moment the frog changed into a young prince with kind, smiling eyes.",
+          translation:
+            "바로 그 순간, 개구리는 다정하게 웃는 눈을 가진 젊은 왕자로 변했어요.",
+        },
+        {
+          id: "tfp-17",
+          text: "A witch's spell had turned him into a frog long ago, he said, and only a kept promise could break it.",
+          translation:
+            "오래전 마녀의 마법이 자신을 개구리로 만들었으며, 오직 지켜진 약속만이 그 마법을 풀 수 있었다고 왕자가 말했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tfp-v1",
+        term: "well",
+        partOfSpeech: "noun",
+        translation: "우물 (땅을 파서 물을 얻는 곳)",
+        example: "The golden ball rolled into the deep well and disappeared.",
+        exampleTranslation: "황금 공은 깊은 우물 속으로 굴러 들어가 사라졌어요.",
+      },
+      {
+        id: "tfp-v2",
+        term: "frog",
+        partOfSpeech: "noun",
+        translation: "개구리",
+        example: "A green frog climbed out of the water and spoke to the princess.",
+        exampleTranslation: "초록색 개구리 한 마리가 물에서 기어 나와 공주에게 말을 걸었어요.",
+      },
+      {
+        id: "tfp-v3",
+        term: "promise",
+        partOfSpeech: "noun",
+        translation: "약속; (동사) 약속하다",
+        example: "The princess made a promise to the frog, but she did not want to keep it.",
+        exampleTranslation: "공주는 개구리에게 약속을 했지만, 그 약속을 지키고 싶지 않았어요.",
+      },
+      {
+        id: "tfp-v4",
+        term: "cross",
+        partOfSpeech: "adjective",
+        translation: "화가 난, 짜증이 난",
+        example: "The princess felt very cross when the frog asked to come upstairs.",
+        exampleTranslation: "개구리가 위층에 올라가겠다고 하자 공주는 몹시 화가 났어요.",
+      },
+      {
+        id: "tfp-v5",
+        term: "spell",
+        partOfSpeech: "noun",
+        translation: "마법, 주문",
+        example: "A witch's spell had turned the prince into a frog.",
+        exampleTranslation: "마녀의 마법이 왕자를 개구리로 바꿔 놓았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tfp-q1",
+        prompt: "Why did the princess start to cry by the well?",
+        options: [
+          "A frog jumped onto her hand.",
+          "Her golden ball fell into the deep well.",
+          "She was lost in the woods.",
+          "The king was angry with her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The princess threw her golden ball too high, and it fell into the well and sank out of sight, so she sat down and cried.",
+      },
+      {
+        id: "tfp-q2",
+        prompt: "What did the frog want in return for the golden ball?",
+        options: [
+          "A bag of gold coins.",
+          "The princess's golden crown.",
+          "To be her friend, eat from her plate, and stay in her room.",
+          "To live in the castle garden.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The frog did not want jewels or gold; it asked the princess to promise that it could be her friend, eat from her plate, and sleep in her room.",
+      },
+      {
+        id: "tfp-q3",
+        prompt: "Why did the princess have to let the frog into the castle?",
+        options: [
+          "The frog was too strong to keep out.",
+          "Her father the king told her she must keep her promise.",
+          "The frog promised her another golden ball.",
+          "She had grown to like the frog.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The princess wanted to shut the frog out, but the king reminded her that a promise must be kept, and told her to let the frog come in.",
+      },
+    ],
+  },
 ];

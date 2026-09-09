@@ -121,7 +121,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 11 | Little Red Riding Hood | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 12 | Snow White | Brothers Grimm (1863) | 2591 | A2 | trimmed | ☐ |
 | 13 | Rapunzel | Brothers Grimm (1863) | 2591 | A2 | whole | ☐ |
-| 14 | The Frog Prince | Brothers Grimm (1863) | 2591 | A1 | whole | ☐ |
+| 14 | The Frog Prince | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 15 | The Little Mermaid | Hans Christian Andersen (1875) | 1597 | B1 | trimmed to 1–2 scenes | ☐ |
 | 16 | The Ugly Duckling | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
 | 17 | The Emperor's New Clothes | Hans Christian Andersen (1875) | 1597 | A1 | whole (simplified retelling, 17 sentences) | ☑ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (24):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (25):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
   (row 44), Little Women Ch. 1 (row 39), The Ugly Duckling (row 16),
   Cinderella (row 10), Pride and Prejudice Ch. 1 (row 27), Pride and
@@ -211,25 +211,26 @@ has a genuine period cover/illustration in the public domain, download that into
   Wuthering Heights Ch. 3 (row 35), The Secret Garden Ch. 1 (row 49), The
   Emperor's New Clothes (row 17), Alice's Adventures in Wonderland Ch. 1
   (row 23), The Happy Prince (row 7), The Princess and the Pea (row 18),
-  Little Red Riding Hood (row 11). Follow their shape in
-  `src/lib/data/lessons.ts`. Every live
+  Little Red Riding Hood (row 11), The Frog Prince (row 14). Follow their
+  shape in `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×5 (Cinderella, The Selfish Giant, The
-  Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood),
-  A2 ×7 (Story of an Hour, Anne Ch. 2, Little Women, Ugly Duckling, The
-  Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince), B1 ×6 (Gift
-  of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas Carol,
-  Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1), B2 ×6 (Jane
-  Eyre, The Lady with the Dog, Wuthering Heights, Pride and Prejudice
-  Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1). Bands are now
-  A1 ×5, B1 ×6, B2 ×6, A2 ×7 — very even; A1 is the lightest. Alice in
-  Wonderland is still A2's only entry that is neither a fairy tale nor
+- Levels on the shelf now: A1 ×6 (Cinderella, The Selfish Giant, The
+  Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
+  The Frog Prince), A2 ×7 (Story of an Hour, Anne Ch. 2, Little Women, Ugly
+  Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince),
+  B1 ×6 (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A
+  Christmas Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1),
+  B2 ×6 (Jane Eyre, The Lady with the Dog, Wuthering Heights, Pride and
+  Prejudice Ch. 34, Frankenstein Letter 1, The Age of Innocence Ch. 1).
+  Bands are now A1 ×6, B1 ×6, B2 ×6, A2 ×7 — almost perfectly even. Alice
+  in Wonderland is still A2's only entry that is neither a fairy tale nor
   gentle domestic fiction.
-- Good next lessons to build: **The Frog Prince** (row 14, A1 — Grimm,
-  whole; a sixth A1), **Snow White** (row 12, A2 — trimmed; a fairy tale
-  the shelf still lacks), **Middlemarch Prelude + Ch. 1** (row 61, B2 —
-  Dorothea; a first George Eliot). Note: row 56 (A Room with a View) is
-  **not** clear to build — Forster died 1970, so it is not public domain in
-  life+70 countries (including Korea) until 2041.
+- Good next lessons to build: **Snow White** (row 12, A2 — trimmed; a fairy
+  tale the shelf still lacks), **Middlemarch Prelude + Ch. 1** (row 61,
+  B2 — Dorothea; a first George Eliot), **The Yellow Wallpaper** (row 1,
+  B1 — the opening journal entries; adds range to a shelf that leans gentle
+  and domestic). Note: row 56 (A Room with a View) is **not** clear to
+  build — Forster died 1970, so it is not public domain in life+70
+  countries (including Korea) until 2041.
