@@ -10403,4 +10403,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-mysteries-of-udolpho",
+    title: "The Mysteries of Udolpho",
+    titleTranslation: "우돌포의 비밀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Ann Radcliffe (1764–1823)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/the-mysteries-of-udolpho.svg",
+    source:
+      "Adapted from Volume 1, Chapter 1 of Ann Radcliffe's novel \"The Mysteries of Udolpho\" (first published 1794; long in the public domain, Project Gutenberg #3268). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the life the St. Aubert family led at La Vallée, and the lesson Emily's father tried to teach her.",
+    paragraphs: [
+      [
+        {
+          id: "mou-1",
+          text: "On the pleasant banks of the river Garonne, in the south of France, stood the château of Monsieur St. Aubert.",
+          translation:
+            "프랑스 남부, 가론강의 아름다운 강가에 생토베르 씨의 저택이 있었어요.",
+        },
+        {
+          id: "mou-2",
+          text: "It was a modest house, half hidden by woods, with the great blue line of the Pyrenees rising far away to the south.",
+          translation:
+            "숲에 반쯤 가려진 소박한 집이었고, 저 멀리 남쪽으로는 피레네산맥의 거대한 푸른 능선이 솟아 있었어요.",
+        },
+        {
+          id: "mou-3",
+          text: "St. Aubert had once known the wider world, but he had seen enough of its noise and its falseness, and had chosen to leave it.",
+          translation:
+            "생토베르는 한때 넓은 세상을 알았지만, 그 소란과 거짓됨을 충분히 겪고서 그곳을 떠나기로 마음먹었어요.",
+        },
+      ],
+      [
+        {
+          id: "mou-4",
+          text: "Here at La Vallée he lived quietly with his wife and his one surviving child, a daughter named Emily.",
+          translation:
+            "이곳 라발레에서 그는 아내와, 살아남은 하나뿐인 자식인 에밀리라는 딸과 함께 조용히 살았어요.",
+        },
+        {
+          id: "mou-5",
+          text: "He filled his days with his books, his music, and the study of plants, and every evening he walked through the same well-loved fields.",
+          translation:
+            "그는 책과 음악, 식물 연구로 하루하루를 채웠고, 저녁마다 늘 같은 정든 들판을 거닐었어요.",
+        },
+        {
+          id: "mou-6",
+          text: "Madame St. Aubert was gentle and often unwell, and the small family was bound together by a deep and easy affection.",
+          translation:
+            "생토베르 부인은 온화했지만 자주 몸이 편치 않았고, 이 작은 가족은 깊고도 편안한 애정으로 서로 이어져 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "mou-7",
+          text: "Emily, now eighteen, had her father's love of books and her mother's soft manner.",
+          translation:
+            "이제 열여덟이 된 에밀리는 아버지의 책 사랑과 어머니의 부드러운 태도를 함께 지니고 있었어요.",
+        },
+        {
+          id: "mou-8",
+          text: "She was tall and gracefully made, with a face that showed every feeling as it passed.",
+          translation:
+            "그녀는 키가 크고 우아한 몸매였으며, 스쳐 가는 모든 감정이 그대로 드러나는 얼굴을 하고 있었어요.",
+        },
+        {
+          id: "mou-9",
+          text: "She loved best to wander alone near the little fishing-house by the stream, reading poetry or watching the light change on the mountains.",
+          translation:
+            "그녀가 가장 좋아한 것은 시냇가의 작은 낚시 오두막 근처를 혼자 거닐며 시를 읽거나 산 위로 빛이 변해 가는 모습을 지켜보는 일이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mou-10",
+          text: "Sometimes she wrote verses of her own, though she was shy of showing them to anyone.",
+          translation:
+            "이따금 그녀는 직접 시를 짓기도 했지만, 누구에게도 보여 주기를 부끄러워했어요.",
+        },
+        {
+          id: "mou-11",
+          text: "Her father delighted in her, and yet one thing about her made him uneasy.",
+          translation:
+            "아버지는 그녀를 몹시 사랑했지만, 그녀에 대해 한 가지 마음에 걸리는 것이 있었어요.",
+        },
+        {
+          id: "mou-12",
+          text: "He saw that her feelings were unusually strong, and that beauty or sorrow could move her almost past bearing.",
+          translation:
+            "그는 그녀의 감정이 유난히 강해서, 아름다움이나 슬픔이 그녀를 거의 견딜 수 없을 만큼 뒤흔든다는 것을 알았어요.",
+        },
+      ],
+      [
+        {
+          id: "mou-13",
+          text: "Such a nature, he believed, was a kind of danger in a world that does not spare the tender-hearted.",
+          translation:
+            "그런 기질은, 마음 여린 사람을 봐주지 않는 세상에서는 일종의 위험이라고 그는 믿었어요.",
+        },
+        {
+          id: "mou-14",
+          text: "He tried, gently, to teach her self-command: to feel deeply, but not to be ruled by feeling.",
+          translation:
+            "그는 그녀에게 자제력을 부드럽게 가르치려 했어요. 깊이 느끼되, 감정에 휘둘리지는 말라고요.",
+        },
+        {
+          id: "mou-15",
+          text: "\"Do not be proud of your sensibility,\" he told her; a mind that cannot govern itself, however fine, brings its owner grief.",
+          translation:
+            "\"네 감수성을 자랑스러워하지 마라.\" 그는 그녀에게 말했어요. 스스로를 다스리지 못하는 마음은, 아무리 고와도 그 주인에게 슬픔을 안겨 준다고요.",
+        },
+      ],
+      [
+        {
+          id: "mou-16",
+          text: "Emily listened, and loved him the more for it, though she was still too young to know how much she would need the lesson.",
+          translation:
+            "에밀리는 귀 기울여 들었고, 그 때문에 아버지를 더욱 사랑했지만, 그 가르침이 얼마나 절실히 필요하게 될지는 알기에는 아직 너무 어렸어요.",
+        },
+        {
+          id: "mou-17",
+          text: "For the present the days passed one like another at La Vallée, calm and bright, and none of them guessed how soon that quiet would end.",
+          translation:
+            "당분간 라발레의 나날은 서로 비슷하게, 고요하고 환하게 흘러갔고, 그 평온이 얼마나 빨리 끝날지는 아무도 짐작하지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mou-v1",
+        term: "affection",
+        partOfSpeech: "noun",
+        translation: "애정, 다정함",
+        example: "The small family was bound together by a deep affection.",
+        exampleTranslation: "그 작은 가족은 깊은 애정으로 서로 이어져 있었어요.",
+      },
+      {
+        id: "mou-v2",
+        term: "sensibility",
+        partOfSpeech: "noun",
+        translation: "감수성, 감정에 쉽게 흔들리는 마음",
+        example: "Her father worried about her strong sensibility.",
+        exampleTranslation: "아버지는 그녀의 강한 감수성을 걱정했어요.",
+      },
+      {
+        id: "mou-v3",
+        term: "self-command",
+        partOfSpeech: "noun",
+        translation: "자제(력), 감정을 다스리는 힘",
+        example: "He tried to teach Emily self-command.",
+        exampleTranslation: "그는 에밀리에게 자제력을 가르치려 했어요.",
+      },
+      {
+        id: "mou-v4",
+        term: "uneasy",
+        partOfSpeech: "adjective",
+        translation: "불안한, 마음이 편치 않은",
+        example: "One thing about his daughter made St. Aubert uneasy.",
+        exampleTranslation: "딸에 대한 한 가지가 생토베르의 마음을 편치 않게 했어요.",
+      },
+      {
+        id: "mou-v5",
+        term: "govern",
+        partOfSpeech: "verb",
+        translation: "다스리다, 통제하다",
+        example: "A mind that cannot govern itself brings its owner grief.",
+        exampleTranslation: "스스로를 다스리지 못하는 마음은 그 주인에게 슬픔을 안겨 줘요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mou-q1",
+        prompt: "Why had Monsieur St. Aubert come to live quietly at La Vallée?",
+        options: [
+          "He had lost his fortune and could no longer afford the city.",
+          "He had grown tired of the noise and falseness of the wider world and chose to withdraw from it.",
+          "His doctors had ordered him to the mountains for his health.",
+          "He had inherited the château and was required by law to live in it.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "St. Aubert had known the wider world but had seen enough of its noise and falseness; he chose to leave it and live quietly at La Vallée with his books, his music, his plants, and his family.",
+      },
+      {
+        id: "mou-q2",
+        prompt: "What was the one thing about Emily that made her father uneasy?",
+        options: [
+          "She spent too much of the family's money on books and music.",
+          "She refused to learn anything about plants or botany.",
+          "Her feelings were unusually strong, and beauty or sorrow could overwhelm her.",
+          "She kept asking to leave home and travel through Europe.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "St. Aubert delighted in Emily, but he saw that her sensibility was unusually strong — beauty or sorrow could move her almost past bearing — and he thought such a nature was a danger in an unkind world.",
+      },
+      {
+        id: "mou-q3",
+        prompt: "What did St. Aubert try to teach Emily?",
+        options: [
+          "To hide her feelings completely and always appear cold.",
+          "To be proud of her fine sensibility and trust it.",
+          "To feel deeply but not be ruled by her feelings — self-command.",
+          "To think well of every stranger she met.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He tried gently to teach her self-command: to feel deeply but not to be governed by feeling, warning her that a mind which cannot govern itself, however fine, brings its owner grief.",
+      },
+    ],
+  },
 ];
