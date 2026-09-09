@@ -4767,4 +4767,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "sense-and-sensibility",
+    title: "Sense and Sensibility",
+    titleTranslation: "이성과 감성",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🏡",
+    coverImage: "/covers/sense-and-sensibility.svg",
+    source:
+      "Adapted from Chapter 1 of Jane Austen's novel \"Sense and Sensibility\" (first published 1811; long in the public domain, Project Gutenberg #21839). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Mr. Henry Dashwood's wife and daughters were left poor, and what John Dashwood decided to give them.",
+    paragraphs: [
+      [
+        {
+          id: "sns-1",
+          text: "For many years the Dashwood family had lived at Norland Park, a large old house in the south of England.",
+          translation:
+            "여러 해 동안 대시우드 집안은 잉글랜드 남부의 크고 오래된 저택인 노랜드 파크에서 살았어요.",
+        },
+        {
+          id: "sns-2",
+          text: "The estate belonged to an elderly bachelor, who invited his nephew, Mr. Henry Dashwood, to live there with his wife and three daughters.",
+          translation:
+            "그 사유지는 나이 든 독신 남성의 것이었는데, 그는 조카인 헨리 대시우드 씨에게 아내와 세 딸을 데리고 와서 함께 살자고 했어요.",
+        },
+        {
+          id: "sns-3",
+          text: "The daughters were Elinor, Marianne, and young Margaret, and the old man grew fond of them all.",
+          translation:
+            "딸들은 엘리너, 메리앤, 그리고 어린 마거릿이었고, 노인은 이들 모두를 아끼게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "sns-4",
+          text: "Mr. Henry Dashwood also had a grown son, John, from his first marriage, and John had a little boy of his own.",
+          translation:
+            "헨리 대시우드 씨에게는 첫 번째 결혼에서 얻은 다 큰 아들 존도 있었고, 존에게는 자기 어린 아들이 하나 있었어요.",
+        },
+        {
+          id: "sns-5",
+          text: "When the old gentleman died, everyone learned that his will was a great disappointment.",
+          translation:
+            "노신사가 세상을 떠나자, 그의 유언장이 크게 실망스러운 내용이라는 것을 모두 알게 되었어요.",
+        },
+        {
+          id: "sns-6",
+          text: "He left Norland to Henry, but only for his lifetime; after that it would pass straight to John and then to John's small son.",
+          translation:
+            "그는 노랜드를 헨리에게 남겼지만, 그것은 헨리가 살아 있는 동안만이었어요. 그 뒤에는 곧바로 존에게, 그다음에는 존의 어린 아들에게 넘어가게 되어 있었지요.",
+        },
+      ],
+      [
+        {
+          id: "sns-7",
+          text: "This meant that Mr. Henry Dashwood could not leave the house or the land to his wife and daughters.",
+          translation:
+            "이 말은 헨리 대시우드 씨가 그 집이나 땅을 아내와 딸들에게 물려줄 수 없다는 뜻이었어요.",
+        },
+        {
+          id: "sns-8",
+          text: "He received only ten thousand pounds of his own, and the rest of the fortune was tied up for his son and grandson.",
+          translation:
+            "그가 자기 몫으로 받은 것은 겨우 1만 파운드였고, 나머지 재산은 모두 아들과 손자를 위해 묶여 있었어요.",
+        },
+        {
+          id: "sns-9",
+          text: "He hoped to live many more years and save money for his girls, but he fell ill and died just twelve months later.",
+          translation:
+            "그는 앞으로 여러 해 더 살면서 딸들을 위해 돈을 모으기를 바랐지만, 병이 들어 겨우 열두 달 뒤에 세상을 떠났어요.",
+        },
+      ],
+      [
+        {
+          id: "sns-10",
+          text: "On his deathbed, Henry sent for John and begged him to take care of his stepmother and his three half-sisters.",
+          translation:
+            "임종을 앞두고, 헨리는 존을 불러 계모와 세 이복 누이를 잘 보살펴 달라고 간곡히 부탁했어요.",
+        },
+        {
+          id: "sns-11",
+          text: "John Dashwood was not a cruel man, but he was cold and rather selfish, and he thought a great deal about money.",
+          translation:
+            "존 대시우드는 잔인한 사람은 아니었지만, 차갑고 다소 이기적이었으며, 돈에 대해 아주 많이 생각하는 사람이었어요.",
+        },
+        {
+          id: "sns-12",
+          text: "Still, he was moved by his father's words, and he promised to do everything he could to make the women comfortable.",
+          translation:
+            "그래도 그는 아버지의 말에 마음이 움직여, 그 여인들이 편안히 지내도록 할 수 있는 모든 일을 하겠다고 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "sns-13",
+          text: "After his father's death, John thought carefully about what \"everything he could\" should mean.",
+          translation:
+            "아버지가 돌아가신 뒤, 존은 '할 수 있는 모든 일'이 무엇을 뜻해야 하는지 곰곰이 생각했어요.",
+        },
+        {
+          id: "sns-14",
+          text: "He decided he might give his sisters a thousand pounds each — three thousand pounds in all.",
+          translation:
+            "그는 누이들에게 각각 1천 파운드씩, 모두 합쳐 3천 파운드를 줄 수도 있겠다고 마음먹었어요.",
+        },
+        {
+          id: "sns-15",
+          text: "\"That would be generous and handsome,\" he told himself. \"It would be quite enough to make them easy, and I could spare it with very little trouble.\"",
+          translation:
+            "\"그 정도면 후하고 훌륭하지.\" 그는 스스로에게 말했어요. \"그들이 넉넉히 지내기에 충분할 테고, 나야 별 어려움 없이 내줄 수 있으니까.\"",
+        },
+      ],
+      [
+        {
+          id: "sns-16",
+          text: "He turned the plan over in his mind all day, and felt pleased with his own kindness.",
+          translation:
+            "그는 온종일 그 계획을 머릿속으로 이리저리 굴려 보며, 자신의 친절함에 흡족해했어요.",
+        },
+        {
+          id: "sns-17",
+          text: "He did not change his mind — not yet — and he did not once think how small three thousand pounds would seem beside all that he had gained.",
+          translation:
+            "그는 마음을 바꾸지 않았어요. 아직은요. 그리고 자기가 얻은 그 모든 것에 비하면 3천 파운드가 얼마나 하찮아 보일지는 단 한 번도 생각하지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sns-v1",
+        term: "estate",
+        partOfSpeech: "noun",
+        translation: "(넓은 땅이 딸린) 사유지, 토지",
+        example: "Norland was a large estate with a great house, gardens, and farmland.",
+        exampleTranslation: "노랜드는 큰 저택과 정원, 농지가 딸린 넓은 사유지였어요.",
+      },
+      {
+        id: "sns-v2",
+        term: "bachelor",
+        partOfSpeech: "noun",
+        translation: "독신 남성, 미혼 남성",
+        example: "The old bachelor had never married and had no children of his own.",
+        exampleTranslation: "그 나이 든 독신 남성은 결혼한 적이 없었고 자기 자식도 없었어요.",
+      },
+      {
+        id: "sns-v3",
+        term: "will",
+        partOfSpeech: "noun",
+        translation: "유언장",
+        example: "In his will, the old man left the house to his nephew.",
+        exampleTranslation: "노인은 유언장에서 그 집을 조카에게 남겼어요.",
+      },
+      {
+        id: "sns-v4",
+        term: "fortune",
+        partOfSpeech: "noun",
+        translation: "재산, 부",
+        example: "Most of the family fortune was kept for the son and the grandson.",
+        exampleTranslation: "가문 재산의 대부분은 아들과 손자를 위해 남겨졌어요.",
+      },
+      {
+        id: "sns-v5",
+        term: "generous",
+        partOfSpeech: "adjective",
+        translation: "후한, 너그러운",
+        example: "John told himself that three thousand pounds was a generous gift.",
+        exampleTranslation: "존은 3천 파운드가 후한 선물이라고 스스로에게 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sns-q1",
+        prompt: "Why was the old gentleman's will a disappointment to Mr. Henry Dashwood?",
+        options: [
+          "It left Norland to a distant cousin instead of to him.",
+          "He could live at Norland but could not pass the house or land to his wife and daughters.",
+          "It ordered him to sell Norland and divide the money.",
+          "It gave everything to charity and nothing to the family.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Henry was given Norland only for his lifetime; afterwards it went straight to his son John and John's little boy, so he could not leave the estate to his wife or his three daughters.",
+      },
+      {
+        id: "sns-q2",
+        prompt: "What did Mr. Henry Dashwood ask his son John to do?",
+        options: [
+          "To sell the family's London house and share the money.",
+          "To let his half-sisters live at Norland forever.",
+          "To take care of his stepmother and his three half-sisters.",
+          "To find good husbands for Elinor and Marianne.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Dying only a year after the old gentleman, Henry sent for John and begged him to look after the women, who would be left with very little.",
+      },
+      {
+        id: "sns-q3",
+        prompt: "What did John Dashwood privately decide to do for his sisters?",
+        options: [
+          "Give them Norland and move his own family away.",
+          "Give them a thousand pounds each, and feel pleased with himself for it.",
+          "Invite them to come and live in his own house in London.",
+          "Nothing at all, since his father's promise did not bind him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "John resolved to give the three women a thousand pounds apiece — three thousand in total — and spent the day admiring his own generosity, without noticing how small the sum was next to his inheritance.",
+      },
+    ],
+  },
 ];
