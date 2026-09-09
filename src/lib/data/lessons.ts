@@ -12529,4 +12529,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "villette",
+    title: "Villette",
+    titleTranslation: "빌레트",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "🕰️",
+    coverImage: "/covers/villette.svg",
+    source:
+      "Adapted from Chapter 1 (\"Bretton\") of Charlotte Brontë's novel \"Villette\" (first published 1853; long in the public domain, Project Gutenberg #9182). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the child Polly and how she behaved when her father left her at Bretton.",
+    paragraphs: [
+      [
+        {
+          id: "vil-1",
+          text: "When I was young, I often stayed with my godmother, Mrs. Bretton, in the quiet old town of Bretton.",
+          translation:
+            "어릴 적, 나는 조용한 옛 도시 브레턴에서 대모인 브레턴 부인과 함께 자주 지냈어요.",
+        },
+        {
+          id: "vil-2",
+          text: "Her house was large, clean, and calm, and time there passed like a slow, smooth river.",
+          translation:
+            "그 집은 크고 깨끗하고 고요했으며, 그곳에서는 시간이 느리고 잔잔한 강물처럼 흘렀어요.",
+        },
+        {
+          id: "vil-3",
+          text: "Mrs. Bretton was a tall, handsome widow, sensible and kind, not given to strong feeling.",
+          translation:
+            "브레턴 부인은 키가 크고 잘생긴 미망인으로, 분별 있고 다정했으며, 감정에 크게 휘둘리는 사람이 아니었어요.",
+        },
+      ],
+      [
+        {
+          id: "vil-4",
+          text: "Her only child, Graham, was a bright, good-looking boy of sixteen, used to being liked.",
+          translation:
+            "그녀의 외아들 그레이엄은 열여섯 살의 총명하고 잘생긴 소년으로, 사람들의 호감을 받는 데 익숙했어요.",
+        },
+        {
+          id: "vil-5",
+          text: "I was a quiet girl who preferred to watch other people rather than be watched myself.",
+          translation:
+            "나는 남에게 주목받기보다 남을 지켜보기를 좋아하는 조용한 소녀였어요.",
+        },
+        {
+          id: "vil-6",
+          text: "One autumn, the calm of the house was broken by the arrival of a visitor.",
+          translation:
+            "어느 가을, 그 집의 고요는 한 방문객이 찾아오면서 깨졌어요.",
+        },
+      ],
+      [
+        {
+          id: "vil-7",
+          text: "He was Mr. Home, an old friend of the family, a grave man with a troubled face.",
+          translation:
+            "그는 홈 씨였는데, 그 집안의 오랜 친구였고, 근심 어린 얼굴을 한 근엄한 사람이었어요.",
+        },
+        {
+          id: "vil-8",
+          text: "His wife had lately died, and he was about to travel abroad for a long time.",
+          translation:
+            "그의 아내는 얼마 전에 세상을 떠났고, 그는 오랫동안 외국으로 떠나려던 참이었어요.",
+        },
+        {
+          id: "vil-9",
+          text: "He asked Mrs. Bretton to take care of his small daughter while he was gone.",
+          translation:
+            "그는 자기가 없는 동안 어린 딸을 돌봐 달라고 브레턴 부인에게 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "vil-10",
+          text: "The child was called Polly, and she was not quite seven years old.",
+          translation: "그 아이의 이름은 폴리였고, 아직 일곱 살도 채 되지 않았어요.",
+        },
+        {
+          id: "vil-11",
+          text: "She was tiny, neat, and unnaturally still, and she spoke like a careful little grown woman.",
+          translation:
+            "아이는 자그맣고 단정했으며 유난히 얌전했고, 조심스러운 작은 어른처럼 말했어요.",
+        },
+        {
+          id: "vil-12",
+          text: "When her father was in the room, she watched his every movement; when he left it, she seemed hardly to breathe.",
+          translation:
+            "아버지가 방에 있을 때면 아이는 그의 모든 움직임을 지켜보았고, 아버지가 방을 나가면 숨조차 거의 쉬지 않는 것 같았어요.",
+        },
+      ],
+      [
+        {
+          id: "vil-13",
+          text: "On the night before he went away, she sat on his knee without a word for hours, holding his coat in her small hands.",
+          translation:
+            "아버지가 떠나기 전날 밤, 아이는 작은 손으로 그의 외투를 꼭 쥔 채 몇 시간 동안 말없이 그의 무릎에 앉아 있었어요.",
+        },
+        {
+          id: "vil-14",
+          text: "After his carriage had gone, she did not cry loudly, as other children do.",
+          translation:
+            "아버지의 마차가 떠난 뒤에도, 아이는 다른 아이들처럼 큰 소리로 울지 않았어요.",
+        },
+        {
+          id: "vil-15",
+          text: "Instead she crept into a corner and stayed there, grieving with a silence that was hard to watch.",
+          translation:
+            "대신 아이는 구석으로 기어들어 가 그곳에 머물렀고, 지켜보기 힘든 침묵 속에서 슬퍼했어요.",
+        },
+      ],
+      [
+        {
+          id: "vil-16",
+          text: "Slowly, over the following weeks, the child fastened all her fierce little heart onto Graham instead.",
+          translation:
+            "그 뒤 몇 주에 걸쳐, 아이는 자기 작은 가슴속 뜨거운 애정을 이번에는 온통 그레이엄에게 쏟았어요.",
+        },
+        {
+          id: "vil-17",
+          text: "I said nothing, but I watched them all, and I forgot none of what I saw.",
+          translation:
+            "나는 아무 말도 하지 않았지만, 그들 모두를 지켜보았고, 내가 본 것을 하나도 잊지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "vil-v1",
+        term: "godmother",
+        partOfSpeech: "noun",
+        translation: "대모 (아이의 신앙·성장을 돌봐 주기로 한 여성)",
+        example: "Lucy spent many holidays with her godmother at Bretton.",
+        exampleTranslation: "루시는 브레턴에서 대모와 함께 여러 번 휴일을 보냈어요.",
+      },
+      {
+        id: "vil-v2",
+        term: "sensible",
+        partOfSpeech: "adjective",
+        translation: "분별 있는, 사리에 밝은",
+        example: "Mrs. Bretton was a calm, sensible woman.",
+        exampleTranslation: "브레턴 부인은 차분하고 분별 있는 여성이었어요.",
+      },
+      {
+        id: "vil-v3",
+        term: "grave",
+        partOfSpeech: "adjective",
+        translation: "근엄한, 심각한",
+        example: "Mr. Home was a grave man with a troubled face.",
+        exampleTranslation: "홈 씨는 근심 어린 얼굴을 한 근엄한 사람이었어요.",
+      },
+      {
+        id: "vil-v4",
+        term: "unnaturally",
+        partOfSpeech: "adverb",
+        translation: "부자연스럽게, 유난히",
+        example: "For a child, Polly was unnaturally still and quiet.",
+        exampleTranslation: "아이치고 폴리는 유난히 얌전하고 조용했어요.",
+      },
+      {
+        id: "vil-v5",
+        term: "grieve",
+        partOfSpeech: "verb",
+        translation: "슬퍼하다, 비통해하다",
+        example: "Polly grieved for her father in a hard, adult silence.",
+        exampleTranslation: "폴리는 어른 같은 무거운 침묵 속에서 아버지를 그리며 슬퍼했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "vil-q1",
+        prompt: "What was life like at Mrs. Bretton's house in Bretton?",
+        options: [
+          "Noisy and full of visitors day and night.",
+          "Large, clean, and calm, where time passed slowly and smoothly.",
+          "Poor and uncomfortable, with far too many children.",
+          "Cold and unfriendly, ruled by strict rules.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lucy often stayed with her godmother Mrs. Bretton in the quiet old town; the house was large, clean, and calm, and time there passed \"like a slow, smooth river,\" under the sensible, unemotional Mrs. Bretton and her likable son Graham.",
+      },
+      {
+        id: "vil-q2",
+        prompt: "Why did Mr. Home leave his daughter Polly at Bretton?",
+        options: [
+          "Polly had asked to live with Graham.",
+          "He could no longer afford to keep her at home.",
+          "His wife had recently died and he had to travel abroad for a long time.",
+          "Mrs. Bretton was secretly Polly's real mother.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mr. Home, an old friend of the family with a troubled face, had lately lost his wife and was about to go abroad for a long time, so he asked Mrs. Bretton to care for his small daughter while he was gone.",
+      },
+      {
+        id: "vil-q3",
+        prompt: "How did the child Polly behave?",
+        options: [
+          "Loud and playful, like most children her age.",
+          "She refused to speak to anyone in the house.",
+          "She quickly forgot her father and was perfectly happy.",
+          "Tiny, still, and grave; she watched her father constantly and, after he left, grieved in a hard, adult silence before fastening her heart onto Graham.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Polly, not quite seven, was tiny, neat, and unnaturally still, speaking like a careful grown woman; she watched her father's every move, and after his carriage left she crept into a corner and grieved in silence, and over the following weeks she attached all her fierce little heart to Graham.",
+      },
+    ],
+  },
 ];

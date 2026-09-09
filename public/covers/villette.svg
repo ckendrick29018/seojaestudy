@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Villette by Charlotte Bronte">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 168)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-26 28 v-32 q 0 -15 26 -15 q 26 0 26 15 v32 z" stroke-width="1.8"/>
+    <path d="M-23 28 v5 h8 v-5 M15 28 v5 h8 v-5" stroke-width="1.4"/>
+    <circle cx="0" cy="-5" r="15" stroke-width="1.6"/>
+    <circle cx="0" cy="-5" r="1.7" fill="#C9A66B" stroke="none"/>
+    <path d="M0 -5 L0 -16 M0 -5 L9 0" stroke-width="1.5"/>
+    <path d="M0 -19 v3 M13 -5 h-3 M0 9 v-3 M-13 -5 h3" stroke-width="1.2" opacity="0.8"/>
+    <path d="M0 -23 v-4" stroke-width="1.4"/>
+    <circle cx="0" cy="-30" r="2" stroke-width="1.3"/>
+    <path d="M-54 40 q 40 -9 56 -3 t 56 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="334" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#2C2C2C" letter-spacing="2">Villette</text>
+
+  <line x1="150" y1="372" x2="250" y2="372" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="405" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">The house at Bretton</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="2">CHARLOTTE BRONT&#203;</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1853</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
