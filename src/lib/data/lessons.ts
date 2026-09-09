@@ -11886,4 +11886,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "little-women-jo-and-amy",
+    title: "Little Women: Jo and Amy",
+    titleTranslation: "작은 아씨들: 조와 에이미",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "📓",
+    coverImage: "/covers/little-women-jo-and-amy.svg",
+    source:
+      "Adapted from Chapter 8 (\"Jo Meets Apollyon\") of Louisa May Alcott's novel \"Little Women\" (first published 1868; long in the public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Amy did to Jo, and what nearly happened on the ice as a result of Jo's anger.",
+    paragraphs: [
+      [
+        {
+          id: "lwa-1",
+          text: "One winter afternoon, Jo and Meg were going to the theatre with their friend Laurie.",
+          translation:
+            "어느 겨울 오후, 조와 메그는 친구 로리와 함께 극장에 가려던 참이었어요.",
+        },
+        {
+          id: "lwa-2",
+          text: "Their youngest sister, Amy, wanted to come too, but Jo said sharply that she could not.",
+          translation:
+            "막내 여동생 에이미도 따라가고 싶어 했지만, 조는 안 된다고 퉁명스럽게 말했어요.",
+        },
+        {
+          id: "lwa-3",
+          text: "Amy was hurt and angry. \"You'll be sorry for this, Jo!\" she called.",
+          translation:
+            "에이미는 마음이 상하고 화가 났어요. \"조, 언니 이 일을 후회하게 될 거야!\" 에이미가 소리쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "lwa-4",
+          text: "While the others were out, Amy did a terrible thing.",
+          translation: "다른 사람들이 나가 있는 동안, 에이미는 끔찍한 짓을 저질렀어요.",
+        },
+        {
+          id: "lwa-5",
+          text: "Jo had spent years writing a book of stories by hand, a manuscript she loved more than almost anything she owned.",
+          translation:
+            "조는 몇 년에 걸쳐 손으로 이야기책 한 권을 써 왔는데, 그 원고를 자기가 가진 그 무엇보다 아꼈어요.",
+        },
+        {
+          id: "lwa-6",
+          text: "Amy took the book and burned every page in the fire.",
+          translation: "에이미는 그 책을 가져다 한 장도 남김없이 불 속에 태워 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "lwa-7",
+          text: "When Jo came home and found the burnt pages, her manuscript — the work of years — was gone, and it could never be written again.",
+          translation:
+            "조가 집에 돌아와 타 버린 종이를 발견했을 때, 몇 년에 걸친 작업인 그 원고는 사라졌고, 다시는 쓸 수 없게 되었어요.",
+        },
+        {
+          id: "lwa-8",
+          text: "She shook Amy hard and shouted that she would never forgive her.",
+          translation: "조는 에이미를 세게 흔들며 절대로 용서하지 않겠다고 소리쳤어요.",
+        },
+        {
+          id: "lwa-9",
+          text: "Amy was truly sorry, but being sorry could not bring the stories back.",
+          translation:
+            "에이미는 진심으로 뉘우쳤지만, 뉘우친다고 해서 이야기가 되돌아오지는 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "lwa-10",
+          text: "That evening their mother told Jo, gently, not to let the sun go down on her anger.",
+          translation:
+            "그날 저녁 어머니는 조에게 화를 품은 채로 해가 지게 하지 말라고 다정하게 타일렀어요.",
+        },
+        {
+          id: "lwa-11",
+          text: "But Jo's heart was still hard the next morning, when she went skating on the river with Laurie.",
+          translation:
+            "하지만 이튿날 아침 로리와 강으로 스케이트를 타러 갔을 때에도 조의 마음은 여전히 굳어 있었어요.",
+        },
+        {
+          id: "lwa-12",
+          text: "Amy followed them, hoping to make peace.",
+          translation: "에이미는 화해하고 싶어서 두 사람을 뒤따라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "lwa-13",
+          text: "Jo heard Laurie call out that the ice in the middle of the river was thin.",
+          translation:
+            "조는 강 한가운데의 얼음이 얇다고 로리가 외치는 소리를 들었어요.",
+        },
+        {
+          id: "lwa-14",
+          text: "She was still so angry that she did not pass the warning on to Amy.",
+          translation:
+            "조는 아직도 너무 화가 나서 그 경고를 에이미에게 전해 주지 않았어요.",
+        },
+        {
+          id: "lwa-15",
+          text: "A moment later there was a crack and a cry: Amy had fallen through the ice.",
+          translation:
+            "잠시 뒤 쩍 하는 소리와 비명이 들렸어요. 에이미가 얼음이 깨져 물에 빠진 거예요.",
+        },
+      ],
+      [
+        {
+          id: "lwa-16",
+          text: "Jo and Laurie pulled her out, cold and frightened but safe.",
+          translation:
+            "조와 로리는 에이미를 끌어냈고, 에이미는 춥고 겁에 질렸지만 무사했어요.",
+        },
+        {
+          id: "lwa-17",
+          text: "That night, shaking, Jo told her mother that her temper had nearly killed her sister — and she promised to learn to control it.",
+          translation:
+            "그날 밤 조는 몸을 떨며, 자기 성질 때문에 동생이 죽을 뻔했다고 어머니에게 말했어요. 그리고 그 성질을 다스리는 법을 배우겠다고 약속했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lwa-v1",
+        term: "sharply",
+        partOfSpeech: "adverb",
+        translation: "쌀쌀맞게, 퉁명스럽게; 날카롭게",
+        example: "Jo answered sharply that Amy could not come.",
+        exampleTranslation: "조는 에이미는 올 수 없다고 퉁명스럽게 대답했어요.",
+      },
+      {
+        id: "lwa-v2",
+        term: "manuscript",
+        partOfSpeech: "noun",
+        translation: "원고, 손으로 쓴 글",
+        example: "Her manuscript was years of work, all in one little book.",
+        exampleTranslation: "그녀의 원고는 작은 책 한 권에 담긴 몇 년간의 작업이었어요.",
+      },
+      {
+        id: "lwa-v3",
+        term: "forgive",
+        partOfSpeech: "verb",
+        translation: "용서하다",
+        example: "Jo said she would never forgive Amy.",
+        exampleTranslation: "조는 에이미를 절대 용서하지 않겠다고 말했어요.",
+      },
+      {
+        id: "lwa-v4",
+        term: "warning",
+        partOfSpeech: "noun",
+        translation: "경고, 주의",
+        example: "Jo did not pass Laurie's warning on to her sister.",
+        exampleTranslation: "조는 로리의 경고를 동생에게 전해 주지 않았어요.",
+      },
+      {
+        id: "lwa-v5",
+        term: "temper",
+        partOfSpeech: "noun",
+        translation: "성질, 화, 울화",
+        example: "Jo's temper had nearly cost Amy her life.",
+        exampleTranslation: "조의 성질 때문에 에이미가 목숨을 잃을 뻔했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lwa-q1",
+        prompt: "Why did Amy burn Jo's manuscript?",
+        options: [
+          "She thought the stories were badly written.",
+          "She was angry that Jo had refused to take her to the theatre.",
+          "She needed paper to light the fire.",
+          "Their mother had told her to destroy it.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Amy had begged to go to the theatre with Jo, Meg, and Laurie; when Jo sharply refused, Amy warned her she would be sorry, and while the others were out she took Jo's beloved manuscript and burned every page.",
+      },
+      {
+        id: "lwa-q2",
+        prompt: "Why could Jo not simply forgive Amy?",
+        options: [
+          "Amy refused to say that she was sorry.",
+          "Their mother forbade Jo to make peace with her.",
+          "Jo did not really care about the book anyway.",
+          "The manuscript was the work of years and could never be written again.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Jo had spent years writing the stories by hand and loved the manuscript more than almost anything she owned; once the pages were burned, the work was gone forever, and Amy's being sorry could not bring it back.",
+      },
+      {
+        id: "lwa-q3",
+        prompt: "What happened while Jo and Amy were skating, and what did Jo learn?",
+        options: [
+          "Amy skated home early, and Jo felt relieved to be rid of her.",
+          "Laurie fell through the ice, and Jo saved him.",
+          "Jo, still angry, did not warn Amy about the thin ice; Amy fell through, was rescued, and Jo saw that her temper had nearly killed her sister.",
+          "The ice held firm, and the sisters made up on the river.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jo heard Laurie warn that the ice in the middle was thin but, still angry, did not pass the warning to Amy; Amy fell through, Jo and Laurie pulled her out safely, and that night a shaken Jo told her mother her temper had nearly cost Amy her life and promised to learn to control it.",
+      },
+    ],
+  },
 ];
