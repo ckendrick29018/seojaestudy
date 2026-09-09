@@ -3690,4 +3690,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "alice-in-wonderland",
+    title: "Alice's Adventures in Wonderland",
+    titleTranslation: "이상한 나라의 앨리스",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🐰",
+    coverImage: "/covers/alice-in-wonderland.svg",
+    source:
+      "Adapted from Chapter 1 (\"Down the Rabbit-Hole\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Alice ended up falling down the rabbit-hole and what she saw on the walls as she fell.",
+    paragraphs: [
+      [
+        {
+          id: "aiw-1",
+          text: "Alice was sitting beside the river with her sister on a warm afternoon, and she had nothing to do.",
+          translation:
+            "어느 따뜻한 오후, 앨리스는 언니와 함께 강가에 앉아 있었는데, 할 일이 하나도 없었어요.",
+        },
+        {
+          id: "aiw-2",
+          text: "Her sister was reading a book, but it had no pictures and no conversations in it.",
+          translation:
+            "언니는 책을 읽고 있었지만, 그 책에는 그림도 없고 대화도 없었어요.",
+        },
+        {
+          id: "aiw-3",
+          text: "Alice felt sleepy and bored, and she wondered if it was worth getting up to pick some daisies.",
+          translation:
+            "앨리스는 졸리고 지루했고, 데이지 꽃을 꺾으러 굳이 일어날 만한 가치가 있을까 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "aiw-4",
+          text: "Suddenly a White Rabbit with pink eyes ran close past her.",
+          translation:
+            "그때 갑자기 분홍색 눈을 한 하얀 토끼 한 마리가 앨리스 곁을 바짝 스쳐 달려갔어요.",
+        },
+        {
+          id: "aiw-5",
+          text: "Then the Rabbit said out loud, \"Oh dear! Oh dear! I shall be late!\"",
+          translation: "그러더니 토끼가 큰 소리로 말했어요. \"이런! 이런! 늦겠어!\"",
+        },
+        {
+          id: "aiw-6",
+          text: "Alice did not even think that was strange — but then the Rabbit took a watch out of its waistcoat pocket.",
+          translation:
+            "앨리스는 그것조차 이상하다고 생각하지 않았어요. 그런데 그때 토끼가 조끼 주머니에서 회중시계를 꺼냈어요.",
+        },
+      ],
+      [
+        {
+          id: "aiw-7",
+          text: "She had never seen a rabbit with a waistcoat or a watch, and she jumped to her feet, full of curiosity.",
+          translation:
+            "앨리스는 조끼를 입고 시계를 든 토끼는 한 번도 본 적이 없어서, 호기심에 가득 차 벌떡 일어났어요.",
+        },
+        {
+          id: "aiw-8",
+          text: "She ran across the field after it, just in time to see it disappear down a large rabbit-hole under the hedge.",
+          translation:
+            "앨리스는 들판을 가로질러 토끼를 뒤쫓았고, 때마침 토끼가 산울타리 아래 커다란 토끼 굴로 사라지는 모습을 볼 수 있었어요.",
+        },
+        {
+          id: "aiw-9",
+          text: "Alice went straight in after it, and she never once stopped to think how she would get out again.",
+          translation:
+            "앨리스는 곧장 토끼를 따라 굴로 들어갔고, 어떻게 다시 나올지는 한 번도 생각하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "aiw-10",
+          text: "For a little way the hole went straight on like a tunnel, and then it suddenly dropped down.",
+          translation:
+            "굴은 얼마 동안 터널처럼 곧게 이어지다가, 갑자기 아래로 뚝 떨어졌어요.",
+        },
+        {
+          id: "aiw-11",
+          text: "Alice fell slowly, down and down, with plenty of time to look around her as she went.",
+          translation:
+            "앨리스는 천천히 계속 아래로 떨어졌고, 떨어지는 동안 주위를 둘러볼 시간이 넉넉했어요.",
+        },
+        {
+          id: "aiw-12",
+          text: "Cupboards and shelves covered the sides of the hole, and here and there maps and pictures hung on the wall.",
+          translation:
+            "굴의 벽면은 찬장과 선반으로 뒤덮여 있었고, 여기저기 지도와 그림이 벽에 걸려 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "aiw-13",
+          text: "As she passed a shelf, she took down a jar with the label \"ORANGE MARMALADE\" on it, but the jar was empty.",
+          translation:
+            "선반을 지나면서 앨리스는 \"오렌지 마멀레이드\"라고 적힌 병을 하나 집어 들었지만, 병은 비어 있었어요.",
+        },
+        {
+          id: "aiw-14",
+          text: "She did not drop it, in case it hit somebody far below, so she put it back into a cupboard as she fell past.",
+          translation:
+            "앨리스는 저 아래에 있는 누군가가 맞을까 봐 병을 떨어뜨리지 않고, 찬장을 지나칠 때 그 안에 도로 넣어 두었어요.",
+        },
+        {
+          id: "aiw-15",
+          text: "Down, down, down she went, until she began to wonder if she was near the centre of the earth.",
+          translation:
+            "아래로, 아래로, 아래로 떨어지면서, 앨리스는 자기가 지구 중심 가까이에 온 게 아닐까 생각하기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "aiw-16",
+          text: "Then, thump! thump! she landed on a great heap of dry leaves and sticks, and the fall was over.",
+          translation:
+            "그때 쿵! 쿵! 하고 앨리스는 마른 나뭇잎과 나뭇가지가 잔뜩 쌓인 더미 위에 떨어졌고, 그렇게 추락은 끝이 났어요.",
+        },
+        {
+          id: "aiw-17",
+          text: "She was not hurt at all, and far down a long passage ahead she could still see the White Rabbit, hurrying away.",
+          translation:
+            "앨리스는 하나도 다치지 않았고, 저 앞 긴 복도 끝에서 하얀 토끼가 서둘러 달아나는 모습이 아직 보였어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aiw-v1",
+        term: "waistcoat",
+        partOfSpeech: "noun",
+        translation: "조끼 (셔츠 위에 입는 소매 없는 옷)",
+        example: "The White Rabbit wore a waistcoat and kept a watch in its pocket.",
+        exampleTranslation: "하얀 토끼는 조끼를 입고 주머니에 시계를 넣고 다녔어요.",
+      },
+      {
+        id: "aiw-v2",
+        term: "curiosity",
+        partOfSpeech: "noun",
+        translation: "호기심",
+        example: "Full of curiosity, Alice ran after the rabbit without stopping to think.",
+        exampleTranslation: "호기심에 가득 찬 앨리스는 생각할 겨를도 없이 토끼를 뒤쫓았어요.",
+      },
+      {
+        id: "aiw-v3",
+        term: "hedge",
+        partOfSpeech: "noun",
+        translation: "산울타리, 생울타리",
+        example: "The rabbit-hole was under the hedge at the edge of the field.",
+        exampleTranslation: "토끼 굴은 들판 가장자리의 산울타리 아래에 있었어요.",
+      },
+      {
+        id: "aiw-v4",
+        term: "tunnel",
+        partOfSpeech: "noun",
+        translation: "터널, 굴",
+        example: "At first the hole went straight on, like a tunnel.",
+        exampleTranslation: "처음에 그 굴은 터널처럼 곧게 이어졌어요.",
+      },
+      {
+        id: "aiw-v5",
+        term: "heap",
+        partOfSpeech: "noun",
+        translation: "무더기, 더미",
+        example: "Alice landed on a heap of dry leaves and sticks and was not hurt.",
+        exampleTranslation: "앨리스는 마른 나뭇잎과 나뭇가지 더미 위에 떨어졌고 다치지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aiw-q1",
+        prompt: "Why did Alice jump up and run after the White Rabbit?",
+        options: [
+          "It was carrying a daisy-chain that belonged to her sister.",
+          "It called her name and asked her to follow it.",
+          "It took a watch out of its waistcoat pocket, which she had never seen a rabbit do.",
+          "Her sister told her to catch it before it reached the river.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A talking rabbit barely surprised Alice, but a rabbit that pulled a watch from its waistcoat pocket was too strange to ignore, so she ran after it, full of curiosity.",
+      },
+      {
+        id: "aiw-q2",
+        prompt: "What was unusual about the way Alice fell down the hole?",
+        options: [
+          "She fell so fast that everything around her was a blur.",
+          "She fell slowly, with time to look at cupboards, shelves, and pictures on the walls.",
+          "She kept floating back upward every few seconds.",
+          "The hole was so narrow that she could not move her arms.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The well was either very deep or Alice fell very slowly; either way she had plenty of time to look around and even take a jar off a shelf as she passed.",
+      },
+      {
+        id: "aiw-q3",
+        prompt: "Why didn't Alice simply drop the empty marmalade jar?",
+        options: [
+          "She wanted to keep it as a souvenir of the strange place.",
+          "It was too heavy for her to let go of safely.",
+          "She was afraid it might hit somebody far below her.",
+          "Her sister had told her never to break glass jars.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Even while falling, Alice was careful: rather than drop the jar and risk hitting someone below, she put it back into a cupboard as she fell past.",
+      },
+    ],
+  },
 ];

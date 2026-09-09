@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Alice's Adventures in Wonderland, Down the Rabbit-Hole, by Lewis Carroll">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 182)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="34" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="27" stroke-width="1" opacity="0.6"/>
+    <circle cx="0" cy="-45" r="4.6" stroke-width="2"/>
+    <path d="M0 -40 L0 -34" stroke-width="2"/>
+    <path d="M0 -30 v5 M30 0 h-5 M0 30 v-5 M-30 0 h5" stroke-width="1.6"/>
+    <path d="M0 0 L-7 -16" stroke-width="2.4"/>
+    <path d="M0 0 L13 8" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2.6" fill="#C9A66B" stroke="none"/>
+    <path d="M-47 -8 h-12 M-51 0 h-14 M-47 8 h-12" stroke-width="1.5" opacity="0.7"/>
+    <path d="M-60 34 q 40 -14 60 -6 t 62 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#2C2C2C" letter-spacing="1">Alice&#8217;s</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#2C2C2C">Adventures in</text>
+  <text x="200" y="392" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#2C2C2C" letter-spacing="1">Wonderland</text>
+
+  <line x1="145" y1="420" x2="255" y2="420" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#C57B57">Down the Rabbit-Hole</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="4">CHAPTER 1</text>
+
+  <text x="200" y="516" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#C57B57" letter-spacing="4">LEWIS CARROLL</text>
+  <text x="200" y="536" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1865</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
