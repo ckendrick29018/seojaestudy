@@ -8671,4 +8671,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-bet",
+    title: "The Bet",
+    titleTranslation: "내기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Anton Chekhov (1860–1904)",
+    coverEmoji: "📚",
+    coverImage: "/covers/the-bet.svg",
+    source:
+      "Adapted from Anton Chekhov's short story \"The Bet\" (\"Пари\", first published 1889), from the Constance Garnett collection \"The Lady with the Dog and Other Stories\" (long in the public domain, Project Gutenberg #13415). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain the terms of the bet, and why the lawyer walked away from the two million at the end.",
+    paragraphs: [
+      [
+        {
+          id: "bet-1",
+          text: "Fifteen years ago, at a party, a young lawyer and a rich banker argued about which was worse: to be put to death, or to be shut up in prison for life.",
+          translation:
+            "15년 전 어느 파티에서, 젊은 변호사와 부유한 은행가가 사형을 당하는 것과 평생 감옥에 갇히는 것 중 어느 쪽이 더 끔찍한지를 두고 언쟁을 벌였어요.",
+        },
+        {
+          id: "bet-2",
+          text: "\"Life in prison is better,\" said the lawyer. \"To live any way at all is better than not to live.\"",
+          translation:
+            "\"감옥에서라도 사는 게 낫지요.\" 변호사가 말했어요. \"어떻게든 사는 것이 아예 살지 않는 것보다는 낫습니다.\"",
+        },
+        {
+          id: "bet-3",
+          text: "Angry, the banker cried, \"I bet you two million that you could not stay locked up alone for even five years.\" \"I will stay fifteen,\" said the lawyer.",
+          translation:
+            "화가 난 은행가가 소리쳤어요. \"자네가 단 5년도 혼자 갇혀 있지 못한다는 데 200만을 걸겠네.\" \"저는 15년을 있겠습니다.\" 변호사가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "bet-4",
+          text: "So the lawyer moved into a small lodge in the banker's garden, and the door was locked.",
+          translation:
+            "그리하여 변호사는 은행가의 정원에 있는 작은 별채로 들어갔고, 문은 잠겼어요.",
+        },
+        {
+          id: "bet-5",
+          text: "For fifteen years he was to see no one, hear no voices, and read no news, though he could ask for books, wine, and a piano through a little window.",
+          translation:
+            "15년 동안 그는 누구도 만나지 못하고, 사람 목소리도 듣지 못하며, 소식도 접할 수 없었어요. 다만 작은 창문을 통해 책과 포도주와 피아노는 청할 수 있었지요.",
+        },
+        {
+          id: "bet-6",
+          text: "If he left even five minutes early, he would lose the whole two million.",
+          translation:
+            "만약 그가 단 5분이라도 일찍 나오면, 200만 전부를 잃게 되어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "bet-7",
+          text: "In the first years he played sad music and read light novels, and the watchmen sometimes heard him weeping.",
+          translation:
+            "처음 몇 해 동안 그는 슬픈 음악을 연주하고 가벼운 소설을 읽었으며, 경비원들은 이따금 그가 우는 소리를 들었어요.",
+        },
+        {
+          id: "bet-8",
+          text: "Then he began to study in earnest — languages, history, and philosophy — and in a few years he read six hundred books.",
+          translation:
+            "그러다 그는 본격적으로 공부하기 시작했어요. 여러 언어와 역사와 철학을요. 그리고 몇 년 만에 육백 권의 책을 읽었어요.",
+        },
+        {
+          id: "bet-9",
+          text: "Later he read nothing but the Bible, and after that books on religion, science, and poetry, all mixed together.",
+          translation:
+            "그 뒤로는 오직 성경만 읽었고, 그다음에는 종교와 과학과 시에 관한 책들을 이것저것 뒤섞어 읽었어요.",
+        },
+      ],
+      [
+        {
+          id: "bet-10",
+          text: "The night before the fifteen years ended, the banker sat alone, close to despair.",
+          translation:
+            "15년이 끝나기 전날 밤, 은행가는 절망에 가까운 심정으로 홀로 앉아 있었어요.",
+        },
+        {
+          id: "bet-11",
+          text: "He had gambled and lost, and paying the two million now would leave him ruined and disgraced.",
+          translation:
+            "그는 도박을 하다 재산을 잃었고, 이제 와서 200만을 물어 주면 파산하고 망신까지 당할 처지였어요.",
+        },
+        {
+          id: "bet-12",
+          text: "\"There is only one way out,\" he thought. \"The man must die tonight.\"",
+          translation:
+            "\"빠져나갈 길은 하나뿐이야.\" 그는 생각했어요. \"저 사람이 오늘 밤 죽어야 해.\"",
+        },
+      ],
+      [
+        {
+          id: "bet-13",
+          text: "In the small hours the banker crept into the locked lodge and found the lawyer asleep at his table, thin as a skeleton, his hair already grey.",
+          translation:
+            "새벽녘에 은행가는 잠긴 별채로 몰래 들어갔고, 변호사가 탁자에 엎드려 잠든 것을 보았어요. 해골처럼 야위었고, 머리는 벌써 희끗희끗했지요.",
+        },
+        {
+          id: "bet-14",
+          text: "On the table lay a letter, and the banker began to read it.",
+          translation: "탁자 위에는 편지 한 장이 놓여 있었고, 은행가는 그것을 읽기 시작했어요.",
+        },
+        {
+          id: "bet-15",
+          text: "In it the lawyer said that his books had shown him the whole world, and that he now scorned money, comfort, and life itself as empty things.",
+          translation:
+            "편지에서 변호사는, 자신의 책들이 온 세상을 보여 주었으며, 이제 자신은 돈과 안락함, 그리고 삶 그 자체마저도 공허한 것으로 여겨 경멸한다고 썼어요.",
+        },
+      ],
+      [
+        {
+          id: "bet-16",
+          text: "To prove his contempt, he wrote, he would leave the lodge five minutes early and give up all claim to the two million.",
+          translation:
+            "그 경멸을 증명하기 위해, 자신은 별채를 5분 일찍 나가 200만에 대한 권리를 모두 포기하겠다고 그는 썼어요.",
+        },
+        {
+          id: "bet-17",
+          text: "The banker kissed the sleeping man's head and wept; in the morning the lawyer climbed out of the window and was gone, and the banker locked the letter away in his safe.",
+          translation:
+            "은행가는 잠든 변호사의 머리에 입을 맞추고 흐느꼈어요. 아침이 되자 변호사는 창문으로 기어나가 사라졌고, 은행가는 그 편지를 금고에 넣어 잠가 두었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "bet-v1",
+        term: "bet",
+        partOfSpeech: "noun",
+        translation: "내기, 내기에 건 것",
+        example: "The banker offered a bet of two million roubles.",
+        exampleTranslation: "은행가는 200만 루블을 건 내기를 제안했어요.",
+      },
+      {
+        id: "bet-v2",
+        term: "lodge",
+        partOfSpeech: "noun",
+        translation: "(정원·부지 안의) 작은 집, 별채",
+        example: "The lawyer spent fifteen years in a small garden lodge.",
+        exampleTranslation: "변호사는 정원의 작은 별채에서 15년을 보냈어요.",
+      },
+      {
+        id: "bet-v3",
+        term: "ruined",
+        partOfSpeech: "adjective",
+        translation: "파산한, 몰락한, 망한",
+        example: "Years of gambling had left the banker almost ruined.",
+        exampleTranslation: "여러 해에 걸친 도박으로 은행가는 거의 파산 지경에 이르렀어요.",
+      },
+      {
+        id: "bet-v4",
+        term: "scorn",
+        partOfSpeech: "verb",
+        translation: "경멸하다, 업신여기다",
+        example: "The lawyer wrote that he now scorned money and comfort.",
+        exampleTranslation: "변호사는 이제 돈과 안락함을 경멸한다고 썼어요.",
+      },
+      {
+        id: "bet-v5",
+        term: "despair",
+        partOfSpeech: "noun",
+        translation: "절망",
+        example: "The night before the bet ended, the banker sat alone in despair.",
+        exampleTranslation: "내기가 끝나기 전날 밤, 은행가는 절망에 빠져 홀로 앉아 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "bet-q1",
+        prompt: "What did the banker and the lawyer bet on?",
+        options: [
+          "Which of them could read more books in fifteen years.",
+          "Whether the lawyer could stay locked up alone for fifteen years.",
+          "Whether prison or death was the crueller punishment for a crime.",
+          "Which of them would still be rich in fifteen years.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Arguing about whether life imprisonment was better than death, the banker bet two million that the lawyer could not bear even five years of solitary confinement; the lawyer said he would stay fifteen.",
+      },
+      {
+        id: "bet-q2",
+        prompt: "How did the lawyer spend the fifteen years?",
+        options: [
+          "Trying again and again to escape from the lodge.",
+          "Refusing to read or study anything at all.",
+          "Reading and studying — light novels at first, then languages, philosophy, religion, and science.",
+          "Writing letters to the banker every day.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He began with sad music and light novels, then studied hard — six hundred books, languages, history, philosophy — later only the Bible, and finally many kinds of books at once.",
+      },
+      {
+        id: "bet-q3",
+        prompt: "Why did the lawyer give up the two million?",
+        options: [
+          "The banker had already paid him in secret.",
+          "He had broken one of the rules by accident.",
+          "His years of reading had made him scorn money and worldly things as empty.",
+          "He felt sorry for the ruined banker.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "In his letter the lawyer wrote that his books had shown him the whole world and taught him to despise money, comfort and life itself; to prove his contempt he left the lodge five minutes early and gave up all claim to the prize.",
+      },
+    ],
+  },
 ];

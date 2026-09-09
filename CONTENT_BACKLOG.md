@@ -132,7 +132,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 22 | A Christmas Carol (Stave 1) | Charles Dickens (1870) | 46 | B1 | Stave 1 ("Marley's Ghost"), simplified retelling, 17 sentences | ☑ |
 | 23 | Alice's Adventures in Wonderland (Ch. 1) | Lewis Carroll (1898) | 11 | A2 | "Down the Rabbit-Hole" | ☑ |
 | 24 | The Gift of the Magi collection — pick 1 more | O. Henry (1910) | 2776 | A2/B1 | one story from *The Four Million* | ☐ |
-| 25 | The Bet | Anton Chekhov (1904) | — | B1 | whole | ☐ |
+| 25 | The Bet | Anton Chekhov (1904) | 13415 | B1 | whole (simplified retelling, 17 sentences; heavily trimmed) | ☑ |
 | 26 | The Lady with the Dog | Anton Chekhov (1904) | 13415 | B2 | Part I — the meeting at Yalta, simplified retelling, 17 sentences | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
@@ -200,14 +200,14 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (39):** The Gift of the Magi (row 4), The Last Leaf (row 5),
-  The Story of an Hour (row 2), The Awakening Ch. 1 (row 69), The House of
-  Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue (row 68), East of the
-  Sun and West of the Moon (row 20), The Twelve Dancing Princesses
-  (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
-  (row 44), Little Women Ch. 1 (row 39), Middlemarch (row 61), The Yellow
-  Wallpaper (row 1), The
-  Ugly Duckling (row 16), Cinderella (row 10), Snow White (row 12), Beauty
+- **Live now (40):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+  The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
+  (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
+  (row 68), East of the Sun and West of the Moon (row 20), The Twelve
+  Dancing Princesses (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of
+  Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
+  (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
+  Cinderella (row 10), Snow White (row 12), Beauty
   and the Beast (row 19), Rapunzel (row 13), Pride and Prejudice Ch. 1
   (row 27), Pride and Prejudice Ch. 34 (row 28), Sense and Sensibility
   Ch. 1 (row 29), Emma (row 30), Jane Eyre Ch. 1 (row 33), Frankenstein
@@ -228,20 +228,20 @@ has a genuine period cover/illustration in the public domain, download that into
   The Frog Prince), A2 ×12 (Story of an Hour, Anne Ch. 2, Little Women,
   Ugly Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy
   Prince, Snow White, The Last Leaf, Beauty and the Beast, Rapunzel, The
-  Twelve Dancing Princesses), B1 ×12 (Gift of the Magi, Pride and Prejudice
+  Twelve Dancing Princesses), B1 ×13 (Gift of the Magi, Pride and Prejudice
   Ch. 1, The Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense
   and Sensibility Ch. 1, The Yellow Wallpaper, Emma, The Nightingale and
   the Rose, The Little Mermaid, Ethan Frome prologue, East of the Sun and
-  West of the Moon), B2 ×9 (Jane Eyre, The Lady with the Dog, Wuthering
-  Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
-  Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
-  Bk 1 Ch. 1). Bands are now A1 ×6, B2 ×9, A2 ×12, B1 ×12 — A1 is far
+  West of the Moon, The Bet), B2 ×9 (Jane Eyre, The Lady with the Dog,
+  Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The
+  Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of
+  Mirth Bk 1 Ch. 1). Bands are now A1 ×6, B2 ×9, A2 ×12, B1 ×13 — A1 is far
   behind the others. Within A2, Alice in Wonderland is still the only entry
   that is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **The Bet** (row 25, B1 — Chekhov, whole),
-  **The Country of the Pointed Firs Ch. 1–2** (row 70, B2 — Jewett), **North
-  and South Ch. 1** (row 64, B2 — Gaskell). A1 (6) is far behind and the
-  backlog has no more A1 rows — re-level an A2 tale down to A1, or add new
-  A1 rows. Note: row 56 (A Room with a View) is **not** clear to build —
-  Forster died 1970, so it is not public domain in
+- Good next lessons to build: **The Country of the Pointed Firs Ch. 1–2**
+  (row 70, B2 — Jewett), **North and South Ch. 1** (row 64, B2 — Gaskell),
+  **Cranford Ch. 1** (row 53, B1 — Gaskell, "the Amazons"). A1 (6) is far
+  behind and the backlog has no more A1 rows — re-level an A2 tale down to
+  A1, or add new A1 rows. Note: row 56 (A Room with a View) is **not**
+  clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.
