@@ -11465,4 +11465,214 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "agnes-grey",
+    title: "Agnes Grey",
+    titleTranslation: "아그네스 그레이",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Anne Brontë (1820–1849)",
+    coverEmoji: "✒️",
+    coverImage: "/covers/agnes-grey.svg",
+    source:
+      "Adapted from Chapter 1 (\"The Parsonage\") of Anne Brontë's novel \"Agnes Grey\" (first published 1847; long in the public domain, Project Gutenberg #767). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how the Grey family lost their money and what Agnes decided to do about it.",
+    paragraphs: [
+      [
+        {
+          id: "agr-1",
+          text: "Agnes Grey was the younger of two daughters of a poor clergyman in the north of England.",
+          translation:
+            "애그니스 그레이는 잉글랜드 북부의 가난한 목사의 두 딸 중 동생이었어요.",
+        },
+        {
+          id: "agr-2",
+          text: "Her father had only a small church and a small income.",
+          translation: "아버지에게는 작은 교회와 적은 수입밖에 없었어요.",
+        },
+        {
+          id: "agr-3",
+          text: "Her mother came from a rich family, but she had given up her fortune to marry the man she loved.",
+          translation:
+            "어머니는 부유한 집안 출신이었지만, 사랑하는 남자와 결혼하려고 자기 재산을 포기했어요.",
+        },
+      ],
+      [
+        {
+          id: "agr-4",
+          text: "The Greys had little money, and yet their home was a happy one.",
+          translation: "그레이 가족은 돈이 별로 없었지만, 그 집은 행복한 가정이었어요.",
+        },
+        {
+          id: "agr-5",
+          text: "Because Agnes was the youngest, everyone treated her as a child and let her do very little.",
+          translation:
+            "애그니스가 막내였기 때문에, 모두가 그녀를 어린애처럼 대하며 거의 아무 일도 시키지 않았어요.",
+        },
+        {
+          id: "agr-6",
+          text: "She longed to be thought grown-up and useful.",
+          translation: "그녀는 어른스럽고 쓸모 있는 사람으로 여겨지기를 간절히 바랐어요.",
+        },
+      ],
+      [
+        {
+          id: "agr-7",
+          text: "One year, her father tried to make the family richer.",
+          translation: "어느 해, 아버지는 가족을 더 잘살게 해 보려고 했어요.",
+        },
+        {
+          id: "agr-8",
+          text: "He gave all his savings to a merchant friend, who promised to trade with the money and share the profit.",
+          translation:
+            "그는 저축한 돈을 몽땅 상인인 친구에게 맡겼고, 그 친구는 그 돈으로 무역을 해서 이익을 나누겠다고 약속했어요.",
+        },
+        {
+          id: "agr-9",
+          text: "But the ship carrying the goods was lost at sea, and every penny went with it.",
+          translation:
+            "하지만 물건을 싣고 가던 배가 바다에서 침몰했고, 한 푼도 남김없이 사라졌어요.",
+        },
+      ],
+      [
+        {
+          id: "agr-10",
+          text: "Agnes's father blamed himself, and the worry made him ill.",
+          translation: "애그니스의 아버지는 스스로를 탓했고, 그 근심 때문에 병이 났어요.",
+        },
+        {
+          id: "agr-11",
+          text: "Now the family had to live on very little indeed.",
+          translation: "이제 가족은 정말 얼마 안 되는 돈으로 살아야 했어요.",
+        },
+        {
+          id: "agr-12",
+          text: "Mary, the elder sister, sold her drawings to earn a little money.",
+          translation: "언니 메리는 자기 그림을 팔아 얼마간의 돈을 벌었어요.",
+        },
+      ],
+      [
+        {
+          id: "agr-13",
+          text: "Agnes wanted to help too, so she made a bold decision: she would become a governess.",
+          translation:
+            "애그니스도 돕고 싶어서 대담한 결심을 했어요. 가정교사가 되기로 한 거예요.",
+        },
+        {
+          id: "agr-14",
+          text: "She would go to live with a rich family and teach their young children for pay.",
+          translation:
+            "부잣집에 들어가 살면서 그 집 어린아이들을 가르치고 돈을 받겠다는 것이었어요.",
+        },
+        {
+          id: "agr-15",
+          text: "Her mother and Mary said she was too young and knew too little of the world.",
+          translation:
+            "어머니와 메리는 그녀가 너무 어리고 세상 물정을 너무 모른다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "agr-16",
+          text: "But Agnes promised she could learn, and at last they agreed to let her try.",
+          translation:
+            "하지만 애그니스는 배우면 된다고 약속했고, 마침내 두 사람도 한번 해 보라고 허락했어요.",
+        },
+        {
+          id: "agr-17",
+          text: "Secretly she was full of hope, glad to be earning her own bread and eager to see life beyond her quiet home.",
+          translation:
+            "속으로 그녀는 희망에 부풀어 있었어요. 자기 힘으로 밥벌이를 한다는 것이 기뻤고, 조용한 집 너머의 세상을 보고 싶어 마음이 들떴지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "agr-v1",
+        term: "clergyman",
+        partOfSpeech: "noun",
+        translation: "성직자, 목사",
+        example: "Her father was a country clergyman with a small church.",
+        exampleTranslation: "그녀의 아버지는 작은 교회를 맡은 시골 목사였어요.",
+      },
+      {
+        id: "agr-v2",
+        term: "fortune",
+        partOfSpeech: "noun",
+        translation: "재산, 부; 큰돈",
+        example: "Her mother gave up a fortune to marry for love.",
+        exampleTranslation: "그녀의 어머니는 사랑을 위해 큰 재산을 포기하고 결혼했어요.",
+      },
+      {
+        id: "agr-v3",
+        term: "merchant",
+        partOfSpeech: "noun",
+        translation: "상인, 무역상",
+        example: "He trusted his savings to a merchant friend.",
+        exampleTranslation: "그는 저축한 돈을 상인인 친구에게 믿고 맡겼어요.",
+      },
+      {
+        id: "agr-v4",
+        term: "governess",
+        partOfSpeech: "noun",
+        translation: "(입주) 가정교사 (부잣집에 살며 아이들을 가르침)",
+        example: "Agnes decided to go out as a governess.",
+        exampleTranslation: "애그니스는 가정교사로 나가기로 마음먹었어요.",
+      },
+      {
+        id: "agr-v5",
+        term: "bold",
+        partOfSpeech: "adjective",
+        translation: "대담한, 용감한",
+        example: "Becoming a governess was a bold decision for such a young girl.",
+        exampleTranslation: "가정교사가 되는 것은 그렇게 어린 소녀에게 대담한 결심이었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "agr-q1",
+        prompt: "How did the Grey family lose most of their money?",
+        options: [
+          "Agnes's father spent it all on books and travel.",
+          "Her father gave his savings to a merchant friend, and the ship carrying the goods was lost at sea.",
+          "Her mother's rich family took back the fortune.",
+          "Mary's drawings failed to sell at the market.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Agnes's father, hoping to make the family richer, gave all his savings to a merchant friend to trade with; the ship carrying the goods sank, every penny was lost, and the worry made him ill.",
+      },
+      {
+        id: "agr-q2",
+        prompt: "Why did Agnes decide to become a governess?",
+        options: [
+          "Her mother ordered her to leave home and earn money.",
+          "She disliked her sister Mary and wanted to get away from her.",
+          "A rich family had already written to offer her a place.",
+          "She wanted to help the family and to be treated as grown-up and useful.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Agnes had always been treated as the baby of the family and longed to be thought grown-up and useful; when money grew short, she made the bold decision to go out as a governess so she could earn her own money and prove herself.",
+      },
+      {
+        id: "agr-q3",
+        prompt: "How did Agnes's mother and sister first react to her plan?",
+        options: [
+          "They were delighted and helped her pack at once.",
+          "They said she was too young and knew too little of the world, but at last agreed to let her try.",
+          "They forbade it completely and never changed their minds.",
+          "They decided to become governesses as well.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Her mother and Mary thought Agnes was too young and too inexperienced for such work, but she promised she could learn, and in the end they agreed to let her try.",
+      },
+    ],
+  },
 ];
