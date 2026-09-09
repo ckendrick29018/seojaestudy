@@ -13174,4 +13174,215 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "a-pair-of-silk-stockings",
+    title: "A Pair of Silk Stockings",
+    titleTranslation: "실크 스타킹 한 켤레",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Kate Chopin (1850–1904)",
+    coverEmoji: "🧦",
+    coverImage: "/covers/a-pair-of-silk-stockings.svg",
+    source:
+      "Adapted from Kate Chopin's short story \"A Pair of Silk Stockings\" (first published 1897; long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Mrs. Sommers meant to do with her fifteen dollars and what she actually did.",
+    paragraphs: [
+      [
+        {
+          id: "pss-1",
+          text: "Mrs. Sommers was a poor woman with several children and very little money.",
+          translation:
+            "소머스 부인은 아이가 여럿 딸린 가난한 여자였고, 돈은 아주 적었어요.",
+        },
+        {
+          id: "pss-2",
+          text: "One day, quite suddenly, she found herself with fifteen dollars.",
+          translation: "어느 날, 아주 갑자기, 그녀에게 15달러가 생겼어요.",
+        },
+        {
+          id: "pss-3",
+          text: "To her, that felt like a great deal of money.",
+          translation: "그녀에게 그것은 큰돈처럼 느껴졌어요.",
+        },
+      ],
+      [
+        {
+          id: "pss-4",
+          text: "For two days she thought carefully about how to spend it.",
+          translation: "이틀 동안 그녀는 그 돈을 어떻게 쓸지 신중하게 생각했어요.",
+        },
+        {
+          id: "pss-5",
+          text: "She would buy new shoes for the children, and cloth to make them shirts and dresses.",
+          translation:
+            "아이들에게 새 신발을 사 주고, 셔츠와 원피스를 지을 천을 사기로 했어요.",
+        },
+        {
+          id: "pss-6",
+          text: "On the day she went shopping, she was tired and had forgotten to eat lunch.",
+          translation:
+            "장을 보러 간 날, 그녀는 피곤했고 점심 먹는 것을 잊어버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "pss-7",
+          text: "She sat down for a moment at a shop counter to rest.",
+          translation: "그녀는 잠깐 쉬려고 가게 판매대 앞에 앉았어요.",
+        },
+        {
+          id: "pss-8",
+          text: "Her hand fell on a pile of silk stockings, soft and smooth.",
+          translation:
+            "그녀의 손이 부드럽고 매끄러운 실크 스타킹 더미에 닿았어요.",
+        },
+        {
+          id: "pss-9",
+          text: "She looked at them for a long time. Then she asked the price.",
+          translation: "그녀는 그것을 한참 동안 바라보았어요. 그러고는 값을 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "pss-10",
+          text: "Almost without deciding to, she bought a pair for herself.",
+          translation:
+            "거의 마음을 정하지도 않은 채, 그녀는 자기 것으로 한 켤레를 샀어요.",
+        },
+        {
+          id: "pss-11",
+          text: "Something had changed. She did not go to buy the children's things.",
+          translation:
+            "무언가가 달라졌어요. 그녀는 아이들 물건을 사러 가지 않았어요.",
+        },
+        {
+          id: "pss-12",
+          text: "Instead she put on the silk stockings in the shop and bought new boots to match.",
+          translation:
+            "대신 가게에서 실크 스타킹을 신고, 거기에 어울리는 새 부츠를 샀어요.",
+        },
+      ],
+      [
+        {
+          id: "pss-13",
+          text: "She bought gloves that fit her hands perfectly, and two expensive magazines.",
+          translation:
+            "손에 꼭 맞는 장갑을 사고, 값비싼 잡지도 두 권 샀어요.",
+        },
+        {
+          id: "pss-14",
+          text: "She ate a quiet, proper lunch alone at a restaurant, with a glass of wine.",
+          translation:
+            "그녀는 식당에서 혼자 조용히 제대로 된 점심을 먹었고, 포도주도 한 잔 곁들였어요.",
+        },
+        {
+          id: "pss-15",
+          text: "Then she went to the theatre and watched a play all afternoon.",
+          translation: "그런 다음 극장에 가서 오후 내내 연극을 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "pss-16",
+          text: "For a few hours she was not a tired mother counting every cent; she was simply herself.",
+          translation:
+            "몇 시간 동안 그녀는 한 푼까지 세는 지친 어머니가 아니었어요. 그저 자기 자신이었어요.",
+        },
+        {
+          id: "pss-17",
+          text: "On the cable car home, a kind-looking man saw her face and wished, as she did, that the ride would never end.",
+          translation:
+            "집으로 가는 전차 안에서, 친절해 보이는 한 남자가 그녀의 얼굴을 보고는, 그녀와 마찬가지로 이 전차가 영영 멈추지 않기를 바랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "pss-v1",
+        term: "stockings",
+        partOfSpeech: "noun",
+        translation: "스타킹, 긴 양말",
+        example: "The silk stockings felt soft and smooth in her hand.",
+        exampleTranslation: "실크 스타킹은 그녀의 손에 부드럽고 매끄럽게 느껴졌어요.",
+      },
+      {
+        id: "pss-v2",
+        term: "counter",
+        partOfSpeech: "noun",
+        translation: "(상점의) 판매대, 계산대",
+        example: "She rested for a moment at the shop counter.",
+        exampleTranslation: "그녀는 가게 판매대 앞에서 잠깐 쉬었어요.",
+      },
+      {
+        id: "pss-v3",
+        term: "gloves",
+        partOfSpeech: "noun",
+        translation: "장갑",
+        example: "She bought gloves that fit her hands perfectly.",
+        exampleTranslation: "그녀는 손에 꼭 맞는 장갑을 샀어요.",
+      },
+      {
+        id: "pss-v4",
+        term: "proper",
+        partOfSpeech: "adjective",
+        translation: "제대로 된, 격식을 갖춘",
+        example: "She ate a quiet, proper lunch alone at a restaurant.",
+        exampleTranslation: "그녀는 식당에서 혼자 조용히 제대로 된 점심을 먹었어요.",
+      },
+      {
+        id: "pss-v5",
+        term: "cent",
+        partOfSpeech: "noun",
+        translation: "센트 (1달러의 100분의 1)",
+        example: "For once she was not counting every cent.",
+        exampleTranslation: "그때만큼은 그녀도 한 푼까지 세고 있지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "pss-q1",
+        prompt: "How did Mrs. Sommers first plan to spend the fifteen dollars?",
+        options: [
+          "On a holiday for herself.",
+          "On new shoes and clothes for her children.",
+          "On paying back money she owed.",
+          "On silk stockings and a trip to the theatre.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "For two days Mrs. Sommers thought carefully about the money and decided to buy new shoes for the children and cloth to make them shirts and dresses.",
+      },
+      {
+        id: "pss-q2",
+        prompt: "What changed her plan while she was out shopping?",
+        options: [
+          "A shopkeeper told her the children's things were sold out.",
+          "She lost the money and had to go home.",
+          "Tired and hungry, she rested at a counter, touched a pile of soft silk stockings, and bought a pair for herself almost without deciding to.",
+          "One of her children came to find her.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Tired and having skipped lunch, Mrs. Sommers sat down at a shop counter to rest; her hand fell on some smooth silk stockings, and almost without meaning to she bought a pair for herself — and after that she did not buy the children's things at all.",
+      },
+      {
+        id: "pss-q3",
+        prompt: "How did Mrs. Sommers spend the rest of her afternoon?",
+        options: [
+          "She hurried home feeling guilty about the stockings.",
+          "She returned everything and got her money back.",
+          "She spent it all on food for the family.",
+          "She bought new boots, gloves, and magazines, had a proper lunch with wine, and went to the theatre — a few hours of being simply herself.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "She wore the silk stockings out of the shop, bought matching boots, well-fitting gloves, and two costly magazines, ate a quiet lunch alone with a glass of wine, and watched a play all afternoon — and on the cable car home she wished the ride would never end.",
+      },
+    ],
+  },
 ];

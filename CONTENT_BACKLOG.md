@@ -110,7 +110,7 @@ has a genuine period cover/illustration in the public domain, download that into
 |--|--|--|--|--|--|--|
 | 1 | The Yellow Wallpaper | Charlotte Perkins Gilman (1935) | 1952 | B1 | opening 2–3 journal entries (simplified retelling, 17 sentences; kept as her journal) | ☑ |
 | 2 | The Story of an Hour | Kate Chopin (1904) | — | A2 | simplified retelling, 17 sentences | ☑ |
-| 3 | A Pair of Silk Stockings | Kate Chopin (1904) | — | A2 | whole | ☐ |
+| 3 | A Pair of Silk Stockings | Kate Chopin (1904) | — | A2 | whole (simplified retelling, 17 sentences) | ☑ |
 | 4 | The Gift of the Magi | O. Henry (1910) | 7256 | B1 | simplified retelling, 13 sentences — **seed lesson for the collection** | ☑ |
 | 5 | The Last Leaf | O. Henry (1910) | 2777 | A2 | whole (simplified retelling, 17 sentences) | ☑ |
 | 6 | The Necklace | Guy de Maupassant (1893) | — | B1 | simplified retelling, 17 sentences | ☑ |
@@ -200,8 +200,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (60):** The Gift of the Magi (row 4), The Last Leaf (row 5),
-  The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
+- **Live now (61):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+  The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
+  The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
   Ch. 1 (row 53), North and South Ch. 1 (row 64), Silas Marner Ch. 12
@@ -236,11 +237,12 @@ has a genuine period cover/illustration in the public domain, download that into
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
 - Levels on the shelf now: A1 ×7 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
-  The Frog Prince, Pollyanna Ch. 1), A2 ×15 (Story of an Hour, Anne Ch. 2,
+  The Frog Prince, Pollyanna Ch. 1), A2 ×16 (Story of an Hour, Anne Ch. 2,
   Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
   Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
   Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
-  Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl Ch. 1), B1 ×21
+  Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl Ch. 1,
+  A Pair of Silk Stockings), B1 ×21
   (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas
   Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The
   Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid,
@@ -254,7 +256,7 @@ has a genuine period cover/illustration in the public domain, download that into
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×7, A2 ×15, B1 ×21,
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×7, A2 ×16, B1 ×21,
   B2 ×17 — A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.

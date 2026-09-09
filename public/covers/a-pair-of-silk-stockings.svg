@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A Pair of Silk Stockings by Kate Chopin">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 160)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 -34 L20 -34 L18 -4 Q 17 12 26 20 Q 31 25 26 30 Q 21 34 15 30 Q 8 25 8 14 L6 -34 Z" stroke-width="1.5" opacity="0.55"/>
+    <path d="M-16 -36 L2 -36 L0 -4 Q -1 14 -11 24 Q -17 30 -25 28 Q -32 26 -30 19 Q -29 14 -21 13 Q -14 11 -14 1 L-16 -36 Z" stroke-width="1.7"/>
+    <path d="M-16 -36 h18 M-16 -32 h18 M-16 -28 h18" stroke-width="0.9" opacity="0.5"/>
+    <path d="M-9 -26 q -2 22 -6 38" stroke-width="1" opacity="0.4"/>
+    <path d="M-7 -36 v-6 M-13 -42 h12" stroke-width="1.4"/>
+    <path d="M-54 34 q 40 -9 56 -3 t 56 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="1">A Pair of</text>
+  <text x="200" y="344" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="1">Silk Stockings</text>
+
+  <line x1="150" y1="378" x2="250" y2="378" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="410" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">An afternoon of her own</text>
+
+  <text x="200" y="455" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#C57B57" letter-spacing="4">KATE CHOPIN</text>
+  <text x="200" y="477" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1897</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
