@@ -5,6 +5,7 @@ import { lessons } from "@/lib/data/lessons";
 import { LessonCard } from "@/components/home/LessonCard";
 import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
 import { BookshelfPreview } from "@/components/home/BookshelfPreview";
+import { NewForYouSection } from "@/components/home/NewForYouSection";
 import { ClassicsSection } from "@/components/home/ClassicsSection";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
@@ -53,6 +54,7 @@ export default function HomePage() {
       <p className="mb-8 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
       <LessonOfDayCard />
       <BookshelfPreview />
+      <NewForYouSection />
       <div className="mt-8 space-y-3">
         {ordered.map((lesson) => (
           <LessonCard key={lesson.slug} lesson={lesson} />

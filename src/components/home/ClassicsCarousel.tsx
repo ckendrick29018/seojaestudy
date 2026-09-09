@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { lessons } from "@/lib/data/lessons";
+import type { Lesson } from "@/lib/types";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "./ClassicCard";
 
@@ -16,9 +17,9 @@ const AUTO_ADVANCE_MS = 5000;
  * tap a dot to move; auto-advance pauses while the pointer or keyboard
  * focus is inside it, and is off entirely under `prefers-reduced-motion`.
  */
-export function ClassicsCarousel() {
+export function ClassicsCarousel({ lessons: source }: { lessons?: Lesson[] } = {}) {
   const { isLessonComplete } = useProgress();
-  const items = CLASSICS.slice(0, MAX_IN_CAROUSEL);
+  const items = (source ?? CLASSICS).slice(0, MAX_IN_CAROUSEL);
 
   const trackRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);

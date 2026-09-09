@@ -9,11 +9,11 @@ import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import {
   BookOpenIcon,
   BooksIcon,
-  CatIcon,
+  CardsIcon,
   CheckIcon,
   GlobeIcon,
-  HomeIcon,
   SpeakerIcon,
+  StarIcon,
 } from "@/components/ui/icons";
 
 /** A handful of Classics to show the product on the landing page itself. */
@@ -70,10 +70,12 @@ export default function LandingPage() {
   ];
 
   const features = [
+    { Icon: StarIcon, title: t("landingFeatureLevelTitle"), body: t("landingFeatureLevelBody") },
+    { Icon: GlobeIcon, title: t("landingFeatureDictTitle"), body: t("landingFeatureDictBody") },
+    { Icon: CardsIcon, title: t("landingFeatureFlashcardsTitle"), body: t("landingFeatureFlashcardsBody") },
+    { Icon: CheckIcon, title: t("landingFeatureCheckTitle"), body: t("landingFeatureCheckBody") },
     { Icon: SpeakerIcon, title: t("landingFeatureListenTitle"), body: t("landingFeatureListenBody") },
-    { Icon: GlobeIcon, title: t("landingFeatureBilingualTitle"), body: t("landingFeatureBilingualBody") },
-    { Icon: CatIcon, title: t("landingFeatureShelfTitle"), body: t("landingFeatureShelfBody") },
-    { Icon: HomeIcon, title: t("landingFeatureOfflineTitle"), body: t("landingFeatureOfflineBody") },
+    { Icon: BookOpenIcon, title: t("landingFeatureBilingualTitle"), body: t("landingFeatureBilingualBody") },
   ];
 
   return (
@@ -140,15 +142,20 @@ export default function LandingPage() {
         </ol>
       </section>
 
-      {/* Feature highlights */}
+      {/* What makes it a language course */}
       <section className="px-6 py-12">
-        <h2 className="mb-6 text-center font-serif text-2xl font-semibold text-charcoal">
+        <h2 className="text-center font-serif text-2xl font-semibold text-charcoal">
           {t("landingFeaturesTitle")}
         </h2>
+        <p className="mx-auto mb-6 mt-1.5 max-w-[38ch] text-center text-sm leading-relaxed text-charcoal/55">
+          {t("landingFeaturesLead")}
+        </p>
         <div className="grid grid-cols-2 gap-3">
           {features.map(({ Icon, title, body }) => (
             <div key={title} className="rounded-xl2 border border-rose-light/50 bg-white/60 p-4 shadow-soft">
-              <Icon className="h-5 w-5 text-rose" aria-hidden />
+              <span className="flex h-8 w-8 items-center justify-center rounded-xl2 bg-sage/50 text-charcoal/70" aria-hidden>
+                <Icon className="h-4 w-4" />
+              </span>
               <p className="mt-2 text-sm font-semibold text-charcoal">{title}</p>
               <p className="mt-1 text-xs leading-relaxed text-charcoal/55">{body}</p>
             </div>

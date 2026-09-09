@@ -13,6 +13,27 @@ export const dict = {
     ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",
   },
   classicsSeeAll: { en: "See all", ko: "전체 보기" },
+
+  // --- Classics shelf: search / filter / sort ---
+  classicsSearchPlaceholder: { en: "Search by title or author", ko: "제목이나 작가로 검색" },
+  classicsAllLevels: { en: "All levels", ko: "모든 수준" },
+  classicsUnreadOnly: { en: "Unread only", ko: "안 읽은 것만" },
+  classicsSort: { en: "Sort", ko: "정렬" },
+  classicsSortDefault: { en: "Library order", ko: "서재 순서" },
+  classicsSortTitle: { en: "Title (A–Z)", ko: "제목 (ㄱ–ㅎ)" },
+  classicsSortLevel: { en: "By level", ko: "수준순" },
+  classicsSortShortest: { en: "Shortest first", ko: "짧은 순" },
+  classicsResultCount: { en: "{shown} of {total} books", ko: "책 {total}권 중 {shown}권" },
+  classicsNoMatches: { en: "No books match your search.", ko: "검색과 일치하는 책이 없어요." },
+  classicsClearFilters: { en: "Clear filters", ko: "필터 지우기" },
+
+  // --- Dashboard: fresh recommendations for returning readers ---
+  newForYouTitle: { en: "New for you", ko: "새로 추천" },
+  newForYouBody: {
+    en: "Classics you haven't opened yet, near your level.",
+    ko: "아직 펼쳐 보지 않은 고전들이에요. 지금 수준에 가까운 것들로요.",
+  },
+
   bookshelf: { en: "Bookshelf", ko: "책장" },
   bookshelfSubtitle: {
     en: "Every story you finish finds a place here.",
@@ -259,8 +280,8 @@ export const dict = {
     ko: "짧은 이야기 하나씩, 부드럽게 배우는 언어.",
   },
   landingSubhead: {
-    en: "SeoJae Story turns timeless short fiction into bite-size reading lessons — with instant word translations, natural narration, and kind feedback. No account needed to begin.",
-    ko: "SeoJae Story는 오래 사랑받은 단편 문학을 짧은 읽기 수업으로 바꿔 드려요. 단어를 탭하면 바로 번역되고, 자연스러운 낭독과 따뜻한 피드백이 함께해요. 계정 없이 바로 시작할 수 있어요.",
+    en: "SeoJae Story turns timeless short fiction into a real language course: CEFR-graded reading, a tap-anywhere dictionary, review flashcards, and native-voice audio — in English and Korean. No account needed to begin.",
+    ko: "SeoJae Story는 오래 사랑받은 단편 문학을 제대로 된 언어 학습 코스로 바꿔 드려요. CEFR 등급별 읽기, 아무 데나 탭하면 뜨는 사전, 복습용 플래시카드, 그리고 원어민 음성 오디오까지 — 영어와 한국어로요. 계정 없이 바로 시작할 수 있어요.",
   },
   landingCtaPrimary: { en: "Start reading — it's free", ko: "무료로 읽기 시작하기" },
   landingCtaSecondary: { en: "Browse the classics", ko: "고전 둘러보기" },
@@ -270,20 +291,33 @@ export const dict = {
   },
 
   landingPreviewTitle: {
-    en: "See what a lesson looks like",
-    ko: "수업이 어떤 모습인지 살펴보세요",
+    en: "Try the tools you'll learn with",
+    ko: "학습에 쓰게 될 도구를 직접 만져 보세요",
   },
   landingPreviewBody: {
-    en: "Every line is paired with a natural translation, and the words worth keeping become flashcards.",
-    ko: "모든 문장에 자연스러운 번역이 함께 있고, 익혀 둘 만한 단어는 플래시카드가 돼요.",
+    en: "Tap any word for an instant meaning, reveal a whole line, and flip through vocabulary flashcards — right here on this page.",
+    ko: "모르는 단어를 탭하면 뜻이 바로 뜨고, 문장 전체 번역도 볼 수 있으며, 어휘 플래시카드도 넘겨 볼 수 있어요. 바로 이 화면에서요.",
+  },
+  landingPreviewReaderLabel: { en: "Reader", ko: "리더" },
+  landingPreviewTapHint: {
+    en: "Tap a highlighted word for its meaning →",
+    ko: "표시된 단어를 탭하면 뜻이 나와요 →",
+  },
+  landingPreviewRevealHint: {
+    en: "Tap the globe to see the whole line",
+    ko: "지구본을 탭하면 문장 전체 번역이 보여요",
+  },
+  landingPreviewFlashcardHint: {
+    en: "Tap the card to flip it",
+    ko: "카드를 탭하면 뒤집혀요",
   },
   landingPreviewReadCaption: {
-    en: "A screen from the reader: an English sentence with its Korean translation shown below it.",
-    ko: "리더 화면 예시: 영어 문장과 그 아래에 표시된 한국어 번역.",
+    en: "A screen from the reader: tap a word for its meaning, or reveal the whole line's translation.",
+    ko: "리더 화면 예시: 단어를 탭해 뜻을 보거나, 문장 전체 번역을 펼쳐 볼 수 있어요.",
   },
   landingPreviewCardCaption: {
-    en: "A vocabulary flashcard showing a word, its meaning, and an example sentence.",
-    ko: "단어와 뜻, 예문을 보여 주는 어휘 플래시카드.",
+    en: "An interactive vocabulary flashcard: flip it, and step through the words in the lesson.",
+    ko: "상호작용형 어휘 플래시카드: 뒤집고, 수업에 나오는 단어들을 하나씩 넘겨 볼 수 있어요.",
   },
 
   landingHowTitle: { en: "How a lesson works", ko: "수업은 이렇게 진행돼요" },
@@ -303,26 +337,43 @@ export const dict = {
     ko: "짧은 이해도 퀴즈, 저장한 단어로 만드는 플래시카드, 그리고 직접 쓴 요약에 대한 따뜻한 피드백.",
   },
 
-  landingFeaturesTitle: { en: "Built for calm, steady progress", ko: "차분하고 꾸준한 성장을 위해" },
-  landingFeatureListenTitle: { en: "Natural narration", ko: "자연스러운 낭독" },
+  landingFeaturesTitle: {
+    en: "A language course, hiding in a library",
+    ko: "서재의 모습을 한 언어 학습 코스",
+  },
+  landingFeaturesLead: {
+    en: "Reading is the front door. Behind it is everything you need to actually learn the language.",
+    ko: "읽기는 입구일 뿐이에요. 그 안에는 언어를 제대로 익히는 데 필요한 모든 것이 들어 있어요.",
+  },
+  landingFeatureLevelTitle: { en: "Matched to your level", ko: "내 수준에 맞춰서" },
+  landingFeatureLevelBody: {
+    en: "Every story is graded A1–B2 (CEFR) and simplified to fit — so it stretches you without losing you.",
+    ko: "모든 이야기는 유럽언어기준(CEFR) A1–B2로 등급이 매겨지고 그 수준에 맞게 다듬어져요. 버겁지 않으면서도 실력을 끌어올리죠.",
+  },
+  landingFeatureDictTitle: { en: "A dictionary on every word", ko: "모든 단어 위의 사전" },
+  landingFeatureDictBody: {
+    en: "Tap any word for an instant meaning from a built-in offline dictionary. Reveal a full line whenever you like.",
+    ko: "아무 단어나 탭하면 내장 오프라인 사전에서 뜻이 바로 떠요. 원할 때면 문장 전체 번역도 펼쳐 볼 수 있어요.",
+  },
+  landingFeatureFlashcardsTitle: { en: "Vocabulary that sticks", ko: "머릿속에 남는 어휘" },
+  landingFeatureFlashcardsBody: {
+    en: "Save the words that matter and review them as flashcards — with a reading, a meaning, and an example in context.",
+    ko: "중요한 단어를 저장해 플래시카드로 복습하세요. 발음과 뜻, 그리고 문맥 속 예문이 함께 있어요.",
+  },
+  landingFeatureCheckTitle: { en: "Check that it landed", ko: "제대로 이해했는지 확인" },
+  landingFeatureCheckBody: {
+    en: "A few comprehension questions after each story, plus a gentle note on the short summary you write.",
+    ko: "이야기마다 짧은 이해도 문제가 있고, 직접 쓴 요약에 대한 따뜻한 피드백도 받아요.",
+  },
+  landingFeatureListenTitle: { en: "Listening practice built in", ko: "듣기 연습까지" },
   landingFeatureListenBody: {
-    en: "Every sentence pre-recorded with a neural voice, in English and Korean.",
-    ko: "모든 문장을 뉴럴 음성으로 미리 녹음했어요 — 영어와 한국어 모두.",
+    en: "Every sentence is pre-recorded with a natural neural voice, in both English and Korean.",
+    ko: "모든 문장을 자연스러운 뉴럴 음성으로 미리 녹음했어요 — 영어와 한국어 모두.",
   },
-  landingFeatureBilingualTitle: { en: "Fully bilingual", ko: "완전한 이중 언어" },
+  landingFeatureBilingualTitle: { en: "Both directions", ko: "양방향 학습" },
   landingFeatureBilingualBody: {
-    en: "Learn English from Korean, or Korean from English. Switch the interface any time.",
-    ko: "한국어로 영어를, 영어로 한국어를 배워요. 인터페이스는 언제든 바꿀 수 있어요.",
-  },
-  landingFeatureShelfTitle: { en: "A shelf that grows", ko: "채워지는 책장" },
-  landingFeatureShelfBody: {
-    en: "Finish a story and it lands on your bookshelf. Keep a daily streak going.",
-    ko: "이야기를 완독하면 책장에 꽂혀요. 매일 이어가는 연속 기록도 쌓아 보세요.",
-  },
-  landingFeatureOfflineTitle: { en: "Yours offline", ko: "오프라인에서도" },
-  landingFeatureOfflineBody: {
-    en: "Install it like an app. Your progress stays on your device until you sign in.",
-    ko: "앱처럼 설치하세요. 로그인 전까지 진행 상황은 기기에 저장돼요.",
+    en: "Learn English from Korean, or Korean from English. Flip the reading language and the interface any time.",
+    ko: "한국어로 영어를, 영어로 한국어를 배워요. 읽기 언어와 인터페이스는 언제든 바꿀 수 있어요.",
   },
 
   landingClassicsTitle: { en: "Start with a classic", ko: "고전으로 시작해요" },
