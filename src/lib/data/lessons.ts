@@ -10833,4 +10833,213 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "pollyanna",
+    title: "Pollyanna",
+    titleTranslation: "폴리애나",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Eleanor H. Porter (1868–1920)",
+    coverEmoji: "☀️",
+    coverImage: "/covers/pollyanna.svg",
+    source:
+      "Adapted from Chapter 1 (\"Miss Polly\") of Eleanor H. Porter's novel \"Pollyanna\" (first published 1913; long in the public domain, Project Gutenberg #1450). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what news the letter brought Miss Polly and what she decided to do.",
+    paragraphs: [
+      [
+        {
+          id: "pol-1",
+          text: "Miss Polly Harrington lived alone in a big house in a small town.",
+          translation: "폴리 해링턴 아주머니는 작은 마을의 큰 집에서 혼자 살았어요.",
+        },
+        {
+          id: "pol-2",
+          text: "She was not poor. She had plenty of money.",
+          translation: "그녀는 가난하지 않았어요. 돈은 많았어요.",
+        },
+        {
+          id: "pol-3",
+          text: "But she was not a happy woman, and she did not smile very often.",
+          translation: "하지만 그녀는 행복한 사람이 아니었고, 자주 웃지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "pol-4",
+          text: "One June morning, Miss Polly got a letter.",
+          translation: "6월의 어느 아침, 폴리 아주머니는 편지 한 통을 받았어요.",
+        },
+        {
+          id: "pol-5",
+          text: "The letter had bad news in it.",
+          translation: "편지에는 나쁜 소식이 들어 있었어요.",
+        },
+        {
+          id: "pol-6",
+          text: "Miss Polly had a sister who lived far away. Years ago, that sister left home to marry a poor man.",
+          translation:
+            "폴리 아주머니에게는 멀리 사는 여동생이 있었어요. 오래전에 그 여동생은 가난한 남자와 결혼하려고 집을 떠났어요.",
+        },
+      ],
+      [
+        {
+          id: "pol-7",
+          text: "Now the letter said that the sister and her husband had both died.",
+          translation:
+            "그런데 편지에는 그 여동생과 남편이 둘 다 세상을 떠났다고 쓰여 있었어요.",
+        },
+        {
+          id: "pol-8",
+          text: "They had one child, a little girl named Pollyanna. She was eleven years old.",
+          translation:
+            "그들에게는 아이가 하나 있었어요. 폴리애나라는 어린 여자아이였고, 열한 살이었어요.",
+        },
+        {
+          id: "pol-9",
+          text: "The girl had no home and no family now. Only Miss Polly was left.",
+          translation:
+            "이제 그 아이에게는 집도 없고 가족도 없었어요. 폴리 아주머니만 남았어요.",
+        },
+      ],
+      [
+        {
+          id: "pol-10",
+          text: "Miss Polly put down the letter and frowned.",
+          translation: "폴리 아주머니는 편지를 내려놓고 얼굴을 찌푸렸어요.",
+        },
+        {
+          id: "pol-11",
+          text: "She did not want a child in her house. She liked her quiet life.",
+          translation:
+            "그녀는 집에 아이가 있는 것을 원하지 않았어요. 조용한 생활이 좋았거든요.",
+        },
+        {
+          id: "pol-12",
+          text: "But Pollyanna was her sister's child, and there was no one else.",
+          translation: "하지만 폴리애나는 여동생의 아이였고, 달리 아무도 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "pol-13",
+          text: "\"It is my duty,\" Miss Polly said to herself. \"I will take her.\"",
+          translation:
+            "\"이건 내 의무야.\" 폴리 아주머니는 혼잣말을 했어요. \"내가 그 아이를 맡겠어.\"",
+        },
+        {
+          id: "pol-14",
+          text: "She called her servant, a young woman named Nancy.",
+          translation: "그녀는 하녀를 불렀어요. 낸시라는 젊은 여자였어요.",
+        },
+        {
+          id: "pol-15",
+          text: "\"My niece is coming to live here,\" she said. \"Get the little room in the attic ready for her.\"",
+          translation:
+            "\"내 조카가 여기 와서 살 거야.\" 그녀가 말했어요. \"다락방의 작은 방을 그 아이가 쓸 수 있게 준비해 둬.\"",
+        },
+      ],
+      [
+        {
+          id: "pol-16",
+          text: "Nancy was surprised. The attic room was small, hot, and far from everyone. But she did not say anything.",
+          translation:
+            "낸시는 놀랐어요. 다락방은 작고, 덥고, 다른 사람들과 멀리 떨어져 있었거든요. 하지만 낸시는 아무 말도 하지 않았어요.",
+        },
+        {
+          id: "pol-17",
+          text: "Miss Polly went back to her work. In a few weeks, the child would arrive.",
+          translation:
+            "폴리 아주머니는 다시 일하러 갔어요. 몇 주 뒤면 그 아이가 도착할 거예요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "pol-v1",
+        term: "frown",
+        partOfSpeech: "verb",
+        translation: "얼굴을 찌푸리다, 인상을 쓰다",
+        example: "Miss Polly frowned when she read the bad news.",
+        exampleTranslation: "폴리 아주머니는 나쁜 소식을 읽고 얼굴을 찌푸렸어요.",
+      },
+      {
+        id: "pol-v2",
+        term: "duty",
+        partOfSpeech: "noun",
+        translation: "의무, 마땅히 해야 할 일",
+        example: "\"It is my duty to take the child,\" she said.",
+        exampleTranslation: "\"그 아이를 맡는 것이 내 의무야.\"라고 그녀가 말했어요.",
+      },
+      {
+        id: "pol-v3",
+        term: "niece",
+        partOfSpeech: "noun",
+        translation: "(여자) 조카",
+        example: "Pollyanna was Miss Polly's niece.",
+        exampleTranslation: "폴리애나는 폴리 아주머니의 조카였어요.",
+      },
+      {
+        id: "pol-v4",
+        term: "servant",
+        partOfSpeech: "noun",
+        translation: "하인, 하녀",
+        example: "Nancy was the servant in Miss Polly's house.",
+        exampleTranslation: "낸시는 폴리 아주머니 집의 하녀였어요.",
+      },
+      {
+        id: "pol-v5",
+        term: "surprised",
+        partOfSpeech: "adjective",
+        translation: "놀란",
+        example: "Nancy was surprised by the small attic room.",
+        exampleTranslation: "낸시는 작은 다락방을 보고 놀랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "pol-q1",
+        prompt: "What bad news did the letter bring Miss Polly?",
+        options: [
+          "Her sister wanted to come and live with her.",
+          "Her sister and her sister's husband had both died, leaving a child alone.",
+          "Someone had stolen money from her house.",
+          "Her niece did not want to live with her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The letter told Miss Polly that her sister, who had left home years before to marry a poor man, had died along with her husband; their eleven-year-old daughter Pollyanna now had no home and no family except Miss Polly.",
+      },
+      {
+        id: "pol-q2",
+        prompt: "How did Miss Polly feel about taking Pollyanna in?",
+        options: [
+          "She was very happy and could not wait.",
+          "She did not want a child, but she felt it was her duty.",
+          "She was afraid of the little girl.",
+          "She wanted to give Pollyanna the best room in the house.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Miss Polly frowned when she read the letter, because she liked her quiet life and did not want a child; but Pollyanna was her sister's child and there was no one else, so she decided it was her duty to take her.",
+      },
+      {
+        id: "pol-q3",
+        prompt: "Which room did Miss Polly tell Nancy to get ready?",
+        options: [
+          "The best room, next to her own.",
+          "A small room in the attic.",
+          "A room in the garden house.",
+          "The big room downstairs.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Miss Polly told her servant Nancy to get \"the little room in the attic\" ready for Pollyanna; Nancy was surprised, because that room was small, hot, and far from everyone, but she said nothing.",
+      },
+    ],
+  },
 ];
