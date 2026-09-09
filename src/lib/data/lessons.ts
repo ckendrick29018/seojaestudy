@@ -8887,4 +8887,222 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-country-of-the-pointed-firs",
+    title: "The Country of the Pointed Firs",
+    titleTranslation: "뾰족한 전나무의 고장",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Sarah Orne Jewett (1849–1909)",
+    coverEmoji: "🌲",
+    coverImage: "/covers/the-country-of-the-pointed-firs.svg",
+    source:
+      "Adapted from Chapters 1–2 of Sarah Orne Jewett's novel \"The Country of the Pointed Firs\" (first published 1896; long in the public domain, Project Gutenberg #367). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Mrs. Todd's place in the village of Dunnet Landing, and how the narrator arranged to get her writing done.",
+    paragraphs: [
+      [
+        {
+          id: "cpf-1",
+          text: "A writer first saw the little fishing village of Dunnet Landing, on the coast of Maine, from the deck of a small steamer one bright June morning.",
+          translation:
+            "한 작가는 어느 화창한 6월 아침, 작은 증기선 갑판 위에서 메인주 해안의 작은 어촌 더넷 랜딩을 처음 보았어요.",
+        },
+        {
+          id: "cpf-2",
+          text: "There was something in its grey houses and dark pointed fir trees that caught at her heart, and she knew at once she would come back.",
+          translation:
+            "잿빛 집들과 뾰족하고 검은 전나무들에는 그녀의 마음을 잡아끄는 무언가가 있었고, 그녀는 그 자리에서 다시 오리라는 것을 알았어요.",
+        },
+        {
+          id: "cpf-3",
+          text: "Two or three summers later she returned, meaning to stay for a season and write.",
+          translation:
+            "두세 해 여름이 지난 뒤 그녀는 한 철을 머물며 글을 쓸 작정으로 다시 돌아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "cpf-4",
+          text: "She took a room in the house of Mrs. Almira Todd, an elderly widow who lived at the edge of the village.",
+          translation:
+            "그녀는 마을 어귀에 사는 나이 든 과부 알미라 토드 부인의 집에 방 하나를 얻었어요.",
+        },
+        {
+          id: "cpf-5",
+          text: "Mrs. Todd gathered wild herbs on the hills and sold them, along with quiet home-made remedies and a sharp, spruce-flavoured beer.",
+          translation:
+            "토드 부인은 언덕에서 야생 약초를 캐다 팔았고, 조용히 만든 민간 치료약과 톡 쏘는 가문비나무 향의 맥주도 함께 팔았어요.",
+        },
+        {
+          id: "cpf-6",
+          text: "Her small front garden was so crowded with lovage, thyme, and pennyroyal that a visitor had to brush past their strong sweet smell to reach the door.",
+          translation:
+            "그녀의 자그마한 앞뜰은 러비지와 타임과 페니로열로 어찌나 빽빽했던지, 찾아온 사람은 그 짙고 달큰한 냄새를 헤치고 지나야 문에 닿을 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "cpf-7",
+          text: "Among the herbs grew one strange, pungent plant that Mrs. Todd never named.",
+          translation:
+            "그 약초들 사이에는 토드 부인이 한 번도 이름을 대지 않은, 이상하고 코를 찌르는 냄새가 나는 식물 하나가 자랐어요.",
+        },
+        {
+          id: "cpf-8",
+          text: "Late at night the narrator would sometimes hear her go out and tend it alone by the light of the moon.",
+          translation:
+            "밤늦은 시각, 화자는 이따금 그녀가 밖으로 나가 달빛 아래 홀로 그 식물을 돌보는 소리를 들었어요.",
+        },
+        {
+          id: "cpf-9",
+          text: "There was something old and half-magical about Mrs. Todd, as if she kept knowledge that had been handed down for a very long time.",
+          translation:
+            "토드 부인에게는 아주 오래되고 반쯤 마법 같은 데가 있었는데, 마치 오랜 세월 동안 전해 내려온 지식을 간직하고 있는 듯했어요.",
+        },
+      ],
+      [
+        {
+          id: "cpf-10",
+          text: "All through the day, neighbours came to the back door — not only for herbs, but for advice.",
+          translation:
+            "하루 종일 이웃들이 뒷문으로 찾아왔는데, 약초를 구하러만이 아니라 조언을 얻으러도 왔어요.",
+        },
+        {
+          id: "cpf-11",
+          text: "They spoke to Mrs. Todd in low voices about their aches, their worries, and their family troubles, and went away comforted.",
+          translation:
+            "그들은 낮은 목소리로 토드 부인에게 자신의 통증과 걱정거리, 집안의 골칫거리를 털어놓고는 위로를 받고 돌아갔어요.",
+        },
+        {
+          id: "cpf-12",
+          text: "Now and then she left the narrator to mind the shop and weigh out a packet of dried leaves for a customer.",
+          translation:
+            "가끔 그녀는 화자에게 가게를 봐 달라고 맡기고는, 손님에게 줄 마른 잎 한 봉지를 달아 주게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "cpf-13",
+          text: "The little house was busy and full of talk, and the narrator found she could not get her own writing done there.",
+          translation:
+            "그 작은 집은 늘 분주하고 이야기 소리로 가득해서, 화자는 그곳에서는 자기 글을 도무지 쓸 수 없다는 것을 알게 되었어요.",
+        },
+        {
+          id: "cpf-14",
+          text: "On a hill above the village stood the empty summer schoolhouse, and she arranged to rent it as a quiet place to work by day.",
+          translation:
+            "마을 위쪽 언덕에는 여름 방학으로 비어 있는 학교 건물이 있었고, 그녀는 낮에 조용히 일할 수 있도록 그곳을 빌리기로 했어요.",
+        },
+        {
+          id: "cpf-15",
+          text: "Mrs. Todd was a little hurt at first, but she soon understood, and packed her a lunch each morning without another word.",
+          translation:
+            "토드 부인은 처음에는 조금 서운해했지만 곧 이해했고, 그 뒤로는 아무 말 없이 아침마다 도시락을 싸 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "cpf-16",
+          text: "So the summer settled into an easy rhythm: writing on the breezy hill by day, and Mrs. Todd's herb-scented kitchen in the evening.",
+          translation:
+            "그렇게 여름은 편안한 리듬으로 자리 잡았어요. 낮에는 바람 부는 언덕에서 글을 쓰고, 저녁에는 약초 향이 밴 토드 부인의 부엌에서 시간을 보내는 것이었지요.",
+        },
+        {
+          id: "cpf-17",
+          text: "Little by little, the old herb-woman and the visitor became true friends.",
+          translation:
+            "조금씩, 나이 든 약초꾼 여인과 그 방문객은 진정한 친구가 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cpf-v1",
+        term: "remedy",
+        partOfSpeech: "noun",
+        translation: "(민간) 치료약, 요법",
+        example: "Mrs. Todd sold herbs and quiet home-made remedies to the villagers.",
+        exampleTranslation: "토드 부인은 마을 사람들에게 약초와 조용히 만든 민간 치료약을 팔았어요.",
+      },
+      {
+        id: "cpf-v2",
+        term: "pungent",
+        partOfSpeech: "adjective",
+        translation: "코를 찌르는, 톡 쏘는 (냄새·맛)",
+        example: "A strange, pungent plant grew among the sweeter herbs.",
+        exampleTranslation:
+          "향긋한 약초들 사이에 이상하고 코를 찌르는 냄새가 나는 식물 하나가 자랐어요.",
+      },
+      {
+        id: "cpf-v3",
+        term: "widow",
+        partOfSpeech: "noun",
+        translation: "미망인, 과부",
+        example: "Mrs. Todd was an elderly widow who lived alone at the edge of the village.",
+        exampleTranslation: "토드 부인은 마을 어귀에 혼자 사는 나이 든 과부였어요.",
+      },
+      {
+        id: "cpf-v4",
+        term: "mind",
+        partOfSpeech: "verb",
+        translation: "(자리를) 봐 주다, 지키다",
+        example: "Sometimes Mrs. Todd asked the narrator to mind the shop for an hour.",
+        exampleTranslation: "이따금 토드 부인은 화자에게 한 시간쯤 가게를 봐 달라고 부탁했어요.",
+      },
+      {
+        id: "cpf-v5",
+        term: "rhythm",
+        partOfSpeech: "noun",
+        translation: "리듬, 규칙적인 흐름",
+        example: "The summer soon settled into a gentle rhythm of work and talk.",
+        exampleTranslation: "여름은 곧 일과 대화가 어우러진 잔잔한 리듬으로 자리 잡았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cpf-q1",
+        prompt: "What made the narrator decide to return to Dunnet Landing?",
+        options: [
+          "She had family waiting for her there.",
+          "She fell in love with the village at first sight and wanted to come back and write.",
+          "She had been offered a teaching job at the schoolhouse.",
+          "Mrs. Todd had written and invited her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Seeing the grey houses and pointed firs from the deck of a steamer one June morning, the writer was so taken with the place that she resolved to return, and two or three summers later she came back to stay.",
+      },
+      {
+        id: "cpf-q2",
+        prompt: "How did Mrs. Todd earn her living, and what else did the villagers come to her for?",
+        options: [
+          "She ran the village school and gave music lessons.",
+          "She kept a general store and sold newspapers.",
+          "She gathered and sold herbs and remedies, and neighbours also came to her for advice.",
+          "She took in sewing and mending for the fishing families.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Todd gathered wild herbs and sold them with home-made remedies and spruce beer; all day, neighbours came to her back door for herbs and also for quiet advice about their troubles.",
+      },
+      {
+        id: "cpf-q3",
+        prompt: "Why did the narrator rent the empty schoolhouse?",
+        options: [
+          "To hold classes for the village children.",
+          "Because Mrs. Todd's house was too far from the harbour.",
+          "She needed a quiet place to do her writing, away from the busy house.",
+          "The schoolhouse was cheaper than her room at Mrs. Todd's.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Todd's house was full of talk and visitors, so the narrator arranged to use the empty summer schoolhouse on the hill as a quiet daytime workroom; Mrs. Todd, though hurt at first, soon packed her a lunch each morning.",
+      },
+    ],
+  },
 ];

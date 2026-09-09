@@ -187,7 +187,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 67 | The House of Mirth | Edith Wharton (1937) | 284 | B2 | Bk 1 Ch. 1 — Lily Bart at the station (simplified retelling, 17 sentences) | ☑ |
 | 68 | Ethan Frome | Edith Wharton (1937) | 4517 | B1 | the prologue — the narrator sees Ethan (simplified retelling, 17 sentences; kept as the narrator's frame) | ☑ |
 | 69 | The Awakening | Kate Chopin (1904) | 160 | B2 | Ch. 1 — Grand Isle (simplified retelling, 17 sentences) | ☑ |
-| 70 | The Country of the Pointed Firs | Sarah Orne Jewett (1909) | — | B2 | Ch. 1–2 — arriving at Dunnet Landing | ☐ |
+| 70 | The Country of the Pointed Firs | Sarah Orne Jewett (1909) | 367 | B2 | Ch. 1–2 — arriving at Dunnet Landing (simplified retelling, 17 sentences) | ☑ |
 | 71 | Frankenstein | Mary Shelley (1851) | 84 | B2 | Letter 1 — Walton to his sister (simplified retelling, 17 sentences; kept as Walton's letter) | ☑ |
 | 72 | The Mysteries of Udolpho | Ann Radcliffe (1823) | — | B2 | Vol. 1 Ch. 1 — La Vallée | ☐ |
 | 73 | Sonnets from the Portuguese | Elizabeth Barrett Browning (1861) | — | B2 | Sonnet 43 — "How do I love thee" | ☐ |
@@ -200,10 +200,11 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (40):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (41):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
-  (row 68), East of the Sun and West of the Moon (row 20), The Twelve
+  (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), East of the
+  Sun and West of the Moon (row 20), The Twelve
   Dancing Princesses (row 21), Anne of Green Gables Ch. 2 (row 43), Anne of
   Green Gables Ch. 3 (row 44), Little Women Ch. 1 (row 39), Middlemarch
   (row 61), The Yellow Wallpaper (row 1), The Ugly Duckling (row 16),
@@ -232,16 +233,17 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 1, The Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense
   and Sensibility Ch. 1, The Yellow Wallpaper, Emma, The Nightingale and
   the Rose, The Little Mermaid, Ethan Frome prologue, East of the Sun and
-  West of the Moon, The Bet), B2 ×9 (Jane Eyre, The Lady with the Dog,
+  West of the Moon, The Bet), B2 ×10 (Jane Eyre, The Lady with the Dog,
   Wuthering Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The
   Age of Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of
-  Mirth Bk 1 Ch. 1). Bands are now A1 ×6, B2 ×9, A2 ×12, B1 ×13 — A1 is far
-  behind the others. Within A2, Alice in Wonderland is still the only entry
-  that is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **The Country of the Pointed Firs Ch. 1–2**
-  (row 70, B2 — Jewett), **North and South Ch. 1** (row 64, B2 — Gaskell),
-  **Cranford Ch. 1** (row 53, B1 — Gaskell, "the Amazons"). A1 (6) is far
-  behind and the backlog has no more A1 rows — re-level an A2 tale down to
-  A1, or add new A1 rows. Note: row 56 (A Room with a View) is **not**
+  Mirth Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2). Bands are now
+  A1 ×6, B2 ×10, A2 ×12, B1 ×13 — A1 is far behind the others. Within A2,
+  Alice in Wonderland is still the only entry that is neither a fairy tale
+  nor gentle domestic fiction.
+- Good next lessons to build: **North and South Ch. 1** (row 64, B2 —
+  Gaskell), **Cranford Ch. 1** (row 53, B1 — Gaskell, "the Amazons"),
+  **Silas Marner Ch. 12** (row 62, B1 — the child at the hearth). A1 (6) is
+  far behind and the backlog has no more A1 rows — re-level an A2 tale down
+  to A1, or add new A1 rows. Note: row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.
