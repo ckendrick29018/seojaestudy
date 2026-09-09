@@ -12745,4 +12745,220 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "persuasion",
+    title: "Persuasion",
+    titleTranslation: "설득",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/persuasion.svg",
+    source:
+      "Adapted from Chapter 4 of Jane Austen's novel \"Persuasion\" (first published 1817; long in the public domain, Project Gutenberg #105). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Anne gave up Frederick Wentworth eight years ago and what it had cost her by the time he returned.",
+    paragraphs: [
+      [
+        {
+          id: "per-1",
+          text: "Eight years before this story begins, Anne Elliot was nineteen, and she fell in love.",
+          translation:
+            "이 이야기가 시작되기 8년 전, 앤 엘리엇은 열아홉 살이었고, 사랑에 빠졌어요.",
+        },
+        {
+          id: "per-2",
+          text: "The young man was Frederick Wentworth, a naval officer — clever, confident, and full of life.",
+          translation:
+            "그 청년은 프레더릭 웬트워스로, 해군 장교였고, 영리하고 자신감이 넘치며 활기가 가득했어요.",
+        },
+        {
+          id: "per-3",
+          text: "He had no fortune and no important family, but he was sure he would soon make his own way in the world.",
+          translation:
+            "그에게는 재산도, 대단한 집안도 없었지만, 자기 힘으로 곧 세상에서 자리를 잡을 것이라고 확신했어요.",
+        },
+      ],
+      [
+        {
+          id: "per-4",
+          text: "Anne loved him completely, and when he asked her to marry him, she said yes.",
+          translation:
+            "앤은 그를 온전히 사랑했고, 그가 청혼하자 그러겠다고 했어요.",
+        },
+        {
+          id: "per-5",
+          text: "For a short time she was perfectly happy.",
+          translation: "잠시 동안 앤은 더없이 행복했어요.",
+        },
+        {
+          id: "per-6",
+          text: "But her father, Sir Walter, thought the match beneath her and gave it no real support.",
+          translation:
+            "하지만 아버지 월터 경은 그 혼사가 딸에게 격에 맞지 않는다고 여겨 제대로 지지해 주지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "per-7",
+          text: "Worse, Lady Russell — the wise older friend who had been like a mother to Anne — was firmly against it.",
+          translation:
+            "더 나쁜 것은, 앤에게 어머니와도 같았던 지혜로운 손윗사람 러셀 부인이 그 혼사를 단호히 반대했다는 점이었어요.",
+        },
+        {
+          id: "per-8",
+          text: "She believed Wentworth was too poor, his profession too uncertain, and the engagement a risk that would only bring Anne years of worry.",
+          translation:
+            "러셀 부인은 웬트워스가 너무 가난하고, 그의 직업이 너무 불안정하며, 이 약혼은 앤에게 여러 해의 근심만 안겨 줄 위험이라고 믿었어요.",
+        },
+        {
+          id: "per-9",
+          text: "She urged Anne to give him up, for her own good and for his.",
+          translation:
+            "부인은 앤에게, 앤 자신을 위해서도 그를 위해서도, 그를 단념하라고 강하게 권했어요.",
+        },
+      ],
+      [
+        {
+          id: "per-10",
+          text: "Anne was young and gentle, and she trusted the people who loved her.",
+          translation:
+            "앤은 어렸고 마음이 여렸으며, 자기를 사랑하는 사람들을 믿었어요.",
+        },
+        {
+          id: "per-11",
+          text: "Believing she was being wise and unselfish, she broke off the engagement.",
+          translation:
+            "자신이 현명하고 사심 없이 행동하는 것이라 믿으며, 앤은 약혼을 깼어요.",
+        },
+        {
+          id: "per-12",
+          text: "Wentworth did not think it wise; he felt wronged and abandoned, and he left in anger.",
+          translation:
+            "웬트워스는 그것이 현명하다고 생각하지 않았어요. 그는 부당한 대우를 받고 버림받았다고 느꼈고, 화가 난 채 떠났어요.",
+        },
+      ],
+      [
+        {
+          id: "per-13",
+          text: "The parting cost Anne her happiness and, for a while, her health and her looks.",
+          translation:
+            "그 이별로 앤은 행복을 잃었고, 한동안은 건강과 고운 얼굴빛까지 잃었어요.",
+        },
+        {
+          id: "per-14",
+          text: "In the years that followed, she met no one who was his equal, and no other man ever touched her heart.",
+          translation:
+            "그 뒤 여러 해 동안 앤은 그에 견줄 만한 사람을 만나지 못했고, 다른 어떤 남자도 그녀의 마음을 움직이지 못했어요.",
+        },
+        {
+          id: "per-15",
+          text: "At twenty-seven she was still unmarried, quieter now, and privately sure she had made a mistake.",
+          translation:
+            "스물일곱이 된 앤은 여전히 미혼이었고, 예전보다 조용해졌으며, 자기가 잘못한 것이라고 속으로 확신하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "per-16",
+          text: "Wentworth, meanwhile, had gone to sea, won honour and a fortune in the war, and risen to captain — but he had not married, and he had not forgiven her.",
+          translation:
+            "한편 웬트워스는 바다로 나가 전쟁에서 명예와 재산을 얻고 함장의 자리에까지 올랐지만, 결혼은 하지 않았고, 앤을 용서하지도 않았어요.",
+        },
+        {
+          id: "per-17",
+          text: "Now his sister had rented the Elliots' house, and Captain Wentworth was coming back into Anne's quiet life.",
+          translation:
+            "그런데 이제 그의 누이가 엘리엇 가의 저택을 빌렸고, 웬트워스 함장이 앤의 조용한 삶 속으로 다시 돌아오려던 참이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "per-v1",
+        term: "naval",
+        partOfSpeech: "adjective",
+        translation: "해군의",
+        example: "Wentworth was a young naval officer with no fortune.",
+        exampleTranslation: "웬트워스는 재산이 없는 젊은 해군 장교였어요.",
+      },
+      {
+        id: "per-v2",
+        term: "match",
+        partOfSpeech: "noun",
+        translation: "(결혼) 상대, 혼처; 어울리는 짝",
+        example: "Sir Walter thought the marriage a poor match for his daughter.",
+        exampleTranslation: "월터 경은 그 결혼이 딸에게 어울리지 않는 혼처라고 생각했어요.",
+      },
+      {
+        id: "per-v3",
+        term: "engagement",
+        partOfSpeech: "noun",
+        translation: "약혼",
+        example: "Persuaded by Lady Russell, Anne broke off the engagement.",
+        exampleTranslation: "러셀 부인의 설득에 앤은 약혼을 깼어요.",
+      },
+      {
+        id: "per-v4",
+        term: "profession",
+        partOfSpeech: "noun",
+        translation: "(전문) 직업",
+        example: "Lady Russell thought his profession too uncertain.",
+        exampleTranslation: "러셀 부인은 그의 직업이 너무 불안정하다고 생각했어요.",
+      },
+      {
+        id: "per-v5",
+        term: "unselfish",
+        partOfSpeech: "adjective",
+        translation: "사심 없는, 이타적인",
+        example: "Anne believed that giving him up was the unselfish thing to do.",
+        exampleTranslation: "앤은 그를 단념하는 것이 사심 없는 행동이라고 믿었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "per-q1",
+        prompt: "Why did Anne break off her engagement to Frederick Wentworth eight years earlier?",
+        options: [
+          "She had stopped loving him.",
+          "She had met a richer man she preferred.",
+          "Her father and Lady Russell opposed it, and she was persuaded that giving him up was the wise, unselfish thing to do.",
+          "Wentworth had asked to end it himself.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Sir Walter thought the match beneath Anne and gave it no support, and Lady Russell, who was like a mother to her, was firmly against it, believing Wentworth too poor and his profession too uncertain; young and trusting, Anne was persuaded that breaking it off was wise and unselfish.",
+      },
+      {
+        id: "per-q2",
+        prompt: "How did the broken engagement affect Anne in the years that followed?",
+        options: [
+          "She quickly married someone else and was content.",
+          "She lost her happiness and, for a time, her health and looks; she met no one to equal Wentworth and stayed single, privately sure she had been wrong.",
+          "She became close friends with Wentworth again.",
+          "She left home to travel and forgot him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The parting cost Anne her happiness and briefly her health and bloom; in eight years she met no one who was Wentworth's equal, and at twenty-seven she was still unmarried, quieter, and privately certain she had made a mistake.",
+      },
+      {
+        id: "per-q3",
+        prompt: "What had become of Wentworth, and what was about to happen?",
+        options: [
+          "He had died at sea, and Anne only now heard of it.",
+          "He had married another woman and settled far away.",
+          "He had left the navy and become a farmer.",
+          "He had made his fortune and become a captain, had not married or forgiven Anne, and was now returning to her neighbourhood because his sister had rented the Elliots' house.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Wentworth had gone to sea, won honour and a fortune in the war, and risen to captain, but he had neither married nor forgiven Anne; now his sister had rented the Elliots' house, so Captain Wentworth was coming back into Anne's quiet life.",
+      },
+    ],
+  },
 ];
