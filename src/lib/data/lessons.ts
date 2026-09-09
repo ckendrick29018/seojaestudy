@@ -10186,4 +10186,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "daddy-long-legs",
+    title: "Daddy-Long-Legs",
+    titleTranslation: "키다리 아저씨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jean Webster (1876–1916)",
+    coverEmoji: "✉️",
+    coverImage: "/covers/daddy-long-legs.svg",
+    source:
+      "Adapted from Chapter 1 (\"Blue Wednesday\") of Jean Webster's novel \"Daddy-Long-Legs\" (first published 1912; long in the public domain, Project Gutenberg #157). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain the offer that one trustee made to Jerusha Abbott, and the single condition attached to it.",
+    paragraphs: [
+      [
+        {
+          id: "dll-1",
+          text: "At the John Grier Home, the first Wednesday of every month was the most dreaded day of all.",
+          translation:
+            "존 그리어 고아원에서는 매달 첫째 수요일이 가장 무서운 날이었어요.",
+        },
+        {
+          id: "dll-2",
+          text: "On that day the trustees and their visitors came to walk through the orphanage and inspect everything.",
+          translation:
+            "그날이면 이사들과 그들이 데려온 방문객들이 고아원 안을 두루 돌아보며 이것저것 점검했어요.",
+        },
+        {
+          id: "dll-3",
+          text: "Jerusha Abbott, at seventeen the oldest orphan in the house, had been on her feet since early morning.",
+          translation:
+            "열일곱 살로 그 집에서 가장 나이 많은 고아였던 제루샤 애벗은 이른 아침부터 줄곧 서서 일했어요.",
+        },
+      ],
+      [
+        {
+          id: "dll-4",
+          text: "She had swept rooms, wiped small faces, dressed nearly a hundred children in their stiff best clothes, and taught them to bow when a visitor spoke to them.",
+          translation:
+            "그녀는 방을 쓸고, 작은 얼굴들을 닦아 주고, 백 명 가까운 아이들에게 빳빳한 나들이옷을 입히고, 방문객이 말을 걸면 고개 숙여 인사하도록 가르쳤어요.",
+        },
+        {
+          id: "dll-5",
+          text: "Jerusha had lived at the Home her whole life, and she had never once been outside its iron gates for more than a day.",
+          translation:
+            "제루샤는 평생을 그 고아원에서 살았고, 철문 밖으로 하루 넘게 나가 본 적이 한 번도 없었어요.",
+        },
+        {
+          id: "dll-6",
+          text: "That afternoon, when the last visitor had finally gone, she leaned against a window, tired all the way through.",
+          translation:
+            "그날 오후 마지막 방문객이 마침내 돌아가자, 그녀는 온몸이 지친 채 창가에 기대섰어요.",
+        },
+      ],
+      [
+        {
+          id: "dll-7",
+          text: "Then Mrs. Lippett, who ran the Home, sent for her, and Jerusha went with a sinking heart, sure she had done something wrong.",
+          translation:
+            "그때 고아원을 운영하는 리펫 부인이 그녀를 불렀고, 제루샤는 무언가 잘못을 저질렀구나 싶어 가슴이 철렁 내려앉은 채로 갔어요.",
+        },
+        {
+          id: "dll-8",
+          text: "Instead, Mrs. Lippett told her that one of the trustees had made a surprising offer.",
+          translation:
+            "그런데 리펫 부인은 이사들 가운데 한 사람이 뜻밖의 제안을 했다고 말했어요.",
+        },
+        {
+          id: "dll-9",
+          text: "This trustee had read an essay Jerusha had written, a sharp and funny piece called \"Blue Wednesday\" about life in the orphanage.",
+          translation:
+            "그 이사는 제루샤가 쓴 '푸른 수요일'이라는 글을 읽었는데, 고아원 생활을 다룬 날카롭고 재미있는 글이었어요.",
+        },
+      ],
+      [
+        {
+          id: "dll-10",
+          text: "He believed she could become a writer, and he was willing to pay for her to go to college for four years.",
+          translation:
+            "그는 그녀가 작가가 될 수 있다고 믿었고, 그녀를 4년 동안 대학에 보내는 비용을 대 주겠다고 했어요.",
+        },
+        {
+          id: "dll-11",
+          text: "She would be given clothes, books, and a small amount of money to spend each month.",
+          translation:
+            "그녀는 옷과 책, 그리고 다달이 쓸 얼마간의 돈을 받게 될 것이었어요.",
+        },
+        {
+          id: "dll-12",
+          text: "There was only one thing she had to do in return: write him a letter once a month about her studies and her progress.",
+          translation:
+            "그 대가로 그녀가 해야 할 일은 단 하나, 한 달에 한 번 자기 공부와 발전에 대해 그에게 편지를 쓰는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "dll-13",
+          text: "The letters were meant as a way of saying thank you, and also as practice for her writing.",
+          translation:
+            "그 편지는 고맙다는 인사이자, 동시에 글쓰기 연습이기도 했어요.",
+        },
+        {
+          id: "dll-14",
+          text: "But the trustee would never answer them, and he did not want to hear a single word about the money.",
+          translation:
+            "하지만 그 이사는 편지에 답장을 하지 않을 것이며, 돈 이야기는 한마디도 듣고 싶어 하지 않았어요.",
+        },
+        {
+          id: "dll-15",
+          text: "Jerusha had barely seen him; as he left, she had only caught sight of a tall man's long shadow thrown across the wall by the light in the hall.",
+          translation:
+            "제루샤는 그를 거의 보지 못했어요. 그가 떠날 때, 복도의 불빛에 벽으로 길게 드리운 키 큰 남자의 그림자를 얼핏 보았을 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "dll-16",
+          text: "The shadow had absurdly long arms and legs, like a big spider called a \"daddy-long-legs,\" and the name stuck in her mind.",
+          translation:
+            "그 그림자는 '장다리거미(daddy-long-legs)'라 불리는 큰 거미처럼 팔다리가 우스꽝스럽게 길었고, 그 이름이 그녀의 머릿속에 남았어요.",
+        },
+        {
+          id: "dll-17",
+          text: "She was to send her letters to a \"Mr. John Smith\" through his secretary, and she would never be told his real name.",
+          translation:
+            "그녀는 그의 비서를 통해 '존 스미스 씨'에게 편지를 보내야 했고, 그의 진짜 이름은 끝내 알 수 없을 것이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dll-v1",
+        term: "orphan",
+        partOfSpeech: "noun",
+        translation: "고아",
+        example: "Jerusha was the oldest orphan in the John Grier Home.",
+        exampleTranslation: "제루샤는 존 그리어 고아원에서 가장 나이 많은 고아였어요.",
+      },
+      {
+        id: "dll-v2",
+        term: "trustee",
+        partOfSpeech: "noun",
+        translation: "(기관의) 이사, 관리 위원",
+        example: "One trustee offered to pay for her education.",
+        exampleTranslation: "한 이사가 그녀의 학비를 대 주겠다고 했어요.",
+      },
+      {
+        id: "dll-v3",
+        term: "inspect",
+        partOfSpeech: "verb",
+        translation: "점검하다, 꼼꼼히 살피다",
+        example: "The visitors walked through the rooms to inspect everything.",
+        exampleTranslation: "방문객들은 모든 것을 점검하려고 방들을 두루 돌아보았어요.",
+      },
+      {
+        id: "dll-v4",
+        term: "dread",
+        partOfSpeech: "verb",
+        translation: "몹시 두려워하다, 무서워하다",
+        example: "The children dreaded the first Wednesday of every month.",
+        exampleTranslation: "아이들은 매달 첫째 수요일을 몹시 두려워했어요.",
+      },
+      {
+        id: "dll-v5",
+        term: "shadow",
+        partOfSpeech: "noun",
+        translation: "그림자",
+        example: "She saw only his long shadow on the wall.",
+        exampleTranslation: "그녀는 벽에 비친 그의 긴 그림자만 보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dll-q1",
+        prompt: "What was the first Wednesday of every month like at the John Grier Home?",
+        options: [
+          "A holiday, when the children were taken on an outing.",
+          "The dreaded inspection day, when trustees and visitors walked through the orphanage.",
+          "The day new orphans usually arrived.",
+          "A quiet day, because Mrs. Lippett was always away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the first Wednesday of each month the trustees and their visitors came to inspect the Home; Jerusha, the oldest orphan, spent the whole day cleaning and dressing nearly a hundred children and teaching them to bow to visitors.",
+      },
+      {
+        id: "dll-q2",
+        prompt: "Why did one of the trustees offer to send Jerusha to college?",
+        options: [
+          "She had nursed his sick child back to health.",
+          "Mrs. Lippett had begged him to take her off her hands.",
+          "He had read her sharp, funny essay \"Blue Wednesday\" and thought she could be a writer.",
+          "She was the only orphan old enough to leave the Home.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The trustee had read an essay Jerusha wrote about orphanage life, called \"Blue Wednesday,\" and believed she had the talent to become a writer, so he offered to pay for four years of college.",
+      },
+      {
+        id: "dll-q3",
+        prompt: "What did Jerusha have to do in return for her education?",
+        options: [
+          "Come back to work at the Home every summer.",
+          "Write him one letter a month about her studies, expecting no reply.",
+          "Pay the money back once she had graduated.",
+          "Keep the whole arrangement secret from everyone she met.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "In return she had only to write him one letter a month about her progress, as thanks and as writing practice; he would never answer, and she was to address the letters to a \"Mr. John Smith\" without ever learning his real name.",
+      },
+    ],
+  },
 ];
