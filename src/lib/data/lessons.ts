@@ -8237,4 +8237,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "east-of-the-sun-and-west-of-the-moon",
+    title: "East of the Sun and West of the Moon",
+    titleTranslation: "해님의 동쪽, 달님의 서쪽",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "P. C. Asbjørnsen & Jørgen Moe (1812–1885, 1813–1882)",
+    coverEmoji: "🌙",
+    coverImage: "/covers/east-of-the-sun-and-west-of-the-moon.svg",
+    source:
+      "Adapted from the Norwegian folk tale \"East of the Sun and West of the Moon,\" collected by Peter Christen Asbjørnsen and Jørgen Moe, as retold in Andrew Lang's \"The Blue Fairy Book\" (1889; long in the public domain, Project Gutenberg #503). This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale has been trimmed and gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what happened when the girl lit the candle, and how she found and won back the prince in the end.",
+    paragraphs: [
+      [
+        {
+          id: "esm-1",
+          text: "A poor farmer had many children, and one autumn night a great White Bear knocked at the window.",
+          translation:
+            "가난한 농부에게는 자식이 많았는데, 어느 가을밤 커다란 흰곰 한 마리가 창문을 두드렸어요.",
+        },
+        {
+          id: "esm-2",
+          text: "\"Give me your youngest daughter,\" said the Bear, \"and I will make you rich.\"",
+          translation:
+            "\"막내딸을 나에게 주시오.\" 곰이 말했어요. \"그러면 당신을 부자로 만들어 주겠소.\"",
+        },
+        {
+          id: "esm-3",
+          text: "The girl was afraid, but at last she agreed, and she climbed onto the Bear's broad back and was carried away.",
+          translation:
+            "소녀는 무서웠지만 마침내 승낙했고, 곰의 넓은 등에 올라타 실려 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "esm-4",
+          text: "The Bear brought her to a hidden castle full of gold and fine rooms, where a silver bell gave her anything she wished for.",
+          translation:
+            "곰은 소녀를 금과 훌륭한 방들로 가득한 숨겨진 성으로 데려갔는데, 그곳에서는 은종을 울리기만 하면 무엇이든 원하는 것을 얻을 수 있었어요.",
+        },
+        {
+          id: "esm-5",
+          text: "Each night, after she put out the light, a man came and lay down beside her in the dark, and was gone before morning.",
+          translation:
+            "밤마다 소녀가 불을 끄고 나면, 한 남자가 어둠 속에서 다가와 곁에 누웠다가 아침이 되기 전에 사라졌어요.",
+        },
+        {
+          id: "esm-6",
+          text: "She never saw his face, and though he was kind, she grew lonely and longed to visit her family.",
+          translation:
+            "소녀는 그의 얼굴을 한 번도 보지 못했고, 그가 다정하기는 했지만 점점 외로워져 가족을 보러 가고 싶어 몹시 그리워했어요.",
+        },
+      ],
+      [
+        {
+          id: "esm-7",
+          text: "The Bear let her go home, but warned her not to listen to her mother's advice, or she would bring sorrow on them both.",
+          translation:
+            "곰은 소녀를 집에 보내 주었지만, 어머니의 충고를 듣지 말라고, 그러지 않으면 두 사람 모두에게 슬픔이 닥칠 거라고 일렀어요.",
+        },
+        {
+          id: "esm-8",
+          text: "Her mother, hearing the strange story, gave her a candle and told her to light it while the man slept and look at his face.",
+          translation:
+            "이상한 이야기를 들은 어머니는 소녀에게 초 한 자루를 주며, 그 남자가 잠든 사이에 초에 불을 붙여 그의 얼굴을 보라고 했어요.",
+        },
+        {
+          id: "esm-9",
+          text: "Back at the castle she lit the candle — and saw the most handsome prince, so lovely that she bent to kiss him.",
+          translation:
+            "성으로 돌아온 소녀는 초에 불을 붙였고, 세상에서 가장 잘생긴 왕자를 보았어요. 너무나 사랑스러워서 소녀는 몸을 숙여 그에게 입을 맞추었지요.",
+        },
+      ],
+      [
+        {
+          id: "esm-10",
+          text: "Three drops of hot wax fell on his shirt, and he woke. \"Now you have ruined us both,\" he said sadly.",
+          translation:
+            "뜨거운 촛농 세 방울이 그의 셔츠 위로 떨어졌고, 왕자가 잠에서 깼어요. \"이제 당신은 우리 둘 다를 망쳐 버렸어요.\" 그가 슬프게 말했어요.",
+        },
+        {
+          id: "esm-11",
+          text: "A wicked stepmother had put a curse on him: a Bear by day, a man by night, and one more year would have set him free.",
+          translation:
+            "사악한 계모가 그에게 저주를 걸어 놓았던 거예요. 낮에는 곰, 밤에는 사람이었고, 딱 한 해만 더 버텼으면 저주에서 풀려날 수 있었어요.",
+        },
+        {
+          id: "esm-12",
+          text: "Now he must go to her castle, which lay east of the sun and west of the moon, and marry a princess with a long, ugly nose.",
+          translation:
+            "이제 그는 해님의 동쪽, 달님의 서쪽에 있는 계모의 성으로 가서, 길고 흉한 코를 가진 공주와 결혼해야만 했어요.",
+        },
+      ],
+      [
+        {
+          id: "esm-13",
+          text: "In the morning the castle was gone, and the girl set out to find him, walking on and on through the world.",
+          translation:
+            "아침이 되자 성은 사라지고 없었고, 소녀는 그를 찾아 나서서 온 세상을 걷고 또 걸었어요.",
+        },
+        {
+          id: "esm-14",
+          text: "Three old women gave her golden gifts and sent her from one Wind to the next, until the strong North Wind carried her on his back over the sea.",
+          translation:
+            "세 노파가 소녀에게 금으로 된 선물을 주며 이 바람에서 저 바람에게로 보냈고, 마침내 힘센 북풍이 소녀를 등에 업고 바다를 건너 실어다 주었어요.",
+        },
+        {
+          id: "esm-15",
+          text: "He set her down, worn out, beneath the windows of the castle east of the sun and west of the moon.",
+          translation:
+            "북풍은 기진맥진한 채로 해님의 동쪽, 달님의 서쪽에 있는 그 성의 창문 아래에 소녀를 내려놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "esm-16",
+          text: "She traded her golden gifts for three nights with the prince; twice he was in a drugged sleep, but on the third night he was awake and they made a plan.",
+          translation:
+            "소녀는 금으로 된 선물들을 내주고 왕자와 함께할 세 번의 밤을 얻었어요. 두 번은 왕자가 약에 취해 잠들어 있었지만, 셋째 밤에는 깨어 있어서 두 사람은 계획을 세웠어요.",
+        },
+        {
+          id: "esm-17",
+          text: "When the long-nosed princess could not wash the wax from the shirt, the girl washed it white in a moment, the spell was broken, and the prince took her for his wife.",
+          translation:
+            "코가 긴 공주가 셔츠에서 촛농을 씻어 내지 못하자, 소녀가 순식간에 그것을 새하얗게 빨아 냈고, 마법이 풀리면서 왕자는 소녀를 아내로 맞았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "esm-v1",
+        term: "long",
+        partOfSpeech: "verb",
+        translation: "간절히 바라다, 몹시 그리워하다",
+        example: "Alone in the great castle, she longed to see her family again.",
+        exampleTranslation: "거대한 성에 혼자 있던 그녀는 가족을 다시 보고 싶어 몹시 그리워했어요.",
+      },
+      {
+        id: "esm-v2",
+        term: "wax",
+        partOfSpeech: "noun",
+        translation: "밀랍, 촛농",
+        example: "Three drops of hot wax fell from the candle onto the prince's shirt.",
+        exampleTranslation: "촛불에서 뜨거운 촛농 세 방울이 왕자의 셔츠 위로 떨어졌어요.",
+      },
+      {
+        id: "esm-v3",
+        term: "curse",
+        partOfSpeech: "noun",
+        translation: "저주",
+        example: "The stepmother's curse turned the prince into a bear every day.",
+        exampleTranslation: "계모의 저주는 왕자를 날마다 곰으로 바꿔 놓았어요.",
+      },
+      {
+        id: "esm-v4",
+        term: "drugged",
+        partOfSpeech: "adjective",
+        translation: "약에 취한, 약(수면제)을 탄",
+        example: "The princess gave the prince a drugged drink so he would not wake.",
+        exampleTranslation: "공주는 왕자가 깨어나지 못하도록 그에게 약을 탄 음료를 주었어요.",
+      },
+      {
+        id: "esm-v5",
+        term: "stepmother",
+        partOfSpeech: "noun",
+        translation: "계모, 새어머니",
+        example: "It was his cruel stepmother who had bewitched him.",
+        exampleTranslation: "그에게 마법을 건 것은 잔인한 계모였어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "esm-q1",
+        prompt: "What did the White Bear promise the poor farmer?",
+        options: [
+          "To carry his goods to market each week.",
+          "To make him rich if he gave up his youngest daughter.",
+          "To guard the family's house through the winter.",
+          "To bring back the daughter after one year.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Bear knocked at the window one autumn night and offered to make the poor farmer rich in exchange for his youngest daughter, who at last agreed to go.",
+      },
+      {
+        id: "esm-q2",
+        prompt: "Why did the girl light the candle to look at her sleeping husband?",
+        options: [
+          "The room was too dark to find her way to bed.",
+          "The Bear had told her to check that he was really asleep.",
+          "Her mother had told her to, so she could see his face.",
+          "She wanted to read a letter he had left for her.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "She had never seen the man who came in the dark; on her visit home, her mother gave her a candle and told her to light it while he slept and look at him — but three drops of hot wax fell on his shirt and woke him.",
+      },
+      {
+        id: "esm-q3",
+        prompt: "How did the girl finally win the prince back?",
+        options: [
+          "The North Wind frightened the Trolls away.",
+          "She washed the wax spots from the shirt when no one else could.",
+          "She gave the long-nosed princess all three golden gifts.",
+          "The prince recognised her voice at the wedding feast.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the wedding morning the long-nosed princess could not wash the wax from the shirt; the girl washed it white in a moment, the spell broke, and the prince chose her as his bride.",
+      },
+    ],
+  },
 ];

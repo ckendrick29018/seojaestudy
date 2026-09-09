@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="East of the Sun and West of the Moon, collected by Asbjornsen and Moe">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 166)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-26" cy="0" r="13" stroke-width="2"/>
+    <g stroke-width="1.5">
+      <path d="M-26 -20 v-6 M-26 20 v6 M-46 0 h-6 M-6 0 h6 M-40 -14 l-4 -4 M-12 -14 l4 -4 M-40 14 l-4 4 M-12 14 l4 4"/>
+    </g>
+    <path d="M28 -15 A 15 15 0 1 0 28 15 A 12 12 0 1 1 28 -15 Z" stroke-width="2"/>
+    <path d="M0 -26 l1.6 4 l4 1.6 l-4 1.6 l-1.6 4 l-1.6 -4 l-4 -1.6 l4 -1.6 z" stroke-width="1" fill="#C9A66B" fill-opacity="0.25"/>
+    <circle cx="8" cy="16" r="1.4" fill="#C9A66B" stroke="none"/>
+    <circle cx="-4" cy="26" r="1.1" fill="#C9A66B" stroke="none" opacity="0.7"/>
+    <path d="M-52 40 q 24 -7 44 0 t 44 0 t 18 -3" stroke-width="1.2" opacity="0.5"/>
+    <path d="M-46 50 q 26 -6 46 0 t 46 0" stroke-width="1.1" opacity="0.33"/>
+  </g>
+
+  <text x="200" y="308" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#2C2C2C" letter-spacing="1">East of the Sun</text>
+  <text x="200" y="340" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#2C2C2C" letter-spacing="1">and West of the Moon</text>
+
+  <line x1="150" y1="374" x2="250" y2="374" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="406" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">A white bear, and the winds</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#C57B57" letter-spacing="2">ASBJ&#216;RNSEN &#38; MOE</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1841</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
