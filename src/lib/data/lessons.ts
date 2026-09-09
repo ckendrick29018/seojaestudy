@@ -5850,4 +5850,221 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "middlemarch",
+    title: "Middlemarch",
+    titleTranslation: "미들마치",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "George Eliot (1819–1880)",
+    coverEmoji: "📖",
+    coverImage: "/covers/middlemarch.svg",
+    source:
+      "Adapted from the Prelude and Chapter 1 of George Eliot's novel \"Middlemarch\" (first published 1871–72; long in the public domain, Project Gutenberg #145). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the kind of purpose and the kind of marriage Dorothea longed for, and why she was so taken with Mr. Casaubon.",
+    paragraphs: [
+      [
+        {
+          id: "mdm-1",
+          text: "Dorothea Brooke was a young woman of a rare, serious kind of beauty, which her very plain clothes somehow made more striking.",
+          translation:
+            "도러시아 브룩은 보기 드문, 진지한 아름다움을 지닌 젊은 여성이었고, 아주 수수한 옷차림이 오히려 그 아름다움을 더 도드라지게 했어요.",
+        },
+        {
+          id: "mdm-2",
+          text: "She was thought remarkably clever, though people liked to add that her younger sister, Celia, had far more common sense.",
+          translation:
+            "사람들은 그녀가 놀랄 만큼 똑똑하다고 여겼지만, 여동생 실리아가 훨씬 더 현실 감각이 있다는 말을 덧붙이기를 좋아했어요.",
+        },
+        {
+          id: "mdm-3",
+          text: "Dorothea longed to give herself to some great and noble purpose, and she cared little for comfort, fashion, or ordinary pleasures.",
+          translation:
+            "도러시아는 어떤 크고 숭고한 목적에 자신을 바치기를 간절히 바랐고, 안락함이나 유행, 평범한 즐거움에는 별로 관심이 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "mdm-4",
+          text: "The two sisters were orphans, and they lived at Tipton Grange with their kind but scatter-brained bachelor uncle, Mr. Brooke.",
+          translation:
+            "두 자매는 고아였고, 다정하지만 정신이 산만한 독신 삼촌 브룩 씨와 함께 팁턴 그레인지에서 살았어요.",
+        },
+        {
+          id: "mdm-5",
+          text: "Dorothea was not yet twenty, and her head was full of half-formed plans for helping the poor and rebuilding their cottages.",
+          translation:
+            "도러시아는 아직 스무 살도 되지 않았지만, 가난한 사람들을 돕고 그들의 오두막을 새로 지어 주려는 어설픈 계획들로 머릿속이 가득했어요.",
+        },
+        {
+          id: "mdm-6",
+          text: "She was open and eager, with no vanity in her at all, and she was quite ready to be a martyr for a cause she believed in.",
+          translation:
+            "그녀는 솔직하고 열정적이었으며 허영심이라고는 조금도 없었고, 자신이 믿는 대의를 위해서라면 기꺼이 희생을 자처할 각오가 되어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "mdm-7",
+          text: "Her ideas about marriage were as unusual as the rest of her.",
+          translation:
+            "결혼에 대한 그녀의 생각도 그녀의 다른 면들만큼이나 별났어요.",
+        },
+        {
+          id: "mdm-8",
+          text: "She did not want a pleasant young husband who simply agreed with everything she said.",
+          translation:
+            "그녀는 자기가 하는 말마다 그저 맞장구만 치는, 상냥한 젊은 남편은 원하지 않았어요.",
+        },
+        {
+          id: "mdm-9",
+          text: "She dreamed instead of marrying a wise old scholar — a man who could be a kind of father to her, and teach her Greek and Hebrew if she asked.",
+          translation:
+            "대신 그녀는 지혜로운 나이 든 학자와 결혼하는 꿈을 꾸었어요. 자신에게 아버지 같은 존재가 되어 주고, 부탁하면 그리스어와 히브리어도 가르쳐 줄 수 있는 남자 말이에요.",
+        },
+      ],
+      [
+        {
+          id: "mdm-10",
+          text: "A handsome young neighbour, Sir James Chettam, was clearly courting her, and everyone but Dorothea could see it.",
+          translation:
+            "잘생긴 젊은 이웃 제임스 체텀 경이 분명히 그녀에게 구애하고 있었고, 도러시아만 빼고는 모두가 그것을 알아챘어요.",
+        },
+        {
+          id: "mdm-11",
+          text: "She thought he would do very well for Celia, and she talked to him only about drains and better cottages for the poor.",
+          translation:
+            "그녀는 제임스 경이 실리아에게 아주 잘 어울리겠다고 생각했고, 그에게는 오로지 배수로와 가난한 사람들을 위한 더 나은 오두막 이야기만 했어요.",
+        },
+        {
+          id: "mdm-12",
+          text: "Sir James, who understood almost nothing she said, kept answering \"Exactly,\" which she found faintly annoying.",
+          translation:
+            "그녀의 말을 거의 하나도 이해하지 못한 제임스 경은 계속 \"그렇고말고요.\"라고만 대답했고, 그녀는 그것이 은근히 거슬렸어요.",
+        },
+      ],
+      [
+        {
+          id: "mdm-13",
+          text: "Then a guest came to dinner: Mr. Casaubon, a pale, learned clergyman of nearly fifty.",
+          translation:
+            "그러던 어느 날 저녁 식사에 손님이 왔어요. 안색이 창백하고 학식이 깊은, 나이가 쉰에 가까운 성직자 커소본 씨였어요.",
+        },
+        {
+          id: "mdm-14",
+          text: "He was writing an enormous book called \"The Key to All Mythologies,\" which he had been working on for many years.",
+          translation:
+            "그는 '모든 신화의 열쇠'라는 방대한 책을 쓰고 있었는데, 여러 해 동안 그 일에 매달려 온 참이었어요.",
+        },
+        {
+          id: "mdm-15",
+          text: "As he spoke of his great work, Dorothea listened with shining eyes, certain that she had met a truly great mind.",
+          translation:
+            "그가 자신의 위대한 저작에 대해 이야기하자, 도러시아는 눈을 빛내며 귀를 기울였고, 자신이 참으로 위대한 지성을 만났다고 확신했어요.",
+        },
+      ],
+      [
+        {
+          id: "mdm-16",
+          text: "Celia thought him dull and rather ugly, and privately compared him to a dried-up scholar in a picture book.",
+          translation:
+            "실리아는 그가 따분하고 다소 못생겼다고 생각했고, 속으로는 그를 그림책 속 바싹 마른 학자에 빗댔어요.",
+        },
+        {
+          id: "mdm-17",
+          text: "But Dorothea had already begun to imagine a life spent helping this man finish his masterpiece, and nothing Celia said could touch that dream.",
+          translation:
+            "하지만 도러시아는 이미 이 남자가 자신의 걸작을 완성하도록 돕는 데 바치는 삶을 그리기 시작했고, 실리아가 무슨 말을 해도 그 꿈을 흔들 수는 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdm-v1",
+        term: "remarkably",
+        partOfSpeech: "adverb",
+        translation: "놀랄 만큼, 두드러지게",
+        example: "Everyone agreed that Dorothea was remarkably clever for a young woman of her time.",
+        exampleTranslation: "다들 도러시아가 그 시대의 젊은 여성치고는 놀랄 만큼 똑똑하다는 데 동의했어요.",
+      },
+      {
+        id: "mdm-v2",
+        term: "vanity",
+        partOfSpeech: "noun",
+        translation: "허영심, 자만심",
+        example: "There was no vanity in her; she did not care whether people admired her looks.",
+        exampleTranslation: "그녀에게는 허영심이 없어서, 사람들이 자기 외모를 칭찬하든 말든 신경 쓰지 않았어요.",
+      },
+      {
+        id: "mdm-v3",
+        term: "martyr",
+        partOfSpeech: "noun",
+        translation: "순교자; 대의를 위해 희생을 자처하는 사람",
+        example: "Dorothea was almost eager to be a martyr for some noble cause.",
+        exampleTranslation: "도러시아는 어떤 숭고한 대의를 위해서라면 기꺼이 희생을 자처하고 싶어 할 정도였어요.",
+      },
+      {
+        id: "mdm-v4",
+        term: "scholar",
+        partOfSpeech: "noun",
+        translation: "학자",
+        example: "She dreamed of marrying an old scholar who could teach her ancient languages.",
+        exampleTranslation: "그녀는 고대 언어를 가르쳐 줄 수 있는 나이 든 학자와 결혼하는 꿈을 꾸었어요.",
+      },
+      {
+        id: "mdm-v5",
+        term: "court",
+        partOfSpeech: "verb",
+        translation: "구애하다, (결혼을 염두에 두고) 사귀려 하다",
+        example: "Sir James was clearly courting Dorothea, though she never noticed.",
+        exampleTranslation: "제임스 경은 분명히 도러시아에게 구애하고 있었지만, 그녀는 전혀 알아차리지 못했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdm-q1",
+        prompt: "What did Dorothea most want from her life?",
+        options: [
+          "A comfortable marriage and a fashionable place in society.",
+          "To devote herself to some great and noble purpose.",
+          "To travel widely, as her uncle Mr. Brooke had done.",
+          "To be admired for her cleverness and her looks.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Dorothea cared nothing for comfort or fashion; she longed to give herself to a high, serious cause, and was almost eager to make sacrifices for it.",
+      },
+      {
+        id: "mdm-q2",
+        prompt: "What kind of husband did Dorothea imagine she wanted?",
+        options: [
+          "A cheerful young man who agreed with all her opinions.",
+          "A wealthy landowner like Sir James Chettam.",
+          "A wise older scholar who could guide and teach her, like a father.",
+          "A poor man she could rescue with her fortune.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "She dismissed the idea of an agreeable young husband; her dream was to marry a learned older man who could be a kind of father to her and teach her Greek and Hebrew.",
+      },
+      {
+        id: "mdm-q3",
+        prompt: "How did the two sisters react to Mr. Casaubon at dinner?",
+        options: [
+          "Both were bored by him and hoped he would leave early.",
+          "Both were impressed by his great learning.",
+          "Dorothea admired him deeply, while Celia found him dull and unattractive.",
+          "Celia liked him, but Dorothea thought he was a fraud.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "As Casaubon described his vast unfinished book, Dorothea listened with shining eyes, sure she had met a great mind; Celia privately thought him dry, dull, and rather ugly.",
+      },
+    ],
+  },
 ];

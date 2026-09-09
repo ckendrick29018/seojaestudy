@@ -178,7 +178,7 @@ has a genuine period cover/illustration in the public domain, download that into
 
 | # | Title | Author (d.) | PG# | Level | Excerpt scope | Status |
 |--|--|--|--|--|--|--|
-| 61 | Middlemarch | George Eliot (1880) | 145 | B2 | "Prelude" + Ch. 1 — Dorothea | ☐ |
+| 61 | Middlemarch | George Eliot (1880) | 145 | B2 | "Prelude" + Ch. 1 — Dorothea (simplified retelling, 17 sentences) | ☑ |
 | 62 | Silas Marner | George Eliot (1880) | — | B1 | Ch. 12 — the child at the hearth | ☐ |
 | 63 | The Mill on the Floss | George Eliot (1880) | — | B2 | Bk 1 Ch. 5 — Tom comes home | ☐ |
 | 64 | North and South | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — "Haste to the Wedding" | ☐ |
@@ -200,10 +200,11 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (26):** The Gift of the Magi (row 4), The Story of an Hour
+- **Live now (27):** The Gift of the Magi (row 4), The Story of an Hour
   (row 2), Anne of Green Gables Ch. 2 (row 43), Anne of Green Gables Ch. 3
-  (row 44), Little Women Ch. 1 (row 39), The Ugly Duckling (row 16),
-  Cinderella (row 10), Snow White (row 12), Pride and Prejudice Ch. 1
+  (row 44), Little Women Ch. 1 (row 39), Middlemarch (row 61), The Ugly
+  Duckling (row 16), Cinderella (row 10), Snow White (row 12), Pride and
+  Prejudice Ch. 1
   (row 27), Pride and Prejudice Ch. 34 (row 28), Sense and Sensibility
   Ch. 1 (row 29), Jane Eyre Ch. 1 (row 33), Frankenstein Letter 1 (row 71),
   The Age of Innocence Ch. 1 (row 66), The Selfish Giant (row 8), The
@@ -222,15 +223,15 @@ has a genuine period cover/illustration in the public domain, download that into
   Duckling, The Secret Garden, Alice in Wonderland Ch. 1, The Happy Prince,
   Snow White), B1 ×6 (Gift of the Magi, Pride and Prejudice Ch. 1, The
   Necklace, A Christmas Carol, Anne of Green Gables Ch. 3, Sense and
-  Sensibility Ch. 1), B2 ×6 (Jane Eyre, The Lady with the Dog, Wuthering
+  Sensibility Ch. 1), B2 ×7 (Jane Eyre, The Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
-  Innocence Ch. 1). Bands are now A1 ×6, B1 ×6, B2 ×6, A2 ×8 — A2 is
-  pulling ahead again; lean B1/B2 next. Alice in Wonderland is still A2's
-  only entry that is neither a fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Middlemarch Prelude + Ch. 1** (row 61,
-  B2 — Dorothea; a first George Eliot), **The Yellow Wallpaper** (row 1,
-  B1 — the opening journal entries; adds range to a shelf that leans gentle
-  and domestic), **Emma Ch. 1** (row 30, B1 — "handsome, clever, and rich";
-  a fourth Austen). Note: row 56 (A Room with a View) is **not** clear to
-  build — Forster died 1970, so it is not public domain in life+70
+  Innocence Ch. 1, Middlemarch). Bands are now A1 ×6, B1 ×6, B2 ×7, A2 ×8.
+  Alice in Wonderland is still A2's only entry that is neither a fairy tale
+  nor gentle domestic fiction.
+- Good next lessons to build: **The Yellow Wallpaper** (row 1, B1 — the
+  opening journal entries; adds range to a shelf that leans gentle and
+  domestic), **Emma Ch. 1** (row 30, B1 — "handsome, clever, and rich"; a
+  fourth Austen), **The Nightingale and the Rose** (row 9, B1 — Wilde,
+  whole; a third Wilde tale). Note: row 56 (A Room with a View) is **not**
+  clear to build — Forster died 1970, so it is not public domain in life+70
   countries (including Korea) until 2041.
