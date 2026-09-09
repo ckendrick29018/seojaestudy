@@ -17,7 +17,8 @@ current Top 100.
 ## Sourcing rules (unchanged)
 
 1. **Source work must be public domain.** Everything below is PD in the US and in
-   life+70 countries (latest author death year: L. M. Montgomery, 1942).
+   life+70 countries (latest author death year: Beatrix Potter, 1943 —
+   PD in life+70 countries since 2014).
 2. **Write our own translation.** Never paste a modern copyrighted translation.
    Korean text is written fresh for each lesson; English is our own simplified
    retelling of the PD original.
@@ -131,11 +132,16 @@ has a genuine period cover/illustration in the public domain, download that into
 | 21 | The Twelve Dancing Princesses | Brothers Grimm / Lang | 540 | A2 | whole (simplified retelling, 17 sentences; gently softened) — in Lang's Red Fairy Book (#540), not the Blue | ☑ |
 | 22 | A Christmas Carol (Stave 1) | Charles Dickens (1870) | 46 | B1 | Stave 1 ("Marley's Ghost"), simplified retelling, 17 sentences | ☑ |
 | 23 | Alice's Adventures in Wonderland (Ch. 1) | Lewis Carroll (1898) | 11 | A2 | "Down the Rabbit-Hole" | ☑ |
-| 24 | The Gift of the Magi collection — pick 1 more | O. Henry (1910) | 2776 | A2/B1 | one story from *The Four Million* | ☐ |
+| 24 | The Four Million — pick 1 more | O. Henry (1910) | 2776 | A2 | "After Twenty Years" — whole (simplified retelling, 17 sentences); the twist kept intact | ☑ |
 | 25 | The Bet | Anton Chekhov (1904) | 13415 | B1 | whole (simplified retelling, 17 sentences; heavily trimmed) | ☑ |
 | 26 | The Lady with the Dog | Anton Chekhov (1904) | 13415 | B2 | Part I — the meeting at Yalta, simplified retelling, 17 sentences | ☑ |
 | 74 | The Tale of Peter Rabbit | Beatrix Potter (1943) | 14838 | A1 | whole (simplified retelling, 17 sentences; peril kept light) — new A1 row to thicken the thinnest band; Potter has more (Benjamin Bunny #14407, Jemima Puddle-Duck, Mrs. Tiggy-Winkle) | ☑ |
 | 75 | The Tale of Mrs. Tiggy-Winkle | Beatrix Potter (1943) | 15137 | A1 | whole (simplified retelling, 17 sentences; no peril — Lucie, the lost handkerchiefs, and the hedgehog washerwoman) | ☑ |
+| 76 | The Tale of Benjamin Bunny | Beatrix Potter (1943) | 14407 | A1 | whole (simplified retelling, 17 sentences; sequel to Peter Rabbit — the cat-and-basket peril kept light, the whipping dropped) | ☑ |
+| 77 | The Tale of Two Bad Mice | Beatrix Potter (1943) | — | A1 | whole (simplified retelling, 17 sentences; no peril — Tom Thumb & Hunca Munca wreck the doll's house, then make amends) | ☑ |
+| 78 | The Elves and the Shoemaker | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; "Die Wichtelmänner" — the first, kind tale; no softening needed) | ☑ |
+| 79 | Thumbelina | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 17 sentences; toad → river → field mouse → mole → the rescued swallow → the flower-prince) | ☑ |
+| 80 | The Steadfast Tin Soldier | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences; ending gently softened — the little tin heart and the dancer's star kept together) | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -202,10 +208,13 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (64):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (70):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
   The Tale of Peter Rabbit (row 74),
-  The Tale of Mrs. Tiggy-Winkle (row 75), Anne of Avonlea Ch. 1 (row 60),
+  The Tale of Mrs. Tiggy-Winkle (row 75), The Tale of Benjamin Bunny
+  (row 76), The Tale of Two Bad Mice (row 77), The Elves and the
+  Shoemaker (row 78), Thumbelina (row 79), The Steadfast Tin Soldier
+  (row 80), After Twenty Years (row 24), Anne of Avonlea Ch. 1 (row 60),
   The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -239,15 +248,17 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×9 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×12 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,
-  The Tale of Mrs. Tiggy-Winkle), A2 ×16 (Story of an Hour, Anne Ch. 2,
-  Little Women, Ugly Duckling, The Secret Garden, Alice in Wonderland
-  Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty and the
-  Beast, Rapunzel, The Twelve Dancing Princesses, A Little Princess Ch. 1,
-  Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl Ch. 1,
-  A Pair of Silk Stockings), B1 ×21
+  The Tale of Mrs. Tiggy-Winkle, The Tale of Benjamin Bunny, The Tale of
+  Two Bad Mice, The Elves and the Shoemaker), A2 ×19 (Story of an Hour,
+  Anne Ch. 2, Little Women, Ugly Duckling, The Secret Garden, Alice in
+  Wonderland Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty
+  and the Beast, Rapunzel, The Twelve Dancing Princesses, A Little
+  Princess Ch. 1, Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl
+  Ch. 1, A Pair of Silk Stockings, Thumbelina, The Steadfast Tin Soldier,
+  After Twenty Years), B1 ×22
   (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas
   Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The
   Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid,
@@ -262,20 +273,28 @@ has a genuine period cover/illustration in the public domain, download that into
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×9, A2 ×16, B1 ×22,
-  B2 ×17 — A1 is catching up; B1 (22) is well-stocked, so steer new work to
-  A1/A2.
-  Within A2, Alice in Wonderland is still the only entry that is neither a
-  fairy tale nor gentle domestic fiction.
-- Good next lessons to build — favour **A1/A2** (B1 is now full at 22):
-  - A1: Beatrix Potter is the seam to mine — **The Tale of Benjamin
-    Bunny** (PG #14407, sequel to Peter Rabbit), **Jemima Puddle-Duck**,
-    **The Tale of Two Bad Mice** — all short, gentle, world-famous; or
-    re-level a gentle A2 tale (The Twelve Dancing Princesses, Rapunzel)
-    down to A1. (Peter Rabbit + Mrs. Tiggy-Winkle already done.)
-  - A2: another *Four Million* story (row 24, O. Henry), or an Andersen
-    tale not yet done (**Thumbelina**, **The Steadfast Tin Soldier** —
-    softened ending).
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×12, A2 ×19,
+  B1 ×22, B2 ×17 — 70 live. B1 stays full at 22; A1 and A2 are the deep
+  bands now, so steer new work to B2, or to A1/A2 only when the story
+  genuinely wants that level.
+  Within A2, the non-(fairy-tale / gentle-domestic) entries are now Alice
+  in Wonderland and After Twenty Years (crime / twist) — still the two
+  odd ones out; more tonal variety there would help.
+  A1 is now Potter-heavy (Peter Rabbit, Mrs. Tiggy-Winkle, Benjamin
+  Bunny, Two Bad Mice — 4 of 12); diversify future A1 work rather than
+  adding a fifth Potter straight away.
+- Good next lessons to build — B1 is full at 22; spread the rest:
+  - B2 (widest room after B1): **Jane Eyre Ch. 5** (row 34), **Rilla of
+    Ingleside Ch. 1** (row 48), **Emily of New Moon Ch. 1** (row 46,
+    could also sit at B1).
+  - A1 (diversify away from Potter): re-level a gentle A2 tale (Rapunzel,
+    The Twelve Dancing Princesses) down to A1, or a kind non-peril Grimm
+    (**The Bremen Town Musicians**, **Sweet Porridge**, **The Golden
+    Goose**). Remaining Potter if wanted: **Jemima Puddle-Duck**
+    (fox peril — keep light), **The Tale of Tom Kitten**.
+  - A2: an Andersen not yet done (**The Fir Tree** — softened, **The
+    Wild Swans**), or another *Four Million* story (**The Cop and the
+    Anthem**, **The Skylight Room**).
   - B1 only if the story really wants it: **Northanger Abbey Ch. 1**
     (row 32), **The Story Girl Ch. 1** (row 47), **Rose in Bloom Ch. 1**
     (row 42).

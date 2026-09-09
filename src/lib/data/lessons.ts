@@ -14024,4 +14024,1298 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-tale-of-benjamin-bunny",
+    title: "The Tale of Benjamin Bunny",
+    titleTranslation: "벤저민 버니 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Beatrix Potter (1866–1943)",
+    coverEmoji: "🐰",
+    coverImage: "/covers/the-tale-of-benjamin-bunny.svg",
+    source:
+      "Adapted from Beatrix Potter's \"The Tale of Benjamin Bunny\" (first published 1904; in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story; the original's harsher details have been gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Benjamin and Peter went into Mr. McGregor's garden, and how they got home safely.",
+    paragraphs: [
+      [
+        {
+          id: "benb-1",
+          text: "Benjamin Bunny was a little rabbit. He lived with his father in a wood near a garden.",
+          translation:
+            "벤저민 버니는 작은 토끼였어요. 벤저민은 정원 근처 숲에서 아빠와 함께 살았어요.",
+        },
+        {
+          id: "benb-2",
+          text: "One morning Benjamin met his cousin, Peter Rabbit, sitting alone on a bank.",
+          translation:
+            "어느 날 아침 벤저민은 둑에 혼자 앉아 있는 사촌 피터 래빗을 만났어요.",
+        },
+        {
+          id: "benb-3",
+          text: "Peter looked sad. He had lost his blue coat and his shoes in Mr. McGregor's garden.",
+          translation:
+            "피터는 슬퍼 보였어요. 피터는 맥그레거 아저씨의 정원에서 파란 웃옷과 신발을 잃어버렸거든요.",
+        },
+      ],
+      [
+        {
+          id: "benb-4",
+          text: "\"I know where they are,\" said Benjamin. \"They are on the scarecrow.\"",
+          translation:
+            "\"그게 어디 있는지 알아.\" 벤저민이 말했어요. \"허수아비에 걸려 있어.\"",
+        },
+        {
+          id: "benb-5",
+          text: "\"Mr. McGregor has driven away for the day,\" said Benjamin. \"Now is a safe time to fetch them.\"",
+          translation:
+            "\"맥그레거 아저씨는 오늘 하루 마차를 타고 나갔어.\" 벤저민이 말했어요. \"지금이 그걸 가지러 갈 안전한 때야.\"",
+        },
+        {
+          id: "benb-6",
+          text: "The two little rabbits climbed down a pear tree into the garden.",
+          translation: "두 작은 토끼는 배나무를 타고 정원 안으로 내려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "benb-7",
+          text: "On the scarecrow they found Peter's coat and shoes, and Peter quickly put them on.",
+          translation:
+            "허수아비에서 두 토끼는 피터의 웃옷과 신발을 찾았고, 피터는 얼른 그것들을 입고 신었어요.",
+        },
+        {
+          id: "benb-8",
+          text: "Benjamin picked some onions and wrapped them in a little red handkerchief for his aunt.",
+          translation:
+            "벤저민은 양파를 몇 개 뽑아서 이모에게 주려고 작고 빨간 손수건에 쌌어요.",
+        },
+        {
+          id: "benb-9",
+          text: "They walked round the garden, but Peter kept stopping to listen. He was afraid.",
+          translation:
+            "두 토끼는 정원을 돌아다녔지만, 피터는 자꾸 멈춰 서서 귀를 기울였어요. 피터는 무서웠거든요.",
+        },
+      ],
+      [
+        {
+          id: "benb-10",
+          text: "Suddenly something moved near the wall. It was a big cat!",
+          translation: "갑자기 담 근처에서 무언가가 움직였어요. 큰 고양이였어요!",
+        },
+        {
+          id: "benb-11",
+          text: "The two rabbits hid under a large basket and kept very still.",
+          translation: "두 토끼는 큰 바구니 밑에 숨어서 꼼짝도 하지 않았어요.",
+        },
+        {
+          id: "benb-12",
+          text: "The cat walked over and sat down on top of the basket.",
+          translation: "고양이는 걸어와서 바구니 위에 앉았어요.",
+        },
+      ],
+      [
+        {
+          id: "benb-13",
+          text: "She stayed there for a long time, and it was dark and hot underneath.",
+          translation: "고양이는 오랫동안 거기 앉아 있었고, 바구니 밑은 어둡고 더웠어요.",
+        },
+        {
+          id: "benb-14",
+          text: "At last Benjamin's father came along the top of the wall, looking for his son.",
+          translation:
+            "마침내 벤저민의 아빠가 아들을 찾으며 담 위를 따라 걸어왔어요.",
+        },
+        {
+          id: "benb-15",
+          text: "He was cross with the cat and chased her right out of the garden.",
+          translation: "아빠는 고양이에게 화가 나서 고양이를 정원 밖으로 쫓아냈어요.",
+        },
+      ],
+      [
+        {
+          id: "benb-16",
+          text: "Then he lifted the basket, let the two rabbits out, and walked them safely home.",
+          translation:
+            "그런 다음 아빠는 바구니를 들어 올려 두 토끼를 꺼내 주고, 그들을 무사히 집까지 데려다주었어요.",
+        },
+        {
+          id: "benb-17",
+          text: "Peter's mother was so happy to see his coat and shoes again that she forgave him everything.",
+          translation:
+            "피터의 엄마는 피터의 웃옷과 신발을 다시 보게 되어 너무 기뻐서, 피터의 모든 것을 용서해 주었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "benb-v1",
+        term: "cousin",
+        partOfSpeech: "noun",
+        translation: "사촌",
+        example: "Benjamin met his cousin, Peter Rabbit.",
+        exampleTranslation: "벤저민은 사촌인 피터 래빗을 만났어요.",
+      },
+      {
+        id: "benb-v2",
+        term: "scarecrow",
+        partOfSpeech: "noun",
+        translation: "허수아비",
+        example: "Peter's coat and shoes were on the scarecrow.",
+        exampleTranslation: "피터의 웃옷과 신발은 허수아비에 걸려 있었어요.",
+      },
+      {
+        id: "benb-v3",
+        term: "onion",
+        partOfSpeech: "noun",
+        translation: "양파",
+        example: "Benjamin picked some onions for his aunt.",
+        exampleTranslation: "벤저민은 이모에게 줄 양파를 몇 개 뽑았어요.",
+      },
+      {
+        id: "benb-v4",
+        term: "basket",
+        partOfSpeech: "noun",
+        translation: "바구니",
+        example: "The two rabbits hid under a large basket.",
+        exampleTranslation: "두 토끼는 큰 바구니 밑에 숨었어요.",
+      },
+      {
+        id: "benb-v5",
+        term: "forgive",
+        partOfSpeech: "verb",
+        translation: "용서하다",
+        example: "Peter's mother forgave him everything.",
+        exampleTranslation: "피터의 엄마는 그의 모든 것을 용서해 주었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "benb-q1",
+        prompt: "Where were Peter's coat and shoes?",
+        options: [
+          "In Benjamin's father's house.",
+          "On the scarecrow in Mr. McGregor's garden.",
+          "Under a pear tree in the wood.",
+          "In the red handkerchief.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Peter had lost his blue coat and shoes on an earlier visit to Mr. McGregor's garden. Benjamin knew they were on the scarecrow, and the two rabbits climbed down a pear tree to fetch them while Mr. McGregor was away for the day.",
+      },
+      {
+        id: "benb-q2",
+        prompt: "Why did the two rabbits hide under the basket?",
+        options: [
+          "It began to rain hard.",
+          "Mr. McGregor came back early.",
+          "A big cat came into the garden.",
+          "They wanted to sleep.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "While they were walking round the garden, a big cat appeared near the wall. The rabbits hid under a large basket and kept still — but the cat came and sat on top of it for a long time.",
+      },
+      {
+        id: "benb-q3",
+        prompt: "Who got Benjamin and Peter safely home?",
+        options: [
+          "Peter's mother.",
+          "Mr. McGregor.",
+          "Benjamin's father.",
+          "The big cat.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Benjamin's father came along the top of the wall looking for his son. He was cross with the cat and chased her out of the garden, then lifted the basket, let the rabbits out, and walked them home.",
+      },
+    ],
+  },
+  {
+    slug: "the-tale-of-two-bad-mice",
+    title: "The Tale of Two Bad Mice",
+    titleTranslation: "나쁜 생쥐 두 마리 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Beatrix Potter (1866–1943)",
+    coverEmoji: "🐭",
+    coverImage: "/covers/the-tale-of-two-bad-mice.svg",
+    source:
+      "Adapted from Beatrix Potter's \"The Tale of Two Bad Mice\" (first published 1904; in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Tom Thumb and Hunca Munca were angry in the doll's house, and what they did afterwards to make things right.",
+    paragraphs: [
+      [
+        {
+          id: "tbm-1",
+          text: "There was once a beautiful doll's house. It was red, with white windows and real curtains.",
+          translation:
+            "옛날에 아주 예쁜 인형의 집이 있었어요. 그 집은 빨간색이었고, 하얀 창문과 진짜 커튼이 달려 있었어요.",
+        },
+        {
+          id: "tbm-2",
+          text: "Two dolls lived in it, Lucinda and Jane. Jane was the cook.",
+          translation:
+            "그 집에는 인형 둘이 살았어요, 루신다와 제인이요. 제인은 요리사였어요.",
+        },
+        {
+          id: "tbm-3",
+          text: "One morning the two dolls went out for a ride, and the house was left empty.",
+          translation:
+            "어느 날 아침 두 인형은 나들이를 나갔고, 집은 텅 비어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "tbm-4",
+          text: "Under the floor lived two mice, Tom Thumb and his wife, Hunca Munca.",
+          translation:
+            "마루 밑에는 생쥐 두 마리가 살았어요, 톰 텀과 그의 아내 훈카 뭉카요.",
+        },
+        {
+          id: "tbm-5",
+          text: "Tom Thumb pushed open the front door of the doll's house and crept inside.",
+          translation:
+            "톰 텀은 인형의 집 현관문을 밀어 열고 살금살금 안으로 들어갔어요.",
+        },
+        {
+          id: "tbm-6",
+          text: "On the dining table he saw a fine dinner: a red ham, a yellow fish, and a tall pudding.",
+          translation:
+            "식탁 위에서 톰 텀은 근사한 저녁을 보았어요. 빨간 햄, 노란 생선, 그리고 높다란 푸딩이었어요.",
+        },
+      ],
+      [
+        {
+          id: "tbm-7",
+          text: "But nothing would come off the plates. The food was not real — it was only painted plaster.",
+          translation:
+            "하지만 접시에서 아무것도 떨어지지 않았어요. 그 음식은 진짜가 아니라 색칠한 석고일 뿐이었거든요.",
+        },
+        {
+          id: "tbm-8",
+          text: "Tom Thumb was so cross that he hit the ham with a little toy knife.",
+          translation:
+            "톰 텀은 너무 화가 나서 작은 장난감 칼로 햄을 내리쳤어요.",
+        },
+        {
+          id: "tbm-9",
+          text: "The hard plaster would not break, so the two mice threw the whole dinner on the floor.",
+          translation:
+            "딱딱한 석고는 깨지지 않았고, 그래서 두 생쥐는 저녁 전부를 바닥에 던져 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "tbm-10",
+          text: "They pulled and banged until the pretty meal was all in pieces.",
+          translation:
+            "두 생쥐는 그 예쁜 음식이 모두 산산조각 날 때까지 잡아당기고 두드렸어요.",
+        },
+        {
+          id: "tbm-11",
+          text: "Then Hunca Munca began to carry things back to the mouse-hole.",
+          translation:
+            "그런 다음 훈카 뭉카는 물건들을 쥐구멍으로 나르기 시작했어요.",
+        },
+        {
+          id: "tbm-12",
+          text: "She took a small bed, some blankets, and a tiny chair from the doll's house.",
+          translation:
+            "훈카 뭉카는 인형의 집에서 작은 침대와 담요 몇 장, 그리고 아주 작은 의자를 가져갔어요.",
+        },
+      ],
+      [
+        {
+          id: "tbm-13",
+          text: "She wanted the bookcase as well, but it was far too big to fit through the hole.",
+          translation:
+            "훈카 뭉카는 책장도 갖고 싶었지만, 그것은 너무 커서 쥐구멍으로 들어가지 않았어요.",
+        },
+        {
+          id: "tbm-14",
+          text: "When the two dolls came home, they stared at the mess and could not understand it.",
+          translation:
+            "두 인형이 집에 돌아왔을 때, 그들은 엉망이 된 방을 바라보며 무슨 일인지 알 수 없었어요.",
+        },
+        {
+          id: "tbm-15",
+          text: "The little girl who owned the house set a toy policeman by the front door.",
+          translation:
+            "그 집의 주인인 어린 여자아이는 현관문 옆에 장난감 경찰을 세워 두었어요.",
+        },
+      ],
+      [
+        {
+          id: "tbm-16",
+          text: "But Tom Thumb was sorry for what he had done.",
+          translation: "하지만 톰 텀은 자기가 한 일을 미안하게 여겼어요.",
+        },
+        {
+          id: "tbm-17",
+          text: "On Christmas Eve he put a bent old coin into the dolls' stocking, and now Hunca Munca comes every morning with her brush to sweep the doll's house.",
+          translation:
+            "크리스마스 이브에 톰 텀은 인형들의 양말 속에 구부러진 낡은 동전을 하나 넣어 두었고, 이제 훈카 뭉카는 매일 아침 빗자루를 들고 와서 인형의 집을 쓸어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tbm-v1",
+        term: "doll's house",
+        partOfSpeech: "noun",
+        translation: "인형의 집",
+        example: "The two mice crept into the doll's house.",
+        exampleTranslation: "두 생쥐는 인형의 집 안으로 살금살금 들어갔어요.",
+      },
+      {
+        id: "tbm-v2",
+        term: "plaster",
+        partOfSpeech: "noun",
+        translation: "석고, 회반죽",
+        example: "The food was only painted plaster.",
+        exampleTranslation: "그 음식은 색칠한 석고일 뿐이었어요.",
+      },
+      {
+        id: "tbm-v3",
+        term: "cross",
+        partOfSpeech: "adjective",
+        translation: "화가 난",
+        example: "Tom Thumb was so cross that he hit the ham.",
+        exampleTranslation: "톰 텀은 너무 화가 나서 햄을 내리쳤어요.",
+      },
+      {
+        id: "tbm-v4",
+        term: "mess",
+        partOfSpeech: "noun",
+        translation: "엉망, 어질러진 것",
+        example: "The dolls stared at the mess.",
+        exampleTranslation: "인형들은 엉망이 된 방을 바라보았어요.",
+      },
+      {
+        id: "tbm-v5",
+        term: "sweep",
+        partOfSpeech: "verb",
+        translation: "쓸다, 비질하다",
+        example: "Hunca Munca sweeps the doll's house every morning.",
+        exampleTranslation: "훈카 뭉카는 매일 아침 인형의 집을 쓸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tbm-q1",
+        prompt: "Why could the mice not eat the food on the table?",
+        options: [
+          "The dolls were watching them.",
+          "It was too hot to touch.",
+          "It was not real — it was only painted plaster.",
+          "The toy policeman took it away.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The dinner looked wonderful — a red ham, a yellow fish, a tall pudding — but nothing would come off the plates. The food was only painted plaster, and that is why Tom Thumb became so angry.",
+      },
+      {
+        id: "tbm-q2",
+        prompt: "What did Hunca Munca carry back to the mouse-hole?",
+        options: [
+          "The bookcase and the birdcage.",
+          "A small bed, some blankets, and a tiny chair.",
+          "The red ham and the yellow fish.",
+          "The two dolls, Lucinda and Jane.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Hunca Munca took a small bed, some blankets, and a tiny chair. She wanted the bookcase too, but it was far too big to fit through the mouse-hole.",
+      },
+      {
+        id: "tbm-q3",
+        prompt: "How did the two mice make up for the mess they made?",
+        options: [
+          "They said sorry to the little girl.",
+          "They put everything back the way it was.",
+          "Tom Thumb left a coin in the dolls' stocking, and Hunca Munca sweeps the house every morning.",
+          "They moved far away and never came back.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Tom Thumb was sorry. On Christmas Eve he dropped a bent old coin into the dolls' stocking, and every morning Hunca Munca comes with her brush to sweep the doll's house clean.",
+      },
+    ],
+  },
+  {
+    slug: "the-elves-and-the-shoemaker",
+    title: "The Elves and the Shoemaker",
+    titleTranslation: "요정과 구두장이",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "👞",
+    coverImage: "/covers/the-elves-and-the-shoemaker.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"The Elves and the Shoemaker\" (\"Die Wichtelmänner,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain who was secretly helping the poor shoemaker at night, and how he and his wife thanked them.",
+    paragraphs: [
+      [
+        {
+          id: "els-1",
+          text: "There was once a shoemaker who was very poor. He worked hard, but he could not save any money.",
+          translation:
+            "옛날에 아주 가난한 구두장이가 있었어요. 그는 열심히 일했지만 돈을 조금도 모을 수 없었어요.",
+        },
+        {
+          id: "els-2",
+          text: "One evening he had just enough leather left for one last pair of shoes.",
+          translation:
+            "어느 날 저녁, 그에게는 마지막 신발 한 켤레를 만들 만큼의 가죽만 남아 있었어요.",
+        },
+        {
+          id: "els-3",
+          text: "He cut the leather carefully, laid it on his table, and went to bed. \"I will sew the shoes tomorrow,\" he said.",
+          translation:
+            "그는 가죽을 조심스럽게 잘라 탁자 위에 놓아두고 잠자리에 들었어요. \"내일 신발을 바느질해야지.\" 하고 그가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "els-4",
+          text: "In the morning the shoes were already made, standing on the table, neat and perfect.",
+          translation:
+            "아침이 되자 신발은 이미 다 만들어져서, 탁자 위에 말끔하고 완벽하게 놓여 있었어요.",
+        },
+        {
+          id: "els-5",
+          text: "The shoemaker turned them over in his hands. He could not think who had made them.",
+          translation:
+            "구두장이는 신발을 손에 들고 이리저리 살펴보았어요. 누가 만들었는지 도무지 알 수 없었어요.",
+        },
+        {
+          id: "els-6",
+          text: "A customer came in, loved the shoes at once, and paid more than the usual price.",
+          translation:
+            "손님이 한 명 들어와서 그 신발을 단번에 마음에 들어 했고, 보통 값보다 더 많이 냈어요.",
+        },
+      ],
+      [
+        {
+          id: "els-7",
+          text: "Now there was money for leather for two pairs of shoes.",
+          translation: "이제 신발 두 켤레를 만들 가죽을 살 돈이 생겼어요.",
+        },
+        {
+          id: "els-8",
+          text: "Again the shoemaker cut the leather at night, and again the shoes were finished by morning.",
+          translation:
+            "구두장이는 다시 밤에 가죽을 잘랐고, 다시 아침이 되자 신발이 완성되어 있었어요.",
+        },
+        {
+          id: "els-9",
+          text: "So it went on, day after day, until the shoemaker and his wife were no longer poor.",
+          translation:
+            "그렇게 하루하루 계속되었고, 마침내 구두장이와 그의 아내는 더 이상 가난하지 않게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "els-10",
+          text: "One cold night the wife said, \"Let us stay awake and see who is helping us.\"",
+          translation:
+            "어느 추운 밤, 아내가 말했어요. \"우리를 돕는 사람이 누구인지 자지 말고 지켜봐요.\"",
+        },
+        {
+          id: "els-11",
+          text: "They left a candle burning and hid behind the coats in the corner.",
+          translation:
+            "두 사람은 촛불을 켜 둔 채 구석에 있는 외투 뒤에 숨었어요.",
+        },
+        {
+          id: "els-12",
+          text: "At midnight two tiny elves came in, with no clothes on at all.",
+          translation:
+            "한밤중에 아주 작은 요정 둘이 들어왔는데, 옷을 하나도 걸치지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "els-13",
+          text: "They sat down at the bench and set to work, their little hands moving as quick as lightning.",
+          translation:
+            "요정들은 작업대에 앉아 일을 시작했고, 작은 손이 번개처럼 빠르게 움직였어요.",
+        },
+        {
+          id: "els-14",
+          text: "In no time every pair of shoes was finished. Then the elves jumped up and ran away.",
+          translation:
+            "눈 깜짝할 사이에 모든 신발이 완성되었어요. 그러고 나서 요정들은 벌떡 일어나 달아났어요.",
+        },
+        {
+          id: "els-15",
+          text: "\"They have made us rich,\" said the wife. \"Let us thank them with some warm clothes.\"",
+          translation:
+            "\"저 요정들이 우리를 부자로 만들어 줬어요.\" 아내가 말했어요. \"따뜻한 옷을 만들어서 고마움을 전해요.\"",
+        },
+      ],
+      [
+        {
+          id: "els-16",
+          text: "She sewed two little shirts, coats, and pairs of stockings, and the shoemaker made two tiny pairs of shoes.",
+          translation:
+            "아내는 작은 셔츠와 외투와 양말을 두 벌씩 지었고, 구두장이는 아주 작은 신발 두 켤레를 만들었어요.",
+        },
+        {
+          id: "els-17",
+          text: "That night the elves found the presents, put them on, danced round the room with joy, and skipped out of the door — and from then on the shoemaker was lucky in everything he did.",
+          translation:
+            "그날 밤 요정들은 선물을 발견하고 옷을 입더니, 기뻐서 방 안을 빙글빙글 돌며 춤을 추고는 문밖으로 폴짝폴짝 나갔어요. 그리고 그때부터 구두장이는 하는 일마다 운이 따랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "els-v1",
+        term: "shoemaker",
+        partOfSpeech: "noun",
+        translation: "구두장이, 제화공",
+        example: "There was once a shoemaker who was very poor.",
+        exampleTranslation: "옛날에 아주 가난한 구두장이가 있었어요.",
+      },
+      {
+        id: "els-v2",
+        term: "leather",
+        partOfSpeech: "noun",
+        translation: "가죽",
+        example: "He had just enough leather for one pair of shoes.",
+        exampleTranslation: "그에게는 신발 한 켤레를 만들 가죽만 남아 있었어요.",
+      },
+      {
+        id: "els-v3",
+        term: "sew",
+        partOfSpeech: "verb",
+        translation: "바느질하다, 꿰매다",
+        example: "\"I will sew the shoes tomorrow,\" he said.",
+        exampleTranslation: "\"내일 신발을 바느질해야지.\" 하고 그가 말했어요.",
+      },
+      {
+        id: "els-v4",
+        term: "elf",
+        partOfSpeech: "noun",
+        translation: "요정 (복수형 elves)",
+        example: "At midnight two tiny elves came in.",
+        exampleTranslation: "한밤중에 아주 작은 요정 둘이 들어왔어요.",
+      },
+      {
+        id: "els-v5",
+        term: "candle",
+        partOfSpeech: "noun",
+        translation: "초, 양초",
+        example: "They left a candle burning and hid.",
+        exampleTranslation: "두 사람은 촛불을 켜 둔 채 숨었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "els-q1",
+        prompt: "What happened to the leather the shoemaker cut out at night?",
+        options: [
+          "It was gone in the morning.",
+          "By morning it was made into finished shoes.",
+          "The customer took it away.",
+          "The wife hid it behind the coats.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Every night the shoemaker cut out the leather and went to bed. Every morning the shoes were already made — neat and perfect — standing on the table, and he could not think who had done it.",
+      },
+      {
+        id: "els-q2",
+        prompt: "Who was secretly helping the shoemaker?",
+        options: [
+          "His wife, while he slept.",
+          "A rich customer.",
+          "Two tiny elves who came at midnight.",
+          "The other shoemakers in the town.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When the shoemaker and his wife stayed awake and hid, they saw two tiny elves with no clothes come in at midnight. The elves worked as quick as lightning, finished every pair of shoes, and ran away.",
+      },
+      {
+        id: "els-q3",
+        prompt: "How did the shoemaker and his wife thank the elves?",
+        options: [
+          "They gave them gold coins.",
+          "They cooked them a big dinner.",
+          "They made them little clothes and tiny shoes.",
+          "They built them a small house.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The wife sewed little shirts, coats, and stockings, and the shoemaker made two tiny pairs of shoes. The elves found the presents, put them on, danced with joy, and skipped happily out of the door.",
+      },
+    ],
+  },
+  {
+    slug: "thumbelina",
+    title: "Thumbelina",
+    titleTranslation: "엄지 공주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🌷",
+    coverImage: "/covers/thumbelina.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"Thumbelina\" (\"Tommelise\", first published 1835; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale has been trimmed for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Thumbelina was born, and how the swallow helped her at the end of the story.",
+    paragraphs: [
+      [
+        {
+          id: "thm-1",
+          text: "A woman who longed for a child was given one magic barley seed by a kind fairy.",
+          translation:
+            "아이를 몹시 갖고 싶어 하던 한 여인이 친절한 요정에게서 마법의 보리 씨앗 하나를 받았어요.",
+        },
+        {
+          id: "thm-2",
+          text: "She planted the seed, and a lovely flower grew. Inside it sat a tiny girl, no taller than a thumb.",
+          translation:
+            "여인이 씨앗을 심자 아름다운 꽃이 자랐어요. 그 안에는 엄지손가락보다 크지 않은 작은 여자아이가 앉아 있었어요.",
+        },
+        {
+          id: "thm-3",
+          text: "The woman called her Thumbelina. She slept in a walnut shell and sailed on a plate of water for a lake.",
+          translation:
+            "여인은 아이를 엄지 공주라고 불렀어요. 엄지 공주는 호두 껍데기 속에서 잤고, 호수 삼아 접시에 담긴 물 위에서 배를 타고 놀았어요.",
+        },
+      ],
+      [
+        {
+          id: "thm-4",
+          text: "One night an old toad climbed through the window and carried Thumbelina away.",
+          translation:
+            "어느 날 밤 늙은 두꺼비가 창문으로 기어들어와 엄지 공주를 데려갔어요.",
+        },
+        {
+          id: "thm-5",
+          text: "The toad wanted the little girl to marry her son, so she left her on a lily leaf in the river.",
+          translation:
+            "두꺼비는 그 작은 아이를 자기 아들과 결혼시키고 싶어서, 강 위 수련 잎에 엄지 공주를 놓아두었어요.",
+        },
+        {
+          id: "thm-6",
+          text: "Some kind fish felt sorry for Thumbelina. They bit through the green stalk, and the leaf floated free.",
+          translation:
+            "마음씨 고운 물고기들이 엄지 공주를 가엾게 여겼어요. 물고기들이 초록 줄기를 물어뜯자, 잎이 떠내려가기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "thm-7",
+          text: "All summer she lived alone in the wood, drinking dew and sleeping under the leaves.",
+          translation:
+            "여름 내내 엄지 공주는 숲속에서 혼자 살면서, 이슬을 마시고 나뭇잎 아래에서 잤어요.",
+        },
+        {
+          id: "thm-8",
+          text: "Then winter came. The snow fell, and poor Thumbelina was cold and hungry.",
+          translation:
+            "그러다 겨울이 왔어요. 눈이 내렸고, 가엾은 엄지 공주는 춥고 배가 고팠어요.",
+        },
+        {
+          id: "thm-9",
+          text: "A field mouse found her and took her down into a warm nest under the ground.",
+          translation:
+            "들쥐 한 마리가 엄지 공주를 발견하고, 땅속에 있는 따뜻한 굴로 데려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "thm-10",
+          text: "\"You may stay with me,\" said the field mouse, \"if you keep the rooms clean and tell me stories.\"",
+          translation:
+            "\"나와 함께 지내도 좋아.\" 들쥐가 말했어요. \"방을 깨끗이 치우고 내게 이야기를 들려준다면 말이야.\"",
+        },
+        {
+          id: "thm-11",
+          text: "A rich mole came visiting. His fur was soft and black, but he never went out into the sun.",
+          translation:
+            "부유한 두더지가 놀러 왔어요. 두더지의 털은 부드럽고 검었지만, 그는 햇빛 속으로는 절대 나가지 않았어요.",
+        },
+        {
+          id: "thm-12",
+          text: "The field mouse wanted Thumbelina to marry him, but she did not want to live in the dark.",
+          translation:
+            "들쥐는 엄지 공주가 두더지와 결혼하기를 바랐지만, 엄지 공주는 어둠 속에서 살고 싶지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "thm-13",
+          text: "In one of the mole's tunnels, Thumbelina found a swallow lying still, half dead with cold.",
+          translation:
+            "두더지의 굴 하나에서 엄지 공주는 추위에 반쯤 죽은 채 꼼짝 않고 누워 있는 제비 한 마리를 발견했어요.",
+        },
+        {
+          id: "thm-14",
+          text: "All winter she kept the bird warm, and little by little it grew strong again.",
+          translation:
+            "겨울 내내 엄지 공주는 그 새를 따뜻하게 보살폈고, 새는 조금씩 다시 기운을 차렸어요.",
+        },
+        {
+          id: "thm-15",
+          text: "When spring came, the swallow said, \"Come with me!\"",
+          translation:
+            "봄이 오자 제비가 말했어요. \"나와 함께 가요!\"",
+        },
+      ],
+      [
+        {
+          id: "thm-16",
+          text: "It carried her far away, over fields and mountains, to a warm and sunny land.",
+          translation:
+            "제비는 엄지 공주를 들판과 산을 넘어 멀리, 따뜻하고 햇살 가득한 땅으로 데려갔어요.",
+        },
+        {
+          id: "thm-17",
+          text: "There, among the white flowers, she met a tiny prince of her own size with wings on his back — and he gave Thumbelina wings too, so that she could fly beside him always.",
+          translation:
+            "그곳 하얀 꽃들 사이에서 엄지 공주는 자기와 같은 크기에 등에 날개가 달린 작은 왕자를 만났어요. 왕자는 엄지 공주에게도 날개를 주었고, 그래서 엄지 공주는 늘 왕자 곁에서 날 수 있게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "thm-v1",
+        term: "seed",
+        partOfSpeech: "noun",
+        translation: "씨앗",
+        example: "A fairy gave her a magic barley seed.",
+        exampleTranslation: "요정이 그녀에게 마법의 보리 씨앗 하나를 주었어요.",
+      },
+      {
+        id: "thm-v2",
+        term: "toad",
+        partOfSpeech: "noun",
+        translation: "두꺼비",
+        example: "An old toad carried Thumbelina away.",
+        exampleTranslation: "늙은 두꺼비가 엄지 공주를 데려갔어요.",
+      },
+      {
+        id: "thm-v3",
+        term: "mole",
+        partOfSpeech: "noun",
+        translation: "두더지",
+        example: "The rich mole never went out into the sun.",
+        exampleTranslation: "부유한 두더지는 햇빛 속으로 절대 나가지 않았어요.",
+      },
+      {
+        id: "thm-v4",
+        term: "swallow",
+        partOfSpeech: "noun",
+        translation: "제비",
+        example: "She found a swallow half dead with cold.",
+        exampleTranslation: "그녀는 추위에 반쯤 죽은 제비 한 마리를 발견했어요.",
+      },
+      {
+        id: "thm-v5",
+        term: "tunnel",
+        partOfSpeech: "noun",
+        translation: "굴, 터널",
+        example: "She found the bird in one of the mole's tunnels.",
+        exampleTranslation: "그녀는 두더지의 굴 하나에서 그 새를 발견했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "thm-q1",
+        prompt: "Where did Thumbelina come from?",
+        options: [
+          "She was found floating on the river.",
+          "She grew from a magic barley seed, inside a flower.",
+          "The field mouse made her out of snow.",
+          "The swallow brought her from a sunny land.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A woman who wanted a child was given a magic barley seed by a fairy. She planted it, a lovely flower grew, and inside sat a girl no taller than a thumb — so the woman called her Thumbelina.",
+      },
+      {
+        id: "thm-q2",
+        prompt: "Why did Thumbelina not want to marry the mole?",
+        options: [
+          "He was much too old for her.",
+          "He was unkind to the field mouse.",
+          "He lived underground in the dark and never went out in the sun.",
+          "He could not speak her language.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The mole was rich and had soft black fur, but he never went out into the sunshine. Thumbelina did not want to spend her life underground in the dark, away from the light and the flowers.",
+      },
+      {
+        id: "thm-q3",
+        prompt: "How did Thumbelina reach the warm, sunny land at the end?",
+        options: [
+          "The field mouse showed her a secret path.",
+          "The swallow she had saved carried her there.",
+          "The kind fish pulled her leaf downstream.",
+          "The tiny prince came to fetch her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Thumbelina had kept the frozen swallow warm all winter until it grew strong again. In spring the grateful bird carried her over fields and mountains to a warm, sunny land full of white flowers.",
+      },
+    ],
+  },
+  {
+    slug: "the-steadfast-tin-soldier",
+    title: "The Steadfast Tin Soldier",
+    titleTranslation: "꿋꿋한 주석 병정",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🪖",
+    coverImage: "/covers/the-steadfast-tin-soldier.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Steadfast Tin Soldier\" (\"Den standhaftige Tinsoldat\", first published 1838; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story; the ending has been gently softened for new readers.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what made the last tin soldier different from his brothers, and what the maid found in the morning.",
+    paragraphs: [
+      [
+        {
+          id: "sts-1",
+          text: "There were once twenty-five tin soldiers, all brothers, made from the same old tin spoon.",
+          translation:
+            "옛날에 주석 병정 스물다섯이 있었는데, 모두 형제였고 똑같은 낡은 주석 숟가락 하나로 만들어졌어요.",
+        },
+        {
+          id: "sts-2",
+          text: "Each one wore a blue coat and a red hat and carried a gun on his shoulder.",
+          translation:
+            "병정들은 저마다 파란 외투에 빨간 모자를 쓰고, 어깨에 총을 메고 있었어요.",
+        },
+        {
+          id: "sts-3",
+          text: "The last soldier had only one leg, because the tin ran out before he was finished.",
+          translation:
+            "마지막 병정은 다리가 하나뿐이었어요. 다 만들기도 전에 주석이 떨어졌기 때문이에요.",
+        },
+      ],
+      [
+        {
+          id: "sts-4",
+          text: "Yet he stood just as straight and firm as all the rest.",
+          translation:
+            "그래도 그는 나머지 병정들만큼이나 곧고 꿋꿋하게 서 있었어요.",
+        },
+        {
+          id: "sts-5",
+          text: "On the table stood a little castle of paper, with a tiny paper dancer at its door.",
+          translation:
+            "탁자 위에는 종이로 만든 작은 성이 서 있었고, 그 문 앞에는 종이로 만든 아주 작은 무희가 있었어요.",
+        },
+        {
+          id: "sts-6",
+          text: "She balanced on one leg, with the other lifted high behind her.",
+          translation:
+            "무희는 한쪽 다리로 서서, 다른 다리는 뒤로 높이 들어 올리고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sts-7",
+          text: "\"She has only one leg, like me,\" thought the tin soldier, and he loved her at once.",
+          translation:
+            "\"저 무희도 나처럼 다리가 하나뿐이구나.\" 주석 병정은 생각했고, 곧바로 그녀를 사랑하게 되었어요.",
+        },
+        {
+          id: "sts-8",
+          text: "In the night the wind blew the window open, and the little soldier fell out into the street below.",
+          translation:
+            "밤에 바람이 불어 창문이 열렸고, 작은 병정은 아래 거리로 떨어지고 말았어요.",
+        },
+        {
+          id: "sts-9",
+          text: "Two boys found him, folded a boat from newspaper, and set him sailing along the gutter.",
+          translation:
+            "두 소년이 병정을 발견하고, 신문지로 배를 접어 병정을 배수로를 따라 떠내려 보냈어요.",
+        },
+      ],
+      [
+        {
+          id: "sts-10",
+          text: "The water swept him into a dark drain, where a great fish swallowed him whole.",
+          translation:
+            "물살이 병정을 어두운 하수구로 휩쓸어 갔고, 그곳에서 커다란 물고기가 병정을 통째로 삼켰어요.",
+        },
+        {
+          id: "sts-11",
+          text: "Inside the fish it was narrow and black, but the soldier lay quiet and did not give up hope.",
+          translation:
+            "물고기 뱃속은 좁고 캄캄했지만, 병정은 조용히 누운 채 희망을 버리지 않았어요.",
+        },
+        {
+          id: "sts-12",
+          text: "Later the fish was caught, sold at the market, and carried into a kitchen — the very same house he had come from.",
+          translation:
+            "얼마 뒤 그 물고기는 잡혀서 시장에 팔렸고, 어느 부엌으로 옮겨졌어요. 바로 병정이 떠나온 그 집이었어요.",
+        },
+      ],
+      [
+        {
+          id: "sts-13",
+          text: "The cook cut the fish open, and there lay the little tin soldier again.",
+          translation:
+            "요리사가 물고기의 배를 갈랐더니, 그 안에 작은 주석 병정이 다시 누워 있었어요.",
+        },
+        {
+          id: "sts-14",
+          text: "He was set back on the table, beside the same paper castle and the same little dancer.",
+          translation:
+            "병정은 다시 탁자 위, 예전 그대로의 종이 성과 그 작은 무희 곁에 놓였어요.",
+        },
+        {
+          id: "sts-15",
+          text: "Then a small boy, for no reason at all, picked him up and dropped him into the warm stove.",
+          translation:
+            "그때 한 어린 소년이 아무 까닭도 없이 병정을 집어 들더니 따뜻한 난로 속에 떨어뜨렸어요.",
+        },
+      ],
+      [
+        {
+          id: "sts-16",
+          text: "The soldier felt himself growing soft, but he stood up straight and kept his eyes on the dancer.",
+          translation:
+            "병정은 몸이 점점 물렁해지는 것을 느꼈지만, 똑바로 서서 무희에게서 눈을 떼지 않았어요.",
+        },
+        {
+          id: "sts-17",
+          text: "In the morning the maid found a small tin heart among the ashes, with a bright star from the dancer's dress beside it, and she kept the two together.",
+          translation:
+            "아침에 하녀는 재 속에서 작은 주석 심장 하나를 발견했고, 그 옆에는 무희의 드레스에서 떨어진 반짝이는 별이 놓여 있었어요. 하녀는 그 둘을 함께 간직했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sts-v1",
+        term: "tin",
+        partOfSpeech: "noun",
+        translation: "주석, 양철",
+        example: "The soldiers were made from an old tin spoon.",
+        exampleTranslation: "그 병정들은 낡은 주석 숟가락으로 만들어졌어요.",
+      },
+      {
+        id: "sts-v2",
+        term: "firm",
+        partOfSpeech: "adjective",
+        translation: "굳건한, 단단히 선",
+        example: "He stood as straight and firm as all the rest.",
+        exampleTranslation: "그는 나머지 병정들만큼 곧고 굳건하게 서 있었어요.",
+      },
+      {
+        id: "sts-v3",
+        term: "gutter",
+        partOfSpeech: "noun",
+        translation: "(길가의) 배수로, 도랑",
+        example: "The boys set him sailing along the gutter.",
+        exampleTranslation: "소년들은 그를 배수로를 따라 떠내려 보냈어요.",
+      },
+      {
+        id: "sts-v4",
+        term: "stove",
+        partOfSpeech: "noun",
+        translation: "난로",
+        example: "The boy dropped him into the warm stove.",
+        exampleTranslation: "소년은 그를 따뜻한 난로 속에 떨어뜨렸어요.",
+      },
+      {
+        id: "sts-v5",
+        term: "ashes",
+        partOfSpeech: "noun",
+        translation: "재",
+        example: "The maid found a tin heart among the ashes.",
+        exampleTranslation: "하녀는 재 속에서 주석 심장 하나를 발견했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sts-q1",
+        prompt: "Why did the last tin soldier have only one leg?",
+        options: [
+          "He lost it in the gutter.",
+          "The fish bit it off.",
+          "There was not enough tin left to finish him.",
+          "The small boy broke it.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "All twenty-five soldiers were made from one old tin spoon. The last one was made when the tin had almost run out, so he was given only one leg — but he stood just as straight and firm as his brothers.",
+      },
+      {
+        id: "sts-q2",
+        prompt: "Why did the tin soldier love the little paper dancer?",
+        options: [
+          "She sang to him every night.",
+          "She stood on one leg, so he thought she was like him.",
+          "She lived in the fine paper castle.",
+          "She had saved him from the gutter.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The dancer balanced on one leg with the other lifted high behind her. The soldier thought, \"She has only one leg, like me,\" and he loved her at once.",
+      },
+      {
+        id: "sts-q3",
+        prompt: "What did the maid find in the morning?",
+        options: [
+          "The soldier standing safe on the table.",
+          "Nothing at all in the stove.",
+          "A little tin heart, with a bright star from the dancer's dress beside it.",
+          "The paper castle, burnt but whole.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "After the soldier was dropped into the stove he stood straight and kept his eyes on the dancer. In the morning the maid found a small tin heart among the ashes, with a star from the dancer's dress beside it, and she kept the two together.",
+      },
+    ],
+  },
+  {
+    slug: "after-twenty-years",
+    title: "After Twenty Years",
+    titleTranslation: "이십 년 뒤",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1862–1910)",
+    coverEmoji: "🕰️",
+    coverImage: "/covers/after-twenty-years.svg",
+    source:
+      "Adapted from O. Henry's short story \"After Twenty Years\" (collected in \"The Four Million\", 1906; long in the public domain, Project Gutenberg #2776). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain the promise the two friends made twenty years earlier, and what Jimmy Wells did when he saw Bob's face.",
+    paragraphs: [
+      [
+        {
+          id: "aty-1",
+          text: "It was almost ten o'clock at night, and the cold wind had emptied the streets.",
+          translation:
+            "밤 열 시가 다 되어 가는 시각이었고, 차가운 바람에 거리는 텅 비어 있었어요.",
+        },
+        {
+          id: "aty-2",
+          text: "A policeman walked slowly along his beat, trying the doors of the shops as he passed.",
+          translation:
+            "한 경찰관이 순찰 구역을 따라 천천히 걸으며, 지나가는 가게마다 문을 하나씩 확인했어요.",
+        },
+        {
+          id: "aty-3",
+          text: "In a dark doorway a man was standing, with an unlit cigar in his mouth.",
+          translation:
+            "어두운 문간에 한 남자가 불을 붙이지 않은 담배를 입에 문 채 서 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "aty-4",
+          text: "\"It's all right, officer,\" the man said. \"I'm only waiting for a friend.\"",
+          translation:
+            "\"괜찮습니다, 경관님.\" 남자가 말했어요. \"그저 친구를 기다리고 있을 뿐이에요.\"",
+        },
+        {
+          id: "aty-5",
+          text: "\"Twenty years ago tonight, I had dinner in this very spot with my best friend, Jimmy Wells.\"",
+          translation:
+            "\"이십 년 전 오늘 밤, 바로 이 자리에서 가장 친한 친구 지미 웰스와 저녁을 먹었지요.\"",
+        },
+        {
+          id: "aty-6",
+          text: "\"The next morning I left for the West to make my fortune, and Jimmy stayed in New York.\"",
+          translation:
+            "\"이튿날 아침 저는 한밑천 잡으려고 서부로 떠났고, 지미는 뉴욕에 남았어요.\"",
+        },
+      ],
+      [
+        {
+          id: "aty-7",
+          text: "\"We promised to meet here again exactly twenty years later, whatever had become of us.\"",
+          translation:
+            "\"우리는 어떻게 되든 상관없이 꼭 이십 년 뒤에 이 자리에서 다시 만나기로 약속했어요.\"",
+        },
+        {
+          id: "aty-8",
+          text: "\"I've done well out West,\" the man said, showing a fine watch set with small diamonds.",
+          translation:
+            "\"서부에서 저는 꽤 잘됐습니다.\" 남자는 작은 다이아몬드가 박힌 근사한 시계를 보이며 말했어요.",
+        },
+        {
+          id: "aty-9",
+          text: "\"I hope your friend comes,\" said the policeman. \"Good night.\" And he walked on down the street.",
+          translation:
+            "\"친구분이 오시면 좋겠군요.\" 경찰관이 말했어요. \"안녕히 계십시오.\" 그러고는 거리를 따라 걸어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "aty-10",
+          text: "A fine, cold rain began to fall, but the man went on waiting in the doorway.",
+          translation:
+            "가늘고 차가운 비가 내리기 시작했지만, 남자는 문간에서 계속 기다렸어요.",
+        },
+        {
+          id: "aty-11",
+          text: "After about twenty minutes, a tall man in a long overcoat came hurrying across the road.",
+          translation:
+            "이십 분쯤 지나서, 긴 외투를 입은 키 큰 남자가 서둘러 길을 건너왔어요.",
+        },
+        {
+          id: "aty-12",
+          text: "\"Is that you, Bob?\" he called. \"Jimmy Wells!\" cried the man in the doorway, and the two shook hands.",
+          translation:
+            "\"자네, 밥인가?\" 그가 외쳤어요. \"지미 웰스!\" 문간의 남자가 소리쳤고, 두 사람은 악수를 나눴어요.",
+        },
+      ],
+      [
+        {
+          id: "aty-13",
+          text: "They walked along together, and Bob talked happily about all his years in the West.",
+          translation:
+            "두 사람은 함께 걸었고, 밥은 서부에서 보낸 세월에 대해 신나게 이야기했어요.",
+        },
+        {
+          id: "aty-14",
+          text: "At the corner stood a shop with bright lights. Bob turned to look at his friend's face — and stopped.",
+          translation:
+            "모퉁이에 환한 불빛이 켜진 가게가 있었어요. 밥은 친구의 얼굴을 보려고 돌아섰다가, 멈칫했어요.",
+        },
+        {
+          id: "aty-15",
+          text: "\"You're not Jimmy Wells,\" he said. \"Twenty years is a long time, but not long enough to change a man's nose.\"",
+          translation:
+            "\"자네는 지미 웰스가 아니야.\" 그가 말했어요. \"이십 년은 긴 세월이지만, 사람의 코가 바뀔 만큼 길지는 않지.\"",
+        },
+      ],
+      [
+        {
+          id: "aty-16",
+          text: "\"It is long enough to change a good man into a bad one,\" said the tall man. \"You've been under arrest for ten minutes, 'Silky' Bob. Chicago asked us to look out for you.\"",
+          translation:
+            "\"착한 사람이 나쁜 사람으로 바뀌기에는 충분한 세월이지.\" 키 큰 남자가 말했어요. \"당신은 십 분 전부터 체포된 상태요, '실키' 밥. 시카고 경찰이 당신을 붙잡아 달라고 연락했소.\"",
+        },
+        {
+          id: "aty-17",
+          text: "Then he handed Bob a note: Jimmy had come to the meeting on time, had known Bob's face at once as a wanted man, and — unable to arrest his old friend with his own hands — had sent another officer instead.",
+          translation:
+            "그러고는 밥에게 쪽지 한 장을 건넸어요. 지미는 약속 시간에 맞춰 그 자리에 왔고, 밥의 얼굴을 보자마자 수배 중인 사람임을 알아보았지만, 오랜 친구를 자기 손으로 체포할 수 없어서 대신 다른 경관을 보냈다는 내용이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aty-v1",
+        term: "beat",
+        partOfSpeech: "noun",
+        translation: "(경찰관의) 순찰 구역",
+        example: "The policeman walked slowly along his beat.",
+        exampleTranslation: "경찰관은 순찰 구역을 따라 천천히 걸었어요.",
+      },
+      {
+        id: "aty-v2",
+        term: "doorway",
+        partOfSpeech: "noun",
+        translation: "문간, 출입구",
+        example: "A man was standing in a dark doorway.",
+        exampleTranslation: "한 남자가 어두운 문간에 서 있었어요.",
+      },
+      {
+        id: "aty-v3",
+        term: "promise",
+        partOfSpeech: "verb",
+        translation: "약속하다",
+        example: "They promised to meet again twenty years later.",
+        exampleTranslation: "그들은 이십 년 뒤에 다시 만나기로 약속했어요.",
+      },
+      {
+        id: "aty-v4",
+        term: "arrest",
+        partOfSpeech: "verb",
+        translation: "체포하다",
+        example: "\"You've been under arrest for ten minutes.\"",
+        exampleTranslation: "\"당신은 십 분 전부터 체포된 상태요.\"",
+      },
+      {
+        id: "aty-v5",
+        term: "wanted",
+        partOfSpeech: "adjective",
+        translation: "수배 중인",
+        example: "He knew Bob's face at once as a wanted man.",
+        exampleTranslation: "그는 밥의 얼굴을 보자마자 수배 중인 사람임을 알아보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aty-q1",
+        prompt: "Why was the man waiting in the dark doorway?",
+        options: [
+          "He was hiding from the rain.",
+          "He was keeping a promise to meet his old friend Jimmy Wells, made twenty years earlier.",
+          "He was watching the shops for the police.",
+          "He was lost and waiting for help.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Twenty years before, the man had dinner on that spot with his best friend Jimmy Wells. They promised to meet there again exactly twenty years later, whatever had become of them — and he had come back from the West to keep that promise.",
+      },
+      {
+        id: "aty-q2",
+        prompt: "How did Bob know that the tall man was not Jimmy Wells?",
+        options: [
+          "The man did not know his name.",
+          "The man was too young.",
+          "The man's nose was a different shape.",
+          "The man was wearing a police uniform.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Under the bright shop light, Bob looked at the man's face and stopped. He said, \"Twenty years is a long time, but not long enough to change a man's nose.\" The tall man was a different officer, not Jimmy.",
+      },
+      {
+        id: "aty-q3",
+        prompt: "What had the real Jimmy Wells done?",
+        options: [
+          "He had forgotten the meeting completely.",
+          "He had moved away from New York years before.",
+          "He had come to the meeting, recognised Bob as a wanted man, and sent another officer to arrest him.",
+          "He had warned Bob to run away.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jimmy came to the spot on time and knew Bob's face at once as a man wanted by the Chicago police. He could not arrest his old friend with his own hands, so he sent another officer and left a note explaining what he had done.",
+      },
+    ],
+  },
 ];

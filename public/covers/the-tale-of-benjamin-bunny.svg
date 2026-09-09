@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Tale of Benjamin Bunny by Beatrix Potter">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 182)" stroke="#C9A66B" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-74 12 h148" stroke-width="1.9"/>
+    <path d="M-44 12 v11 M-8 12 v11 M28 12 v11 M60 12 v11" stroke-width="1" opacity="0.4"/>
+    <g transform="translate(-26 0)">
+      <path d="M-6 -10 q -7 -17 -3 -28 q 5 -2 8 3 q 3 11 -1 23 z"/>
+      <path d="M6 -10 q 7 -17 3 -28 q -5 -2 -8 3 q -3 11 1 23 z"/>
+      <circle cx="0" cy="0" r="13"/>
+      <circle cx="-4" cy="-1" r="1.7" fill="#C9A66B" stroke="none"/>
+    </g>
+    <g transform="translate(28 3)">
+      <path d="M-5 -8 q -6 -14 -3 -24 q 4 -2 7 2 q 3 10 -1 20 z"/>
+      <path d="M5 -8 q 6 -14 3 -24 q -4 -2 -7 2 q -3 10 1 20 z"/>
+      <circle cx="0" cy="1" r="11"/>
+      <circle cx="4" cy="0" r="1.6" fill="#C9A66B" stroke="none"/>
+    </g>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2C2C2C" letter-spacing="1">The Tale of</text>
+  <text x="200" y="349" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2C2C2C" letter-spacing="1">Benjamin Bunny</text>
+
+  <line x1="150" y1="384" x2="250" y2="384" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="416" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Back into Mr. McGregor&#8217;s garden</text>
+
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="3">BEATRIX POTTER</text>
+  <text x="200" y="484" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1904</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
