@@ -182,7 +182,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 62 | Silas Marner | George Eliot (1880) | 550 | B1 | Ch. 12 — the child at the hearth (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 63 | The Mill on the Floss | George Eliot (1880) | 6688 | B2 | Bk 1 Ch. 5 — Tom comes home (simplified retelling, 17 sentences; gently softened) | ☑ |
 | 64 | North and South | Elizabeth Gaskell (1865) | 4276 | B2 | Ch. 1 — "Haste to the Wedding" (simplified retelling, 17 sentences) | ☑ |
-| 65 | Wives and Daughters | Elizabeth Gaskell (1865) | — | B2 | Ch. 1 — the "old rigmarole of childhood" | ☐ |
+| 65 | Wives and Daughters | Elizabeth Gaskell (1865) | 4274 | B2 | Ch. 1 ("The Dawn of a Gala Day") — Molly's overwhelming first day at the Towers (simplified retelling, 17 sentences) | ☑ |
 | 66 | The Age of Innocence | Edith Wharton (1937) | 541 | B2 | Ch. 1 — the opera (simplified retelling, 17 sentences) | ☑ |
 | 67 | The House of Mirth | Edith Wharton (1937) | 284 | B2 | Bk 1 Ch. 1 — Lily Bart at the station (simplified retelling, 17 sentences) | ☑ |
 | 68 | Ethan Frome | Edith Wharton (1937) | 4517 | B1 | the prologue — the narrator sees Ethan (simplified retelling, 17 sentences; kept as the narrator's frame) | ☑ |
@@ -200,7 +200,7 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (56):** The Gift of the Magi (row 4), The Last Leaf (row 5),
+- **Live now (57):** The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), The Bet (row 25), The Awakening Ch. 1
   (row 69), The House of Mirth Bk 1 Ch. 1 (row 67), Ethan Frome prologue
   (row 68), The Country of the Pointed Firs Ch. 1–2 (row 70), Cranford
@@ -227,7 +227,8 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 58), Rebecca of Sunnybrook Farm Ch. 1 (row 57), An Old-Fashioned
   Girl Ch. 1 (row 41), Agnes Grey Ch. 1 (row 36), The Enchanted April
   Ch. 1 (row 54), Little Women Ch. 8 (row 40), The Tenant of Wildfell Hall
-  Ch. 1 (row 37). Follow their shape in
+  Ch. 1 (row 37), Wives and Daughters Ch. 1 (row 65). Follow their shape
+  in
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
@@ -250,14 +251,14 @@ has a genuine period cover/illustration in the public domain, download that into
   Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
-  Ch. 5, The Tenant of Wildfell Hall Ch. 1). Bands are now A1 ×7, A2 ×15,
-  B1 ×20, B2 ×14 — A1 is still the thinnest.
+  Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1).
+  Bands are now A1 ×7, A2 ×15, B1 ×20, B2 ×15 — A1 is still the thinnest.
   Within A2, Alice in Wonderland is still the only entry that is neither a
   fairy tale nor gentle domestic fiction.
-- Good next lessons to build: **Wives and Daughters Ch. 1** (row 65, B2 —
-  Gaskell), **Anne of Avonlea Ch. 1** (row 60, B1 — Anne, now a teacher),
-  **Villette Ch. 1** (row 38, B2 — Charlotte Brontë, Bretton). A1 (7) is
-  still behind and the backlog has no
+- Good next lessons to build: **Anne of Avonlea Ch. 1** (row 60, B1 —
+  Anne, now a teacher), **Villette Ch. 1** (row 38, B2 — Charlotte
+  Brontë, Bretton), **Emily of New Moon Ch. 1** (row 46, B1 — "the house
+  in the hollow"). A1 (7) is still behind and the backlog has no
   more A1 rows — re-level a gentle A2
   tale down to A1 (e.g.
   The Twelve Dancing Princesses or Rapunzel), or add new A1 rows.

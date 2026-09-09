@@ -12314,4 +12314,219 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "wives-and-daughters",
+    title: "Wives and Daughters",
+    titleTranslation: "아내들과 딸들",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Elizabeth Gaskell (1810–1865)",
+    coverEmoji: "🌳",
+    coverImage: "/covers/wives-and-daughters.svg",
+    source:
+      "Adapted from Chapter 1 (\"The Dawn of a Gala Day\") of Elizabeth Gaskell's novel \"Wives and Daughters\" (first published 1864–66; long in the public domain, Project Gutenberg #4274). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Molly's first visit to the Towers and how the day ended.",
+    paragraphs: [
+      [
+        {
+          id: "wnd-1",
+          text: "Molly Gibson was twelve years old, the only child of the country doctor at Hollingford.",
+          translation:
+            "몰리 깁슨은 열두 살이었고, 홀링퍼드의 시골 의사에게 하나뿐인 자식이었어요.",
+        },
+        {
+          id: "wnd-2",
+          text: "Her mother had died when she was a baby, and she and her father were everything to each other.",
+          translation:
+            "어머니는 그녀가 갓난아기일 때 세상을 떠났고, 몰리와 아버지는 서로에게 전부였어요.",
+        },
+        {
+          id: "wnd-3",
+          text: "Once a year, the great family at the Towers opened their park to the respectable ladies of the town.",
+          translation:
+            "일 년에 한 번, 타워스 저택의 대단한 가문은 자기네 정원을 마을의 점잖은 부인들에게 열어 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "wnd-4",
+          text: "This year, for the first time, Molly was to go too.",
+          translation: "올해에는 처음으로 몰리도 가게 되었어요.",
+        },
+        {
+          id: "wnd-5",
+          text: "She woke long before dawn, too excited to sleep, and lay watching the light come.",
+          translation:
+            "그녀는 동트기 훨씬 전에 잠에서 깼는데, 너무 들떠서 잠을 이룰 수가 없어 빛이 밝아 오는 것을 누운 채 지켜보았어요.",
+        },
+        {
+          id: "wnd-6",
+          text: "She was dressed in her stiffest white frock and taken to the Towers in the Miss Brownings' carriage.",
+          translation:
+            "그녀는 가장 빳빳한 흰 원피스를 입고, 브라우닝 자매의 마차를 타고 타워스로 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "wnd-7",
+          text: "The house was the grandest she had ever seen, and the gardens seemed to go on forever.",
+          translation:
+            "그 집은 그녀가 본 것 중 가장 웅장했고, 정원은 끝없이 이어지는 것 같았어요.",
+        },
+        {
+          id: "wnd-8",
+          text: "At first Molly was enchanted, wandering among the flowers and the smooth green lawns.",
+          translation:
+            "처음에 몰리는 넋을 잃고, 꽃들과 매끄러운 초록 잔디밭 사이를 거닐었어요.",
+        },
+        {
+          id: "wnd-9",
+          text: "But the day was very hot, the ladies talked over her head, and no one thought to give her any lunch.",
+          translation:
+            "하지만 날은 무척 더웠고, 부인들은 그녀의 머리 위로 이야기를 주고받았으며, 아무도 그녀에게 점심을 챙겨 줄 생각을 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "wnd-10",
+          text: "By the afternoon she was tired, dizzy, and close to tears.",
+          translation: "오후가 되자 그녀는 지치고 어지럽고 금방이라도 울 것 같았어요.",
+        },
+        {
+          id: "wnd-11",
+          text: "She crept away to a quiet corner of the garden and fell asleep under a tree.",
+          translation:
+            "그녀는 정원의 조용한 구석으로 살그머니 가서 나무 아래에서 잠이 들었어요.",
+        },
+        {
+          id: "wnd-12",
+          text: "When she woke, the Hollingford carriages had gone home without her.",
+          translation:
+            "잠에서 깼을 때, 홀링퍼드의 마차들은 그녀를 두고 집으로 돌아가 버린 뒤였어요.",
+        },
+      ],
+      [
+        {
+          id: "wnd-13",
+          text: "A kind, pretty lady named Mrs. Kirkpatrick found her and brought her indoors.",
+          translation:
+            "커크패트릭 부인이라는 친절하고 어여쁜 여인이 그녀를 발견해 집 안으로 데리고 들어왔어요.",
+        },
+        {
+          id: "wnd-14",
+          text: "Mrs. Kirkpatrick gave her some food, settled her on a sofa — and then, caught up in the party, forgot about her completely.",
+          translation:
+            "커크패트릭 부인은 그녀에게 먹을 것을 주고 소파에 앉혀 주었지만, 이내 파티에 정신이 팔려 그녀를 까맣게 잊어버렸어요.",
+        },
+        {
+          id: "wnd-15",
+          text: "Evening came, and still no one had remembered to send Molly home.",
+          translation:
+            "저녁이 되었는데도 아무도 몰리를 집으로 보낼 생각을 하지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "wnd-16",
+          text: "At last a message reached Hollingford, and her father drove over himself to fetch her.",
+          translation:
+            "마침내 홀링퍼드로 전갈이 갔고, 아버지가 직접 마차를 몰고 그녀를 데리러 왔어요.",
+        },
+        {
+          id: "wnd-17",
+          text: "Molly's first grand day out had ended in hunger and neglect, but the sight of her father at the door made everything right again.",
+          translation:
+            "몰리의 첫 나들이는 배고픔과 홀대로 끝났지만, 문간에 선 아버지의 모습을 보자 모든 것이 다시 괜찮아졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wnd-v1",
+        term: "respectable",
+        partOfSpeech: "adjective",
+        translation: "점잖은, 번듯한, 존경할 만한",
+        example: "The party was only for the respectable ladies of the town.",
+        exampleTranslation: "그 모임은 마을의 점잖은 부인들만을 위한 것이었어요.",
+      },
+      {
+        id: "wnd-v2",
+        term: "enchanted",
+        partOfSpeech: "adjective",
+        translation: "매혹된, 홀린",
+        example: "At first Molly was enchanted by the great gardens.",
+        exampleTranslation: "처음에 몰리는 그 넓은 정원에 매혹되었어요.",
+      },
+      {
+        id: "wnd-v3",
+        term: "dizzy",
+        partOfSpeech: "adjective",
+        translation: "어지러운, 현기증이 나는",
+        example: "The heat and hunger left her tired and dizzy.",
+        exampleTranslation: "더위와 배고픔에 그녀는 지치고 어지러웠어요.",
+      },
+      {
+        id: "wnd-v4",
+        term: "neglect",
+        partOfSpeech: "noun",
+        translation: "방치, 소홀히 함, 홀대",
+        example: "Her grand day out ended in hunger and neglect.",
+        exampleTranslation: "그녀의 멋진 나들이는 배고픔과 홀대로 끝났어요.",
+      },
+      {
+        id: "wnd-v5",
+        term: "frock",
+        partOfSpeech: "noun",
+        translation: "(여자·아이의) 원피스, 드레스",
+        example: "Molly was dressed in her stiffest white frock.",
+        exampleTranslation: "몰리는 가장 빳빳한 흰 원피스를 입었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wnd-q1",
+        prompt: "What special event was Molly going to for the first time?",
+        options: [
+          "Her father's wedding.",
+          "The yearly garden party at the Towers, the great family's house.",
+          "A dance in the town hall at Hollingford.",
+          "A visit to her mother's grave.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Once a year the great family at the Towers opened their park to the respectable ladies of Hollingford; this year, for the first time, twelve-year-old Molly was to go too, and she woke long before dawn from excitement.",
+      },
+      {
+        id: "wnd-q2",
+        prompt: "Why did Molly's day at the Towers go badly?",
+        options: [
+          "She quarrelled with the Miss Brownings.",
+          "She tore her white frock on a rose bush.",
+          "It was very hot, no one gave her any lunch, and she grew tired and dizzy.",
+          "Lady Cumnor scolded her for walking on the grass.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The day was very hot, the ladies talked over her head, and no one thought to feed her; by the afternoon Molly was tired, dizzy, and near tears, so she crept off and fell asleep under a tree.",
+      },
+      {
+        id: "wnd-q3",
+        prompt: "What happened after Molly fell asleep in the garden?",
+        options: [
+          "The Miss Brownings woke her and took her straight home.",
+          "The Hollingford carriages left without her; Mrs. Kirkpatrick took her in but then forgot her, until her father finally came to fetch her.",
+          "Lady Cumnor invited her to stay the night at the Towers.",
+          "She woke just in time to catch the last carriage home.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The carriages went back to Hollingford without her; a kind lady, Mrs. Kirkpatrick, brought Molly indoors and fed her but then forgot her in the bustle of the party, and it was evening before a message reached her father, who drove over himself to bring her home.",
+      },
+    ],
+  },
 ];

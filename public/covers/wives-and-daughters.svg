@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Wives and Daughters by Elizabeth Gaskell">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(198 162)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-2" cy="-14" r="25" stroke-width="1.8"/>
+    <path d="M-16 -22 q 6 4 4 10 M2 -28 q 5 5 2 11 M12 -10 q -5 5 -12 3 M-10 -2 q 4 -6 11 -4" stroke-width="1.1" opacity="0.55"/>
+    <path d="M-4 9 q -3 12 -1 21 M2 9 q 3 10 1 21 M-1 12 q -7 3 -12 1 M-1 5 q 7 4 12 2" stroke-width="1.6"/>
+    <path d="M-42 30 h84" stroke-width="1.4"/>
+    <path d="M11 30 v-9 h20 v9 M11 21 v-6 M31 21 v-6 M13 15 h16" stroke-width="1.3"/>
+    <path d="M-54 36 q 40 -8 56 -3 t 56 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Wives and</text>
+  <text x="200" y="348" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Daughters</text>
+
+  <line x1="150" y1="382" x2="250" y2="382" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Molly's day at the Towers</text>
+
+  <text x="200" y="458" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="2">ELIZABETH GASKELL</text>
+  <text x="200" y="480" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1866</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
