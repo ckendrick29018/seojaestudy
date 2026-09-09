@@ -5,7 +5,7 @@ import { LessonView } from "@/components/lesson/LessonView";
 import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
 import { isActiveSubscription } from "@/lib/subscription";
-import { lessonDescription, lessonJsonLd } from "@/lib/seo";
+import { lessonDescription, lessonJsonLd, lessonKeywords, lessonMetaTitle } from "@/lib/seo";
 import { OG_IMAGE, SITE_NAME } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -18,11 +18,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
   const path = `/lesson/${lesson.slug}`;
   const description = lessonDescription(lesson);
-  const socialTitle = `${lesson.title} · ${SITE_NAME}`;
+  const title = lessonMetaTitle(lesson);
+  const socialTitle = `${title} · ${SITE_NAME}`;
 
   return {
-    title: lesson.title,
+    title,
     description,
+    keywords: lessonKeywords(lesson),
     alternates: { canonical: path },
     openGraph: {
       type: "article",

@@ -1,66 +1,49 @@
-"use client";
-
-import { useMemo } from "react";
+import type { Metadata } from "next";
 import { lessons } from "@/lib/data/lessons";
-import { LessonCard } from "@/components/home/LessonCard";
-import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
-import { BookshelfPreview } from "@/components/home/BookshelfPreview";
-import { NewForYouSection } from "@/components/home/NewForYouSection";
-import { ClassicsSection } from "@/components/home/ClassicsSection";
-import { useLanguage, useT } from "@/components/providers/LanguageProvider";
-import { useOnboarding } from "@/components/providers/OnboardingProvider";
-import { LEVELS, GOALS, labelFor } from "@/lib/onboarding";
+import { collectionPageJsonLd } from "@/lib/seo";
+import { SITE_NAME } from "@/lib/site";
+import { LibraryClient } from "./LibraryClient";
 
-/** CEFR ordering, so "near my level" can be measured as a distance. */
-const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
+const NAME = "Graded Readers — Short Stories by Level (A1–B2)";
+const DESCRIPTION =
+  "Browse every SeoJae Story lesson: short stories and classic literature graded " +
+  "to CEFR A1–B2, each with instant translations, audio narration, vocabulary " +
+  "flashcards, and a comprehension check. Learn English or Korean by reading.";
+const SOCIAL_TITLE = `${NAME} · ${SITE_NAME}`;
 
-export default function HomePage() {
-  const t = useT();
-  const { lang } = useLanguage();
-  const { data } = useOnboarding();
+export const metadata: Metadata = {
+  title: NAME,
+  description: DESCRIPTION,
+  keywords: [
+    "graded readers",
+    "short stories for language learners",
+    "leveled reading practice",
+    "CEFR A1 A2 B1 B2 reading",
+    "ESL reading practice",
+    "Korean reading practice",
+    "read short stories online free",
+    "bilingual short stories",
+  ],
+  alternates: { canonical: "/library" },
+  openGraph: { type: "website", url: "/library", title: SOCIAL_TITLE, description: DESCRIPTION },
+  twitter: { card: "summary_large_image", title: SOCIAL_TITLE, description: DESCRIPTION },
+};
 
-  const ordered = useMemo(() => {
-    // Classics have their own shelf below; keep them out of the leveled list.
-    const base = lessons.filter((lesson) => lesson.collection !== "classics");
-    if (!data.completed || !data.level) return base;
-    const target = LEVEL_RANK[data.level] ?? 0;
-    // Stable sort: closest to the learner's level first, original order within a tie.
-    return base
-      .map((lesson, i) => ({ lesson, i, d: Math.abs((LEVEL_RANK[lesson.level] ?? 0) - target) }))
-      .sort((a, b) => a.d - b.d || a.i - b.i)
-      .map((x) => x.lesson);
-  }, [data.completed, data.level]);
-
-  const personalized =
-    data.completed && data.level
-      ? [
-          labelFor(
-            LEVELS.map((l) => ({ id: l.id, en: l.en, ko: l.ko })),
-            data.level,
-            lang,
-          ),
-          labelFor(GOALS, data.goal, lang),
-        ]
-          .filter(Boolean)
-          .join(" · ")
-      : null;
+export default function LibraryPage() {
+  const jsonLd = collectionPageJsonLd({
+    path: "/library",
+    name: NAME,
+    description: DESCRIPTION,
+    lessons,
+  });
 
   return (
-    <div className="px-5 py-8">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70">
-        {personalized ? t("forYou") : t("library")}
-      </p>
-      <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal">{t("appName")}</h1>
-      <p className="mb-8 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
-      <LessonOfDayCard />
-      <BookshelfPreview />
-      <NewForYouSection />
-      <div className="mt-8 space-y-3">
-        {ordered.map((lesson) => (
-          <LessonCard key={lesson.slug} lesson={lesson} />
-        ))}
-      </div>
-      <ClassicsSection />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <LibraryClient />
+    </>
   );
 }
