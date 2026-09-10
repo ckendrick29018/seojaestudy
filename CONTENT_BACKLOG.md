@@ -147,6 +147,10 @@ has a genuine period cover/illustration in the public domain, download that into
 | 83 | Sweet Porridge | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 15 sentences; "Der süße Brei" — the magic pot, the forgotten word, the porridge flood; no peril) — diversifies A1 away from Potter | ☑ |
 | 84 | The Golden Goose | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Die goldene Gans" — Simpleton shares his food, the golden goose, the chain of stuck people, the princess who never laughed) — a second non-Potter A1 in this batch | ☑ |
 | 85 | The Skylight Room | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; Miss Leeson's attic room, the star she names Billy Jackson, and the ambulance-doctor twist) — a third *Four Million* pick for A2 | ☑ |
+| 86 | Mother Holle | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Frau Holle" — the dropped spindle, the bread and apple tree, the feather-bed snow, gold for the kind girl and pitch for the lazy one; no softening needed) — non-Potter A1 | ☑ |
+| 87 | The Golden Key | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 14 sentences; "Der goldene Schlüssel" — the boy in the snow, the key, the iron box; the tale's famous open ending is kept) — the shortest lesson on the shelf | ☑ |
+| 88 | The Fir Tree | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 17 sentences; "Grantræet" — the little tree that only ever wants what comes next, then the dark attic; the bleak burning finale is softened to the withered tree and the kept gold star) | ☑ |
+| 89 | A White Heron | Sarah Orne Jewett (1909) | — | B2 | trimmed (simplified retelling, 18 sentences; the hunter's ten-dollar offer, Sylvia's dawn climb up the great pine, and her choice to keep the heron's nest a secret) — fresh B2 prose pick | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -204,6 +208,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 71 | Frankenstein | Mary Shelley (1851) | 84 | B2 | Letter 1 — Walton to his sister (simplified retelling, 17 sentences; kept as Walton's letter) | ☑ |
 | 72 | The Mysteries of Udolpho | Ann Radcliffe (1823) | 3268 | B2 | Vol. 1 Ch. 1 — La Vallée (simplified retelling, 17 sentences) | ☑ |
 | 73 | Sonnets from the Portuguese | Elizabeth Barrett Browning (1861) | — | B2 | Sonnet 43 — "How do I love thee" | ☐ |
+| 90 | The Great Gatsby | F. Scott Fitzgerald (1940) | 64317 | B2 | close of Ch. 1 — the dinner at the Buchanans', then Nick sees Gatsby reaching toward the green light across the bay (simplified retelling, 18 sentences) — built on direct reader demand; PD in the US since 2021 and in life+70 countries since 2011 | ☑ |
 
 ---
 
@@ -213,7 +218,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (78):** Sweet Porridge (row 83), The Golden Goose (row 84),
+- **Live now (83):** Mother Holle (row 86), The Golden Key (row 87),
+  The Fir Tree (row 88), A White Heron (row 89), The Great Gatsby — Ch. 1
+  close (row 90), Sweet Porridge (row 83), The Golden Goose (row 84),
   The Skylight Room (row 85), Rilla of Ingleside Ch. 1 (row 48),
   The Bremen Town Musicians (row 81), The Cop and the
   Anthem (row 82), Jane Eyre Ch. 5 — Lowood (row 34), Emily of New Moon
@@ -277,7 +284,7 @@ has a genuine period cover/illustration in the public domain, download that into
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
   Little Women Ch. 8, A Little Princess Ch. 7, Anne of Avonlea Ch. 1),
-  B2 ×20 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon,
+  B2 ×22 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon,
   Rilla of Ingleside, The
   Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
@@ -285,33 +292,37 @@ has a genuine period cover/illustration in the public domain, download that into
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×15, A2 ×21,
-  B1 ×22, B2 ×20 — 78 live. B1 stays full at 22; A1, A2 and B2 are still
-  the deep bands, so B1 stays off-limits and the rest wants a story that
-  genuinely fits its level.
+  Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
+  Ch. 1 close). Bands are now A1 ×17, A2 ×22,
+  B1 ×22, B2 ×22 — 83 live (89 lessons total). All four bands now sit at
+  or near 22; pick the level a new story genuinely fits rather than
+  chasing a band.
+  Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
+  (A2), A White Heron (B2), The Great Gatsby / Ch. 1 close (B2). Gatsby
+  went in on direct reader demand — it is PD in the US since 2021 and in
+  life+70 countries since 2011 (Fitzgerald d. 1940), so it clears
+  sourcing rule #1.
   Within A2, the non-(fairy-tale / gentle-domestic) entries are now Alice
   in Wonderland and After Twenty Years (crime / twist) — still the two
   odd ones out; more tonal variety there would help.
   A1 still has four Potter tales (Peter Rabbit, Mrs. Tiggy-Winkle,
-  Benjamin Bunny, Two Bad Mice — 4 of 15); the last three A1 adds
-  (The Bremen Town Musicians, Sweet Porridge, The Golden Goose) were
-  deliberately non-Potter — keep it that way rather than adding a fifth.
-- Good next lessons to build — B1 is full at 22; spread the rest:
-  - B2: **Rilla of Ingleside Ch. 1** (row 48), **Jane Eyre Ch. 5 —
-    arrival at Lowood** (row 34) and **Emily of New Moon Ch. 1** (row 46)
-    are now live. That clears every prose B2 row in the backlog — the only
-    un-built B2 left is row 73 (Sonnet 43, a poem, different shape), so a
-    new prose B2 needs a fresh pick (another Wharton or Eliot scene).
-  - A1 (keep diversifying away from Potter): **Sweet Porridge**, **The
-    Golden Goose** and **The Bremen Town Musicians** are now live. Next:
-    re-level a gentle A2 tale (Rapunzel, The Twelve Dancing Princesses)
-    down to A1, or another kind non-peril Grimm (**Mother Holle**, **The
-    Golden Key**). Remaining Potter if wanted: **Jemima Puddle-Duck**
-    (fox peril — keep light), **The Tale of Tom Kitten**.
-  - A2: an Andersen not yet done (**The Fir Tree** — softened, **The
-    Wild Swans**), or another *Four Million* story (**The Brief Début of
-    Tildy**) — **The Cop and the Anthem** and **The Skylight Room** are
-    now live.
+  Benjamin Bunny, Two Bad Mice — 4 of 17); every non-Potter A1 add since
+  (Bremen Town Musicians, Sweet Porridge, The Golden Goose, Mother Holle,
+  The Golden Key) was deliberate — keep it that way.
+- Good next lessons to build — all four bands sit at ~22; pick by fit:
+  - B2: every prose B2 row in the backlog is now live. **A White Heron**
+    (Jewett) and **The Great Gatsby Ch. 1** were the Sept 2026 fresh
+    picks; a further B2 needs another fresh pick (another Wharton or
+    Eliot scene, or **The Lifted Veil**). Row 73 (Sonnet 43) is a poem,
+    a different lesson shape.
+  - A1 (keep diversifying away from Potter): **Mother Holle** and **The
+    Golden Key** are now live. Next: another kind non-peril Grimm
+    (**Mother Hulda / Frau Holle** is done; **The Star Money**,
+    **The Golden Bird** trimmed), or re-level a gentle A2 tale.
+  - A2: **The Fir Tree** (softened) is now live. Next: another Andersen
+    (**The Wild Swans**, **The Fir Tree**'s companion **The Snow Queen**
+    Ch. 1), or another *Four Million* story (**The Brief Début of
+    Tildy**).
   - B1 only if the story really wants it: **Northanger Abbey Ch. 1**
     (row 32), **The Story Girl Ch. 1** (row 47), **Rose in Bloom Ch. 1**
     (row 42).
@@ -319,3 +330,50 @@ has a genuine period cover/illustration in the public domain, download that into
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
   life+70 countries (including Korea) until 2041.
+- **Great Gatsby-style reader demand:** log requests here. Standing:
+  The Great Gatsby (done). Watch for **Tender Is the Night** (Fitzgerald,
+  1934 — US PD 2030, so *not* clear yet), **The Sun Also Rises**
+  (Hemingway, 1926 — US PD since 2022, Hemingway d. 1961 so life+70 not
+  until 2032; **fails rule #1**, do not build).
+
+## Dictionary coverage is part of "done"
+
+Every word a lesson puts on screen must be tappable in **both** directions
+(EN→KO from `en-ko.ts`, KO→EN from `ko-en.ts` + the `ko-stem.ts` stemmer).
+After adding a lesson, run `npm run dict:check <slug>` and drive both
+directions to **0** before considering it shipped — add head-word / `-다`
+forms where the stemmer can fold to them, verbatim inflected forms where it
+can't. The Sept 2026 batch did this; the two prior batches (rows 74–85) did
+not, so a KO→EN back-log remains on the older lessons — `npm run dict:check`
+with no args shows the count. Do not add to it.
+
+## Future categories (beyond Classics fiction)
+
+Requested expansion of the shelf past short literary fiction. All must still
+clear sourcing rule #1 (PD in the US **and** life+70). Project Gutenberg has
+strong PD material in each:
+
+- **Biography / memoir** — *The Autobiography of Benjamin Franklin*,
+  *Narrative of the Life of Frederick Douglass*, Mark Twain's
+  autobiographical sketches, *The Life of Charlotte Brontë* (Gaskell).
+- **Philosophy, plain** — Marcus Aurelius, *Meditations* (short numbered
+  passages fit a lesson almost as-is); Epictetus, *Enchiridion*.
+- **Travel writing** — *Innocents Abroad* / *A Tramp Abroad* (Twain),
+  *Travels with a Donkey* (Stevenson), Isabella Bird's letters.
+- **Sociology / social reportage** — *How the Other Half Lives* (Riis),
+  *The Souls of Black Folk* (Du Bois), *London Labour and the London Poor*
+  (Mayhew) excerpts.
+- **Business / self-improvement** — *The Richest Man in Babylon* (1926, US
+  PD), *Self-Help* (Samuel Smiles), *The Art of Money Getting* (P. T.
+  Barnum).
+- **Crime & mystery** — Sherlock Holmes short stories (*The Adventures*,
+  1892), *The Moonstone* (Collins), Poe's tales, Father Brown (early
+  collections only — check each story's date).
+- **Plays** — Shakespeare (*Hamlet*, *Macbeth*, a scene each), Wilde
+  (*The Importance of Being Earnest*), Chekhov (*The Cherry Orchard*),
+  Ibsen (*A Doll's House*). **NB:** dialogue needs a different lesson
+  template than the prose `StorySentence[][]` shape — speaker labels, and
+  comprehension that turns on who says what. Design that before building
+  the first play.
+- **Poetry** — already flagged (Sonnet 43, row 73); a poem is its own
+  shape too.

@@ -110,7 +110,12 @@ export function LandingClient() {
             {t("landingCtaSecondary")}
           </Link>
         </div>
-        <p className="mt-4 text-xs text-charcoal/45">{t("landingTrust")}</p>
+        {CLASSICS_COUNT > 0 && (
+          <p className="mt-4 text-sm font-medium text-rose/80">
+            {t("landingHeroCount").replace("{count}", String(CLASSICS_COUNT))}
+          </p>
+        )}
+        <p className="mt-2 text-xs text-charcoal/45">{t("landingTrust")}</p>
       </section>
 
       {/* A look at the reader + flashcards */}
@@ -171,8 +176,11 @@ export function LandingClient() {
           <h2 className="text-center font-serif text-2xl font-semibold text-charcoal">
             {t("landingClassicsTitle")}
           </h2>
-          <p className="mx-auto mb-6 mt-1.5 max-w-[36ch] text-center text-sm text-charcoal/55">
-            {t("landingClassicsBody")}
+          <p className="mx-auto mt-1.5 max-w-[36ch] text-center text-sm font-medium text-rose/80">
+            {t("landingClassicsPopular")}
+          </p>
+          <p className="mx-auto mb-6 mt-1.5 max-w-[42ch] text-center text-sm text-charcoal/55">
+            {t("landingClassicsBody").replace("{count}", String(CLASSICS_COUNT))}
           </p>
           <div className="grid grid-cols-2 gap-3">
             {FEATURED.slice(0, 4).map((lesson) => (

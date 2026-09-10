@@ -111,12 +111,23 @@ export function koStemCandidates(w: string): string[] {
   if (haMatch && haMatch[1]) add(haMatch[1] + "하다");
   if (w === "해" || w.endsWith("해")) add(w.slice(0, -1) + "하다");
 
-  // Fused past / ─어 stem anywhere near the end (말했어요 → 말 + 하 + 다).
-  for (let cut = w.length - 1; cut >= 1; cut -= 1) {
+  // Fused past / ─어 stem anywhere in the word, first syllable included
+  // (말했어요 → 말 + 하 + 다; 갔고 → 가 + 다; 왔어요 → 오 + 다).
+  for (let cut = w.length - 1; cut >= 0; cut -= 1) {
     if (FUSED[w[cut]]) {
       add(w.slice(0, cut) + FUSED[w[cut]] + "다");
       break;
     }
+  }
+
+  // Plural 들, with or without a trailing particle (공주들 → 공주,
+  // 아이들에게 → 아이, 나무들이 → 나무).
+  const plural = w.match(
+    /^(.+?)들(은|는|이|가|을|를|에|의|에게|에게서|도|만|과|와|께|로|으로|처럼|보다|까지|부터)?$/,
+  );
+  if (plural && plural[1].length >= 1) {
+    add(plural[1]);
+    add(plural[1] + "다");
   }
 
   // Irregular adjective / adnominal forms.
@@ -145,6 +156,34 @@ export function koStemCandidates(w: string): string[] {
       const swapped = rieulToDigeut(residue);
       if (swapped) add(swapped + "다");
     }
+  }
+
+  // ─지다 inchoative / passive: 쏟아져 → 쏟아지다, 슬퍼졌고 → 슬퍼지다,
+  // 만들어집니다 → 만들어지다. (Bare 지 needs a following char, so 가지/바지
+  // are left to the verbatim pass.)
+  const jida = w.match(/^(.+?)(져|졌[다고는지만어요며]*|지[고는며면지답]|집니다)$/);
+  if (jida && jida[1] && /[가-힣]$/.test(jida[1])) add(jida[1] + "지다");
+
+  // Nominaliser ‑기 (+ optional particle): 긁어내기 → 긁어내다, 크기만을 → 크다.
+  const gi = w.match(/^(.+?)기(도|만|만을|만은|에|에는|로|로는|는|가|를|의)?$/);
+  if (gi && gi[1] && /[가-힣]$/.test(gi[1])) {
+    add(gi[1] + "다");
+    if (endsOpen(gi[1])) add(gi[1] + "다");
+  }
+
+  // Copula on a noun → the noun: 친구인 → 친구, 의붓딸이었어요 → 의붓딸,
+  // 운동선수였던 → 운동선수. (The surface form is tried first, so real nouns
+  // like 노인/주인 still resolve directly.)
+  const cop = w.match(/^(.+?)(인|이었[다고던어요습니다는지]*|였[다고던어요습니다는지]*|이라는|이라고|이라|이던|이고)$/);
+  if (cop && cop[1] && /[가-힣]$/.test(cop[1])) add(cop[1]);
+
+  // ㅂ-irregular adjectives: 추워서 → 춥다, 무서워 → 무섭다, 날카로운 → 날카롭다,
+  // 반가웠다 → 반갑다.
+  const bIrr = w.match(/^(.+?)(워서|워도|워야|워|웠[다고던어요습니다]*|운|움)$/);
+  if (bIrr && bIrr[1] && /[가-힣]$/.test(bIrr[1])) {
+    const stem = bIrr[1];
+    const j = jamo(stem[stem.length - 1]);
+    if (j && j[2] === 0) add(stem.slice(0, -1) + syllable(j[0], j[1], 17) + "다"); // 17 = ㅂ
   }
 
   return out;

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Great Gatsby by F. Scott Fitzgerald">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8FB98A"/>
+      <stop offset="1" stop-color="#8FB98A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 172)">
+    <line x1="-60" y1="34" x2="60" y2="34" stroke="#C9A66B" stroke-width="1.3" opacity="0.55"/>
+    <path d="M-60 34 q 30 8 120 0" fill="none" stroke="#C9A66B" stroke-width="1" opacity="0.3"/>
+    <line x1="26" y1="6" x2="26" y2="34" stroke="#C9A66B" stroke-width="1.6"/>
+    <line x1="26" y1="10" x2="40" y2="10" stroke="#C9A66B" stroke-width="1.4"/>
+    <circle cx="40" cy="10" r="16" fill="url(#glow)"/>
+    <circle cx="40" cy="10" r="4.5" fill="#7BAF77" stroke="#5E9A5A" stroke-width="1"/>
+    <path d="M-52 -30 q 52 -22 104 0" fill="none" stroke="#C9A66B" stroke-width="1.1" opacity="0.5"/>
+    <circle cx="-40" cy="-34" r="1.6" fill="#C9A66B"/>
+    <circle cx="-6" cy="-44" r="1.6" fill="#C9A66B"/>
+    <circle cx="30" cy="-40" r="1.6" fill="#C9A66B"/>
+  </g>
+
+  <text x="200" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2C2C2C" letter-spacing="1">The Great Gatsby</text>
+
+  <line x1="150" y1="350" x2="250" y2="350" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="383" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" font-style="italic" fill="#C57B57">A green light across the dark water</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#C57B57" letter-spacing="3">F. SCOTT FITZGERALD</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">FIRST PUBLISHED 1925</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

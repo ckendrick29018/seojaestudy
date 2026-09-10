@@ -406,6 +406,10 @@ export const dict = {
   },
   landingCtaPrimary: { en: "Start reading — it's free", ko: "무료로 읽기 시작하기" },
   landingCtaSecondary: { en: "Browse the classics", ko: "고전 둘러보기" },
+  landingHeroCount: {
+    en: "Now {count} classic stories — and growing every week.",
+    ko: "지금 고전 이야기 {count}편 — 매주 계속 늘고 있어요.",
+  },
   landingTrust: {
     en: "Free first lessons · No sign-up · Works offline",
     ko: "첫 수업 무료 · 가입 불필요 · 오프라인 지원",
@@ -498,9 +502,13 @@ export const dict = {
   },
 
   landingClassicsTitle: { en: "Start with a classic", ko: "고전으로 시작해요" },
+  landingClassicsPopular: {
+    en: "The part our early readers love most.",
+    ko: "얼리 유저들이 가장 좋아하는 코너예요.",
+  },
   landingClassicsBody: {
-    en: "Public-domain stories, retold and translated by us for learners.",
-    ko: "저작권이 만료된 이야기를 학습자를 위해 새로 옮기고 번역했어요.",
+    en: "{count} timeless stories — from Aesop and the Brothers Grimm to Austen, Chekhov, and The Great Gatsby — retold and translated by us for learners.",
+    ko: "이솝과 그림 형제부터 오스틴, 체호프, 『위대한 개츠비』까지 — 시대를 넘어 사랑받는 이야기 {count}편을 학습자를 위해 새로 옮기고 번역했어요.",
   },
   landingClassicsSeeAll: { en: "See all {count} stories", ko: "이야기 {count}편 모두 보기" },
 

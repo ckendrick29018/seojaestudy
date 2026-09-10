@@ -73,6 +73,21 @@ import { COMPREHENSION_KO } from "./comprehension-ko";
  *    long in the public domain.
  *  - "Rilla of Ingleside" is a simplified retelling of Chapter 1 of L. M.
  *    Montgomery's novel (first published 1921, Project Gutenberg #26265).
+ *  - "Mother Holle" retells the Brothers Grimm tale "Frau Holle" (collected
+ *    1812, Project Gutenberg #2591), long in the public domain.
+ *  - "The Golden Key" retells "Der goldene Schlüssel," the short closing tale
+ *    of Grimms' collection (1812, Project Gutenberg #2591), long in the public
+ *    domain — its famous open ending is kept.
+ *  - "The Fir Tree" is a simplified retelling of Hans Christian Andersen's
+ *    tale "Grantræet" (first published 1844, Project Gutenberg #1597); the
+ *    bleak final scene is gently softened.
+ *  - "A White Heron" is a simplified retelling of Sarah Orne Jewett's short
+ *    story (first published 1886 in "A White Heron and Other Stories";
+ *    Sarah Orne Jewett d. 1909, long in the public domain, Project Gutenberg).
+ *  - "The Great Gatsby" is a simplified retelling of the close of Chapter 1 of
+ *    F. Scott Fitzgerald's novel (first published 1925; in the US public
+ *    domain since 2021, and PD in life+70 countries since 2011 — Fitzgerald
+ *    d. 1940 — Project Gutenberg #64317).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -17809,6 +17824,1080 @@ export const lessons: Lesson[] = [
         correctIndex: 1,
         explanation:
           "The shooting was only a few lines of small print about a place none of them could find on a map. Susan called it \"some foreign quarrel\" and turned to the next column, and no one thought of it again — though it was the last summer of the old, safe world.",
+      },
+    ],
+  },
+  {
+    slug: "mother-holle",
+    title: "Mother Holle",
+    titleTranslation: "홀레 아주머니",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "❄️",
+    coverImage: "/covers/mother-holle.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Mother Holle\" (\"Frau Holle,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the kind girl did on her way through Mother Holle's world, and how the two girls were rewarded differently.",
+    paragraphs: [
+      [
+        {
+          id: "mh-1",
+          text: "A widow had two daughters: her own, who was lazy, and a stepdaughter, who was kind and worked hard.",
+          translation:
+            "어느 과부에게 두 딸이 있었어요. 한 명은 게으른 친딸이었고, 다른 한 명은 착하고 부지런한 의붓딸이었어요.",
+        },
+        {
+          id: "mh-2",
+          text: "The stepdaughter did all the work. Every day she sat by the well and spun thread until her fingers hurt.",
+          translation:
+            "의붓딸이 모든 일을 다 했어요. 날마다 우물가에 앉아 손가락이 아플 때까지 실을 자았어요.",
+        },
+        {
+          id: "mh-3",
+          text: "One day the spindle slipped from her hand and fell deep into the well.",
+          translation:
+            "어느 날 물레가락이 손에서 미끄러져 우물 속 깊이 빠졌어요.",
+        },
+      ],
+      [
+        {
+          id: "mh-4",
+          text: "She was afraid of her stepmother, so she jumped into the water to bring it back.",
+          translation:
+            "그녀는 새어머니가 무서워서, 물레가락을 도로 가져오려고 물속으로 뛰어들었어요.",
+        },
+        {
+          id: "mh-5",
+          text: "She woke in a bright meadow full of flowers, with a path running through it.",
+          translation:
+            "그녀는 꽃이 가득하고 오솔길이 나 있는 환한 풀밭에서 깨어났어요.",
+        },
+        {
+          id: "mh-6",
+          text: "Soon she passed an oven full of bread. \"Take me out, or I will burn!\" it cried, and she took every loaf out.",
+          translation:
+            "얼마 가지 않아 빵이 가득한 화덕을 지났어요. \"날 꺼내 줘, 안 그러면 타 버려!\" 하고 빵이 외쳤고, 그녀는 빵을 하나도 빼놓지 않고 꺼냈어요.",
+        },
+      ],
+      [
+        {
+          id: "mh-7",
+          text: "Next an apple tree called, \"Shake me! My apples are ripe.\" So she shook it until every apple was down.",
+          translation:
+            "다음에는 사과나무가 불렀어요. \"날 흔들어 줘! 사과가 다 익었어.\" 그래서 그녀는 사과가 모두 떨어질 때까지 나무를 흔들었어요.",
+        },
+        {
+          id: "mh-8",
+          text: "At last she came to a little house where an old woman with very big teeth looked out.",
+          translation:
+            "마침내 그녀는 이가 아주 큰 노파가 내다보고 있는 작은 집에 이르렀어요.",
+        },
+        {
+          id: "mh-9",
+          text: "The girl was frightened and wanted to run away.",
+          translation: "소녀는 겁이 나서 달아나고 싶었어요.",
+        },
+      ],
+      [
+        {
+          id: "mh-10",
+          text: "But the woman said kindly, \"Stay with me. If you keep my house well, you will be happy here. I am Mother Holle.\"",
+          translation:
+            "하지만 노파가 다정하게 말했어요. \"나와 함께 지내자. 내 집안일을 잘 해 주면 여기서 행복할 거야. 나는 홀레 아주머니란다.\"",
+        },
+        {
+          id: "mh-11",
+          text: "\"Most of all, shake my feather bed hard, so the feathers fly. Then it snows in the world.\"",
+          translation:
+            "\"무엇보다도 내 깃털 이불을 세게 털어서 깃털이 날리게 해 다오. 그러면 세상에 눈이 내린단다.\"",
+        },
+        {
+          id: "mh-12",
+          text: "The girl stayed and worked hard, and Mother Holle was always good to her.",
+          translation:
+            "소녀는 그곳에 머물며 열심히 일했고, 홀레 아주머니는 늘 그녀에게 잘해 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "mh-13",
+          text: "But after a while she grew sad and missed her home.",
+          translation: "그런데 얼마 지나자 그녀는 슬퍼졌고 집이 그리워졌어요.",
+        },
+        {
+          id: "mh-14",
+          text: "\"You have served me well,\" said Mother Holle. \"I will take you home myself.\"",
+          translation:
+            "\"나를 잘 섬겨 주었구나.\" 하고 홀레 아주머니가 말했어요. \"내가 직접 너를 집에 데려다주마.\"",
+        },
+        {
+          id: "mh-15",
+          text: "She led her to a great gate. As the girl walked through, gold rained down and covered her from head to foot, and the lost spindle was handed back.",
+          translation:
+            "노파는 그녀를 커다란 문으로 데려갔어요. 소녀가 그 문을 지나갈 때, 금이 비처럼 쏟아져 머리끝부터 발끝까지 뒤덮었고, 잃어버렸던 물레가락도 되돌려받았어요.",
+        },
+      ],
+      [
+        {
+          id: "mh-16",
+          text: "When she came home shining with gold, her stepmother wanted the same for her own lazy daughter, and sent her to the well.",
+          translation:
+            "그녀가 금빛으로 반짝이며 집에 돌아오자, 새어머니는 게으른 친딸에게도 똑같이 해 주고 싶어서 딸을 우물로 보냈어요.",
+        },
+        {
+          id: "mh-17",
+          text: "But the lazy girl let the bread burn, left the apples on the tree, and soon would not work at all.",
+          translation:
+            "하지만 게으른 딸은 빵이 타게 내버려 두고, 사과도 나무에 그대로 두었으며, 곧 아무 일도 하려 들지 않았어요.",
+        },
+        {
+          id: "mh-18",
+          text: "So Mother Holle sent her home. At the gate, a pot of black pitch poured over her instead of gold, and it never washed off as long as she lived.",
+          translation:
+            "그래서 홀레 아주머니는 그녀를 집으로 돌려보냈어요. 문 앞에서 금 대신 검은 역청 한 솥이 쏟아졌고, 그것은 그녀가 사는 내내 결코 씻겨 나가지 않았답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mh-v1",
+        term: "spin",
+        partOfSpeech: "verb",
+        translation: "(실을) 잣다",
+        example: "She sat by the well and spun thread all day.",
+        exampleTranslation: "그녀는 우물가에 앉아 온종일 실을 자았어요.",
+      },
+      {
+        id: "mh-v2",
+        term: "meadow",
+        partOfSpeech: "noun",
+        translation: "풀밭, 초원",
+        example: "She woke in a bright meadow full of flowers.",
+        exampleTranslation: "그녀는 꽃이 가득한 환한 풀밭에서 깨어났어요.",
+      },
+      {
+        id: "mh-v3",
+        term: "ripe",
+        partOfSpeech: "adjective",
+        translation: "잘 익은",
+        example: "\"Shake me! My apples are ripe.\"",
+        exampleTranslation: "\"날 흔들어 줘! 사과가 다 익었어.\"",
+      },
+      {
+        id: "mh-v4",
+        term: "pitch",
+        partOfSpeech: "noun",
+        translation: "역청, 검은 타르",
+        example: "A pot of black pitch poured over her.",
+        exampleTranslation: "검은 역청 한 솥이 그녀에게 쏟아졌어요.",
+      },
+      {
+        id: "mh-v5",
+        term: "widow",
+        partOfSpeech: "noun",
+        translation: "과부, 홀어머니",
+        example: "A widow had two daughters.",
+        exampleTranslation: "어느 과부에게 두 딸이 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mh-q1",
+        prompt: "Why did the kind girl jump into the well?",
+        options: [
+          "She wanted to see the meadow on the other side.",
+          "She had dropped the spindle in and was afraid of her stepmother.",
+          "Mother Holle had called her down.",
+          "She was trying to catch a fish.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The spindle slipped from her hand into the deep well. Because she feared her stepmother's anger, she jumped in after it — and woke in Mother Holle's world.",
+      },
+      {
+        id: "mh-q2",
+        prompt: "What did Mother Holle most want the girl to do?",
+        options: [
+          "Cook sweet porridge every morning.",
+          "Count the gold coins by the gate.",
+          "Shake the feather bed hard, so it snowed in the world.",
+          "Pick all the apples and bake them.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mother Holle asked her to keep house, and above all to shake the feather bed until the feathers flew — because that is what makes snow fall down in our world.",
+      },
+      {
+        id: "mh-q3",
+        prompt: "How were the two girls rewarded differently at the gate?",
+        options: [
+          "The kind girl got gold; the lazy girl got black pitch that never came off.",
+          "Both girls were covered in gold.",
+          "The kind girl got apples; the lazy girl got bread.",
+          "The lazy girl got gold because she went second.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Work was repaid in kind. The hardworking girl walked through the gate under a rain of gold; the lazy girl, who had done almost nothing, was covered in pitch that stayed on her for life.",
+      },
+    ],
+  },
+  {
+    slug: "the-golden-key",
+    title: "The Golden Key",
+    titleTranslation: "황금 열쇠",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🗝️",
+    coverImage: "/covers/the-golden-key.svg",
+    source:
+      "Adapted from \"The Golden Key\" (\"Der goldene Schlüssel\"), the short closing tale of the Brothers Grimm's collection (1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale's famous open ending is kept.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the boy found under the snow, and explain why the story does not tell us what was inside the box.",
+    paragraphs: [
+      [
+        {
+          id: "gk-1",
+          text: "It was deep winter, and the snow lay thick over everything.",
+          translation: "한겨울이었고, 온 세상에 눈이 두껍게 쌓여 있었어요.",
+        },
+        {
+          id: "gk-2",
+          text: "A poor boy had to go out on his sledge to fetch wood.",
+          translation: "가난한 소년이 썰매를 끌고 나가 땔나무를 해 와야 했어요.",
+        },
+        {
+          id: "gk-3",
+          text: "When he had gathered the wood and piled it on, he was so cold that he did not want to go straight home.",
+          translation:
+            "나무를 모아 썰매에 잔뜩 실었을 때, 소년은 너무 추워서 곧장 집에 가고 싶지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "gk-4",
+          text: "He thought he would make a fire first and warm himself a little.",
+          translation: "그는 먼저 불을 피워 몸을 조금 녹여야겠다고 생각했어요.",
+        },
+        {
+          id: "gk-5",
+          text: "So he began to scrape away the snow, and there on the bare ground he found a small golden key.",
+          translation:
+            "그래서 그는 눈을 긁어내기 시작했고, 드러난 맨땅 위에서 작은 황금 열쇠를 발견했어요.",
+        },
+        {
+          id: "gk-6",
+          text: "\"Where there is a key,\" he thought, \"there must be a lock as well.\"",
+          translation:
+            "\"열쇠가 있는 곳에는,\" 하고 그는 생각했어요. \"틀림없이 자물쇠도 있을 거야.\"",
+        },
+      ],
+      [
+        {
+          id: "gk-7",
+          text: "He dug down into the earth, and he found a little iron box.",
+          translation: "그는 땅을 파 내려갔고, 작은 쇠 상자를 찾아냈어요.",
+        },
+        {
+          id: "gk-8",
+          text: "\"If only the key fits!\" he said. \"A box like this must hold something precious.\"",
+          translation:
+            "\"이 열쇠가 맞기만 하다면!\" 하고 그가 말했어요. \"이런 상자라면 분명 귀한 것이 들어 있을 거야.\"",
+        },
+        {
+          id: "gk-9",
+          text: "He looked all over it, but at first he could not find any keyhole at all.",
+          translation:
+            "그는 상자를 구석구석 살폈지만, 처음에는 열쇠 구멍을 도무지 찾을 수 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "gk-10",
+          text: "At last he found one, but it was so small he could hardly see it.",
+          translation:
+            "마침내 하나를 찾았는데, 너무 작아서 거의 보이지 않을 정도였어요.",
+        },
+        {
+          id: "gk-11",
+          text: "He tried the key, and it fitted the hole exactly.",
+          translation: "그가 열쇠를 넣어 보니, 구멍에 꼭 맞았어요.",
+        },
+        {
+          id: "gk-12",
+          text: "Then he turned it once, all the way around.",
+          translation: "그러고 나서 그는 열쇠를 한 바퀴 돌렸어요.",
+        },
+      ],
+      [
+        {
+          id: "gk-13",
+          text: "And now we must wait until he has turned it again and lifted the lid.",
+          translation:
+            "그리고 이제 우리는 그가 열쇠를 한 번 더 돌려 뚜껑을 들어 올릴 때까지 기다려야 해요.",
+        },
+        {
+          id: "gk-14",
+          text: "Only then will we know what wonderful things are lying inside that box.",
+          translation:
+            "그때가 되어야 우리는 그 상자 안에 어떤 놀라운 것들이 들어 있는지 알게 될 거예요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "gk-v1",
+        term: "fetch",
+        partOfSpeech: "verb",
+        translation: "가서 가져오다",
+        example: "He went out on his sledge to fetch wood.",
+        exampleTranslation: "그는 썰매를 끌고 나가 땔나무를 해 왔어요.",
+      },
+      {
+        id: "gk-v2",
+        term: "sledge",
+        partOfSpeech: "noun",
+        translation: "썰매",
+        example: "A poor boy pulled his sledge through the snow.",
+        exampleTranslation: "가난한 소년이 눈밭에서 썰매를 끌었어요.",
+      },
+      {
+        id: "gk-v3",
+        term: "scrape",
+        partOfSpeech: "verb",
+        translation: "긁어내다",
+        example: "He began to scrape away the snow.",
+        exampleTranslation: "그는 눈을 긁어내기 시작했어요.",
+      },
+      {
+        id: "gk-v4",
+        term: "precious",
+        partOfSpeech: "adjective",
+        translation: "귀중한, 소중한",
+        example: "The box must hold something precious.",
+        exampleTranslation: "그 상자에는 분명 귀한 것이 들어 있을 거예요.",
+      },
+      {
+        id: "gk-v5",
+        term: "lid",
+        partOfSpeech: "noun",
+        translation: "뚜껑",
+        example: "We must wait until he lifts the lid.",
+        exampleTranslation: "우리는 그가 뚜껑을 들어 올릴 때까지 기다려야 해요.",
+      },
+    ],
+    questions: [
+      {
+        id: "gk-q1",
+        prompt: "Why did the boy not go straight home with the wood?",
+        options: [
+          "He was lost in the forest.",
+          "He was very cold and wanted to build a fire to warm up first.",
+          "His sledge was broken.",
+          "He heard someone calling him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He had loaded all the wood, but he was frozen through, so he decided to make a fire and warm himself before setting off home.",
+      },
+      {
+        id: "gk-q2",
+        prompt: "What did the boy find when he cleared the snow and dug into the ground?",
+        options: [
+          "A pile of dry wood.",
+          "A frozen bird.",
+          "First a small golden key, then a little iron box.",
+          "A ring of silver coins.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Scraping the snow away, he found a small golden key on the bare ground. Sure that a key means a lock, he dug down and uncovered a little iron box.",
+      },
+      {
+        id: "gk-q3",
+        prompt: "Why doesn't the story tell us what was inside the box?",
+        options: [
+          "The box turned out to be empty.",
+          "The boy lost the key before he could open it.",
+          "The tale stops after he turns the key once, leaving the box still shut.",
+          "The narrator forgot the ending.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "This is the last, shortest tale in the Grimms' book, and it ends on purpose before the lid is lifted. The boy has turned the key just once, so the wonderful things inside stay a mystery.",
+      },
+    ],
+  },
+  {
+    slug: "the-fir-tree",
+    title: "The Fir Tree",
+    titleTranslation: "전나무",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🌲",
+    coverImage: "/covers/the-fir-tree.svg",
+    source:
+      "Adapted from Hans Christian Andersen's tale \"The Fir Tree\" (\"Grantræet,\" first published 1844; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story; the bleak final scene is gently softened.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what the fir tree wished for, and what it understood too late in the cold attic.",
+    paragraphs: [
+      [
+        {
+          id: "ft-1",
+          text: "In the forest stood a pretty little fir tree, with sun, fresh air, and taller trees all around.",
+          translation:
+            "숲속에 예쁜 작은 전나무 한 그루가 서 있었어요. 햇빛과 맑은 공기가 있고, 주위에는 키 큰 나무들이 둘러서 있었지요.",
+        },
+        {
+          id: "ft-2",
+          text: "But the little tree was never happy. It wanted only one thing: to be tall.",
+          translation:
+            "하지만 어린나무는 조금도 행복하지 않았어요. 오직 한 가지, 키가 크기만을 바랐지요.",
+        },
+        {
+          id: "ft-3",
+          text: "\"Enjoy being young,\" said the sunbeams. \"Enjoy growing.\" But the fir tree did not listen.",
+          translation:
+            "\"어린 시절을 즐기렴.\" 하고 햇살이 말했어요. \"자라나는 걸 즐기렴.\" 하지만 전나무는 듣지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ft-4",
+          text: "Each winter, men came and cut down the biggest trees and carried them away.",
+          translation:
+            "겨울마다 사람들이 와서 가장 큰 나무들을 베어 실어 갔어요.",
+        },
+        {
+          id: "ft-5",
+          text: "\"Where do they go?\" the fir tree asked the sparrows.",
+          translation: "\"저 나무들은 어디로 가는 거야?\" 전나무가 참새들에게 물었어요.",
+        },
+        {
+          id: "ft-6",
+          text: "\"We have seen them,\" they said. \"They stand in warm rooms, hung with gold apples, sweets, and a hundred candles.\"",
+          translation:
+            "\"우리가 봤어.\" 참새들이 말했어요. \"따뜻한 방 안에 서서, 금빛 사과와 사탕과 촛불 백 개를 매달고 있더라.\"",
+        },
+      ],
+      [
+        {
+          id: "ft-7",
+          text: "\"How wonderful,\" thought the fir tree. \"I wish it were my turn.\"",
+          translation:
+            "\"정말 멋지다.\" 전나무는 생각했어요. \"내 차례였으면 좋겠어.\"",
+        },
+        {
+          id: "ft-8",
+          text: "The next Christmas, the fir tree was the first to be cut down.",
+          translation:
+            "이듬해 크리스마스에, 전나무가 가장 먼저 베어졌어요.",
+        },
+        {
+          id: "ft-9",
+          text: "It felt a sharp pain as the axe went in, and it was sorry to leave its home.",
+          translation:
+            "도끼가 파고들 때 날카로운 아픔이 느껴졌고, 전나무는 정든 곳을 떠나는 것이 못내 아쉬웠어요.",
+        },
+      ],
+      [
+        {
+          id: "ft-10",
+          text: "But soon it stood in a beautiful room, covered with candles, apples, and paper stars.",
+          translation:
+            "하지만 곧 전나무는 아름다운 방 안에 서서, 촛불과 사과와 종이 별로 뒤덮였어요.",
+        },
+        {
+          id: "ft-11",
+          text: "\"Tonight I will shine!\" the tree thought, trembling with joy.",
+          translation:
+            "\"오늘 밤 나는 빛날 거야!\" 나무는 기쁨에 떨며 생각했어요.",
+        },
+        {
+          id: "ft-12",
+          text: "The candles were lit, the children rushed in, and they pulled every present from its branches.",
+          translation:
+            "촛불이 켜지고, 아이들이 우르르 뛰어 들어와, 나뭇가지에 달린 선물을 하나도 남김없이 떼어 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ft-13",
+          text: "Then everyone left, and no one looked at the tree again.",
+          translation:
+            "그러고는 모두 나가 버렸고, 아무도 다시는 나무를 쳐다보지 않았어요.",
+        },
+        {
+          id: "ft-14",
+          text: "In the morning the servants dragged it up to a dark, cold attic and forgot it there all winter.",
+          translation:
+            "아침이 되자 하인들이 나무를 어둡고 추운 다락으로 끌고 올라가, 겨우내 그곳에 내버려 두고 잊어버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "ft-15",
+          text: "Only the mice came to visit, and the tree told them about the green forest it had once thought too small.",
+          translation:
+            "찾아오는 것은 생쥐들뿐이었고, 나무는 한때 너무 좁다고 여겼던 푸른 숲 이야기를 생쥐들에게 들려주었어요.",
+        },
+        {
+          id: "ft-16",
+          text: "\"I was happy there,\" it said, \"and I never knew it.\"",
+          translation:
+            "\"나는 거기서 행복했어.\" 나무가 말했어요. \"그런데 그걸 전혀 몰랐지.\"",
+        },
+        {
+          id: "ft-17",
+          text: "In spring it was carried out to the garden, its needles yellow now; a child lifted the gold star gently from its top branch to keep, and the tree wished it had been glad of each day while it lasted.",
+          translation:
+            "봄이 되자 나무는 마당으로 옮겨졌고, 이제 잎은 누렇게 시들어 있었어요. 한 아이가 맨 위 가지에서 금빛 별을 살며시 떼어 간직했고, 나무는 하루하루가 이어지는 동안 그 하루하루를 기뻐했더라면 좋았을 텐데, 하고 생각했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ft-v1",
+        term: "fir",
+        partOfSpeech: "noun",
+        translation: "전나무",
+        example: "In the forest stood a pretty little fir tree.",
+        exampleTranslation: "숲속에 예쁜 작은 전나무가 서 있었어요.",
+      },
+      {
+        id: "ft-v2",
+        term: "sparrow",
+        partOfSpeech: "noun",
+        translation: "참새",
+        example: "\"Where do they go?\" the fir tree asked the sparrows.",
+        exampleTranslation: "\"저 나무들은 어디로 가?\" 전나무가 참새들에게 물었어요.",
+      },
+      {
+        id: "ft-v3",
+        term: "trembling",
+        partOfSpeech: "adjective",
+        translation: "떨고 있는",
+        example: "\"Tonight I will shine!\" the tree thought, trembling with joy.",
+        exampleTranslation: "\"오늘 밤 나는 빛날 거야!\" 나무는 기쁨에 떨며 생각했어요.",
+      },
+      {
+        id: "ft-v4",
+        term: "attic",
+        partOfSpeech: "noun",
+        translation: "다락, 다락방",
+        example: "The servants dragged it up to a dark, cold attic.",
+        exampleTranslation: "하인들이 나무를 어둡고 추운 다락으로 끌고 올라갔어요.",
+      },
+      {
+        id: "ft-v5",
+        term: "needle",
+        partOfSpeech: "noun",
+        translation: "(솔)잎, 바늘잎",
+        example: "Its needles were yellow now.",
+        exampleTranslation: "이제 그 잎은 누렇게 시들어 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ft-q1",
+        prompt: "What did the little fir tree want more than anything?",
+        options: [
+          "To stay small and safe in the forest forever.",
+          "To grow tall quickly, instead of enjoying being young.",
+          "To be planted in a warm garden.",
+          "To have the sparrows live in its branches.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The sunbeams told it to enjoy being young and growing, but the fir tree would not listen. It wanted only to be tall, and later to be taken away like the big trees.",
+      },
+      {
+        id: "ft-q2",
+        prompt: "What did the sparrows say happened to the trees that were cut down?",
+        options: [
+          "They were burned for firewood at once.",
+          "They were planted again by the sea.",
+          "They stood in warm rooms, hung with gold apples, sweets, and candles.",
+          "They were made into ships.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The sparrows had seen the cut trees standing indoors, covered with gold apples, sweets, and a hundred little candles. That is the splendour the fir tree began to long for.",
+      },
+      {
+        id: "ft-q3",
+        prompt: "What did the fir tree finally understand in the cold attic?",
+        options: [
+          "That it should have grown even taller.",
+          "That the children would come back for it in spring.",
+          "That it had been happy in the forest all along and had never realised it.",
+          "That the mice would help it get home.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Alone in the dark, telling the mice about the forest, the tree saw that its old home had been a happy place. It had spent all its time wishing, and had never been glad of the days as they passed.",
+      },
+    ],
+  },
+  {
+    slug: "a-white-heron",
+    title: "A White Heron",
+    titleTranslation: "하얀 왜가리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Sarah Orne Jewett (1849–1909)",
+    coverEmoji: "🕊️",
+    coverImage: "/covers/a-white-heron.svg",
+    source:
+      "Adapted from Sarah Orne Jewett's short story \"A White Heron\" (first published 1886 in \"A White Heron and Other Stories\"; Sarah Orne Jewett d. 1909, long in the public domain, Project Gutenberg). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the hunter wanted from Sylvia, what she did at dawn, and the choice she made when she came home.",
+    paragraphs: [
+      [
+        {
+          id: "awh-1",
+          text: "Sylvia was nine years old, and for a year now she had lived with her grandmother on a small farm deep in the woods.",
+          translation:
+            "실비아는 아홉 살이었고, 이제 일 년째 숲 깊숙한 곳의 작은 농장에서 할머니와 함께 살고 있었어요.",
+        },
+        {
+          id: "awh-2",
+          text: "Before that she had lived in a crowded factory town, and she still could hardly believe her luck at being here, among the trees and the quiet.",
+          translation:
+            "그전에는 붐비는 공장 마을에서 살았기에, 나무와 고요함에 둘러싸인 이곳에 있다는 것이 아직도 좀처럼 믿기지 않을 만큼 행운으로 느껴졌어요.",
+        },
+        {
+          id: "awh-3",
+          text: "Every evening it was her task to bring the old cow home, and she was never in a hurry, for the woods themselves were company enough.",
+          translation:
+            "저녁마다 늙은 소를 몰고 집에 오는 것이 그녀의 일이었는데, 그녀는 조금도 서두르지 않았어요. 숲 그 자체만으로도 충분한 동무였으니까요.",
+        },
+      ],
+      [
+        {
+          id: "awh-4",
+          text: "One evening a young man stepped out of the trees, carrying a gun. He was friendly, but Sylvia was frightened, for men with guns had always seemed rough to her.",
+          translation:
+            "어느 저녁, 총을 든 젊은 남자가 나무 사이에서 걸어 나왔어요. 그는 상냥했지만 실비아는 겁이 났어요. 총을 든 남자들은 늘 거칠게만 느껴졌으니까요.",
+        },
+        {
+          id: "awh-5",
+          text: "He was a hunter of birds, he explained; he shot them, and kept them, and knew all their names.",
+          translation:
+            "그는 자기가 새를 잡는 사람이라고 설명했어요. 새를 쏘아 잡아서 간직하고, 새들의 이름을 모두 안다고요.",
+        },
+        {
+          id: "awh-6",
+          text: "Sylvia's grandmother gave him a bed for the night and talked freely about the farm and the birds nearby.",
+          translation:
+            "실비아의 할머니는 그에게 하룻밤 잠자리를 내주고, 농장과 근처 새들에 대해 스스럼없이 이야기했어요.",
+        },
+      ],
+      [
+        {
+          id: "awh-7",
+          text: "There was one bird, the young man said, that he wanted above all others: a white heron he had seen near the salt marsh two summers before.",
+          translation:
+            "그 젊은이는 무엇보다도 갖고 싶은 새가 한 마리 있다고 했어요. 두 해 전 여름, 염습지 근처에서 본 하얀 왜가리였지요.",
+        },
+        {
+          id: "awh-8",
+          text: "He would give ten dollars, he said, to anyone who could show him where it made its nest.",
+          translation:
+            "그 새가 어디에 둥지를 트는지 알려 주는 사람에게는 십 달러를 주겠다고 그는 말했어요.",
+        },
+        {
+          id: "awh-9",
+          text: "Ten dollars was a fortune. Sylvia thought of all it could buy, and she said nothing, but she knew the bird.",
+          translation:
+            "십 달러는 큰돈이었어요. 실비아는 그 돈으로 살 수 있는 온갖 것을 떠올리며 아무 말도 하지 않았지만, 그녀는 그 새를 알고 있었어요.",
+        },
+        {
+          id: "awh-10",
+          text: "She had seen it once, a tall white shape rising from the dark green reeds, and she thought she knew the very tree it flew home to.",
+          translation:
+            "언젠가 한 번, 짙푸른 갈대밭에서 솟아오르는 키 큰 흰 형체를 본 적이 있었고, 그 새가 집으로 삼아 날아드는 바로 그 나무를 안다고 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "awh-11",
+          text: "Before the sun was up the next morning, Sylvia slipped out of the house alone.",
+          translation:
+            "이튿날 해가 뜨기도 전에, 실비아는 혼자 살그머니 집을 빠져나왔어요.",
+        },
+        {
+          id: "awh-12",
+          text: "At the edge of the woods stood a great pine, the tallest tree for miles, and she meant to climb it and look out over the whole country.",
+          translation:
+            "숲 가장자리에 커다란 소나무 한 그루가 서 있었는데, 몇 마일 안에서 가장 높은 나무였어요. 그녀는 그 나무에 올라 온 들판을 굽어볼 작정이었지요.",
+        },
+        {
+          id: "awh-13",
+          text: "The climb was long and dangerous; the rough bark tore her hands, and the branches grew thin and swayed under her.",
+          translation:
+            "오르는 길은 길고 위험했어요. 거친 나무껍질에 손이 쓸렸고, 가지들은 위로 갈수록 가늘어져 그녀의 무게에 흔들렸어요.",
+        },
+      ],
+      [
+        {
+          id: "awh-14",
+          text: "But at last she reached the top, and the world opened out below her — miles of green woods, and far off, the sea turning gold in the sunrise.",
+          translation:
+            "하지만 마침내 꼭대기에 다다르자, 발아래로 세상이 펼쳐졌어요. 몇 마일에 걸친 푸른 숲, 그리고 저 멀리, 동틀 녘에 금빛으로 물드는 바다가요.",
+        },
+        {
+          id: "awh-15",
+          text: "Then she saw it: the white heron, flying up from a dead tree below her, floating past on wide wings, and settling on a branch to call to its mate.",
+          translation:
+            "그때 그녀는 그것을 보았어요. 발아래 죽은 나무에서 날아오른 하얀 왜가리가, 넓은 날개로 미끄러지듯 지나가더니, 한 가지에 내려앉아 짝을 불렀어요.",
+        },
+        {
+          id: "awh-16",
+          text: "Now she knew. She had the secret, and she could give it to the hunter, and he would be glad, and the ten dollars would be hers.",
+          translation:
+            "이제 그녀는 알았어요. 비밀을 손에 쥐었고, 그것을 사냥꾼에게 줄 수도 있었어요. 그러면 그는 기뻐할 테고, 십 달러는 그녀의 것이 될 터였지요.",
+        },
+      ],
+      [
+        {
+          id: "awh-17",
+          text: "But when she came home, and her grandmother scolded her, and the young man looked at her with his kind, hopeful eyes, Sylvia stood silent and would not speak.",
+          translation:
+            "하지만 집에 돌아와 할머니가 그녀를 나무라고, 젊은이가 다정하고 기대에 찬 눈으로 바라보았을 때, 실비아는 잠자코 서서 끝내 입을 열지 않았어요.",
+        },
+        {
+          id: "awh-18",
+          text: "She could not tell. The heron had shown her the golden light and the sea, and she would keep its life a secret, though the woods might be lonelier for the friend she had let go.",
+          translation:
+            "그녀는 말할 수 없었어요. 왜가리는 그녀에게 금빛 햇살과 바다를 보여 주었고, 그녀는 그 새의 목숨을 비밀로 지키려 했어요. 떠나보낸 그 친구 때문에 숲이 더 외로워질지라도요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "awh-v1",
+        term: "heron",
+        partOfSpeech: "noun",
+        translation: "왜가리",
+        example: "He wanted a white heron he had seen near the marsh.",
+        exampleTranslation: "그는 습지 근처에서 본 하얀 왜가리를 갖고 싶어 했어요.",
+      },
+      {
+        id: "awh-v2",
+        term: "marsh",
+        partOfSpeech: "noun",
+        translation: "습지, 늪",
+        example: "He had seen it near the salt marsh two summers before.",
+        exampleTranslation: "그는 두 해 전 여름 염습지 근처에서 그것을 보았어요.",
+      },
+      {
+        id: "awh-v3",
+        term: "fortune",
+        partOfSpeech: "noun",
+        translation: "큰돈, 재산",
+        example: "Ten dollars was a fortune.",
+        exampleTranslation: "십 달러는 큰돈이었어요.",
+      },
+      {
+        id: "awh-v4",
+        term: "bark",
+        partOfSpeech: "noun",
+        translation: "나무껍질",
+        example: "The rough bark tore her hands.",
+        exampleTranslation: "거친 나무껍질에 그녀의 손이 쓸렸어요.",
+      },
+      {
+        id: "awh-v5",
+        term: "scold",
+        partOfSpeech: "verb",
+        translation: "꾸짖다, 나무라다",
+        example: "Her grandmother scolded her when she came home.",
+        exampleTranslation: "집에 돌아오자 할머니가 그녀를 나무랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "awh-q1",
+        prompt: "Why did the young hunter offer ten dollars?",
+        options: [
+          "To pay for his bed and meals at the farm.",
+          "To buy the old cow from Sylvia's grandmother.",
+          "For anyone who could show him where the rare white heron nested.",
+          "To hire Sylvia as a guide for the whole summer.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The one bird he wanted above all was the white heron he had glimpsed near the marsh. He promised ten dollars — a fortune to Sylvia — to whoever could lead him to its nest.",
+      },
+      {
+        id: "awh-q2",
+        prompt: "What did Sylvia do before dawn, and why?",
+        options: [
+          "She hid the hunter's gun so he could not shoot the bird.",
+          "She climbed the tallest pine tree alone to see over the woods and find where the heron nested.",
+          "She went to the marsh to frighten the heron away.",
+          "She ran to the next farm to ask for help.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Slipping out alone, Sylvia climbed the great pine at the edge of the woods. From the top she could see for miles — the sea, the sunrise, and the heron rising from a dead tree and settling on its nest.",
+      },
+      {
+        id: "awh-q3",
+        prompt: "What did Sylvia decide when she got home?",
+        options: [
+          "She told the hunter exactly where the nest was and took the money.",
+          "She asked her grandmother to tell him instead.",
+          "She stayed silent and kept the heron's secret, even though it cost her the money and the man's friendship.",
+          "She promised to show him the nest the next morning.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Though her grandmother scolded her and the young man's kind eyes were full of hope, Sylvia would not speak. The heron had shown her the golden light and the sea, and she chose to protect its life over the ten dollars.",
+      },
+    ],
+  },
+  {
+    slug: "the-great-gatsby",
+    title: "The Great Gatsby",
+    titleTranslation: "위대한 개츠비",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "F. Scott Fitzgerald (1896–1940)",
+    coverEmoji: "🟢",
+    coverImage: "/covers/the-great-gatsby.svg",
+    source:
+      "Adapted from the close of Chapter 1 of F. Scott Fitzgerald's novel \"The Great Gatsby\" (first published 1925; in the US public domain since 2021 and PD in life+70 countries since 2011, Fitzgerald d. 1940; Project Gutenberg #64317). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the mood of the evening at the Buchanans', and explain what Nick saw Gatsby doing at the end.",
+    paragraphs: [
+      [
+        {
+          id: "gat-1",
+          text: "That summer I rented a small house in a place called West Egg, on a narrow strip of land outside New York.",
+          translation:
+            "그해 여름 나는 뉴욕 외곽의 좁고 길쭉한 땅, 웨스트에그라는 곳에 작은 집을 한 채 빌렸어요.",
+        },
+        {
+          id: "gat-2",
+          text: "My name is Nick Carraway, and I had come east to learn the bond business and, I suppose, to start my life over.",
+          translation:
+            "내 이름은 닉 캐러웨이이고, 나는 채권 일을 배우러, 그리고 아마도 인생을 다시 시작하려고 동부로 왔어요.",
+        },
+        {
+          id: "gat-3",
+          text: "Next door stood an enormous mansion, all towers and bright lawns, that belonged to a man named Gatsby — though I had never met him, and knew nothing about him.",
+          translation:
+            "바로 옆에는 탑과 환한 잔디밭으로 이루어진 거대한 저택이 서 있었는데, 개츠비라는 사람의 것이었어요. 그를 만난 적도, 그에 대해 아는 것도 전혀 없었지만요.",
+        },
+      ],
+      [
+        {
+          id: "gat-4",
+          text: "One evening I drove across the bay to have dinner with my cousin Daisy and her husband, Tom Buchanan, whom I had known slightly at college.",
+          translation:
+            "어느 저녁 나는 만 건너편으로 차를 몰고 가, 사촌 데이지와 그녀의 남편 톰 뷰캐넌과 저녁을 먹었어요. 톰은 대학 시절 조금 알던 사이였어요.",
+        },
+        {
+          id: "gat-5",
+          text: "Their house was even grander than Gatsby's, and Tom, once a famous athlete, now had the restless, aggressive manner of a man who expects the best years to be behind him.",
+          translation:
+            "그들의 집은 개츠비의 저택보다도 웅장했고, 한때 이름난 운동선수였던 톰은 이제 가장 좋은 시절이 이미 지나갔다고 여기는 사람 특유의 불안하고 공격적인 태도를 지니고 있었어요.",
+        },
+        {
+          id: "gat-6",
+          text: "Daisy was lovely and laughed easily, but there was a sadness under her charm, as if she were waiting for something that would never quite arrive.",
+          translation:
+            "데이지는 사랑스럽고 잘 웃었지만, 그 매력 아래에는 슬픔이 깔려 있었어요. 마치 끝내 오지 않을 무언가를 기다리고 있는 것처럼요.",
+        },
+        {
+          id: "gat-7",
+          text: "A friend of hers, a cool young woman named Jordan Baker, lay on the sofa as though the house belonged to her.",
+          translation:
+            "그녀의 친구인 조던 베이커라는 냉담한 젊은 여자는, 마치 그 집이 제 것이라도 되는 양 소파에 누워 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "gat-8",
+          text: "Over dinner the talk moved restlessly from horses to servants to books, and twice the telephone rang, and Tom left the table to answer it.",
+          translation:
+            "저녁을 먹는 동안 화제는 말에서 하인으로, 다시 책으로 어수선하게 옮겨 다녔고, 전화가 두 번 울리자 톰은 받으러 자리를 떴어요.",
+        },
+        {
+          id: "gat-9",
+          text: "When he was gone, Daisy said in a low voice that her life was empty, and that she hoped her little daughter would grow up to be \"a beautiful little fool.\"",
+          translation:
+            "그가 자리를 비운 사이, 데이지는 낮은 목소리로 자기 삶이 공허하다고, 그리고 어린 딸이 자라서 \"아름답고 작은 바보\"가 되면 좋겠다고 말했어요.",
+        },
+        {
+          id: "gat-10",
+          text: "She said it lightly, but she meant it, and it made me uncomfortable, as if the whole evening had been a trick to make me feel something for her.",
+          translation:
+            "그녀는 가볍게 말했지만 진심이었고, 나는 마음이 불편해졌어요. 마치 그날 저녁 전체가 내게서 그녀를 향한 어떤 감정을 끌어내려는 수작이었던 것처럼요.",
+        },
+      ],
+      [
+        {
+          id: "gat-11",
+          text: "I drove home confused and a little disgusted, and glad to be back among my own overgrown grass and quiet.",
+          translation:
+            "나는 혼란스럽고 조금 정이 떨어진 채로 집에 돌아왔고, 제멋대로 자란 내 잔디와 고요함 속으로 돌아온 것이 다행스러웠어요.",
+        },
+        {
+          id: "gat-12",
+          text: "The lights of my neighbour's house were off, but I was not alone in the dark.",
+          translation:
+            "이웃집의 불은 꺼져 있었지만, 어둠 속에 있는 것은 나 혼자가 아니었어요.",
+        },
+        {
+          id: "gat-13",
+          text: "Fifty feet away, a figure had come out onto the lawn and was standing with his hands in his pockets, looking up at the stars.",
+          translation:
+            "오십 피트쯤 떨어진 곳에, 한 형체가 잔디밭으로 나와 주머니에 손을 넣은 채 서서 별을 올려다보고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "gat-14",
+          text: "Something in his calm, easy way of standing told me it was Gatsby himself.",
+          translation:
+            "차분하고 느긋하게 선 그 자세의 무언가가, 그가 바로 개츠비임을 내게 알려 주었어요.",
+        },
+        {
+          id: "gat-15",
+          text: "I nearly called out to him, but I did not, because he gave a sudden sign that he wished to be alone.",
+          translation:
+            "나는 그를 부를 뻔했지만 그러지 않았어요. 그가 혼자 있고 싶다는 뜻을 불쑥 내비쳤기 때문이에요.",
+        },
+        {
+          id: "gat-16",
+          text: "He stretched out his arms toward the dark water across the bay, and though I was far off, I thought he was trembling.",
+          translation:
+            "그는 만 건너편의 검은 물을 향해 두 팔을 뻗었고, 나는 멀리 있었는데도 그가 떨고 있다고 느꼈어요.",
+        },
+      ],
+      [
+        {
+          id: "gat-17",
+          text: "I looked out too, and saw nothing except a single green light, small and far away, that might have been the end of a dock.",
+          translation:
+            "나도 그쪽을 바라보았지만, 작고 아득한 초록빛 하나 외에는 아무것도 보이지 않았어요. 어느 부두 끝의 불빛이었는지도 몰라요.",
+        },
+        {
+          id: "gat-18",
+          text: "When I looked back, Gatsby was gone, and I was alone again in the quiet darkness.",
+          translation:
+            "다시 고개를 돌렸을 때 개츠비는 사라지고 없었고, 나는 고요한 어둠 속에 다시 혼자였어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "gat-v1",
+        term: "mansion",
+        partOfSpeech: "noun",
+        translation: "대저택",
+        example: "Next door stood an enormous mansion.",
+        exampleTranslation: "바로 옆에 거대한 대저택이 서 있었어요.",
+      },
+      {
+        id: "gat-v2",
+        term: "restless",
+        partOfSpeech: "adjective",
+        translation: "불안한, 가만있지 못하는",
+        example: "Tom had a restless, aggressive manner.",
+        exampleTranslation: "톰은 불안하고 공격적인 태도를 지니고 있었어요.",
+      },
+      {
+        id: "gat-v3",
+        term: "athlete",
+        partOfSpeech: "noun",
+        translation: "운동선수",
+        example: "Tom had once been a famous athlete.",
+        exampleTranslation: "톰은 한때 이름난 운동선수였어요.",
+      },
+      {
+        id: "gat-v4",
+        term: "disgusted",
+        partOfSpeech: "adjective",
+        translation: "정이 떨어진, 넌더리가 난",
+        example: "I drove home confused and a little disgusted.",
+        exampleTranslation: "나는 혼란스럽고 조금 정이 떨어진 채로 집에 돌아왔어요.",
+      },
+      {
+        id: "gat-v5",
+        term: "dock",
+        partOfSpeech: "noun",
+        translation: "부두, 선착장",
+        example: "The green light might have been the end of a dock.",
+        exampleTranslation: "그 초록빛은 어느 부두 끝의 불빛이었는지도 몰라요.",
+      },
+    ],
+    questions: [
+      {
+        id: "gat-q1",
+        prompt: "Why had Nick come east to West Egg?",
+        options: [
+          "To buy a mansion next to Gatsby.",
+          "To learn the bond business and start his life over.",
+          "To visit his cousin Daisy for the summer.",
+          "To work for Tom Buchanan.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Nick explains that he came east to learn the bond business and, he supposes, to begin his life again. He rented a small house in West Egg, right next to Gatsby's huge mansion.",
+      },
+      {
+        id: "gat-q2",
+        prompt: "What did Daisy reveal about herself when Tom left the table?",
+        options: [
+          "That she was planning to leave Tom soon.",
+          "That she had once been in love with Gatsby.",
+          "That her life felt empty, and she hoped her daughter would grow up \"a beautiful little fool.\"",
+          "That she wanted Nick to move in with them.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "With Tom out of the room answering the phone, Daisy spoke quietly of how empty her life felt, and said she hoped her little girl would be \"a beautiful little fool\" — a flash of real unhappiness under her easy charm.",
+      },
+      {
+        id: "gat-q3",
+        prompt: "What did Nick see Gatsby doing at the end of the evening?",
+        options: [
+          "Walking down to the water to swim.",
+          "Standing alone on his lawn, reaching toward the dark water and a single distant green light.",
+          "Waiting on Nick's porch to introduce himself.",
+          "Turning off the lights of his mansion one by one.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Back home in the dark, Nick saw Gatsby come onto his lawn and stretch his arms toward the bay. Across the water there was nothing to see but one small green light, far off at the end of a dock.",
       },
     ],
   },

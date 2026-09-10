@@ -1,3 +1,30 @@
+# Dictionary coverage check
+
+`check-dictionary.ts` replays the story reader's "tap any word" lookup over
+every lesson: it splits each sentence on whitespace and hands every chunk to the
+real offline dictionary (`src/lib/dictionary` — EN→KO for the English body,
+KO→EN + the light stemmer for the Korean), then lists every surface form that
+comes back unglossed.
+
+```bash
+npm run dict:check                         # every lesson
+npx tsx scripts/check-dictionary.ts fir-tree the-great-gatsby   # only these slugs
+npx tsx scripts/check-dictionary.ts --list  # bare "EN<tab>word" / "KO<tab>word" lines
+```
+
+Exit code is the distinct-gap count (0 = clean, capped at 255). **When you add a
+lesson, run it for the new slug(s) and drive both directions to 0** by adding
+the missing words to `en-ko.ts` / `ko-en.ts` (base `-다` / head-word forms where
+the stemmer can fold to them, verbatim inflected forms where it can't).
+
+The EN→KO side is at full coverage for the whole library. The KO→EN side still
+has a large back-log of un-glossable inflected forms on the older lessons
+(Korean is agglutinative and the stemmer is deliberately small) — `npm run
+dict:check` with no args shows the current number. New lessons must not add to
+it.
+
+---
+
 # Audio pre-generation
 
 The "Listen" button and the vocab flashcards read text aloud. Left to the
