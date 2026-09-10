@@ -66,7 +66,10 @@ export const metadata: Metadata = {
     title: "SeoJae Story",
   },
   icons: {
+    // SVG first so desktop browsers render a crisp tab/bookmark mark; the PNGs
+    // stay as fallback for clients that don't take SVG favicons.
     icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
       { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
       { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
@@ -83,10 +86,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} ${notoSansKr.variable} ${notoSerifKr.variable}`}>
-      <body className="bg-cream-dark font-sans text-charcoal antialiased">
+      <body className="app-stage font-sans text-charcoal antialiased">
         <ServiceWorkerRegister />
         <Providers>
-          <div className="mx-auto flex min-h-dvh max-w-app flex-col bg-cream sm:my-6 sm:min-h-[calc(100dvh-3rem)] sm:rounded-xl2 sm:border sm:border-rose-light/60 sm:shadow-soft">
+          <div className="mx-auto flex min-h-dvh max-w-app flex-col bg-cream sm:my-8 sm:min-h-[calc(100dvh-4rem)] sm:rounded-xl2 sm:border sm:border-rose-light sm:shadow-frame">
             <SiteHeader />
             <main className="flex-1">{children}</main>
           </div>

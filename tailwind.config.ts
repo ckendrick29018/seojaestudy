@@ -28,6 +28,11 @@ const config: Config = {
       },
       boxShadow: {
         soft: "0 8px 30px rgba(44, 44, 44, 0.06)",
+        // The desktop app frame: a deeper, wider drop so the fixed-width column
+        // reads as a deliberate device sitting on the stage, not a stray card.
+        frame: "0 24px 64px -20px rgba(44, 44, 44, 0.28), 0 4px 16px -6px rgba(44, 44, 44, 0.08)",
+        // Left-cast lift for the slide-over menu.
+        drawer: "-16px 0 48px -16px rgba(44, 44, 44, 0.3)",
       },
       borderRadius: {
         xl2: "1.25rem",

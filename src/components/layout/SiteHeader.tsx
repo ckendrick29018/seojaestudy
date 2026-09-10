@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { useDaily } from "@/components/providers/DailyProvider";
-import { MenuIcon, StarIcon } from "@/components/ui/icons";
+import { BrandMark, MenuIcon, StarIcon } from "@/components/ui/icons";
 import { MenuDrawer } from "./MenuDrawer";
 
 export function SiteHeader() {
@@ -23,13 +23,18 @@ export function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream/90 px-5 py-4 backdrop-blur">
-        <Link href="/library" className="flex items-baseline gap-2">
-          <span className="font-serif text-xl font-semibold tracking-tight text-charcoal">
-            {t("appName")}
+        <Link href="/library" className="flex items-center gap-2.5">
+          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl2 bg-rose-light/50 text-rose">
+            <BrandMark className="h-5 w-5" />
           </span>
-          {isHome && (
-            <span className="hidden text-xs text-charcoal/50 sm:inline">{t("tagline")}</span>
-          )}
+          <span className="flex items-baseline gap-2">
+            <span className="font-serif text-xl font-semibold tracking-tight text-charcoal">
+              {t("appName")}
+            </span>
+            {isHome && (
+              <span className="hidden text-xs text-charcoal/50 sm:inline">{t("tagline")}</span>
+            )}
+          </span>
         </Link>
 
         <div className="flex items-center gap-1.5">

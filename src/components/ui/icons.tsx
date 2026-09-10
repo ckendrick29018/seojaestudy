@@ -108,6 +108,16 @@ export function UserIcon(props: IconProps) {
   );
 }
 
+export function UsersIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="7.25" cy="7" r="2.75" />
+      <path d="M2.25 16.2c.8-2.8 2.7-4.4 5-4.4s4.2 1.6 5 4.4" />
+      <path d="M13.4 4.6a2.6 2.6 0 010 5.1M14.9 15.8c-.35-1.7-1.15-3-2.4-3.9" />
+    </svg>
+  );
+}
+
 export function LockIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -183,6 +193,30 @@ export function StarIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" fill="currentColor" strokeLinejoin="round" {...props}>
       <path d="M10 1.6L11.94 7.33 17.99 7.4 13.14 11.02 14.94 16.8 10 13.3 5.06 16.8 6.86 11.02 2.01 7.4 8.06 7.33Z" />
+    </svg>
+  );
+}
+
+/**
+ * The SeoJae Story wordmark glyph — an open book with a spark, matching the
+ * favicon / PWA icon. Single-colour (currentColor) so the header can tint it.
+ */
+export function BrandMark(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" {...props}>
+      <path
+        d="M12 7.2C9.9 5.8 7 5.2 4.2 5.4v10.5c2.9-.2 5.8.4 7.8 1.8 2-1.4 4.9-2 7.8-1.8V5.4C17 5.2 14.1 5.8 12 7.2Z"
+        fill="currentColor"
+        fillOpacity={0.16}
+        stroke="currentColor"
+        strokeWidth={1.6}
+        strokeLinejoin="round"
+      />
+      <path d="M12 7.2v10.3" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" />
+      <path
+        d="M18 2.2l.85 2.25L21.1 5.3l-2.25.85L18 8.4l-.85-2.25L14.9 5.3l2.25-.85z"
+        fill="currentColor"
+      />
     </svg>
   );
 }

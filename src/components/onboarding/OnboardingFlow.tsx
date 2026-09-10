@@ -55,8 +55,8 @@ export function OnboardingFlow() {
   const canContinue = stepName !== "level" || data.level != null;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-cream-dark">
-      <div className="mx-auto flex min-h-full max-w-app flex-col bg-cream px-6 py-7 sm:my-6 sm:min-h-[calc(100dvh-3rem)] sm:rounded-xl2 sm:border sm:border-rose-light/60 sm:shadow-soft">
+    <div className="app-stage fixed inset-0 z-50 overflow-y-auto">
+      <div className="mx-auto flex min-h-full max-w-app flex-col bg-cream px-6 py-7 sm:my-8 sm:min-h-[calc(100dvh-4rem)] sm:rounded-xl2 sm:border sm:border-rose-light sm:shadow-frame">
         <div className="mb-6 flex items-center justify-between">
           <span className="font-serif text-lg font-semibold tracking-tight text-charcoal">{t("appName")}</span>
           {stepName !== "summary" && (

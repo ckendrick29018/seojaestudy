@@ -11,6 +11,22 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+/*
+ * The app is a fixed-width column (max-w-app). On phones it's full-bleed, but on
+ * anything wider it floats — so give it a warm, lightly-lit "stage" to sit on
+ * instead of a flat fill. Makes the framed column read as an intentional device
+ * rather than an unresponsive mobile page. Used by <body> and the onboarding
+ * overlay so the surround is consistent.
+ */
+.app-stage {
+  background-color: #ece2cd;
+  background-image:
+    radial-gradient(135% 55% at 50% -12%, rgba(239, 217, 201, 0.55), transparent 62%),
+    radial-gradient(120% 50% at 50% 115%, rgba(233, 237, 201, 0.4), transparent 60%),
+    linear-gradient(180deg, #faf5eb 0%, #efe6d4 58%, #e8ddc8 100%);
+  background-attachment: fixed;
+}
+
 ::selection {
   background-color: #e9edc9;
 }

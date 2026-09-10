@@ -15,6 +15,7 @@ import {
   HomeIcon,
   SettingsIcon,
   UserIcon,
+  UsersIcon,
   XIcon,
 } from "@/components/ui/icons";
 
@@ -110,6 +111,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
     { href: "/bookshelf", label: t("bookshelf"), Icon: CatIcon, badge: 0 },
     { href: "/saved", label: t("savedWords"), Icon: BookOpenIcon, badge: 0 },
     { href: "/study", label: t("studyPlan"), Icon: CardsIcon, badge: dueItems.length },
+    { href: "/club", label: t("myBookClub"), Icon: UsersIcon, badge: 0 },
     { href: "/settings", label: t("settings"), Icon: SettingsIcon, badge: 0 },
   ];
 
@@ -122,19 +124,20 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   return (
     <div className="fixed inset-0 z-50">
       <div
-        className={`absolute inset-0 bg-charcoal/20 transition-opacity duration-200 ${
+        className={`absolute inset-0 bg-charcoal/30 backdrop-blur-[2px] transition-opacity duration-200 ${
           shown ? "opacity-100" : "opacity-0"
         }`}
         onClick={onClose}
       />
 
-      {/* Constrain to the app column so the panel hugs the card's right edge on desktop. */}
-      <div className="pointer-events-none absolute inset-x-0 inset-y-0 mx-auto max-w-app sm:inset-y-6">
+      {/* Constrain to the app column so the panel hugs the card's right edge on
+          desktop; inset matches the frame's sm:my-8 so the rounded corners line up. */}
+      <div className="pointer-events-none absolute inset-x-0 inset-y-0 mx-auto max-w-app sm:inset-y-8">
         <aside
           role="dialog"
           aria-modal="true"
           aria-label={t("menu")}
-          className={`pointer-events-auto absolute inset-y-0 right-0 flex w-[82%] max-w-[320px] flex-col border-l border-rose-light/60 bg-cream shadow-soft transition-transform duration-200 ease-out sm:rounded-l-xl2 ${
+          className={`pointer-events-auto absolute inset-y-0 right-0 flex w-[82%] max-w-[320px] flex-col border-l border-rose-light/60 bg-cream shadow-drawer transition-transform duration-200 ease-out sm:rounded-l-xl2 ${
             shown ? "translate-x-0" : "translate-x-full"
           }`}
         >
