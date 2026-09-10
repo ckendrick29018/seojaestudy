@@ -223,7 +223,7 @@ export function LandingClient() {
         <nav className="mt-4 flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs font-medium text-charcoal/60">
           <Link href="/library" className="hover:text-charcoal">{t("library")}</Link>
           <Link href="/classics" className="hover:text-charcoal">{t("classics")}</Link>
-          <Link href="/login" className="hover:text-charcoal">{t("signIn")}</Link>
+          <Link href="/login?next=/library" className="hover:text-charcoal">{t("signIn")}</Link>
           <Link href="/settings" className="hover:text-charcoal">{t("settings")}</Link>
         </nav>
         <p className="mx-auto mt-5 max-w-[40ch] text-[11px] leading-relaxed text-charcoal/40">

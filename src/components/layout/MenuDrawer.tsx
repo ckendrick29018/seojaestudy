@@ -121,6 +121,14 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   const rowClass =
     "flex items-center gap-3 rounded-xl2 px-3 py-2.5 text-sm font-medium transition text-charcoal/70 hover:bg-sage/40 hover:text-charcoal";
 
+  // Return the user to the page they opened the menu from after signing in,
+  // never to /login or /auth themselves (and never to "/", which just bounces
+  // straight back to the marketing page).
+  const loginNext =
+    !pathname || pathname === "/" || pathname.startsWith("/login") || pathname.startsWith("/auth")
+      ? "/library"
+      : pathname;
+
   return (
     <div className="fixed inset-0 z-50">
       <div
@@ -228,7 +236,11 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
                     </button>
                   </>
                 ) : (
-                  <Link href="/login" onClick={closeForNavigation} className={rowClass}>
+                  <Link
+                    href={`/login?next=${encodeURIComponent(loginNext)}`}
+                    onClick={closeForNavigation}
+                    className={rowClass}
+                  >
                     <UserIcon className="h-5 w-5 shrink-0 text-charcoal/55" />
                     {t("signIn")}
                   </Link>

@@ -14,6 +14,7 @@ function LoginContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const next = searchParams.get("next") || "/library";
+  const hadError = searchParams.get("error") === "auth";
 
   useEffect(() => {
     if (user) router.replace(next);
@@ -24,6 +25,12 @@ function LoginContent() {
       <div className="mb-6 text-4xl">📖</div>
       <h1 className="mb-1 text-center font-serif text-2xl font-semibold text-charcoal">{t("signInTitle")}</h1>
       <p className="mb-8 max-w-xs text-center text-sm text-charcoal/60">{t("signInSubtitle")}</p>
+
+      {hadError && authAvailable && (
+        <p className="mb-4 w-full max-w-sm rounded-xl2 border border-rose/30 bg-rose-light/20 px-4 py-3 text-center text-sm text-rose">
+          {t("signInError")}
+        </p>
+      )}
 
       {!authAvailable ? (
         <p className="max-w-sm rounded-xl2 border border-dashed border-rose-light/60 p-4 text-center text-sm text-charcoal/50">

@@ -127,6 +127,10 @@ export const dict = {
     en: "Sign-in isn't set up yet. Your progress is saved on this device only.",
     ko: "아직 로그인 기능이 설정되지 않았어요. 학습 진행 상황은 이 기기에만 저장돼요.",
   },
+  signInError: {
+    en: "Sign-in didn't complete. Please try again.",
+    ko: "로그인이 완료되지 않았어요. 다시 시도해 주세요.",
+  },
 
   // --- Billing / paywall ---
   premium: { en: "Premium", ko: "프리미엄" },
