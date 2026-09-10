@@ -12,6 +12,7 @@ import { Toast } from "@/components/ui/Toast";
 import { CheckIcon, UsersIcon } from "@/components/ui/icons";
 import { MAX_CLUB_MEMBERS, clubJoinUrl } from "@/lib/club";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
 
 /**
  * Bottom-of-lesson card: share this chapter into your book club so its members
@@ -31,6 +32,8 @@ export function ShareWithClub({ lesson }: { lesson: Lesson }) {
 
   // Feature needs accounts — stay quiet where auth isn't configured.
   if (!authAvailable) return null;
+  // During closed testing, don't surface a sign-in nudge to signed-out readers.
+  if (!user && !SHOW_AUTH_PROMPTS) return null;
 
   const shell = (body: ReactNode) => (
     <section className="border-t border-rose-light/40 px-5 py-8">

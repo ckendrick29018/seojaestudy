@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
+import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
 import type { UiLang } from "@/lib/i18n";
 import {
   BookOpenIcon,
@@ -215,7 +216,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
               </div>
             </div>
 
-            {authAvailable && (
+            {authAvailable && (SHOW_AUTH_PROMPTS || user) && (
               <div className="border-t border-rose-light/40 pt-2">
                 {user ? (
                   <>
