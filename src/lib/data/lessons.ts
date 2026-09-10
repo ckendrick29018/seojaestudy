@@ -1,4 +1,5 @@
 import type { Lesson } from "../types";
+import { COMPREHENSION_KO } from "./comprehension-ko";
 
 /**
  * Sample content library.
@@ -15801,7 +15802,7 @@ export const lessons: Lesson[] = [
     ],
     questions: [
       {
-        id: "ag-q1",
+        id: "atg-q1",
         prompt: "What were the ants doing while the grasshopper sang?",
         options: [
           "Sleeping through the warm days.",
@@ -15814,7 +15815,7 @@ export const lessons: Lesson[] = [
           "All summer the ants worked in a line, carrying seeds of corn to their nest. They were storing food so they would have enough to eat when winter came.",
       },
       {
-        id: "ag-q2",
+        id: "atg-q2",
         prompt: "What happened to the grasshopper when winter came?",
         options: [
           "He flew south to a warmer place.",
@@ -15827,7 +15828,7 @@ export const lessons: Lesson[] = [
           "When summer ended, the fields were bare and snow covered the ground. The grasshopper, who had only played, had nothing to eat and was very hungry.",
       },
       {
-        id: "ag-q3",
+        id: "atg-q3",
         prompt: "What is the lesson of this fable?",
         options: [
           "Never share your food with others.",
@@ -16024,3 +16025,17 @@ export const lessons: Lesson[] = [
     ],
   },
 ];
+
+// Attach the Korean question text (data/comprehension-ko.ts) so every consumer
+// sees `promptKo` / `optionsKo` / `explanationKo` without threading a second
+// source. Cheap: ~76 lessons × 3 questions, once at module load.
+for (const lesson of lessons) {
+  for (const question of lesson.questions) {
+    const ko = COMPREHENSION_KO[question.id];
+    if (!ko) continue;
+    question.promptKo = ko.prompt;
+    question.optionsKo = ko.options;
+    question.explanationKo = ko.explanation;
+  }
+}
+

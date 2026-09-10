@@ -79,6 +79,7 @@ export const dict = {
     ko: "단어를 탭하면 뜻이 나와요. 🌐을 누르면 문장이 번역돼요.",
   },
   comprehensionCheck: { en: "Comprehension Check", ko: "이해도 확인" },
+  questionLanguage: { en: "Question language", ko: "문제 언어" },
   vocabulary: { en: "Vocabulary", ko: "핵심 단어" },
   save: { en: "Save", ko: "저장" },
   saved: { en: "Saved", ko: "저장됨" },

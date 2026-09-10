@@ -28,6 +28,16 @@ export interface ComprehensionQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  /**
+   * Korean rendering of `prompt` / `options` / `explanation`, so the reader can
+   * take the check in their own language (see the toggle in ComprehensionCheck).
+   * `optionsKo` is index-aligned with `options`, so `correctIndex` is shared.
+   * Sourced from `data/comprehension-ko.ts` and merged in when `lessons` loads;
+   * absent only if that lesson has no translation yet.
+   */
+  promptKo?: string;
+  optionsKo?: string[];
+  explanationKo?: string;
 }
 
 /** A reader's highlight, one per story sentence. */
