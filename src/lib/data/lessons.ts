@@ -63,6 +63,16 @@ import { COMPREHENSION_KO } from "./comprehension-ko";
  *    Brontë's novel (first published 1847, Project Gutenberg #1260).
  *  - "Emily of New Moon" is a simplified retelling of Chapter 1 of L. M.
  *    Montgomery's novel (first published 1923, Project Gutenberg #61236).
+ *  - "Sweet Porridge" retells the Brothers Grimm tale "Der süße Brei" (added
+ *    to their collection in 1819, Project Gutenberg #2591), long in the
+ *    public domain.
+ *  - "The Golden Goose" retells the Brothers Grimm tale "Die goldene Gans"
+ *    (collected 1812, Project Gutenberg #2591), long in the public domain.
+ *  - "The Skylight Room" is a simplified retelling of O. Henry's short story
+ *    (first published 1906 in "The Four Million," Project Gutenberg #2776),
+ *    long in the public domain.
+ *  - "Rilla of Ingleside" is a simplified retelling of Chapter 1 of L. M.
+ *    Montgomery's novel (first published 1921, Project Gutenberg #26265).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -16929,6 +16939,876 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Douglas Starr did not tell her a comforting lie. He held her close, said that it was true and that he was sorry to leave her so soon, and told her not to be afraid, because nothing really worth keeping can be lost.",
+      },
+    ],
+  },
+  {
+    slug: "sweet-porridge",
+    title: "Sweet Porridge",
+    titleTranslation: "달콤한 죽",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🍲",
+    coverImage: "/covers/sweet-porridge.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Sweet Porridge\" (\"Der süße Brei,\" added to Grimms' collection in 1819; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the little pot could do, and what went wrong when the girl's mother used it.",
+    paragraphs: [
+      [
+        {
+          id: "sp-1",
+          text: "Once there was a poor but good girl who lived alone with her mother.",
+          translation:
+            "옛날에 어머니와 단둘이 사는, 가난하지만 착한 소녀가 있었어요.",
+        },
+        {
+          id: "sp-2",
+          text: "One day they had nothing left to eat.",
+          translation: "어느 날 두 사람에게는 먹을 것이 하나도 남지 않았어요.",
+        },
+        {
+          id: "sp-3",
+          text: "So the girl went into the forest, and there she met an old woman.",
+          translation: "그래서 소녀는 숲으로 갔고, 거기에서 한 노파를 만났어요.",
+        },
+      ],
+      [
+        {
+          id: "sp-4",
+          text: "The old woman already knew about the girl's trouble, and she gave her a little iron pot.",
+          translation:
+            "노파는 소녀의 딱한 사정을 이미 알고 있었고, 소녀에게 작은 무쇠 냄비를 하나 주었어요.",
+        },
+        {
+          id: "sp-5",
+          text: "\"Say 'Cook, little pot, cook,' and it will make sweet porridge,\" she said.",
+          translation:
+            "\"'끓어라, 냄비야, 끓어라'라고 말하면 달콤한 죽을 만들어 준단다.\" 하고 노파가 말했어요.",
+        },
+        {
+          id: "sp-6",
+          text: "\"Say 'Stop, little pot,' and it will stop.\"",
+          translation: "\"'그쳐라, 냄비야'라고 말하면 멈춘단다.\"",
+        },
+      ],
+      [
+        {
+          id: "sp-7",
+          text: "The girl carried the pot home to her mother.",
+          translation: "소녀는 냄비를 들고 어머니에게 돌아왔어요.",
+        },
+        {
+          id: "sp-8",
+          text: "Now their days of hunger were over.",
+          translation: "이제 굶주리던 날들은 끝났어요.",
+        },
+        {
+          id: "sp-9",
+          text: "They ate sweet, warm porridge as often as they liked.",
+          translation: "두 사람은 달콤하고 따뜻한 죽을 먹고 싶을 때마다 먹었어요.",
+        },
+      ],
+      [
+        {
+          id: "sp-10",
+          text: "One day the girl went out, and her mother said, \"Cook, little pot, cook.\"",
+          translation:
+            "어느 날 소녀가 밖에 나갔고, 어머니가 \"끓어라, 냄비야, 끓어라\"라고 말했어요.",
+        },
+        {
+          id: "sp-11",
+          text: "The pot cooked, and the mother ate until she was full.",
+          translation: "냄비는 죽을 끓였고, 어머니는 배가 부를 때까지 먹었어요.",
+        },
+        {
+          id: "sp-12",
+          text: "Then she wanted it to stop — but she had forgotten the words.",
+          translation:
+            "그러고 나서 멈추게 하고 싶었지만, 그만 그 말을 잊어버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "sp-13",
+          text: "So the pot cooked on and on. The porridge began to overflow, and it filled the kitchen, then the house, then the street.",
+          translation:
+            "그래서 냄비는 계속 끓고 또 끓었어요. 죽이 넘치기 시작하더니, 부엌을 채우고, 집을 채우고, 거리까지 채웠어요.",
+        },
+        {
+          id: "sp-14",
+          text: "At last only one house was still standing above the porridge when the girl came home.",
+          translation:
+            "마침내 죽 위로 아직 남아 있는 집이 딱 한 채였을 때 소녀가 집에 돌아왔어요.",
+        },
+        {
+          id: "sp-15",
+          text: "She said, \"Stop, little pot,\" and it stopped — and anyone who wanted to go back into the town had to eat a path through the porridge.",
+          translation:
+            "소녀가 \"그쳐라, 냄비야\"라고 말하자 냄비가 멈췄어요. 그리고 마을로 돌아가려는 사람은 누구나 죽을 먹어 길을 내며 가야 했답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sp-v1",
+        term: "porridge",
+        partOfSpeech: "noun",
+        translation: "죽",
+        example: "The pot made sweet porridge.",
+        exampleTranslation: "냄비는 달콤한 죽을 만들었어요.",
+      },
+      {
+        id: "sp-v2",
+        term: "pot",
+        partOfSpeech: "noun",
+        translation: "냄비, 솥",
+        example: "The old woman gave her a little iron pot.",
+        exampleTranslation: "노파는 소녀에게 작은 무쇠 냄비를 주었어요.",
+      },
+      {
+        id: "sp-v3",
+        term: "forest",
+        partOfSpeech: "noun",
+        translation: "숲",
+        example: "The girl went into the forest.",
+        exampleTranslation: "소녀는 숲으로 갔어요.",
+      },
+      {
+        id: "sp-v4",
+        term: "full",
+        partOfSpeech: "adjective",
+        translation: "배부른",
+        example: "The mother ate until she was full.",
+        exampleTranslation: "어머니는 배가 부를 때까지 먹었어요.",
+      },
+      {
+        id: "sp-v5",
+        term: "overflow",
+        partOfSpeech: "verb",
+        translation: "넘치다",
+        example: "The porridge began to overflow.",
+        exampleTranslation: "죽이 넘치기 시작했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sp-q1",
+        prompt: "Where did the girl get the magic pot?",
+        options: [
+          "From a shop in the town.",
+          "From an old woman she met in the forest.",
+          "Her mother had always owned it.",
+          "She found it lying on the road.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The girl went into the forest because they had nothing to eat. There she met an old woman, who already knew her trouble and gave her the little pot.",
+      },
+      {
+        id: "sp-q2",
+        prompt: "Why couldn't the mother make the porridge stop?",
+        options: [
+          "The pot was broken.",
+          "She had forgotten the words that made it stop.",
+          "The girl had taken the magic words with her.",
+          "She wanted the porridge to keep cooking.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The pot obeyed two commands. The mother remembered how to start it, but she had forgotten \"Stop, little pot,\" so it cooked until the porridge filled the whole town.",
+      },
+      {
+        id: "sp-q3",
+        prompt: "How did the trouble finally end?",
+        options: [
+          "The old woman came back and took the pot away.",
+          "The porridge slowly cooled and stopped by itself.",
+          "The girl came home and said the right words.",
+          "The mother remembered the words at last.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "No one else knew how to stop the pot. Only when the girl came home and said \"Stop, little pot\" did it stop — by then the porridge had filled the streets, and people had to eat their way through it.",
+      },
+    ],
+  },
+  {
+    slug: "the-golden-goose",
+    title: "The Golden Goose",
+    titleTranslation: "황금 거위",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🪿",
+    coverImage: "/covers/the-golden-goose.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"The Golden Goose\" (\"Die goldene Gans,\" collected 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how Simpleton got the golden goose, and how the goose helped him in the end.",
+    paragraphs: [
+      [
+        {
+          id: "gg-1",
+          text: "A man had three sons, and the youngest was called Simpleton, because the family thought he was foolish.",
+          translation:
+            "어떤 사람에게 아들이 셋 있었는데, 막내는 '바보'라고 불렸어요. 식구들이 그를 어리석다고 여겼기 때문이에요.",
+        },
+        {
+          id: "gg-2",
+          text: "One day the eldest son went into the forest to cut wood, and his mother gave him a fine cake and sweet wine.",
+          translation:
+            "어느 날 맏아들이 나무를 하러 숲에 갔고, 어머니는 맛있는 케이크와 달콤한 포도주를 싸 주었어요.",
+        },
+        {
+          id: "gg-3",
+          text: "In the wood a little grey man met him and said, \"Give me a bite of your cake and a drink of your wine.\"",
+          translation:
+            "숲에서 잿빛 옷을 입은 작은 노인이 그를 만나 말했어요. \"케이크 한 입, 포도주 한 모금만 나눠 주게.\"",
+        },
+      ],
+      [
+        {
+          id: "gg-4",
+          text: "\"If I share with you, I will have none myself,\" said the eldest son, and he walked on.",
+          translation:
+            "\"너한테 나눠 주면 내 몫이 없어지잖아.\" 맏아들은 이렇게 말하고 가 버렸어요.",
+        },
+        {
+          id: "gg-5",
+          text: "But soon his axe turned in his hand, and he had to go home.",
+          translation:
+            "그런데 곧 도끼가 손에서 빗나가는 바람에 그는 집으로 돌아가야 했어요.",
+        },
+        {
+          id: "gg-6",
+          text: "The second son went next, said the same hard words to the little man, and he too went home with nothing.",
+          translation:
+            "다음으로 둘째 아들이 갔는데, 노인에게 똑같이 매정한 말을 했고, 그 역시 빈손으로 집에 돌아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "gg-7",
+          text: "Then Simpleton asked to go, and his mother gave him only a plain cake baked in the ashes and some sour beer.",
+          translation:
+            "그러자 바보가 가겠다고 했고, 어머니는 잿불에 구운 밋밋한 케이크와 시큼한 맥주만 들려 주었어요.",
+        },
+        {
+          id: "gg-8",
+          text: "The little grey man asked him for food too, and Simpleton said, \"Sit down and share what I have.\"",
+          translation:
+            "잿빛 옷의 작은 노인이 그에게도 먹을 것을 청하자, 바보가 말했어요. \"앉으세요, 제가 가진 걸 나눠요.\"",
+        },
+        {
+          id: "gg-9",
+          text: "When they took out the food, the plain cake was a fine cake, and the sour beer was good wine.",
+          translation:
+            "음식을 꺼내 보니, 밋밋하던 케이크는 맛있는 케이크가 되어 있었고, 시큼하던 맥주는 좋은 포도주가 되어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "gg-10",
+          text: "\"You have a kind heart,\" said the little man. \"Cut down that old tree, and you will find a gift in its roots.\"",
+          translation:
+            "\"자네는 마음씨가 곱군.\" 작은 노인이 말했어요. \"저 오래된 나무를 베어 보게. 뿌리에서 선물을 찾을 걸세.\"",
+        },
+        {
+          id: "gg-11",
+          text: "In the roots sat a goose with feathers of pure gold, and Simpleton picked it up and took it to an inn for the night.",
+          translation:
+            "뿌리에는 온몸이 순금 깃털인 거위 한 마리가 앉아 있었고, 바보는 그것을 안고 하룻밤 묵으러 여관으로 갔어요.",
+        },
+        {
+          id: "gg-12",
+          text: "The innkeeper had three daughters, and each one wanted a golden feather for herself.",
+          translation:
+            "여관 주인에게는 딸이 셋 있었는데, 저마다 금 깃털을 하나씩 갖고 싶어 했어요.",
+        },
+      ],
+      [
+        {
+          id: "gg-13",
+          text: "The first daughter caught hold of the goose's wing — and her hand stuck fast and would not come off.",
+          translation:
+            "첫째 딸이 거위의 날개를 붙잡았어요. 그러자 손이 딱 붙어 떨어지지 않았어요.",
+        },
+        {
+          id: "gg-14",
+          text: "The second sister touched the first to pull her away and stuck too, and then the third stuck to the second.",
+          translation:
+            "둘째가 언니를 떼어 내려고 손을 대었다가 함께 붙었고, 셋째도 둘째에게 붙어 버렸어요.",
+        },
+        {
+          id: "gg-15",
+          text: "In the morning Simpleton walked off with his goose, and the three girls had to run along behind him.",
+          translation:
+            "아침이 되자 바보는 거위를 안고 걸어 나섰고, 세 딸은 그의 뒤를 따라 달릴 수밖에 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "gg-16",
+          text: "A parson saw them running and took the last girl's hand to stop her — and he stuck fast as well.",
+          translation:
+            "한 목사가 그들이 달려가는 것을 보고 맨 뒤의 딸을 붙잡아 세우려다가, 그 역시 딱 붙어 버렸어요.",
+        },
+        {
+          id: "gg-17",
+          text: "Soon a whole line of people was stumbling along behind Simpleton, and they all came into a city.",
+          translation:
+            "이내 한 무리의 사람들이 바보 뒤에서 비틀거리며 따라왔고, 그들은 모두 어느 도시로 들어섰어요.",
+        },
+        {
+          id: "gg-18",
+          text: "There lived a princess who never laughed; but when she saw the hopping, tripping line go by, she laughed until she could not stop — and for making her laugh, Simpleton married her, and in time became a kind king.",
+          translation:
+            "그곳에는 한 번도 웃지 않는 공주가 살고 있었어요. 그런데 폴짝거리고 넘어질 듯 이어지는 행렬이 지나가는 것을 보자, 공주는 멈출 수 없을 만큼 웃었지요. 공주를 웃게 한 값으로 바보는 공주와 결혼했고, 이윽고 어진 임금이 되었답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "gg-v1",
+        term: "share",
+        partOfSpeech: "verb",
+        translation: "나누다, 함께 쓰다",
+        example: "\"Sit down and share what I have,\" said Simpleton.",
+        exampleTranslation: "\"앉으세요, 제가 가진 걸 나눠요.\" 바보가 말했어요.",
+      },
+      {
+        id: "gg-v2",
+        term: "axe",
+        partOfSpeech: "noun",
+        translation: "도끼",
+        example: "His axe turned in his hand.",
+        exampleTranslation: "도끼가 그의 손에서 빗나갔어요.",
+      },
+      {
+        id: "gg-v3",
+        term: "feather",
+        partOfSpeech: "noun",
+        translation: "깃털",
+        example: "The goose had feathers of pure gold.",
+        exampleTranslation: "거위는 온몸이 순금 깃털이었어요.",
+      },
+      {
+        id: "gg-v4",
+        term: "stick",
+        partOfSpeech: "verb",
+        translation: "들러붙다, 달라붙다",
+        example: "Her hand stuck fast to the goose.",
+        exampleTranslation: "그녀의 손이 거위에 딱 들러붙었어요.",
+      },
+      {
+        id: "gg-v5",
+        term: "kind",
+        partOfSpeech: "adjective",
+        translation: "마음씨 고운, 친절한",
+        example: "\"You have a kind heart,\" said the little man.",
+        exampleTranslation: "\"자네는 마음씨가 곱군.\" 작은 노인이 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "gg-q1",
+        prompt: "Why did the little grey man help Simpleton but not his brothers?",
+        options: [
+          "Simpleton was the strongest of the three.",
+          "Simpleton shared his food and drink, while his brothers refused.",
+          "The brothers never actually met the little man.",
+          "Simpleton gave the little man a golden feather.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Both older brothers kept their food for themselves and spoke rudely to the little man. Simpleton, though he had only ash-cake and sour beer, asked the old man to sit and share — so the little man gave him good luck.",
+      },
+      {
+        id: "gg-q2",
+        prompt: "What happened to anyone who touched the golden goose?",
+        options: [
+          "They turned to gold.",
+          "They fell asleep at once.",
+          "Their hand stuck fast, and they were pulled along behind Simpleton.",
+          "The goose flew away with them.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The innkeeper's three daughters each tried to pull out a golden feather, and their hands stuck to the goose and to one another. A parson and others stuck on too, making a long line that ran behind Simpleton.",
+      },
+      {
+        id: "gg-q3",
+        prompt: "How did Simpleton win the chance to marry the princess?",
+        options: [
+          "He answered three hard riddles.",
+          "He brought the king a chest of gold.",
+          "The strange line of stuck people made the princess laugh.",
+          "He fought and beat the king's soldiers.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The king had promised that whoever could make his serious daughter laugh could marry her. When she saw Simpleton go by with the goose and the stumbling line of people stuck together, she laughed and could not stop.",
+      },
+    ],
+  },
+  {
+    slug: "the-skylight-room",
+    title: "The Skylight Room",
+    titleTranslation: "천창 방",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1862–1910)",
+    coverEmoji: "🪟",
+    coverImage: "/covers/the-skylight-room.svg",
+    source:
+      "Adapted from O. Henry's short story \"The Skylight Room\" (first published 1906 in \"The Four Million\"; long in the public domain, Project Gutenberg #2776). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Miss Leeson's room and her star, and explain the surprise at the end of the story.",
+    paragraphs: [
+      [
+        {
+          id: "skl-1",
+          text: "Mrs. Parker rented rooms in her tall old house.",
+          translation: "파커 부인은 낡고 높은 자기 집에서 방을 세놓았어요.",
+        },
+        {
+          id: "skl-2",
+          text: "To smart, well-dressed callers she showed the fine big rooms near the front door.",
+          translation:
+            "옷을 잘 차려입은 말쑥한 손님에게는 현관 가까운 크고 좋은 방을 보여 주었어요.",
+        },
+        {
+          id: "skl-3",
+          text: "Only when they said the price was too high did she lead them, step by step, up to the cheaper rooms.",
+          translation:
+            "손님이 값이 너무 비싸다고 해야만, 부인은 그들을 한 층 한 층 위층의 더 싼 방으로 데려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "skl-4",
+          text: "The cheapest of all was the skylight room at the very top, so small that a narrow bed almost filled it.",
+          translation:
+            "그중에서 가장 싼 방은 맨 꼭대기의 천창 방으로, 좁은 침대 하나가 방을 거의 다 채울 만큼 작았어요.",
+        },
+        {
+          id: "skl-5",
+          text: "Its only window was a single pane of glass set in the slope of the roof.",
+          translation:
+            "방의 유일한 창은 비스듬한 지붕에 끼운 유리 한 장이었어요.",
+        },
+        {
+          id: "skl-6",
+          text: "A small, bright-eyed girl named Miss Leeson took the room; she typed letters for a living.",
+          translation:
+            "눈이 초롱초롱한 자그마한 아가씨 리슨 양이 그 방을 얻었어요. 그녀는 편지를 타자로 쳐 주며 먹고살았지요.",
+        },
+      ],
+      [
+        {
+          id: "skl-7",
+          text: "The other lodgers liked her, and on warm evenings they all sat on the front steps together.",
+          translation:
+            "다른 하숙인들은 그녀를 좋아했고, 따뜻한 저녁이면 다들 현관 계단에 함께 앉았어요.",
+        },
+        {
+          id: "skl-8",
+          text: "One night a lodger pointed up at the stars and named them one by one.",
+          translation:
+            "어느 밤 한 하숙인이 하늘의 별을 가리키며 하나하나 이름을 불렀어요.",
+        },
+        {
+          id: "skl-9",
+          text: "Miss Leeson said that the one bright star she could see through her skylight she had named \"Billy Jackson.\"",
+          translation:
+            "리슨 양은 천창으로 보이는 밝은 별 하나에 자기가 \"빌리 잭슨\"이라는 이름을 붙였다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "skl-10",
+          text: "As the weeks passed, less and less typing work came her way.",
+          translation:
+            "몇 주가 지나는 동안, 그녀에게 들어오는 타자 일은 점점 줄어들었어요.",
+        },
+        {
+          id: "skl-11",
+          text: "Every morning she went out to look for work, and every evening she came back with empty hands.",
+          translation:
+            "아침마다 그녀는 일자리를 찾아 나섰고, 저녁마다 빈손으로 돌아왔어요.",
+        },
+        {
+          id: "skl-12",
+          text: "One night she had no money for dinner and climbed the stairs to her room feeling weak and dizzy.",
+          translation:
+            "어느 밤 그녀는 저녁 사 먹을 돈이 없었고, 기운 없고 어질어질한 채로 방까지 계단을 올라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "skl-13",
+          text: "She lay down on the narrow bed and looked up through the skylight.",
+          translation: "그녀는 좁은 침대에 누워 천창 너머를 올려다보았어요.",
+        },
+        {
+          id: "skl-14",
+          text: "\"Good-bye, Billy,\" she said softly to her star, and then everything went dark.",
+          translation:
+            "\"잘 있어, 빌리.\" 그녀는 자기 별에게 나직이 말했고, 이내 모든 것이 캄캄해졌어요.",
+        },
+        {
+          id: "skl-15",
+          text: "In the morning she did not come down, and when no one could wake her, the men broke open the door.",
+          translation:
+            "아침이 되어도 그녀가 내려오지 않았고, 아무도 그녀를 깨울 수 없자 남자들이 문을 부수고 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "skl-16",
+          text: "They carried her down, and soon an ambulance came with a quick, kind young doctor.",
+          translation:
+            "사람들이 그녀를 아래층으로 옮겼고, 곧 재빠르고 다정한 젊은 의사를 태운 구급 마차가 왔어요.",
+        },
+        {
+          id: "skl-17",
+          text: "As he lifted her, he asked her name for his book; her eyes opened a little and she whispered, \"Billy Jackson.\"",
+          translation:
+            "그가 그녀를 안아 올리며 기록할 이름을 묻자, 그녀는 눈을 살짝 뜨고 \"빌리 잭슨\"이라고 속삭였어요.",
+        },
+        {
+          id: "skl-18",
+          text: "The young doctor smiled, for his own name was William Jackson — and he told the driver to go slowly and gently all the way to the hospital.",
+          translation:
+            "젊은 의사는 빙그레 웃었어요. 그 자신의 이름이 바로 윌리엄 잭슨이었거든요. 그는 마부에게 병원까지 내내 천천히, 조심조심 가라고 일렀어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "skl-v1",
+        term: "rent",
+        partOfSpeech: "verb",
+        translation: "세놓다, 임대하다",
+        example: "Mrs. Parker rented rooms in her old house.",
+        exampleTranslation: "파커 부인은 낡은 집에서 방을 세놓았어요.",
+      },
+      {
+        id: "skl-v2",
+        term: "lodger",
+        partOfSpeech: "noun",
+        translation: "하숙인, 세 들어 사는 사람",
+        example: "The other lodgers liked Miss Leeson.",
+        exampleTranslation: "다른 하숙인들은 리슨 양을 좋아했어요.",
+      },
+      {
+        id: "skl-v3",
+        term: "skylight",
+        partOfSpeech: "noun",
+        translation: "천창(天窓), 지붕창",
+        example: "Her only window was a skylight in the roof.",
+        exampleTranslation: "그녀의 유일한 창은 지붕에 난 천창이었어요.",
+      },
+      {
+        id: "skl-v4",
+        term: "dizzy",
+        partOfSpeech: "adjective",
+        translation: "어지러운, 현기증 나는",
+        example: "She climbed the stairs feeling weak and dizzy.",
+        exampleTranslation: "그녀는 기운 없고 어지러운 채로 계단을 올라갔어요.",
+      },
+      {
+        id: "skl-v5",
+        term: "whisper",
+        partOfSpeech: "verb",
+        translation: "속삭이다",
+        example: "She whispered, \"Billy Jackson.\"",
+        exampleTranslation: "그녀는 \"빌리 잭슨\"이라고 속삭였어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "skl-q1",
+        prompt: "How did Mrs. Parker show her rooms to visitors?",
+        options: [
+          "She showed everyone the skylight room first.",
+          "She showed the fine rooms first, and only went up to the cheap ones if the price was refused.",
+          "She let visitors choose any room for the same price.",
+          "She showed rooms only to people she already knew.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mrs. Parker began with the big rooms near the front door and her grandest manner. Only when a caller said the rent was too high did she lead them higher up the house to the smaller, cheaper rooms.",
+      },
+      {
+        id: "skl-q2",
+        prompt: "Why did Miss Leeson name a star \"Billy Jackson\"?",
+        options: [
+          "It was the name of a lodger she liked.",
+          "It was the one bright star she could see through her skylight.",
+          "A fortune-teller had told her to.",
+          "It was her father's name.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "From her tiny room she could see just one bright star through the skylight in the roof. Sitting on the steps one night while another lodger named the stars, she said she had named that one Billy Jackson.",
+      },
+      {
+        id: "skl-q3",
+        prompt: "Why did the young doctor smile when Miss Leeson whispered \"Billy Jackson\"?",
+        options: [
+          "He thought she was joking with him.",
+          "He knew a lodger by that name.",
+          "His own name was William Jackson.",
+          "He had found her lost money.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "She was still thinking of her star and gave its name instead of her own. The doctor smiled because he was really named William Jackson, and he then told the driver to carry her to the hospital slowly and gently.",
+      },
+    ],
+  },
+  {
+    slug: "rilla-of-ingleside",
+    title: "Rilla of Ingleside",
+    titleTranslation: "잉글사이드의 릴라",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🌊",
+    coverImage: "/covers/rilla-of-ingleside.svg",
+    source:
+      "Adapted from Chapter 1 of L. M. Montgomery's novel \"Rilla of Ingleside\" (first published 1921; long in the public domain, Project Gutenberg #26265). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what Rilla was like and what she was looking forward to, and explain the meaning of the chapter's final line.",
+    paragraphs: [
+      [
+        {
+          id: "ri-1",
+          text: "On a warm afternoon in late June, Ingleside lay drowsy and content under its old trees, and Susan Baker felt that the world, on the whole, was being run rather well.",
+          translation:
+            "6월 하순의 어느 따뜻한 오후, 잉글사이드는 오래된 나무들 아래 나른하고 흡족하게 잠겨 있었고, 수전 베이커는 세상이 대체로 꽤 잘 굴러가고 있다고 느꼈어요.",
+        },
+        {
+          id: "ri-2",
+          text: "Susan had kept house for the Blythe family for many years, and she loved its six children as fiercely as if they were her own.",
+          translation:
+            "수전은 오랫동안 블라이스 집안의 살림을 맡아 왔고, 그 집 여섯 아이를 마치 제 자식처럼 극진히 사랑했어요.",
+        },
+        {
+          id: "ri-3",
+          text: "Beside her, Mrs. Blythe — whom the Glen still thought of simply as Anne — and her old friend Miss Cornelia were reading the local news column in the town paper and talking it over item by item.",
+          translation:
+            "그 곁에서 블라이스 부인 — 글렌 사람들은 아직도 그녀를 그냥 앤이라 여겼지요 — 과 오랜 벗 코닐리아 아주머니는 동네 신문의 소식란을 읽으며 한 줄 한 줄 이야기를 나누고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ri-4",
+          text: "The Blythe children were nearly grown now.",
+          translation: "블라이스 집 아이들은 이제 거의 다 자랐어요.",
+        },
+        {
+          id: "ri-5",
+          text: "Jem was studying to be a doctor like his father; Walter, who wrote poetry and felt everything deeply, was home from college for the summer; and the twins, Nan and Di, were away at Redmond as well.",
+          translation:
+            "젬은 아버지처럼 의사가 되려고 공부하고 있었고, 시를 쓰고 무엇이든 깊이 느끼는 월터는 여름을 맞아 대학에서 집에 와 있었으며, 쌍둥이 낸과 다이 역시 레드먼드에 가 있었어요.",
+        },
+        {
+          id: "ri-6",
+          text: "Shirley was away at school, which left only the youngest, Rilla, still at home all the year round.",
+          translation:
+            "셜리도 학교에 가 있어서, 일 년 내내 집에 있는 아이는 막내 릴라뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "ri-7",
+          text: "Rilla — her real name was Bertha Marilla — was almost fifteen, and she was the one Ingleside child who had never cared for books or lessons.",
+          translation:
+            "릴라 — 본명은 버사 머릴라였어요 — 는 곧 열다섯 살이 되는데, 잉글사이드 아이들 중 유일하게 책이나 공부에 도무지 마음을 두지 않는 아이였어요.",
+        },
+        {
+          id: "ri-8",
+          text: "A long illness in childhood had kept her out of school for years, and she had grown up dreamy, vain about her looks, and quietly sure that being clever was overrated.",
+          translation:
+            "어린 시절의 긴 병치레로 그녀는 여러 해 학교에 다니지 못했고, 그래서 공상에 잘 잠기고 제 외모에 은근히 신경 쓰며, 똑똑한 것 따위는 과대평가된 거라고 남몰래 확신하는 아이로 자랐어요.",
+        },
+        {
+          id: "ri-9",
+          text: "She could not bear to think of growing up; she wanted the world to stay exactly as it was, warm and unhurried, with Rainbow Valley at the foot of the garden and nothing that had to be taken seriously.",
+          translation:
+            "그녀는 어른이 된다는 생각을 견딜 수 없었어요. 정원 아래 무지개 골짜기가 그대로 있고, 진지하게 받아들여야 할 일이라곤 하나도 없는, 따뜻하고 느긋한 지금 이대로 세상이 멈춰 있기를 바랐지요.",
+        },
+      ],
+      [
+        {
+          id: "ri-10",
+          text: "Just now her whole heart was fixed on one thing: the dance at the Four Winds lighthouse the following week, which was to be her first grown-up party.",
+          translation:
+            "바로 지금 그녀의 온 마음은 단 한 가지에 쏠려 있었어요. 다음 주 포 윈즈 등대에서 열리는 무도회였는데, 그것이 그녀의 첫 어른 파티가 될 참이었지요.",
+        },
+        {
+          id: "ri-11",
+          text: "She had thought about her dress, and her slippers, and whether anyone would ask her to dance, until there was room in her mind for very little else.",
+          translation:
+            "그녀는 드레스와 무용화, 그리고 누가 자기에게 춤을 청해 줄까 하는 생각을 얼마나 골똘히 했던지, 머릿속에 다른 것이 들어설 자리가 거의 없었어요.",
+        },
+        {
+          id: "ri-12",
+          text: "The one person she told everything to was Gertrude Oliver, the schoolteacher who boarded at Ingleside — a grave young woman of twenty-eight who was given to strange moods and to dreams she only half believed in.",
+          translation:
+            "그녀가 무엇이든 털어놓는 단 한 사람은 잉글사이드에 하숙하는 여교사 거트루드 올리버였어요. 스물여덟의 진중한 여인으로, 이상한 기분에 잘 젖고 자기도 반쯤만 믿는 꿈을 꾸곤 했지요.",
+        },
+        {
+          id: "ri-13",
+          text: "That week Gertrude had woken twice from the same uneasy dream and could not shake the feeling that some shadow was moving toward them all.",
+          translation:
+            "그 주에 거트루드는 똑같이 불안한 꿈에서 두 번이나 깨어났고, 어떤 그림자가 자기들 모두를 향해 다가오고 있다는 느낌을 떨칠 수 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "ri-14",
+          text: "Miss Cornelia, however, had no patience with dreams, and turned the talk back to the news.",
+          translation:
+            "하지만 코닐리아 아주머니는 꿈 이야기 따위는 딱 질색이어서, 화제를 다시 소식란으로 돌렸어요.",
+        },
+        {
+          id: "ri-15",
+          text: "Somewhere among the small print was a short item about a foreign archduke who had been shot in a city that none of them could have found on a map.",
+          translation:
+            "작은 활자들 어딘가에, 그들 누구도 지도에서 찾지 못할 도시에서 어느 외국 대공이 총에 맞았다는 짤막한 기사가 있었어요.",
+        },
+        {
+          id: "ri-16",
+          text: "\"Some foreign quarrel,\" said Susan comfortably, moving on to the next column. \"It is no affair of ours here in Glen St. Mary.\"",
+          translation:
+            "\"외국의 다툼이겠지요.\" 수전이 태평하게 말하며 다음 단으로 넘어갔어요. \"여기 글렌 세인트 메리와는 아무 상관도 없는 일이에요.\"",
+        },
+      ],
+      [
+        {
+          id: "ri-17",
+          text: "So the afternoon slipped by, full of small and pleasant things, and no one at Ingleside gave the foreign news a second thought.",
+          translation:
+            "그렇게 오후는 사소하고 즐거운 일들로 가득 찬 채 흘러갔고, 잉글사이드의 누구도 그 외국 소식을 두 번 다시 생각하지 않았어요.",
+        },
+        {
+          id: "ri-18",
+          text: "Rilla ran down to Rainbow Valley in the long golden light, certain that the worst thing that could possibly happen to her was to be left sitting down at the lighthouse dance.",
+          translation:
+            "릴라는 길게 드리운 금빛 햇살 속에서 무지개 골짜기로 달려 내려갔어요. 자기에게 일어날 수 있는 가장 나쁜 일이라곤 등대 무도회에서 춤 신청을 못 받고 앉아 있는 것뿐이라고 굳게 믿으면서요.",
+        },
+        {
+          id: "ri-19",
+          text: "It was the last summer of the old, safe world, and not one of them knew it.",
+          translation:
+            "그것은 오래되고 안전하던 세계의 마지막 여름이었지만, 그들 중 누구도 그것을 알지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ri-v1",
+        term: "drowsy",
+        partOfSpeech: "adjective",
+        translation: "나른한, 졸린",
+        example: "Ingleside lay drowsy and content under its old trees.",
+        exampleTranslation:
+          "잉글사이드는 오래된 나무들 아래 나른하고 흡족하게 잠겨 있었어요.",
+      },
+      {
+        id: "ri-v2",
+        term: "vain",
+        partOfSpeech: "adjective",
+        translation: "허영심 있는, 제 외모를 지나치게 의식하는",
+        example: "She had grown up dreamy and vain about her looks.",
+        exampleTranslation:
+          "그녀는 공상에 잘 잠기고 제 외모에 신경 쓰는 아이로 자랐어요.",
+      },
+      {
+        id: "ri-v3",
+        term: "grave",
+        partOfSpeech: "adjective",
+        translation: "진중한, 엄숙한",
+        example: "Gertrude was a grave young woman of twenty-eight.",
+        exampleTranslation: "거트루드는 스물여덟의 진중한 여인이었어요.",
+      },
+      {
+        id: "ri-v4",
+        term: "uneasy",
+        partOfSpeech: "adjective",
+        translation: "불안한, 마음이 놓이지 않는",
+        example: "She woke twice from the same uneasy dream.",
+        exampleTranslation: "그녀는 똑같이 불안한 꿈에서 두 번 깨어났어요.",
+      },
+      {
+        id: "ri-v5",
+        term: "quarrel",
+        partOfSpeech: "noun",
+        translation: "다툼, 언쟁",
+        example: "\"Some foreign quarrel,\" said Susan.",
+        exampleTranslation: "\"외국의 다툼이겠지요.\" 수전이 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ri-q1",
+        prompt: "Why was Rilla the only Blythe child still at home all year?",
+        options: [
+          "She had quarrelled with the others and refused to leave.",
+          "The older children were away at college or school, and she was the youngest.",
+          "Her parents did not want her to leave home.",
+          "She was needed to help Susan keep house.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Jem, Walter, Nan and Di were all at Redmond, and Shirley was away at school. Rilla, almost fifteen and the baby of the family, was the only one still at Ingleside the whole year.",
+      },
+      {
+        id: "ri-q2",
+        prompt: "What did Rilla care about most that summer?",
+        options: [
+          "Doing well in her school lessons.",
+          "Going to her first grown-up dance at the Four Winds lighthouse.",
+          "Helping Gertrude Oliver understand her strange dreams.",
+          "The news from the foreign city in the paper.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Rilla was not bookish and had no large plans. Her whole mind was on the lighthouse dance the next week — her dress, her slippers, and whether anyone would ask her to dance.",
+      },
+      {
+        id: "ri-q3",
+        prompt: "How did the people on the veranda treat the news about the archduke who had been shot?",
+        options: [
+          "It frightened them, and they spoke of little else.",
+          "They brushed it aside as a foreign quarrel that had nothing to do with them.",
+          "They did not notice the item in the paper at all.",
+          "They wrote to Jem at once to warn him.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The shooting was only a few lines of small print about a place none of them could find on a map. Susan called it \"some foreign quarrel\" and turned to the next column, and no one thought of it again — though it was the last summer of the old, safe world.",
       },
     ],
   },

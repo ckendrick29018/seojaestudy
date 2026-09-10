@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Skylight Room by O. Henry">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 170)">
+    <path d="M0 -30 l 2.4 5.6 5.6 2.4 -5.6 2.4 -2.4 5.6 -2.4 -5.6 -5.6 -2.4 5.6 -2.4 Z" fill="#C9A66B" stroke="none"/>
+    <line x1="-2" y1="-19" x2="-12" y2="5" stroke="#C9A66B" stroke-width="0.8" opacity="0.35"/>
+    <g stroke="#C9A66B" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-30 14 L0 -8 L30 14"/>
+      <path d="M-30 14 L30 14" stroke-width="1.2" opacity="0.5"/>
+    </g>
+    <path d="M-20 6 L-10 -1 L-4 4 L-14 11 Z" fill="#C9A66B" stroke="none"/>
+    <line x1="-17" y1="8.5" x2="-7" y2="1.5" stroke="#FDFBF7" stroke-width="0.8"/>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="0.5">The Skylight</text>
+  <text x="200" y="348" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="0.5">Room</text>
+
+  <line x1="150" y1="383" x2="250" y2="383" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="415" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">A star seen through a small window</text>
+
+  <text x="200" y="461" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="3">O. HENRY</text>
+  <text x="200" y="483" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">FIRST PUBLISHED 1906</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

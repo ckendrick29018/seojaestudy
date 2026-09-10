@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Golden Goose, a Brothers Grimm tale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 168)">
+    <path d="M0 -22 C 13 -6 13 12 0 26 C -13 12 -13 -6 0 -22 Z" fill="#C9A66B" stroke="none"/>
+    <line x1="0" y1="-19" x2="0" y2="30" stroke="#C9A66B" stroke-width="1.6" stroke-linecap="round"/>
+    <g stroke="#FDFBF7" stroke-width="0.9" stroke-linecap="round" opacity="0.75">
+      <path d="M0 -9 L-8 -3"/>
+      <path d="M0 1 L-9 8"/>
+      <path d="M0 11 L-7 17"/>
+      <path d="M0 -9 L8 -3"/>
+      <path d="M0 1 L9 8"/>
+      <path d="M0 11 L7 17"/>
+    </g>
+  </g>
+
+  <text x="200" y="312" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="0.5">The Golden</text>
+  <text x="200" y="348" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2C2C2C" letter-spacing="0.5">Goose</text>
+
+  <line x1="150" y1="383" x2="250" y2="383" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="415" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" font-style="italic" fill="#C57B57">A kind heart and a lucky bird</text>
+
+  <text x="200" y="461" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="3">BROTHERS GRIMM</text>
+  <text x="200" y="483" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">COLLECTED 1812</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

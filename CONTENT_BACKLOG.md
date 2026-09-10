@@ -144,6 +144,9 @@ has a genuine period cover/illustration in the public domain, download that into
 | 80 | The Steadfast Tin Soldier | Hans Christian Andersen (1875) | 1597 | A2 | whole (simplified retelling, 17 sentences; ending gently softened — the little tin heart and the dancer's star kept together) | ☑ |
 | 81 | The Bremen Town Musicians | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Die Bremer Stadtmusikanten" — donkey, dog, cat, rooster scare off the robbers; no peril to the animals) — new A1 row that is *not* Potter | ☑ |
 | 82 | The Cop and the Anthem | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; Soapy's failed attempts to be jailed for the winter, then the O. Henry twist at the church) — a second *Four Million* pick, adds a crime/irony tone to A2 | ☑ |
+| 83 | Sweet Porridge | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 15 sentences; "Der süße Brei" — the magic pot, the forgotten word, the porridge flood; no peril) — diversifies A1 away from Potter | ☑ |
+| 84 | The Golden Goose | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Die goldene Gans" — Simpleton shares his food, the golden goose, the chain of stuck people, the princess who never laughed) — a second non-Potter A1 in this batch | ☑ |
+| 85 | The Skylight Room | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; Miss Leeson's attic room, the star she names Billy Jackson, and the ambulance-doctor twist) — a third *Four Million* pick for A2 | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -170,7 +173,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 45 | The Blue Castle | L. M. Montgomery (1942) | 67979 | B1 | Ch. 1 — Valancy's rainy birthday morning (simplified retelling, 17 sentences) | ☑ |
 | 46 | Emily of New Moon | L. M. Montgomery (1942) | 61236 | B2 | Ch. 1 — the house in the hollow, "the flash," and Ellen Greene's blunt news (simplified retelling, 19 sentences; re-levelled B1 → B2, as B1 is full) | ☑ |
 | 47 | The Story Girl | L. M. Montgomery (1942) | 26273 | B1 | Ch. 1 — the orchard | ☐ |
-| 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — Glen "Notes" and gossip | ☐ |
+| 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — the veranda at Ingleside, Rilla longing for her first dance, and the far-off news from Sarajevo (simplified retelling, 19 sentences) | ☑ |
 | 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" (simplified retelling, 17 sentences) | ☑ |
 | 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary (simplified retelling, 17 sentences) | ☑ |
@@ -210,7 +213,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (74):** The Bremen Town Musicians (row 81), The Cop and the
+- **Live now (78):** Sweet Porridge (row 83), The Golden Goose (row 84),
+  The Skylight Room (row 85), Rilla of Ingleside Ch. 1 (row 48),
+  The Bremen Town Musicians (row 81), The Cop and the
   Anthem (row 82), Jane Eyre Ch. 5 — Lowood (row 34), Emily of New Moon
   Ch. 1 (row 46), The Gift of the Magi (row 4), The Last Leaf (row 5),
   The Story of an Hour (row 2), A Pair of Silk Stockings (row 3),
@@ -252,18 +257,19 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×13 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×15 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,
   The Tale of Mrs. Tiggy-Winkle, The Tale of Benjamin Bunny, The Tale of
-  Two Bad Mice, The Elves and the Shoemaker, The Bremen Town Musicians),
-  A2 ×20 (Story of an Hour,
+  Two Bad Mice, The Elves and the Shoemaker, The Bremen Town Musicians,
+  Sweet Porridge, The Golden Goose),
+  A2 ×21 (Story of an Hour,
   Anne Ch. 2, Little Women, Ugly Duckling, The Secret Garden, Alice in
   Wonderland Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty
   and the Beast, Rapunzel, The Twelve Dancing Princesses, A Little
   Princess Ch. 1, Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl
   Ch. 1, A Pair of Silk Stockings, Thumbelina, The Steadfast Tin Soldier,
-  After Twenty Years, The Cop and the Anthem), B1 ×22
+  After Twenty Years, The Cop and the Anthem, The Skylight Room), B1 ×22
   (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas
   Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The
   Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid,
@@ -271,35 +277,41 @@ has a genuine period cover/illustration in the public domain, download that into
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
   Little Women Ch. 8, A Little Princess Ch. 7, Anne of Avonlea Ch. 1),
-  B2 ×19 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon, The
+  B2 ×20 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon,
+  Rilla of Ingleside, The
   Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
   Innocence Ch. 1, Middlemarch, The Awakening Ch. 1, The House of Mirth
   Bk 1 Ch. 1, The Country of the Pointed Firs Ch. 1–2, North and South
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
-  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×13, A2 ×20,
-  B1 ×22, B2 ×19 — 74 live. B1 stays full at 22; A1, A2 and B2 are the
-  deep bands now, so B1 stays off-limits and the rest wants a story that
+  Villette Ch. 1, Persuasion Ch. 4). Bands are now A1 ×15, A2 ×21,
+  B1 ×22, B2 ×20 — 78 live. B1 stays full at 22; A1, A2 and B2 are still
+  the deep bands, so B1 stays off-limits and the rest wants a story that
   genuinely fits its level.
   Within A2, the non-(fairy-tale / gentle-domestic) entries are now Alice
   in Wonderland and After Twenty Years (crime / twist) — still the two
   odd ones out; more tonal variety there would help.
-  A1 is now Potter-heavy (Peter Rabbit, Mrs. Tiggy-Winkle, Benjamin
-  Bunny, Two Bad Mice — 4 of 13); diversify future A1 work rather than
-  adding a fifth Potter straight away.
+  A1 still has four Potter tales (Peter Rabbit, Mrs. Tiggy-Winkle,
+  Benjamin Bunny, Two Bad Mice — 4 of 15); the last three A1 adds
+  (The Bremen Town Musicians, Sweet Porridge, The Golden Goose) were
+  deliberately non-Potter — keep it that way rather than adding a fifth.
 - Good next lessons to build — B1 is full at 22; spread the rest:
   - B2: **Rilla of Ingleside Ch. 1** (row 48), **Jane Eyre Ch. 5 —
     arrival at Lowood** (row 34) and **Emily of New Moon Ch. 1** (row 46)
-    are now live.
-  - A1 (diversify away from Potter): re-level a gentle A2 tale (Rapunzel,
-    The Twelve Dancing Princesses) down to A1, or a kind non-peril Grimm
-    (**Sweet Porridge**, **The Golden Goose**) — **The Bremen Town
-    Musicians** is now live. Remaining Potter if wanted: **Jemima
-    Puddle-Duck** (fox peril — keep light), **The Tale of Tom Kitten**.
+    are now live. That clears every prose B2 row in the backlog — the only
+    un-built B2 left is row 73 (Sonnet 43, a poem, different shape), so a
+    new prose B2 needs a fresh pick (another Wharton or Eliot scene).
+  - A1 (keep diversifying away from Potter): **Sweet Porridge**, **The
+    Golden Goose** and **The Bremen Town Musicians** are now live. Next:
+    re-level a gentle A2 tale (Rapunzel, The Twelve Dancing Princesses)
+    down to A1, or another kind non-peril Grimm (**Mother Holle**, **The
+    Golden Key**). Remaining Potter if wanted: **Jemima Puddle-Duck**
+    (fox peril — keep light), **The Tale of Tom Kitten**.
   - A2: an Andersen not yet done (**The Fir Tree** — softened, **The
-    Wild Swans**), or another *Four Million* story (**The Skylight
-    Room**) — **The Cop and the Anthem** is now live.
+    Wild Swans**), or another *Four Million* story (**The Brief Début of
+    Tildy**) — **The Cop and the Anthem** and **The Skylight Room** are
+    now live.
   - B1 only if the story really wants it: **Northanger Abbey Ch. 1**
     (row 32), **The Story Girl Ch. 1** (row 47), **Rose in Bloom Ch. 1**
     (row 42).

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Rilla of Ingleside by L. M. Montgomery">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 170)">
+    <path d="M-6 -18 L0 -25 L6 -18 Z" fill="#C9A66B" stroke="none"/>
+    <g stroke="#C9A66B" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-7 22 L-5 -10 L5 -10 L7 22 Z"/>
+      <path d="M-5 -10 L-5 -18 L5 -18 L5 -10"/>
+      <path d="M-6 6 L6 6" stroke-width="1.1" opacity="0.5"/>
+      <path d="M5 -14 L18 -18" stroke-width="1" opacity="0.5"/>
+      <path d="M5 -14 L18 -10" stroke-width="1" opacity="0.5"/>
+      <path d="M-15 22 L15 22" stroke-width="1.2" opacity="0.5"/>
+      <path d="M-16 27 q 8 -4 16 0 q 8 4 16 0" stroke-width="0.9" opacity="0.35"/>
+    </g>
+  </g>
+
+  <text x="200" y="305" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Rilla of</text>
+  <text x="200" y="343" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#2C2C2C" letter-spacing="1">Ingleside</text>
+
+  <line x1="150" y1="377" x2="250" y2="377" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="409" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">The last summer of the old world</text>
+  <text x="200" y="431" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="4">CHAPTER ONE</text>
+
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#C57B57" letter-spacing="2.5">L. M. MONTGOMERY</text>
+  <text x="200" y="492" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">FIRST PUBLISHED 1921</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
