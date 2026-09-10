@@ -251,7 +251,7 @@ export const dict = {
     en: "You haven't set up your learning profile yet.",
     ko: "아직 학습 프로필을 설정하지 않았어요.",
   },
-  redoOnboarding: { en: "Redo onboarding", ko: "온보딩 다시 하기" },
+  redoOnboarding: { en: "Change your goals", ko: "목표 변경하기" },
   startOnboarding: { en: "Set up my profile", ko: "프로필 설정하기" },
   redoOnboardingHint: {
     en: "Walk through the questions again. Your current answers are kept as a starting point.",
