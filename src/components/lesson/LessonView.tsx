@@ -6,6 +6,7 @@ import { StoryReader } from "./StoryReader";
 import { ComprehensionCheck } from "./ComprehensionCheck";
 import { VocabFlashcards } from "./VocabFlashcards";
 import { SummaryBox } from "./SummaryBox";
+import { ShareWithClub } from "./ShareWithClub";
 import { ScrollProgressBar } from "./ScrollProgressBar";
 
 /**
@@ -22,6 +23,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       <ComprehensionCheck questions={lesson.questions} />
       <VocabFlashcards lesson={lesson} />
       <SummaryBox lesson={lesson} />
+      <ShareWithClub lesson={lesson} />
     </article>
   );
 }

@@ -118,9 +118,80 @@ export interface Database {
         };
         Relationships: [];
       };
+      book_clubs: {
+        Row: {
+          id: string;
+          owner_id: string;
+          name: string;
+          join_code: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          owner_id: string;
+          name?: string;
+          join_code?: string;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          owner_id?: string;
+          name?: string;
+          join_code?: string;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+      book_club_members: {
+        Row: {
+          club_id: string;
+          user_id: string;
+          role: "owner" | "member";
+          joined_at: string;
+        };
+        Insert: {
+          club_id: string;
+          user_id: string;
+          role?: "owner" | "member";
+          joined_at?: string;
+        };
+        Update: {
+          club_id?: string;
+          user_id?: string;
+          role?: "owner" | "member";
+          joined_at?: string;
+        };
+        Relationships: [];
+      };
+      shared_chapters: {
+        Row: {
+          club_id: string;
+          lesson_slug: string;
+          shared_by: string | null;
+          shared_at: string;
+        };
+        Insert: {
+          club_id: string;
+          lesson_slug: string;
+          shared_by?: string | null;
+          shared_at?: string;
+        };
+        Update: {
+          club_id?: string;
+          lesson_slug?: string;
+          shared_by?: string | null;
+          shared_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
-    Functions: Record<string, never>;
+    Functions: {
+      user_has_club_unlock: {
+        Args: { p_lesson_slug: string };
+        Returns: boolean;
+      };
+    };
     Enums: Record<string, never>;
     CompositeTypes: Record<string, never>;
   };

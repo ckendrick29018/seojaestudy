@@ -8,6 +8,7 @@ import { ProgressProvider } from "./ProgressProvider";
 import { StudyPlanProvider } from "./StudyPlanProvider";
 import { OnboardingProvider } from "./OnboardingProvider";
 import { DailyProvider } from "./DailyProvider";
+import { ClubProvider } from "./ClubProvider";
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
@@ -17,7 +18,9 @@ export function Providers({ children }: { children: ReactNode }) {
           <OnboardingProvider>
             <ProgressProvider>
               <StudyPlanProvider>
-                <DailyProvider>{children}</DailyProvider>
+                <DailyProvider>
+                  <ClubProvider>{children}</ClubProvider>
+                </DailyProvider>
               </StudyPlanProvider>
             </ProgressProvider>
           </OnboardingProvider>

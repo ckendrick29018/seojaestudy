@@ -5,6 +5,7 @@ import { LessonView } from "@/components/lesson/LessonView";
 import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
 import { isActiveSubscription } from "@/lib/subscription";
+import { hasClubUnlockForLesson } from "@/lib/club-server";
 import { lessonDescription, lessonJsonLd, lessonKeywords, lessonMetaTitle } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 
@@ -61,7 +62,10 @@ export default async function LessonPage({ params }: { params: { slug: string } 
   const lesson = lessons.find((l) => l.slug === params.slug);
   if (!lesson) notFound();
 
-  const locked = !lesson.isFree && !(await hasActiveSubscription());
+  const locked =
+    !lesson.isFree &&
+    !(await hasActiveSubscription()) &&
+    !(await hasClubUnlockForLesson(lesson.slug));
 
   return (
     <>

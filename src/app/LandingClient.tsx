@@ -14,6 +14,7 @@ import {
   GlobeIcon,
   SpeakerIcon,
   StarIcon,
+  UsersIcon,
 } from "@/components/ui/icons";
 
 /** A handful of Classics to show the product on the landing page itself. */
@@ -185,6 +186,21 @@ export function LandingClient() {
           </Link>
         </section>
       )}
+
+      {/* Read it together — book club */}
+      <section className="border-t border-rose-light/40 px-6 py-12 text-center">
+        <UsersIcon className="mx-auto h-8 w-8 text-rose/50" aria-hidden />
+        <h2 className="mt-3 font-serif text-2xl font-semibold text-charcoal">{t("landingClubTitle")}</h2>
+        <p className="mx-auto mb-6 mt-1.5 max-w-[38ch] text-sm leading-relaxed text-charcoal/55">
+          {t("landingClubBody")}
+        </p>
+        <Link
+          href="/club"
+          className={`${CTA_BASE} border border-rose-soft/50 text-rose hover:bg-rose-light/30`}
+        >
+          {t("myBookClub")}
+        </Link>
+      </section>
 
       {/* Closing CTA */}
       <section className="px-6 py-14 text-center">

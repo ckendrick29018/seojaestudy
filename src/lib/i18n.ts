@@ -284,6 +284,101 @@ export const dict = {
     ko: "내일 다시 오면 연속 기록이 이어져요.",
   },
 
+  // --- Book club ---
+  myBookClub: { en: "My book club", ko: "내 북클럽" },
+  clubShareTitle: { en: "Read this with your book club", ko: "북클럽과 함께 읽기" },
+  clubShareBody: {
+    en: "Share this chapter with your book club and discuss it together.",
+    ko: "이 챕터를 북클럽과 공유하고 함께 이야기 나눠요.",
+  },
+  clubShareCta: { en: "Share this chapter", ko: "이 챕터 공유하기" },
+  clubCopyLink: { en: "Copy link", ko: "링크 복사" },
+  clubLinkCopied: { en: "Link copied", ko: "링크를 복사했어요" },
+  clubShareInviteText: {
+    en: "Read this chapter with me on SeoJae Story and let's discuss it.",
+    ko: "SeoJae Story에서 이 챕터를 함께 읽고 이야기 나눠요.",
+  },
+  clubSignInToShare: {
+    en: "Sign in to start a book club and share chapters.",
+    ko: "로그인하면 북클럽을 만들고 챕터를 공유할 수 있어요.",
+  },
+  clubStart: { en: "Start a book club", ko: "북클럽 만들기" },
+  clubStartBody: {
+    en: "Make a private group of up to 10 readers. While your membership is active, chapters you share unlock free for everyone in it.",
+    ko: "최대 10명이 함께하는 비공개 모임을 만들어요. 멤버십이 유효한 동안, 공유한 챕터를 모두가 무료로 읽을 수 있어요.",
+  },
+  clubNameLabel: { en: "Book club name", ko: "북클럽 이름" },
+  clubNamePlaceholder: { en: "e.g. Tuesday Readers", ko: "예: 화요일 독서 모임" },
+  clubCreate: { en: "Create", ko: "만들기" },
+  clubCancel: { en: "Cancel", ko: "취소" },
+  clubSave: { en: "Save", ko: "저장" },
+  clubRename: { en: "Rename", ko: "이름 변경" },
+  clubMembersCount: { en: "{count} of {max} members", ko: "멤버 {count}/{max}명" },
+  clubInviteTitle: { en: "Invite link", ko: "초대 링크" },
+  clubInviteHint: {
+    en: "Anyone with this link can join, up to 10 members. Paste it into your group chat.",
+    ko: "이 링크가 있으면 누구나 참여할 수 있어요(최대 10명). 그룹 채팅에 붙여넣어 보내세요.",
+  },
+  clubShareStatusShared: { en: "Shared with {name}", ko: "{name}에 공유됨" },
+  clubUnshare: { en: "Remove from club", ko: "북클럽에서 빼기" },
+  clubOwnerBadge: { en: "Owner", ko: "관리자" },
+  clubYouBadge: { en: "You", ko: "나" },
+  clubRemoveMember: { en: "Remove", ko: "내보내기" },
+  clubSharedChaptersTitle: { en: "Chapters shared with the club", ko: "북클럽에 공유된 챕터" },
+  clubNoSharedChapters: {
+    en: "No chapters yet. Open a lesson and tap “Share this chapter”.",
+    ko: "아직 없어요. 레슨을 열고 “이 챕터 공유하기”를 눌러 보세요.",
+  },
+  clubMembersTitle: { en: "Members", ko: "멤버" },
+  clubLeave: { en: "Leave book club", ko: "북클럽 나가기" },
+  clubDelete: { en: "Delete book club", ko: "북클럽 삭제" },
+  clubLeaveConfirm: {
+    en: "Leave this book club? You'll lose free access to its shared chapters.",
+    ko: "이 북클럽에서 나갈까요? 공유된 챕터의 무료 이용이 사라져요.",
+  },
+  clubDeleteConfirm: {
+    en: "Delete this book club for everyone? This can't be undone.",
+    ko: "모두를 위해 이 북클럽을 삭제할까요? 되돌릴 수 없어요.",
+  },
+  clubMemberChapterNote: { en: "This chapter is on your book club's list.", ko: "이 챕터가 북클럽 목록에 있어요." },
+  clubOwnerOnlyShare: {
+    en: "Only the club owner can add chapters.",
+    ko: "관리자만 챕터를 추가할 수 있어요.",
+  },
+  clubOpen: { en: "Open {name}", ko: "{name} 열기" },
+  clubMembersReadFree: {
+    en: "Your members can read this chapter free.",
+    ko: "북클럽 멤버가 이 챕터를 무료로 읽을 수 있어요.",
+  },
+  clubMembersReadFreeWhenSubscribed: {
+    en: "Members read shared chapters free while your membership is active.",
+    ko: "멤버십이 유효한 동안 멤버가 공유 챕터를 무료로 읽어요.",
+  },
+  clubSignInCta: { en: "Sign in", ko: "로그인" },
+  clubJoinLoading: { en: "Joining…", ko: "참여하는 중…" },
+  clubJoined: { en: "You've joined {name}.", ko: "{name}에 참여했어요." },
+  clubJoinContinue: { en: "Continue", ko: "계속" },
+  clubUnavailable: {
+    en: "Book clubs aren't available here yet.",
+    ko: "북클럽 기능은 아직 사용할 수 없어요.",
+  },
+  clubNeedsAccount: {
+    en: "Book clubs need an account. Sign in to join this one.",
+    ko: "북클럽은 계정이 필요해요. 로그인하고 참여해 보세요.",
+  },
+  clubJoinInvalid: { en: "This invite link isn't valid anymore.", ko: "이 초대 링크는 더 이상 유효하지 않아요." },
+  clubJoinFull: { en: "This book club is full (10 members).", ko: "이 북클럽은 정원이 찼어요 (10명)." },
+  clubJoinAlready: {
+    en: "You're already in another book club. Leave it first to join this one.",
+    ko: "이미 다른 북클럽에 속해 있어요. 먼저 나가야 참여할 수 있어요.",
+  },
+  clubGenericError: { en: "Something went wrong. Please try again.", ko: "문제가 발생했어요. 다시 시도해 주세요." },
+  clubSignedOutTitle: { en: "Reading with others?", ko: "함께 읽고 있나요?" },
+  clubSignedOutBody: {
+    en: "Sign in to start a book club — a private group of up to 10 readers who can open the chapters you share.",
+    ko: "로그인하고 북클럽을 시작하세요. 공유한 챕터를 함께 볼 수 있는, 최대 10명의 비공개 모임이에요.",
+  },
+
   // --- Landing page (the marketing home at "/") ---
   landingEyebrow: {
     en: "English & Korean through stories",
@@ -396,6 +491,12 @@ export const dict = {
     ko: "저작권이 만료된 이야기를 학습자를 위해 새로 옮기고 번역했어요.",
   },
   landingClassicsSeeAll: { en: "See all {count} stories", ko: "이야기 {count}편 모두 보기" },
+
+  landingClubTitle: { en: "Read it together", ko: "함께 읽어요" },
+  landingClubBody: {
+    en: "Start a book club of up to 10 readers. Share a chapter and everyone in your club can open it — free, while your membership is active — then talk it over.",
+    ko: "최대 10명이 함께하는 북클럽을 만들어요. 챕터를 공유하면 멤버십이 유효한 동안 클럽의 모두가 무료로 열어 읽고, 함께 이야기 나눌 수 있어요.",
+  },
 
   landingClosingTitle: { en: "Your first story is waiting.", ko: "첫 이야기가 기다리고 있어요." },
   landingClosingCta: { en: "Open the library", ko: "서재 열기" },
