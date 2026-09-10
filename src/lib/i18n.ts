@@ -48,6 +48,13 @@ export const dict = {
     ko: "아직 펼쳐 보지 않은 고전들이에요. 지금 수준에 가까운 것들로요.",
   },
 
+  // --- Dashboard: fables & folktales strip ---
+  fablesTitle: { en: "Fables & folktales", ko: "우화와 옛이야기" },
+  fablesSubtitle: {
+    en: "Short beginner tales — a gentle place to start.",
+    ko: "짧은 입문용 이야기 — 부담 없이 시작하기 좋아요.",
+  },
+
   bookshelf: { en: "Bookshelf", ko: "책장" },
   bookshelfSubtitle: {
     en: "Every story you finish finds a place here.",
