@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Jane Eyre: Lowood by Charlotte Brontë">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 176)" stroke="#C9A66B" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-9 22 L-9 6 q 0 -4 9 -4 q 9 0 9 4 L9 22 Z"/>
+    <line x1="0" y1="2" x2="0" y2="-3"/>
+    <path d="M0 -4 q -8 -7 0 -18 q 8 11 0 18 Z" fill="#C9A66B" stroke="none"/>
+    <path d="M-22 26 L22 26" stroke-width="1.1" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="336" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#2C2C2C" letter-spacing="1.5">Jane Eyre</text>
+
+  <line x1="140" y1="366" x2="260" y2="366" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="399" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" fill="#C57B57">Lowood</text>
+  <text x="200" y="421" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="4">CHAPTER 5</text>
+
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="2.5">CHARLOTTE BRONT&#203;</text>
+  <text x="200" y="492" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1847</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

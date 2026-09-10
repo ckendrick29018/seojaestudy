@@ -53,6 +53,16 @@ import { COMPREHENSION_KO } from "./comprehension-ko";
  *  - "The Emperor's New Clothes" is a simplified retelling of Hans Christian
  *    Andersen's fairy tale "Keiserens nye Klæder" (first published 1837,
  *    Project Gutenberg #1597), long in the public domain.
+ *  - "The Bremen Town Musicians" retells the Brothers Grimm tale "Die Bremer
+ *    Stadtmusikanten" (added to their collection in 1819, Project Gutenberg
+ *    #2591), long in the public domain.
+ *  - "The Cop and the Anthem" is a simplified retelling of O. Henry's short
+ *    story (first published 1904 in "The Four Million," Project Gutenberg
+ *    #2776), long in the public domain.
+ *  - "Jane Eyre: Lowood" is a simplified retelling of Chapter 5 of Charlotte
+ *    Brontë's novel (first published 1847, Project Gutenberg #1260).
+ *  - "Emily of New Moon" is a simplified retelling of Chapter 1 of L. M.
+ *    Montgomery's novel (first published 1923, Project Gutenberg #61236).
  *
  * The English and Korean text in every lesson — including all
  * translations — was written fresh for this app, so there are no
@@ -16021,6 +16031,904 @@ export const lessons: Lesson[] = [
         correctIndex: 1,
         explanation:
           "The boy had fooled the villagers twice. When he cried out about the real wolf, they believed it was the same trick again, so no one came to help.",
+      },
+    ],
+  },
+  {
+    slug: "bremen-town-musicians",
+    title: "The Bremen Town Musicians",
+    titleTranslation: "브레멘 음악대",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🎺",
+    coverImage: "/covers/bremen-town-musicians.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"The Bremen Town Musicians\" (\"Die Bremer Stadtmusikanten,\" added to Grimms' collection in 1819; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why the four animals left their homes, and how they ended up living in the robbers' house.",
+    paragraphs: [
+      [
+        {
+          id: "btm-1",
+          text: "A man had a donkey that had carried heavy sacks to the mill for many years.",
+          translation:
+            "어떤 사람에게 여러 해 동안 방앗간으로 무거운 자루를 나른 당나귀가 있었어요.",
+        },
+        {
+          id: "btm-2",
+          text: "Now the donkey was old and weak, and the man did not want to feed him any longer.",
+          translation:
+            "이제 당나귀는 늙고 힘이 없어졌고, 주인은 더 이상 그를 먹여 주고 싶어 하지 않았어요.",
+        },
+        {
+          id: "btm-3",
+          text: "So the donkey ran away. \"I will go to Bremen and become a town musician,\" he said.",
+          translation:
+            "그래서 당나귀는 달아났어요. \"브레멘으로 가서 거리의 악사가 되어야지.\" 하고 그가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "btm-4",
+          text: "On the road he found a dog lying in the grass, panting as if he had run a long way.",
+          translation:
+            "길에서 당나귀는 개 한 마리가 풀밭에 누워, 먼 길을 달려온 것처럼 헐떡이고 있는 것을 보았어요.",
+        },
+        {
+          id: "btm-5",
+          text: "\"I am too old to hunt now, and my master wanted to be rid of me,\" the dog said.",
+          translation:
+            "\"난 이제 너무 늙어서 사냥을 못 해. 그래서 주인이 나를 없애 버리려고 했어.\" 개가 말했어요.",
+        },
+        {
+          id: "btm-6",
+          text: "\"Come to Bremen and make music with me,\" said the donkey, and the dog got up and followed.",
+          translation:
+            "\"나와 함께 브레멘에 가서 음악을 하자.\" 당나귀가 말하자, 개는 일어나 뒤를 따랐어요.",
+        },
+      ],
+      [
+        {
+          id: "btm-7",
+          text: "Soon they met a cat by the road with a face as sad as three rainy days.",
+          translation:
+            "얼마 안 가 둘은 사흘 내리 비 온 날처럼 슬픈 얼굴을 한 고양이를 길가에서 만났어요.",
+        },
+        {
+          id: "btm-8",
+          text: "\"My teeth are blunt now, and the people at home have no more use for me,\" she said.",
+          translation:
+            "\"이제 내 이빨은 다 무뎌졌고, 집 사람들도 나를 더는 쓸데없어 해.\" 고양이가 말했어요.",
+        },
+        {
+          id: "btm-9",
+          text: "\"Come with us to Bremen,\" said the donkey. \"You were made for night music.\"",
+          translation:
+            "\"우리와 함께 브레멘으로 가자.\" 당나귀가 말했어요. \"넌 밤 음악에 딱 맞는 고양이야.\"",
+        },
+      ],
+      [
+        {
+          id: "btm-10",
+          text: "They walked on and passed a farm, where a rooster was crowing with all his might.",
+          translation:
+            "셋은 계속 걸어 어느 농장을 지났는데, 그곳에서 수탉 한 마리가 있는 힘껏 울고 있었어요.",
+        },
+        {
+          id: "btm-11",
+          text: "\"Guests are coming tomorrow, and the cook wants me in the soup,\" the rooster cried.",
+          translation:
+            "\"내일 손님이 오는데, 요리사가 나를 국에 넣으려고 해.\" 수탉이 외쳤어요.",
+        },
+        {
+          id: "btm-12",
+          text: "\"Come away to Bremen instead,\" said the donkey. \"A voice like yours is worth hearing.\"",
+          translation:
+            "\"그러지 말고 브레멘으로 가자.\" 당나귀가 말했어요. \"너처럼 좋은 목소리는 들을 만하지.\"",
+        },
+      ],
+      [
+        {
+          id: "btm-13",
+          text: "Bremen was still far off when night fell, so the rooster flew up a tree to look for shelter.",
+          translation:
+            "밤이 되었을 때도 브레멘은 아직 멀었고, 수탉은 쉴 곳을 찾으려고 나무 위로 날아올랐어요.",
+        },
+        {
+          id: "btm-14",
+          text: "He saw a light nearby: a house where a band of robbers sat at a table full of food and money.",
+          translation:
+            "가까이에 불빛이 보였어요. 도둑 무리가 음식과 돈이 가득한 탁자에 둘러앉아 있는 집이었지요.",
+        },
+        {
+          id: "btm-15",
+          text: "The donkey put his feet on the sill, the dog climbed on his back, the cat on the dog, and the rooster on top of them all.",
+          translation:
+            "당나귀가 창턱에 앞발을 올리고, 개가 그 등에, 고양이가 개 위에, 수탉이 그 모두의 꼭대기에 올라섰어요.",
+        },
+      ],
+      [
+        {
+          id: "btm-16",
+          text: "At a sign they all began at once — braying, barking, meowing, and crowing — and crashed through the window.",
+          translation:
+            "신호에 맞춰 넷이 한꺼번에 시작했어요. 히힝, 멍멍, 야옹, 꼬끼오 울며 창문을 부수고 뛰어들었지요.",
+        },
+        {
+          id: "btm-17",
+          text: "The robbers were sure a monster had come and ran into the wood, and the four friends sat down and ate their fill.",
+          translation:
+            "도둑들은 괴물이 나타났다고 굳게 믿으며 숲으로 달아났고, 네 친구는 자리에 앉아 배불리 먹었어요.",
+        },
+        {
+          id: "btm-18",
+          text: "Later one robber crept back in the dark, but the cat scratched him, the dog bit him, the donkey kicked him, and the rooster crowed from the roof — so the robbers never returned, and the four musicians liked the house so well that they never left for Bremen at all.",
+          translation:
+            "나중에 도둑 하나가 어둠 속에서 살금살금 돌아왔지만, 고양이는 할퀴고 개는 물고 당나귀는 걷어차고 수탉은 지붕에서 울어 댔어요. 그래서 도둑들은 두 번 다시 오지 않았고, 네 음악가는 그 집이 무척 마음에 들어 끝내 브레멘으로는 가지 않았답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "btm-v1",
+        term: "weak",
+        partOfSpeech: "adjective",
+        translation: "약한, 힘없는",
+        example: "Now the donkey was old and weak.",
+        exampleTranslation: "이제 당나귀는 늙고 힘이 없었어요.",
+      },
+      {
+        id: "btm-v2",
+        term: "hunt",
+        partOfSpeech: "verb",
+        translation: "사냥하다",
+        example: "\"I am too old to hunt now,\" the dog said.",
+        exampleTranslation: "\"난 이제 너무 늙어서 사냥을 못 해.\" 개가 말했어요.",
+      },
+      {
+        id: "btm-v3",
+        term: "crow",
+        partOfSpeech: "verb",
+        translation: "(수탉이) 울다, 홰치며 울다",
+        example: "A rooster was crowing with all his might.",
+        exampleTranslation: "수탉 한 마리가 있는 힘껏 울고 있었어요.",
+      },
+      {
+        id: "btm-v4",
+        term: "robber",
+        partOfSpeech: "noun",
+        translation: "도둑, 강도",
+        example: "A band of robbers sat at a table full of food.",
+        exampleTranslation: "도둑 무리가 음식이 가득한 탁자에 둘러앉아 있었어요.",
+      },
+      {
+        id: "btm-v5",
+        term: "band",
+        partOfSpeech: "noun",
+        translation: "무리, 떼; (음악) 밴드",
+        example: "The four animals made a band of their own.",
+        exampleTranslation: "네 동물은 자기들만의 악단을 이루었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "btm-q1",
+        prompt: "Why did the donkey leave home?",
+        options: [
+          "He wanted to see the town of Bremen.",
+          "He was old and weak, and his master no longer wanted to feed him.",
+          "The other animals asked him to come with them.",
+          "He was afraid of the robbers in the wood.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After years of carrying sacks to the mill, the donkey had grown old and weak. His master no longer wanted to feed him, so he ran away to become a musician in Bremen.",
+      },
+      {
+        id: "btm-q2",
+        prompt: "What did the dog, the cat, and the rooster have in common?",
+        options: [
+          "They were all going to Bremen to visit family.",
+          "They were all young animals looking for adventure.",
+          "They were all old or unwanted, and no longer safe at home.",
+          "They had all run away from the same farm.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Like the donkey, each animal was old or no longer useful to its owner and no longer safe where it lived. That is why each one joined the donkey on the road.",
+      },
+      {
+        id: "btm-q3",
+        prompt: "How did the four animals get the house?",
+        options: [
+          "They asked the robbers politely to share it.",
+          "They made a frightening noise together and scared the robbers away.",
+          "They bought it with the money on the table.",
+          "The town of Bremen gave it to them as its musicians.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Standing one on top of another, the animals brayed, barked, meowed, and crowed all at once and crashed through the window. The robbers thought a monster had come and fled — and the animals liked the house so well they never reached Bremen at all.",
+      },
+    ],
+  },
+  {
+    slug: "the-cop-and-the-anthem",
+    title: "The Cop and the Anthem",
+    titleTranslation: "경찰관과 찬송가",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1862–1910)",
+    coverEmoji: "🚓",
+    coverImage: "/covers/the-cop-and-the-anthem.svg",
+    source:
+      "Adapted from O. Henry's short story \"The Cop and the Anthem\" (first published 1904 in the collection \"The Four Million\"; long in the public domain, Project Gutenberg #2776). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what Soapy was trying to do all evening, and what finally happened to him.",
+    paragraphs: [
+      [
+        {
+          id: "cta-1",
+          text: "Soapy shifted on his bench in Madison Square. When the wild geese fly south and old ladies buy warm coats, a man knows that winter is near.",
+          translation:
+            "소피는 매디슨 광장의 벤치 위에서 몸을 뒤척였어요. 기러기가 남쪽으로 날아가고 나이 든 부인들이 따뜻한 외투를 살 때면, 겨울이 가까웠다는 걸 알 수 있지요.",
+        },
+        {
+          id: "cta-2",
+          text: "Soapy had no home. Every winter he found one: three months in the city prison on the Island, with a bed, food, and good company.",
+          translation:
+            "소피에게는 집이 없었어요. 겨울마다 그는 집을 하나 구했어요. 침대와 먹을 것과 좋은 친구들이 있는, 섬의 시립 교도소에서 보내는 석 달이었지요.",
+        },
+        {
+          id: "cta-3",
+          text: "Now the time had come again, so that night he set out to get himself arrested.",
+          translation:
+            "이제 다시 그때가 왔고, 그날 밤 소피는 일부러 체포당하려고 나섰어요.",
+        },
+      ],
+      [
+        {
+          id: "cta-4",
+          text: "His first plan was simple: eat a large dinner at a fine restaurant, and then say that he had no money.",
+          translation:
+            "첫 번째 계획은 간단했어요. 고급 식당에서 푸짐하게 저녁을 먹은 다음, 돈이 없다고 말하는 거였지요.",
+        },
+        {
+          id: "cta-5",
+          text: "The waiter would call a cop, and Soapy would go quietly. But at the door the head waiter looked down at his torn trousers and old shoes.",
+          translation:
+            "종업원이 경찰을 부르면 소피는 순순히 따라갈 참이었어요. 하지만 문 앞에서 수석 종업원이 그의 해진 바지와 낡은 구두를 내려다보았어요.",
+        },
+        {
+          id: "cta-6",
+          text: "Strong hands turned him around and pushed him back onto the street. No cop was called.",
+          translation:
+            "억센 손이 그를 돌려세워 다시 거리로 밀어냈어요. 경찰은 부르지도 않았지요.",
+        },
+      ],
+      [
+        {
+          id: "cta-7",
+          text: "Next Soapy picked up a stone and threw it through a shop window. The glass broke with a loud crash.",
+          translation:
+            "다음으로 소피는 돌을 하나 집어 상점 유리창에 던졌어요. 유리가 요란한 소리를 내며 깨졌어요.",
+        },
+        {
+          id: "cta-8",
+          text: "A cop came running. Soapy stood still, smiling, with his hands in his pockets.",
+          translation:
+            "경찰관이 달려왔어요. 소피는 주머니에 손을 넣고 미소를 지으며 가만히 서 있었어요.",
+        },
+        {
+          id: "cta-9",
+          text: "\"Where's the man that did this?\" the cop shouted, and then ran straight past Soapy after someone else. Soapy walked away, angry.",
+          translation:
+            "\"이 짓을 한 놈은 어디 있어?\" 경찰관이 외치더니, 소피를 그대로 지나쳐 다른 사람을 쫓아 달려갔어요. 소피는 화가 나서 자리를 떴어요.",
+        },
+      ],
+      [
+        {
+          id: "cta-10",
+          text: "At a plain, cheap restaurant he ate a big meal, and then told the waiter he had no money to pay.",
+          translation:
+            "소피는 허름하고 값싼 식당에서 배부르게 먹은 뒤, 종업원에게 낼 돈이 없다고 말했어요.",
+        },
+        {
+          id: "cta-11",
+          text: "\"No cop for you,\" said the waiter. Two waiters threw Soapy out, and his ear hit the hard pavement.",
+          translation:
+            "\"너한테 경찰은 없어.\" 종업원이 말했어요. 종업원 둘이 소피를 밖으로 내던졌고, 그의 귀가 딱딱한 보도에 부딪혔어요.",
+        },
+        {
+          id: "cta-12",
+          text: "Near a cigar shop a well-dressed man had left his umbrella by the door. Soapy took it and walked away slowly.",
+          translation:
+            "담배 가게 근처에서, 옷을 잘 차려입은 남자가 문가에 우산을 세워 두었어요. 소피는 그것을 집어 천천히 걸어갔어요.",
+        },
+        {
+          id: "cta-13",
+          text: "The man hurried after him. \"That's my umbrella,\" Soapy said rudely, hoping for a fight — but the man only said, \"Oh, sorry. I found it myself this morning. If it's yours, keep it,\" and walked off.",
+          translation:
+            "남자가 서둘러 뒤따라왔어요. \"이건 제 우산인데요.\" 소피는 싸움을 바라며 무례하게 말했어요. 그런데 남자는 그저 이렇게 말했어요. \"아, 죄송합니다. 저도 오늘 아침에 주운 거예요. 당신 것이라면 그냥 가지세요.\" 그러고는 가 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "cta-14",
+          text: "Tired and beaten, Soapy stopped in front of an old church. Through the window came the soft music of the organ and a choir singing an anthem.",
+          translation:
+            "지치고 풀이 죽은 소피는 오래된 교회 앞에서 걸음을 멈췄어요. 창문 너머로 오르간의 부드러운 음악과, 성가대가 부르는 찬송가가 흘러나왔어요.",
+        },
+        {
+          id: "cta-15",
+          text: "The music carried Soapy back to the days when his life had held a mother, friends, clean thoughts, and clean clothes.",
+          translation:
+            "그 음악은 소피를, 어머니와 친구들, 깨끗한 마음과 깨끗한 옷이 있던 시절로 데려갔어요.",
+        },
+        {
+          id: "cta-16",
+          text: "Standing there, he made a sudden decision: he would leave this life behind, find work tomorrow, and become the man he had once meant to be.",
+          translation:
+            "그 자리에 선 채, 소피는 문득 결심했어요. 이런 삶을 버리고, 내일 일자리를 구해, 자기가 본디 되고자 했던 사람이 되기로요.",
+        },
+      ],
+      [
+        {
+          id: "cta-17",
+          text: "A hand fell on his arm. It was a cop. \"What are you doing here?\" he asked. \"Nothing,\" said Soapy.",
+          translation:
+            "누군가의 손이 그의 팔을 붙잡았어요. 경찰관이었어요. \"여기서 뭐 하는 거야?\" 경찰관이 물었어요. \"아무것도요.\" 소피가 말했어요.",
+        },
+        {
+          id: "cta-18",
+          text: "\"Come along, then.\" The next morning the judge said, \"Three months on the Island.\"",
+          translation:
+            "\"그럼 따라와.\" 다음 날 아침, 판사가 말했어요. \"섬에서 석 달.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cta-v1",
+        term: "arrest",
+        partOfSpeech: "verb",
+        translation: "체포하다",
+        example: "Soapy set out to get himself arrested.",
+        exampleTranslation: "소피는 일부러 체포당하려고 나섰어요.",
+      },
+      {
+        id: "cta-v2",
+        term: "prison",
+        partOfSpeech: "noun",
+        translation: "교도소, 감옥",
+        example: "He wanted three months in the city prison.",
+        exampleTranslation: "그는 시립 교도소에서 석 달을 보내고 싶었어요.",
+      },
+      {
+        id: "cta-v3",
+        term: "pavement",
+        partOfSpeech: "noun",
+        translation: "보도, 인도",
+        example: "His ear hit the hard pavement.",
+        exampleTranslation: "그의 귀가 딱딱한 보도에 부딪혔어요.",
+      },
+      {
+        id: "cta-v4",
+        term: "rudely",
+        partOfSpeech: "adverb",
+        translation: "무례하게, 버릇없이",
+        example: "\"That's my umbrella,\" Soapy said rudely.",
+        exampleTranslation: "\"이건 제 우산이에요.\" 소피가 무례하게 말했어요.",
+      },
+      {
+        id: "cta-v5",
+        term: "anthem",
+        partOfSpeech: "noun",
+        translation: "찬송가, 성가",
+        example: "A choir was singing an anthem inside the church.",
+        exampleTranslation: "교회 안에서 성가대가 찬송가를 부르고 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cta-q1",
+        prompt: "What did Soapy want to happen to him?",
+        options: [
+          "To find a warm restaurant that would feed him for free.",
+          "To be arrested and sent to prison for the winter.",
+          "To get a steady job before the cold weather came.",
+          "To meet an old friend from earlier in his life.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Soapy had no home. Every winter he arranged to spend three months in the city prison on the Island, where there was a bed, food, and company. This year he again set out to get himself arrested.",
+      },
+      {
+        id: "cta-q2",
+        prompt: "Why did breaking the shop window NOT get Soapy arrested?",
+        options: [
+          "The cop did not hear the glass break.",
+          "The shop owner decided not to complain.",
+          "The cop could not believe the guilty man would stay, so he chased someone else.",
+          "Soapy ran away before the cop arrived.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A cop came running, but Soapy just stood there smiling. The cop was sure the man who did it would have run away, so he ran past Soapy and chased another man instead.",
+      },
+      {
+        id: "cta-q3",
+        prompt: "What is ironic about the ending?",
+        options: [
+          "Soapy finally reached the prison but found it closed.",
+          "The moment Soapy decided to change his life and find work, a cop arrested him.",
+          "The judge turned out to be an old friend of Soapy's.",
+          "Soapy was arrested for breaking the shop window after all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Every effort to get arrested had failed. Then the church music moved Soapy to give up his old life and look for work — and at that very moment a cop took him in for loitering, and the judge sent him to the Island for three months.",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre-lowood",
+    title: "Jane Eyre: Lowood",
+    titleTranslation: "제인 에어: 로우드",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "📘",
+    coverImage: "/covers/jane-eyre-lowood.svg",
+    source:
+      "Adapted from Chapter 5 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Jane's first morning at Lowood, and how Helen Burns's view of unfair treatment differed from Jane's.",
+    paragraphs: [
+      [
+        {
+          id: "jel-1",
+          text: "Jane left Gateshead in the dark, at five in the morning, alone in the coach for a journey of fifty miles.",
+          translation:
+            "제인은 새벽 다섯 시, 어둠 속에서 게이츠헤드를 떠나, 오십 마일이나 되는 길을 마차 안에 홀로 앉아 갔어요.",
+        },
+        {
+          id: "jel-2",
+          text: "The afternoon came on wet and misty, and as the daylight failed Jane understood that Lowood must lie far from any town.",
+          translation:
+            "오후가 되자 비가 내리고 안개가 끼었고, 날이 저물어 갈수록 제인은 로우드가 어느 마을에서든 멀리 떨어져 있으리라는 것을 깨달았어요.",
+        },
+        {
+          id: "jel-3",
+          text: "It was quite dark when the coach at last stopped, and she was led along cold passages into a wide, dim room where about eighty girls sat in silence over their books.",
+          translation:
+            "마침내 마차가 멈췄을 때는 완전히 캄캄했고, 제인은 차가운 복도를 따라, 여든 명쯤 되는 소녀들이 말없이 책을 들여다보고 있는 넓고 침침한 방으로 안내되었어요.",
+        },
+      ],
+      [
+        {
+          id: "jel-4",
+          text: "A bell woke her long before daylight. The room was bitterly cold, and Jane dressed with shaking hands.",
+          translation:
+            "동트기 훨씬 전에 종소리가 제인을 깨웠어요. 방은 살을 에듯 추웠고, 제인은 떨리는 손으로 옷을 입었어요.",
+        },
+        {
+          id: "jel-5",
+          text: "There was water to wash in only where the ice on it had been broken, and often not enough of it to go round.",
+          translation:
+            "씻을 물은 그 위에 언 얼음을 깨뜨린 곳에서만 쓸 수 있었고, 그마저도 모두에게 돌아갈 만큼 넉넉하지 않을 때가 많았어요.",
+        },
+        {
+          id: "jel-6",
+          text: "By the light of dim lamps the girls filed into the schoolroom, said prayers, and went in to breakfast, faint with cold and hunger.",
+          translation:
+            "희미한 등불 아래서 소녀들은 줄지어 교실로 들어가 기도를 드린 뒤, 추위와 배고픔으로 기운이 빠진 채 아침을 먹으러 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "jel-7",
+          text: "Breakfast was porridge, but it had been burnt in the cooking, and the smell alone turned the girls' stomachs.",
+          translation:
+            "아침 식사는 죽이었는데, 끓이다가 태워 버려서 냄새만으로도 소녀들은 속이 뒤집혔어요.",
+        },
+        {
+          id: "jel-8",
+          text: "Spoonful by spoonful they tried it and gave up, and the meal ended with almost nothing eaten.",
+          translation:
+            "소녀들은 한 숟갈씩 떠서 맛을 보다가 이내 포기했고, 식사는 거의 아무것도 먹지 못한 채 끝났어요.",
+        },
+        {
+          id: "jel-9",
+          text: "Miss Temple, the tall, calm head teacher, heard what had happened and quietly ordered bread and cheese for the whole school, though she was blamed for it afterwards.",
+          translation:
+            "키가 크고 차분한 교장 선생님인 템플 선생님은 그 일을 전해 듣고는, 나중에 그 일로 책망을 들으면서도, 조용히 학교 전체에 빵과 치즈를 내주라고 지시했어요.",
+        },
+      ],
+      [
+        {
+          id: "jel-10",
+          text: "Lowood was a charity school for orphan girls, paid for partly by kind families and partly by a Mr. Brocklehurst, who managed its money and its rules.",
+          translation:
+            "로우드는 고아 소녀들을 위한 자선 학교로, 얼마간은 인정 많은 가정들이, 얼마간은 브로클허스트라는 사람이 돈을 대었고, 그가 학교의 재정과 규칙을 관리했어요.",
+        },
+        {
+          id: "jel-11",
+          text: "His name was spoken in a low voice, and Jane saw that the older girls dreaded the day he would visit.",
+          translation:
+            "그의 이름은 낮은 목소리로만 불렸고, 제인은 나이 많은 소녀들이 그가 방문하는 날을 두려워한다는 것을 알아챘어요.",
+        },
+        {
+          id: "jel-12",
+          text: "The lessons were long, the rooms were never warm, and the girls were always a little hungry — yet the days had an order that Jane, who had known none at Gateshead, almost welcomed.",
+          translation:
+            "수업은 길었고, 방은 한 번도 따뜻한 적이 없었으며, 소녀들은 늘 조금씩 배가 고팠어요. 그래도 하루하루에는 나름의 질서가 있었고, 게이츠헤드에서 아무런 질서도 겪어 보지 못한 제인은 그것을 오히려 반겼어요.",
+        },
+      ],
+      [
+        {
+          id: "jel-13",
+          text: "That afternoon Jane noticed a girl sitting apart, bent over a book as if nothing around her existed.",
+          translation:
+            "그날 오후 제인은 한 소녀가 따로 떨어져 앉아, 주위에 아무것도 없는 듯 책 위로 몸을 숙이고 있는 것을 보았어요.",
+        },
+        {
+          id: "jel-14",
+          text: "The book was called Rasselas. Jane asked if it was interesting, and the girl — Helen Burns — said she liked it and let Jane look at a page or two.",
+          translation:
+            "그 책의 제목은 『라셀라스』였어요. 제인이 재미있느냐고 묻자, 그 소녀 — 헬렌 번스 — 는 마음에 든다고 하며 제인에게 한두 쪽을 들여다보게 해 주었어요.",
+        },
+        {
+          id: "jel-15",
+          text: "Jane found the pages dull and handed the book back, but something in Helen's calm, tired face made her want to go on talking.",
+          translation:
+            "제인은 그 쪽들이 지루하다고 느껴 책을 돌려주었지만, 헬렌의 차분하고 지친 얼굴에는 계속 이야기를 나누고 싶게 만드는 무언가가 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "jel-16",
+          text: "Helen told Jane that she was often punished for small faults — untidy hands, a wandering mind — and that a teacher called Miss Scatcherd was especially hard on her.",
+          translation:
+            "헬렌은 제인에게, 자기는 사소한 잘못 — 지저분한 손, 딴생각하는 마음 — 으로도 자주 벌을 받는다고, 특히 스캐처드라는 선생님이 자기에게 유난히 엄하다고 말했어요.",
+        },
+        {
+          id: "jel-17",
+          text: "Jane said that if she were treated so unjustly, she would hate that teacher and refuse to bear it.",
+          translation:
+            "제인은, 자기가 그렇게 부당한 대우를 받는다면 그 선생님을 미워하고 참지 않겠다고 말했어요.",
+        },
+        {
+          id: "jel-18",
+          text: "Helen shook her head. \"It is weak and silly to say you cannot bear what it is your fate to bear,\" she said — and Jane, who had never heard anyone speak so, watched her a long time in silence.",
+          translation:
+            "헬렌은 고개를 저었어요. \"견디는 것이 네 운명인 일을 두고 견딜 수 없다고 말하는 건 나약하고 어리석은 거야.\" 헬렌이 말했어요. 그렇게 말하는 사람을 처음 본 제인은, 오랫동안 말없이 헬렌을 바라보았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jel-v1",
+        term: "charity",
+        partOfSpeech: "noun",
+        translation: "자선; (수식어로) 자선의",
+        example: "Lowood was a charity school for orphan girls.",
+        exampleTranslation: "로우드는 고아 소녀들을 위한 자선 학교였어요.",
+      },
+      {
+        id: "jel-v2",
+        term: "bitterly",
+        partOfSpeech: "adverb",
+        translation: "몹시, 지독하게 (추위 등)",
+        example: "The room was bitterly cold.",
+        exampleTranslation: "방은 살을 에듯 추웠어요.",
+      },
+      {
+        id: "jel-v3",
+        term: "unjustly",
+        partOfSpeech: "adverb",
+        translation: "부당하게, 불공정하게",
+        example: "Jane felt that Helen was treated unjustly.",
+        exampleTranslation: "제인은 헬렌이 부당한 대우를 받는다고 느꼈어요.",
+      },
+      {
+        id: "jel-v4",
+        term: "bear",
+        partOfSpeech: "verb",
+        translation: "견디다, 참다",
+        example: "\"You cannot bear what it is your fate to bear,\" Helen said.",
+        exampleTranslation: "\"견디는 것이 네 운명인 일을 견딜 수 없다고 하는구나.\" 헬렌이 말했어요.",
+      },
+      {
+        id: "jel-v5",
+        term: "fate",
+        partOfSpeech: "noun",
+        translation: "운명, 숙명",
+        example: "Helen believed she must accept her fate.",
+        exampleTranslation: "헬렌은 자기 운명을 받아들여야 한다고 믿었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jel-q1",
+        prompt: "What was Jane's journey to Lowood like?",
+        options: [
+          "A short walk from Gateshead with her aunt.",
+          "A long coach ride of fifty miles, alone, arriving after dark.",
+          "A pleasant trip by train on a bright morning.",
+          "A day's ride with Mr. Brocklehurst, who came to fetch her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Jane set out alone at five in the morning and travelled fifty miles by coach. It was already dark when she reached Lowood and was led into the silent schoolroom.",
+      },
+      {
+        id: "jel-q2",
+        prompt: "Why did the girls eat almost nothing at breakfast?",
+        options: [
+          "They had been told to fast that morning.",
+          "The porridge had been burnt and was impossible to eat.",
+          "There was no food left anywhere in the school.",
+          "They were too excited about Jane's arrival.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The breakfast porridge had been burnt in the cooking. The girls tasted it, gave up, and left the meal nearly untouched, so Miss Temple ordered bread and cheese for the whole school.",
+      },
+      {
+        id: "jel-q3",
+        prompt: "How did Helen Burns's view of unfair treatment differ from Jane's?",
+        options: [
+          "Helen wanted to run away from Lowood, while Jane wanted to stay.",
+          "Helen thought the teachers were always right, while Jane thought they were always wrong.",
+          "Helen believed she should quietly endure what she could not change, while Jane felt she would hate the teacher and refuse to bear it.",
+          "Helen did not mind the punishments, while Jane thought they were fair.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jane said that unjust treatment would make her hate the teacher and fight back. Helen answered that it was weak and silly to say you cannot bear what it is your fate to bear — a calm acceptance Jane had never heard before.",
+      },
+    ],
+  },
+  {
+    slug: "emily-of-new-moon",
+    title: "Emily of New Moon",
+    titleTranslation: "뉴문의 에밀리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🌙",
+    coverImage: "/covers/emily-of-new-moon.svg",
+    source:
+      "Adapted from Chapter 1 of L. M. Montgomery's novel \"Emily of New Moon\" (first published 1923; long in the public domain, Project Gutenberg #61236). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe Emily's life in the house in the hollow, and the news Ellen Greene gave her.",
+    paragraphs: [
+      [
+        {
+          id: "enm-1",
+          text: "Emily Byrd Starr lived with her father in a little house in a hollow at Maywood, with young fir trees crowding close about it.",
+          translation:
+            "에밀리 버드 스타는 아버지와 함께 메이우드의 우묵한 골짜기에 있는 작은 집에서 살았는데, 어린 전나무들이 그 집을 바싹 에워싸고 있었어요.",
+        },
+        {
+          id: "enm-2",
+          text: "It stood far from other houses, and Emily had never been to school; her father had taught her himself.",
+          translation:
+            "그 집은 다른 집들과 멀리 떨어져 있었고, 에밀리는 학교에 다녀 본 적이 없었어요. 아버지가 손수 가르쳐 주었지요.",
+        },
+        {
+          id: "enm-3",
+          text: "Her mother had died when Emily was a baby, and her mother's people, the proud Murrays of New Moon Farm, had never forgiven the marriage and never came.",
+          translation:
+            "어머니는 에밀리가 갓난아기였을 때 세상을 떠났고, 어머니의 집안인 뉴문 농장의 자존심 센 머리 집안 사람들은 그 결혼을 끝내 용서하지 않았으며 한 번도 찾아오지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "enm-4",
+          text: "Emily was a strange, watchful child who loved words and made up poems in her head as she walked.",
+          translation:
+            "에밀리는 낯을 가리면서도 유심히 살피는 아이였고, 말을 사랑했으며, 걸으면서 머릿속으로 시를 지었어요.",
+        },
+        {
+          id: "enm-5",
+          text: "Sometimes there came to her what she called \"the flash\" — a sudden moment when a curtain seemed to lift and she saw, just for a heartbeat, a world far lovelier than her own.",
+          translation:
+            "이따금 그녀에게는 스스로 \"번쩍임\"이라 부르는 것이 찾아왔어요. 갑자기 어떤 휘장이 걷히는 듯하더니, 심장이 한 번 뛸 만큼 짧은 순간, 자기 세상보다 훨씬 더 아름다운 세상이 보이는 거였지요.",
+        },
+        {
+          id: "enm-6",
+          text: "She had names for the things she loved: the Wind Woman who moved in the trees, and two friendly birches she called Adam-and-Eve.",
+          translation:
+            "에밀리는 자기가 사랑하는 것들에 이름을 붙였어요. 나무 사이를 오가는 '바람 아주머니', 그리고 '아담과 이브'라고 부르는 정다운 자작나무 두 그루였지요.",
+        },
+      ],
+      [
+        {
+          id: "enm-7",
+          text: "Her father had been ill all winter with a cough that would not leave him, and lately he had spent long hours resting on the sofa.",
+          translation:
+            "아버지는 겨우내 떨어지지 않는 기침을 앓았고, 요즘은 소파에 누워 쉬는 시간이 길어졌어요.",
+        },
+        {
+          id: "enm-8",
+          text: "Emily knew that he had grown thin, and that visitors lowered their voices in the kitchen, but no one had told her anything.",
+          translation:
+            "에밀리는 아버지가 야위었다는 것도, 손님들이 부엌에서 목소리를 낮춘다는 것도 알았지만, 아무도 그녀에게는 아무 말도 해 주지 않았어요.",
+        },
+        {
+          id: "enm-9",
+          text: "One grey afternoon her father walked slowly up the road to see a neighbour, and Emily was left in the kitchen with Ellen Greene, the stout old woman who kept house for them.",
+          translation:
+            "어느 잿빛 오후, 아버지는 이웃을 만나러 천천히 길을 올라갔고, 에밀리는 그 집 살림을 맡아 하는 뚱뚱한 노파 엘런 그린과 함께 부엌에 남겨졌어요.",
+        },
+      ],
+      [
+        {
+          id: "enm-10",
+          text: "Ellen looked at the child over her knitting and said, in the flat voice of someone passing on plain news, \"You'll have to be a good girl now, Emily, and not worry your poor father.\"",
+          translation:
+            "엘런은 뜨개질감 너머로 아이를 바라보며, 그저 사실을 전하는 사람의 무덤덤한 목소리로 말했어요. \"이제 착하게 굴어야 한다, 에밀리. 가엾은 네 아버지 속 썩이지 말고.\"",
+        },
+        {
+          id: "enm-11",
+          text: "\"Because,\" Ellen went on, \"he isn't going to be with you very long now. The doctor says he can't last out the spring.\"",
+          translation:
+            "\"왜냐하면,\" 엘런이 말을 이었어요. \"이제 아버지가 네 곁에 오래 계시지 못할 거거든. 의사 말로는 봄을 넘기시기 어렵대.\"",
+        },
+        {
+          id: "enm-12",
+          text: "For a moment Emily did not understand. Then the words came together, and something cold and huge seemed to fall on her.",
+          translation:
+            "잠깐 동안 에밀리는 그 말을 알아듣지 못했어요. 이윽고 낱말들이 하나로 맞춰지자, 차갑고 거대한 무언가가 그녀 위로 무너져 내리는 것 같았어요.",
+        },
+        {
+          id: "enm-13",
+          text: "\"It isn't true,\" she said, in a sharp little voice. \"It can't be true. Father is getting better.\"",
+          translation:
+            "\"사실이 아니에요.\" 에밀리가 새된 작은 목소리로 말했어요. \"그럴 리 없어요. 아버지는 나아지고 있는걸요.\"",
+        },
+      ],
+      [
+        {
+          id: "enm-14",
+          text: "Ellen only shook her head and went on knitting, and Emily could not stay in the room with her a moment longer.",
+          translation:
+            "엘런은 그저 고개를 저으며 뜨개질을 계속했고, 에밀리는 그녀와 한 방에 단 한순간도 더 있을 수 없었어요.",
+        },
+        {
+          id: "enm-15",
+          text: "She ran out and down the road in the raw wind, past Adam-and-Eve, until she met her father walking slowly home.",
+          translation:
+            "에밀리는 스산한 바람 속으로 뛰쳐나가, 아담과 이브를 지나 길을 달려 내려가다가, 천천히 집으로 걸어오는 아버지와 마주쳤어요.",
+        },
+        {
+          id: "enm-16",
+          text: "She took hold of his hand and asked him, straight out, whether what Ellen had said was true.",
+          translation:
+            "에밀리는 아버지의 손을 붙잡고, 엘런이 한 말이 사실이냐고 대놓고 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "enm-17",
+          text: "He did not tell her a kind lie. He drew her close and said, gently, that it was true, and that he was sorry to have to leave her so soon.",
+          translation:
+            "아버지는 다정한 거짓말을 하지 않았어요. 그는 에밀리를 가까이 끌어안고, 그것이 사실이라고, 이렇게 일찍 그녀를 두고 떠나야 해서 미안하다고 나직이 말했어요.",
+        },
+        {
+          id: "enm-18",
+          text: "\"But you must not be afraid,\" he told her. \"Nothing that is really worth keeping can ever be lost.\"",
+          translation:
+            "\"그래도 무서워해서는 안 돼.\" 아버지가 말했어요. \"정말로 간직할 가치가 있는 것은 결코 사라지지 않는단다.\"",
+        },
+        {
+          id: "enm-19",
+          text: "\"And some day you will write about all of this, Emily. I have always known that you would.\"",
+          translation:
+            "\"그리고 언젠가 너는 이 모든 것에 대해 글을 쓰게 될 거야, 에밀리. 나는 늘 그렇게 될 줄 알고 있었단다.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "enm-v1",
+        term: "hollow",
+        partOfSpeech: "noun",
+        translation: "우묵한 땅, 골짜기",
+        example: "Their house stood in a hollow, ringed with fir trees.",
+        exampleTranslation: "그들의 집은 전나무에 둘러싸인 우묵한 골짜기에 있었어요.",
+      },
+      {
+        id: "enm-v2",
+        term: "forgive",
+        partOfSpeech: "verb",
+        translation: "용서하다",
+        example: "The Murrays never forgave the marriage.",
+        exampleTranslation: "머리 집안은 그 결혼을 끝내 용서하지 않았어요.",
+      },
+      {
+        id: "enm-v3",
+        term: "watchful",
+        partOfSpeech: "adjective",
+        translation: "유심히 살피는, 주의 깊은",
+        example: "Emily was a strange, watchful child.",
+        exampleTranslation: "에밀리는 낯을 가리면서도 유심히 살피는 아이였어요.",
+      },
+      {
+        id: "enm-v4",
+        term: "stout",
+        partOfSpeech: "adjective",
+        translation: "통통한, 살집이 있는",
+        example: "Ellen Greene was a stout old woman who kept house for them.",
+        exampleTranslation: "엘런 그린은 그 집 살림을 맡아 하는 통통한 노파였어요.",
+      },
+      {
+        id: "enm-v5",
+        term: "raw",
+        partOfSpeech: "adjective",
+        translation: "(날씨가) 스산한, 쌀쌀하고 축축한",
+        example: "She ran down the road in the raw wind.",
+        exampleTranslation: "에밀리는 스산한 바람 속으로 길을 달려 내려갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "enm-q1",
+        prompt: "Why did Emily's mother's family, the Murrays, never visit?",
+        options: [
+          "They lived too far away, in another country.",
+          "They had never forgiven Emily's mother for marrying Douglas Starr.",
+          "They did not know that Emily existed.",
+          "Emily's father had asked them to stay away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Emily's mother was one of the proud Murrays of New Moon. The family never forgave her for marrying Douglas Starr, and they stayed away even after her death, when Emily was still a baby.",
+      },
+      {
+        id: "enm-q2",
+        prompt: "What was \"the flash\"?",
+        options: [
+          "A pain in Emily's eyes that came when she read for too long.",
+          "A game Emily played with the Wind Woman.",
+          "A sudden moment when Emily seemed to glimpse a world far more beautiful than her own.",
+          "The light of the lamp her father read by at night.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "\"The flash\" was Emily's name for a rare moment when a kind of curtain seemed to lift and she saw, for a heartbeat, a world lovelier than the everyday one. It came and went in an instant.",
+      },
+      {
+        id: "enm-q3",
+        prompt: "How did Emily's father respond when she asked whether Ellen's news was true?",
+        options: [
+          "He told her a kind lie so that she would not be frightened.",
+          "He refused to talk about it and sent her back to the house.",
+          "He gently told her that it was true, and comforted her.",
+          "He was angry with Ellen and would not answer Emily at all.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Douglas Starr did not tell her a comforting lie. He held her close, said that it was true and that he was sorry to leave her so soon, and told her not to be afraid, because nothing really worth keeping can be lost.",
       },
     ],
   },
