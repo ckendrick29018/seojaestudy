@@ -1,11 +1,13 @@
 import { EN_KO } from "./en-ko";
+import { KO_EN } from "./ko-en";
+import { koStemCandidates } from "./ko-stem";
 
 /**
  * Offline word lookup for the story reader's "tap any word" feature.
  *
- * Only EN→KO is built today (every live lesson has an English body). The
- * function is written so a KO→EN table can slot in later without touching
- * callers.
+ * EN→KO (`en-ko.ts`) is used when the story body is shown in English; KO→EN
+ * (`ko-en.ts` + the light stemmer in `ko-stem.ts`) when it's shown in Korean.
+ * Both are hand-built, offline, and grown per lesson.
  */
 
 /** Lowercase, drop surrounding punctuation/quotes, keep internal ' and -. */
@@ -76,8 +78,25 @@ export function lookupEnKo(raw: string): string | null {
   return null;
 }
 
-/** Public entry point — currently EN→KO only. */
-export function lookupWord(raw: string, lang: "en" | "ko"): string | null {
-  if (lang === "en") return lookupEnKo(raw);
+/**
+ * Look up a Korean word. Tries the surface form, then a few base forms with
+ * particles stripped / verb endings folded to `-다` (see `ko-stem.ts`).
+ */
+export function lookupKoEn(raw: string): string | null {
+  const w = normalize(raw);
+  if (!w || !/[가-힣]/.test(w)) return null;
+
+  const direct = KO_EN[w];
+  if (direct) return direct;
+
+  for (const cand of koStemCandidates(w)) {
+    if (KO_EN[cand]) return KO_EN[cand];
+  }
+
   return null;
+}
+
+/** Public entry point — picks the table for the reading language. */
+export function lookupWord(raw: string, lang: "en" | "ko"): string | null {
+  return lang === "ko" ? lookupKoEn(raw) : lookupEnKo(raw);
 }
