@@ -5,7 +5,7 @@ import type { Lesson, LangCode, StorySentence, VocabTerm } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { narrate, stopSpeaking, useSpeechSupported } from "@/lib/speech";
-import { lookupWord } from "@/lib/dictionary";
+import { dictionaryReady, loadDictionary, lookupWordSync } from "@/lib/dictionary/lazy";
 import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon, StopIcon } from "@/components/ui/icons";
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
 import { Toast } from "@/components/ui/Toast";
@@ -87,6 +87,20 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     [],
   );
 
+  // The offline "tap any word" dictionary is ~140 kB and only needed once the
+  // reader taps or selects a word — pull its chunk in off the critical path,
+  // on idle, so it's usually ready by the first tap without weighing down the
+  // lesson's first paint.
+  useEffect(() => {
+    const win = window as Window & { requestIdleCallback?: (cb: () => void) => number };
+    if (win.requestIdleCallback) {
+      win.requestIdleCallback(() => void loadDictionary());
+      return;
+    }
+    const id = window.setTimeout(() => void loadDictionary(), 1200);
+    return () => window.clearTimeout(id);
+  }, []);
+
   const readingIsTarget = readingLang === lesson.targetLanguage;
   /** The story body in the chosen reading language. */
   const bodyText = (s: StorySentence) => (readingIsTarget ? s.text : s.translation);
@@ -143,7 +157,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     // A single-word selection can still be resolved by the pocket dictionary.
     const trimmed = text.trim();
     if (!/\s/.test(trimmed)) {
-      const gloss = lookupWord(trimmed, readingLang);
+      const gloss = lookupWordSync(trimmed, readingLang);
       if (gloss) return { translation: gloss, term: null };
     }
     const joined = sentenceIds
@@ -162,7 +176,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     const key = normalizeWord(rawWord);
     if (!key) return;
     const term = readingIsTarget ? glossary.get(key) ?? null : null;
-    const dictGloss = term ? null : lookupWord(rawWord, readingLang);
+    const dictGloss = term ? null : lookupWordSync(rawWord, readingLang);
     setSheet({
       title: rawWord.replace(/^[^0-9a-z가-힣'’-]+/i, "").replace(/[^0-9a-z가-힣'’-]+$/i, "") || rawWord,
       translation: term?.translation ?? dictGloss ?? null,
@@ -172,6 +186,26 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       isPhrase: false,
       view: "word",
     });
+
+    // Dictionary chunk not in yet — resolve the gloss once it lands and patch
+    // it into the sheet, as long as the user is still on this same word.
+    if (!term && dictGloss === null && !dictionaryReady()) {
+      const langAtTap = readingLang;
+      void loadDictionary().then((lookup) => {
+        const gloss = lookup(rawWord, langAtTap);
+        if (!gloss) return;
+        setSheet((s) =>
+          s &&
+          !s.isPhrase &&
+          !s.term &&
+          s.view === "word" &&
+          s.dictGloss === null &&
+          s.sentence?.id === sentence.id
+            ? { ...s, translation: s.translation ?? gloss, dictGloss: gloss }
+            : s,
+        );
+      });
+    }
   }
 
   function toggleSentence(sentence: StorySentence) {
