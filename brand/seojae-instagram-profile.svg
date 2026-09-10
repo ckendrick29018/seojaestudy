@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0" stop-color="#FEFCF8"/>
+      <stop offset="0.52" stop-color="#FBF4E9"/>
+      <stop offset="1" stop-color="#EADEC8"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="12%" r="50%">
+      <stop offset="0" stop-color="#EFD9C9" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#EFD9C9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+
+  <circle cx="512" cy="512" r="476" fill="none" stroke="#C57B57" stroke-width="4" stroke-opacity="0.5"/>
+  <circle cx="512" cy="512" r="458" fill="none" stroke="#D4A373" stroke-width="2" stroke-opacity="0.55"/>
+
+  <!-- primary spark, in the clear space above the book -->
+  <path d="M512 141 L554 233 L646 275 L554 317 L512 409 L470 317 L378 275 L470 233 Z" fill="#C9A66B"/>
+  <!-- small accent spark, upper-left, for balance -->
+  <path d="M330 250 L344 296 L390 310 L344 324 L330 370 L316 324 L270 310 L316 296 Z" fill="#C9A66B" fill-opacity="0.7"/>
+
+  <!-- open book, centred -->
+  <g transform="translate(512 566)">
+    <path
+      d="M0 -132C-80 -186 -192 -206 -300 -200V150C-192 144 -80 164 0 218 80 164 192 144 300 150V-200C192 -206 80 -186 0 -132Z"
+      fill="#FBF3EA" stroke="#C57B57" stroke-width="26" stroke-linejoin="round"/>
+    <path d="M0 -132V218" fill="none" stroke="#C57B57" stroke-width="26" stroke-linecap="round"/>
+    <path d="M-248 -122C-172 -154 -90 -160 -36 -136M-248 -54C-172 -86 -90 -92 -36 -68M-248 14C-172 -18 -90 -24 -36 0"
+      fill="none" stroke="#D4A373" stroke-width="12" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M248 -122C172 -154 90 -160 36 -136M248 -54C172 -86 90 -92 36 -68M248 14C172 -18 90 -24 36 0"
+      fill="none" stroke="#D4A373" stroke-width="12" stroke-linecap="round" stroke-opacity="0.7"/>
+  </g>
+</svg>
