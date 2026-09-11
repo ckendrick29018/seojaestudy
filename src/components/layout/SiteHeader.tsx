@@ -6,7 +6,8 @@ import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { useDaily } from "@/components/providers/DailyProvider";
-import { BrandMark, MenuIcon, StarIcon } from "@/components/ui/icons";
+import { useNowPlaying } from "@/components/providers/NowPlayingProvider";
+import { BrandMark, MenuIcon, PauseIcon, PlayIcon, StarIcon, StopIcon } from "@/components/ui/icons";
 import { MenuDrawer } from "./MenuDrawer";
 
 export function SiteHeader() {
@@ -15,6 +16,7 @@ export function SiteHeader() {
   const isHome = pathname === "/library";
   const { dueItems } = useStudyPlan();
   const { streak } = useDaily();
+  const { nowPlaying } = useNowPlaying();
   const [menuOpen, setMenuOpen] = useState(false);
   // Stable identity so MenuDrawer's open/close effects don't re-run on every
   // header re-render (streak, due-count, …).
@@ -38,6 +40,31 @@ export function SiteHeader() {
         </Link>
 
         <div className="flex items-center gap-1.5">
+          {/* While a story is being read aloud, its controls live here rather
+              than in the page body — reachable from wherever the reader has
+              scrolled to, without a second sticky bar competing with the text. */}
+          {nowPlaying && (
+            <span className="flex items-center gap-1 border-r border-rose-light/60 pr-1.5">
+              <button
+                onClick={nowPlaying.onPauseResume}
+                aria-label={nowPlaying.playback === "playing" ? t("pause") : t("resume")}
+                className="rounded-full p-2 text-rose transition hover:bg-rose-light/40"
+              >
+                {nowPlaying.playback === "playing" ? (
+                  <PauseIcon className="h-4 w-4" />
+                ) : (
+                  <PlayIcon className="h-4 w-4" />
+                )}
+              </button>
+              <button
+                onClick={nowPlaying.onStop}
+                aria-label={t("stop")}
+                className="rounded-full p-2 text-rose transition hover:bg-rose-light/40"
+              >
+                <StopIcon className="h-4 w-4" />
+              </button>
+            </span>
+          )}
           {streak > 0 && (
             <span
               className="inline-flex items-center gap-1 rounded-full bg-rose-light/40 px-2 py-1 text-xs font-semibold text-rose"

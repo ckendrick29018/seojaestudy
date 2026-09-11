@@ -51,24 +51,25 @@ online").
    `speechSynthesis.pause()/.resume()`. `StoryReader` tracks a 3-state
    `playback: "idle" | "playing" | "paused"` — the header control is now
    Listen → Pause/Resume + a separate Stop button.
-2. **The control scrolled out of reach (fixed).** While narration is active, a
-   small corner-docked pair of round buttons (Pause/Resume + Stop, icon-only)
-   is pinned via `position: sticky` inside the story container, just below the
-   site header, so it stays reachable for as long as any part of the story is
-   in view; it disappears once you scroll past the story (or automatically
-   when playback ends/stops). Not a `fixed`-to-viewport bar — sticky inside the
-   story's own container is what makes it track just that section and clear
-   away past it, and avoids the fixed-vs-app-frame math on desktop.
-   **Revised 2026-09-11:** the first version was a full-width pill sitting
-   directly on top of the first lines of text — reported as "distracting" on
-   mobile. Replaced with two small (36px/28px) round buttons docked to the
-   top-right corner instead of a bar spanning the column. Because `sticky`
-   only fixes the buttons' *screen* position (the text keeps scrolling
-   underneath at that same spot), the story paragraphs now reserve a
-   permanent `pr-14` gutter on the right for as long as playback is active,
-   so no word ever renders underneath the buttons — the first cut of this
-   redesign shipped without that gutter and visibly covered words ("brown",
-   "grandfather") mid-scroll before it was caught in browser testing.
+2. **The control scrolled out of reach (fixed).** While narration is active,
+   Pause/Resume + Stop render in the site header itself (`SiteHeader`, next to
+   the streak badge and menu button) rather than anywhere in the story body —
+   the header is already sticky and already where a reader's eyes return to,
+   so it stays reachable for as long as any part of the lesson page is open,
+   with zero extra UI added to the reading column.
+   **Revision history, both same day (2026-09-11):**
+   - *v1:* a full-width pill sitting directly on top of the first lines of
+     text — reported as "distracting" on mobile.
+   - *v2:* replaced the pill with two small (36px/28px) round buttons
+     docked to the top-right corner of the story instead of a full-width bar.
+     Still reported as changing the text layout / not looking as good as
+     before.
+   - *v3 (current):* moved the controls out of the story entirely and into
+     `SiteHeader`, via a new `NowPlayingProvider` context — `StoryReader`
+     publishes `{ playback, onPauseResume, onStop }` while narration is
+     active (and clears it on stop / unmount), and the header renders them
+     when present. No sticky bar, no reserved gutter, no layout shift in the
+     story at all; see `src/components/providers/NowPlayingProvider.tsx`.
 
 **Not done — left for a follow-up if wanted:** the "ideally show the current
 sentence" nice-to-have, and tap-a-sentence-to-start-narration-there +
