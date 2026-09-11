@@ -389,69 +389,74 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       <div ref={storyRef} className="space-y-4 font-serif text-[1.05rem] leading-8 text-charcoal">
         {/* Pinned while narration is active so play/pause/stop stays reachable
             without scrolling back to the header — sticky within this container,
-            so it tracks the story from top to bottom and disappears past it. */}
+            so it tracks the story from top to bottom and disappears past it.
+            A small corner-docked pair of buttons rather than a full-width bar:
+            it stays out of the reading column instead of sitting on the text.
+            The paragraphs below reserve a matching right-hand gutter (pr-14)
+            for the whole story while this is up — sticky only fixes the
+            button's *screen* position, so without a permanently reserved
+            column any word that scrolls to that spot would render underneath
+            it and get covered. */}
         {playback !== "idle" && (
-          <div className="sticky top-[4.5rem] z-20 -mb-1 flex items-center justify-between gap-2 rounded-full border border-rose-soft/50 bg-white/95 px-3 py-2 font-sans text-xs font-medium text-rose shadow-soft backdrop-blur">
-            <span className="flex items-center gap-1.5">
-              <SpeakerIcon className="h-3.5 w-3.5 shrink-0" />
-              {playback === "playing" ? t("nowPlaying") : t("paused")}
-            </span>
-            <span className="flex items-center gap-1.5">
+          <div className="sticky top-[4.5rem] z-20 -mb-1 flex justify-end">
+            <div className="flex flex-col items-center gap-2">
               <button
                 onClick={handlePauseResume}
                 aria-label={playback === "playing" ? t("pause") : t("resume")}
-                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-rose-light/40 text-rose transition hover:bg-rose-light/70"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-rose-soft/50 bg-white/95 text-rose shadow-soft backdrop-blur transition hover:bg-rose-light/40"
               >
                 {playback === "playing" ? <PauseIcon className="h-4 w-4" /> : <PlayIcon className="h-4 w-4" />}
               </button>
               <button
                 onClick={handleStop}
                 aria-label={t("stop")}
-                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-rose-light/40 text-rose transition hover:bg-rose-light/70"
+                className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-rose-soft/40 bg-white/80 text-rose/80 backdrop-blur transition hover:bg-rose-light/30"
               >
-                <StopIcon className="h-4 w-4" />
+                <StopIcon className="h-3.5 w-3.5" />
               </button>
-            </span>
+            </div>
           </div>
         )}
-        {lesson.paragraphs.map((paragraph, pIndex) => (
-          <p key={pIndex}>
-            {paragraph.map((sentence) => {
-              const highlighted = isSentenceHighlighted(lesson.slug, sentence.id);
-              return (
-                <span key={sentence.id} data-sentence-id={sentence.id} className="mr-1">
-                  {bodyText(sentence).split(/(\s+)/).map((chunk, i) =>
-                    chunk.trim() === "" ? (
-                      <span key={i}>{chunk}</span>
-                    ) : (
-                      <span
-                        key={i}
-                        onClick={() => handleWordTap(chunk, sentence)}
-                        className={`cursor-pointer rounded px-0.5 transition ${
-                          highlighted ? "bg-gold/25 hover:bg-gold/40" : "hover:bg-sage/50 active:bg-sage/70"
-                        }`}
-                      >
-                        {chunk}
+        <div className={`space-y-4 transition-[padding] ${playback !== "idle" ? "pr-14" : ""}`}>
+          {lesson.paragraphs.map((paragraph, pIndex) => (
+            <p key={pIndex}>
+              {paragraph.map((sentence) => {
+                const highlighted = isSentenceHighlighted(lesson.slug, sentence.id);
+                return (
+                  <span key={sentence.id} data-sentence-id={sentence.id} className="mr-1">
+                    {bodyText(sentence).split(/(\s+)/).map((chunk, i) =>
+                      chunk.trim() === "" ? (
+                        <span key={i}>{chunk}</span>
+                      ) : (
+                        <span
+                          key={i}
+                          onClick={() => handleWordTap(chunk, sentence)}
+                          className={`cursor-pointer rounded px-0.5 transition ${
+                            highlighted ? "bg-gold/25 hover:bg-gold/40" : "hover:bg-sage/50 active:bg-sage/70"
+                          }`}
+                        >
+                          {chunk}
+                        </span>
+                      ),
+                    )}
+                    <button
+                      onClick={() => toggleSentence(sentence)}
+                      aria-label={t("translationOf")}
+                      className="ml-1 inline-flex h-5 w-5 -translate-y-0.5 items-center justify-center rounded-full align-middle text-rose-soft/70 transition hover:bg-rose-light/40 hover:text-rose"
+                    >
+                      <GlobeIcon className="h-3.5 w-3.5" />
+                    </button>
+                    {openSentenceId === sentence.id && (
+                      <span className="mt-1 block rounded-xl2 bg-sage/30 px-3 py-2 font-sans text-sm not-italic leading-6 text-charcoal/80">
+                        {revealText(sentence)}
                       </span>
-                    ),
-                  )}
-                  <button
-                    onClick={() => toggleSentence(sentence)}
-                    aria-label={t("translationOf")}
-                    className="ml-1 inline-flex h-5 w-5 -translate-y-0.5 items-center justify-center rounded-full align-middle text-rose-soft/70 transition hover:bg-rose-light/40 hover:text-rose"
-                  >
-                    <GlobeIcon className="h-3.5 w-3.5" />
-                  </button>
-                  {openSentenceId === sentence.id && (
-                    <span className="mt-1 block rounded-xl2 bg-sage/30 px-3 py-2 font-sans text-sm not-italic leading-6 text-charcoal/80">
-                      {revealText(sentence)}
-                    </span>
-                  )}
-                </span>
-              );
-            })}
-          </p>
-        ))}
+                    )}
+                  </span>
+                );
+              })}
+            </p>
+          ))}
+        </div>
       </div>
 
       <SelectionToolbar

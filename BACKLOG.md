@@ -52,13 +52,23 @@ online").
    `playback: "idle" | "playing" | "paused"` — the header control is now
    Listen → Pause/Resume + a separate Stop button.
 2. **The control scrolled out of reach (fixed).** While narration is active, a
-   pill-shaped control ("Reading aloud…" / "Paused" + Pause/Resume + Stop) is
-   pinned via `position: sticky` inside the story container, just below the
+   small corner-docked pair of round buttons (Pause/Resume + Stop, icon-only)
+   is pinned via `position: sticky` inside the story container, just below the
    site header, so it stays reachable for as long as any part of the story is
    in view; it disappears once you scroll past the story (or automatically
    when playback ends/stops). Not a `fixed`-to-viewport bar — sticky inside the
    story's own container is what makes it track just that section and clear
    away past it, and avoids the fixed-vs-app-frame math on desktop.
+   **Revised 2026-09-11:** the first version was a full-width pill sitting
+   directly on top of the first lines of text — reported as "distracting" on
+   mobile. Replaced with two small (36px/28px) round buttons docked to the
+   top-right corner instead of a bar spanning the column. Because `sticky`
+   only fixes the buttons' *screen* position (the text keeps scrolling
+   underneath at that same spot), the story paragraphs now reserve a
+   permanent `pr-14` gutter on the right for as long as playback is active,
+   so no word ever renders underneath the buttons — the first cut of this
+   redesign shipped without that gutter and visibly covered words ("brown",
+   "grandfather") mid-scroll before it was caught in browser testing.
 
 **Not done — left for a follow-up if wanted:** the "ideally show the current
 sentence" nice-to-have, and tap-a-sentence-to-start-narration-there +
