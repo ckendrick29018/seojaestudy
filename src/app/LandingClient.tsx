@@ -15,6 +15,7 @@ import {
   GlobeIcon,
   SpeakerIcon,
   StarIcon,
+  TapIcon,
   UsersIcon,
 } from "@/components/ui/icons";
 
@@ -99,7 +100,20 @@ export function LandingClient() {
           {t("landingSubhead")}
         </p>
 
-        <div className="mt-7 flex flex-col items-center gap-3">
+        <div className="mx-auto mt-6 flex max-w-[30rem] items-start gap-3 rounded-xl2 border border-sage-dark/40 bg-sage/25 px-4 py-3 text-left">
+          <span
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/70 text-charcoal/70"
+            aria-hidden
+          >
+            <TapIcon className="h-5 w-5" />
+          </span>
+          <div className="min-w-0">
+            <p className="text-sm font-semibold text-charcoal">{t("landingTapCalloutTitle")}</p>
+            <p className="mt-0.5 text-xs leading-relaxed text-charcoal/60">{t("landingTapCalloutBody")}</p>
+          </div>
+        </div>
+
+        <div className="mt-5 flex flex-col items-center gap-3">
           <Link href="/library" className={`${CTA_BASE} w-full bg-rose text-cream shadow-soft hover:bg-rose/90`}>
             {t("landingCtaPrimary")}
           </Link>

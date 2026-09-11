@@ -43,6 +43,15 @@ export function GlobeIcon(props: IconProps) {
   );
 }
 
+export function TapIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" {...props}>
+      <circle cx="10" cy="10" r="2.1" fill="currentColor" stroke="none" />
+      <path d="M10 3.2v2.3M10 14.5v2.3M3.2 10h2.3M14.5 10h2.3M5.5 5.5l1.6 1.6M12.9 12.9l1.6 1.6M14.5 5.5l-1.6 1.6M7.1 12.9l-1.6 1.6" />
+    </svg>
+  );
+}
+
 export function SpeakerIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 20 20" {...props}>

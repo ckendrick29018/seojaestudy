@@ -340,6 +340,163 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+
+  {
+    slug: "parallel-text-reading-method",
+    title: "Parallel Text Reading: Learn a Language with Side-by-Side Translation",
+    description:
+      "What parallel text reading is, why it works for language learners, and the one rule that keeps translation a bridge into a language instead of a crutch.",
+    lede: "Read in your target language with your own language one tap away — an old trick, done in a way that actually builds fluency.",
+    datePublished: "2026-09-11",
+    dateModified: "2026-09-11",
+    readingMinutes: 7,
+    keywords: [
+      "parallel text reading",
+      "side by side translation method",
+      "interlinear reading",
+      "bilingual reading method",
+      "read in two languages at once",
+    ],
+    sections: [
+      {
+        heading: "What parallel text reading is",
+        paragraphs: [
+          "Parallel text reading means reading a passage in the language you're learning with a translation available right next to it — historically printed side by side on facing pages, today usually one tap away. It's one of the oldest language-learning methods there is, and one of the few that lets you read real, complete sentences from day one instead of textbook dialogue built around a grammar point.",
+          "It has a bad reputation in some corners of language learning, and the criticism is fair when it's misused: if you read the translation first and the target language second, your eyes are doing the target language but your brain is doing your native language. The method only works if the order is right.",
+        ],
+      },
+      {
+        heading: "Why it works when you do it right",
+        paragraphs: [
+          "The idea behind it is the same one behind graded readers generally — comprehensible input. You learn a language fastest by understanding messages in it, slightly above what you can already produce yourself. Parallel text removes the one thing that normally breaks that process: getting stuck on a single word or sentence and losing the whole passage while you dig through a dictionary.",
+          "Used well, the translation is a safety net, not a script. Most of your reading time is spent in the target language, guessing, half-understanding, and pattern-matching — exactly the effortful process that builds real comprehension. The translation just stops a single hard sentence from ending the session.",
+        ],
+      },
+      {
+        heading: "The rule that keeps it useful: read first, translate second",
+        paragraphs: [
+          "Always read the target-language sentence first, in full, before you look at any translation. Try to get the gist — who is doing what to whom — even if several words are unclear. Only then check the translation, and only for the sentences that actually blocked you, not every line.",
+          "This small ordering rule is the entire difference between parallel text as a learning tool and parallel text as a way to read your native language with extra steps. If you notice yourself translating before you've really tried the original, that's the signal to slow down, not to abandon the method.",
+        ],
+      },
+      {
+        heading: "How this looks in a reading app",
+        paragraphs: [
+          "This is exactly what the tap-to-translate design in SeoJae Story is built around. The story text is always in your target language first; nothing is shown pre-translated. Tap any single word for its meaning without leaving the page, or tap the small globe at the end of a sentence to reveal that one sentence's full translation when a word-by-word guess isn't enough — see [how to learn English by reading](/learn/learn-english-by-reading) and [how to learn Korean by reading](/learn/learn-korean-by-reading) for the fuller method each language needs.",
+          "Nothing is translated until you ask for it, which keeps the reading order right by default: you read the original, and only pull the safety net when you actually need it.",
+        ],
+      },
+      {
+        heading: "A simple parallel-reading routine",
+        paragraphs: ["Ten to fifteen minutes, once a day, is enough:"],
+        list: [
+          "Read a whole sentence in the target language. Guess its meaning before tapping anything.",
+          "If it clicked, keep going. If it didn't, tap the sentence's translation once, understand it, then reread the original sentence with that meaning in mind.",
+          "Tap individual words only for the ones that keep recurring across the story — not every unfamiliar word.",
+          "At the end, reread the whole passage once more with translation hidden, to feel how much moved from 'looked up' to 'just knew'.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Pick something with a plot you can predict — a fairy tale or a well-known classic — so guessing before translating feels natural rather than stressful. Browse the [library](/library) by level, or start with a [classic story retold for learners](/classics) in either English or Korean.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "best-classic-novels-to-learn-korean",
+    title: "The Best Classic Novels to Read in Korean for Language Learners",
+    description:
+      "Ten classic novels and stories, retold in clear Korean for learners — why each one works for reading practice, its level, and a link to read it free.",
+    lede: "Familiar Western classics, retold in plain Korean — reading practice that doesn't feel like a textbook.",
+    datePublished: "2026-09-11",
+    dateModified: "2026-09-11",
+    readingMinutes: 8,
+    keywords: [
+      "best classic novels to learn Korean",
+      "read Korean literature for beginners",
+      "Korean reading practice books",
+      "Korean classics for language learners",
+      "beginner Korean short stories",
+    ],
+    sections: [
+      {
+        heading: "Why Western classics work for Korean reading practice",
+        paragraphs: [
+          "The hardest part of early Korean reading isn't usually the grammar — it's that most beginner material is either a textbook dialogue about ordering coffee, or a native text written for native speakers. A classic novel most readers already half-know in their own language sits in between: the plot isn't a mystery, so your attention is free for the Korean itself, and the writing is still real prose, not a grammar drill wearing a story's clothes.",
+          "Every title below is on SeoJae Story as a fresh Korean translation written for learners — not a reused, copyrighted modern translation of the original. Switch the story's language to 한국어 with the toggle in the reader, and the same tap-to-translate and full-sentence translation tools work in Korean exactly as they do in English; see [how to learn Korean by reading](/learn/learn-korean-by-reading) for the full method and [CEFR levels explained](/learn/cefr-levels-explained) for what A1–B2 mean here.",
+        ],
+      },
+      {
+        heading: "1. Cinderella (A1)",
+        paragraphs: [
+          "About as familiar as a plot gets, told in short, simple sentences — a good first try at reading real Korean prose instead of a phrasebook. [Read it](/lesson/cinderella).",
+        ],
+      },
+      {
+        heading: "2. The Happy Prince — Oscar Wilde (A2)",
+        paragraphs: [
+          "A statue and a swallow give away everything they have to help a city's poor. Concrete, visual language and a gentle emotional arc that's easy to follow in Korean. [Read it](/lesson/the-happy-prince).",
+        ],
+      },
+      {
+        heading: "3. Little Women, chapter 1 — Louisa May Alcott (A2)",
+        paragraphs: [
+          "Four sisters complain about a Christmas without presents, then decide to be grateful anyway. Mostly dialogue, which is genuinely useful — you see how Korean sentence endings shift with who's speaking to whom. [Read it](/lesson/little-women).",
+        ],
+      },
+      {
+        heading: "4. The Secret Garden, chapter 1 — Frances Hodgson Burnett (A2)",
+        paragraphs: [
+          "A sickly, unloved girl is sent to live with a stranger after her parents die. Darker in tone than the fairy tales, and a good bridge toward longer, more descriptive Korean sentences. [Read it](/lesson/the-secret-garden).",
+        ],
+      },
+      {
+        heading: "5. A Little Princess, chapter 1 — Frances Hodgson Burnett (A2)",
+        paragraphs: [
+          "Sara Crewe arrives at a London boarding school as its richest, most spoiled-by-fortune student — a setup Korean readers of the later chapters (elsewhere on the shelf) will want to keep reading past. [Read it](/lesson/a-little-princess).",
+        ],
+      },
+      {
+        heading: "6. The Little Mermaid — Hans Christian Andersen (B1)",
+        paragraphs: [
+          "The real, considerably sadder Andersen original, not the simplified version most readers know. Longer, more emotional sentences than the A1–A2 fairy tales, a natural next step up. [Read it](/lesson/the-little-mermaid).",
+        ],
+      },
+      {
+        heading: "7. Anne of Green Gables: Anne with an E — L. M. Montgomery (B1)",
+        paragraphs: [
+          "Marilla is quietly astonished by the talkative orphan girl who has landed in her house by mistake. Character-driven and funny, with dialogue that rewards a second, translation-hidden read. [Read it](/lesson/anne-of-green-gables-with-an-e).",
+        ],
+      },
+      {
+        heading: "8. Daddy-Long-Legs, chapter 1 — Jean Webster (B1)",
+        paragraphs: [
+          "An orphan learns, in one chaotic morning, that a mysterious benefactor will send her to college. Brisk and conversational, closer to how a modern novel reads. [Read it](/lesson/daddy-long-legs).",
+        ],
+      },
+      {
+        heading: "9. Jane Eyre, chapter 1 — Charlotte Brontë (B2)",
+        paragraphs: [
+          "A window seat, a hidden book, and a cousin's cruelty — the opening of one of English literature's most famous novels, in Korean prose dense enough to genuinely stretch a B2 reader. [Read it](/lesson/jane-eyre).",
+        ],
+      },
+      {
+        heading: "10. Wuthering Heights, chapter 3 — Emily Brontë (B2)",
+        paragraphs: [
+          "A stormy night, a locked room, and a ghost at the window — atmospheric, unsettling, and a good test of whether B2 Korean reading has stopped feeling like effort. [Read it](/lesson/wuthering-heights).",
+        ],
+      },
+      {
+        heading: "How to read the list",
+        paragraphs: [
+          "Start at A1 even if it feels too easy at first — the point is to read Korean fluently, not slowly decode it. Read each story once with the language toggle on 한국어 and translation only a tap away, then once more with it hidden. The [full classics shelf](/classics) has many more at every level, and the [library](/library) covers everything else.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

@@ -68,9 +68,12 @@ export interface Lesson {
   coverEmoji: string;
   /**
    * Library grouping. Absent = the default leveled "Library" list; "classics"
-   * pulls the lesson into the home-page Classics shelf instead.
+   * pulls the lesson into the home-page Classics shelf (public-domain Western
+   * literature translated into Korean); "folktales" pulls it into the
+   * separate Korean-origin folktales shelf instead — kept distinct from
+   * Classics since the sourcing direction runs the other way.
    */
-  collection?: "classics";
+  collection?: "classics" | "folktales";
   /**
    * Path to a cover image under /public (e.g. "/covers/gift-of-the-magi.svg").
    * When absent, the UI falls back to `coverEmoji`.

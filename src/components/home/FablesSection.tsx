@@ -7,12 +7,13 @@ import { ClassicsCarousel } from "./ClassicsCarousel";
 const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
 
 /**
- * Every non-classics lesson — the short fables and folktales. There are only
- * a handful, so they all fit in the carousel; simplest level first so a
+ * Every uncollected lesson — short beginner fables and one-off folktales that
+ * aren't part of the Classics or (Korean-origin) Folktales shelves. There are
+ * only a handful, so they all fit in the carousel; simplest level first so a
  * beginner meets the gentlest story at the front.
  */
 const FABLES = lessons
-  .filter((lesson) => lesson.collection !== "classics")
+  .filter((lesson) => lesson.collection === undefined)
   .sort((a, b) => (LEVEL_RANK[a.level] ?? 0) - (LEVEL_RANK[b.level] ?? 0));
 
 /**

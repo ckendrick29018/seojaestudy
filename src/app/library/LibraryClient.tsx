@@ -5,6 +5,7 @@ import { BookshelfPreview } from "@/components/home/BookshelfPreview";
 import { NewForYouSection } from "@/components/home/NewForYouSection";
 import { FablesSection } from "@/components/home/FablesSection";
 import { ClassicsSection } from "@/components/home/ClassicsSection";
+import { FolktalesSection } from "@/components/home/FolktalesSection";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
 import { LEVELS, GOALS, labelFor } from "@/lib/onboarding";
@@ -46,6 +47,7 @@ export function LibraryClient() {
       <NewForYouSection />
       <FablesSection />
       <ClassicsSection />
+      <FolktalesSection />
     </div>
   );
 }

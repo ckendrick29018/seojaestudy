@@ -18901,6 +18901,430 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-star-money",
+    title: "The Star Money",
+    titleTranslation: "별의 돈",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "⭐",
+    coverImage: "/covers/the-star-money.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"The Star Money\" (\"Die Sterntaler,\" 1812; long in the public domain, Project Gutenberg #2591). This simplified retelling and its Korean translation are original text written for SeoJae Story; no softening was needed — the tale has no peril at all.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the girl gave away, and what happened to her at the end of the story.",
+    paragraphs: [
+      [
+        {
+          id: "sm-1",
+          text: "Once there was a poor little girl with no father and no mother.",
+          translation: "옛날에 아버지도 어머니도 없는 가난한 소녀가 있었어요.",
+        },
+        {
+          id: "sm-2",
+          text: "She had nothing left in the world but the clothes she wore and one small piece of bread.",
+          translation: "소녀에게는 입고 있는 옷과 작은 빵 한 조각 말고는 아무것도 없었어요.",
+        },
+        {
+          id: "sm-3",
+          text: "But she had a kind heart, so she walked out into the wide world, trusting God.",
+          translation: "하지만 소녀는 마음이 착해서, 하느님을 믿으며 넓은 세상으로 걸어 나갔어요.",
+        },
+      ],
+      [
+        {
+          id: "sm-4",
+          text: "On the road, a poor man met her and said, \"Please give me something to eat. I am so hungry.\"",
+          translation:
+            "길에서 가난한 남자가 소녀를 만나 말했어요. \"먹을 것을 좀 주세요. 너무 배가 고파요.\"",
+        },
+        {
+          id: "sm-5",
+          text: "She gave him her whole piece of bread and said, \"May it do you good.\"",
+          translation: "소녀는 자기 빵을 전부 주며 말했어요. \"이 빵이 도움이 되길 바라요.\"",
+        },
+      ],
+      [
+        {
+          id: "sm-6",
+          text: "She walked on, and a child called to her, \"I am so cold. Please give me something for my head.\"",
+          translation:
+            "소녀가 계속 걸어가자, 한 아이가 소녀를 불렀어요. \"너무 추워요. 머리에 쓸 것을 좀 주세요.\"",
+        },
+        {
+          id: "sm-7",
+          text: "She took off her own cap and gave it to the child.",
+          translation: "소녀는 자기 모자를 벗어 그 아이에게 주었어요.",
+        },
+        {
+          id: "sm-8",
+          text: "A little further, another child had no jacket, so she gave away her jacket too.",
+          translation: "조금 더 가자, 다른 아이는 겉옷이 없었고, 소녀는 자기 겉옷도 주어 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "sm-9",
+          text: "Then a child asked for a skirt, and she gave that away as well.",
+          translation: "그다음, 한 아이가 치마를 달라고 했고, 소녀는 그것도 주었어요.",
+        },
+        {
+          id: "sm-10",
+          text: "At last she came to a dark forest, and a child asked her for a shift to wear.",
+          translation: "마침내 소녀는 어두운 숲에 이르렀고, 한 아이가 입을 속옷을 달라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "sm-11",
+          text: "The good little girl thought, \"It is dark here. No one can see me,\" so she took off her own shift and gave it away.",
+          translation:
+            "착한 소녀는 생각했어요. \"여긴 어두우니 아무도 나를 보지 못할 거야.\" 그러고는 자기 속옷마저 벗어 주었어요.",
+        },
+        {
+          id: "sm-12",
+          text: "Now she stood there with nothing left at all, not even one small piece of clothing.",
+          translation: "이제 소녀는 작은 옷 한 조각조차 남지 않은 채 그렇게 서 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sm-13",
+          text: "Suddenly, stars began to fall down from the sky.",
+          translation: "그때 갑자기 하늘에서 별들이 떨어지기 시작했어요.",
+        },
+        {
+          id: "sm-14",
+          text: "Each star turned into a shining silver coin as soon as it touched the ground.",
+          translation: "별은 땅에 닿자마자 하나하나 반짝이는 은화로 변했어요.",
+        },
+        {
+          id: "sm-15",
+          text: "And though she had given away her shift, she found she was wearing a new one, made of the finest linen.",
+          translation:
+            "소녀는 속옷마저 주어 버렸지만, 어느새 가장 고운 삼베로 지은 새 속옷을 입고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sm-16",
+          text: "She gathered up all the silver coins and carried them home in her apron.",
+          translation: "소녀는 은화를 모두 모아 앞치마에 담아 집으로 가져갔어요.",
+        },
+        {
+          id: "sm-17",
+          text: "She had given away everything she owned, and now she was rich for the rest of her life.",
+          translation: "소녀는 가진 것을 모두 나누어 주었고, 그 후로 평생 부유하게 살았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sm-v1",
+        term: "poor",
+        partOfSpeech: "adjective",
+        translation: "가난한",
+        example: "There was a poor little girl with no father and no mother.",
+        exampleTranslation: "아버지도 어머니도 없는 가난한 소녀가 있었어요.",
+      },
+      {
+        id: "sm-v2",
+        term: "kind",
+        partOfSpeech: "adjective",
+        translation: "마음이 착한, 친절한",
+        example: "She had a kind heart, so she walked out into the wide world.",
+        exampleTranslation: "소녀는 마음이 착해서 넓은 세상으로 걸어 나갔어요.",
+      },
+      {
+        id: "sm-v3",
+        term: "shift",
+        partOfSpeech: "noun",
+        translation: "(얇은) 속옷, 슈미즈",
+        example: "A child asked her for a shift to wear.",
+        exampleTranslation: "한 아이가 입을 속옷을 달라고 했어요.",
+      },
+      {
+        id: "sm-v4",
+        term: "apron",
+        partOfSpeech: "noun",
+        translation: "앞치마",
+        example: "She carried the coins home in her apron.",
+        exampleTranslation: "소녀는 은화를 앞치마에 담아 집으로 가져갔어요.",
+      },
+      {
+        id: "sm-v5",
+        term: "coin",
+        partOfSpeech: "noun",
+        translation: "동전",
+        example: "Each star turned into a shining silver coin.",
+        exampleTranslation: "별은 하나하나 반짝이는 은화로 변했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sm-q1",
+        prompt: "What did the poor girl have when the story begins?",
+        options: [
+          "A house and a farm.",
+          "Only the clothes she wore and one small piece of bread.",
+          "A basket of golden coins.",
+          "Many warm clothes to share.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She was an orphan with nothing but the clothes on her back and a single piece of bread — yet she still set out into the world with a kind heart.",
+      },
+      {
+        id: "sm-q2",
+        prompt: "What did the girl do every time she met someone in need?",
+        options: [
+          "She asked them to help her instead.",
+          "She ran away so she would not have to share.",
+          "She gave away something of her own — her bread, her cap, her jacket, her skirt, and at last her shift.",
+          "She told them to find help somewhere else.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "One by one, she gave away everything she had — food, and then every piece of clothing — even when it left her with nothing at all.",
+      },
+      {
+        id: "sm-q3",
+        prompt: "What happened after the girl gave away her very last piece of clothing?",
+        options: [
+          "She caught a cold and had to go home.",
+          "Stars fell from the sky and turned into silver coins, and she found herself wearing a fine new shift.",
+          "The forest animals brought her new clothes.",
+          "She found a bag of gold hidden under a tree.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Once she had nothing left to give, stars began falling and turning into silver coins as they touched the ground — and she found she was wearing a new shift made of the finest linen. Her kindness was repaid many times over.",
+      },
+    ],
+  },
+  {
+    slug: "a-bridegroom-for-miss-mole",
+    title: "A Bridegroom for Miss Mole",
+    titleTranslation: "두더지 아가씨의 신랑",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🗿",
+    coverImage: "/covers/a-bridegroom-for-miss-mole.svg",
+    source:
+      "Adapted from a traditional Korean folktale, retold in English by William Elliot Griffis in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale's ending is kept as told, with no peril to soften.",
+    summaryPrompt:
+      "In 1–2 sentences, say who the mole father asked to marry his daughter, and what Miryek told him in the end.",
+    paragraphs: [
+      [
+        {
+          id: "brm-1",
+          text: "Long ago, a proud mole father wanted to find the mightiest bridegroom in the world for his beautiful daughter.",
+          translation:
+            "옛날, 자존심 강한 두더지 아버지가 예쁜 딸을 위해 이 세상에서 가장 힘센 신랑을 찾고 있었어요.",
+        },
+        {
+          id: "brm-2",
+          text: "\"My daughter must marry only the mightiest being there is,\" he said.",
+          translation: "\"내 딸은 반드시 이 세상에서 가장 힘센 존재와 결혼해야 해.\" 그가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "brm-3",
+          text: "First, he went to the Sky and asked, \"Will you marry my daughter? You cover the whole earth.\"",
+          translation:
+            "먼저 그는 하늘을 찾아가 물었어요. \"제 딸과 결혼해 주시겠어요? 당신은 온 세상을 덮고 있잖아요.\"",
+        },
+        {
+          id: "brm-4",
+          text: "\"I am not the mightiest,\" said the Sky. \"The Sun is stronger than I am, for its light passes right through me.\"",
+          translation:
+            "\"나는 가장 힘센 존재가 아니야.\" 하늘이 말했어요. \"태양이 나보다 강하지. 태양빛은 나를 그대로 통과하거든.\"",
+        },
+      ],
+      [
+        {
+          id: "brm-5",
+          text: "So the mole father went to the Sun and asked the very same question.",
+          translation: "그래서 두더지 아버지는 태양을 찾아가 똑같은 질문을 했어요.",
+        },
+        {
+          id: "brm-6",
+          text: "\"I am not the mightiest either,\" said the Sun. \"A single cloud can hide my whole face.\"",
+          translation:
+            "\"나도 가장 힘센 존재는 아니야.\" 태양이 말했어요. \"구름 하나만 있어도 내 얼굴 전체를 가릴 수 있거든.\"",
+        },
+      ],
+      [
+        {
+          id: "brm-7",
+          text: "The mole father went to the Cloud next, but the Cloud said, \"The Wind is stronger than I am — it blows me wherever it likes.\"",
+          translation:
+            "두더지 아버지는 다음으로 구름을 찾아갔지만, 구름은 이렇게 말했어요. \"바람이 나보다 강해. 바람은 자기 마음대로 나를 이리저리 불어 보내거든.\"",
+        },
+        {
+          id: "brm-8",
+          text: "So he went to the Wind and asked, \"Will you marry my daughter? Surely nothing is mightier than you.\"",
+          translation:
+            "그래서 그는 바람을 찾아가 물었어요. \"제 딸과 결혼해 주시겠어요? 분명 당신보다 힘센 것은 없을 거예요.\"",
+        },
+      ],
+      [
+        {
+          id: "brm-9",
+          text: "\"Not so,\" said the Wind. \"I can blow down a tree, but I cannot even shake the great stone Miryek — go and ask him instead.\"",
+          translation:
+            "\"그렇지 않아.\" 바람이 말했어요. \"나는 나무를 쓰러뜨릴 수 있지만, 저 커다란 돌 미륵님은 조금도 흔들 수 없어. 저분께 가서 대신 물어봐.\"",
+        },
+        {
+          id: "brm-10",
+          text: "The mole father found Miryek, a giant stone statue standing quietly in a field, and asked him to marry his daughter.",
+          translation:
+            "두더지 아버지는 들판에 조용히 서 있는 거대한 돌 미륵을 찾아가 딸과 결혼해 달라고 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "brm-11",
+          text: "Miryek smiled and said, \"I have stood in this field for a thousand years, and no wind or rain has ever moved me. But there is one thing that can.\"",
+          translation:
+            "미륵은 미소를 지으며 말했어요. \"나는 이 들판에 천 년 동안 서 있었고, 어떤 바람도 비도 나를 움직이지 못했어. 하지만 단 하나, 나를 움직일 수 있는 것이 있지.\"",
+        },
+        {
+          id: "brm-12",
+          text: "\"What is that?\" asked the mole father, surprised.",
+          translation: "\"그게 무엇인가요?\" 두더지 아버지가 놀라서 물었어요.",
+        },
+        {
+          id: "brm-13",
+          text: "\"A small mole, digging quietly under my feet, could make even me fall down one day,\" said Miryek.",
+          translation:
+            "\"작은 두더지 한 마리가 내 발밑을 조용히 파고들면, 언젠가는 나조차 쓰러질 수 있어.\" 미륵이 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "brm-14",
+          text: "The mole father thought about this for a long time.",
+          translation: "두더지 아버지는 오랫동안 그 말을 곰곰이 생각했어요.",
+        },
+        {
+          id: "brm-15",
+          text: "\"Then the mightiest one in the whole world,\" he said, \"was living in my own house all along.\"",
+          translation:
+            "\"그렇다면 이 세상에서 가장 힘센 존재는,\" 그가 말했어요. \"줄곧 내 집 안에 살고 있었구나.\"",
+        },
+      ],
+      [
+        {
+          id: "brm-16",
+          text: "He went home and found a fine young mole for his daughter to marry.",
+          translation: "그는 집으로 돌아가 딸을 위해 훌륭한 젊은 두더지를 찾아냈어요.",
+        },
+        {
+          id: "brm-17",
+          text: "And on the wedding day, the whole mole family agreed: there is no shame in being exactly what you are.",
+          translation:
+            "그리고 결혼식 날, 두더지 가족 모두가 한 가지 사실에 고개를 끄덕였어요. 자기 자신인 것은 결코 부끄러운 일이 아니라고요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "brm-v1",
+        term: "bridegroom",
+        partOfSpeech: "noun",
+        translation: "신랑",
+        example:
+          "Long ago, a proud mole father wanted to find the mightiest bridegroom in the world for his beautiful daughter.",
+        exampleTranslation:
+          "옛날, 자존심 강한 두더지 아버지가 예쁜 딸을 위해 이 세상에서 가장 힘센 신랑을 찾고 있었어요.",
+      },
+      {
+        id: "brm-v2",
+        term: "mighty",
+        partOfSpeech: "adjective",
+        translation: "강력한, 힘센",
+        example: "\"My daughter must marry only the mightiest being there is,\" he said.",
+        exampleTranslation: "\"내 딸은 반드시 이 세상에서 가장 힘센 존재와 결혼해야 해.\" 그가 말했어요.",
+      },
+      {
+        id: "brm-v3",
+        term: "statue",
+        partOfSpeech: "noun",
+        translation: "조각상",
+        example: "Miryek was a giant stone statue that stood quietly in a field.",
+        exampleTranslation: "미륵은 들판에 조용히 서 있는 거대한 돌 조각상이었어요.",
+      },
+      {
+        id: "brm-v4",
+        term: "dig",
+        partOfSpeech: "verb",
+        translation: "파다",
+        example: "A mole can dig quietly under the ground.",
+        exampleTranslation: "두더지는 땅속을 조용히 팔 수 있어요.",
+      },
+      {
+        id: "brm-v5",
+        term: "shame",
+        partOfSpeech: "noun",
+        translation: "부끄러움, 수치심",
+        example: "There is no shame in being exactly what you are.",
+        exampleTranslation: "자기 자신인 것은 결코 부끄러운 일이 아니에요.",
+      },
+    ],
+    questions: [
+      {
+        id: "brm-q1",
+        prompt: "What did the proud mole father want for his daughter?",
+        options: [
+          "A house made of gold.",
+          "The mightiest bridegroom in the whole world.",
+          "A daughter of her own to raise.",
+          "A field to call her own.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He believed his daughter deserved only the strongest, mightiest husband there was, so he set out to find exactly that.",
+      },
+      {
+        id: "brm-q2",
+        prompt: "Why did the Sky, the Sun, and the Cloud each turn down the mole father's proposal?",
+        options: [
+          "Each one said it was already married.",
+          "Each one pointed to something even mightier than itself.",
+          "Each one said moles were too small to matter.",
+          "Each one was afraid of Miryek.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Sky named the Sun, the Sun named the Cloud, and the Cloud named the Wind — the mightiest of them all — who pointed instead to the great stone Miryek, unmoved by wind or rain.",
+      },
+      {
+        id: "brm-q3",
+        prompt: "What did Miryek reveal was the one thing that could move him?",
+        options: [
+          "A great storm.",
+          "Another, larger statue.",
+          "A small mole digging quietly under his feet.",
+          "The mole father's daughter.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Miryek had stood untouched by wind and rain for a thousand years, but even he admitted that a small mole, digging steadily beneath him, could one day make him fall — the mightiest power of all had been living in the mole father's own house.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -151,6 +151,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 87 | The Golden Key | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 14 sentences; "Der goldene Schlüssel" — the boy in the snow, the key, the iron box; the tale's famous open ending is kept) — the shortest lesson on the shelf | ☑ |
 | 88 | The Fir Tree | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 17 sentences; "Grantræet" — the little tree that only ever wants what comes next, then the dark attic; the bleak burning finale is softened to the withered tree and the kept gold star) | ☑ |
 | 89 | A White Heron | Sarah Orne Jewett (1909) | — | B2 | trimmed (simplified retelling, 18 sentences; the hunter's ten-dollar offer, Sylvia's dawn climb up the great pine, and her choice to keep the heron's nest a secret) — fresh B2 prose pick | ☑ |
+| 91 | The Star Money | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; "Die Sterntaler" — the orphan girl who gives away her bread and every piece of clothing, then stars fall as silver coins; no softening needed, no peril at all) — non-Potter A1 | ☑ |
+| 92 | A Bridegroom for Miss Mole | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean folktale — a proud mole father asks Sky, Sun, Cloud, and Wind to marry his daughter, each naming something mightier, until Miryek the stone statue names a small mole digging at his feet; no peril, no softening needed) — first Korean-*origin* lesson, `collection: "folktales"` not `"classics"` | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -218,9 +220,9 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (83):** Mother Holle (row 86), The Golden Key (row 87),
+- **Live now (84):** Mother Holle (row 86), The Golden Key (row 87),
   The Fir Tree (row 88), A White Heron (row 89), The Great Gatsby — Ch. 1
-  close (row 90), Sweet Porridge (row 83), The Golden Goose (row 84),
+  close (row 90), The Star Money (row 91), Sweet Porridge (row 83), The Golden Goose (row 84),
   The Skylight Room (row 85), Rilla of Ingleside Ch. 1 (row 48),
   The Bremen Town Musicians (row 81), The Cop and the
   Anthem (row 82), Jane Eyre Ch. 5 — Lowood (row 34), Emily of New Moon
@@ -264,12 +266,13 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×15 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×18 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,
   The Tale of Mrs. Tiggy-Winkle, The Tale of Benjamin Bunny, The Tale of
   Two Bad Mice, The Elves and the Shoemaker, The Bremen Town Musicians,
-  Sweet Porridge, The Golden Goose),
+  Sweet Porridge, The Golden Goose, Mother Holle, The Golden Key,
+  The Star Money),
   A2 ×21 (Story of an Hour,
   Anne Ch. 2, Little Women, Ugly Duckling, The Secret Garden, Alice in
   Wonderland Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty
@@ -293,32 +296,31 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 1, The Mysteries of Udolpho Vol. 1 Ch. 1, The Mill on the Floss Bk 1
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
   Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
-  Ch. 1 close). Bands are now A1 ×17, A2 ×22,
-  B1 ×22, B2 ×22 — 83 live (89 lessons total). All four bands now sit at
-  or near 22; pick the level a new story genuinely fits rather than
-  chasing a band.
+  Ch. 1 close, The Star Money). Bands are now A1 ×18, A2 ×22,
+  B1 ×22, B2 ×22 — 84 live (90 lessons total). A1 is now the largest band;
+  pick the level a new story genuinely fits rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
-  (A2), A White Heron (B2), The Great Gatsby / Ch. 1 close (B2). Gatsby
-  went in on direct reader demand — it is PD in the US since 2021 and in
-  life+70 countries since 2011 (Fitzgerald d. 1940), so it clears
-  sourcing rule #1.
+  (A2), A White Heron (B2), The Great Gatsby / Ch. 1 close (B2), The Star
+  Money (A1). Gatsby went in on direct reader demand — it is PD in the US
+  since 2021 and in life+70 countries since 2011 (Fitzgerald d. 1940), so
+  it clears sourcing rule #1.
   Within A2, the non-(fairy-tale / gentle-domestic) entries are now Alice
   in Wonderland and After Twenty Years (crime / twist) — still the two
   odd ones out; more tonal variety there would help.
   A1 still has four Potter tales (Peter Rabbit, Mrs. Tiggy-Winkle,
-  Benjamin Bunny, Two Bad Mice — 4 of 17); every non-Potter A1 add since
+  Benjamin Bunny, Two Bad Mice — 4 of 18); every non-Potter A1 add since
   (Bremen Town Musicians, Sweet Porridge, The Golden Goose, Mother Holle,
-  The Golden Key) was deliberate — keep it that way.
-- Good next lessons to build — all four bands sit at ~22; pick by fit:
+  The Golden Key, The Star Money) was deliberate — keep it that way.
+- Good next lessons to build — three bands sit at ~22, A1 at 18; pick by fit:
   - B2: every prose B2 row in the backlog is now live. **A White Heron**
     (Jewett) and **The Great Gatsby Ch. 1** were the Sept 2026 fresh
     picks; a further B2 needs another fresh pick (another Wharton or
     Eliot scene, or **The Lifted Veil**). Row 73 (Sonnet 43) is a poem,
     a different lesson shape.
-  - A1 (keep diversifying away from Potter): **Mother Holle** and **The
-    Golden Key** are now live. Next: another kind non-peril Grimm
-    (**Mother Hulda / Frau Holle** is done; **The Star Money**,
-    **The Golden Bird** trimmed), or re-level a gentle A2 tale.
+  - A1 (keep diversifying away from Potter): **Mother Holle**, **The
+    Golden Key**, and **The Star Money** are now live. Next: another kind
+    non-peril Grimm (**Mother Hulda / Frau Holle** is done; **The Golden
+    Bird** trimmed), or re-level a gentle A2 tale.
   - A2: **The Fir Tree** (softened) is now live. Next: another Andersen
     (**The Wild Swans**, **The Fir Tree**'s companion **The Snow Queen**
     Ch. 1), or another *Four Million* story (**The Brief Début of
@@ -388,3 +390,22 @@ strong PD material in each:
   the first play.
 - **Poetry** — already flagged (Sonnet 43, row 73); a poem is its own
   shape too.
+- **Korean-origin folklore — now its own shelf, not Classics.** Every
+  Classics lesson is a Western work translated *into* Korean; this is the
+  other direction. First live: **row 92, A Bridegroom for Miss Mole** (A2),
+  adapted from *Korean Fairy Tales* (William Elliot Griffis, 1911,
+  PG#67180) — Griffis (d. 1928) is PD in the US and in life+70 countries
+  since 1998. It's his own English retelling of Korean folklore, not a
+  translation of a Korean-language original, but that's fine under rule #2
+  the same way Andrew Lang's fairy-book retellings already source the
+  European tales — still write our own simplified English retelling and a
+  fresh Korean translation from it, never paste Griffis's text directly.
+  Given `collection: "folktales"` (`src/lib/types.ts`) instead of
+  `"classics"` — a deliberately separate shelf (home-page
+  `FolktalesSection`, `/folktales`) with its own light-red-tinted covers so
+  it reads as distinct from the cream/gold Classics shelf at a glance.
+  `FablesSection` was narrowed to `collection === undefined` so lessons
+  don't double up across shelves. Further candidate tales from the Griffis
+  collection's contents: "The Unmannerly Tiger" (has a violent ending —
+  would need real softening, unlike Bridegroom) and the mischievous sprite
+  Tokgabi.

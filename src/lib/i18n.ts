@@ -57,6 +57,17 @@ export const dict = {
     ko: "짧은 입문용 이야기 — 부담 없이 시작하기 좋아요.",
   },
 
+  folktalesTitle: { en: "Korean folktales", ko: "한국 전래동화" },
+  folktalesSubtitle: {
+    en: "Traditional stories from Korea, read the other direction.",
+    ko: "한국에서 전해 내려오는 이야기를, 반대 방향으로 읽어 보세요.",
+  },
+  folktalesSeeAll: { en: "See all", ko: "전체 보기" },
+  folktalesIntro: {
+    en: "Every story on the Classics shelf is Western literature translated into Korean. This shelf runs the other way: traditional Korean folktales, retold for English and Korean learners alike.",
+    ko: "고전 서가의 모든 이야기는 서양 문학을 한국어로 옮긴 것이에요. 이 서가는 반대 방향이에요 — 한국에서 전해 내려오는 옛이야기를, 영어와 한국어 학습자 모두를 위해 새로 풀어냈어요.",
+  },
+
   bookshelf: { en: "Bookshelf", ko: "책장" },
   bookshelfSubtitle: {
     en: "Every story you finish finds a place here.",
@@ -409,6 +420,14 @@ export const dict = {
   landingSubhead: {
     en: "SeoJae Story turns timeless short fiction into a real language course: CEFR-graded reading, a tap-anywhere dictionary, review flashcards, and native-voice audio — in English and Korean. No account needed to begin.",
     ko: "SeoJae Story는 오래 사랑받은 단편 문학을 제대로 된 언어 학습 코스로 바꿔 드려요. CEFR 등급별 읽기, 아무 데나 탭하면 뜨는 사전, 복습용 플래시카드, 그리고 원어민 음성 오디오까지 — 영어와 한국어로요. 계정 없이 바로 시작할 수 있어요.",
+  },
+  landingTapCalloutTitle: {
+    en: "Tap any word. See it instantly.",
+    ko: "단어를 탭하면, 바로 뜻이 떠요.",
+  },
+  landingTapCalloutBody: {
+    en: "No dictionary app, no losing your place — try it below ↓",
+    ko: "사전 앱도, 흐름이 끊기는 일도 없어요 — 아래에서 직접 확인해 보세요 ↓",
   },
   landingCtaPrimary: { en: "Start reading — it's free", ko: "무료로 읽기 시작하기" },
   landingCtaSecondary: { en: "Browse the classics", ko: "고전 둘러보기" },
