@@ -192,7 +192,18 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
           </nav>
 
           <div className="mt-auto space-y-2 border-t border-rose-light/50 p-3">
-            <div>
+            <nav className="flex flex-col gap-0.5">
+              <Link href="/learn" onClick={closeForNavigation} className={rowClass}>
+                <BookOpenIcon className="h-5 w-5 shrink-0 text-charcoal/55" />
+                {t("learnGuides")}
+              </Link>
+              <Link href="/faq" onClick={closeForNavigation} className={rowClass}>
+                <BookOpenIcon className="h-5 w-5 shrink-0 text-charcoal/55" />
+                {t("faq")}
+              </Link>
+            </nav>
+
+            <div className="border-t border-rose-light/40 pt-2">
               <p className="px-3 pb-1.5 text-xs font-semibold uppercase tracking-wide text-charcoal/40">
                 {t("settingsLanguageTitle")}
               </p>

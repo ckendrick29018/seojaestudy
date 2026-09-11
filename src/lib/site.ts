@@ -9,6 +9,14 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.seojae
 
 export const SITE_NAME = "SeoJae Story";
 
+/**
+ * Stamp used as `lastModified` for the mostly-static pages in the sitemap.
+ * A fixed date is deliberately more trustworthy to crawlers than `new Date()`
+ * on every request (which makes every URL look "changed today"). Bump this when
+ * the library, the article set, or the FAQ changes in a way worth recrawling.
+ */
+export const CONTENT_LAST_MODIFIED = "2026-09-11";
+
 export const SITE_DESCRIPTION =
   "Learn English or Korean through short stories, with instant translations, listening practice, vocabulary flashcards, and gentle writing feedback.";
 

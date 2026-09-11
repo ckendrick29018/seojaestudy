@@ -8,6 +8,8 @@ export const dict = {
   tagline: { en: "Short stories, gentle progress.", ko: "짧은 이야기로, 천천히 성장해요." },
   library: { en: "Library", ko: "서재" },
   classics: { en: "Classics", ko: "고전" },
+  learnGuides: { en: "Learn", ko: "학습 가이드" },
+  faq: { en: "FAQ", ko: "자주 묻는 질문" },
   classicsSubtitle: {
     en: "Timeless stories, gently adapted for learners.",
     ko: "오래도록 사랑받은 이야기를 학습자를 위해 부드럽게 다듬었어요.",

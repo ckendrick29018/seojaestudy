@@ -17,11 +17,14 @@ lesson, run it for the new slug(s) and drive both directions to 0** by adding
 the missing words to `en-ko.ts` / `ko-en.ts` (base `-다` / head-word forms where
 the stemmer can fold to them, verbatim inflected forms where it can't).
 
-The EN→KO side is at full coverage for the whole library. The KO→EN side still
-has a large back-log of un-glossable inflected forms on the older lessons
-(Korean is agglutinative and the stemmer is deliberately small) — `npm run
-dict:check` with no args shows the current number. New lessons must not add to
-it.
+The EN→KO side is at full coverage for the whole library. The KO→EN side had a
+large back-log of un-glossable inflected forms; a 2026-09-11 sweep upgraded the
+stemmer (`ko-stem.ts` — 르/려/우/이 contractions, particle stacks, tense-marker
+peeling, counters, single-syllable stems) and added ~1,500 head-words to
+`ko-en.ts`, taking the gap count from ~4,260 to ~1,580. The rest is a long tail
+of rare surface forms; `npm run dict:check` with no args shows the current
+number. New lessons must not add to it — run `dict:check <slug>` and drive the
+new slugs to 0.
 
 ---
 
