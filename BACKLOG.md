@@ -42,31 +42,29 @@ online").
 
 ## Story audio player — pause + a control that follows the reader
 
-**Status:** reported 2026-09-11, not started. Lives in
-`src/components/lesson/StoryReader.tsx` (the "Listen" button + `handleListen`)
-and `src/lib/speech.ts` (`narrate` / `stopSpeaking`).
+**Status:** shipped 2026-09-11. Both problems below are fixed.
 
-Two problems with the read-aloud today:
+1. **No pause — only stop (fixed).** `speech.ts` now exposes real
+   `pauseSpeaking()` / `resumeSpeaking()`: the pre-generated-clip path
+   (`audio.ts` / `playClips`) pauses/resumes the underlying `<audio>` element
+   in place (it keeps its own `currentTime`); the browser-voice fallback uses
+   `speechSynthesis.pause()/.resume()`. `StoryReader` tracks a 3-state
+   `playback: "idle" | "playing" | "paused"` — the header control is now
+   Listen → Pause/Resume + a separate Stop button.
+2. **The control scrolled out of reach (fixed).** While narration is active, a
+   pill-shaped control ("Reading aloud…" / "Paused" + Pause/Resume + Stop) is
+   pinned via `position: sticky` inside the story container, just below the
+   site header, so it stays reachable for as long as any part of the story is
+   in view; it disappears once you scroll past the story (or automatically
+   when playback ends/stops). Not a `fixed`-to-viewport bar — sticky inside the
+   story's own container is what makes it track just that section and clear
+   away past it, and avoids the fixed-vs-app-frame math on desktop.
 
-1. **No pause — only stop.** The button toggles between "Listen" and "Stop";
-   pressing Stop calls `stopSpeaking()`, which cancels playback, so pressing
-   Listen again restarts the story from the first sentence. Add a real
-   pause/resume: keep the current sentence index and offset, expose
-   `pauseSpeaking()` / `resumeSpeaking()` in `speech.ts` (for the browser-voice
-   path use `speechSynthesis.pause()/.resume()`; for the pre-generated-clip
-   path in `audio.ts` / `playClips`, pause the `<audio>` element and resume from
-   `currentTime`). Button becomes a 3-state control: Listen → Pause → Resume,
-   with a separate Stop.
-2. **The control scrolls out of reach.** The Listen button sits in the reader
-   header, so once the user scrolls down into the story they can't pause or
-   stop without scrolling all the way back up. Give playback a persistent
-   control while audio is active — a small sticky bar / floating button pinned
-   inside the app frame (respecting the ~480px width and the desktop stage),
-   showing play state + Pause/Stop, and ideally the current sentence. It should
-   only appear while narration is playing or paused.
-
-Nice-to-have once the above lands: tapping a sentence starts narration from
-that sentence; highlight the sentence currently being spoken.
+**Not done — left for a follow-up if wanted:** the "ideally show the current
+sentence" nice-to-have, and tap-a-sentence-to-start-narration-there +
+highlighting the sentence currently being spoken. Both need per-segment
+playback-position tracking, which the current sentence-queue implementation in
+`speech.ts`/`audio.ts` doesn't expose yet.
 
 ---
 

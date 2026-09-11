@@ -50,17 +50,26 @@ export interface ClipHandlers {
   onError?: () => void;
 }
 
+/** Playback controls for an in-progress `playClips` run. */
+export interface ClipHandle {
+  stop: () => void;
+  /** Pause the current clip in place (the `<audio>` element keeps its `currentTime`). */
+  pause: () => void;
+  /** Resume a clip paused with `pause()`, continuing from where it left off. */
+  resume: () => void;
+}
+
 /**
  * Play `segments` as pre-generated clips, one after another.
  *
- * Returns a stop function, or `null` if any segment has no clip (the caller
+ * Returns a playback handle, or `null` if any segment has no clip (the caller
  * should then fall back to speech synthesis rather than play a partial mix).
  */
 export function playClips(
   segments: string[],
   lang: LangCode,
   handlers: ClipHandlers = {},
-): (() => void) | null {
+): ClipHandle | null {
   const urls = segments.map((s) => clipUrl(s, lang));
   if (urls.some((u) => u === null)) return null;
   if (typeof Audio === "undefined") return null;
@@ -91,10 +100,20 @@ export function playClips(
   audio.addEventListener("error", fail);
   next();
 
-  return () => {
-    stopped = true;
-    audio.removeEventListener("ended", next);
-    audio.pause();
-    audio.src = "";
+  return {
+    stop: () => {
+      stopped = true;
+      audio.removeEventListener("ended", next);
+      audio.pause();
+      audio.src = "";
+    },
+    // The `<audio>` element keeps its `currentTime` across pause/play, so
+    // resuming continues the same clip rather than restarting it.
+    pause: () => {
+      if (!stopped) audio.pause();
+    },
+    resume: () => {
+      if (!stopped) void audio.play().catch(fail);
+    },
   };
 }

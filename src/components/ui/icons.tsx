@@ -66,6 +66,23 @@ export function StopIcon(props: IconProps) {
   );
 }
 
+export function PauseIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="currentColor" {...props}>
+      <rect x="5" y="4" width="3.2" height="12" rx="1" />
+      <rect x="11.8" y="4" width="3.2" height="12" rx="1" />
+    </svg>
+  );
+}
+
+export function PlayIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="currentColor" {...props}>
+      <path d="M6.2 4.1v11.8c0 .82.9 1.32 1.6.89l9.2-5.9a1.05 1.05 0 000-1.78l-9.2-5.9a1.05 1.05 0 00-1.6.9z" />
+    </svg>
+  );
+}
+
 export function BookmarkIcon({ filled, ...props }: IconProps & { filled?: boolean }) {
   return (
     <svg viewBox="0 0 20 20" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth={1.6} strokeLinejoin="round" {...props}>

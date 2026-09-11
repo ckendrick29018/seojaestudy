@@ -76,6 +76,10 @@ export const dict = {
   story: { en: "The Story", ko: "이야기" },
   listen: { en: "Listen", ko: "듣기" },
   stop: { en: "Stop", ko: "정지" },
+  pause: { en: "Pause", ko: "일시정지" },
+  resume: { en: "Resume", ko: "이어 듣기" },
+  nowPlaying: { en: "Reading aloud…", ko: "낭독 중…" },
+  paused: { en: "Paused", ko: "일시정지됨" },
   tapWordHint: {
     en: "Tap a word for its meaning. Tap 🌐 to translate a line.",
     ko: "단어를 탭하면 뜻이 나와요. 🌐을 누르면 문장이 번역돼요.",

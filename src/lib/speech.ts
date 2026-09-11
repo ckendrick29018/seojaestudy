@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { LangCode } from "./types";
-import { playClips } from "./audio";
+import { playClips, type ClipHandle } from "./audio";
 
 export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
@@ -159,41 +159,75 @@ export function speak(text: string, lang: LangCode, handlers: SpeakHandlers = {}
  * `narrate` is what the UI should call. It plays pre-generated neural-voice
  * clips when every segment has one (crisp, identical on every device) and
  * quietly falls back to the browser's Web Speech voice otherwise. Callers
- * still stop playback with `stopSpeaking`, whichever path was taken.
+ * stop, pause, and resume playback with `stopSpeaking` / `pauseSpeaking` /
+ * `resumeSpeaking`, whichever path was taken — the caller doesn't need to
+ * know which backend is playing.
  * ------------------------------------------------------------------------- */
 
-let activeClipStop: (() => void) | null = null;
+let activeClip: ClipHandle | null = null;
+/** Which backend is currently playing, so pause/resume routes to it. */
+let activeMode: "clip" | "speech" | null = null;
 
 export function narrate(segments: string[], lang: LangCode, handlers: SpeakHandlers = {}): void {
   stopSpeaking();
 
   const wrapped: SpeakHandlers = {
     onEnd: () => {
-      activeClipStop = null;
+      activeClip = null;
+      activeMode = null;
       handlers.onEnd?.();
     },
     onError: () => {
-      activeClipStop = null;
+      activeClip = null;
+      activeMode = null;
       handlers.onError?.();
     },
   };
 
-  const stop = playClips(segments, lang, wrapped);
-  if (stop) {
-    activeClipStop = stop;
+  const clip = playClips(segments, lang, wrapped);
+  if (clip) {
+    activeClip = clip;
+    activeMode = "clip";
     return;
   }
 
   // Nothing pre-generated for this text — use the live browser voice.
+  activeMode = "speech";
   speak(segments.join(" "), lang, wrapped);
 }
 
-export function stopSpeaking(): void {
-  if (activeClipStop) {
-    const stop = activeClipStop;
-    activeClipStop = null;
-    stop();
+/**
+ * Pause narration in place — a real pause, not a stop. `resumeSpeaking`
+ * continues from here rather than restarting the story.
+ */
+export function pauseSpeaking(): void {
+  if (activeMode === "clip") {
+    activeClip?.pause();
+    return;
   }
+  if (activeMode === "speech" && isSpeechSupported()) {
+    window.speechSynthesis.pause();
+  }
+}
+
+/** Resume narration previously paused with `pauseSpeaking`. */
+export function resumeSpeaking(): void {
+  if (activeMode === "clip") {
+    activeClip?.resume();
+    return;
+  }
+  if (activeMode === "speech" && isSpeechSupported()) {
+    window.speechSynthesis.resume();
+  }
+}
+
+export function stopSpeaking(): void {
+  if (activeClip) {
+    const clip = activeClip;
+    activeClip = null;
+    clip.stop();
+  }
+  activeMode = null;
   if (!isSpeechSupported()) return;
   window.speechSynthesis.cancel();
 }

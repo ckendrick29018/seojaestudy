@@ -4,9 +4,18 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lesson, LangCode, StorySentence, VocabTerm } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
-import { narrate, stopSpeaking, useSpeechSupported } from "@/lib/speech";
+import { narrate, pauseSpeaking, resumeSpeaking, stopSpeaking, useSpeechSupported } from "@/lib/speech";
 import { dictionaryReady, loadDictionary, lookupWordSync } from "@/lib/dictionary/lazy";
-import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon, StopIcon } from "@/components/ui/icons";
+import {
+  CheckIcon,
+  GlobeIcon,
+  HighlighterIcon,
+  PauseIcon,
+  PlayIcon,
+  PlusIcon,
+  SpeakerIcon,
+  StopIcon,
+} from "@/components/ui/icons";
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
 import { Toast } from "@/components/ui/Toast";
 
@@ -17,6 +26,9 @@ function normalizeWord(raw: string): string {
 
 /** Short label for the reading-language toggle. */
 const LANG_LABEL: Record<LangCode, string> = { en: "EN", ko: "한국어" };
+
+/** Narration state: idle (nothing playing), actively playing, or paused mid-story. */
+type PlaybackState = "idle" | "playing" | "paused";
 
 interface SheetState {
   title: string;
@@ -42,7 +54,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     addHighlights,
   } = useStudyPlan();
 
-  const [speaking, setSpeaking] = useState(false);
+  const [playback, setPlayback] = useState<PlaybackState>("idle");
   const [openSentenceId, setOpenSentenceId] = useState<string | null>(null);
   const [sheet, setSheet] = useState<SheetState | null>(null);
   const [toast, setToast] = useState<string | null>(null);
@@ -66,9 +78,10 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   function chooseReadingLang(lang: LangCode) {
     // Switching language mid-narration would leave stale audio playing.
-    if (speaking) {
+    if (playback !== "idle") {
+      clearSpeakTimer();
       stopSpeaking();
-      setSpeaking(false);
+      setPlayback("idle");
     }
     setReadingLang(lang);
     try {
@@ -127,27 +140,56 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     [lesson, readingIsTarget],
   );
 
-  function handleListen() {
+  function clearSpeakTimer() {
     if (speakTimer.current !== null) {
       window.clearTimeout(speakTimer.current);
       speakTimer.current = null;
     }
-    if (speaking) {
-      stopSpeaking();
-      setSpeaking(false);
-      return;
-    }
-    setSpeaking(true);
-    narrate(narrationSegments, readingLang, {
-      onEnd: () => setSpeaking(false),
-      onError: () => setSpeaking(false),
-    });
-    // Belt-and-braces: some WebView wrappers never fire `onend`, so also
-    // clear the state after a length-based estimate. If playback really has
-    // finished by then, this is a harmless no-op.
+  }
+
+  // Belt-and-braces: some WebView wrappers never fire `onend`, so also clear
+  // playback state after a length-based estimate. Re-armed on resume too, so
+  // a pause partway through doesn't shorten the remaining allowance by much;
+  // if playback has genuinely finished (or is paused) by then, this is a
+  // harmless no-op.
+  function armSpeakTimer() {
     const chars = narrationSegments.reduce((n, s) => n + s.length, 0);
     const approxDurationMs = Math.min(180_000, Math.max(5_000, chars * 55));
-    speakTimer.current = window.setTimeout(() => setSpeaking(false), approxDurationMs);
+    speakTimer.current = window.setTimeout(() => setPlayback("idle"), approxDurationMs);
+  }
+
+  function handlePlay() {
+    clearSpeakTimer();
+    setPlayback("playing");
+    narrate(narrationSegments, readingLang, {
+      onEnd: () => {
+        clearSpeakTimer();
+        setPlayback("idle");
+      },
+      onError: () => {
+        clearSpeakTimer();
+        setPlayback("idle");
+      },
+    });
+    armSpeakTimer();
+  }
+
+  function handlePauseResume() {
+    if (playback === "playing") {
+      clearSpeakTimer();
+      pauseSpeaking();
+      setPlayback("paused");
+    } else if (playback === "paused") {
+      resumeSpeaking();
+      setPlayback("playing");
+      armSpeakTimer();
+    }
+  }
+
+  function handleStop() {
+    clearSpeakTimer();
+    stopSpeaking();
+    setPlayback("idle");
   }
 
   /** Resolve the best available translation for a free selection. */
@@ -307,14 +349,37 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               </button>
             ))}
           </div>
-          {speechAvailable && (
+          {speechAvailable && playback === "idle" && (
             <button
-              onClick={handleListen}
+              onClick={handlePlay}
               className="inline-flex items-center gap-1.5 rounded-full border border-rose-soft/40 bg-white/70 px-3.5 py-1.5 text-xs font-medium text-rose transition hover:bg-rose-light/30"
             >
-              {speaking ? <StopIcon className="h-3.5 w-3.5" /> : <SpeakerIcon className="h-3.5 w-3.5" />}
-              {speaking ? t("stop") : t("listen")}
+              <SpeakerIcon className="h-3.5 w-3.5" />
+              {t("listen")}
             </button>
+          )}
+          {speechAvailable && playback !== "idle" && (
+            <div className="inline-flex items-center gap-1.5">
+              <button
+                onClick={handlePauseResume}
+                aria-label={playback === "playing" ? t("pause") : t("resume")}
+                className="inline-flex items-center gap-1.5 rounded-full border border-rose-soft/40 bg-white/70 px-3.5 py-1.5 text-xs font-medium text-rose transition hover:bg-rose-light/30"
+              >
+                {playback === "playing" ? (
+                  <PauseIcon className="h-3.5 w-3.5" />
+                ) : (
+                  <PlayIcon className="h-3.5 w-3.5" />
+                )}
+                {playback === "playing" ? t("pause") : t("resume")}
+              </button>
+              <button
+                onClick={handleStop}
+                aria-label={t("stop")}
+                className="inline-flex items-center justify-center rounded-full border border-rose-soft/40 bg-white/70 p-1.5 text-rose transition hover:bg-rose-light/30"
+              >
+                <StopIcon className="h-3.5 w-3.5" />
+              </button>
+            </div>
           )}
         </div>
       </div>
@@ -322,6 +387,33 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
       <p className="mb-5 text-xs italic text-charcoal/40">{t("readerHint")}</p>
 
       <div ref={storyRef} className="space-y-4 font-serif text-[1.05rem] leading-8 text-charcoal">
+        {/* Pinned while narration is active so play/pause/stop stays reachable
+            without scrolling back to the header — sticky within this container,
+            so it tracks the story from top to bottom and disappears past it. */}
+        {playback !== "idle" && (
+          <div className="sticky top-[4.5rem] z-20 -mb-1 flex items-center justify-between gap-2 rounded-full border border-rose-soft/50 bg-white/95 px-3 py-2 font-sans text-xs font-medium text-rose shadow-soft backdrop-blur">
+            <span className="flex items-center gap-1.5">
+              <SpeakerIcon className="h-3.5 w-3.5 shrink-0" />
+              {playback === "playing" ? t("nowPlaying") : t("paused")}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <button
+                onClick={handlePauseResume}
+                aria-label={playback === "playing" ? t("pause") : t("resume")}
+                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-rose-light/40 text-rose transition hover:bg-rose-light/70"
+              >
+                {playback === "playing" ? <PauseIcon className="h-4 w-4" /> : <PlayIcon className="h-4 w-4" />}
+              </button>
+              <button
+                onClick={handleStop}
+                aria-label={t("stop")}
+                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-rose-light/40 text-rose transition hover:bg-rose-light/70"
+              >
+                <StopIcon className="h-4 w-4" />
+              </button>
+            </span>
+          </div>
+        )}
         {lesson.paragraphs.map((paragraph, pIndex) => (
           <p key={pIndex}>
             {paragraph.map((sentence) => {
