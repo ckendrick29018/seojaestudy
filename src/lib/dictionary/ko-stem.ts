@@ -213,6 +213,22 @@ export function koStemCandidates(w: string): string[] {
     }
   }
 
+  // Future/volitional ‑겠‑ infix, whatever tense/mood follows it: 가겠다고 →
+  // 가다, 되겠습니다 → 되다, 결혼하겠다고 → 결혼하다. 겠 attaches straight to the
+  // stem with no epenthesis, so everything before it is the head word.
+  const gessIdx = w.indexOf("겠");
+  if (gessIdx > 0) add(w.slice(0, gessIdx) + "다");
+
+  // Honorific past ‑셨‑ (contraction of ‑시‑ + ‑었‑): 말씀하셨습니다 → 말씀하다,
+  // 주무셨어요 → 주무시다 (kept whole; the bare stem before 셨 also tried).
+  const syeoss = w.match(
+    /^(.+?)셨(어요|습니다|고|는데|지만|으며|다가|다|더라도|을|으면|죠)$/,
+  );
+  if (syeoss && syeoss[1]) {
+    add(syeoss[1] + "다");
+    add(syeoss[1] + "시다");
+  }
+
   // ─지다 inchoative / passive: 쏟아져 → 쏟아지다, 슬퍼졌고 → 슬퍼지다,
   // 만들어집니다 → 만들어지다. (Bare 지 needs a following char, so 가지/바지
   // are left to the verbatim pass.)

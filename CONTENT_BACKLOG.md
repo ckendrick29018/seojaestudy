@@ -347,6 +347,17 @@ can't. The Sept 2026 batch did this; the two prior batches (rows 74–85) did
 not, so a KO→EN back-log remains on the older lessons — `npm run dict:check`
 with no args shows the count. Do not add to it.
 
+**2026-09-11 sweep (1580 → 757):** `ko-stem.ts` was missing two whole
+inflection patterns — the future/volitional `겠` infix (가겠다고, 되겠습니다…)
+and the contracted honorific past `셨` (말씀하셨습니다…) — so those got fixed at
+the stemmer level first (free coverage, no dictionary entries needed). Then
+~700 head-word entries were added for the most common remaining nouns/verbs/
+adjectives across the older lessons; because the stemmer folds many inflected
+surface forms onto one head word, that batch closed more than 2 gaps per
+entry. ~760 KO→EN gaps remain, mostly one-off vocabulary and character names
+scattered thinly across almost every pre-Sept-2026 lesson — `npm run
+dict:check` with no args shows the live count.
+
 ## Future categories (beyond Classics fiction)
 
 Requested expansion of the shelf past short literary fiction. All must still
