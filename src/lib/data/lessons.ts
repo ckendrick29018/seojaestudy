@@ -20619,6 +20619,404 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-sneezing-colossus",
+    title: "The Sneezing Colossus",
+    titleTranslation: "재채기하는 거인 조각상",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A1",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🍐",
+    coverImage: "/covers/the-sneezing-colossus.svg",
+    source:
+      "Adapted from \"The Sneezing Colossus,\" a traditional Korean folktale retold in English by William Elliot Griffis in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Kim climbed onto the stone statue, and what happened when his foot tickled its nose.",
+    paragraphs: [
+      [
+        {
+          id: "snc-1",
+          text: "In old Korea, a poor farmer named Kim lived with his family at the foot of a mountain.",
+          translation: "옛날 한국에서 김씨라는 가난한 농부가 산기슭에서 가족과 함께 살았어요.",
+        },
+        {
+          id: "snc-2",
+          text: "Kim did not like to work, so his family often had little food.",
+          translation: "김씨는 일하는 것을 좋아하지 않아서, 그의 가족은 자주 먹을 것이 부족했어요.",
+        },
+        {
+          id: "snc-3",
+          text: "One day his wife said, \"Go up the mountain and find something to eat.\"",
+          translation: "어느 날 아내가 말했어요. \"산에 올라가서 먹을 것을 좀 찾아와요.\"",
+        },
+      ],
+      [
+        {
+          id: "snc-4",
+          text: "Kim walked up the mountain and soon felt very hungry and tired.",
+          translation: "김씨는 산을 올라갔고, 곧 몹시 배고프고 지쳤어요.",
+        },
+        {
+          id: "snc-5",
+          text: "Then he saw a huge stone statue standing among the trees.",
+          translation: "그때 그는 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
+        },
+        {
+          id: "snc-6",
+          text: "It was an old Buddha statue, taller than any house in his village.",
+          translation: "그것은 오래된 불상이었는데, 그의 마을에 있는 어떤 집보다도 컸어요.",
+        },
+      ],
+      [
+        {
+          id: "snc-7",
+          text: "A pear tree grew right beside the statue, and one ripe pear hung near its nose.",
+          translation:
+            "배나무 한 그루가 그 조각상 바로 옆에서 자라고 있었고, 잘 익은 배 하나가 그 코 가까이에 달려 있었어요.",
+        },
+        {
+          id: "snc-8",
+          text: "Kim's mouth watered, but the pear was too high for him to reach.",
+          translation: "김씨는 군침이 돌았지만, 배는 그가 닿기에는 너무 높이 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "snc-9",
+          text: "So he climbed up the statue's arm and stepped onto its great stone nose.",
+          translation: "그래서 그는 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
+        },
+        {
+          id: "snc-10",
+          text: "As he reached for the pear, his foot tickled the inside of the statue's nostril.",
+          translation: "배를 향해 손을 뻗는 동안, 그의 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
+        },
+        {
+          id: "snc-11",
+          text: "Suddenly the giant statue let out a tremendous sneeze!",
+          translation: "갑자기 그 거대한 조각상이 엄청난 재채기를 했어요!",
+        },
+      ],
+      [
+        {
+          id: "snc-12",
+          text: "The sneeze threw Kim high into the air, and he landed in a soft bush far below.",
+          translation:
+            "그 재채기는 김씨를 공중 높이 날려 버렸고, 그는 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
+        },
+        {
+          id: "snc-13",
+          text: "When Kim opened his eyes, he found the ripe pear lying right next to him.",
+          translation: "김씨가 눈을 떴을 때, 잘 익은 배가 바로 자기 옆에 떨어져 있는 것을 발견했어요.",
+        },
+        {
+          id: "snc-14",
+          text: "He laughed all the way home and told his family the strangest story they had ever heard.",
+          translation:
+            "그는 집에 가는 내내 웃었고, 가족에게 그들이 이제껏 들어본 것 중 가장 이상한 이야기를 들려주었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "snc-v1",
+        term: "statue",
+        partOfSpeech: "noun",
+        translation: "조각상, 동상",
+        example: "He saw a huge stone statue standing among the trees.",
+        exampleTranslation: "그는 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
+      },
+      {
+        id: "snc-v2",
+        term: "climb",
+        partOfSpeech: "verb",
+        translation: "오르다, 올라가다",
+        example: "So he climbed up the statue's arm and stepped onto its great stone nose.",
+        exampleTranslation: "그래서 그는 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
+      },
+      {
+        id: "snc-v3",
+        term: "tickle",
+        partOfSpeech: "verb",
+        translation: "간지럽히다",
+        example: "His foot tickled the inside of the statue's nostril.",
+        exampleTranslation: "그의 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
+      },
+      {
+        id: "snc-v4",
+        term: "sneeze",
+        partOfSpeech: "verb",
+        translation: "재채기하다",
+        example: "Suddenly the giant statue let out a tremendous sneeze!",
+        exampleTranslation: "갑자기 그 거대한 조각상이 엄청난 재채기를 했어요!",
+      },
+      {
+        id: "snc-v5",
+        term: "land",
+        partOfSpeech: "verb",
+        translation: "떨어지다, 착지하다",
+        example: "He landed in a soft bush far below.",
+        exampleTranslation: "그는 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "snc-q1",
+        prompt: "Why did Kim's wife send him up the mountain?",
+        options: [
+          "To visit a temple.",
+          "To find something to eat.",
+          "To meet a friend.",
+          "To cut wood for the fire.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Kim's family often had little food because he did not like to work, so his wife told him to go up the mountain and find something to eat.",
+      },
+      {
+        id: "snc-q2",
+        prompt: "Why did Kim climb onto the statue's nose?",
+        options: [
+          "He wanted to rest in a high place.",
+          "A ripe pear was hanging near it and he wanted to reach it.",
+          "He was hiding from a tiger.",
+          "He wanted to clean the statue.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A pear tree grew beside the statue and one ripe pear hung near its nose; since it was too high to reach, Kim climbed up to get it.",
+      },
+      {
+        id: "snc-q3",
+        prompt: "What happened when Kim's foot tickled the statue's nose?",
+        options: [
+          "The statue began to talk to him.",
+          "The statue sneezed and threw him into the air.",
+          "The statue cracked and fell over.",
+          "Nothing happened at all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The tickling made the giant statue let out a tremendous sneeze, which threw Kim high into the air and landed him in a soft bush — right next to the pear he wanted.",
+      },
+    ],
+  },
+  {
+    slug: "the-secret-garden-martha",
+    title: "The Secret Garden: Martha",
+    titleTranslation: "비밀의 화원: 마사",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "🔑",
+    coverImage: "/covers/the-secret-garden-martha.svg",
+    source:
+      "Adapted from Chapter 4 (\"Martha\") of Frances Hodgson Burnett's novel \"The Secret Garden\" (first published 1911, Project Gutenberg #113), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what Martha told Mary about her family and Dickon, and what happened to Mrs. Craven in the locked garden.",
+    paragraphs: [
+      [
+        {
+          id: "tsgm-1",
+          text: "Martha, the maid who came to clean Mary's room each morning, was nothing like the servants Mary had known in India.",
+          translation:
+            "매일 아침 메리의 방을 청소하러 오는 하녀 마사는, 메리가 인도에서 알았던 하인들과는 전혀 달랐어요.",
+        },
+        {
+          id: "tsgm-2",
+          text: "She spoke in a broad Yorkshire accent and treated Mary like an ordinary girl, not a young mistress to be obeyed.",
+          translation:
+            "그녀는 억센 요크셔 사투리로 말했고, 메리를 순종받아야 할 어린 아씨가 아니라 그저 평범한 소녀처럼 대했어요.",
+        },
+        {
+          id: "tsgm-3",
+          text: "At first this made Mary furious, but slowly she found herself curious about everything Martha said.",
+          translation:
+            "처음에는 이것이 메리를 몹시 화나게 했지만, 점점 메리는 마사가 하는 모든 말에 호기심을 느끼는 자신을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "tsgm-4",
+          text: "Martha told her about the cottage on the moor where she had grown up with eleven brothers and sisters.",
+          translation:
+            "마사는 자신이 열한 명의 형제자매와 함께 자란 황야의 오두막에 대해 메리에게 이야기해 주었어요.",
+        },
+        {
+          id: "tsgm-5",
+          text: "Her father earned only sixteen shillings a week, yet somehow her mother fed and clothed twelve children.",
+          translation: "아버지는 일주일에 겨우 16실링을 벌었지만, 어머니는 어떻게든 열두 아이를 먹이고 입혔어요.",
+        },
+        {
+          id: "tsgm-6",
+          text: "\"We're a poor lot,\" Martha said cheerfully, \"but we're a happy one.\"",
+          translation: "\"우리는 가난한 편이에요\" 하고 마사가 명랑하게 말했어요. \"하지만 행복한 편이죠.\"",
+        },
+      ],
+      [
+        {
+          id: "tsgm-7",
+          text: "Best of all, Martha said, was her brother Dickon, a boy of twelve who spent all day alone on the moor.",
+          translation:
+            "무엇보다도 좋은 건 열두 살 난 남동생 디콘이라고 마사는 말했는데, 그는 하루 종일 황야에서 혼자 시간을 보내는 아이였어요.",
+        },
+        {
+          id: "tsgm-8",
+          text: "Wild animals were never afraid of him — foxes, squirrels, and birds all came when he called.",
+          translation: "야생 동물들은 그를 결코 무서워하지 않았어요. 여우도, 다람쥐도, 새들도 그가 부르면 다 찾아왔어요.",
+        },
+        {
+          id: "tsgm-9",
+          text: "He even had a pony of his own, a shaggy little moor pony that had grown to love him.",
+          translation:
+            "그는 자기만의 조랑말도 있었는데, 그를 무척 따르게 된 털이 덥수룩한 작은 황야 조랑말이었어요.",
+        },
+      ],
+      [
+        {
+          id: "tsgm-10",
+          text: "One day Mary asked about a walled garden she had noticed, its door always locked.",
+          translation:
+            "어느 날 메리는 자신이 눈여겨본 담으로 둘러싸인 정원에 대해 물었는데, 그 문은 언제나 잠겨 있었어요.",
+        },
+        {
+          id: "tsgm-11",
+          text: "Martha's face changed, and she said it had belonged to Mrs. Craven, the master's wife.",
+          translation: "마사의 얼굴빛이 변하더니, 그곳은 주인님의 부인인 크레이븐 부인의 것이었다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "tsgm-12",
+          text: "Mrs. Craven had loved that garden and spent hours there with her husband, until an old tree branch broke beneath her.",
+          translation:
+            "크레이븐 부인은 그 정원을 무척 사랑해서 남편과 함께 그곳에서 여러 시간을 보내곤 했는데, 어느 날 오래된 나뭇가지가 그녀 밑에서 부러지고 말았어요.",
+        },
+        {
+          id: "tsgm-13",
+          text: "She fell, and the next day she died; her husband locked the garden and buried the key, and never let anyone speak of it again.",
+          translation:
+            "그녀는 떨어졌고, 다음 날 세상을 떠났어요. 남편은 정원을 잠그고 열쇠를 땅에 묻어 버렸고, 다시는 누구도 그 이야기를 꺼내지 못하게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "tsgm-14",
+          text: "Mary said nothing, but she could not stop thinking about a garden locked away for ten years.",
+          translation: "메리는 아무 말도 하지 않았지만, 십 년 동안 잠겨 있던 정원에 대한 생각을 멈출 수 없었어요.",
+        },
+        {
+          id: "tsgm-15",
+          text: "That night, for the first time in her life, she found herself wondering what a stranger's story truly felt like from the inside.",
+          translation:
+            "그날 밤, 메리는 난생처음으로 낯선 사람의 사연이 그 사람 안에서는 실제로 어떤 느낌일지 궁금해하는 자신을 발견했어요.",
+        },
+        {
+          id: "tsgm-16",
+          text: "\"How does tha' like thysel'?\" Martha had asked her once, laughing, and the question would not leave Mary's mind.",
+          translation:
+            "\"넌 네 자신이 마음에 드니?\" 하고 마사가 한번은 웃으며 물었는데, 그 질문이 메리의 머릿속을 떠나지 않았어요.",
+        },
+        {
+          id: "tsgm-17",
+          text: "For the first time since coming to Yorkshire, Mary began dressing herself each morning, curious now about the moor, the robin, and the garden no one was allowed to see.",
+          translation:
+            "요크셔에 온 이후 처음으로, 메리는 매일 아침 스스로 옷을 입기 시작했고, 이제는 황야와 울새, 그리고 아무도 볼 수 없는 그 정원이 궁금해졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tsgm-v1",
+        term: "furious",
+        partOfSpeech: "adjective",
+        translation: "몹시 화난, 격노한",
+        example: "At first this made Mary furious.",
+        exampleTranslation: "처음에는 이것이 메리를 몹시 화나게 했어요.",
+      },
+      {
+        id: "tsgm-v2",
+        term: "moor",
+        partOfSpeech: "noun",
+        translation: "황야",
+        example: "Martha told her about the cottage on the moor.",
+        exampleTranslation: "마사는 황야에 있는 오두막에 대해 이야기해 주었어요.",
+      },
+      {
+        id: "tsgm-v3",
+        term: "shaggy",
+        partOfSpeech: "adjective",
+        translation: "털이 덥수룩한",
+        example: "It was a shaggy little moor pony.",
+        exampleTranslation: "그것은 털이 덥수룩한 작은 황야 조랑말이었어요.",
+      },
+      {
+        id: "tsgm-v4",
+        term: "bury",
+        partOfSpeech: "verb",
+        translation: "묻다",
+        example: "Her husband locked the garden and buried the key.",
+        exampleTranslation: "남편은 정원을 잠그고 열쇠를 땅에 묻어 버렸어요.",
+      },
+      {
+        id: "tsgm-v5",
+        term: "stranger",
+        partOfSpeech: "noun",
+        translation: "낯선 사람",
+        example: "She wondered what a stranger's story truly felt like from the inside.",
+        exampleTranslation: "그녀는 낯선 사람의 사연이 그 사람 안에서는 실제로 어떤 느낌일지 궁금해했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tsgm-q1",
+        prompt: "How did Martha treat Mary, compared to the servants Mary knew in India?",
+        options: [
+          "She was stricter and more formal than any servant in India.",
+          "She spoke to Mary as an ordinary equal, not as a mistress to obey.",
+          "She ignored Mary and rarely spoke to her at all.",
+          "She refused to work because Mary was a foreigner.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Martha's plain Yorkshire manner and refusal to treat Mary as a \"young mistress\" shocked Mary at first, but it also drew her curiosity.",
+      },
+      {
+        id: "tsgm-q2",
+        prompt: "What happened to Mrs. Craven in the garden?",
+        options: [
+          "She planted the garden and then moved away.",
+          "A branch broke while she sat under a tree, and she died the next day.",
+          "She quarreled with her husband and left him.",
+          "She got lost in the garden and was never found.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mrs. Craven loved the garden and spent hours there with her husband; an old branch broke beneath her, she fell, and died the following day — after which her husband locked the garden for good.",
+      },
+      {
+        id: "tsgm-q3",
+        prompt: "How did Mary begin to change after hearing Martha's stories?",
+        options: [
+          "She demanded to be sent back to India immediately.",
+          "She grew angrier and refused to speak to anyone.",
+          "She started dressing herself and grew curious about the moor and the hidden garden.",
+          "She wrote a letter of complaint to her uncle.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "For the first time, Mary began dressing herself each morning and felt real curiosity about the world around her — the moor, the robin, and the locked garden — a first sign of her selfishness softening.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

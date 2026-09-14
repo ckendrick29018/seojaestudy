@@ -156,6 +156,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 93 | The Wild Swans | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 18 sentences; "De vilde Svaner" — Elisa's eleven brothers turned to swans, the silent nettle-shirt task, and the near witch-trial; the stake is softened to a generic "led away to be punished") — fresh A2 Andersen pick | ☑ |
 | 94 | The Unmannerly Tiger | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a traditional Korean folktale — the boastful tiger "Mountain Uncle," the priest he threatens after being freed from a hunters' pit, and the toad who tricks him back into it; the original ending — the tiger clawing himself to death — is softened to the tiger being freed at dawn on the promise of good behavior) — second Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 | 95 | Tokgabi and the Kind Maid | William E. Griffis (1928) | 67180 | A1 | original narrative built around "Tokgabi and His Pranks" (simplified retelling, 16 sentences; the source chapter describes the mischievous house-spirit Tokgabi's traits and customs rather than telling one plotted story, so this is an original tale built around them — a hardworking kitchen maid secretly rewarded, a lazy one pranked into working, and the real Korean folk custom of red clothing, silver, and spotless white keeping his mischief away) — third Korean-*origin* lesson, `collection: "folktales"`; new non-Potter A1 | ☑ |
+| 96 | The Sneezing Colossus | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 14 sentences; a traditional Korean folktale — a lazy farmer named Kim is sent up the mountain by his wife to find food, climbs a giant stone Buddha statue to reach a ripe pear near its nose, and is launched into the air by a tremendous sneeze; no peril, no softening needed) — fourth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -184,7 +185,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 47 | The Story Girl | L. M. Montgomery (1942) | 5342 | B1 | Ch. 1 — the orchard (simplified retelling, 17 sentences) | ☑ |
 | 48 | Rilla of Ingleside | L. M. Montgomery (1942) | 26265 | B2 | Ch. 1 — the veranda at Ingleside, Rilla longing for her first dance, and the far-off news from Sarajevo (simplified retelling, 19 sentences) | ☑ |
 | 49 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | A2 | Ch. 1 — "There is no one left" (simplified retelling, 17 sentences) | ☑ |
-| 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin | ☐ |
+| 50 | The Secret Garden | Frances Hodgson Burnett (1924) | 113 | B1 | Ch. 4 — Martha; the robin (built as "The Secret Garden: Martha" — Martha's family, Dickon, and the story of the locked garden; the robin itself deferred to a later excerpt; simplified retelling, 17 sentences) | ☑ |
 | 51 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | A2 | Ch. 1 — Sara arrives at the seminary (simplified retelling, 17 sentences) | ☑ |
 | 52 | A Little Princess | Frances Hodgson Burnett (1924) | 146 | B1 | Ch. 7 ("The Diamond Mines Again") — the ruin, and Sara made a servant in the attic (simplified retelling, 17 sentences) | ☑ |
 | 53 | Cranford | Elizabeth Gaskell (1865) | 394 | B1 | Ch. 1 — "in possession of the Amazons" (simplified retelling, 17 sentences) | ☑ |
@@ -223,14 +224,14 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (91 — 88 classics + 3 folktales):** the four rows added in this
-  batch — Northanger Abbey Ch. 1 (row 32), The Wild Swans (row 93),
-  The Unmannerly Tiger (row 94, folktales), Tokgabi and the Kind Maid
-  (row 95, folktales) — plus Rose in Bloom Ch. 1 (row 42) and The Story Girl
-  Ch. 1 (row 47), which finish out the Tier 2 B1 backlog. That leaves only
-  two Tier 2 rows open (Secret Garden Ch. 4 — row 50, Elizabeth and Her
-  German Garden — row 55) and the poem (row 73, a different lesson shape) —
-  Tier 1 and Tier 3 are fully built. Plus, from before this batch: Mother Holle (row 86), The Golden Key (row 87),
+- **Live now (93 — 89 classics + 4 folktales):** Northanger Abbey Ch. 1
+  (row 32), The Wild Swans (row 93), The Unmannerly Tiger (row 94,
+  folktales), Tokgabi and the Kind Maid (row 95, folktales), The Sneezing
+  Colossus (row 96, folktales) — plus Rose in Bloom Ch. 1 (row 42), The
+  Story Girl Ch. 1 (row 47), and The Secret Garden: Martha (row 50), which
+  finish out the Tier 2 B1 backlog down to a single open row (Elizabeth and
+  Her German Garden — row 55) and the poem (row 73, a different lesson
+  shape) — Tier 1 and Tier 3 are fully built. Plus, from before this batch: Mother Holle (row 86), The Golden Key (row 87),
   The Fir Tree (row 88), A White Heron (row 89), The Great Gatsby — Ch. 1
   close (row 90), The Star Money (row 91), Sweet Porridge (row 83), The Golden Goose (row 84),
   The Skylight Room (row 85), Rilla of Ingleside Ch. 1 (row 48),
@@ -307,12 +308,12 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
   Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
   Ch. 1 close, The Star Money, Northanger Abbey Ch. 1, The Wild Swans,
-  Rose in Bloom Ch. 1, The Story Girl Ch. 1). Classics-shelf bands are now
-  A1 ×18, A2 ×23, B1 ×25, B2 ×22 — 88 live; add the folktales shelf
-  (A1 ×1, A2 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
-  Tokgabi and the Kind Maid) for 91 lessons across both shelves. B1 is now
-  the largest classics band; pick the level a new story genuinely fits
-  rather than chasing a band.
+  Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha).
+  Classics-shelf bands are now A1 ×18, A2 ×23, B1 ×26, B2 ×22 — 89 live;
+  add the folktales shelf (A1 ×2, A2 ×2 — A Bridegroom for Miss Mole, The
+  Unmannerly Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus) for
+  93 lessons across both shelves. B1 is now the largest classics band;
+  pick the level a new story genuinely fits rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
   (A2), A White Heron (B2), The Great Gatsby / Ch. 1 close (B2), The Star
   Money (A1). Gatsby went in on direct reader demand — it is PD in the US
@@ -338,21 +339,17 @@ has a genuine period cover/illustration in the public domain, download that into
   - A2: **The Fir Tree** and **The Wild Swans** are now live. Next: the
     Andersen companion **The Snow Queen** Ch. 1, or another *Four Million*
     story (**The Brief Début of Tildy**).
-  - B1: Tier 2's open rows are now down to two, both worth building —
-    **The Secret Garden Ch. 4** (row 50, Martha and the robin — a natural
-    B1 sequel to the live A2 Ch. 1) and **Elizabeth and Her German Garden**
-    opening (row 55).
-  - Folktales shelf (3 live: A Bridegroom for Miss Mole, The Unmannerly
-    Tiger, Tokgabi and the Kind Maid): the Griffis collection has more —
-    "The Sneezing Colossus," "Cat-kin and the Queen Mother," "The Magic
-    Peach," "The Voice of the Bell." Note: Heungbu and Nolbu (흥부와 놀부)
-    is already live (`heungbu-and-nolbu`, based on the anonymous PD
-    Heungbu-jeon) but sits in the plain Library list with the five Aesop
-    fables, not on the folktales shelf — no `collection` field set; worth
-    a follow-up to add `collection: "folktales"` so it shows up there.
-    Kongjwi and Patjwi (a Korean Cinderella parallel) and Sim Cheong are
-    well-known Korean folktales still without a PD English retelling
-    identified for this shelf; needs a source hunt before building.
+  - B1: **The Secret Garden: Martha** (row 50) is now live. Tier 2's last
+    open row is **Elizabeth and Her German Garden** opening (row 55).
+  - Folktales shelf (4 live: A Bridegroom for Miss Mole, The Unmannerly
+    Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus — plus
+    Heungbu and Nolbu on the plain Library list below, tagged
+    `collection: "folktales"` so it now also shows on the shelf): the
+    Griffis collection still has more untapped — "Cat-kin and the Queen
+    Mother," "The Magic Peach," "The Voice of the Bell." Kongjwi and
+    Patjwi (a Korean Cinderella parallel) and Sim Cheong are well-known
+    Korean folktales still without a PD English retelling identified for
+    this shelf; needs a source hunt before building.
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
