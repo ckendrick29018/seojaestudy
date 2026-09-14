@@ -153,6 +153,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 89 | A White Heron | Sarah Orne Jewett (1909) | — | B2 | trimmed (simplified retelling, 18 sentences; the hunter's ten-dollar offer, Sylvia's dawn climb up the great pine, and her choice to keep the heron's nest a secret) — fresh B2 prose pick | ☑ |
 | 91 | The Star Money | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; "Die Sterntaler" — the orphan girl who gives away her bread and every piece of clothing, then stars fall as silver coins; no softening needed, no peril at all) — non-Potter A1 | ☑ |
 | 92 | A Bridegroom for Miss Mole | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean folktale — a proud mole father asks Sky, Sun, Cloud, and Wind to marry his daughter, each naming something mightier, until Miryek the stone statue names a small mole digging at his feet; no peril, no softening needed) — first Korean-*origin* lesson, `collection: "folktales"` not `"classics"` | ☑ |
+| 93 | The Wild Swans | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 18 sentences; "De vilde Svaner" — Elisa's eleven brothers turned to swans, the silent nettle-shirt task, and the near witch-trial; the stake is softened to a generic "led away to be punished") — fresh A2 Andersen pick | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -163,7 +164,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 29 | Sense and Sensibility | Jane Austen (1817) | 21839 | B1 | Ch. 1 — the Dashwoods lose Norland (simplified retelling, 17 sentences) | ☑ |
 | 30 | Emma | Jane Austen (1817) | 158 | B1 | Ch. 1 — "handsome, clever, and rich" (simplified retelling, 17 sentences) | ☑ |
 | 31 | Persuasion | Jane Austen (1817) | 105 | B2 | Ch. 4 — Anne and Wentworth's broken engagement, eight years on (simplified retelling, 17 sentences) | ☑ |
-| 32 | Northanger Abbey | Jane Austen (1817) | 121 | B1 | Ch. 1 — "no one would have supposed her born to be a heroine" | ☐ |
+| 32 | Northanger Abbey | Jane Austen (1817) | 121 | B1 | Ch. 1 — "no one would have supposed her born to be a heroine" (simplified retelling, 17 sentences) | ☑ |
 | 33 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B2 | Ch. 1 — the window seat and John Reed (simplified retelling, 17 sentences) | ☑ |
 | 34 | Jane Eyre | Charlotte Brontë (1855) | 1260 | B2 | Ch. 5 — the fifty-mile ride, the burnt porridge, and meeting Helen Burns (simplified retelling, 18 sentences) | ☑ |
 | 35 | Wuthering Heights | Emily Brontë (1848) | 768 | B2 | Ch. 3 — Lockwood's dream at the window, simplified retelling, 17 sentences | ☑ |

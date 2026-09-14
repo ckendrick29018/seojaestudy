@@ -19325,6 +19325,449 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-wild-swans",
+    title: "The Wild Swans",
+    titleTranslation: "야생 백조",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "🪶",
+    coverImage: "/covers/the-wild-swans.svg",
+    source:
+      "Adapted from Hans Christian Andersen's tale \"The Wild Swans\" (\"De vilde Svaner,\" first published 1838; long in the public domain, Project Gutenberg #1597). This simplified retelling and its Korean translation are original text written for SeoJae Story; the witch-trial peril is gently softened.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Elisa had to do to save her brothers, and why she could not speak while she did it.",
+    paragraphs: [
+      [
+        {
+          id: "ws-1",
+          text: "Once there lived a king who had eleven sons and one daughter, whose name was Elisa; the brothers loved their little sister dearly.",
+          translation:
+            "옛날에 아들 열한 명과 딸 하나를 둔 어느 왕이 살았어요. 딸의 이름은 엘리자였고, 오빠들은 막내 여동생을 몹시 아꼈지요.",
+        },
+        {
+          id: "ws-2",
+          text: "When their father married a wicked new queen, she grew jealous of the children and wanted them gone.",
+          translation:
+            "아버지가 못된 새 왕비를 맞아들이자, 왕비는 아이들을 질투하며 없애 버리고 싶어 했어요.",
+        },
+        {
+          id: "ws-3",
+          text: "The queen turned the eleven brothers into eleven wild swans, and sent Elisa away to live with poor farmers in the country.",
+          translation:
+            "왕비는 열한 왕자를 열한 마리 백조로 바꾸어 버리고, 엘리자는 시골의 가난한 농부들에게 보내 살게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "ws-4",
+          text: "Years later, when Elisa came home a beautiful young woman, the queen could not bear to look at her either.",
+          translation:
+            "여러 해가 지나 엘리자가 아름다운 아가씨가 되어 집으로 돌아오자, 왕비는 그녀의 얼굴조차 보기 싫어했어요.",
+        },
+        {
+          id: "ws-5",
+          text: "So the queen sent Elisa deep into the forest, certain that she would never find her way back.",
+          translation:
+            "그래서 왕비는 엘리자를 깊은 숲속으로 보내 버렸어요. 다시는 길을 찾아 돌아오지 못하리라 확신하면서요.",
+        },
+      ],
+      [
+        {
+          id: "ws-6",
+          text: "That evening, eleven wild swans landed beside the stream where Elisa slept, and at sunset they turned back into her own brothers.",
+          translation:
+            "그날 저녁, 백조 열한 마리가 엘리자가 잠든 시냇가에 내려앉았고, 해 질 녘이 되자 그들은 다시 오빠들의 모습으로 돌아왔어요.",
+        },
+        {
+          id: "ws-7",
+          text: "\"We are swans by day and princes only from sunset to sunrise,\" the eldest brother explained, \"and tomorrow we must fly far away, over the sea, to our new home.\"",
+          translation:
+            "\"우리는 낮에는 백조이고, 해 질 녘부터 해 뜰 때까지만 왕자란다.\" 맏오빠가 설명했어요. \"그리고 내일이면 우리는 바다 건너 멀리 새로운 집으로 날아가야 해.\"",
+        },
+      ],
+      [
+        {
+          id: "ws-8",
+          text: "That night, Elisa dreamed of a kind old woman who told her exactly how to break the spell.",
+          translation:
+            "그날 밤, 엘리자는 꿈속에서 친절한 할머니를 만났고, 할머니는 마법을 푸는 방법을 낱낱이 알려 주었어요.",
+        },
+        {
+          id: "ws-9",
+          text: "She must gather stinging nettles from the churchyard, spin them into thread with her bare hands, and weave eleven shirts — and she must not speak one single word until the last shirt was finished, or her brothers would die.",
+          translation:
+            "엘리자는 교회 묘지에서 쐐기풀을 모아 맨손으로 실을 자아 셔츠 열한 벌을 짜야 했어요. 그리고 마지막 셔츠를 다 짤 때까지 단 한마디도 말을 해서는 안 되었지요. 그러지 않으면 오빠들이 죽고 말 테니까요.",
+        },
+      ],
+      [
+        {
+          id: "ws-10",
+          text: "Elisa's hands grew raw and blistered from the nettles, but she worked on in silence, saying nothing to anyone.",
+          translation:
+            "쐐기풀에 엘리자의 손은 벌겋게 부르텄지만, 그녀는 아무에게도 말하지 않은 채 묵묵히 일을 계속했어요.",
+        },
+        {
+          id: "ws-11",
+          text: "When her brothers flew to a distant land across the sea, they wove a net and carried Elisa with them, high above the waves.",
+          translation:
+            "오빠들이 바다 건너 먼 땅으로 날아갈 때, 그들은 그물을 엮어 엘리자를 태우고 파도 위로 높이 날아갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ws-12",
+          text: "In that land, a young king found her sleeping in a cave, surrounded by half-finished shirts, and he fell in love with her at once.",
+          translation:
+            "그 땅에서 한 젊은 왕이 반쯤 짠 셔츠들에 둘러싸인 채 동굴에서 잠든 그녀를 발견했고, 한눈에 사랑에 빠졌어요.",
+        },
+        {
+          id: "ws-13",
+          text: "Though Elisa could not speak to answer him, he brought her to his palace and asked her to be his queen.",
+          translation:
+            "엘리자는 대답할 말이 없었지만, 왕은 그녀를 궁전으로 데려가 자신의 왕비가 되어 달라고 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "ws-14",
+          text: "Every night Elisa slipped away to a graveyard to gather more nettles, and the palace priest began to whisper that she was a witch.",
+          translation:
+            "밤마다 엘리자가 몰래 빠져나가 묘지에서 쐐기풀을 모으자, 궁정 사제는 그녀가 마녀라고 수군거리기 시작했어요.",
+        },
+        {
+          id: "ws-15",
+          text: "Because Elisa could not speak one word to defend herself, the people believed the priest, and she was led away to be punished.",
+          translation:
+            "엘리자는 자신을 변호할 말 한마디조차 할 수 없었기에, 사람들은 사제의 말을 믿었고, 그녀는 벌을 받으러 끌려갔어요.",
+        },
+        {
+          id: "ws-16",
+          text: "She kept weaving the last shirt with shaking hands even as they took her away, and she finished it just in time.",
+          translation:
+            "끌려가는 순간에도 그녀는 떨리는 손으로 마지막 셔츠를 계속 짰고, 마침내 제때 다 짤 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ws-17",
+          text: "Eleven wild swans swept down from the sky, and Elisa threw a nettle shirt over each one — eleven princes stood there instead, except that the youngest still had one white wing where his arm should be, because his shirt's sleeve was not quite finished.",
+          translation:
+            "백조 열한 마리가 하늘에서 내려왔고, 엘리자가 셔츠를 한 마리씩 덮어씌우자 백조들은 왕자로 돌아왔어요. 다만 막내는 셔츠 소매가 미처 다 짜이지 않아 팔 대신 하얀 날개 하나가 그대로 남아 있었지요.",
+        },
+        {
+          id: "ws-18",
+          text: "At last Elisa could speak again, and she told everyone the whole story; the king married her with great joy, and all twelve brothers and sisters lived happily together from that day on.",
+          translation:
+            "마침내 엘리자는 다시 말을 할 수 있게 되어 모든 이야기를 들려주었어요. 왕은 크게 기뻐하며 그녀와 결혼했고, 열두 형제자매는 그날부터 행복하게 함께 살았답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ws-v1",
+        term: "wicked",
+        partOfSpeech: "adjective",
+        translation: "사악한, 못된",
+        example: "The king married a wicked new queen.",
+        exampleTranslation: "왕은 못된 새 왕비를 맞이했어요.",
+      },
+      {
+        id: "ws-v2",
+        term: "silence",
+        partOfSpeech: "noun",
+        translation: "침묵",
+        example: "She worked on in silence, saying nothing to anyone.",
+        exampleTranslation: "그녀는 아무에게도 말하지 않은 채 침묵 속에서 일을 계속했어요.",
+      },
+      {
+        id: "ws-v3",
+        term: "witch",
+        partOfSpeech: "noun",
+        translation: "마녀",
+        example: "The priest whispered that she was a witch.",
+        exampleTranslation: "사제는 그녀가 마녀라고 수군거렸어요.",
+      },
+      {
+        id: "ws-v4",
+        term: "weave",
+        partOfSpeech: "verb",
+        translation: "(실로) 짜다, 엮다",
+        example: "She had to weave eleven shirts from nettles.",
+        exampleTranslation: "그녀는 쐐기풀로 셔츠 열한 벌을 짜야 했어요.",
+      },
+      {
+        id: "ws-v5",
+        term: "nettle",
+        partOfSpeech: "noun",
+        translation: "쐐기풀",
+        example: "She gathered nettles from the churchyard.",
+        exampleTranslation: "그녀는 교회 묘지에서 쐐기풀을 모았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ws-q1",
+        prompt: "Why did the queen turn Elisa's eleven brothers into swans?",
+        options: [
+          "She wanted them to travel more easily.",
+          "She was jealous of the children and wanted them gone.",
+          "The old king ordered her to.",
+          "The brothers asked to become swans.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "When their father married her, the wicked new queen grew jealous of the king's children and used a spell to turn the eleven brothers into swans and send Elisa away.",
+      },
+      {
+        id: "ws-q2",
+        prompt: "What did Elisa have to do to save her brothers, and what could she not do while she did it?",
+        options: [
+          "She had to sing every day, and she could not stop singing.",
+          "She had to weave eleven shirts from nettles, and she could not speak a single word.",
+          "She had to find eleven golden crowns, and she could not sleep.",
+          "She had to cross the sea alone, and she could not look back.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "In her dream, the old woman told Elisa she must gather nettles, spin them by hand, and weave eleven shirts — without speaking even one word until the last shirt was done, or her brothers would die.",
+      },
+      {
+        id: "ws-q3",
+        prompt: "Why was Elisa nearly punished as a witch, and how was she saved in the end?",
+        options: [
+          "She refused to marry the king, and her brothers rescued her by force.",
+          "She could not explain her secret nighttime visits to the graveyard, but her brothers arrived and became princes again when she threw the shirts over them.",
+          "She burned the shirts by accident, and the king forgave her.",
+          "She spoke out against the priest, and the people believed her at once.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Because Elisa could not speak to defend herself, the people believed the priest's suspicions. But she kept weaving until the last moment — and when the eleven swans swept down, throwing a shirt over each one turned them back into princes and proved her innocent.",
+      },
+    ],
+  },
+  {
+    slug: "northanger-abbey",
+    title: "Northanger Abbey",
+    titleTranslation: "노생거 사원",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🏰",
+    coverImage: "/covers/northanger-abbey.svg",
+    source:
+      "Adapted from Chapter 1 of Jane Austen's novel \"Northanger Abbey\" (written c. 1798–99, first published 1817; long in the public domain, Project Gutenberg #121). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what kind of child Catherine Morland was, and explain the joke behind the narrator calling her a future \"heroine.\"",
+    paragraphs: [
+      [
+        {
+          id: "na-1",
+          text: "No one who had ever seen Catherine Morland as a little girl would have guessed that she was born to be a heroine.",
+          translation:
+            "어린 시절의 캐서린 몰런드를 본 사람이라면 누구도 그녀가 여주인공으로 태어났으리라고는 짐작하지 못했을 거예요.",
+        },
+        {
+          id: "na-2",
+          text: "Her father was a clergyman, not poor and not rich, and her mother was a sensible woman who had already raised several sons before Catherine came along.",
+          translation:
+            "아버지는 목사였는데 가난하지도 부유하지도 않았고, 어머니는 캐서린이 태어나기 전 이미 아들 여럿을 키워 낸 분별 있는 여인이었어요.",
+        },
+        {
+          id: "na-3",
+          text: "The family had ten children in all, and Catherine, far from being a beauty, had a plain face, a thin figure, and a strong fondness for boys' games rather than dolls.",
+          translation:
+            "이 집에는 모두 열 명의 아이가 있었고, 캐서린은 미인과는 거리가 멀어 평범한 얼굴에 마른 몸매를 지녔으며, 인형보다는 남자아이들의 놀이를 훨씬 좋아했어요.",
+        },
+      ],
+      [
+        {
+          id: "na-4",
+          text: "She hated books that only taught lessons, and far preferred rolling down the green slope behind the house to sitting quietly indoors.",
+          translation:
+            "그녀는 교훈만 늘어놓는 책은 질색했고, 집 안에 얌전히 앉아 있느니 집 뒤편 초록 언덕을 굴러 내려가는 쪽을 훨씬 더 좋아했어요.",
+        },
+        {
+          id: "na-5",
+          text: "She showed no interest at all in raising pet birds, growing roses, or drawing pretty pictures, and could never be persuaded to learn music.",
+          translation:
+            "새를 기르거나 장미를 가꾸거나 예쁜 그림을 그리는 일에도 전혀 관심이 없었고, 음악을 배우라고 아무리 권해도 소용이 없었어요.",
+        },
+        {
+          id: "na-6",
+          text: "Indeed, no one who watched her playing cricket with her brothers would have called her anything like a heroine in the making.",
+          translation:
+            "실제로 오빠들과 크리켓을 하며 노는 그녀를 본 사람이라면 누구도 그녀를 장차 여주인공이 될 아이라고는 부르지 않았을 거예요.",
+        },
+      ],
+      [
+        {
+          id: "na-7",
+          text: "But time is often kind, and by fifteen Catherine's looks had begun to improve; her hair started to curl, and people began to say she was \"almost pretty.\"",
+          translation:
+            "하지만 시간은 종종 친절한 법이어서, 열다섯 살이 되자 캐서린의 외모는 나아지기 시작했어요. 머리카락이 곱슬거리기 시작했고, 사람들은 그녀가 이제 거의 예쁘다고 말하기 시작했지요.",
+        },
+        {
+          id: "na-8",
+          text: "At seventeen, she was, on the whole, a pleasant, good-humored girl, with a fresh, healthy look about her.",
+          translation:
+            "열일곱 살이 된 그녀는 전체적으로 유쾌하고 성격 좋은 아가씨로, 산뜻하고 건강한 인상을 지니고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "na-9",
+          text: "Better still, her mind, like her looks, was forming for the better: she began to read exactly the kind of books a heroine ought to read.",
+          translation:
+            "더 다행스럽게도 외모와 마찬가지로 그녀의 마음도 점점 나아지고 있었어요. 그녀는 여주인공이라면 마땅히 읽어야 할 바로 그런 책들을 읽기 시작했지요.",
+        },
+        {
+          id: "na-10",
+          text: "She learned useful little quotations from the poets — lines about disappointed love and a broken heart, which are such a comfort to a young lady in distress.",
+          translation:
+            "그녀는 시인들의 쓸모 있는 구절들, 이룰 수 없는 사랑과 찢어진 마음에 관한 구절들을 배웠는데, 그런 구절들은 괴로움에 빠진 젊은 숙녀에게 더없이 큰 위안이 되는 법이었어요.",
+        },
+        {
+          id: "na-11",
+          text: "So far, then, she had all the makings of a real heroine.",
+          translation: "그렇게 지금까지는, 그녀도 진짜 여주인공이 될 모든 자질을 갖추고 있었던 셈이에요.",
+        },
+      ],
+      [
+        {
+          id: "na-12",
+          text: "What she still lacked was any real adventure at all: no lord had fallen in love with her, and no strange old castle had ever crossed her path.",
+          translation:
+            "다만 그녀에게 아직 없는 것은 진짜 모험뿐이었어요. 그녀를 사랑하게 된 귀족도, 그녀의 앞을 가로막는 기이한 옛 성도 없었으니까요.",
+        },
+        {
+          id: "na-13",
+          text: "Her family, unfortunately, were not the least bit romantic; her father did not keep her locked away, and her mother was very much alive and in excellent health.",
+          translation:
+            "안타깝게도 그녀의 가족은 조금도 낭만적이지 않았어요. 아버지는 그녀를 가두어 기르지 않았고, 어머니는 멀쩡히 살아 계셨을 뿐 아니라 더없이 건강했지요.",
+        },
+        {
+          id: "na-14",
+          text: "Catherine's life, in short, was calm, ordinary, and entirely without incident — hardly the beginning of a proper adventure story.",
+          translation:
+            "한마디로 캐서린의 삶은 평온하고 평범했으며 아무 일도 일어나지 않았어요. 제대로 된 모험 이야기의 시작이라기엔 한참 부족했지요.",
+        },
+      ],
+      [
+        {
+          id: "na-15",
+          text: "Then, when Catherine was seventeen, her neighbors Mr. and Mrs. Allen invited her to come with them to Bath, where Mr. Allen hoped the famous waters might help his health.",
+          translation:
+            "그러던 중 캐서린이 열일곱 살이 되었을 때, 이웃인 앨런 부부가 그녀에게 함께 배스에 가자고 청했어요. 앨런 씨는 그곳의 유명한 온천물이 자신의 건강에 도움이 되기를 바랐거든요.",
+        },
+        {
+          id: "na-16",
+          text: "Mrs. Morland, though she loved her daughter dearly, said only a mild goodbye, with none of the tearful warnings a novel-heroine's mother usually gives.",
+          translation:
+            "몰런드 부인은 딸을 무척 사랑했지만, 소설 속 여주인공의 어머니가 흔히 하는 눈물 어린 당부 같은 것 없이 그저 담담하게 작별 인사를 건넸을 뿐이었어요.",
+        },
+        {
+          id: "na-17",
+          text: "And so, with nothing more dramatic than a full trunk and her parents' quiet blessing, Catherine Morland set off for Bath — and for whatever adventures, real or imagined, might be waiting there.",
+          translation:
+            "그렇게 캐서린 몰런드는 가득 채운 트렁크 하나와 부모님의 조용한 축복 말고는 극적일 것 하나 없이 배스로 떠났어요. 그곳에서 진짜든 상상이든 그녀를 기다리고 있을 모험을 향해서요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "na-v1",
+        term: "heroine",
+        partOfSpeech: "noun",
+        translation: "여주인공",
+        example: "No one would have guessed she was born to be a heroine.",
+        exampleTranslation: "그녀가 여주인공으로 태어났으리라고는 아무도 짐작하지 못했을 거예요.",
+      },
+      {
+        id: "na-v2",
+        term: "fondness",
+        partOfSpeech: "noun",
+        translation: "애착, 좋아함",
+        example: "Catherine had a strong fondness for boys' games.",
+        exampleTranslation: "캐서린은 남자아이들의 놀이를 무척 좋아했어요.",
+      },
+      {
+        id: "na-v3",
+        term: "persuade",
+        partOfSpeech: "verb",
+        translation: "설득하다",
+        example: "She could never be persuaded to learn music.",
+        exampleTranslation: "그녀는 결코 음악을 배우도록 설득되지 않았어요.",
+      },
+      {
+        id: "na-v4",
+        term: "distress",
+        partOfSpeech: "noun",
+        translation: "고통, 괴로움",
+        example: "Such lines are a comfort to a young lady in distress.",
+        exampleTranslation: "그런 구절들은 괴로움에 빠진 젊은 숙녀에게 위안이 되었어요.",
+      },
+      {
+        id: "na-v5",
+        term: "dramatic",
+        partOfSpeech: "adjective",
+        translation: "극적인",
+        example: "She left for Bath with nothing more dramatic than a full trunk.",
+        exampleTranslation: "그녀는 가득 찬 트렁크 하나 말고는 극적일 것 없이 배스로 떠났어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "na-q1",
+        prompt: "What kind of child was Catherine Morland, according to the chapter?",
+        options: [
+          "A beautiful, delicate girl who loved music and drawing.",
+          "A plain, tomboyish girl who preferred cricket and rolling down hills to lessons or dolls.",
+          "A quiet, bookish child who read only serious lessons.",
+          "A wealthy heiress raised entirely by servants.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "As a girl Catherine had a plain face and thin figure, hated lesson-books, and much preferred boys' games like cricket and rolling down the green slope to dolls, music, or drawing.",
+      },
+      {
+        id: "na-q2",
+        prompt: "What began to change for Catherine as she grew older?",
+        options: [
+          "She became wealthy after an inheritance.",
+          "Her looks improved, and she began reading the kind of novels a heroine should read.",
+          "She left home to study at a university.",
+          "She fell in love with a lord who visited her village.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "By fifteen her looks had started to improve, and by seventeen she was pleasant and good-humored; she also began reading the poetic, romantic books thought proper for a heroine, and learning quotable lines about love and heartbreak.",
+      },
+      {
+        id: "na-q3",
+        prompt: "Why does the narrator say Catherine still wasn't a proper heroine, even with her improving looks and reading?",
+        options: [
+          "Her parents refused to let her leave the house.",
+          "She had no money of her own.",
+          "Nothing adventurous had actually happened to her — no romance, no mysterious castle, and a calm, healthy family.",
+          "She could not read or write well.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The narrator points out, with gentle irony, that Catherine lacked real adventure: no lord had fallen for her, no strange castle crossed her path, and her family was ordinary and untroubled — nothing like the dramatic lives of novel heroines, until the invitation to Bath finally gives her a chance.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
