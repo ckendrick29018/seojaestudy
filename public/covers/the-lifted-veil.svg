@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Lifted Veil, by George Eliot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-54 8 Q0 -46 54 8" stroke-width="1.5"/>
+    <path d="M-54 8 Q0 40 54 8" stroke-width="1.5"/>
+    <circle r="16" stroke-width="1.5" fill="#EBD3B8" fill-opacity="0.55"/>
+    <circle r="5" fill="#A9663F" stroke="none"/>
+    <path d="M-70 8 Q-40 -6 -54 8 Q-40 22 -70 8 Z" stroke-width="1.2" opacity="0.5"/>
+    <path d="M70 8 Q40 -6 54 8 Q40 22 70 8 Z" stroke-width="1.2" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="290" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="1">The Lifted Veil</text>
+
+  <line x1="150" y1="316" x2="250" y2="316" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="346" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">A man who saw too much</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="2.5">GEORGE ELIOT</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">FIRST PUBLISHED 1859</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

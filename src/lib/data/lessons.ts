@@ -21446,6 +21446,429 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "prince-sandalwood-the-father-of-korea",
+    title: "Prince Sandalwood, the Father of Korea",
+    titleTranslation: "단군, 한국의 아버지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean mythology (1843–1928)",
+    coverEmoji: "🐻",
+    coverImage: "/covers/prince-sandalwood-the-father-of-korea.svg",
+    source:
+      "Adapted from \"Prince Sandalwood, the Father of Korea,\" William Elliot Griffis's English retelling of Korea's founding myth — the bear who became a woman, and the birth of Tan-gun — in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the bear became a woman, and what Tan-gun told the people beneath the sandalwood tree.",
+    paragraphs: [
+      [
+        {
+          id: "tg-1",
+          text: "Long ago, before Korea had a king, a bear and a tiger both lived on the same mountain.",
+          translation:
+            "아주 오랜 옛날, 한국에 아직 왕이 없던 시절, 곰 한 마리와 호랑이 한 마리가 같은 산에 살고 있었어요.",
+        },
+        {
+          id: "tg-2",
+          text: "Both animals watched the people in the villages below and wished, more than anything, to become human.",
+          translation:
+            "두 짐승은 산 아래 마을 사람들을 바라보며, 무엇보다도 사람이 되기를 간절히 바랐어요.",
+        },
+        {
+          id: "tg-3",
+          text: "One day they climbed to a cave and prayed to Hananim, the Great One of heaven and earth, to grant their wish.",
+          translation:
+            "어느 날 그들은 동굴로 올라가, 하늘과 땅의 큰 어른이신 하나님께 소원을 들어달라고 빌었어요.",
+        },
+      ],
+      [
+        {
+          id: "tg-4",
+          text: "Hananim heard them and sent down one simple test: eat only garlic, stay inside the dark cave, and never step into the sunlight, for twenty-one days.",
+          translation:
+            "하나님은 그 소원을 듣고 간단한 시험을 내려주셨어요. 마늘만 먹으며 어두운 동굴 안에 머물고, 스무하루 동안 햇빛을 보지 말라는 것이었어요.",
+        },
+        {
+          id: "tg-5",
+          text: "The bear and the tiger agreed, and together they began to count the long, hungry days.",
+          translation: "곰과 호랑이는 그러겠다고 약속하고, 함께 길고 배고픈 날들을 세기 시작했어요.",
+        },
+        {
+          id: "tg-6",
+          text: "The tiger lasted eleven days before he could bear it no longer.",
+          translation: "호랑이는 열하루를 버티다가 결국 더는 참지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "tg-7",
+          text: "Growling with hunger, the tiger burst out of the cave and ran back to his old life in the forest, human no more.",
+          translation:
+            "배고픔에 으르렁거리며, 호랑이는 동굴을 뛰쳐나가 숲속의 예전 삶으로 돌아갔고, 다시는 사람이 되지 못했어요.",
+        },
+        {
+          id: "tg-8",
+          text: "The bear stayed behind in the darkness, sucking quietly on her paw, and kept counting.",
+          translation: "곰은 어둠 속에 남아 조용히 자기 발을 빨며 날을 계속 세었어요.",
+        },
+        {
+          id: "tg-9",
+          text: "On the twenty-first day, her thick fur and claws fell away from her like an old coat, and she stepped out of the cave a woman.",
+          translation:
+            "스무하루째 되는 날, 두꺼운 털과 발톱이 낡은 외투처럼 벗겨져 떨어지더니, 그녀는 동굴 밖으로 한 여인이 되어 걸어 나왔어요.",
+        },
+      ],
+      [
+        {
+          id: "tg-10",
+          text: "She knelt beside a clear brook and saw her own new face in the water for the first time.",
+          translation: "그녀는 맑은 시냇가에 무릎을 꿇고, 물속에 비친 자신의 새로운 얼굴을 처음으로 보았어요.",
+        },
+        {
+          id: "tg-11",
+          text: "Around that same time, Whanung, a prince of Heaven, came down from the sky to rule over the Land of the Dragon's Back, which is Korea.",
+          translation:
+            "바로 그 무렵, 하늘의 왕자 환웅이 하늘에서 내려와 용의 등이라 불리는 땅, 곧 한국을 다스리러 왔어요.",
+        },
+        {
+          id: "tg-12",
+          text: "Walking through the forest, Whanung found the bear-woman beside the brook, and he chose her to be his wife.",
+          translation: "숲을 거닐던 환웅은 시냇가에 있는 곰 여인을 발견하고, 그녀를 아내로 맞이하기로 했어요.",
+        },
+      ],
+      [
+        {
+          id: "tg-13",
+          text: "In time, the two of them had a son, and the boy grew tall and wise beneath the mountain sky.",
+          translation:
+            "시간이 흘러 둘 사이에 아들이 태어났고, 그 아이는 산 아래 하늘 밑에서 키가 크고 지혜로운 소년으로 자랐어요.",
+        },
+        {
+          id: "tg-14",
+          text: "When he was grown, he called the people of the land to gather beneath a great sandalwood tree.",
+          translation: "그가 다 자라자, 그는 그 땅의 사람들을 커다란 박달나무 아래로 불러 모았어요.",
+        },
+        {
+          id: "tg-15",
+          text: "\"I have come from my ancestors in Heaven to rule over you, my children,\" he told them.",
+          translation:
+            "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 그가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "tg-16",
+          text: "The people saw that he spoke the truth, and they made him their king, calling him Tan-gun — Prince Sandalwood.",
+          translation:
+            "사람들은 그의 말이 진실임을 알고 그를 왕으로 삼았으며, 그를 단군, 곧 박달나무 왕자라고 불렀어요.",
+        },
+        {
+          id: "tg-17",
+          text: "Even now, Koreans call Tan-gun the father of their nation, and remember that a bear once waited patiently in the dark until she became his mother.",
+          translation:
+            "지금도 한국인들은 단군을 나라의 아버지라 부르며, 옛날 한 마리 곰이 어둠 속에서 끈기 있게 기다려 그의 어머니가 되었다는 이야기를 기억해요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tg-v1",
+        term: "cave",
+        partOfSpeech: "noun",
+        translation: "동굴",
+        example: "One day they climbed to a cave and prayed to Hananim, the Great One of heaven and earth, to grant their wish.",
+        exampleTranslation: "어느 날 그들은 동굴로 올라가, 하늘과 땅의 큰 어른이신 하나님께 소원을 들어달라고 빌었어요.",
+      },
+      {
+        id: "tg-v2",
+        term: "sunlight",
+        partOfSpeech: "noun",
+        translation: "햇빛",
+        example: "Hananim heard them and sent down one simple test: eat only garlic, stay inside the dark cave, and never step into the sunlight, for twenty-one days.",
+        exampleTranslation:
+          "하나님은 그 소원을 듣고 간단한 시험을 내려주셨어요. 마늘만 먹으며 어두운 동굴 안에 머물고, 스무하루 동안 햇빛을 보지 말라는 것이었어요.",
+      },
+      {
+        id: "tg-v3",
+        term: "claws",
+        partOfSpeech: "noun",
+        translation: "발톱",
+        example: "On the twenty-first day, her thick fur and claws fell away from her like an old coat, and she stepped out of the cave a woman.",
+        exampleTranslation:
+          "스무하루째 되는 날, 두꺼운 털과 발톱이 낡은 외투처럼 벗겨져 떨어지더니, 그녀는 동굴 밖으로 한 여인이 되어 걸어 나왔어요.",
+      },
+      {
+        id: "tg-v4",
+        term: "brook",
+        partOfSpeech: "noun",
+        translation: "시내, 개울",
+        example: "She knelt beside a clear brook and saw her own new face in the water for the first time.",
+        exampleTranslation: "그녀는 맑은 시냇가에 무릎을 꿇고, 물속에 비친 자신의 새로운 얼굴을 처음으로 보았어요.",
+      },
+      {
+        id: "tg-v5",
+        term: "ancestors",
+        partOfSpeech: "noun",
+        translation: "조상",
+        example: "\"I have come from my ancestors in Heaven to rule over you, my children,\" he told them.",
+        exampleTranslation:
+          "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 그가 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tg-q1",
+        prompt: "Why did the tiger fail to become human?",
+        options: [
+          "He fell asleep during the test.",
+          "He could not stay in the dark cave for the full twenty-one days.",
+          "He ate meat instead of garlic.",
+          "He was afraid of Hananim.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The tiger lasted only eleven days inside the dark cave before he burst out, hungry and impatient, so he never completed Hananim's test and remained a tiger forever.",
+      },
+      {
+        id: "tg-q2",
+        prompt: "How did the bear become a woman?",
+        options: [
+          "She patiently stayed in the cave, eating only garlic, until the twenty-first day.",
+          "She asked Whanung to grant her wish.",
+          "She found a magic robe beside the brook.",
+          "She prayed to the sandalwood tree.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The bear endured the full test, staying in the dark cave and eating only garlic for twenty-one days, until her fur and claws fell away and she stepped out as a woman.",
+      },
+      {
+        id: "tg-q3",
+        prompt: "What did Tan-gun tell the people when he called them together at the sandalwood tree?",
+        options: [
+          "That he wanted to build a new cave for them.",
+          "That he had come from his ancestors in Heaven to rule over them.",
+          "That his mother the bear would return soon.",
+          "That he wished to become a tiger.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Standing beneath the great sandalwood tree, Tan-gun told the gathered people that he had come from his ancestors in Heaven to rule over them, and they made him their king.",
+      },
+    ],
+  },
+  {
+    slug: "the-lifted-veil",
+    title: "The Lifted Veil",
+    titleTranslation: "걷힌 베일",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "George Eliot (1819–1880)",
+    coverEmoji: "👁️",
+    coverImage: "/covers/the-lifted-veil.svg",
+    source:
+      "Adapted from the opening of George Eliot's novella \"The Lifted Veil\" (first published 1859, Project Gutenberg #2165), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what two strange gifts Latimer has, and why he says he is writing his story.",
+    paragraphs: [
+      [
+        {
+          id: "lv-1",
+          text: "My name is Latimer, and the time of my death is drawing very near.",
+          translation: "내 이름은 레이티머이고, 내가 죽을 때가 아주 가까이 다가오고 있다.",
+        },
+        {
+          id: "lv-2",
+          text: "For months I have suffered from a weak heart, and now I can tell, almost to the hour, when it will stop.",
+          translation:
+            "몇 달째 나는 약한 심장을 앓고 있는데, 이제는 그것이 언제 멈출지 거의 시간 단위까지 알 수 있다.",
+        },
+        {
+          id: "lv-3",
+          text: "On the twentieth of September, at ten o'clock at night, I will be sitting alone in this very study, longing at last to die.",
+          translation: "9월 20일 밤 열 시, 나는 바로 이 서재에 홀로 앉아 마침내 죽기를 간절히 바라고 있을 것이다.",
+        },
+      ],
+      [
+        {
+          id: "lv-4",
+          text: "I have carried a strange gift since I was a young man — visions of things before they happen, so vivid that I could hardly tell them from memory.",
+          translation:
+            "나는 젊은 시절부터 이상한 재능을 지니고 살아왔다. 일이 일어나기 전에 미리 보는 환영들인데, 너무도 생생해서 기억과 거의 구별할 수 없을 정도였다.",
+        },
+        {
+          id: "lv-5",
+          text: "Once I foresaw an ordinary evening months before it arrived, down to the smallest word spoken at the table.",
+          translation: "언젠가 나는 평범한 어느 저녁을 몇 달 전에 미리 보았는데, 식탁에서 오간 가장 작은 말 한마디까지 그대로였다.",
+        },
+        {
+          id: "lv-6",
+          text: "When that evening finally came, it unfolded exactly as I had already seen it in my mind.",
+          translation: "마침내 그 저녁이 오자, 모든 일은 내가 이미 마음속으로 본 그대로 펼쳐졌다.",
+        },
+      ],
+      [
+        {
+          id: "lv-7",
+          text: "A second gift has troubled me even more: without wishing it, I can hear the private thoughts of the people around me.",
+          translation: "두 번째 재능은 나를 더욱 괴롭혔다. 원하지 않아도, 나는 주위 사람들의 속마음을 들을 수 있었다.",
+        },
+        {
+          id: "lv-8",
+          text: "The small, selfish, and foolish thoughts of some dull acquaintance would crowd into my mind like a badly played instrument I could not silence.",
+          translation:
+            "지루한 지인의 작고 이기적이고 어리석은 생각들이, 마치 서툴게 연주되는 악기 소리처럼 내 머릿속으로 밀려들어 왔고, 나는 그 소리를 멈출 수 없었다.",
+        },
+        {
+          id: "lv-9",
+          text: "I heard what people truly thought behind their polite words, and it was rarely kind.",
+          translation: "나는 사람들이 공손한 말 뒤에서 진심으로 생각하는 것을 들었는데, 그것은 좀처럼 친절하지 않았다.",
+        },
+      ],
+      [
+        {
+          id: "lv-10",
+          text: "This double burden has cut me off from everyone I have ever loved.",
+          translation: "이 이중의 짐은 내가 사랑했던 모든 사람들로부터 나를 갈라놓았다.",
+        },
+        {
+          id: "lv-11",
+          text: "Other men can lose themselves in another person's company; I could never lose myself, for I always saw too much.",
+          translation:
+            "다른 사람들은 누군가와 함께 있을 때 자기 자신을 잊을 수 있었지만, 나는 결코 그럴 수 없었다. 언제나 너무 많은 것을 보았기 때문이다.",
+        },
+        {
+          id: "lv-12",
+          text: "Even a warm smile turned cold once I had glimpsed the small, careless thought hiding behind it.",
+          translation: "따뜻한 미소조차, 그 뒤에 숨은 작고 무심한 생각을 언뜻 보고 나면 차갑게 식어 버렸다.",
+        },
+      ],
+      [
+        {
+          id: "lv-13",
+          text: "So I have lived, for many years now, in a strange and lonely silence among my own family and friends.",
+          translation: "그렇게 나는 오랜 세월 동안, 내 가족과 친구들 사이에서도 낯설고 외로운 침묵 속에 살아왔다.",
+        },
+        {
+          id: "lv-14",
+          text: "They believed my quietness was pride, or illness, or a difficult temper; none of them ever guessed the real reason.",
+          translation:
+            "그들은 나의 침묵을 자존심 탓이거나, 병 때문이거나, 까다로운 성격 때문이라고 여겼다. 그 누구도 진짜 이유를 짐작하지 못했다.",
+        },
+        {
+          id: "lv-15",
+          text: "I do not write this hoping that the people who know me will finally understand me.",
+          translation: "나는 나를 아는 사람들이 마침내 나를 이해해 주기를 바라며 이 글을 쓰는 것이 아니다.",
+        },
+      ],
+      [
+        {
+          id: "lv-16",
+          text: "I write it instead for strangers who will read these pages only after I am gone.",
+          translation: "대신 나는 내가 세상을 떠난 뒤에야 이 글을 읽을 낯선 이들을 위해 이것을 쓴다.",
+        },
+        {
+          id: "lv-17",
+          text: "Perhaps, when I can no longer be pitied to my face, someone unknown to me will read my story and, for the first time, feel something like sympathy for the man I was.",
+          translation:
+            "어쩌면, 더 이상 내 앞에서 동정받을 일이 없을 때, 나를 알지 못하는 누군가가 내 이야기를 읽고 처음으로 예전의 나라는 사람에게 연민과 같은 감정을 느끼게 될지도 모른다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lv-v1",
+        term: "vivid",
+        partOfSpeech: "adjective",
+        translation: "생생한",
+        example: "I have carried a strange gift since I was a young man — visions of things before they happen, so vivid that I could hardly tell them from memory.",
+        exampleTranslation:
+          "나는 젊은 시절부터 이상한 재능을 지니고 살아왔다. 일이 일어나기 전에 미리 보는 환영들인데, 너무도 생생해서 기억과 거의 구별할 수 없을 정도였다.",
+      },
+      {
+        id: "lv-v2",
+        term: "acquaintance",
+        partOfSpeech: "noun",
+        translation: "지인, 아는 사람",
+        example: "The small, selfish, and foolish thoughts of some dull acquaintance would crowd into my mind like a badly played instrument I could not silence.",
+        exampleTranslation:
+          "지루한 지인의 작고 이기적이고 어리석은 생각들이, 마치 서툴게 연주되는 악기 소리처럼 내 머릿속으로 밀려들어 왔고, 나는 그 소리를 멈출 수 없었다.",
+      },
+      {
+        id: "lv-v3",
+        term: "burden",
+        partOfSpeech: "noun",
+        translation: "짐, 부담",
+        example: "This double burden has cut me off from everyone I have ever loved.",
+        exampleTranslation: "이 이중의 짐은 내가 사랑했던 모든 사람들로부터 나를 갈라놓았다.",
+      },
+      {
+        id: "lv-v4",
+        term: "glimpsed",
+        partOfSpeech: "verb",
+        translation: "언뜻 보다",
+        example: "Even a warm smile turned cold once I had glimpsed the small, careless thought hiding behind it.",
+        exampleTranslation: "따뜻한 미소조차, 그 뒤에 숨은 작고 무심한 생각을 언뜻 보고 나면 차갑게 식어 버렸다.",
+      },
+      {
+        id: "lv-v5",
+        term: "sympathy",
+        partOfSpeech: "noun",
+        translation: "연민, 동정심",
+        example: "Perhaps, when I can no longer be pitied to my face, someone unknown to me will read my story and, for the first time, feel something like sympathy for the man I was.",
+        exampleTranslation:
+          "어쩌면, 더 이상 내 앞에서 동정받을 일이 없을 때, 나를 알지 못하는 누군가가 내 이야기를 읽고 처음으로 예전의 나라는 사람에게 연민과 같은 감정을 느끼게 될지도 모른다.",
+      },
+    ],
+    questions: [
+      {
+        id: "lv-q1",
+        prompt: "What strange ability troubles the narrator, Latimer, throughout his life?",
+        options: [
+          "He can travel through time.",
+          "He can foresee future events and hear other people's private thoughts.",
+          "He can heal people with his touch.",
+          "He can never fall asleep.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Latimer describes two gifts that have tormented him: vivid visions of events before they happen, and the involuntary ability to hear the private, often unkind, thoughts of the people around him.",
+      },
+      {
+        id: "lv-q2",
+        prompt: "How has Latimer's gift affected his relationships with family and friends?",
+        options: [
+          "It has made him the most popular person in every room.",
+          "It has cut him off from everyone, leaving him lonely even among people who love him.",
+          "It has allowed him to become extremely wealthy.",
+          "It has made his family trust him completely.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Because he always sees too much — the selfish or careless thoughts hidden behind kind words — Latimer has never been able to lose himself in another person's company, leaving him in a strange, lonely silence among his own family and friends.",
+      },
+      {
+        id: "lv-q3",
+        prompt: "Why does Latimer say he is writing his story?",
+        options: [
+          "To convince his doctor to cure his illness.",
+          "To ask his family for forgiveness.",
+          "For strangers who will read it only after he is dead, hoping for a little sympathy.",
+          "To warn other people never to marry.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Latimer explains that he does not expect the people who know him to ever understand him — instead he writes for strangers who will read his story after his death, hoping it might win him a little sympathy he never received in life.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

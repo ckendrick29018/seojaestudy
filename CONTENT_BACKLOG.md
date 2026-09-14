@@ -158,6 +158,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 95 | Tokgabi and the Kind Maid | William E. Griffis (1928) | 67180 | A1 | original narrative built around "Tokgabi and His Pranks" (simplified retelling, 16 sentences; the source chapter describes the mischievous house-spirit Tokgabi's traits and customs rather than telling one plotted story, so this is an original tale built around them — a hardworking kitchen maid secretly rewarded, a lazy one pranked into working, and the real Korean folk custom of red clothing, silver, and spotless white keeping his mischief away) — third Korean-*origin* lesson, `collection: "folktales"`; new non-Potter A1 | ☑ |
 | 96 | The Sneezing Colossus | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 14 sentences; a traditional Korean folktale — a lazy farmer named Kim is sent up the mountain by his wife to find food, climbs a giant stone Buddha statue to reach a ripe pear near its nose, and is launched into the air by a tremendous sneeze; no peril, no softening needed) — fourth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 | 97 | Cat-kin and the Queen Mother | William E. Griffis (1928) | 67180 | A2 | opening scene, whole (simplified retelling, 17 sentences; a traditional Korean folktale — a girl named for a pussy-willow catkin calls the earth-spirit beneath a persimmon tree and is invited into the sky by the Western Heavenly Queen Mother; the source text cuts off mid-scene, so the closing sentence — Cat-kin climbing into the jade chariot and villagers still seeing a new star by the moon — is an original conclusion in the same spirit) — fifth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
+| 98 | Prince Sandalwood, the Father of Korea | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; Korea's own founding myth — a bear and a tiger both pray to become human, the tiger gives up after eleven days but the bear endures the full twenty-one eating only garlic in a dark cave, becomes a woman, marries the sky-prince Whanung, and their son Tan-gun is hailed by the people as the first king of Korea) — sixth Korean-*origin* lesson, `collection: "folktales"`; Ch. 4 of the Griffis book, well within the confirmed-reachable range | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -216,6 +217,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 72 | The Mysteries of Udolpho | Ann Radcliffe (1823) | 3268 | B2 | Vol. 1 Ch. 1 — La Vallée (simplified retelling, 17 sentences) | ☑ |
 | 73 | Sonnets from the Portuguese | Elizabeth Barrett Browning (1861) | — | B2 | Sonnet 43 — "How do I love thee" | ☐ |
 | 90 | The Great Gatsby | F. Scott Fitzgerald (1940) | 64317 | B2 | close of Ch. 1 — the dinner at the Buchanans', then Nick sees Gatsby reaching toward the green light across the bay (simplified retelling, 18 sentences) — built on direct reader demand; PD in the US since 2021 and in life+70 countries since 2011 | ☑ |
+| 99 | The Lifted Veil | George Eliot (1880) | 2165 | B2 | opening of Ch. 1 — Latimer's premonition of his own death, his visions of the future, and his involuntary insight into other people's thoughts (simplified retelling, 17 sentences) — the fresh B2 pick flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -225,7 +227,10 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (95 — 90 classics + 5 folktales):** Northanger Abbey Ch. 1
+- **Live now (97 — 91 classics + 6 folktales):** Prince Sandalwood, the
+  Father of Korea (row 98, folktales — Korea's own founding myth, Tan-gun)
+  and The Lifted Veil (row 99, a fresh B2 classics pick, George Eliot) are
+  the newest additions. Before that: Northanger Abbey Ch. 1
   (row 32), The Wild Swans (row 93), The Unmannerly Tiger (row 94,
   folktales), Tokgabi and the Kind Maid (row 95, folktales), The Sneezing
   Colossus (row 96, folktales), Cat-kin and the Queen Mother (row 97,
@@ -312,13 +317,14 @@ has a genuine period cover/illustration in the public domain, download that into
   Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
   Ch. 1 close, The Star Money, Northanger Abbey Ch. 1, The Wild Swans,
   Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha),
-  plus Elizabeth and Her German Garden (row 55, B1). Classics-shelf bands
-  are now A1 ×18, A2 ×23, B1 ×27, B2 ×22 — 90 live; add the folktales
-  shelf (A1 ×2, A2 ×3 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
-  Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
-  Mother) for 95 lessons across both shelves. B1 is now the largest
-  classics band; pick the level a new story genuinely fits rather than
-  chasing a band.
+  plus Elizabeth and Her German Garden (row 55, B1) and The Lifted Veil
+  (row 99, B2). Classics-shelf bands are now A1 ×18, A2 ×23, B1 ×27,
+  B2 ×23 — 91 live; add the folktales shelf (A1 ×2, A2 ×4 — A Bridegroom
+  for Miss Mole, The Unmannerly Tiger, Tokgabi and the Kind Maid, The
+  Sneezing Colossus, Cat-kin and the Queen Mother, Prince Sandalwood the
+  Father of Korea) for 97 lessons across both shelves. B1 and B2 are now
+  the largest classics bands; pick the level a new story genuinely fits
+  rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
   (A2), A White Heron (B2), The Great Gatsby / Ch. 1 close (B2), The Star
   Money (A1). Gatsby went in on direct reader demand — it is PD in the US
@@ -331,12 +337,11 @@ has a genuine period cover/illustration in the public domain, download that into
   Benjamin Bunny, Two Bad Mice — 4 of 18); every non-Potter A1 add since
   (Bremen Town Musicians, Sweet Porridge, The Golden Goose, Mother Holle,
   The Golden Key, The Star Money) was deliberate — keep it that way.
-- Good next lessons to build — three bands sit at ~22, A1 at 18; pick by fit:
-  - B2: every prose B2 row in the backlog is now live. **A White Heron**
-    (Jewett) and **The Great Gatsby Ch. 1** were the Sept 2026 fresh
-    picks; a further B2 needs another fresh pick (another Wharton or
-    Eliot scene, or **The Lifted Veil**). Row 73 (Sonnet 43) is a poem,
-    a different lesson shape.
+- Good next lessons to build — three bands sit at ~23, A1 at 18; pick by fit:
+  - B2: **The Lifted Veil** (George Eliot) is now live — Latimer's opening
+    premonition of his own death. A further B2 needs another fresh pick
+    (a second Eliot scene, e.g. from *Scenes of Clerical Life*, or another
+    Wharton). Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, and **The Star Money** are now live. Next: another kind
     non-peril Grimm (**Mother Hulda / Frau Holle** is done; **The Golden
@@ -346,17 +351,22 @@ has a genuine period cover/illustration in the public domain, download that into
     story (**The Brief Début of Tildy**).
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (5 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (6 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
-    the Queen Mother — plus Heungbu and Nolbu on the plain Library list
-    below, tagged `collection: "folktales"` so it now also shows on the
-    shelf): the Griffis collection still has more untapped — "The Magic
-    Peach" (its own chapter runs too deep into the source book for our
-    fetch tooling to verify reliably; "Cat-kin and the Queen Mother" was
-    used instead, and its own ending — cut off mid-scene in the
-    available source text — is an original conclusion written in the
-    same spirit) and "The Voice of the Bell" (also deep in the book;
-    same caveat). Kongjwi and
+    the Queen Mother, Prince Sandalwood the Father of Korea — plus Heungbu
+    and Nolbu on the plain Library list below, tagged
+    `collection: "folktales"` so it now also shows on the shelf): the
+    Griffis collection's confirmed-reachable range (roughly chapters 1–13
+    of 26 — see the fetch-depth caveat below) still has untapped chapters:
+    Ch. 3 "East Light and the Bridge of Fishes," Ch. 5 "The Rabbit's
+    Eyes," Ch. 6 "Topknots and Crockery Hats," Ch. 7 "Fancha and the
+    Magpie," Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
+    of the Flowers," and Ch. 12 "Tokgabi's Menagerie" are all still
+    unbuilt and were confirmed in the book's table of contents (fetched
+    2026-09-14). Deeper chapters — "The Magic Peach" (Ch. 14) and "The
+    Voice of the Bell" (Ch. 24) — still run too far into the source book
+    for our fetch tooling to verify reliably; do not build those without
+    first re-testing whether they've become reachable. Kongjwi and
     Patjwi (a Korean Cinderella parallel) and Sim Cheong are well-known
     Korean folktales still without a PD English retelling identified for
     this shelf; needs a source hunt before building.
@@ -459,6 +469,23 @@ strong PD material in each:
   by the moon) is an original conclusion in the same spirit, not
   confirmed against Griffis's actual ending. "The Magic Peach" and "The
   Voice of the Bell" sit deeper in the book and hit the same fetch-depth
-  limit — see "Good next lessons to build" above. Remaining non-Griffis
+  limit — see "Good next lessons to build" above. A sixth Griffis tale is
+  now live: **row 98, Prince Sandalwood, the Father of Korea** (A2) —
+  Korea's own founding myth (Ch. 4 of the book, well inside the
+  confirmed-reachable range): a bear and a tiger both pray to become
+  human, the tiger gives up after eleven days but the bear endures the
+  full twenty-one eating only garlic in a dark cave, becomes a woman,
+  marries the sky-prince Whanung, and their son Tan-gun is hailed by the
+  gathered people as the first king of Korea. Fetching the book's full
+  table of contents (2026-09-14) confirmed the chapter list — 1 The
+  Unmannerly Tiger, 2 Tokgabi and His Pranks, 3 East Light and the Bridge
+  of Fishes, 4 Prince Sandalwood, 5 The Rabbit's Eyes, 6 Topknots and
+  Crockery Hats, 7 Fancha and the Magpie, 8 The Sneezing Colossus, 9 A
+  Bridegroom for Miss Mole, 10 Old White Whiskers and Mr. Bunny, 11 The
+  King of the Flowers, 12 Tokgabi's Menagerie, 13 Cat-kin and the Queen
+  Mother, 14 The Magic Peach, ... 24 The Voice of the Bell, ... 26 (last)
+  — so chapters 3, 5, 6, 7, 10, 11, and 12 are still unbuilt and,
+  being inside the same 1–13 range already used successfully six times,
+  should be reachable for the next batch. Remaining non-Griffis
   Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi, Sim Cheong)
   still need a public-domain English source identified.
