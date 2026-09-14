@@ -21017,6 +21017,435 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "cat-kin-and-the-queen-mother",
+    title: "Cat-kin and the Queen Mother",
+    titleTranslation: "캣킨과 서왕모",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "☁️",
+    coverImage: "/covers/cat-kin-and-the-queen-mother.svg",
+    source:
+      "Adapted from \"Cat-kin and the Queen Mother,\" a traditional Korean folktale retold in English by William Elliot Griffis in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Cat-kin did beneath the persimmon tree, and who came down from the sky to meet her.",
+    paragraphs: [
+      [
+        {
+          id: "cat-1",
+          text: "In old Korea, in the rich grain country of Nai-po, a farmer named Pak and his wife had a baby girl.",
+          translation:
+            "옛날 한국의 곡식이 풍부한 고장 나이포에서, 박씨라는 농부와 그의 아내에게 딸아이가 태어났어요.",
+        },
+        {
+          id: "cat-2",
+          text: "On the very day she was born, Pak came home carrying a branch of pussy willow, its buds soft as a cat's ear, so they named their daughter Cat-kin.",
+          translation:
+            "아이가 태어난 바로 그날, 박씨가 버들강아지 가지를 들고 집에 돌아왔는데 그 꽃봉오리가 고양이 귀처럼 부드러워서, 부부는 딸의 이름을 캣킨이라고 지었어요.",
+        },
+        {
+          id: "cat-3",
+          text: "Cat-kin grew up loving every fairy tale the old women of the village could tell.",
+          translation: "캣킨은 마을 할머니들이 들려주는 옛이야기라면 무엇이든 좋아하며 자랐어요.",
+        },
+      ],
+      [
+        {
+          id: "cat-4",
+          text: "More than anything, she dreamed of the Ever White Mountain and the Dragon Prince's Pool far to the north.",
+          translation: "무엇보다도 그녀는 저 멀리 북쪽에 있는 백두산과 용왕의 못을 꿈꾸었어요.",
+        },
+        {
+          id: "cat-5",
+          text: "But she had also heard that fierce tigers walked those far mountains, so she never dared to go.",
+          translation:
+            "하지만 그 먼 산에는 사나운 호랑이들이 돌아다닌다는 이야기도 들어서, 그녀는 감히 가 볼 엄두를 내지 못했어요.",
+        },
+        {
+          id: "cat-6",
+          text: "Instead, Cat-kin spent her days reading beneath a great persimmon tree behind her house.",
+          translation: "대신 캣킨은 집 뒤편의 커다란 감나무 아래에서 책을 읽으며 하루하루를 보냈어요.",
+        },
+      ],
+      [
+        {
+          id: "cat-7",
+          text: "One warm afternoon, when she was eight years old, she struck the ground with her small hand.",
+          translation: "여덟 살이 되던 어느 따뜻한 오후, 그녀는 작은 손으로 땅을 두드렸어요.",
+        },
+        {
+          id: "cat-8",
+          text: "\"Earth-spirit, earth-spirit,\" she called, half in play, \"come up and see me.\"",
+          translation:
+            "\"땅의 정령님, 땅의 정령님\" 하고 그녀는 반쯤 장난삼아 외쳤어요. \"올라오셔서 저를 만나 주세요.\"",
+        },
+        {
+          id: "cat-9",
+          text: "She never truly expected an answer.",
+          translation: "그녀는 사실 대답이 올 거라고는 기대하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "cat-10",
+          text: "But the air suddenly turned sweet, and a fine silver mist drifted down through the branches.",
+          translation: "그런데 갑자기 공기에서 달콤한 향이 감돌더니, 고운 은빛 안개가 나뭇가지 사이로 내려앉았어요.",
+        },
+        {
+          id: "cat-11",
+          text: "A jade chariot with golden wheels rolled out of the mist, pulled by four horses as white as milk.",
+          translation:
+            "금빛 바퀴가 달린 옥 마차가 안개 속에서 굴러 나왔는데, 우유처럼 하얀 말 네 마리가 그것을 끌고 있었어요.",
+        },
+        {
+          id: "cat-12",
+          text: "Inside sat the Western Heavenly Queen Mother, and behind her stood a thousand attendants in robes of amber, silver, and gold.",
+          translation:
+            "그 안에는 서쪽 하늘의 서왕모님이 앉아 계셨고, 그 뒤로는 호박과 은과 금으로 장식한 옷을 입은 수많은 시종들이 서 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "cat-13",
+          text: "Cat-kin stared, too amazed to be afraid.",
+          translation: "캣킨은 너무 놀라서 무서워할 겨를도 없이 그저 바라보기만 했어요.",
+        },
+        {
+          id: "cat-14",
+          text: "\"Do not be afraid, child,\" said the Queen Mother softly. \"Come with me, and live in my palace among the clouds.\"",
+          translation:
+            "\"두려워하지 말아라\" 하고 서왕모님이 부드럽게 말했어요. \"나와 함께 가서 구름 속 내 궁전에서 살자꾸나.\"",
+        },
+        {
+          id: "cat-15",
+          text: "Cat-kin thought of every fairy tale she had ever loved, and without a moment's doubt, she climbed into the jade chariot.",
+          translation:
+            "캣킨은 자신이 사랑했던 모든 옛이야기들을 떠올리며, 한 치의 망설임도 없이 옥 마차에 올라탔어요.",
+        },
+      ],
+      [
+        {
+          id: "cat-16",
+          text: "The mist rose around them, the chariot lifted from the ground, and in a breath, Cat-kin and the Queen Mother were gone.",
+          translation:
+            "안개가 그들 주위로 피어오르고 마차가 땅에서 떠오르더니, 순식간에 캣킨과 서왕모님은 사라지고 없었어요.",
+        },
+        {
+          id: "cat-17",
+          text: "Even today, the grandmothers of Nai-po say that on the clearest nights, a small new star shines beside the moon — and that it is Cat-kin, still listening to fairy tales in the Queen Mother's heavenly palace.",
+          translation:
+            "지금도 나이포의 할머니들은, 가장 맑은 밤이면 달 옆에 작은 별 하나가 새로 반짝인다고 말해요. 그것이 바로 지금도 서왕모님의 궁전에서 옛이야기를 듣고 있는 캣킨이라고요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cat-v1",
+        term: "chariot",
+        partOfSpeech: "noun",
+        translation: "마차, 수레",
+        example: "A jade chariot with golden wheels rolled out of the mist.",
+        exampleTranslation: "금빛 바퀴가 달린 옥 마차가 안개 속에서 굴러 나왔어요.",
+      },
+      {
+        id: "cat-v2",
+        term: "mist",
+        partOfSpeech: "noun",
+        translation: "안개",
+        example: "A fine silver mist drifted down through the branches.",
+        exampleTranslation: "고운 은빛 안개가 나뭇가지 사이로 내려앉았어요.",
+      },
+      {
+        id: "cat-v3",
+        term: "attendant",
+        partOfSpeech: "noun",
+        translation: "시종, 수행원",
+        example: "Behind her stood a thousand attendants in robes of amber, silver, and gold.",
+        exampleTranslation: "그 뒤로는 호박과 은과 금으로 장식한 옷을 입은 수많은 시종들이 서 있었어요.",
+      },
+      {
+        id: "cat-v4",
+        term: "amazed",
+        partOfSpeech: "adjective",
+        translation: "놀란",
+        example: "Cat-kin stared, too amazed to be afraid.",
+        exampleTranslation: "캣킨은 너무 놀라서 무서워할 겨를도 없이 그저 바라보기만 했어요.",
+      },
+      {
+        id: "cat-v5",
+        term: "palace",
+        partOfSpeech: "noun",
+        translation: "궁전",
+        example: "Come with me, and live in my palace among the clouds.",
+        exampleTranslation: "나와 함께 가서 구름 속 내 궁전에서 살자꾸나.",
+      },
+    ],
+    questions: [
+      {
+        id: "cat-q1",
+        prompt: "Why was the girl named 'Cat-kin'?",
+        options: [
+          "Because she loved playing with cats.",
+          "Because her father brought home a soft pussy-willow branch on the day she was born.",
+          "Because she was born in a forest of willow trees.",
+          "Because a fortune teller chose the name for her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the day Cat-kin was born, her father Pak came home carrying a pussy-willow branch with buds as soft as a cat's ear, so her parents named her after it.",
+      },
+      {
+        id: "cat-q2",
+        prompt: "What did Cat-kin do beneath the persimmon tree that brought the Queen Mother to her?",
+        options: [
+          "She planted seeds and waited for them to grow.",
+          "She struck the ground and called out to the earth-spirit.",
+          "She fell asleep and had a long dream.",
+          "She cried loudly for her parents.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Sitting under the persimmon tree, eight-year-old Cat-kin struck the ground with her hand and called out to the earth-spirit, half in play — and the Queen Mother's chariot appeared.",
+      },
+      {
+        id: "cat-q3",
+        prompt: "What happened at the end of the story?",
+        options: [
+          "Cat-kin refused the Queen Mother's offer and stayed home.",
+          "Cat-kin climbed into the jade chariot and went to live in the Queen Mother's palace.",
+          "A tiger chased Cat-kin away from the mountain.",
+          "The Queen Mother turned out to be only a dream.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Without hesitation, Cat-kin climbed into the jade chariot and vanished into the clouds with the Queen Mother — and villagers still say a new star shines beside the moon in her memory.",
+      },
+    ],
+  },
+  {
+    slug: "elizabeth-and-her-german-garden",
+    title: "Elizabeth and Her German Garden",
+    titleTranslation: "엘리자베스와 그녀의 독일 정원",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Elizabeth von Arnim (1866–1941)",
+    coverEmoji: "🌸",
+    coverImage: "/covers/elizabeth-and-her-german-garden.svg",
+    source:
+      "Adapted from the opening entry of Elizabeth von Arnim's semi-autobiographical novel \"Elizabeth and Her German Garden\" (first published 1898, Project Gutenberg #1327), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the garden and house Elizabeth found, and how her husband reacted when he finally visited it.",
+    paragraphs: [
+      [
+        {
+          id: "egg-1",
+          text: "Elizabeth begins this book on a quiet May afternoon, sitting outdoors with pen and paper in the one place she loves best: her own garden.",
+          translation:
+            "엘리자베스는 어느 고요한 5월 오후, 자신이 가장 사랑하는 단 한 곳, 바로 자신의 정원에 앉아 펜과 종이를 들고 이 책을 쓰기 시작해요.",
+        },
+        {
+          id: "egg-2",
+          text: "The garden had been wild and neglected for twenty-five years before she found it, lost on a flat, lonely plain in Germany, surrounded by cornfields, meadows, and dark pine forest.",
+          translation:
+            "그 정원은 그녀가 발견하기 전까지 이십오 년 동안 버려진 채 황무지로 남아 있던 곳으로, 옥수수밭과 초원, 그리고 어두운 소나무 숲에 둘러싸인 독일의 외딴 평야에 자리하고 있었어요.",
+        },
+        {
+          id: "egg-3",
+          text: "Her gray stone house stood among bird-cherry trees, and it still had an old vaulted chapel that had once been part of a convent, long before the wars of the seventeenth century.",
+          translation:
+            "회색 돌로 지어진 그녀의 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "egg-4",
+          text: "From the western windows, nothing blocked the view — only open plain reaching all the way to a distant forest, where the sun went down each evening in a blaze of color.",
+          translation:
+            "서쪽으로 난 창문 앞에는 아무것도 시야를 가리는 것이 없었고, 탁 트인 평야가 저 멀리 숲까지 펼쳐져 있었으며, 그곳에서는 매일 저녁 해가 눈부신 빛깔로 저물었어요.",
+        },
+        {
+          id: "egg-5",
+          text: "Elizabeth believed that view alone was worth more than anything else the house could offer.",
+          translation: "엘리자베스는 그 풍경 하나만으로도 이 집이 줄 수 있는 그 무엇보다 값지다고 믿었어요.",
+        },
+        {
+          id: "egg-6",
+          text: "She was far happier outside among plants and birds than indoors among servants and furniture, and she made no secret of it.",
+          translation:
+            "그녀는 하인들과 가구로 둘러싸인 실내보다 식물과 새들이 있는 바깥에서 훨씬 더 행복했고, 그 사실을 조금도 숨기지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "egg-7",
+          text: "She admitted, almost proudly, that she would abandon any duty at all for an hour with a book of poetry beneath the trees.",
+          translation:
+            "그녀는 나무 아래에서 시집 한 권을 읽는 한 시간을 위해서라면 어떤 의무든 저버릴 수 있다고, 거의 자랑스럽게 인정했어요.",
+        },
+        {
+          id: "egg-8",
+          text: "The respectable ladies of the German countryside thought this very strange indeed, since a proper lady, in their opinion, ought to be sewing or managing her kitchen, not reading alone in a garden.",
+          translation:
+            "독일 시골의 점잖은 부인들은 이런 그녀를 무척 이상하게 여겼는데, 그들의 생각으로는 제대로 된 숙녀란 바느질을 하거나 부엌을 돌보아야지, 정원에 홀로 앉아 책을 읽어서는 안 되었기 때문이에요.",
+        },
+        {
+          id: "egg-9",
+          text: "Elizabeth did not care in the least what they thought of her.",
+          translation: "하지만 엘리자베스는 그들이 자신을 어떻게 생각하든 조금도 신경 쓰지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "egg-10",
+          text: "For years, her husband — whom she called, half fondly, \"the Man of Wrath\" — refused to see the charm of the old country house and kept the family living in town instead.",
+          translation:
+            "그녀가 반쯤은 다정하게 진노의 남자라고 부르던 남편은, 여러 해 동안 이 오래된 시골집의 매력을 알아보지 못하고 가족을 계속 도시에서 살게 했어요.",
+        },
+        {
+          id: "egg-11",
+          text: "Only after five years did he finally agree to visit, just as Elizabeth was pulling the garden back from its wild neglect with her own hands.",
+          translation:
+            "오 년이 지나서야 그는 마침내 방문하기로 했는데, 마침 엘리자베스가 두 손으로 직접 정원을 오랜 방치에서 되살려 내고 있던 때였어요.",
+        },
+        {
+          id: "egg-12",
+          text: "She had hoped he would fall in love with it exactly as she had.",
+          translation: "그녀는 남편도 자신처럼 이 정원과 사랑에 빠지기를 바랐어요.",
+        },
+      ],
+      [
+        {
+          id: "egg-13",
+          text: "Instead, he called her whole passion for the garden pure selfishness, and remarked only that the lilacs badly needed pruning.",
+          translation:
+            "그런데 그는 정원을 향한 그녀의 그 모든 열정을 그저 순전한 이기심이라고 부르며, 라일락 가지치기가 시급하다는 말만 했어요.",
+        },
+        {
+          id: "egg-14",
+          text: "Elizabeth was quietly disappointed, but it did not shake her devotion to the place even a little.",
+          translation: "엘리자베스는 조용히 실망했지만, 그 일로 이 장소를 향한 애정이 조금도 흔들리지는 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "egg-15",
+          text: "She loved the owls that seemed to talk to one another above her head at dusk, the bird-cherry trees wreathed all over in white blossom, and the great clouds of lilac that made the garden look dressed for a wedding.",
+          translation:
+            "그녀는 해질 무렵 머리 위에서 서로 이야기를 나누는 듯한 부엉이들과, 하얀 꽃으로 온통 뒤덮인 야생 벚나무들, 그리고 정원을 마치 결혼식장처럼 보이게 하는 커다란 라일락 무리를 사랑했어요.",
+        },
+        {
+          id: "egg-16",
+          text: "Deep in the pine forest nearby, she found a silence so complete it felt almost sacred.",
+          translation: "가까운 소나무 숲 깊은 곳에서, 그녀는 거의 신성하게 느껴질 만큼 완전한 고요함을 발견했어요.",
+        },
+        {
+          id: "egg-17",
+          text: "After years spent elsewhere feeling restless and out of place, Elizabeth had finally found what she called her own kingdom of heaven — a small green world where nothing from the outside could ever really disappoint her.",
+          translation:
+            "다른 곳에서 안절부절못하며 낯설게 느끼던 여러 해를 보낸 끝에, 엘리자베스는 마침내 자신만의 천국을 찾아냈다고 느꼈어요. 바깥세상의 그 무엇도 결코 그녀를 진짜로 실망시킬 수 없는, 작고 푸른 자신만의 세계였어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "egg-v1",
+        term: "neglected",
+        partOfSpeech: "adjective",
+        translation: "방치된, 돌보지 않은",
+        example:
+          "The garden had been wild and neglected for twenty-five years before she found it, lost on a flat, lonely plain in Germany, surrounded by cornfields, meadows, and dark pine forest.",
+        exampleTranslation:
+          "그 정원은 그녀가 발견하기 전까지 이십오 년 동안 버려진 채 황무지로 남아 있던 곳으로, 옥수수밭과 초원, 그리고 어두운 소나무 숲에 둘러싸인 독일의 외딴 평야에 자리하고 있었어요.",
+      },
+      {
+        id: "egg-v2",
+        term: "convent",
+        partOfSpeech: "noun",
+        translation: "수녀원",
+        example:
+          "Her gray stone house stood among bird-cherry trees, and it still had an old vaulted chapel that had once been part of a convent, long before the wars of the seventeenth century.",
+        exampleTranslation:
+          "회색 돌로 지어진 그녀의 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
+      },
+      {
+        id: "egg-v3",
+        term: "devotion",
+        partOfSpeech: "noun",
+        translation: "애정, 헌신",
+        example: "Elizabeth was quietly disappointed, but it did not shake her devotion to the place even a little.",
+        exampleTranslation: "엘리자베스는 조용히 실망했지만, 그 일로 이 장소를 향한 애정이 조금도 흔들리지는 않았어요.",
+      },
+      {
+        id: "egg-v4",
+        term: "selfishness",
+        partOfSpeech: "noun",
+        translation: "이기심",
+        example: "Instead, he called her whole passion for the garden pure selfishness, and remarked only that the lilacs badly needed pruning.",
+        exampleTranslation:
+          "그런데 그는 정원을 향한 그녀의 그 모든 열정을 그저 순전한 이기심이라고 부르며, 라일락 가지치기가 시급하다는 말만 했어요.",
+      },
+      {
+        id: "egg-v5",
+        term: "restless",
+        partOfSpeech: "adjective",
+        translation: "안절부절못하는, 불안정한",
+        example:
+          "After years spent elsewhere feeling restless and out of place, Elizabeth had finally found what she called her own kingdom of heaven — a small green world where nothing from the outside could ever really disappoint her.",
+        exampleTranslation:
+          "다른 곳에서 안절부절못하며 낯설게 느끼던 여러 해를 보낸 끝에, 엘리자베스는 마침내 자신만의 천국을 찾아냈다고 느꼈어요. 바깥세상의 그 무엇도 결코 그녀를 진짜로 실망시킬 수 없는, 작고 푸른 자신만의 세계였어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "egg-q1",
+        prompt: "What is true about the garden before Elizabeth found it?",
+        options: [
+          "It had been carefully tended by the previous owner for many years.",
+          "It had been wild and neglected for twenty-five years.",
+          "It was newly planted the year she arrived.",
+          "It belonged to a convent and had never been a private garden.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The garden had been left wild and neglected for twenty-five years before Elizabeth found it, on a remote German plain surrounded by cornfields, meadows, and pine forest.",
+      },
+      {
+        id: "egg-q2",
+        prompt: "How did the local ladies of the German countryside view Elizabeth's habits?",
+        options: [
+          "They admired her for being so devoted to poetry.",
+          "They thought it was very strange for a proper lady to read alone in a garden instead of sewing or managing her kitchen.",
+          "They were jealous of her beautiful house.",
+          "They asked her to teach them about gardening.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The respectable ladies of the countryside thought Elizabeth's love of reading alone in the garden was very strange, since in their view a proper lady should be sewing or managing her kitchen instead — but Elizabeth did not care what they thought.",
+      },
+      {
+        id: "egg-q3",
+        prompt: "How did Elizabeth's husband react when he finally visited the garden?",
+        options: [
+          "He fell in love with it exactly as she had hoped.",
+          "He called her passion for it pure selfishness and only remarked that the lilacs needed pruning.",
+          "He refused to enter the garden at all.",
+          "He suggested they sell the house immediately.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Instead of sharing her love for the garden, Elizabeth's husband dismissed her devotion as pure selfishness and commented only that the lilacs needed pruning — a quiet disappointment that did not shake her attachment to the place.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

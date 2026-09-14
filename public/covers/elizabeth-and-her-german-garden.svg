@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Elizabeth and Her German Garden, by Elizabeth von Arnim">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 176)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="38" stroke-width="1.4" opacity="0.5"/>
+    <g stroke-width="1.5">
+      <path d="M0 -38 Q10 -22 0 -8 Q-10 -22 0 -38 Z" fill="#EBD3B8" fill-opacity="0.55"/>
+      <path d="M0 38 Q10 22 0 8 Q-10 22 0 38 Z" fill="#EBD3B8" fill-opacity="0.55"/>
+      <path d="M-38 0 Q-22 -10 -8 0 Q-22 10 -38 0 Z" fill="#EBD3B8" fill-opacity="0.55"/>
+      <path d="M38 0 Q22 -10 8 0 Q22 10 38 0 Z" fill="#EBD3B8" fill-opacity="0.55"/>
+      <path d="M27 -27 Q17 -13 3 -6 Q9 -20 27 -27 Z" fill="#EBD3B8" fill-opacity="0.4"/>
+      <path d="M-27 27 Q-17 13 -3 6 Q-9 20 -27 27 Z" fill="#EBD3B8" fill-opacity="0.4"/>
+      <path d="M-27 -27 Q-13 -17 -6 -3 Q-20 -9 -27 -27 Z" fill="#EBD3B8" fill-opacity="0.4"/>
+      <path d="M27 27 Q13 17 6 3 Q20 9 27 27 Z" fill="#EBD3B8" fill-opacity="0.4"/>
+    </g>
+    <circle r="5" fill="#A9663F" stroke="none"/>
+  </g>
+
+  <text x="200" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2C2C2C" letter-spacing="1">Elizabeth and Her</text>
+  <text x="200" y="328" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2C2C2C" letter-spacing="1">German Garden</text>
+
+  <line x1="150" y1="354" x2="250" y2="354" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="384" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">Lilacs, silence, and a kingdom of her own</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C57B57" letter-spacing="2.5">ELIZABETH VON ARNIM</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">FIRST PUBLISHED 1898</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
