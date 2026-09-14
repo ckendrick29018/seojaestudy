@@ -159,6 +159,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 96 | The Sneezing Colossus | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 14 sentences; a traditional Korean folktale — a lazy farmer named Kim is sent up the mountain by his wife to find food, climbs a giant stone Buddha statue to reach a ripe pear near its nose, and is launched into the air by a tremendous sneeze; no peril, no softening needed) — fourth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 | 97 | Cat-kin and the Queen Mother | William E. Griffis (1928) | 67180 | A2 | opening scene, whole (simplified retelling, 17 sentences; a traditional Korean folktale — a girl named for a pussy-willow catkin calls the earth-spirit beneath a persimmon tree and is invited into the sky by the Western Heavenly Queen Mother; the source text cuts off mid-scene, so the closing sentence — Cat-kin climbing into the jade chariot and villagers still seeing a new star by the moon — is an original conclusion in the same spirit) — fifth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 | 98 | Prince Sandalwood, the Father of Korea | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; Korea's own founding myth — a bear and a tiger both pray to become human, the tiger gives up after eleven days but the bear endures the full twenty-one eating only garlic in a dark cave, becomes a woman, marries the sky-prince Whanung, and their son Tan-gun is hailed by the people as the first king of Korea) — sixth Korean-*origin* lesson, `collection: "folktales"`; Ch. 4 of the Griffis book, well within the confirmed-reachable range | ☑ |
+| 100 | The Rabbit's Eyes | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean trickster tale — the Dragon King is choked by a fisherman's hook, his doctor turtle is sent to fetch a rabbit's eyes for the cure, and the clever rabbit talks his way back to shore by claiming his real eyes are precious crystal ones left safely at home) — seventh Korean-*origin* lesson, `collection: "folktales"`; Ch. 5 of the Griffis book, within the confirmed-reachable range | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -218,6 +219,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 73 | Sonnets from the Portuguese | Elizabeth Barrett Browning (1861) | — | B2 | Sonnet 43 — "How do I love thee" | ☐ |
 | 90 | The Great Gatsby | F. Scott Fitzgerald (1940) | 64317 | B2 | close of Ch. 1 — the dinner at the Buchanans', then Nick sees Gatsby reaching toward the green light across the bay (simplified retelling, 18 sentences) — built on direct reader demand; PD in the US since 2021 and in life+70 countries since 2011 | ☑ |
 | 99 | The Lifted Veil | George Eliot (1880) | 2165 | B2 | opening of Ch. 1 — Latimer's premonition of his own death, his visions of the future, and his involuntary insight into other people's thoughts (simplified retelling, 17 sentences) — the fresh B2 pick flagged in "Good next lessons to build" | ☑ |
+| 101 | Summer | Edith Wharton (1937) | 166 | B2 | Ch. 1 — Charity Royall, the bored village librarian of North Dormer, and the stranger (an architect) who walks in one June afternoon asking about old local houses (simplified retelling, 17 sentences) — a fourth Wharton pick; a rural New England village novel, a tonal companion to Ethan Frome and distinct from the two Old-New-York picks (Age of Innocence, House of Mirth) | ☑ |
 
 ---
 
@@ -227,10 +229,14 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (97 — 91 classics + 6 folktales):** Prince Sandalwood, the
+- **Live now (99 — 92 classics + 7 folktales):** The Rabbit's Eyes
+  (row 100, folktales — the Dragon King's fisherman's-hook cure and the
+  rabbit's crystal-eyes trick) and Summer (row 101, classics — Edith
+  Wharton's North Dormer library scene) are the newest additions. Before
+  that: Prince Sandalwood, the
   Father of Korea (row 98, folktales — Korea's own founding myth, Tan-gun)
-  and The Lifted Veil (row 99, a fresh B2 classics pick, George Eliot) are
-  the newest additions. Before that: Northanger Abbey Ch. 1
+  and The Lifted Veil (row 99, a fresh B2 classics pick, George Eliot).
+  Before that: Northanger Abbey Ch. 1
   (row 32), The Wild Swans (row 93), The Unmannerly Tiger (row 94,
   folktales), Tokgabi and the Kind Maid (row 95, folktales), The Sneezing
   Colossus (row 96, folktales), Cat-kin and the Queen Mother (row 97,
@@ -317,12 +323,13 @@ has a genuine period cover/illustration in the public domain, download that into
   Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
   Ch. 1 close, The Star Money, Northanger Abbey Ch. 1, The Wild Swans,
   Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha),
-  plus Elizabeth and Her German Garden (row 55, B1) and The Lifted Veil
-  (row 99, B2). Classics-shelf bands are now A1 ×18, A2 ×23, B1 ×27,
-  B2 ×23 — 91 live; add the folktales shelf (A1 ×2, A2 ×4 — A Bridegroom
-  for Miss Mole, The Unmannerly Tiger, Tokgabi and the Kind Maid, The
-  Sneezing Colossus, Cat-kin and the Queen Mother, Prince Sandalwood the
-  Father of Korea) for 97 lessons across both shelves. B1 and B2 are now
+  plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
+  (row 99, B2), and Summer (row 101, B2). Classics-shelf bands are now
+  A1 ×18, A2 ×23, B1 ×27, B2 ×24 — 92 live; add the folktales shelf
+  (A1 ×2, A2 ×5 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
+  Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
+  Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes) for
+  99 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -337,11 +344,14 @@ has a genuine period cover/illustration in the public domain, download that into
   Benjamin Bunny, Two Bad Mice — 4 of 18); every non-Potter A1 add since
   (Bremen Town Musicians, Sweet Porridge, The Golden Goose, Mother Holle,
   The Golden Key, The Star Money) was deliberate — keep it that way.
-- Good next lessons to build — three bands sit at ~23, A1 at 18; pick by fit:
-  - B2: **The Lifted Veil** (George Eliot) is now live — Latimer's opening
-    premonition of his own death. A further B2 needs another fresh pick
-    (a second Eliot scene, e.g. from *Scenes of Clerical Life*, or another
-    Wharton). Row 73 (Sonnet 43) is a poem, a different lesson shape.
+- Good next lessons to build — three bands sit at ~23-24, A1 at 18; pick by fit:
+  - B2: **The Lifted Veil** (George Eliot) and **Summer** (Edith Wharton,
+    her fourth pick — a rural New England companion to Ethan Frome) are
+    now live. A
+    further B2 needs another fresh pick (a second Eliot scene, e.g. from
+    *Scenes of Clerical Life*, or another Wharton novel — *The Custom of
+    the Country*, *The Reef*). Row 73 (Sonnet 43) is a poem, a different
+    lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, and **The Star Money** are now live. Next: another kind
     non-peril Grimm (**Mother Hulda / Frau Holle** is done; **The Golden
@@ -351,15 +361,16 @@ has a genuine period cover/illustration in the public domain, download that into
     story (**The Brief Début of Tildy**).
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (6 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (7 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
-    the Queen Mother, Prince Sandalwood the Father of Korea — plus Heungbu
+    the Queen Mother, Prince Sandalwood the Father of Korea, The Rabbit's
+    Eyes — plus Heungbu
     and Nolbu on the plain Library list below, tagged
     `collection: "folktales"` so it now also shows on the shelf): the
     Griffis collection's confirmed-reachable range (roughly chapters 1–13
     of 26 — see the fetch-depth caveat below) still has untapped chapters:
-    Ch. 3 "East Light and the Bridge of Fishes," Ch. 5 "The Rabbit's
-    Eyes," Ch. 6 "Topknots and Crockery Hats," Ch. 7 "Fancha and the
+    Ch. 3 "East Light and the Bridge of Fishes," Ch. 6 "Topknots and
+    Crockery Hats," Ch. 7 "Fancha and the
     Magpie," Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
     of the Flowers," and Ch. 12 "Tokgabi's Menagerie" are all still
     unbuilt and were confirmed in the book's table of contents (fetched
@@ -484,8 +495,15 @@ strong PD material in each:
   Bridegroom for Miss Mole, 10 Old White Whiskers and Mr. Bunny, 11 The
   King of the Flowers, 12 Tokgabi's Menagerie, 13 Cat-kin and the Queen
   Mother, 14 The Magic Peach, ... 24 The Voice of the Bell, ... 26 (last)
-  — so chapters 3, 5, 6, 7, 10, 11, and 12 are still unbuilt and,
-  being inside the same 1–13 range already used successfully six times,
+  — so chapters 3, 5, 6, 7, 10, 11, and 12 were still unbuilt at that
+  point. A seventh Griffis tale is now live: **row 100, The Rabbit's
+  Eyes** (A2, Ch. 5) — the Dragon King is choked by a fisherman's hook,
+  his doctor turtle is sent ashore to fetch a rabbit's eyes for the cure,
+  and the clever rabbit talks his way back to shore by claiming his real
+  eyes are precious crystal ones left safely at home on a shelf, escaping
+  the moment his feet touch the sand. So chapters 3, 6, 7, 10, 11, and 12
+  are still unbuilt and, being inside the same 1–13 range already used
+  successfully seven times,
   should be reachable for the next batch. Remaining non-Griffis
   Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi, Sim Cheong)
   still need a public-domain English source identified.

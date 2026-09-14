@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Rabbit's Eyes, a traditional Korean folktale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF2EE"/>
+      <stop offset="1" stop-color="#F6D9CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 175)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-16 -10 Q-30 -70 -14 -96 Q-4 -76 -6 -14" stroke-width="1.6" fill="#EBD3B8" fill-opacity="0.45"/>
+    <path d="M16 -10 Q30 -70 14 -96 Q4 -76 6 -14" stroke-width="1.6" fill="#EBD3B8" fill-opacity="0.45"/>
+    <circle r="34" stroke-width="1.6" fill="#EBD3B8" fill-opacity="0.5"/>
+    <circle cx="-11" cy="-4" r="2.6" fill="#A9663F" stroke="none"/>
+    <circle cx="11" cy="-4" r="2.6" fill="#A9663F" stroke="none"/>
+    <path d="M-6 10 Q0 14 6 10" stroke-width="1.3"/>
+    <path d="M-30 8 Q-14 4 -2 8" stroke-width="1" opacity="0.6"/>
+    <path d="M30 8 Q14 4 2 8" stroke-width="1" opacity="0.6"/>
+    <path d="M-72 66 Q-50 50 -28 66 Q-6 82 16 66 Q38 50 60 66 Q72 74 72 66" stroke-width="1.3" opacity="0.75"/>
+    <path d="M-64 86 Q-42 72 -20 86 Q2 100 24 86 Q46 72 66 86" stroke-width="1.1" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="298" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="1">The Rabbit's Eyes</text>
+
+  <line x1="150" y1="324" x2="250" y2="324" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="354" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">A clever trick beneath the waves</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#C57B57" letter-spacing="1.5">TRADITIONAL KOREAN FOLKTALE</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="1.5">RETOLD BY W. E. GRIFFIS &#183; 1911</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#C57B57" letter-spacing="3">SEOJAE STORY &#183; FOLKTALES</text>
+</svg>

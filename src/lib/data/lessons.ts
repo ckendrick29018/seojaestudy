@@ -1220,24 +1220,24 @@ export const lessons: Lesson[] = [
         {
           id: "ud-5",
           text: "His brothers and sisters pushed him away, the hens pecked him, and the girl who fed the birds pushed him aside with her foot.",
-          translation: "친형제자매들마저 그를 밀쳐 냈고, 암탉들은 그를 쪼아 댔으며, 모이를 주는 여자아이는 발로 그를 밀어냈어요.",
+          translation: "친형제자매들마저 그를 밀쳐 냈고, 암탉들은 쪼아 댔으며, 모이를 주는 여자아이는 발로 밀어냈어요.",
         },
         {
           id: "ud-6",
           text: "Everywhere he went the animals laughed at him, so one day he ran away from the farm.",
-          translation: "어디를 가든 동물들이 그를 비웃어서, 어느 날 그는 농장을 떠나 달아났어요.",
+          translation: "어디를 가든 동물들이 비웃어서, 어느 날 그는 농장을 떠나 달아났어요.",
         },
       ],
       [
         {
           id: "ud-7",
           text: "He hid among the reeds by a lake, but the wild birds there thought he was strange too.",
-          translation: "그는 호숫가 갈대밭에 숨었지만, 거기 사는 들새들도 그를 이상하게 여겼어요.",
+          translation: "호숫가 갈대밭에 숨었지만, 거기 사는 들새들도 그를 이상하게 여겼어요.",
         },
         {
           id: "ud-8",
           text: "Winter came, cold and lonely; the water froze, and he was often hungry.",
-          translation: "겨울이 왔고, 춥고 외로웠어요. 물은 얼어붙었고 그는 자주 굶주렸어요.",
+          translation: "겨울이 왔고, 춥고 외로웠어요. 물은 얼어붙었고 자주 굶주렸어요.",
         },
         {
           id: "ud-9",
@@ -1249,7 +1249,7 @@ export const lessons: Lesson[] = [
         {
           id: "ud-10",
           text: "He lived through the long winter as best he could, hiding in the marsh.",
-          translation: "그는 습지에 몸을 숨긴 채, 그 긴 겨울을 겨우겨우 견뎌 냈어요.",
+          translation: "습지에 몸을 숨긴 채, 그 긴 겨울을 겨우겨우 견뎌 냈어요.",
         },
         {
           id: "ud-11",
@@ -1266,17 +1266,17 @@ export const lessons: Lesson[] = [
         {
           id: "ud-13",
           text: "\"I will go to them, even if such splendid birds drive me away,\" he thought.",
-          translation: "\"저렇게 멋진 새들이 나를 쫓아낸다 해도, 나는 저들에게 가겠어.\" 그는 생각했어요.",
+          translation: "\"저렇게 멋진 새들이 나를 쫓아낸다 해도, 나는 저들에게 가겠어.\" 생각했어요.",
         },
         {
           id: "ud-14",
           text: "He bent his head low over the water — and in his reflection he saw not a grey bird, but a white swan.",
-          translation: "그가 물 위로 고개를 깊이 숙이자 — 물에 비친 모습은 잿빛 새가 아니라 새하얀 백조였어요.",
+          translation: "물 위로 고개를 깊이 숙이자 — 물에 비친 모습은 잿빛 새가 아니라 새하얀 백조였어요.",
         },
         {
           id: "ud-15",
           text: "The other swans swam around him and welcomed him as one of their own.",
-          translation: "다른 백조들이 그의 주위를 헤엄치며, 그를 자기들의 일원으로 반겨 주었어요.",
+          translation: "다른 백조들이 주위를 헤엄치며, 그를 자기들의 일원으로 반겨 주었어요.",
         },
       ],
       [
@@ -1299,7 +1299,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "(알이) 부화하다, 깨어나다",
         example: "She waited for her eggs to hatch.",
-        exampleTranslation: "그녀는 알이 깨어나기를 기다렸어요.",
+        exampleTranslation: "어미 오리는 알이 깨어나기를 기다렸어요.",
       },
       {
         id: "ud-v2",
@@ -1331,7 +1331,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "(물이나 거울에) 비친 모습",
         example: "He saw his reflection in the water.",
-        exampleTranslation: "그는 물에 비친 자기 모습을 보았어요.",
+        exampleTranslation: "그 새는 물에 비친 자기 모습을 보았어요.",
       },
     ],
     questions: [
@@ -1425,7 +1425,7 @@ export const lessons: Lesson[] = [
         {
           id: "cd-6",
           text: "Cinderella wanted to go too, but they only laughed at her.",
-          translation: "신데렐라도 가고 싶었지만, 언니들은 그녀를 비웃기만 했어요.",
+          translation: "신데렐라도 가고 싶었지만, 언니들은 비웃기만 했어요.",
         },
       ],
       [
@@ -1442,7 +1442,7 @@ export const lessons: Lesson[] = [
         {
           id: "cd-9",
           text: "In the beautiful clothes, Cinderella looked so lovely that no one knew her.",
-          translation: "아름다운 옷을 입은 신데렐라가 너무 고와서, 아무도 그녀를 알아보지 못했어요.",
+          translation: "아름다운 옷을 입은 신데렐라가 너무 고와서, 아무도 알아보지 못했어요.",
         },
       ],
       [
@@ -1459,7 +1459,7 @@ export const lessons: Lesson[] = [
         {
           id: "cd-12",
           text: "On the last night she ran so fast that she lost one golden shoe on the stairs.",
-          translation: "마지막 날 밤, 그녀는 너무 빨리 달리다가 금빛 구두 한 짝을 계단에 떨어뜨렸어요.",
+          translation: "마지막 날 밤, 너무 빨리 달리다가 금빛 구두 한 짝을 계단에 떨어뜨렸어요.",
         },
       ],
       [
@@ -1488,7 +1488,7 @@ export const lessons: Lesson[] = [
         {
           id: "cd-17",
           text: "The prince knew her at once, and took her home to be his bride.",
-          translation: "왕자님은 그녀를 곧바로 알아보았고, 신부로 맞이하려고 그녀를 데려갔어요.",
+          translation: "왕자님은 그녀를 곧바로 알아보았고, 신부로 맞이하려고 데려갔어요.",
         },
       ],
     ],
@@ -1499,7 +1499,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "새어머니, 계모",
         example: "She lived with her stepmother and stepsisters.",
-        exampleTranslation: "그녀는 새어머니, 의붓언니들과 함께 살았어요.",
+        exampleTranslation: "신데렐라는 새어머니, 의붓언니들과 함께 살았어요.",
       },
       {
         id: "cd-v2",
@@ -1507,7 +1507,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "재",
         example: "She slept near the warm ash of the fire.",
-        exampleTranslation: "그녀는 난롯불의 따뜻한 재 옆에서 잤어요.",
+        exampleTranslation: "신데렐라는 난롯불의 따뜻한 재 옆에서 잤어요.",
       },
       {
         id: "cd-v3",
@@ -1833,31 +1833,31 @@ export const lessons: Lesson[] = [
           id: "ppp-4",
           text: "He asked hurriedly after her health, sat down for a moment, then rose again and paced about the room in silence.",
           translation:
-            "그는 서둘러 그녀의 안부를 물은 뒤 잠시 앉았다가, 다시 일어나 말없이 방 안을 서성였어요.",
+            "서둘러 그녀의 안부를 물은 뒤 잠시 앉았다가, 다시 일어나 말없이 방 안을 서성였어요.",
         },
         {
           id: "ppp-5",
           text: "At last he came toward her and said, \"In vain I have struggled. It will not do. You must allow me to tell you how ardently I admire and love you.\"",
           translation:
-            "마침내 그는 그녀에게 다가와 말했어요. \"아무리 애를 써도 소용이 없습니다. 이대로는 안 되겠습니다. 제가 당신을 얼마나 뜨겁게 흠모하고 사랑하는지 말하게 해 주십시오.\"",
+            "마침내 그녀에게 다가와 말했어요. \"아무리 애를 써도 소용이 없습니다. 이대로는 안 되겠습니다. 제가 당신을 얼마나 뜨겁게 흠모하고 사랑하는지 말하게 해 주십시오.\"",
         },
       ],
       [
         {
           id: "ppp-6",
           text: "But he did not speak of love alone.",
-          translation: "하지만 그는 사랑만을 이야기하지는 않았어요.",
+          translation: "하지만 사랑만을 이야기하지는 않았어요.",
         },
         {
           id: "ppp-7",
           text: "He spoke just as plainly of her family's lower rank, of the disgrace such a marriage would bring him, and of how long his judgement had fought against his heart.",
           translation:
-            "그는 그녀 집안의 낮은 지위와, 그런 결혼이 자기에게 안겨 줄 수치와, 자신의 이성이 얼마나 오랫동안 마음에 맞서 싸워 왔는지를 그에 못지않게 솔직하게 늘어놓았어요.",
+            "그녀 집안의 낮은 지위와, 그런 결혼이 자기에게 안겨 줄 수치와, 자신의 이성이 얼마나 오랫동안 마음에 맞서 싸워 왔는지를 그에 못지않게 솔직하게 늘어놓았어요.",
         },
         {
           id: "ppp-8",
           text: "He seemed quite sure that she would accept him.",
-          translation: "그는 그녀가 자신의 청혼을 받아들이리라고 꽤 확신하는 듯했어요.",
+          translation: "그녀가 자신의 청혼을 받아들이리라고 꽤 확신하는 듯했어요.",
         },
       ],
       [
@@ -1871,7 +1871,7 @@ export const lessons: Lesson[] = [
           id: "ppp-10",
           text: "She said she was sorry to cause him pain, but that she had never sought his good opinion and could not accept his offer.",
           translation:
-            "그녀는 그에게 고통을 주게 되어 미안하지만, 자신은 한 번도 그의 호의를 바란 적이 없으며 그 청혼을 받아들일 수 없다고 말했어요.",
+            "그에게 고통을 주게 되어 미안하지만, 자신은 한 번도 그의 호의를 바란 적이 없으며 그 청혼을 받아들일 수 없다고 말했어요.",
         },
         {
           id: "ppp-11",
@@ -1891,7 +1891,7 @@ export const lessons: Lesson[] = [
           id: "ppp-13",
           text: "Then she named her true reasons: that he had destroyed her beloved sister's happiness by parting her from Mr. Bingley, and that he had treated Mr. Wickham with cruelty and injustice.",
           translation:
-            "그러고는 진짜 이유들을 하나하나 들었어요. 그가 사랑하는 언니를 빙리 씨와 갈라놓아 언니의 행복을 무너뜨렸고, 위컴 씨를 잔인하고 부당하게 대했다는 것이었어요.",
+            "그러고는 진짜 이유들을 하나하나 들었어요. 사랑하는 언니를 빙리 씨와 갈라놓아 언니의 행복을 무너뜨렸고, 위컴 씨를 잔인하고 부당하게 대했다는 것이었어요.",
         },
         {
           id: "ppp-14",
@@ -1911,13 +1911,13 @@ export const lessons: Lesson[] = [
           id: "ppp-16",
           text: "From almost the first moment she had known him, she said, his arrogance, his conceit, and his contempt for the feelings of others had made him the last man in the world she could ever be persuaded to marry.",
           translation:
-            "그를 알게 된 거의 첫 순간부터, 그의 거만함과 자만심, 그리고 남의 감정을 하찮게 여기는 태도 때문에, 그는 이 세상에서 그녀가 도저히 결혼할 마음이 들지 않는 마지막 남자가 되었다고 그녀는 말했어요.",
+            "그를 알게 된 거의 첫 순간부터, 거만함과 자만심, 남의 감정을 하찮게 여기는 태도 때문에, 이 세상에서 도저히 결혼할 마음이 들지 않는 마지막 남자가 되었다고 그녀는 말했어요.",
         },
         {
           id: "ppp-17",
           text: "\"You have said quite enough, madam,\" Darcy replied; he wished her health and happiness, and left the house — and Elizabeth sat down and cried for half an hour.",
           translation:
-            "\"충분히 말씀하셨습니다, 부인.\" 다아시가 대답했어요. 그는 그녀의 건강과 행복을 빈다는 말을 남기고 집을 나섰고, 엘리자베스는 주저앉아 삼십 분 동안 울었어요.",
+            "\"충분히 말씀하셨습니다, 부인.\" 다아시가 대답했어요. 그녀의 건강과 행복을 빈다는 말을 남기고 집을 나섰고, 엘리자베스는 주저앉아 삼십 분 동안 울었어요.",
         },
       ],
     ],
@@ -1944,7 +1944,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adverb",
         translation: "열렬히, 뜨겁게",
         example: "He told Elizabeth how ardently he admired and loved her.",
-        exampleTranslation: "그는 엘리자베스에게 자신이 그녀를 얼마나 열렬히 흠모하고 사랑하는지 말했어요.",
+        exampleTranslation: "다아시는 엘리자베스에게 자신이 그녀를 얼마나 열렬히 흠모하고 사랑하는지 말했어요.",
       },
       {
         id: "ppp-v4",
@@ -1960,7 +1960,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "자만심, 우쭐함",
         example: "His pride and conceit made Elizabeth dislike him from the start.",
-        exampleTranslation: "그의 자존심과 자만심 때문에 엘리자베스는 처음부터 그를 싫어했어요.",
+        exampleTranslation: "다아시의 자존심과 자만심 때문에 엘리자베스는 처음부터 그를 싫어했어요.",
       },
     ],
     questions: [
@@ -2465,7 +2465,7 @@ export const lessons: Lesson[] = [
           id: "nk-2",
           text: "She had always believed she deserved a life of luxury, and her plain flat, with its worn chairs and ugly curtains, made her unhappy every day.",
           translation:
-            "마틸드는 자신이 원래 호화로운 삶을 누릴 사람이라고 늘 믿었기에, 낡은 의자와 보기 흉한 커튼이 있는 초라한 집이 날마다 그녀를 우울하게 했어요.",
+            "마틸드는 자신이 원래 호화로운 삶을 누릴 사람이라고 늘 믿었기에, 낡은 의자와 보기 흉한 커튼이 있는 초라한 집이 날마다 우울하게 했어요.",
         },
         {
           id: "nk-3",
@@ -2491,7 +2491,7 @@ export const lessons: Lesson[] = [
           id: "nk-6",
           text: "Her husband gave her the four hundred francs he had been saving for a gun, and she bought a beautiful gown.",
           translation:
-            "남편은 사냥총을 사려고 모아 둔 400프랑을 마틸드에게 주었고, 그녀는 아름다운 드레스를 한 벌 샀어요.",
+            "남편은 사냥총을 사려고 모아 둔 400프랑을 마틸드에게 주었고, 아름다운 드레스를 한 벌 샀어요.",
         },
       ],
       [
@@ -2519,7 +2519,7 @@ export const lessons: Lesson[] = [
           id: "nk-10",
           text: "At the party Mathilde was the most beautiful woman in the room; everyone looked at her, and she danced all night, lost in joy.",
           translation:
-            "파티에서 마틸드는 그 자리에서 가장 아름다운 여자였어요. 모두가 그녀를 바라보았고, 그녀는 밤새 기쁨에 취해 춤을 췄어요.",
+            "파티에서 마틸드는 그 자리에서 가장 아름다운 여자였어요. 모두가 바라보았고, 밤새 기쁨에 취해 춤을 췄어요.",
         },
         {
           id: "nk-11",
@@ -2559,7 +2559,7 @@ export const lessons: Lesson[] = [
           id: "nk-16",
           text: "Mathilde learned to scrub floors, wash clothes, and argue over every coin; she grew old, hard, and strong, like any woman of a poor household.",
           translation:
-            "마틸드는 바닥을 닦고 빨래를 하고 한 푼을 두고도 흥정하는 법을 배웠어요. 그렇게 그녀는 가난한 집 여자들이 다 그렇듯 늙고 억세고 거칠어졌어요.",
+            "마틸드는 바닥을 닦고 빨래를 하고 한 푼을 두고도 흥정하는 법을 배웠어요. 그렇게 가난한 집 여자들이 다 그렇듯 늙고 억세고 거칠어졌어요.",
         },
         {
           id: "nk-17",
@@ -2584,7 +2584,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "사치, 호화로움",
         example: "She had always believed she deserved a life of luxury.",
-        exampleTranslation: "그녀는 자신이 호화로운 삶을 누릴 자격이 있다고 늘 믿었어요.",
+        exampleTranslation: "마틸드는 자신이 호화로운 삶을 누릴 자격이 있다고 늘 믿었어요.",
       },
       {
         id: "nk-v3",
@@ -2592,7 +2592,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "빌리다",
         example: "Her husband told her to borrow something from Madame Forestier.",
-        exampleTranslation: "남편은 그녀에게 포레스티에 부인에게서 뭔가 빌리라고 했어요.",
+        exampleTranslation: "남편은 마틸드에게 포레스티에 부인에게서 뭔가 빌리라고 했어요.",
       },
       {
         id: "nk-v4",
@@ -2600,7 +2600,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "대단히 멋진, 눈부신",
         example: "Among the jewels she found a magnificent necklace.",
-        exampleTranslation: "보석들 중에서 그녀는 눈부신 목걸이를 발견했어요.",
+        exampleTranslation: "보석들 중에서 마틸드는 눈부신 목걸이를 발견했어요.",
       },
       {
         id: "nk-v5",
@@ -2676,7 +2676,7 @@ export const lessons: Lesson[] = [
           id: "cc-1",
           text: "Jacob Marley had been dead for seven years, and Ebenezer Scrooge, his old business partner, was the only person who had come to his funeral.",
           translation:
-            "제이컵 말리가 죽은 지 7년이 되었고, 그의 옛 동업자인 에버니저 스크루지는 그의 장례식에 온 유일한 사람이었어요.",
+            "제이컵 말리가 죽은 지 7년이 되었고, 그의 옛 동업자인 에버니저 스크루지는 장례식에 온 유일한 사람이었어요.",
         },
         {
           id: "cc-2",
@@ -2688,7 +2688,7 @@ export const lessons: Lesson[] = [
           id: "cc-3",
           text: "On a bitter, foggy Christmas Eve he sat working in his counting-house, while his clerk copied letters in a freezing little room with only one lump of coal on the fire.",
           translation:
-            "몹시 춥고 안개 낀 어느 크리스마스이브에 그는 회계 사무실에서 일하고 있었고, 그의 서기는 난로에 석탄 한 덩이만 넣은 채 얼어붙을 듯 추운 작은 방에서 편지를 옮겨 적고 있었어요.",
+            "몹시 춥고 안개 낀 어느 크리스마스이브에 회계 사무실에서 일하고 있었고, 그의 서기는 난로에 석탄 한 덩이만 넣은 채 얼어붙을 듯 추운 작은 방에서 편지를 옮겨 적고 있었어요.",
         },
       ],
       [
@@ -2708,7 +2708,7 @@ export const lessons: Lesson[] = [
           id: "cc-6",
           text: "When the day's work was over, he grudgingly let his clerk have Christmas Day off with pay, and then walked home through the fog to the gloomy rooms that had once been Marley's.",
           translation:
-            "하루 일이 끝나자 그는 마지못해 서기에게 급여를 주면서 크리스마스 당일을 쉬게 해 주고는, 안개를 헤치고 예전에 말리가 살던 음침한 방으로 걸어갔어요.",
+            "하루 일이 끝나자 마지못해 서기에게 급여를 주면서 크리스마스 당일을 쉬게 해 주고는, 안개를 헤치고 예전에 말리가 살던 음침한 방으로 걸어갔어요.",
         },
       ],
       [
@@ -2742,13 +2742,13 @@ export const lessons: Lesson[] = [
           id: "cc-11",
           text: "Marley explained that in life he had never looked beyond his own money, and so now he could find no rest: he was forced to wander the world and watch the people he could no longer help.",
           translation:
-            "말리는 살아 있는 동안 자기 돈 너머를 한 번도 바라보지 않았기에 이제 안식을 얻지 못한다고 설명했어요. 그는 세상을 떠돌며, 이제는 도울 수 없는 사람들을 지켜봐야만 하는 신세였어요.",
+            "말리는 살아 있는 동안 자기 돈 너머를 한 번도 바라보지 않았기에 이제 안식을 얻지 못한다고 설명했어요. 세상을 떠돌며, 이제는 도울 수 없는 사람들을 지켜봐야만 하는 신세였어요.",
         },
         {
           id: "cc-12",
           text: "\"This chain I wear, I made myself in life,\" he said, \"link by link — and yours was already longer and heavier than mine seven Christmas Eves ago.\"",
           translation:
-            "\"내가 차고 있는 이 쇠사슬은 내가 살아서 직접 만든 거야,\" 그가 말했어요. \"한 고리 한 고리씩 말이지 — 그리고 네 것은 7년 전 크리스마스이브에 이미 내 것보다 더 길고 더 무거웠어.\"",
+            "\"내가 차고 있는 이 쇠사슬은 내가 살아서 직접 만든 거야,\" 말했어요. \"한 고리 한 고리씩 말이지 — 그리고 네 것은 7년 전 크리스마스이브에 이미 내 것보다 더 길고 더 무거웠어.\"",
         },
       ],
       [
@@ -2756,7 +2756,7 @@ export const lessons: Lesson[] = [
           id: "cc-13",
           text: "He had come, he said, to warn Scrooge that there was still a chance to choose a different path, and that he would be haunted by three spirits.",
           translation:
-            "그는 스크루지에게 아직 다른 길을 택할 기회가 남아 있다는 것을 경고하러 왔으며, 스크루지가 세 유령의 방문을 받게 될 거라고 말했어요.",
+            "스크루지에게 아직 다른 길을 택할 기회가 남아 있다는 것을 경고하러 왔으며, 스크루지가 세 유령의 방문을 받게 될 거라고 말했어요.",
         },
         {
           id: "cc-14",
@@ -2905,7 +2905,7 @@ export const lessons: Lesson[] = [
           id: "ld-3",
           text: "From a table outside a café he watched the fair-haired young woman walk past along the water, a white Pomeranian trotting after her.",
           translation:
-            "카페 밖 탁자에 앉아 그는 금발의 젊은 여인이 물가를 따라 지나가는 모습을 바라보았고, 하얀 포메라니안 한 마리가 그 뒤를 종종거리며 따라가고 있었어요.",
+            "카페 밖 탁자에 앉아 구로프는 금발의 젊은 여인이 물가를 따라 지나가는 모습을 바라보았고, 하얀 포메라니안 한 마리가 그 뒤를 종종거리며 따라가고 있었어요.",
         },
       ],
       [
@@ -2919,13 +2919,13 @@ export const lessons: Lesson[] = [
           id: "ld-5",
           text: "He had married young, and by now his wife seemed almost twice his age: a tall, serious woman who read a great deal and thought of herself as clever.",
           translation:
-            "그는 젊어서 결혼했고, 이제 그의 아내는 그보다 거의 두 배는 나이 들어 보였어요. 책을 많이 읽고 스스로 똑똑하다고 여기는, 키가 크고 진지한 여자였어요.",
+            "젊어서 결혼했고, 이제 아내는 그보다 거의 두 배는 나이 들어 보였어요. 책을 많이 읽고 스스로 똑똑하다고 여기는, 키가 크고 진지한 여자였어요.",
         },
         {
           id: "ld-6",
           text: "He privately thought her narrow and dull, was a little afraid of her, and did not like to be at home.",
           translation:
-            "그는 속으로 아내가 속이 좁고 따분하다고 생각했고, 그녀를 조금 두려워했으며, 집에 있는 것을 좋아하지 않았어요.",
+            "속으로 아내가 속이 좁고 따분하다고 생각했고, 조금 두려워했으며, 집에 있는 것을 좋아하지 않았어요.",
         },
       ],
       [
@@ -2933,19 +2933,19 @@ export const lessons: Lesson[] = [
           id: "ld-7",
           text: "He had been unfaithful to her for years, and often, and he had picked up the habit of speaking of women unkindly, calling them \"the lower race.\"",
           translation:
-            "그는 여러 해 동안, 그것도 자주 아내를 두고 바람을 피워 왔고, 여자들을 \"열등한 족속\"이라 부르며 함부로 말하는 버릇이 들어 있었어요.",
+            "여러 해 동안, 그것도 자주 아내를 두고 바람을 피워 왔고, 여자들을 \"열등한 족속\"이라 부르며 함부로 말하는 버릇이 들어 있었어요.",
         },
         {
           id: "ld-8",
           text: "And yet he could not get through two days without them; among men he was bored and stiff, but with women he felt free and knew exactly what to say.",
           translation:
-            "그러면서도 그는 여자들 없이는 이틀도 견디지 못했어요. 남자들 사이에서는 지루하고 서먹했지만, 여자들과 있으면 마음이 편했고 무슨 말을 해야 할지 정확히 알았어요.",
+            "그러면서도 여자들 없이는 이틀도 견디지 못했어요. 남자들 사이에서는 지루하고 서먹했지만, 여자들과 있으면 마음이 편했고 무슨 말을 해야 할지 정확히 알았어요.",
         },
         {
           id: "ld-9",
           text: "Something in his looks and his manner attracted women, and he knew it.",
           translation:
-            "그의 외모와 태도에는 여자들을 끌어당기는 무언가가 있었고, 그는 그것을 알고 있었어요.",
+            "외모와 태도에는 여자들을 끌어당기는 무언가가 있었고, 그것을 알고 있었어요.",
         },
       ],
       [
@@ -2953,19 +2953,19 @@ export const lessons: Lesson[] = [
           id: "ld-10",
           text: "One evening, while he was dining in the public gardens, the woman in the béret came over and sat down at the next table.",
           translation:
-            "어느 날 저녁, 그가 공원 식당에서 저녁을 먹고 있을 때, 베레모를 쓴 그 여인이 다가와 옆 탁자에 앉았어요.",
+            "어느 날 저녁, 구로프가 공원 식당에서 저녁을 먹고 있을 때, 베레모를 쓴 그 여인이 다가와 옆 탁자에 앉았어요.",
         },
         {
           id: "ld-11",
           text: "Her expression, her walk, and her dress all told him that she was married, that she was travelling alone, and that she was not enjoying herself.",
           translation:
-            "그녀의 표정과 걸음걸이, 옷차림 모두가 그에게 말해 주었어요. 그녀가 결혼했고, 혼자 여행 중이며, 조금도 즐거워하지 않는다는 것을요.",
+            "그녀의 표정과 걸음걸이, 옷차림 모두가 그에게 말해 주었어요. 결혼했고, 혼자 여행 중이며, 조금도 즐거워하지 않는다는 것을요.",
         },
         {
           id: "ld-12",
           text: "He beckoned to the little dog, and when it came near he wagged his finger at it; the dog growled, and the woman said quickly, \"He doesn't bite,\" and blushed.",
           translation:
-            "그가 작은 개를 손짓해 불렀고, 개가 가까이 오자 손가락을 흔들어 겁을 주었어요. 개가 으르렁대자 여인은 얼른 \"물지 않아요\"라고 말하고는 얼굴을 붉혔어요.",
+            "구로프가 작은 개를 손짓해 불렀고, 개가 가까이 오자 손가락을 흔들어 겁을 주었어요. 개가 으르렁대자 여인은 얼른 \"물지 않아요\"라고 말하고는 얼굴을 붉혔어요.",
         },
       ],
       [
@@ -2973,7 +2973,7 @@ export const lessons: Lesson[] = [
           id: "ld-13",
           text: "He asked whether he might give the dog a bone, and with that the two of them began to talk.",
           translation:
-            "그가 개에게 뼈다귀를 하나 줘도 되겠느냐고 물었고, 그 말로 두 사람은 이야기를 시작했어요.",
+            "개에게 뼈다귀를 하나 줘도 되겠느냐고 물었고, 그 말로 두 사람은 이야기를 시작했어요.",
         },
         {
           id: "ld-14",
@@ -2985,7 +2985,7 @@ export const lessons: Lesson[] = [
           id: "ld-15",
           text: "She spoke of her husband vaguely, half-laughing that she could not even say for certain where it was that he worked.",
           translation:
-            "그녀는 남편에 대해 어렴풋하게 이야기하며, 남편이 정확히 어디서 일하는지조차 확실히 말할 수 없다고 반쯤 웃으며 말했어요.",
+            "남편에 대해 어렴풋하게 이야기하며, 남편이 정확히 어디서 일하는지조차 확실히 말할 수 없다고 반쯤 웃으며 말했어요.",
         },
       ],
       [
@@ -2993,13 +2993,13 @@ export const lessons: Lesson[] = [
           id: "ld-16",
           text: "Later, alone in his room, he thought about her — how young she still seemed, how shy, how new to all of this — and he felt certain he would meet her again the next day.",
           translation:
-            "나중에 방에 혼자 있을 때 그는 그녀를 생각했어요. 그녀가 아직 얼마나 어려 보이는지, 얼마나 수줍어하는지, 이 모든 것에 얼마나 서툰지를요. 그리고 다음 날 그녀를 다시 만나게 되리라고 확신했어요.",
+            "나중에 방에 혼자 있을 때 구로프는 그녀를 생각했어요. 아직 얼마나 어려 보이는지, 얼마나 수줍어하는지, 이 모든 것에 얼마나 서툰지를요. 그리고 다음 날 다시 만나게 되리라고 확신했어요.",
         },
         {
           id: "ld-17",
           text: "\"There is something pathetic about her, all the same,\" he thought, and fell asleep.",
           translation:
-            "\"그래도 저 여자에게는 어딘가 가여운 데가 있어,\" 그는 그렇게 생각하며 잠이 들었어요.",
+            "\"그래도 저 여자에게는 어딘가 가여운 데가 있어,\" 그렇게 생각하며 잠이 들었어요.",
         },
       ],
     ],
@@ -3018,7 +3018,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "따분한, 재미없는",
         example: "He thought his wife was narrow and dull, and he avoided being at home.",
-        exampleTranslation: "그는 아내가 속이 좁고 따분하다고 생각했고, 집에 있는 것을 피했어요.",
+        exampleTranslation: "구로프는 아내가 속이 좁고 따분하다고 생각했고, 집에 있는 것을 피했어요.",
       },
       {
         id: "ld-v3",
@@ -3034,7 +3034,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "(마음을) 끌다, 끌어당기다",
         example: "Something in his manner attracted women, and he was well aware of it.",
-        exampleTranslation: "그의 태도에는 여자들을 끌어당기는 무언가가 있었고, 그는 그것을 잘 알고 있었어요.",
+        exampleTranslation: "구로프의 태도에는 여자들을 끌어당기는 무언가가 있었고, 그것을 잘 알고 있었어요.",
       },
       {
         id: "ld-v5",
@@ -3042,7 +3042,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "가여운, 애처로운",
         example: "Alone in his room, he decided there was something pathetic about her.",
-        exampleTranslation: "방에 혼자 있을 때, 그는 그녀에게 어딘가 가여운 데가 있다고 생각했어요.",
+        exampleTranslation: "방에 혼자 있을 때, 구로프는 그녀에게 어딘가 가여운 데가 있다고 생각했어요.",
       },
     ],
     questions: [
@@ -3548,7 +3548,7 @@ export const lessons: Lesson[] = [
         {
           id: "enc-2",
           text: "One day two men came to his city and said, \"We are weavers.\"",
-          translation: "어느 날 두 남자가 그의 도시에 와서 \"우리는 베 짜는 사람입니다.\"라고 말했어요.",
+          translation: "어느 날 두 남자가 황제의 도시에 와서 \"우리는 베 짜는 사람입니다.\"라고 말했어요.",
         },
         {
           id: "enc-3",
@@ -3567,7 +3567,7 @@ export const lessons: Lesson[] = [
         {
           id: "enc-5",
           text: "He gave the two men lots of gold, and they started to work.",
-          translation: "그는 두 남자에게 많은 금을 주었고, 그들은 일을 시작했어요.",
+          translation: "두 남자에게 많은 금을 주었고, 그들은 일을 시작했어요.",
         },
         {
           id: "enc-6",
@@ -3586,13 +3586,13 @@ export const lessons: Lesson[] = [
           id: "enc-8",
           text: "The old man stared at the empty loom and saw nothing. \"Am I stupid?\" he thought. \"Am I bad at my job?\"",
           translation:
-            "늙은 대신은 빈 베틀을 빤히 쳐다보았지만 아무것도 보이지 않았어요. \"내가 어리석은 걸까?\" 그가 생각했어요. \"내가 일을 잘 못하는 걸까?\"",
+            "늙은 대신은 빈 베틀을 빤히 쳐다보았지만 아무것도 보이지 않았어요. \"내가 어리석은 걸까?\" 생각했어요. \"내가 일을 잘 못하는 걸까?\"",
         },
         {
           id: "enc-9",
           text: "He was afraid to tell the truth, so he said, \"Oh, how beautiful! What lovely colours!\"",
           translation:
-            "그는 사실대로 말하기가 두려워서, \"오, 정말 아름답군요! 색깔이 참 곱네요!\"라고 말했어요.",
+            "사실대로 말하기가 두려워서, \"오, 정말 아름답군요! 색깔이 참 곱네요!\"라고 말했어요.",
         },
       ],
       [
@@ -3610,7 +3610,7 @@ export const lessons: Lesson[] = [
           id: "enc-12",
           text: "He looked and looked, but he saw nothing at all. \"I must not say so,\" he thought, and he said, \"Yes, it is very fine.\"",
           translation:
-            "그는 보고 또 보았지만 아무것도 보이지 않았어요. \"그렇게 말하면 안 되지.\" 그가 생각하고는 \"그래, 아주 훌륭하구나.\"라고 말했어요.",
+            "보고 또 보았지만 아무것도 보이지 않았어요. \"그렇게 말하면 안 되지.\" 생각하고는 \"그래, 아주 훌륭하구나.\"라고 말했어요.",
         },
       ],
       [
@@ -3641,7 +3641,7 @@ export const lessons: Lesson[] = [
           id: "enc-17",
           text: "Soon everyone was saying it, and the emperor knew it was true — but he lifted his head higher and walked on to the end.",
           translation:
-            "곧 모두가 그렇게 말했고, 황제도 그것이 사실임을 알았어요. 하지만 그는 고개를 더 높이 들고 끝까지 걸어갔어요.",
+            "곧 모두가 그렇게 말했고, 황제도 그것이 사실임을 알았어요. 하지만 고개를 더 높이 들고 끝까지 걸어갔어요.",
         },
       ],
     ],
@@ -3684,7 +3684,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "빤히 쳐다보다",
         example: "He could only stare at the empty wooden frame.",
-        exampleTranslation: "그는 그저 텅 빈 나무 틀을 빤히 쳐다볼 수밖에 없었어요.",
+        exampleTranslation: "대신은 그저 텅 빈 나무 틀을 빤히 쳐다볼 수밖에 없었어요.",
       },
     ],
     questions: [
@@ -4861,7 +4861,7 @@ export const lessons: Lesson[] = [
           id: "sns-6",
           text: "He left Norland to Henry, but only for his lifetime; after that it would pass straight to John and then to John's small son.",
           translation:
-            "그는 노랜드를 헨리에게 남겼지만, 그것은 헨리가 살아 있는 동안만이었어요. 그 뒤에는 곧바로 존에게, 그다음에는 존의 어린 아들에게 넘어가게 되어 있었지요.",
+            "노랜드를 헨리에게 남겼지만, 그것은 헨리가 살아 있는 동안만이었어요. 그 뒤에는 곧바로 존에게, 그다음에는 존의 어린 아들에게 넘어가게 되어 있었지요.",
         },
       ],
       [
@@ -4875,13 +4875,13 @@ export const lessons: Lesson[] = [
           id: "sns-8",
           text: "He received only ten thousand pounds of his own, and the rest of the fortune was tied up for his son and grandson.",
           translation:
-            "그가 자기 몫으로 받은 것은 겨우 1만 파운드였고, 나머지 재산은 모두 아들과 손자를 위해 묶여 있었어요.",
+            "자기 몫으로 받은 것은 겨우 1만 파운드였고, 나머지 재산은 모두 아들과 손자를 위해 묶여 있었어요.",
         },
         {
           id: "sns-9",
           text: "He hoped to live many more years and save money for his girls, but he fell ill and died just twelve months later.",
           translation:
-            "그는 앞으로 여러 해 더 살면서 딸들을 위해 돈을 모으기를 바랐지만, 병이 들어 겨우 열두 달 뒤에 세상을 떠났어요.",
+            "앞으로 여러 해 더 살면서 딸들을 위해 돈을 모으기를 바랐지만, 병이 들어 겨우 열두 달 뒤에 세상을 떠났어요.",
         },
       ],
       [
@@ -4901,7 +4901,7 @@ export const lessons: Lesson[] = [
           id: "sns-12",
           text: "Still, he was moved by his father's words, and he promised to do everything he could to make the women comfortable.",
           translation:
-            "그래도 그는 아버지의 말에 마음이 움직여, 그 여인들이 편안히 지내도록 할 수 있는 모든 일을 하겠다고 약속했어요.",
+            "그래도 아버지의 말에 마음이 움직여, 그 여인들이 편안히 지내도록 할 수 있는 모든 일을 하겠다고 약속했어요.",
         },
       ],
       [
@@ -4915,13 +4915,13 @@ export const lessons: Lesson[] = [
           id: "sns-14",
           text: "He decided he might give his sisters a thousand pounds each — three thousand pounds in all.",
           translation:
-            "그는 누이들에게 각각 1천 파운드씩, 모두 합쳐 3천 파운드를 줄 수도 있겠다고 마음먹었어요.",
+            "누이들에게 각각 1천 파운드씩, 모두 합쳐 3천 파운드를 줄 수도 있겠다고 마음먹었어요.",
         },
         {
           id: "sns-15",
           text: "\"That would be generous and handsome,\" he told himself. \"It would be quite enough to make them easy, and I could spare it with very little trouble.\"",
           translation:
-            "\"그 정도면 후하고 훌륭하지.\" 그는 스스로에게 말했어요. \"그들이 넉넉히 지내기에 충분할 테고, 나야 별 어려움 없이 내줄 수 있으니까.\"",
+            "\"그 정도면 후하고 훌륭하지.\" 스스로에게 말했어요. \"그들이 넉넉히 지내기에 충분할 테고, 나야 별 어려움 없이 내줄 수 있으니까.\"",
         },
       ],
       [
@@ -4929,13 +4929,13 @@ export const lessons: Lesson[] = [
           id: "sns-16",
           text: "He turned the plan over in his mind all day, and felt pleased with his own kindness.",
           translation:
-            "그는 온종일 그 계획을 머릿속으로 이리저리 굴려 보며, 자신의 친절함에 흡족해했어요.",
+            "온종일 그 계획을 머릿속으로 이리저리 굴려 보며, 자신의 친절함에 흡족해했어요.",
         },
         {
           id: "sns-17",
           text: "He did not change his mind — not yet — and he did not once think how small three thousand pounds would seem beside all that he had gained.",
           translation:
-            "그는 마음을 바꾸지 않았어요. 아직은요. 그리고 자기가 얻은 그 모든 것에 비하면 3천 파운드가 얼마나 하찮아 보일지는 단 한 번도 생각하지 않았어요.",
+            "마음을 바꾸지 않았어요. 아직은요. 그리고 자기가 얻은 그 모든 것에 비하면 3천 파운드가 얼마나 하찮아 보일지는 단 한 번도 생각하지 않았어요.",
         },
       ],
     ],
@@ -5288,13 +5288,13 @@ export const lessons: Lesson[] = [
           id: "aoi-5",
           text: "She was May Welland, and that night Newland's engagement to her was to be quietly made known to their families.",
           translation:
-            "그 아가씨는 메이 웰런드였고, 그날 밤 뉴랜드와 그녀의 약혼이 양가 가족에게 조용히 알려질 예정이었어요.",
+            "그 아가씨는 메이 웰런드였고, 그날 밤 뉴랜드와 메이의 약혼이 양가 가족에게 조용히 알려질 예정이었어요.",
         },
         {
           id: "aoi-6",
           text: "He watched her with pride, glad that she was too innocent to follow the meaning of the opera.",
           translation:
-            "그는 뿌듯한 마음으로 그녀를 바라보며, 그녀가 그 오페라의 뜻을 알아듣기에는 너무 순진하다는 것을 다행으로 여겼어요.",
+            "뉴랜드는 뿌듯한 마음으로 그녀를 바라보며, 그 오페라의 뜻을 알아듣기에는 너무 순진하다는 것을 다행으로 여겼어요.",
         },
       ],
       [
@@ -5302,7 +5302,7 @@ export const lessons: Lesson[] = [
           id: "aoi-7",
           text: "Then he noticed a young woman he did not know, sitting a little behind May in the same box.",
           translation:
-            "그때 그는 같은 특별석에서 메이보다 조금 뒤에 앉아 있는, 알지 못하는 젊은 여인을 발견했어요.",
+            "그때 같은 특별석에서 메이보다 조금 뒤에 앉아 있는, 알지 못하는 젊은 여인을 발견했어요.",
         },
         {
           id: "aoi-8",
@@ -5328,7 +5328,7 @@ export const lessons: Lesson[] = [
           id: "aoi-11",
           text: "It was one thing for the family to take the Countess back, they said, and quite another to show her off in a public opera box.",
           translation:
-            "가족이 백작 부인을 다시 받아들이는 것과, 그녀를 사람들 앞의 오페라 특별석에 내보이는 것은 전혀 다른 문제라고 그들은 말했어요.",
+            "가족이 백작 부인을 다시 받아들이는 것과, 사람들 앞의 오페라 특별석에 내보이는 것은 전혀 다른 문제라고 그들은 말했어요.",
         },
         {
           id: "aoi-12",
@@ -5348,7 +5348,7 @@ export const lessons: Lesson[] = [
           id: "aoi-14",
           text: "Yet he also felt that a man's first duty was to stand by the family he was about to enter.",
           translation:
-            "하지만 그는 한편으로, 남자의 첫 번째 의무는 자신이 곧 들어갈 가족의 편에 서는 것이라고 느꼈어요.",
+            "하지만 한편으로, 남자의 첫 번째 의무는 자신이 곧 들어갈 가족의 편에 서는 것이라고 느꼈어요.",
         },
         {
           id: "aoi-15",
@@ -5362,13 +5362,13 @@ export const lessons: Lesson[] = [
           id: "aoi-16",
           text: "He rose, left his own box, and made his way around the crowded horseshoe of red and gold toward the Mingott box.",
           translation:
-            "그는 자리에서 일어나 자기 특별석을 나와, 붉은색과 금색으로 이어진 붐비는 말굽 모양 관람석을 돌아 밍곳 부인의 특별석 쪽으로 향했어요.",
+            "자리에서 일어나 자기 특별석을 나와, 붉은색과 금색으로 이어진 붐비는 말굽 모양 관람석을 돌아 밍곳 부인의 특별석 쪽으로 향했어요.",
         },
         {
           id: "aoi-17",
           text: "He would take his place at May's side that very evening, in front of all of New York.",
           translation:
-            "그는 바로 그날 저녁, 온 뉴욕이 지켜보는 앞에서 메이의 곁에 자리를 잡을 작정이었어요.",
+            "바로 그날 저녁, 온 뉴욕이 지켜보는 앞에서 메이의 곁에 자리를 잡을 작정이었어요.",
         },
       ],
     ],
@@ -5395,7 +5395,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "순진한, 세상 물정을 모르는",
         example: "He liked to think of May as too innocent to understand such things.",
-        exampleTranslation: "그는 메이가 그런 것들을 이해하기에는 너무 순진하다고 여기고 싶어 했어요.",
+        exampleTranslation: "뉴랜드는 메이가 그런 것들을 이해하기에는 너무 순진하다고 여기고 싶어 했어요.",
       },
       {
         id: "aoi-v4",
@@ -5944,7 +5944,7 @@ export const lessons: Lesson[] = [
           id: "mdm-6",
           text: "She was open and eager, with no vanity in her at all, and she was quite ready to be a martyr for a cause she believed in.",
           translation:
-            "그녀는 솔직하고 열정적이었으며 허영심이라고는 조금도 없었고, 자신이 믿는 대의를 위해서라면 기꺼이 희생을 자처할 각오가 되어 있었어요.",
+            "솔직하고 열정적이었으며 허영심이라고는 조금도 없었고, 자신이 믿는 대의를 위해서라면 기꺼이 희생을 자처할 각오가 되어 있었어요.",
         },
       ],
       [
@@ -5952,19 +5952,19 @@ export const lessons: Lesson[] = [
           id: "mdm-7",
           text: "Her ideas about marriage were as unusual as the rest of her.",
           translation:
-            "결혼에 대한 그녀의 생각도 그녀의 다른 면들만큼이나 별났어요.",
+            "결혼에 대한 그녀의 생각도 다른 면들만큼이나 별났어요.",
         },
         {
           id: "mdm-8",
           text: "She did not want a pleasant young husband who simply agreed with everything she said.",
           translation:
-            "그녀는 자기가 하는 말마다 그저 맞장구만 치는, 상냥한 젊은 남편은 원하지 않았어요.",
+            "자기가 하는 말마다 그저 맞장구만 치는, 상냥한 젊은 남편은 원하지 않았어요.",
         },
         {
           id: "mdm-9",
           text: "She dreamed instead of marrying a wise old scholar — a man who could be a kind of father to her, and teach her Greek and Hebrew if she asked.",
           translation:
-            "대신 그녀는 지혜로운 나이 든 학자와 결혼하는 꿈을 꾸었어요. 자신에게 아버지 같은 존재가 되어 주고, 부탁하면 그리스어와 히브리어도 가르쳐 줄 수 있는 남자 말이에요.",
+            "대신 지혜로운 나이 든 학자와 결혼하는 꿈을 꾸었어요. 자신에게 아버지 같은 존재가 되어 주고, 부탁하면 그리스어와 히브리어도 가르쳐 줄 수 있는 남자 말이에요.",
         },
       ],
       [
@@ -6012,7 +6012,7 @@ export const lessons: Lesson[] = [
           id: "mdm-16",
           text: "Celia thought him dull and rather ugly, and privately compared him to a dried-up scholar in a picture book.",
           translation:
-            "실리아는 그가 따분하고 다소 못생겼다고 생각했고, 속으로는 그를 그림책 속 바싹 마른 학자에 빗댔어요.",
+            "실리아는 그가 따분하고 다소 못생겼다고 생각했고, 속으로는 그림책 속 바싹 마른 학자에 빗댔어요.",
         },
         {
           id: "mdm-17",
@@ -6037,7 +6037,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "허영심, 자만심",
         example: "There was no vanity in her; she did not care whether people admired her looks.",
-        exampleTranslation: "그녀에게는 허영심이 없어서, 사람들이 자기 외모를 칭찬하든 말든 신경 쓰지 않았어요.",
+        exampleTranslation: "도러시아에게는 허영심이 없어서, 사람들이 자기 외모를 칭찬하든 말든 신경 쓰지 않았어요.",
       },
       {
         id: "mdm-v3",
@@ -6053,7 +6053,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "학자",
         example: "She dreamed of marrying an old scholar who could teach her ancient languages.",
-        exampleTranslation: "그녀는 고대 언어를 가르쳐 줄 수 있는 나이 든 학자와 결혼하는 꿈을 꾸었어요.",
+        exampleTranslation: "도러시아는 고대 언어를 가르쳐 줄 수 있는 나이 든 학자와 결혼하는 꿈을 꾸었어요.",
       },
       {
         id: "mdm-v5",
@@ -6358,7 +6358,7 @@ export const lessons: Lesson[] = [
           id: "emm-3",
           text: "The only real dangers in her happy life were that she was used to having her own way, and that she thought rather too well of herself.",
           translation:
-            "그녀의 행복한 삶에서 유일하게 위험한 점이라면, 늘 자기 뜻대로 하는 데 익숙하다는 것과, 자기 자신을 다소 지나치게 높이 평가한다는 것이었어요.",
+            "행복한 삶에서 유일하게 위험한 점이라면, 늘 자기 뜻대로 하는 데 익숙하다는 것과, 자기 자신을 다소 지나치게 높이 평가한다는 것이었어요.",
         },
       ],
       [
@@ -6386,19 +6386,19 @@ export const lessons: Lesson[] = [
           id: "emm-7",
           text: "Her father, Mr. Woodhouse, was a gentle, nervous old man who worried about draughts, damp, and rich food, and who hated any kind of change.",
           translation:
-            "그녀의 아버지 우드하우스 씨는 온화하지만 신경이 예민한 노인으로, 외풍과 습기와 기름진 음식을 걱정했고, 어떤 종류의 변화든 몹시 싫어했어요.",
+            "아버지 우드하우스 씨는 온화하지만 신경이 예민한 노인으로, 외풍과 습기와 기름진 음식을 걱정했고, 어떤 종류의 변화든 몹시 싫어했어요.",
         },
         {
           id: "emm-8",
           text: "All evening he sighed over \"poor Miss Taylor,\" as though she had met with some misfortune instead of a happy marriage.",
           translation:
-            "그는 저녁 내내 \"가엾은 테일러 양\" 하며 한숨을 쉬었는데, 마치 그녀가 행복한 결혼이 아니라 무슨 불행한 일을 당한 것처럼 굴었어요.",
+            "저녁 내내 \"가엾은 테일러 양\" 하며 한숨을 쉬었는데, 마치 그녀가 행복한 결혼이 아니라 무슨 불행한 일을 당한 것처럼 굴었어요.",
         },
         {
           id: "emm-9",
           text: "He wished she had never married at all, and could not be comforted that she now lived so near.",
           translation:
-            "그는 그녀가 아예 결혼하지 않았기를 바랐고, 이제 그녀가 그토록 가까이 산다는 말로도 위로가 되지 않았어요.",
+            "그녀가 아예 결혼하지 않았기를 바랐고, 이제 그토록 가까이 산다는 말로도 위로가 되지 않았어요.",
         },
       ],
       [
@@ -6412,7 +6412,7 @@ export const lessons: Lesson[] = [
           id: "emm-11",
           text: "He was almost the only person who ever told Emma of her faults, and he did it kindly but plainly.",
           translation:
-            "그는 에마에게 그녀의 결점을 말해 주는 거의 유일한 사람이었고, 다정하되 솔직하게 그렇게 했어요.",
+            "에마에게 결점을 말해 주는 거의 유일한 사람이었고, 다정하되 솔직하게 그렇게 했어요.",
         },
         {
           id: "emm-12",
@@ -7017,7 +7017,7 @@ export const lessons: Lesson[] = [
           id: "tlm-4",
           text: "She left him on the sand, where a girl from a nearby temple found him, so he never knew who had saved his life.",
           translation:
-            "그녀가 왕자를 모래밭에 남겨 두자 근처 신전의 한 소녀가 그를 발견했고, 그래서 왕자는 누가 자기 목숨을 구했는지 끝내 알지 못했어요.",
+            "왕자를 모래밭에 남겨 두자 근처 신전의 한 소녀가 그를 발견했고, 그래서 왕자는 누가 자기 목숨을 구했는지 끝내 알지 못했어요.",
         },
         {
           id: "tlm-5",
@@ -7049,7 +7049,7 @@ export const lessons: Lesson[] = [
           id: "tlm-9",
           text: "The price for the drink was the mermaid's voice, and the witch took it from her.",
           translation:
-            "그 물약의 값은 인어공주의 목소리였고, 마녀는 그것을 그녀에게서 가져갔어요.",
+            "그 물약의 값은 인어공주의 목소리였고, 마녀는 그것을 가져갔어요.",
         },
       ],
       [
@@ -7057,13 +7057,13 @@ export const lessons: Lesson[] = [
           id: "tlm-10",
           text: "On the prince's shore she drank the potion, and in the morning he found a lovely, silent girl and took her to his palace.",
           translation:
-            "왕자의 해안에서 그녀는 물약을 마셨고, 아침에 왕자는 아름답지만 말을 못 하는 소녀를 발견해 자기 궁전으로 데려갔어요.",
+            "왕자의 해안에서 인어공주는 물약을 마셨고, 아침에 왕자는 아름답지만 말을 못 하는 소녀를 발견해 자기 궁전으로 데려갔어요.",
         },
         {
           id: "tlm-11",
           text: "She danced for him, though each step gave her great pain, and he grew to love her as his dearest friend.",
           translation:
-            "그녀는 걸음마다 큰 고통이 따랐지만 왕자를 위해 춤을 추었고, 왕자는 그녀를 가장 아끼는 친구로 사랑하게 되었어요.",
+            "걸음마다 큰 고통이 따랐지만 왕자를 위해 춤을 추었고, 왕자는 그녀를 가장 아끼는 친구로 사랑하게 되었어요.",
         },
         {
           id: "tlm-12",
@@ -7088,7 +7088,7 @@ export const lessons: Lesson[] = [
         {
           id: "tlm-15",
           text: "As the sun came up, she let herself fall into the sea.",
-          translation: "해가 떠오를 때, 그녀는 스스로 바다로 몸을 던졌어요.",
+          translation: "해가 떠오를 때, 스스로 바다로 몸을 던졌어요.",
         },
       ],
       [
@@ -7096,7 +7096,7 @@ export const lessons: Lesson[] = [
           id: "tlm-16",
           text: "But instead of becoming foam, she felt herself lifted into the warm air among bright, kind spirits.",
           translation:
-            "하지만 물거품이 되는 대신, 그녀는 자신이 따뜻한 공기 속으로, 빛나고 다정한 정령들 사이로 들어 올려지는 것을 느꼈어요.",
+            "하지만 물거품이 되는 대신, 자신이 따뜻한 공기 속으로, 빛나고 다정한 정령들 사이로 들어 올려지는 것을 느꼈어요.",
         },
         {
           id: "tlm-17",
@@ -7129,7 +7129,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "물에 빠져 죽다, 익사하다",
         example: "She caught the prince before he could drown in the storm.",
-        exampleTranslation: "그녀는 왕자가 폭풍 속에서 익사하기 전에 그를 붙잡았어요.",
+        exampleTranslation: "인어공주는 왕자가 폭풍 속에서 익사하기 전에 그를 붙잡았어요.",
       },
       {
         id: "tlm-v4",
@@ -7137,7 +7137,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "물약, (마법의) 약",
         example: "The sea witch made a potion that turned her tail into legs.",
-        exampleTranslation: "바다 마녀는 그녀의 꼬리를 다리로 바꾸는 물약을 만들었어요.",
+        exampleTranslation: "바다 마녀는 인어공주의 꼬리를 다리로 바꾸는 물약을 만들었어요.",
       },
       {
         id: "tlm-v5",
@@ -7145,7 +7145,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "(파도의) 물거품, 거품",
         example: "If the prince married another, she would melt into sea foam.",
-        exampleTranslation: "왕자가 다른 사람과 결혼하면, 그녀는 바다 물거품이 되어 사라질 운명이었어요.",
+        exampleTranslation: "왕자가 다른 사람과 결혼하면, 인어공주는 바다 물거품이 되어 사라질 운명이었어요.",
       },
     ],
     questions: [
@@ -7667,19 +7667,19 @@ export const lessons: Lesson[] = [
           id: "awk-4",
           text: "He was a neat, correct man of forty, with a trimmed beard and a careful part in his hair, and he liked his days to run to a plan.",
           translation:
-            "그는 잘 다듬은 턱수염과 단정하게 가른 머리를 한, 마흔 살의 깔끔하고 반듯한 사람이었고, 하루하루가 계획대로 흘러가는 것을 좋아했어요.",
+            "잘 다듬은 턱수염과 단정하게 가른 머리를 한, 마흔 살의 깔끔하고 반듯한 사람이었고, 하루하루가 계획대로 흘러가는 것을 좋아했어요.",
         },
         {
           id: "awk-5",
           text: "From his porch he looked toward the beach and saw, under a white sunshade, his wife Edna coming back from a swim with a young man named Robert Lebrun.",
           translation:
-            "현관에서 해변 쪽을 바라보던 그는, 하얀 양산 아래로 아내 에드나가 로버트 르브룅이라는 젊은 남자와 함께 수영을 마치고 돌아오는 모습을 보았어요.",
+            "현관에서 해변 쪽을 바라보다가, 하얀 양산 아래로 아내 에드나가 로버트 르브룅이라는 젊은 남자와 함께 수영을 마치고 돌아오는 모습을 보았어요.",
         },
         {
           id: "awk-6",
           text: "He watched them without much interest, the way a man might glance at a costly thing that belonged to him.",
           translation:
-            "그는 별다른 관심 없이 두 사람을 바라보았는데, 마치 자기 소유의 값비싼 물건을 흘깃 보는 듯한 눈길이었어요.",
+            "별다른 관심 없이 두 사람을 바라보았는데, 마치 자기 소유의 값비싼 물건을 흘깃 보는 듯한 눈길이었어요.",
         },
       ],
       [
@@ -7713,7 +7713,7 @@ export const lessons: Lesson[] = [
           id: "awk-11",
           text: "He stood up, stretched, and said he was going over to Klein's hotel to play billiards.",
           translation:
-            "그는 자리에서 일어나 기지개를 켜고는, 클라인 호텔에 당구를 치러 가겠다고 말했어요.",
+            "자리에서 일어나 기지개를 켜고는, 클라인 호텔에 당구를 치러 가겠다고 말했어요.",
         },
         {
           id: "awk-12",
@@ -7727,7 +7727,7 @@ export const lessons: Lesson[] = [
           id: "awk-13",
           text: "After he had gone, the two little Pontellier boys stayed with their nurse under the oaks, and Edna and Robert settled on the porch steps.",
           translation:
-            "그가 떠난 뒤, 퐁텔리에 집안의 어린 두 아들은 떡갈나무 아래에서 보모와 함께 있었고, 에드나와 로버트는 현관 계단에 자리를 잡고 앉았어요.",
+            "레옹스가 떠난 뒤, 퐁텔리에 집안의 어린 두 아들은 떡갈나무 아래에서 보모와 함께 있었고, 에드나와 로버트는 현관 계단에 자리를 잡고 앉았어요.",
         },
         {
           id: "awk-14",
@@ -7739,7 +7739,7 @@ export const lessons: Lesson[] = [
           id: "awk-15",
           text: "Robert spoke of his plan to go to Mexico in the autumn to make his fortune, as he did most summers without ever going.",
           translation:
-            "로버트는 가을에 멕시코로 건너가 한몫 잡겠다는 계획을 이야기했는데, 그는 거의 매년 여름 그렇게 말하면서도 한 번도 간 적이 없었어요.",
+            "로버트는 가을에 멕시코로 건너가 한몫 잡겠다는 계획을 이야기했는데, 거의 매년 여름 그렇게 말하면서도 한 번도 간 적이 없었어요.",
         },
       ],
       [
@@ -7781,7 +7781,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "꾸짖다, 나무라다",
         example: "He scolded her lightly for letting herself get so sunburnt.",
-        exampleTranslation: "그는 그녀가 그렇게 심하게 볕에 탄 것을 두고 가볍게 나무랐어요.",
+        exampleTranslation: "레옹스는 에드나가 그렇게 심하게 볕에 탄 것을 두고 가볍게 나무랐어요.",
       },
       {
         id: "awk-v4",
@@ -7789,7 +7789,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "어깨를 으쓱하다",
         example: "He shrugged and said he did not know when he would be back.",
-        exampleTranslation: "그는 어깨를 으쓱하며 언제 돌아올지 모르겠다고 말했어요.",
+        exampleTranslation: "레옹스는 어깨를 으쓱하며 언제 돌아올지 모르겠다고 말했어요.",
       },
       {
         id: "awk-v5",
@@ -7871,13 +7871,13 @@ export const lessons: Lesson[] = [
           id: "hom-2",
           text: "She stood quite still in the middle of the hurrying crowd, and her bright, finished beauty made everyone around her look grey.",
           translation:
-            "그녀는 바삐 오가는 인파 한가운데 가만히 서 있었고, 그 환하고 완성된 아름다움 때문에 주위 사람들이 온통 잿빛으로 보였어요.",
+            "릴리는 바삐 오가는 인파 한가운데 가만히 서 있었고, 그 환하고 완성된 아름다움 때문에 주위 사람들이 온통 잿빛으로 보였어요.",
         },
         {
           id: "hom-3",
           text: "He had known her for years, and thought that at twenty-nine she was as lovely as ever, though perhaps a little tired underneath.",
           translation:
-            "그는 여러 해 전부터 그녀를 알고 지냈는데, 스물아홉이 된 그녀가 여전히 예전만큼 아름답다고 생각했어요. 다만 그 아래로 어딘가 조금 지친 기색이 있긴 했지요.",
+            "셀던은 여러 해 전부터 릴리를 알고 지냈는데, 스물아홉인 그녀가 여전히 예전만큼 아름답다고 생각했어요. 다만 그 아래로 어딘가 조금 지친 기색이 있긴 했지요.",
         },
       ],
       [
@@ -7891,13 +7891,13 @@ export const lessons: Lesson[] = [
           id: "hom-5",
           text: "She had missed her train to a country house party, and the next one would not leave for two long hours.",
           translation:
-            "그녀는 시골 저택 파티로 가는 기차를 놓쳤고, 다음 기차는 무려 두 시간이 지나야 떠날 참이었어요.",
+            "시골 저택 파티로 가는 기차를 놓쳤고, 다음 기차는 무려 두 시간이 지나야 떠날 참이었어요.",
         },
         {
           id: "hom-6",
           text: "She could not bear to sit in the dismal ladies' waiting room, she said, and did not know what to do with herself.",
           translation:
-            "그녀는 을씨년스러운 여성 대합실에 앉아 있는 것은 도저히 못 견디겠다고, 그렇다고 뭘 해야 할지도 모르겠다고 말했어요.",
+            "을씨년스러운 여성 대합실에 앉아 있는 것은 도저히 못 견디겠다고, 그렇다고 뭘 해야 할지도 모르겠다고 말했어요.",
         },
       ],
       [
@@ -7905,7 +7905,7 @@ export const lessons: Lesson[] = [
           id: "hom-7",
           text: "Selden's rooms were only a street away, and on an impulse he asked whether she would come and have a cup of tea.",
           translation:
-            "셀던의 거처는 겨우 한 블록 떨어진 곳이었고, 그는 충동적으로 그녀에게 차 한잔하러 오지 않겠느냐고 물었어요.",
+            "셀던의 거처는 겨우 한 블록 떨어진 곳이었고, 충동적으로 그녀에게 차 한잔하러 오지 않겠느냐고 물었어요.",
         },
         {
           id: "hom-8",
@@ -7917,7 +7917,7 @@ export const lessons: Lesson[] = [
           id: "hom-9",
           text: "Then she laughed. \"How delightful. One of the few pleasures of being poor is that now and then you may do something a little rash.\"",
           translation:
-            "그러더니 그녀는 웃었어요. \"정말 근사하네요. 가난한 것의 몇 안 되는 즐거움 중 하나는, 이따금 조금 경솔한 일을 해도 된다는 거예요.\"",
+            "그러더니 웃었어요. \"정말 근사하네요. 가난한 것의 몇 안 되는 즐거움 중 하나는, 이따금 조금 경솔한 일을 해도 된다는 거예요.\"",
         },
       ],
       [
@@ -7925,13 +7925,13 @@ export const lessons: Lesson[] = [
           id: "hom-10",
           text: "For Lily was poor, in her world's sense of the word, and she had been living for years on visits, invitations, and other people's houses.",
           translation:
-            "릴리는, 그녀가 속한 세계의 기준으로 보면 가난했고, 여러 해 동안 남의 집 방문과 초대에 기대어 살아왔어요.",
+            "릴리는, 속한 세계의 기준으로 보면 가난했고, 여러 해 동안 남의 집 방문과 초대에 기대어 살아왔어요.",
         },
         {
           id: "hom-11",
           text: "She was beautiful and clever and admired, but she had no money and no husband, and both were beginning to feel overdue.",
           translation:
-            "그녀는 아름답고 영리하고 뭇사람의 찬사를 받았지만, 돈도 남편도 없었고, 그 두 가지가 이제는 진작 있었어야 할 것처럼 느껴지기 시작했어요.",
+            "아름답고 영리하고 뭇사람의 찬사를 받았지만, 돈도 남편도 없었고, 그 두 가지가 이제는 진작 있었어야 할 것처럼 느껴지기 시작했어요.",
         },
         {
           id: "hom-12",
@@ -7965,7 +7965,7 @@ export const lessons: Lesson[] = [
           id: "hom-16",
           text: "\"So this is the Benedick,\" she said, reading the name above the door. \"I never knew where it was.\"",
           translation:
-            "\"여기가 베네딕이군요.\" 그녀가 문 위에 적힌 이름을 읽으며 말했어요. \"어디 있는 건물인지 여태 몰랐어요.\"",
+            "\"여기가 베네딕이군요.\" 문 위에 적힌 이름을 읽으며 말했어요. \"어디 있는 건물인지 여태 몰랐어요.\"",
         },
         {
           id: "hom-17",
@@ -8102,13 +8102,13 @@ export const lessons: Lesson[] = [
           id: "etf-4",
           text: "He was the most striking figure in the town, tall and powerfully built, but bent and stiff down one side, and lame in his right leg.",
           translation:
-            "그는 마을에서 가장 눈에 띄는 인물이었어요. 키가 크고 다부진 체격이었지만, 한쪽 옆구리가 굽고 뻣뻣했으며, 오른쪽 다리를 절었어요.",
+            "이선 프롬은 마을에서 가장 눈에 띄는 인물이었어요. 키가 크고 다부진 체격이었지만, 한쪽 옆구리가 굽고 뻣뻣했으며, 오른쪽 다리를 절었어요.",
         },
         {
           id: "etf-5",
           text: "A red scar ran across his forehead, and though people told me he was only fifty-two, he looked far older.",
           translation:
-            "붉은 흉터가 그의 이마를 가로질러 나 있었고, 사람들은 그가 겨우 쉰두 살이라고 했지만 훨씬 더 나이 들어 보였어요.",
+            "붉은 흉터가 이마를 가로질러 나 있었고, 사람들은 그가 겨우 쉰두 살이라고 했지만 훨씬 더 나이 들어 보였어요.",
         },
         {
           id: "etf-6",
@@ -8128,13 +8128,13 @@ export const lessons: Lesson[] = [
           id: "etf-8",
           text: "Little by little I gathered scraps of his story: a bad accident, a \"smash-up,\" twenty-four years ago had nearly killed him and left him lame.",
           translation:
-            "나는 조금씩 그의 이야기를 토막토막 주워 모았어요. 24년 전 큰 사고, 이른바 '대참사'가 그를 죽일 뻔했고 다리를 절게 만들었다는 것이었어요.",
+            "나는 조금씩 이야기를 토막토막 주워 모았어요. 24년 전 큰 사고, 이른바 '대참사'가 죽일 뻔했고 다리를 절게 만들었다는 것이었어요.",
         },
         {
           id: "etf-9",
           text: "His family had been a sickly, unlucky one, people said, and there had been a wife, but no one would tell me much more.",
           translation:
-            "사람들은 그의 집안이 병약하고 운이 없는 집안이었다고, 아내가 하나 있었다고 했지만, 그 이상은 아무도 말해 주려 하지 않았어요.",
+            "사람들은 집안이 병약하고 운이 없는 집안이었다고, 아내가 하나 있었다고 했지만, 그 이상은 아무도 말해 주려 하지 않았어요.",
         },
       ],
       [
@@ -8154,7 +8154,7 @@ export const lessons: Lesson[] = [
           id: "etf-12",
           text: "I lent him a book about science, and later he said, with a slow flush, that he had once been \"crazy about that kind of thing.\"",
           translation:
-            "내가 그에게 과학책 한 권을 빌려주었더니, 나중에 그는 얼굴을 서서히 붉히며 한때는 \"그런 것에 미쳐 있었다\"고 말했어요.",
+            "내가 과학책 한 권을 빌려주었더니, 나중에 얼굴을 서서히 붉히며 한때는 \"그런 것에 미쳐 있었다\"고 말했어요.",
         },
       ],
       [
@@ -8174,7 +8174,7 @@ export const lessons: Lesson[] = [
           id: "etf-15",
           text: "He would take me home instead, he said, to shelter for the night at the Frome farm.",
           translation:
-            "그는 대신 나를 자기 집으로 데려가, 프롬 농장에서 하룻밤 묵게 해 주겠다고 했어요.",
+            "대신 나를 자기 집으로 데려가, 프롬 농장에서 하룻밤 묵게 해 주겠다고 했어요.",
         },
       ],
       [
@@ -8188,7 +8188,7 @@ export const lessons: Lesson[] = [
           id: "etf-17",
           text: "That night, I felt, I had found the key to Ethan Frome, and began to put his story together.",
           translation:
-            "그날 밤, 나는 이선 프롬을 이해할 열쇠를 찾았다는 느낌이 들었고, 그의 이야기를 하나로 맞춰 나가기 시작했어요.",
+            "그날 밤, 나는 이선 프롬을 이해할 열쇠를 찾았다는 느낌이 들었고, 이야기를 하나로 맞춰 나가기 시작했어요.",
         },
       ],
     ],
@@ -8365,13 +8365,13 @@ export const lessons: Lesson[] = [
           id: "esm-11",
           text: "A wicked stepmother had put a curse on him: a Bear by day, a man by night, and one more year would have set him free.",
           translation:
-            "사악한 계모가 그에게 저주를 걸어 놓았던 거예요. 낮에는 곰, 밤에는 사람이었고, 딱 한 해만 더 버텼으면 저주에서 풀려날 수 있었어요.",
+            "사악한 계모가 저주를 걸어 놓았던 거예요. 낮에는 곰, 밤에는 사람이었고, 딱 한 해만 더 버텼으면 저주에서 풀려날 수 있었어요.",
         },
         {
           id: "esm-12",
           text: "Now he must go to her castle, which lay east of the sun and west of the moon, and marry a princess with a long, ugly nose.",
           translation:
-            "이제 그는 해님의 동쪽, 달님의 서쪽에 있는 계모의 성으로 가서, 길고 흉한 코를 가진 공주와 결혼해야만 했어요.",
+            "이제 해님의 동쪽, 달님의 서쪽에 있는 계모의 성으로 가서, 길고 흉한 코를 가진 공주와 결혼해야만 했어요.",
         },
       ],
       [
@@ -8416,7 +8416,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "간절히 바라다, 몹시 그리워하다",
         example: "Alone in the great castle, she longed to see her family again.",
-        exampleTranslation: "거대한 성에 혼자 있던 그녀는 가족을 다시 보고 싶어 몹시 그리워했어요.",
+        exampleTranslation: "거대한 성에 혼자 있던 소녀는 가족을 다시 보고 싶어 몹시 그리워했어요.",
       },
       {
         id: "esm-v2",
@@ -8448,7 +8448,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "계모, 새어머니",
         example: "It was his cruel stepmother who had bewitched him.",
-        exampleTranslation: "그에게 마법을 건 것은 잔인한 계모였어요.",
+        exampleTranslation: "왕자에게 마법을 건 것은 잔인한 계모였어요.",
       },
     ],
     questions: [
@@ -8759,13 +8759,13 @@ export const lessons: Lesson[] = [
           id: "bet-5",
           text: "For fifteen years he was to see no one, hear no voices, and read no news, though he could ask for books, wine, and a piano through a little window.",
           translation:
-            "15년 동안 그는 누구도 만나지 못하고, 사람 목소리도 듣지 못하며, 소식도 접할 수 없었어요. 다만 작은 창문을 통해 책과 포도주와 피아노는 청할 수 있었지요.",
+            "15년 동안 누구도 만나지 못하고, 사람 목소리도 듣지 못하며, 소식도 접할 수 없었어요. 다만 작은 창문을 통해 책과 포도주와 피아노는 청할 수 있었지요.",
         },
         {
           id: "bet-6",
           text: "If he left even five minutes early, he would lose the whole two million.",
           translation:
-            "만약 그가 단 5분이라도 일찍 나오면, 200만 전부를 잃게 되어 있었어요.",
+            "만약 단 5분이라도 일찍 나오면, 200만 전부를 잃게 되어 있었어요.",
         },
       ],
       [
@@ -8773,13 +8773,13 @@ export const lessons: Lesson[] = [
           id: "bet-7",
           text: "In the first years he played sad music and read light novels, and the watchmen sometimes heard him weeping.",
           translation:
-            "처음 몇 해 동안 그는 슬픈 음악을 연주하고 가벼운 소설을 읽었으며, 경비원들은 이따금 그가 우는 소리를 들었어요.",
+            "처음 몇 해 동안 변호사는 슬픈 음악을 연주하고 가벼운 소설을 읽었으며, 경비원들은 이따금 그가 우는 소리를 들었어요.",
         },
         {
           id: "bet-8",
           text: "Then he began to study in earnest — languages, history, and philosophy — and in a few years he read six hundred books.",
           translation:
-            "그러다 그는 본격적으로 공부하기 시작했어요. 여러 언어와 역사와 철학을요. 그리고 몇 년 만에 육백 권의 책을 읽었어요.",
+            "그러다 본격적으로 공부하기 시작했어요. 여러 언어와 역사와 철학을요. 그리고 몇 년 만에 육백 권의 책을 읽었어요.",
         },
         {
           id: "bet-9",
@@ -8799,13 +8799,13 @@ export const lessons: Lesson[] = [
           id: "bet-11",
           text: "He had gambled and lost, and paying the two million now would leave him ruined and disgraced.",
           translation:
-            "그는 도박을 하다 재산을 잃었고, 이제 와서 200만을 물어 주면 파산하고 망신까지 당할 처지였어요.",
+            "도박을 하다 재산을 잃었고, 이제 와서 200만을 물어 주면 파산하고 망신까지 당할 처지였어요.",
         },
         {
           id: "bet-12",
           text: "\"There is only one way out,\" he thought. \"The man must die tonight.\"",
           translation:
-            "\"빠져나갈 길은 하나뿐이야.\" 그는 생각했어요. \"저 사람이 오늘 밤 죽어야 해.\"",
+            "\"빠져나갈 길은 하나뿐이야.\" 생각했어요. \"저 사람이 오늘 밤 죽어야 해.\"",
         },
       ],
       [
@@ -8832,7 +8832,7 @@ export const lessons: Lesson[] = [
           id: "bet-16",
           text: "To prove his contempt, he wrote, he would leave the lodge five minutes early and give up all claim to the two million.",
           translation:
-            "그 경멸을 증명하기 위해, 자신은 별채를 5분 일찍 나가 200만에 대한 권리를 모두 포기하겠다고 그는 썼어요.",
+            "그 경멸을 증명하기 위해, 자신은 별채를 5분 일찍 나가 200만에 대한 권리를 모두 포기하겠다고 썼어요.",
         },
         {
           id: "bet-17",
@@ -8955,13 +8955,13 @@ export const lessons: Lesson[] = [
           id: "cpf-2",
           text: "There was something in its grey houses and dark pointed fir trees that caught at her heart, and she knew at once she would come back.",
           translation:
-            "잿빛 집들과 뾰족하고 검은 전나무들에는 그녀의 마음을 잡아끄는 무언가가 있었고, 그녀는 그 자리에서 다시 오리라는 것을 알았어요.",
+            "잿빛 집들과 뾰족하고 검은 전나무들에는 마음을 잡아끄는 무언가가 있었고, 화자는 그 자리에서 다시 오리라는 것을 알았어요.",
         },
         {
           id: "cpf-3",
           text: "Two or three summers later she returned, meaning to stay for a season and write.",
           translation:
-            "두세 해 여름이 지난 뒤 그녀는 한 철을 머물며 글을 쓸 작정으로 다시 돌아왔어요.",
+            "두세 해 여름이 지난 뒤 한 철을 머물며 글을 쓸 작정으로 다시 돌아왔어요.",
         },
       ],
       [
@@ -8969,7 +8969,7 @@ export const lessons: Lesson[] = [
           id: "cpf-4",
           text: "She took a room in the house of Mrs. Almira Todd, an elderly widow who lived at the edge of the village.",
           translation:
-            "그녀는 마을 어귀에 사는 나이 든 과부 알미라 토드 부인의 집에 방 하나를 얻었어요.",
+            "화자는 마을 어귀에 사는 나이 든 과부 알미라 토드 부인의 집에 방 하나를 얻었어요.",
         },
         {
           id: "cpf-5",
@@ -8981,7 +8981,7 @@ export const lessons: Lesson[] = [
           id: "cpf-6",
           text: "Her small front garden was so crowded with lovage, thyme, and pennyroyal that a visitor had to brush past their strong sweet smell to reach the door.",
           translation:
-            "그녀의 자그마한 앞뜰은 러비지와 타임과 페니로열로 어찌나 빽빽했던지, 찾아온 사람은 그 짙고 달큰한 냄새를 헤치고 지나야 문에 닿을 수 있었어요.",
+            "자그마한 앞뜰은 러비지와 타임과 페니로열로 어찌나 빽빽했던지, 찾아온 사람은 그 짙고 달큰한 냄새를 헤치고 지나야 문에 닿을 수 있었어요.",
         },
       ],
       [
@@ -9021,7 +9021,7 @@ export const lessons: Lesson[] = [
           id: "cpf-12",
           text: "Now and then she left the narrator to mind the shop and weigh out a packet of dried leaves for a customer.",
           translation:
-            "가끔 그녀는 화자에게 가게를 봐 달라고 맡기고는, 손님에게 줄 마른 잎 한 봉지를 달아 주게 했어요.",
+            "가끔 토드 부인은 화자에게 가게를 봐 달라고 맡기고는, 손님에게 줄 마른 잎 한 봉지를 달아 주게 했어요.",
         },
       ],
       [
@@ -9035,7 +9035,7 @@ export const lessons: Lesson[] = [
           id: "cpf-14",
           text: "On a hill above the village stood the empty summer schoolhouse, and she arranged to rent it as a quiet place to work by day.",
           translation:
-            "마을 위쪽 언덕에는 여름 방학으로 비어 있는 학교 건물이 있었고, 그녀는 낮에 조용히 일할 수 있도록 그곳을 빌리기로 했어요.",
+            "마을 위쪽 언덕에는 여름 방학으로 비어 있는 학교 건물이 있었고, 낮에 조용히 일할 수 있도록 그곳을 빌리기로 했어요.",
         },
         {
           id: "cpf-15",
@@ -9849,7 +9849,7 @@ export const lessons: Lesson[] = [
           id: "sil-6",
           text: "As he stood in the open doorway that night, one of these spells came over him, and he did not notice a small figure coming through the snow.",
           translation:
-            "그날 밤 열린 문간에 서 있을 때 그런 발작이 다시 찾아왔고, 그는 눈 속을 헤치고 다가오는 작은 형체를 알아채지 못했어요.",
+            "그날 밤 열린 문간에 서 있을 때 그런 발작이 다시 찾아왔고, 눈 속을 헤치고 다가오는 작은 형체를 알아채지 못했어요.",
         },
       ],
       [
@@ -9882,13 +9882,13 @@ export const lessons: Lesson[] = [
           id: "sil-11",
           text: "His heart leaped: he thought his lost money had been brought back to him.",
           translation:
-            "그의 가슴이 뛰었어요. 잃어버린 돈이 자기에게 되돌아온 줄로만 알았지요.",
+            "가슴이 뛰었어요. 잃어버린 돈이 자기에게 되돌아온 줄로만 알았지요.",
         },
         {
           id: "sil-12",
           text: "But when he bent down and put out his hand, his fingers touched not hard coins but soft, warm golden curls.",
           translation:
-            "그런데 몸을 숙여 손을 내밀자, 그의 손끝에 닿은 것은 딱딱한 동전이 아니라 부드럽고 따뜻한 금빛 곱슬머리였어요.",
+            "그런데 몸을 숙여 손을 내밀자, 손끝에 닿은 것은 딱딱한 동전이 아니라 부드럽고 따뜻한 금빛 곱슬머리였어요.",
         },
       ],
       [
@@ -9902,7 +9902,7 @@ export const lessons: Lesson[] = [
           id: "sil-14",
           text: "Something in Silas stirred — a memory of a baby sister he had carried in his arms long ago, in the town he had left.",
           translation:
-            "사일러스의 마음속에서 무언가가 일었어요. 오래전, 그가 떠나온 고향 마을에서 품에 안고 다니던 어린 여동생의 기억이었지요.",
+            "사일러스의 마음속에서 무언가가 일었어요. 오래전, 떠나온 고향 마을에서 품에 안고 다니던 어린 여동생의 기억이었지요.",
         },
         {
           id: "sil-15",
@@ -9922,7 +9922,7 @@ export const lessons: Lesson[] = [
           id: "sil-17",
           text: "He carried her to the great house to fetch help — and where his gold had shut him away from everyone, this child would slowly open his heart again.",
           translation:
-            "그는 도움을 청하러 아이를 안고 큰 저택으로 갔어요. 그리고 금이 그를 모든 사람으로부터 닫아걸었던 자리에서, 이 아이가 그의 마음을 다시 천천히 열어 가게 되지요.",
+            "도움을 청하러 아이를 안고 큰 저택으로 갔어요. 그리고 금이 그를 모든 사람으로부터 닫아걸었던 자리에서, 이 아이가 마음을 다시 천천히 열어 가게 되지요.",
         },
       ],
     ],
@@ -10045,7 +10045,7 @@ export const lessons: Lesson[] = [
           id: "blu-3",
           text: "She lay still in her hard, narrow bed and thought about her life, which seemed to her as dull and colourless as the sky outside.",
           translation:
-            "그녀는 딱딱하고 좁은 침대에 가만히 누워 자기 삶을 생각했는데, 그 삶은 바깥 하늘만큼이나 따분하고 빛깔 없어 보였어요.",
+            "딱딱하고 좁은 침대에 가만히 누워 자기 삶을 생각했는데, 그 삶은 바깥 하늘만큼이나 따분하고 빛깔 없어 보였어요.",
         },
       ],
       [
@@ -10053,13 +10053,13 @@ export const lessons: Lesson[] = [
           id: "blu-4",
           text: "She lived in a small, ugly house on Elm Street with her mother and an older cousin named Stickles, and neither of them had ever spoken to her with real warmth.",
           translation:
-            "그녀는 엘름가(街)의 작고 볼품없는 집에서 어머니, 그리고 스티클스라는 나이 많은 사촌과 함께 살았는데, 두 사람 다 그녀에게 진심 어린 다정함을 보인 적이 없었어요.",
+            "엘름가(街)의 작고 볼품없는 집에서 어머니, 그리고 스티클스라는 나이 많은 사촌과 함께 살았는데, 두 사람 다 그녀에게 진심 어린 다정함을 보인 적이 없었어요.",
         },
         {
           id: "blu-5",
           text: "Her family was a large, proud clan of aunts, uncles, and cousins, and to them a woman still unmarried at twenty-nine was a quiet embarrassment.",
           translation:
-            "그녀의 집안은 이모와 삼촌과 사촌들이 잔뜩 있는 크고 자존심 센 일가였고, 그들에게 스물아홉이 되도록 결혼하지 않은 여자는 조용한 골칫거리였어요.",
+            "집안은 이모와 삼촌과 사촌들이 잔뜩 있는 크고 자존심 센 일가였고, 그들에게 스물아홉이 되도록 결혼하지 않은 여자는 조용한 골칫거리였어요.",
         },
         {
           id: "blu-6",
@@ -10073,13 +10073,13 @@ export const lessons: Lesson[] = [
           id: "blu-7",
           text: "She had never been in love, and no young man had ever waited for her at the gate.",
           translation:
-            "그녀는 한 번도 사랑에 빠져 본 적이 없었고, 어떤 젊은 남자도 대문 앞에서 그녀를 기다린 적이 없었어요.",
+            "한 번도 사랑에 빠져 본 적이 없었고, 어떤 젊은 남자도 대문 앞에서 그녀를 기다린 적이 없었어요.",
         },
         {
           id: "blu-8",
           text: "In twenty-nine years she had never once done a thing simply because she wanted to.",
           translation:
-            "스물아홉 해를 사는 동안 그녀는 단지 하고 싶다는 이유만으로 무언가를 해 본 적이 한 번도 없었어요.",
+            "스물아홉 해를 사는 동안 단지 하고 싶다는 이유만으로 무언가를 해 본 적이 한 번도 없었어요.",
         },
         {
           id: "blu-9",
@@ -10098,32 +10098,32 @@ export const lessons: Lesson[] = [
           id: "blu-11",
           text: "In the Blue Castle she was beautiful and brave and loved, and nothing there ever frightened her.",
           translation:
-            "푸른 성에서 그녀는 아름답고 용감하고 사랑받았으며, 그곳에서는 무엇도 그녀를 무섭게 하지 않았어요.",
+            "푸른 성에서 아름답고 용감하고 사랑받았으며, 그곳에서는 무엇도 그녀를 무섭게 하지 않았어요.",
         },
         {
           id: "blu-12",
           text: "The second comfort was a shelf of nature books by a writer who called himself John Foster, which she borrowed from the library and read like poetry.",
           translation:
-            "두 번째 위안은 존 포스터라는 필명을 쓰는 작가의 자연 책들이 꽂힌 책꽂이였는데, 그녀는 그 책들을 도서관에서 빌려 시(詩)처럼 읽었어요.",
+            "두 번째 위안은 존 포스터라는 필명을 쓰는 작가의 자연 책들이 꽂힌 책꽂이였는데, 그 책들을 도서관에서 빌려 시(詩)처럼 읽었어요.",
         },
       ],
       [
         {
           id: "blu-13",
           text: "Her mother said the Foster books were a foolish waste of time.",
-          translation: "그녀의 어머니는 포스터의 책이 어리석은 시간 낭비라고 말했어요.",
+          translation: "밸런시의 어머니는 포스터의 책이 어리석은 시간 낭비라고 말했어요.",
         },
         {
           id: "blu-14",
           text: "That week Valancy was carrying a third secret, and this one frightened her.",
           translation:
-            "그 주에 밸런시는 세 번째 비밀을 품고 있었는데, 이 비밀은 그녀를 두렵게 했어요.",
+            "그 주에 밸런시는 세 번째 비밀을 품고 있었는데, 이 비밀은 두렵게 했어요.",
         },
         {
           id: "blu-15",
           text: "For months she had felt a strange pain near her heart, and she could not breathe easily when she climbed the stairs.",
           translation:
-            "몇 달 동안 그녀는 심장 근처에 이상한 통증을 느꼈고, 계단을 오르면 숨을 편히 쉴 수가 없었어요.",
+            "몇 달 동안 심장 근처에 이상한 통증을 느꼈고, 계단을 오르면 숨을 편히 쉴 수가 없었어요.",
         },
       ],
       [
@@ -10131,13 +10131,13 @@ export const lessons: Lesson[] = [
           id: "blu-16",
           text: "She had written quietly to a doctor in another town, Dr. Trent, because she could not bear for her family to find out that something might be wrong.",
           translation:
-            "그녀는 다른 마을의 트렌트 의사에게 조용히 편지를 썼는데, 어딘가 잘못되었을지도 모른다는 것을 가족이 알게 되는 일을 견딜 수 없었기 때문이에요.",
+            "다른 마을의 트렌트 의사에게 조용히 편지를 썼는데, 어딘가 잘못되었을지도 모른다는 것을 가족이 알게 되는 일을 견딜 수 없었기 때문이에요.",
         },
         {
           id: "blu-17",
           text: "Lying there listening to the rain on her birthday morning, she made a small, trembling decision: this year, somehow, her life was going to change.",
           translation:
-            "생일 아침에 빗소리를 들으며 누워서, 그녀는 작지만 떨리는 결심을 했어요. 올해는, 어떻게든, 자기 삶이 달라지고야 말겠다고요.",
+            "생일 아침에 빗소리를 들으며 누워서, 작지만 떨리는 결심을 했어요. 올해는, 어떻게든, 자기 삶이 달라지고야 말겠다고요.",
         },
       ],
     ],
@@ -10164,7 +10164,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "상상의, 가상의",
         example: "As a child she built an imaginary castle in her mind.",
-        exampleTranslation: "어릴 적 그녀는 마음속에 상상의 성을 지었어요.",
+        exampleTranslation: "어릴 적 밸런시는 마음속에 상상의 성을 지었어요.",
       },
       {
         id: "blu-v4",
@@ -10172,7 +10172,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "위안, 위로(가 되는 것)",
         example: "Her two secret comforts were the Blue Castle and the Foster books.",
-        exampleTranslation: "그녀의 두 가지 은밀한 위안은 푸른 성과 포스터의 책이었어요.",
+        exampleTranslation: "밸런시의 두 가지 은밀한 위안은 푸른 성과 포스터의 책이었어요.",
       },
       {
         id: "blu-v5",
@@ -10180,7 +10180,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "떨리는, 떨면서 하는",
         example: "She made a small, trembling decision to change her life.",
-        exampleTranslation: "그녀는 삶을 바꾸겠다는 작지만 떨리는 결심을 했어요.",
+        exampleTranslation: "밸런시는 삶을 바꾸겠다는 작지만 떨리는 결심을 했어요.",
       },
     ],
     questions: [
@@ -10268,7 +10268,7 @@ export const lessons: Lesson[] = [
           id: "dll-4",
           text: "She had swept rooms, wiped small faces, dressed nearly a hundred children in their stiff best clothes, and taught them to bow when a visitor spoke to them.",
           translation:
-            "그녀는 방을 쓸고, 작은 얼굴들을 닦아 주고, 백 명 가까운 아이들에게 빳빳한 나들이옷을 입히고, 방문객이 말을 걸면 고개 숙여 인사하도록 가르쳤어요.",
+            "방을 쓸고, 작은 얼굴들을 닦아 주고, 백 명 가까운 아이들에게 빳빳한 나들이옷을 입히고, 방문객이 말을 걸면 고개 숙여 인사하도록 가르쳤어요.",
         },
         {
           id: "dll-5",
@@ -10280,7 +10280,7 @@ export const lessons: Lesson[] = [
           id: "dll-6",
           text: "That afternoon, when the last visitor had finally gone, she leaned against a window, tired all the way through.",
           translation:
-            "그날 오후 마지막 방문객이 마침내 돌아가자, 그녀는 온몸이 지친 채 창가에 기대섰어요.",
+            "그날 오후 마지막 방문객이 마침내 돌아가자, 온몸이 지친 채 창가에 기대섰어요.",
         },
       ],
       [
@@ -10308,19 +10308,19 @@ export const lessons: Lesson[] = [
           id: "dll-10",
           text: "He believed she could become a writer, and he was willing to pay for her to go to college for four years.",
           translation:
-            "그는 그녀가 작가가 될 수 있다고 믿었고, 그녀를 4년 동안 대학에 보내는 비용을 대 주겠다고 했어요.",
+            "그는 그녀가 작가가 될 수 있다고 믿었고, 4년 동안 대학에 보내는 비용을 대 주겠다고 했어요.",
         },
         {
           id: "dll-11",
           text: "She would be given clothes, books, and a small amount of money to spend each month.",
           translation:
-            "그녀는 옷과 책, 그리고 다달이 쓸 얼마간의 돈을 받게 될 것이었어요.",
+            "옷과 책, 그리고 다달이 쓸 얼마간의 돈을 받게 될 것이었어요.",
         },
         {
           id: "dll-12",
           text: "There was only one thing she had to do in return: write him a letter once a month about her studies and her progress.",
           translation:
-            "그 대가로 그녀가 해야 할 일은 단 하나, 한 달에 한 번 자기 공부와 발전에 대해 그에게 편지를 쓰는 것이었어요.",
+            "그 대가로 해야 할 일은 단 하나, 한 달에 한 번 자기 공부와 발전에 대해 그에게 편지를 쓰는 것이었어요.",
         },
       ],
       [
@@ -10354,7 +10354,7 @@ export const lessons: Lesson[] = [
           id: "dll-17",
           text: "She was to send her letters to a \"Mr. John Smith\" through his secretary, and she would never be told his real name.",
           translation:
-            "그녀는 그의 비서를 통해 '존 스미스 씨'에게 편지를 보내야 했고, 그의 진짜 이름은 끝내 알 수 없을 것이었어요.",
+            "그의 비서를 통해 '존 스미스 씨'에게 편지를 보내야 했고, 진짜 이름은 끝내 알 수 없을 것이었어요.",
         },
       ],
     ],
@@ -10373,7 +10373,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "(기관의) 이사, 관리 위원",
         example: "One trustee offered to pay for her education.",
-        exampleTranslation: "한 이사가 그녀의 학비를 대 주겠다고 했어요.",
+        exampleTranslation: "한 이사가 제루샤의 학비를 대 주겠다고 했어요.",
       },
       {
         id: "dll-v3",
@@ -10397,7 +10397,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "그림자",
         example: "She saw only his long shadow on the wall.",
-        exampleTranslation: "그녀는 벽에 비친 그의 긴 그림자만 보았어요.",
+        exampleTranslation: "제루샤는 벽에 비친 그의 긴 그림자만 보았어요.",
       },
     ],
     questions: [
@@ -10485,13 +10485,13 @@ export const lessons: Lesson[] = [
           id: "mou-4",
           text: "Here at La Vallée he lived quietly with his wife and his one surviving child, a daughter named Emily.",
           translation:
-            "이곳 라발레에서 그는 아내와, 살아남은 하나뿐인 자식인 에밀리라는 딸과 함께 조용히 살았어요.",
+            "이곳 라발레에서 아내와, 살아남은 하나뿐인 자식인 에밀리라는 딸과 함께 조용히 살았어요.",
         },
         {
           id: "mou-5",
           text: "He filled his days with his books, his music, and the study of plants, and every evening he walked through the same well-loved fields.",
           translation:
-            "그는 책과 음악, 식물 연구로 하루하루를 채웠고, 저녁마다 늘 같은 정든 들판을 거닐었어요.",
+            "책과 음악, 식물 연구로 하루하루를 채웠고, 저녁마다 늘 같은 정든 들판을 거닐었어요.",
         },
         {
           id: "mou-6",
@@ -10511,13 +10511,13 @@ export const lessons: Lesson[] = [
           id: "mou-8",
           text: "She was tall and gracefully made, with a face that showed every feeling as it passed.",
           translation:
-            "그녀는 키가 크고 우아한 몸매였으며, 스쳐 가는 모든 감정이 그대로 드러나는 얼굴을 하고 있었어요.",
+            "키가 크고 우아한 몸매였으며, 스쳐 가는 모든 감정이 그대로 드러나는 얼굴을 하고 있었어요.",
         },
         {
           id: "mou-9",
           text: "She loved best to wander alone near the little fishing-house by the stream, reading poetry or watching the light change on the mountains.",
           translation:
-            "그녀가 가장 좋아한 것은 시냇가의 작은 낚시 오두막 근처를 혼자 거닐며 시를 읽거나 산 위로 빛이 변해 가는 모습을 지켜보는 일이었어요.",
+            "가장 좋아한 것은 시냇가의 작은 낚시 오두막 근처를 혼자 거닐며 시를 읽거나 산 위로 빛이 변해 가는 모습을 지켜보는 일이었어요.",
         },
       ],
       [
@@ -10525,19 +10525,19 @@ export const lessons: Lesson[] = [
           id: "mou-10",
           text: "Sometimes she wrote verses of her own, though she was shy of showing them to anyone.",
           translation:
-            "이따금 그녀는 직접 시를 짓기도 했지만, 누구에게도 보여 주기를 부끄러워했어요.",
+            "이따금 직접 시를 짓기도 했지만, 누구에게도 보여 주기를 부끄러워했어요.",
         },
         {
           id: "mou-11",
           text: "Her father delighted in her, and yet one thing about her made him uneasy.",
           translation:
-            "아버지는 그녀를 몹시 사랑했지만, 그녀에 대해 한 가지 마음에 걸리는 것이 있었어요.",
+            "아버지는 그녀를 몹시 사랑했지만, 한 가지 마음에 걸리는 것이 있었어요.",
         },
         {
           id: "mou-12",
           text: "He saw that her feelings were unusually strong, and that beauty or sorrow could move her almost past bearing.",
           translation:
-            "그는 그녀의 감정이 유난히 강해서, 아름다움이나 슬픔이 그녀를 거의 견딜 수 없을 만큼 뒤흔든다는 것을 알았어요.",
+            "그녀의 감정이 유난히 강해서, 아름다움이나 슬픔이 거의 견딜 수 없을 만큼 뒤흔든다는 것을 알았어요.",
         },
       ],
       [
@@ -10545,19 +10545,19 @@ export const lessons: Lesson[] = [
           id: "mou-13",
           text: "Such a nature, he believed, was a kind of danger in a world that does not spare the tender-hearted.",
           translation:
-            "그런 기질은, 마음 여린 사람을 봐주지 않는 세상에서는 일종의 위험이라고 그는 믿었어요.",
+            "그런 기질은, 마음 여린 사람을 봐주지 않는 세상에서는 일종의 위험이라고 믿었어요.",
         },
         {
           id: "mou-14",
           text: "He tried, gently, to teach her self-command: to feel deeply, but not to be ruled by feeling.",
           translation:
-            "그는 그녀에게 자제력을 부드럽게 가르치려 했어요. 깊이 느끼되, 감정에 휘둘리지는 말라고요.",
+            "그녀에게 자제력을 부드럽게 가르치려 했어요. 깊이 느끼되, 감정에 휘둘리지는 말라고요.",
         },
         {
           id: "mou-15",
           text: "\"Do not be proud of your sensibility,\" he told her; a mind that cannot govern itself, however fine, brings its owner grief.",
           translation:
-            "\"네 감수성을 자랑스러워하지 마라.\" 그는 그녀에게 말했어요. 스스로를 다스리지 못하는 마음은, 아무리 고와도 그 주인에게 슬픔을 안겨 준다고요.",
+            "\"네 감수성을 자랑스러워하지 마라.\" 말했어요. 스스로를 다스리지 못하는 마음은, 아무리 고와도 그 주인에게 슬픔을 안겨 준다고요.",
         },
       ],
       [
@@ -10712,7 +10712,7 @@ export const lessons: Lesson[] = [
         {
           id: "mff-6",
           text: "She had been carrying the guilt of it about with her like a stone.",
-          translation: "그녀는 그 죄책감을 돌덩이처럼 안고 다녔어요.",
+          translation: "그 죄책감을 돌덩이처럼 안고 다녔어요.",
         },
       ],
       [
@@ -10720,7 +10720,7 @@ export const lessons: Lesson[] = [
           id: "mff-7",
           text: "When the cart finally brought Tom to the door, Maggie rushed at him and hugged him so hard that his cap fell off.",
           translation:
-            "마침내 수레가 톰을 문 앞에 내려놓자, 매기는 그에게 달려들어 어찌나 세게 끌어안았는지 그의 모자가 벗겨져 떨어졌어요.",
+            "마침내 수레가 톰을 문 앞에 내려놓자, 매기는 달려들어 어찌나 세게 끌어안았는지 그의 모자가 벗겨져 떨어졌어요.",
         },
         {
           id: "mff-8",
@@ -10758,13 +10758,13 @@ export const lessons: Lesson[] = [
           id: "mff-13",
           text: "Tom's pleasure went cold at once. \"You're a very naughty girl,\" he said. \"I don't love you.\"",
           translation:
-            "톰의 기쁨은 그 자리에서 싸늘하게 식었어요. \"너 정말 나쁜 애야.\" 그가 말했어요. \"난 너 안 좋아해.\"",
+            "톰의 기쁨은 그 자리에서 싸늘하게 식었어요. \"너 정말 나쁜 애야.\" 톰이 말했어요. \"난 너 안 좋아해.\"",
         },
         {
           id: "mff-14",
           text: "He would not look at her; he talked instead about going to see the mill and the pond.",
           translation:
-            "그는 매기를 쳐다보려 하지 않고, 대신 방앗간과 연못을 보러 가겠다는 이야기만 했어요.",
+            "매기를 쳐다보려 하지 않고, 대신 방앗간과 연못을 보러 가겠다는 이야기만 했어요.",
         },
         {
           id: "mff-15",
@@ -10778,7 +10778,7 @@ export const lessons: Lesson[] = [
           id: "mff-16",
           text: "But Tom's anger never lasted long, and before the afternoon was over he climbed up to fetch her, and they were friends again.",
           translation:
-            "하지만 톰의 화는 오래가는 법이 없어서, 오후가 다 가기 전에 그는 매기를 데리러 다락으로 올라왔고, 둘은 다시 사이좋아졌어요.",
+            "하지만 톰의 화는 오래가는 법이 없어서, 오후가 다 가기 전에 매기를 데리러 다락으로 올라왔고, 둘은 다시 사이좋아졌어요.",
         },
         {
           id: "mff-17",
@@ -10803,7 +10803,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "죄책감",
         example: "She carried the guilt of the dead rabbits like a stone.",
-        exampleTranslation: "그녀는 죽은 토끼들에 대한 죄책감을 돌덩이처럼 안고 다녔어요.",
+        exampleTranslation: "매기는 죽은 토끼들에 대한 죄책감을 돌덩이처럼 안고 다녔어요.",
       },
       {
         id: "mff-v3",
@@ -10811,7 +10811,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "(아이가) 버릇없는, 말을 안 듣는, 못된",
         example: "Tom said she was a very naughty girl.",
-        exampleTranslation: "톰은 그녀가 아주 못된 아이라고 말했어요.",
+        exampleTranslation: "톰은 매기가 아주 못된 아이라고 말했어요.",
       },
       {
         id: "mff-v4",
@@ -11551,12 +11551,12 @@ export const lessons: Lesson[] = [
           id: "agr-5",
           text: "Because Agnes was the youngest, everyone treated her as a child and let her do very little.",
           translation:
-            "애그니스가 막내였기 때문에, 모두가 그녀를 어린애처럼 대하며 거의 아무 일도 시키지 않았어요.",
+            "애그니스가 막내였기 때문에, 모두가 어린애처럼 대하며 거의 아무 일도 시키지 않았어요.",
         },
         {
           id: "agr-6",
           text: "She longed to be thought grown-up and useful.",
-          translation: "그녀는 어른스럽고 쓸모 있는 사람으로 여겨지기를 간절히 바랐어요.",
+          translation: "어른스럽고 쓸모 있는 사람으로 여겨지기를 간절히 바랐어요.",
         },
       ],
       [
@@ -11569,7 +11569,7 @@ export const lessons: Lesson[] = [
           id: "agr-8",
           text: "He gave all his savings to a merchant friend, who promised to trade with the money and share the profit.",
           translation:
-            "그는 저축한 돈을 몽땅 상인인 친구에게 맡겼고, 그 친구는 그 돈으로 무역을 해서 이익을 나누겠다고 약속했어요.",
+            "저축한 돈을 몽땅 상인인 친구에게 맡겼고, 그 친구는 그 돈으로 무역을 해서 이익을 나누겠다고 약속했어요.",
         },
         {
           id: "agr-9",
@@ -11612,7 +11612,7 @@ export const lessons: Lesson[] = [
           id: "agr-15",
           text: "Her mother and Mary said she was too young and knew too little of the world.",
           translation:
-            "어머니와 메리는 그녀가 너무 어리고 세상 물정을 너무 모른다고 말했어요.",
+            "어머니와 메리는 애그니스가 너무 어리고 세상 물정을 너무 모른다고 말했어요.",
         },
       ],
       [
@@ -11626,7 +11626,7 @@ export const lessons: Lesson[] = [
           id: "agr-17",
           text: "Secretly she was full of hope, glad to be earning her own bread and eager to see life beyond her quiet home.",
           translation:
-            "속으로 그녀는 희망에 부풀어 있었어요. 자기 힘으로 밥벌이를 한다는 것이 기뻤고, 조용한 집 너머의 세상을 보고 싶어 마음이 들떴지요.",
+            "속으로 희망에 부풀어 있었어요. 자기 힘으로 밥벌이를 한다는 것이 기뻤고, 조용한 집 너머의 세상을 보고 싶어 마음이 들떴지요.",
         },
       ],
     ],
@@ -11637,7 +11637,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "성직자, 목사",
         example: "Her father was a country clergyman with a small church.",
-        exampleTranslation: "그녀의 아버지는 작은 교회를 맡은 시골 목사였어요.",
+        exampleTranslation: "애그니스의 아버지는 작은 교회를 맡은 시골 목사였어요.",
       },
       {
         id: "agr-v2",
@@ -11645,7 +11645,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "재산, 부; 큰돈",
         example: "Her mother gave up a fortune to marry for love.",
-        exampleTranslation: "그녀의 어머니는 사랑을 위해 큰 재산을 포기하고 결혼했어요.",
+        exampleTranslation: "애그니스의 어머니는 사랑을 위해 큰 재산을 포기하고 결혼했어요.",
       },
       {
         id: "agr-v3",
@@ -11653,7 +11653,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "상인, 무역상",
         example: "He trusted his savings to a merchant friend.",
-        exampleTranslation: "그는 저축한 돈을 상인인 친구에게 믿고 맡겼어요.",
+        exampleTranslation: "아버지는 저축한 돈을 상인인 친구에게 믿고 맡겼어요.",
       },
       {
         id: "agr-v4",
@@ -11743,12 +11743,12 @@ export const lessons: Lesson[] = [
           id: "tea-2",
           text: "She felt small and tired, and she did not expect anything good to happen.",
           translation:
-            "그녀는 자신이 작고 초라하게 느껴졌고, 좋은 일이 생기리라고는 기대하지 않았어요.",
+            "자신이 작고 초라하게 느껴졌고, 좋은 일이 생기리라고는 기대하지 않았어요.",
         },
         {
           id: "tea-3",
           text: "Then she opened The Times and saw a strange advertisement.",
-          translation: "그때 그녀는 《타임스》를 펼쳤고, 이상한 광고 하나를 보았어요.",
+          translation: "그때 《타임스》를 펼쳤고, 이상한 광고 하나를 보았어요.",
         },
       ],
       [
@@ -11773,19 +11773,19 @@ export const lessons: Lesson[] = [
         {
           id: "tea-7",
           text: "She thought of cold, grey Hampstead, where she lived.",
-          translation: "그녀는 자기가 사는, 춥고 잿빛인 햄스테드를 떠올렸어요.",
+          translation: "윌킨스 부인은 자기가 사는, 춥고 잿빛인 햄스테드를 떠올렸어요.",
         },
         {
           id: "tea-8",
           text: "She thought of her husband, Mellersh, a lawyer who counted every penny and never praised her.",
           translation:
-            "그녀는 남편 멜러시를 떠올렸는데, 그는 한 푼까지 따지고 아내를 한 번도 칭찬하지 않는 변호사였어요.",
+            "남편 멜러시를 떠올렸는데, 한 푼까지 따지고 아내를 한 번도 칭찬하지 않는 변호사였어요.",
         },
         {
           id: "tea-9",
           text: "She never spent money on herself, and she never did anything just because she wished to.",
           translation:
-            "그녀는 자신을 위해 돈을 쓰는 법이 없었고, 그저 하고 싶다는 이유로 무언가를 하는 일도 없었어요.",
+            "자신을 위해 돈을 쓰는 법이 없었고, 그저 하고 싶다는 이유로 무언가를 하는 일도 없었어요.",
         },
       ],
       [
@@ -11818,7 +11818,7 @@ export const lessons: Lesson[] = [
           id: "tea-14",
           text: "\"What if we took that castle together for April,\" she said, \"and asked two more ladies to share the cost?\"",
           translation:
-            "\"우리 둘이 4월에 저 성을 함께 빌리고, 다른 부인 두 사람을 더 구해서 비용을 나누면 어떨까요?\" 그녀가 말했어요.",
+            "\"우리 둘이 4월에 저 성을 함께 빌리고, 다른 부인 두 사람을 더 구해서 비용을 나누면 어떨까요?\" 윌킨스 부인이 말했어요.",
         },
         {
           id: "tea-15",
@@ -11848,7 +11848,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "광고",
         example: "She read the advertisement twice, hardly believing it.",
-        exampleTranslation: "그녀는 그 광고를 두 번 읽으며 좀처럼 믿지 못했어요.",
+        exampleTranslation: "윌킨스 부인은 그 광고를 두 번 읽으며 좀처럼 믿지 못했어요.",
       },
       {
         id: "tea-v2",
@@ -11864,7 +11864,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "갈망, 간절한 그리움",
         example: "The words filled her with a sudden longing for sunshine.",
-        exampleTranslation: "그 문구는 그녀를 햇살에 대한 갑작스러운 갈망으로 가득 채웠어요.",
+        exampleTranslation: "그 문구는 윌킨스 부인을 햇살에 대한 갑작스러운 갈망으로 가득 채웠어요.",
       },
       {
         id: "tea-v4",
@@ -12212,7 +12212,7 @@ export const lessons: Lesson[] = [
           id: "twh-9",
           text: "Some pitied her; some thought her proud; a few hinted that a woman so secret must have something to hide.",
           translation:
-            "어떤 이는 그녀를 딱하게 여겼고, 어떤 이는 그녀가 도도하다고 생각했으며, 몇몇은 저렇게 비밀스러운 여자라면 숨기는 것이 있을 거라고 넌지시 말했어요.",
+            "어떤 이는 그녀를 딱하게 여겼고, 어떤 이는 도도하다고 생각했으며, 몇몇은 저렇게 비밀스러운 여자라면 숨기는 것이 있을 거라고 넌지시 말했어요.",
         },
       ],
       [
@@ -12231,7 +12231,7 @@ export const lessons: Lesson[] = [
           id: "twh-12",
           text: "She sat apart, dressed plainly in black, with her little boy close beside her.",
           translation:
-            "그녀는 검은 옷을 수수하게 입고 어린 아들을 바짝 곁에 둔 채, 사람들과 떨어져 앉아 있었어요.",
+            "검은 옷을 수수하게 입고 어린 아들을 바짝 곁에 둔 채, 사람들과 떨어져 앉아 있었어요.",
         },
       ],
       [
@@ -12239,19 +12239,19 @@ export const lessons: Lesson[] = [
           id: "twh-13",
           text: "Her face was pale and rather stern, but it was a striking face, not easily forgotten.",
           translation:
-            "그녀의 얼굴은 창백하고 다소 엄해 보였지만, 한번 보면 쉽게 잊히지 않는 인상적인 얼굴이었어요.",
+            "얼굴은 창백하고 다소 엄해 보였지만, 한번 보면 쉽게 잊히지 않는 인상적인 얼굴이었어요.",
         },
         {
           id: "twh-14",
           text: "She looked at no one and spoke to no one, and left as soon as the service ended.",
           translation:
-            "그녀는 아무도 쳐다보지 않고 아무와도 말하지 않았으며, 예배가 끝나자마자 떠났어요.",
+            "아무도 쳐다보지 않고 아무와도 말하지 않았으며, 예배가 끝나자마자 떠났어요.",
         },
         {
           id: "twh-15",
           text: "On the walk home, everyone had an opinion about her, and none of them was kind.",
           translation:
-            "집으로 걸어오는 길에 모두가 그녀에 대해 한마디씩 했는데, 그중 다정한 말은 하나도 없었어요.",
+            "집으로 걸어오는 길에 모두가 한마디씩 했는데, 그중 다정한 말은 하나도 없었어요.",
         },
       ],
       [
@@ -12308,7 +12308,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "눈길을 끄는, 인상적인",
         example: "Pale and stern, hers was a striking face.",
-        exampleTranslation: "창백하고 엄해 보이는 그녀의 얼굴은 인상적이었어요.",
+        exampleTranslation: "창백하고 엄해 보이는 그레이엄 부인의 얼굴은 인상적이었어요.",
       },
     ],
     questions: [
@@ -12401,13 +12401,13 @@ export const lessons: Lesson[] = [
           id: "wnd-5",
           text: "She woke long before dawn, too excited to sleep, and lay watching the light come.",
           translation:
-            "그녀는 동트기 훨씬 전에 잠에서 깼는데, 너무 들떠서 잠을 이룰 수가 없어 빛이 밝아 오는 것을 누운 채 지켜보았어요.",
+            "동트기 훨씬 전에 잠에서 깼는데, 너무 들떠서 잠을 이룰 수가 없어 빛이 밝아 오는 것을 누운 채 지켜보았어요.",
         },
         {
           id: "wnd-6",
           text: "She was dressed in her stiffest white frock and taken to the Towers in the Miss Brownings' carriage.",
           translation:
-            "그녀는 가장 빳빳한 흰 원피스를 입고, 브라우닝 자매의 마차를 타고 타워스로 갔어요.",
+            "가장 빳빳한 흰 원피스를 입고, 브라우닝 자매의 마차를 타고 타워스로 갔어요.",
         },
       ],
       [
@@ -12427,20 +12427,20 @@ export const lessons: Lesson[] = [
           id: "wnd-9",
           text: "But the day was very hot, the ladies talked over her head, and no one thought to give her any lunch.",
           translation:
-            "하지만 날은 무척 더웠고, 부인들은 그녀의 머리 위로 이야기를 주고받았으며, 아무도 그녀에게 점심을 챙겨 줄 생각을 하지 않았어요.",
+            "하지만 날은 무척 더웠고, 부인들은 그녀의 머리 위로 이야기를 주고받았으며, 아무도 점심을 챙겨 줄 생각을 하지 않았어요.",
         },
       ],
       [
         {
           id: "wnd-10",
           text: "By the afternoon she was tired, dizzy, and close to tears.",
-          translation: "오후가 되자 그녀는 지치고 어지럽고 금방이라도 울 것 같았어요.",
+          translation: "오후가 되자 지치고 어지럽고 금방이라도 울 것 같았어요.",
         },
         {
           id: "wnd-11",
           text: "She crept away to a quiet corner of the garden and fell asleep under a tree.",
           translation:
-            "그녀는 정원의 조용한 구석으로 살그머니 가서 나무 아래에서 잠이 들었어요.",
+            "정원의 조용한 구석으로 살그머니 가서 나무 아래에서 잠이 들었어요.",
         },
         {
           id: "wnd-12",
@@ -12460,7 +12460,7 @@ export const lessons: Lesson[] = [
           id: "wnd-14",
           text: "Mrs. Kirkpatrick gave her some food, settled her on a sofa — and then, caught up in the party, forgot about her completely.",
           translation:
-            "커크패트릭 부인은 그녀에게 먹을 것을 주고 소파에 앉혀 주었지만, 이내 파티에 정신이 팔려 그녀를 까맣게 잊어버렸어요.",
+            "커크패트릭 부인은 그녀에게 먹을 것을 주고 소파에 앉혀 주었지만, 이내 파티에 정신이 팔려 까맣게 잊어버렸어요.",
         },
         {
           id: "wnd-15",
@@ -12507,7 +12507,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "어지러운, 현기증이 나는",
         example: "The heat and hunger left her tired and dizzy.",
-        exampleTranslation: "더위와 배고픔에 그녀는 지치고 어지러웠어요.",
+        exampleTranslation: "더위와 배고픔에 몰리는 지치고 어지러웠어요.",
       },
       {
         id: "wnd-v4",
@@ -12515,7 +12515,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "방치, 소홀히 함, 홀대",
         example: "Her grand day out ended in hunger and neglect.",
-        exampleTranslation: "그녀의 멋진 나들이는 배고픔과 홀대로 끝났어요.",
+        exampleTranslation: "몰리의 멋진 나들이는 배고픔과 홀대로 끝났어요.",
       },
       {
         id: "wnd-v5",
@@ -12827,7 +12827,7 @@ export const lessons: Lesson[] = [
           id: "per-4",
           text: "Anne loved him completely, and when he asked her to marry him, she said yes.",
           translation:
-            "앤은 그를 온전히 사랑했고, 그가 청혼하자 그러겠다고 했어요.",
+            "앤은 그를 온전히 사랑했고, 청혼하자 그러겠다고 했어요.",
         },
         {
           id: "per-5",
@@ -12852,7 +12852,7 @@ export const lessons: Lesson[] = [
           id: "per-8",
           text: "She believed Wentworth was too poor, his profession too uncertain, and the engagement a risk that would only bring Anne years of worry.",
           translation:
-            "러셀 부인은 웬트워스가 너무 가난하고, 그의 직업이 너무 불안정하며, 이 약혼은 앤에게 여러 해의 근심만 안겨 줄 위험이라고 믿었어요.",
+            "러셀 부인은 웬트워스가 너무 가난하고, 직업이 너무 불안정하며, 이 약혼은 앤에게 여러 해의 근심만 안겨 줄 위험이라고 믿었어요.",
         },
         {
           id: "per-9",
@@ -12878,7 +12878,7 @@ export const lessons: Lesson[] = [
           id: "per-12",
           text: "Wentworth did not think it wise; he felt wronged and abandoned, and he left in anger.",
           translation:
-            "웬트워스는 그것이 현명하다고 생각하지 않았어요. 그는 부당한 대우를 받고 버림받았다고 느꼈고, 화가 난 채 떠났어요.",
+            "웬트워스는 그것이 현명하다고 생각하지 않았어요. 부당한 대우를 받고 버림받았다고 느꼈고, 화가 난 채 떠났어요.",
         },
       ],
       [
@@ -12955,7 +12955,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "사심 없는, 이타적인",
         example: "Anne believed that giving him up was the unselfish thing to do.",
-        exampleTranslation: "앤은 그를 단념하는 것이 사심 없는 행동이라고 믿었어요.",
+        exampleTranslation: "앤은 웬트워스를 단념하는 것이 사심 없는 행동이라고 믿었어요.",
       },
     ],
     questions: [
@@ -13035,14 +13035,14 @@ export const lessons: Lesson[] = [
           id: "alpa-3",
           text: "In the middle of the party, a serious man came to see Miss Minchin; he was her lawyer.",
           translation:
-            "파티가 한창일 때, 근엄한 남자 한 명이 민친 선생님을 찾아왔어요. 그녀의 변호사였어요.",
+            "파티가 한창일 때, 근엄한 남자 한 명이 민친 선생님을 찾아왔어요. 민친 선생님의 변호사였어요.",
         },
       ],
       [
         {
           id: "alpa-4",
           text: "He brought very bad news.",
-          translation: "그는 아주 나쁜 소식을 가져왔어요.",
+          translation: "아주 나쁜 소식을 가져왔어요.",
         },
         {
           id: "alpa-5",
@@ -13066,13 +13066,13 @@ export const lessons: Lesson[] = [
           id: "alpa-8",
           text: "Then he caught a fever, and, far away in India, he died.",
           translation:
-            "그러고 나서 그는 열병에 걸렸고, 머나먼 인도에서 세상을 떠났어요.",
+            "그러고 나서 열병에 걸렸고, 머나먼 인도에서 세상을 떠났어요.",
         },
         {
           id: "alpa-9",
           text: "Sara was now an orphan, and there was no money left for her at all.",
           translation:
-            "이제 세라는 고아가 되었고, 그녀에게 남은 돈은 한 푼도 없었어요.",
+            "이제 세라는 고아가 되었고, 남은 돈은 한 푼도 없었어요.",
         },
       ],
       [
@@ -13086,12 +13086,12 @@ export const lessons: Lesson[] = [
           id: "alpa-11",
           text: "She sent for Sara and told her, in a hard voice, that her father was dead and the money was gone.",
           translation:
-            "그녀는 세라를 불러, 차가운 목소리로 아버지가 돌아가셨고 돈은 사라졌다고 말했어요.",
+            "세라를 불러, 차가운 목소리로 아버지가 돌아가셨고 돈은 사라졌다고 말했어요.",
         },
         {
           id: "alpa-12",
           text: "She took away the birthday presents and the pretty dress.",
-          translation: "그녀는 생일 선물들과 예쁜 드레스를 빼앗아 갔어요.",
+          translation: "생일 선물들과 예쁜 드레스를 빼앗아 갔어요.",
         },
       ],
       [
@@ -13099,7 +13099,7 @@ export const lessons: Lesson[] = [
           id: "alpa-13",
           text: "From now on, she said, Sara would work for her food and her bed.",
           translation:
-            "이제부터 세라는 밥과 잠자리를 얻는 대가로 일을 해야 한다고 그녀는 말했어요.",
+            "이제부터 세라는 밥과 잠자리를 얻는 대가로 일을 해야 한다고 민친 선생님이 말했어요.",
         },
         {
           id: "alpa-14",
@@ -13119,7 +13119,7 @@ export const lessons: Lesson[] = [
           id: "alpa-16",
           text: "Sara was too shocked to cry; she said almost nothing and went slowly up the stairs.",
           translation:
-            "세라는 너무 충격을 받아 울지도 못했어요. 그녀는 거의 아무 말도 하지 않고 천천히 계단을 올라갔어요.",
+            "세라는 너무 충격을 받아 울지도 못했어요. 거의 아무 말도 하지 않고 천천히 계단을 올라갔어요.",
         },
         {
           id: "alpa-17",
@@ -13246,14 +13246,14 @@ export const lessons: Lesson[] = [
         {
           id: "pss-3",
           text: "To her, that felt like a great deal of money.",
-          translation: "그녀에게 그것은 큰돈처럼 느껴졌어요.",
+          translation: "그것은 큰돈처럼 느껴졌어요.",
         },
       ],
       [
         {
           id: "pss-4",
           text: "For two days she thought carefully about how to spend it.",
-          translation: "이틀 동안 그녀는 그 돈을 어떻게 쓸지 신중하게 생각했어요.",
+          translation: "이틀 동안 그 돈을 어떻게 쓸지 신중하게 생각했어요.",
         },
         {
           id: "pss-5",
@@ -13265,25 +13265,25 @@ export const lessons: Lesson[] = [
           id: "pss-6",
           text: "On the day she went shopping, she was tired and had forgotten to eat lunch.",
           translation:
-            "장을 보러 간 날, 그녀는 피곤했고 점심 먹는 것을 잊어버렸어요.",
+            "장을 보러 간 날, 피곤했고 점심 먹는 것을 잊어버렸어요.",
         },
       ],
       [
         {
           id: "pss-7",
           text: "She sat down for a moment at a shop counter to rest.",
-          translation: "그녀는 잠깐 쉬려고 가게 판매대 앞에 앉았어요.",
+          translation: "잠깐 쉬려고 가게 판매대 앞에 앉았어요.",
         },
         {
           id: "pss-8",
           text: "Her hand fell on a pile of silk stockings, soft and smooth.",
           translation:
-            "그녀의 손이 부드럽고 매끄러운 실크 스타킹 더미에 닿았어요.",
+            "손이 부드럽고 매끄러운 실크 스타킹 더미에 닿았어요.",
         },
         {
           id: "pss-9",
           text: "She looked at them for a long time. Then she asked the price.",
-          translation: "그녀는 그것을 한참 동안 바라보았어요. 그러고는 값을 물었어요.",
+          translation: "그것을 한참 동안 바라보았어요. 그러고는 값을 물었어요.",
         },
       ],
       [
@@ -13291,13 +13291,13 @@ export const lessons: Lesson[] = [
           id: "pss-10",
           text: "Almost without deciding to, she bought a pair for herself.",
           translation:
-            "거의 마음을 정하지도 않은 채, 그녀는 자기 것으로 한 켤레를 샀어요.",
+            "거의 마음을 정하지도 않은 채, 자기 것으로 한 켤레를 샀어요.",
         },
         {
           id: "pss-11",
           text: "Something had changed. She did not go to buy the children's things.",
           translation:
-            "무언가가 달라졌어요. 그녀는 아이들 물건을 사러 가지 않았어요.",
+            "무언가가 달라졌어요. 아이들 물건을 사러 가지 않았어요.",
         },
         {
           id: "pss-12",
@@ -13317,7 +13317,7 @@ export const lessons: Lesson[] = [
           id: "pss-14",
           text: "She ate a quiet, proper lunch alone at a restaurant, with a glass of wine.",
           translation:
-            "그녀는 식당에서 혼자 조용히 제대로 된 점심을 먹었고, 포도주도 한 잔 곁들였어요.",
+            "식당에서 혼자 조용히 제대로 된 점심을 먹었고, 포도주도 한 잔 곁들였어요.",
         },
         {
           id: "pss-15",
@@ -13330,7 +13330,7 @@ export const lessons: Lesson[] = [
           id: "pss-16",
           text: "For a few hours she was not a tired mother counting every cent; she was simply herself.",
           translation:
-            "몇 시간 동안 그녀는 한 푼까지 세는 지친 어머니가 아니었어요. 그저 자기 자신이었어요.",
+            "몇 시간 동안 한 푼까지 세는 지친 어머니가 아니었어요. 그저 자기 자신이었어요.",
         },
         {
           id: "pss-17",
@@ -13347,7 +13347,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "스타킹, 긴 양말",
         example: "The silk stockings felt soft and smooth in her hand.",
-        exampleTranslation: "실크 스타킹은 그녀의 손에 부드럽고 매끄럽게 느껴졌어요.",
+        exampleTranslation: "실크 스타킹은 소머스 부인의 손에 부드럽고 매끄럽게 느껴졌어요.",
       },
       {
         id: "pss-v2",
@@ -13355,7 +13355,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "(상점의) 판매대, 계산대",
         example: "She rested for a moment at the shop counter.",
-        exampleTranslation: "그녀는 가게 판매대 앞에서 잠깐 쉬었어요.",
+        exampleTranslation: "소머스 부인은 가게 판매대 앞에서 잠깐 쉬었어요.",
       },
       {
         id: "pss-v3",
@@ -13363,7 +13363,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "장갑",
         example: "She bought gloves that fit her hands perfectly.",
-        exampleTranslation: "그녀는 손에 꼭 맞는 장갑을 샀어요.",
+        exampleTranslation: "소머스 부인은 손에 꼭 맞는 장갑을 샀어요.",
       },
       {
         id: "pss-v4",
@@ -13371,7 +13371,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "제대로 된, 격식을 갖춘",
         example: "She ate a quiet, proper lunch alone at a restaurant.",
-        exampleTranslation: "그녀는 식당에서 혼자 조용히 제대로 된 점심을 먹었어요.",
+        exampleTranslation: "소머스 부인은 식당에서 혼자 조용히 제대로 된 점심을 먹었어요.",
       },
       {
         id: "pss-v5",
@@ -13379,7 +13379,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "센트 (1달러의 100분의 1)",
         example: "For once she was not counting every cent.",
-        exampleTranslation: "그때만큼은 그녀도 한 푼까지 세고 있지 않았어요.",
+        exampleTranslation: "그때만큼은 소머스 부인도 한 푼까지 세고 있지 않았어요.",
       },
     ],
     questions: [
@@ -17433,7 +17433,7 @@ export const lessons: Lesson[] = [
           id: "skl-6",
           text: "A small, bright-eyed girl named Miss Leeson took the room; she typed letters for a living.",
           translation:
-            "눈이 초롱초롱한 자그마한 아가씨 리슨 양이 그 방을 얻었어요. 그녀는 편지를 타자로 쳐 주며 먹고살았지요.",
+            "눈이 초롱초롱한 자그마한 아가씨 리슨 양이 그 방을 얻었어요. 편지를 타자로 쳐 주며 먹고살았지요.",
         },
       ],
       [
@@ -17461,38 +17461,38 @@ export const lessons: Lesson[] = [
           id: "skl-10",
           text: "As the weeks passed, less and less typing work came her way.",
           translation:
-            "몇 주가 지나는 동안, 그녀에게 들어오는 타자 일은 점점 줄어들었어요.",
+            "몇 주가 지나는 동안, 들어오는 타자 일은 점점 줄어들었어요.",
         },
         {
           id: "skl-11",
           text: "Every morning she went out to look for work, and every evening she came back with empty hands.",
           translation:
-            "아침마다 그녀는 일자리를 찾아 나섰고, 저녁마다 빈손으로 돌아왔어요.",
+            "아침마다 일자리를 찾아 나섰고, 저녁마다 빈손으로 돌아왔어요.",
         },
         {
           id: "skl-12",
           text: "One night she had no money for dinner and climbed the stairs to her room feeling weak and dizzy.",
           translation:
-            "어느 밤 그녀는 저녁 사 먹을 돈이 없었고, 기운 없고 어질어질한 채로 방까지 계단을 올라갔어요.",
+            "어느 밤 저녁 사 먹을 돈이 없었고, 기운 없고 어질어질한 채로 방까지 계단을 올라갔어요.",
         },
       ],
       [
         {
           id: "skl-13",
           text: "She lay down on the narrow bed and looked up through the skylight.",
-          translation: "그녀는 좁은 침대에 누워 천창 너머를 올려다보았어요.",
+          translation: "좁은 침대에 누워 천창 너머를 올려다보았어요.",
         },
         {
           id: "skl-14",
           text: "\"Good-bye, Billy,\" she said softly to her star, and then everything went dark.",
           translation:
-            "\"잘 있어, 빌리.\" 그녀는 자기 별에게 나직이 말했고, 이내 모든 것이 캄캄해졌어요.",
+            "\"잘 있어, 빌리.\" 자기 별에게 나직이 말했고, 이내 모든 것이 캄캄해졌어요.",
         },
         {
           id: "skl-15",
           text: "In the morning she did not come down, and when no one could wake her, the men broke open the door.",
           translation:
-            "아침이 되어도 그녀가 내려오지 않았고, 아무도 그녀를 깨울 수 없자 남자들이 문을 부수고 들어갔어요.",
+            "아침이 되어도 내려오지 않았고, 아무도 그녀를 깨울 수 없자 남자들이 문을 부수고 들어갔어요.",
         },
       ],
       [
@@ -17506,7 +17506,7 @@ export const lessons: Lesson[] = [
           id: "skl-17",
           text: "As he lifted her, he asked her name for his book; her eyes opened a little and she whispered, \"Billy Jackson.\"",
           translation:
-            "그가 그녀를 안아 올리며 기록할 이름을 묻자, 그녀는 눈을 살짝 뜨고 \"빌리 잭슨\"이라고 속삭였어요.",
+            "그가 그녀를 안아 올리며 기록할 이름을 묻자, 눈을 살짝 뜨고 \"빌리 잭슨\"이라고 속삭였어요.",
         },
         {
           id: "skl-18",
@@ -17539,7 +17539,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "천창(天窓), 지붕창",
         example: "Her only window was a skylight in the roof.",
-        exampleTranslation: "그녀의 유일한 창은 지붕에 난 천창이었어요.",
+        exampleTranslation: "리슨 양의 유일한 창은 지붕에 난 천창이었어요.",
       },
       {
         id: "skl-v4",
@@ -17547,7 +17547,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "어지러운, 현기증 나는",
         example: "She climbed the stairs feeling weak and dizzy.",
-        exampleTranslation: "그녀는 기운 없고 어지러운 채로 계단을 올라갔어요.",
+        exampleTranslation: "리슨 양은 기운 없고 어지러운 채로 계단을 올라갔어요.",
       },
       {
         id: "skl-v5",
@@ -17555,7 +17555,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "속삭이다",
         example: "She whispered, \"Billy Jackson.\"",
-        exampleTranslation: "그녀는 \"빌리 잭슨\"이라고 속삭였어요.",
+        exampleTranslation: "리슨 양은 \"빌리 잭슨\"이라고 속삭였어요.",
       },
     ],
     questions: [
@@ -17635,7 +17635,7 @@ export const lessons: Lesson[] = [
           id: "ri-3",
           text: "Beside her, Mrs. Blythe — whom the Glen still thought of simply as Anne — and her old friend Miss Cornelia were reading the local news column in the town paper and talking it over item by item.",
           translation:
-            "그 곁에서 블라이스 부인 — 글렌 사람들은 아직도 그녀를 그냥 앤이라 여겼지요 — 과 오랜 벗 코닐리아 아주머니는 동네 신문의 소식란을 읽으며 한 줄 한 줄 이야기를 나누고 있었어요.",
+            "그 곁에서 블라이스 부인 — 글렌 사람들은 아직도 그냥 앤이라 여겼지요 — 과 오랜 벗 코닐리아 아주머니는 동네 신문의 소식란을 읽으며 한 줄 한 줄 이야기를 나누고 있었어요.",
         },
       ],
       [
@@ -17668,13 +17668,13 @@ export const lessons: Lesson[] = [
           id: "ri-8",
           text: "A long illness in childhood had kept her out of school for years, and she had grown up dreamy, vain about her looks, and quietly sure that being clever was overrated.",
           translation:
-            "어린 시절의 긴 병치레로 그녀는 여러 해 학교에 다니지 못했고, 그래서 공상에 잘 잠기고 제 외모에 은근히 신경 쓰며, 똑똑한 것 따위는 과대평가된 거라고 남몰래 확신하는 아이로 자랐어요.",
+            "어린 시절의 긴 병치레로 여러 해 학교에 다니지 못했고, 그래서 공상에 잘 잠기고 제 외모에 은근히 신경 쓰며, 똑똑한 것 따위는 과대평가된 거라고 남몰래 확신하는 아이로 자랐어요.",
         },
         {
           id: "ri-9",
           text: "She could not bear to think of growing up; she wanted the world to stay exactly as it was, warm and unhurried, with Rainbow Valley at the foot of the garden and nothing that had to be taken seriously.",
           translation:
-            "그녀는 어른이 된다는 생각을 견딜 수 없었어요. 정원 아래 무지개 골짜기가 그대로 있고, 진지하게 받아들여야 할 일이라곤 하나도 없는, 따뜻하고 느긋한 지금 이대로 세상이 멈춰 있기를 바랐지요.",
+            "어른이 된다는 생각을 견딜 수 없었어요. 정원 아래 무지개 골짜기가 그대로 있고, 진지하게 받아들여야 할 일이라곤 하나도 없는, 따뜻하고 느긋한 지금 이대로 세상이 멈춰 있기를 바랐지요.",
         },
       ],
       [
@@ -17682,19 +17682,19 @@ export const lessons: Lesson[] = [
           id: "ri-10",
           text: "Just now her whole heart was fixed on one thing: the dance at the Four Winds lighthouse the following week, which was to be her first grown-up party.",
           translation:
-            "바로 지금 그녀의 온 마음은 단 한 가지에 쏠려 있었어요. 다음 주 포 윈즈 등대에서 열리는 무도회였는데, 그것이 그녀의 첫 어른 파티가 될 참이었지요.",
+            "바로 지금 릴라의 온 마음은 단 한 가지에 쏠려 있었어요. 다음 주 포 윈즈 등대에서 열리는 무도회였는데, 그것이 그녀의 첫 어른 파티가 될 참이었지요.",
         },
         {
           id: "ri-11",
           text: "She had thought about her dress, and her slippers, and whether anyone would ask her to dance, until there was room in her mind for very little else.",
           translation:
-            "그녀는 드레스와 무용화, 그리고 누가 자기에게 춤을 청해 줄까 하는 생각을 얼마나 골똘히 했던지, 머릿속에 다른 것이 들어설 자리가 거의 없었어요.",
+            "드레스와 무용화, 그리고 누가 자기에게 춤을 청해 줄까 하는 생각을 얼마나 골똘히 했던지, 머릿속에 다른 것이 들어설 자리가 거의 없었어요.",
         },
         {
           id: "ri-12",
           text: "The one person she told everything to was Gertrude Oliver, the schoolteacher who boarded at Ingleside — a grave young woman of twenty-eight who was given to strange moods and to dreams she only half believed in.",
           translation:
-            "그녀가 무엇이든 털어놓는 단 한 사람은 잉글사이드에 하숙하는 여교사 거트루드 올리버였어요. 스물여덟의 진중한 여인으로, 이상한 기분에 잘 젖고 자기도 반쯤만 믿는 꿈을 꾸곤 했지요.",
+            "무엇이든 털어놓는 단 한 사람은 잉글사이드에 하숙하는 여교사 거트루드 올리버였어요. 스물여덟의 진중한 여인으로, 이상한 기분에 잘 젖고 자기도 반쯤만 믿는 꿈을 꾸곤 했지요.",
         },
         {
           id: "ri-13",
@@ -17761,7 +17761,7 @@ export const lessons: Lesson[] = [
         translation: "허영심 있는, 제 외모를 지나치게 의식하는",
         example: "She had grown up dreamy and vain about her looks.",
         exampleTranslation:
-          "그녀는 공상에 잘 잠기고 제 외모에 신경 쓰는 아이로 자랐어요.",
+          "릴라는 공상에 잘 잠기고 제 외모에 신경 쓰는 아이로 자랐어요.",
       },
       {
         id: "ri-v3",
@@ -17777,7 +17777,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "불안한, 마음이 놓이지 않는",
         example: "She woke twice from the same uneasy dream.",
-        exampleTranslation: "그녀는 똑같이 불안한 꿈에서 두 번 깨어났어요.",
+        exampleTranslation: "거트루드는 똑같이 불안한 꿈에서 두 번 깨어났어요.",
       },
       {
         id: "ri-v5",
@@ -17873,19 +17873,19 @@ export const lessons: Lesson[] = [
           id: "mh-4",
           text: "She was afraid of her stepmother, so she jumped into the water to bring it back.",
           translation:
-            "그녀는 새어머니가 무서워서, 물레가락을 도로 가져오려고 물속으로 뛰어들었어요.",
+            "소녀는 새어머니가 무서워서, 물레가락을 도로 가져오려고 물속으로 뛰어들었어요.",
         },
         {
           id: "mh-5",
           text: "She woke in a bright meadow full of flowers, with a path running through it.",
           translation:
-            "그녀는 꽃이 가득하고 오솔길이 나 있는 환한 풀밭에서 깨어났어요.",
+            "꽃이 가득하고 오솔길이 나 있는 환한 풀밭에서 깨어났어요.",
         },
         {
           id: "mh-6",
           text: "Soon she passed an oven full of bread. \"Take me out, or I will burn!\" it cried, and she took every loaf out.",
           translation:
-            "얼마 가지 않아 빵이 가득한 화덕을 지났어요. \"날 꺼내 줘, 안 그러면 타 버려!\" 하고 빵이 외쳤고, 그녀는 빵을 하나도 빼놓지 않고 꺼냈어요.",
+            "얼마 가지 않아 빵이 가득한 화덕을 지났어요. \"날 꺼내 줘, 안 그러면 타 버려!\" 하고 빵이 외쳤고, 빵을 하나도 빼놓지 않고 꺼냈어요.",
         },
       ],
       [
@@ -17893,13 +17893,13 @@ export const lessons: Lesson[] = [
           id: "mh-7",
           text: "Next an apple tree called, \"Shake me! My apples are ripe.\" So she shook it until every apple was down.",
           translation:
-            "다음에는 사과나무가 불렀어요. \"날 흔들어 줘! 사과가 다 익었어.\" 그래서 그녀는 사과가 모두 떨어질 때까지 나무를 흔들었어요.",
+            "다음에는 사과나무가 불렀어요. \"날 흔들어 줘! 사과가 다 익었어.\" 그래서 사과가 모두 떨어질 때까지 나무를 흔들었어요.",
         },
         {
           id: "mh-8",
           text: "At last she came to a little house where an old woman with very big teeth looked out.",
           translation:
-            "마침내 그녀는 이가 아주 큰 노파가 내다보고 있는 작은 집에 이르렀어요.",
+            "마침내 이가 아주 큰 노파가 내다보고 있는 작은 집에 이르렀어요.",
         },
         {
           id: "mh-9",
@@ -17931,7 +17931,7 @@ export const lessons: Lesson[] = [
         {
           id: "mh-13",
           text: "But after a while she grew sad and missed her home.",
-          translation: "그런데 얼마 지나자 그녀는 슬퍼졌고 집이 그리워졌어요.",
+          translation: "그런데 얼마 지나자 슬퍼졌고 집이 그리워졌어요.",
         },
         {
           id: "mh-14",
@@ -17951,7 +17951,7 @@ export const lessons: Lesson[] = [
           id: "mh-16",
           text: "When she came home shining with gold, her stepmother wanted the same for her own lazy daughter, and sent her to the well.",
           translation:
-            "그녀가 금빛으로 반짝이며 집에 돌아오자, 새어머니는 게으른 친딸에게도 똑같이 해 주고 싶어서 딸을 우물로 보냈어요.",
+            "소녀가 금빛으로 반짝이며 집에 돌아오자, 새어머니는 게으른 친딸에게도 똑같이 해 주고 싶어서 딸을 우물로 보냈어요.",
         },
         {
           id: "mh-17",
@@ -17974,7 +17974,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "(실을) 잣다",
         example: "She sat by the well and spun thread all day.",
-        exampleTranslation: "그녀는 우물가에 앉아 온종일 실을 자았어요.",
+        exampleTranslation: "소녀는 우물가에 앉아 온종일 실을 자았어요.",
       },
       {
         id: "mh-v2",
@@ -17982,7 +17982,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "풀밭, 초원",
         example: "She woke in a bright meadow full of flowers.",
-        exampleTranslation: "그녀는 꽃이 가득한 환한 풀밭에서 깨어났어요.",
+        exampleTranslation: "소녀는 꽃이 가득한 환한 풀밭에서 깨어났어요.",
       },
       {
         id: "mh-v3",
@@ -17998,7 +17998,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "역청, 검은 타르",
         example: "A pot of black pitch poured over her.",
-        exampleTranslation: "검은 역청 한 솥이 그녀에게 쏟아졌어요.",
+        exampleTranslation: "검은 역청 한 솥이 게으른 딸에게 쏟아졌어요.",
       },
       {
         id: "mh-v5",
@@ -18097,32 +18097,32 @@ export const lessons: Lesson[] = [
           id: "gk-5",
           text: "So he began to scrape away the snow, and there on the bare ground he found a small golden key.",
           translation:
-            "그래서 그는 눈을 긁어내기 시작했고, 드러난 맨땅 위에서 작은 황금 열쇠를 발견했어요.",
+            "그래서 눈을 긁어내기 시작했고, 드러난 맨땅 위에서 작은 황금 열쇠를 발견했어요.",
         },
         {
           id: "gk-6",
           text: "\"Where there is a key,\" he thought, \"there must be a lock as well.\"",
           translation:
-            "\"열쇠가 있는 곳에는,\" 하고 그는 생각했어요. \"틀림없이 자물쇠도 있을 거야.\"",
+            "\"열쇠가 있는 곳에는,\" 하고 생각했어요. \"틀림없이 자물쇠도 있을 거야.\"",
         },
       ],
       [
         {
           id: "gk-7",
           text: "He dug down into the earth, and he found a little iron box.",
-          translation: "그는 땅을 파 내려갔고, 작은 쇠 상자를 찾아냈어요.",
+          translation: "땅을 파 내려갔고, 작은 쇠 상자를 찾아냈어요.",
         },
         {
           id: "gk-8",
           text: "\"If only the key fits!\" he said. \"A box like this must hold something precious.\"",
           translation:
-            "\"이 열쇠가 맞기만 하다면!\" 하고 그가 말했어요. \"이런 상자라면 분명 귀한 것이 들어 있을 거야.\"",
+            "\"이 열쇠가 맞기만 하다면!\" 하고 말했어요. \"이런 상자라면 분명 귀한 것이 들어 있을 거야.\"",
         },
         {
           id: "gk-9",
           text: "He looked all over it, but at first he could not find any keyhole at all.",
           translation:
-            "그는 상자를 구석구석 살폈지만, 처음에는 열쇠 구멍을 도무지 찾을 수 없었어요.",
+            "상자를 구석구석 살폈지만, 처음에는 열쇠 구멍을 도무지 찾을 수 없었어요.",
         },
       ],
       [
@@ -18135,12 +18135,12 @@ export const lessons: Lesson[] = [
         {
           id: "gk-11",
           text: "He tried the key, and it fitted the hole exactly.",
-          translation: "그가 열쇠를 넣어 보니, 구멍에 꼭 맞았어요.",
+          translation: "열쇠를 넣어 보니, 구멍에 꼭 맞았어요.",
         },
         {
           id: "gk-12",
           text: "Then he turned it once, all the way around.",
-          translation: "그러고 나서 그는 열쇠를 한 바퀴 돌렸어요.",
+          translation: "그러고 나서 열쇠를 한 바퀴 돌렸어요.",
         },
       ],
       [
@@ -18165,7 +18165,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "가서 가져오다",
         example: "He went out on his sledge to fetch wood.",
-        exampleTranslation: "그는 썰매를 끌고 나가 땔나무를 해 왔어요.",
+        exampleTranslation: "소년은 썰매를 끌고 나가 땔나무를 해 왔어요.",
       },
       {
         id: "gk-v2",
@@ -18181,7 +18181,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "긁어내다",
         example: "He began to scrape away the snow.",
-        exampleTranslation: "그는 눈을 긁어내기 시작했어요.",
+        exampleTranslation: "소년은 눈을 긁어내기 시작했어요.",
       },
       {
         id: "gk-v4",
@@ -18493,7 +18493,7 @@ export const lessons: Lesson[] = [
           id: "awh-3",
           text: "Every evening it was her task to bring the old cow home, and she was never in a hurry, for the woods themselves were company enough.",
           translation:
-            "저녁마다 늙은 소를 몰고 집에 오는 것이 그녀의 일이었는데, 그녀는 조금도 서두르지 않았어요. 숲 그 자체만으로도 충분한 동무였으니까요.",
+            "저녁마다 늙은 소를 몰고 집에 오는 것이 일이었는데, 조금도 서두르지 않았어요. 숲 그 자체만으로도 충분한 동무였으니까요.",
         },
       ],
       [
@@ -18507,7 +18507,7 @@ export const lessons: Lesson[] = [
           id: "awh-5",
           text: "He was a hunter of birds, he explained; he shot them, and kept them, and knew all their names.",
           translation:
-            "그는 자기가 새를 잡는 사람이라고 설명했어요. 새를 쏘아 잡아서 간직하고, 새들의 이름을 모두 안다고요.",
+            "자기가 새를 잡는 사람이라고 설명했어요. 새를 쏘아 잡아서 간직하고, 새들의 이름을 모두 안다고요.",
         },
         {
           id: "awh-6",
@@ -18527,13 +18527,13 @@ export const lessons: Lesson[] = [
           id: "awh-8",
           text: "He would give ten dollars, he said, to anyone who could show him where it made its nest.",
           translation:
-            "그 새가 어디에 둥지를 트는지 알려 주는 사람에게는 십 달러를 주겠다고 그는 말했어요.",
+            "그 새가 어디에 둥지를 트는지 알려 주는 사람에게는 십 달러를 주겠다고 말했어요.",
         },
         {
           id: "awh-9",
           text: "Ten dollars was a fortune. Sylvia thought of all it could buy, and she said nothing, but she knew the bird.",
           translation:
-            "십 달러는 큰돈이었어요. 실비아는 그 돈으로 살 수 있는 온갖 것을 떠올리며 아무 말도 하지 않았지만, 그녀는 그 새를 알고 있었어요.",
+            "십 달러는 큰돈이었어요. 실비아는 그 돈으로 살 수 있는 온갖 것을 떠올리며 아무 말도 하지 않았지만, 그 새를 알고 있었어요.",
         },
         {
           id: "awh-10",
@@ -18553,7 +18553,7 @@ export const lessons: Lesson[] = [
           id: "awh-12",
           text: "At the edge of the woods stood a great pine, the tallest tree for miles, and she meant to climb it and look out over the whole country.",
           translation:
-            "숲 가장자리에 커다란 소나무 한 그루가 서 있었는데, 몇 마일 안에서 가장 높은 나무였어요. 그녀는 그 나무에 올라 온 들판을 굽어볼 작정이었지요.",
+            "숲 가장자리에 커다란 소나무 한 그루가 서 있었는데, 몇 마일 안에서 가장 높은 나무였어요. 그 나무에 올라 온 들판을 굽어볼 작정이었지요.",
         },
         {
           id: "awh-13",
@@ -18573,13 +18573,13 @@ export const lessons: Lesson[] = [
           id: "awh-15",
           text: "Then she saw it: the white heron, flying up from a dead tree below her, floating past on wide wings, and settling on a branch to call to its mate.",
           translation:
-            "그때 그녀는 그것을 보았어요. 발아래 죽은 나무에서 날아오른 하얀 왜가리가, 넓은 날개로 미끄러지듯 지나가더니, 한 가지에 내려앉아 짝을 불렀어요.",
+            "그때 실비아는 그것을 보았어요. 발아래 죽은 나무에서 날아오른 하얀 왜가리가, 넓은 날개로 미끄러지듯 지나가더니, 한 가지에 내려앉아 짝을 불렀어요.",
         },
         {
           id: "awh-16",
           text: "Now she knew. She had the secret, and she could give it to the hunter, and he would be glad, and the ten dollars would be hers.",
           translation:
-            "이제 그녀는 알았어요. 비밀을 손에 쥐었고, 그것을 사냥꾼에게 줄 수도 있었어요. 그러면 그는 기뻐할 테고, 십 달러는 그녀의 것이 될 터였지요.",
+            "이제 알았어요. 비밀을 손에 쥐었고, 그것을 사냥꾼에게 줄 수도 있었어요. 그러면 그는 기뻐할 테고, 십 달러는 그녀의 것이 될 터였지요.",
         },
       ],
       [
@@ -18593,7 +18593,7 @@ export const lessons: Lesson[] = [
           id: "awh-18",
           text: "She could not tell. The heron had shown her the golden light and the sea, and she would keep its life a secret, though the woods might be lonelier for the friend she had let go.",
           translation:
-            "그녀는 말할 수 없었어요. 왜가리는 그녀에게 금빛 햇살과 바다를 보여 주었고, 그녀는 그 새의 목숨을 비밀로 지키려 했어요. 떠나보낸 그 친구 때문에 숲이 더 외로워질지라도요.",
+            "말할 수 없었어요. 왜가리는 그녀에게 금빛 햇살과 바다를 보여 주었고, 그 새의 목숨을 비밀로 지키려 했어요. 떠나보낸 그 친구 때문에 숲이 더 외로워질지라도요.",
         },
       ],
     ],
@@ -18604,7 +18604,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "왜가리",
         example: "He wanted a white heron he had seen near the marsh.",
-        exampleTranslation: "그는 습지 근처에서 본 하얀 왜가리를 갖고 싶어 했어요.",
+        exampleTranslation: "사냥꾼은 습지 근처에서 본 하얀 왜가리를 갖고 싶어 했어요.",
       },
       {
         id: "awh-v2",
@@ -18612,7 +18612,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "습지, 늪",
         example: "He had seen it near the salt marsh two summers before.",
-        exampleTranslation: "그는 두 해 전 여름 염습지 근처에서 그것을 보았어요.",
+        exampleTranslation: "사냥꾼은 두 해 전 여름 염습지 근처에서 그것을 보았어요.",
       },
       {
         id: "awh-v3",
@@ -18628,7 +18628,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "나무껍질",
         example: "The rough bark tore her hands.",
-        exampleTranslation: "거친 나무껍질에 그녀의 손이 쓸렸어요.",
+        exampleTranslation: "거친 나무껍질에 실비아의 손이 쓸렸어요.",
       },
       {
         id: "awh-v5",
@@ -18636,7 +18636,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "꾸짖다, 나무라다",
         example: "Her grandmother scolded her when she came home.",
-        exampleTranslation: "집에 돌아오자 할머니가 그녀를 나무랐어요.",
+        exampleTranslation: "집에 돌아오자 할머니가 실비아를 나무랐어요.",
       },
     ],
     questions: [
@@ -18716,7 +18716,7 @@ export const lessons: Lesson[] = [
           id: "gat-3",
           text: "Next door stood an enormous mansion, all towers and bright lawns, that belonged to a man named Gatsby — though I had never met him, and knew nothing about him.",
           translation:
-            "바로 옆에는 탑과 환한 잔디밭으로 이루어진 거대한 저택이 서 있었는데, 개츠비라는 사람의 것이었어요. 그를 만난 적도, 그에 대해 아는 것도 전혀 없었지만요.",
+            "바로 옆에는 탑과 환한 잔디밭으로 이루어진 거대한 저택이 서 있었는데, 개츠비라는 사람의 것이었어요. 만난 적도, 그에 대해 아는 것도 전혀 없었지만요.",
         },
       ],
       [
@@ -18724,7 +18724,7 @@ export const lessons: Lesson[] = [
           id: "gat-4",
           text: "One evening I drove across the bay to have dinner with my cousin Daisy and her husband, Tom Buchanan, whom I had known slightly at college.",
           translation:
-            "어느 저녁 나는 만 건너편으로 차를 몰고 가, 사촌 데이지와 그녀의 남편 톰 뷰캐넌과 저녁을 먹었어요. 톰은 대학 시절 조금 알던 사이였어요.",
+            "어느 저녁 나는 만 건너편으로 차를 몰고 가, 사촌 데이지와 남편 톰 뷰캐넌과 저녁을 먹었어요. 톰은 대학 시절 조금 알던 사이였어요.",
         },
         {
           id: "gat-5",
@@ -18742,7 +18742,7 @@ export const lessons: Lesson[] = [
           id: "gat-7",
           text: "A friend of hers, a cool young woman named Jordan Baker, lay on the sofa as though the house belonged to her.",
           translation:
-            "그녀의 친구인 조던 베이커라는 냉담한 젊은 여자는, 마치 그 집이 제 것이라도 되는 양 소파에 누워 있었어요.",
+            "데이지의 친구인 조던 베이커라는 냉담한 젊은 여자는, 마치 그 집이 제 것이라도 되는 양 소파에 누워 있었어요.",
         },
       ],
       [
@@ -18762,7 +18762,7 @@ export const lessons: Lesson[] = [
           id: "gat-10",
           text: "She said it lightly, but she meant it, and it made me uncomfortable, as if the whole evening had been a trick to make me feel something for her.",
           translation:
-            "그녀는 가볍게 말했지만 진심이었고, 나는 마음이 불편해졌어요. 마치 그날 저녁 전체가 내게서 그녀를 향한 어떤 감정을 끌어내려는 수작이었던 것처럼요.",
+            "가볍게 말했지만 진심이었고, 나는 마음이 불편해졌어요. 마치 그날 저녁 전체가 내게서 그녀를 향한 어떤 감정을 끌어내려는 수작이었던 것처럼요.",
         },
       ],
       [
@@ -18796,13 +18796,13 @@ export const lessons: Lesson[] = [
           id: "gat-15",
           text: "I nearly called out to him, but I did not, because he gave a sudden sign that he wished to be alone.",
           translation:
-            "나는 그를 부를 뻔했지만 그러지 않았어요. 그가 혼자 있고 싶다는 뜻을 불쑥 내비쳤기 때문이에요.",
+            "나는 개츠비를 부를 뻔했지만 그러지 않았어요. 혼자 있고 싶다는 뜻을 불쑥 내비쳤기 때문이에요.",
         },
         {
           id: "gat-16",
           text: "He stretched out his arms toward the dark water across the bay, and though I was far off, I thought he was trembling.",
           translation:
-            "그는 만 건너편의 검은 물을 향해 두 팔을 뻗었고, 나는 멀리 있었는데도 그가 떨고 있다고 느꼈어요.",
+            "만 건너편의 검은 물을 향해 두 팔을 뻗었고, 나는 멀리 있었는데도 그가 떨고 있다고 느꼈어요.",
         },
       ],
       [
@@ -19413,13 +19413,13 @@ export const lessons: Lesson[] = [
           id: "ws-10",
           text: "Elisa's hands grew raw and blistered from the nettles, but she worked on in silence, saying nothing to anyone.",
           translation:
-            "쐐기풀에 엘리자의 손은 벌겋게 부르텄지만, 그녀는 아무에게도 말하지 않은 채 묵묵히 일을 계속했어요.",
+            "쐐기풀에 엘리자의 손은 벌겋게 부르텄지만, 아무에게도 말하지 않은 채 묵묵히 일을 계속했어요.",
         },
         {
           id: "ws-11",
           text: "When her brothers flew to a distant land across the sea, they wove a net and carried Elisa with them, high above the waves.",
           translation:
-            "오빠들이 바다 건너 먼 땅으로 날아갈 때, 그들은 그물을 엮어 엘리자를 태우고 파도 위로 높이 날아갔어요.",
+            "오빠들이 바다 건너 먼 땅으로 날아갈 때, 그물을 엮어 엘리자를 태우고 파도 위로 높이 날아갔어요.",
         },
       ],
       [
@@ -19453,7 +19453,7 @@ export const lessons: Lesson[] = [
           id: "ws-16",
           text: "She kept weaving the last shirt with shaking hands even as they took her away, and she finished it just in time.",
           translation:
-            "끌려가는 순간에도 그녀는 떨리는 손으로 마지막 셔츠를 계속 짰고, 마침내 제때 다 짤 수 있었어요.",
+            "끌려가는 순간에도 떨리는 손으로 마지막 셔츠를 계속 짰고, 마침내 제때 다 짤 수 있었어요.",
         },
       ],
       [
@@ -19486,7 +19486,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "침묵",
         example: "She worked on in silence, saying nothing to anyone.",
-        exampleTranslation: "그녀는 아무에게도 말하지 않은 채 침묵 속에서 일을 계속했어요.",
+        exampleTranslation: "엘리자는 아무에게도 말하지 않은 채 침묵 속에서 일을 계속했어요.",
       },
       {
         id: "ws-v3",
@@ -19494,7 +19494,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "마녀",
         example: "The priest whispered that she was a witch.",
-        exampleTranslation: "사제는 그녀가 마녀라고 수군거렸어요.",
+        exampleTranslation: "사제는 엘리자가 마녀라고 수군거렸어요.",
       },
       {
         id: "ws-v4",
@@ -19502,7 +19502,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "(실로) 짜다, 엮다",
         example: "She had to weave eleven shirts from nettles.",
-        exampleTranslation: "그녀는 쐐기풀로 셔츠 열한 벌을 짜야 했어요.",
+        exampleTranslation: "엘리자는 쐐기풀로 셔츠 열한 벌을 짜야 했어요.",
       },
       {
         id: "ws-v5",
@@ -19510,7 +19510,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "쐐기풀",
         example: "She gathered nettles from the churchyard.",
-        exampleTranslation: "그녀는 교회 묘지에서 쐐기풀을 모았어요.",
+        exampleTranslation: "엘리자는 교회 묘지에서 쐐기풀을 모았어요.",
       },
     ],
     questions: [
@@ -19598,7 +19598,7 @@ export const lessons: Lesson[] = [
           id: "na-4",
           text: "She hated books that only taught lessons, and far preferred rolling down the green slope behind the house to sitting quietly indoors.",
           translation:
-            "그녀는 교훈만 늘어놓는 책은 질색했고, 집 안에 얌전히 앉아 있느니 집 뒤편 초록 언덕을 굴러 내려가는 쪽을 훨씬 더 좋아했어요.",
+            "교훈만 늘어놓는 책은 질색했고, 집 안에 얌전히 앉아 있느니 집 뒤편 초록 언덕을 굴러 내려가는 쪽을 훨씬 더 좋아했어요.",
         },
         {
           id: "na-5",
@@ -19610,7 +19610,7 @@ export const lessons: Lesson[] = [
           id: "na-6",
           text: "Indeed, no one who watched her playing cricket with her brothers would have called her anything like a heroine in the making.",
           translation:
-            "실제로 오빠들과 크리켓을 하며 노는 그녀를 본 사람이라면 누구도 그녀를 장차 여주인공이 될 아이라고는 부르지 않았을 거예요.",
+            "실제로 오빠들과 크리켓을 하며 노는 그녀를 본 사람이라면 누구도 장차 여주인공이 될 아이라고는 부르지 않았을 거예요.",
         },
       ],
       [
@@ -19624,7 +19624,7 @@ export const lessons: Lesson[] = [
           id: "na-8",
           text: "At seventeen, she was, on the whole, a pleasant, good-humored girl, with a fresh, healthy look about her.",
           translation:
-            "열일곱 살이 된 그녀는 전체적으로 유쾌하고 성격 좋은 아가씨로, 산뜻하고 건강한 인상을 지니고 있었어요.",
+            "열일곱 살이 되자, 전체적으로 유쾌하고 성격 좋은 아가씨로 산뜻하고 건강한 인상을 지니고 있었어요.",
         },
       ],
       [
@@ -19632,18 +19632,18 @@ export const lessons: Lesson[] = [
           id: "na-9",
           text: "Better still, her mind, like her looks, was forming for the better: she began to read exactly the kind of books a heroine ought to read.",
           translation:
-            "더 다행스럽게도 외모와 마찬가지로 그녀의 마음도 점점 나아지고 있었어요. 그녀는 여주인공이라면 마땅히 읽어야 할 바로 그런 책들을 읽기 시작했지요.",
+            "더 다행스럽게도 외모와 마찬가지로 마음도 점점 나아지고 있었어요. 여주인공이라면 마땅히 읽어야 할 바로 그런 책들을 읽기 시작했지요.",
         },
         {
           id: "na-10",
           text: "She learned useful little quotations from the poets — lines about disappointed love and a broken heart, which are such a comfort to a young lady in distress.",
           translation:
-            "그녀는 시인들의 쓸모 있는 구절들, 이룰 수 없는 사랑과 찢어진 마음에 관한 구절들을 배웠는데, 그런 구절들은 괴로움에 빠진 젊은 숙녀에게 더없이 큰 위안이 되는 법이었어요.",
+            "시인들의 쓸모 있는 구절들, 이룰 수 없는 사랑과 찢어진 마음에 관한 구절들을 배웠는데, 그런 구절들은 괴로움에 빠진 젊은 숙녀에게 더없이 큰 위안이 되는 법이었어요.",
         },
         {
           id: "na-11",
           text: "So far, then, she had all the makings of a real heroine.",
-          translation: "그렇게 지금까지는, 그녀도 진짜 여주인공이 될 모든 자질을 갖추고 있었던 셈이에요.",
+          translation: "그렇게 지금까지는, 진짜 여주인공이 될 모든 자질을 갖추고 있었던 셈이에요.",
         },
       ],
       [
@@ -19651,13 +19651,13 @@ export const lessons: Lesson[] = [
           id: "na-12",
           text: "What she still lacked was any real adventure at all: no lord had fallen in love with her, and no strange old castle had ever crossed her path.",
           translation:
-            "다만 그녀에게 아직 없는 것은 진짜 모험뿐이었어요. 그녀를 사랑하게 된 귀족도, 그녀의 앞을 가로막는 기이한 옛 성도 없었으니까요.",
+            "다만 그녀에게 아직 없는 것은 진짜 모험뿐이었어요. 사랑하게 된 귀족도, 앞을 가로막는 기이한 옛 성도 없었으니까요.",
         },
         {
           id: "na-13",
           text: "Her family, unfortunately, were not the least bit romantic; her father did not keep her locked away, and her mother was very much alive and in excellent health.",
           translation:
-            "안타깝게도 그녀의 가족은 조금도 낭만적이지 않았어요. 아버지는 그녀를 가두어 기르지 않았고, 어머니는 멀쩡히 살아 계셨을 뿐 아니라 더없이 건강했지요.",
+            "안타깝게도 그녀의 가족은 조금도 낭만적이지 않았어요. 아버지는 가두어 기르지 않았고, 어머니는 멀쩡히 살아 계셨을 뿐 아니라 더없이 건강했지요.",
         },
         {
           id: "na-14",
@@ -19694,7 +19694,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "여주인공",
         example: "No one would have guessed she was born to be a heroine.",
-        exampleTranslation: "그녀가 여주인공으로 태어났으리라고는 아무도 짐작하지 못했을 거예요.",
+        exampleTranslation: "캐서린이 여주인공으로 태어났으리라고는 아무도 짐작하지 못했을 거예요.",
       },
       {
         id: "na-v2",
@@ -19710,7 +19710,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "설득하다",
         example: "She could never be persuaded to learn music.",
-        exampleTranslation: "그녀는 결코 음악을 배우도록 설득되지 않았어요.",
+        exampleTranslation: "캐서린은 결코 음악을 배우도록 설득되지 않았어요.",
       },
       {
         id: "na-v4",
@@ -19726,7 +19726,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "극적인",
         example: "She left for Bath with nothing more dramatic than a full trunk.",
-        exampleTranslation: "그녀는 가득 찬 트렁크 하나 말고는 극적일 것 없이 배스로 떠났어요.",
+        exampleTranslation: "캐서린은 가득 찬 트렁크 하나 말고는 극적일 것 없이 배스로 떠났어요.",
       },
     ],
     questions: [
@@ -20033,13 +20033,13 @@ export const lessons: Lesson[] = [
           id: "tk-4",
           text: "In that house worked a kitchen maid named Suni, who woke before dawn and worked hard all day.",
           translation:
-            "그 집에는 순이라는 부엌 하녀가 일하고 있었는데, 그녀는 새벽이 되기 전에 일어나 하루 종일 열심히 일했어요.",
+            "그 집에는 순이라는 부엌 하녀가 일하고 있었는데, 새벽이 되기 전에 일어나 하루 종일 열심히 일했어요.",
         },
         {
           id: "tk-5",
           text: "Tokgabi watched her quietly from his hiding place in the flue and decided she deserved a reward.",
           translation:
-            "도깨비는 굴뚝 속 숨은 자리에서 조용히 그녀를 지켜보다가, 그녀가 상을 받을 자격이 있다고 생각했어요.",
+            "도깨비는 굴뚝 속 숨은 자리에서 조용히 그녀를 지켜보다가, 상을 받을 자격이 있다고 생각했어요.",
         },
       ],
       [
@@ -20051,7 +20051,7 @@ export const lessons: Lesson[] = [
         {
           id: "tk-7",
           text: "He also swept the kitchen floor and stacked the firewood neatly by the stove.",
-          translation: "그는 부엌 바닥을 쓸고, 아궁이 옆에 장작을 가지런히 쌓아 두기도 했어요.",
+          translation: "부엌 바닥을 쓸고, 아궁이 옆에 장작을 가지런히 쌓아 두기도 했어요.",
         },
         {
           id: "tk-8",
@@ -20075,14 +20075,14 @@ export const lessons: Lesson[] = [
         {
           id: "tk-11",
           text: "He tangled her hair while she slept and hid her broom right when she needed it most.",
-          translation: "그는 그녀가 자는 동안 머리카락을 엉키게 하고, 빗자루가 가장 필요할 때 숨겨 버렸어요.",
+          translation: "그녀가 자는 동안 머리카락을 엉키게 하고, 빗자루가 가장 필요할 때 숨겨 버렸어요.",
         },
       ],
       [
         {
           id: "tk-12",
           text: "Night after night, she grew so tired of the noise that she finally began to work harder, just for some peace.",
-          translation: "밤마다 계속되는 소란에 지친 그녀는 마침내 조용히 지내고 싶어서라도 더 열심히 일하기 시작했어요.",
+          translation: "밤마다 계속되는 소란에 지쳐, 마침내 조용히 지내고 싶어서라도 더 열심히 일하기 시작했어요.",
         },
         {
           id: "tk-13",
@@ -20125,7 +20125,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "불평하다",
         example: "She spent her days complaining and taking naps instead of working.",
-        exampleTranslation: "그녀는 일하는 대신 하루 종일 불평만 하고 낮잠만 잤어요.",
+        exampleTranslation: "게으른 하녀는 일하는 대신 하루 종일 불평만 하고 낮잠만 잤어요.",
       },
       {
         id: "tk-v3",
@@ -20133,7 +20133,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "엉키게 하다",
         example: "He tangled her hair while she slept.",
-        exampleTranslation: "그는 그녀가 자는 동안 머리카락을 엉키게 했어요.",
+        exampleTranslation: "도깨비는 그녀가 자는 동안 머리카락을 엉키게 했어요.",
       },
       {
         id: "tk-v4",
@@ -20223,7 +20223,7 @@ export const lessons: Lesson[] = [
           id: "rb-2",
           text: "They were waiting for their cousin Rose, who was finally coming home after several years of traveling abroad with her uncle.",
           translation:
-            "그들은 사촌 로즈를 기다리고 있었는데, 그녀는 삼촌과 함께 몇 년 동안 해외를 여행하다가 드디어 집으로 돌아오는 길이었어요.",
+            "그들은 사촌 로즈를 기다리고 있었는데, 삼촌과 함께 몇 년 동안 해외를 여행하다가 드디어 집으로 돌아오는 길이었어요.",
         },
         {
           id: "rb-3",
@@ -20276,7 +20276,7 @@ export const lessons: Lesson[] = [
           id: "rb-10",
           text: "\"I want to do useful work in the world,\" she said, \"and help people who have less than I do.\"",
           translation:
-            "\"저는 세상에 쓸모 있는 일을 하고 싶어요.\" 그녀가 말했어요. \"그리고 저보다 가진 것이 적은 사람들을 돕고 싶고요.\"",
+            "\"저는 세상에 쓸모 있는 일을 하고 싶어요.\" 말했어요. \"그리고 저보다 가진 것이 적은 사람들을 돕고 싶고요.\"",
         },
         {
           id: "rb-11",
@@ -20301,7 +20301,7 @@ export const lessons: Lesson[] = [
         {
           id: "rb-14",
           text: "Even Charlie's teasing could not spoil her enthusiasm, and soon the whole room was drawn into the conversation.",
-          translation: "찰리의 놀림조차 그녀의 열정을 꺾지 못했고, 곧 방 안 모두가 그 이야기에 빠져들었어요.",
+          translation: "찰리의 놀림조차 열정을 꺾지 못했고, 곧 방 안 모두가 그 이야기에 빠져들었어요.",
         },
       ],
       [
@@ -20315,7 +20315,7 @@ export const lessons: Lesson[] = [
           id: "rb-16",
           text: "\"You seem hearty and happy,\" he said, \"not just pretty — and that matters more, I think.\"",
           translation:
-            "\"당신은 건강하고 활기차 보여요.\" 그가 말했어요. \"그저 예쁘기만 한 게 아니라요. 저는 그게 더 중요하다고 생각해요.\"",
+            "\"당신은 건강하고 활기차 보여요.\" 말했어요. \"그저 예쁘기만 한 게 아니라요. 저는 그게 더 중요하다고 생각해요.\"",
         },
         {
           id: "rb-17",
@@ -20348,7 +20348,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "열정, 열의",
         example: "Even Charlie's teasing could not spoil her enthusiasm.",
-        exampleTranslation: "찰리의 놀림조차 그녀의 열정을 꺾지 못했어요.",
+        exampleTranslation: "찰리의 놀림조차 로즈의 열정을 꺾지 못했어요.",
       },
       {
         id: "rb-v4",
@@ -20356,7 +20356,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "adjective",
         translation: "건강하고 활기찬",
         example: "\"You seem hearty and happy,\" he said.",
-        exampleTranslation: "\"당신은 건강하고 활기차 보여요.\" 그가 말했어요.",
+        exampleTranslation: "\"당신은 건강하고 활기차 보여요.\" 맥이 말했어요.",
       },
       {
         id: "rb-v5",
@@ -20364,7 +20364,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "장식품",
         example: "She meant to be something more than an ornament in the family parlor.",
-        exampleTranslation: "그녀는 가족 응접실의 장식품 이상이 되고 싶어 했어요.",
+        exampleTranslation: "로즈는 가족 응접실의 장식품 이상이 되고 싶어 했어요.",
       },
     ],
     questions: [
@@ -20663,7 +20663,7 @@ export const lessons: Lesson[] = [
         {
           id: "snc-5",
           text: "Then he saw a huge stone statue standing among the trees.",
-          translation: "그때 그는 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
+          translation: "그때 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
         },
         {
           id: "snc-6",
@@ -20688,12 +20688,12 @@ export const lessons: Lesson[] = [
         {
           id: "snc-9",
           text: "So he climbed up the statue's arm and stepped onto its great stone nose.",
-          translation: "그래서 그는 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
+          translation: "그래서 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
         },
         {
           id: "snc-10",
           text: "As he reached for the pear, his foot tickled the inside of the statue's nostril.",
-          translation: "배를 향해 손을 뻗는 동안, 그의 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
+          translation: "배를 향해 손을 뻗는 동안, 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
         },
         {
           id: "snc-11",
@@ -20706,7 +20706,7 @@ export const lessons: Lesson[] = [
           id: "snc-12",
           text: "The sneeze threw Kim high into the air, and he landed in a soft bush far below.",
           translation:
-            "그 재채기는 김씨를 공중 높이 날려 버렸고, 그는 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
+            "그 재채기는 김씨를 공중 높이 날려 버렸고, 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
         },
         {
           id: "snc-13",
@@ -20717,7 +20717,7 @@ export const lessons: Lesson[] = [
           id: "snc-14",
           text: "He laughed all the way home and told his family the strangest story they had ever heard.",
           translation:
-            "그는 집에 가는 내내 웃었고, 가족에게 그들이 이제껏 들어본 것 중 가장 이상한 이야기를 들려주었어요.",
+            "집에 가는 내내 웃었고, 가족에게 그들이 이제껏 들어본 것 중 가장 이상한 이야기를 들려주었어요.",
         },
       ],
     ],
@@ -20728,7 +20728,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "noun",
         translation: "조각상, 동상",
         example: "He saw a huge stone statue standing among the trees.",
-        exampleTranslation: "그는 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
+        exampleTranslation: "김씨는 나무들 사이에 서 있는 거대한 돌 조각상을 보았어요.",
       },
       {
         id: "snc-v2",
@@ -20736,7 +20736,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "오르다, 올라가다",
         example: "So he climbed up the statue's arm and stepped onto its great stone nose.",
-        exampleTranslation: "그래서 그는 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
+        exampleTranslation: "그래서 김씨는 조각상의 팔을 타고 올라가 크고 단단한 코 위에 올라섰어요.",
       },
       {
         id: "snc-v3",
@@ -20744,7 +20744,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "간지럽히다",
         example: "His foot tickled the inside of the statue's nostril.",
-        exampleTranslation: "그의 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
+        exampleTranslation: "김씨의 발이 조각상의 콧구멍 안쪽을 간지럽혔어요.",
       },
       {
         id: "snc-v4",
@@ -20760,7 +20760,7 @@ export const lessons: Lesson[] = [
         partOfSpeech: "verb",
         translation: "떨어지다, 착지하다",
         example: "He landed in a soft bush far below.",
-        exampleTranslation: "그는 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
+        exampleTranslation: "김씨는 저 아래 멀리 있는 부드러운 덤불에 떨어졌어요.",
       },
     ],
     questions: [
@@ -21262,7 +21262,7 @@ export const lessons: Lesson[] = [
           id: "egg-3",
           text: "Her gray stone house stood among bird-cherry trees, and it still had an old vaulted chapel that had once been part of a convent, long before the wars of the seventeenth century.",
           translation:
-            "회색 돌로 지어진 그녀의 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
+            "회색 돌로 지어진 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
         },
       ],
       [
@@ -21281,7 +21281,7 @@ export const lessons: Lesson[] = [
           id: "egg-6",
           text: "She was far happier outside among plants and birds than indoors among servants and furniture, and she made no secret of it.",
           translation:
-            "그녀는 하인들과 가구로 둘러싸인 실내보다 식물과 새들이 있는 바깥에서 훨씬 더 행복했고, 그 사실을 조금도 숨기지 않았어요.",
+            "하인들과 가구로 둘러싸인 실내보다 식물과 새들이 있는 바깥에서 훨씬 더 행복했고, 그 사실을 조금도 숨기지 않았어요.",
         },
       ],
       [
@@ -21289,7 +21289,7 @@ export const lessons: Lesson[] = [
           id: "egg-7",
           text: "She admitted, almost proudly, that she would abandon any duty at all for an hour with a book of poetry beneath the trees.",
           translation:
-            "그녀는 나무 아래에서 시집 한 권을 읽는 한 시간을 위해서라면 어떤 의무든 저버릴 수 있다고, 거의 자랑스럽게 인정했어요.",
+            "나무 아래에서 시집 한 권을 읽는 한 시간을 위해서라면 어떤 의무든 저버릴 수 있다고, 거의 자랑스럽게 인정했어요.",
         },
         {
           id: "egg-8",
@@ -21308,13 +21308,13 @@ export const lessons: Lesson[] = [
           id: "egg-10",
           text: "For years, her husband — whom she called, half fondly, \"the Man of Wrath\" — refused to see the charm of the old country house and kept the family living in town instead.",
           translation:
-            "그녀가 반쯤은 다정하게 진노의 남자라고 부르던 남편은, 여러 해 동안 이 오래된 시골집의 매력을 알아보지 못하고 가족을 계속 도시에서 살게 했어요.",
+            "엘리자베스가 반쯤은 다정하게 진노의 남자라고 부르던 남편은, 여러 해 동안 이 오래된 시골집의 매력을 알아보지 못하고 가족을 계속 도시에서 살게 했어요.",
         },
         {
           id: "egg-11",
           text: "Only after five years did he finally agree to visit, just as Elizabeth was pulling the garden back from its wild neglect with her own hands.",
           translation:
-            "오 년이 지나서야 그는 마침내 방문하기로 했는데, 마침 엘리자베스가 두 손으로 직접 정원을 오랜 방치에서 되살려 내고 있던 때였어요.",
+            "오 년이 지나서야 마침내 방문하기로 했는데, 마침 엘리자베스가 두 손으로 직접 정원을 오랜 방치에서 되살려 내고 있던 때였어요.",
         },
         {
           id: "egg-12",
@@ -21340,12 +21340,12 @@ export const lessons: Lesson[] = [
           id: "egg-15",
           text: "She loved the owls that seemed to talk to one another above her head at dusk, the bird-cherry trees wreathed all over in white blossom, and the great clouds of lilac that made the garden look dressed for a wedding.",
           translation:
-            "그녀는 해질 무렵 머리 위에서 서로 이야기를 나누는 듯한 부엉이들과, 하얀 꽃으로 온통 뒤덮인 야생 벚나무들, 그리고 정원을 마치 결혼식장처럼 보이게 하는 커다란 라일락 무리를 사랑했어요.",
+            "해질 무렵 머리 위에서 서로 이야기를 나누는 듯한 부엉이들과, 하얀 꽃으로 온통 뒤덮인 야생 벚나무들, 그리고 정원을 마치 결혼식장처럼 보이게 하는 커다란 라일락 무리를 사랑했어요.",
         },
         {
           id: "egg-16",
           text: "Deep in the pine forest nearby, she found a silence so complete it felt almost sacred.",
-          translation: "가까운 소나무 숲 깊은 곳에서, 그녀는 거의 신성하게 느껴질 만큼 완전한 고요함을 발견했어요.",
+          translation: "가까운 소나무 숲 깊은 곳에서, 거의 신성하게 느껴질 만큼 완전한 고요함을 발견했어요.",
         },
         {
           id: "egg-17",
@@ -21374,7 +21374,7 @@ export const lessons: Lesson[] = [
         example:
           "Her gray stone house stood among bird-cherry trees, and it still had an old vaulted chapel that had once been part of a convent, long before the wars of the seventeenth century.",
         exampleTranslation:
-          "회색 돌로 지어진 그녀의 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
+          "회색 돌로 지어진 집은 야생 벚나무들 사이에 서 있었고, 17세기 전쟁이 있기 훨씬 전 수녀원의 일부였던 오래된 둥근 천장의 예배당도 여전히 남아 있었어요.",
       },
       {
         id: "egg-v3",
@@ -21525,7 +21525,7 @@ export const lessons: Lesson[] = [
         {
           id: "tg-10",
           text: "She knelt beside a clear brook and saw her own new face in the water for the first time.",
-          translation: "그녀는 맑은 시냇가에 무릎을 꿇고, 물속에 비친 자신의 새로운 얼굴을 처음으로 보았어요.",
+          translation: "맑은 시냇가에 무릎을 꿇고, 물속에 비친 자신의 새로운 얼굴을 처음으로 보았어요.",
         },
         {
           id: "tg-11",
@@ -21549,13 +21549,13 @@ export const lessons: Lesson[] = [
         {
           id: "tg-14",
           text: "When he was grown, he called the people of the land to gather beneath a great sandalwood tree.",
-          translation: "그가 다 자라자, 그는 그 땅의 사람들을 커다란 박달나무 아래로 불러 모았어요.",
+          translation: "그가 다 자라자, 그 땅의 사람들을 커다란 박달나무 아래로 불러 모았어요.",
         },
         {
           id: "tg-15",
           text: "\"I have come from my ancestors in Heaven to rule over you, my children,\" he told them.",
           translation:
-            "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 그가 말했어요.",
+            "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 말했어요.",
         },
       ],
       [
@@ -21563,7 +21563,7 @@ export const lessons: Lesson[] = [
           id: "tg-16",
           text: "The people saw that he spoke the truth, and they made him their king, calling him Tan-gun — Prince Sandalwood.",
           translation:
-            "사람들은 그의 말이 진실임을 알고 그를 왕으로 삼았으며, 그를 단군, 곧 박달나무 왕자라고 불렀어요.",
+            "사람들은 그의 말이 진실임을 알고 왕으로 삼았으며, 단군, 곧 박달나무 왕자라고 불렀어요.",
         },
         {
           id: "tg-17",
@@ -21615,7 +21615,7 @@ export const lessons: Lesson[] = [
         translation: "조상",
         example: "\"I have come from my ancestors in Heaven to rule over you, my children,\" he told them.",
         exampleTranslation:
-          "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 그가 말했어요.",
+          "\"나는 하늘에 계신 내 조상들로부터 내려와, 그대들을 다스리러 왔소, 나의 백성들이여\" 하고 말했어요.",
       },
     ],
     questions: [
@@ -21866,6 +21866,416 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "Latimer explains that he does not expect the people who know him to ever understand him — instead he writes for strangers who will read his story after his death, hoping it might win him a little sympathy he never received in life.",
+      },
+    ],
+  },
+  {
+    slug: "the-rabbits-eyes",
+    title: "The Rabbit's Eyes",
+    titleTranslation: "토끼의 눈",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🐇",
+    coverImage: "/covers/the-rabbits-eyes.svg",
+    source:
+      "Adapted from \"The Rabbit's Eyes,\" a trickster tale from William Elliot Griffis's \"Korean Fairy Tales\" (1911; Project Gutenberg #67180) — a sick Dragon King, a doctor turtle sent to fetch a rabbit's eyes, and the clever rabbit who talks his way back to shore. Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the turtle wanted the rabbit's eyes, and how the rabbit tricked his way back to shore.",
+    paragraphs: [
+      [
+        {
+          id: "re-1",
+          text: "Deep under the sea, the Dragon King ruled over a palace built of pearl and coral.",
+          translation: "깊은 바닷속에서, 용왕은 진주와 산호로 지은 궁전을 다스리고 있었어요.",
+        },
+        {
+          id: "re-2",
+          text: "One day, a sharp fisherman's hook caught in his throat, and no one could pull it free.",
+          translation: "어느 날, 날카로운 낚싯바늘이 용왕의 목에 걸렸고, 아무도 그것을 빼내지 못했어요.",
+        },
+        {
+          id: "re-3",
+          text: "The Dragon King groaned with pain, and every creature in the sea grew worried.",
+          translation: "용왕은 고통에 신음했고, 바닷속 모든 생물들이 걱정에 빠졌어요.",
+        },
+      ],
+      [
+        {
+          id: "re-4",
+          text: "The royal doctor was an old, wise turtle, and he studied his medicine books for three long days.",
+          translation: "궁궐의 의원은 늙고 지혜로운 거북이였는데, 사흘 밤낮 동안 의학책을 살펴보았어요.",
+        },
+        {
+          id: "re-5",
+          text: "\"There is only one cure,\" the turtle announced. \"We need the eyes of a rabbit.\"",
+          translation: "\"치료법은 단 하나뿐입니다.\" 거북이가 말했어요. \"토끼의 눈이 필요합니다.\"",
+        },
+        {
+          id: "re-6",
+          text: "\"Ground into medicine, a rabbit's clear eyes will draw the hook safely out,\" he explained.",
+          translation: "\"토끼의 맑은 눈을 갈아 약을 만들면, 그 바늘을 안전하게 빼낼 수 있습니다.\" 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "re-7",
+          text: "So the old turtle swam up to the shore alone, searching for a rabbit.",
+          translation: "그리하여 늙은 거북이는 홀로 물가로 헤엄쳐 올라가, 토끼를 찾아다녔어요.",
+        },
+        {
+          id: "re-8",
+          text: "He found one resting under a pine tree and greeted him warmly.",
+          translation: "거북이는 소나무 아래 쉬고 있는 토끼를 발견하고 다정하게 인사했어요.",
+        },
+        {
+          id: "re-9",
+          text: "\"Friend rabbit,\" the turtle said, \"under the sea there is a palace more beautiful than anything on land.\"",
+          translation: "\"토끼 친구여,\" 거북이가 말했어요. \"바닷속에는 육지의 그 무엇보다도 아름다운 궁전이 있다네.\"",
+        },
+      ],
+      [
+        {
+          id: "re-10",
+          text: "The rabbit had never once left the forest, and his eyes shone with wonder.",
+          translation: "토끼는 숲을 한 번도 떠나 본 적이 없었기에, 눈은 놀라움으로 반짝였어요.",
+        },
+        {
+          id: "re-11",
+          text: "He climbed onto the turtle's back, and together they sank beneath the waves.",
+          translation: "토끼는 거북이의 등에 올라탔고, 둘은 함께 물결 아래로 가라앉았어요.",
+        },
+        {
+          id: "re-12",
+          text: "At the Dragon King's court, the turtle finally admitted the real reason for the visit.",
+          translation: "용왕의 궁전에 이르러서야, 거북이는 마침내 방문의 진짜 이유를 털어놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "re-13",
+          text: "\"Your eyes are needed for the King's medicine,\" he said. \"I am sorry, friend rabbit.\"",
+          translation: "\"당신의 눈이 왕의 약에 필요합니다.\" 말했어요. \"미안하네, 토끼 친구.\"",
+        },
+        {
+          id: "re-14",
+          text: "But the rabbit only laughed and shook his head, not looking worried at all.",
+          translation: "하지만 토끼는 그저 웃으며 고개를 저을 뿐, 전혀 걱정하는 기색이 없었어요.",
+        },
+        {
+          id: "re-15",
+          text: "\"What a pity you did not ask me on land! These plain eyes are only glass — my true eyes are crystal, far too precious to risk on any journey, so I always leave them safely at home on a shelf.\"",
+          translation:
+            "\"육지에서 미리 물어보지 그랬나! 이 평범한 눈은 그저 유리라네. 내 진짜 눈은 수정이라 어떤 여행에도 위험을 무릅쓸 수 없어서, 늘 집 선반 위에 안전하게 두고 다니지.\"",
+        },
+      ],
+      [
+        {
+          id: "re-16",
+          text: "\"Take me back to the shore, and I will fetch my real eyes for you myself.\"",
+          translation: "\"나를 물가로 다시 데려다주면, 내가 직접 진짜 눈을 가져다주겠네.\"",
+        },
+        {
+          id: "re-17",
+          text: "Delighted, the turtle rushed him back to the beach — and the moment his feet touched the sand, the rabbit sprang away into the forest, laughing, his own clear eyes still safely in his head.",
+          translation:
+            "기뻐하며 거북이는 서둘러 토끼를 해변으로 데려다주었어요. 그런데 토끼는 발이 모래에 닿는 순간 웃으며 숲속으로 뛰어올라 사라졌고, 맑은 두 눈은 여전히 안전하게 제자리에 있었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "re-v1",
+        term: "throat",
+        partOfSpeech: "noun",
+        translation: "목, 목구멍",
+        example: "One day, a sharp fisherman's hook caught in his throat, and no one could pull it free.",
+        exampleTranslation: "어느 날, 날카로운 낚싯바늘이 용왕의 목에 걸렸고, 아무도 그것을 빼내지 못했어요.",
+      },
+      {
+        id: "re-v2",
+        term: "cure",
+        partOfSpeech: "noun",
+        translation: "치료법",
+        example: "\"There is only one cure,\" the turtle announced. \"We need the eyes of a rabbit.\"",
+        exampleTranslation: "\"치료법은 단 하나뿐입니다.\" 거북이가 말했어요. \"토끼의 눈이 필요합니다.\"",
+      },
+      {
+        id: "re-v3",
+        term: "shore",
+        partOfSpeech: "noun",
+        translation: "물가, 해안",
+        example: "So the old turtle swam up to the shore alone, searching for a rabbit.",
+        exampleTranslation: "그리하여 늙은 거북이는 홀로 물가로 헤엄쳐 올라가, 토끼를 찾아다녔어요.",
+      },
+      {
+        id: "re-v4",
+        term: "precious",
+        partOfSpeech: "adjective",
+        translation: "귀중한, 소중한",
+        example:
+          "\"What a pity you did not ask me on land! These plain eyes are only glass — my true eyes are crystal, far too precious to risk on any journey, so I always leave them safely at home on a shelf.\"",
+        exampleTranslation:
+          "\"육지에서 미리 물어보지 그랬나! 이 평범한 눈은 그저 유리라네. 내 진짜 눈은 수정이라 어떤 여행에도 위험을 무릅쓸 수 없어서, 늘 집 선반 위에 안전하게 두고 다니지.\"",
+      },
+      {
+        id: "re-v5",
+        term: "sprang",
+        partOfSpeech: "verb",
+        translation: "뛰어오르다",
+        example:
+          "Delighted, the turtle rushed him back to the beach — and the moment his feet touched the sand, the rabbit sprang away into the forest, laughing, his own clear eyes still safely in his head.",
+        exampleTranslation:
+          "기뻐하며 거북이는 서둘러 토끼를 해변으로 데려다주었어요. 그런데 토끼는 발이 모래에 닿는 순간 웃으며 숲속으로 뛰어올라 사라졌고, 맑은 두 눈은 여전히 안전하게 제자리에 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "re-q1",
+        prompt: "Why did the Dragon King need a rabbit's eyes?",
+        options: [
+          "He wanted a rabbit as a pet.",
+          "A fisherman's hook was caught in his throat, and rabbit's eyes were the only cure.",
+          "He wanted to test the turtle's loyalty.",
+          "He was blind and wanted to see again.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A sharp fisherman's hook was caught in the Dragon King's throat and no one could remove it, so the old turtle doctor announced that only medicine ground from a rabbit's clear eyes could draw it safely out.",
+      },
+      {
+        id: "re-q2",
+        prompt: "How did the turtle convince the rabbit to come under the sea?",
+        options: [
+          "He offered the rabbit gold and jewels.",
+          "He challenged the rabbit to a race.",
+          "He told the rabbit about a palace more beautiful than anything on land.",
+          "He threatened to eat the rabbit.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The turtle described an undersea palace more beautiful than anything on land, and the rabbit, who had never once left the forest, was so curious that he climbed onto the turtle's back.",
+      },
+      {
+        id: "re-q3",
+        prompt: "How did the rabbit trick the turtle and escape?",
+        options: [
+          "He said his real eyes were crystal and left safely at home, so the turtle took him back to fetch them.",
+          "He bit the turtle and swam away.",
+          "He fell asleep and the turtle forgot about him.",
+          "He gave the turtle his eyes willingly and then grew new ones.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The rabbit claimed his true eyes were precious crystal ones left safely at home on a shelf, and that the eyes he was wearing were only glass — so the delighted turtle rushed him back to shore, where he sprang away laughing, his real eyes still in his head.",
+      },
+    ],
+  },
+  {
+    slug: "summer-the-library",
+    title: "Summer",
+    titleTranslation: "여름",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "🌿",
+    coverImage: "/covers/summer-the-library.svg",
+    source:
+      "Adapted from the opening of Edith Wharton's novel \"Summer\" (1917; Project Gutenberg #166) — Charity Royall, the village librarian of North Dormer, and the stranger who walks into her library one June afternoon. Wharton (1862–1937) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say who walks into the library, and how Charity feels about North Dormer by the end of the scene.",
+    paragraphs: [
+      [
+        {
+          id: "smw-1",
+          text: "On a warm June afternoon, Charity Royall stood on the doorstep of the only good house in North Dormer.",
+          translation: "따뜻한 6월의 어느 오후, 채리티 로열은 노스도머에서 가장 좋은 집의 현관 앞에 서 있었어요.",
+        },
+        {
+          id: "smw-2",
+          text: "North Dormer was a small, forgotten village, with no railway, no shops, and only one dusty street.",
+          translation: "노스도머는 철도도 상점도 없고, 먼지 낀 거리 하나만 있는 작고 잊혀진 마을이었어요.",
+        },
+        {
+          id: "smw-3",
+          text: "Charity had lived there since she was a child, and lately the quiet village felt smaller every day.",
+          translation: "채리티는 어릴 때부터 그곳에서 살아왔는데, 요즘은 그 조용한 마을이 날마다 더 작게 느껴졌어요.",
+        },
+      ],
+      [
+        {
+          id: "smw-4",
+          text: "Three afternoons a week she unlocked the door of the village library and sat alone among its few, dusty books.",
+          translation:
+            "일주일에 세 번, 오후마다 마을 도서관의 문을 열고 몇 안 되는 먼지 쌓인 책들 사이에 홀로 앉아 있었어요.",
+        },
+        {
+          id: "smw-5",
+          text: "Almost no one in North Dormer ever came to borrow one.",
+          translation: "노스도머에서는 책을 빌리러 오는 사람이 거의 없었어요.",
+        },
+        {
+          id: "smw-6",
+          text: "She kept the library only because Mr. Royall, her guardian, had once been asked to find someone for the job, and no one else wanted it.",
+          translation:
+            "채리티가 도서관을 맡게 된 것은, 후견인인 로열 씨가 예전에 그 일을 할 사람을 구해 달라는 부탁을 받았을 때 아무도 원하지 않았기 때문일 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "smw-7",
+          text: "That afternoon, as she sat with a book open on her knee, the door opened and a stranger walked in.",
+          translation: "그날 오후, 무릎 위에 책을 펼쳐 놓고 앉아 있을 때, 문이 열리며 낯선 남자가 들어왔어요.",
+        },
+        {
+          id: "smw-8",
+          text: "He was young, well-dressed, and clearly from the city — nothing like the farmers she usually saw.",
+          translation: "젊고 옷차림이 단정했으며, 누가 봐도 도시에서 온 사람이었어요. 평소에 보던 농부들과는 전혀 달랐어요.",
+        },
+        {
+          id: "smw-9",
+          text: "\"I'm looking for anything you have on the old houses in this part of the county,\" he said, smiling.",
+          translation: "\"이 지역의 오래된 집들에 관한 자료가 있으면 찾고 있습니다.\" 미소 지으며 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "smw-10",
+          text: "Charity felt her face grow warm, and she was suddenly, painfully aware of her plain dress and rough hands.",
+          translation: "채리티는 얼굴이 화끈거리는 것을 느꼈고, 갑자기 자신의 수수한 옷차림과 거친 손이 몹시 신경 쓰였어요.",
+        },
+        {
+          id: "smw-11",
+          text: "She had never been asked a question like this before, and she had no idea where such books might be kept.",
+          translation: "이런 질문을 받아 본 적이 한 번도 없었고, 그런 책들이 어디에 있는지도 전혀 알지 못했어요.",
+        },
+        {
+          id: "smw-12",
+          text: "\"I — I'm not sure,\" she admitted. \"No one has ever asked me that.\"",
+          translation: "\"저... 잘 모르겠어요.\" 인정했어요. \"지금까지 아무도 그런 걸 물어본 적이 없어서요.\"",
+        },
+      ],
+      [
+        {
+          id: "smw-13",
+          text: "He laughed kindly, not unkindly, and explained that he was an architect, visiting his cousin Miss Hatchard for the summer.",
+          translation: "남자는 다정하게 웃으며, 자신이 건축가이고 여름 동안 사촌인 해처드 양을 방문하러 왔다고 설명했어요.",
+        },
+        {
+          id: "smw-14",
+          text: "He wanted to study the old, forgotten houses scattered around the hills near North Dormer.",
+          translation: "노스도머 근처 언덕 여기저기에 흩어져 있는 오래되고 잊혀진 집들을 연구하고 싶어 했어요.",
+        },
+        {
+          id: "smw-15",
+          text: "Charity searched the shelves slowly, embarrassed, while he waited without any sign of impatience.",
+          translation: "채리티는 당황한 채 천천히 책꽂이를 뒤졌고, 남자는 조급한 기색 없이 기다려 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "smw-16",
+          text: "At last she found one thin, dusty volume, and he thanked her as though she had done him a great favor.",
+          translation: "마침내 채리티는 얇고 먼지 쌓인 책 한 권을 찾아냈고, 남자는 마치 큰 호의라도 받은 것처럼 고마워했어요.",
+        },
+        {
+          id: "smw-17",
+          text: "Long after he had gone, Charity sat still, thinking that North Dormer suddenly felt like a different, more interesting place.",
+          translation: "남자가 떠난 지 한참이 지나도록, 채리티는 가만히 앉아 노스도머가 갑자기 다르고 더 흥미로운 곳처럼 느껴진다고 생각했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "smw-v1",
+        term: "doorstep",
+        partOfSpeech: "noun",
+        translation: "현관, 문간",
+        example: "On a warm June afternoon, Charity Royall stood on the doorstep of the only good house in North Dormer.",
+        exampleTranslation: "따뜻한 6월의 어느 오후, 채리티 로열은 노스도머에서 가장 좋은 집의 현관 앞에 서 있었어요.",
+      },
+      {
+        id: "smw-v2",
+        term: "guardian",
+        partOfSpeech: "noun",
+        translation: "후견인",
+        example:
+          "She kept the library only because Mr. Royall, her guardian, had once been asked to find someone for the job, and no one else wanted it.",
+        exampleTranslation:
+          "채리티가 도서관을 맡게 된 것은, 후견인인 로열 씨가 예전에 그 일을 할 사람을 구해 달라는 부탁을 받았을 때 아무도 원하지 않았기 때문일 뿐이었어요.",
+      },
+      {
+        id: "smw-v3",
+        term: "county",
+        partOfSpeech: "noun",
+        translation: "군, 지역",
+        example: "\"I'm looking for anything you have on the old houses in this part of the county,\" he said, smiling.",
+        exampleTranslation: "\"이 지역의 오래된 집들에 관한 자료가 있으면 찾고 있습니다.\" 미소 지으며 말했어요.",
+      },
+      {
+        id: "smw-v4",
+        term: "architect",
+        partOfSpeech: "noun",
+        translation: "건축가",
+        example: "He laughed kindly, not unkindly, and explained that he was an architect, visiting his cousin Miss Hatchard for the summer.",
+        exampleTranslation: "남자는 다정하게 웃으며, 자신이 건축가이고 여름 동안 사촌인 해처드 양을 방문하러 왔다고 설명했어요.",
+      },
+      {
+        id: "smw-v5",
+        term: "impatience",
+        partOfSpeech: "noun",
+        translation: "조급함",
+        example: "Charity searched the shelves slowly, embarrassed, while he waited without any sign of impatience.",
+        exampleTranslation: "채리티는 당황한 채 천천히 책꽂이를 뒤졌고, 남자는 조급한 기색 없이 기다려 주었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "smw-q1",
+        prompt: "What is Charity Royall's job in North Dormer?",
+        options: [
+          "She teaches at the village school.",
+          "She keeps the small village library, though almost no one visits it.",
+          "She works for the local newspaper.",
+          "She sells books at a shop.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Charity works as the village librarian, unlocking the library three afternoons a week even though almost no one in North Dormer ever comes to borrow a book.",
+      },
+      {
+        id: "smw-q2",
+        prompt: "Why does the stranger visit the library?",
+        options: [
+          "To buy a rare book.",
+          "To ask about old houses in the area, because he is an architect.",
+          "To meet Charity's guardian, Mr. Royall.",
+          "To escape a sudden rainstorm.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The stranger, an architect visiting his cousin for the summer, asks Charity for anything the library has on the old houses in that part of the county.",
+      },
+      {
+        id: "smw-q3",
+        prompt: "How does Charity feel after the stranger leaves?",
+        options: [
+          "Angry that he interrupted her reading.",
+          "Relieved that he did not ask more questions.",
+          "Aware, for the first time, that North Dormer feels like a more interesting place.",
+          "Determined to leave the village immediately.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Long after he has gone, Charity sits thinking that North Dormer suddenly feels like a different, more interesting place — a small but real shift in how she sees her own quiet life.",
       },
     ],
   },
