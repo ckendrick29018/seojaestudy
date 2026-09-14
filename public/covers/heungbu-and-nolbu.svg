@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Heungbu and Nolbu, a traditional Korean folktale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF2EE"/>
+      <stop offset="1" stop-color="#F6D9CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-6 10 Q-30 -6 -46 -28 Q-24 -22 -6 -6 Q2 -34 -6 -58 Q14 -38 12 -8 Q30 -24 50 -30 Q36 -8 12 8 Q22 16 34 14 Q20 26 4 18 Q0 30 -8 34 Q-8 24 -6 10 Z" stroke-width="1.8" fill="#C9A66B" fill-opacity="0.1"/>
+    <circle cx="8" cy="-4" r="1.6" fill="#A9663F" stroke="none"/>
+    <path d="M-40 40 Q0 54 40 40" stroke-width="1.3" opacity="0.55"/>
+  </g>
+
+  <text x="200" y="306" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2C2C2C" letter-spacing="1">흥부와 놀부</text>
+
+  <line x1="150" y1="340" x2="250" y2="340" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="372" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">A kindness to a swallow, repaid</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#C57B57" letter-spacing="1.5">TRADITIONAL KOREAN FOLKTALE</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="1.5">HEUNGBU-JEON &#183; LATE JOSEON ERA</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#C57B57" letter-spacing="3">SEOJAE STORY &#183; FOLKTALES</text>
+</svg>

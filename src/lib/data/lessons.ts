@@ -257,7 +257,10 @@ export const lessons: Lesson[] = [
     topic: "Folktale",
     level: "A2",
     isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Heungbu-jeon, anonymous, late Joseon era)",
     coverEmoji: "🐦",
+    coverImage: "/covers/heungbu-and-nolbu.svg",
     source:
       "Based on Heungbu-jeon (흥부전), an anonymous traditional Korean folktale of unknown authorship believed to date from the late Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story.",
     summaryPrompt: "In 1–2 sentences, describe what Heungbu did for the swallow and what happened afterward.",
@@ -19765,6 +19768,854 @@ export const lessons: Lesson[] = [
         correctIndex: 2,
         explanation:
           "The narrator points out, with gentle irony, that Catherine lacked real adventure: no lord had fallen for her, no strange castle crossed her path, and her family was ordinary and untroubled — nothing like the dramatic lives of novel heroines, until the invitation to Bath finally gives her a chance.",
+      },
+    ],
+  },
+  {
+    slug: "the-unmannerly-tiger",
+    title: "The Unmannerly Tiger",
+    titleTranslation: "버릇없는 호랑이",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🐯",
+    coverImage: "/covers/the-unmannerly-tiger.svg",
+    source:
+      "Adapted from a traditional Korean folktale, retold in English by William Elliot Griffis in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale's original violent ending (the tiger clawing himself to death) is softened to the tiger being freed on the promise of good behavior.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the tiger repaid the priest who saved him, and how the small toad finally outwitted him.",
+    paragraphs: [
+      [
+        {
+          id: "ut-1",
+          text: "Deep in the mountains of Korea, villagers spoke of a great striped tiger they called \"Mountain Uncle.\"",
+          translation:
+            "한국의 깊은 산속에서, 마을 사람들은 커다란 줄무늬 호랑이 한 마리를 산 아저씨라고 부르며 이야기하곤 했어요.",
+        },
+        {
+          id: "ut-2",
+          text: "He was proud of his strength and boasted that no hunter's gun and no trap could ever catch him.",
+          translation:
+            "그는 자신의 힘을 자랑스러워했고, 어떤 사냥꾼의 총도 어떤 덫도 자신을 잡을 수 없다고 큰소리쳤어요.",
+        },
+        {
+          id: "ut-3",
+          text: "But one autumn afternoon, as he padded down a narrow mountain path, he saw what looked like another tiger blocking his way.",
+          translation:
+            "하지만 어느 가을날 오후, 좁은 산길을 걷던 그는 자신의 길을 막고 있는 또 다른 호랑이처럼 보이는 것을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "ut-4",
+          text: "Mountain Uncle sprang forward to fight — and fell straight into a deep pit that hunters had dug and covered with branches.",
+          translation:
+            "산 아저씨는 싸우려고 앞으로 뛰어올랐다가, 사냥꾼들이 나뭇가지로 덮어 파 놓은 깊은 구덩이에 그대로 떨어지고 말았어요.",
+        },
+        {
+          id: "ut-5",
+          text: "He roared and clawed at the walls, but the pit was too deep, and he could not climb out.",
+          translation:
+            "그는 으르렁거리며 벽을 할퀴어 보았지만, 구덩이가 너무 깊어서 밖으로 기어 나올 수 없었어요.",
+        },
+        {
+          id: "ut-6",
+          text: "Just then, an old Buddhist priest walking home from the temple heard his cries.",
+          translation: "바로 그때, 절에서 집으로 돌아가던 늙은 스님이 그의 울부짖는 소리를 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "ut-7",
+          text: "Taking pity on the trapped animal, the priest found a long log and slid it down into the pit for the tiger to climb.",
+          translation:
+            "갇힌 짐승을 불쌍히 여긴 스님은 긴 통나무를 찾아내어 구덩이 안으로 내려 주었고, 호랑이는 그것을 타고 올라올 수 있었어요.",
+        },
+        {
+          id: "ut-8",
+          text: "The moment Mountain Uncle stood free on solid ground again, he said, \"Thank you, priest — and now I am going to eat you, for I am very hungry.\"",
+          translation:
+            "산 아저씨는 단단한 땅 위에 다시 자유로운 몸으로 서자마자 이렇게 말했어요. \"고맙소, 스님. 하지만 이제 당신을 잡아먹어야겠소. 나는 지금 몹시 배가 고프거든.\"",
+        },
+        {
+          id: "ut-9",
+          text: "\"That is no fair reward for saving your life!\" the priest cried. \"Let us ask someone wiser to judge between us.\"",
+          translation:
+            "\"그건 목숨을 구해 준 은혜에 대한 공정한 보답이 아니오!\" 스님이 외쳤어요. \"우리보다 지혜로운 이에게 판단을 맡깁시다.\"",
+        },
+      ],
+      [
+        {
+          id: "ut-10",
+          text: "They asked an old pine tree growing beside the path, and the tree said the tiger's ingratitude was \"bad manners, against the law of the mountain.\"",
+          translation:
+            "둘은 길가에 서 있는 늙은 소나무에게 물었고, 소나무는 호랑이가 은혜를 저버린 것이 예의에 어긋나고 산의 법도에도 어긋나는 짓이라고 말했어요.",
+        },
+        {
+          id: "ut-11",
+          text: "Mountain Uncle did not like this answer, so he asked a great gray rock instead — and the rock agreed with the tree.",
+          translation:
+            "산 아저씨는 이 대답이 마음에 들지 않아 이번에는 커다란 잿빛 바위에게 물었지만, 바위도 소나무와 같은 대답을 했어요.",
+        },
+        {
+          id: "ut-12",
+          text: "Still unsatisfied, the tiger spotted a small toad hopping through the grass and demanded that the toad judge instead.",
+          translation:
+            "그래도 만족하지 못한 호랑이는 풀숲을 뛰어다니는 작은 두꺼비를 발견하고는 이번에는 두꺼비더러 판단하라고 요구했어요.",
+        },
+      ],
+      [
+        {
+          id: "ut-13",
+          text: "The clever toad said he could not decide fairly without seeing the pit with his own eyes, so all three walked back together.",
+          translation:
+            "영리한 두꺼비는 구덩이를 직접 자기 눈으로 봐야 공정하게 판단할 수 있다고 말했고, 셋은 함께 구덩이가 있는 곳으로 돌아갔어요.",
+        },
+        {
+          id: "ut-14",
+          text: "\"Show me exactly how you were sitting when the priest found you,\" said the toad, and the proud tiger jumped back down into the pit to demonstrate.",
+          translation:
+            "\"스님이 당신을 발견했을 때 정확히 어떻게 앉아 있었는지 보여 주시오.\" 두꺼비가 말하자, 자존심 강한 호랑이는 그것을 보여 주려고 다시 구덩이 안으로 뛰어들었어요.",
+        },
+        {
+          id: "ut-15",
+          text: "\"Now run, priest, run!\" the toad called out, and the priest hurried safely away toward the temple gate.",
+          translation:
+            "\"자, 스님, 어서 도망치시오!\" 두꺼비가 외쳤고, 스님은 서둘러 절 문 쪽으로 안전하게 달아났어요.",
+        },
+      ],
+      [
+        {
+          id: "ut-16",
+          text: "Mountain Uncle roared with fury, clawing at the walls again, but the pit held him fast just as before.",
+          translation:
+            "산 아저씨는 화가 나서 으르렁거리며 다시 벽을 할퀴었지만, 구덩이는 전과 다름없이 그를 단단히 가두어 두었어요.",
+        },
+        {
+          id: "ut-17",
+          text: "By morning, tired and ashamed, he promised the hunters who found him that he would never trouble a traveler again if they let him go free.",
+          translation:
+            "아침이 되자, 지치고 부끄러워진 호랑이는 자신을 발견한 사냥꾼들에게 풀어 주면 다시는 나그네를 괴롭히지 않겠다고 약속했어요.",
+        },
+        {
+          id: "ut-18",
+          text: "From that day on, villagers in Kang Wen told the story often, laughing that even the mightiest tiger in the mountains could be outwitted by one small, patient toad.",
+          translation:
+            "그날 이후로 강원도 마을 사람들은 이 이야기를 자주 나누며, 산속에서 가장 힘센 호랑이조차 작고 참을성 있는 두꺼비의 꾀에 넘어갈 수 있다는 사실에 웃음 짓곤 했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ut-v1",
+        term: "boast",
+        partOfSpeech: "verb",
+        translation: "자랑하다, 큰소리치다",
+        example: "He was proud of his strength and boasted that no trap could ever catch him.",
+        exampleTranslation: "그는 자신의 힘을 자랑스러워했고, 어떤 덫도 자신을 잡을 수 없다고 큰소리쳤어요.",
+      },
+      {
+        id: "ut-v2",
+        term: "manners",
+        partOfSpeech: "noun",
+        translation: "예의, 매너",
+        example: "The tree said the tiger's ingratitude was bad manners, against the law of the mountain.",
+        exampleTranslation: "소나무는 호랑이가 은혜를 저버린 것을 예의에 어긋나는 짓이라고 말했어요.",
+      },
+      {
+        id: "ut-v3",
+        term: "judge",
+        partOfSpeech: "verb",
+        translation: "판단하다, 심판하다",
+        example: "Let us ask someone wiser to judge between us.",
+        exampleTranslation: "우리보다 지혜로운 이에게 판단을 맡깁시다.",
+      },
+      {
+        id: "ut-v4",
+        term: "demonstrate",
+        partOfSpeech: "verb",
+        translation: "보여 주다, 시범을 보이다",
+        example: "The proud tiger jumped back into the pit to demonstrate.",
+        exampleTranslation: "자존심 강한 호랑이는 그것을 보여 주려고 다시 구덩이 안으로 뛰어들었어요.",
+      },
+      {
+        id: "ut-v5",
+        term: "outwit",
+        partOfSpeech: "verb",
+        translation: "꾀로 이기다, 한 수 앞서다",
+        example: "Even the mightiest tiger could be outwitted by one small, patient toad.",
+        exampleTranslation: "가장 힘센 호랑이조차 작고 참을성 있는 두꺼비의 꾀에 넘어갈 수 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ut-q1",
+        prompt: "What happened to Mountain Uncle while he was walking down a mountain path one autumn day?",
+        options: [
+          "He met a hunter and was shot.",
+          "He leaped at what looked like another tiger and fell into a hidden pit.",
+          "He fell asleep and was captured by villagers.",
+          "He got lost and could not find his way home.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Thinking another tiger was blocking his path, he sprang to fight it and landed in a deep pit that hunters had dug and hidden with branches.",
+      },
+      {
+        id: "ut-q2",
+        prompt: "How did the tiger repay the priest who freed him from the pit?",
+        options: [
+          "He thanked the priest and left peacefully.",
+          "He led the priest safely back to the temple.",
+          "He threatened to eat the priest because he was hungry.",
+          "He gave the priest a gift of gold.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "As soon as he was free, Mountain Uncle told the priest he was going to eat him, since he was very hungry — a shockingly unfair reward for being rescued.",
+      },
+      {
+        id: "ut-q3",
+        prompt: "How did the clever toad manage to save the priest?",
+        options: [
+          "He fought the tiger directly.",
+          "He asked the tiger to show exactly how he had been sitting, tricking him back into the pit.",
+          "He called for hunters to come and help.",
+          "He convinced the tiger to apologize.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The toad asked the tiger to demonstrate his exact position in the pit to judge fairly; once the proud tiger jumped back in, the toad told the priest to run to safety.",
+      },
+    ],
+  },
+  {
+    slug: "tokgabi-and-the-kind-maid",
+    title: "Tokgabi and the Kind Maid",
+    titleTranslation: "도깨비와 착한 하녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A1",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🏮",
+    coverImage: "/covers/tokgabi-and-the-kind-maid.svg",
+    source:
+      "Adapted from \"Tokgabi and His Pranks,\" a chapter describing the mischievous Korean house-spirit Tokgabi in William Elliot Griffis's \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. The source chapter describes Tokgabi's traits and customs rather than telling a single plotted story, so this lesson is an original narrative built around them; the retelling and Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Tokgabi treated the hardworking maid differently from the lazy one, and what Koreans traditionally believe keeps his tricks away.",
+    paragraphs: [
+      [
+        {
+          id: "tk-1",
+          text: "Under the warm kitchen floor of an old Korean house lived a mischievous little spirit named Tokgabi.",
+          translation: "오래된 한국 집의 따뜻한 부엌 바닥 아래에는 도깨비라는 짓궂은 작은 요정이 살고 있었어요.",
+        },
+        {
+          id: "tk-2",
+          text: "He loved fire, smoke, and warm, dark corners — but he could not bear anything white.",
+          translation: "그는 불과 연기, 그리고 따뜻하고 어두운 구석을 좋아했지만, 하얀 것은 무엇이든 견디지 못했어요.",
+        },
+        {
+          id: "tk-3",
+          text: "Every night, while the family slept, Tokgabi liked to play tricks, especially on lazy people.",
+          translation: "밤마다 가족들이 잠든 사이, 도깨비는 특히 게으른 사람들에게 장난치는 것을 좋아했어요.",
+        },
+      ],
+      [
+        {
+          id: "tk-4",
+          text: "In that house worked a kitchen maid named Suni, who woke before dawn and worked hard all day.",
+          translation:
+            "그 집에는 순이라는 부엌 하녀가 일하고 있었는데, 그녀는 새벽이 되기 전에 일어나 하루 종일 열심히 일했어요.",
+        },
+        {
+          id: "tk-5",
+          text: "Tokgabi watched her quietly from his hiding place in the flue and decided she deserved a reward.",
+          translation:
+            "도깨비는 굴뚝 속 숨은 자리에서 조용히 그녀를 지켜보다가, 그녀가 상을 받을 자격이 있다고 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "tk-6",
+          text: "So each night, after tired Suni fell asleep, he crept out and finished washing her dishes.",
+          translation: "그래서 밤마다 지친 순이가 잠들고 나면, 그는 슬며시 나와 그녀 대신 설거지를 마쳤어요.",
+        },
+        {
+          id: "tk-7",
+          text: "He also swept the kitchen floor and stacked the firewood neatly by the stove.",
+          translation: "그는 부엌 바닥을 쓸고, 아궁이 옆에 장작을 가지런히 쌓아 두기도 했어요.",
+        },
+        {
+          id: "tk-8",
+          text: "In the morning, Suni was amazed to find her work already done, though she never saw who had done it.",
+          translation:
+            "아침이 되면 순이는 자신의 일이 이미 다 되어 있는 것을 보고 놀랐지만, 누가 그 일을 했는지는 한 번도 보지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "tk-9",
+          text: "Another young servant in the house, however, spent her days complaining and taking naps instead of working.",
+          translation: "하지만 그 집의 또 다른 젊은 하녀는 일하는 대신 하루 종일 불평만 하고 낮잠만 잤어요.",
+        },
+        {
+          id: "tk-10",
+          text: "Tokgabi did not like her at all, so at night he made the rice-pot lids dance and clatter loudly.",
+          translation:
+            "도깨비는 그녀를 전혀 좋아하지 않아서, 밤마다 솥뚜껑들을 시끄럽게 춤추고 덜그럭거리게 만들었어요.",
+        },
+        {
+          id: "tk-11",
+          text: "He tangled her hair while she slept and hid her broom right when she needed it most.",
+          translation: "그는 그녀가 자는 동안 머리카락을 엉키게 하고, 빗자루가 가장 필요할 때 숨겨 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "tk-12",
+          text: "Night after night, she grew so tired of the noise that she finally began to work harder, just for some peace.",
+          translation: "밤마다 계속되는 소란에 지친 그녀는 마침내 조용히 지내고 싶어서라도 더 열심히 일하기 시작했어요.",
+        },
+        {
+          id: "tk-13",
+          text: "Before long, both servants worked hard, and quiet nights returned to the kitchen.",
+          translation: "얼마 지나지 않아 두 하녀 모두 열심히 일하게 되었고, 부엌에는 다시 조용한 밤이 찾아왔어요.",
+        },
+        {
+          id: "tk-14",
+          text: "As for Suni, she noticed that no matter how much rice she cooked, the kitchen jar never seemed to run empty.",
+          translation: "한편 순이는 아무리 밥을 많이 지어도 부엌의 쌀독이 결코 비지 않는다는 것을 알아차렸어요.",
+        },
+      ],
+      [
+        {
+          id: "tk-15",
+          text: "To this day, Korean grandmothers tell children that a bit of red clothing or a little silver keeps Tokgabi's tricks away.",
+          translation:
+            "오늘날까지도 한국의 할머니들은 아이들에게 붉은 옷 한 조각이나 은 조각 하나가 도깨비의 장난을 막아 준다고 이야기해요.",
+        },
+        {
+          id: "tk-16",
+          text: "And that is also why, they say, a spotless white shirt has always been the safest thing to wear in an old Korean house.",
+          translation:
+            "그리고 바로 그래서, 옛 한국 집에서는 티끌 하나 없는 하얀 옷이 언제나 가장 안전한 옷이었다고 말하곤 하지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tk-v1",
+        term: "mischievous",
+        partOfSpeech: "adjective",
+        translation: "짓궂은",
+        example: "Under the kitchen floor lived a mischievous little spirit named Tokgabi.",
+        exampleTranslation: "부엌 바닥 아래에는 도깨비라는 짓궂은 작은 요정이 살고 있었어요.",
+      },
+      {
+        id: "tk-v2",
+        term: "complain",
+        partOfSpeech: "verb",
+        translation: "불평하다",
+        example: "She spent her days complaining and taking naps instead of working.",
+        exampleTranslation: "그녀는 일하는 대신 하루 종일 불평만 하고 낮잠만 잤어요.",
+      },
+      {
+        id: "tk-v3",
+        term: "tangle",
+        partOfSpeech: "verb",
+        translation: "엉키게 하다",
+        example: "He tangled her hair while she slept.",
+        exampleTranslation: "그는 그녀가 자는 동안 머리카락을 엉키게 했어요.",
+      },
+      {
+        id: "tk-v4",
+        term: "empty",
+        partOfSpeech: "adjective",
+        translation: "빈, 비어 있는",
+        example: "The kitchen jar never seemed to run empty.",
+        exampleTranslation: "부엌의 쌀독이 결코 비지 않는 것 같았어요.",
+      },
+      {
+        id: "tk-v5",
+        term: "spotless",
+        partOfSpeech: "adjective",
+        translation: "티끌 하나 없는",
+        example: "A spotless white shirt was the safest thing to wear.",
+        exampleTranslation: "티끌 하나 없는 하얀 옷이 가장 안전한 옷이었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tk-q1",
+        prompt: "Why did Tokgabi decide that Suni deserved a reward?",
+        options: [
+          "She gave him a gift of silver.",
+          "She woke before dawn and worked hard all day without complaint.",
+          "She was the only one who could see him.",
+          "She sang songs that Tokgabi loved.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Tokgabi watched Suni quietly and noticed how hard she worked every day, so he decided to secretly help her by finishing her chores at night.",
+      },
+      {
+        id: "tk-q2",
+        prompt: "What kind of tricks did Tokgabi play on the lazy servant?",
+        options: [
+          "He hid her food.",
+          "He made the rice-pot lids dance, tangled her hair, and hid her broom.",
+          "He locked her outside the house.",
+          "He set her clothes on fire.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Because she spent her days complaining and napping, Tokgabi punished her with noisy pranks — clattering lids, tangled hair, and a broom that vanished right when she needed it.",
+      },
+      {
+        id: "tk-q3",
+        prompt: "According to the story, what do Koreans traditionally believe keeps Tokgabi's mischief away?",
+        options: [
+          "Loud music and bright lights.",
+          "A bit of red clothing, a little silver, and spotless white clothes.",
+          "Leaving food outside the door every night.",
+          "Never speaking his name aloud.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The story ends by explaining a real Korean folk belief: a touch of red or silver, and especially clean white clothing, are said to keep Tokgabi's pranks away.",
+      },
+    ],
+  },
+  {
+    slug: "rose-in-bloom",
+    title: "Rose in Bloom",
+    titleTranslation: "꽃피는 로즈",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "🌹",
+    coverImage: "/covers/rose-in-bloom.svg",
+    source:
+      "Adapted from Chapter 1 of Louisa May Alcott's novel \"Rose in Bloom\" (1876; Project Gutenberg #2804; long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Rose announced she wanted to do with her life, and how her cousins reacted.",
+    paragraphs: [
+      [
+        {
+          id: "rb-1",
+          text: "On a chilly October afternoon, three young cousins — Charlie, Archie, and Mac — stood together on the busy wharf, watching for a ship.",
+          translation:
+            "쌀쌀한 10월 오후, 찰리와 아치, 맥이라는 세 젊은 사촌이 북적이는 부두에 함께 서서 배 한 척을 기다리고 있었어요.",
+        },
+        {
+          id: "rb-2",
+          text: "They were waiting for their cousin Rose, who was finally coming home after several years of traveling abroad with her uncle.",
+          translation:
+            "그들은 사촌 로즈를 기다리고 있었는데, 그녀는 삼촌과 함께 몇 년 동안 해외를 여행하다가 드디어 집으로 돌아오는 길이었어요.",
+        },
+        {
+          id: "rb-3",
+          text: "\"I wonder if she is still the same quiet little girl who left us,\" said Archie, watching the harbor.",
+          translation: "\"여전히 우리를 떠날 때 그 조용한 소녀 그대로일까.\" 아치가 항구를 바라보며 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "rb-4",
+          text: "At last the great ship appeared, and among the passengers stepped down Uncle Alec, Rose's dear friend Phebe, and Rose herself.",
+          translation:
+            "마침내 커다란 배가 나타났고, 승객들 사이로 알렉 삼촌과 로즈의 다정한 친구 피비, 그리고 로즈 본인이 내려섰어요.",
+        },
+        {
+          id: "rb-5",
+          text: "The cousins hardly recognized her: the thin, shy girl they remembered had grown into a graceful young woman.",
+          translation:
+            "사촌들은 그녀를 거의 알아보지 못했어요. 그들이 기억하던 마르고 수줍은 소녀는 어느새 우아한 젊은 여성으로 자라 있었거든요.",
+        },
+        {
+          id: "rb-6",
+          text: "There was a moment of awkward silence, as if none of them quite knew how to greet this new, grown-up Rose.",
+          translation:
+            "잠시 어색한 침묵이 흘렀어요. 마치 아무도 이 새롭고 성숙해진 로즈에게 어떻게 인사해야 할지 모르는 것 같았지요.",
+        },
+      ],
+      [
+        {
+          id: "rb-7",
+          text: "But soon everyone was laughing and talking at once, and the whole noisy, happy family made their way home together.",
+          translation:
+            "하지만 곧 모두가 한꺼번에 웃고 떠들기 시작했고, 시끌벅적하고 행복한 가족 전체가 함께 집으로 향했어요.",
+        },
+        {
+          id: "rb-8",
+          text: "That evening, the old family house was full of music, candles, and cousins catching up on years of news.",
+          translation:
+            "그날 저녁, 오래된 가족의 집은 음악과 촛불, 그리고 몇 년 동안의 소식을 나누는 사촌들로 가득했어요.",
+        },
+        {
+          id: "rb-9",
+          text: "Rose surprised everyone by announcing that she did not simply want to marry and keep a quiet house.",
+          translation:
+            "로즈는 자신이 그저 결혼해서 조용한 집안을 꾸리고 싶은 것만은 아니라고 밝혀 모두를 놀라게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "rb-10",
+          text: "\"I want to do useful work in the world,\" she said, \"and help people who have less than I do.\"",
+          translation:
+            "\"저는 세상에 쓸모 있는 일을 하고 싶어요.\" 그녀가 말했어요. \"그리고 저보다 가진 것이 적은 사람들을 돕고 싶고요.\"",
+        },
+        {
+          id: "rb-11",
+          text: "Charlie laughed at this, calling her ideas far too serious for a young lady fresh home from Europe.",
+          translation:
+            "찰리는 이 말에 웃음을 터뜨리며, 유럽에서 갓 돌아온 젊은 숙녀에게는 너무 진지한 생각이라고 말했어요.",
+        },
+        {
+          id: "rb-12",
+          text: "But Mac and Archie listened with real interest, and asked her to explain exactly what kind of work she meant.",
+          translation:
+            "하지만 맥과 아치는 진심으로 흥미를 느끼며, 정확히 어떤 일을 하고 싶은 것인지 설명해 달라고 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "rb-13",
+          text: "Rose spoke about hospitals, schools, and poor families she hoped to help, her eyes bright with the idea.",
+          translation:
+            "로즈는 병원과 학교, 그리고 자신이 돕고 싶은 가난한 가정들에 대해 이야기했는데, 그 생각에 두 눈이 반짝였어요.",
+        },
+        {
+          id: "rb-14",
+          text: "Even Charlie's teasing could not spoil her enthusiasm, and soon the whole room was drawn into the conversation.",
+          translation: "찰리의 놀림조차 그녀의 열정을 꺾지 못했고, 곧 방 안 모두가 그 이야기에 빠져들었어요.",
+        },
+      ],
+      [
+        {
+          id: "rb-15",
+          text: "Later, when the dancing began, Mac found a quiet moment to tell Rose that he liked her far better now than before.",
+          translation:
+            "이후 춤이 시작되었을 때, 맥은 조용한 틈을 찾아 로즈에게 예전보다 지금의 그녀가 훨씬 더 좋다고 말했어요.",
+        },
+        {
+          id: "rb-16",
+          text: "\"You seem hearty and happy,\" he said, \"not just pretty — and that matters more, I think.\"",
+          translation:
+            "\"당신은 건강하고 활기차 보여요.\" 그가 말했어요. \"그저 예쁘기만 한 게 아니라요. 저는 그게 더 중요하다고 생각해요.\"",
+        },
+        {
+          id: "rb-17",
+          text: "Rose smiled, glad that at least one cousin understood that she meant to be something more than an ornament in the family parlor.",
+          translation:
+            "로즈는 미소를 지었어요. 적어도 사촌 하나만큼은 그녀가 그저 가족 응접실의 장식품 이상이 되고 싶어 한다는 것을 이해해 주어서 기뻤어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rb-v1",
+        term: "abroad",
+        partOfSpeech: "adverb",
+        translation: "해외에서, 외국에서",
+        example: "Rose was coming home after several years of traveling abroad.",
+        exampleTranslation: "로즈는 몇 년 동안 해외를 여행하다가 집으로 돌아오는 길이었어요.",
+      },
+      {
+        id: "rb-v2",
+        term: "graceful",
+        partOfSpeech: "adjective",
+        translation: "우아한",
+        example: "The shy girl had grown into a graceful young woman.",
+        exampleTranslation: "수줍은 소녀는 어느새 우아한 젊은 여성으로 자라 있었어요.",
+      },
+      {
+        id: "rb-v3",
+        term: "enthusiasm",
+        partOfSpeech: "noun",
+        translation: "열정, 열의",
+        example: "Even Charlie's teasing could not spoil her enthusiasm.",
+        exampleTranslation: "찰리의 놀림조차 그녀의 열정을 꺾지 못했어요.",
+      },
+      {
+        id: "rb-v4",
+        term: "hearty",
+        partOfSpeech: "adjective",
+        translation: "건강하고 활기찬",
+        example: "\"You seem hearty and happy,\" he said.",
+        exampleTranslation: "\"당신은 건강하고 활기차 보여요.\" 그가 말했어요.",
+      },
+      {
+        id: "rb-v5",
+        term: "ornament",
+        partOfSpeech: "noun",
+        translation: "장식품",
+        example: "She meant to be something more than an ornament in the family parlor.",
+        exampleTranslation: "그녀는 가족 응접실의 장식품 이상이 되고 싶어 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rb-q1",
+        prompt: "Why were Charlie, Archie, and Mac waiting at the wharf?",
+        options: [
+          "They were meeting a business partner.",
+          "They were waiting for their cousin Rose, returning home after years abroad.",
+          "They were waiting to board a ship themselves.",
+          "They were seeing off a friend leaving for Europe.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The three cousins gathered at the busy wharf because Rose, who had spent several years traveling abroad with Uncle Alec, was finally arriving home.",
+      },
+      {
+        id: "rb-q2",
+        prompt: "How had Rose changed since the cousins last saw her?",
+        options: [
+          "She had grown from a thin, shy girl into a graceful young woman.",
+          "She had become sick and frail.",
+          "She had lost interest in her family.",
+          "She had learned to speak a foreign language perfectly.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The cousins hardly recognized her — the thin, shy girl they remembered had grown into a graceful young woman, which caused a moment of awkward silence.",
+      },
+      {
+        id: "rb-q3",
+        prompt: "What did Rose say she wanted to do with her life, and how did Charlie react?",
+        options: [
+          "She wanted to travel more; Charlie encouraged her.",
+          "She wanted to marry quickly; Charlie approved.",
+          "She wanted to do useful, charitable work; Charlie mocked the idea as too serious.",
+          "She wanted to become a singer; Charlie was impressed.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Rose announced she wanted to do useful work and help people with less than herself, but Charlie laughed and called it too serious an idea for a young lady just home from Europe.",
+      },
+    ],
+  },
+  {
+    slug: "the-story-girl",
+    title: "The Story Girl",
+    titleTranslation: "이야기꾼 소녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🍎",
+    coverImage: "/covers/the-story-girl.svg",
+    source:
+      "Adapted from Chapter 1 of L. M. Montgomery's novel \"The Story Girl\" (1911; Project Gutenberg #5342; long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Beverley and Felix came to live on the family homestead, and who the Story Girl is.",
+    paragraphs: [
+      [
+        {
+          id: "stg-1",
+          text: "When their father was sent to work in Rio de Janeiro, brothers Beverley and Felix could not go with him.",
+          translation: "아버지가 리우데자네이루로 일하러 가게 되었을 때, 형제 베벌리와 펠릭스는 함께 갈 수 없었어요.",
+        },
+        {
+          id: "stg-2",
+          text: "Instead, they were sent to Prince Edward Island, to live with Uncle Alec and Aunt Janet on the old family homestead.",
+          translation:
+            "대신 그들은 프린스 에드워드 섬으로 보내져, 알렉 삼촌과 재닛 이모와 함께 오래된 집안 농가에서 지내게 되었어요.",
+        },
+        {
+          id: "stg-3",
+          text: "Their nervous housekeeper worried the whole way about two energetic boys traveling alone by train and boat.",
+          translation:
+            "신경이 예민한 가정부는 기차와 배를 타고 둘이서만 여행하는 활기 넘치는 두 소년을 내내 걱정했어요.",
+        },
+      ],
+      [
+        {
+          id: "stg-4",
+          text: "Yet the moment they reached the weathered old King farmhouse, both boys felt strangely as if they had always belonged there.",
+          translation:
+            "하지만 낡고 비바람에 시달린 킹 가문의 농가에 도착하는 순간, 두 소년은 이상하게도 마치 늘 이곳에 속해 있었던 것처럼 느꼈어요.",
+        },
+        {
+          id: "stg-5",
+          text: "Their cousins Dan, Felicity, and Cecily ran out to greet them, all talking at once.",
+          translation: "사촌 댄과 펠리시티, 세실리가 한꺼번에 떠들며 뛰어나와 그들을 맞이했어요.",
+        },
+        {
+          id: "stg-6",
+          text: "Behind the house stood a famous old orchard, planted long ago by their grandfather, its trees heavy with apples.",
+          translation:
+            "집 뒤편에는 오래전 할아버지가 심은 유명한 과수원이 있었는데, 나무마다 사과가 가득 열려 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "stg-7",
+          text: "\"You should have come yesterday,\" said Felicity. \"Then you could have met the Story Girl too.\"",
+          translation:
+            "\"어제 왔어야 하는 건데.\" 펠리시티가 말했어요. \"그랬으면 이야기꾼 소녀도 만날 수 있었을 텐데.\"",
+        },
+        {
+          id: "stg-8",
+          text: "\"Who is the Story Girl?\" asked Felix, curious at once.",
+          translation: "\"이야기꾼 소녀가 누구야?\" 펠릭스가 곧바로 궁금해하며 물었어요.",
+        },
+        {
+          id: "stg-9",
+          text: "\"That's our cousin Sara,\" said Cecily. \"Everyone calls her that because she can tell the most wonderful stories in the world.\"",
+          translation:
+            "\"우리 사촌 사라 말이야.\" 세실리가 말했어요. \"세상에서 가장 멋진 이야기를 들려줄 수 있어서 다들 그렇게 부르거든.\"",
+        },
+      ],
+      [
+        {
+          id: "stg-10",
+          text: "\"She was so disappointed she missed you,\" Dan added. \"She wanted to be here the very first minute you arrived.\"",
+          translation:
+            "\"그 애는 너희를 못 만나서 무척 아쉬워했어.\" 댄이 덧붙였어요. \"너희가 도착하는 바로 그 순간에 여기 있고 싶어 했거든.\"",
+        },
+        {
+          id: "stg-11",
+          text: "Beverley found himself strangely eager to meet this cousin he had never seen, just from hearing her described that way.",
+          translation:
+            "베벌리는 한 번도 본 적 없는 이 사촌에 대한 이야기를 듣는 것만으로도 이상하게 그녀가 몹시 만나고 싶어졌어요.",
+        },
+        {
+          id: "stg-12",
+          text: "That night, the two brothers climbed to the small bedroom that had once belonged to their own father as a boy.",
+          translation: "그날 밤, 두 형제는 예전에 자신들의 아버지가 어릴 때 쓰던 작은 방으로 올라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "stg-13",
+          text: "Through the open window came the steady, cheerful singing of frogs from the swamp below the orchard.",
+          translation:
+            "열린 창문 너머로 과수원 아래 늪에서 개구리들이 꾸준하고 경쾌하게 우는 소리가 들려왔어요.",
+        },
+        {
+          id: "stg-14",
+          text: "\"Father used to listen to these very same frogs,\" Felix said quietly, lying in the dark.",
+          translation: "\"아버지도 예전에 바로 이 개구리 소리를 들으셨대.\" 펠릭스가 어둠 속에 누운 채 조용히 말했어요.",
+        },
+        {
+          id: "stg-15",
+          text: "Beverley nodded, feeling closer to their far-away father than he had all day.",
+          translation: "베벌리는 고개를 끄덕였어요. 하루 종일보다 그 순간 멀리 있는 아버지가 더 가깝게 느껴졌거든요.",
+        },
+      ],
+      [
+        {
+          id: "stg-16",
+          text: "Just before sleep took him, he wondered whether the mysterious Story Girl would like the two of them.",
+          translation: "잠이 들기 직전, 그는 그 신비로운 이야기꾼 소녀가 자신들 둘을 마음에 들어 할지 궁금해졌어요.",
+        },
+        {
+          id: "stg-17",
+          text: "Outside, the old orchard rustled gently in the night wind, as if it, too, were waiting to see what stories this summer would bring.",
+          translation:
+            "바깥에서는 오래된 과수원이 밤바람에 부드럽게 바스락거렸어요. 마치 과수원도 이번 여름이 어떤 이야기를 가져올지 함께 기다리는 것처럼요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "stg-v1",
+        term: "homestead",
+        partOfSpeech: "noun",
+        translation: "농가, 가족 소유지",
+        example: "They went to live with their aunt and uncle on the old family homestead.",
+        exampleTranslation: "그들은 이모, 삼촌과 함께 오래된 집안 농가에서 지내게 되었어요.",
+      },
+      {
+        id: "stg-v2",
+        term: "orchard",
+        partOfSpeech: "noun",
+        translation: "과수원",
+        example: "Behind the house stood a famous old orchard planted by their grandfather.",
+        exampleTranslation: "집 뒤편에는 할아버지가 심은 유명한 오래된 과수원이 있었어요.",
+      },
+      {
+        id: "stg-v3",
+        term: "weathered",
+        partOfSpeech: "adjective",
+        translation: "낡은, 비바람에 시달린",
+        example: "They reached the weathered old King farmhouse.",
+        exampleTranslation: "그들은 낡고 비바람에 시달린 킹 가문의 농가에 도착했어요.",
+      },
+      {
+        id: "stg-v4",
+        term: "curious",
+        partOfSpeech: "adjective",
+        translation: "궁금한",
+        example: "\"Who is the Story Girl?\" asked Felix, curious at once.",
+        exampleTranslation: "\"이야기꾼 소녀가 누구야?\" 펠릭스가 곧바로 궁금해하며 물었어요.",
+      },
+      {
+        id: "stg-v5",
+        term: "rustle",
+        partOfSpeech: "verb",
+        translation: "바스락거리다",
+        example: "The old orchard rustled gently in the night wind.",
+        exampleTranslation: "오래된 과수원이 밤바람에 부드럽게 바스락거렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "stg-q1",
+        prompt: "Why were Beverley and Felix sent to live with their aunt and uncle?",
+        options: [
+          "Their parents had passed away.",
+          "Their father took a job in Rio de Janeiro and could not take them along.",
+          "They were sent away for misbehaving.",
+          "Their school on Prince Edward Island was better.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Their father was sent to work in Rio de Janeiro, so the boys were sent instead to live with Uncle Alec and Aunt Janet on the family homestead.",
+      },
+      {
+        id: "stg-q2",
+        prompt: "How did the boys feel when they first arrived at the old King farmhouse?",
+        options: [
+          "Homesick and unhappy.",
+          "Bored and indifferent.",
+          "Strangely as if they had always belonged there.",
+          "Frightened of their cousins.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Even though they had never lived there before, the moment they reached the weathered old farmhouse, both boys felt as if they had always belonged.",
+      },
+      {
+        id: "stg-q3",
+        prompt: "Who is \"the Story Girl,\" and why were the boys curious about her?",
+        options: [
+          "A neighbor who sells books in town.",
+          "Their cousin Sara, famous for telling wonderful stories, whom they had not yet met.",
+          "A teacher at their new school.",
+          "Aunt Janet's childhood nickname.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Story Girl is their cousin Sara Stanley, known for telling the most wonderful stories; the boys grew curious about her after hearing how disappointed she was to miss their arrival.",
       },
     ],
   },

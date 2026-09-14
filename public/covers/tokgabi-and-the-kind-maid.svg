@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Tokgabi and the Kind Maid, a traditional Korean folktale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF2EE"/>
+      <stop offset="1" stop-color="#F6D9CE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F2B375" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F2B375" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)">
+    <circle cx="0" cy="0" r="70" fill="url(#glow)"/>
+    <g stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-30 42 L-24 -10 Q-24 -34 0 -34 Q24 -34 24 -10 L30 42" stroke-width="1.9"/>
+      <path d="M-30 42 Q0 54 30 42" stroke-width="1.6"/>
+      <path d="M-12 -8 Q-8 -14 -3 -8 M3 -8 Q8 -14 12 -8" stroke-width="1.4"/>
+      <path d="M-10 8 Q0 14 10 8" stroke-width="1.4"/>
+      <path d="M-24 -12 Q-34 -22 -30 -34 M24 -12 Q34 -22 30 -34" stroke-width="1.4"/>
+    </g>
+    <path d="M-4 -70 Q0 -84 4 -70 Q10 -76 8 -86 Q2 -90 0 -96 Q-2 -90 -8 -86 Q-10 -76 -4 -70 Z" fill="#D98B3F" fill-opacity="0.85" stroke="none"/>
+  </g>
+
+  <text x="200" y="306" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2C2C2C" letter-spacing="1">Tokgabi and the</text>
+  <text x="200" y="340" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2C2C2C" letter-spacing="1">Kind Maid</text>
+
+  <line x1="150" y1="374" x2="250" y2="374" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="406" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">A little mischief, a lot of heart</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#C57B57" letter-spacing="1.5">TRADITIONAL KOREAN FOLKTALE</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="1.5">AFTER W. E. GRIFFIS, 1911</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#C57B57" letter-spacing="3">SEOJAE STORY &#183; FOLKTALES</text>
+</svg>
