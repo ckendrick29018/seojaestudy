@@ -154,6 +154,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 91 | The Star Money | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 17 sentences; "Die Sterntaler" — the orphan girl who gives away her bread and every piece of clothing, then stars fall as silver coins; no softening needed, no peril at all) — non-Potter A1 | ☑ |
 | 92 | A Bridegroom for Miss Mole | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean folktale — a proud mole father asks Sky, Sun, Cloud, and Wind to marry his daughter, each naming something mightier, until Miryek the stone statue names a small mole digging at his feet; no peril, no softening needed) — first Korean-*origin* lesson, `collection: "folktales"` not `"classics"` | ☑ |
 | 93 | The Wild Swans | Hans Christian Andersen (1875) | 1597 | A2 | trimmed (simplified retelling, 18 sentences; "De vilde Svaner" — Elisa's eleven brothers turned to swans, the silent nettle-shirt task, and the near witch-trial; the stake is softened to a generic "led away to be punished") — fresh A2 Andersen pick | ☑ |
+| 102 | The Snow Queen | Hans Christian Andersen (1875) | 1597 | A2 | whole tale compressed (simplified retelling, 17 sentences; "Sneedronningen" — the goblin's shattering mirror, the splinter of glass that turns Kai's heart cold, the Snow Queen's sleigh, and Gerda's search through river, forest, and reindeer country to reach the palace of ice, where her warm tears melt the glass and bring Kai home; the seven-part original is condensed to Gerda's key steps) — the Andersen companion to Fir Tree / Wild Swans flagged in "Good next lessons to build" | ☑ |
 | 94 | The Unmannerly Tiger | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a traditional Korean folktale — the boastful tiger "Mountain Uncle," the priest he threatens after being freed from a hunters' pit, and the toad who tricks him back into it; the original ending — the tiger clawing himself to death — is softened to the tiger being freed at dawn on the promise of good behavior) — second Korean-*origin* lesson, `collection: "folktales"` | ☑ |
 | 95 | Tokgabi and the Kind Maid | William E. Griffis (1928) | 67180 | A1 | original narrative built around "Tokgabi and His Pranks" (simplified retelling, 16 sentences; the source chapter describes the mischievous house-spirit Tokgabi's traits and customs rather than telling one plotted story, so this is an original tale built around them — a hardworking kitchen maid secretly rewarded, a lazy one pranked into working, and the real Korean folk custom of red clothing, silver, and spotless white keeping his mischief away) — third Korean-*origin* lesson, `collection: "folktales"`; new non-Potter A1 | ☑ |
 | 96 | The Sneezing Colossus | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 14 sentences; a traditional Korean folktale — a lazy farmer named Kim is sent up the mountain by his wife to find food, climbs a giant stone Buddha statue to reach a ripe pear near its nose, and is launched into the air by a tremendous sneeze; no peril, no softening needed) — fourth Korean-*origin* lesson, `collection: "folktales"` | ☑ |
@@ -229,10 +230,12 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (99 — 92 classics + 7 folktales):** The Rabbit's Eyes
+- **Live now (100 — 93 classics + 7 folktales):** The Snow Queen (row 102,
+  classics — Andersen's goblin mirror and Gerda's search for Kai, compressed
+  to a single A2 arc) is the newest addition. Before that: The Rabbit's Eyes
   (row 100, folktales — the Dragon King's fisherman's-hook cure and the
   rabbit's crystal-eyes trick) and Summer (row 101, classics — Edith
-  Wharton's North Dormer library scene) are the newest additions. Before
+  Wharton's North Dormer library scene). Before
   that: Prince Sandalwood, the
   Father of Korea (row 98, folktales — Korea's own founding myth, Tan-gun)
   and The Lifted Veil (row 99, a fresh B2 classics pick, George Eliot).
@@ -324,12 +327,13 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 1 close, The Star Money, Northanger Abbey Ch. 1, The Wild Swans,
   Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha),
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
-  (row 99, B2), and Summer (row 101, B2). Classics-shelf bands are now
-  A1 ×18, A2 ×23, B1 ×27, B2 ×24 — 92 live; add the folktales shelf
+  (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
+  Classics-shelf bands are now
+  A1 ×18, A2 ×24, B1 ×27, B2 ×24 — 93 live; add the folktales shelf
   (A1 ×2, A2 ×5 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes) for
-  99 lessons across both shelves. B1 and B2 are now
+  100 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -356,9 +360,10 @@ has a genuine period cover/illustration in the public domain, download that into
     Golden Key**, and **The Star Money** are now live. Next: another kind
     non-peril Grimm (**Mother Hulda / Frau Holle** is done; **The Golden
     Bird** trimmed), or re-level a gentle A2 tale.
-  - A2: **The Fir Tree** and **The Wild Swans** are now live. Next: the
-    Andersen companion **The Snow Queen** Ch. 1, or another *Four Million*
-    story (**The Brief Début of Tildy**).
+  - A2: **The Fir Tree**, **The Wild Swans**, and now **The Snow Queen**
+    (row 102) are live — three Andersen picks. Next: another *Four Million*
+    story (**The Brief Début of Tildy**), or a non-Andersen A2 pick for
+    variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
   - Folktales shelf (7 live: A Bridegroom for Miss Mole, The Unmannerly

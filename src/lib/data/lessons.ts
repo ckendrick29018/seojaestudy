@@ -22279,6 +22279,223 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-snow-queen",
+    title: "The Snow Queen",
+    titleTranslation: "눈의 여왕",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Hans Christian Andersen (1805–1875)",
+    coverEmoji: "❄️",
+    coverImage: "/covers/the-snow-queen.svg",
+    source:
+      "Adapted from Hans Christian Andersen's fairy tale \"The Snow Queen\" (\"Sneedronningen\", first published 1844; long in the public domain, Project Gutenberg #1597). This simplified retelling compresses the full seven-part tale into a single arc, and its Korean translation is original text written for SeoJae Story; Gerda's longer journey is trimmed to its key steps.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what happened to Kai's heart, and how Gerda finally saved him.",
+    paragraphs: [
+      [
+        {
+          id: "sq-1",
+          text: "In an old story, a wicked goblin made a magic mirror. Good things looked ugly in it, and ugly things looked worse.",
+          translation:
+            "옛날이야기 속에서, 못된 도깨비가 마법 거울을 만들었어요. 그 거울에 비치면 좋은 것은 못생겨 보이고, 못생긴 것은 더 흉하게 보였지요.",
+        },
+        {
+          id: "sq-2",
+          text: "One day the mirror broke into a million tiny pieces, and the pieces flew across the world.",
+          translation:
+            "어느 날 거울이 산산조각으로 깨져서, 조각들이 온 세상으로 날아갔어요.",
+        },
+        {
+          id: "sq-3",
+          text: "A tiny piece of glass could fly into a person's eye, or straight into their heart, and turn it as cold as ice.",
+          translation:
+            "아주 작은 유리 조각 하나가 사람의 눈으로 날아들거나 심장으로 곧장 날아들어, 마음을 얼음처럼 차갑게 만들 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sq-4",
+          text: "In a small town lived two children, Kai and Gerda. They were best friends, close as brother and sister.",
+          translation:
+            "어느 작은 마을에, 카이와 게르다라는 두 아이가 살았어요. 둘은 가장 친한 친구였고, 남매처럼 서로를 아꼈지요.",
+        },
+        {
+          id: "sq-5",
+          text: "One winter day, a piece of the magic glass flew into Kai's eye, and another flew into his heart.",
+          translation:
+            "어느 겨울날, 마법 유리 조각 하나가 카이의 눈에, 또 하나는 심장에 날아들었어요.",
+        },
+        {
+          id: "sq-6",
+          text: "From that moment, Kai was not kind anymore. He teased Gerda and said the flowers in their garden were ugly.",
+          translation:
+            "그 순간부터 카이는 더 이상 다정하지 않았어요. 카이는 게르다를 놀리며, 정원의 꽃들이 못생겼다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "sq-7",
+          text: "One snowy evening, Kai tied his sled to a big white sleigh, and it carried him away, faster and faster, out of the town.",
+          translation:
+            "눈 내리던 어느 저녁, 카이는 자기 썰매를 커다란 하얀 썰매에 매달았고, 그 썰매는 점점 더 빠르게 마을 밖으로 카이를 실어 갔어요.",
+        },
+        {
+          id: "sq-8",
+          text: "The sleigh belonged to the Snow Queen — tall, beautiful, and cold as ice. She wrapped Kai in her fur coat and kissed his forehead, and he forgot Gerda completely.",
+          translation:
+            "그 썰매의 주인은 눈의 여왕이었어요. 키가 크고 아름답지만 얼음처럼 차가운 눈의 여왕은, 카이를 자신의 털외투로 감싸고 이마에 입을 맞추어, 게르다를 완전히 잊게 만들었어요.",
+        },
+        {
+          id: "sq-9",
+          text: "Kai did not come home. All winter Gerda waited, and when spring came, she set out alone to find him.",
+          translation:
+            "카이는 집으로 돌아오지 않았어요. 겨우내 게르다는 카이를 기다렸고, 봄이 되자 홀로 카이를 찾아 나섰어요.",
+        },
+      ],
+      [
+        {
+          id: "sq-10",
+          text: "Gerda asked the river, the flowers, and the birds if they had seen Kai, but no one could tell her where he had gone.",
+          translation:
+            "게르다는 강과 꽃들과 새들에게 카이를 보았는지 물었지만, 아무도 카이가 어디로 갔는지 알려 주지 못했어요.",
+        },
+        {
+          id: "sq-11",
+          text: "She crossed cold rivers and dark forests. An old crow led her to a palace, but the prince there was not Kai.",
+          translation:
+            "게르다는 차가운 강과 어두운 숲을 지나갔어요. 늙은 까마귀가 어느 궁전으로 게르다를 이끌었지만, 그곳의 왕자는 카이가 아니었어요.",
+        },
+        {
+          id: "sq-12",
+          text: "At last, a wise old woman who lived among the reindeer told Gerda the way to the Snow Queen's palace of ice.",
+          translation:
+            "마침내 북쪽 순록들 사이에 사는 지혜로운 노파가, 눈의 여왕의 얼음 궁전으로 가는 길을 게르다에게 알려 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "sq-13",
+          text: "Gerda walked on through the snow with bare feet. The cold cut like knives, but she did not turn back.",
+          translation:
+            "게르다는 맨발로 눈 속을 계속 걸었어요. 칼날처럼 매서운 추위에도 발걸음을 멈추지 않았지요.",
+        },
+        {
+          id: "sq-14",
+          text: "At last Gerda found Kai. He was sitting alone on a great frozen lake, trying to spell the word \"eternity\" out of sharp pieces of ice.",
+          translation:
+            "마침내 게르다는 카이를 찾았어요. 카이는 얼어붙은 커다란 호수 위에 홀로 앉아, 날카로운 얼음 조각들로 '영원'이라는 단어를 맞추려 하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "sq-15",
+          text: "Gerda ran to him and burst into tears. Her warm tears fell on his chest and melted the glass in his heart.",
+          translation:
+            "게르다는 카이에게 달려가 울음을 터뜨렸어요. 따뜻한 눈물이 카이의 가슴에 떨어져 심장 속 유리 조각을 녹였지요.",
+        },
+        {
+          id: "sq-16",
+          text: "Kai looked at her and suddenly remembered everything. He cried too, and the piece of glass washed out of his eye with his tears.",
+          translation:
+            "카이는 게르다를 바라보다 문득 모든 것을 기억해 냈어요. 카이도 함께 눈물을 흘리자, 눈 속의 유리 조각도 눈물과 함께 씻겨 나갔어요.",
+        },
+        {
+          id: "sq-17",
+          text: "Hand in hand, Kai and Gerda walked home together. They were not children anymore, but their hearts were still warm and young.",
+          translation:
+            "두 사람은 손을 잡고 함께 집으로 걸어갔어요. 더 이상 어린아이가 아니었지만, 카이와 게르다의 마음은 여전히 따뜻하고 젊었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sq-v1",
+        term: "goblin",
+        partOfSpeech: "noun",
+        translation: "도깨비, 악마 같은 요정",
+        example: "In an old story, a wicked goblin made a magic mirror.",
+        exampleTranslation: "옛날이야기 속에서, 못된 도깨비가 마법 거울을 만들었어요.",
+      },
+      {
+        id: "sq-v2",
+        term: "sleigh",
+        partOfSpeech: "noun",
+        translation: "(눈 위를 달리는) 썰매",
+        example: "Kai tied his sled to a big white sleigh.",
+        exampleTranslation: "카이는 자기 썰매를 커다란 하얀 썰매에 매달았어요.",
+      },
+      {
+        id: "sq-v3",
+        term: "reindeer",
+        partOfSpeech: "noun",
+        translation: "순록",
+        example: "A wise old woman who lived among the reindeer told Gerda the way.",
+        exampleTranslation: "순록들 사이에 사는 지혜로운 노파가 게르다에게 길을 알려 주었어요.",
+      },
+      {
+        id: "sq-v4",
+        term: "eternity",
+        partOfSpeech: "noun",
+        translation: "영원",
+        example: "He was trying to spell the word \"eternity\" out of sharp pieces of ice.",
+        exampleTranslation: "카이는 날카로운 얼음 조각들로 '영원'이라는 단어를 맞추려 하고 있었어요.",
+      },
+      {
+        id: "sq-v5",
+        term: "melt",
+        partOfSpeech: "verb",
+        translation: "녹다, 녹이다",
+        example: "Her warm tears fell on his chest and melted the glass in his heart.",
+        exampleTranslation: "따뜻한 눈물이 카이의 가슴에 떨어져 심장 속 유리 조각을 녹였어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sq-q1",
+        prompt: "What happened to Kai after the piece of magic glass flew into his eye and his heart?",
+        options: [
+          "He became kinder and gentler than before.",
+          "He forgot how to speak.",
+          "He stopped being kind, and began to mock the things he used to love.",
+          "He fell asleep for a hundred years.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The glass turned Kai's heart as cold as ice. He was no longer kind — he teased Gerda and called the garden flowers ugly, things he had loved before.",
+      },
+      {
+        id: "sq-q2",
+        prompt: "Why did Gerda set out from home in the spring?",
+        options: [
+          "To visit her grandmother in another town.",
+          "To find Kai, who had been carried away by the Snow Queen.",
+          "To pick flowers for a festival.",
+          "To follow the crow to its nest.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Kai never came home after the Snow Queen's sleigh carried him away. Gerda waited all winter, and when spring came she left alone to search for him.",
+      },
+      {
+        id: "sq-q3",
+        prompt: "How did Gerda finally save Kai?",
+        options: [
+          "She broke the ice with a hammer.",
+          "She asked the Snow Queen to let him go.",
+          "Her warm tears fell on him and melted the glass in his heart.",
+          "She gave him a warm coat.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When Gerda found Kai and cried, her warm tears melted the splinter of glass in his heart, and the piece in his eye washed out too. He remembered her, and everything came back to him.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
