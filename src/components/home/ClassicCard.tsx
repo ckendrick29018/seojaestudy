@@ -27,7 +27,7 @@ export function ClassicCard({ lesson, complete }: { lesson: Lesson; complete: bo
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={lesson.coverImage}
-            alt=""
+            alt={lesson.author ? `${lesson.title} by ${lesson.author}` : lesson.title}
             className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
           />
         ) : (

@@ -37,6 +37,12 @@ const JSON_LD = {
       description: SITE_DESCRIPTION,
       inLanguage: ["en", "ko"],
       publisher: { "@id": `${SITE_URL}/#org` },
+      hasPart: [
+        { "@id": `${SITE_URL}/classics#page` },
+        { "@id": `${SITE_URL}/library#page` },
+        { "@id": `${SITE_URL}/folktales#page` },
+        { "@id": `${SITE_URL}/learn#page` },
+      ],
     },
     {
       "@type": "Organization",
@@ -132,6 +138,33 @@ export function LandingClient() {
         <p className="mt-2 text-xs text-charcoal/45">{t("landingTrust")}</p>
       </section>
 
+      {/* Start with a classic — the core product, right after the hero so a
+          first-time visitor sees real books before anything else. */}
+      {FEATURED.length > 0 && (
+        <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
+          <h2 className="text-center font-serif text-2xl font-semibold text-charcoal">
+            {t("landingClassicsTitle")}
+          </h2>
+          <p className="mx-auto mt-1.5 max-w-[36ch] text-center text-sm font-medium text-rose/80">
+            {t("landingClassicsPopular")}
+          </p>
+          <p className="mx-auto mb-6 mt-1.5 max-w-[42ch] text-center text-sm text-charcoal/55">
+            {t("landingClassicsBody").replace("{count}", String(CLASSICS_COUNT))}
+          </p>
+          <div className="grid grid-cols-2 gap-3">
+            {FEATURED.slice(0, 4).map((lesson) => (
+              <ClassicCard key={lesson.slug} lesson={lesson} complete={false} />
+            ))}
+          </div>
+          <Link
+            href="/classics"
+            className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline"
+          >
+            {t("landingClassicsSeeAll").replace("{count}", String(CLASSICS_COUNT))}
+          </Link>
+        </section>
+      )}
+
       {/* A look at the reader + flashcards */}
       <LandingPreview />
 
@@ -183,32 +216,6 @@ export function LandingClient() {
           ))}
         </div>
       </section>
-
-      {/* Start with a classic */}
-      {FEATURED.length > 0 && (
-        <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
-          <h2 className="text-center font-serif text-2xl font-semibold text-charcoal">
-            {t("landingClassicsTitle")}
-          </h2>
-          <p className="mx-auto mt-1.5 max-w-[36ch] text-center text-sm font-medium text-rose/80">
-            {t("landingClassicsPopular")}
-          </p>
-          <p className="mx-auto mb-6 mt-1.5 max-w-[42ch] text-center text-sm text-charcoal/55">
-            {t("landingClassicsBody").replace("{count}", String(CLASSICS_COUNT))}
-          </p>
-          <div className="grid grid-cols-2 gap-3">
-            {FEATURED.slice(0, 4).map((lesson) => (
-              <ClassicCard key={lesson.slug} lesson={lesson} complete={false} />
-            ))}
-          </div>
-          <Link
-            href="/classics"
-            className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline"
-          >
-            {t("landingClassicsSeeAll").replace("{count}", String(CLASSICS_COUNT))}
-          </Link>
-        </section>
-      )}
 
       {/* Read it together — book club */}
       <section className="border-t border-rose-light/40 px-6 py-12 text-center">

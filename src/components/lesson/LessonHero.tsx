@@ -21,7 +21,7 @@ export function LessonHero({ lesson }: { lesson: Lesson }) {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={lesson.coverImage}
-          alt=""
+          alt={lesson.author ? `${lesson.title} by ${lesson.author}` : lesson.title}
           className="mx-auto mb-3 h-40 w-auto rounded-xl2 border border-rose-light/60 shadow-soft"
         />
       ) : (
