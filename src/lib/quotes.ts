@@ -151,6 +151,92 @@ export const QUOTES: Quote[] = [
     datePublished: "2026-09-15",
     dateModified: "2026-09-15",
   },
+  {
+    slug: "god-bless-us-every-one",
+    lessonSlug: "a-christmas-carol",
+    workTitle: "A Christmas Carol",
+    author: "Charles Dickens (1812–1870)",
+    quoteEn: "God bless Us, Every One!",
+    quoteKo: "우리 모두에게 신의 축복이 있기를!",
+    speaker: "Tiny Tim",
+    context:
+      "Tiny Tim's Christmas toast, echoed by the narrator in the story's closing line as Scrooge's transformation is complete.",
+    gutenbergId: "46",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
+  {
+    slug: "were-all-mad-here",
+    lessonSlug: "alice-in-wonderland",
+    workTitle: "Alice's Adventures in Wonderland",
+    author: "Lewis Carroll (1832–1898)",
+    quoteEn: "We're all mad here. I'm mad. You're mad.",
+    quoteKo: "우리는 다 미쳤어. 나도 미쳤고, 너도 미쳤어.",
+    speaker: "The Cheshire Cat",
+    context:
+      "The Cheshire Cat's answer when Alice protests that she doesn't want to go among mad people — Wonderland's entire logic in one line.",
+    gutenbergId: "11",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
+  {
+    slug: "handsome-clever-and-rich",
+    lessonSlug: "emma",
+    workTitle: "Emma",
+    author: "Jane Austen (1775–1817)",
+    quoteEn:
+      "Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her.",
+    quoteKo:
+      "엠마 우드하우스는 아름답고 영리하며 부유했다. 안락한 집과 행복한 성품까지 갖추어 인생의 가장 좋은 축복들을 두루 지닌 듯했다. 그녀는 이 세상에 태어난 지 거의 스물한 해가 되었지만, 그녀를 괴롭히는 일이나 슬프게 하는 일은 거의 없었다.",
+    context:
+      "The opening line of Jane Austen's novel, introducing Emma Woodhouse with the same gently ironic touch Austen gave Elizabeth Bennet and Anne Elliot.",
+    gutenbergId: "158",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
+  {
+    slug: "you-pierce-my-soul",
+    lessonSlug: "persuasion",
+    workTitle: "Persuasion",
+    author: "Jane Austen (1775–1817)",
+    quoteEn: "You pierce my soul. I am half agony, half hope.",
+    quoteKo: "당신은 내 영혼을 꿰뚫습니다. 나는 반은 고통이고, 반은 희망입니다.",
+    speaker: "Captain Wentworth",
+    context:
+      "From the letter Captain Wentworth secretly writes to Anne Elliot while pretending to attend to other business — one of the most quoted declarations in English literature.",
+    gutenbergId: "105",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
+  {
+    slug: "a-thistle-cannot-grow",
+    lessonSlug: "the-secret-garden",
+    workTitle: "The Secret Garden",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    quoteEn: "Where you tend a rose, my lad, a thistle cannot grow.",
+    quoteKo: "네가 장미를 돌보는 곳에는, 소년이여, 엉겅퀴가 자랄 수 없단다.",
+    context:
+      "A gardener's rhyme, repeated near the novel's close, as Mary and Colin's care for the secret garden mirrors the story's belief that tending to life can heal it.",
+    gutenbergId: "113",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
+  {
+    slug: "ive-got-out-at-last",
+    lessonSlug: "the-yellow-wallpaper",
+    workTitle: "The Yellow Wallpaper",
+    author: "Charlotte Perkins Gilman (1860–1935)",
+    quoteEn:
+      "I've got out at last, in spite of you and Jane! And I've pulled off most of the paper, so you can't put me back!",
+    quoteKo:
+      "드디어 빠져나왔어요, 당신과 제인이 아무리 말려도! 벽지도 거의 다 뜯어냈으니, 이제 날 다시 가둘 수 없어요!",
+    speaker: "The narrator",
+    context:
+      "The story's unnamed narrator, having fully descended into her delusions, confronts her husband in the story's unsettling final lines.",
+    gutenbergId: "1952",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+  },
 ];
 
 export function getQuote(slug: string): Quote | undefined {

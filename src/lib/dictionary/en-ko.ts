@@ -3318,13 +3318,22 @@ export const EN_KO: Record<string, string> = {
 
   // Quote pages (/quote/*)
   acknowledge: "인정하다",
+  agony: "고통, 괴로움",
+  blessing: "축복",
   borne: "지니다, 짊어지다 (bear의 과거분사)",
   ceaselessly: "끊임없이",
+  disposition: "기질, 성향",
   ensnare: "옭아매다, 덫에 걸리게 하다",
+  existence: "존재",
   independent: "독립적인",
+  lad: "소년, 젊은이",
   nice: "좋은, 멋진, 친절한",
   painful: "고통스러운, 아픈",
   possession: "소유, 소지",
   receive: "받다",
+  spite: "악의, 심술; (in spite of) ~에도 불구하고",
+  thistle: "엉겅퀴",
+  unite: "통합하다, 하나로 합치다",
   universally: "보편적으로, 누구나 다",
+  vex: "괴롭히다, 성가시게 하다",
 };

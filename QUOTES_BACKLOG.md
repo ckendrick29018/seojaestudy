@@ -38,7 +38,7 @@ paired with a fresh Korean translation. Companion doc to `CONTENT_BACKLOG.md`
 
 ---
 
-## Built (8 — seed batch, 2026-09-15)
+## Built (14 — seed batch of 8, 2026-09-15 + batch 2 of 6, 2026-09-15)
 
 | Slug | Work | Line (opening words) | Lesson slug |
 |---|---|---|---|
@@ -50,6 +50,12 @@ paired with a fresh Korean translation. Companion doc to `CONTENT_BACKLOG.md`
 | `whatever-our-souls-are-made-of` | Wuthering Heights | "Whatever our souls are made of..." (Catherine) | `wuthering-heights` |
 | `they-are-the-magi` | The Gift of the Magi | "...They are the magi." (closing line) | `gift-of-the-magi` |
 | `great-and-sudden-change` | Frankenstein | "Nothing is so painful to the human mind..." | `frankenstein` |
+| `god-bless-us-every-one` | A Christmas Carol | "God bless Us, Every One!" (Tiny Tim) | `a-christmas-carol` |
+| `were-all-mad-here` | Alice's Adventures in Wonderland | "We're all mad here. I'm mad. You're mad." | `alice-in-wonderland` |
+| `handsome-clever-and-rich` | Emma | "Emma Woodhouse, handsome, clever, and rich..." | `emma` |
+| `you-pierce-my-soul` | Persuasion | "You pierce my soul. I am half agony, half hope." | `persuasion` |
+| `a-thistle-cannot-grow` | The Secret Garden | "Where you tend a rose, my lad..." | `the-secret-garden` |
+| `ive-got-out-at-last` | The Yellow Wallpaper | "I've got out at last, in spite of you and Jane!..." | `the-yellow-wallpaper` |
 
 ---
 
@@ -59,18 +65,13 @@ High-value picks, chosen for likely search volume; not yet verified against
 source text, so treat the "known" line below as a starting hypothesis to
 confirm, not a citation:
 
-- **A Christmas Carol** (Dickens) — several strong candidates: the "Marley
-  was dead" opening, "Bah! Humbug!", or Tiny Tim's "God bless us, every one!"
-- **Alice's Adventures in Wonderland** (Carroll) — "We're all mad here" or
-  "Curiouser and curiouser!"
-- **Emma** (Austen) — the opening line ("Emma Woodhouse, handsome, clever,
-  and rich...")
-- **Persuasion** (Austen) — Captain Wentworth's letter ("You pierce my
-  soul...") — very high romance-reader search volume
+- **A Christmas Carol** (Dickens) — also strong: the "Marley was dead"
+  opening, or "Bah! Humbug!" (built `god-bless-us-every-one` this batch)
+- **Alice's Adventures in Wonderland** (Carroll) — also strong: "Curiouser
+  and curiouser!" (built `were-all-mad-here` this batch)
 - **Middlemarch** (Eliot) — the famous closing line about "unhistoric acts"
-- **The Secret Garden** (Burnett) — "Where you tend a rose, my lad, a thistle
-  cannot grow"
-- **The Yellow Wallpaper** (Gilman) — the narrator's closing lines
+  (verified against PG145 but not yet built — long, multi-clause sentence;
+  needs a KO translation pass before shipping)
 
 ## Remaining live classics (general pool, unbuilt)
 
