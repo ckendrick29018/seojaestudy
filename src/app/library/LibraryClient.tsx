@@ -37,11 +37,13 @@ export function LibraryClient() {
       <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal lg:text-4xl">{t("appName")}</h1>
       <p className="mb-3 text-sm text-charcoal/60 lg:text-base">{personalized ?? t("tagline")}</p>
       {!personalized && (
-        <p className="mb-8 max-w-[62ch] text-sm leading-relaxed text-charcoal/55 lg:max-w-[70ch] lg:text-base">
+        <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/55 lg:max-w-[70ch] lg:text-base">
           {t("libraryIntro")}
         </p>
       )}
-      {personalized && <div className="mb-8" />}
+      <p className="mb-8 inline-block rounded-full bg-sage/25 px-3.5 py-1.5 text-xs font-medium text-charcoal/70">
+        {t("libraryGoalNote")}
+      </p>
       <LessonOfDayCard />
       <BookshelfPreview />
       <NewForYouSection />

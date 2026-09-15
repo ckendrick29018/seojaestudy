@@ -28,6 +28,10 @@ export const dict = {
     en: "Every SeoJae Story lesson in one place — short stories and classic literature graded to CEFR A1–B2. Tap any word for an instant translation, listen to native-voice narration, review the vocabulary as flashcards, and check your understanding at the end.",
     ko: "SeoJae Story의 모든 레슨을 한곳에. 단편과 고전 문학을 CEFR A1~B2로 나눴어요. 단어를 누르면 바로 번역되고, 원어민 음성 낭독을 듣고, 어휘를 플래시카드로 복습하고, 마지막에 이해도를 확인해요.",
   },
+  libraryGoalNote: {
+    en: "A few minutes a day — every lesson is a short, complete story, never a whole novel to work through.",
+    ko: "하루 몇 분이면 충분해요 — 모든 레슨은 짧고 완결된 이야기예요. 끝까지 읽어야 하는 장편소설이 아니에요.",
+  },
   classicsSeeAll: { en: "See all", ko: "전체 보기" },
 
   // --- Classics shelf: search / filter / sort ---

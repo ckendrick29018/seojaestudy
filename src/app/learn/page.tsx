@@ -78,6 +78,9 @@ export default function LearnHubPage() {
         <p className="mt-3 max-w-[46ch] text-sm leading-relaxed text-charcoal/60 lg:max-w-[60ch] lg:text-base">
           Short, practical guides to learning English or Korean the quiet way — one story at a time.
         </p>
+        <p className="mt-4 inline-block rounded-full bg-sage/25 px-3.5 py-1.5 text-xs font-medium text-charcoal/70">
+          SeoJae Story lessons are short, daily reads — a few minutes each, never a full novel to translate.
+        </p>
 
         <ul className="mt-8 grid gap-3 lg:grid-cols-2 lg:gap-5">
           {ARTICLES.map((a) => (
