@@ -122,6 +122,13 @@ export const dict = {
   },
   removeWord: { en: "Remove", ko: "삭제" },
   backToLibrary: { en: "Back to Library", ko: "서재로 돌아가기" },
+  addToLibrary: { en: "Add to library", ko: "서재에 담기" },
+  removeFromLibrary: { en: "Remove from library", ko: "서재에서 빼기" },
+  savedForLaterTitle: { en: "Saved for later", ko: "나중에 읽을 이야기" },
+  savedForLaterBody: {
+    en: "Stories you've added to your library but haven't started yet.",
+    ko: "서재에 담아뒀지만 아직 시작하지 않은 이야기예요.",
+  },
   wordCount: { en: "words", ko: "단어" },
   translationOf: { en: "Translation", ko: "번역" },
   sourceNote: { en: "Source", ko: "출처" },

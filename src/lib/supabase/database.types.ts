@@ -99,6 +99,24 @@ export interface Database {
         };
         Relationships: [];
       };
+      saved_lessons: {
+        Row: {
+          user_id: string;
+          lesson_slug: string;
+          saved_at: string;
+        };
+        Insert: {
+          user_id: string;
+          lesson_slug: string;
+          saved_at?: string;
+        };
+        Update: {
+          user_id?: string;
+          lesson_slug?: string;
+          saved_at?: string;
+        };
+        Relationships: [];
+      };
       reading_days: {
         Row: {
           user_id: string;

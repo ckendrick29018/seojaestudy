@@ -3,9 +3,10 @@
 import Link from "next/link";
 import type { Lesson } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
+import { useProgress } from "@/components/providers/ProgressProvider";
 import { estimateReadingTime } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
-import { LockIcon } from "@/components/ui/icons";
+import { BookmarkIcon, LockIcon } from "@/components/ui/icons";
 
 /**
  * Portrait book-cover card for a "Classics" lesson. Used on the full shelf
@@ -14,7 +15,9 @@ import { LockIcon } from "@/components/ui/icons";
  */
 export function ClassicCard({ lesson, complete }: { lesson: Lesson; complete: boolean }) {
   const t = useT();
+  const { isLessonSaved, saveLesson, unsaveLesson } = useProgress();
   const minutes = estimateReadingTime(lesson);
+  const saved = isLessonSaved(lesson.slug);
 
   return (
     <Link
@@ -43,6 +46,24 @@ export function ClassicCard({ lesson, complete }: { lesson: Lesson; complete: bo
             </Badge>
           )}
         </div>
+        {!complete && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              if (saved) unsaveLesson(lesson.slug);
+              else saveLesson(lesson.slug);
+            }}
+            aria-label={saved ? t("removeFromLibrary") : t("addToLibrary")}
+            aria-pressed={saved}
+            className={`absolute right-2 top-2 flex h-7 w-7 items-center justify-center rounded-full shadow-soft transition ${
+              saved ? "bg-gold text-cream" : "bg-white/80 text-charcoal/60 hover:bg-white hover:text-charcoal"
+            }`}
+          >
+            <BookmarkIcon className="h-3.5 w-3.5" filled={saved} />
+          </button>
+        )}
         {complete && (
           <div
             className="pointer-events-none absolute right-[-44px] top-[20px] w-[150px] rotate-45 whitespace-nowrap bg-rose py-1 text-center text-[11px] font-bold uppercase tracking-wide text-cream shadow-[0_1px_4px_rgba(44,44,44,0.28)]"

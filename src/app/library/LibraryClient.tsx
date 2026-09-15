@@ -2,6 +2,7 @@
 
 import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
 import { BookshelfPreview } from "@/components/home/BookshelfPreview";
+import { SavedForLaterSection } from "@/components/home/SavedForLaterSection";
 import { NewForYouSection } from "@/components/home/NewForYouSection";
 import { FablesSection } from "@/components/home/FablesSection";
 import { ClassicsSection } from "@/components/home/ClassicsSection";
@@ -46,6 +47,7 @@ export function LibraryClient() {
       </p>
       <LessonOfDayCard />
       <BookshelfPreview />
+      <SavedForLaterSection />
       <NewForYouSection />
       <FablesSection />
       <ClassicsSection />
