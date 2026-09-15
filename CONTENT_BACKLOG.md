@@ -164,6 +164,9 @@ has a genuine period cover/illustration in the public domain, download that into
 | 103 | East Light and the Bridge of Fishes | William E. Griffis (1928) | 67180 | A2 | the escape scene only (simplified retelling, 18 sentences; a founding legend of ancient Korea — East Light, a gifted young archer, grows into a threat the jealous king wants gone; he flees south with three companions to an impassable river, and when he cries out to the sky, hundreds of fish rise and form a bridge with their backs, letting the four men cross before the king's horsemen arrive) — eighth Korean-*origin* lesson, `collection: "folktales"`; Ch. 3 of the Griffis book | ☑ |
 | 104 | Topknots and Crockery Hats | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; an etiological legend — the sage Kija leads five thousand followers east to found Cho-sen, orders the topknot law to make men look dignified, then — when men only use it to grab each other in fights — invents giant baked-clay hats so quarrels crack pottery instead of skulls, turning street fights into silent contests of ugly faces; ends on why Korea is remembered as "the land of hats") — ninth Korean-*origin* lesson, `collection: "folktales"`; Ch. 6 of the Griffis book | ☑ |
 | 105 | Fancha and the Magpie | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a Manchu dynastic-origin legend framed as a story told to a Chinese emperor's court — three heavenly sisters bathe in a lake below the Ever White Mountains, a sacred magpie drops a red fruit that lets the youngest conceive a heaven-born son, and generations later his descendant Fancha escapes pursuers in a forest when a magpie lands on his head and they mistake him for a dead stump) — tenth Korean-*origin* lesson, `collection: "folktales"`; Ch. 7 of the Griffis book | ☑ |
+| 106 | Old White Whiskers and Mr. Bunny | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a trickster tale — the proud, man-eating tiger Old White Whiskers meets a clever rabbit on the ice, who tricks him into lying still inside a ring of dry grass, then sets it alight; the tiger barely escapes with singed fur and a burned paw and loses the other tigers' respect) — eleventh Korean-*origin* lesson, `collection: "folktales"`; Ch. 10 of the Griffis book | ☑ |
+| 107 | The King of the Flowers | William E. Griffis (1928) | 67180 | A2 | the flower-court fable only, whole (simplified retelling, 18 sentences; King Peony neglects his ministers for the flashy Cinnamon Rose until a ragged old flower, Old Man, warns him that a king who forgets his duties for beauty alone will watch his garden fall — the king takes the lesson to heart and rules wisely again; Griffis's human framing, where the scholar Sul Chong tells this story to a real king, is left out to keep the tale self-contained) — twelfth Korean-*origin* lesson, `collection: "folktales"`; Ch. 11 of the Griffis book | ☑ |
+| 108 | Why Cats and Dogs Don't Get Along | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 18 sentences; an original title for Griffis's "Tokgabi's Menagerie" — a mountain spirit's magic stone keeps a kind old man's wine bottle full until it vanishes; his cat and dog track it down with the mice's help, but lose it in the river when children's laughter makes the cat laugh too, dropping the stone forever — the source's pony-kick injury and near-drowning peril are left out) — thirteenth Korean-*origin* lesson, `collection: "folktales"`; Ch. 12 of the Griffis book; a third non-Potter A1, diversifying the folktales shelf's level spread | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -233,7 +236,18 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (103 — 93 classics + 10 folktales):** Fancha and the Magpie
+- **Live now (106 — 93 classics + 13 folktales):** Old White Whiskers and
+  Mr. Bunny (row 106, folktales — the proud tiger Old White Whiskers is
+  tricked by a clever rabbit into lying still inside a ring of dry grass,
+  which the rabbit then sets alight), The King of the Flowers (row 107,
+  folktales — King Peony neglects his duties for the flashy Cinnamon Rose
+  until a ragged old flower warns him a king who forgets his duties for
+  beauty alone will watch his garden fall), and Why Cats and Dogs Don't Get
+  Along (row 108, folktales — a cat and dog lose a mountain spirit's magic
+  stone in the river when the cat can't help laughing at children on the
+  bank) are the newest additions — all three from chapters 10–12 of the
+  Griffis book, closing out its confirmed-reachable range. Before that:
+  Fancha and the Magpie
   (row 105, folktales — a Manchu dynastic-origin legend told to a Chinese
   emperor's court: three heavenly sisters, a sacred magpie's red fruit, and a
   descendant named Fancha who escapes pursuers when a magpie lands on his head
@@ -344,12 +358,13 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
   A1 ×18, A2 ×24, B1 ×27, B2 ×24 — 93 live; add the folktales shelf
-  (A1 ×2, A2 ×8 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
+  (A1 ×3, A2 ×10 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
   Light and the Bridge of Fishes, Topknots and Crockery Hats, Fancha and
-  the Magpie) for
-  103 lessons across both shelves. B1 and B2 are now
+  the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
+  Why Cats and Dogs Don't Get Along) for
+  106 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -382,22 +397,22 @@ has a genuine period cover/illustration in the public domain, download that into
     variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (10 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (13 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
     the Queen Mother, Prince Sandalwood the Father of Korea, The Rabbit's
     Eyes, East Light and the Bridge of Fishes, Topknots and Crockery
-    Hats, Fancha and the Magpie — plus Heungbu
+    Hats, Fancha and the Magpie, Old White Whiskers and Mr. Bunny, The
+    King of the Flowers, Why Cats and Dogs Don't Get Along — plus Heungbu
     and Nolbu on the plain Library list below, tagged
-    `collection: "folktales"` so it now also shows on the shelf): the
-    Griffis collection's confirmed-reachable range (roughly chapters 1–13
-    of 26 — see the fetch-depth caveat below) still has untapped chapters:
-    Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
-    of the Flowers," and Ch. 12 "Tokgabi's Menagerie" are all still
-    unbuilt and were confirmed in the book's table of contents (fetched
-    2026-09-14). Deeper chapters — "The Magic Peach" (Ch. 14) and "The
-    Voice of the Bell" (Ch. 24) — still run too far into the source book
-    for our fetch tooling to verify reliably; do not build those without
-    first re-testing whether they've become reachable. Kongjwi and
+    `collection: "folktales"` so it now also shows on the shelf): chapters
+    10–12 of the Griffis book (Old White Whiskers and Mr. Bunny, The King
+    of the Flowers, Tokgabi's Menagerie) are now all built, which closes
+    out the entire confirmed-reachable range (roughly chapters 1–13 of 26
+    — see the fetch-depth caveat below). Deeper chapters — "The Magic
+    Peach" (Ch. 14) and "The Voice of the Bell" (Ch. 24) — still run too
+    far into the source book for our fetch tooling to verify reliably;
+    do not build those without first re-testing whether they've become
+    reachable. Kongjwi and
     Patjwi (a Korean Cinderella parallel) and Sim Cheong are well-known
     Korean folktales still without a PD English retelling identified for
     this shelf; needs a source hunt before building.
@@ -553,9 +568,44 @@ strong PD material in each:
   Fancha, is chased into a forest by enemies; a magpie lands on his
   motionless head and his pursuers mistake him for a dead stump, letting
   him escape — and Mrs. Crinkles reveals that this Fancha was the
-  emperor's own ancestor. So chapters 10, 11, and
-  12 are still unbuilt and, being inside the same 1–13 range already
-  used successfully ten times,
-  should be reachable for the next batch. Remaining non-Griffis
-  Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi, Sim Cheong)
-  still need a public-domain English source identified.
+  emperor's own ancestor. Chapters 10, 11, and 12 — the last three inside
+  the confirmed-reachable 1–13 range — are now built too, closing that
+  range out entirely: **row 106, Old White Whiskers and Mr. Bunny** (A2,
+  Ch. 10) — a trickster tale in which the proud, man-eating tiger Old
+  White Whiskers meets a small, clever rabbit on a frozen river; the
+  rabbit talks his way out of being eaten by promising to drive a whole
+  herd of game to the tiger's paws, has him lie down and shut his eyes
+  inside a ring of dry grass "for the magic to work," then sets the
+  grass alight and escapes up the hill, leaving the tiger to burn a paw
+  and singe his fur breaking free — after that, the other tigers laugh
+  at him and the Mountain Spirit no longer trusts him with any
+  important task. **Row 107, The King of the Flowers** (A2, Ch. 11) — a
+  fable of a royal flower court: King Peony, sovereign of the garden,
+  falls for the flashy, confident Cinnamon Rose and stops seeing his
+  ministers for days at a time, until a ragged old flower called Old
+  Man arrives, compares honest advice to plain medicine for a sick man,
+  and warns that a king who forgets his duties for beauty alone will
+  watch his garden fall while one who keeps wise company grows strong;
+  the king takes the warning to heart and returns to ruling wisely.
+  Griffis's chapter frames this fable as a story the scholar Sul Chong
+  told a real king to warn him against neglecting the throne for palace
+  dancing girls — the lesson keeps only the flower-court fable itself,
+  self-contained, and leaves that human framing out. **Row 108, Why Cats
+  and Dogs Don't Get Along** (A1, Ch. 12) — Griffis titles this chapter
+  "Tokgabi's Menagerie," but the lesson uses an original, more
+  descriptive title for the single pourquoi tale inside it: a mountain
+  spirit, Tokgabi, rewards a kind old wine-seller, Tip Pul, with a magic
+  stone that keeps his bottle forever full; when the stone vanishes, his
+  cat and dog track it to a locked box, strike a bargain with the house
+  mice to gnaw it open, and the dog swims the stone across a river in
+  the cat's mouth — until children on the bank laugh at the pair, the
+  cat can't help laughing too, and the stone drops and is lost forever,
+  which the old stories say is why cats and dogs have not been friends
+  since. The source chapter's harsher details — a pony's hoof injuring
+  the dog for a week, and a real risk of drowning in the river — are
+  left out for the A1 level, the third non-Potter A1 lesson on the
+  shelf. All three re-verified against the actual Project Gutenberg
+  plain text (not built from memory), closing out the Griffis book's
+  entire confirmed-reachable range (chapters 1–13 of 26). Remaining
+  non-Griffis Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi,
+  Sim Cheong) still need a public-domain English source identified.

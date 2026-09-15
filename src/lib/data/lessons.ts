@@ -23173,6 +23173,621 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "old-white-whiskers-and-mr-bunny",
+    title: "Old White Whiskers and Mr. Bunny",
+    titleTranslation: "흰수염 호랑이와 토끼 씨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🐯",
+    coverImage: "/covers/old-white-whiskers-and-mr-bunny.svg",
+    source:
+      "Adapted from \"Old White Whiskers and Mr. Bunny,\" a traditional Korean trickster tale collected in William Elliot Griffis's \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Mr. Bunny tricked Old White Whiskers and what happened to the tiger because of it.",
+    paragraphs: [
+      [
+        {
+          id: "oww-1",
+          text: "Deep in the mountains of Korea lived a huge, proud tiger everyone called Old White Whiskers.",
+          translation: "한국의 깊은 산속에는 사람들이 흰수염이라고 부르는 크고 거만한 호랑이가 살았어요.",
+        },
+        {
+          id: "oww-2",
+          text: "He had fiery eyes, sharp claws, and the widest stripes of any tiger in the land.",
+          translation: "그는 불타는 듯한 눈과 날카로운 발톱, 그리고 이 땅의 어느 호랑이보다도 넓은 줄무늬를 가지고 있었어요.",
+        },
+        {
+          id: "oww-3",
+          text: "Villagers were so afraid of him that they left food and gifts at his shrine every day.",
+          translation: "마을 사람들은 그를 너무나 무서워해서 매일 그의 사당에 음식과 선물을 바쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "oww-4",
+          text: "For years Old White Whiskers had eaten pigs, calves, and even a hunter or two, and he had never once been caught.",
+          translation: "흰수염은 여러 해 동안 돼지와 송아지, 그리고 사냥꾼까지 잡아먹었지만 한 번도 붙잡힌 적이 없었어요.",
+        },
+        {
+          id: "oww-5",
+          text: "He grew so confident that he began to think no creature could ever outsmart him.",
+          translation: "그는 점점 자신만만해져서 그 어떤 동물도 자신을 이길 수 없다고 생각하게 되었어요.",
+        },
+        {
+          id: "oww-6",
+          text: "But a small, clever rabbit who lived near the river was about to prove him wrong.",
+          translation: "하지만 강가에 살던 작고 영리한 토끼가 그 생각이 틀렸다는 것을 곧 보여주려 하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "oww-7",
+          text: "One freezing winter day, Mr. Bunny was crossing the icy river, hungry and tired, when Old White Whiskers leaped out from behind a rock.",
+          translation: "몹시 추운 겨울날, 토끼 씨가 배고프고 지친 채로 얼어붙은 강을 건너고 있을 때, 흰수염이 바위 뒤에서 뛰쳐나왔어요.",
+        },
+        {
+          id: "oww-8",
+          text: "\"I'm hungry,\" growled the tiger. \"I shall eat you up at once.\"",
+          translation: "호랑이는 배가 고프니 지금 당장 잡아먹겠다며 으르렁거렸어요.",
+        },
+        {
+          id: "oww-9",
+          text: "\"Why bother with a skinny rabbit like me?\" said Mr. Bunny calmly. \"Let me drive a whole herd of animals to your paws instead.\"",
+          translation: "토끼 씨는 차분하게, 자기처럼 비쩍 마른 토끼를 왜 굳이 드시려 하느냐고 물으며 그 대신 짐승 떼를 통째로 몰아다 드리겠다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "oww-10",
+          text: "The tiger's mouth watered at the thought of a much bigger dinner, and he agreed to do exactly as the rabbit said.",
+          translation: "훨씬 더 큰 저녁 식사를 상상하며 호랑이는 입맛을 다셨고, 토끼가 시키는 대로 하겠다고 약속했어요.",
+        },
+        {
+          id: "oww-11",
+          text: "\"Lie down right here on the ice and close your eyes tightly,\" Mr. Bunny told him. \"Don't open them until I say so, or the magic will fail.\"",
+          translation: "토끼 씨는 바로 이 얼음 위에 누워 눈을 꼭 감으라고 했어요. 자기가 말할 때까지 눈을 뜨지 말라고, 그러지 않으면 마법이 풀린다고 덧붙였어요.",
+        },
+        {
+          id: "oww-12",
+          text: "Tired from a long day of hunting, Old White Whiskers lay down and quickly fell fast asleep.",
+          translation: "하루 종일 사냥하느라 지쳐 있던 흰수염은 자리에 눕더니 금세 깊이 잠들어 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "oww-13",
+          text: "Mr. Bunny quietly gathered armfuls of dry grass and piled it in a thick ring all around the sleeping tiger.",
+          translation: "토끼 씨는 조용히 마른 풀을 한 아름씩 모아 잠든 호랑이 주위에 두껍게 둥글게 쌓았어요.",
+        },
+        {
+          id: "oww-14",
+          text: "Then he set the grass on fire and scampered far up the hill to watch.",
+          translation: "그런 다음 그 풀에 불을 붙이고 언덕 위로 멀리 달아나 지켜보았어요.",
+        },
+        {
+          id: "oww-15",
+          text: "The crackling flames woke Old White Whiskers, who had to leap wildly through the fire just to save his own life.",
+          translation: "타닥타닥 타오르는 불길에 잠에서 깬 흰수염은 목숨을 구하려고 불길 사이를 마구 뛰어넘어야 했어요.",
+        },
+      ],
+      [
+        {
+          id: "oww-16",
+          text: "His fur was singed, one paw was burned, and he limped all the way home in pain.",
+          translation: "그의 털은 그을렸고 한쪽 발은 화상을 입어서, 그는 아파하며 절뚝절뚝 집까지 걸어갔어요.",
+        },
+        {
+          id: "oww-17",
+          text: "When the other tigers saw him, they laughed, and the Mountain Spirit no longer trusted him with any important task.",
+          translation: "다른 호랑이들은 그를 보고 비웃었고, 산신령도 더 이상 그에게 중요한 일을 맡기지 않았어요.",
+        },
+        {
+          id: "oww-18",
+          text: "From that day on, everyone in the mountains knew that even the proudest tiger could be outwitted by a clever little rabbit.",
+          translation: "그날 이후로 산속의 모든 동물들은 아무리 거만한 호랑이라도 영리한 작은 토끼에게 속을 수 있다는 것을 알게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "oww-v1",
+        term: "proud",
+        partOfSpeech: "adjective",
+        translation: "거만한, 자랑스러운",
+        example: "Deep in the mountains of Korea lived a huge, proud tiger everyone called Old White Whiskers.",
+        exampleTranslation: "한국의 깊은 산속에는 사람들이 흰수염이라고 부르는 크고 거만한 호랑이가 살았어요.",
+      },
+      {
+        id: "oww-v2",
+        term: "shrine",
+        partOfSpeech: "noun",
+        translation: "사당",
+        example: "Villagers were so afraid of him that they left food and gifts at his shrine every day.",
+        exampleTranslation: "마을 사람들은 그를 너무나 무서워해서 매일 그의 사당에 음식과 선물을 바쳤어요.",
+      },
+      {
+        id: "oww-v3",
+        term: "confident",
+        partOfSpeech: "adjective",
+        translation: "자신만만한",
+        example: "He grew so confident that he began to think no creature could ever outsmart him.",
+        exampleTranslation: "그는 점점 자신만만해져서 그 어떤 동물도 자신을 이길 수 없다고 생각하게 되었어요.",
+      },
+      {
+        id: "oww-v4",
+        term: "singed",
+        partOfSpeech: "adjective",
+        translation: "그을린",
+        example: "His fur was singed, one paw was burned, and he limped all the way home in pain.",
+        exampleTranslation: "그의 털은 그을렸고 한쪽 발은 화상을 입어서, 그는 아파하며 절뚝절뚝 집까지 걸어갔어요.",
+      },
+      {
+        id: "oww-v5",
+        term: "outwitted",
+        partOfSpeech: "verb",
+        translation: "속이다, 한 수 앞서다",
+        example: "From that day on, everyone in the mountains knew that even the proudest tiger could be outwitted by a clever little rabbit.",
+        exampleTranslation: "그날 이후로 산속의 모든 동물들은 아무리 거만한 호랑이라도 영리한 작은 토끼에게 속을 수 있다는 것을 알게 되었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "oww-q1",
+        prompt: "Why were the villagers so afraid of Old White Whiskers?",
+        options: [
+          "He could talk like a human and trick people.",
+          "He was the proudest, most fearsome tiger in the mountains and the trusted servant of the Mountain Spirit.",
+          "He guarded a hidden treasure in a cave.",
+          "He was secretly a disguised magician.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Old White Whiskers had the fiercest reputation of any tiger in the mountains and served the powerful Mountain Spirit, so villagers left offerings at his shrine out of fear.",
+      },
+      {
+        id: "oww-q2",
+        prompt: "How did Mr. Bunny convince Old White Whiskers to lie down and close his eyes?",
+        options: [
+          "He promised to drive a whole herd of animals to the tiger's paws for a bigger feast.",
+          "He challenged the tiger to a napping contest.",
+          "He offered the tiger a magic stone.",
+          "He pretended to be too sick to run away.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Mr. Bunny offered the hungry tiger something far more tempting than himself — a whole herd of game driven right to his paws — so the tiger agreed to lie still with his eyes shut and wait.",
+      },
+      {
+        id: "oww-q3",
+        prompt: "What happened to Old White Whiskers because of Mr. Bunny's trick?",
+        options: [
+          "He was captured by hunters and taken away.",
+          "He fell through the ice and had to swim to shore.",
+          "He was surrounded by a ring of fire, escaped with singed fur and a burned paw, and lost the other tigers' respect.",
+          "He became friends with Mr. Bunny and shared his next meal.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "While the tiger slept, Mr. Bunny built a ring of dry grass around him and set it alight. Old White Whiskers barely escaped the flames, and his singed fur and burned paw cost him the other tigers' respect.",
+      },
+    ],
+  },
+  {
+    slug: "the-king-of-the-flowers",
+    title: "The King of the Flowers",
+    titleTranslation: "꽃들의 임금님",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🌸",
+    coverImage: "/covers/the-king-of-the-flowers.svg",
+    source:
+      "Adapted from \"The King of the Flowers,\" a fable of a royal flower court told within William Elliot Griffis's \"Korean Fairy Tales\" (1911; Project Gutenberg #67180) — in the original, the scholar Sul Chong tells this story to warn a real king against neglecting his duties. Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling, focused on the flower-court fable itself, and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Old Man warned King Peony about, and how the king responded.",
+    paragraphs: [
+      [
+        {
+          id: "kf-1",
+          text: "Long ago in Korea, every flower in the royal garden bowed to one flower alone: the Peony, king of all blossoms.",
+          translation: "아주 오래전 한국에서는, 왕궁 정원의 모든 꽃이 오직 한 송이의 꽃에게만 고개를 숙였는데, 바로 온갖 꽃들의 임금인 모란이었어요.",
+        },
+        {
+          id: "kf-2",
+          text: "His petals were the biggest and reddest in the whole garden, and every plant respected his rule.",
+          translation: "그의 꽃잎은 정원에서 가장 크고 붉었고, 모든 식물이 그의 다스림을 존중했어요.",
+        },
+        {
+          id: "kf-3",
+          text: "Each spring, flowers from across the land came to the garden to pay him their respects.",
+          translation: "봄마다 온 나라의 꽃들이 그에게 인사를 드리러 정원으로 찾아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "kf-4",
+          text: "The Peach, the Plum, the Pear, and the Persimmon trees all sent their finest blossoms as messengers.",
+          translation: "복숭아나무, 자두나무, 배나무, 감나무는 저마다 가장 아름다운 꽃을 사절로 보냈어요.",
+        },
+        {
+          id: "kf-5",
+          text: "Then came shy young flowers too: the pale Tea-Rose, the pink Azalea, and the white Lily, each bowing politely before the king.",
+          translation: "이어서 수줍은 어린 꽃들도 찾아왔는데, 연한 색의 해당화, 분홍빛 진달래, 하얀 백합이 모두 예의 바르게 임금님께 인사했어요.",
+        },
+        {
+          id: "kf-6",
+          text: "Last of all came the Cinnamon Rose, dressed in a bright green skirt and red jacket, walking with a proud, confident air.",
+          translation: "맨 마지막으로 계피장미가 초록 치마와 빨간 저고리를 입고 당당하고 자신만만한 걸음걸이로 나타났어요.",
+        },
+      ],
+      [
+        {
+          id: "kf-7",
+          text: "King Peony had never seen anyone so lively and beautiful, and he could not stop watching her.",
+          translation: "모란 임금님은 그토록 활기차고 아름다운 이를 본 적이 없어서, 눈을 뗄 수가 없었어요.",
+        },
+        {
+          id: "kf-8",
+          text: "He invited Cinnamon Rose to stay in the palace and spent every hour by her side.",
+          translation: "그는 계피장미를 궁전에 머물게 하고, 하루 종일 그녀의 곁에서 시간을 보냈어요.",
+        },
+        {
+          id: "kf-9",
+          text: "Soon he stopped listening to his ministers entirely, letting them wait for days just to speak with him.",
+          translation: "곧 그는 신하들의 말을 전혀 듣지 않게 되었고, 신하들은 며칠씩 기다려도 그를 만날 수 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "kf-10",
+          text: "One day a ragged old flower called Old Man arrived at the palace gate, leaning on a wooden staff.",
+          translation: "어느 날, 나무 지팡이를 짚은 남루한 차림의 늙은 꽃, 노인이 궁전 문 앞에 나타났어요.",
+        },
+        {
+          id: "kf-11",
+          text: "King Peony welcomed him kindly and gave him food and a place to rest.",
+          translation: "모란 임금님은 그를 친절히 맞이하며 음식과 쉴 곳을 내주었어요.",
+        },
+        {
+          id: "kf-12",
+          text: "When Old Man was finally invited to speak, he bowed and said he had something important to tell the king.",
+          translation: "마침내 노인이 말할 기회를 얻었을 때, 그는 고개를 숙이며 임금님께 중요한 말씀을 드리고 싶다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "kf-13",
+          text: "\"Your Majesty wears the finest silk in the garden,\" said Old Man, \"but even you need honest advice, just as a sick man needs plain medicine.\"",
+          translation: "노인은 폐하께서 정원에서 가장 고운 비단을 입고 계시지만, 아픈 사람에게 평범한 약이 필요하듯 폐하께도 솔직한 조언이 필요하다고 말했어요.",
+        },
+        {
+          id: "kf-14",
+          text: "\"I like Cinnamon Rose, and I cannot do without her,\" the king admitted, blushing.",
+          translation: "임금님은 얼굴을 붉히며, 계피장미가 좋아서 그녀 없이는 지낼 수 없다고 인정했어요.",
+        },
+        {
+          id: "kf-15",
+          text: "\"A king who keeps company with the wise grows strong,\" said Old Man, \"but a king who forgets his duties for beauty alone will watch his garden fall.\"",
+          translation: "노인은 지혜로운 이와 함께하는 임금은 강해지지만, 아름다움에 빠져 책임을 잊는 임금은 자신의 정원이 무너지는 것을 보게 된다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "kf-16",
+          text: "King Peony thought hard about Old Man's words and realized how many of his duties he had ignored.",
+          translation: "모란 임금님은 노인의 말을 깊이 생각하며, 자신이 그동안 얼마나 많은 책임을 소홀히 했는지 깨달았어요.",
+        },
+        {
+          id: "kf-17",
+          text: "From that day on, he welcomed his ministers back to his side and ruled the garden wisely once more.",
+          translation: "그날 이후로 그는 신하들을 다시 곁으로 불러들여 정원을 지혜롭게 다스렸어요.",
+        },
+        {
+          id: "kf-18",
+          text: "And ever since, Koreans have told this story to remind kings — and everyone else — not to let flattering company lead them away from their duties.",
+          translation: "그리고 그때부터 한국 사람들은 이 이야기를 들려주며, 임금님뿐 아니라 누구든 달콤한 말에 홀려 책임을 저버리지 않도록 일깨웠어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "kf-v1",
+        term: "messenger",
+        partOfSpeech: "noun",
+        translation: "사절, 전령",
+        example: "The Peach, the Plum, the Pear, and the Persimmon trees all sent their finest blossoms as messengers.",
+        exampleTranslation: "복숭아나무, 자두나무, 배나무, 감나무는 저마다 가장 아름다운 꽃을 사절로 보냈어요.",
+      },
+      {
+        id: "kf-v2",
+        term: "duty",
+        partOfSpeech: "noun",
+        translation: "책임, 의무",
+        example: "Soon he stopped listening to his ministers entirely, letting them wait for days just to speak with him.",
+        exampleTranslation: "곧 그는 신하들의 말을 전혀 듣지 않게 되었고, 신하들은 며칠씩 기다려도 그를 만날 수 없었어요.",
+      },
+      {
+        id: "kf-v3",
+        term: "advice",
+        partOfSpeech: "noun",
+        translation: "조언",
+        example: "\"Your Majesty wears the finest silk in the garden,\" said Old Man, \"but even you need honest advice, just as a sick man needs plain medicine.\"",
+        exampleTranslation: "\"폐하는 정원에서 가장 고운 비단을 입고 계시지만, 아픈 사람에게 평범한 약이 필요하듯 폐하께도 솔직한 조언이 필요합니다\"라고 노인이 말했어요.",
+      },
+      {
+        id: "kf-v4",
+        term: "wise",
+        partOfSpeech: "adjective",
+        translation: "지혜로운",
+        example: "\"A king who keeps company with the wise grows strong,\" said Old Man, \"but a king who forgets his duties for beauty alone will watch his garden fall.\"",
+        exampleTranslation: "\"지혜로운 이와 함께하는 임금은 강해지지만, 아름다움에 빠져 책임을 잊는 임금은 자신의 정원이 무너지는 것을 보게 될 것입니다\"라고 노인이 말했어요.",
+      },
+      {
+        id: "kf-v5",
+        term: "blushing",
+        partOfSpeech: "verb",
+        translation: "얼굴을 붉히다",
+        example: "\"I like Cinnamon Rose, and I cannot do without her,\" the king admitted, blushing.",
+        exampleTranslation: "\"나는 계피장미가 좋아서 그녀 없이는 지낼 수가 없다\"라고 임금님이 얼굴을 붉히며 인정했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "kf-q1",
+        prompt: "Why did King Peony stop listening to his ministers?",
+        options: [
+          "He fell ill and could not leave his room.",
+          "He spent all his time with Cinnamon Rose and ignored his duties.",
+          "His ministers moved away to a different garden.",
+          "He decided to rule without any advisors at all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Once Cinnamon Rose moved into the palace, King Peony spent every hour by her side and let his ministers wait for days without an audience.",
+      },
+      {
+        id: "kf-q2",
+        prompt: "What warning did Old Man give King Peony?",
+        options: [
+          "That a storm was coming to destroy the garden.",
+          "That the other flowers were planning to overthrow him.",
+          "That a king who forgets his duties for beauty alone will watch his garden fall, while one who keeps wise company grows strong.",
+          "That Cinnamon Rose was secretly plotting against him.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Old Man compared honest advice to plain medicine: welcome even when unwelcome. He warned that neglecting duty for beauty alone would ruin the king's garden, while wise company would strengthen it.",
+      },
+      {
+        id: "kf-q3",
+        prompt: "How did King Peony respond to Old Man's advice?",
+        options: [
+          "He banished Old Man from the garden.",
+          "He thought carefully about the words, realized his mistake, and welcomed his ministers back to rule wisely.",
+          "He ignored the advice and kept Cinnamon Rose by his side forever.",
+          "He asked Cinnamon Rose to leave the garden at once.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "King Peony took Old Man's warning to heart, recognized how many of his duties he had neglected, and returned to ruling wisely with his ministers at his side.",
+      },
+    ],
+  },
+  {
+    slug: "why-cats-and-dogs-dont-get-along",
+    title: "Why Cats and Dogs Don't Get Along",
+    titleTranslation: "고양이와 개가 사이가 나쁜 이유",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A1",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean folklore (1843–1928)",
+    coverEmoji: "🐱",
+    coverImage: "/covers/why-cats-and-dogs-dont-get-along.svg",
+    source:
+      "Adapted from \"Tokgabi's Menagerie,\" William Elliot Griffis's Korean tale explaining why cats and dogs do not get along, in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the cat and dog lost Tokgabi's magic stone, and why Korean folklore says cats and dogs have not been friends since.",
+    paragraphs: [
+      [
+        {
+          id: "wcd-1",
+          text: "Long ago, a kind old man named Tip Pul ran a small wine shop by a river, and a mountain spirit named Tokgabi gave him a magic stone as a reward for his kindness.",
+          translation: "아주 오래전, 팁풀이라는 친절한 노인이 강가에서 작은 술집을 운영했는데, 도깨비라는 산의 정령이 그의 친절함에 대한 보답으로 마법의 보석을 주었어요.",
+        },
+        {
+          id: "wcd-2",
+          text: "Tokgabi dropped the stone into Tip Pul's wine bottle, and after that the bottle never went empty, no matter how much wine he sold.",
+          translation: "도깨비가 그 보석을 팁풀의 술병 안에 떨어뜨리자, 그 후로는 아무리 술을 팔아도 병이 결코 비지 않았어요.",
+        },
+        {
+          id: "wcd-3",
+          text: "Tip Pul's only companions were a loyal dog named Snap and a clever cat named Mee Yow, and the three of them lived happily together.",
+          translation: "팁풀의 유일한 친구는 충직한 개 스냅과 영리한 고양이 미야우였고, 셋은 함께 행복하게 살았어요.",
+        },
+      ],
+      [
+        {
+          id: "wcd-4",
+          text: "One day the bottle was suddenly empty, and no matter how hard Tip Pul shook it, the magic stone was gone.",
+          translation: "어느 날 갑자기 술병이 텅 비었고, 팁풀이 아무리 흔들어 보아도 마법의 보석은 사라지고 없었어요.",
+        },
+        {
+          id: "wcd-5",
+          text: "Without the stone, Tip Pul grew poorer every day, and his two pets decided they had to find it and bring it back.",
+          translation: "보석이 없어지자 팁풀은 나날이 가난해졌고, 두 반려동물은 보석을 꼭 찾아 돌려드리기로 결심했어요.",
+        },
+        {
+          id: "wcd-6",
+          text: "Mee Yow searched every house in the village at night, knocking over pots and jars while she hunted through the rafters.",
+          translation: "미야우는 밤마다 마을의 모든 집을 뒤지며 서까래 사이를 뒤지다가 그릇과 항아리를 넘어뜨리곤 했어요.",
+        },
+      ],
+      [
+        {
+          id: "wcd-7",
+          text: "Snap ran across the whole countryside instead, sniffing under sheds and barns, but neither pet could find any sign of the stone.",
+          translation: "스냅은 그 대신 온 시골 마을을 뛰어다니며 헛간과 외양간 아래를 킁킁거렸지만, 두 친구 모두 보석의 흔적조차 찾지 못했어요.",
+        },
+        {
+          id: "wcd-8",
+          text: "Finally, one day, Mee Yow smelled something familiar coming from inside a small stone box in a rich man's house.",
+          translation: "마침내 어느 날, 미야우는 부잣집 안에 있는 작은 돌 상자에서 낯익은 냄새를 맡았어요.",
+        },
+        {
+          id: "wcd-9",
+          text: "She scratched and clawed at the box, but it would not open, no matter how hard she tried.",
+          translation: "그녀는 상자를 발톱으로 긁고 물어뜯어 보았지만, 아무리 애써도 상자는 열리지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "wcd-10",
+          text: "So Mee Yow and Snap made a bargain with the mice of the house: if a mouse would gnaw the box open, the two pets would never hunt mice again for six months.",
+          translation: "그래서 미야우와 스냅은 그 집의 쥐들과 거래를 했어요. 쥐 한 마리가 상자를 갉아서 열어 준다면, 앞으로 여섯 달 동안은 쥐를 절대 쫓지 않겠다고 약속했어요.",
+        },
+        {
+          id: "wcd-11",
+          text: "Delighted, the mice gnawed a hole in the box and carried the shining stone out to the waiting cat and dog.",
+          translation: "기뻐한 쥐들은 상자에 구멍을 갉아 뚫었고, 반짝이는 보석을 꺼내 기다리던 고양이와 개에게 가져다주었어요.",
+        },
+        {
+          id: "wcd-12",
+          text: "Snap took the stone in his mouth at once and ran straight for the river, with Mee Yow following close behind.",
+          translation: "스냅은 곧바로 보석을 입에 물고 강을 향해 달려갔고, 미야우도 바짝 뒤따라갔어요.",
+        },
+      ],
+      [
+        {
+          id: "wcd-13",
+          text: "\"Climb on my back and hold the stone in your mouth,\" Snap told Mee Yow. \"Just don't open your jaws until we reach the other side.\"",
+          translation: "스냅은 미야우에게 자기 등에 올라타 보석을 입에 물고 있으라고 했어요. 건너편에 닿을 때까지 절대 입을 벌리면 안 된다고 당부했어요.",
+        },
+        {
+          id: "wcd-14",
+          text: "Mee Yow held on tightly and kept the stone between her teeth as Snap swam hard across the cold river.",
+          translation: "미야우는 꽉 붙잡고 보석을 이빨 사이에 문 채, 스냅이 차가운 강을 힘차게 헤엄쳐 건너는 동안 버텼어요.",
+        },
+        {
+          id: "wcd-15",
+          text: "But partway across, some children on the bank saw the odd pair and burst out laughing, and Mee Yow could not help laughing along with them.",
+          translation: "하지만 강을 반쯤 건넜을 때, 강가에 있던 아이들이 그 우스꽝스러운 모습을 보고 웃음을 터뜨렸고, 미야우도 그만 따라 웃고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "wcd-16",
+          text: "The moment she opened her mouth to laugh, the stone slipped out and sank to the bottom of the river, lost forever.",
+          translation: "웃으려고 입을 벌리는 순간 보석이 툭 떨어져 강 바닥으로 가라앉아 영영 사라지고 말았어요.",
+        },
+        {
+          id: "wcd-17",
+          text: "Snap was furious that all his hard swimming had been wasted, and from that day on, cats and dogs stopped being friends.",
+          translation: "스냅은 그 힘든 헤엄이 모두 헛수고가 된 것에 몹시 화가 났고, 그날 이후로 고양이와 개는 더 이상 친구가 아니게 되었어요.",
+        },
+        {
+          id: "wcd-18",
+          text: "And that, the old stories say, is why cats and dogs in Korea still cannot get along to this very day.",
+          translation: "그리고 옛이야기에 따르면, 그것이 바로 오늘날까지도 한국의 고양이와 개가 사이좋게 지내지 못하는 이유라고 해요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wcd-v1",
+        term: "reward",
+        partOfSpeech: "noun",
+        translation: "보상",
+        example: "Long ago, a kind old man named Tip Pul ran a small wine shop by a river, and a mountain spirit named Tokgabi gave him a magic stone as a reward for his kindness.",
+        exampleTranslation: "아주 오래전, 팁풀이라는 친절한 노인이 강가에서 작은 술집을 운영했는데, 도깨비라는 산의 정령이 그의 친절함에 대한 보답으로 마법의 보석을 주었어요.",
+      },
+      {
+        id: "wcd-v2",
+        term: "companion",
+        partOfSpeech: "noun",
+        translation: "친구, 반려동물",
+        example: "Tip Pul's only companions were a loyal dog named Snap and a clever cat named Mee Yow, and the three of them lived happily together.",
+        exampleTranslation: "팁풀의 유일한 친구는 충직한 개 스냅과 영리한 고양이 미야우였고, 셋은 함께 행복하게 살았어요.",
+      },
+      {
+        id: "wcd-v3",
+        term: "bargain",
+        partOfSpeech: "noun",
+        translation: "거래",
+        example: "So Mee Yow and Snap made a bargain with the mice of the house: if a mouse would gnaw the box open, the two pets would never hunt mice again for six months.",
+        exampleTranslation: "그래서 미야우와 스냅은 그 집의 쥐들과 거래를 했어요. 쥐 한 마리가 상자를 갉아서 열어 준다면, 앞으로 여섯 달 동안은 쥐를 절대 쫓지 않겠다고 약속했어요.",
+      },
+      {
+        id: "wcd-v4",
+        term: "gnaw",
+        partOfSpeech: "verb",
+        translation: "갉다, 갉아먹다",
+        example: "Delighted, the mice gnawed a hole in the box and carried the shining stone out to the waiting cat and dog.",
+        exampleTranslation: "기뻐한 쥐들은 상자에 구멍을 갉아 뚫었고, 반짝이는 보석을 꺼내 기다리던 고양이와 개에게 가져다주었어요.",
+      },
+      {
+        id: "wcd-v5",
+        term: "furious",
+        partOfSpeech: "adjective",
+        translation: "몹시 화난",
+        example: "Snap was furious that all his hard swimming had been wasted, and from that day on, cats and dogs stopped being friends.",
+        exampleTranslation: "스냅은 그 힘든 헤엄이 모두 헛수고가 된 것에 몹시 화가 났고, 그날 이후로 고양이와 개는 더 이상 친구가 아니게 되었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wcd-q1",
+        prompt: "How did Tip Pul's wine bottle stay full for so long?",
+        options: [
+          "He refilled it secretly every night.",
+          "Tokgabi, a mountain spirit, dropped a magic stone into the bottle as a reward for Tip Pul's kindness.",
+          "He bought wine cheaply from a neighboring village.",
+          "Snap and Mee Yow brought him wine from the river.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Tokgabi rewarded Tip Pul's kindness with a magic stone dropped into his wine bottle, which kept the bottle full no matter how much wine he sold.",
+      },
+      {
+        id: "wcd-q2",
+        prompt: "How did Mee Yow and Snap get the mice to help them open the stone box?",
+        options: [
+          "They threatened to eat all the mice in the house.",
+          "They promised not to hunt mice for six months if one would gnaw the box open.",
+          "They traded the mice a piece of cheese.",
+          "They asked Tokgabi to order the mice to help.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mee Yow and Snap struck a bargain with the mice: six months of safety from hunting in exchange for gnawing the box open — and the delighted mice agreed at once.",
+      },
+      {
+        id: "wcd-q3",
+        prompt: "Why did the magic stone end up lost at the bottom of the river?",
+        options: [
+          "Snap dropped it while barking at another dog.",
+          "A hawk swooped down and stole it from Mee Yow's mouth.",
+          "Some children on the riverbank laughed at the pair, and Mee Yow laughed along, opening her mouth and letting the stone fall.",
+          "The stone slipped out while Snap was climbing onto the riverbank.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Partway across the river, watching children burst out laughing at the sight of a cat riding a swimming dog. Mee Yow couldn't resist laughing along, and the moment she opened her mouth, the stone fell and sank forever.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
