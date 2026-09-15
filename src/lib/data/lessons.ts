@@ -22707,6 +22707,239 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "topknots-and-crockery-hats",
+    title: "Topknots and Crockery Hats",
+    titleTranslation: "상투와 질그릇 모자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean legend (1843–1928)",
+    coverEmoji: "🏺",
+    coverImage: "/covers/topknots-and-crockery-hats.svg",
+    source:
+      "Adapted from \"Topknots and Crockery Hats,\" William Elliot Griffis's English retelling of a legend explaining two old Korean customs — the married man's topknot, and a law of giant clay hats meant to stop street fighting — in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Kija made men wear topknots, and how the crockery hats changed the way people fought.",
+    paragraphs: [
+      [
+        {
+          id: "tch-1",
+          text: "Long ago, a wise and honored man named Kija served as a top advisor in an ancient Chinese court.",
+          translation:
+            "아주 오래전, 기자라는 지혜롭고 존경받는 사람이 고대 중국 조정에서 최고 자문관으로 일했어요.",
+        },
+        {
+          id: "tch-2",
+          text: "When a new king rose to power, Kija chose not to serve him and decided to lead his people to a new land in the east instead.",
+          translation:
+            "새로운 왕이 권력을 잡자, 기자는 그를 섬기지 않기로 하고 대신 자기 백성을 이끌고 동쪽의 새로운 땅으로 떠나기로 결심했어요.",
+        },
+        {
+          id: "tch-3",
+          text: "Five thousand people followed him, and together they crossed rivers and mountains toward the rising sun.",
+          translation:
+            "오천 명의 사람들이 그를 따랐고, 그들은 함께 강과 산을 건너 해가 떠오르는 동쪽으로 나아갔어요.",
+        },
+      ],
+      [
+        {
+          id: "tch-4",
+          text: "At last they reached a beautiful river valley, and Kija named the new land \"Cho-sen,\" the Land of Morning Radiance.",
+          translation:
+            "마침내 그들은 아름다운 강가 골짜기에 다다랐고, 기자는 그 새로운 땅에 아침의 빛나는 나라라는 뜻으로 조선이라는 이름을 붙였어요.",
+        },
+        {
+          id: "tch-5",
+          text: "He built a city there and taught the people how to farm, weave, and build warm, comfortable houses.",
+          translation:
+            "그는 그곳에 도시를 세우고 사람들에게 농사짓는 법, 옷감 짜는 법, 따뜻하고 편안한 집을 짓는 법을 가르쳤어요.",
+        },
+        {
+          id: "tch-6",
+          text: "But the local people were still rough and quick-tempered, and street fights often ended in broken skulls.",
+          translation:
+            "하지만 그 땅의 사람들은 여전히 거칠고 성미가 급해서, 거리 싸움이 두개골이 깨지는 것으로 끝나는 일이 잦았어요.",
+        },
+      ],
+      [
+        {
+          id: "tch-7",
+          text: "Wanting to calm his new kingdom, Kija made a law: every married man must tie his hair into a neat topknot.",
+          translation:
+            "새 왕국을 진정시키고 싶었던 기자는 법을 하나 만들었어요. 결혼한 남자는 모두 머리를 단정한 상투로 묶게 했어요.",
+        },
+        {
+          id: "tch-8",
+          text: "He hoped the topknot would make men look dignified and behave more gently.",
+          translation:
+            "그는 상투가 남자들을 더 위엄 있어 보이게 하고 행동도 더 점잖게 만들어 주기를 바랐어요.",
+        },
+        {
+          id: "tch-9",
+          text: "Instead, angry men grabbed each other's topknots and pulled even harder in their fights.",
+          translation:
+            "하지만 오히려 화난 남자들은 서로의 상투를 붙잡고 싸움에서 더 세게 잡아당겼어요.",
+        },
+      ],
+      [
+        {
+          id: "tch-10",
+          text: "So Kija tried something stranger: he ordered huge, heavy hats made of baked clay for every quarrelsome man.",
+          translation:
+            "그래서 기자는 더 기이한 방법을 시도했어요. 그는 싸움을 잘 거는 남자들에게 구운 흙으로 만든 크고 무거운 모자를 씌우라고 명령했어요.",
+        },
+        {
+          id: "tch-11",
+          text: "Each hat was wide as a table and had to be worn every single day, rain or shine.",
+          translation:
+            "그 모자는 탁자만큼 넓었고, 비가 오나 해가 뜨나 매일 써야만 했어요.",
+        },
+        {
+          id: "tch-12",
+          text: "Now, when two men fought and knocked heads, it was their crockery hats that cracked — not their skulls.",
+          translation:
+            "이제 두 남자가 싸우다 머리를 부딪히면, 깨지는 것은 그들의 두개골이 아니라 질그릇 모자였어요.",
+        },
+      ],
+      [
+        {
+          id: "tch-13",
+          text: "A broken hat was expensive to replace, costing a good half year's wages from the potter.",
+          translation:
+            "깨진 모자를 새로 사는 값이 비싸서, 옹기장이에게 반년 치 품삯을 치러야 했어요.",
+        },
+        {
+          id: "tch-14",
+          text: "Little by little, men stopped throwing punches and instead only shouted, glared, and pulled the fiercest faces they could.",
+          translation:
+            "차츰차츰 남자들은 주먹을 날리는 대신 그저 소리를 지르고, 노려보고, 할 수 있는 가장 무서운 표정을 지을 뿐이었어요.",
+        },
+        {
+          id: "tch-15",
+          text: "A street fight became a strange, silent contest of ugly expressions, with no blood spilled at all.",
+          translation:
+            "거리 싸움은 피 한 방울 흘리지 않는, 험상궂은 표정을 겨루는 이상하고 조용한 시합이 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "tch-16",
+          text: "The heavy hats grew so popular that women borrowed them as washbowls, and farmers used them as feeding troughs for their animals.",
+          translation:
+            "그 무거운 모자는 인기가 아주 많았어요. 그래서 여자들은 빨래통 삼아 빌려 쓰고, 농부들은 가축의 여물통으로 사용했어요.",
+        },
+        {
+          id: "tch-17",
+          text: "Over years, the whole land grew calmer, and Koreans became known far and wide for their politeness.",
+          translation:
+            "여러 해가 지나며 온 나라가 더 차분해졌고, 한국 사람들은 예의 바르기로 멀리까지 이름을 떨치게 되었어요.",
+        },
+        {
+          id: "tch-18",
+          text: "Eventually men traded the heavy crockery hats for light ones of horsehair and straw — and that is why, to this day, Korea is remembered as the land of hats.",
+          translation:
+            "마침내 남자들은 무거운 질그릇 모자를 말총과 짚으로 만든 가벼운 모자로 바꾸었어요. 그리고 그런 이유로 오늘날까지 한국은 모자의 나라로 기억되고 있어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tch-v1",
+        term: "topknot",
+        partOfSpeech: "noun",
+        translation: "상투",
+        example:
+          "Wanting to calm his new kingdom, Kija made a law: every married man must tie his hair into a neat topknot.",
+        exampleTranslation:
+          "새 왕국을 진정시키고 싶었던 기자는 법을 하나 만들었어요. 결혼한 남자는 모두 머리를 단정한 상투로 묶게 했어요.",
+      },
+      {
+        id: "tch-v2",
+        term: "quarrelsome",
+        partOfSpeech: "adjective",
+        translation: "싸움을 잘 거는, 다투기 좋아하는",
+        example:
+          "So Kija tried something stranger: he ordered huge, heavy hats made of baked clay for every quarrelsome man.",
+        exampleTranslation:
+          "그래서 기자는 더 기이한 방법을 시도했어요. 그는 싸움을 잘 거는 남자들에게 구운 흙으로 만든 크고 무거운 모자를 씌우라고 명령했어요.",
+      },
+      {
+        id: "tch-v3",
+        term: "crockery",
+        partOfSpeech: "noun",
+        translation: "질그릇, 도자기 그릇",
+        example:
+          "Now, when two men fought and knocked heads, it was their crockery hats that cracked — not their skulls.",
+        exampleTranslation:
+          "이제 두 남자가 싸우다 머리를 부딪히면, 깨지는 것은 그들의 두개골이 아니라 질그릇 모자였어요.",
+      },
+      {
+        id: "tch-v4",
+        term: "wages",
+        partOfSpeech: "noun",
+        translation: "품삯, 임금",
+        example:
+          "A broken hat was expensive to replace, costing a good half year's wages from the potter.",
+        exampleTranslation:
+          "깨진 모자를 새로 사는 값이 비싸서, 옹기장이에게 반년 치 품삯을 치러야 했어요.",
+      },
+      {
+        id: "tch-v5",
+        term: "politeness",
+        partOfSpeech: "noun",
+        translation: "예의, 공손함",
+        example:
+          "Over years, the whole land grew calmer, and Koreans became known far and wide for their politeness.",
+        exampleTranslation:
+          "여러 해가 지나며 온 나라가 더 차분해졌고, 한국 사람들은 예의 바르기로 멀리까지 이름을 떨치게 되었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tch-q1",
+        prompt: "Why did Kija first order men to wear topknots?",
+        options: [
+          "To copy a fashion he had seen in China.",
+          "He hoped a neat topknot would make men look dignified and act more gently — but they used it to grab each other in fights instead.",
+          "To mark which men were loyal to him.",
+          "Because the king of China commanded it.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Kija hoped the topknot law would calm his rough new kingdom by making men look more dignified, but instead of behaving better, angry men grabbed each other's topknots and pulled even harder when they fought.",
+      },
+      {
+        id: "tch-q2",
+        prompt: "How did the heavy crockery hats stop men from hurting each other?",
+        options: [
+          "The hats were too heavy to lift, so men could not throw punches.",
+          "The king banned anyone wearing a hat from fighting.",
+          "When quarrelsome men fought and knocked heads, their hats cracked instead of their skulls, and a new hat cost half a year's wages.",
+          "The hats made a loud noise that scared fighters apart.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Kija ordered quarrelsome men to wear huge clay hats. When they fought, the hats — not their heads — cracked, and since a new hat was so expensive, the cost of fighting became too high.",
+      },
+      {
+        id: "tch-q3",
+        prompt: "What did street fights look like after the crockery-hat law took hold?",
+        options: [
+          "They stopped completely, and no one ever argued again.",
+          "Men still fought with weapons, but only at night.",
+          "Fights became loud but bloodless contests of shouting, glaring, and making terrifying faces.",
+          "Men settled every quarrel by breaking a hat on purpose.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Over time, men stopped throwing punches and instead competed to look the angriest and fiercest — glaring and pulling terrible faces — so quarrels became strange, bloodless contests of expression instead of violence.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

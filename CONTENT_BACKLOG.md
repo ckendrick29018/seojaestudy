@@ -162,6 +162,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 98 | Prince Sandalwood, the Father of Korea | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; Korea's own founding myth — a bear and a tiger both pray to become human, the tiger gives up after eleven days but the bear endures the full twenty-one eating only garlic in a dark cave, becomes a woman, marries the sky-prince Whanung, and their son Tan-gun is hailed by the people as the first king of Korea) — sixth Korean-*origin* lesson, `collection: "folktales"`; Ch. 4 of the Griffis book, well within the confirmed-reachable range | ☑ |
 | 100 | The Rabbit's Eyes | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean trickster tale — the Dragon King is choked by a fisherman's hook, his doctor turtle is sent to fetch a rabbit's eyes for the cure, and the clever rabbit talks his way back to shore by claiming his real eyes are precious crystal ones left safely at home) — seventh Korean-*origin* lesson, `collection: "folktales"`; Ch. 5 of the Griffis book, within the confirmed-reachable range | ☑ |
 | 103 | East Light and the Bridge of Fishes | William E. Griffis (1928) | 67180 | A2 | the escape scene only (simplified retelling, 18 sentences; a founding legend of ancient Korea — East Light, a gifted young archer, grows into a threat the jealous king wants gone; he flees south with three companions to an impassable river, and when he cries out to the sky, hundreds of fish rise and form a bridge with their backs, letting the four men cross before the king's horsemen arrive) — eighth Korean-*origin* lesson, `collection: "folktales"`; Ch. 3 of the Griffis book | ☑ |
+| 104 | Topknots and Crockery Hats | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; an etiological legend — the sage Kija leads five thousand followers east to found Cho-sen, orders the topknot law to make men look dignified, then — when men only use it to grab each other in fights — invents giant baked-clay hats so quarrels crack pottery instead of skulls, turning street fights into silent contests of ugly faces; ends on why Korea is remembered as "the land of hats") — ninth Korean-*origin* lesson, `collection: "folktales"`; Ch. 6 of the Griffis book | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -231,11 +232,13 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (101 — 93 classics + 8 folktales):** East Light and the Bridge
+- **Live now (102 — 93 classics + 9 folktales):** Topknots and Crockery Hats
+  (row 104, folktales — Kija's founding of Cho-sen, the topknot law, and the
+  giant crockery hats that turned street fights into silent contests of ugly
+  faces) is the newest addition. Before that: East Light and the Bridge
   of Fishes (row 103, folktales — a founding legend of ancient Korea: a
   gifted young archer flees a jealous king to an impassable river, and
-  hundreds of fish rise to form a bridge with their backs) is the newest
-  addition. Before that: The Snow Queen (row 102,
+  hundreds of fish rise to form a bridge with their backs). Before that: The Snow Queen (row 102,
   classics — Andersen's goblin mirror and Gerda's search for Kai, compressed
   to a single A2 arc). Before that: The Rabbit's Eyes
   (row 100, folktales — the Dragon King's fisherman's-hook cure and the
@@ -335,11 +338,11 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
   A1 ×18, A2 ×24, B1 ×27, B2 ×24 — 93 live; add the folktales shelf
-  (A1 ×2, A2 ×6 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
+  (A1 ×2, A2 ×7 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
-  Light and the Bridge of Fishes) for
-  101 lessons across both shelves. B1 and B2 are now
+  Light and the Bridge of Fishes, Topknots and Crockery Hats) for
+  102 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -372,16 +375,16 @@ has a genuine period cover/illustration in the public domain, download that into
     variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (8 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (9 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
     the Queen Mother, Prince Sandalwood the Father of Korea, The Rabbit's
-    Eyes, East Light and the Bridge of Fishes — plus Heungbu
+    Eyes, East Light and the Bridge of Fishes, Topknots and Crockery
+    Hats — plus Heungbu
     and Nolbu on the plain Library list below, tagged
     `collection: "folktales"` so it now also shows on the shelf): the
     Griffis collection's confirmed-reachable range (roughly chapters 1–13
     of 26 — see the fetch-depth caveat below) still has untapped chapters:
-    Ch. 6 "Topknots and
-    Crockery Hats," Ch. 7 "Fancha and the
+    Ch. 7 "Fancha and the
     Magpie," Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
     of the Flowers," and Ch. 12 "Tokgabi's Menagerie" are all still
     unbuilt and were confirmed in the book's table of contents (fetched
@@ -523,9 +526,18 @@ strong PD material in each:
   moment they reach dry land. Only the birth/exile prologue and the
   founding-of-Fuyu coda from Griffis's full chapter were left out — the
   escape scene is the self-contained core, matching the single-scene
-  shape used for the other Tier 1 lessons. So chapters 6, 7, 10, 11, and
+  shape used for the other Tier 1 lessons. A ninth Griffis tale is now
+  live: **row 104, Topknots and Crockery Hats** (A2, Ch. 6) — an
+  etiological legend: the sage Kija leads five thousand followers east
+  from China, founds the city of Cho-sen, and first orders every married
+  man to wear a topknot, hoping it will make men look dignified; when
+  quarrelsome men instead use it to grab each other in fights, he tries
+  something stranger — huge hats of baked clay that crack instead of
+  skulls when men fight, so expensive to replace that street brawls turn
+  into silent contests of glaring and ugly faces, and the whole land
+  grows calmer and famed for politeness. So chapters 7, 10, 11, and
   12 are still unbuilt and, being inside the same 1–13 range already
-  used successfully eight times,
+  used successfully nine times,
   should be reachable for the next batch. Remaining non-Griffis
   Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi, Sim Cheong)
   still need a public-domain English source identified.
