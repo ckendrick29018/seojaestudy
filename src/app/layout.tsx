@@ -3,7 +3,7 @@ import { Inter, Noto_Sans_KR, Noto_Serif_KR, Playfair_Display } from "next/font/
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Providers } from "@/components/providers/Providers";
-import { SiteHeader } from "@/components/layout/SiteHeader";
+import { AppShell } from "@/components/layout/AppShell";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { OnboardingFlow } from "@/components/onboarding/OnboardingFlow";
 import { SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
@@ -89,10 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="app-stage font-sans text-charcoal antialiased">
         <ServiceWorkerRegister />
         <Providers>
-          <div className="mx-auto flex min-h-dvh max-w-app flex-col bg-cream sm:my-8 sm:min-h-[calc(100dvh-4rem)] sm:rounded-xl2 sm:border sm:border-rose-light sm:shadow-frame">
-            <SiteHeader />
-            <main className="flex-1">{children}</main>
-          </div>
+          <AppShell>{children}</AppShell>
           <OnboardingFlow />
         </Providers>
         <Analytics />

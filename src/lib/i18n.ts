@@ -431,6 +431,7 @@ export const dict = {
   },
   landingCtaPrimary: { en: "Start reading — it's free", ko: "무료로 읽기 시작하기" },
   landingCtaSecondary: { en: "Browse the classics", ko: "고전 둘러보기" },
+  navStart: { en: "Start reading", ko: "읽기 시작" },
   landingHeroCount: {
     en: "Now {count} classic stories — and growing every week.",
     ko: "지금 고전 이야기 {count}편 — 매주 계속 늘고 있어요.",

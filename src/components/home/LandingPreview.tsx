@@ -201,17 +201,19 @@ export function LandingPreview() {
   const t = useT();
 
   return (
-    <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12">
-      <h2 className="mb-1.5 text-center font-serif text-2xl font-semibold text-charcoal">
-        {t("landingPreviewTitle")}
-      </h2>
-      <p className="mx-auto mb-7 max-w-[36ch] text-center text-sm leading-relaxed text-charcoal/55">
-        {t("landingPreviewBody")}
-      </p>
+    <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12 lg:py-16">
+      <div className="mx-auto w-full max-w-6xl lg:px-8">
+        <h2 className="mb-1.5 text-center font-serif text-2xl font-semibold text-charcoal lg:text-3xl">
+          {t("landingPreviewTitle")}
+        </h2>
+        <p className="mx-auto mb-7 max-w-[36ch] text-center text-sm leading-relaxed text-charcoal/55 lg:mb-10 lg:max-w-[48ch]">
+          {t("landingPreviewBody")}
+        </p>
 
-      <div className="space-y-4">
-        <ReaderScreen />
-        <FlashcardScreen />
+        <div className="space-y-4 lg:mx-auto lg:grid lg:max-w-3xl lg:grid-cols-2 lg:items-start lg:gap-6 lg:space-y-0">
+          <ReaderScreen />
+          <FlashcardScreen />
+        </div>
       </div>
     </section>
   );
