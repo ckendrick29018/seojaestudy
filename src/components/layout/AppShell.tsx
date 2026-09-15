@@ -7,8 +7,9 @@ import { MarketingHeader } from "./MarketingHeader";
 // Routes that get the wide marketing layout instead of the ~480px app frame:
 // the homepage, every SEO/marketing hub (and their sub-routes, e.g.
 // /classics/a1 or /learn/cefr-levels-explained), plus the personal
-// collection pages (/folktales, /bookshelf) that share the same hub styling.
-const MARKETING_PREFIXES = ["/classics", "/library", "/learn", "/faq", "/folktales", "/bookshelf"];
+// collection/account pages (/folktales, /bookshelf, /club, /settings) that
+// share the same hub styling.
+const MARKETING_PREFIXES = ["/classics", "/library", "/learn", "/faq", "/folktales", "/bookshelf", "/club", "/settings"];
 
 function isMarketingRoute(pathname: string) {
   if (pathname === "/") return true;

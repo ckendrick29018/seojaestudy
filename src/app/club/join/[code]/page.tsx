@@ -118,8 +118,8 @@ function JoinFlow({ code }: { code: string }) {
 export default function ClubJoinPage({ params }: { params: { code: string } }) {
   const t = useT();
   return (
-    <div className="px-5 py-12">
-      <h1 className="mb-6 font-serif text-2xl font-semibold text-charcoal">{t("myBookClub")}</h1>
+    <div className="px-5 py-12 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-16">
+      <h1 className="mb-6 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">{t("myBookClub")}</h1>
       <Suspense fallback={<p className="text-sm text-charcoal/50">{t("clubJoinLoading")}</p>}>
         <JoinFlow code={params.code} />
       </Suspense>

@@ -46,12 +46,12 @@ export default function ClubPage() {
 
   // Plain JSX composition (not a nested component) so inputs keep focus across renders.
   const frame = (children: ReactNode) => (
-    <div className="px-5 py-8">
-      <h1 className="mb-1 flex items-center gap-2 font-serif text-2xl font-semibold text-charcoal">
-        <UsersIcon className="h-6 w-6 text-rose-soft" aria-hidden />
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-12">
+      <h1 className="mb-1 flex items-center gap-2 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">
+        <UsersIcon className="h-6 w-6 text-rose-soft lg:h-8 lg:w-8" aria-hidden />
         {t("myBookClub")}
       </h1>
-      <div className="mt-6">{children}</div>
+      <div className="mt-6 lg:mt-8">{children}</div>
       <Link href="/library" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>

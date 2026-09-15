@@ -54,11 +54,11 @@ export default function SettingsPage() {
   const goalLabel = labelFor(GOALS, data.goal, lang) ?? "—";
 
   return (
-    <div className="px-5 py-8">
-      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal">{t("settings")}</h1>
-      <p className="mb-6 text-sm text-charcoal/50">{t("settingsSubtitle")}</p>
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-12">
+      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">{t("settings")}</h1>
+      <p className="mb-6 text-sm text-charcoal/50 lg:text-base">{t("settingsSubtitle")}</p>
 
-      <div className="space-y-4">
+      <div className="space-y-4 lg:space-y-5">
         {/* Your learning */}
         <section className="rounded-xl2 border border-rose-light/50 bg-white/60 p-5 shadow-soft">
           <SectionHeading title={t("settingsLearningTitle")} />
