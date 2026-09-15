@@ -542,6 +542,17 @@ export const dict = {
   },
   landingClassicsSeeAll: { en: "See all {count} stories", ko: "이야기 {count}편 모두 보기" },
 
+  landingFolktalesTitle: { en: "Or read the other way", ko: "반대 방향으로도 읽어요" },
+  landingFolktalesPopular: {
+    en: "Real Korean stories, not translations of Western ones.",
+    ko: "서양 이야기를 옮긴 게 아니라, 진짜 한국 이야기예요.",
+  },
+  landingFolktalesBody: {
+    en: "{count} traditional Korean folktales, retold for learners in both languages — with the same tap-translation, audio, and flashcards as every story here.",
+    ko: "한국에서 전해 내려오는 옛이야기 {count}편을 두 언어의 학습자를 위해 새로 풀어썼어요. 단어 번역, 음성 낭독, 플래시카드도 다른 이야기와 똑같이 쓸 수 있어요.",
+  },
+  landingFolktalesSeeAll: { en: "See all {count} folktales", ko: "전래동화 {count}편 모두 보기" },
+
   landingClubTitle: { en: "Read it together", ko: "함께 읽어요" },
   landingClubBody: {
     en: "Start a book club of up to 10 readers. Share a chapter and everyone in your club can open it — free, while your membership is active — then talk it over.",

@@ -23,6 +23,11 @@ import {
 const FEATURED = lessons.filter((l) => l.collection === "classics");
 const CLASSICS_COUNT = FEATURED.length;
 
+/** Korean-origin folktales — the reverse direction from Classics, shown to
+ * make clear the library isn't only Western literature translated one way. */
+const FOLKTALES_FEATURED = lessons.filter((l) => l.collection === "folktales");
+const FOLKTALES_COUNT = FOLKTALES_FEATURED.length;
+
 const CTA_BASE =
   "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition";
 
@@ -202,6 +207,36 @@ export function LandingClient() {
               className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline lg:mt-10"
             >
               {t("landingClassicsSeeAll").replace("{count}", String(CLASSICS_COUNT))}
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* Or read the other way — Korean-origin folktales, the reverse
+          direction from Classics, right beside it so the bilingual range is
+          obvious immediately. */}
+      {FOLKTALES_FEATURED.length > 0 && (
+        <section className="border-t border-rose-light/40 bg-sage/10 px-6 py-12 lg:py-16">
+          <div className={WRAP}>
+            <h2 className="text-center font-serif text-2xl font-semibold text-charcoal lg:text-3xl">
+              {t("landingFolktalesTitle")}
+            </h2>
+            <p className="mx-auto mt-1.5 max-w-[36ch] text-center text-sm font-medium text-rose/80">
+              {t("landingFolktalesPopular")}
+            </p>
+            <p className="mx-auto mb-6 mt-1.5 max-w-[46ch] text-center text-sm text-charcoal/55 lg:mb-10">
+              {t("landingFolktalesBody").replace("{count}", String(FOLKTALES_COUNT))}
+            </p>
+            <div className="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-6">
+              {FOLKTALES_FEATURED.slice(0, 4).map((lesson) => (
+                <ClassicCard key={lesson.slug} lesson={lesson} complete={false} />
+              ))}
+            </div>
+            <Link
+              href="/folktales"
+              className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline lg:mt-10"
+            >
+              {t("landingFolktalesSeeAll").replace("{count}", String(FOLKTALES_COUNT))}
             </Link>
           </div>
         </section>
