@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { lessons } from "@/lib/data/lessons";
 import { ARTICLES } from "@/lib/articles";
+import { QUOTES } from "@/lib/quotes";
 import { CONTENT_LAST_MODIFIED, SITE_URL } from "@/lib/site";
 
 /**
@@ -34,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/classics`, lastModified, changeFrequency: "weekly", priority: 0.8, alternates: bilingual("/classics") },
     { url: `${SITE_URL}/folktales`, lastModified, changeFrequency: "weekly", priority: 0.7, alternates: bilingual("/folktales") },
     { url: `${SITE_URL}/learn`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/learn") },
+    { url: `${SITE_URL}/quotes`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/quotes") },
     { url: `${SITE_URL}/faq`, lastModified, changeFrequency: "monthly", priority: 0.5, alternates: bilingual("/faq") },
     ...["a1", "a2", "b1", "b2"].map((level) => ({
       url: `${SITE_URL}/classics/${level}`,
@@ -51,6 +53,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const quoteEntries: MetadataRoute.Sitemap = QUOTES.map((quote) => ({
+    url: `${SITE_URL}/quote/${quote.slug}`,
+    lastModified: quote.dateModified,
+    changeFrequency: "yearly",
+    priority: 0.6,
+  }));
+
   const lessonEntries: MetadataRoute.Sitemap = lessons.map((lesson) => ({
     url: `${SITE_URL}/lesson/${lesson.slug}`,
     lastModified,
@@ -59,5 +68,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: bilingual(`/lesson/${lesson.slug}`),
   }));
 
-  return [...staticEntries, ...articleEntries, ...lessonEntries];
+  return [...staticEntries, ...articleEntries, ...quoteEntries, ...lessonEntries];
 }

@@ -22940,6 +22940,239 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "fancha-and-the-magpie",
+    title: "Fancha and the Magpie",
+    titleTranslation: "판차와 까치",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Manchu-Korean legend (1843–1928)",
+    coverEmoji: "🐦",
+    coverImage: "/covers/fancha-and-the-magpie.svg",
+    source:
+      "Adapted from \"Fancha and the Magpie,\" William Elliot Griffis's English retelling of a Manchu (Tartar) origin legend — in which a Chinese emperor's court storyteller traces his dynasty back to a heaven-born ancestor named Fancha — in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Mrs. Crinkles explained the emperor's heaven-born ancestor, and how a magpie saved young Fancha's life.",
+    paragraphs: [
+      [
+        {
+          id: "fm-1",
+          text: "Long ago, north of Korea, a people called the Manchus lived on the cold desert plains as skilled horsemen and warriors.",
+          translation:
+            "아주 오래전, 한국의 북쪽에서는 만주족이라 불리는 사람들이 춥고 메마른 사막 평원에서 뛰어난 기마병이자 전사로 살았어요.",
+        },
+        {
+          id: "fm-2",
+          text: "In time they grew strong enough to conquer China itself and rule over both Chinese and Koreans.",
+          translation:
+            "시간이 지나며 그들은 힘이 강해져 중국을 정복하고 중국인과 한국인 모두를 다스리게 되었어요.",
+        },
+        {
+          id: "fm-3",
+          text: "But their new nobles worried that everyone would remember they had once been poor tent-dwellers who lived on mutton and wild nuts.",
+          translation:
+            "하지만 그들의 새로운 귀족들은 자신들이 한때 양고기와 야생 견과류를 먹으며 천막에서 살던 가난한 사람들이었다는 것을 사람들이 기억할까 봐 걱정했어요.",
+        },
+      ],
+      [
+        {
+          id: "fm-4",
+          text: "\"What can we do to make the people respect us?\" the Chinese Emperor asked his council of wise men.",
+          translation:
+            "중국 황제는 어떻게 해야 백성들이 자신들을 존경하게 만들 수 있을지 지혜로운 신하들에게 물었어요.",
+        },
+        {
+          id: "fm-5",
+          text: "An old advisor named Green Lamps, famous for his huge green spectacles, suggested calling in an ancient storyteller named Mrs. Crinkles.",
+          translation:
+            "커다란 초록색 안경으로 유명한 그린램프스라는 늙은 신하가 크링클스 할머니라는 늙은 이야기꾼을 불러오자고 제안했어요.",
+        },
+        {
+          id: "fm-6",
+          text: "She was said to be over a hundred years old and knew the oldest legend of their people's heavenly birth.",
+          translation:
+            "그녀는 나이가 백 살이 넘었다고 전해졌고, 그들 민족의 하늘에서 태어났다는 가장 오래된 전설을 알고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "fm-7",
+          text: "Mrs. Crinkles told the court that three heavenly sisters once came down to bathe in a lake below the Ever White Mountains.",
+          translation:
+            "크링클스 할머니는 궁정 사람들에게 옛날 하늘의 세 자매가 백두산 아래 호수로 내려와 목욕을 했다고 말했어요.",
+        },
+        {
+          id: "fm-8",
+          text: "The sisters loved the lake so much that they never returned to the sky, and they kept magpies as their sacred pet birds.",
+          translation:
+            "자매들은 그 호수를 너무나 사랑해서 다시는 하늘로 돌아가지 않았고, 까치를 신성한 새로 여기며 길렀어요.",
+        },
+        {
+          id: "fm-9",
+          text: "One day a magpie flew down and dropped a bright red fruit onto the robe of the youngest sister.",
+          translation:
+            "어느 날 까치 한 마리가 날아 내려와 막내 자매의 옷 위에 새빨간 열매를 떨어뜨렸어요.",
+        },
+      ],
+      [
+        {
+          id: "fm-10",
+          text: "She ate the sweet fruit and later gave birth to a son, whom she named Golden Family Stem, for she believed Heaven had sent him.",
+          translation:
+            "그녀는 그 달콤한 열매를 먹었고, 나중에 아들을 낳아 하늘이 보내준 아이라고 믿으며 금가지라는 이름을 지어 주었어요.",
+        },
+        {
+          id: "fm-11",
+          text: "After his mother died, the young man took the name Fancha, meaning \"Heaven-born,\" and sailed alone down the river in a small boat.",
+          translation:
+            "어머니가 세상을 떠난 뒤, 그 청년은 하늘에서 태어났다는 뜻의 판차라는 이름을 갖고 작은 배를 타고 홀로 강을 따라 내려갔어요.",
+        },
+        {
+          id: "fm-12",
+          text: "When he landed among three warring tribes, his calm courage impressed them so much that they made him their chief.",
+          translation:
+            "그가 서로 싸우던 세 부족이 있는 곳에 다다르자, 그의 침착한 용기에 감동한 부족민들은 그를 자신들의 우두머리로 삼았어요.",
+        },
+      ],
+      [
+        {
+          id: "fm-13",
+          text: "Fancha ruled wisely and built a city, but years later he and all his sons but one were killed in battle.",
+          translation:
+            "판차는 지혜롭게 다스리며 도시를 세웠지만, 여러 해가 지난 뒤 그와 아들들 대부분이 전투에서 목숨을 잃었고 오직 한 명만 살아남았어요.",
+        },
+        {
+          id: "fm-14",
+          text: "Enemies chased his last living son, who was also named Fancha, across the plains toward a dark forest.",
+          translation:
+            "적들은 역시 판차라는 이름을 가진 그의 마지막 살아남은 아들을 넓은 들판을 가로질러 어두운 숲 쪽으로 쫓아갔어요.",
+        },
+        {
+          id: "fm-15",
+          text: "A magpie suddenly landed on the boy's head and stood so still that his pursuers mistook him for an old dead tree stump.",
+          translation:
+            "까치 한 마리가 갑자기 소년의 머리 위에 내려앉았고, 소년이 너무 가만히 서 있어서 추격자들은 그를 오래된 고목 그루터기로 착각했어요.",
+        },
+      ],
+      [
+        {
+          id: "fm-16",
+          text: "The enemies searched the forest, saw only what looked like a broken branch, and gave up the hunt and went home.",
+          translation:
+            "적들은 숲을 뒤졌지만 부러진 나뭇가지처럼 보이는 것만 눈에 띄자 결국 추격을 포기하고 돌아갔어요.",
+        },
+        {
+          id: "fm-17",
+          text: "\"That young Fancha,\" Mrs. Crinkles finished, \"was your own ancestor from seventeen generations ago, Your Majesty.\"",
+          translation:
+            "크링클스 할머니는 이야기를 마치며, 그 어린 판차가 바로 폐하의 열일곱 대 전 조상이라고 말했어요.",
+        },
+        {
+          id: "fm-18",
+          text: "The delighted Emperor showered her with honors and gifts, and gave Green Lamps a jade button as a reward for finding her.",
+          translation:
+            "기뻐한 황제는 그녀에게 온갖 명예와 선물을 내렸고, 그녀를 찾아낸 그린램프스에게는 옥 단추를 상으로 주었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "fm-v1",
+        term: "warrior",
+        partOfSpeech: "noun",
+        translation: "전사",
+        example:
+          "Long ago, north of Korea, a people called the Manchus lived on the cold desert plains as skilled horsemen and warriors.",
+        exampleTranslation:
+          "아주 오래전, 한국의 북쪽에서는 만주족이라 불리는 사람들이 춥고 메마른 사막 평원에서 뛰어난 기마병이자 전사로 살았어요.",
+      },
+      {
+        id: "fm-v2",
+        term: "conquer",
+        partOfSpeech: "verb",
+        translation: "정복하다",
+        example:
+          "In time they grew strong enough to conquer China itself and rule over both Chinese and Koreans.",
+        exampleTranslation:
+          "시간이 지나며 그들은 힘이 강해져 중국을 정복하고 중국인과 한국인 모두를 다스리게 되었어요.",
+      },
+      {
+        id: "fm-v3",
+        term: "legend",
+        partOfSpeech: "noun",
+        translation: "전설",
+        example:
+          "She was said to be over a hundred years old and knew the oldest legend of their people's heavenly birth.",
+        exampleTranslation:
+          "그녀는 나이가 백 살이 넘었다고 전해졌고, 그들 민족의 하늘에서 태어났다는 가장 오래된 전설을 알고 있었어요.",
+      },
+      {
+        id: "fm-v4",
+        term: "ancestor",
+        partOfSpeech: "noun",
+        translation: "조상",
+        example:
+          "\"That young Fancha,\" Mrs. Crinkles finished, \"was your own ancestor from seventeen generations ago, Your Majesty.\"",
+        exampleTranslation:
+          "크링클스 할머니는 이야기를 마치며, 그 어린 판차가 바로 폐하의 열일곱 대 전 조상이라고 말했어요.",
+      },
+      {
+        id: "fm-v5",
+        term: "pursuers",
+        partOfSpeech: "noun",
+        translation: "추격자들, 쫓는 사람들",
+        example:
+          "A magpie suddenly landed on the boy's head and stood so still that his pursuers mistook him for an old dead tree stump.",
+        exampleTranslation:
+          "까치 한 마리가 갑자기 소년의 머리 위에 내려앉았고, 소년이 너무 가만히 서 있어서 추격자들은 그를 오래된 고목 그루터기로 착각했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "fm-q1",
+        prompt: "Why did the Chinese Emperor want an old storyteller to appear before his court?",
+        options: [
+          "To settle a dispute between the Manchus and the Koreans.",
+          "His nobles worried people would remember they had once been poor tent-dwellers, so he wanted an impressive story of heavenly ancestors.",
+          "To celebrate a recent military victory.",
+          "Because Green Lamps wanted a promotion.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Now ruling a great empire, the Manchu nobles worried common people would remember their humble desert past, so Green Lamps suggested summoning Mrs. Crinkles to tell the ancient legend of a heaven-born ancestor and make the ruling family seem more impressive.",
+      },
+      {
+        id: "fm-q2",
+        prompt: "How did the youngest heavenly sister come to have a son, according to Mrs. Crinkles's story?",
+        options: [
+          "She married a mountain god who lived by the lake.",
+          "A sacred magpie dropped a red fruit onto her robe; she ate it and later gave birth to a son she believed Heaven had sent.",
+          "She found an abandoned baby floating on the lake.",
+          "The Lord of Heaven sent the boy down directly from the sky.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A magpie, the sisters' sacred bird, dropped a bright red fruit onto the youngest sister's robe. She ate the fruit and later gave birth to a son, Golden Family Stem, believing Heaven itself had sent him.",
+      },
+      {
+        id: "fm-q3",
+        prompt: "How did the young Fancha escape the enemies chasing him through the forest?",
+        options: [
+          "He hid inside a hollow tree until they left.",
+          "He fought them off with a sword his father had given him.",
+          "A magpie landed on his head and he stood so still that his pursuers mistook him for a dead tree stump.",
+          "He swam across a river that his enemies could not cross.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A magpie landed on Fancha's head as he stood motionless in the forest. His pursuers thought he was only an old, broken stump of wood, so they searched right past him and eventually gave up the chase.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -163,6 +163,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 100 | The Rabbit's Eyes | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 17 sentences; a traditional Korean trickster tale — the Dragon King is choked by a fisherman's hook, his doctor turtle is sent to fetch a rabbit's eyes for the cure, and the clever rabbit talks his way back to shore by claiming his real eyes are precious crystal ones left safely at home) — seventh Korean-*origin* lesson, `collection: "folktales"`; Ch. 5 of the Griffis book, within the confirmed-reachable range | ☑ |
 | 103 | East Light and the Bridge of Fishes | William E. Griffis (1928) | 67180 | A2 | the escape scene only (simplified retelling, 18 sentences; a founding legend of ancient Korea — East Light, a gifted young archer, grows into a threat the jealous king wants gone; he flees south with three companions to an impassable river, and when he cries out to the sky, hundreds of fish rise and form a bridge with their backs, letting the four men cross before the king's horsemen arrive) — eighth Korean-*origin* lesson, `collection: "folktales"`; Ch. 3 of the Griffis book | ☑ |
 | 104 | Topknots and Crockery Hats | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; an etiological legend — the sage Kija leads five thousand followers east to found Cho-sen, orders the topknot law to make men look dignified, then — when men only use it to grab each other in fights — invents giant baked-clay hats so quarrels crack pottery instead of skulls, turning street fights into silent contests of ugly faces; ends on why Korea is remembered as "the land of hats") — ninth Korean-*origin* lesson, `collection: "folktales"`; Ch. 6 of the Griffis book | ☑ |
+| 105 | Fancha and the Magpie | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a Manchu dynastic-origin legend framed as a story told to a Chinese emperor's court — three heavenly sisters bathe in a lake below the Ever White Mountains, a sacred magpie drops a red fruit that lets the youngest conceive a heaven-born son, and generations later his descendant Fancha escapes pursuers in a forest when a magpie lands on his head and they mistake him for a dead stump) — tenth Korean-*origin* lesson, `collection: "folktales"`; Ch. 7 of the Griffis book | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -232,10 +233,15 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (102 — 93 classics + 9 folktales):** Topknots and Crockery Hats
+- **Live now (103 — 93 classics + 10 folktales):** Fancha and the Magpie
+  (row 105, folktales — a Manchu dynastic-origin legend told to a Chinese
+  emperor's court: three heavenly sisters, a sacred magpie's red fruit, and a
+  descendant named Fancha who escapes pursuers when a magpie lands on his head
+  and they mistake him for a dead stump) is the newest addition. Before that:
+  Topknots and Crockery Hats
   (row 104, folktales — Kija's founding of Cho-sen, the topknot law, and the
   giant crockery hats that turned street fights into silent contests of ugly
-  faces) is the newest addition. Before that: East Light and the Bridge
+  faces). Before that: East Light and the Bridge
   of Fishes (row 103, folktales — a founding legend of ancient Korea: a
   gifted young archer flees a jealous king to an impassable river, and
   hundreds of fish rise to form a bridge with their backs). Before that: The Snow Queen (row 102,
@@ -338,11 +344,12 @@ has a genuine period cover/illustration in the public domain, download that into
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
   A1 ×18, A2 ×24, B1 ×27, B2 ×24 — 93 live; add the folktales shelf
-  (A1 ×2, A2 ×7 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
+  (A1 ×2, A2 ×8 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
-  Light and the Bridge of Fishes, Topknots and Crockery Hats) for
-  102 lessons across both shelves. B1 and B2 are now
+  Light and the Bridge of Fishes, Topknots and Crockery Hats, Fancha and
+  the Magpie) for
+  103 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -375,17 +382,16 @@ has a genuine period cover/illustration in the public domain, download that into
     variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (9 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (10 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
     the Queen Mother, Prince Sandalwood the Father of Korea, The Rabbit's
     Eyes, East Light and the Bridge of Fishes, Topknots and Crockery
-    Hats — plus Heungbu
+    Hats, Fancha and the Magpie — plus Heungbu
     and Nolbu on the plain Library list below, tagged
     `collection: "folktales"` so it now also shows on the shelf): the
     Griffis collection's confirmed-reachable range (roughly chapters 1–13
     of 26 — see the fetch-depth caveat below) still has untapped chapters:
-    Ch. 7 "Fancha and the
-    Magpie," Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
+    Ch. 10 "Old White Whiskers and Mr. Bunny," Ch. 11 "The King
     of the Flowers," and Ch. 12 "Tokgabi's Menagerie" are all still
     unbuilt and were confirmed in the book's table of contents (fetched
     2026-09-14). Deeper chapters — "The Magic Peach" (Ch. 14) and "The
@@ -535,9 +541,21 @@ strong PD material in each:
   something stranger — huge hats of baked clay that crack instead of
   skulls when men fight, so expensive to replace that street brawls turn
   into silent contests of glaring and ugly faces, and the whole land
-  grows calmer and famed for politeness. So chapters 7, 10, 11, and
+  grows calmer and famed for politeness. A tenth Griffis tale is now
+  live: **row 105, Fancha and the Magpie** (A2, Ch. 7) — a Manchu
+  dynastic-origin legend told as a story-within-a-story: worried that
+  common people will remember their nobles' humble desert past, a
+  Chinese emperor summons an ancient storyteller, Mrs. Crinkles, who
+  tells of three heavenly sisters bathing in a lake below the Ever
+  White Mountains; a sacred magpie drops a red fruit onto the youngest
+  sister's robe, and she conceives a heaven-born son who becomes chief
+  of warring tribes. Generations later his descendant, also named
+  Fancha, is chased into a forest by enemies; a magpie lands on his
+  motionless head and his pursuers mistake him for a dead stump, letting
+  him escape — and Mrs. Crinkles reveals that this Fancha was the
+  emperor's own ancestor. So chapters 10, 11, and
   12 are still unbuilt and, being inside the same 1–13 range already
-  used successfully nine times,
+  used successfully ten times,
   should be reachable for the next batch. Remaining non-Griffis
   Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi, Sim Cheong)
   still need a public-domain English source identified.

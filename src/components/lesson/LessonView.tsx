@@ -8,6 +8,7 @@ import { VocabFlashcards } from "./VocabFlashcards";
 import { SummaryBox } from "./SummaryBox";
 import { ShareWithClub } from "./ShareWithClub";
 import { ScrollProgressBar } from "./ScrollProgressBar";
+import { FamousQuoteCallout } from "./FamousQuoteCallout";
 
 /**
  * The full one-page scrolling lesson flow:
@@ -23,6 +24,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       <ComprehensionCheck questions={lesson.questions} />
       <VocabFlashcards lesson={lesson} />
       <SummaryBox lesson={lesson} />
+      <FamousQuoteCallout lessonSlug={lesson.slug} />
       <ShareWithClub lesson={lesson} />
     </article>
   );

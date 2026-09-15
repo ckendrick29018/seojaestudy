@@ -1,4 +1,5 @@
 import type { Lesson } from "./types";
+import type { Quote } from "./quotes";
 import { SITE_NAME, SITE_URL } from "./site";
 import { estimateReadingTime } from "./utils";
 
@@ -211,5 +212,60 @@ export function collectionPageJsonLd(opts: {
         itemListElement: crumbs,
       },
     ],
+  };
+}
+
+/** The <title> for a quote page — leads with the line itself (the term people search). */
+export function quoteMetaTitle(quote: Quote): string {
+  const excerpt = quote.quoteEn.length > 60 ? `${quote.quoteEn.slice(0, 57)}...` : quote.quoteEn;
+  return `"${excerpt}" — ${quote.workTitle} Quote in English & Korean`;
+}
+
+/** Marketing/meta description for a quote page, shared by <meta> tags and JSON-LD. */
+export function quoteDescription(quote: Quote): string {
+  const author = stripDates(quote.author);
+  return (
+    `The famous line "${quote.quoteEn}" from ${quote.workTitle} by ${author}, ` +
+    `with a Korean translation, context, and a tap-to-translate English reading.`
+  );
+}
+
+/**
+ * schema.org structured data for a quote page: a Quotation from the original
+ * work, plus a BreadcrumbList. Rendered as a <script type="application/ld+json">
+ * in the quote route.
+ */
+export function quoteJsonLd(quote: Quote) {
+  const url = `${SITE_URL}/quote/${quote.slug}`;
+  const author = stripDates(quote.author);
+
+  const quotation: Record<string, unknown> = {
+    "@type": "Quotation",
+    "@id": `${url}#quote`,
+    url,
+    text: quote.quoteEn,
+    inLanguage: "en",
+    isPartOf: {
+      "@type": "Book",
+      name: quote.workTitle,
+      author: { "@type": "Person", name: author },
+    },
+    creator: { "@type": "Person", name: author },
+    publisher: { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: SITE_NAME, url: `${SITE_URL}/` },
+  };
+  if (quote.speaker) quotation.spokenByCharacter = { "@type": "Person", name: quote.speaker };
+
+  const breadcrumb = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Quotes", item: `${SITE_URL}/quotes` },
+      { "@type": "ListItem", position: 3, name: quote.workTitle, item: url },
+    ],
+  };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [quotation, breadcrumb],
   };
 }
