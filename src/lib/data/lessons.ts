@@ -23788,6 +23788,621 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "hans-in-luck",
+    title: "Hans in Luck",
+    titleTranslation: "운 좋은 한스",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Classic fiction",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, d. 1863; Wilhelm, d. 1859)",
+    coverEmoji: "🪨",
+    coverImage: "/covers/hans-in-luck.svg",
+    source:
+      "Adapted from \"Hans in Luck\" (\"Hans im Glück\"), Brothers Grimm, in \"Grimm's Household Tales\" (1863 ed.; Project Gutenberg #2591). The Brothers Grimm are long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Hans traded away, step by step, and how he felt at the very end of the story.",
+    paragraphs: [
+      [
+        {
+          id: "hil-1",
+          text: "Hans worked for his master for seven years.",
+          translation: "한스는 주인을 위해 칠 년 동안 일했어요.",
+        },
+        {
+          id: "hil-2",
+          text: "When the seven years ended, his master gave him a big lump of gold as pay.",
+          translation: "칠 년이 끝나자, 주인은 그에게 품삯으로 커다란 금덩이를 주었어요.",
+        },
+        {
+          id: "hil-3",
+          text: "Hans put the gold on his shoulder and started walking home to see his mother.",
+          translation: "한스는 금덩이를 어깨에 메고 어머니를 만나러 집으로 걷기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "hil-4",
+          text: "Soon his shoulder hurt, and a man rode by on a fast horse.",
+          translation: "곧 어깨가 아파 왔고, 그때 한 남자가 빠른 말을 타고 지나갔어요.",
+        },
+        {
+          id: "hil-5",
+          text: "\"I wish I had a horse like that,\" Hans said.",
+          translation: "\"저런 말이 있으면 좋겠다,\" 한스가 말했어요.",
+        },
+        {
+          id: "hil-6",
+          text: "The man said, \"Let's trade! You give me your gold, and I will give you my horse.\"",
+          translation: "남자가 말했어요. \"우리 바꾸자! 네가 금을 주면, 내가 말을 줄게.\"",
+        },
+      ],
+      [
+        {
+          id: "hil-7",
+          text: "Hans happily traded his heavy gold for the horse and rode away.",
+          translation: "한스는 기쁘게 무거운 금을 말과 바꾸고 말을 타고 갔어요.",
+        },
+        {
+          id: "hil-8",
+          text: "But the horse was wild, and it threw Hans onto the road.",
+          translation: "하지만 말은 사나웠고, 한스를 길 위로 던져 버렸어요.",
+        },
+        {
+          id: "hil-9",
+          text: "A farmer with a cow saw what happened and offered to trade his cow for the horse.",
+          translation: "소를 데리고 있던 농부가 그 모습을 보고 말과 소를 바꾸자고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "hil-10",
+          text: "Hans thought, \"Now I will have milk, butter, and cheese every day!\" and made the trade.",
+          translation: "한스는 \"이제 매일 우유와 버터와 치즈를 먹을 수 있겠다!\"라고 생각하며 소로 바꾸었어요.",
+        },
+        {
+          id: "hil-11",
+          text: "But the old cow gave no milk at all, and when Hans tried to milk her, she kicked him.",
+          translation: "하지만 늙은 소는 우유를 전혀 주지 않았고, 한스가 젖을 짜려 하자 그를 걷어찼어요.",
+        },
+        {
+          id: "hil-12",
+          text: "A butcher walking by with a fat pig heard Hans's trouble and traded the pig for the useless cow.",
+          translation: "지나가던 정육점 주인이 한스의 사정을 듣고 살진 돼지와 쓸모없는 소를 바꿔 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "hil-13",
+          text: "Next, Hans met a man carrying a white goose, who said the pig might be stolen and traded him the goose instead.",
+          translation: "다음으로, 한스는 흰 거위를 든 남자를 만났는데, 그 남자는 돼지가 훔친 것일지도 모른다며 거위와 바꾸자고 했어요.",
+        },
+        {
+          id: "hil-14",
+          text: "Hans carried the goose happily, thinking of the soft feathers and the good dinner it would make.",
+          translation: "한스는 부드러운 깃털과 맛있는 저녁 식사를 생각하며 기쁘게 거위를 안고 걸었어요.",
+        },
+        {
+          id: "hil-15",
+          text: "In the next village, a grinder sharpening knives told Hans that a grindstone could make him rich, and Hans traded away his goose for two heavy stones.",
+          translation: "다음 마을에서 칼을 갈던 사람이 숫돌이 있으면 부자가 될 수 있다고 말했고, 한스는 거위를 무거운 돌 두 개와 바꾸었어요.",
+        },
+      ],
+      [
+        {
+          id: "hil-16",
+          text: "Tired from carrying the heavy stones, Hans stopped to drink from a well, and the stones slipped and fell into the water.",
+          translation: "무거운 돌을 들고 지치자 한스는 우물에서 물을 마시려고 멈췄고, 돌들이 미끄러져 물속으로 빠져 버렸어요.",
+        },
+        {
+          id: "hil-17",
+          text: "\"How lucky I am!\" Hans said, for now his hands and his back were finally free.",
+          translation: "\"나는 정말 운이 좋구나!\" 한스가 말했어요. 이제 그의 손과 등이 드디어 자유로워졌으니까요.",
+        },
+        {
+          id: "hil-18",
+          text: "He walked the rest of the way home with a light heart, and told his mother it was the luckiest day of his life.",
+          translation: "한스는 가벼운 마음으로 남은 길을 걸어갔고, 어머니에게 오늘이 인생에서 가장 운 좋은 날이었다고 말했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hil-v1",
+        term: "lump",
+        partOfSpeech: "noun",
+        translation: "덩어리",
+        example: "When the seven years ended, his master gave him a big lump of gold as pay.",
+        exampleTranslation: "칠 년이 끝나자, 주인은 그에게 품삯으로 커다란 금덩이를 주었어요.",
+      },
+      {
+        id: "hil-v2",
+        term: "trade",
+        partOfSpeech: "verb",
+        translation: "바꾸다, 거래하다",
+        example: "Hans happily traded his heavy gold for the horse and rode away.",
+        exampleTranslation: "한스는 기쁘게 무거운 금을 말과 바꾸고 말을 타고 갔어요.",
+      },
+      {
+        id: "hil-v3",
+        term: "useless",
+        partOfSpeech: "adjective",
+        translation: "쓸모없는",
+        example: "A butcher walking by with a fat pig heard Hans's trouble and traded the pig for the useless cow.",
+        exampleTranslation: "지나가던 정육점 주인이 한스의 사정을 듣고 살진 돼지와 쓸모없는 소를 바꿔 주었어요.",
+      },
+      {
+        id: "hil-v4",
+        term: "grindstone",
+        partOfSpeech: "noun",
+        translation: "숫돌",
+        example: "In the next village, a grinder sharpening knives told Hans that a grindstone could make him rich, and Hans traded away his goose for two heavy stones.",
+        exampleTranslation: "다음 마을에서 칼을 갈던 사람이 숫돌이 있으면 부자가 될 수 있다고 말했고, 한스는 거위를 무거운 돌 두 개와 바꾸었어요.",
+      },
+      {
+        id: "hil-v5",
+        term: "slip",
+        partOfSpeech: "verb",
+        translation: "미끄러지다",
+        example: "Tired from carrying the heavy stones, Hans stopped to drink from a well, and the stones slipped and fell into the water.",
+        exampleTranslation: "무거운 돌을 들고 지치자 한스는 우물에서 물을 마시려고 멈췄고, 돌들이 미끄러져 물속으로 빠져 버렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hil-q1",
+        prompt: "What did Hans's master give him after seven years of work?",
+        options: [
+          "A bag of silver coins",
+          "A big lump of gold",
+          "A new horse",
+          "A house of his own",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After Hans worked for his master for seven years, his master gave him a lump of gold as pay for all his years of work.",
+      },
+      {
+        id: "hil-q2",
+        prompt: "Why did Hans trade his white goose for two heavy grindstones?",
+        options: [
+          "A grinder told him a grindstone would make him rich, since he would always find money in his pocket.",
+          "He was tired of carrying the goose and wanted something lighter.",
+          "He wanted to sharpen his own knives at home.",
+          "The goose had stopped eating and he thought it would die soon.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "A traveling grinder convinced Hans that owning a grindstone would make him wealthy, since he would always find money in his pocket while grinding — so Hans happily traded away his goose.",
+      },
+      {
+        id: "hil-q3",
+        prompt: "How did Hans feel after the heavy stones fell into the well and were lost forever?",
+        options: [
+          "Angry that he had lost everything he owned",
+          "Worried about what he would tell his mother",
+          "Relieved and lucky, because his hands and back were finally free of every burden",
+          "Determined to dive into the well and get the stones back",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Instead of feeling he had lost everything, Hans felt only relief — with the heavy stones gone, his hands and back were free at last, and he walked home with a light heart, sure it was the luckiest day of his life.",
+      },
+    ],
+  },
+  {
+    slug: "the-brief-debut-of-tildy",
+    title: "The Brief Début of Tildy",
+    titleTranslation: "틸디의 짧은 데뷔",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Classic fiction",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "O. Henry (1910)",
+    coverEmoji: "🍽️",
+    coverImage: "/covers/the-brief-debut-of-tildy.svg",
+    source:
+      "Adapted from \"The Brief Début of Tildy,\" the closing story of O. Henry's \"The Four Million\" (1906; Project Gutenberg #2776). O. Henry (William Sydney Porter, d. 1910) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened when Mr. Seeders came back three days later, and how Aileen responded to Tildy afterward.",
+    paragraphs: [
+      [
+        {
+          id: "bdt-1",
+          text: "At Bogle's Chop House on Eighth Avenue, two waitresses named Tildy and Aileen served the same rows of tables every day.",
+          translation: "8번가에 있는 보글의 식당에서, 틸디와 아일린이라는 두 여종업원이 매일 같은 테이블들을 맡아 일했어요.",
+        },
+        {
+          id: "bdt-2",
+          text: "Aileen was tall and graceful, and every customer who came in seemed to fall a little in love with her.",
+          translation: "아일린은 키가 크고 우아해서, 가게에 들어오는 손님마다 조금씩 그녀에게 반하는 것 같았어요.",
+        },
+        {
+          id: "bdt-3",
+          text: "Tildy was plain and plump, with hay-colored hair, and most customers never looked at her twice.",
+          translation: "틸디는 수수하고 통통했으며 밀짚 색 머리카락을 가지고 있었고, 대부분의 손님은 그녀를 두 번 쳐다보지도 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "bdt-4",
+          text: "Men brought Aileen small gifts and invited her to the theater, while Tildy only refilled their coffee cups.",
+          translation: "남자들은 아일린에게 작은 선물을 가져다주고 극장에 초대했지만, 틸디는 그저 그들의 커피잔을 채워 줄 뿐이었어요.",
+        },
+        {
+          id: "bdt-5",
+          text: "Tildy never complained, but she quietly wished that someone, just once, would notice her the way they noticed Aileen.",
+          translation: "틸디는 불평 한마디 하지 않았지만, 언젠가 딱 한 번만이라도 누군가 아일린을 바라보듯 자신을 봐 주기를 조용히 바랐어요.",
+        },
+        {
+          id: "bdt-6",
+          text: "One evening, a thin, shy customer named Mr. Seeders came in, and it was easy to see he had had too much to drink.",
+          translation: "어느 날 저녁, 마르고 수줍음 많은 시더스 씨라는 손님이 들어왔는데, 그가 술을 너무 많이 마셨다는 것을 한눈에 알 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "bdt-7",
+          text: "As he was leaving, Mr. Seeders suddenly put his arm around Tildy's waist and kissed her cheek, then hurried out the door before she could say a word.",
+          translation: "나가려던 시더스 씨는 갑자기 팔로 틸디의 허리를 감싸며 그녀의 뺨에 입을 맞추고는, 그녀가 한마디 하기도 전에 서둘러 문밖으로 나가 버렸어요.",
+        },
+        {
+          id: "bdt-8",
+          text: "Tildy stood frozen for a moment, her face bright red, and then she felt something she had never felt at work before: she felt chosen.",
+          translation: "틸디는 잠시 얼굴이 새빨개진 채 얼어붙어 서 있다가, 일하면서 한 번도 느껴 본 적 없는 감정을 느꼈어요. 바로 선택받았다는 느낌이었어요.",
+        },
+        {
+          id: "bdt-9",
+          text: "\"A gentleman paid me a great compliment today,\" she told the other waitresses proudly, and for the first time, they all turned to listen to her.",
+          translation: "\"오늘 어떤 신사분이 저에게 큰 찬사를 보내셨어요,\" 그녀는 다른 여종업원들에게 자랑스럽게 말했고, 처음으로 모두가 그녀의 말에 귀를 기울였어요.",
+        },
+      ],
+      [
+        {
+          id: "bdt-10",
+          text: "That night, Tildy bought new ribbons for her hair and stayed up late imagining that Mr. Seeders was secretly in love with her.",
+          translation: "그날 밤, 틸디는 머리에 달 새 리본을 사서, 시더스 씨가 남몰래 자신을 사랑하고 있다고 상상하며 늦게까지 잠들지 못했어요.",
+        },
+        {
+          id: "bdt-11",
+          text: "For three days, she rearranged her hair before every shift and watched the door every time it opened.",
+          translation: "사흘 동안, 그녀는 일을 시작하기 전마다 머리를 다시 매만졌고, 문이 열릴 때마다 그쪽을 바라보았어요.",
+        },
+        {
+          id: "bdt-12",
+          text: "She imagined he would return any moment, take her hand, and tell her he could not stop thinking about her.",
+          translation: "그녀는 그가 금방이라도 돌아와 자신의 손을 잡고, 그녀 생각을 멈출 수 없었다고 말해 줄 것이라고 상상했어요.",
+        },
+      ],
+      [
+        {
+          id: "bdt-13",
+          text: "On the third day, Mr. Seeders did come back — sober this time, his face pale with embarrassment.",
+          translation: "사흘째 되는 날, 시더스 씨는 정말로 돌아왔어요. 이번에는 술에 취하지 않았고, 창피함에 얼굴이 창백했어요.",
+        },
+        {
+          id: "bdt-14",
+          text: "He walked straight to Tildy's table and, twisting his hat in his hands, began to apologize.",
+          translation: "그는 곧장 틸디의 테이블로 걸어와, 손으로 모자를 만지작거리며 사과하기 시작했어요.",
+        },
+        {
+          id: "bdt-15",
+          text: "\"I had far too much to drink the other night,\" he said quietly. \"I would never treat a lady that way if I were sober. I hope you can forgive me.\"",
+          translation: "\"그날 밤 저는 술을 너무 많이 마셨어요,\" 그가 조용히 말했어요. \"제정신이었다면 절대 숙녀분께 그렇게 하지 않았을 거예요. 부디 용서해 주시길 바라요.\"",
+        },
+      ],
+      [
+        {
+          id: "bdt-16",
+          text: "Tildy's happy dream broke all at once, and she turned and walked quickly to the kitchen so no one would see her cry.",
+          translation: "틸디의 행복한 꿈은 한순간에 깨져 버렸고, 그녀는 아무도 우는 모습을 보지 못하도록 재빨리 몸을 돌려 주방으로 걸어갔어요.",
+        },
+        {
+          id: "bdt-17",
+          text: "Aileen followed her, and instead of teasing her, put an arm around Tildy's shoulders and let her cry among the stacked dishes.",
+          translation: "아일린이 그녀를 따라와, 놀리는 대신 틸디의 어깨를 감싸 안고 쌓여 있는 그릇들 사이에서 마음껏 울게 해 주었어요.",
+        },
+        {
+          id: "bdt-18",
+          text: "In that small, steamy kitchen, Tildy learned that even the prettiest girl in the room could still be a true friend.",
+          translation: "그 작고 김이 서린 주방에서, 틸디는 방 안에서 가장 예쁜 여자도 진정한 친구가 될 수 있다는 것을 깨달았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "bdt-v1",
+        term: "graceful",
+        partOfSpeech: "adjective",
+        translation: "우아한",
+        example: "Aileen was tall and graceful, and every customer who came in seemed to fall a little in love with her.",
+        exampleTranslation: "아일린은 키가 크고 우아해서, 가게에 들어오는 손님마다 조금씩 그녀에게 반하는 것 같았어요.",
+      },
+      {
+        id: "bdt-v2",
+        term: "compliment",
+        partOfSpeech: "noun",
+        translation: "칭찬, 찬사",
+        example: "\"A gentleman paid me a great compliment today,\" she told the other waitresses proudly, and for the first time, they all turned to listen to her.",
+        exampleTranslation: "\"오늘 어떤 신사분이 저에게 큰 찬사를 보내셨어요,\" 그녀는 다른 여종업원들에게 자랑스럽게 말했고, 처음으로 모두가 그녀의 말에 귀를 기울였어요.",
+      },
+      {
+        id: "bdt-v3",
+        term: "embarrassment",
+        partOfSpeech: "noun",
+        translation: "창피함, 당혹감",
+        example: "On the third day, Mr. Seeders did come back — sober this time, his face pale with embarrassment.",
+        exampleTranslation: "사흘째 되는 날, 시더스 씨는 정말로 돌아왔어요. 이번에는 술에 취하지 않았고, 창피함에 얼굴이 창백했어요.",
+      },
+      {
+        id: "bdt-v4",
+        term: "apologize",
+        partOfSpeech: "verb",
+        translation: "사과하다",
+        example: "He walked straight to Tildy's table and, twisting his hat in his hands, began to apologize.",
+        exampleTranslation: "그는 곧장 틸디의 테이블로 걸어와, 손으로 모자를 만지작거리며 사과하기 시작했어요.",
+      },
+      {
+        id: "bdt-v5",
+        term: "tease",
+        partOfSpeech: "verb",
+        translation: "놀리다",
+        example: "Aileen followed her, and instead of teasing her, put an arm around Tildy's shoulders and let her cry among the stacked dishes.",
+        exampleTranslation: "아일린이 그녀를 따라와, 놀리는 대신 틸디의 어깨를 감싸 안고 쌓여 있는 그릇들 사이에서 마음껏 울게 해 주었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "bdt-q1",
+        prompt: "Why did most customers at Bogle's restaurant hardly notice Tildy?",
+        options: [
+          "She was rude to every customer who came in.",
+          "She worked in the kitchen and rarely came out to the tables.",
+          "Compared to the tall, graceful Aileen, plain and plump Tildy simply didn't draw the same attention.",
+          "She had only just started working at the restaurant.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Aileen was tall and graceful and drew admiring looks from nearly every customer, while plain, plump Tildy — though just as hardworking — went almost unnoticed beside her.",
+      },
+      {
+        id: "bdt-q2",
+        prompt: "How did Tildy react after Mr. Seeders kissed her and hurried out?",
+        options: [
+          "She was angry and complained to Bogle, the owner.",
+          "She felt proud and hopeful, believing it was the start of real romance, and told the other waitresses about it.",
+          "She laughed it off and forgot about it within minutes.",
+          "She quit her job that same night out of embarrassment.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Having never received that kind of attention before, Tildy mistook the impulsive, drunken kiss for genuine affection — she felt chosen, told the other waitresses proudly, and spent the next three days dreaming that Mr. Seeders loved her.",
+      },
+      {
+        id: "bdt-q3",
+        prompt: "What did Mr. Seeders actually come back to say three days later?",
+        options: [
+          "That he wanted to take Tildy to the theater",
+          "That he had been too drunk to know what he was doing and was sorry, and would never have done it sober",
+          "That he was leaving New York for good",
+          "That he had fallen in love with Tildy at first sight",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Sober and embarrassed, Mr. Seeders returned only to apologize — explaining that he had had too much to drink and would never have treated a lady that way otherwise, which shattered the romance Tildy had imagined.",
+      },
+    ],
+  },
+  {
+    slug: "the-reef",
+    title: "The Reef",
+    titleTranslation: "암초",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Classic fiction",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/the-reef.svg",
+    source:
+      "Adapted from Chapter 1 of \"The Reef\" by Edith Wharton (1912; Project Gutenberg #283). Wharton (d. 1937) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Darrow was disappointed at the start of the chapter, and what impulsive choice he made instead.",
+    paragraphs: [
+      [
+        {
+          id: "reef-1",
+          text: "On a windy pier at Dover, a young diplomat named George Darrow stood reading a telegram for the second time, as if reading it again might change the words.",
+          translation: "도버의 바람 부는 부두에서, 조지 대로우라는 젊은 외교관이 전보를 두 번째로 읽고 서 있었어요. 마치 다시 읽으면 그 내용이 바뀌기라도 할 것처럼요.",
+        },
+        {
+          id: "reef-2",
+          text: "The telegram was from Anna Leath, a widow he had loved years before and had only recently found again: \"Unexpected obstacle. Please don't come till the thirtieth.\"",
+          translation: "그 전보는 몇 년 전 그가 사랑했고 최근에야 다시 만나게 된 미망인 애나 리스에게서 온 것이었어요. \"예상치 못한 사정이 생겼어요. 30일 전에는 오지 말아 주세요.\"",
+        },
+        {
+          id: "reef-3",
+          text: "Darrow had rearranged his whole schedule to cross to France and see her, and this was already the second time she had put him off with a vague excuse.",
+          translation: "대로우는 그녀를 만나러 프랑스로 건너가려고 일정을 통째로 바꿔 놓았는데, 그녀가 애매한 핑계로 그를 미룬 것은 이번이 벌써 두 번째였어요.",
+        },
+      ],
+      [
+        {
+          id: "reef-4",
+          text: "They had met again three months earlier, at a dinner in London, after twelve years of silence between them, and for a while it had seemed the old feeling was still there.",
+          translation: "그들은 십이 년의 침묵 끝에 세 달 전 런던의 한 저녁 식사 자리에서 다시 만났고, 한동안은 예전의 감정이 여전히 남아 있는 것처럼 보였어요.",
+        },
+        {
+          id: "reef-5",
+          text: "Now, standing alone with his ticket to France in his pocket, Darrow wondered whether to cross the Channel anyway or simply turn back to London.",
+          translation: "이제 주머니 속 프랑스행 표와 함께 홀로 서서, 대로우는 그래도 해협을 건너야 할지, 아니면 그냥 런던으로 돌아가야 할지 고민했어요.",
+        },
+        {
+          id: "reef-6",
+          text: "While he stood turning the question over, a sudden gust of wind tore an umbrella inside out a few steps away from him.",
+          translation: "그가 그 문제를 곱씹고 있는 동안, 갑작스러운 돌풍이 몇 걸음 떨어진 곳에서 누군가의 우산을 뒤집어 놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "reef-7",
+          text: "Its owner was a young woman fighting to close the broken umbrella, and Darrow stepped over to help her before he had even decided to.",
+          translation: "우산의 주인은 망가진 우산을 접으려 애쓰는 젊은 여성이었고, 대로우는 결심할 새도 없이 그녀를 도우러 다가갔어요.",
+        },
+        {
+          id: "reef-8",
+          text: "When she thanked him and looked up, he recognized her face: Sophy Viner, who had once worked as a \"reader\" for a society hostess named Mrs. Murrett.",
+          translation: "그녀가 고맙다고 말하며 그를 올려다보았을 때, 대로우는 그 얼굴을 알아보았어요. 소피 바이너, 한때 머렛 부인이라는 사교계 안주인의 낭독 비서로 일했던 여성이었어요.",
+        },
+        {
+          id: "reef-9",
+          text: "Darrow remembered the house well, since he himself had once spent an unhappy season there, courting a woman named Lady Ulrica.",
+          translation: "대로우는 그 집을 잘 기억하고 있었는데, 그 역시 한때 그곳에서 울리카 부인이라는 여성에게 구애하며 불행한 한 철을 보낸 적이 있었기 때문이에요.",
+        },
+      ],
+      [
+        {
+          id: "reef-10",
+          text: "Sophy explained, a little too quickly, that she had left Mrs. Murrett's house after a disagreement and was now on her way to Paris to try her luck at acting.",
+          translation: "소피는 조금 성급하게, 머렛 부인의 집에서 의견 차이로 나온 뒤 지금은 배우로서 운을 시험해 보려고 파리로 가는 길이라고 설명했어요.",
+        },
+        {
+          id: "reef-11",
+          text: "As they talked, it became clear that Sophy's trip was not going smoothly at all: her trunk had somehow been lost, and the friends she planned to stay with in Paris, the Farlows, had just moved without telling her their new address.",
+          translation: "이야기를 나눌수록, 소피의 여행이 전혀 순조롭지 않다는 것이 분명해졌어요. 그녀의 여행 가방은 어디선가 사라져 버렸고, 파리에서 머물기로 했던 친구인 팔로우 가족은 새 주소도 알려 주지 않은 채 막 이사를 가 버렸다는 것이었어요.",
+        },
+        {
+          id: "reef-12",
+          text: "She tried to sound light and confident about it, but Darrow could see she was more alone and worried than she wanted to admit.",
+          translation: "그녀는 가볍고 자신 있는 척 말하려 했지만, 대로우는 그녀가 스스로 인정하고 싶어하는 것보다 훨씬 더 외롭고 불안해 보인다는 것을 알아챘어요.",
+        },
+      ],
+      [
+        {
+          id: "reef-13",
+          text: "He thought of the empty evening ahead of him in London, and of Anna's cold little telegram sitting in his pocket.",
+          translation: "그는 런던에서 자신을 기다리고 있을 텅 빈 저녁과, 주머니 속 애나의 차가운 짧은 전보를 떠올렸어요.",
+        },
+        {
+          id: "reef-14",
+          text: "Almost before he had decided anything, Darrow heard himself offering to help Sophy find her trunk and see her safely to Paris.",
+          translation: "무엇을 결심하기도 전에, 대로우는 어느새 소피의 여행 가방을 찾고 그녀가 무사히 파리에 도착하도록 돕겠다고 말하고 있는 자신을 발견했어요.",
+        },
+        {
+          id: "reef-15",
+          text: "Sophy protested that she couldn't possibly let him go out of his way for a near stranger, but she did not protest very hard.",
+          translation: "소피는 거의 낯선 사람을 위해 그렇게 애써 줄 수는 없다며 사양했지만, 그다지 강하게 거절하지는 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "reef-16",
+          text: "\"It's no trouble at all,\" Darrow said. \"I was only going to sit in London feeling sorry for myself.\"",
+          translation: "\"전혀 번거로운 일이 아니에요,\" 대로우가 말했어요. \"어차피 런던에서 혼자 우울해하며 앉아 있었을 테니까요.\"",
+        },
+        {
+          id: "reef-17",
+          text: "So instead of turning back toward London and his own disappointment, Darrow bought a second ticket and boarded the boat to France with Sophy Viner at his side.",
+          translation: "그래서 대로우는 런던과 자신의 실망으로 돌아가는 대신, 두 번째 표를 사서 소피 바이너와 함께 프랑스행 배에 올랐어요.",
+        },
+        {
+          id: "reef-18",
+          text: "Neither of them yet guessed how much that one impulsive choice, made on a windy pier, would change both of their lives.",
+          translation: "바람 부는 부두에서 내린 그 한순간의 충동적인 선택이 두 사람의 삶을 얼마나 크게 바꿔 놓을지, 둘 중 누구도 아직 알지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "reef-v1",
+        term: "obstacle",
+        partOfSpeech: "noun",
+        translation: "장애물, 지장",
+        example: "The telegram was from Anna Leath, a widow he had loved years before and had only recently found again: \"Unexpected obstacle. Please don't come till the thirtieth.\"",
+        exampleTranslation: "그 전보는 몇 년 전 그가 사랑했고 최근에야 다시 만나게 된 미망인 애나 리스에게서 온 것이었어요. \"예상치 못한 사정이 생겼어요. 30일 전에는 오지 말아 주세요.\"",
+      },
+      {
+        id: "reef-v2",
+        term: "vague",
+        partOfSpeech: "adjective",
+        translation: "애매한, 막연한",
+        example: "Darrow had rearranged his whole schedule to cross to France and see her, and this was already the second time she had put him off with a vague excuse.",
+        exampleTranslation: "대로우는 그녀를 만나러 프랑스로 건너가려고 일정을 통째로 바꿔 놓았는데, 그녀가 애매한 핑계로 그를 미룬 것은 이번이 벌써 두 번째였어요.",
+      },
+      {
+        id: "reef-v3",
+        term: "gust",
+        partOfSpeech: "noun",
+        translation: "돌풍",
+        example: "While he stood turning the question over, a sudden gust of wind tore an umbrella inside out a few steps away from him.",
+        exampleTranslation: "그가 그 문제를 곱씹고 있는 동안, 갑작스러운 돌풍이 몇 걸음 떨어진 곳에서 누군가의 우산을 뒤집어 놓았어요.",
+      },
+      {
+        id: "reef-v4",
+        term: "impulsive",
+        partOfSpeech: "adjective",
+        translation: "충동적인",
+        example: "Neither of them yet guessed how much that one impulsive choice, made on a windy pier, would change both of their lives.",
+        exampleTranslation: "바람 부는 부두에서 내린 그 한순간의 충동적인 선택이 두 사람의 삶을 얼마나 크게 바꿔 놓을지, 둘 중 누구도 아직 알지 못했어요.",
+      },
+      {
+        id: "reef-v5",
+        term: "protest",
+        partOfSpeech: "verb",
+        translation: "반대하다, 항의하다",
+        example: "Sophy protested that she couldn't possibly let him go out of his way for a near stranger, but she did not protest very hard.",
+        exampleTranslation: "소피는 거의 낯선 사람을 위해 그렇게 애써 줄 수는 없다며 사양했지만, 그다지 강하게 거절하지는 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "reef-q1",
+        prompt: "Why was Darrow standing alone on the pier at Dover, rereading a telegram?",
+        options: [
+          "He had just missed his boat to France.",
+          "Anna Leath had postponed his visit for the second time with a vague telegram, after he had rearranged his schedule to see her.",
+          "He had lost his passport and couldn't board the boat.",
+          "He was waiting for Anna Leath to arrive on the next boat.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Darrow had rearranged his whole schedule to visit Anna Leath, only to receive a second vague telegram from her asking him to postpone until the thirtieth — leaving him standing on the pier, disappointed and unsure what to do next.",
+      },
+      {
+        id: "reef-q2",
+        prompt: "How did Darrow come to meet Sophy Viner?",
+        options: [
+          "They had been introduced by Mrs. Murrett years earlier.",
+          "A sudden gust of wind wrecked her umbrella near him, and he stepped over to help her.",
+          "Anna Leath had asked him to look out for her on the crossing.",
+          "They had booked seats next to each other on the boat.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A gust of wind turned Sophy's umbrella inside out just a few steps from Darrow, and he went to help her almost without deciding to — which led to him recognizing her as Mrs. Murrett's former \"reader.\"",
+      },
+      {
+        id: "reef-q3",
+        prompt: "Why did Darrow decide to accompany Sophy to Paris instead of returning to London?",
+        options: [
+          "Anna Leath had asked him to escort her personally.",
+          "He needed to conduct diplomatic business in Paris regardless.",
+          "Learning Sophy was alone, missing her trunk, and without the friends she'd planned to stay with, he impulsively offered to help rather than sit in London feeling sorry for himself.",
+          "He had fallen in love with Sophy at first sight and wanted to court her.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Realizing Sophy was stranded — her trunk lost and her Paris friends gone without a forwarding address — and with nothing but a gloomy evening and Anna's cold telegram waiting for him in London, Darrow impulsively offered to help her, almost before he had decided to.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

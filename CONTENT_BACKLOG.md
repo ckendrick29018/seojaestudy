@@ -167,6 +167,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 106 | Old White Whiskers and Mr. Bunny | William E. Griffis (1928) | 67180 | A2 | whole (simplified retelling, 18 sentences; a trickster tale — the proud, man-eating tiger Old White Whiskers meets a clever rabbit on the ice, who tricks him into lying still inside a ring of dry grass, then sets it alight; the tiger barely escapes with singed fur and a burned paw and loses the other tigers' respect) — eleventh Korean-*origin* lesson, `collection: "folktales"`; Ch. 10 of the Griffis book | ☑ |
 | 107 | The King of the Flowers | William E. Griffis (1928) | 67180 | A2 | the flower-court fable only, whole (simplified retelling, 18 sentences; King Peony neglects his ministers for the flashy Cinnamon Rose until a ragged old flower, Old Man, warns him that a king who forgets his duties for beauty alone will watch his garden fall — the king takes the lesson to heart and rules wisely again; Griffis's human framing, where the scholar Sul Chong tells this story to a real king, is left out to keep the tale self-contained) — twelfth Korean-*origin* lesson, `collection: "folktales"`; Ch. 11 of the Griffis book | ☑ |
 | 108 | Why Cats and Dogs Don't Get Along | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 18 sentences; an original title for Griffis's "Tokgabi's Menagerie" — a mountain spirit's magic stone keeps a kind old man's wine bottle full until it vanishes; his cat and dog track it down with the mice's help, but lose it in the river when children's laughter makes the cat laugh too, dropping the stone forever — the source's pony-kick injury and near-drowning peril are left out) — thirteenth Korean-*origin* lesson, `collection: "folktales"`; Ch. 12 of the Griffis book; a third non-Potter A1, diversifying the folktales shelf's level spread | ☑ |
+| 109 | Hans in Luck | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Hans im Glück" — seven trades, each one worse than the last, ending with Hans losing everything and feeling luckier than ever; no peril, no softening needed) — a fifth non-Potter A1, and the next kind Grimm tale flagged in "Good next lessons to build" | ☑ |
+| 110 | The Brief Début of Tildy | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; the closing story of *The Four Million* — the overlooked waitress Tildy, a customer's drunken kiss she mistakes for real romance, and his sober apology three days later; gently handled, closing on Aileen's quiet kindness) — a fourth *Four Million* pick, the next non-Andersen A2 flagged in "Good next lessons to build" | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -227,6 +229,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 90 | The Great Gatsby | F. Scott Fitzgerald (1940) | 64317 | B2 | close of Ch. 1 — the dinner at the Buchanans', then Nick sees Gatsby reaching toward the green light across the bay (simplified retelling, 18 sentences) — built on direct reader demand; PD in the US since 2021 and in life+70 countries since 2011 | ☑ |
 | 99 | The Lifted Veil | George Eliot (1880) | 2165 | B2 | opening of Ch. 1 — Latimer's premonition of his own death, his visions of the future, and his involuntary insight into other people's thoughts (simplified retelling, 17 sentences) — the fresh B2 pick flagged in "Good next lessons to build" | ☑ |
 | 101 | Summer | Edith Wharton (1937) | 166 | B2 | Ch. 1 — Charity Royall, the bored village librarian of North Dormer, and the stranger (an architect) who walks in one June afternoon asking about old local houses (simplified retelling, 17 sentences) — a fourth Wharton pick; a rural New England village novel, a tonal companion to Ethan Frome and distinct from the two Old-New-York picks (Age of Innocence, House of Mirth) | ☑ |
+| 111 | The Reef | Edith Wharton (1937) | 283 | B2 | Ch. 1 — the diplomat George Darrow, disappointed by Anna Leath's second vague telegram, meets Sophy Viner on the windy pier at Dover and impulsively escorts her to Paris instead (simplified retelling, 18 sentences) — a fifth Wharton pick, the "good next lessons" B2 flagged | ☑ |
 
 ---
 
@@ -236,7 +239,18 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (106 — 93 classics + 13 folktales):** Old White Whiskers and
+- **Live now (109 — 96 classics + 13 folktales):** The Reef (row 111,
+  classics — Edith Wharton's Ch. 1: the diplomat George Darrow, stung by a
+  second vague postponement from Anna Leath, meets Sophy Viner on the
+  windy Dover pier and impulsively escorts her to Paris instead), The
+  Brief Début of Tildy (row 110, classics — O. Henry's closing story from
+  *The Four Million*: the overlooked waitress Tildy mistakes a customer's
+  drunken kiss for real romance, then is heartbroken by his sober apology,
+  gently handled and closing on her friend Aileen's quiet kindness), and
+  Hans in Luck (row 109, classics — the Brothers Grimm tale of seven
+  trades, each one worse than the last, ending with Hans losing
+  everything and feeling luckier than ever) are the newest additions.
+  Before that: Old White Whiskers and
   Mr. Bunny (row 106, folktales — the proud tiger Old White Whiskers is
   tricked by a clever rabbit into lying still inside a ring of dry grass,
   which the rabbit then sets alight), The King of the Flowers (row 107,
@@ -322,20 +336,21 @@ has a genuine period cover/illustration in the public domain, download that into
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
   `src/lib/audio-manifest.json` (see `scripts/README.md`).
-- Levels on the shelf now: A1 ×18 (Cinderella, The Selfish Giant, The
+- Levels on the shelf now: A1 ×19 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,
   The Tale of Mrs. Tiggy-Winkle, The Tale of Benjamin Bunny, The Tale of
   Two Bad Mice, The Elves and the Shoemaker, The Bremen Town Musicians,
   Sweet Porridge, The Golden Goose, Mother Holle, The Golden Key,
-  The Star Money),
-  A2 ×21 (Story of an Hour,
+  The Star Money, Hans in Luck),
+  A2 ×22 (Story of an Hour,
   Anne Ch. 2, Little Women, Ugly Duckling, The Secret Garden, Alice in
   Wonderland Ch. 1, The Happy Prince, Snow White, The Last Leaf, Beauty
   and the Beast, Rapunzel, The Twelve Dancing Princesses, A Little
   Princess Ch. 1, Rebecca of Sunnybrook Farm Ch. 1, An Old-Fashioned Girl
   Ch. 1, A Pair of Silk Stockings, Thumbelina, The Steadfast Tin Soldier,
-  After Twenty Years, The Cop and the Anthem, The Skylight Room), B1 ×22
+  After Twenty Years, The Cop and the Anthem, The Skylight Room, The Brief
+  Début of Tildy), B1 ×22
   (Gift of the Magi, Pride and Prejudice Ch. 1, The Necklace, A Christmas
   Carol, Anne of Green Gables Ch. 3, Sense and Sensibility Ch. 1, The
   Yellow Wallpaper, Emma, The Nightingale and the Rose, The Little Mermaid,
@@ -343,7 +358,7 @@ has a genuine period cover/illustration in the public domain, download that into
   Cranford Ch. 1, Silas Marner Ch. 12, The Blue Castle Ch. 1,
   Daddy-Long-Legs Ch. 1, Agnes Grey Ch. 1, The Enchanted April Ch. 1,
   Little Women Ch. 8, A Little Princess Ch. 7, Anne of Avonlea Ch. 1),
-  B2 ×22 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon,
+  B2 ×23 (Jane Eyre, Jane Eyre: Lowood, Emily of New Moon,
   Rilla of Ingleside, The
   Lady with the Dog, Wuthering
   Heights, Pride and Prejudice Ch. 34, Frankenstein Letter 1, The Age of
@@ -353,18 +368,19 @@ has a genuine period cover/illustration in the public domain, download that into
   Ch. 5, The Tenant of Wildfell Hall Ch. 1, Wives and Daughters Ch. 1,
   Villette Ch. 1, Persuasion Ch. 4, A White Heron, The Great Gatsby —
   Ch. 1 close, The Star Money, Northanger Abbey Ch. 1, The Wild Swans,
-  Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha),
+  Rose in Bloom Ch. 1, The Story Girl Ch. 1, The Secret Garden: Martha,
+  The Reef),
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×18, A2 ×24, B1 ×27, B2 ×24 — 93 live; add the folktales shelf
+  A1 ×19, A2 ×25, B1 ×27, B2 ×25 — 96 live; add the folktales shelf
   (A1 ×3, A2 ×10 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
   Light and the Bridge of Fishes, Topknots and Crockery Hats, Fancha and
   the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
   Why Cats and Dogs Don't Get Along) for
-  106 lessons across both shelves. B1 and B2 are now
+  109 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -379,22 +395,24 @@ has a genuine period cover/illustration in the public domain, download that into
   Benjamin Bunny, Two Bad Mice — 4 of 18); every non-Potter A1 add since
   (Bremen Town Musicians, Sweet Porridge, The Golden Goose, Mother Holle,
   The Golden Key, The Star Money) was deliberate — keep it that way.
-- Good next lessons to build — three bands sit at ~23-24, A1 at 18; pick by fit:
-  - B2: **The Lifted Veil** (George Eliot) and **Summer** (Edith Wharton,
-    her fourth pick — a rural New England companion to Ethan Frome) are
-    now live. A
+- Good next lessons to build — four bands now sit at 19–27; pick by fit:
+  - B2: **The Lifted Veil** (George Eliot), **Summer** (Edith Wharton,
+    her fourth pick), and now **The Reef** (Wharton's fifth pick — Ch. 1,
+    Darrow and Sophy Viner on the Dover pier) are live. A
     further B2 needs another fresh pick (a second Eliot scene, e.g. from
-    *Scenes of Clerical Life*, or another Wharton novel — *The Custom of
-    the Country*, *The Reef*). Row 73 (Sonnet 43) is a poem, a different
+    *Scenes of Clerical Life*, or a sixth Wharton novel — *The Custom of
+    the Country*). Row 73 (Sonnet 43) is a poem, a different
     lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
-    Golden Key**, and **The Star Money** are now live. Next: another kind
-    non-peril Grimm (**Mother Hulda / Frau Holle** is done; **The Golden
-    Bird** trimmed), or re-level a gentle A2 tale.
-  - A2: **The Fir Tree**, **The Wild Swans**, and now **The Snow Queen**
-    (row 102) are live — three Andersen picks. Next: another *Four Million*
-    story (**The Brief Début of Tildy**), or a non-Andersen A2 pick for
-    variety.
+    Golden Key**, **The Star Money**, and now **Hans in Luck** (the
+    Brothers Grimm tale of seven trades) are live. Next: another kind
+    non-peril Grimm (**The Golden Bird** trimmed), or re-level a gentle
+    A2 tale.
+  - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
+    (row 102), and now **The Brief Début of Tildy** (a fourth *Four
+    Million* pick, row 110 — the overlooked waitress Tildy, gently
+    handled) are live. Next: a non-Andersen, non-O.-Henry A2 pick for
+    further variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
   - Folktales shelf (13 live: A Bridegroom for Miss Mole, The Unmannerly
