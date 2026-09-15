@@ -95,7 +95,7 @@ export function BookSpine({
 export function Shelf({ books, startIndex = 0 }: { books: Lesson[]; startIndex?: number }) {
   return (
     <div>
-      <div className="flex items-end gap-[3px] overflow-hidden rounded-t-sm px-3 pt-8">
+      <div className="flex items-end gap-[3px] overflow-hidden rounded-t-sm px-3 pt-8 lg:justify-center lg:gap-1">
         {books.map((book, i) => (
           <BookSpine key={book.slug} lesson={book} index={startIndex + i} />
         ))}

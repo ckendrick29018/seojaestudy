@@ -14,16 +14,16 @@ export function FolktalesClient() {
   const { isLessonComplete } = useProgress();
 
   return (
-    <div className="px-5 py-8">
-      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal">
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-6xl lg:px-8 lg:py-12">
+      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">
         {t("folktalesTitle")}
       </h1>
-      <p className="mb-3 text-sm text-charcoal/50">{t("folktalesSubtitle")}</p>
-      <p className="mb-6 max-w-[62ch] text-sm leading-relaxed text-charcoal/60">
+      <p className="mb-3 text-sm text-charcoal/50 lg:text-base">{t("folktalesSubtitle")}</p>
+      <p className="mb-6 max-w-[62ch] text-sm leading-relaxed text-charcoal/60 lg:max-w-[70ch] lg:text-base">
         {t("folktalesIntro")}
       </p>
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 xl:grid-cols-5">
         {FOLKTALES.map((lesson) => (
           <ClassicCard key={lesson.slug} lesson={lesson} complete={isLessonComplete(lesson.slug)} />
         ))}

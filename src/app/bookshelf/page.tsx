@@ -46,29 +46,29 @@ export default function BookshelfPage() {
   for (let i = 0; i < books.length; i += PER_SHELF) shelves.push(books.slice(i, i + PER_SHELF));
 
   return (
-    <div className="px-5 py-8">
-      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal">{t("bookshelf")}</h1>
-      <p className="mb-6 text-sm text-charcoal/50">{t("bookshelfSubtitle")}</p>
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-12">
+      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">{t("bookshelf")}</h1>
+      <p className="mb-6 text-sm text-charcoal/50 lg:text-base">{t("bookshelfSubtitle")}</p>
 
       <div className="mb-5 flex justify-center">
-        <ReadingCat mood={catMoodFor(count)} className="h-32 w-32" />
+        <ReadingCat mood={catMoodFor(count)} className="h-32 w-32 lg:h-40 lg:w-40" />
       </div>
 
       {count === 0 ? (
-        <p className="rounded-xl2 border border-rose-light/50 bg-white/50 px-4 py-6 text-center text-sm text-charcoal/55">
+        <p className="rounded-xl2 border border-rose-light/50 bg-white/50 px-4 py-6 text-center text-sm text-charcoal/55 lg:text-base">
           {t("bookshelfEmpty")}
         </p>
       ) : (
         <>
-          <p className="mb-4 text-center text-sm font-medium text-charcoal/70">
+          <p className="mb-4 text-center text-sm font-medium text-charcoal/70 lg:text-base">
             {countLine(count, lang)}
           </p>
-          <div className="space-y-5">
+          <div className="space-y-5 lg:space-y-6">
             {shelves.map((shelfBooks, i) => (
               <Shelf key={i} books={shelfBooks} startIndex={i * PER_SHELF} />
             ))}
           </div>
-          <p className="mt-4 text-center text-xs text-charcoal/45">{milestoneHint(count, lang)}</p>
+          <p className="mt-4 text-center text-xs text-charcoal/45 lg:text-sm">{milestoneHint(count, lang)}</p>
         </>
       )}
 
