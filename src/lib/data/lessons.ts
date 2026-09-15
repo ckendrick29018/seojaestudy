@@ -22496,6 +22496,217 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "east-light-and-the-bridge-of-fishes",
+    title: "East Light and the Bridge of Fishes",
+    titleTranslation: "동명과 물고기 다리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "William Elliot Griffis, after traditional Korean mythology (1843–1928)",
+    coverEmoji: "🏹",
+    coverImage: "/covers/east-light-and-the-bridge-of-fishes.svg",
+    source:
+      "Adapted from \"East Light and the Bridge of Fishes,\" William Elliot Griffis's English retelling of a founding legend of ancient Korea — a gifted young archer fleeing a jealous king, and the fish who form a bridge to save him — in \"Korean Fairy Tales\" (1911; Project Gutenberg #67180). Griffis (1843–1928) is long in the public domain in the US and in life+70 countries. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why East Light had to flee, and how he crossed the river.",
+    paragraphs: [
+      [
+        {
+          id: "el-1",
+          text: "Long ago in the north of Korea, a young man grew up in a king's palace, gifted with a bow beyond anyone else in the land.",
+          translation:
+            "아주 오래전 한국 북쪽 땅에서, 한 청년이 왕궁에서 자라났는데, 그의 활 솜씨는 온 나라에서 누구도 따를 자가 없었어요.",
+        },
+        {
+          id: "el-2",
+          text: "The people called him East Light, for his archery seemed to shine like the morning sun itself.",
+          translation: "사람들은 그를 동명이라 불렀는데, 그의 활 솜씨가 마치 아침 햇살처럼 눈부시게 빛났기 때문이에요.",
+        },
+        {
+          id: "el-3",
+          text: "But the more the crowds praised his skill, the more the king's heart filled with envy and fear.",
+          translation: "하지만 사람들이 그의 솜씨를 칭찬할수록, 왕의 마음은 질투와 두려움으로 가득 차올랐어요.",
+        },
+      ],
+      [
+        {
+          id: "el-4",
+          text: "Word reached East Light that the king now saw him as a rival, not a favorite, and might soon move against him.",
+          translation:
+            "왕이 이제 그를 총애하는 신하가 아니라 경쟁자로 여기고, 곧 해치려 한다는 소식이 동명의 귀에 들어왔어요.",
+        },
+        {
+          id: "el-5",
+          text: "That very night, he gathered three trusted companions and rode south under cover of darkness.",
+          translation: "바로 그날 밤, 그는 믿음직한 동료 세 명을 모아 어둠을 틈타 남쪽으로 말을 달렸어요.",
+        },
+        {
+          id: "el-6",
+          text: "They rode hard for hours, until a wide, swift river rose suddenly in their path.",
+          translation: "그들은 몇 시간 동안 쉬지 않고 말을 달렸고, 마침내 넓고 물살이 빠른 강이 앞을 가로막았어요.",
+        },
+      ],
+      [
+        {
+          id: "el-7",
+          text: "No bridge crossed the water, and no boat waited on either bank.",
+          translation: "강을 건널 다리도 없었고, 양쪽 강가 어디에도 배 한 척 보이지 않았어요.",
+        },
+        {
+          id: "el-8",
+          text: "Behind them, the pounding hooves of the king's horsemen grew louder with every passing minute.",
+          translation: "뒤에서는 왕의 기병들이 달려오는 말발굽 소리가 순간순간 더 크게 들려왔어요.",
+        },
+        {
+          id: "el-9",
+          text: "East Light reined in his horse at the water's edge, his three companions close behind him, trapped.",
+          translation: "동명은 강가에서 말을 멈춰 세웠고, 세 동료도 그 뒤에 바짝 붙어 꼼짝없이 갇히고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "el-10",
+          text: "Raising his voice to the sky, he cried out, \"I am the son of the sun — surely I was not born only to die on this riverbank!\"",
+          translation:
+            "동명은 하늘을 향해 목소리를 높여 외쳤어요. \"나는 태양의 아들이다. 겨우 이 강가에서 죽으려고 태어난 것은 아닐 것이다!\"",
+        },
+        {
+          id: "el-11",
+          text: "Then he drew his bow and sent arrow after arrow flying into the river, until his quiver was nearly empty.",
+          translation: "그러고는 활을 들어 화살통이 거의 빌 때까지 강물을 향해 화살을 연이어 쏘았어요.",
+        },
+        {
+          id: "el-12",
+          text: "For a long moment, nothing happened, and his companions feared the arrows had been wasted.",
+          translation: "한참 동안 아무 일도 일어나지 않았고, 동료들은 화살을 헛되이 쓴 것은 아닌지 걱정했어요.",
+        },
+      ],
+      [
+        {
+          id: "el-13",
+          text: "Then the water began to churn, and hundreds of fish rose to the surface, packed together side by side.",
+          translation: "그때 강물이 일렁이기 시작하더니, 수백 마리의 물고기가 서로 몸을 맞대며 수면 위로 떠올랐어요.",
+        },
+        {
+          id: "el-14",
+          text: "Their broad backs formed a living bridge, strong enough to carry a man's weight from shore to shore.",
+          translation: "그 넓은 등들이 살아 있는 다리를 이루었고, 사람의 무게를 견디며 이쪽 강가에서 저쪽 강가까지 이어졌어요.",
+        },
+        {
+          id: "el-15",
+          text: "\"Quickly, follow me!\" East Light shouted, and the four men ran across the bridge of fish just as the king's riders reached the bank.",
+          translation:
+            "\"어서, 나를 따르라!\" 동명이 외쳤고, 왕의 기병들이 강가에 다다르는 바로 그 순간 네 사람은 물고기 다리를 건너 달렸어요.",
+        },
+      ],
+      [
+        {
+          id: "el-16",
+          text: "The moment their feet touched dry land, the fish scattered and the bridge vanished beneath the current.",
+          translation: "그들의 발이 뭍에 닿는 순간, 물고기들은 흩어졌고 다리는 물살 속으로 사라졌어요.",
+        },
+        {
+          id: "el-17",
+          text: "The king's soldiers loosed their arrows across the water, but every shot fell short, and no horse could swim so wide a river.",
+          translation:
+            "왕의 병사들은 강 건너로 화살을 쏘았지만, 모든 화살은 닿지 못했고, 어떤 말도 그렇게 넓은 강을 헤엄쳐 건널 수 없었어요.",
+        },
+        {
+          id: "el-18",
+          text: "East Light and his companions walked on to the south, free at last, and in time he became a king in a new land of his own.",
+          translation:
+            "동명과 동료들은 마침내 자유로운 몸으로 남쪽을 향해 걸어갔고, 훗날 그는 자신만의 새로운 땅에서 왕이 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "el-v1",
+        term: "envy",
+        partOfSpeech: "noun",
+        translation: "질투, 시기",
+        example: "But the more the crowds praised his skill, the more the king's heart filled with envy and fear.",
+        exampleTranslation: "하지만 사람들이 그의 솜씨를 칭찬할수록, 왕의 마음은 질투와 두려움으로 가득 차올랐어요.",
+      },
+      {
+        id: "el-v2",
+        term: "companion",
+        partOfSpeech: "noun",
+        translation: "동료, 동반자",
+        example: "That very night, he gathered three trusted companions and rode south under cover of darkness.",
+        exampleTranslation: "바로 그날 밤, 그는 믿음직한 동료 세 명을 모아 어둠을 틈타 남쪽으로 말을 달렸어요.",
+      },
+      {
+        id: "el-v3",
+        term: "quiver",
+        partOfSpeech: "noun",
+        translation: "화살통",
+        example: "Then he drew his bow and sent arrow after arrow flying into the river, until his quiver was nearly empty.",
+        exampleTranslation: "그러고는 활을 들어 화살통이 거의 빌 때까지 강물을 향해 화살을 연이어 쏘았어요.",
+      },
+      {
+        id: "el-v4",
+        term: "churn",
+        partOfSpeech: "verb",
+        translation: "(물이) 소용돌이치다, 일렁이다",
+        example: "Then the water began to churn, and hundreds of fish rose to the surface, packed together side by side.",
+        exampleTranslation: "그때 강물이 일렁이기 시작하더니, 수백 마리의 물고기가 서로 몸을 맞대며 수면 위로 떠올랐어요.",
+      },
+      {
+        id: "el-v5",
+        term: "scatter",
+        partOfSpeech: "verb",
+        translation: "흩어지다",
+        example: "The moment their feet touched dry land, the fish scattered and the bridge vanished beneath the current.",
+        exampleTranslation: "그들의 발이 뭍에 닿는 순간, 물고기들은 흩어졌고 다리는 물살 속으로 사라졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "el-q1",
+        prompt: "Why did the king begin to fear East Light?",
+        options: [
+          "East Light refused to hunt with him.",
+          "The people's growing praise for East Light's skill filled the king with envy and fear that he might seize the throne.",
+          "East Light lost a great battle for the king.",
+          "East Light asked to leave the palace.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "As the crowds praised East Light's archery more and more, the king's admiration turned to envy and fear that his skill might one day threaten the throne, so East Light fled that very night with three companions.",
+      },
+      {
+        id: "el-q2",
+        prompt: "How did East Light and his companions cross the river?",
+        options: [
+          "They built a raft from fallen trees.",
+          "A friendly fisherman rowed them across in his boat.",
+          "East Light shot arrows into the water, and hundreds of fish rose up to form a bridge with their backs.",
+          "The river froze solid overnight.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "With no bridge or boat and the king's horsemen closing in, East Light shot arrow after arrow into the river until hundreds of fish rose and packed together, their broad backs forming a bridge strong enough to carry the four men across.",
+      },
+      {
+        id: "el-q3",
+        prompt: "What happened right after the men reached the far shore?",
+        options: [
+          "The bridge stayed in place so the soldiers could follow.",
+          "The fish turned to stone and blocked the river forever.",
+          "The bridge collapsed immediately, trapping East Light on the wrong side.",
+          "The fish scattered and the bridge vanished; the soldiers' arrows fell short and their horses could not swim the wide river.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "As soon as East Light and his companions stepped onto dry land, the bridge dissolved as the fish scattered. The pursuing soldiers could only shoot arrows that fell short, since no horse could swim so wide and swift a river, so the four men escaped safely.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
