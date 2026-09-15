@@ -9,7 +9,18 @@ import { MarketingHeader } from "./MarketingHeader";
 // /classics/a1 or /learn/cefr-levels-explained), plus the personal
 // collection/account pages (/folktales, /bookshelf, /club, /settings) that
 // share the same hub styling.
-const MARKETING_PREFIXES = ["/classics", "/library", "/learn", "/faq", "/folktales", "/bookshelf", "/club", "/settings"];
+const MARKETING_PREFIXES = [
+  "/classics",
+  "/library",
+  "/learn",
+  "/faq",
+  "/folktales",
+  "/bookshelf",
+  "/club",
+  "/settings",
+  "/quotes",
+  "/quote",
+];
 
 function isMarketingRoute(pathname: string) {
   if (pathname === "/") return true;
