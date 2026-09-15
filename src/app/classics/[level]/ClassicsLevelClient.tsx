@@ -17,14 +17,14 @@ export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
   const books = CLASSICS.filter((lesson) => lesson.level === level);
 
   return (
-    <div className="px-5 py-8">
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-6xl lg:px-8 lg:py-12">
       <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70">
         {t("classics")} · {level}
       </p>
-      <h1 className="mb-2 font-serif text-2xl font-semibold text-charcoal">
+      <h1 className="mb-2 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">
         {t("classicsBrowseByLevel")} — {level}
       </h1>
-      <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/60">
+      <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/60 lg:max-w-[70ch] lg:text-base">
         {t("classicsLevelIntro").replace(/\{level\}/g, level)}
       </p>
 
@@ -55,7 +55,7 @@ export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
       </nav>
 
       {books.length > 0 ? (
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 xl:grid-cols-5">
           {books.map((lesson) => (
             <ClassicCard key={lesson.slug} lesson={lesson} complete={isLessonComplete(lesson.slug)} />
           ))}

@@ -4,15 +4,20 @@ import { usePathname } from "next/navigation";
 import { SiteHeader } from "./SiteHeader";
 import { MarketingHeader } from "./MarketingHeader";
 
-// Routes that get the wide marketing layout instead of the ~480px app frame.
-// Just the homepage for now; other marketing/SEO pages (classics, library,
-// learn, faq hubs) can move here once they get their own desktop layout.
-const MARKETING_ROUTES = new Set(["/"]);
+// Routes that get the wide marketing layout instead of the ~480px app frame:
+// the homepage plus every SEO/marketing hub (and their sub-routes, e.g.
+// /classics/a1 or /learn/cefr-levels-explained).
+const MARKETING_PREFIXES = ["/classics", "/library", "/learn", "/faq"];
+
+function isMarketingRoute(pathname: string) {
+  if (pathname === "/") return true;
+  return MARKETING_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
+}
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
-  if (MARKETING_ROUTES.has(pathname)) {
+  if (isMarketingRoute(pathname)) {
     return (
       <div className="flex min-h-dvh flex-col bg-cream">
         <MarketingHeader />

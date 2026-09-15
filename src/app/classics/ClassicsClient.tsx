@@ -72,10 +72,10 @@ export function ClassicsClient() {
     }`;
 
   return (
-    <div className="px-5 py-8">
-      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal">{t("classics")}</h1>
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-6xl lg:px-8 lg:py-12">
+      <h1 className="mb-1 font-serif text-2xl font-semibold text-charcoal lg:text-4xl">{t("classics")}</h1>
       <p className="mb-3 text-sm text-charcoal/50">{t("classicsSubtitle")}</p>
-      <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/60">
+      <p className="mb-4 max-w-[62ch] text-sm leading-relaxed text-charcoal/60 lg:max-w-[70ch] lg:text-base">
         {t("classicsIntro")}
       </p>
 
@@ -94,7 +94,7 @@ export function ClassicsClient() {
       </nav>
 
       {/* Search / filter / sort — sticks below the header while the shelf scrolls. */}
-      <div className="sticky top-[52px] z-20 -mx-5 mb-5 border-b border-rose-light/50 bg-cream/95 px-5 pb-3 pt-1 backdrop-blur">
+      <div className="sticky top-[52px] z-20 -mx-5 mb-5 border-b border-rose-light/50 bg-cream/95 px-5 pb-3 pt-1 backdrop-blur lg:-mx-8 lg:px-8">
         <div className="relative">
           <input
             type="search"
@@ -163,7 +163,7 @@ export function ClassicsClient() {
       </div>
 
       {filtered.length > 0 ? (
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 xl:grid-cols-5">
           {filtered.map((lesson) => (
             <ClassicCard
               key={lesson.slug}

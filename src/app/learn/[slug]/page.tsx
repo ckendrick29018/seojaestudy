@@ -45,7 +45,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(article)) }}
       />
 
-      <article className="px-6 py-10">
+      <article className="px-6 py-10 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-16">
         <nav className="mb-4 text-xs text-charcoal/45">
           <Link href="/" className="hover:text-charcoal">Home</Link>
           <span className="mx-1.5">/</span>
@@ -54,23 +54,23 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <span className="text-charcoal/60">{article.title}</span>
         </nav>
 
-        <h1 className="font-serif text-[1.9rem] font-semibold leading-tight text-charcoal">
+        <h1 className="font-serif text-[1.9rem] font-semibold leading-tight text-charcoal lg:text-4xl">
           {article.title}
         </h1>
-        <p className="mt-3 text-sm leading-relaxed text-charcoal/60">{article.lede}</p>
+        <p className="mt-3 text-sm leading-relaxed text-charcoal/60 lg:text-base">{article.lede}</p>
         <p className="mt-2 text-xs font-medium text-rose/70">{article.readingMinutes} min read</p>
 
         <div className="mt-8 space-y-8">
           {article.sections.map((section) => (
             <section key={section.heading}>
-              <h2 className="font-serif text-xl font-semibold text-charcoal">{section.heading}</h2>
+              <h2 className="font-serif text-xl font-semibold text-charcoal lg:text-2xl">{section.heading}</h2>
               {section.paragraphs.map((p, i) => (
-                <p key={i} className="mt-3 text-[0.95rem] leading-7 text-charcoal/75">
+                <p key={i} className="mt-3 text-[0.95rem] leading-7 text-charcoal/75 lg:text-base lg:leading-8">
                   <InlineText text={p} />
                 </p>
               ))}
               {section.list && (
-                <ul className="mt-3 space-y-2 pl-5 text-[0.95rem] leading-7 text-charcoal/75">
+                <ul className="mt-3 space-y-2 pl-5 text-[0.95rem] leading-7 text-charcoal/75 lg:text-base lg:leading-8">
                   {section.list.map((item, i) => (
                     <li key={i} className="list-disc marker:text-rose/50">
                       <InlineText text={item} />
@@ -82,7 +82,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           ))}
         </div>
 
-        <div className="mt-10 rounded-xl2 border border-rose-light/50 bg-sage/20 p-5 text-center">
+        <div className="mt-10 rounded-xl2 border border-rose-light/50 bg-sage/20 p-5 text-center lg:p-8">
           <p className="text-sm text-charcoal/70">Put it into practice</p>
           <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:justify-center">
             <Link

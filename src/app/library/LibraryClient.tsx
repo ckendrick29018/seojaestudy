@@ -30,14 +30,14 @@ export function LibraryClient() {
       : null;
 
   return (
-    <div className="px-5 py-8">
+    <div className="px-5 py-8 lg:mx-auto lg:max-w-5xl lg:px-8 lg:py-12">
       <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70">
         {personalized ? t("forYou") : t("library")}
       </p>
-      <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal">{t("appName")}</h1>
-      <p className="mb-3 text-sm text-charcoal/60">{personalized ?? t("tagline")}</p>
+      <h1 className="mb-2 font-serif text-3xl font-semibold text-charcoal lg:text-4xl">{t("appName")}</h1>
+      <p className="mb-3 text-sm text-charcoal/60 lg:text-base">{personalized ?? t("tagline")}</p>
       {!personalized && (
-        <p className="mb-8 max-w-[62ch] text-sm leading-relaxed text-charcoal/55">
+        <p className="mb-8 max-w-[62ch] text-sm leading-relaxed text-charcoal/55 lg:max-w-[70ch] lg:text-base">
           {t("libraryIntro")}
         </p>
       )}

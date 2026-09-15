@@ -33,34 +33,34 @@ export default function FaqPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd()) }}
       />
 
-      <div className="px-6 py-10">
+      <div className="px-6 py-10 lg:mx-auto lg:max-w-3xl lg:px-8 lg:py-16">
         <nav className="mb-4 text-xs text-charcoal/45">
           <Link href="/" className="hover:text-charcoal">Home</Link>
           <span className="mx-1.5">/</span>
           <span className="text-charcoal/60">FAQ</span>
         </nav>
 
-        <h1 className="font-serif text-[1.9rem] font-semibold leading-tight text-charcoal">
+        <h1 className="font-serif text-[1.9rem] font-semibold leading-tight text-charcoal lg:text-4xl">
           Frequently asked questions
         </h1>
-        <p className="mt-3 max-w-[46ch] text-sm leading-relaxed text-charcoal/60">
+        <p className="mt-3 max-w-[46ch] text-sm leading-relaxed text-charcoal/60 lg:max-w-[60ch] lg:text-base">
           Everything people usually ask before they start reading.
         </p>
 
         <dl className="mt-8 divide-y divide-rose-light/40">
           {FAQ.map((item) => (
             <div key={item.question} className="py-5">
-              <dt className="font-serif text-lg font-semibold leading-snug text-charcoal">
+              <dt className="font-serif text-lg font-semibold leading-snug text-charcoal lg:text-xl">
                 {item.question}
               </dt>
-              <dd className="mt-2 text-[0.95rem] leading-7 text-charcoal/75">
+              <dd className="mt-2 text-[0.95rem] leading-7 text-charcoal/75 lg:text-base lg:leading-8">
                 <InlineText text={item.answer} />
               </dd>
             </div>
           ))}
         </dl>
 
-        <div className="mt-8 rounded-xl2 border border-rose-light/50 bg-sage/20 p-5 text-center">
+        <div className="mt-8 rounded-xl2 border border-rose-light/50 bg-sage/20 p-5 text-center lg:p-8">
           <p className="text-sm text-charcoal/70">Still curious?</p>
           <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:justify-center">
             <Link
