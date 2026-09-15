@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
 import { BrandMark } from "@/components/ui/icons";
 
@@ -12,6 +13,10 @@ import { BrandMark } from "@/components/ui/icons";
  */
 export function MarketingHeader() {
   const t = useT();
+  const pathname = usePathname();
+  // Once a visitor has actually clicked into the library, the "Start
+  // reading" nudge just points at the page they're already on.
+  const inLibrary = pathname === "/library" || pathname.startsWith("/library/");
 
   const navLinks = [
     { href: "/classics", label: t("classics") },
@@ -40,12 +45,14 @@ export function MarketingHeader() {
           ))}
         </nav>
 
-        <Link
-          href="/library"
-          className="inline-flex shrink-0 items-center justify-center rounded-full bg-rose px-5 py-2 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
-        >
-          {t("navStart")}
-        </Link>
+        {!inLibrary && (
+          <Link
+            href="/library"
+            className="inline-flex shrink-0 items-center justify-center rounded-full bg-rose px-5 py-2 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
+          >
+            {t("navStart")}
+          </Link>
+        )}
       </div>
     </header>
   );
