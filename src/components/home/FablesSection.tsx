@@ -27,11 +27,11 @@ export function FablesSection() {
   if (FABLES.length === 0) return null;
 
   return (
-    <section className="mt-10">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70">
+    <section className="mt-10 lg:mt-12">
+      <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-rose/70 lg:text-sm">
         {t("fablesTitle")}
       </p>
-      <p className="mb-4 text-sm text-charcoal/60">{t("fablesSubtitle")}</p>
+      <p className="mb-4 text-sm text-charcoal/60 lg:mb-5 lg:text-base">{t("fablesSubtitle")}</p>
       <ClassicsCarousel lessons={FABLES} />
     </section>
   );

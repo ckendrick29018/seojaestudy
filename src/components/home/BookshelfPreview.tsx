@@ -26,12 +26,12 @@ export function BookshelfPreview() {
   return (
     <Link
       href="/bookshelf"
-      className="mt-4 flex items-stretch gap-2.5 rounded-xl2 border border-rose-light/50 bg-white/50 p-3 transition hover:border-rose-soft/50 hover:bg-white/70"
+      className="mt-4 flex items-stretch gap-2.5 rounded-xl2 border border-rose-light/50 bg-white/50 p-3 transition hover:border-rose-soft/50 hover:bg-white/70 lg:gap-4 lg:p-4"
     >
-      <ReadingCat mood={catMoodFor(books.length)} className="h-12 w-12 shrink-0 self-center" />
+      <ReadingCat mood={catMoodFor(books.length)} className="h-12 w-12 shrink-0 self-center lg:h-14 lg:w-14" />
       <div className="min-w-0 flex-1">
         <div className="mb-1.5 flex items-baseline justify-between gap-2">
-          <p className="shrink-0 text-xs font-semibold uppercase tracking-wide text-rose/70">
+          <p className="shrink-0 text-xs font-semibold uppercase tracking-wide text-rose/70 lg:text-sm">
             {t("bookshelf")}
           </p>
           <span className="flex shrink-0 items-center gap-0.5 whitespace-nowrap text-xs font-medium text-charcoal/45">

@@ -20,19 +20,19 @@ export function FolktalesSection() {
   if (!hasFolktales) return null;
 
   return (
-    <section className="mt-10">
+    <section className="mt-10 lg:mt-12">
       <div className="mb-1 flex items-baseline justify-between gap-3">
-        <p className="text-xs font-semibold uppercase tracking-widest text-rose/70">
+        <p className="text-xs font-semibold uppercase tracking-widest text-rose/70 lg:text-sm">
           {t("folktalesTitle")}
         </p>
         <Link
           href="/folktales"
-          className="shrink-0 text-xs font-medium text-rose underline-offset-4 hover:underline"
+          className="shrink-0 text-xs font-medium text-rose underline-offset-4 hover:underline lg:text-sm"
         >
           {t("folktalesSeeAll")} →
         </Link>
       </div>
-      <p className="mb-4 text-sm text-charcoal/60">{t("folktalesSubtitle")}</p>
+      <p className="mb-4 text-sm text-charcoal/60 lg:mb-5 lg:text-base">{t("folktalesSubtitle")}</p>
       <ClassicsCarousel lessons={FOLKTALES} />
     </section>
   );
