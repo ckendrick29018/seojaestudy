@@ -474,19 +474,22 @@ Requested expansion of the shelf past short literary fiction. All must still
 clear sourcing rule #1 (PD in the US **and** life+70). Project Gutenberg has
 strong PD material in each:
 
-- **Biography / memoir — now live, first non-fiction category on the
-  shelf.** *The Story of My Life* (Helen Keller, 1903, PG#2397, B1 — the
-  water-pump scene where "water" spelled into her hand unlocks language)
-  and *The Autobiography of Benjamin Franklin* (1791, PG#148, B2 — his
+- **Biography / memoir — now live, its own shelf at `/biographies`.**
+  *The Story of My Life* (Helen Keller, 1903, PG#2397, B1 — the water-pump
+  scene where "water" spelled into her hand unlocks language) and
+  *The Autobiography of Benjamin Franklin* (1791, PG#148, B2 — his
   self-taught writing method and the "Silence Dogood" letters), both
   2026-09-16. New light-blue cover palette (vs. the classics' warm cream)
   visually marks the category. Not in the Tier 1–3 tables above since
   those are scoped to the Classics fiction shelf; these ship with
-  `topic: "Biography"` and `collection: "classics"` so they still surface
-  on the Classics page. Still open: *Narrative of the Life of Frederick
-  Douglass*, Mark Twain's autobiographical sketches, *The Life of
-  Charlotte Brontë* (Gaskell) — Douglass needs care given the app's
-  softening convention for harsh content.
+  `topic: "Biography"` and **`collection: "biography"`** (its own value,
+  not `"classics"`) — a dedicated dashboard carousel, `/biographies` grid
+  page, nav entry, and sitemap row, mirroring how Classics and Folktales
+  work. Still open: *Narrative of the Life of Frederick Douglass*, Mark
+  Twain's autobiographical sketches, *The Life of Charlotte Brontë*
+  (Gaskell) — Douglass needs care given the app's softening convention
+  for harsh content. More biographies planned next (2026-09-16 direction:
+  "more biographies, Korean and classics").
 - **Philosophy, plain** — Marcus Aurelius, *Meditations* (short numbered
   passages fit a lesson almost as-is); Epictetus, *Enchiridion*.
 - **Travel writing** — *Innocents Abroad* / *A Tramp Abroad* (Twain),
