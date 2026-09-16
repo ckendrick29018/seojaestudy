@@ -170,6 +170,11 @@ export default function SettingsPage() {
       <Link href="/library" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
         {t("backToLibrary")}
       </Link>
+      <div className="mt-4">
+        <Link href="/privacy" className="text-xs text-charcoal/40 underline-offset-4 hover:underline">
+          Privacy Policy
+        </Link>
+      </div>
     </div>
   );
 }

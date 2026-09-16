@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/learn`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/learn") },
     { url: `${SITE_URL}/quotes`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/quotes") },
     { url: `${SITE_URL}/faq`, lastModified, changeFrequency: "monthly", priority: 0.5, alternates: bilingual("/faq") },
+    { url: `${SITE_URL}/privacy`, lastModified, changeFrequency: "yearly", priority: 0.3, alternates: bilingual("/privacy") },
     ...["a1", "a2", "b1", "b2"].map((level) => ({
       url: `${SITE_URL}/classics/${level}`,
       lastModified,
