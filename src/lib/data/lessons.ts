@@ -25205,6 +25205,1180 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "mark-twain-life-on-the-mississippi",
+    title: "Life on the Mississippi",
+    titleTranslation: "미시시피강에서의 생활",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B1",
+    isFree: true,
+    collection: "biography",
+    author: "Mark Twain (1835–1910)",
+    coverEmoji: "🚢",
+    coverImage: "/covers/mark-twain-life-on-the-mississippi.svg",
+    source:
+      "Adapted from Mark Twain's memoir \"Life on the Mississippi\" (1883; long in the public domain, Project Gutenberg #245), from the chapters recounting his apprenticeship as a steamboat pilot under Horace Bixby. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Mr. Bixby demanded the narrator learn, and what the narrator realized he had lost once he finally mastered it.",
+    paragraphs: [
+      [
+        {
+          id: "mtm-1",
+          text: "When I was a boy on the Mississippi River, there was only one permanent ambition among my comrades: to be a steamboat man.",
+          translation:
+            "제가 미시시피강에서 소년이었을 때, 친구들 사이에는 오직 하나의 변치 않는 꿈이 있었어요. 바로 증기선 선원이 되는 것이었지요.",
+        },
+        {
+          id: "mtm-2",
+          text: "I gained the position of cub pilot, but I soon found that learning the river was a far harder task than I had ever imagined.",
+          translation:
+            "저는 견습 조종사 자리를 얻었지만, 강을 배운다는 것이 제가 상상했던 것보다 훨씬 힘든 일임을 곧 깨달았어요.",
+        },
+        {
+          id: "mtm-3",
+          text: "My teacher, Mr. Bixby, told me I must learn the shape of the river so perfectly that I could call it up in my mind in the dark, from memory alone.",
+          translation:
+            "제 스승인 빅스비 선생님은 제게 강의 모양을 완벽하게 익혀서, 어둠 속에서도 오직 기억만으로 머릿속에 떠올릴 수 있어야 한다고 말씀하셨어요.",
+        },
+      ],
+      [
+        {
+          id: "mtm-4",
+          text: "I said that if I ever got the river by heart, I would be able to see it in my sleep, and he replied that yes, and that was exactly the point.",
+          translation:
+            "제가 만약 강을 완전히 외운다면 잠결에도 강을 볼 수 있을 거라고 말하자, 선생님은 그렇다고, 바로 그것이 핵심이라고 답하셨어요.",
+        },
+        {
+          id: "mtm-5",
+          text: "So I set to work, and began to note every point, bend, bar, island, snag and hill along twelve hundred miles of river, in both directions.",
+          translation:
+            "그래서 저는 일에 착수해, 천이백 마일에 이르는 강을 오가며 모든 지점, 굽이, 모래톱, 섬, 유목, 언덕을 양쪽 방향 모두 기록하기 시작했어요.",
+        },
+        {
+          id: "mtm-6",
+          text: "Just when I had a shape nearly learned, awake, Mr. Bixby would ask me the same question at night, in pitch darkness, and I would have nothing to say.",
+          translation:
+            "낮에 배운 강의 모습을 거의 다 익혔다 싶으면, 빅스비 선생님은 캄캄한 밤에 똑같은 질문을 하셨고, 저는 아무 대답도 하지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "mtm-7",
+          text: "One night I finally admitted that I could see nothing at all in the dark, and he shouted at me that I must learn to 'read' the river as if it were a book, printed in a language of its own.",
+          translation:
+            "어느 날 밤 저는 마침내 어둠 속에서는 아무것도 보이지 않는다고 인정했고, 선생님은 강을 마치 그 자체의 언어로 인쇄된 책처럼 '읽을' 줄 알아야 한다고 소리치셨어요.",
+        },
+        {
+          id: "mtm-8",
+          text: "I nearly despaired. It seemed to me that to be a pilot, I must learn a hundred things, and unlearn none of them.",
+          translation: "저는 거의 절망했어요. 조종사가 되려면 백 가지를 배워야 하고, 그중 하나도 잊어서는 안 될 것만 같았거든요.",
+        },
+        {
+          id: "mtm-9",
+          text: "But little by little, from hundreds of trips up and down, the face of the river did become a wonderful book to me, telling its secrets without reserve.",
+          translation:
+            "하지만 수백 번의 왕복을 거치며 조금씩, 강의 모습은 제게 아무것도 숨기지 않고 비밀을 들려주는 놀라운 책이 되어 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "mtm-10",
+          text: "There was never a page that was void of interest; a broken line on its surface always meant a broken bottom underneath, and a slanting mark meant a bluff reef.",
+          translation:
+            "흥미롭지 않은 페이지는 하나도 없었어요. 수면 위의 끊어진 줄무늬는 언제나 그 아래 얕은 바닥을 뜻했고, 비스듬한 자국은 암초를 뜻했지요.",
+        },
+        {
+          id: "mtm-11",
+          text: "Now, whenever I looked at the river, I could not help reading it, the way another man might read a newspaper he had read every day of his life.",
+          translation:
+            "이제 강을 볼 때마다, 저는 마치 평생 매일 읽어 온 신문을 읽듯이, 강을 읽지 않을 수가 없었어요.",
+        },
+        {
+          id: "mtm-12",
+          text: "But there came a day when I began to cry out at a wonderful sunset on the water, and stopped, realizing something had been lost as well as gained.",
+          translation:
+            "하지만 어느 날, 저는 물 위의 근사한 노을을 보고 감탄하려다 문득 멈춰 섰어요. 얻은 것만큼이나 잃은 것도 있다는 걸 깨달았거든요.",
+        },
+      ],
+      [
+        {
+          id: "mtm-13",
+          text: "I had lost something, too. All the grace, the beauty, the poetry, had gone out of that majestic river; I saw it now only as so much floating timber, so many feet of water, so many hidden dangers to be steered around.",
+          translation:
+            "저는 무언가를 잃기도 했던 거예요. 그 웅장한 강이 지녔던 우아함과 아름다움, 시적인 정취가 모두 사라져 버렸어요. 이제 저는 강을 그저 떠다니는 목재, 몇 피트의 물, 피해서 조종해야 할 숨은 위험들로만 보게 되었어요.",
+        },
+        {
+          id: "mtm-14",
+          text: "I still mourn for that first, unconscious delight I felt in the river's beauty, before I ever ceased to be a passenger and became a pilot who saw only facts.",
+          translation:
+            "저는 승객이기를 그치고 사실만을 보는 조종사가 되기 전, 강의 아름다움에서 느꼈던 그 첫 순수한 기쁨을 지금도 그리워해요.",
+        },
+        {
+          id: "mtm-15",
+          text: "Yet I would not trade the knowledge for the beauty; a doctor, I think, sees a beautiful woman's blush and thinks only of her illness, and gains something no less valuable than what he has lost.",
+          translation:
+            "그래도 저는 그 아름다움과 지식을 바꾸지 않을 거예요. 의사는, 제 생각에, 아름다운 여인의 붉어진 뺨을 보면 오직 그녀의 병만을 떠올리겠지만, 그 또한 잃은 것 못지않게 소중한 무언가를 얻는 셈이니까요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mtm-v1",
+        term: "ambition",
+        partOfSpeech: "noun",
+        translation: "야망, 포부",
+        example: "There was only one permanent ambition among my comrades.",
+        exampleTranslation: "친구들 사이에는 오직 하나의 변치 않는 꿈이 있었어요.",
+      },
+      {
+        id: "mtm-v2",
+        term: "pilot",
+        partOfSpeech: "noun",
+        translation: "조종사, 항해사",
+        example: "I gained the position of cub pilot.",
+        exampleTranslation: "저는 견습 조종사 자리를 얻었어요.",
+      },
+      {
+        id: "mtm-v3",
+        term: "despair",
+        partOfSpeech: "verb",
+        translation: "절망하다",
+        example: "I nearly despaired.",
+        exampleTranslation: "저는 거의 절망했어요.",
+      },
+      {
+        id: "mtm-v4",
+        term: "bluff",
+        partOfSpeech: "noun",
+        translation: "절벽, 벼랑",
+        example: "A slanting mark meant a bluff reef.",
+        exampleTranslation: "비스듬한 자국은 암초를 뜻했어요.",
+      },
+      {
+        id: "mtm-v5",
+        term: "mourn",
+        partOfSpeech: "verb",
+        translation: "그리워하다, 애도하다",
+        example: "I still mourn for that first, unconscious delight.",
+        exampleTranslation: "저는 그 첫 순수한 기쁨을 지금도 그리워해요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mtm-q1",
+        prompt: "What did Mr. Bixby require the narrator to learn about the river?",
+        options: [
+          "Only the parts he would travel by day",
+          "The shape of the entire river well enough to picture it from memory, even in darkness",
+          "The names of every town along the banks",
+          "How to swim across it safely",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Bixby insisted the narrator learn the river so thoroughly that he could recall its shape purely from memory, even in pitch darkness.",
+      },
+      {
+        id: "mtm-q2",
+        prompt: "What changed once the narrator finally mastered reading the river?",
+        options: [
+          "He could no longer see it as beautiful, only as useful information",
+          "He decided to quit being a pilot",
+          "He forgot everything he had learned",
+          "He found the river more beautiful than ever",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Once expertise let him \"read\" the river like a book, its natural beauty faded — a sunset became only data about the water rather than something to admire.",
+      },
+      {
+        id: "mtm-q3",
+        prompt: "How does the narrator ultimately feel about this trade-off?",
+        options: [
+          "He deeply regrets ever learning the river's secrets",
+          "Losing the beauty was worth nothing at all",
+          "He accepts that gaining valuable knowledge meant losing something too, comparing it to a doctor's perspective",
+          "He believes the beauty and the knowledge were exactly the same thing",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The narrator compares himself to a doctor who no longer just admires a blush but reads it as a symptom — gaining knowledge that is valuable in its own right, even though something else is lost.",
+      },
+    ],
+  },
+  {
+    slug: "marie-curie-pierre-curie",
+    title: "Pierre Curie",
+    titleTranslation: "피에르 퀴리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B2",
+    isFree: true,
+    collection: "biography",
+    author: "Marie Curie (1867–1934)",
+    coverEmoji: "✨",
+    coverImage: "/covers/marie-curie-pierre-curie.svg",
+    source:
+      "Adapted from Marie Curie's memoir \"Pierre Curie\" (1923 English translation by Charlotte and Vernon Kellogg; long in the public domain, Project Gutenberg #69617), which includes her own account of their years of work isolating radium in a converted shed. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the shed where the Curies worked, and what they liked to do there some evenings after dinner.",
+    paragraphs: [
+      [
+        {
+          id: "mc-1",
+          text: "When Pierre and I first believed that a new, unknown substance must exist inside the pitchblende ore, we had no proper laboratory to search for it, only an old wooden shed across the yard.",
+          translation:
+            "피에르와 제가 역청 우라늄광 안에 새로운, 아직 알려지지 않은 물질이 있으리라고 처음 믿게 되었을 때, 우리에게는 제대로 된 실험실이 없었고, 그저 마당 건너편의 낡은 나무 창고 하나뿐이었어요.",
+        },
+        {
+          id: "mc-2",
+          text: "The shed had once been used for cutting up bodies at the medical school, and it had a broken floor, a leaking glass roof, and no equipment except a few old kitchen tables.",
+          translation:
+            "그 창고는 한때 의과대학에서 시신을 해부하던 곳이었는데, 바닥은 깨져 있었고 유리 지붕은 비가 샜으며, 낡은 부엌 탁자 몇 개 말고는 아무 장비도 없었어요.",
+        },
+        {
+          id: "mc-3",
+          text: "It was unbearably hot in summer and bitterly cold in winter, yet Pierre often said it was in that poor shed that we spent the best and happiest years of our whole lives.",
+          translation:
+            "여름에는 견디기 힘들 만큼 덥고 겨울에는 살을 에듯 추웠지만, 피에르는 종종 우리 인생 전체에서 가장 좋고 행복했던 시절을 보낸 곳이 바로 그 초라한 창고였다고 말하곤 했어요.",
+        },
+      ],
+      [
+        {
+          id: "mc-4",
+          text: "For four years we worked there together, boiling down tons of the heavy brown ore, one small basinful at a time, to separate out whatever tiny, invisible thing was making it glow with energy.",
+          translation:
+            "우리는 사 년 동안 그곳에서 함께 일하며, 무거운 갈색 광석 수 톤을 한 번에 작은 대야 하나씩 끓여 내어, 그것을 빛나게 만드는 아주 작고 보이지 않는 무언가를 분리해 내려 애썼어요.",
+        },
+        {
+          id: "mc-5",
+          text: "I stirred the boiling mixture with an iron rod nearly as tall as myself, sometimes for a whole day without stopping, in an atmosphere thick with irritating dust and fumes.",
+          translation:
+            "저는 제 키만큼이나 긴 쇠막대로 끓는 혼합물을 저었어요. 자극적인 먼지와 연기로 가득한 공기 속에서, 때로는 하루 종일 쉬지 않고 저었지요.",
+        },
+        {
+          id: "mc-6",
+          text: "Little by little, from many tons of ore, we obtained only a fraction of a gram of the pure new substance, which we decided to call radium.",
+          translation:
+            "여러 톤의 광석에서 조금씩, 우리는 마침내 순수한 새 물질을 아주 적은 양만 얻어 냈고, 그것을 라듐이라고 부르기로 했어요.",
+        },
+      ],
+      [
+        {
+          id: "mc-7",
+          text: "Some evenings, after dinner, we would walk back to the shed together simply to look at our discovery in the dark.",
+          translation:
+            "어떤 저녁이면, 저녁을 먹은 뒤 우리는 그저 어둠 속에서 우리의 발견을 바라보려고 함께 창고로 걸어가곤 했어요.",
+        },
+        {
+          id: "mc-8",
+          text: "We had left our tiny, precious samples on shelves and tables around the room, and each one shone with its own faint, steady light.",
+          translation:
+            "우리는 그 작고 소중한 시료들을 방 곳곳의 선반과 탁자 위에 두었는데, 저마다 은은하고 한결같은 빛을 내뿜고 있었어요.",
+        },
+        {
+          id: "mc-9",
+          text: "The glowing bottles and capsules looked like faint fairy lights hanging in the darkness of the humble shed, and the sight never lost its magic for us.",
+          translation:
+            "빛나는 병들과 캡슐들은 마치 그 초라한 창고의 어둠 속에 걸린 희미한 요정의 불빛 같았고, 그 광경은 우리에게 언제나 신비로움을 잃지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "mc-10",
+          text: "Pierre would hold his hand close to one of the glass tubes and remark quietly on its warmth, for radium gives off heat as well as light, without ever growing cold or being used up.",
+          translation:
+            "피에르는 유리관 하나에 손을 가까이 대고는 조용히 그 온기에 대해 말하곤 했어요. 라듐은 결코 식지도, 다 쓰이지도 않으면서 빛과 함께 열도 내뿜었으니까요.",
+        },
+        {
+          id: "mc-11",
+          text: "It was in this simple, joyful way, not in some grand and famous laboratory, that we came to understand the strange, invisible power hidden inside ordinary rock.",
+          translation:
+            "우리가 평범한 돌 속에 숨겨진 그 낯설고 보이지 않는 힘을 이해하게 된 것은 이렇게 소박하고 기쁨에 찬 방식을 통해서였지, 어느 웅장하고 유명한 실험실에서가 아니었어요.",
+        },
+        {
+          id: "mc-12",
+          text: "We never once thought to patent our discovery or keep it for ourselves; we published our methods freely, believing that this new science belonged to everyone.",
+          translation:
+            "우리는 단 한 번도 우리의 발견에 특허를 내거나 우리만의 것으로 간직할 생각을 하지 않았어요. 이 새로운 과학이 모두의 것이라 믿으며, 우리의 연구 방법을 자유롭게 발표했지요.",
+        },
+      ],
+      [
+        {
+          id: "mc-13",
+          text: "Pierre always said that a scientist should not think of practical results, but only of nature itself, and of the quiet joy of understanding one more of her secrets.",
+          translation:
+            "피에르는 늘 말했어요. 과학자는 실용적인 결과를 생각해서는 안 되고, 오직 자연 그 자체와, 자연의 비밀을 하나 더 이해하는 데서 오는 조용한 기쁨만을 생각해야 한다고요.",
+        },
+        {
+          id: "mc-14",
+          text: "Years after that first glow in the shed, our work would go on to change medicine, science, and our understanding of the very atom itself.",
+          translation:
+            "창고에서 처음 그 빛을 본 지 여러 해가 지난 뒤, 우리의 연구는 의학과 과학, 그리고 원자 그 자체에 대한 우리의 이해를 바꾸어 놓게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mc-v1",
+        term: "laboratory",
+        partOfSpeech: "noun",
+        translation: "실험실",
+        example: "We had no proper laboratory to search for it.",
+        exampleTranslation: "우리에게는 그것을 찾을 제대로 된 실험실이 없었어요.",
+      },
+      {
+        id: "mc-v2",
+        term: "substance",
+        partOfSpeech: "noun",
+        translation: "물질",
+        example: "A new, unknown substance must exist inside the ore.",
+        exampleTranslation: "광석 안에 새로운, 알려지지 않은 물질이 있었어요.",
+      },
+      {
+        id: "mc-v3",
+        term: "glow",
+        partOfSpeech: "verb",
+        translation: "빛나다",
+        example: "Each one shone with its own faint, steady light.",
+        exampleTranslation: "저마다 은은하고 한결같은 빛을 내뿜고 있었어요.",
+      },
+      {
+        id: "mc-v4",
+        term: "discovery",
+        partOfSpeech: "noun",
+        translation: "발견",
+        example: "We would walk back to the shed to look at our discovery.",
+        exampleTranslation: "우리는 우리의 발견을 보러 창고로 걸어가곤 했어요.",
+      },
+      {
+        id: "mc-v5",
+        term: "patent",
+        partOfSpeech: "verb",
+        translation: "특허를 내다",
+        example: "We never once thought to patent our discovery.",
+        exampleTranslation: "우리는 단 한 번도 발견에 특허를 낼 생각을 하지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mc-q1",
+        prompt: "What kind of place did Marie and Pierre Curie actually work in while discovering radium?",
+        options: [
+          "A modern, well-funded university laboratory",
+          "A run-down wooden shed with a leaking roof and almost no equipment",
+          "A private home laboratory built specially for them",
+          "An outdoor field station",
+        ],
+        correctIndex: 1,
+        explanation:
+          "They worked in an old, poorly equipped shed with a broken floor and a leaking glass roof — hardly a proper laboratory at all.",
+      },
+      {
+        id: "mc-q2",
+        prompt: "What did Marie and Pierre like to do some evenings after dinner?",
+        options: [
+          "Visit a nearby theater",
+          "Walk back to the shed just to look at their glowing samples in the dark",
+          "Write letters to other scientists about their results",
+          "Rest and avoid the shed as much as possible",
+        ],
+        correctIndex: 1,
+        explanation:
+          "They would return to the shed at night simply to watch the radium samples glowing faintly in the darkness, a sight that never lost its wonder for them.",
+      },
+      {
+        id: "mc-q3",
+        prompt: "What did the Curies choose to do with their discovery?",
+        options: [
+          "Patent it and sell the rights for a large profit",
+          "Keep their methods secret from other scientists",
+          "Publish their methods freely, believing the science belonged to everyone",
+          "Sell radium samples only to wealthy buyers",
+        ],
+        correctIndex: 2,
+        explanation:
+          "They deliberately did not patent radium, publishing their research methods freely because they believed the new science should belong to everyone.",
+      },
+    ],
+  },
+  {
+    slug: "the-jumping-frog-of-calaveras-county",
+    title: "The Celebrated Jumping Frog of Calaveras County",
+    titleTranslation: "캘러베러스 카운티의 유명한 개구리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Mark Twain (1835–1910)",
+    coverEmoji: "🐸",
+    coverImage: "/covers/the-jumping-frog-of-calaveras-county.svg",
+    source:
+      "Adapted from Mark Twain's short story \"The Celebrated Jumping Frog of Calaveras County\" (first published 1865; collected in \"Sketches, New and Old,\" 1875, long in the public domain, Project Gutenberg #3189). This simplified retelling and its Korean translation are original text written for SeoJae Story; the framing narrator and Simon Wheeler's rambling digressions have been trimmed to focus on the frog story itself.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the stranger secretly did to Dan'l Webster, and how Smiley finally figured out the trick.",
+    paragraphs: [
+      [
+        {
+          id: "jf-1",
+          text: "In the old mining camp of Angel's, there once lived a man named Jim Smiley who would bet on absolutely anything — a horse race, a dog fight, even which of two birds would fly off a fence first.",
+          translation:
+            "옛날 엔젤스 광산촌에는 짐 스마일리라는 사람이 살았는데, 그는 경마든 개싸움이든, 심지어 두 마리 새 중 어느 쪽이 울타리에서 먼저 날아오를지까지, 정말 무엇에든 내기를 걸곤 했어요.",
+        },
+        {
+          id: "jf-2",
+          text: "Smiley had a small, plain-looking frog which he had spent three months patiently teaching, and he called it Dan'l Webster.",
+          translation:
+            "스마일리에게는 평범하게 생긴 작은 개구리가 한 마리 있었는데, 그는 석 달 동안 참을성 있게 그 개구리를 훈련시켜서 '댄얼 웹스터'라는 이름을 붙였어요.",
+        },
+        {
+          id: "jf-3",
+          text: "He taught the frog to jump, and jump it did; in a fair jump, that frog could get over more ground in one leap than any frog you ever saw.",
+          translation:
+            "그는 개구리에게 뛰는 법을 가르쳤고, 정말 잘 뛰었어요. 한 번 제대로 뛰면, 그 개구리는 여러분이 본 그 어떤 개구리보다도 한 번의 도약으로 더 멀리 갈 수 있었지요.",
+        },
+      ],
+      [
+        {
+          id: "jf-4",
+          text: "Smiley was monstrous proud of his frog, and was always ready to bet any stranger forty dollars that Dan'l Webster could out-jump any frog in Calaveras County.",
+          translation:
+            "스마일리는 자기 개구리를 몹시 자랑스러워해서, 언제나 낯선 사람에게 댄얼 웹스터가 캘러베러스 카운티의 그 어떤 개구리보다도 더 멀리 뛸 수 있다며 사십 달러를 걸겠다고 나섰어요.",
+        },
+        {
+          id: "jf-5",
+          text: "One day a stranger came into camp, and Smiley, as always, offered to bet him on the frog, but the stranger said sadly that he didn't have a frog of his own to enter.",
+          translation:
+            "어느 날 한 낯선 사람이 마을에 왔고, 스마일리는 여느 때처럼 개구리로 내기를 걸자고 했지만, 그 사람은 자기에게는 내놓을 개구리가 없다며 아쉬운 듯 말했어요.",
+        },
+        {
+          id: "jf-6",
+          text: "Smiley said that was no trouble at all — he would go and catch the stranger a frog himself, if the stranger would kindly hold Dan'l Webster for him.",
+          translation:
+            "스마일리는 그건 전혀 문제 될 게 없다며, 자기가 직접 가서 낯선 사람에게 줄 개구리를 잡아 오겠다고, 그동안 댄얼 웹스터를 좀 들고 있어 달라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "jf-7",
+          text: "So Smiley put his frog down and went off to the swamp to catch a second frog, leaving Dan'l Webster alone with the stranger for several long minutes.",
+          translation:
+            "그렇게 스마일리는 자기 개구리를 내려놓고 늪으로 다른 개구리를 잡으러 갔고, 댄얼 웹스터는 그 낯선 사람과 단둘이 한참 동안 남겨졌어요.",
+        },
+        {
+          id: "jf-8",
+          text: "The stranger took that chance to quietly pry open Dan'l Webster's mouth and pour in a good, full measure of quail-shot, filling him right up to the chin.",
+          translation:
+            "낯선 사람은 그 틈을 타 조용히 댄얼 웹스터의 입을 벌리고는 산탄을 한가득 부어 넣어, 턱밑까지 꽉 채워 버렸어요.",
+        },
+        {
+          id: "jf-9",
+          text: "When Smiley came back with a frog for the stranger, the two men set both frogs down together, side by side, and gave the word to jump.",
+          translation:
+            "스마일리가 낯선 사람에게 줄 개구리를 잡아 돌아오자, 두 사람은 개구리 둘을 나란히 내려놓고 신호와 함께 뛰게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "jf-10",
+          text: "The new frog hopped off smartly, but Dan'l Webster only gave a heave and a grunt, and couldn't budge more than if he had been made of stone.",
+          translation:
+            "새 개구리는 씩씩하게 뛰어올랐지만, 댄얼 웹스터는 그저 몸을 한 번 들썩이며 끙 소리만 낼 뿐, 마치 돌덩이라도 된 것처럼 꼼짝도 하지 못했어요.",
+        },
+        {
+          id: "jf-11",
+          text: "Smiley was the most astonished man that ever stood on two feet; he could not for the life of him understand what had come over his frog.",
+          translation:
+            "스마일리는 이제껏 그 누구보다도 놀란 사람이 되어, 자기 개구리에게 대체 무슨 일이 일어난 건지 도무지 이해할 수가 없었어요.",
+        },
+        {
+          id: "jf-12",
+          text: "The stranger took the money, picked up his own frog, and started slowly away, remarking over his shoulder that he saw nothing special about Dan'l Webster after all.",
+          translation:
+            "낯선 사람은 돈을 챙기고 자기 개구리를 집어 든 채 천천히 걸어가면서, 어깨너머로 댄얼 웹스터에게 별다른 게 있는 것 같지도 않다고 한마디 던졌어요.",
+        },
+      ],
+      [
+        {
+          id: "jf-13",
+          text: "Smiley stood scratching his head and staring at his frog for a long time, and at last he said, 'I do wonder what in the nation that frog throwed off for — I wonder if there ain't something the matter with him — he 'pears to look mighty baggy, somehow.'",
+          translation:
+            "스마일리는 한참 동안 머리를 긁적이며 자기 개구리를 뚫어져라 쳐다보다가, 마침내 이렇게 말했어요. '대체 이 녀석이 왜 뛰다 말았는지 모르겠네. 뭔가 문제가 있는 게 아닐까 싶은데, 어째 몸이 유난히 축 늘어져 보이는군.'",
+        },
+        {
+          id: "jf-14",
+          text: "He caught Dan'l Webster up by the back of the neck, lifted him, and said, 'Why, blame my cats if he don't weigh five pound!'",
+          translation:
+            "그는 댄얼 웹스터의 목덜미를 잡아 들어 올리고는 말했어요. '아니, 이 녀석 무게가 자그마치 오 파운드는 되겠는걸!'",
+        },
+        {
+          id: "jf-15",
+          text: "He turned the frog upside down, and it opened its mouth and out came a double handful of shot.",
+          translation: "그는 개구리를 거꾸로 뒤집었고, 개구리는 입을 벌리더니 산탄을 한 움큼 가득 토해 냈어요.",
+        },
+        {
+          id: "jf-16",
+          text: "Then Smiley understood the whole trick, and he set the frog down and took out after that stranger, but he never caught him.",
+          translation:
+            "그제야 스마일리는 모든 속임수를 알아차리고 개구리를 내려놓은 뒤 그 낯선 사람을 뒤쫓아 갔지만, 끝내 붙잡지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jf-v1",
+        term: "stranger",
+        partOfSpeech: "noun",
+        translation: "낯선 사람",
+        example: "One day a stranger came into camp.",
+        exampleTranslation: "어느 날 한 낯선 사람이 마을에 왔어요.",
+      },
+      {
+        id: "jf-v2",
+        term: "shot",
+        partOfSpeech: "noun",
+        translation: "산탄 (작은 납 알갱이)",
+        example: "He poured in a good, full measure of quail-shot.",
+        exampleTranslation: "그는 산탄을 한가득 부어 넣었어요.",
+      },
+      {
+        id: "jf-v3",
+        term: "astonished",
+        partOfSpeech: "adjective",
+        translation: "깜짝 놀란",
+        example: "Smiley was the most astonished man that ever stood on two feet.",
+        exampleTranslation: "스마일리는 이제껏 그 누구보다도 놀란 사람이 되었어요.",
+      },
+      {
+        id: "jf-v4",
+        term: "budge",
+        partOfSpeech: "verb",
+        translation: "꼼짝하다, 움직이다",
+        example: "He couldn't budge more than if he had been made of stone.",
+        exampleTranslation: "그는 마치 돌덩이라도 된 것처럼 꼼짝도 하지 못했어요.",
+      },
+      {
+        id: "jf-v5",
+        term: "trick",
+        partOfSpeech: "noun",
+        translation: "속임수",
+        example: "Then Smiley understood the whole trick.",
+        exampleTranslation: "그제야 스마일리는 모든 속임수를 알아차렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jf-q1",
+        prompt: "What was special about Jim Smiley's frog, Dan'l Webster?",
+        options: [
+          "It could sing better than any other frog",
+          "It had been carefully trained to jump farther than any other frog around",
+          "It could change color to hide from predators",
+          "It was the only talking frog in the county",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Smiley spent months training Dan'l Webster to jump, and it could out-jump any frog anyone had ever seen.",
+      },
+      {
+        id: "jf-q2",
+        prompt: "What did the stranger secretly do while Smiley was away catching another frog?",
+        options: [
+          "He switched Dan'l Webster with a different frog",
+          "He poured a mouthful of lead shot into Dan'l Webster to weigh him down",
+          "He tied Dan'l Webster's legs together",
+          "He fed Dan'l Webster so much that it fell asleep",
+        ],
+        correctIndex: 1,
+        explanation: "The stranger secretly filled Dan'l Webster's mouth with quail-shot, making the frog too heavy to jump.",
+      },
+      {
+        id: "jf-q3",
+        prompt: "How did Smiley finally discover what had happened?",
+        options: [
+          "The stranger confessed before leaving",
+          "He noticed the frog looked unusually heavy and turned it upside down, and it spat out the shot",
+          "Another miner told him about the trick",
+          "He weighed the frog on a scale at the general store",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Smiley picked up his oddly heavy frog, turned it upside down, and watched a double handful of shot fall out of its mouth, revealing the trick.",
+      },
+    ],
+  },
+  {
+    slug: "dr-heideggers-experiment",
+    title: "Dr. Heidegger's Experiment",
+    titleTranslation: "하이데거 박사의 실험",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Nathaniel Hawthorne (1804–1864)",
+    coverEmoji: "🌹",
+    coverImage: "/covers/dr-heideggers-experiment.svg",
+    source:
+      "Adapted from Nathaniel Hawthorne's short story \"Dr. Heidegger's Experiment\" (1837; collected in \"Twice-Told Tales,\" long in the public domain, Project Gutenberg #508). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened to Dr. Heidegger's four old friends after they drank from the vase, and what they resolved to do at the end.",
+    paragraphs: [
+      [
+        {
+          id: "dh-1",
+          text: "Dr. Heidegger was a strange old scholar who once invited four old friends to his study for a curious experiment.",
+          translation:
+            "하이데거 박사는 괴짜 학자였는데, 한번은 흥미로운 실험을 위해 나이 든 친구 네 명을 자신의 서재로 초대했어요.",
+        },
+        {
+          id: "dh-2",
+          text: "All four guests had lived unlucky, disappointed lives: Mr. Medbourne had lost his fortune in bad business, Mr. Gascoigne had ruined his good name, Colonel Killigrew had spent his health and youth on empty pleasures, and the Widow Wycherly had outlived all her beauty and her friends.",
+          translation:
+            "네 사람 모두 불운하고 실망스러운 삶을 살아왔어요. 메드본 씨는 사업에 실패해 재산을 잃었고, 개스코인 씨는 자신의 평판을 망쳤으며, 킬리그루 대령은 헛된 쾌락에 젊음과 건강을 다 써 버렸고, 위철리 부인은 아름다움도 친구들도 모두 잃고 홀로 남았어요.",
+        },
+        {
+          id: "dh-3",
+          text: "As young people, long ago, all three gentlemen had been in love with the Widow Wycherly, and their old rivalry had never quite faded.",
+          translation:
+            "오래전 젊은 시절, 세 신사는 모두 위철리 부인을 사랑했고, 그때의 오랜 경쟁심은 지금까지도 완전히 사라지지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "dh-4",
+          text: "Dr. Heidegger showed his guests a small, dry, blackened rose, fifty years old, that his own fiancée had given him before she died suddenly on their wedding day.",
+          translation:
+            "하이데거 박사는 손님들에게 오십 년 된, 작고 메마른 검은 장미 한 송이를 보여 주었어요. 결혼식 날 갑작스레 세상을 떠난 자신의 약혼녀가 남긴 것이었어요.",
+        },
+        {
+          id: "dh-5",
+          text: "He dropped the ancient rose into a tall glass vase filled with water he claimed had come from the legendary Fountain of Youth, discovered far away in Florida.",
+          translation:
+            "그는 그 오래된 장미를, 머나먼 플로리다에서 발견했다고 주장하는 전설 속 젊음의 샘물이 가득 담긴 키 큰 유리병에 떨어뜨렸어요.",
+        },
+        {
+          id: "dh-6",
+          text: "To the astonishment of everyone in the room, the withered rose slowly opened, turning fresh and pink again, exactly as it must have looked fifty years before.",
+          translation:
+            "방 안에 있던 모두가 놀랍게도, 시들었던 장미는 서서히 벌어지더니 오십 년 전 그 모습 그대로 신선한 분홍빛으로 되살아났어요.",
+        },
+      ],
+      [
+        {
+          id: "dh-7",
+          text: "Dr. Heidegger then poured four glasses of the same water and invited his old friends to drink, warning them gently that he himself was in no hurry to be young again.",
+          translation:
+            "하이데거 박사는 곧 같은 물을 네 잔 따라 오랜 친구들에게 마셔 보라고 권하며, 자신은 다시 젊어질 마음이 조금도 없다고 부드럽게 말했어요.",
+        },
+        {
+          id: "dh-8",
+          text: "The four old people looked at each other, hesitated only a moment, and then drank the water down eagerly, every one of them.",
+          translation: "네 노인은 서로를 바라보다가 잠시 망설였지만, 이내 모두가 그 물을 단숨에 들이켰어요.",
+        },
+        {
+          id: "dh-9",
+          text: "Almost at once, a change came over them: their voices grew stronger, their backs straightened, and the deep lines began to fade from their faces.",
+          translation:
+            "거의 곧바로 변화가 찾아왔어요. 목소리는 힘차졌고, 굽었던 허리는 곧게 펴졌으며, 깊게 팬 주름도 점점 옅어졌어요.",
+        },
+      ],
+      [
+        {
+          id: "dh-10",
+          text: "Growing bolder, they asked for more of the water, and with each new glass they seemed to shed another ten years.",
+          translation: "점점 대담해진 그들은 물을 더 달라고 청했고, 새 잔을 마실 때마다 마치 십 년씩 젊어지는 듯했어요.",
+        },
+        {
+          id: "dh-11",
+          text: "Soon the three gentlemen were young men again in spirit, laughing loudly and arguing over who among them the Widow Wycherly, now young and lovely once more, would choose to dance with.",
+          translation:
+            "곧 세 신사는 마음만은 다시 청년이 되어 크게 웃고 떠들며, 다시 젊고 아름다워진 위철리 부인이 셋 중 누구와 춤을 출지를 두고 다투었어요.",
+        },
+        {
+          id: "dh-12",
+          text: "The widow herself ran to a mirror, delighted to see her old beauty return, and flirted with all three at once, exactly as she once had in her youth.",
+          translation:
+            "위철리 부인 자신도 거울로 달려가 되돌아온 옛 아름다움에 기뻐하며, 젊었을 적 그랬듯 세 사람 모두에게 교태를 부렸어요.",
+        },
+      ],
+      [
+        {
+          id: "dh-13",
+          text: "In their new, reckless youth they became careless and a little wild, knocking over Dr. Heidegger's vase in a scuffle over the pretty widow, and spilling the last of the magic water onto the floor.",
+          translation:
+            "되찾은 젊음 속에서 그들은 점점 부주의하고 거칠어져서, 아름다운 위철리 부인을 둘러싼 실랑이 끝에 하이데거 박사의 유리병을 넘어뜨려 마지막 남은 마법의 물을 바닥에 쏟고 말았어요.",
+        },
+        {
+          id: "dh-14",
+          text: "But even as they laughed, the strange light of youth began to fade from their faces, and one by one, they felt themselves growing old again.",
+          translation:
+            "하지만 웃음이 채 가시기도 전에, 얼굴에서 젊음의 낯선 빛이 서서히 사라지기 시작했고, 그들은 하나둘 다시 늙어 가는 것을 느꼈어요.",
+        },
+        {
+          id: "dh-15",
+          text: "Within a few more minutes, all four stood exactly as they had at the beginning of the evening — wrinkled, gray, and worn by time once more.",
+          translation:
+            "몇 분이 채 지나지 않아, 네 사람은 저녁이 시작될 때와 똑같이 주름지고 백발이 성성한, 세월에 지친 모습으로 되돌아와 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "dh-16",
+          text: "Dr. Heidegger, who had not tasted a drop of the water himself, said quietly that he had learned enough from watching them, and would not drink from the Fountain of Youth even if it flowed right outside his own door.",
+          translation:
+            "단 한 방울도 마시지 않았던 하이데거 박사는 조용히 말했어요. 그들을 지켜보는 것만으로도 충분히 배웠으며, 설령 젊음의 샘이 자기 집 문 앞에 흐른다 해도 결코 마시지 않겠다고요.",
+        },
+        {
+          id: "dh-17",
+          text: "But his four old friends, having felt young again for even a few minutes, agreed at once that they would set off for Florida the very next day, determined to drink from the fountain morning, noon, and night.",
+          translation:
+            "하지만 단 몇 분이나마 다시 젊음을 느껴 본 네 노인은, 바로 다음 날 플로리다로 떠나 아침, 점심, 저녁으로 그 샘물을 마시겠다고 곧바로 뜻을 모았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dh-v1",
+        term: "scholar",
+        partOfSpeech: "noun",
+        translation: "학자",
+        example: "Dr. Heidegger was a strange old scholar.",
+        exampleTranslation: "하이데거 박사는 괴짜 학자였어요.",
+      },
+      {
+        id: "dh-v2",
+        term: "fiancée",
+        partOfSpeech: "noun",
+        translation: "약혼녀",
+        example: "His own fiancée had given him the rose before she died.",
+        exampleTranslation: "그의 약혼녀가 세상을 떠나기 전 그 장미를 남겼어요.",
+      },
+      {
+        id: "dh-v3",
+        term: "withered",
+        partOfSpeech: "adjective",
+        translation: "시든",
+        example: "The withered rose slowly opened, turning fresh and pink again.",
+        exampleTranslation: "시들었던 장미는 서서히 벌어지더니 다시 신선한 분홍빛으로 되살아났어요.",
+      },
+      {
+        id: "dh-v4",
+        term: "rivalry",
+        partOfSpeech: "noun",
+        translation: "경쟁심, 경쟁",
+        example: "Their old rivalry had never quite faded.",
+        exampleTranslation: "그때의 오랜 경쟁심은 완전히 사라지지 않았어요.",
+      },
+      {
+        id: "dh-v5",
+        term: "reckless",
+        partOfSpeech: "adjective",
+        translation: "무모한, 신중하지 못한",
+        example: "In their new, reckless youth they became careless and a little wild.",
+        exampleTranslation: "되찾은 젊음 속에서 그들은 점점 부주의하고 거칠어졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dh-q1",
+        prompt: "What did Dr. Heidegger claim the water in the vase was?",
+        options: [
+          "Ordinary spring water",
+          "Water from the legendary Fountain of Youth",
+          "A medicine he had invented himself",
+          "Holy water from a church",
+        ],
+        correctIndex: 1,
+        explanation: "Dr. Heidegger claimed the water came from the legendary Fountain of Youth, discovered in Florida.",
+      },
+      {
+        id: "dh-q2",
+        prompt: "What happened to the three gentlemen and the widow after they drank the water?",
+        options: [
+          "Nothing changed at all",
+          "They fell asleep immediately",
+          "They grew younger, regaining their old vanity, rivalry, and recklessness",
+          "They became wiser and calmer than before",
+        ],
+        correctIndex: 2,
+        explanation:
+          "As they drank more of the water, they grew younger and reverted to their old youthful vanity and rivalry over the widow, becoming increasingly reckless.",
+      },
+      {
+        id: "dh-q3",
+        prompt: "What did the four old friends decide to do at the end of the story, despite what they had just experienced?",
+        options: [
+          "Never speak of the strange evening again",
+          "Travel to Florida to keep drinking from the Fountain of Youth",
+          "Ask Dr. Heidegger to marry the widow",
+          "Give up their old rivalries for good",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Even after briefly tasting youth and then aging back to normal, the four friends immediately resolved to travel to Florida to drink continually from the Fountain of Youth, having learned nothing from the experience.",
+      },
+    ],
+  },
+  {
+    slug: "kongjwi-and-patjwi",
+    title: "콩쥐와 팥쥐",
+    titleTranslation: "Kongjwi and Patjwi",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Kongjwi Patjwi-jeon, anonymous, Joseon era)",
+    coverEmoji: "🧺",
+    coverImage: "/covers/kongjwi-and-patjwi.svg",
+    source:
+      "Based on Kongjwi Patjwi-jeon (콩쥐팥쥐전), an anonymous traditional Korean folktale believed to date from the Joseon era and long in the public domain — often compared to Cinderella. This simplified retelling and its English translation are original text written for SeoJae Story; the story ends at Kongjwi's marriage, without the harsher revenge scenes found in some traditional versions.",
+    summaryPrompt:
+      "In 1–2 sentences, say what tasks the stepmother gave Kongjwi, and how she was able to complete them.",
+    paragraphs: [
+      [
+        {
+          id: "kj-1",
+          text: "옛날 어느 마을에 콩쥐라는 착한 소녀가 살았어요.",
+          translation: "Long ago, in a small village, there lived a kind girl named Kongjwi.",
+        },
+        {
+          id: "kj-2",
+          text: "콩쥐의 어머니는 일찍 돌아가셨고, 아버지는 새어머니와 결혼했어요.",
+          translation: "Kongjwi's mother died when she was young, and her father married a new wife.",
+        },
+      ],
+      [
+        {
+          id: "kj-3",
+          text: "새어머니에게는 팥쥐라는 딸이 있었는데, 새어머니는 팥쥐만 예뻐하고 콩쥐를 미워했어요.",
+          translation:
+            "The stepmother had a daughter named Patjwi, and she loved only Patjwi while treating Kongjwi cruelly.",
+        },
+        {
+          id: "kj-4",
+          text: "어느 날 마을에 큰 잔치가 열렸어요.",
+          translation: "One day, a great feast was held in the village.",
+        },
+      ],
+      [
+        {
+          id: "kj-5",
+          text: "새어머니는 콩쥐에게 깨진 항아리에 물을 채우고, 곡식을 다 찧어 놓으라고 시켰어요.",
+          translation:
+            "The stepmother ordered Kongjwi to fill a cracked jar with water and to hull all the grain before she could go.",
+        },
+        {
+          id: "kj-6",
+          text: "콩쥐가 아무리 물을 부어도 항아리는 금세 텅 비었어요.",
+          translation: "No matter how much water Kongjwi poured in, the jar emptied again at once.",
+        },
+      ],
+      [
+        {
+          id: "kj-7",
+          text: "그때 두꺼비 한 마리가 나타나 깨진 구멍을 몸으로 막아 주었어요.",
+          translation: "Just then, a toad appeared and blocked the crack with its own body.",
+        },
+        {
+          id: "kj-8",
+          text: "곧 참새들이 날아와 부리로 곡식을 순식간에 다 찧어 주었어요.",
+          translation: "Soon, sparrows flew down and hulled all the grain with their beaks in no time at all.",
+        },
+      ],
+      [
+        {
+          id: "kj-9",
+          text: "덕분에 콩쥐는 모든 일을 끝내고 잔치에 갈 수 있었어요.",
+          translation: "Thanks to them, Kongjwi finished every task and was able to go to the feast.",
+        },
+        {
+          id: "kj-10",
+          text: "잔치에 가는 길에 냇물을 건너다가, 콩쥐는 그만 꽃신 한 짝을 잃어버렸어요.",
+          translation: "On her way to the feast, while crossing a stream, Kongjwi lost one of her flower-embroidered shoes.",
+        },
+      ],
+      [
+        {
+          id: "kj-11",
+          text: "마을 사또가 그 꽃신을 주워, 신발의 주인을 찾아 온 마을을 돌아다녔어요.",
+          translation: "The village magistrate picked up the shoe and searched the whole village for its owner.",
+        },
+        {
+          id: "kj-12",
+          text: "마침내 사또는 꽃신의 주인이 콩쥐라는 것을 알게 되었고, 콩쥐는 사또의 아내가 되었어요.",
+          translation: "At last, the magistrate learned that the shoe belonged to Kongjwi, and she became his wife.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "kj-v1",
+        term: "항아리",
+        reading: "hangari",
+        partOfSpeech: "noun",
+        translation: "jar",
+        example: "항아리에 물을 채웠어요.",
+        exampleTranslation: "She filled the jar with water.",
+      },
+      {
+        id: "kj-v2",
+        term: "두꺼비",
+        reading: "dukkeobi",
+        partOfSpeech: "noun",
+        translation: "toad",
+        example: "두꺼비가 구멍을 막아 주었어요.",
+        exampleTranslation: "A toad blocked the crack.",
+      },
+      {
+        id: "kj-v3",
+        term: "곡식",
+        reading: "gokshik",
+        partOfSpeech: "noun",
+        translation: "grain",
+        example: "참새들이 곡식을 다 찧어 주었어요.",
+        exampleTranslation: "The sparrows hulled all the grain.",
+      },
+      {
+        id: "kj-v4",
+        term: "잔치",
+        reading: "janchi",
+        partOfSpeech: "noun",
+        translation: "feast",
+        example: "마을에 큰 잔치가 열렸어요.",
+        exampleTranslation: "A great feast was held in the village.",
+      },
+      {
+        id: "kj-v5",
+        term: "사또",
+        reading: "sattoh",
+        partOfSpeech: "noun",
+        translation: "local magistrate",
+        example: "사또가 꽃신의 주인을 찾았어요.",
+        exampleTranslation: "The magistrate searched for the shoe's owner.",
+      },
+    ],
+    questions: [
+      {
+        id: "kj-q1",
+        prompt: "새어머니는 콩쥐에게 어떤 일을 시켰나요?",
+        options: ["잔치 음식을 만들라고 했다", "깨진 항아리에 물을 채우고 곡식을 찧으라고 했다", "새 옷을 만들라고 했다", "마을을 청소하라고 했다"],
+        correctIndex: 1,
+        explanation:
+          "새어머니는 콩쥐가 잔치에 가지 못하도록 깨진 항아리에 물을 채우고 곡식을 다 찧어 놓으라고 시켰어요.",
+      },
+      {
+        id: "kj-q2",
+        prompt: "콩쥐는 누구의 도움으로 항아리를 채우고 곡식을 찧었나요?",
+        options: ["이웃 사람들", "두꺼비와 참새들", "팥쥐", "아버지"],
+        correctIndex: 1,
+        explanation: "두꺼비가 깨진 구멍을 막아 주었고, 참새들이 날아와 곡식을 순식간에 찧어 주었어요.",
+      },
+      {
+        id: "kj-q3",
+        prompt: "콩쥐는 어떻게 사또의 아내가 되었나요?",
+        options: [
+          "사또가 잔치에서 콩쥐를 처음 만났다",
+          "냇물을 건너다 잃어버린 꽃신의 주인을 사또가 찾아냈다",
+          "아버지가 콩쥐를 사또에게 소개했다",
+          "팥쥐가 콩쥐를 대신 추천했다",
+        ],
+        correctIndex: 1,
+        explanation:
+          "콩쥐가 잃어버린 꽃신을 사또가 주워 주인을 찾다가 콩쥐임을 알게 되었고, 콩쥐는 사또의 아내가 되었어요.",
+      },
+    ],
+  },
+  {
+    slug: "sim-cheong",
+    title: "심청전",
+    titleTranslation: "The Tale of Sim Cheong",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Sim Cheong-jeon, anonymous, Joseon era)",
+    coverEmoji: "🪷",
+    coverImage: "/covers/sim-cheong.svg",
+    source:
+      "Based on Sim Cheong-jeon (심청전), an anonymous traditional Korean folktale believed to date from the Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story; Sim Cheong survives her sacrifice in every known version of the tale, and this retelling keeps that ending.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Sim Cheong sold herself to the sailors, and how her father's sight was finally restored.",
+    paragraphs: [
+      [
+        {
+          id: "sc-1",
+          text: "옛날 어느 마을에 눈이 먼 아버지와 함께 사는 효녀 심청이 살았어요.",
+          translation: "Long ago, in a small village, there lived a devoted daughter named Sim Cheong, who lived with her blind father.",
+        },
+        {
+          id: "sc-2",
+          text: "심청의 어머니는 심청이 아기였을 때 돌아가셨고, 아버지 심학규는 홀로 딸을 키웠어요.",
+          translation: "Sim Cheong's mother died when she was just a baby, and her father, Sim Hak-gyu, raised her alone.",
+        },
+        {
+          id: "sc-3",
+          text: "심청은 자라서 삯바느질과 허드렛일을 하며 눈먼 아버지를 정성껏 모셨어요.",
+          translation: "As she grew up, Sim Cheong took in sewing and odd jobs to earn money, and cared for her blind father with all her heart.",
+        },
+      ],
+      [
+        {
+          id: "sc-4",
+          text: "어느 날 아버지는 냇물에 빠졌다가, 자신을 구해 준 스님에게서 뜻밖의 말을 들었어요.",
+          translation: "One day her father fell into a stream, and a monk who saved him told him something unexpected.",
+        },
+        {
+          id: "sc-5",
+          text: "쌀 삼백 석을 부처님께 바치면 눈을 뜰 수 있다는 말이었어요.",
+          translation: "The monk said that if three hundred sacks of rice were offered to Buddha, her father's eyes would open again.",
+        },
+        {
+          id: "sc-6",
+          text: "가진 것이 없었던 아버지는 그만 그러겠다고 약속해 버리고 말았어요.",
+          translation: "Having nothing of his own to give, the father rashly promised to do exactly that.",
+        },
+      ],
+      [
+        {
+          id: "sc-7",
+          text: "심청은 아버지의 눈을 뜨게 해 드리고 싶어서, 자신을 뱃사람들에게 팔아 쌀 삼백 석을 마련했어요.",
+          translation:
+            "Wanting more than anything to give her father his sight, Sim Cheong sold herself to some sailors to raise the three hundred sacks of rice.",
+        },
+        {
+          id: "sc-8",
+          text: "뱃사람들은 바다의 용왕님을 달래기 위해 처녀 한 명이 필요했던 것이었어요.",
+          translation: "The sailors needed a young woman to offer to the Dragon King of the sea, to calm his stormy waters.",
+        },
+        {
+          id: "sc-9",
+          text: "심청은 아버지에게 사실을 알리지 않은 채, 배를 타고 먼 바다로 떠났어요.",
+          translation: "Without telling her father the truth, Sim Cheong boarded the ship and sailed far out to sea.",
+        },
+      ],
+      [
+        {
+          id: "sc-10",
+          text: "거센 바다 한가운데서, 심청은 아버지를 위해 기도하며 스스로 파도 속으로 몸을 던졌어요.",
+          translation: "In the middle of the rough sea, Sim Cheong prayed for her father and threw herself into the waves.",
+        },
+        {
+          id: "sc-11",
+          text: "하지만 심청은 죽지 않고, 커다랗고 아름다운 연꽃 속에서 다시 눈을 떴어요.",
+          translation: "But Sim Cheong did not die; instead, she opened her eyes again inside a huge and beautiful lotus flower.",
+        },
+        {
+          id: "sc-12",
+          text: "그 연꽃은 물결을 따라 떠올랐고, 마침 지나가던 임금님이 그것을 발견했어요.",
+          translation: "The lotus flower floated up on the waves, and a passing king happened to discover it.",
+        },
+      ],
+      [
+        {
+          id: "sc-13",
+          text: "연꽃 속에서 나온 심청은 임금님과 결혼하여 왕비가 되었어요.",
+          translation: "Sim Cheong, who emerged from the flower, married the king and became queen.",
+        },
+        {
+          id: "sc-14",
+          text: "왕비가 된 심청은 온 나라의 눈먼 사람들을 궁궐로 초대하는 잔치를 열었어요.",
+          translation: "As queen, Sim Cheong held a great feast and invited every blind person in the kingdom to the palace.",
+        },
+        {
+          id: "sc-15",
+          text: "잔치에 온 아버지가 마침내 딸의 목소리를 듣고 놀라 눈을 번쩍 뜨니, 그의 눈도 밝아졌어요.",
+          translation:
+            "When her father, who had come to the feast, suddenly heard his daughter's voice and opened his eyes wide in surprise, his sight was restored as well.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sc-v1",
+        term: "효녀",
+        reading: "hyonyeo",
+        partOfSpeech: "noun",
+        translation: "devoted daughter",
+        example: "심청은 효녀였어요.",
+        exampleTranslation: "Sim Cheong was a devoted daughter.",
+      },
+      {
+        id: "sc-v2",
+        term: "눈먼",
+        reading: "nunmeon",
+        partOfSpeech: "adjective",
+        translation: "blind",
+        example: "심청은 눈먼 아버지를 모셨어요.",
+        exampleTranslation: "Sim Cheong cared for her blind father.",
+      },
+      {
+        id: "sc-v3",
+        term: "스님",
+        reading: "seunim",
+        partOfSpeech: "noun",
+        translation: "Buddhist monk",
+        example: "스님이 아버지를 구해 주었어요.",
+        exampleTranslation: "A monk saved her father.",
+      },
+      {
+        id: "sc-v4",
+        term: "연꽃",
+        reading: "yeonkkot",
+        partOfSpeech: "noun",
+        translation: "lotus flower",
+        example: "심청은 연꽃 속에서 다시 눈을 떴어요.",
+        exampleTranslation: "Sim Cheong opened her eyes again inside a lotus flower.",
+      },
+      {
+        id: "sc-v5",
+        term: "왕비",
+        reading: "wangbi",
+        partOfSpeech: "noun",
+        translation: "queen",
+        example: "심청은 왕비가 되었어요.",
+        exampleTranslation: "Sim Cheong became queen.",
+      },
+    ],
+    questions: [
+      {
+        id: "sc-q1",
+        prompt: "심청은 왜 자신을 뱃사람들에게 팔았나요?",
+        options: ["더 나은 삶을 살고 싶어서", "아버지의 눈을 뜨게 해 드리기 위해 쌀 삼백 석이 필요해서", "뱃사람들이 억지로 데려가서", "돈을 벌어 결혼하고 싶어서"],
+        correctIndex: 1,
+        explanation: "심청은 아버지가 눈을 뜰 수 있도록 쌀 삼백 석을 마련하기 위해 스스로를 뱃사람들에게 팔았어요.",
+      },
+      {
+        id: "sc-q2",
+        prompt: "바다에 몸을 던진 심청에게 무슨 일이 일어났나요?",
+        options: ["그대로 물에 빠져 죽었다", "커다란 연꽃 속에서 다시 눈을 떴다", "용왕님의 벌을 받았다", "다시 육지로 헤엄쳐 돌아왔다"],
+        correctIndex: 1,
+        explanation: "심청은 죽지 않고 아름다운 연꽃 속에서 다시 깨어났고, 그 연꽃은 물 위로 떠올랐어요.",
+      },
+      {
+        id: "sc-q3",
+        prompt: "심청의 아버지는 어떻게 다시 눈을 뜨게 되었나요?",
+        options: [
+          "의사에게 치료를 받아서",
+          "왕비가 된 심청이 연 잔치에서 딸의 목소리를 듣고 놀라서",
+          "부처님께 직접 기도해서",
+          "시간이 지나며 저절로 나아서",
+        ],
+        correctIndex: 1,
+        explanation:
+          "왕비가 된 심청이 눈먼 사람들을 위한 잔치를 열었고, 그 자리에서 딸의 목소리를 들은 아버지가 놀라며 눈을 뜨게 되었어요.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

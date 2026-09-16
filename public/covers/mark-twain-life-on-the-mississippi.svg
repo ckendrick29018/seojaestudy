@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Life on the Mississippi by Mark Twain">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F8FB"/>
+      <stop offset="1" stop-color="#E6F0F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#5C84A8" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#8FB2CC" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#6E97B8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-46 20 q 46 20 92 0 l -8 18 q -38 14 -76 0 Z" stroke-width="1.8"/>
+    <rect x="-26" y="-14" width="52" height="26" rx="2" stroke-width="1.6"/>
+    <rect x="-16" y="-34" width="8" height="22" stroke-width="1.4"/>
+    <rect x="8" y="-34" width="8" height="22" stroke-width="1.4"/>
+    <path d="M-12 -38 q 4 -8 0 -14" stroke-width="1.2" opacity="0.6"/>
+    <path d="M12 -38 q 4 -8 0 -14" stroke-width="1.2" opacity="0.6"/>
+    <path d="M-60 40 q 60 16 120 0" stroke-width="1.1" opacity="0.4"/>
+    <path d="M-50 48 q 50 14 100 0" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <text x="200" y="332" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2C2C2C" letter-spacing="1">Life on the Mississippi</text>
+
+  <line x1="150" y1="364" x2="250" y2="364" stroke="#5C84A8" stroke-width="1"/>
+
+  <text x="200" y="397" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#5C84A8">Learning to read the river</text>
+
+  <text x="200" y="446" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5C84A8" letter-spacing="3">MARK TWAIN</text>
+  <text x="200" y="468" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1883</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; BIOGRAPHIES</text>
+</svg>

@@ -5769,4 +5769,38 @@ export const KO_EN: Record<string, string> = {
   // verbs & adjectives
   표현하다: "to express",
   심하다: "to be harsh, severe",
+
+  // added for "kongjwi-and-patjwi" / "sim-cheong"
+  // people & places
+  콩쥐: "Kongjwi (name)",
+  팥쥐: "Patjwi (name)",
+  심학규: "Sim Hak-gyu (name)",
+
+  // nouns
+  곡식: "grain",
+  잔치: "feast",
+  사또: "local magistrate",
+  꽃신: "flower-embroidered shoe",
+  냇물: "stream",
+  연꽃: "lotus flower",
+  효녀: "devoted daughter",
+  부처님: "Buddha",
+  용왕님: "Dragon King",
+  처녀: "young woman, maiden",
+  삯바느질: "paid sewing work",
+  허드렛일: "odd jobs, chores",
+  정성껏: "wholeheartedly, with all one's heart",
+  삼백: "three hundred",
+  번쩍: "with a flash, suddenly (of opening eyes wide)",
+
+  // verbs & adjectives
+  눈먼: "blind",
+  예뻐하다: "to favor, to dote on",
+  시키다: "to make someone do, to order",
+  "시켰어요": "made (someone) do it (시키다 + -었어요)",
+  찧다: "to hull, to pound (grain)",
+  초대하다: "to invite",
+  달래다: "to soothe, to calm",
+  날아오다: "to fly over, to fly and come",
+  "부어도": "even if (one) pours (붓다 + -어도)",
 };

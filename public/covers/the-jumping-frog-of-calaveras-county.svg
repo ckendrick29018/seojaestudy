@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Celebrated Jumping Frog of Calaveras County by Mark Twain">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-30 12 Q -30 -8 0 -8 Q 30 -8 30 12 Q 30 30 0 30 Q -30 30 -30 12 Z" stroke-width="1.8"/>
+    <circle cx="-16" cy="-14" r="7" stroke-width="1.5"/>
+    <circle cx="16" cy="-14" r="7" stroke-width="1.5"/>
+    <circle cx="-16" cy="-14" r="2.2" fill="#C9A66B" stroke="none"/>
+    <circle cx="16" cy="-14" r="2.2" fill="#C9A66B" stroke="none"/>
+    <path d="M-30 20 q -14 4 -20 16 M-18 28 q -8 8 -10 18 M30 20 q 14 4 20 16 M18 28 q 8 8 10 18" stroke-width="1.3"/>
+    <path d="M-56 54 q 56 16 112 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="332" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="1">The Celebrated Jumping</text>
+  <text x="200" y="366" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="1">Frog of Calaveras County</text>
+
+  <line x1="150" y1="396" x2="250" y2="396" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="429" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#C57B57">Dan'l Webster's bad day</text>
+
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1865</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
