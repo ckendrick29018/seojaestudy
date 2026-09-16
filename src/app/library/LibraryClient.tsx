@@ -6,6 +6,7 @@ import { SavedForLaterSection } from "@/components/home/SavedForLaterSection";
 import { NewForYouSection } from "@/components/home/NewForYouSection";
 import { FablesSection } from "@/components/home/FablesSection";
 import { ClassicsSection } from "@/components/home/ClassicsSection";
+import { BiographiesSection } from "@/components/home/BiographiesSection";
 import { FolktalesSection } from "@/components/home/FolktalesSection";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
@@ -51,6 +52,7 @@ export function LibraryClient() {
       <NewForYouSection />
       <FablesSection />
       <ClassicsSection />
+      <BiographiesSection />
       <FolktalesSection />
     </div>
   );

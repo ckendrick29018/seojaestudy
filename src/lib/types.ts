@@ -69,11 +69,14 @@ export interface Lesson {
   /**
    * Library grouping. Absent = the default leveled "Library" list; "classics"
    * pulls the lesson into the home-page Classics shelf (public-domain Western
-   * literature translated into Korean); "folktales" pulls it into the
-   * separate Korean-origin folktales shelf instead — kept distinct from
-   * Classics since the sourcing direction runs the other way.
+   * fiction translated into Korean); "folktales" pulls it into the separate
+   * Korean-origin folktales shelf instead — kept distinct from Classics since
+   * the sourcing direction runs the other way; "biography" pulls it into the
+   * Biographies shelf — public-domain memoir/autobiography, kept out of
+   * Classics since it's non-fiction (still `topic: "Biography"` for the
+   * on-page badge, independent of this field).
    */
-  collection?: "classics" | "folktales";
+  collection?: "classics" | "folktales" | "biography";
   /**
    * Path to a cover image under /public (e.g. "/covers/gift-of-the-magi.svg").
    * When absent, the UI falls back to `coverEmoji`.

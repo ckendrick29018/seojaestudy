@@ -72,6 +72,17 @@ export const dict = {
     ko: "고전 서가의 모든 이야기는 서양 문학을 한국어로 옮긴 것이에요. 이 서가는 반대 방향이에요 — 한국에서 전해 내려오는 옛이야기를, 영어와 한국어 학습자 모두를 위해 새로 풀어냈어요.",
   },
 
+  biographiesTitle: { en: "Biographies", ko: "전기" },
+  biographiesSubtitle: {
+    en: "Real lives, in their own words — a different kind of story.",
+    ko: "실제 인물의 삶을, 그들 자신의 말로 — 조금 다른 종류의 이야기예요.",
+  },
+  biographiesSeeAll: { en: "See all", ko: "전체 보기" },
+  biographiesIntro: {
+    en: "Public-domain memoirs and autobiographies, retold as graded readers: real people, in their own voice, telling the moments that mattered most. Same sentence-by-sentence Korean translation, audio narration, vocabulary and comprehension check as every other lesson.",
+    ko: "저작권이 만료된 회고록과 자서전을 단계별 리더로 다시 썼어요. 실존 인물이 자신의 목소리로, 가장 중요했던 순간을 들려줘요. 다른 모든 레슨과 마찬가지로 문장별 한국어 번역, 음성 낭독, 어휘, 이해도 확인 문제가 함께 있어요.",
+  },
+
   bookshelf: { en: "Bookshelf", ko: "책장" },
   bookshelfSubtitle: {
     en: "Every story you finish finds a place here.",

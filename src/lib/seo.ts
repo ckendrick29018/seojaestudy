@@ -86,6 +86,7 @@ export function lessonJsonLd(lesson: Lesson) {
   const url = `${SITE_URL}/lesson/${lesson.slug}`;
   const language = LANGUAGE_NAME[lesson.targetLanguage];
   const isClassic = lesson.collection === "classics";
+  const isBiography = lesson.collection === "biography";
 
   const learningResource: Record<string, unknown> = {
     "@type": ["LearningResource", "Article"],
@@ -134,7 +135,9 @@ export function lessonJsonLd(lesson: Lesson) {
 
   const secondCrumb = isClassic
     ? { name: "Classics", item: `${SITE_URL}/classics` }
-    : { name: "Library", item: `${SITE_URL}/library` };
+    : isBiography
+      ? { name: "Biographies", item: `${SITE_URL}/biographies` }
+      : { name: "Library", item: `${SITE_URL}/library` };
 
   const breadcrumb = {
     "@type": "BreadcrumbList",

@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/`, lastModified, changeFrequency: "weekly", priority: 1, alternates: bilingual("/") },
     { url: `${SITE_URL}/library`, lastModified, changeFrequency: "weekly", priority: 0.9, alternates: bilingual("/library") },
     { url: `${SITE_URL}/classics`, lastModified, changeFrequency: "weekly", priority: 0.8, alternates: bilingual("/classics") },
+    { url: `${SITE_URL}/biographies`, lastModified, changeFrequency: "weekly", priority: 0.7, alternates: bilingual("/biographies") },
     { url: `${SITE_URL}/folktales`, lastModified, changeFrequency: "weekly", priority: 0.7, alternates: bilingual("/folktales") },
     { url: `${SITE_URL}/learn`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/learn") },
     { url: `${SITE_URL}/quotes`, lastModified, changeFrequency: "monthly", priority: 0.7, alternates: bilingual("/quotes") },
