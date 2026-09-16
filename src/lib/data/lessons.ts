@@ -24408,6 +24408,430 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-tell-tale-heart",
+    title: "The Tell-Tale Heart",
+    titleTranslation: "고자질하는 심장",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edgar Allan Poe (1809–1849)",
+    coverEmoji: "👁️",
+    coverImage: "/covers/the-tell-tale-heart.svg",
+    source:
+      "Adapted from Edgar Allan Poe's short story \"The Tell-Tale Heart\" (first published 1843; long in the public domain, Project Gutenberg #2148). This simplified retelling and its Korean translation are original text written for SeoJae Story; the story's violence is kept implicit rather than graphic, in keeping with the rest of the classics shelf.",
+    summaryPrompt:
+      "In 1–2 sentences, say what bothered the narrator about the old man, and what sound finally made him confess.",
+    paragraphs: [
+      [
+        {
+          id: "tth-1",
+          text: "It is true that I have always been very nervous, but why do you say that I am mad?",
+          translation: "제가 늘 신경이 예민했던 건 사실이지만, 어째서 저를 미쳤다고 하시나요?",
+        },
+        {
+          id: "tth-2",
+          text: "I loved the old man who lived in my house. He had never wronged me, and he had never insulted me.",
+          translation:
+            "저는 제 집에 함께 살던 노인을 사랑했어요. 그는 저에게 잘못한 적도, 저를 모욕한 적도 없었어요.",
+        },
+        {
+          id: "tth-3",
+          text: "But one of his eyes was pale and blue, like the eye of a vulture, and every time it looked at me, my blood ran cold.",
+          translation:
+            "하지만 그의 한쪽 눈은 독수리의 눈처럼 창백하고 푸르렀고, 그 눈이 저를 볼 때마다 온몸의 피가 얼어붙는 것 같았어요.",
+        },
+      ],
+      [
+        {
+          id: "tth-4",
+          text: "So I made up my mind to take the old man's life, and be rid of that eye forever.",
+          translation: "그래서 저는 그 노인의 목숨을 빼앗아, 그 눈에서 영원히 벗어나기로 마음먹었어요.",
+        },
+        {
+          id: "tth-5",
+          text: "Every night at midnight, I opened his door so slowly that not even a mouse could have heard me, and shone a single thin ray of lantern light on his sleeping face.",
+          translation:
+            "매일 밤 자정마다, 저는 쥐 한 마리도 듣지 못할 만큼 아주 천천히 그의 방문을 열고, 등불의 가느다란 빛 한 줄기를 잠든 그의 얼굴에 비췄어요.",
+        },
+        {
+          id: "tth-6",
+          text: "For seven long nights I did this, but every night his terrible eye was closed, so I could not do the deed.",
+          translation:
+            "이레 밤 동안 그렇게 했지만, 매일 밤 그 끔찍한 눈은 감겨 있어서 저는 일을 해낼 수가 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "tth-7",
+          text: "On the eighth night, my hand trembled a little, and the old man sat straight up in bed and called out, \"Who's there?\"",
+          translation:
+            "여드레째 밤, 제 손이 살짝 떨렸고, 노인은 침대에서 벌떡 일어나 앉아 \"누구요?\" 하고 외쳤어요.",
+        },
+        {
+          id: "tth-8",
+          text: "I stood still and silent for a whole hour, and then a thin ray of light fell across his pale blue eye, wide open in the darkness.",
+          translation:
+            "저는 꼬박 한 시간을 가만히 서서 숨죽이고 있었고, 이윽고 가느다란 빛줄기가 어둠 속에서 활짝 뜬 그의 창백한 푸른 눈을 비췄어요.",
+        },
+        {
+          id: "tth-9",
+          text: "Just then I heard a low, quick sound, like a watch wrapped in cotton, and I knew it was the beating of his terrified heart.",
+          translation:
+            "바로 그때 솜에 싸인 시계처럼 낮고 빠른 소리가 들렸고, 저는 그것이 그의 겁에 질린 심장이 뛰는 소리라는 걸 알았어요.",
+        },
+      ],
+      [
+        {
+          id: "tth-10",
+          text: "The sound grew louder and louder until I was sure the neighbors would hear it, so in one great rush I pulled him to the floor and silenced him forever.",
+          translation:
+            "그 소리는 점점 더 커져서 이웃들이 듣게 될까 봐, 저는 단숨에 그를 바닥으로 끌어내려 영원히 잠재웠어요.",
+        },
+        {
+          id: "tth-11",
+          text: "I hid the body in pieces beneath the floorboards of his room, working so carefully that no stain, no mark, was left behind.",
+          translation:
+            "저는 시신을 여러 조각으로 나누어 그의 방 마룻바닥 아래에 모두 숨겼는데, 얼룩 하나, 흔적 하나 남기지 않을 만큼 조심스럽게 해냈어요.",
+        },
+        {
+          id: "tth-12",
+          text: "When the police arrived, called by a neighbor who had heard a single cry in the night, I welcomed them inside with an easy smile.",
+          translation:
+            "밤중에 외마디 비명 소리를 들은 이웃의 신고로 경찰이 찾아왔을 때, 저는 여유로운 미소로 그들을 집 안에 맞아들였어요.",
+        },
+      ],
+      [
+        {
+          id: "tth-13",
+          text: "I brought chairs into the old man's own room and sat calmly on the very floorboards that hid his body, answering every question without fear.",
+          translation:
+            "저는 노인의 방에 의자까지 가져다 놓고, 그의 시신을 숨긴 바로 그 마룻바닥 위에 태연히 앉아 어떤 질문에도 두려움 없이 답했어요.",
+        },
+        {
+          id: "tth-14",
+          text: "But as we talked, I began to hear that same low, quick sound again, growing louder with every passing minute, until my head was ringing with it.",
+          translation:
+            "하지만 이야기를 나누는 동안, 또다시 그 낮고 빠른 소리가 들리기 시작했고, 시간이 지날수록 점점 커져서 머릿속이 온통 그 소리로 울렸어요.",
+        },
+        {
+          id: "tth-15",
+          text: "I could bear it no longer — I sprang up and shrieked, \"I confess! Tear up the floorboards! It is the beating of his hideous heart!\"",
+          translation:
+            "더는 견딜 수 없었던 저는 벌떡 일어나 소리쳤어요. \"자백합니다! 마룻바닥을 뜯어내세요! 이건 그의 끔찍한 심장이 뛰는 소리예요!\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tth-v1",
+        term: "nervous",
+        partOfSpeech: "adjective",
+        translation: "신경이 예민한, 불안한",
+        example: "It is true that I have always been very nervous.",
+        exampleTranslation: "제가 늘 신경이 예민했던 건 사실이에요.",
+      },
+      {
+        id: "tth-v2",
+        term: "vulture",
+        partOfSpeech: "noun",
+        translation: "독수리",
+        example: "One of his eyes was pale and blue, like the eye of a vulture.",
+        exampleTranslation: "그의 한쪽 눈은 독수리의 눈처럼 창백하고 푸르렀어요.",
+      },
+      {
+        id: "tth-v3",
+        term: "tremble",
+        partOfSpeech: "verb",
+        translation: "떨다, 떨리다",
+        example: "On the eighth night, my hand trembled a little.",
+        exampleTranslation: "여드레째 밤, 제 손이 살짝 떨렸어요.",
+      },
+      {
+        id: "tth-v4",
+        term: "floorboards",
+        partOfSpeech: "noun",
+        translation: "마룻바닥",
+        example: "I hid the body in pieces beneath the floorboards of his room.",
+        exampleTranslation: "저는 시신을 그의 방 마룻바닥 아래에 숨겼어요.",
+      },
+      {
+        id: "tth-v5",
+        term: "confess",
+        partOfSpeech: "verb",
+        translation: "자백하다, 고백하다",
+        example: "I could bear it no longer, so I confessed.",
+        exampleTranslation: "더는 견딜 수 없어서, 저는 자백했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tth-q1",
+        prompt: "What did the narrator dislike about the old man?",
+        options: [
+          "His unkind words to the narrator",
+          "The pale, vulture-like look of one of his eyes",
+          "His refusal to give the narrator money",
+          "The loud noise he made every night",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The narrator insists the old man never wronged or insulted him — it was only his pale, vulture-like eye that disturbed him.",
+      },
+      {
+        id: "tth-q2",
+        prompt: "What sound convinced the narrator that the police could hear his guilt?",
+        options: [
+          "A clock ticking in the hallway",
+          "The old man's voice calling for help",
+          "A low, quick sound he believed was the dead man's heartbeat",
+          "Footsteps on the stairs above them",
+        ],
+        correctIndex: 2,
+        explanation:
+          "While the police sat talking with him, the narrator began to hear the same low, quick sound again and became convinced it was the beating of the old man's heart.",
+      },
+      {
+        id: "tth-q3",
+        prompt: "How does the story end?",
+        options: [
+          "The narrator escapes before the police arrive",
+          "The narrator confesses and tells the police to tear up the floorboards",
+          "The old man wakes up and forgives him",
+          "The neighbors find the body themselves",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Unable to bear the imagined sound any longer, the narrator shouts a confession and tells the police to tear up the floorboards.",
+      },
+    ],
+  },
+  {
+    slug: "a-scandal-in-bohemia",
+    title: "A Scandal in Bohemia",
+    titleTranslation: "보헤미아의 스캔들",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "🔍",
+    coverImage: "/covers/a-scandal-in-bohemia.svg",
+    source:
+      "Adapted from Arthur Conan Doyle's short story \"A Scandal in Bohemia\" (first published in The Strand Magazine, 1891; collected in The Adventures of Sherlock Holmes, long in the public domain, Project Gutenberg #1661). This simplified retelling and its Korean translation are original text written for SeoJae Story; it is the first short story to feature Sherlock Holmes and Dr. Watson.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the King of Bohemia was afraid of, and how Irene Adler outwitted Sherlock Holmes in the end.",
+    paragraphs: [
+      [
+        {
+          id: "sib-1",
+          text: "My friend Sherlock Holmes always called her simply \"the woman\" — in his eyes, she outshone every other woman who had ever lived.",
+          translation:
+            "제 친구 셜록 홈즈는 그녀를 언제나 그저 '그 여인'이라고 불렀어요. 그의 눈에는 그녀가 이제껏 살았던 그 어떤 여인보다도 빛났으니까요.",
+        },
+        {
+          id: "sib-2",
+          text: "One evening a tall, masked visitor arrived at Holmes's rooms in Baker Street, calling himself Count von Kramm.",
+          translation:
+            "어느 날 저녁, 키가 크고 가면을 쓴 손님이 베이커가에 있는 홈즈의 방으로 찾아와 자신을 폰 크람 백작이라고 소개했어요.",
+        },
+        {
+          id: "sib-3",
+          text: "But Holmes, who noticed everything, told him at once, \"You are not merely a Count. You are the King of Bohemia.\"",
+          translation:
+            "하지만 모든 것을 알아차리는 홈즈는 그에게 바로 말했어요. \"당신은 단순한 백작이 아닙니다. 당신은 보헤미아의 국왕이시군요.\"",
+        },
+      ],
+      [
+        {
+          id: "sib-4",
+          text: "The King admitted it was true, and explained his trouble: years ago he had loved an opera singer named Irene Adler, and they had been photographed together.",
+          translation:
+            "국왕은 그 말이 사실이라고 인정하며 자신의 고민을 털어놓았어요. 몇 년 전 그는 아이린 애들러라는 오페라 가수를 사랑했고, 두 사람이 함께 찍힌 사진이 있다는 것이었어요.",
+        },
+        {
+          id: "sib-5",
+          text: "Now he was engaged to a Scandinavian princess, and if that photograph ever reached her family, his marriage — and his throne — would be ruined.",
+          translation:
+            "이제 그는 스칸디나비아의 공주와 약혼한 상태였는데, 만약 그 사진이 공주의 가족에게 전해진다면 그의 결혼과 왕위 모두 무너질 것이었어요.",
+        },
+        {
+          id: "sib-6",
+          text: "He had tried to buy the photograph back and even to steal it, but Irene Adler had always been cleverer than the men he sent.",
+          translation:
+            "그는 그 사진을 돈으로 사들이려고도, 몰래 훔치려고도 해 보았지만, 아이린 애들러는 그가 보낸 사람들보다 언제나 한 수 위였어요.",
+        },
+      ],
+      [
+        {
+          id: "sib-7",
+          text: "The next day, Holmes disguised himself as a poor, injured clergyman and walked past Irene Adler's house until a fight broke out in the street outside her door.",
+          translation:
+            "이튿날, 홈즈는 가난하고 다친 목사로 변장한 뒤 아이린 애들러의 집 앞을 지나다가, 그녀의 집 문 앞에서 싸움이 일어나도록 꾸몄어요.",
+        },
+        {
+          id: "sib-8",
+          text: "Pretending to help the injured stranger, kind Irene Adler brought Holmes inside her own sitting room, exactly as he had planned.",
+          translation:
+            "마음씨 착한 아이린 애들러는 다친 낯선 사람을 도우려고 홈즈를 자신의 응접실 안으로 데려갔는데, 이는 정확히 홈즈가 계획한 대로였어요.",
+        },
+        {
+          id: "sib-9",
+          text: "From there, Holmes had Watson throw a small smoke rocket through the window and shout \"Fire!\" — for a person's first instinct in danger is to save whatever they treasure most.",
+          translation:
+            "그곳에서 홈즈는 왓슨에게 창문 너머로 작은 연막탄을 던지고 \"불이야!\"라고 외치게 했어요. 사람은 위험에 처하면 가장 소중한 것부터 지키려 하기 마련이니까요.",
+        },
+      ],
+      [
+        {
+          id: "sib-10",
+          text: "Just as Holmes expected, Irene Adler rushed straight to a hidden panel behind a sliding bell-pull, and Holmes saw exactly where the photograph was hidden.",
+          translation:
+            "홈즈가 예상한 대로, 아이린 애들러는 곧장 벽에 달린 종줄 뒤에 숨겨진 작은 문으로 달려갔고, 홈즈는 사진이 어디에 숨겨져 있는지 정확히 보았어요.",
+        },
+        {
+          id: "sib-11",
+          text: "The next morning, Holmes and the King went to Irene Adler's house to take the photograph from its hiding place, certain that she still suspected nothing.",
+          translation:
+            "다음 날 아침, 홈즈와 국왕은 아이린 애들러의 집으로 가서 숨겨진 사진을 가져오려 했어요. 그녀가 아직 아무것도 눈치채지 못했으리라 확신하면서요.",
+        },
+        {
+          id: "sib-12",
+          text: "But the house was empty — Irene Adler had married a young lawyer that very morning and left England forever.",
+          translation:
+            "하지만 집은 텅 비어 있었어요. 아이린 애들러는 바로 그날 아침 젊은 변호사와 결혼해 영국을 영원히 떠난 뒤였어요.",
+        },
+      ],
+      [
+        {
+          id: "sib-13",
+          text: "Behind the sliding panel, Holmes found only a letter and a single photograph of Irene Adler alone, in an evening dress.",
+          translation:
+            "숨겨진 문 뒤에는 편지 한 통과, 이브닝드레스를 입은 아이린 애들러 혼자만의 사진 한 장이 남아 있었어요.",
+        },
+        {
+          id: "sib-14",
+          text: "In the letter, she confessed that she had recognized the famous detective the moment she saw him, and had guessed the whole trick even as it worked on her.",
+          translation:
+            "편지에서 그녀는 홈즈를 본 순간 그 유명한 탐정임을 알아보았고, 그 계략이 자신에게 통하는 그 순간에도 이미 모든 것을 눈치채고 있었다고 고백했어요.",
+        },
+        {
+          id: "sib-15",
+          text: "She promised never to use the photograph against the King unless he threatened her again, and kept it only, she wrote, to protect herself.",
+          translation:
+            "그녀는 국왕이 다시 자신을 위협하지 않는 한 그 사진을 그에게 불리하게 쓰지 않겠다고 약속하며, 오직 자신을 지키기 위해서만 간직하겠다고 적었어요.",
+        },
+      ],
+      [
+        {
+          id: "sib-16",
+          text: "The King was overjoyed that his secret was safe, and offered Holmes a magnificent ring as a reward.",
+          translation:
+            "국왕은 자신의 비밀이 안전해졌다는 사실에 크게 기뻐하며, 홈즈에게 근사한 반지를 사례로 내밀었어요.",
+        },
+        {
+          id: "sib-17",
+          text: "But Holmes asked only to keep Irene Adler's photograph of herself — the one trophy, he said later, of having been outwitted by a woman's wit.",
+          translation:
+            "하지만 홈즈는 오직 아이린 애들러 혼자 찍힌 그 사진만을 갖게 해 달라고 청했어요. 훗날 그가 말하길, 한 여인의 지혜에 완전히 허를 찔렸던 유일한 증표였다고 해요.",
+        },
+        {
+          id: "sib-18",
+          text: "And so, whenever Sherlock Holmes spoke of her afterward, he never used her name. He called her, always, simply \"the woman.\"",
+          translation:
+            "그리고 그 뒤로 셜록 홈즈는 그녀에 관해 이야기할 때마다 결코 이름을 부르지 않았어요. 그는 언제나 그녀를 그저 '그 여인'이라고 불렀답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sib-v1",
+        term: "detective",
+        partOfSpeech: "noun",
+        translation: "탐정",
+        example: "She had recognized the famous detective the moment she saw him.",
+        exampleTranslation: "그녀는 그 유명한 탐정을 본 순간 알아보았어요.",
+      },
+      {
+        id: "sib-v2",
+        term: "disguise",
+        partOfSpeech: "verb",
+        translation: "변장하다",
+        example: "Holmes disguised himself as a poor, injured clergyman.",
+        exampleTranslation: "홈즈는 가난하고 다친 목사로 변장했어요.",
+      },
+      {
+        id: "sib-v3",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "He was engaged to a Scandinavian princess.",
+        exampleTranslation: "그는 스칸디나비아의 공주와 약혼한 상태였어요.",
+      },
+      {
+        id: "sib-v4",
+        term: "throne",
+        partOfSpeech: "noun",
+        translation: "왕위, 왕좌",
+        example: "His marriage, and his throne, would be ruined.",
+        exampleTranslation: "그의 결혼과 왕위 모두 무너질 것이었어요.",
+      },
+      {
+        id: "sib-v5",
+        term: "recognize",
+        partOfSpeech: "verb",
+        translation: "알아보다",
+        example: "She recognized the famous detective the moment she saw him.",
+        exampleTranslation: "그녀는 그 유명한 탐정을 본 순간 알아보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sib-q1",
+        prompt: "Why did the King of Bohemia come to see Holmes?",
+        options: [
+          "He wanted Holmes to find a ring that had been stolen from him",
+          "He wanted Holmes to recover a photograph that threatened his marriage",
+          "He wanted Holmes to catch a thief in his palace",
+          "He wanted Holmes's advice about ruling his kingdom",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The King explained that a photograph of himself with Irene Adler could ruin his engagement to a princess if her family ever saw it.",
+      },
+      {
+        id: "sib-q2",
+        prompt: "How did Holmes trick Irene Adler into revealing where the photograph was hidden?",
+        options: [
+          "He asked her directly, and she told him without suspicion",
+          "He searched her house secretly while she was asleep",
+          "He staged a fire scare, trusting she would rush to save what she treasured most",
+          "He bribed one of her servants to point it out",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Watson threw a smoke rocket and shouted \"Fire!\", and Irene Adler instinctively ran to protect the photograph, showing Holmes exactly where it was hidden.",
+      },
+      {
+        id: "sib-q3",
+        prompt: "How does the story end for Holmes?",
+        options: [
+          "He arrests Irene Adler before she can leave the country",
+          "He recovers the photograph and returns it to the King",
+          "He finds that Irene Adler has already left the country, having outwitted him",
+          "He falls in love with Irene Adler and follows her",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Irene Adler had recognized Holmes, guessed his whole plan, and fled the country with her new husband, leaving behind only a letter and a photograph of herself.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

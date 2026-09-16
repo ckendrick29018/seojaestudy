@@ -5729,4 +5729,27 @@ export const KO_EN: Record<string, string> = {
   애써: "trying hard, with effort (애쓰다 + -어)",
   아파: "hurts, is sick (아프다 + -아)",
   접으려: "trying to fold/close (접다 + -으려)",
+
+  // added for "the-tell-tale-heart" / "a-scandal-in-bohemia"
+  // people & places
+  홈즈: "Holmes (name)",
+  아이린: "Irene (name)",
+  애들러: "Adler (name)",
+  셜록: "Sherlock (name)",
+  왓슨: "Watson (name)",
+  크람: "Kramm (fake name, \"Count von Kramm\")",
+  폰: "von (German aristocratic prefix, as in \"von Kramm\")",
+  보헤미아: "Bohemia (place)",
+  스칸디나비아: "Scandinavia (place)",
+
+  // nouns
+  국왕: "king",
+  사진: "photograph, picture",
+  마룻바닥: "floorboard, floor",
+  시신: "corpse, body",
+
+  // verbs & adjectives
+  다치다: "to get hurt, to be injured",
+  찍히다: "to be photographed, to be taken (of a photo)",
+  비추다: "to shine (light) on, to illuminate",
 };
