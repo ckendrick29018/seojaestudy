@@ -107,6 +107,7 @@ export const lessons: Lesson[] = [
     level: "A1",
     isFree: true,
     coverEmoji: "🦊",
+    coverImage: "/covers/fox-and-grapes.svg",
     source:
       "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
     summaryPrompt: "In 1–2 sentences, describe what the fox did and how she reacted at the end.",
@@ -15367,6 +15368,7 @@ export const lessons: Lesson[] = [
     level: "A1",
     isFree: true,
     coverEmoji: "🐢",
+    coverImage: "/covers/the-tortoise-and-the-hare.svg",
     source:
       "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
     summaryPrompt:
@@ -15542,6 +15544,7 @@ export const lessons: Lesson[] = [
     level: "A1",
     isFree: true,
     coverEmoji: "🦁",
+    coverImage: "/covers/the-lion-and-the-mouse.svg",
     source:
       "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
     summaryPrompt:
@@ -15716,6 +15719,7 @@ export const lessons: Lesson[] = [
     level: "A1",
     isFree: true,
     coverEmoji: "🐜",
+    coverImage: "/covers/the-ant-and-the-grasshopper.svg",
     source:
       "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story; the ending has been gently softened for new readers.",
     summaryPrompt:
@@ -15890,6 +15894,7 @@ export const lessons: Lesson[] = [
     level: "A1",
     isFree: true,
     coverEmoji: "🐺",
+    coverImage: "/covers/the-boy-who-cried-wolf.svg",
     source:
       "Adapted from Aesop's Fables (public domain, c. 6th century BCE). This retelling and its Korean translation are original text written for SeoJae Story.",
     summaryPrompt:
