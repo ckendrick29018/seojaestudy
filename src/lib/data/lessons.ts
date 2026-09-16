@@ -27595,6 +27595,762 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "frederick-douglass-narrative",
+    title: "Learning to Read",
+    titleTranslation: "글을 배우다",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B2",
+    isFree: true,
+    collection: "biography",
+    author: "Frederick Douglass (1818–1895)",
+    coverEmoji: "📖",
+    coverImage: "/covers/frederick-douglass-narrative.svg",
+    source:
+      "Adapted from Frederick Douglass's \"Narrative of the Life of Frederick Douglass, an American Slave\" (1845; long in the public domain, Project Gutenberg #23), from the chapters describing his childhood in Baltimore and how he first learned the alphabet. This simplified retelling and its Korean translation are original text written for SeoJae Story; the realities of slavery are stated plainly but not shown graphically.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Mr. Auld forbade his wife from teaching Douglass to read, and what Douglass decided to do instead.",
+    paragraphs: [
+      [
+        {
+          id: "fd-1",
+          text: "As a boy born into slavery, I never knew my exact birthday; such small facts were simply not kept for children like me.",
+          translation: "노예로 태어난 소년이었던 저는 제 정확한 생일조차 몰랐어요. 저 같은 아이들에게는 그런 사소한 사실조차 기록되지 않았거든요.",
+        },
+        {
+          id: "fd-2",
+          text: "When I was sent to Baltimore to live with the Auld family, my new mistress, Sophia Auld, had never owned a slave before.",
+          translation: "제가 볼티모어의 올드 가족에게 보내졌을 때, 새 안주인이신 소피아 올드 부인은 그전까지 노예를 데리고 계셨던 적이 없으셨어요.",
+        },
+        {
+          id: "fd-3",
+          text: "She was kind, and one day she began teaching me the alphabet, delighted at how quickly I learned each letter.",
+          translation: "그녀는 친절한 분이셨고, 어느 날 제게 알파벳을 가르쳐 주기 시작하셨는데, 제가 글자를 빨리 익히는 것을 무척 기뻐하셨어요.",
+        },
+      ],
+      [
+        {
+          id: "fd-4",
+          text: "But when her husband, Mr. Auld, found out, he ordered her to stop at once, saying it was unlawful and unsafe to teach a slave to read.",
+          translation: "하지만 그녀의 남편 올드 씨는 이를 알게 되자 즉시 멈추라고 명령했어요. 노예에게 글을 가르치는 것은 불법이고 위험하다고 하셨지요.",
+        },
+        {
+          id: "fd-5",
+          text: "He said that learning would make me discontented and unfit to be a slave, for it would show me a world beyond my condition.",
+          translation: "그는 배움이 저를 불만스럽게 만들고 노예로 지내기에 부적합하게 만들 것이라고 했어요. 제 처지 너머의 세상을 보여 줄 것이기 때문이라고요.",
+        },
+        {
+          id: "fd-6",
+          text: "I was standing nearby and heard every word, though I do not think he ever knew it.",
+          translation: "저는 가까이에서 그 말을 하나도 빠짐없이 들었지만, 그는 제가 들었다는 것을 전혀 모르셨을 거예요.",
+        },
+      ],
+      [
+        {
+          id: "fd-7",
+          text: "In that moment, I understood something my master had not meant to teach me: that reading was exactly the pathway from slavery to freedom.",
+          translation: "그 순간 저는 주인님이 가르치려던 것과는 전혀 다른 것을 깨달았어요. 바로 글을 읽는 것이야말로 노예 신분에서 자유로 가는 길이라는 사실이었지요.",
+        },
+        {
+          id: "fd-8",
+          text: "From then on, I was determined to learn to read, whatever the cost, though my lessons with Mrs. Auld had ended for good.",
+          translation: "그때부터 저는 무슨 대가를 치르더라도 글을 배우겠다고 결심했어요. 올드 부인과의 수업은 영영 끝나 버렸지만요.",
+        },
+        {
+          id: "fd-9",
+          text: "I made friends with poor white boys I met in the streets, and turned as many of them as I could into teachers.",
+          translation: "저는 거리에서 만난 가난한 백인 소년들과 친구가 되어, 그들 가운데 최대한 많은 아이들을 제 선생님으로 만들었어요.",
+        },
+      ],
+      [
+        {
+          id: "fd-10",
+          text: "I carried bread in my pocket, plenty of it, and traded it for small lessons, since those boys often had less food than I did.",
+          translation: "저는 주머니에 빵을 넉넉히 넣고 다니면서, 그것을 작은 수업과 맞바꾸었어요. 그 아이들이 저보다 먹을 것이 부족할 때가 많았거든요.",
+        },
+        {
+          id: "fd-11",
+          text: "When I was sent on errands to the shipyard, I copied the letters painted on the timbers there, and practiced them on fences and pavements.",
+          translation: "조선소로 심부름을 갈 때면, 저는 그곳 목재에 칠해진 글자들을 베껴 적었고, 담장과 보도블록 위에서 그것을 연습했어요.",
+        },
+        {
+          id: "fd-12",
+          text: "I would challenge a boy to write a letter better than mine, and in trying to prove me wrong, he would teach me exactly what I needed to know.",
+          translation: "저는 아이에게 저보다 글자를 더 잘 써 보라고 부추겼고, 저를 이기려고 애쓰는 사이 그 아이는 제가 필요한 것을 정확히 가르쳐 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "fd-13",
+          text: "I also found my young master's old spelling book, and when the house was empty, I practiced from it in secret for hours.",
+          translation: "저는 또한 도련님이 쓰던 낡은 철자 교본도 찾아냈고, 집이 비었을 때면 그것으로 몇 시간이고 몰래 연습했어요.",
+        },
+        {
+          id: "fd-14",
+          text: "Bit by bit, letter by letter, the world Mr. Auld had tried to keep closed to me began to open.",
+          translation: "조금씩, 한 글자 한 글자씩, 올드 씨가 제게 닫아 두려 했던 세상이 열리기 시작했어요.",
+        },
+        {
+          id: "fd-15",
+          text: "I did not yet know how I would ever be free, but I knew now, with total certainty, that reading would be the way there.",
+          translation: "제가 어떻게 자유로워질지는 아직 알 수 없었지만, 글을 읽는 것이 바로 그 길이 되리라는 것만은 이제 확실히 알았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "fd-v1",
+        term: "alphabet",
+        partOfSpeech: "noun",
+        translation: "알파벳, 자모",
+        example: "She began teaching me the alphabet.",
+        exampleTranslation: "그녀는 제게 알파벳을 가르쳐 주기 시작하셨어요.",
+      },
+      {
+        id: "fd-v2",
+        term: "forbid",
+        partOfSpeech: "verb",
+        translation: "금지하다",
+        example: "He ordered her to stop, saying it was unlawful.",
+        exampleTranslation: "그는 그것이 불법이라며 멈추라고 명령했어요.",
+      },
+      {
+        id: "fd-v3",
+        term: "determined",
+        partOfSpeech: "adjective",
+        translation: "결심한, 단호한",
+        example: "I was determined to learn to read, whatever the cost.",
+        exampleTranslation: "저는 무슨 대가를 치르더라도 글을 배우겠다고 결심했어요.",
+      },
+      {
+        id: "fd-v4",
+        term: "shipyard",
+        partOfSpeech: "noun",
+        translation: "조선소",
+        example: "I was sent on errands to the shipyard.",
+        exampleTranslation: "저는 조선소로 심부름을 갔어요.",
+      },
+      {
+        id: "fd-v5",
+        term: "pathway",
+        partOfSpeech: "noun",
+        translation: "길, 경로",
+        example: "Reading was exactly the pathway from slavery to freedom.",
+        exampleTranslation: "글을 읽는 것이야말로 노예 신분에서 자유로 가는 길이었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "fd-q1",
+        prompt: "Why did Mr. Auld order his wife to stop teaching Douglass the alphabet?",
+        options: [
+          "He wanted to teach him personally instead",
+          "He believed it would make Douglass discontented and unfit to be a slave",
+          "He thought Douglass was too young to learn",
+          "He wanted Douglass to learn a trade instead",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. Auld feared that reading would show Douglass a world beyond his condition, making him discontented with slavery.",
+      },
+      {
+        id: "fd-q2",
+        prompt: "What did Douglass realize after overhearing Mr. Auld's reasoning?",
+        options: [
+          "That he should give up on learning to read",
+          "That reading was exactly the pathway from slavery to freedom",
+          "That Mrs. Auld was not truly kind",
+          "That he should run away immediately",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Douglass understood that the very reason Mr. Auld forbade reading — that it would open his mind to freedom — meant reading was his path forward.",
+      },
+      {
+        id: "fd-q3",
+        prompt: "How did Douglass continue learning to read after his lessons with Mrs. Auld ended?",
+        options: [
+          "He gave up entirely",
+          "He hired a private tutor",
+          "He traded bread for lessons with poor white boys and practiced with an old spelling book",
+          "He waited until he was freed as an adult",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Douglass made friends with local boys, trading bread for informal lessons, and secretly practiced from his young master's old spelling book.",
+      },
+    ],
+  },
+  {
+    slug: "life-of-charlotte-bronte",
+    title: "The Twelve Soldiers",
+    titleTranslation: "열두 개의 병정 인형",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B1",
+    isFree: true,
+    collection: "biography",
+    author: "Elizabeth Gaskell (1810–1865)",
+    coverEmoji: "🪖",
+    coverImage: "/covers/life-of-charlotte-bronte.svg",
+    source:
+      "Adapted from Elizabeth Gaskell's \"The Life of Charlotte Brontë\" (1857; long in the public domain, Project Gutenberg #1827), from the early chapters describing the Brontë children's shared childhood at Haworth parsonage and the wooden soldiers that sparked their storytelling. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what gift started the Brontë children's games, and what they eventually made from their imaginary stories.",
+    paragraphs: [
+      [
+        {
+          id: "cb-1",
+          text: "The Brontë children grew up in a gray stone parsonage at Haworth, on the edge of the wild Yorkshire moors.",
+          translation: "브론테 남매는 요크셔의 거친 황야 끝자락, 회색 돌로 지어진 사택에서 자랐어요.",
+        },
+        {
+          id: "cb-2",
+          text: "Their mother had died when Charlotte was still very young, leaving her father, Patrick, to raise six children largely on his own.",
+          translation: "샬럿이 아직 아주 어렸을 때 어머니가 돌아가셔서, 아버지 패트릭은 홀로 여섯 아이를 거의 도맡아 키우셨어요.",
+        },
+        {
+          id: "cb-3",
+          text: "With few playmates outside the family, the children turned to one another and to their own imaginations for company.",
+          translation: "가족 밖에서는 놀이 친구가 거의 없었기에, 아이들은 서로에게 그리고 저마다의 상상력에 의지해 지냈어요.",
+        },
+      ],
+      [
+        {
+          id: "cb-4",
+          text: "One evening, their father came home from a trip and brought Branwell a box of twelve wooden toy soldiers.",
+          translation: "어느 날 저녁, 아버지가 여행에서 돌아오시며 브랜웰에게 나무로 만든 장난감 병정 열두 개가 든 상자를 사다 주셨어요.",
+        },
+        {
+          id: "cb-5",
+          text: "The children crowded around, each choosing one soldier to claim as her own, and giving it a name and a personality.",
+          translation: "아이들은 상자 주위로 몰려들어 저마다 병정 하나씩을 자기 것으로 정하고, 이름과 성격을 붙여 주었어요.",
+        },
+        {
+          id: "cb-6",
+          text: "Charlotte's soldier became the Duke of Wellington, her favorite hero, brave and unshakably calm.",
+          translation: "샬럿의 병정은 그녀가 가장 좋아하는 영웅인 웰링턴 공작이 되었어요. 용감하고 조금도 흔들리지 않는 성격이었지요.",
+        },
+      ],
+      [
+        {
+          id: "cb-7",
+          text: "From this simple gift, an entire imaginary world began to grow: kingdoms, wars, and heroes, invented together night after night.",
+          translation: "이 소박한 선물에서 시작해, 하나의 온전한 상상 속 세계가 자라나기 시작했어요. 왕국과 전쟁과 영웅들이 밤마다 함께 만들어졌지요.",
+        },
+        {
+          id: "cb-8",
+          text: "The children called their invented land Angria, and later Emily and Anne created a second kingdom of their own, called Gondal.",
+          translation: "아이들은 자신들이 만든 나라를 앙그리아라고 불렀고, 훗날 에밀리와 앤은 곤달이라는 또 다른 왕국을 따로 만들었어요.",
+        },
+      ],
+      [
+        {
+          id: "cb-9",
+          text: "Charlotte and Branwell filled notebook after notebook with the adventures of Angria's kings, generals, and rival lovers.",
+          translation: "샬럿과 브랜웰은 앙그리아의 왕들과 장군들, 그리고 서로 다투는 연인들의 모험 이야기로 공책을 몇 권이고 채워 나갔어요.",
+        },
+        {
+          id: "cb-10",
+          text: "To keep their stories private, they wrote in letters so tiny that most adults could barely read them without a magnifying glass.",
+          translation: "이야기를 비밀로 간직하려고, 아이들은 어른들이 돋보기 없이는 거의 읽을 수 없을 만큼 작은 글씨로 써 내려갔어요.",
+        },
+        {
+          id: "cb-11",
+          text: "They sewed the tiny pages together into books no larger than a matchbox, meant for no eyes but their own.",
+          translation: "그들은 그 작은 종이들을 성냥갑만 한 크기의 책으로 엮어 냈는데, 오직 자기들만 보기 위한 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "cb-12",
+          text: "For years, this private world of Angria was where Charlotte's imagination truly lived, long before anyone outside the family knew she could write.",
+          translation: "몇 해 동안, 이 은밀한 앙그리아의 세계야말로 샬럿의 상상력이 진짜로 살아 숨 쉬던 곳이었어요. 가족 밖의 누구도 그녀가 글을 쓸 줄 안다는 걸 알기 훨씬 전부터요.",
+        },
+        {
+          id: "cb-13",
+          text: "The habit of inventing characters, giving them voices, and following them through long, tangled stories never left her.",
+          translation: "인물을 만들어 내고 그들에게 목소리를 부여하며, 길고 복잡한 이야기를 따라가는 습관은 그녀에게서 결코 사라지지 않았어요.",
+        },
+        {
+          id: "cb-14",
+          text: "Years later, as a grown woman, Charlotte would draw on that same restless imagination to write Jane Eyre.",
+          translation: "훗날 어른이 된 샬럿은 바로 그 끊임없는 상상력을 바탕으로 《제인 에어》를 써 내려갔어요.",
+        },
+        {
+          id: "cb-15",
+          text: "It had all begun, long before, with a box of twelve wooden soldiers on a kitchen table at Haworth.",
+          translation: "그 모든 것은 오래전, 하워스의 부엌 식탁 위에 놓인 열두 개의 나무 병정 상자에서 시작된 것이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "cb-v1",
+        term: "parsonage",
+        partOfSpeech: "noun",
+        translation: "목사관, 사택",
+        example: "The Brontë children grew up in a gray stone parsonage at Haworth.",
+        exampleTranslation: "브론테 남매는 하워스의 회색 돌로 지어진 사택에서 자랐어요.",
+      },
+      {
+        id: "cb-v2",
+        term: "claim",
+        partOfSpeech: "verb",
+        translation: "차지하다, 자기 것으로 삼다",
+        example: "Each child chose one soldier to claim as her own.",
+        exampleTranslation: "아이들은 저마다 병정 하나씩을 자기 것으로 정했어요.",
+      },
+      {
+        id: "cb-v3",
+        term: "invent",
+        partOfSpeech: "verb",
+        translation: "지어내다, 창작하다",
+        example: "Kingdoms, wars, and heroes, invented together night after night.",
+        exampleTranslation: "왕국과 전쟁과 영웅들이 밤마다 함께 만들어졌어요.",
+      },
+      {
+        id: "cb-v4",
+        term: "tiny",
+        partOfSpeech: "adjective",
+        translation: "아주 작은",
+        example: "They wrote in letters so tiny that adults could barely read them.",
+        exampleTranslation: "어른들이 거의 읽을 수 없을 만큼 작은 글씨로 썼어요.",
+      },
+      {
+        id: "cb-v5",
+        term: "restless",
+        partOfSpeech: "adjective",
+        translation: "끊임없는, 가만있지 못하는",
+        example: "Charlotte drew on that same restless imagination.",
+        exampleTranslation: "샬럿은 그 끊임없는 상상력을 바탕으로 글을 썼어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "cb-q1",
+        prompt: "What gift from their father started the Brontë children's imaginary games?",
+        options: [
+          "A set of storybooks",
+          "A box of twelve wooden toy soldiers",
+          "A painted map of Yorkshire",
+          "A small writing desk",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Their father brought Branwell a box of twelve wooden toy soldiers, and each child claimed one and gave it a name and personality.",
+      },
+      {
+        id: "cb-q2",
+        prompt: "How did the children keep their invented stories private?",
+        options: [
+          "They hid the notebooks in a locked chest",
+          "They wrote in a made-up language",
+          "They wrote in letters so tiny that adults could barely read them",
+          "They only ever told the stories aloud, never writing them down",
+        ],
+        correctIndex: 2,
+        explanation:
+          "They wrote in extremely tiny handwriting and sewed the pages into matchbox-sized books meant only for themselves.",
+      },
+      {
+        id: "cb-q3",
+        prompt: "What did Charlotte eventually create using the same imagination from her childhood games?",
+        options: [
+          "A collection of wooden toys",
+          "The novel Jane Eyre",
+          "A school for young writers",
+          "A map of Angria for other children",
+        ],
+        correctIndex: 1,
+        explanation:
+          "As an adult, Charlotte drew on the same restless, story-inventing imagination from her Angria games to write her novel Jane Eyre.",
+      },
+    ],
+  },
+  {
+    slug: "janghwa-and-hongryeon",
+    title: "장화홍련전",
+    titleTranslation: "The Tale of Janghwa and Hongryeon",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Janghwa Hongryeon-jeon, anonymous, Joseon era)",
+    coverEmoji: "🌺",
+    coverImage: "/covers/janghwa-and-hongryeon.svg",
+    source:
+      "Based on Janghwa Hongryeon-jeon (장화홍련전), an anonymous traditional Korean folktale believed to date from the Joseon era and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story; the sisters' fate by the pond and the stepmother's scheme are kept implicit rather than shown directly, per the app's approach to darker folk material.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the stepmother did to turn the father against Janghwa, and how the sisters' names were finally cleared.",
+    paragraphs: [
+      [
+        {
+          id: "jh-1",
+          text: "옛날 한 고을에 배 좌수라는 사람이 살았는데, 그에게는 장화와 홍련이라는 사이좋은 두 딸이 있었어요.",
+          translation: "Long ago, in a certain town, there lived a man named Squire Bae, who had two devoted daughters, Janghwa and Hongryeon.",
+        },
+        {
+          id: "jh-2",
+          text: "두 자매의 친어머니는 일찍 세상을 떠났고, 아버지는 딸들을 무척 아끼며 홀로 키웠어요.",
+          translation: "The two sisters' own mother had passed away early, and their father raised them alone, cherishing them deeply.",
+        },
+        {
+          id: "jh-3",
+          text: "시간이 흘러 아버지는 허씨라는 여인을 새 아내로 맞이했고, 허씨는 곧 아들 둘을 낳았어요.",
+          translation: "As time passed, their father took a woman named Heo as his new wife, and she soon gave birth to two sons.",
+        },
+      ],
+      [
+        {
+          id: "jh-4",
+          text: "허씨는 장화와 홍련이 자신의 친자식이 아니라는 이유로 두 자매를 미워하기 시작했어요.",
+          translation: "Heo began to resent the two sisters simply because they were not her own children.",
+        },
+        {
+          id: "jh-5",
+          text: "특히 언니 장화가 아름답고 총명하여 아버지의 사랑을 많이 받자, 허씨의 질투는 날이 갈수록 깊어졌어요.",
+          translation: "As the elder sister Janghwa grew beautiful and clever and received much of her father's love, Heo's jealousy deepened by the day.",
+        },
+        {
+          id: "jh-6",
+          text: "허씨는 자기 아들들에게 모든 재산을 물려주고 싶어서, 장화를 내쫓을 못된 계획을 몰래 꾸미기 시작했어요.",
+          translation: "Wanting all the family's wealth to pass to her own sons, Heo secretly began plotting a cruel scheme to drive Janghwa away.",
+        },
+      ],
+      [
+        {
+          id: "jh-7",
+          text: "허씨는 장화의 이불 속에 무언가를 몰래 숨겨 두고는, 마치 장화가 큰 잘못을 저지른 것처럼 꾸며 아버지에게 거짓으로 고했어요.",
+          translation: "Heo secretly hid something inside Janghwa's bedding, then falsely told the father it proved Janghwa had done something deeply shameful.",
+        },
+        {
+          id: "jh-8",
+          text: "순진한 아버지는 계모의 거짓말을 그대로 믿어 버렸고, 억울한 장화는 자신의 결백을 밝힐 길이 없었어요.",
+          translation: "The trusting father believed the stepmother's lie completely, and the wrongly accused Janghwa had no way to prove her innocence.",
+        },
+        {
+          id: "jh-9",
+          text: "허씨는 장화에게 외갓집에 다녀오라며 밤길을 나서게 했고, 동생 홍련이 걱정되어 언니를 따라나섰어요.",
+          translation: "Heo sent Janghwa out on a night journey, claiming she must visit relatives, and Hongryeon, worried for her sister, followed close behind.",
+        },
+      ],
+      [
+        {
+          id: "jh-10",
+          text: "그날 밤 이후, 두 자매는 마을 근처의 깊은 연못가에서 사라져 다시는 돌아오지 못했어요.",
+          translation: "After that night, the two sisters vanished near a deep pond by the village and never returned home again.",
+        },
+        {
+          id: "jh-11",
+          text: "그 뒤로 고을에 새로 부임하는 원님들마다 한밤중에 두 자매의 원혼을 마주하고는 크게 놀라 세상을 떠났어요.",
+          translation: "After that, every new magistrate who came to the town would meet the sisters' sorrowful spirits at midnight and die of fright.",
+        },
+        {
+          id: "jh-12",
+          text: "사람들은 그 고을을 흉흉하다 여겨 두려워했고, 오랫동안 아무도 원님 자리를 맡으려 하지 않았어요.",
+          translation: "People came to fear the town as cursed, and for a long time no one dared to take the magistrate's post.",
+        },
+      ],
+      [
+        {
+          id: "jh-13",
+          text: "마침내 정동우라는 담대한 사람이 새 원님으로 부임했고, 그는 두려워하지 않고 자매의 혼령이 하는 말을 끝까지 들어 주었어요.",
+          translation: "At last a fearless man named Jeong Dong-u became the new magistrate, and unafraid, he listened all the way through to what the sisters' spirits had to say.",
+        },
+        {
+          id: "jh-14",
+          text: "자매는 억울한 사연을 낱낱이 털어놓았고, 정동우는 곧바로 사건을 다시 조사하여 계모 허씨의 못된 계략을 낱낱이 밝혀냈어요.",
+          translation: "The sisters poured out their unjust story in full, and Jeong Dong-u immediately reopened the case, uncovering every detail of stepmother Heo's cruel scheme.",
+        },
+        {
+          id: "jh-15",
+          text: "진실이 드러나자 아버지는 뒤늦게 눈물을 흘리며 뉘우쳤고, 자매는 다른 집안에 쌍둥이 딸로 다시 태어나 행복하게 살았답니다.",
+          translation: "When the truth came out, their father wept with belated remorse, and the sisters were reborn as twin daughters in another family, living happily ever after.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jh-v1",
+        term: "계모",
+        reading: "gyemo",
+        partOfSpeech: "noun",
+        translation: "stepmother",
+        example: "허씨는 장화와 홍련의 계모였어요.",
+        exampleTranslation: "Heo was Janghwa and Hongryeon's stepmother.",
+      },
+      {
+        id: "jh-v2",
+        term: "억울하다",
+        reading: "eogulhada",
+        partOfSpeech: "adjective",
+        translation: "to be wrongly accused, to feel unjustly treated",
+        example: "억울한 장화는 자신의 결백을 밝힐 길이 없었어요.",
+        exampleTranslation: "The wrongly accused Janghwa had no way to prove her innocence.",
+      },
+      {
+        id: "jh-v3",
+        term: "원님",
+        reading: "wonnim",
+        partOfSpeech: "noun",
+        translation: "magistrate",
+        example: "새로 부임하는 원님들마다 크게 놀라 세상을 떠났어요.",
+        exampleTranslation: "Every new magistrate who came would die of fright.",
+      },
+      {
+        id: "jh-v4",
+        term: "혼령",
+        reading: "hollyeong",
+        partOfSpeech: "noun",
+        translation: "spirit, soul of the dead",
+        example: "그는 자매의 혼령이 하는 말을 끝까지 들어 주었어요.",
+        exampleTranslation: "He listened all the way through to what the sisters' spirits had to say.",
+      },
+      {
+        id: "jh-v5",
+        term: "다시 태어나다",
+        reading: "dasi taeeonada",
+        partOfSpeech: "verb phrase",
+        translation: "to be reborn",
+        example: "자매는 다른 집안에 쌍둥이 딸로 다시 태어났어요.",
+        exampleTranslation: "The sisters were reborn as twin daughters in another family.",
+      },
+    ],
+    questions: [
+      {
+        id: "jh-q1",
+        prompt: "계모 허씨는 왜 장화와 홍련을 미워했나요?",
+        options: [
+          "자매가 게을러서",
+          "자기 친자식이 아니고, 재산이 자기 아들들에게 가지 않을까 봐",
+          "자매가 못생겨서",
+          "자매가 집안일을 도와주지 않아서",
+        ],
+        correctIndex: 1,
+        explanation: "허씨는 장화와 홍련이 친자식이 아니라는 이유로 미워했고, 특히 자기 아들들에게 모든 재산을 물려주고 싶어 했어요.",
+      },
+      {
+        id: "jh-q2",
+        prompt: "새로 부임한 원님들이 계속 목숨을 잃었던 이유는 무엇이었나요?",
+        options: [
+          "고을의 나쁜 날씨 때문에",
+          "밤중에 자매의 원혼을 마주하고 크게 놀라서",
+          "도둑들의 습격 때문에",
+          "병에 걸려서",
+        ],
+        correctIndex: 1,
+        explanation: "새로 온 원님들은 한밤중에 자매의 원혼을 마주하고 크게 놀라 목숨을 잃었어요.",
+      },
+      {
+        id: "jh-q3",
+        prompt: "정동우는 어떻게 두 자매의 억울함을 풀어 주었나요?",
+        options: [
+          "자매의 말을 두려워하지 않고 끝까지 들은 뒤 사건을 다시 조사했다",
+          "자매를 무시하고 쫓아냈다",
+          "계모의 편을 들었다",
+          "고을을 떠나 버렸다",
+        ],
+        correctIndex: 0,
+        explanation: "정동우는 두려워하지 않고 자매의 혼령이 하는 말을 끝까지 들은 뒤 사건을 재조사하여 계모의 못된 계략을 밝혀냈어요.",
+      },
+    ],
+  },
+  {
+    slug: "hong-gildong",
+    title: "홍길동전",
+    titleTranslation: "The Tale of Hong Gildong",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean tale, attributed to Heo Gyun (1569–1618)",
+    coverEmoji: "🏹",
+    coverImage: "/covers/hong-gildong.svg",
+    source:
+      "Based on the opening of Hong Gildong-jeon (홍길동전), Korea's first vernacular novel, traditionally attributed to Heo Gyun and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story; the source's later assassination plot against Gildong is kept only as a vague, offstage danger rather than depicted directly.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Gildong could not call his own father and brother by their proper names, and what he finally decided to do.",
+    paragraphs: [
+      [
+        {
+          id: "hg-1",
+          text: "옛날 한양에 홍 판서라는 높은 벼슬아치가 살았는데, 그에게는 재주가 뛰어난 아들 길동이 있었어요.",
+          translation: "Long ago in Hanyang, there lived a high official named Minister Hong, whose son Gildong had remarkable talent.",
+        },
+        {
+          id: "hg-2",
+          text: "하지만 길동은 정실부인이 아닌 몸종 춘섬에게서 태어난 아들이어서, 세상은 그를 '서자'라 부르며 낮추어 보았어요.",
+          translation: "But Gildong was born to Chunseom, a servant woman, not the minister's proper wife, so society looked down on him as a 'secondary son.'",
+        },
+        {
+          id: "hg-3",
+          text: "그 시대의 엄격한 신분 법도 때문에, 길동은 자신의 친아버지를 '아버지'라, 친형을 '형님'이라 부를 수조차 없었어요.",
+          translation: "Because of that era's strict rules of social status, Gildong could not even call his own father 'Father' or his own brother 'Brother.'",
+        },
+      ],
+      [
+        {
+          id: "hg-4",
+          text: "길동은 어릴 때부터 글도 잘 짓고 무예도 뛰어나, 마을 사람들 모두가 그의 재주에 감탄했어요.",
+          translation: "From a young age, Gildong wrote well and excelled at martial arts, and everyone in the village admired his talents.",
+        },
+        {
+          id: "hg-5",
+          text: "그러나 아무리 뛰어나도 서자라는 신분 때문에 과거를 볼 수도, 벼슬길에 나갈 수도 없다는 사실이 그를 몹시 괴롭혔어요.",
+          translation: "Yet no matter how gifted he was, the fact that his status as a secondary son barred him from the state exams or any official career deeply tormented him.",
+        },
+        {
+          id: "hg-6",
+          text: "어느 늦은 밤, 길동은 마당에 홀로 서서 달을 바라보며 자신의 서러운 처지를 조용히 곱씹었어요.",
+          translation: "Late one night, Gildong stood alone in the courtyard, gazing at the moon, quietly turning over his sorrowful circumstances.",
+        },
+      ],
+      [
+        {
+          id: "hg-7",
+          text: "마침 그곳을 지나던 아버지가 아들의 한숨 소리를 듣고 걸음을 멈추었어요.",
+          translation: "His father, who happened to be passing by, heard his son's sigh and stopped in his tracks.",
+        },
+        {
+          id: "hg-8",
+          text: "길동은 용기를 내어, 아버지를 아버지라 부르지 못하는 자신의 처지가 너무나 서럽다고 고백했어요.",
+          translation: "Gathering his courage, Gildong confessed how deeply sorrowful it was that he could not even call his own father 'Father.'",
+        },
+        {
+          id: "hg-9",
+          text: "아버지는 그 말에 마음이 무너졌지만, 나라의 법도를 홀로 어길 수는 없어 그저 조용히 아들의 어깨를 다독여 줄 뿐이었어요.",
+          translation: "The father's heart broke at these words, but unable to defy the kingdom's laws alone, he could only quietly pat his son's shoulder.",
+        },
+      ],
+      [
+        {
+          id: "hg-10",
+          text: "그 뒤로도 집안 사람들 가운데 길동의 재주를 시기하고 그를 눈엣가시처럼 여기는 이들이 있었어요.",
+          translation: "After that, there were still people within the household who envied Gildong's talents and regarded him as a thorn in their side.",
+        },
+        {
+          id: "hg-11",
+          text: "집안 분위기가 점점 위태로워지자, 길동은 이 집에 더 머물다가는 자신에게 큰 화가 미칠지도 모른다고 느꼈어요.",
+          translation: "As the atmosphere in the household grew more dangerous, Gildong sensed that staying any longer might bring great misfortune upon him.",
+        },
+      ],
+      [
+        {
+          id: "hg-12",
+          text: "길동은 마침내 집을 떠나 넓은 세상으로 나아가, 스스로 자신의 운명을 개척하기로 마음먹었어요.",
+          translation: "At last, Gildong resolved to leave home and step out into the wider world, determined to carve out his own destiny.",
+        },
+        {
+          id: "hg-13",
+          text: "떠나기 전날 밤, 그는 자신을 키워 준 어머니 춘섬에게 큰절을 올리며 반드시 훌륭한 사람이 되어 돌아오겠다고 약속했어요.",
+          translation: "The night before leaving, he bowed deeply to his mother Chunseom, who had raised him, promising he would surely return as a person of great accomplishment.",
+        },
+        {
+          id: "hg-14",
+          text: "새벽이 밝아 오자, 길동은 무거우면서도 희망에 찬 마음으로 조용히 대문을 나섰어요.",
+          translation: "As dawn broke, Gildong quietly walked out the front gate, his heart heavy yet full of hope.",
+        },
+        {
+          id: "hg-15",
+          text: "그날의 그 발걸음은 훗날 사람들의 입에서 입으로 전해지는 길동의 놀라운 모험들의 첫걸음이 되었답니다.",
+          translation: "That single step became the very first of the astonishing adventures of Gildong that people would pass down from mouth to mouth for generations to come.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hg-v1",
+        term: "서자",
+        reading: "seoja",
+        partOfSpeech: "noun",
+        translation: "secondary son (born to a concubine or servant, not the principal wife)",
+        example: "세상은 그를 '서자'라 부르며 낮추어 보았어요.",
+        exampleTranslation: "Society looked down on him as a 'secondary son.'",
+      },
+      {
+        id: "hg-v2",
+        term: "신분",
+        reading: "sinbun",
+        partOfSpeech: "noun",
+        translation: "social status",
+        example: "그 시대의 엄격한 신분 법도 때문이었어요.",
+        exampleTranslation: "It was because of that era's strict rules of social status.",
+      },
+      {
+        id: "hg-v3",
+        term: "서럽다",
+        reading: "seoreopda",
+        partOfSpeech: "adjective",
+        translation: "to feel sorrowful, to feel wronged",
+        example: "자신의 서러운 처지를 조용히 곱씹었어요.",
+        exampleTranslation: "He quietly turned over his sorrowful circumstances.",
+      },
+      {
+        id: "hg-v4",
+        term: "재주",
+        reading: "jaeju",
+        partOfSpeech: "noun",
+        translation: "talent, skill",
+        example: "마을 사람들 모두가 그의 재주에 감탄했어요.",
+        exampleTranslation: "Everyone in the village admired his talents.",
+      },
+      {
+        id: "hg-v5",
+        term: "운명을 개척하다",
+        reading: "unmyeongeul gaecheokhada",
+        partOfSpeech: "verb phrase",
+        translation: "to carve out one's own destiny",
+        example: "스스로 자신의 운명을 개척하기로 마음먹었어요.",
+        exampleTranslation: "He resolved to carve out his own destiny.",
+      },
+    ],
+    questions: [
+      {
+        id: "hg-q1",
+        prompt: "길동은 왜 자신의 친아버지를 '아버지'라고 부를 수 없었나요?",
+        options: [
+          "아버지가 이미 돌아가셨기 때문에",
+          "서자였기 때문에, 그 시대의 엄격한 신분 법도 때문에",
+          "너무 멀리 떨어져 살았기 때문에",
+          "아버지가 그것을 원하지 않았기 때문에",
+        ],
+        correctIndex: 1,
+        explanation: "길동은 정실부인이 아닌 춘섬에게서 태어난 서자였기 때문에, 그 시대의 신분 법도상 친아버지를 '아버지'라 부를 수 없었어요.",
+      },
+      {
+        id: "hg-q2",
+        prompt: "아버지는 길동의 고백을 듣고 어떻게 반응했나요?",
+        options: [
+          "크게 화를 냈다",
+          "마음이 무너졌지만 법도를 어길 수 없어 조용히 어깨만 다독였다",
+          "즉시 신분을 바꿔 주었다",
+          "아무 말도 듣지 않고 자리를 떠났다",
+        ],
+        correctIndex: 1,
+        explanation: "아버지는 아들의 서러운 고백에 마음이 무너졌지만, 나라의 법도를 홀로 어길 수 없어 그저 조용히 어깨를 다독여 줄 뿐이었어요.",
+      },
+      {
+        id: "hg-q3",
+        prompt: "길동은 집안 분위기가 위태로워지자 무엇을 결심했나요?",
+        options: [
+          "계속 집에 머물며 참기로 했다",
+          "형과 크게 싸우기로 했다",
+          "집을 떠나 넓은 세상으로 나아가 스스로 운명을 개척하기로 했다",
+          "아버지에게 신분을 바꿔 달라고 애원했다",
+        ],
+        correctIndex: 2,
+        explanation: "길동은 위태로워진 집안 분위기 속에서, 집을 떠나 넓은 세상으로 나아가 스스로 자신의 운명을 개척하기로 마음먹었어요.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
