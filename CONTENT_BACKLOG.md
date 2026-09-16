@@ -232,6 +232,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 111 | The Reef | Edith Wharton (1937) | 283 | B2 | Ch. 1 — the diplomat George Darrow, disappointed by Anna Leath's second vague telegram, meets Sophy Viner on the windy pier at Dover and impulsively escorts her to Paris instead (simplified retelling, 18 sentences) — a fifth Wharton pick, the "good next lessons" B2 flagged | ☑ |
 | 112 | The Tell-Tale Heart | Edgar Allan Poe (1849) | 2148 | B2 | whole (simplified retelling, 15 sentences; violence kept implicit, not graphic) — first Poe on the shelf, opens up gothic horror as its own tone alongside the existing ghost-story/dark-Gothic picks (A Christmas Carol, Frankenstein, Wuthering Heights) | ☑ |
 | 113 | A Scandal in Bohemia | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the King's photograph, the fire-alarm trick, Irene Adler outwitting Holmes) — first Sherlock Holmes story on the shelf; opens up the "Crime & mystery" category flagged below | ☑ |
+| 114 | The Cask of Amontillado | Edgar Allan Poe (1849) | 1063 | B2 | whole (simplified retelling, 15 sentences; the immurement is kept but Fortunato's suffering is not dwelt on — his voice simply fades into silence) — a second Poe pick | ☑ |
+| 115 | The Red-Headed League | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the absurd copying job, the sign that reads "dissolved," and the bank-vault tunnel underneath) — a second Sherlock Holmes story | ☑ |
 
 ---
 
@@ -241,7 +243,29 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (109 — 96 classics + 13 folktales):** The Reef (row 111,
+- **Live now (117 — 98 classics + 15 folktales + 4 biographies):** The Cask
+  of Amontillado (row 114, classics — Poe's second story: Montresor lures
+  Fortunato into the catacombs with a cask of rare wine and walls him up
+  alive, his voice fading to silence) and The Red-Headed League (row 115,
+  classics — a second Sherlock Holmes story: the absurd encyclopedia-copying
+  job that turns out to be cover for a bank-vault tunnel) are the newest
+  classics. Two new biographies are also live: Booker T. Washington's *Up
+  From Slavery* (his childhood in a slave cabin, teaching himself the
+  alphabet from a Webster's speller, and giving himself the surname
+  "Washington" on his first day of school) and Charles Darwin's own
+  autobiography, retold as "The Boy Who Loved Beetles" (his father's famous
+  scolding, and the day he popped a beetle in his mouth to free a hand for a
+  third one). Two brand-new Korean-*origin* folktales round out the shelf,
+  both `targetLanguage: "ko"` originals (no English PD source needed, same
+  as Kongjwi and Patjwi / Sim Cheong): Seonnyeo and the Woodcutter (a
+  celestial fairy's robe is hidden by a lonely woodcutter, and — in the
+  gentler of the tale's traditional endings — he is reunited with his wife
+  and children in the sky via the water-bucket lowered each night from
+  heaven) and The Sun and the Moon (a brother and sister escape a
+  tiger disguised as their mother by climbing to heaven on a golden rope,
+  becoming the sun and moon; the traditional version's graphic harm to the
+  mother is left offstage, per the app's softening convention). Before
+  that: The Reef (row 111,
   classics — Edith Wharton's Ch. 1: the diplomat George Darrow, stung by a
   second vague postponement from Anna Leath, meets Sophy Viner on the
   windy Dover pier and impulsively escorts her to Paris instead), The
@@ -433,9 +457,17 @@ has a genuine period cover/illustration in the public domain, download that into
     far into the source book for our fetch tooling to verify reliably;
     do not build those without first re-testing whether they've become
     reachable. Kongjwi and
-    Patjwi (a Korean Cinderella parallel) and Sim Cheong are well-known
-    Korean folktales still without a PD English retelling identified for
-    this shelf; needs a source hunt before building.
+    Patjwi (a Korean Cinderella parallel), Sim Cheong, Seonnyeo and the
+    Woodcutter, and The Sun and the Moon are now all live too — these four
+    are `targetLanguage: "ko"` originals written directly from the oral
+    tradition, not translated from an English PD source like the Griffis
+    tales, so no PG lookup was needed for them (see the "Dictionary
+    coverage" section below for the check-dictionary.ts blind spot this
+    surfaced: the script assumes `text`=English/`translation`=Korean, so a
+    lesson's real KO→EN tap-path for these four had to be verified with a
+    one-off direction-aware script instead). Janghwa and Hongryeon
+    (장화홍련전), a well-known Korean ghost story, is still open — it would
+    need the same softening care as the darker Griffis tales.
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
@@ -485,11 +517,17 @@ strong PD material in each:
   `topic: "Biography"` and **`collection: "biography"`** (its own value,
   not `"classics"`) — a dedicated dashboard carousel, `/biographies` grid
   page, nav entry, and sitemap row, mirroring how Classics and Folktales
-  work. Still open: *Narrative of the Life of Frederick Douglass*, Mark
-  Twain's autobiographical sketches, *The Life of Charlotte Brontë*
-  (Gaskell) — Douglass needs care given the app's softening convention
-  for harsh content. More biographies planned next (2026-09-16 direction:
-  "more biographies, Korean and classics").
+  work. Two more biographies are now live (2026-09-16): Booker T.
+  Washington's *Up From Slavery* (1901, PG#2376, B2 — his birth in a slave
+  cabin, teaching himself the alphabet from a Webster's blue-back speller,
+  and giving himself the surname "Washington" on his first day of school —
+  handled with the same restraint as Keller/Franklin, no graphic content)
+  and Charles Darwin's own autobiography (1876/1887, PG#2010, B1 — retold
+  as "The Boy Who Loved Beetles": his father's scolding over his collecting
+  hobby, and the beetle-in-the-mouth anecdote). Still open: *Narrative of
+  the Life of Frederick Douglass*, Mark Twain's autobiographical sketches,
+  *The Life of Charlotte Brontë* (Gaskell) — Douglass needs care given the
+  app's softening convention for harsh content.
 - **Philosophy, plain** — Marcus Aurelius, *Meditations* (short numbered
   passages fit a lesson almost as-is); Epictetus, *Enchiridion*.
 - **Travel writing** — *Innocents Abroad* / *A Tramp Abroad* (Twain),
@@ -501,11 +539,13 @@ strong PD material in each:
   PD), *Self-Help* (Samuel Smiles), *The Art of Money Getting* (P. T.
   Barnum).
 - **Crime & mystery — now live.** *A Scandal in Bohemia* (Doyle, 1891,
-  PG#1661, B2 — row 113) is the first Sherlock Holmes story on the shelf;
-  *The Tell-Tale Heart* (Poe, 1843, PG#2148, B2 — row 112) leans more
-  gothic-horror than crime but shares the shelf. Still open: more
+  PG#1661, B2 — row 113) and *The Red-Headed League* (Doyle, 1891, PG#1661,
+  B2 — row 115, 2026-09-16) are the first two Sherlock Holmes stories on the
+  shelf; *The Tell-Tale Heart* (Poe, 1843, PG#2148, B2 — row 112) and *The
+  Cask of Amontillado* (Poe, 1846, PG#1063, B2 — row 114, 2026-09-16) lean
+  more gothic-horror than crime but share the shelf. Still open: more
   *Adventures of Sherlock Holmes* stories (1892), *The Moonstone*
-  (Collins), more Poe (*The Cask of Amontillado*, *The Black Cat*),
+  (Collins), more Poe (*The Black Cat*, *The Pit and the Pendulum*),
   Father Brown (early collections only — check each story's date).
 - **Plays** — Shakespeare (*Hamlet*, *Macbeth*, a scene each), Wilde
   (*The Importance of Being Earnest*), Chekhov (*The Cherry Orchard*),
@@ -643,6 +683,9 @@ strong PD material in each:
   left out for the A1 level, the third non-Potter A1 lesson on the
   shelf. All three re-verified against the actual Project Gutenberg
   plain text (not built from memory), closing out the Griffis book's
-  entire confirmed-reachable range (chapters 1–13 of 26). Remaining
-  non-Griffis Korean folktales (Heungbu and Nolbu, Kongjwi and Patjwi,
-  Sim Cheong) still need a public-domain English source identified.
+  entire confirmed-reachable range (chapters 1–13 of 26). The remaining
+  non-Griffis Korean folktales — Heungbu and Nolbu, Kongjwi and Patjwi,
+  Sim Cheong, Seonnyeo and the Woodcutter, and The Sun and the Moon — are
+  all live now too, written as `targetLanguage: "ko"` originals straight
+  from the oral tradition rather than translated from an English PD text,
+  so no PG source hunt was needed for them.
