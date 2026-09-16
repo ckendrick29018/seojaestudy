@@ -108,8 +108,9 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
 
   const navItems = [
     { href: "/library", label: t("library"), Icon: HomeIcon, badge: 0 },
-    { href: "/classics", label: t("classics"), Icon: BooksIcon, badge: 0 },
     { href: "/bookshelf", label: t("bookshelf"), Icon: CatIcon, badge: 0 },
+    { href: "/classics", label: t("classics"), Icon: BooksIcon, badge: 0 },
+    { href: "/folktales", label: t("folktalesTitle"), Icon: BooksIcon, badge: 0 },
     { href: "/saved", label: t("savedWords"), Icon: BookOpenIcon, badge: 0 },
     { href: "/study", label: t("studyPlan"), Icon: CardsIcon, badge: dueItems.length },
     { href: "/club", label: t("myBookClub"), Icon: UsersIcon, badge: 0 },
