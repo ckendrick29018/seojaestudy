@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Up From Slavery by Booker T. Washington">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F8FB"/>
+      <stop offset="1" stop-color="#E6F0F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#5C84A8" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#8FB2CC" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#6E97B8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-34 30 L 34 30 L 34 -6 L 0 -26 L -34 -6 Z" stroke-width="1.8"/>
+    <path d="M-34 -6 L 34 -6" stroke-width="1.2" opacity="0.6"/>
+    <path d="M-14 30 L -14 6 L 14 6 L 14 30" stroke-width="1.3"/>
+    <path d="M-52 40 q 52 16 104 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="332" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#2C2C2C" letter-spacing="1">Up From Slavery</text>
+
+  <line x1="150" y1="364" x2="250" y2="364" stroke="#5C84A8" stroke-width="1"/>
+
+  <text x="200" y="397" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#5C84A8">A letter, a book, a name</text>
+
+  <text x="200" y="446" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5C84A8" letter-spacing="3">BOOKER T. WASHINGTON</text>
+  <text x="200" y="468" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#9A8F80" letter-spacing="2">1901</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; BIOGRAPHIES</text>
+</svg>

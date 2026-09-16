@@ -26379,6 +26379,1222 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "booker-t-washington-up-from-slavery",
+    title: "Up From Slavery",
+    titleTranslation: "노예 신분에서 일어서다",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B2",
+    isFree: true,
+    collection: "biography",
+    author: "Booker T. Washington (1856–1915)",
+    coverEmoji: "📖",
+    coverImage: "/covers/booker-t-washington-up-from-slavery.svg",
+    source:
+      "Adapted from the opening chapter of Booker T. Washington's autobiography \"Up From Slavery\" (1901; long in the public domain, Project Gutenberg #2376), which recounts his birth into slavery in Virginia and his early hunger to learn to read. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how young Booker taught himself to read, and how he came to have the name \"Washington.\"",
+    paragraphs: [
+      [
+        {
+          id: "btw-1",
+          text: "I was born a slave on a small plantation in Virginia, in a cramped log cabin with a dirt floor, and I never learned the exact day of my birth.",
+          translation:
+            "저는 버지니아의 한 작은 농장에서 노예로 태어났어요. 흙바닥에 통나무로 지은 좁은 오두막에서였고, 저는 제가 태어난 정확한 날짜조차 알지 못했어요.",
+        },
+        {
+          id: "btw-2",
+          text: "My mother worked as the plantation's cook, and at night, after her long hours in the kitchen, I sometimes heard her kneel and pray quietly for freedom.",
+          translation:
+            "제 어머니는 그 농장의 요리사로 일했어요. 부엌에서 긴 시간을 보낸 뒤 밤이 되면, 저는 가끔 어머니가 무릎을 꿇고 조용히 자유를 위해 기도하는 소리를 들었어요.",
+        },
+        {
+          id: "btw-3",
+          text: "I had no bed of my own; I slept on the bare, hard floor of our cabin, in a small opening that was more like a storeroom than a room for a family.",
+          translation:
+            "저에게는 제 침대가 없었어요. 저는 우리 오두막의 딱딱한 맨바닥에서 잤는데, 그곳은 가족이 지내는 방이라기보다 작은 창고에 더 가까웠어요.",
+        },
+      ],
+      [
+        {
+          id: "btw-4",
+          text: "One day, when I was still a small boy, we were all called to stand in front of the big house, and a man read a paper aloud that said we were free.",
+          translation:
+            "어느 날, 제가 아직 어린아이였을 때, 우리는 모두 큰 저택 앞에 모이라는 부름을 받았어요. 한 남자가 종이를 큰 소리로 읽었는데, 그것은 우리가 자유의 몸이 되었다는 내용이었어요.",
+        },
+        {
+          id: "btw-5",
+          text: "For a few minutes everyone was too surprised to move, and then a great, joyful noise rose up — but by afternoon, my mother's face already looked worried about what would come next.",
+          translation:
+            "몇 분 동안 모두가 너무 놀라서 움직이지도 못했어요. 그러다 곧 크고 기쁨에 찬 함성이 터져 나왔지요. 하지만 오후가 되자, 어머니의 얼굴에는 벌써 앞으로 어떻게 살아가야 할지 걱정하는 표정이 떠올라 있었어요.",
+        },
+        {
+          id: "btw-6",
+          text: "Soon after, we moved to a small town in West Virginia, where, still a boy, I began working long hours packing salt at a furnace to help support our family.",
+          translation:
+            "얼마 지나지 않아 우리는 웨스트버지니아의 작은 마을로 이사했어요. 그곳에서 저는 아직 어린 나이였지만, 가족을 돕기 위해 소금 공장에서 소금을 포장하는 긴 노동을 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "btw-7",
+          text: "Later I also worked in a coal mine, in dark passages so low that I often had to bend nearly double, and I hated every hour I spent underground.",
+          translation:
+            "나중에는 탄광에서도 일했는데, 통로가 너무 낮아서 몸을 거의 반으로 굽혀야 할 때가 많았어요. 저는 땅 밑에서 보낸 그 모든 시간이 정말 싫었어요.",
+        },
+        {
+          id: "btw-8",
+          text: "But even then, I could not stop thinking about school, ever since the day I had seen a group of children, once enslaved like me, sitting inside a real schoolhouse with books.",
+          translation:
+            "하지만 그런 와중에도 저는 학교 생각을 멈출 수 없었어요. 예전에 저처럼 노예였던 아이들이 진짜 학교 건물 안에서 책을 들고 앉아 있는 모습을 본 그날 이후로 계속 그랬지요.",
+        },
+        {
+          id: "btw-9",
+          text: "I remember watching one young boy read a newspaper aloud to a small crowd of grown men, and thinking that to be able to do that must be the greatest privilege in the whole world.",
+          translation:
+            "저는 한 어린 소년이 여러 어른들 앞에서 신문을 소리 내어 읽어 주던 모습을 기억해요. 그때 저는 저렇게 할 수 있다는 것이야말로 세상에서 가장 큰 특권일 거라고 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "btw-10",
+          text: "My mother somehow found an old, worn copy of Webster's blue-back spelling book, and with no teacher at all, I set about learning my letters from it alone.",
+          translation:
+            "어머니는 어찌어찌 낡고 해진 웹스터 철자 교본 한 권을 구해다 주셨어요. 저는 가르쳐 줄 선생님도 없이, 그 책 한 권만으로 혼자 글자를 익히기 시작했어요.",
+        },
+        {
+          id: "btw-11",
+          text: "I studied at night, by whatever light I could find, and slowly, letter by letter, the strange marks on the page began to turn into real words.",
+          translation:
+            "저는 구할 수 있는 빛이면 무엇이든 이용해서 밤마다 공부했어요. 그리고 천천히, 한 글자씩, 종이 위의 낯선 표시들이 진짜 단어로 바뀌기 시작했어요.",
+        },
+        {
+          id: "btw-12",
+          text: "Eventually I convinced my stepfather to let me attend the new school for a few hours each day, as long as I still finished all my work at the furnace first.",
+          translation:
+            "결국 저는 새로 생긴 학교에 매일 몇 시간씩 다니게 해 달라고 새아버지를 설득했어요. 다만 소금 공장 일을 먼저 다 끝내야 한다는 조건이었지요.",
+        },
+      ],
+      [
+        {
+          id: "btw-13",
+          text: "On my very first day, when the teacher went around the room asking each child's full name, I realized with some embarrassment that I had never had a last name at all.",
+          translation:
+            "학교에 간 첫날, 선생님이 교실을 돌며 아이들에게 각자의 성과 이름을 물었을 때, 저는 제게 성이 아예 없다는 사실을 깨닫고 조금 부끄러웠어요.",
+        },
+        {
+          id: "btw-14",
+          text: "Without thinking too long about it, when my turn came, I simply gave myself the name Booker Washington, and that was the name I carried for the rest of my life.",
+          translation:
+            "너무 오래 고민하지 않고, 제 차례가 되었을 때 저는 그냥 스스로에게 '부커 워싱턴'이라는 이름을 지어 주었어요. 그리고 그 이름은 평생 저와 함께했지요.",
+        },
+        {
+          id: "btw-15",
+          text: "Looking back now, I believe that no book, no lesson, and no single day of my life ever meant more to me than the day I first taught myself to read a word.",
+          translation:
+            "지금 돌이켜 보면, 제가 처음으로 스스로 글자 하나를 읽어 낸 그날만큼 저에게 큰 의미를 준 책이나 수업, 혹은 하루는 없었던 것 같아요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "btw-v1",
+        term: "cabin",
+        partOfSpeech: "noun",
+        translation: "오두막",
+        example: "I was born in a cramped log cabin with a dirt floor.",
+        exampleTranslation: "저는 흙바닥에 통나무로 지은 좁은 오두막에서 태어났어요.",
+      },
+      {
+        id: "btw-v2",
+        term: "freedom",
+        partOfSpeech: "noun",
+        translation: "자유",
+        example: "My mother prayed quietly for freedom.",
+        exampleTranslation: "어머니는 조용히 자유를 위해 기도했어요.",
+      },
+      {
+        id: "btw-v3",
+        term: "furnace",
+        partOfSpeech: "noun",
+        translation: "가마, 용광로",
+        example: "I began working long hours packing salt at a furnace.",
+        exampleTranslation: "저는 가마에서 소금을 포장하는 긴 노동을 시작했어요.",
+      },
+      {
+        id: "btw-v4",
+        term: "spelling book",
+        partOfSpeech: "noun",
+        translation: "철자 교본",
+        example: "My mother found an old, worn copy of Webster's blue-back spelling book.",
+        exampleTranslation: "어머니는 낡고 해진 웹스터 철자 교본을 구해다 주셨어요.",
+      },
+      {
+        id: "btw-v5",
+        term: "convince",
+        partOfSpeech: "verb",
+        translation: "설득하다",
+        example: "I convinced my stepfather to let me attend school.",
+        exampleTranslation: "저는 학교에 다니게 해 달라고 새아버지를 설득했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "btw-q1",
+        prompt: "Where did young Booker sleep in the slave cabin?",
+        options: [
+          "In a real bed in his own room",
+          "On the bare floor, in a space more like a storeroom",
+          "In the same room as the plantation owner's family",
+          "Outside in the yard",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He had no bed of his own and slept on the hard floor in a small space more like a storeroom than a room for a family.",
+      },
+      {
+        id: "btw-q2",
+        prompt: "What first made Booker want to learn to read?",
+        options: [
+          "A teacher visited his cabin and offered lessons",
+          "He saw children who had once been enslaved sitting in a real schoolhouse, and a boy reading a newspaper aloud",
+          "His mother forced him to study every night",
+          "He found a stack of books left behind by the plantation owner",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Seeing formerly enslaved children in a schoolhouse, and a boy reading a newspaper aloud to a crowd, made him long to be able to read himself.",
+      },
+      {
+        id: "btw-q3",
+        prompt: "How did Booker end up with the last name \"Washington\"?",
+        options: [
+          "It was his father's name",
+          "A judge assigned it to him after emancipation",
+          "On his first day of school, when asked his full name, he simply gave himself that name on the spot",
+          "He chose it later in life to honor George Washington",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He had never had a last name; when his teacher asked for his full name on his first day of school, he spontaneously named himself Booker Washington.",
+      },
+    ],
+  },
+  {
+    slug: "charles-darwin-autobiography",
+    title: "The Boy Who Loved Beetles",
+    titleTranslation: "딱정벌레를 사랑한 소년",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B1",
+    isFree: true,
+    collection: "biography",
+    author: "Charles Darwin (1809–1882)",
+    coverEmoji: "🪲",
+    coverImage: "/covers/charles-darwin-autobiography.svg",
+    source:
+      "Adapted from Charles Darwin's own autobiography, written in 1876 for his family and first published in full in 1887 (long in the public domain, Project Gutenberg #2010), which includes his famous account of collecting beetles as a boy. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, tell what happened the day young Charles found three rare beetles at once, and what his father used to say about his hobby.",
+    paragraphs: [
+      [
+        {
+          id: "dar-1",
+          text: "As a boy, I loved collecting things more than almost anything else — shells, seals, old coins, and above all, beetles.",
+          translation:
+            "어린 시절, 저는 무언가를 모으는 일을 세상 그 무엇보다 좋아했어요. 조개껍데기, 인장, 오래된 동전, 그리고 무엇보다도 딱정벌레였지요.",
+        },
+        {
+          id: "dar-2",
+          text: "I would spend whole afternoons turning over rotten logs and old bark, searching for a beetle I had never seen before.",
+          translation:
+            "저는 오후 내내 썩은 통나무와 낡은 나무껍질을 뒤집어 보며, 한 번도 본 적 없는 딱정벌레를 찾아 헤매곤 했어요.",
+        },
+        {
+          id: "dar-3",
+          text: "My father was not at all pleased by this hobby, and one day he said to me sharply, 'You care for nothing but shooting, dogs, and rat-catching, and you will be a disgrace to yourself and all your family.'",
+          translation:
+            "제 아버지는 이 취미를 전혀 반가워하지 않으셨어요. 어느 날 아버지는 날카롭게 말씀하셨지요. '너는 사냥과 개, 그리고 쥐 잡는 일 말고는 관심도 없구나. 너 자신에게도, 우리 가족 모두에게도 수치가 될 거다.'",
+        },
+      ],
+      [
+        {
+          id: "dar-4",
+          text: "At school in Shrewsbury, I was thought to be a very ordinary boy, rather below the common standard in most of my lessons.",
+          translation:
+            "슈루즈베리에서 학교에 다닐 때, 저는 대부분의 수업에서 평균에도 못 미치는 아주 평범한 아이로 여겨졌어요.",
+        },
+        {
+          id: "dar-5",
+          text: "The school taught only Latin and Greek, with nothing at all about modern languages, geography, or the natural world I loved so much.",
+          translation:
+            "그 학교는 오직 라틴어와 그리스어만 가르쳤고, 현대 언어나 지리, 혹은 제가 그토록 사랑했던 자연 세계에 대해서는 아무것도 가르치지 않았어요.",
+        },
+        {
+          id: "dar-6",
+          text: "None of that mattered to me on the day I made what I still remember as one of my proudest discoveries as a boy.",
+          translation:
+            "하지만 제가 소년 시절 가장 자랑스러운 발견 중 하나로 아직도 기억하는 그날에는, 그런 것들이 전혀 문제가 되지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "dar-7",
+          text: "I was tearing off some old bark from a tree when I spotted two rare beetles at once, and quickly caught one in each hand.",
+          translation:
+            "나무에서 오래된 껍질을 벗겨 내던 중, 저는 한꺼번에 희귀한 딱정벌레 두 마리를 발견하고는 재빨리 양손에 한 마리씩 붙잡았어요.",
+        },
+        {
+          id: "dar-8",
+          text: "Then, to my great excitement, I saw a third kind of beetle that I had never caught before, and I could not bear to let it get away.",
+          translation:
+            "그런데 그때, 정말 기쁘게도 저는 한 번도 잡아 본 적 없는 세 번째 종류의 딱정벌레를 발견했고, 그것을 놓칠 수 없다고 생각했어요.",
+        },
+        {
+          id: "dar-9",
+          text: "With both hands already full, I popped one of the beetles into my mouth so that I could free a hand to grab the new one.",
+          translation:
+            "양손이 이미 가득 차 있었기 때문에, 저는 새 딱정벌레를 잡을 손을 만들려고 손에 있던 딱정벌레 한 마리를 입 안에 넣었어요.",
+        },
+      ],
+      [
+        {
+          id: "dar-10",
+          text: "The beetle, unhappy about this, squirted a burning, acrid liquid onto my tongue, and I had to spit it out at once.",
+          translation:
+            "그 딱정벌레는 이 상황이 몹시 못마땅했는지, 제 혀에 화끈거리고 톡 쏘는 액체를 뿜어냈고, 저는 곧바로 그것을 뱉어 내야 했어요.",
+        },
+        {
+          id: "dar-11",
+          text: "In all the confusion, I lost that beetle completely, and the third, new beetle escaped as well, leaving me with only one of the three.",
+          translation:
+            "그 혼란 속에서 저는 그 딱정벌레를 완전히 놓쳤고, 세 번째로 발견한 새로운 딱정벌레마저 달아나 버려서, 결국 세 마리 중 겨우 한 마리만 남게 되었어요.",
+        },
+        {
+          id: "dar-12",
+          text: "I laughed about that lost beetle for the rest of my life, but at the time I was only sorry not to have three hands instead of two.",
+          translation:
+            "저는 그 잃어버린 딱정벌레 이야기를 평생 웃으며 이야기하곤 했지만, 그 순간에는 그저 손이 두 개가 아니라 세 개였으면 좋았겠다고 아쉬워할 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "dar-13",
+          text: "Whatever my teachers and my father believed about me, that restless curiosity about every living thing never once left me.",
+          translation:
+            "선생님들과 아버지가 저에 대해 어떻게 생각하셨든, 살아 있는 모든 것에 대한 그 그칠 줄 모르는 호기심만큼은 단 한 번도 저를 떠난 적이 없었어요.",
+        },
+        {
+          id: "dar-14",
+          text: "Years later, it was that very same curiosity, not my school marks, that led me to accept a place on a small ship called the Beagle.",
+          translation:
+            "여러 해가 지난 뒤, 저를 비글호라는 작은 배에 오르게 만든 것은 제 학교 성적이 아니라 바로 그 똑같은 호기심이었어요.",
+        },
+        {
+          id: "dar-15",
+          text: "The voyage would carry me around the entire world, and it began, in a very real sense, with a boy chasing beetles under old bark.",
+          translation:
+            "그 항해는 저를 온 세상 곳곳으로 데려다주었는데, 그것은 아주 실질적인 의미에서 오래된 나무껍질 아래에서 딱정벌레를 쫓던 한 소년으로부터 시작된 것이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dar-v1",
+        term: "collect",
+        partOfSpeech: "verb",
+        translation: "모으다, 수집하다",
+        example: "I loved collecting shells, seals, and beetles.",
+        exampleTranslation: "저는 조개껍데기와 인장, 딱정벌레를 모으는 것을 좋아했어요.",
+      },
+      {
+        id: "dar-v2",
+        term: "disgrace",
+        partOfSpeech: "noun",
+        translation: "수치, 망신",
+        example: "You will be a disgrace to yourself and all your family.",
+        exampleTranslation: "너는 너 자신에게도, 우리 가족 모두에게도 수치가 될 거다.",
+      },
+      {
+        id: "dar-v3",
+        term: "acrid",
+        partOfSpeech: "adjective",
+        translation: "톡 쏘는, 자극적인",
+        example: "The beetle squirted a burning, acrid liquid onto my tongue.",
+        exampleTranslation: "그 딱정벌레는 제 혀에 화끈거리고 톡 쏘는 액체를 뿜어냈어요.",
+      },
+      {
+        id: "dar-v4",
+        term: "curiosity",
+        partOfSpeech: "noun",
+        translation: "호기심",
+        example: "That restless curiosity about every living thing never left me.",
+        exampleTranslation: "살아 있는 모든 것에 대한 그 그칠 줄 모르는 호기심은 저를 떠난 적이 없었어요.",
+      },
+      {
+        id: "dar-v5",
+        term: "voyage",
+        partOfSpeech: "noun",
+        translation: "항해",
+        example: "The voyage would carry me around the entire world.",
+        exampleTranslation: "그 항해는 저를 온 세상 곳곳으로 데려다주었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dar-q1",
+        prompt: "What did Darwin's father say about his son's hobby of collecting?",
+        options: [
+          "That it would make him famous one day",
+          "That he cared for nothing but shooting, dogs, and rat-catching, and would disgrace the family",
+          "That it was a fine, scholarly pursuit",
+          "That he should collect books instead of beetles",
+        ],
+        correctIndex: 1,
+        explanation:
+          "His father scolded him sharply, saying he cared for nothing but shooting, dogs, and rat-catching, and would be a disgrace to himself and his family.",
+      },
+      {
+        id: "dar-q2",
+        prompt: "What happened when young Charles found a third rare beetle with both hands already full?",
+        options: [
+          "He let the new beetle go without trying to catch it",
+          "He popped one beetle into his mouth to free a hand, but it squirted a burning liquid and he lost two of the three beetles",
+          "He asked a friend to hold one of the beetles",
+          "He caught all three beetles successfully",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He put one beetle in his mouth to free a hand — it squirted an acrid liquid, forcing him to spit it out, and both that beetle and the new third one got away.",
+      },
+      {
+        id: "dar-q3",
+        prompt: "According to the passage, what ultimately led Darwin to join the voyage of the Beagle?",
+        options: [
+          "His excellent school marks in the natural sciences",
+          "His father's wish for him to become a doctor",
+          "The same restless curiosity about living things he had shown as a boy chasing beetles",
+          "A scholarship he won as a teenager",
+        ],
+        correctIndex: 2,
+        explanation:
+          "It was his lifelong curiosity about every living thing, not his school marks, that led him to accept a place on the Beagle.",
+      },
+    ],
+  },
+  {
+    slug: "the-cask-of-amontillado",
+    title: "The Cask of Amontillado",
+    titleTranslation: "아몬티야도 술통",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edgar Allan Poe (1809–1849)",
+    coverEmoji: "🍷",
+    coverImage: "/covers/the-cask-of-amontillado.svg",
+    source:
+      "Adapted from Edgar Allan Poe's short story \"The Cask of Amontillado\" (first published 1846; long in the public domain, Project Gutenberg #1063). This simplified retelling and its Korean translation are original text written for SeoJae Story; the story's violence is kept implicit rather than graphic, in keeping with the rest of the classics shelf.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how Montresor tricked Fortunato into following him into the vaults, and what Montresor did once they reached the innermost niche.",
+    paragraphs: [
+      [
+        {
+          id: "coa-1",
+          text: "Fortunato had wronged me a thousand times, but it was one final insult that made me vow revenge — a revenge so complete that he would never suspect it was coming.",
+          translation:
+            "포르투나토는 저를 수없이 여러 번 모욕했지만, 제가 복수를 다짐하게 만든 것은 마지막 하나의 모욕이었어요. 그것은 그가 다가오는 줄도 전혀 눈치채지 못할 만큼 완벽한 복수였지요.",
+        },
+        {
+          id: "coa-2",
+          text: "One evening during carnival season, dressed in a jester's costume with little bells on his cap, Fortunato greeted me warmly in the street, already half drunk.",
+          translation:
+            "카니발 시즌의 어느 저녁, 모자에 작은 방울이 달린 광대 옷을 입은 포르투나토는 이미 반쯤 취한 채 거리에서 저를 반갑게 맞아 주었어요.",
+        },
+        {
+          id: "coa-3",
+          text: "I told him I had bought a cask of what I believed to be rare Amontillado wine, but that I was worried it might be a fake, and I planned to ask a man named Luchesi to taste it and judge.",
+          translation:
+            "저는 그에게 희귀한 아몬티야도 와인이라고 믿는 술 한 통을 샀는데, 그것이 가짜일까 걱정되어 루케시라는 사람에게 맛을 보고 판단해 달라고 부탁할 생각이라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "coa-4",
+          text: "As I had hoped, Fortunato was proud of his own knowledge of wine, and he insisted at once that only he, not Luchesi, could properly judge such a rare Amontillado.",
+          translation:
+            "제가 바라던 대로, 포르투나토는 자신의 와인 지식에 대한 자부심이 대단해서, 그런 희귀한 아몬티야도를 제대로 판별할 수 있는 사람은 루케시가 아니라 오직 자기뿐이라고 즉시 우겼어요.",
+        },
+        {
+          id: "coa-5",
+          text: "I led him down into my family's ancient underground vaults, where the cask was supposedly stored, plying him with more wine as we walked deeper into the damp, dark passages.",
+          translation:
+            "저는 그를 술통이 보관되어 있다고 알려 준 우리 가문의 오래된 지하 저장고로 이끌었어요. 우리는 축축하고 어두운 통로를 따라 더 깊이 걸어가며, 저는 그에게 계속 술을 더 권했어요.",
+        },
+        {
+          id: "coa-6",
+          text: "The cold, damp air made Fortunato cough again and again, but whenever he paused to catch his breath, I insisted with false concern that we should turn back for his health.",
+          translation:
+            "춥고 축축한 공기 때문에 포르투나토는 계속 기침을 해 댔지만, 그가 숨을 고르려고 멈출 때마다 저는 그의 건강이 걱정된다는 듯 거짓으로 이제 그만 돌아가자고 우겼어요.",
+        },
+      ],
+      [
+        {
+          id: "coa-7",
+          text: "Each time, proud and eager for the wine, he refused to turn back, insisting that a little cough would never be the death of him.",
+          translation:
+            "그럴 때마다 그는 와인을 마시고 싶은 마음에 자존심을 세우며, 그깟 기침 때문에 죽지는 않는다고 말하며 돌아가기를 거절했어요.",
+        },
+        {
+          id: "coa-8",
+          text: "At last we reached a small, deep niche at the very end of the innermost crypt, walled with the bones of my ancestors stacked high on either side.",
+          translation:
+            "마침내 우리는 가장 안쪽 지하 묘실의 맨 끝에 있는 작고 깊은 벽감에 다다랐어요. 그곳 양옆에는 제 조상들의 뼈가 높이 쌓여 벽처럼 늘어서 있었지요.",
+        },
+        {
+          id: "coa-9",
+          text: "While Fortunato, confused by the wine, stepped into the niche to look for the cask, I quickly fastened two chains around his waist, locking him fast to the stone wall.",
+          translation:
+            "포르투나토가 술에 취해 어리둥절한 채로 술통을 찾으려 벽감 안으로 들어서자, 저는 재빨리 쇠사슬 두 개를 그의 허리에 둘러 그를 돌벽에 단단히 묶어 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "coa-10",
+          text: "Behind a pile of bones I had hidden a supply of building stone and mortar, and I began, one stone at a time, to wall up the entrance to the niche.",
+          translation:
+            "저는 뼈 더미 뒤에 미리 벽돌과 회반죽을 숨겨 두었었고, 벽감의 입구를 벽돌 한 장씩 쌓아 막아 나가기 시작했어요.",
+        },
+        {
+          id: "coa-11",
+          text: "At first Fortunato only laughed, certain this must be some kind of joke arranged for the carnival, but as the wall grew higher, his laughter slowly faded.",
+          translation:
+            "처음에 포르투나토는 그저 웃기만 했어요. 카니발을 위해 준비된 일종의 장난일 거라 확신했던 것이지요. 하지만 벽이 점점 높아지자, 그의 웃음소리는 서서히 잦아들었어요.",
+        },
+        {
+          id: "coa-12",
+          text: "He called out to me, and rattled his chains, but I worked on calmly, saying nothing at all, laying stone after stone in the dark.",
+          translation:
+            "그는 저를 소리쳐 부르며 쇠사슬을 덜그럭거렸지만, 저는 아무 말도 하지 않고 차분히 어둠 속에서 벽돌을 하나씩 계속 쌓아 나갔어요.",
+        },
+      ],
+      [
+        {
+          id: "coa-13",
+          text: "When only one final stone remained to be set in place, the voice from inside the niche had already grown faint and then fallen completely silent.",
+          translation:
+            "마지막 벽돌 하나만이 남았을 때, 벽감 안에서 들려오던 목소리는 이미 희미해져 있었고, 이내 완전히 잠잠해졌어요.",
+        },
+        {
+          id: "coa-14",
+          text: "I set the last stone into the mortar, plastered over the new wall to match the old one, and stacked the bones back up in front of it exactly as they had been.",
+          translation:
+            "저는 회반죽 속에 마지막 벽돌을 끼워 넣고, 새 벽을 예전 벽과 똑같아 보이도록 발랐어요. 그런 다음 뼈들을 원래 있던 모습 그대로 그 앞에 다시 쌓아 두었지요.",
+        },
+        {
+          id: "coa-15",
+          text: "For the past fifty years, no one has disturbed those bones, and no one but myself has ever known exactly what became of Fortunato that carnival night. In pace requiescat — may he rest in peace.",
+          translation:
+            "지난 오십 년 동안, 그 누구도 그 뼈들을 건드리지 않았고, 그날 카니발 밤 포르투나토에게 정확히 무슨 일이 일어났는지 아는 사람은 저 말고는 아무도 없었어요. 인 파체 레퀴에스카트 — 그가 평안히 잠들기를.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "coa-v1",
+        term: "revenge",
+        partOfSpeech: "noun",
+        translation: "복수",
+        example: "It was one final insult that made me vow revenge.",
+        exampleTranslation: "제가 복수를 다짐하게 만든 것은 마지막 하나의 모욕이었어요.",
+      },
+      {
+        id: "coa-v2",
+        term: "insult",
+        partOfSpeech: "noun",
+        translation: "모욕",
+        example: "He never forgot the insult.",
+        exampleTranslation: "그는 그 모욕을 결코 잊지 않았어요.",
+      },
+      {
+        id: "coa-v3",
+        term: "niche",
+        partOfSpeech: "noun",
+        translation: "벽감",
+        example: "They reached a small, deep niche at the end of the crypt.",
+        exampleTranslation: "그들은 지하 묘실 끝에 있는 작고 깊은 벽감에 다다랐어요.",
+      },
+      {
+        id: "coa-v4",
+        term: "chain",
+        partOfSpeech: "verb",
+        translation: "쇠사슬로 묶다",
+        example: "He quickly chained Fortunato to the stone wall.",
+        exampleTranslation: "그는 재빨리 포르투나토를 쇠사슬로 돌벽에 묶었어요.",
+      },
+      {
+        id: "coa-v5",
+        term: "mortar",
+        partOfSpeech: "noun",
+        translation: "회반죽",
+        example: "He set the last stone into the mortar.",
+        exampleTranslation: "그는 회반죽 속에 마지막 벽돌을 끼워 넣었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "coa-q1",
+        prompt: "How did Montresor convince Fortunato to follow him into the vaults?",
+        options: [
+          "He told him treasure was hidden there",
+          "He claimed to have a rare cask of Amontillado wine and said he might ask Luchesi to judge it instead",
+          "He said a party was being held underground",
+          "He threatened him",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Montresor lured Fortunato by claiming to have a cask of rare Amontillado, knowing Fortunato's pride in his wine knowledge would make him insist on judging it himself rather than letting Luchesi do so.",
+      },
+      {
+        id: "coa-q2",
+        prompt: "What did Montresor do once Fortunato stepped into the final niche?",
+        options: [
+          "He offered him more wine and left",
+          "He chained him to the wall and began bricking up the entrance",
+          "He asked him to help carry the cask out",
+          "He apologized and let him go",
+        ],
+        correctIndex: 1,
+        explanation:
+          "While Fortunato was confused and searching for the cask, Montresor chained him to the wall and began sealing the entrance with stone and mortar.",
+      },
+      {
+        id: "coa-q3",
+        prompt: "How does the story end?",
+        options: [
+          "Fortunato escapes at the last moment",
+          "The wall is completed, Fortunato falls silent, and fifty years pass with no one disturbing the spot",
+          "Montresor is arrested for the crime",
+          "Fortunato and Montresor make peace",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Montresor finishes the wall, Fortunato's voice fades into silence, and for fifty years afterward, no one has ever disturbed the bones hiding what happened.",
+      },
+    ],
+  },
+  {
+    slug: "the-red-headed-league",
+    title: "The Red-Headed League",
+    titleTranslation: "빨간 머리 연맹",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "🕵️",
+    coverImage: "/covers/the-red-headed-league.svg",
+    source:
+      "Adapted from Arthur Conan Doyle's short story \"The Red-Headed League\" (first published in The Strand Magazine, 1891; collected in The Adventures of Sherlock Holmes, long in the public domain, Project Gutenberg #1661). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what the real purpose of the Red-Headed League was, and how Sherlock Holmes figured it out.",
+    paragraphs: [
+      [
+        {
+          id: "rhl-1",
+          text: "Mr. Jabez Wilson, a pawnbroker with a truly remarkable head of flaming red hair, came to see my friend Sherlock Holmes about the strangest experience of his life.",
+          translation:
+            "타오르는 듯한 빨간 머리가 인상적인 전당포 주인 제이비즈 윌슨 씨는, 자기 인생에서 가장 이상했던 경험에 대해 상담하러 제 친구 셜록 홈스를 찾아왔어요.",
+        },
+        {
+          id: "rhl-2",
+          text: "His young assistant, Vincent Spaulding, worked for him at half the usual wages simply so that he could, as he said, learn the pawnbroking trade.",
+          translation:
+            "그의 젊은 조수 빈센트 스폴딩은 전당포 일을 배우고 싶다는 이유로, 보통보다 절반밖에 안 되는 급료를 받으며 그를 위해 일하고 있었어요.",
+        },
+        {
+          id: "rhl-3",
+          text: "One day Spaulding showed him a newspaper advertisement announcing that the Red-Headed League had an opening, offering excellent pay to any red-headed man who applied.",
+          translation:
+            "어느 날 스폴딩은 그에게 신문 광고를 보여 주었는데, '빨간 머리 연맹'이 자리가 하나 비었으며, 지원하는 빨간 머리 남자에게 아주 후한 급료를 주겠다고 알리는 내용이었어요.",
+        },
+      ],
+      [
+        {
+          id: "rhl-4",
+          text: "Wilson thought it must be some kind of joke, but Spaulding insisted so strongly that he was almost dragged down to the League's office to apply.",
+          translation:
+            "윌슨은 그것이 일종의 농담일 거라 생각했지만, 스폴딩이 너무나 강하게 권하는 바람에 거의 떠밀리다시피 지원하러 연맹 사무실까지 가게 되었어요.",
+        },
+        {
+          id: "rhl-5",
+          text: "The office was already crowded with red-headed men of every shade, but Wilson's especially vivid color won him the position over all the rest.",
+          translation:
+            "사무실에는 이미 온갖 색조의 빨간 머리 남자들로 가득했지만, 유난히 선명한 윌슨의 머리색 덕분에 그는 다른 모든 지원자를 제치고 그 자리를 얻게 되었어요.",
+        },
+        {
+          id: "rhl-6",
+          text: "His only duty was to sit in an office for four hours each day copying out the Encyclopaedia Britannica by hand, for excellent pay.",
+          translation:
+            "그의 유일한 임무는 매일 네 시간씩 사무실에 앉아 브리태니커 백과사전을 손으로 베껴 쓰는 것이었는데, 대가는 아주 후했어요.",
+        },
+      ],
+      [
+        {
+          id: "rhl-7",
+          text: "For eight weeks, Wilson faithfully copied out page after page, while Spaulding kindly minded the pawnshop during those same hours each day.",
+          translation:
+            "여덟 주 동안 윌슨은 성실하게 계속해서 페이지를 베껴 썼고, 그동안 스폴딩은 친절하게도 매일 같은 시간에 전당포를 대신 봐 주었어요.",
+        },
+        {
+          id: "rhl-8",
+          text: "Then one morning Wilson arrived to find the office locked, with a small sign reading simply: 'THE RED-HEADED LEAGUE IS DISSOLVED.'",
+          translation:
+            "그런데 어느 날 아침, 윌슨이 사무실에 도착해 보니 문이 잠겨 있었고, '빨간 머리 연맹은 해체되었습니다'라고만 적힌 작은 안내문이 붙어 있었어요.",
+        },
+        {
+          id: "rhl-9",
+          text: "No one at the building's rental office had ever heard of any Red-Headed League, and Wilson, thoroughly confused, came straight to Sherlock Holmes.",
+          translation:
+            "건물 임대 사무소의 그 누구도 빨간 머리 연맹이라는 것을 들어 본 적이 없었고, 완전히 혼란에 빠진 윌슨은 곧장 셜록 홈스에게 달려왔어요.",
+        },
+      ],
+      [
+        {
+          id: "rhl-10",
+          text: "Holmes listened closely, then asked one small, seemingly odd question: how long exactly had Vincent Spaulding worked for him, and what did his knees look like?",
+          translation:
+            "홈스는 주의 깊게 이야기를 듣더니, 얼핏 이상해 보이는 사소한 질문을 하나 던졌어요. 빈센트 스폴딩이 정확히 얼마나 오래 그의 밑에서 일했으며, 그의 무릎이 어떤 모습인지 물었지요.",
+        },
+        {
+          id: "rhl-11",
+          text: "Wilson admitted, puzzled, that Spaulding's trousers were oddly worn and dirty at the knees, as if from a great deal of kneeling.",
+          translation:
+            "윌슨은 어리둥절해하면서도, 스폴딩의 바지 무릎 부분이 마치 오래 무릎을 꿇은 것처럼 이상하게 닳고 더러웠다고 인정했어요.",
+        },
+        {
+          id: "rhl-12",
+          text: "Holmes then quietly visited the pawnshop himself and, without going inside, examined the street and the buildings standing directly behind it.",
+          translation:
+            "그 후 홈스는 직접 조용히 전당포를 찾아갔고, 안으로 들어가지 않은 채 거리와 그 바로 뒤편에 서 있는 건물들을 살펴보았어요.",
+        },
+      ],
+      [
+        {
+          id: "rhl-13",
+          text: "He discovered that the pawnshop's cellar backed almost directly onto the vault of a large city bank, holding a great store of French gold coins.",
+          translation:
+            "그는 전당포의 지하실이 프랑스 금화를 대량으로 보관하고 있는 어느 큰 은행의 금고와 거의 바로 맞닿아 있다는 사실을 알아냈어요.",
+        },
+        {
+          id: "rhl-14",
+          text: "Everything now made sense: the League had been invented purely to get Wilson safely out of his shop for four hours every single day.",
+          translation:
+            "이제 모든 것이 이해가 되었어요. 그 연맹은 오로지 윌슨을 매일 네 시간씩 안전하게 가게 밖으로 내보내기 위해 지어낸 것이었지요.",
+        },
+        {
+          id: "rhl-15",
+          text: "While Wilson copied out the encyclopedia, the man calling himself Spaulding — in truth a clever criminal named John Clay — was digging a tunnel toward the bank vault below.",
+          translation:
+            "윌슨이 백과사전을 베껴 쓰는 동안, 스스로를 스폴딩이라 부르던 남자는 — 사실은 존 클레이라는 이름의 영리한 범죄자였는데 — 그 아래 은행 금고를 향해 터널을 파고 있었던 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "rhl-16",
+          text: "That very night, Holmes, Watson, and a police officer waited quietly inside the bank vault itself, hidden in the darkness among the stacked crates of gold.",
+          translation:
+            "바로 그날 밤, 홈스와 왓슨, 그리고 한 경찰관은 금괴가 쌓인 상자들 사이 어둠 속에 몸을 숨긴 채, 은행 금고 안에서 조용히 기다리고 있었어요.",
+        },
+        {
+          id: "rhl-17",
+          text: "Just before dawn, a section of the stone floor lifted away, and John Clay himself climbed up through the tunnel he had spent months digging.",
+          translation:
+            "동이 트기 직전, 돌바닥의 한 부분이 위로 들어 올려지더니, 존 클레이가 수개월에 걸쳐 파 온 터널을 통해 직접 몸을 밀어 올렸어요.",
+        },
+        {
+          id: "rhl-18",
+          text: "Holmes and the officer seized him at once, and the elaborate scheme of the Red-Headed League came to its quiet, satisfying end.",
+          translation:
+            "홈스와 경찰관은 곧바로 그를 붙잡았고, 정교하게 꾸며졌던 '빨간 머리 연맹' 계획은 그렇게 조용하고 만족스러운 결말을 맞이했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rhl-v1",
+        term: "pawnbroker",
+        partOfSpeech: "noun",
+        translation: "전당포 주인",
+        example: "Jabez Wilson was a pawnbroker with flaming red hair.",
+        exampleTranslation: "제이비즈 윌슨은 타오르는 듯한 빨간 머리를 가진 전당포 주인이었어요.",
+      },
+      {
+        id: "rhl-v2",
+        term: "advertisement",
+        partOfSpeech: "noun",
+        translation: "광고",
+        example: "Spaulding showed him a newspaper advertisement.",
+        exampleTranslation: "스폴딩은 그에게 신문 광고를 보여 주었어요.",
+      },
+      {
+        id: "rhl-v3",
+        term: "dissolve",
+        partOfSpeech: "verb",
+        translation: "해체되다, 해산하다",
+        example: "A sign read: 'The Red-Headed League is dissolved.'",
+        exampleTranslation: "안내문에는 '빨간 머리 연맹은 해체되었습니다'라고 적혀 있었어요.",
+      },
+      {
+        id: "rhl-v4",
+        term: "vault",
+        partOfSpeech: "noun",
+        translation: "금고",
+        example: "The bank's vault held a great store of French gold coins.",
+        exampleTranslation: "은행 금고에는 프랑스 금화가 대량으로 보관되어 있었어요.",
+      },
+      {
+        id: "rhl-v5",
+        term: "tunnel",
+        partOfSpeech: "noun",
+        translation: "터널, 굴",
+        example: "He was digging a tunnel toward the bank vault.",
+        exampleTranslation: "그는 은행 금고를 향해 터널을 파고 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rhl-q1",
+        prompt: "What was Jabez Wilson's job for the Red-Headed League?",
+        options: [
+          "Guarding a warehouse at night",
+          "Sitting in an office four hours a day copying the Encyclopaedia Britannica by hand",
+          "Delivering letters across the city",
+          "Teaching other red-headed men to read",
+        ],
+        correctIndex: 1,
+        explanation:
+          "His only duty was to sit in the League's office for four hours each day, copying out the Encyclopaedia Britannica by hand, for excellent pay.",
+      },
+      {
+        id: "rhl-q2",
+        prompt: "What clue first made Holmes suspicious about Vincent Spaulding?",
+        options: [
+          "Spaulding never spoke about his past",
+          "Spaulding's trousers were oddly worn and dirty at the knees, as if from a lot of kneeling",
+          "Spaulding refused to work half wages",
+          "Spaulding had red hair himself",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Wilson mentioned that Spaulding's trousers were strangely worn and dirty at the knees — a clue that he had been kneeling for long hours, digging.",
+      },
+      {
+        id: "rhl-q3",
+        prompt: "What was the real purpose of the Red-Headed League?",
+        options: [
+          "To collect money from red-headed men",
+          "To get Wilson out of his shop for four hours a day so Spaulding, really the criminal John Clay, could dig a tunnel into a bank vault",
+          "To find workers to copy encyclopedias for a publisher",
+          "To recruit red-headed men into a secret club",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The League was invented purely to keep Wilson away from his shop each day while Spaulding — actually John Clay — dug a tunnel from the pawnshop's cellar into the neighboring bank's vault.",
+      },
+    ],
+  },
+  {
+    slug: "seonnyeo-and-the-woodcutter",
+    title: "선녀와 나무꾼",
+    titleTranslation: "The Fairy and the Woodcutter",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (선녀와 나무꾼, anonymous, oral tradition)",
+    coverEmoji: "🦌",
+    coverImage: "/covers/seonnyeo-and-the-woodcutter.svg",
+    source:
+      "Based on 선녀와 나무꾼 (Seonnyeo-wa Namukkun), an anonymous traditional Korean folktale passed down through oral storytelling and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story. The tale has several traditional endings — some end with the woodcutter separated from his family forever; this retelling follows the gentler, well-known version in which he is reunited with them in the sky.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the woodcutter first met the fairy, and how he was finally reunited with his family.",
+    paragraphs: [
+      [
+        {
+          id: "wn-1",
+          text: "옛날 깊은 산속에 늙은 어머니를 모시고 홀로 사는 가난한 나무꾼이 있었어요.",
+          translation: "Long ago, deep in the mountains, there lived a poor woodcutter who lived alone, caring for his old mother.",
+        },
+        {
+          id: "wn-2",
+          text: "어느 날 나무를 하던 나무꾼 앞으로 사슴 한 마리가 헐레벌떡 뛰어와 살려 달라고 애원했어요.",
+          translation: "One day, while he was cutting wood, a deer came running up to him out of breath, begging to be saved.",
+        },
+        {
+          id: "wn-3",
+          text: "나무꾼은 얼른 사슴을 장작더미 뒤에 숨겨 주었고, 뒤쫓아 온 사냥꾼들은 사슴을 찾지 못한 채 돌아갔어요.",
+          translation: "The woodcutter quickly hid the deer behind a pile of firewood, and the hunters who came chasing after it went away without finding it.",
+        },
+      ],
+      [
+        {
+          id: "wn-4",
+          text: "목숨을 구한 사슴은 고마움의 표시로 나무꾼에게 특별한 비밀 하나를 알려 주었어요.",
+          translation: "Grateful for having his life saved, the deer told the woodcutter a special secret in return.",
+        },
+        {
+          id: "wn-5",
+          text: "보름달이 뜨는 밤이면 하늘의 선녀들이 몰래 내려와 산속 연못에서 목욕을 하고 간다는 것이었어요.",
+          translation: "On the night of the full moon, heavenly fairies secretly came down to bathe in a pond deep in the mountains.",
+        },
+        {
+          id: "wn-6",
+          text: "사슴은 선녀 한 명의 옷을 숨기면, 그 선녀는 하늘로 돌아가지 못하고 땅에 남게 될 거라고 말해 주었어요.",
+          translation: "The deer said that if he hid one fairy's robe, she would not be able to fly back to heaven and would have to remain on earth.",
+        },
+      ],
+      [
+        {
+          id: "wn-7",
+          text: "다만 사슴은 아이를 넷 낳기 전에는 절대로 그 옷을 돌려주지 말라고 신신당부했어요.",
+          translation: "But the deer warned him firmly never to give the robe back until she had given birth to four children.",
+        },
+        {
+          id: "wn-8",
+          text: "보름달이 뜬 밤, 나무꾼은 연못가에 숨어 있다가 목욕을 마친 선녀들 중 막내의 날개옷 하나를 몰래 숨겼어요.",
+          translation: "On the night of the full moon, the woodcutter hid by the pond and secretly took the robe of the youngest fairy after the bathing was done.",
+        },
+        {
+          id: "wn-9",
+          text: "다른 선녀들은 하늘로 날아 돌아갔지만, 옷을 잃어버린 막내 선녀는 그 자리에 홀로 남겨졌어요.",
+          translation: "The other fairies flew back up to heaven, but the youngest one, having lost her robe, was left behind all alone.",
+        },
+      ],
+      [
+        {
+          id: "wn-10",
+          text: "나무꾼은 울고 있는 선녀에게 다가가 사정을 설명하고, 갈 곳이 없다면 자신의 집에 머물러도 좋다고 따뜻하게 청했어요.",
+          translation: "The woodcutter went to the crying fairy, explained what had happened, and warmly offered that she could stay at his house if she had nowhere else to go.",
+        },
+        {
+          id: "wn-11",
+          text: "선녀는 처음엔 슬퍼했지만, 나무꾼과 그의 어머니가 정성껏 돌봐 주는 사이 점점 마음을 열었고, 두 사람은 진심으로 서로를 아끼게 되어 마침내 부부가 되었어요.",
+          translation: "The fairy was sad at first, but as the woodcutter and his mother cared for her with such devotion, she slowly opened her heart, and in time the two of them came to truly love each other and were married.",
+        },
+        {
+          id: "wn-12",
+          text: "몇 해가 지나 두 사람 사이에는 사랑스러운 아이가 셋이나 태어났어요.",
+          translation: "Several years passed, and the two of them were blessed with three lovely children.",
+        },
+      ],
+      [
+        {
+          id: "wn-13",
+          text: "어느 날 선녀는 나무꾼에게, 하늘을 날던 그 시절이 그립다며 자신의 날개옷을 딱 한 번만 다시 보고 싶다고 부탁했어요.",
+          translation: "One day the fairy told the woodcutter that she missed the days when she could fly, and asked if she might see her old robe just once more.",
+        },
+        {
+          id: "wn-14",
+          text: "아내를 사랑했던 나무꾼은 넷째 아이가 태어나기 전이었지만, 그녀를 믿고 마음이 약해져 결국 날개옷을 꺼내 주고 말았어요.",
+          translation: "Loving his wife and trusting her, the woodcutter's resolve softened, and even though their fourth child had not yet been born, he finally brought out the robe and gave it to her.",
+        },
+        {
+          id: "wn-15",
+          text: "옷을 입은 선녀는 그 순간 세 아이를 양팔에 꼭 안고는, 눈물을 흘리며 하늘 높이 날아올라 가 버렸어요.",
+          translation: "The moment she put the robe on, the fairy held her three children tightly in her arms and, in tears, flew high up into the sky and was gone.",
+        },
+      ],
+      [
+        {
+          id: "wn-16",
+          text: "혼자 남겨진 나무꾼이 슬픔에 잠겨 있을 때, 예전의 그 사슴이 다시 찾아와 마지막으로 한 가지를 더 알려 주었어요.",
+          translation: "As the woodcutter sat alone, sunk in sorrow, the very same deer came to find him once more, with one last piece of news.",
+        },
+        {
+          id: "wn-17",
+          text: "하늘에서는 매일 밤 커다란 두레박을 내려보내 산속 우물의 물을 길어 간다는 것이었고, 나무꾼은 그 두레박 속에 몸을 숨겨 하늘로 올라갈 수 있었어요.",
+          translation: "Every night, the deer said, heaven lowered a great bucket to draw water from a mountain well, and by hiding inside that bucket, the woodcutter was able to be carried up into the sky.",
+        },
+        {
+          id: "wn-18",
+          text: "하늘에 도착한 나무꾼은 마침내 아내와 세 아이를 다시 만났고, 그 후로 온 가족이 함께 행복하게 살았답니다.",
+          translation: "When he reached the sky, the woodcutter was finally reunited with his wife and their three children, and from then on the whole family lived happily together.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wn-v1",
+        term: "나무꾼",
+        reading: "namukkun",
+        partOfSpeech: "noun",
+        translation: "woodcutter",
+        example: "가난한 나무꾼이 산에 살았어요.",
+        exampleTranslation: "A poor woodcutter lived in the mountains.",
+      },
+      {
+        id: "wn-v2",
+        term: "사슴",
+        reading: "saseum",
+        partOfSpeech: "noun",
+        translation: "deer",
+        example: "사슴이 나무꾼에게 비밀을 알려 주었어요.",
+        exampleTranslation: "The deer told the woodcutter a secret.",
+      },
+      {
+        id: "wn-v3",
+        term: "선녀",
+        reading: "seonnyeo",
+        partOfSpeech: "noun",
+        translation: "heavenly fairy",
+        example: "선녀들이 연못에서 목욕을 했어요.",
+        exampleTranslation: "The fairies bathed in the pond.",
+      },
+      {
+        id: "wn-v4",
+        term: "날개옷",
+        reading: "nalgaeot",
+        partOfSpeech: "noun",
+        translation: "celestial robe (lit. \"wing clothes\")",
+        example: "나무꾼은 선녀의 날개옷을 숨겼어요.",
+        exampleTranslation: "The woodcutter hid the fairy's robe.",
+      },
+      {
+        id: "wn-v5",
+        term: "두레박",
+        reading: "dulebak",
+        partOfSpeech: "noun",
+        translation: "well bucket",
+        example: "그는 두레박 속에 몸을 숨겼어요.",
+        exampleTranslation: "He hid himself inside the well bucket.",
+      },
+    ],
+    questions: [
+      {
+        id: "wn-q1",
+        prompt: "사슴은 나무꾼에게 무엇을 하지 말라고 신신당부했나요?",
+        options: ["선녀와 이야기하지 말라고", "아이를 넷 낳기 전에 날개옷을 돌려주지 말라고", "연못 근처에 가지 말라고", "사냥꾼들에게 사실대로 말하지 말라고"],
+        correctIndex: 1,
+        explanation: "사슴은 선녀가 아이를 넷 낳기 전까지는 절대로 날개옷을 돌려주지 말라고 신신당부했어요.",
+      },
+      {
+        id: "wn-q2",
+        prompt: "선녀는 날개옷을 다시 입은 뒤 무엇을 했나요?",
+        options: ["나무꾼과 함께 하늘로 올라갔다", "세 아이를 안고 혼자 하늘로 날아올라 갔다", "옷을 벗고 다시 나무꾼 곁에 머물렀다", "아이들만 남기고 혼자 떠났다"],
+        correctIndex: 1,
+        explanation: "날개옷을 입은 선녀는 세 아이를 품에 안고, 눈물을 흘리며 홀로 하늘로 날아올라 가 버렸어요.",
+      },
+      {
+        id: "wn-q3",
+        prompt: "나무꾼은 어떻게 다시 가족을 만날 수 있었나요?",
+        options: ["직접 사다리를 만들어 하늘까지 올라갔다", "하늘에서 물을 긷기 위해 내려보낸 두레박 속에 숨어 올라갔다", "선녀가 다시 땅으로 내려왔다", "사슴이 그를 등에 태워 데려다주었다"],
+        correctIndex: 1,
+        explanation: "사슴의 말대로, 나무꾼은 하늘에서 물을 긷기 위해 내려보낸 두레박 속에 몸을 숨겨 하늘로 올라갔고, 그곳에서 가족과 다시 만났어요.",
+      },
+    ],
+  },
+  {
+    slug: "the-sun-and-the-moon",
+    title: "해와 달이 된 오누이",
+    titleTranslation: "The Siblings Who Became the Sun and the Moon",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (해와 달이 된 오누이, anonymous, oral tradition)",
+    coverEmoji: "☀️",
+    coverImage: "/covers/the-sun-and-the-moon.svg",
+    source:
+      "Based on 해와 달이 된 오누이 (Hae-wa Dari Doen Onui), an anonymous traditional Korean folktale passed down through oral storytelling and long in the public domain. This simplified retelling and its English translation are original text written for SeoJae Story; the traditional version describes the tiger harming the children's mother in graphic detail, which this retelling leaves out, focusing instead on the children's escape.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the brother and sister escaped the tiger, and what happened to each of them in the sky.",
+    paragraphs: [
+      [
+        {
+          id: "sam-1",
+          text: "옛날 어느 산골 마을에 홀로 두 아이를 키우는 가난한 어머니가 살았어요.",
+          translation: "Long ago, in a mountain village, there lived a poor mother who was raising two children alone.",
+        },
+        {
+          id: "sam-2",
+          text: "어머니는 매일 떡을 만들어 팔러 먼 장터까지 다녀왔고, 오누이는 집에서 어머니를 기다리곤 했어요.",
+          translation: "Every day the mother walked to a faraway market to sell rice cakes, and the brother and sister waited for her at home.",
+        },
+        {
+          id: "sam-3",
+          text: "어느 날 저녁, 산길을 걸어 집으로 돌아오던 어머니 앞에 커다란 호랑이 한 마리가 나타났어요.",
+          translation: "One evening, as she walked home along the mountain path, a huge tiger appeared in front of her.",
+        },
+      ],
+      [
+        {
+          id: "sam-4",
+          text: "호랑이는 떡 하나를 주지 않으면 잡아먹겠다고 으르렁거렸고, 어머니는 무서워서 떡을 하나씩 건네주었어요.",
+          translation: "The tiger growled that it would eat her unless she gave it a rice cake, so out of fear she handed one over.",
+        },
+        {
+          id: "sam-5",
+          text: "하지만 호랑이는 고개를 넘을 때마다 계속 나타나 떡을 더 달라고 했고, 결국 떡은 하나도 남지 않게 되었어요.",
+          translation: "But the tiger kept appearing at every turn in the path, demanding more, until not a single rice cake was left.",
+        },
+        {
+          id: "sam-6",
+          text: "안타깝게도 어머니는 그날 밤 끝내 집으로 돌아오지 못했어요.",
+          translation: "Sadly, that night, the mother never made it back home.",
+        },
+      ],
+      [
+        {
+          id: "sam-7",
+          text: "호랑이는 어머니의 옷을 걸치고 오누이의 집으로 찾아가, 문을 두드리며 엄마라고 속였어요.",
+          translation: "The tiger put on the mother's clothes, went to the children's house, knocked on the door, and pretended to be their mother.",
+        },
+        {
+          id: "sam-8",
+          text: "하지만 목소리가 이상하게 굵고 거칠어서, 오누이는 무언가 잘못되었다는 것을 눈치챘어요.",
+          translation: "But the voice was strangely deep and rough, and the brother and sister sensed that something was wrong.",
+        },
+        {
+          id: "sam-9",
+          text: "문틈으로 살짝 내다보니, 엄마의 손이 아니라 털이 무성한 짐승의 발이 보였어요.",
+          translation: "Peeking through a crack in the door, they saw not their mother's hand, but a furry animal's paw.",
+        },
+      ],
+      [
+        {
+          id: "sam-10",
+          text: "깜짝 놀란 오누이는 조용히 뒷문으로 빠져나가, 마당의 우물가에 있는 높은 나무 위로 올라갔어요.",
+          translation: "Startled, the brother and sister quietly slipped out the back door and climbed a tall tree beside the well in the yard.",
+        },
+        {
+          id: "sam-11",
+          text: "호랑이는 우물물에 비친 두 아이의 모습을 보고는, 나무 위로 올라오려고 애썼어요.",
+          translation: "The tiger spotted their reflection in the well water and tried to climb up after them.",
+        },
+        {
+          id: "sam-12",
+          text: "오빠는 다급한 마음에 그만 '도끼로 나무를 찍어 올라오면 된다'고 소리치고 말았고, 호랑이는 그 말대로 도끼를 찍어 가며 올라오기 시작했어요.",
+          translation: "In his panic, the brother accidentally shouted that the tiger could climb up by cutting notches with an axe, and the tiger began climbing exactly that way.",
+        },
+      ],
+      [
+        {
+          id: "sam-13",
+          text: "다급해진 오누이는 하늘을 향해 간절히 빌었어요. '저희를 살리시려거든 튼튼한 동아줄을, 아니라면 썩은 동아줄을 내려 주세요.'",
+          translation: "Desperate, the brother and sister prayed to the sky: 'If you want us to live, send down a strong rope. If not, send a rotten one.'",
+        },
+        {
+          id: "sam-14",
+          text: "그러자 하늘에서 반짝이는 튼튼한 동아줄이 내려왔고, 오누이는 그 줄을 타고 하늘로 무사히 올라갔어요.",
+          translation: "A shining, strong rope came down from the sky, and the brother and sister climbed it safely up into the heavens.",
+        },
+        {
+          id: "sam-15",
+          text: "이를 본 호랑이도 똑같이 빌었지만, 하늘에서 내려온 동아줄은 다 썩어 있었어요.",
+          translation: "Seeing this, the tiger prayed the exact same prayer, but the rope that came down for it was old and rotten.",
+        },
+      ],
+      [
+        {
+          id: "sam-16",
+          text: "호랑이가 줄을 타고 오르던 중 동아줄이 뚝 끊어져, 호랑이는 멀리 수수밭으로 떨어지고 말았어요.",
+          translation: "As the tiger climbed, the rope suddenly snapped, and it fell far away into a field of sorghum.",
+        },
+        {
+          id: "sam-17",
+          text: "사람들은 그 후로 수숫대 밑동이 붉은 것이 그날 호랑이가 흘린 흔적 때문이라고 이야기해요.",
+          translation: "Ever since, people have said that the reddish color at the base of sorghum stalks comes from a mark the tiger left behind that day.",
+        },
+        {
+          id: "sam-18",
+          text: "하늘로 올라간 오빠는 해가 되고, 동생은 달이 되어, 지금도 하늘에서 사람들을 환하게 비추어 준답니다.",
+          translation: "Up in the sky, the brother became the sun and the sister became the moon, and to this day they still shine brightly down on everyone.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sam-v1",
+        term: "호랑이",
+        reading: "horangi",
+        partOfSpeech: "noun",
+        translation: "tiger",
+        example: "커다란 호랑이가 나타났어요.",
+        exampleTranslation: "A huge tiger appeared.",
+      },
+      {
+        id: "sam-v2",
+        term: "우물",
+        reading: "umul",
+        partOfSpeech: "noun",
+        translation: "well",
+        example: "오누이는 우물가의 나무 위로 올라갔어요.",
+        exampleTranslation: "The siblings climbed the tree beside the well.",
+      },
+      {
+        id: "sam-v3",
+        term: "동아줄",
+        reading: "dongajul",
+        partOfSpeech: "noun",
+        translation: "thick rope",
+        example: "하늘에서 튼튼한 동아줄이 내려왔어요.",
+        exampleTranslation: "A strong rope came down from the sky.",
+      },
+      {
+        id: "sam-v4",
+        term: "썩다",
+        reading: "sseokda",
+        partOfSpeech: "verb",
+        translation: "to rot, be rotten",
+        example: "그 동아줄은 다 썩어 있었어요.",
+        exampleTranslation: "That rope was all rotten.",
+      },
+      {
+        id: "sam-v5",
+        term: "비추다",
+        reading: "bichuda",
+        partOfSpeech: "verb",
+        translation: "to shine (light) on",
+        example: "해와 달이 사람들을 환하게 비추어요.",
+        exampleTranslation: "The sun and moon shine brightly on people.",
+      },
+    ],
+    questions: [
+      {
+        id: "sam-q1",
+        prompt: "오누이는 어떻게 호랑이가 진짜 엄마가 아니라는 것을 알아챘나요?",
+        options: ["목소리가 이상하고, 문틈으로 짐승의 발을 보았다", "이웃이 미리 알려 주었다", "냄새가 이상했다", "직접 호랑이를 보았다"],
+        correctIndex: 0,
+        explanation: "목소리가 이상하게 굵고 거칠었고, 문틈으로 엄마의 손 대신 털이 무성한 짐승의 발을 보고 오누이는 진실을 알아챘어요.",
+      },
+      {
+        id: "sam-q2",
+        prompt: "오누이는 나무 위에서 어떻게 하늘로 올라갈 수 있었나요?",
+        options: ["사다리를 만들었다", "하늘에 간절히 빌어 튼튼한 동아줄이 내려왔다", "호랑이가 도와주었다", "새들이 데려다주었다"],
+        correctIndex: 1,
+        explanation: "오누이가 하늘을 향해 간절히 빌자, 튼튼한 동아줄이 내려왔고 그 줄을 타고 안전하게 하늘로 올라갔어요.",
+      },
+      {
+        id: "sam-q3",
+        prompt: "하늘로 올라간 오빠와 동생은 각각 무엇이 되었나요?",
+        options: ["오빠는 달, 동생은 해", "오빠는 해, 동생은 달", "둘 다 별이 되었다", "둘 다 해가 되었다"],
+        correctIndex: 1,
+        explanation: "오빠는 해가 되고 동생은 달이 되어, 지금도 하늘에서 사람들을 환하게 비추고 있답니다.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

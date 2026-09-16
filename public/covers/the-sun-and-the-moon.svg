@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Siblings Who Became the Sun and the Moon, a traditional Korean folktale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF2EE"/>
+      <stop offset="1" stop-color="#F6D9CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="-24" cy="0" r="22" stroke-width="1.7" fill="#C9A66B" fill-opacity="0.14"/>
+    <path d="M-24 -34 L -24 -26 M-24 26 L -24 34 M-58 0 L -50 0 M2 0 L 10 0 M-45 -21 L -39 -15 M-9 -21 L -15 -15 M-45 21 L -39 15 M-9 21 L -15 15" stroke-width="1.3"/>
+    <path d="M14 -18 A 20 20 0 1 0 14 18 A 15 15 0 1 1 14 -18 Z" stroke-width="1.5" fill="#F6D9CE"/>
+    <path d="M-56 40 q 56 16 112 0" stroke-width="1.1" opacity="0.4"/>
+  </g>
+
+  <text x="200" y="306" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="1">해와 달이 된 오누이</text>
+
+  <line x1="150" y1="340" x2="250" y2="340" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="372" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">A golden rope from the sky</text>
+
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#C57B57" letter-spacing="1.5">TRADITIONAL KOREAN FOLKTALE</text>
+  <text x="200" y="474" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="1.5">HAE-WA DAL-I DOEN ONUI &#183; ORAL TRADITION</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#C57B57" letter-spacing="3">SEOJAE STORY &#183; FOLKTALES</text>
+</svg>
