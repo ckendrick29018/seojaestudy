@@ -497,6 +497,207 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+
+  {
+    slug: "spaced-repetition-vocabulary-flashcards",
+    title: "Spaced Repetition Flashcards: How to Actually Remember New Words",
+    description:
+      "How spaced repetition works, why cramming vocabulary fails, and how to use a simple Leitner-style flashcard system to make new words stick for good.",
+    lede: "The five-minute habit that turns words you looked up once into words you actually know.",
+    datePublished: "2026-09-16",
+    dateModified: "2026-09-16",
+    readingMinutes: 7,
+    keywords: [
+      "spaced repetition flashcards",
+      "how to remember vocabulary",
+      "Leitner system",
+      "vocabulary flashcards for language learners",
+      "how to memorize words long term",
+    ],
+    sections: [
+      {
+        heading: "Why cramming doesn't work",
+        paragraphs: [
+          "You look up a word, feel a small click of understanding, and move on — and a week later it's gone. This isn't really a memory problem, it's a scheduling problem: anything reviewed only once gets treated as unimportant and starts fading almost immediately.",
+          "Cramming a word list the night before a test fights this for a few hours, then loses. The fix isn't reviewing more — it's reviewing at the right moment: just as a word is about to slip away, not right after you already know it and not so late that it's already gone.",
+        ],
+      },
+      {
+        heading: "What spaced repetition actually does",
+        paragraphs: [
+          "Spaced repetition is a scheduling trick: instead of reviewing every word every day, you review each one right before you're likely to forget it, then push the next review further out. Each successful recall makes the word more stable, so the gap before the next review can grow — a day, then a few days, then a few weeks — while a forgotten word resets to the start.",
+          "The result is that a handful of minutes a day covers far more words than one long session ever could, because you only spend time on the words actually at risk of being lost.",
+        ],
+      },
+      {
+        heading: "The Leitner box, the simple version",
+        paragraphs: [
+          "SeoJae Story's [study plan](/study) uses a classic version of this called a Leitner system: every flashcard sits in one of a few boxes. A new card is due immediately; each time you recall it correctly it moves up a box and its next review is pushed further out — roughly a day, then about a week, then a few weeks, then a month or more. Get it wrong, and it drops straight back to the first box.",
+          "You never have to plan any of this yourself. Open the [study plan](/study) and it already knows which cards are due today — everything else stays out of sight until it needs you.",
+        ],
+      },
+      {
+        heading: "Grade yourself honestly: Again, Good, Easy",
+        paragraphs: [
+          "After you reveal a card, you choose one of three grades. \"Again\" means you didn't really know it — it goes back to the start, which is normal and not a failure. \"Good\" means you got it, maybe with a beat of hesitation. \"Easy\" means it took no effort at all, and pushes the next review out further still.",
+          "The temptation is to grade generously so the pile of due cards feels smaller. Resist it — an honest \"again\" costs you one more short review later, but a dishonest \"good\" is exactly how a word quietly falls out of a system built to catch it.",
+        ],
+      },
+      {
+        heading: "Where the cards come from",
+        paragraphs: [
+          "You don't build a deck from scratch. Every lesson comes with its own vocabulary list, and any word you tap while reading can be saved straight into your [study plan](/study) with its example sentence attached — so the card always carries the context you met the word in, not just an isolated translation.",
+          "That context matters more than it seems: recalling a word is much easier when the card also shows you the sentence it appeared in, rather than a bare word-and-translation pair with nothing to hang it on.",
+        ],
+      },
+      {
+        heading: "A five-minute daily habit",
+        paragraphs: ["This is genuinely all it takes:"],
+        list: [
+          "Read one story, tapping words you don't know and saving the ones worth keeping.",
+          "Open the study plan and clear whatever's due — usually a couple of minutes.",
+          "Grade honestly. \"Again\" is not failure; it's the system working.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Read a story in the [library](/library), save a handful of words as you go, and check your [study plan](/study) tomorrow — that first due review, a day later, is where spaced repetition actually begins.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "listening-while-reading-method",
+    title: "Learn a Language by Listening and Reading at the Same Time",
+    description:
+      "Why combining audio with text — listening while reading — builds listening comprehension faster than either skill alone, and how to practice it without zoning out.",
+    lede: "Your eyes and ears are learning two different things from the same sentence — here's how to use that.",
+    datePublished: "2026-09-16",
+    dateModified: "2026-09-16",
+    readingMinutes: 7,
+    keywords: [
+      "listening while reading method",
+      "learn a language by listening",
+      "audio and text language learning",
+      "listening comprehension practice",
+      "graded reader audio",
+    ],
+    sections: [
+      {
+        heading: "Two skills that don't transfer on their own",
+        paragraphs: [
+          "Reading and listening feel like the same skill in different clothes, but they aren't. You can often read a sentence comfortably and still fail to recognize that exact same sentence spoken aloud — connected speech drops sounds, runs words together, and moves faster than the careful, evenly-spaced version in your head.",
+          "This is why a strong reader can still find real conversation exhausting: the words are all familiar, but the sound of them together is not.",
+        ],
+      },
+      {
+        heading: "Why listening and reading together closes the gap",
+        paragraphs: [
+          "Listening while you read gives you the correct sound for every sentence at the exact moment you're building its meaning, instead of two separate skills you have to reconcile later. Over enough sentences, your ear starts recognizing the fast, connected version directly — the one thing pure reading can never train.",
+          "It also removes the usual reason listening practice stalls: losing the thread the moment one word goes by too fast. With the text right there, a glance recovers you instead of the whole sentence being lost.",
+        ],
+      },
+      {
+        heading: "How to do it without zoning out",
+        paragraphs: [
+          "The failure mode is letting your eyes carry all the work while the audio turns into background noise. To keep both engaged, read each sentence silently first — just ahead of or alongside the narration — rather than waiting for the audio to lead you.",
+          "When a word sounds different from how you expected, stop and notice it specifically. That gap between your guess and the real sound is exactly what's being trained — don't just move past it.",
+        ],
+      },
+      {
+        heading: "How this works in the reader",
+        paragraphs: [
+          "Every SeoJae Story lesson has narrated audio behind the Listen control — press it, and it reads the page at a natural pace while you follow the target-language text underneath, with Pause and Resume if you need to stop and think.",
+          "Because it's real narration rather than a robotic read-aloud, it carries the same natural rhythm, stress and connected speech you'd meet outside a classroom — which is the whole point of practicing this way.",
+        ],
+      },
+      {
+        heading: "A simple listen-and-read routine",
+        paragraphs: ["Ten minutes, once a day:"],
+        list: [
+          "First pass: read the story normally, tapping words or the sentence-translation globe only when you're stuck.",
+          "Second pass: press Listen and follow along with your eyes, without tapping anything — just matching sound to text.",
+          "Third pass: close your eyes for one paragraph and listen only, then open them and check what you actually caught.",
+        ],
+      },
+      {
+        heading: "When to drop the text",
+        paragraphs: [
+          "Keep the text on for as long as it's actually helping. The moment you notice you can predict the next sentence before your eyes reach it, try that paragraph with the text hidden and the audio alone — that's the read-with-your-ears skill this method has been quietly building the whole time.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open any story at your level in the [library](/library) and look for the Listen control in the reader. Pair it with [how to learn English by reading](/learn/learn-english-by-reading) or [how to learn Korean by reading](/learn/learn-korean-by-reading) for the fuller reading method underneath it.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "language-learning-book-club",
+    title: "How to Start a Language-Learning Book Club",
+    description:
+      "Why reading the same story as a friend accelerates a language habit, and how to run a simple two-person or ten-person book club using free shared chapters.",
+    lede: "Reading alone is fine. Reading the same page as someone else who'll ask you about it is what actually keeps you going.",
+    datePublished: "2026-09-16",
+    dateModified: "2026-09-16",
+    readingMinutes: 6,
+    keywords: [
+      "language learning book club",
+      "start a book club online",
+      "read together language learning",
+      "book club for language learners",
+      "share reading with friends",
+    ],
+    sections: [
+      {
+        heading: "Why a book club works better than reading alone",
+        paragraphs: [
+          "Most language habits die quietly — not from one bad day, but from nobody noticing when the streak breaks. A book club fixes this with the oldest trick there is: someone else is expecting you to have read the chapter.",
+          "It also forces a kind of comprehension a solo reader can skip. Explaining to someone else why a character made a choice, or arguing about what a line meant, uses the language and the story in a way silent reading alone never quite does.",
+        ],
+      },
+      {
+        heading: "One person hosts, everyone else joins with a link",
+        paragraphs: [
+          "[My book club](/club) is built around one owner and up to ten members. The owner creates the club and gets a short invite link to send to however many friends, classmates or family members they want reading along — each person signs in with a free account to join, but nobody besides the owner needs a subscription.",
+          "Two people reading the same story is already a book club. You don't need ten members for this to work — one reading partner who reads on the same day you do is often enough to change whether you actually open the app.",
+        ],
+      },
+      {
+        heading: "How sharing a chapter unlocks it for everyone",
+        paragraphs: [
+          "When the club owner has an active subscription, they can share any chapter with the club — and once shared, that chapter reads free for every member, whether or not they personally subscribe. It's a way to read premium chapters together without asking a group of five people to each pay for their own account.",
+          "This works especially well with the classics that come in two parts on SeoJae Story: read the free opening chapter separately, then have the owner share the follow-up chapter as the club's next pick.",
+        ],
+      },
+      {
+        heading: "A weekly rhythm that doesn't rely on willpower",
+        paragraphs: ["Book clubs fail when they demand a big weekly meeting. Keep it lighter than that:"],
+        list: [
+          "Pick one short lesson a week — check its CEFR level so nobody's stuck decoding while everyone else discusses.",
+          "Agree on a day it should be read by — no live meeting required, just a shared deadline.",
+          "Message each other one sentence: what surprised you, or what you'd have done differently as the main character.",
+        ],
+      },
+      {
+        heading: "Where discussion prompts come from",
+        paragraphs: [
+          "You don't have to invent questions. Every lesson ends with a short comprehension check, and the summary prompt above it is an open question about the story, written in your own language — both work well typed straight into a group chat, especially for a club mixing two native languages.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open [My book club](/club), create one, and send the invite link to one person before you send it to ten — a club that starts with two committed readers outlasts one that starts with ten distracted ones. Then pick your first chapter from the [library](/library).",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
