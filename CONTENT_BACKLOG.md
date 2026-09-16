@@ -234,6 +234,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 113 | A Scandal in Bohemia | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the King's photograph, the fire-alarm trick, Irene Adler outwitting Holmes) — first Sherlock Holmes story on the shelf; opens up the "Crime & mystery" category flagged below | ☑ |
 | 114 | The Cask of Amontillado | Edgar Allan Poe (1849) | 1063 | B2 | whole (simplified retelling, 15 sentences; the immurement is kept but Fortunato's suffering is not dwelt on — his voice simply fades into silence) — a second Poe pick | ☑ |
 | 115 | The Red-Headed League | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the absurd copying job, the sign that reads "dissolved," and the bank-vault tunnel underneath) — a second Sherlock Holmes story | ☑ |
+| 116 | The Celebrated Jumping Frog of Calaveras County | Mark Twain (1910) | 3189 | B1 | whole (simplified retelling, 17 sentences; trimmed of the framing narrator's digressions to focus on Smiley's bet and the stranger's trick with the frog) — first Twain fiction on the shelf | ☑ |
+| 117 | Dr. Heidegger's Experiment | Nathaniel Hawthorne (1864) | 508 | B1 | whole (simplified retelling, 17 sentences; the four friends briefly made young again by a magic elixir, and what they choose to do once its effect fades) — first Hawthorne on the shelf | ☑ |
 
 ---
 
@@ -243,21 +245,41 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (117 — 98 classics + 15 folktales + 4 biographies):** The Cask
+- **Live now (130 — 102 classics + 20 folktales + 8 biographies; plus 5
+  Aesop's fables on the plain Library list, `topic: "Fables"`, no
+  `collection`):** Two more biographies and two more Korean-*origin*
+  folktale originals are the newest additions (2026-09-16). Biographies:
+  *Narrative of the Life of Frederick Douglass*, retold as "Learning to
+  Read" (Mrs. Auld teaching him the alphabet, Mr. Auld forbidding it, and
+  Douglass secretly teaching himself by trading bread for lessons and
+  copying letters from shipyard timbers) and Elizabeth Gaskell's *The Life
+  of Charlotte Brontë*, retold as "The Twelve Soldiers" (the box of wooden
+  toy soldiers that sparked the Brontë children's invented kingdoms of
+  Angria and Gondal, and the throughline to Jane Eyre). Folktales, both
+  `targetLanguage: "ko"` originals needing no English PD source: Janghwa
+  and Hongryeon (장화홍련전, the classic ghost story of two wronged sisters,
+  softened per the app's convention) and Hong Gildong-jeon (홍길동전, the
+  opening of Korea's first vernacular novel — a talented but low-status son
+  who resolves to carve out his own destiny). Before that, an earlier
+  same-day batch had gone undocumented here until this pass: two more
+  biographies, Mark Twain's *Life on the Mississippi* and Marie Curie's
+  *Pierre Curie*; two more classics, row 116 The Celebrated Jumping Frog of
+  Calaveras County (Twain's first fiction on the shelf) and row 117 Dr.
+  Heidegger's Experiment (Hawthorne's first); and two more Korean-*origin*
+  folktale originals, Kongjwi and Patjwi and Sim Cheong (see the folktales
+  note below). Before that: The Cask
   of Amontillado (row 114, classics — Poe's second story: Montresor lures
   Fortunato into the catacombs with a cask of rare wine and walls him up
   alive, his voice fading to silence) and The Red-Headed League (row 115,
   classics — a second Sherlock Holmes story: the absurd encyclopedia-copying
-  job that turns out to be cover for a bank-vault tunnel) are the newest
-  classics. Two new biographies are also live: Booker T. Washington's *Up
+  job that turns out to be cover for a bank-vault tunnel). Before that,
+  Booker T. Washington's *Up
   From Slavery* (his childhood in a slave cabin, teaching himself the
   alphabet from a Webster's speller, and giving himself the surname
   "Washington" on his first day of school) and Charles Darwin's own
   autobiography, retold as "The Boy Who Loved Beetles" (his father's famous
   scolding, and the day he popped a beetle in his mouth to free a hand for a
-  third one). Two brand-new Korean-*origin* folktales round out the shelf,
-  both `targetLanguage: "ko"` originals (no English PD source needed, same
-  as Kongjwi and Patjwi / Sim Cheong): Seonnyeo and the Woodcutter (a
+  third one), plus Seonnyeo and the Woodcutter (a
   celestial fairy's robe is hidden by a lonely woodcutter, and — in the
   gentler of the tale's traditional endings — he is reunited with his wife
   and children in the sky via the water-bucket lowered each night from
@@ -465,9 +487,20 @@ has a genuine period cover/illustration in the public domain, download that into
     coverage" section below for the check-dictionary.ts blind spot this
     surfaced: the script assumes `text`=English/`translation`=Korean, so a
     lesson's real KO→EN tap-path for these four had to be verified with a
-    one-off direction-aware script instead). Janghwa and Hongryeon
-    (장화홍련전), a well-known Korean ghost story, is still open — it would
-    need the same softening care as the darker Griffis tales.
+    one-off direction-aware script instead). Two more `targetLanguage: "ko"`
+    originals are now live (2026-09-16): Janghwa and Hongryeon (장화홍련전,
+    B1) — the classic ghost story of two devoted sisters wronged by a
+    jealous stepmother; softened per the app's convention, the sisters
+    "vanish near a pond and never return" rather than depicting their
+    deaths directly, and the tale keeps its just, hopeful resolution (a
+    fearless magistrate hears their spirits out, uncovers the stepmother's
+    scheme, and the sisters are reborn as twin daughters in a new family) —
+    and Hong Gildong-jeon (홍길동전, B1), the opening of Korea's first
+    vernacular novel: the talented but low-status Gildong, born to a
+    servant woman, cannot even call his own father "Father" under the
+    era's strict status rules, and resolves to leave home and carve out
+    his own destiny (the source's later assassination plot against him is
+    kept only as a vague, offstage danger).
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
@@ -524,10 +557,25 @@ strong PD material in each:
   handled with the same restraint as Keller/Franklin, no graphic content)
   and Charles Darwin's own autobiography (1876/1887, PG#2010, B1 — retold
   as "The Boy Who Loved Beetles": his father's scolding over his collecting
-  hobby, and the beetle-in-the-mouth anecdote). Still open: *Narrative of
-  the Life of Frederick Douglass*, Mark Twain's autobiographical sketches,
-  *The Life of Charlotte Brontë* (Gaskell) — Douglass needs care given the
-  app's softening convention for harsh content.
+  hobby, and the beetle-in-the-mouth anecdote). Two more were added the same
+  day in an earlier batch that went undocumented here until this note: Mark
+  Twain's *Life on the Mississippi* (1883, PG#245, B1 — his apprenticeship
+  as a steamboat pilot under Mr. Bixby, and what he lost as well as gained
+  once he could "read" the river like a book) and Marie Curie's own memoir
+  *Pierre Curie* (1923 English translation, PG#69617, B2 — the converted
+  shed where she and Pierre isolated radium, retold as "Pierre Curie").
+  Two more are now live (2026-09-16): *Narrative of the Life of Frederick
+  Douglass* (1845, PG#23, B2 — retold as "Learning to Read": Mrs. Auld
+  teaching him the alphabet, Mr. Auld forbidding it, and Douglass secretly
+  teaching himself by trading bread for lessons and copying letters from
+  shipyard timbers; the realities of slavery are stated plainly but never
+  shown graphically) and Elizabeth Gaskell's *The Life of Charlotte Brontë*
+  (1857, PG#1827, B1 — retold as "The Twelve Soldiers": the box of wooden
+  toy soldiers that sparked the Brontë children's invented kingdoms of
+  Angria and Gondal, tiny hand-sewn books, and the throughline to Jane
+  Eyre). Eight biographies now live. Still open: Gaskell's *Life of
+  Charlotte Brontë* has more chapters to draw on for a second lesson;
+  Mark Twain has more autobiographical sketches too.
 - **Philosophy, plain** — Marcus Aurelius, *Meditations* (short numbered
   passages fit a lesson almost as-is); Epictetus, *Enchiridion*.
 - **Travel writing** — *Innocents Abroad* / *A Tramp Abroad* (Twain),
