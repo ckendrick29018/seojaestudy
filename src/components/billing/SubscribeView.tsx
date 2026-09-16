@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useT } from "@/components/providers/LanguageProvider";
 import { SUBSCRIPTION_PRICE_DISPLAY } from "@/lib/pricing";
-import { isRunningInTwa } from "@/lib/platform";
+import { isRunningInNativeApp } from "@/lib/platform";
 import { CheckIcon } from "@/components/ui/icons";
 import { PaddleCheckout } from "./PaddleCheckout";
 import { CancelSubscriptionButton } from "./CancelSubscriptionButton";
@@ -24,8 +24,8 @@ export function SubscribeView({ userId, email, active, cancelAtPeriodEnd, period
   // Checked client-side only (see lib/platform.ts) — defaults to false so
   // server and first client render match, then flips right after mount if
   // we're actually inside the Android app wrapper.
-  const [inTwa, setInTwa] = useState(false);
-  useEffect(() => setInTwa(isRunningInTwa()), []);
+  const [inNativeApp, setInNativeApp] = useState(false);
+  useEffect(() => setInNativeApp(isRunningInNativeApp()), []);
 
   return (
     <div className="px-5 py-8">
@@ -58,7 +58,7 @@ export function SubscribeView({ userId, email, active, cancelAtPeriodEnd, period
             {SUBSCRIPTION_PRICE_DISPLAY}
             <span className="text-sm font-normal text-charcoal/50"> / {t("perMonth")}</span>
           </p>
-          {inTwa ? (
+          {inNativeApp ? (
             // Google Play's payments policy generally requires in-app
             // purchases of content consumed in the app to go through Google
             // Play Billing, not a third-party processor — so the Android

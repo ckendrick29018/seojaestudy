@@ -1,7 +1,11 @@
+import { Capacitor } from "@capacitor/core";
+
 /**
- * True when the page is running inside the Android Trusted Web Activity
- * (TWA) wrapper — Chrome sets `document.referrer` to `android-app://<package>`
- * for pages opened that way. Browser-only; always false during SSR.
+ * True when the page is running inside the native Android app (the
+ * Capacitor wrapper), false on the regular website. Safe to call during
+ * SSR — Capacitor's platform check falls back to a plain `global` object on
+ * the server and reports "web" there, so this returns false rather than
+ * throwing.
  *
  * Why this matters: Google Play's payments policy generally requires apps
  * that sell digital content consumed *within* the app to use Google Play's
@@ -14,6 +18,6 @@
  * it) before your Play Store submission — Claude isn't a substitute for
  * that review.
  */
-export function isRunningInTwa(): boolean {
-  return typeof document !== "undefined" && document.referrer.startsWith("android-app://");
+export function isRunningInNativeApp(): boolean {
+  return Capacitor.isNativePlatform();
 }

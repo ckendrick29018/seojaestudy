@@ -1,5 +1,16 @@
 # Shipping SeoJae Story to the Google Play Store
 
+> **⚠️ Superseded (2026-09-16):** the TWA/Bubblewrap approach below has been
+> replaced by a **Capacitor** wrapper as the plan going forward, mainly so
+> the app can clear Google Play's "minimum functionality" bar with real
+> native capabilities (push notifications, native offline handling, etc.)
+> that a TWA can't provide. The Payments-policy problem described below
+> (no Paddle checkout inside the Android app) still applies under Capacitor
+> — `src/lib/platform.ts` has been reworked accordingly: it now exports
+> `isRunningInNativeApp()`, checked via `Capacitor.isNativePlatform()`
+> instead of the TWA-only `document.referrer` signal. Keeping this file for
+> the policy background; treat the build steps as historical.
+
 This app becomes an Android app via a **Trusted Web Activity (TWA)** —
 Google's recommended way to publish a web app to Play with minimal native
 code. A TWA is essentially your live website opened full-screen in Chrome
