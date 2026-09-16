@@ -230,6 +230,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 99 | The Lifted Veil | George Eliot (1880) | 2165 | B2 | opening of Ch. 1 — Latimer's premonition of his own death, his visions of the future, and his involuntary insight into other people's thoughts (simplified retelling, 17 sentences) — the fresh B2 pick flagged in "Good next lessons to build" | ☑ |
 | 101 | Summer | Edith Wharton (1937) | 166 | B2 | Ch. 1 — Charity Royall, the bored village librarian of North Dormer, and the stranger (an architect) who walks in one June afternoon asking about old local houses (simplified retelling, 17 sentences) — a fourth Wharton pick; a rural New England village novel, a tonal companion to Ethan Frome and distinct from the two Old-New-York picks (Age of Innocence, House of Mirth) | ☑ |
 | 111 | The Reef | Edith Wharton (1937) | 283 | B2 | Ch. 1 — the diplomat George Darrow, disappointed by Anna Leath's second vague telegram, meets Sophy Viner on the windy pier at Dover and impulsively escorts her to Paris instead (simplified retelling, 18 sentences) — a fifth Wharton pick, the "good next lessons" B2 flagged | ☑ |
+| 112 | The Tell-Tale Heart | Edgar Allan Poe (1849) | 2148 | B2 | whole (simplified retelling, 15 sentences; violence kept implicit, not graphic) — first Poe on the shelf, opens up gothic horror as its own tone alongside the existing ghost-story/dark-Gothic picks (A Christmas Carol, Frankenstein, Wuthering Heights) | ☑ |
+| 113 | A Scandal in Bohemia | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the King's photograph, the fire-alarm trick, Irene Adler outwitting Holmes) — first Sherlock Holmes story on the shelf; opens up the "Crime & mystery" category flagged below | ☑ |
 
 ---
 
@@ -472,9 +474,19 @@ Requested expansion of the shelf past short literary fiction. All must still
 clear sourcing rule #1 (PD in the US **and** life+70). Project Gutenberg has
 strong PD material in each:
 
-- **Biography / memoir** — *The Autobiography of Benjamin Franklin*,
-  *Narrative of the Life of Frederick Douglass*, Mark Twain's
-  autobiographical sketches, *The Life of Charlotte Brontë* (Gaskell).
+- **Biography / memoir — now live, first non-fiction category on the
+  shelf.** *The Story of My Life* (Helen Keller, 1903, PG#2397, B1 — the
+  water-pump scene where "water" spelled into her hand unlocks language)
+  and *The Autobiography of Benjamin Franklin* (1791, PG#148, B2 — his
+  self-taught writing method and the "Silence Dogood" letters), both
+  2026-09-16. New light-blue cover palette (vs. the classics' warm cream)
+  visually marks the category. Not in the Tier 1–3 tables above since
+  those are scoped to the Classics fiction shelf; these ship with
+  `topic: "Biography"` and `collection: "classics"` so they still surface
+  on the Classics page. Still open: *Narrative of the Life of Frederick
+  Douglass*, Mark Twain's autobiographical sketches, *The Life of
+  Charlotte Brontë* (Gaskell) — Douglass needs care given the app's
+  softening convention for harsh content.
 - **Philosophy, plain** — Marcus Aurelius, *Meditations* (short numbered
   passages fit a lesson almost as-is); Epictetus, *Enchiridion*.
 - **Travel writing** — *Innocents Abroad* / *A Tramp Abroad* (Twain),
@@ -485,9 +497,13 @@ strong PD material in each:
 - **Business / self-improvement** — *The Richest Man in Babylon* (1926, US
   PD), *Self-Help* (Samuel Smiles), *The Art of Money Getting* (P. T.
   Barnum).
-- **Crime & mystery** — Sherlock Holmes short stories (*The Adventures*,
-  1892), *The Moonstone* (Collins), Poe's tales, Father Brown (early
-  collections only — check each story's date).
+- **Crime & mystery — now live.** *A Scandal in Bohemia* (Doyle, 1891,
+  PG#1661, B2 — row 113) is the first Sherlock Holmes story on the shelf;
+  *The Tell-Tale Heart* (Poe, 1843, PG#2148, B2 — row 112) leans more
+  gothic-horror than crime but shares the shelf. Still open: more
+  *Adventures of Sherlock Holmes* stories (1892), *The Moonstone*
+  (Collins), more Poe (*The Cask of Amontillado*, *The Black Cat*),
+  Father Brown (early collections only — check each story's date).
 - **Plays** — Shakespeare (*Hamlet*, *Macbeth*, a scene each), Wilde
   (*The Importance of Being Earnest*), Chekhov (*The Cherry Orchard*),
   Ibsen (*A Doll's House*). **NB:** dialogue needs a different lesson
