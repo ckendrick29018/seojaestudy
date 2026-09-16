@@ -5752,4 +5752,21 @@ export const KO_EN: Record<string, string> = {
   다치다: "to get hurt, to be injured",
   찍히다: "to be photographed, to be taken (of a photo)",
   비추다: "to shine (light) on, to illuminate",
+
+  // added for "helen-keller-the-story-of-my-life" / "benjamin-franklin-autobiography"
+  // people & places
+  설리번: "Sullivan (name)",
+  사일런스: "Silence (name, as in \"Silence Dogood\")",
+  도굿: "Dogood (invented surname, as in \"Mrs. Silence Dogood\")",
+  필라델피아: "Philadelphia (place)",
+
+  // nouns
+  펌프: "(water) pump",
+  인쇄소: "print shop",
+  인쇄업자: "printer (person)",
+  신비: "mystery",
+
+  // verbs & adjectives
+  표현하다: "to express",
+  심하다: "to be harsh, severe",
 };

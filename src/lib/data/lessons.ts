@@ -24832,6 +24832,379 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "helen-keller-the-story-of-my-life",
+    title: "The Story of My Life",
+    titleTranslation: "나의 삶의 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Helen Keller (1880–1968)",
+    coverEmoji: "💧",
+    coverImage: "/covers/helen-keller-the-story-of-my-life.svg",
+    source:
+      "Adapted from Helen Keller's autobiography \"The Story of My Life\" (1903; long in the public domain, Project Gutenberg #2397). This simplified retelling and its Korean translation are original text written for SeoJae Story, focusing on the famous \"water\" scene with her teacher, Anne Sullivan.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened at the water pump, and why that moment changed everything for Helen.",
+    paragraphs: [
+      [
+        {
+          id: "hk-1",
+          text: "Before I was two years old, an illness left me both deaf and blind, and for years afterward I lived in a silent, dark world with almost no way to reach the people around me.",
+          translation:
+            "저는 두 살이 되기도 전에 병을 앓아 듣지도 보지도 못하게 되었고, 그 후로 오랫동안 저는 주변 사람들과 거의 소통할 방법이 없는 조용하고 어두운 세상에서 살았어요.",
+        },
+        {
+          id: "hk-2",
+          text: "I grew wild and unruly, breaking things and striking out when I was frustrated, because I had no words for anything I wanted or felt.",
+          translation:
+            "저는 원하는 것이나 느끼는 것을 표현할 말이 하나도 없었기 때문에, 물건을 부수고 답답할 때면 손을 휘두르는, 거칠고 다루기 힘든 아이로 자랐어요.",
+        },
+      ],
+      [
+        {
+          id: "hk-3",
+          text: "When I was nearly seven, a young teacher named Anne Sullivan came to live with my family and try to reach me.",
+          translation:
+            "제가 일곱 살이 다 되었을 무렵, 앤 설리번이라는 젊은 선생님이 저희 가족과 함께 살며 저에게 다가오려고 애썼어요.",
+        },
+        {
+          id: "hk-4",
+          text: "She spelled words into my hand with her fingers, letter by letter, but for weeks I only copied the shapes like a game, with no idea that they meant anything at all.",
+          translation:
+            "선생님은 제 손에 손가락으로 글자를 하나하나 짚어 주며 단어를 알려 주었지만, 몇 주 동안 저는 그저 놀이처럼 그 모양을 따라 할 뿐, 그것이 무언가를 뜻한다는 것은 전혀 몰랐어요.",
+        },
+      ],
+      [
+        {
+          id: "hk-5",
+          text: "One morning she held my hand under the spout of the water pump in our garden and spelled \"w-a-t-e-r\" into my other hand as the cool water rushed over my fingers.",
+          translation:
+            "어느 날 아침, 선생님은 제 한쪽 손을 정원에 있는 수동 펌프의 물이 나오는 곳 아래에 대고, 차가운 물이 손가락 위로 쏟아지는 동안 다른 손에 \"w-a-t-e-r\"라고 짚어 주었어요.",
+        },
+        {
+          id: "hk-6",
+          text: "Suddenly I stood perfectly still, my whole attention fixed on the motion of her fingers.",
+          translation: "저는 갑자기 온몸을 멈춘 채, 선생님 손가락의 움직임에 온 신경을 집중했어요.",
+        },
+        {
+          id: "hk-7",
+          text: "Somehow the mystery of language was revealed to me, and I understood that \"w-a-t-e-r\" meant the wonderful cool something flowing over my hand.",
+          translation:
+            "어떻게인지 언어의 신비가 제게 드러났고, 저는 \"w-a-t-e-r\"가 제 손 위로 흐르는 그 놀랍도록 차가운 무언가를 뜻한다는 것을 깨달았어요.",
+        },
+      ],
+      [
+        {
+          id: "hk-8",
+          text: "That living word woke my soul, gave it light and hope and joy, and set it free.",
+          translation:
+            "그 살아 있는 단어는 제 영혼을 깨우고, 그것에 빛과 희망과 기쁨을 주었으며, 마침내 자유롭게 해 주었어요.",
+        },
+        {
+          id: "hk-9",
+          text: "I left the pump eager to learn. Everything around me now had a name, and each name gave birth to a new thought.",
+          translation:
+            "저는 배우고 싶다는 마음으로 펌프를 떠났어요. 이제 제 주위의 모든 것에는 이름이 있었고, 이름 하나하나가 새로운 생각을 낳았어요.",
+        },
+        {
+          id: "hk-10",
+          text: "As we walked back to the house, every object I touched seemed to quiver with a new life I could finally reach through language.",
+          translation:
+            "집으로 걸어 돌아오는 동안, 제가 만지는 모든 물건이 마치 생명을 얻은 듯 떨리는 것 같았어요. 이제 언어를 통해 그것에 닿을 수 있었기 때문이에요.",
+        },
+      ],
+      [
+        {
+          id: "hk-11",
+          text: "By the time I went to bed that night, I had learned thirty new words, and for the first time in my life I longed for a new day to come.",
+          translation:
+            "그날 밤 잠자리에 들 때쯤, 저는 서른 개의 새 단어를 배웠고, 태어나 처음으로 새로운 날이 오기를 간절히 기다렸어요.",
+        },
+        {
+          id: "hk-12",
+          text: "That single afternoon at the pump was the turning point of my whole life; from it grew every idea and every hope I later had.",
+          translation:
+            "펌프 앞에서 보낸 그 짧은 오후는 제 인생 전체의 전환점이었어요. 그때부터 훗날 제가 품게 될 모든 생각과 희망이 자라났어요.",
+        },
+        {
+          id: "hk-13",
+          text: "I went on to learn to read, write, and even speak, and I graduated from college with honors — the first deaf-blind person ever to do so — and spent the rest of my life writing and speaking for people with disabilities around the world.",
+          translation:
+            "저는 그 후 읽고 쓰는 법, 심지어 말하는 법까지 배웠고, 명예롭게 대학을 졸업한 최초의 시청각장애인이 되었으며, 남은 평생을 전 세계 장애인을 위해 글을 쓰고 강연하며 보냈어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hk-v1",
+        term: "deaf",
+        partOfSpeech: "adjective",
+        translation: "귀가 들리지 않는",
+        example: "An illness left me both deaf and blind.",
+        exampleTranslation: "병으로 저는 듣지도 보지도 못하게 되었어요.",
+      },
+      {
+        id: "hk-v2",
+        term: "spell",
+        partOfSpeech: "verb",
+        translation: "철자를 짚어 주다, 한 글자씩 표현하다",
+        example: "She spelled words into my hand with her fingers.",
+        exampleTranslation: "선생님은 제 손에 손가락으로 단어의 철자를 짚어 주었어요.",
+      },
+      {
+        id: "hk-v3",
+        term: "pump",
+        partOfSpeech: "noun",
+        translation: "펌프",
+        example: "She held my hand under the spout of the water pump.",
+        exampleTranslation: "선생님은 제 손을 물 펌프의 물이 나오는 곳 아래에 댔어요.",
+      },
+      {
+        id: "hk-v4",
+        term: "mystery",
+        partOfSpeech: "noun",
+        translation: "신비, 수수께끼",
+        example: "The mystery of language was revealed to me.",
+        exampleTranslation: "언어의 신비가 제게 드러났어요.",
+      },
+      {
+        id: "hk-v5",
+        term: "graduate",
+        partOfSpeech: "verb",
+        translation: "졸업하다",
+        example: "I graduated from college with honors.",
+        exampleTranslation: "저는 명예롭게 대학을 졸업했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hk-q1",
+        prompt: "Why did young Helen often break things and act out?",
+        options: [
+          "She was naturally unkind",
+          "She had no words to express what she wanted or felt",
+          "She disliked her teacher",
+          "She wanted attention from strangers",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Helen explains that she had no language for her wants or feelings, so her frustration came out as breaking things or striking out.",
+      },
+      {
+        id: "hk-q2",
+        prompt: "What made Helen suddenly understand the meaning of \"water\"?",
+        options: [
+          "She read the word in a book",
+          "Her teacher spelled it into her hand while cool water ran over her other hand at the pump",
+          "She tasted water for the first time",
+          "Her teacher said the word loudly",
+        ],
+        correctIndex: 1,
+        explanation:
+          "At the water pump, feeling the cool water flow over one hand while \"water\" was spelled into the other suddenly connected the sign to its meaning.",
+      },
+      {
+        id: "hk-q3",
+        prompt: "What did Helen go on to achieve later in life?",
+        options: [
+          "She became a famous water-pump inventor",
+          "She learned to read, write and speak, and graduated from college with honors",
+          "She returned to living without language",
+          "She became Anne Sullivan's teacher",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After that breakthrough, Helen eventually learned to read, write, and speak, becoming the first deaf-blind person to graduate from college with honors.",
+      },
+    ],
+  },
+  {
+    slug: "benjamin-franklin-autobiography",
+    title: "The Autobiography of Benjamin Franklin",
+    titleTranslation: "벤저민 프랭클린 자서전",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Biography",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Benjamin Franklin (1706–1790)",
+    coverEmoji: "🖋️",
+    coverImage: "/covers/benjamin-franklin-autobiography.svg",
+    source:
+      "Adapted from Benjamin Franklin's autobiography, written 1771–1790 and first published in French in 1791 (long in the public domain, Project Gutenberg #148). This simplified retelling and its Korean translation are original text written for SeoJae Story, covering his early apprenticeship, self-taught writing method, and the \"Silence Dogood\" letters.",
+    summaryPrompt:
+      "In 1–2 sentences, say how young Franklin secretly taught himself to write well, and what happened when his brother learned the truth about the Dogood letters.",
+    paragraphs: [
+      [
+        {
+          id: "bf-1",
+          text: "At twelve years old, I was made an apprentice to my brother James, who was a printer, and I lived and worked in his print shop for the next several years.",
+          translation:
+            "저는 열두 살에 인쇄업자였던 형 제임스의 견습생이 되어, 그 후 여러 해 동안 형의 인쇄소에서 살며 일했어요.",
+        },
+        {
+          id: "bf-2",
+          text: "I loved reading, but I owned very few books, so I borrowed and read anything I could find, often staying up half the night to finish a book I had to return by morning.",
+          translation:
+            "저는 책 읽기를 무척 좋아했지만 가진 책이 거의 없어서, 손에 잡히는 대로 무엇이든 빌려 읽었고, 아침까지 돌려줘야 하는 책을 다 읽으려고 밤을 반쯤 새우는 일도 많았어요.",
+        },
+        {
+          id: "bf-3",
+          text: "I wanted very much to write well, and I noticed that my own writing was clumsy next to the essays in a magazine I admired, so I set myself a private exercise.",
+          translation:
+            "저는 글을 잘 쓰고 싶은 마음이 컸는데, 제가 좋아하던 잡지의 글들에 비해 제 글이 서투르다는 것을 깨닫고, 스스로를 위한 연습을 하나 만들었어요.",
+        },
+      ],
+      [
+        {
+          id: "bf-4",
+          text: "I would read one of the magazine's essays closely, then put it away, wait a few days, and try to write it out again from memory, in my own words.",
+          translation:
+            "저는 그 잡지의 글 하나를 꼼꼼히 읽은 뒤 치워 두고, 며칠을 기다렸다가 그것을 제 나름의 말로 다시 써 보려고 애썼어요.",
+        },
+        {
+          id: "bf-5",
+          text: "Afterward I compared my version with the original, corrected my faults, and sometimes even turned the essay into verse and back into prose again, just to master new words and better sentences.",
+          translation:
+            "그 후에는 제가 쓴 글을 원문과 비교해 잘못된 부분을 고쳤고, 때로는 그 글을 운문으로 바꾸었다가 다시 산문으로 바꾸기도 했어요. 그저 새로운 단어와 더 좋은 문장을 익히기 위해서였지요.",
+        },
+        {
+          id: "bf-6",
+          text: "By this quiet, patient method, carried on almost every night for over a year, I taught myself to write far better than any school could have taught me.",
+          translation:
+            "일 년이 넘도록 거의 매일 밤 계속한 이 조용하고 꾸준한 방법으로, 저는 어떤 학교에서도 배울 수 없을 만큼 훨씬 좋은 글쓰기를 스스로 익혔어요.",
+        },
+      ],
+      [
+        {
+          id: "bf-7",
+          text: "Around this time, I began secretly writing letters to my brother's newspaper under the name of a made-up widow, Mrs. Silence Dogood, and slipping them under the print-shop door at night.",
+          translation:
+            "이 무렵 저는 형의 신문에 사일런스 도굿 부인이라는 지어낸 과부의 이름으로 몰래 편지를 쓰기 시작했고, 밤마다 그것을 인쇄소 문틈으로 밀어 넣었어요.",
+        },
+        {
+          id: "bf-8",
+          text: "To my delight, the letters were printed, and my brother and his friends praised \"Mrs. Dogood\" highly, arguing over who the clever writer might really be, never once suspecting me.",
+          translation:
+            "기쁘게도 그 편지들은 신문에 실렸고, 형과 그 친구들은 '도굿 부인'을 크게 칭찬하며 그 영리한 글쓴이가 누구일지 서로 다투어 추측했지만, 저라고는 조금도 의심하지 않았어요.",
+        },
+        {
+          id: "bf-9",
+          text: "I kept up the secret for months, hardly able to hide my pleasure at hearing my own work praised by men who thought so little of my ordinary writing.",
+          translation:
+            "저는 몇 달 동안 그 비밀을 지켰는데, 평소 제 글솜씨를 대수롭지 않게 여기던 사람들이 제 글을 칭찬하는 걸 들으면서도 기쁜 마음을 감추기가 쉽지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "bf-10",
+          text: "When I finally admitted that I was the true author, my brother was not proud of me at all — he grew jealous and began treating me more harshly than before.",
+          translation:
+            "마침내 제가 진짜 작가라고 밝히자, 형은 저를 자랑스러워하기는커녕 오히려 질투하며 전보다 더 심하게 저를 대했어요.",
+        },
+        {
+          id: "bf-11",
+          text: "The harder he was on me, the more I longed to be free of my apprenticeship, until at seventeen I quietly left his shop and sailed to Philadelphia to start again with almost nothing in my pockets.",
+          translation:
+            "형이 저를 심하게 대할수록 저는 견습 생활에서 벗어나고 싶은 마음이 커졌고, 결국 열일곱 살에 조용히 인쇄소를 떠나 주머니에 거의 아무것도 없이 새로 시작하려고 필라델피아로 떠났어요.",
+        },
+        {
+          id: "bf-12",
+          text: "In that new city I built a printing business, a newspaper, and eventually a public library, and spent the rest of my long life writing, inventing, and helping to found a new nation.",
+          translation:
+            "그 새로운 도시에서 저는 인쇄 사업과 신문사, 그리고 훗날에는 공공 도서관까지 세웠고, 남은 긴 생애 동안 글을 쓰고 발명을 하며 새로운 나라를 세우는 일을 도우며 살았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "bf-v1",
+        term: "apprentice",
+        partOfSpeech: "noun",
+        translation: "견습생, 도제",
+        example: "At twelve years old, I was made an apprentice to my brother James.",
+        exampleTranslation: "저는 열두 살에 형 제임스의 견습생이 되었어요.",
+      },
+      {
+        id: "bf-v2",
+        term: "printer",
+        partOfSpeech: "noun",
+        translation: "인쇄업자, 인쇄공",
+        example: "My brother James was a printer.",
+        exampleTranslation: "제 형 제임스는 인쇄업자였어요.",
+      },
+      {
+        id: "bf-v3",
+        term: "clumsy",
+        partOfSpeech: "adjective",
+        translation: "서투른, 어설픈",
+        example: "My own writing was clumsy next to the essays I admired.",
+        exampleTranslation: "제가 좋아하던 글들에 비해 제 글은 서툴렀어요.",
+      },
+      {
+        id: "bf-v4",
+        term: "praise",
+        partOfSpeech: "verb",
+        translation: "칭찬하다",
+        example: "My brother and his friends praised \"Mrs. Dogood\" highly.",
+        exampleTranslation: "형과 그 친구들은 '도굿 부인'을 크게 칭찬했어요.",
+      },
+      {
+        id: "bf-v5",
+        term: "jealous",
+        partOfSpeech: "adjective",
+        translation: "질투하는",
+        example: "He grew jealous and began treating me more harshly.",
+        exampleTranslation: "형은 질투하며 저를 더 심하게 대하기 시작했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "bf-q1",
+        prompt: "How did young Franklin teach himself to write better?",
+        options: [
+          "He took writing classes at a private school",
+          "He copied his brother's letters word for word",
+          "He rewrote magazine essays from memory, then compared and corrected his version",
+          "He hired a tutor to review his work",
+        ],
+        correctIndex: 2,
+        explanation:
+          "He would read an essay, set it aside, try to rewrite it from memory in his own words, then compare his version with the original and fix his mistakes.",
+      },
+      {
+        id: "bf-q2",
+        prompt: "Why didn't anyone suspect Franklin was writing the \"Mrs. Silence Dogood\" letters?",
+        options: [
+          "He wrote them in a completely different language",
+          "He was known to be a poor writer, so no one imagined he could write them",
+          "He paid someone else to deliver them",
+          "His brother had asked him to write under that name",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The men praising the letters thought little of Franklin's ordinary writing, so it never occurred to them that he was secretly \"Mrs. Dogood.\"",
+      },
+      {
+        id: "bf-q3",
+        prompt: "How did Franklin's brother react when he learned the truth?",
+        options: [
+          "He was proud and gave Franklin more responsibility",
+          "He became jealous and treated Franklin more harshly",
+          "He forgave him and apologized for doubting him",
+          "He asked Franklin to keep writing more letters",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Rather than being proud, James grew jealous of his younger brother's talent and began treating him more harshly, which pushed Franklin to eventually leave for Philadelphia.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
