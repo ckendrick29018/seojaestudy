@@ -34,6 +34,13 @@ export interface Article {
   readingMinutes: number;
   keywords: string[];
   sections: ArticleSection[];
+  /**
+   * Where the "Put it into practice" CTA at the end of the article sends the
+   * reader. Falls back to the generic library/classics CTA when omitted —
+   * used for articles (like the CEFR guide) whose own body already ends on
+   * the right specific links.
+   */
+  practiceCta?: { href: string; label: string };
 }
 
 export const ARTICLES: Article[] = [
@@ -46,6 +53,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-11",
     dateModified: "2026-09-11",
     readingMinutes: 7,
+    practiceCta: { href: "/lesson/little-red-riding-hood", label: "Read Little Red Riding Hood (A1)" },
     keywords: [
       "learn English by reading",
       "how to learn English through stories",
@@ -116,6 +124,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-11",
     dateModified: "2026-09-11",
     readingMinutes: 8,
+    practiceCta: { href: "/lesson/heungbu-and-nolbu", label: "Read 흥부와 놀부 (A1)" },
     keywords: [
       "learn Korean by reading",
       "how to learn Korean through stories",
@@ -257,6 +266,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-11",
     dateModified: "2026-09-11",
     readingMinutes: 9,
+    practiceCta: { href: "/lesson/pride-and-prejudice", label: "Start with Pride and Prejudice (A1)" },
     keywords: [
       "best classic short stories for language learners",
       "free classic stories to read online",
@@ -350,6 +360,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-11",
     dateModified: "2026-09-11",
     readingMinutes: 7,
+    practiceCta: { href: "/lesson/cinderella", label: "Try it in Cinderella" },
     keywords: [
       "parallel text reading",
       "side by side translation method",
@@ -414,6 +425,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-11",
     dateModified: "2026-09-11",
     readingMinutes: 8,
+    practiceCta: { href: "/folktales", label: "Browse Korean-origin stories" },
     keywords: [
       "best classic novels to learn Korean",
       "read Korean literature for beginners",
@@ -507,6 +519,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-16",
     dateModified: "2026-09-16",
     readingMinutes: 7,
+    practiceCta: { href: "/lesson/snow-white", label: "Try the flashcards in Snow White" },
     keywords: [
       "spaced repetition flashcards",
       "how to remember vocabulary",
@@ -577,6 +590,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-16",
     dateModified: "2026-09-16",
     readingMinutes: 7,
+    practiceCta: { href: "/lesson/the-happy-prince", label: "Listen while you read" },
     keywords: [
       "listening while reading method",
       "learn a language by listening",
@@ -646,6 +660,7 @@ export const ARTICLES: Article[] = [
     datePublished: "2026-09-16",
     dateModified: "2026-09-16",
     readingMinutes: 6,
+    practiceCta: { href: "/club", label: "Start a book club" },
     keywords: [
       "language learning book club",
       "start a book club online",

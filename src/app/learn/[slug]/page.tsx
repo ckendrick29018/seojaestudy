@@ -85,18 +85,37 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         <div className="mt-10 rounded-xl2 border border-rose-light/50 bg-sage/20 p-5 text-center lg:p-8">
           <p className="text-sm text-charcoal/70">Put it into practice</p>
           <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:justify-center">
-            <Link
-              href="/library"
-              className="inline-flex items-center justify-center rounded-full bg-rose px-5 py-2.5 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
-            >
-              Browse the library
-            </Link>
-            <Link
-              href="/classics"
-              className="inline-flex items-center justify-center rounded-full border border-rose-soft/50 px-5 py-2.5 text-sm font-semibold text-rose transition hover:bg-rose-light/30"
-            >
-              Read a classic
-            </Link>
+            {article.practiceCta ? (
+              <>
+                <Link
+                  href={article.practiceCta.href}
+                  className="inline-flex items-center justify-center rounded-full bg-rose px-5 py-2.5 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
+                >
+                  {article.practiceCta.label}
+                </Link>
+                <Link
+                  href="/library"
+                  className="inline-flex items-center justify-center rounded-full border border-rose-soft/50 px-5 py-2.5 text-sm font-semibold text-rose transition hover:bg-rose-light/30"
+                >
+                  Browse the library
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/library"
+                  className="inline-flex items-center justify-center rounded-full bg-rose px-5 py-2.5 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
+                >
+                  Browse the library
+                </Link>
+                <Link
+                  href="/classics"
+                  className="inline-flex items-center justify-center rounded-full border border-rose-soft/50 px-5 py-2.5 text-sm font-semibold text-rose transition hover:bg-rose-light/30"
+                >
+                  Read a classic
+                </Link>
+              </>
+            )}
           </div>
         </div>
 
