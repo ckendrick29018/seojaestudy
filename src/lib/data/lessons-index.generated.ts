@@ -2219,5 +2219,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-snail-bride.svg",
     "source": "Based on 우렁각시 (Ureong Gaksi, \"The Snail Bride\"), a well-known Korean folktale from the oral tradition, long in the public domain; this retelling uses the gentler traditional ending in which the couple outwits the greedy magistrate and stays together, rather than the sadder variant in which they are separated. This retelling and its English translation are original text written for SeoJae Story.",
     "readingMinutes": 2
+  },
+  {
+    "slug": "the-fisherman-and-his-wife",
+    "title": "The Fisherman and His Wife",
+    "titleTranslation": "어부와 그의 아내",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🐟",
+    "coverImage": "/covers/the-fisherman-and-his-wife.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"The Fisherman and His Wife\" (\"Von dem Fischer un syner Fru\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 2
+  },
+  {
+    "slug": "amos-barton",
+    "title": "Amos Barton",
+    "titleTranslation": "에이모스 바턴",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "George Eliot (1880)",
+    "coverEmoji": "⛪",
+    "coverImage": "/covers/amos-barton.svg",
+    "source": "Adapted from the opening chapter of \"The Sad Fortunes of the Reverend Amos Barton,\" the first story in George Eliot's Scenes of Clerical Life (1857; Project Gutenberg #17780, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

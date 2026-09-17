@@ -29164,6 +29164,412 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-fisherman-and-his-wife",
+    title: "The Fisherman and His Wife",
+    titleTranslation: "어부와 그의 아내",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🐟",
+    coverImage: "/covers/the-fisherman-and-his-wife.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"The Fisherman and His Wife\" (\"Von dem Fischer un syner Fru\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the wife's final wish was, and what happened to the fisherman and his wife because of it.",
+    paragraphs: [
+      [
+        {
+          id: "fw-1",
+          text: "A poor fisherman and his wife lived together in a small, dirty hut by the sea.",
+          translation: "가난한 어부와 그의 아내는 바닷가의 작고 지저분한 오두막에서 함께 살았어요.",
+        },
+        {
+          id: "fw-2",
+          text: "One day, the fisherman caught a huge fish that could talk.",
+          translation: "어느 날, 어부는 말을 할 수 있는 커다란 물고기를 한 마리 잡았어요.",
+        },
+        {
+          id: "fw-3",
+          text: "The fish begged to be set free, and said he was really an enchanted prince.",
+          translation: "그 물고기는 풀어 달라고 애원하며, 사실 자신은 마법에 걸린 왕자라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "fw-4",
+          text: "The kind fisherman let the fish go without asking for anything in return.",
+          translation: "마음씨 착한 어부는 아무런 대가도 바라지 않고 물고기를 놓아주었어요.",
+        },
+        {
+          id: "fw-5",
+          text: "When he told his wife, she scolded him for not making even one wish.",
+          translation: "그가 이 이야기를 아내에게 하자, 그녀는 소원을 하나도 빌지 않았다며 그를 나무랐어요.",
+        },
+        {
+          id: "fw-6",
+          text: "She sent him back to the sea to ask for a nice little cottage instead of their hut.",
+          translation: "그녀는 오두막 대신 아담한 집을 하나 갖고 싶다며 남편을 다시 바다로 보냈어요.",
+        },
+      ],
+      [
+        {
+          id: "fw-7",
+          text: "The fisherman stood by the water and called out, and the fish appeared and granted the wish at once.",
+          translation: "어부가 물가에 서서 물고기를 부르자, 물고기가 나타나 즉시 소원을 들어주었어요.",
+        },
+        {
+          id: "fw-8",
+          text: "But soon the wife wanted more, and sent him back again and again — for a stone castle, then to be king, then emperor, then even pope.",
+          translation:
+            "하지만 곧 아내는 더 많은 것을 원했고, 남편을 몇 번이고 다시 보냈어요. 돌로 된 성을, 그다음엔 왕이 되기를, 그다음엔 황제를, 심지어 교황이 되기를 원했지요.",
+        },
+        {
+          id: "fw-9",
+          text: "Each time, the fish granted her wish, though the sea grew darker and stormier with every visit.",
+          translation: "매번 물고기는 소원을 들어주었지만, 어부가 찾아갈 때마다 바다는 점점 더 어둡고 사나워졌어요.",
+        },
+      ],
+      [
+        {
+          id: "fw-10",
+          text: "The fisherman felt more and more afraid, but his wife was never satisfied.",
+          translation: "어부는 점점 더 두려워졌지만, 아내는 도무지 만족하는 법이 없었어요.",
+        },
+        {
+          id: "fw-11",
+          text: "Finally, she said she wanted to control the sun and the moon themselves.",
+          translation: "마침내 그녀는 해와 달까지 마음대로 다스리고 싶다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "fw-12",
+          text: "Trembling, the fisherman walked to the sea one last time under a black, thundering sky.",
+          translation: "어부는 벌벌 떨며, 천둥 치는 검은 하늘 아래 마지막으로 바다를 찾아갔어요.",
+        },
+        {
+          id: "fw-13",
+          text: "He called for the fish and made his wife's final wish.",
+          translation: "그는 물고기를 불러 아내의 마지막 소원을 전했어요.",
+        },
+        {
+          id: "fw-14",
+          text: "The fish said nothing this time, and simply told him, \"Go home — she is sitting in your old hut again.\"",
+          translation: "이번에는 물고기가 아무 말도 하지 않고, 그저 이렇게 말했어요. \"집으로 돌아가라. 그녀는 다시 옛날 오두막에 앉아 있을 것이다.\"",
+        },
+      ],
+      [
+        {
+          id: "fw-15",
+          text: "The fisherman walked home and found everything exactly as the fish had said.",
+          translation: "어부가 집으로 돌아가 보니, 모든 것이 물고기의 말 그대로였어요.",
+        },
+        {
+          id: "fw-16",
+          text: "The castle, the crown, and all their riches were gone, and only the small, dirty hut remained.",
+          translation: "성도, 왕관도, 그 많던 재물도 모두 사라지고, 작고 지저분한 오두막만 남아 있었어요.",
+        },
+        {
+          id: "fw-17",
+          text: "And there the fisherman and his wife stayed, with nothing more than they had at the very beginning.",
+          translation: "그렇게 어부와 그의 아내는 처음 그대로의 모습으로 그곳에 계속 살게 되었답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "fw-v1",
+        term: "enchanted",
+        partOfSpeech: "adjective",
+        translation: "마법에 걸린",
+        example: "The fish begged to be set free, and said he was really an enchanted prince.",
+        exampleTranslation: "그 물고기는 풀어 달라고 애원하며, 사실 자신은 마법에 걸린 왕자라고 말했어요.",
+      },
+      {
+        id: "fw-v2",
+        term: "scold",
+        partOfSpeech: "verb",
+        translation: "꾸짖다, 나무라다",
+        example: "she scolded him for not making even one wish.",
+        exampleTranslation: "그녀는 소원을 하나도 빌지 않았다며 그를 나무랐어요.",
+      },
+      {
+        id: "fw-v3",
+        term: "cottage",
+        partOfSpeech: "noun",
+        translation: "작은 집, 오두막집",
+        example: "She sent him back to the sea to ask for a nice little cottage instead of their hut.",
+        exampleTranslation: "그녀는 오두막 대신 아담한 집을 하나 갖고 싶다며 남편을 다시 바다로 보냈어요.",
+      },
+      {
+        id: "fw-v4",
+        term: "grant",
+        partOfSpeech: "verb",
+        translation: "(소원 등을) 들어주다",
+        example: "the fish appeared and granted the wish at once.",
+        exampleTranslation: "물고기가 나타나 즉시 소원을 들어주었어요.",
+      },
+      {
+        id: "fw-v5",
+        term: "thundering",
+        partOfSpeech: "adjective",
+        translation: "천둥이 치는",
+        example: "Trembling, the fisherman walked to the sea one last time under a black, thundering sky.",
+        exampleTranslation: "어부는 벌벌 떨며, 천둥 치는 검은 하늘 아래 마지막으로 바다를 찾아갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "fw-q1",
+        prompt: "Why did the fisherman's wife scold him after he caught the magic fish?",
+        options: [
+          "He let the fish go without asking for anything",
+          "He lost the fish before bringing it home",
+          "He asked for too many wishes at once",
+          "He told the fish where they lived",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The kind fisherman let the enchanted fish go without asking for anything in return, and his wife scolded him for not making even one wish.",
+      },
+      {
+        id: "fw-q2",
+        prompt: "What happened to the sea each time the fisherman went back with a new wish?",
+        options: [
+          "It stayed exactly the same",
+          "It grew calmer and more beautiful",
+          "It grew darker and stormier",
+          "It turned to solid ice",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Each time, the fish granted the wife's wish, though the sea grew darker and stormier with every visit — a sign of how far she had pushed her luck.",
+      },
+      {
+        id: "fw-q3",
+        prompt: "What did the fisherman and his wife have at the end of the story?",
+        options: [
+          "A grand castle and a crown",
+          "Control over the sun and moon",
+          "Only the small, dirty hut they started with",
+          "A cottage, smaller than the castle but still comfortable",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When the wife's final wish went too far, the fish said nothing and simply sent them home — and there, in the small, dirty hut, they stayed with nothing more than they had at the very beginning.",
+      },
+    ],
+  },
+  {
+    slug: "amos-barton",
+    title: "Amos Barton",
+    titleTranslation: "에이모스 바턴",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "George Eliot (1880)",
+    coverEmoji: "⛪",
+    coverImage: "/covers/amos-barton.svg",
+    source:
+      "Adapted from the opening chapter of \"The Sad Fortunes of the Reverend Amos Barton,\" the first story in George Eliot's Scenes of Clerical Life (1857; Project Gutenberg #17780, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the narrator asks readers to feel sympathy for someone as ordinary as Amos Barton.",
+    paragraphs: [
+      [
+        {
+          id: "ab-1",
+          text: "Twenty-five years ago, the little village church of Shepperton looked very different from the handsome building it later became.",
+          translation: "이십오 년 전, 셰퍼턴의 작은 마을 교회는 훗날의 근사한 모습과는 사뭇 다른 모습이었어요.",
+        },
+        {
+          id: "ab-2",
+          text: "Its curate back then was a plain, unremarkable man named Amos Barton, with a narrow face of no particular expression and a bald patch that crept higher every year.",
+          translation:
+            "그 시절 이곳의 부목사는 에이모스 바턴이라는 평범하고 눈에 띄지 않는 남자였는데, 딱히 이렇다 할 표정도 없는 좁은 얼굴에, 대머리는 해마다 조금씩 넓어져 갔어요.",
+        },
+        {
+          id: "ab-3",
+          text: "Villagers hurried past him with only a small nod, certain there was nothing about him worth a second glance.",
+          translation: "마을 사람들은 그에게 가볍게 고개만 끄덕이고는 서둘러 지나쳐 갔어요. 그에게는 두 번 쳐다볼 만한 것이 전혀 없다고 확신하면서요.",
+        },
+      ],
+      [
+        {
+          id: "ab-4",
+          text: "The narrator asks readers not to laugh at Amos too quickly, or dismiss him as simply dull.",
+          translation: "이야기를 들려주는 이는 독자들에게 에이모스를 너무 성급히 비웃거나 그저 따분한 사람으로 치부하지 말아 달라고 부탁해요.",
+        },
+        {
+          id: "ab-5",
+          text: "Even the most ordinary man's daily struggles, he insists, deserve a little sympathy.",
+          translation: "가장 평범한 사람의 하루하루의 어려움에도 약간의 동정심을 가질 만하다고 그는 힘주어 말해요.",
+        },
+        {
+          id: "ab-6",
+          text: "As curate, Amos earned only eighty pounds a year, yet he had a wife and six young children to feed and clothe.",
+          translation: "부목사로서 에이모스는 일 년에 겨우 팔십 파운드밖에 벌지 못했지만, 부양해야 할 아내와 어린 자녀 여섯 명이 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ab-7",
+          text: "No one, the narrator admits, could easily explain how such a small sum stretched to cover a family's weekly bread, coal, and shoes.",
+          translation:
+            "그렇게 적은 돈으로 매주 빵과 석탄과 신발 값을 어떻게 감당했는지, 이야기를 들려주는 이도 쉽게 설명하지 못한다고 인정해요.",
+        },
+        {
+          id: "ab-8",
+          text: "Yet Amos was fortunate in one great way: his wife, Milly, was gentle, patient, and devoted to him despite his plainness.",
+          translation:
+            "그러나 에이모스에게는 큰 행운이 하나 있었어요. 바로 아내 밀리였는데, 그녀는 남편의 평범함에도 불구하고 다정하고 인내심 많으며 헌신적이었어요.",
+        },
+        {
+          id: "ab-9",
+          text: "The narrator compares Amos to a homely, mongrel dog that nobody wants to pet, and confesses a lifelong fondness for exactly such overlooked creatures.",
+          translation:
+            "이야기를 들려주는 이는 에이모스를 아무도 쓰다듬어 주지 않는 평범하고 못생긴 잡종개에 비유하며, 자신은 평생 그렇게 외면받는 존재들에게 애정을 느껴 왔다고 고백해요.",
+        },
+      ],
+      [
+        {
+          id: "ab-10",
+          text: "It was, he says, precisely because Amos was so unremarkable that his wife's steady devotion felt like such a quiet miracle.",
+          translation: "바로 에이모스가 그토록 특별할 것 없는 사람이었기에, 아내의 한결같은 헌신이 더욱 조용한 기적처럼 느껴졌다고 그는 말해요.",
+        },
+        {
+          id: "ab-11",
+          text: "One evening, Milly sat mending the children's worn stockings by candlelight while Amos frowned over a stack of unpaid bills.",
+          translation: "어느 날 저녁, 밀리는 촛불 아래서 아이들의 낡은 양말을 꿰매고 있었고, 에이모스는 미납된 청구서 더미를 앞에 두고 얼굴을 찌푸리고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ab-12",
+          text: "He admitted that he did not know how they would manage until his next small payment arrived.",
+          translation: "그는 다음 봉급이 들어올 때까지 어떻게 버텨야 할지 모르겠다고 털어놓았어요.",
+        },
+        {
+          id: "ab-13",
+          text: "Milly only smiled and said they had always managed somehow before, and surely would again.",
+          translation: "밀리는 그저 미소 지으며, 지금까지도 언제나 어떻게든 헤쳐 왔으니 이번에도 그럴 거라고 말했어요.",
+        },
+        {
+          id: "ab-14",
+          text: "Amos took some quiet comfort from her calm faith, though his own worry did not fully disappear.",
+          translation: "에이모스는 그녀의 차분한 믿음에서 얼마간 위안을 얻었지만, 그의 걱정이 완전히 사라지지는 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ab-15",
+          text: "The narrator closes by insisting that such quiet, unremarkable struggles are just as worthy of a story as any grand romance or tragedy.",
+          translation:
+            "이야기를 들려주는 이는, 이런 조용하고 평범한 고난도 그 어떤 거창한 로맨스나 비극 못지않게 이야기가 될 자격이 있다고 힘주어 말하며 글을 맺어요.",
+        },
+        {
+          id: "ab-16",
+          text: "Real patience and real love, he writes, are most often proven quietly, in lives that no one thinks to notice.",
+          translation: "그는 이렇게 써요. 진정한 인내와 진정한 사랑은 대개, 아무도 눈여겨보지 않는 삶 속에서 가장 조용히 증명되는 법이라고요.",
+        },
+        {
+          id: "ab-17",
+          text: "He urges his readers to look a little more kindly at the plain, ordinary people they pass every day.",
+          translation: "그는 독자들에게 매일 스쳐 지나가는 평범하고 눈에 띄지 않는 사람들을 조금 더 다정한 눈으로 바라봐 달라고 당부해요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ab-v1",
+        term: "curate",
+        partOfSpeech: "noun",
+        translation: "(교회의) 부목사, 보좌 신부",
+        example: "Its curate back then was a plain, unremarkable man named Amos Barton.",
+        exampleTranslation: "그 시절 이곳의 부목사는 에이모스 바턴이라는 평범하고 눈에 띄지 않는 남자였어요.",
+      },
+      {
+        id: "ab-v2",
+        term: "devoted",
+        partOfSpeech: "adjective",
+        translation: "헌신적인",
+        example: "his wife, Milly, was gentle, patient, and devoted to him despite his plainness.",
+        exampleTranslation: "아내 밀리였는데, 그녀는 남편의 평범함에도 불구하고 다정하고 인내심 많으며 헌신적이었어요.",
+      },
+      {
+        id: "ab-v3",
+        term: "mend",
+        partOfSpeech: "verb",
+        translation: "꿰매다, 수선하다",
+        example: "Milly sat mending the children's worn stockings by candlelight.",
+        exampleTranslation: "밀리는 촛불 아래서 아이들의 낡은 양말을 꿰매고 있었어요.",
+      },
+      {
+        id: "ab-v4",
+        term: "faith",
+        partOfSpeech: "noun",
+        translation: "믿음, 신념",
+        example: "Amos took some quiet comfort from her calm faith.",
+        exampleTranslation: "에이모스는 그녀의 차분한 믿음에서 얼마간 위안을 얻었어요.",
+      },
+      {
+        id: "ab-v5",
+        term: "unremarkable",
+        partOfSpeech: "adjective",
+        translation: "특별할 것 없는, 평범한",
+        example: "It was, he says, precisely because Amos was so unremarkable that his wife's steady devotion felt like such a quiet miracle.",
+        exampleTranslation: "바로 에이모스가 그토록 특별할 것 없는 사람이었기에, 아내의 한결같은 헌신이 더욱 조용한 기적처럼 느껴졌다고 그는 말해요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ab-q1",
+        prompt: "Why does the narrator ask readers not to laugh at Amos too quickly?",
+        options: [
+          "Because Amos is secretly wealthy",
+          "Because even an ordinary man's daily struggles deserve some sympathy",
+          "Because Amos is about to become famous",
+          "Because the villagers already love him deeply",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The narrator insists that even the most ordinary man's daily struggles deserve a little sympathy, rather than mockery.",
+      },
+      {
+        id: "ab-q2",
+        prompt: "What does the narrator compare Amos to, and why?",
+        options: [
+          "A prized show dog, because he is admired by everyone",
+          "A homely, mongrel dog that nobody wants to pet, because he confesses a lifelong fondness for such overlooked creatures",
+          "A wild animal, because he is unpredictable",
+          "A guard dog, because he protects his family fiercely",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The narrator compares Amos to a homely, mongrel dog nobody wants to pet, admitting a lifelong fondness for exactly such overlooked creatures.",
+      },
+      {
+        id: "ab-q3",
+        prompt: "How does Milly respond when Amos worries about their unpaid bills?",
+        options: [
+          "She scolds him for not earning more",
+          "She suggests they ask her family for money",
+          "She smiles and says they have always managed somehow before",
+          "She says they should sell the cottage",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Milly only smiles and says they had always managed somehow before, and surely would again — a calm faith that gives Amos some quiet comfort.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
