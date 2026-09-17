@@ -2347,5 +2347,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/dracula.svg",
     "source": "Adapted from the opening chapter of Bram Stoker's Dracula (1897; Project Gutenberg #345, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "snow-white-and-rose-red",
+    "title": "Snow-White and Rose-Red",
+    "titleTranslation": "눈처럼 하얀 소녀와 장미처럼 빨간 소녀",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🐻",
+    "coverImage": "/covers/snow-white-and-rose-red.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"Snow-White and Rose-Red\" (\"Schneeweißchen und Rosenrot\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain) — a different tale from the shelf's earlier \"Snow White\" (\"Schneewittchen\"). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "treasure-island",
+    "title": "Treasure Island",
+    "titleTranslation": "보물섬",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Robert Louis Stevenson (1894)",
+    "coverEmoji": "🏴‍☠️",
+    "coverImage": "/covers/treasure-island.svg",
+    "source": "Adapted from Chapter 1 (\"The Old Sea-dog at the Admiral Benbow\") of Robert Louis Stevenson's Treasure Island (1883; Project Gutenberg #120, long in the public domain) — a second Stevenson pick on the shelf, after Dr. Jekyll and Mr. Hyde. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

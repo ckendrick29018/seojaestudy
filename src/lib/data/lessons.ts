@@ -30833,6 +30833,447 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "snow-white-and-rose-red",
+    title: "Snow-White and Rose-Red",
+    titleTranslation: "눈처럼 하얀 소녀와 장미처럼 빨간 소녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🐻",
+    coverImage: "/covers/snow-white-and-rose-red.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"Snow-White and Rose-Red\" (\"Schneeweißchen und Rosenrot\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain) — a different tale from the shelf's earlier \"Snow White\" (\"Schneewittchen\"). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the bear and the dwarf were connected, and what happened once the dwarf was finally driven away.",
+    paragraphs: [
+      [
+        {
+          id: "swrr-1",
+          text: "Snow-White and Rose-Red were two sisters who lived with their mother in a small cottage.",
+          translation: "스노우화이트와 로즈레드는 어머니와 함께 작은 오두막집에 사는 두 자매였어요.",
+        },
+        {
+          id: "swrr-2",
+          text: "Two rose trees grew by their door, one with white flowers and one with red.",
+          translation:
+            "그들의 문 옆에는 장미나무 두 그루가 자라고 있었는데, 하나는 흰 꽃을, 다른 하나는 빨간 꽃을 피웠어요.",
+        },
+        {
+          id: "swrr-3",
+          text: "The sisters loved each other so much that they always held hands when they walked together.",
+          translation: "자매는 서로를 너무나 사랑해서 함께 걸을 때면 항상 손을 잡았어요.",
+        },
+      ],
+      [
+        {
+          id: "swrr-4",
+          text: "Wild animals never harmed the girls, and a little hare, a deer, and birds all came close to them without fear.",
+          translation:
+            "야생 동물들은 결코 그들을 해치지 않았고, 작은 토끼와 사슴과 새들도 두려움 없이 가까이 다가왔어요.",
+        },
+        {
+          id: "swrr-5",
+          text: "One winter evening, someone knocked at the door, and it turned out to be a big black bear looking for warmth.",
+          translation: "어느 겨울 저녁, 누군가 문을 두드렸는데 알고 보니 몸을 녹이러 온 커다란 검은 곰이었어요.",
+        },
+        {
+          id: "swrr-6",
+          text: "Their mother welcomed him in, and soon the girls were playing happily with the gentle bear by the fire.",
+          translation: "어머니는 곰을 반갑게 맞아들였고, 곧 자매는 난롯가에서 그 온순한 곰과 즐겁게 놀았어요.",
+        },
+      ],
+      [
+        {
+          id: "swrr-7",
+          text: "All winter long, the bear came back every evening to warm himself and play with the children.",
+          translation: "겨우내 곰은 몸을 녹이고 아이들과 놀기 위해 매일 저녁 찾아왔어요.",
+        },
+        {
+          id: "swrr-8",
+          text: "When spring arrived, the bear said he had to leave to guard his treasure from the wicked dwarfs living underground.",
+          translation:
+            "봄이 되자 곰은 땅속에 사는 사악한 난쟁이들로부터 자신의 보물을 지키러 떠나야 한다고 말했어요.",
+        },
+        {
+          id: "swrr-9",
+          text: "As he hurried out the door, a piece of his fur coat caught on the latch, and Snow-White thought she saw gold shining beneath it.",
+          translation:
+            "곰이 서둘러 문을 나서다가 털가죽 한 조각이 문고리에 걸렸는데, 스노우화이트는 그 속에서 금빛이 반짝이는 것을 본 것 같았어요.",
+        },
+      ],
+      [
+        {
+          id: "swrr-10",
+          text: "Soon after, the sisters found a dwarf in the forest with his long white beard caught in a split tree trunk.",
+          translation: "얼마 후, 자매는 숲에서 길고 하얀 수염이 갈라진 나무줄기에 낀 난쟁이를 발견했어요.",
+        },
+        {
+          id: "swrr-11",
+          text: "Instead of thanking them, the dwarf grabbed his sack of gold and stomped away without a word.",
+          translation:
+            "난쟁이는 고맙다는 말 대신 금이 든 자루를 움켜쥐고 한마디 말도 없이 쿵쿵거리며 가버렸어요.",
+        },
+        {
+          id: "swrr-12",
+          text: "The sisters helped the same ungrateful dwarf two more times — once when his beard was tangled in a fishing line, and once when a great eagle tried to carry him away.",
+          translation:
+            "자매는 그 배은망덕한 난쟁이를 두 번 더 도와주었어요. 한 번은 수염이 낚싯줄에 엉켰을 때였고, 또 한 번은 커다란 독수리가 그를 채가려 했을 때였어요.",
+        },
+      ],
+      [
+        {
+          id: "swrr-13",
+          text: "Each time, the dwarf only complained about his torn coat or beard and hurried off with another bag of treasure.",
+          translation:
+            "그때마다 난쟁이는 찢어진 옷이나 수염에 대해 불평만 하며 또 다른 보물 자루를 들고 서둘러 떠났어요.",
+        },
+        {
+          id: "swrr-14",
+          text: "One evening, the sisters found the dwarf admiring a pile of glittering jewels when the bear suddenly appeared.",
+          translation:
+            "어느 날 저녁, 자매는 난쟁이가 반짝이는 보석 더미를 감상하고 있는 것을 발견했는데, 그때 갑자기 곰이 나타났어요.",
+        },
+        {
+          id: "swrr-15",
+          text: "Terrified, the dwarf begged the bear to eat the sisters instead of him, but the bear only chased the ungrateful dwarf away, and he was never seen near their home again.",
+          translation:
+            "겁에 질린 난쟁이는 자기 대신 자매를 잡아먹으라고 곰에게 애원했지만, 곰은 그 배은망덕한 난쟁이를 쫓아버리기만 했고, 그는 다시는 그들의 집 근처에서 보이지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "swrr-16",
+          text: "As the dwarf ran off, the bear's coat suddenly fell away, and a handsome prince stood before the astonished sisters.",
+          translation:
+            "난쟁이가 도망치자 곰의 털가죽이 갑자기 벗겨지더니, 깜짝 놀란 자매 앞에 잘생긴 왕자가 서 있었어요.",
+        },
+        {
+          id: "swrr-17",
+          text: "He explained that the dwarf's magic had turned him into a bear, and now that the spell was broken, Snow-White married the prince and Rose-Red married his brother, and their mother kept the two rose trees blooming outside her window for the rest of her life.",
+          translation:
+            "그는 난쟁이의 마법이 자신을 곰으로 만들었다고 설명했고, 이제 마법이 풀렸으니 스노우화이트는 왕자와, 로즈레드는 그의 동생과 결혼했으며, 어머니는 평생 창밖에 두 장미나무를 피워 두었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "swrr-v1",
+        term: "cottage",
+        partOfSpeech: "noun",
+        translation: "오두막집",
+        example: "Snow-White and Rose-Red were two sisters who lived with their mother in a small cottage.",
+        exampleTranslation: "스노우화이트와 로즈레드는 어머니와 함께 작은 오두막집에 사는 두 자매였어요.",
+      },
+      {
+        id: "swrr-v2",
+        term: "gentle",
+        partOfSpeech: "adjective",
+        translation: "온순한",
+        example: "Their mother welcomed him in, and soon the girls were playing happily with the gentle bear by the fire.",
+        exampleTranslation: "어머니는 곰을 반갑게 맞아들였고, 곧 자매는 난롯가에서 그 온순한 곰과 즐겁게 놀았어요.",
+      },
+      {
+        id: "swrr-v3",
+        term: "ungrateful",
+        partOfSpeech: "adjective",
+        translation: "배은망덕한",
+        example:
+          "The sisters helped the same ungrateful dwarf two more times — once when his beard was tangled in a fishing line, and once when a great eagle tried to carry him away.",
+        exampleTranslation:
+          "자매는 그 배은망덕한 난쟁이를 두 번 더 도와주었어요. 한 번은 수염이 낚싯줄에 엉켰을 때였고, 또 한 번은 커다란 독수리가 그를 채가려 했을 때였어요.",
+      },
+      {
+        id: "swrr-v4",
+        term: "glittering",
+        partOfSpeech: "adjective",
+        translation: "반짝이는",
+        example: "One evening, the sisters found the dwarf admiring a pile of glittering jewels when the bear suddenly appeared.",
+        exampleTranslation:
+          "어느 날 저녁, 자매는 난쟁이가 반짝이는 보석 더미를 감상하고 있는 것을 발견했는데, 그때 갑자기 곰이 나타났어요.",
+      },
+      {
+        id: "swrr-v5",
+        term: "astonished",
+        partOfSpeech: "adjective",
+        translation: "깜짝 놀란",
+        example: "As the dwarf ran off, the bear's coat suddenly fell away, and a handsome prince stood before the astonished sisters.",
+        exampleTranslation:
+          "난쟁이가 도망치자 곰의 털가죽이 갑자기 벗겨지더니, 깜짝 놀란 자매 앞에 잘생긴 왕자가 서 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "swrr-q1",
+        prompt: "What did the bear ask the family to do when he first arrived at their cottage?",
+        options: [
+          "Give him food and money",
+          "Let him warm himself by the fire during the winter",
+          "Take him to the dwarf's cave",
+          "Chase him back into the forest",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The bear only wanted to warm himself by the fire during the cold winter, and the family let him stay each evening.",
+      },
+      {
+        id: "swrr-q2",
+        prompt: "How did the dwarf react each time the sisters helped him?",
+        options: [
+          "He thanked them warmly and gave them a gift",
+          "He complained and ran off with his treasure without thanking them",
+          "He invited them to his home",
+          "He asked them to help him again the next day",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Each time, the dwarf only complained about his torn beard or coat and hurried away with another bag of treasure, never thanking the sisters.",
+      },
+      {
+        id: "swrr-q3",
+        prompt: "What happened after the bear chased the dwarf away for the last time?",
+        options: [
+          "The bear turned back into a prince, since the dwarf's magic was broken",
+          "The dwarf returned to steal the family's treasure",
+          "The bear disappeared into the forest forever",
+          "The sisters moved away to a new cottage",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Once the dwarf's magic was broken, the bear's coat fell away to reveal a prince underneath, and the sisters each married a prince.",
+      },
+    ],
+  },
+  {
+    slug: "treasure-island",
+    title: "Treasure Island",
+    titleTranslation: "보물섬",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Robert Louis Stevenson (1894)",
+    coverEmoji: "🏴‍☠️",
+    coverImage: "/covers/treasure-island.svg",
+    source:
+      "Adapted from Chapter 1 (\"The Old Sea-dog at the Admiral Benbow\") of Robert Louis Stevenson's Treasure Island (1883; Project Gutenberg #120, long in the public domain) — a second Stevenson pick on the shelf, after Dr. Jekyll and Mr. Hyde. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the captain threatened to do to Dr. Livesey, and how the doctor responded.",
+    paragraphs: [
+      [
+        {
+          id: "ti-1",
+          text: "Jim Hawkins's father kept a small inn by the sea, called the Admiral Benbow.",
+          translation: "짐 호킨스의 아버지는 바닷가에서 '애드미럴 벤보'라는 작은 여관을 운영했어요.",
+        },
+        {
+          id: "ti-2",
+          text: "One day, a rough old sailor arrived, carrying a heavy sea chest and singing a wild song about rum.",
+          translation:
+            "어느 날, 거칠어 보이는 늙은 선원이 무거운 선원용 궤짝을 끌고 와서는 럼주에 관한 거친 노래를 부르며 나타났어요.",
+        },
+        {
+          id: "ti-3",
+          text: "He asked to stay at the inn, calling himself only \"the captain,\" and paid with a handful of gold coins.",
+          translation:
+            "그는 자신을 그저 '선장'이라고만 부르며 여관에 묵겠다고 했고, 한 움큼의 금화로 값을 치렀어요.",
+        },
+      ],
+      [
+        {
+          id: "ti-4",
+          text: "All day he watched the sea through a brass telescope, and every evening he sat drinking rum by the fire.",
+          translation: "그는 하루 종일 놋쇠 망원경으로 바다를 지켜보았고, 저녁마다 난롯가에 앉아 럼주를 마셨어요.",
+        },
+        {
+          id: "ti-5",
+          text: "He told Jim to watch for a \"seafaring man with one leg\" and promised him a silver coin each month if he gave warning the moment such a man appeared.",
+          translation:
+            "그는 짐에게 '다리가 하나뿐인 뱃사람'을 잘 살펴보라고 했고, 그런 사람이 나타나는 순간 알려주면 매달 은화 한 닢을 주겠다고 약속했어요.",
+        },
+        {
+          id: "ti-6",
+          text: "The captain's wild stories of pirates and storms frightened the local people, yet they kept coming back for the thrill of it.",
+          translation:
+            "선장의 거친 해적과 폭풍 이야기는 마을 사람들을 두렵게 했지만, 그들은 그 짜릿함 때문에 계속 여관을 찾아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "ti-7",
+          text: "Week after week the captain stayed on without paying any more money, and Jim's father was too afraid of him to ask.",
+          translation:
+            "선장은 몇 주가 지나도록 돈을 더 내지 않고 계속 머물렀지만, 짐의 아버지는 그가 무서워 돈을 달라는 말을 꺼내지 못했어요.",
+        },
+        {
+          id: "ti-8",
+          text: "As Jim's father grew seriously ill, Dr. Livesey came one evening to examine him and stayed after dinner to smoke his pipe.",
+          translation:
+            "짐의 아버지의 병이 깊어지자, 어느 날 저녁 리브지 의사가 진찰하러 왔다가 저녁 식사 후 파이프 담배를 피우며 남아 있었어요.",
+        },
+        {
+          id: "ti-9",
+          text: "While the doctor sat talking quietly with the other guests, the captain suddenly began to sing his old song about \"the dead man's chest.\"",
+          translation:
+            "의사가 다른 손님들과 조용히 이야기를 나누고 있을 때, 선장이 갑자기 '죽은 자의 궤짝'에 관한 그 오래된 노래를 부르기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "ti-10",
+          text: "The captain slapped his hand on the table for silence, but Dr. Livesey kept talking calmly, as if nothing had happened.",
+          translation:
+            "선장은 조용히 하라며 손으로 탁자를 내리쳤지만, 리브지 의사는 아무 일도 없다는 듯 차분하게 계속 이야기했어요.",
+        },
+        {
+          id: "ti-11",
+          text: "Furious, the captain roared, \"Silence, there, between decks!\" and the doctor coolly asked if he was being addressed.",
+          translation:
+            "화가 난 선장이 \"조용히 해, 이 밑바닥 것들아!\" 하고 소리쳤고, 의사는 냉정하게 자신에게 하는 말이냐고 물었어요.",
+        },
+        {
+          id: "ti-12",
+          text: "When the captain answered with a curse, the doctor warned him that the world would be a cleaner place without such a scoundrel in it.",
+          translation:
+            "선장이 욕설로 대답하자, 의사는 그런 악당이 없어지면 세상이 더 깨끗해질 거라고 경고했어요.",
+        },
+      ],
+      [
+        {
+          id: "ti-13",
+          text: "The captain leapt to his feet, drew a sailor's knife, and threatened to pin the doctor to the wall.",
+          translation: "선장은 벌떡 일어나 뱃사람용 칼을 꺼내 들고는 의사를 벽에 꽂아버리겠다고 위협했어요.",
+        },
+        {
+          id: "ti-14",
+          text: "The doctor did not move an inch, and told him steadily that if he did not put the knife away at once, he would hang for it at the next assizes.",
+          translation:
+            "의사는 조금도 움직이지 않은 채, 당장 칼을 치우지 않으면 다음 재판에서 교수형을 당하게 될 거라고 침착하게 말했어요.",
+        },
+        {
+          id: "ti-15",
+          text: "The two men stared at each other in silence until the captain finally backed down, put away his knife, and sat back in his chair, grumbling like a beaten dog.",
+          translation:
+            "두 사람은 말없이 서로를 노려보았고, 결국 선장이 물러나 칼을 집어넣고는 얻어맞은 개처럼 투덜대며 의자에 다시 앉았어요.",
+        },
+      ],
+      [
+        {
+          id: "ti-16",
+          text: "Dr. Livesey then warned the captain that, as the local magistrate, he would now have an eye on him day and night.",
+          translation:
+            "리브지 의사는 이어서, 자신이 이 지역 치안판사이니 이제부터 밤낮으로 선장을 지켜보겠다고 경고했어요.",
+        },
+        {
+          id: "ti-17",
+          text: "If he ever heard even a single complaint against him, the doctor said, he would see the captain hunted down and driven out of the district for good.",
+          translation:
+            "만약 그에 대한 불평을 단 한 번이라도 듣게 된다면, 반드시 그를 찾아내어 이 지역에서 영원히 쫓아내겠다고 의사는 말했어요.",
+        },
+        {
+          id: "ti-18",
+          text: "Soon after, the doctor rode away, and the captain stayed unusually quiet for many evenings to come — though Jim could not yet know that this was only the beginning of the strange events the captain would bring to their door.",
+          translation:
+            "얼마 후 의사는 말을 타고 떠났고, 선장은 그 뒤로 여러 날 저녁 동안 유난히 조용했어요. 하지만 짐은 이것이 선장이 그들의 집에 불러올 이상한 사건들의 시작에 불과하다는 것을 아직 알지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ti-v1",
+        term: "telescope",
+        partOfSpeech: "noun",
+        translation: "망원경",
+        example: "All day he watched the sea through a brass telescope, and every evening he sat drinking rum by the fire.",
+        exampleTranslation: "그는 하루 종일 놋쇠 망원경으로 바다를 지켜보았고, 저녁마다 난롯가에 앉아 럼주를 마셨어요.",
+      },
+      {
+        id: "ti-v2",
+        term: "furious",
+        partOfSpeech: "adjective",
+        translation: "몹시 화가 난",
+        example:
+          "Furious, the captain roared, \"Silence, there, between decks!\" and the doctor coolly asked if he was being addressed.",
+        exampleTranslation:
+          "화가 난 선장이 \"조용히 해, 이 밑바닥 것들아!\" 하고 소리쳤고, 의사는 냉정하게 자신에게 하는 말이냐고 물었어요.",
+      },
+      {
+        id: "ti-v3",
+        term: "scoundrel",
+        partOfSpeech: "noun",
+        translation: "악당",
+        example:
+          "When the captain answered with a curse, the doctor warned him that the world would be a cleaner place without such a scoundrel in it.",
+        exampleTranslation: "선장이 욕설로 대답하자, 의사는 그런 악당이 없어지면 세상이 더 깨끗해질 거라고 경고했어요.",
+      },
+      {
+        id: "ti-v4",
+        term: "magistrate",
+        partOfSpeech: "noun",
+        translation: "치안판사",
+        example: "Dr. Livesey then warned the captain that, as the local magistrate, he would now have an eye on him day and night.",
+        exampleTranslation:
+          "리브지 의사는 이어서, 자신이 이 지역 치안판사이니 이제부터 밤낮으로 선장을 지켜보겠다고 경고했어요.",
+      },
+      {
+        id: "ti-v5",
+        term: "grumbling",
+        partOfSpeech: "adjective",
+        translation: "투덜대는",
+        example:
+          "The two men stared at each other in silence until the captain finally backed down, put away his knife, and sat back in his chair, grumbling like a beaten dog.",
+        exampleTranslation:
+          "두 사람은 말없이 서로를 노려보았고, 결국 선장이 물러나 칼을 집어넣고는 얻어맞은 개처럼 투덜대며 의자에 다시 앉았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ti-q1",
+        prompt: "What did the captain ask Jim to watch for, and what did he promise?",
+        options: [
+          "A one-legged seafaring man, promising a silver coin each month for a warning",
+          "A tax collector, promising to pay Jim's father's debts",
+          "A doctor, promising free medicine",
+          "A group of soldiers, promising protection",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The captain told Jim to watch for \"a seafaring man with one leg\" and promised a silver coin each month if Jim warned him the moment such a man appeared.",
+      },
+      {
+        id: "ti-q2",
+        prompt: "How did Dr. Livesey react when the captain drew his knife?",
+        options: [
+          "He ran out of the inn in fear",
+          "He did not move, and calmly warned the captain he would hang if he did not put the knife away",
+          "He called for the other guests to help him",
+          "He drew his own weapon in response",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The doctor stayed perfectly still and told the captain steadily that he would hang at the next assizes if he did not put the knife away at once.",
+      },
+      {
+        id: "ti-q3",
+        prompt: "What warning did Dr. Livesey give the captain after he backed down?",
+        options: [
+          "That he must leave the inn immediately",
+          "That he would be watched day and night as a magistrate, and hunted down over any complaint",
+          "That he must pay for everyone's drinks",
+          "That the inn would be closed permanently",
+        ],
+        correctIndex: 1,
+        explanation:
+          "As the local magistrate, Dr. Livesey warned the captain that he would now watch him day and night and have him hunted down over even a single complaint.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

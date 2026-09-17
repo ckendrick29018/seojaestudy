@@ -245,10 +245,24 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (142 — 112 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (144 — 114 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  fourth round), again filling gaps flagged directly below: **Briar Rose**
+  fifth round), again filling gaps flagged directly below: **Snow-White
+  and Rose-Red** (A1, classics) — a different Brothers Grimm tale from
+  the shelf's earlier "Snow White" ("Schneewittchen"); this one
+  ("Schneeweißchen und Rosenrot," PG#2591) follows two sisters, a gentle
+  bear who shelters with them all winter, and a small, ungrateful dwarf
+  they keep rescuing from one mishap after another — the source's one
+  violent beat (the dwarf's death) is softened to the bear simply
+  chasing him off for good, once the dwarf's magic breaks and the bear
+  turns back into a prince; and **Treasure Island** (B2, classics) —
+  Chapter 1 ("The Old Sea-dog at the Admiral Benbow") of Robert Louis
+  Stevenson's novel (PG#120), a second Stevenson pick after Dr. Jekyll
+  and Mr. Hyde: the menacing captain who lodges at Jim Hawkins's
+  father's inn, and Dr. Livesey's calm, steely stand-off when the
+  captain draws a knife on him. Before that, an
+  earlier batch the same day (fourth round): **Briar Rose**
   (A1, classics) — the Brothers Grimm tale also known as "Sleeping Beauty"
   (PG#2591, same collection as the shelf's other Grimm picks; this
   translation is gentle by default — no villain to soften, no violence at
@@ -486,7 +500,8 @@ has a genuine period cover/illustration in the public domain, download that into
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×24 (+Briar Rose), A2 ×25, B1 ×27, B2 ×30 (+Dracula) — 106 live; add
+  A1 ×25 (+Snow-White and Rose-Red), A2 ×25, B1 ×27, B2 ×31 (+Treasure
+  Island) — 108 live; add
   the folktales shelf
   (A1 ×3, A2 ×10, B1 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
@@ -495,7 +510,7 @@ has a genuine period cover/illustration in the public domain, download that into
   the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
   Why Cats and Dogs Don't Get Along, The Old Man with the Lump, The Snail
   Bride) for
-  121 lessons across both shelves. B1 and B2 are now
+  123 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -524,10 +539,12 @@ has a genuine period cover/illustration in the public domain, download that into
     and Mr. Utterson's dawning dread), and now **Dracula** (Bram Stoker —
     a third entirely fresh author in a row; Jonathan Harker's journal,
     the innkeeper's wife's warning about St. George's Eve, and the
-    villagers' charm against the evil eye) are live. Next: a second
-    Stevenson scene (e.g. the opening of *Treasure Island*), a second
-    Hardy scene, a seventh Wharton, or another fresh author (Hawthorne
-    for B2 specifically, and Melville, are both still unclaimed). Row 73
+    villagers' charm against the evil eye) are live, and now **Treasure
+    Island** (Robert Louis Stevenson — a second Stevenson scene, Ch. 1,
+    the menacing captain at the Admiral Benbow and Dr. Livesey's
+    knife-point stand-off) is live too. Next: a second Hardy scene, a
+    seventh Wharton, or another fresh author (Hawthorne for B2
+    specifically, and Melville, are both still unclaimed). Row 73
     (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
@@ -538,11 +555,15 @@ has a genuine period cover/illustration in the public domain, download that into
     violent ending dropped), **Rumpelstiltskin** (the miller's
     daughter, the little man who spins gold for a price, and the
     three-day guessing game for his name — this translation's ending was
-    already gentle, no softening needed), and now **Briar Rose** (also
+    already gentle, no softening needed), **Briar Rose** (also
     known as Sleeping Beauty — no villain to soften, just a curse turned
-    into a hundred-year sleep and a kiss that wakes the whole castle) are
-    live. Next: re-level a gentle A2 tale, since the shelf's gentle-by-
-    default Grimm tales are now largely built.
+    into a hundred-year sleep and a kiss that wakes the whole castle),
+    and now **Snow-White and Rose-Red** (a different Grimm tale from the
+    shelf's existing "Snow White" — a gentle bear, a small ungrateful
+    dwarf, and a happy double wedding once his magic breaks) are live.
+    Next: re-level a gentle A2 tale, since the shelf's gentle-by-default
+    Grimm tales are now genuinely thin — most of the well-known gentle
+    ones are built.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently
