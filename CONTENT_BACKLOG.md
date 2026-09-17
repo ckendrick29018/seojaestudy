@@ -245,10 +245,22 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (138 — 108 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (140 — 110 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  second round), again filling gaps flagged directly below: **The Goose
+  third round), again filling gaps flagged directly below: **Rumpelstiltskin**
+  (A1, classics) — the Brothers Grimm tale of the miller's daughter, the
+  little man who spins straw into gold for a price, and the three-day
+  guessing game for his name (PG#2591, same collection as the shelf's other
+  Grimm picks; this particular translation's ending is already gentle — the
+  dwarf just stamps his foot in a rage and storms off, no softening needed);
+  and **Dr. Jekyll and Mr. Hyde** (B2, classics) — the opening chapter
+  ("Story of the Door") of Robert Louis Stevenson's novel, Mr. Enfield's
+  account of the sinister Mr. Hyde trampling a child and paying for his
+  silence, and Mr. Utterson's quiet dread on realizing Hyde's name is
+  already tied to his old friend Dr. Jekyll's will — a second entirely
+  fresh B2 author in a row (PG#43). Before that, an earlier batch the same
+  day (second round): **The Goose
   Girl** (A1, classics) — the Brothers Grimm tale of a princess forced to
   trade places with her disloyal servant on the road, kept company in
   secret by her talking horse Falada, until an old king's quiet watching
@@ -463,8 +475,8 @@ has a genuine period cover/illustration in the public domain, download that into
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×22 (+The Goose Girl), A2 ×25, B1 ×27, B2 ×28 (+Far from the Madding
-  Crowd) — 102 live; add the folktales shelf
+  A1 ×23 (+Rumpelstiltskin), A2 ×25, B1 ×27, B2 ×29 (+Dr. Jekyll and Mr.
+  Hyde) — 104 live; add the folktales shelf
   (A1 ×3, A2 ×10, B1 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
@@ -472,7 +484,7 @@ has a genuine period cover/illustration in the public domain, download that into
   the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
   Why Cats and Dogs Don't Get Along, The Old Man with the Lump, The Snail
   Bride) for
-  117 lessons across both shelves. B1 and B2 are now
+  119 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -493,20 +505,29 @@ has a genuine period cover/illustration in the public domain, download that into
     Darrow and Sophy Viner on the Dover pier), **The Custom of
     the Country** (Wharton's sixth pick — Ch. 1, Undine Spragg's demand),
     **Amos Barton** (Eliot's second pick, from *Scenes of
-    Clerical Life*), and now **Far from the Madding Crowd** (Thomas
+    Clerical Life*), **Far from the Madding Crowd** (Thomas
     Hardy — an entirely fresh author; Ch. 1, Gabriel Oak and the vain
-    young woman on the wagon) are live. Next: a second Hardy scene, a
-    seventh Wharton, or another fresh author. Row 73
+    young woman on the wagon), and now **Dr. Jekyll and Mr. Hyde**
+    (Robert Louis Stevenson — a second entirely fresh author in a row;
+    "Story of the Door," Mr. Enfield's account of Hyde trampling a child
+    and Mr. Utterson's dawning dread) are live. Next: a second Stevenson
+    scene (e.g. the opening of *Treasure Island*), a second Hardy scene,
+    a seventh Wharton, or another fresh author (Hawthorne, Melville, and
+    Stoker are all unclaimed). Row 73
     (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
     **The Golden Bird** (the fox, the golden horse, and the princess),
     **The Fisherman and His Wife** (the flounder and the wife's
-    escalating wishes), and now **The Goose Girl** (the hidden princess,
+    escalating wishes), **The Goose Girl** (the hidden princess,
     the talking horse Falada, and the old king's quiet watching — its
-    violent ending dropped) are live. Next: another softened Grimm tale
-    (e.g. **Rumpelstiltskin**, dropping its violent ending), or re-level
-    a gentle A2 tale.
+    violent ending dropped), and now **Rumpelstiltskin** (the miller's
+    daughter, the little man who spins gold for a price, and the
+    three-day guessing game for his name — this translation's ending was
+    already gentle, no softening needed) are live. Next: another Grimm
+    tale that's gentle by default (e.g. **Briar Rose** / Sleeping
+    Beauty — no villain to soften, just a spindle, a hundred-year sleep,
+    and a kiss), or re-level a gentle A2 tale.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently

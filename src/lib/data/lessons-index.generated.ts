@@ -2283,5 +2283,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/far-from-the-madding-crowd.svg",
     "source": "Adapted from the opening of Chapter 1 (\"Description of Farmer Oak — An Incident\") of Thomas Hardy's Far from the Madding Crowd (1874; Project Gutenberg #27, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "rumpelstiltskin",
+    "title": "Rumpelstiltskin",
+    "titleTranslation": "룸펠슈틸츠킨",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🌾",
+    "coverImage": "/covers/rumpelstiltskin.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"Rumpelstiltskin\" (\"Rumpelstilzchen\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "dr-jekyll-and-mr-hyde",
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "titleTranslation": "지킬 박사와 하이드 씨",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Robert Louis Stevenson (1886)",
+    "coverEmoji": "🚪",
+    "coverImage": "/covers/dr-jekyll-and-mr-hyde.svg",
+    "source": "Adapted from the opening chapter (\"Story of the Door\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

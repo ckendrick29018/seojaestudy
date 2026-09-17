@@ -29975,6 +29975,430 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "rumpelstiltskin",
+    title: "Rumpelstiltskin",
+    titleTranslation: "룸펠슈틸츠킨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🌾",
+    coverImage: "/covers/rumpelstiltskin.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"Rumpelstiltskin\" (\"Rumpelstilzchen\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the queen promised the little man, and how she finally kept her child.",
+    paragraphs: [
+      [
+        {
+          id: "rum-1",
+          text: "A poor miller had a daughter who was clever and very beautiful.",
+          translation: "가난한 방앗간 주인에게는 영리하고 아주 아름다운 딸이 있었어요.",
+        },
+        {
+          id: "rum-2",
+          text: "One day, hoping to impress the king, the miller boasted that his daughter could spin straw into gold.",
+          translation: "어느 날, 방앗간 주인은 왕에게 잘 보이고 싶어서 딸이 짚을 금으로 자을 수 있다고 자랑했어요.",
+        },
+        {
+          id: "rum-3",
+          text: "The king was delighted to hear this, so he locked the girl in a room full of straw and told her to spin it into gold by morning.",
+          translation:
+            "왕은 그 말을 듣고 몹시 기뻐하며, 소녀를 짚이 가득한 방에 가두고 아침까지 그것을 금으로 자으라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "rum-4",
+          text: "Alone and afraid, the girl sat down and began to cry, for she had no idea how to spin straw into gold.",
+          translation: "혼자 남겨져 두려워진 소녀는 주저앉아 울기 시작했어요. 짚을 금으로 자을 방법을 전혀 몰랐기 때문이에요.",
+        },
+        {
+          id: "rum-5",
+          text: "Suddenly, a strange little man appeared and asked what she would give him if he spun the straw for her.",
+          translation:
+            "그때 갑자기 이상하게 생긴 작은 남자가 나타나서, 자기가 짚을 대신 자아 주면 무엇을 주겠느냐고 물었어요.",
+        },
+        {
+          id: "rum-6",
+          text: "She offered him her necklace, and by morning every last piece of straw had turned into gleaming gold.",
+          translation: "소녀는 자신의 목걸이를 주겠다고 했고, 아침이 되자 짚은 한 올도 남김없이 반짝이는 금으로 변해 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "rum-7",
+          text: "The greedy king only wanted more, so he locked her in an even bigger room of straw the next night.",
+          translation: "욕심 많은 왕은 그것만으로 만족하지 못하고, 다음 날 밤에는 그녀를 훨씬 더 큰 짚 방에 가두었어요.",
+        },
+        {
+          id: "rum-8",
+          text: "The little man returned, and this time she gave him her ring in exchange for another room of gold.",
+          translation: "작은 남자가 다시 찾아왔고, 이번에 소녀는 반지를 대가로 주고 또 한 방 가득한 금을 얻었어요.",
+        },
+        {
+          id: "rum-9",
+          text: "On the third night, with nothing left to give, she promised her future first child, and the king was so pleased with all the gold that he married her.",
+          translation:
+            "셋째 날 밤, 더 이상 줄 것이 없었던 소녀는 자신의 첫아이를 주겠다고 약속했고, 왕은 그 많은 금에 몹시 흡족해하며 그녀와 결혼했어요.",
+        },
+      ],
+      [
+        {
+          id: "rum-10",
+          text: "A year later, the new queen had a beautiful baby and completely forgot about her old promise.",
+          translation: "일 년 뒤, 새 왕비가 된 그녀는 아름다운 아기를 낳았고 예전의 약속은 까맣게 잊고 있었어요.",
+        },
+        {
+          id: "rum-11",
+          text: "But one day the little man came back and asked her to keep her word and give him the child.",
+          translation: "그런데 어느 날 그 작은 남자가 다시 나타나 약속을 지키라며 아이를 달라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "rum-12",
+          text: "The queen wept and offered him all the riches of the kingdom instead, but he refused every one of them.",
+          translation: "왕비는 눈물을 흘리며 나라의 모든 보물을 대신 주겠다고 했지만, 그는 그 어떤 것도 거절했어요.",
+        },
+        {
+          id: "rum-13",
+          text: "Finally, feeling sorry for her, he agreed to give her three days to guess his name — if she could, she might keep her child.",
+          translation:
+            "결국 그녀가 안쓰러웠던 그는 사흘의 시간을 줄 테니 자기 이름을 맞혀 보라고, 맞히면 아이를 지킬 수 있다고 했어요.",
+        },
+        {
+          id: "rum-14",
+          text: "The queen sent messengers across the land to gather every unusual name they could find.",
+          translation: "왕비는 온 나라에 사람을 보내 특이한 이름을 모조리 찾아오게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "rum-15",
+          text: "For two days, none of the names were right, but on the third day a messenger came back with strange news.",
+          translation: "이틀 동안 어떤 이름도 맞지 않았지만, 셋째 날 심부름꾼 한 명이 이상한 소식을 가지고 돌아왔어요.",
+        },
+        {
+          id: "rum-16",
+          text: "Deep in the forest, he had seen a little man dancing around a fire and singing a song that ended with the name \"Rumpelstiltskin.\"",
+          translation:
+            "숲속 깊은 곳에서 그는 작은 남자가 모닥불 주위를 돌며 춤을 추고, \"룸펠슈틸츠킨\"이라는 이름으로 끝나는 노래를 부르는 것을 보았다고 했어요.",
+        },
+        {
+          id: "rum-17",
+          text: "When the little man returned and heard the queen say his true name, he stamped his foot so hard in fury that he had to pull it out of the floor, and he stormed off, never to trouble her again.",
+          translation:
+            "작은 남자가 돌아와 왕비의 입에서 자기 진짜 이름을 듣자, 어찌나 화가 났던지 발을 바닥에 세게 굴러 발이 바닥에 박혀 버렸고, 그는 그것을 힘겹게 빼내고는 다시는 그녀를 괴롭히지 않고 떠나 버렸어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rum-v1",
+        term: "miller",
+        partOfSpeech: "noun",
+        translation: "방앗간 주인",
+        example: "A poor miller had a daughter who was clever and very beautiful.",
+        exampleTranslation: "가난한 방앗간 주인에게는 영리하고 아주 아름다운 딸이 있었어요.",
+      },
+      {
+        id: "rum-v2",
+        term: "spin",
+        partOfSpeech: "verb",
+        translation: "(실을) 잣다, 자아내다",
+        example: "One day, hoping to impress the king, the miller boasted that his daughter could spin straw into gold.",
+        exampleTranslation: "어느 날, 방앗간 주인은 왕에게 잘 보이고 싶어서 딸이 짚을 금으로 자을 수 있다고 자랑했어요.",
+      },
+      {
+        id: "rum-v3",
+        term: "greedy",
+        partOfSpeech: "adjective",
+        translation: "욕심 많은",
+        example: "The greedy king only wanted more, so he locked her in an even bigger room of straw the next night.",
+        exampleTranslation: "욕심 많은 왕은 그것만으로 만족하지 못하고, 다음 날 밤에는 그녀를 훨씬 더 큰 짚 방에 가두었어요.",
+      },
+      {
+        id: "rum-v4",
+        term: "promise",
+        partOfSpeech: "verb",
+        translation: "약속하다",
+        example:
+          "On the third night, with nothing left to give, she promised her future first child, and the king was so pleased with all the gold that he married her.",
+        exampleTranslation:
+          "셋째 날 밤, 더 이상 줄 것이 없었던 소녀는 자신의 첫아이를 주겠다고 약속했고, 왕은 그 많은 금에 몹시 흡족해하며 그녀와 결혼했어요.",
+      },
+      {
+        id: "rum-v5",
+        term: "fury",
+        partOfSpeech: "noun",
+        translation: "분노, 격노",
+        example:
+          "When the little man returned and heard the queen say his true name, he stamped his foot so hard in fury that he had to pull it out of the floor, and he stormed off, never to trouble her again.",
+        exampleTranslation:
+          "작은 남자가 돌아와 왕비의 입에서 자기 진짜 이름을 듣자, 어찌나 화가 났던지 발을 바닥에 세게 굴러 발이 바닥에 박혀 버렸고, 그는 그것을 힘겹게 빼내고는 다시는 그녀를 괴롭히지 않고 떠나 버렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rum-q1",
+        prompt: "Why did the king lock the miller's daughter in a room full of straw?",
+        options: [
+          "Because she had asked to prove her skill",
+          "Because the miller had boasted that she could spin straw into gold",
+          "Because she had broken a royal law",
+          "Because the king wanted to test her honesty",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The miller boasted to the king that his daughter could spin straw into gold, so the king locked her in a room full of straw to see it done.",
+      },
+      {
+        id: "rum-q2",
+        prompt: "What did the queen promise the little man in exchange for spinning the third room of straw into gold?",
+        options: ["Her crown", "Her necklace", "Her first child", "Her wedding ring"],
+        correctIndex: 2,
+        explanation:
+          "With nothing else left to give, she promised her future first child, and the little man spun the last room of gold in exchange.",
+      },
+      {
+        id: "rum-q3",
+        prompt: "How did the queen learn the little man's true name?",
+        options: [
+          "He told her himself out of guilt",
+          "A messenger overheard him singing it in the forest",
+          "She found it written in an old book",
+          "The king told her his name",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A messenger saw the little man dancing around a fire deep in the forest and heard him sing a song that revealed his name, Rumpelstiltskin.",
+      },
+    ],
+  },
+  {
+    slug: "dr-jekyll-and-mr-hyde",
+    title: "Dr. Jekyll and Mr. Hyde",
+    titleTranslation: "지킬 박사와 하이드 씨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Robert Louis Stevenson (1886)",
+    coverEmoji: "🚪",
+    coverImage: "/covers/dr-jekyll-and-mr-hyde.svg",
+    source:
+      "Adapted from the opening chapter (\"Story of the Door\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Mr. Enfield saw Mr. Hyde do, and why Mr. Utterson reacts so strangely once he hears the name.",
+    paragraphs: [
+      [
+        {
+          id: "djh-1",
+          text: "Mr. Utterson, a quiet and serious lawyer, often went for long Sunday walks with his distant cousin, Mr. Enfield.",
+          translation: "조용하고 진지한 변호사 어터슨 씨는 일요일마다 먼 친척인 엔필드 씨와 함께 긴 산책을 하곤 했어요.",
+        },
+        {
+          id: "djh-2",
+          text: "The two men rarely spoke much, yet they both treasured these walks more than almost anything else in their week.",
+          translation: "두 사람은 말을 많이 나누지는 않았지만, 이 산책을 한 주 중 거의 무엇보다도 소중히 여겼어요.",
+        },
+        {
+          id: "djh-3",
+          text: "One evening their path led them down a quiet side street, where a strange, neglected door stood among otherwise cheerful shopfronts.",
+          translation:
+            "어느 날 저녁, 두 사람의 길은 조용한 뒷골목으로 이어졌고, 그곳에는 명랑한 가게들 사이에 낡고 방치된 문 하나가 서 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "djh-4",
+          text: "Mr. Enfield pointed his cane at the door and said it reminded him of a very odd story.",
+          translation: "엔필드 씨는 지팡이로 그 문을 가리키며, 그 문을 보면 아주 이상한 이야기가 떠오른다고 말했어요.",
+        },
+        {
+          id: "djh-5",
+          text: "Walking home alone late one winter night, he had seen a small, unpleasant-looking man crash into a little girl running the other way.",
+          translation:
+            "어느 겨울밤 늦게 혼자 집으로 걸어가던 중, 그는 몸집이 작고 불쾌한 인상의 남자가 반대편에서 달려오던 어린 소녀와 부딪히는 것을 보았다고 했어요.",
+        },
+        {
+          id: "djh-6",
+          text: "The man had calmly trampled over the screaming child instead of stopping to help her.",
+          translation: "그 남자는 비명을 지르는 아이를 도와주기는커녕, 태연하게 짓밟고 지나가 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "djh-7",
+          text: "Furious, Mr. Enfield had chased the man down and, together with the girl's family, forced him to pay for the harm he had caused.",
+          translation:
+            "화가 난 엔필드 씨는 그 남자를 뒤쫓아 붙잡았고, 소녀의 가족과 함께 그가 저지른 잘못에 대한 대가를 치르게 했어요.",
+        },
+        {
+          id: "djh-8",
+          text: "To everyone's surprise, the man returned with real gold and a cheque signed with a name that was actually respected and well known.",
+          translation:
+            "놀랍게도 그 남자는 진짜 금화와 함께, 실제로는 존경받고 널리 알려진 이름으로 서명된 수표를 가지고 돌아왔어요.",
+        },
+        {
+          id: "djh-9",
+          text: "Mr. Enfield had never learned why such a respectable name was tied to such an unpleasant man, and he called the mysterious door \"Black Mail House\" ever since.",
+          translation:
+            "엔필드 씨는 그토록 존경받는 이름이 왜 그런 불쾌한 남자와 얽혀 있는지 끝내 알아내지 못했고, 그때부터 그 수상한 문을 \"협박의 집\"이라고 불렀어요.",
+        },
+      ],
+      [
+        {
+          id: "djh-10",
+          text: "Mr. Utterson listened closely and then asked, with unusual interest, for the name of the man who had trampled the child.",
+          translation:
+            "어터슨 씨는 귀 기울여 듣더니, 평소답지 않은 관심을 보이며 그 아이를 밟고 지나간 남자의 이름을 물었어요.",
+        },
+        {
+          id: "djh-11",
+          text: "\"His name was Hyde,\" said Mr. Enfield, though he admitted he could barely describe the man's strange, unsettling appearance.",
+          translation:
+            "\"그의 이름은 하이드였습니다.\" 엔필드 씨가 말했어요. 하지만 그 남자의 기이하고 불안한 인상을 제대로 설명하기는 어렵다고 인정했어요.",
+        },
+        {
+          id: "djh-12",
+          text: "At the sound of that name, Mr. Utterson fell silent and grew visibly troubled, though he said nothing more about it.",
+          translation: "그 이름을 듣자 어터슨 씨는 말을 잃고 눈에 띄게 불안한 기색을 보였지만, 그것에 대해 더는 아무 말도 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "djh-13",
+          text: "That night, alone in his study, Mr. Utterson took out the private will of his old friend, Dr. Jekyll.",
+          translation: "그날 밤, 서재에 홀로 있던 어터슨 씨는 오랜 친구인 지킬 박사의 개인 유언장을 꺼내 보았어요.",
+        },
+        {
+          id: "djh-14",
+          text: "The will stated that if Dr. Jekyll ever disappeared, everything he owned would pass to a man named Edward Hyde.",
+          translation: "그 유언장에는 만약 지킬 박사가 실종될 경우, 그의 모든 재산이 에드워드 하이드라는 남자에게 넘어간다고 적혀 있었어요.",
+        },
+        {
+          id: "djh-15",
+          text: "Mr. Utterson had always disliked this strange arrangement, and now that he had heard what kind of man Hyde truly was, it troubled him even more.",
+          translation:
+            "어터슨 씨는 예전부터 이 이상한 조항이 마음에 들지 않았는데, 하이드가 어떤 사람인지 직접 듣고 나니 더욱 불안해졌어요.",
+        },
+      ],
+      [
+        {
+          id: "djh-16",
+          text: "He wondered whether this Mr. Hyde was somehow blackmailing his old friend, or whether something far stranger connected the two men.",
+          translation:
+            "그는 이 하이드라는 남자가 오랜 친구를 협박하고 있는 것인지, 아니면 그보다 훨씬 이상한 사연이 두 사람을 잇고 있는 것인지 궁금해졌어요.",
+        },
+        {
+          id: "djh-17",
+          text: "Closing the will, he quietly resolved to find this Mr. Hyde and see the man's face for himself.",
+          translation: "유언장을 덮으며, 그는 이 하이드라는 사람을 직접 찾아내어 그 얼굴을 두 눈으로 보겠다고 조용히 결심했어요.",
+        },
+        {
+          id: "djh-18",
+          text: "If Hyde truly had some dark hold over Henry Jekyll, Mr. Utterson meant to uncover it, whatever the mystery behind that door might be.",
+          translation:
+            "만약 하이드가 정말로 헨리 지킬에게 어떤 어두운 영향력을 쥐고 있다면, 그 문 뒤에 어떤 비밀이 있든 어터슨 씨는 반드시 밝혀내겠다고 마음먹었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "djh-v1",
+        term: "neglected",
+        partOfSpeech: "adjective",
+        translation: "방치된",
+        example:
+          "One evening their path led them down a quiet side street, where a strange, neglected door stood among otherwise cheerful shopfronts.",
+        exampleTranslation:
+          "어느 날 저녁, 두 사람의 길은 조용한 뒷골목으로 이어졌고, 그곳에는 명랑한 가게들 사이에 낡고 방치된 문 하나가 서 있었어요.",
+      },
+      {
+        id: "djh-v2",
+        term: "trample",
+        partOfSpeech: "verb",
+        translation: "짓밟다",
+        example: "The man had calmly trampled over the screaming child instead of stopping to help her.",
+        exampleTranslation: "그 남자는 비명을 지르는 아이를 도와주기는커녕, 태연하게 짓밟고 지나가 버렸어요.",
+      },
+      {
+        id: "djh-v3",
+        term: "respectable",
+        partOfSpeech: "adjective",
+        translation: "존경할 만한",
+        example:
+          "Mr. Enfield had never learned why such a respectable name was tied to such an unpleasant man, and he called the mysterious door \"Black Mail House\" ever since.",
+        exampleTranslation:
+          "엔필드 씨는 그토록 존경받는 이름이 왜 그런 불쾌한 남자와 얽혀 있는지 끝내 알아내지 못했고, 그때부터 그 수상한 문을 \"협박의 집\"이라고 불렀어요.",
+      },
+      {
+        id: "djh-v4",
+        term: "blackmail",
+        partOfSpeech: "verb",
+        translation: "협박하다, 갈취하다",
+        example: "He wondered whether this Mr. Hyde was somehow blackmailing his old friend, or whether something far stranger connected the two men.",
+        exampleTranslation:
+          "그는 이 하이드라는 남자가 오랜 친구를 협박하고 있는 것인지, 아니면 그보다 훨씬 이상한 사연이 두 사람을 잇고 있는 것인지 궁금해졌어요.",
+      },
+      {
+        id: "djh-v5",
+        term: "resolve",
+        partOfSpeech: "verb",
+        translation: "결심하다",
+        example: "Closing the will, he quietly resolved to find this Mr. Hyde and see the man's face for himself.",
+        exampleTranslation: "유언장을 덮으며, 그는 이 하이드라는 사람을 직접 찾아내어 그 얼굴을 두 눈으로 보겠다고 조용히 결심했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "djh-q1",
+        prompt: "What did Mr. Enfield see the strange man do to the little girl?",
+        options: [
+          "He warned her not to run in the street",
+          "He calmly trampled over her instead of stopping to help",
+          "He offered her money to apologize",
+          "He called for a doctor immediately",
+        ],
+        correctIndex: 1,
+        explanation: "Mr. Enfield saw the man calmly trample over the screaming child instead of stopping to help her.",
+      },
+      {
+        id: "djh-q2",
+        prompt: "What surprised everyone about the strange man's cheque?",
+        options: [
+          "It bounced when they tried to cash it",
+          "It was written in a foreign currency",
+          "It was signed with a name that was actually respected and well known",
+          "It had no signature at all",
+        ],
+        correctIndex: 2,
+        explanation:
+          "To everyone's surprise, the cheque was signed with a name that was genuinely respected and well known, even though it came from such an unpleasant man.",
+      },
+      {
+        id: "djh-q3",
+        prompt: "What did Mr. Utterson discover in Dr. Jekyll's will that troubled him?",
+        options: [
+          "That Dr. Jekyll had no money left",
+          "That everything would pass to Edward Hyde if Dr. Jekyll ever disappeared",
+          "That Dr. Jekyll planned to leave the country",
+          "That Hyde was Dr. Jekyll's long-lost brother",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The will stated that if Dr. Jekyll ever disappeared, everything he owned would pass to a man named Edward Hyde — deeply troubling given what Utterson had just heard about him.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
