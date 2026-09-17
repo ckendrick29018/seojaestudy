@@ -2315,5 +2315,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/dr-jekyll-and-mr-hyde.svg",
     "source": "Adapted from the opening chapter (\"Story of the Door\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "briar-rose",
+    "title": "Briar Rose",
+    "titleTranslation": "들장미 공주",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🌹",
+    "coverImage": "/covers/briar-rose.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"Briar Rose\" (\"Dornröschen\"), widely known as \"Sleeping Beauty,\" collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 2
+  },
+  {
+    "slug": "dracula",
+    "title": "Dracula",
+    "titleTranslation": "드라큘라",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1912)",
+    "coverEmoji": "🦇",
+    "coverImage": "/covers/dracula.svg",
+    "source": "Adapted from the opening chapter of Bram Stoker's Dracula (1897; Project Gutenberg #345, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

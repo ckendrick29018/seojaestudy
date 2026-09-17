@@ -30399,6 +30399,440 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "briar-rose",
+    title: "Briar Rose",
+    titleTranslation: "들장미 공주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🌹",
+    coverImage: "/covers/briar-rose.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"Briar Rose\" (\"Dornröschen\"), widely known as \"Sleeping Beauty,\" collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what curse the thirteenth fairy placed on the princess, and how the prince finally broke it.",
+    paragraphs: [
+      [
+        {
+          id: "briar-1",
+          text: "A king and a queen lived in a fine kingdom, but they had no children, and this made them very sad.",
+          translation: "어느 왕국에 왕과 왕비가 살고 있었지만, 아이가 없어서 늘 마음이 아팠어요.",
+        },
+        {
+          id: "briar-2",
+          text: "One day, the queen found a little fish by the river and gently put it back into the water.",
+          translation: "어느 날 왕비는 강가에서 작은 물고기 한 마리를 발견하고, 살며시 다시 물속에 놓아주었어요.",
+        },
+        {
+          id: "briar-3",
+          text: "The fish thanked her and said she would soon have a beautiful daughter.",
+          translation: "물고기는 고마워하며, 왕비가 곧 아름다운 딸을 낳게 될 거라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "briar-4",
+          text: "Soon, the queen had a baby girl, and the king planned a great feast to celebrate.",
+          translation: "얼마 후 왕비는 예쁜 딸을 낳았고, 왕은 이를 축하하기 위해 성대한 잔치를 열기로 했어요.",
+        },
+        {
+          id: "briar-5",
+          text: "He invited twelve fairies to bless the baby, but the thirteenth fairy was forgotten.",
+          translation:
+            "왕은 요정 열두 명을 초대해 아기에게 축복을 내려 달라고 했지만, 열세 번째 요정은 그만 초대를 잊고 말았어요.",
+        },
+        {
+          id: "briar-6",
+          text: "One by one, the fairies gave the princess wonderful gifts: beauty, kindness, and grace.",
+          translation: "요정들은 차례로 다가와 공주에게 아름다움과 상냥함, 우아함 같은 멋진 선물을 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "briar-7",
+          text: "Suddenly, the angry thirteenth fairy appeared and put a curse on the baby.",
+          translation: "그때 화가 난 열세 번째 요정이 나타나 아기에게 저주를 걸었어요.",
+        },
+        {
+          id: "briar-8",
+          text: "She said that on her fifteenth birthday, the princess would touch a spindle and die.",
+          translation: "그녀는 공주가 열다섯 살이 되는 날 물렛가락에 찔려 죽게 될 거라고 말했어요.",
+        },
+        {
+          id: "briar-9",
+          text: "A kind fairy who had not yet given her gift softened the curse: the princess would only fall asleep for a hundred years.",
+          translation:
+            "아직 선물을 주지 않은 착한 요정이 저주를 조금 누그러뜨려, 공주는 죽는 대신 백 년 동안 잠들게 될 거라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "briar-10",
+          text: "The worried king ordered every spindle in the kingdom to be burned.",
+          translation: "걱정된 왕은 온 나라의 물렛가락을 모두 불태우라고 명령했어요.",
+        },
+        {
+          id: "briar-11",
+          text: "But on her fifteenth birthday, the princess found an old woman spinning thread in a hidden tower.",
+          translation: "하지만 열다섯 살이 되던 날, 공주는 숨겨진 탑에서 물렛가락으로 실을 잣고 있는 한 노파를 만났어요.",
+        },
+        {
+          id: "briar-12",
+          text: "She touched the strange spindle, and she fell into a deep, magical sleep at once.",
+          translation: "공주가 낯선 물렛가락을 만지자마자, 그녀는 곧바로 깊고 신비한 잠에 빠지고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "briar-13",
+          text: "At that very moment, everyone in the castle fell asleep too, from the king to the smallest mouse.",
+          translation: "바로 그 순간, 왕부터 작은 생쥐 한 마리까지 성 안의 모든 것이 함께 잠들어 버렸어요.",
+        },
+        {
+          id: "briar-14",
+          text: "A tall, thick hedge of thorns grew up around the whole castle, hiding it from the world.",
+          translation: "성 주위에는 크고 두꺼운 가시덤불이 자라나, 성 전체를 세상으로부터 감춰 버렸어요.",
+        },
+        {
+          id: "briar-15",
+          text: "For a hundred years, many princes tried to reach the sleeping princess, but the thorns always stopped them.",
+          translation: "백 년 동안 많은 왕자들이 잠든 공주에게 다가가려 했지만, 가시덤불이 늘 그들을 막아섰어요.",
+        },
+      ],
+      [
+        {
+          id: "briar-16",
+          text: "At last, exactly a hundred years later, a young prince walked through the hedge with ease, for the time had come.",
+          translation:
+            "마침내 정확히 백 년이 흐른 날, 한 젊은 왕자가 아무 어려움 없이 가시덤불을 지나갔어요. 때가 되었기 때문이에요.",
+        },
+        {
+          id: "briar-17",
+          text: "He found the princess asleep in the tower, and when he gently kissed her, she opened her eyes, and the whole castle awoke with her.",
+          translation:
+            "왕자는 탑에서 잠든 공주를 발견했고, 그가 살며시 입을 맞추자 공주가 눈을 뜨며 성 전체가 함께 깨어났어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "briar-v1",
+        term: "curse",
+        partOfSpeech: "noun",
+        translation: "저주",
+        example: "Suddenly, the angry thirteenth fairy appeared and put a curse on the baby.",
+        exampleTranslation: "그때 화가 난 열세 번째 요정이 나타나 아기에게 저주를 걸었어요.",
+      },
+      {
+        id: "briar-v2",
+        term: "spindle",
+        partOfSpeech: "noun",
+        translation: "물렛가락",
+        example: "She touched the strange spindle, and she fell into a deep, magical sleep at once.",
+        exampleTranslation: "공주가 낯선 물렛가락을 만지자마자, 그녀는 곧바로 깊고 신비한 잠에 빠지고 말았어요.",
+      },
+      {
+        id: "briar-v3",
+        term: "hedge",
+        partOfSpeech: "noun",
+        translation: "가시덤불, 산울타리",
+        example: "A tall, thick hedge of thorns grew up around the whole castle, hiding it from the world.",
+        exampleTranslation: "성 주위에는 크고 두꺼운 가시덤불이 자라나, 성 전체를 세상으로부터 감춰 버렸어요.",
+      },
+      {
+        id: "briar-v4",
+        term: "awaken",
+        partOfSpeech: "verb",
+        translation: "깨어나다",
+        example:
+          "He found the princess asleep in the tower, and when he gently kissed her, she opened her eyes, and the whole castle awoke with her.",
+        exampleTranslation:
+          "왕자는 탑에서 잠든 공주를 발견했고, 그가 살며시 입을 맞추자 공주가 눈을 뜨며 성 전체가 함께 깨어났어요.",
+      },
+      {
+        id: "briar-v5",
+        term: "soften",
+        partOfSpeech: "verb",
+        translation: "누그러뜨리다",
+        example:
+          "A kind fairy who had not yet given her gift softened the curse: the princess would only fall asleep for a hundred years.",
+        exampleTranslation:
+          "아직 선물을 주지 않은 착한 요정이 저주를 조금 누그러뜨려, 공주는 죽는 대신 백 년 동안 잠들게 될 거라고 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "briar-q1",
+        prompt: "What did the thirteenth fairy do when she was not invited to the feast?",
+        options: [
+          "She left the kingdom forever",
+          "She put a curse on the baby princess",
+          "She turned the queen into a fish",
+          "She stole the king's crown",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The angry thirteenth fairy cursed the baby, saying she would die from a spindle wound on her fifteenth birthday.",
+      },
+      {
+        id: "briar-q2",
+        prompt: "How did the kind fairy soften the curse?",
+        options: [
+          "She said the princess would just fall asleep for a hundred years instead of dying",
+          "She hid every spindle in the world",
+          "She turned the curse onto herself",
+          "She made the princess immortal",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The fairy who had not yet given her gift changed the curse so the princess would sleep for a hundred years rather than die.",
+      },
+      {
+        id: "briar-q3",
+        prompt: "How did the prince finally reach the sleeping princess?",
+        options: [
+          "He cut down the hedge of thorns with an axe",
+          "He arrived exactly when the hundred years ended, so the thorns opened easily for him",
+          "He bribed the guards to let him in",
+          "He flew over the castle walls",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Because he arrived exactly when the hundred years were up, the hedge of thorns parted easily and let him through to the sleeping princess.",
+      },
+    ],
+  },
+  {
+    slug: "dracula",
+    title: "Dracula",
+    titleTranslation: "드라큘라",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1912)",
+    coverEmoji: "🦇",
+    coverImage: "/covers/dracula.svg",
+    source:
+      "Adapted from the opening chapter of Bram Stoker's Dracula (1897; Project Gutenberg #345, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what warning the old landlady gave Jonathan, and how the villagers reacted as his coach departed.",
+    paragraphs: [
+      [
+        {
+          id: "drac-1",
+          text: "Jonathan Harker, a young English lawyer, was traveling through the Carpathian Mountains to meet a client named Count Dracula.",
+          translation:
+            "젊은 영국인 변호사 조나단 하커는 드라큘라 백작이라는 의뢰인을 만나기 위해 카르파티아 산맥을 지나고 있었어요.",
+        },
+        {
+          id: "drac-2",
+          text: "He kept a careful diary of his journey, noting the strange customs and wild beauty of the villages he passed.",
+          translation: "그는 여행 중에 지나친 마을들의 독특한 풍습과 거친 아름다움을 꼼꼼히 일기에 적어 두었어요.",
+        },
+        {
+          id: "drac-3",
+          text: "When he reached the town of Bistritz, a letter from the Count was already waiting for him at his hotel.",
+          translation: "비스트리츠라는 마을에 도착했을 때, 호텔에는 이미 백작이 보낸 편지 한 통이 그를 기다리고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "drac-4",
+          text: "The Count's letter welcomed Jonathan warmly and promised that a carriage would meet him at the Borgo Pass the next evening.",
+          translation:
+            "백작의 편지는 조나단을 따뜻하게 환영하며, 다음 날 저녁 보르고 고개에서 마차가 그를 맞이할 거라고 약속했어요.",
+        },
+        {
+          id: "drac-5",
+          text: "The next morning, Jonathan asked his landlord for more details about Count Dracula and his castle.",
+          translation: "다음 날 아침, 조나단은 여관 주인에게 드라큘라 백작과 그의 성에 대해 좀 더 물어보았어요.",
+        },
+        {
+          id: "drac-6",
+          text: "At the mere mention of the name, the landlord and his wife grew pale and crossed themselves, refusing to say another word.",
+          translation:
+            "그 이름을 듣자마자 여관 주인 부부의 얼굴이 하얗게 질렸고, 성호를 그으며 더 이상 아무 말도 하려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "drac-7",
+          text: "Just before Jonathan left, the old landlady hurried to his room, looking deeply frightened.",
+          translation: "조나단이 떠나기 직전, 나이 든 여관 안주인이 잔뜩 겁에 질린 얼굴로 그의 방으로 급히 찾아왔어요.",
+        },
+        {
+          id: "drac-8",
+          text: "She begged him to wait a day or two before traveling, and asked if he knew what night it was.",
+          translation: "그녀는 며칠만이라도 떠나는 것을 미뤄 달라고 애원하며, 오늘이 무슨 날인지 아느냐고 물었어요.",
+        },
+        {
+          id: "drac-9",
+          text: "It was the eve of St. George's Day, she said, when every evil thing in the world was said to gain its full power.",
+          translation:
+            "그녀는 그날이 성 조지 축일 전야로, 세상의 모든 사악한 것들이 온전한 힘을 얻는다고 전해지는 밤이라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "drac-10",
+          text: "Jonathan tried to comfort her, but explained that important business would not allow him to delay his journey.",
+          translation: "조나단은 그녀를 달래려 했지만, 중요한 일 때문에 여행을 미룰 수는 없다고 설명했어요.",
+        },
+        {
+          id: "drac-11",
+          text: "Seeing that she could not change his mind, the old woman took the crucifix from around her own neck and offered it to him.",
+          translation:
+            "그의 마음을 돌릴 수 없다는 것을 안 노부인은 자신의 목에 걸고 있던 십자가를 풀어 그에게 건넸어요.",
+        },
+        {
+          id: "drac-12",
+          text: "Though he felt a little embarrassed to accept it, he did not want to seem ungrateful, so he let her place it around his neck.",
+          translation: "조금 어색했지만 매정하게 보이고 싶지 않았던 그는 결국 그녀가 목에 걸어 주도록 가만히 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "drac-13",
+          text: "When the coach finally arrived, Jonathan noticed a small crowd had gathered near the inn, watching him with open pity.",
+          translation:
+            "마침내 마차가 도착했을 때, 조나단은 여관 근처에 모인 작은 무리가 안쓰러운 눈빛으로 자신을 지켜보고 있는 것을 알아챘어요.",
+        },
+        {
+          id: "drac-14",
+          text: "Some of them murmured strange foreign words that Jonathan later found meant \"witch\" and \"werewolf\" in a small dictionary he carried.",
+          translation:
+            "그들 중 몇몇은 낯선 외국어로 무언가 중얼거렸는데, 조나단은 나중에 가지고 있던 작은 사전으로 그것이 \"마녀\"와 \"늑대인간\"이라는 뜻임을 알게 되었어요.",
+        },
+        {
+          id: "drac-15",
+          text: "As the coach pulled away, everyone in the crowd made the sign of the cross and pointed two fingers toward him, an old charm against the evil eye.",
+          translation:
+            "마차가 출발하자, 사람들은 모두 성호를 긋고 그를 향해 손가락 두 개를 뻗었는데, 이는 사악한 눈을 막는 오래된 부적이었어요.",
+        },
+      ],
+      [
+        {
+          id: "drac-16",
+          text: "Jonathan admitted in his diary that, despite feeling foolish, their genuine fear and kindness had left him strangely uneasy.",
+          translation:
+            "조나단은 스스로도 우스꽝스럽다고 생각했지만, 그들의 진심 어린 두려움과 다정함이 묘하게 그의 마음을 불편하게 만들었다고 일기에 적었어요.",
+        },
+        {
+          id: "drac-17",
+          text: "Still, he told himself it was only old superstition, and that no harm could truly come from a simple journey to visit a client.",
+          translation:
+            "그럼에도 그는 그것이 그저 오래된 미신일 뿐이며, 의뢰인을 만나러 가는 평범한 여행에 나쁜 일이 생길 리 없다고 스스로를 다독였어요.",
+        },
+        {
+          id: "drac-18",
+          text: "With the crucifix still around his neck, he settled back in his seat as the coach carried him deeper into the dark mountains, toward the Borgo Pass and Castle Dracula.",
+          translation:
+            "십자가를 목에 건 채, 그는 마차가 어두운 산속 깊숙이, 보르고 고개와 드라큘라 성을 향해 나아가는 동안 자리에 등을 기대고 앉았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drac-v1",
+        term: "pale",
+        partOfSpeech: "adjective",
+        translation: "창백한",
+        example:
+          "At the mere mention of the name, the landlord and his wife grew pale and crossed themselves, refusing to say another word.",
+        exampleTranslation:
+          "그 이름을 듣자마자 여관 주인 부부의 얼굴이 하얗게 질렸고, 성호를 그으며 더 이상 아무 말도 하려 하지 않았어요.",
+      },
+      {
+        id: "drac-v2",
+        term: "crucifix",
+        partOfSpeech: "noun",
+        translation: "십자가",
+        example:
+          "Seeing that she could not change his mind, the old woman took the crucifix from around her own neck and offered it to him.",
+        exampleTranslation:
+          "그의 마음을 돌릴 수 없다는 것을 안 노부인은 자신의 목에 걸고 있던 십자가를 풀어 그에게 건넸어요.",
+      },
+      {
+        id: "drac-v3",
+        term: "charm",
+        partOfSpeech: "noun",
+        translation: "부적, 주술",
+        example:
+          "As the coach pulled away, everyone in the crowd made the sign of the cross and pointed two fingers toward him, an old charm against the evil eye.",
+        exampleTranslation:
+          "마차가 출발하자, 사람들은 모두 성호를 긋고 그를 향해 손가락 두 개를 뻗었는데, 이는 사악한 눈을 막는 오래된 부적이었어요.",
+      },
+      {
+        id: "drac-v4",
+        term: "superstition",
+        partOfSpeech: "noun",
+        translation: "미신",
+        example:
+          "Still, he told himself it was only old superstition, and that no harm could truly come from a simple journey to visit a client.",
+        exampleTranslation:
+          "그럼에도 그는 그것이 그저 오래된 미신일 뿐이며, 의뢰인을 만나러 가는 평범한 여행에 나쁜 일이 생길 리 없다고 스스로를 다독였어요.",
+      },
+      {
+        id: "drac-v5",
+        term: "uneasy",
+        partOfSpeech: "adjective",
+        translation: "불안한",
+        example:
+          "Jonathan admitted in his diary that, despite feeling foolish, their genuine fear and kindness had left him strangely uneasy.",
+        exampleTranslation:
+          "조나단은 스스로도 우스꽝스럽다고 생각했지만, 그들의 진심 어린 두려움과 다정함이 묘하게 그의 마음을 불편하게 만들었다고 일기에 적었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drac-q1",
+        prompt: "Why did the landlord and his wife refuse to talk about Count Dracula?",
+        options: [
+          "They had never heard of him",
+          "They grew pale and crossed themselves out of fear at the mere mention of his name",
+          "They were too busy with other guests",
+          "They disliked speaking English",
+        ],
+        correctIndex: 1,
+        explanation:
+          "At the mere mention of the Count's name, the landlord and his wife grew pale and crossed themselves, refusing to say more.",
+      },
+      {
+        id: "drac-q2",
+        prompt: "What did the old landlady do before Jonathan left?",
+        options: [
+          "She gave him a map of the castle",
+          "She begged him to stay and gave him her own crucifix for protection",
+          "She warned him about a specific monster by name",
+          "She refused to let him pay his bill",
+        ],
+        correctIndex: 1,
+        explanation:
+          "She begged him to delay his journey and, unable to change his mind, gave him her own crucifix to wear for protection.",
+      },
+      {
+        id: "drac-q3",
+        prompt: "What did the crowd do as Jonathan's coach pulled away?",
+        options: [
+          "They cheered and waved happily",
+          "They made the sign of the cross and pointed two fingers at him, an old charm against the evil eye",
+          "They threw flowers at the coach",
+          "They sang a traditional song",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The crowd made the sign of the cross and pointed two fingers toward him — an old charm meant to ward off the evil eye.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
