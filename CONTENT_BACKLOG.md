@@ -245,9 +245,24 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (130 — 102 classics + 20 folktales + 8 biographies; plus 5
+- **Live now (134 — 104 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
-  `collection`):** Two more biographies and two more Korean-*origin*
+  `collection`):** Four new lessons are the newest additions (2026-09-17),
+  directly fulfilling two "Good next lessons to build" picks below plus two
+  fresh Korean folktale originals: **The Golden Bird** (A1, classics) —
+  Brothers Grimm's "Der goldene Vogel" (PG#2591), the fox who helps a kind
+  youngest son past two jealous, greedy older brothers to win a golden bird,
+  a golden horse, and a princess, ending on the fox transforming once
+  treated kindly (the tale's darker turn — the brothers' betrayal and the
+  fox's request to be killed — is left out); **The Custom of the Country**
+  (B2, classics) — the opening chapter of Edith Wharton's novel (PG#11052,
+  her sixth pick on the shelf), Undine Spragg's demand and her father's
+  quiet, worried compliance; **The Old Man with the Lump** (B1, folktales) —
+  혹부리 영감 (Hokburi Yeonggam), the classic tale of two old men, a lump each,
+  and the goblins who reward kindness and punish greed; and **The Snail
+  Bride** (B1, folktales) — 우렁각시 (Ureong Gaksi), told with the gentler
+  traditional ending where the farmer and the snail-bride outwit the greedy
+  magistrate and stay together. Before that: two more biographies and two more Korean-*origin*
   folktale originals are the newest additions (2026-09-16). Biographies:
   *Narrative of the Life of Frederick Douglass*, retold as "Learning to
   Read" (Mrs. Auld teaching him the alphabet, Mr. Auld forbidding it, and
@@ -426,14 +441,16 @@ has a genuine period cover/illustration in the public domain, download that into
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×19, A2 ×25, B1 ×27, B2 ×25 — 96 live; add the folktales shelf
-  (A1 ×3, A2 ×10 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
+  A1 ×20 (+The Golden Bird), A2 ×25, B1 ×27, B2 ×26 (+The Custom of the
+  Country) — 98 live; add the folktales shelf
+  (A1 ×3, A2 ×10, B1 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
   Light and the Bridge of Fishes, Topknots and Crockery Hats, Fancha and
   the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
-  Why Cats and Dogs Don't Get Along) for
-  109 lessons across both shelves. B1 and B2 are now
+  Why Cats and Dogs Don't Get Along, The Old Man with the Lump, The Snail
+  Bride) for
+  113 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -450,17 +467,19 @@ has a genuine period cover/illustration in the public domain, download that into
   The Golden Key, The Star Money) was deliberate — keep it that way.
 - Good next lessons to build — four bands now sit at 19–27; pick by fit:
   - B2: **The Lifted Veil** (George Eliot), **Summer** (Edith Wharton,
-    her fourth pick), and now **The Reef** (Wharton's fifth pick — Ch. 1,
-    Darrow and Sophy Viner on the Dover pier) are live. A
-    further B2 needs another fresh pick (a second Eliot scene, e.g. from
-    *Scenes of Clerical Life*, or a sixth Wharton novel — *The Custom of
-    the Country*). Row 73 (Sonnet 43) is a poem, a different
+    her fourth pick), **The Reef** (Wharton's fifth pick — Ch. 1,
+    Darrow and Sophy Viner on the Dover pier), and now **The Custom of
+    the Country** (Wharton's sixth pick — Ch. 1, Undine Spragg's demand)
+    are live. A further B2 needs a fresh pick — a second Eliot scene
+    (e.g. from *Scenes of Clerical Life*), or a seventh Wharton if the
+    well isn't dry yet. Row 73 (Sonnet 43) is a poem, a different
     lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
-    Golden Key**, **The Star Money**, and now **Hans in Luck** (the
-    Brothers Grimm tale of seven trades) are live. Next: another kind
-    non-peril Grimm (**The Golden Bird** trimmed), or re-level a gentle
-    A2 tale.
+    Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
+    and now **The Golden Bird** (the fox, the golden horse, and the
+    princess) are live. Next: another kind non-peril Grimm (e.g. **The
+    Fisherman and His Wife** trimmed, or **The Goose Girl**), or re-level
+    a gentle A2 tale.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently
@@ -468,12 +487,13 @@ has a genuine period cover/illustration in the public domain, download that into
     further variety.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
-  - Folktales shelf (13 live: A Bridegroom for Miss Mole, The Unmannerly
+  - Folktales shelf (15 live: A Bridegroom for Miss Mole, The Unmannerly
     Tiger, Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and
     the Queen Mother, Prince Sandalwood the Father of Korea, The Rabbit's
     Eyes, East Light and the Bridge of Fishes, Topknots and Crockery
     Hats, Fancha and the Magpie, Old White Whiskers and Mr. Bunny, The
-    King of the Flowers, Why Cats and Dogs Don't Get Along — plus Heungbu
+    King of the Flowers, Why Cats and Dogs Don't Get Along, The Old Man
+    with the Lump, The Snail Bride — plus Heungbu
     and Nolbu on the plain Library list below, tagged
     `collection: "folktales"` so it now also shows on the shelf): chapters
     10–12 of the Griffis book (Old White Whiskers and Mr. Bunny, The King
@@ -741,4 +761,7 @@ strong PD material in each:
   Sim Cheong, Seonnyeo and the Woodcutter, and The Sun and the Moon — are
   all live now too, written as `targetLanguage: "ko"` originals straight
   from the oral tradition rather than translated from an English PD text,
-  so no PG source hunt was needed for them.
+  so no PG source hunt was needed for them. Two more are now live
+  (2026-09-17): The Old Man with the Lump (혹부리 영감, B1) and The Snail
+  Bride (우렁각시, B1, told with the gentler traditional ending) — both
+  `targetLanguage: "ko"` originals in the same vein.
