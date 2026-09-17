@@ -2475,5 +2475,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/madame-de-treymes.svg",
     "source": "Adapted from Chapter 1 of Edith Wharton's novella \"Madame de Treymes\" (1907; Project Gutenberg #4518, long in the public domain) — a seventh Wharton pick on the B2 shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "little-red-hen",
+    "title": "The Little Red Hen",
+    "titleTranslation": "꼬마 빨간 암탉",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Florence White Williams (1918)",
+    "coverEmoji": "🌾",
+    "coverImage": "/covers/little-red-hen.svg",
+    "source": "Adapted from Florence White Williams's The Little Red Hen (1918; Project Gutenberg #18735, an old English/American nursery tale, long in the public domain) — the next English/American nursery tale after Henny-Penny and The Three Little Pigs. Genuinely gentle throughout: no villain, no peril, just a hardworking hen and her lazy neighbors. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 2
+  },
+  {
+    "slug": "bartleby-the-scrivener",
+    "title": "Bartleby, the Scrivener",
+    "titleTranslation": "필경사 바틀비",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Short story",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Herman Melville (1853)",
+    "coverEmoji": "🖋️",
+    "coverImage": "/covers/bartleby-the-scrivener.svg",
+    "source": "Adapted from the opening of Herman Melville's short story \"Bartleby, the Scrivener: A Story of Wall-Street\" (1853; Project Gutenberg #11231, long in the public domain) — the first Melville pick on the shelf, flagged as \"still unclaimed\" in the backlog. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

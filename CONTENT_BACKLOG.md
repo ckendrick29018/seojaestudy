@@ -169,6 +169,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 108 | Why Cats and Dogs Don't Get Along | William E. Griffis (1928) | 67180 | A1 | whole (simplified retelling, 18 sentences; an original title for Griffis's "Tokgabi's Menagerie" — a mountain spirit's magic stone keeps a kind old man's wine bottle full until it vanishes; his cat and dog track it down with the mice's help, but lose it in the river when children's laughter makes the cat laugh too, dropping the stone forever — the source's pony-kick injury and near-drowning peril are left out) — thirteenth Korean-*origin* lesson, `collection: "folktales"`; Ch. 12 of the Griffis book; a third non-Potter A1, diversifying the folktales shelf's level spread | ☑ |
 | 109 | Hans in Luck | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Hans im Glück" — seven trades, each one worse than the last, ending with Hans losing everything and feeling luckier than ever; no peril, no softening needed) — a fifth non-Potter A1, and the next kind Grimm tale flagged in "Good next lessons to build" | ☑ |
 | 110 | The Brief Début of Tildy | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; the closing story of *The Four Million* — the overlooked waitress Tildy, a customer's drunken kiss she mistakes for real romance, and his sober apology three days later; gently handled, closing on Aileen's quiet kindness) — a fourth *Four Million* pick, the next non-Andersen A2 flagged in "Good next lessons to build" | ☑ |
+| 118 | The Little Red Hen | Florence White Williams (1918) | 18735 | A1 | whole (simplified retelling, 17 sentences; an old English/American nursery tale — the hen who plants, cuts, and bakes wheat into bread all by herself after the pig, the cat, and the rat refuse to help each time, then eats it herself with her chicks; genuinely gentle throughout, no softening needed) — the next English/American nursery tale after Henny-Penny, the "Little Red Hen" specifically flagged in "Good next lessons to build" | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -236,6 +237,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 115 | The Red-Headed League | Arthur Conan Doyle (1930) | 1661 | B2 | whole (simplified retelling, 18 sentences; the absurd copying job, the sign that reads "dissolved," and the bank-vault tunnel underneath) — a second Sherlock Holmes story | ☑ |
 | 116 | The Celebrated Jumping Frog of Calaveras County | Mark Twain (1910) | 3189 | B1 | whole (simplified retelling, 17 sentences; trimmed of the framing narrator's digressions to focus on Smiley's bet and the stranger's trick with the frog) — first Twain fiction on the shelf | ☑ |
 | 117 | Dr. Heidegger's Experiment | Nathaniel Hawthorne (1864) | 508 | B1 | whole (simplified retelling, 17 sentences; the four friends briefly made young again by a magic elixir, and what they choose to do once its effect fades) — first Hawthorne on the shelf | ☑ |
+| 119 | Bartleby, the Scrivener | Herman Melville (1891) | 11231 | B2 | opening scene (simplified retelling, 17 sentences; the narrator hires the pale, quiet Bartleby as a scrivener, is delighted by his frantic copying, then is stopped cold the first time Bartleby refuses a request with "I would prefer not to") — the first Melville pick on the shelf, closing out the "still unclaimed" note in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -245,10 +247,23 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (150 — 120 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (152 — 121 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  eighth round), again filling the gaps flagged directly below: **Henny-
+  ninth round): **The Little Red Hen** (A1, classics) — Florence White
+  Williams's 1918 retelling of the old English/American nursery tale
+  (PG#18735), the tale of a hen who plants, cuts, and bakes wheat into
+  bread entirely by herself after the pig, the cat, and the rat refuse
+  to help at every step, then eats it herself with her chicks;
+  genuinely gentle throughout, no softening needed, and the specific
+  tale flagged by name in "Good next lessons to build"; and **Bartleby,
+  the Scrivener** (B2, classics) — the opening scene of Herman
+  Melville's 1853 short story (PG#11231), the first Melville pick on
+  the shelf: the narrator hires the pale, diligent Bartleby as a
+  scrivener, is delighted by his frantic copying, then is stopped cold
+  the first time Bartleby answers a request with "I would prefer not
+  to." Before that, an earlier batch the same day
+  (eighth round): **Henny-
   Penny** (A1, classics) — another Joseph Jacobs's English Fairy Tales
   (1890, PG#7439) tale, the one better known in America as "Chicken
   Little": Foxy-woxy's claim of a shortcut to the king's palace, really a
@@ -595,7 +610,11 @@ has a genuine period cover/illustration in the public domain, download that into
     Wharton pick; Ch. 1, John Durham and Fanny de Malrive's walk through
     the Tuileries, her homesick affection for "plain, honest Americans,"
     and her reveal that she must live in France to keep her son) is live
-    too. Next: an eighth Wharton, or Melville (still unclaimed).
+    too, and now **Bartleby, the Scrivener** (Herman Melville — the
+    first Melville pick, closing out the "still unclaimed" note; the
+    narrator hires Bartleby, is delighted by his frantic copying, then
+    is stopped cold by "I would prefer not to") is live too.
+    Next: an eighth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
@@ -623,9 +642,13 @@ has a genuine period cover/illustration in the public domain, download that into
     as "Chicken Little" — Foxy-woxy's fake shortcut and the dark cave
     that turns out to be his den, with the source's darker ending
     softened so Henny-penny spots the trap in time and all five friends
-    escape) is live too.
-    Next: re-level a gentle A2 tale, or continue past Jacobs into more
-    English/American nursery tales (Little Red Hen).
+    escape) is live too, and now **The Little Red Hen** (Florence White
+    Williams's 1918 retelling of the old English/American nursery tale —
+    the hen who plants, cuts, and bakes the wheat herself after the pig,
+    the cat, and the rat refuse to help at every step, genuinely gentle
+    throughout) is live too.
+    Next: re-level a gentle A2 tale, or continue into more
+    English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently

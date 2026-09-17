@@ -32510,6 +32510,406 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "little-red-hen",
+    title: "The Little Red Hen",
+    titleTranslation: "꼬마 빨간 암탉",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Florence White Williams (1918)",
+    coverEmoji: "🌾",
+    coverImage: "/covers/little-red-hen.svg",
+    source:
+      "Adapted from Florence White Williams's The Little Red Hen (1918; Project Gutenberg #18735, an old English/American nursery tale, long in the public domain) — the next English/American nursery tale after Henny-Penny and The Three Little Pigs. Genuinely gentle throughout: no villain, no peril, just a hardworking hen and her lazy neighbors. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the little red hen would not share the bread with the pig, the cat, and the rat.",
+    paragraphs: [
+      [
+        {
+          id: "lrh-1",
+          text: "A little red hen lived on a farm with a lazy pig, a lazy cat, and a lazy rat.",
+          translation: "한 농장에 꼬마 빨간 암탉이 게으른 돼지, 게으른 고양이, 게으른 쥐와 함께 살고 있었어요.",
+        },
+        {
+          id: "lrh-2",
+          text: "One sunny day, she found a small seed of wheat in the yard.",
+          translation: "화창한 어느 날, 그녀는 마당에서 작은 밀알 하나를 발견했어요.",
+        },
+        {
+          id: "lrh-3",
+          text: "\"Who will help me plant this wheat?\" she asked her three neighbors.",
+          translation: "\"누가 나를 도와 이 밀을 심어 줄래?\" 그녀가 세 이웃에게 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "lrh-4",
+          text: "\"Not I,\" said the pig. \"Not I,\" said the cat. \"Not I,\" said the rat.",
+          translation: "\"나는 싫어,\" 돼지가 말했어요. \"나도 싫어,\" 고양이가 말했어요. \"나도 싫어,\" 쥐가 말했어요.",
+        },
+        {
+          id: "lrh-5",
+          text: "\"Then I will plant it myself,\" said the little red hen, and she did.",
+          translation: "\"그럼 내가 직접 심을게,\" 꼬마 빨간 암탉이 말했고, 정말로 그렇게 했어요.",
+        },
+        {
+          id: "lrh-6",
+          text: "All summer long, the wheat grew taller and taller under the warm sun.",
+          translation: "여름 내내, 밀은 따뜻한 햇살 아래 점점 더 크게 자랐어요.",
+        },
+      ],
+      [
+        {
+          id: "lrh-7",
+          text: "When the wheat turned golden, the little red hen asked, \"Who will help me cut it?\"",
+          translation: "밀이 황금빛으로 익자, 꼬마 빨간 암탉이 물었어요. \"누가 나를 도와 이걸 벨래?\"",
+        },
+        {
+          id: "lrh-8",
+          text: "\"Not I,\" said the pig. \"Not I,\" said the cat. \"Not I,\" said the rat.",
+          translation: "\"나는 싫어,\" 돼지가 말했어요. \"나도 싫어,\" 고양이가 말했어요. \"나도 싫어,\" 쥐가 말했어요.",
+        },
+        {
+          id: "lrh-9",
+          text: "\"Then I will cut it myself,\" said the little red hen, and she did.",
+          translation: "\"그럼 내가 직접 벨게,\" 꼬마 빨간 암탉이 말했고, 정말로 그렇게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "lrh-10",
+          text: "Next, she carried the wheat to the mill, where the miller ground it into soft white flour.",
+          translation: "다음으로, 그녀는 밀을 방앗간으로 가져갔고, 방앗간 주인이 그것을 부드러운 흰 밀가루로 갈아 주었어요.",
+        },
+        {
+          id: "lrh-11",
+          text: "\"Who will help me bake this flour into bread?\" the little red hen asked.",
+          translation: "\"누가 나를 도와 이 밀가루로 빵을 구워 줄래?\" 꼬마 빨간 암탉이 물었어요.",
+        },
+        {
+          id: "lrh-12",
+          text: "\"Not I,\" said the pig. \"Not I,\" said the cat. \"Not I,\" said the rat.",
+          translation: "\"나는 싫어,\" 돼지가 말했어요. \"나도 싫어,\" 고양이가 말했어요. \"나도 싫어,\" 쥐가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lrh-13",
+          text: "\"Then I will bake it myself,\" said the little red hen, and she did.",
+          translation: "\"그럼 내가 직접 구울게,\" 꼬마 빨간 암탉이 말했고, 정말로 그렇게 했어요.",
+        },
+        {
+          id: "lrh-14",
+          text: "Soon a warm, sweet smell filled the whole farmyard, and the pig, the cat, and the rat came running.",
+          translation: "곧 따뜻하고 달콤한 냄새가 농장 전체에 퍼졌고, 돼지와 고양이와 쥐가 달려왔어요.",
+        },
+        {
+          id: "lrh-15",
+          text: "\"Who will help me eat this bread?\" asked the little red hen. \"I will!\" said the pig. \"I will!\" said the cat. \"I will!\" said the rat.",
+          translation: "\"누가 나를 도와 이 빵을 먹어 줄래?\" 꼬마 빨간 암탉이 물었어요. \"내가 먹을래!\" 돼지가 말했어요. \"나도!\" 고양이가 말했어요. \"나도!\" 쥐가 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lrh-16",
+          text: "\"No, you will not,\" said the little red hen. \"You did not help me plant it, cut it, or bake it.\"",
+          translation: "\"안 돼, 너희는 못 먹어,\" 꼬마 빨간 암탉이 말했어요. \"너희는 심는 것도, 베는 것도, 굽는 것도 돕지 않았잖아.\"",
+        },
+        {
+          id: "lrh-17",
+          text: "\"So my chicks and I will eat it ourselves\" — and they did, down to the very last crumb.",
+          translation: "\"그러니 내 병아리들과 내가 직접 다 먹을 거야\" — 그리고 그들은 정말로 부스러기 하나 남기지 않고 다 먹었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lrh-v1",
+        term: "neighbor",
+        partOfSpeech: "noun",
+        translation: "이웃",
+        example: "\"Who will help me plant this wheat?\" she asked her three neighbors.",
+        exampleTranslation: "\"누가 나를 도와 이 밀을 심어 줄래?\" 그녀가 세 이웃에게 물었어요.",
+      },
+      {
+        id: "lrh-v2",
+        term: "golden",
+        partOfSpeech: "adjective",
+        translation: "황금빛의",
+        example: "When the wheat turned golden, the little red hen asked, \"Who will help me cut it?\"",
+        exampleTranslation: "밀이 황금빛으로 익자, 꼬마 빨간 암탉이 물었어요. \"누가 나를 도와 이걸 벨래?\"",
+      },
+      {
+        id: "lrh-v3",
+        term: "miller",
+        partOfSpeech: "noun",
+        translation: "방앗간 주인",
+        example: "Next, she carried the wheat to the mill, where the miller ground it into soft white flour.",
+        exampleTranslation: "다음으로, 그녀는 밀을 방앗간으로 가져갔고, 방앗간 주인이 그것을 부드러운 흰 밀가루로 갈아 주었어요.",
+      },
+      {
+        id: "lrh-v4",
+        term: "farmyard",
+        partOfSpeech: "noun",
+        translation: "농장 마당",
+        example: "Soon a warm, sweet smell filled the whole farmyard, and the pig, the cat, and the rat came running.",
+        exampleTranslation: "곧 따뜻하고 달콤한 냄새가 농장 전체에 퍼졌고, 돼지와 고양이와 쥐가 달려왔어요.",
+      },
+      {
+        id: "lrh-v5",
+        term: "crumb",
+        partOfSpeech: "noun",
+        translation: "부스러기",
+        example: "\"So my chicks and I will eat it ourselves\" — and they did, down to the very last crumb.",
+        exampleTranslation: "\"그러니 내 병아리들과 내가 직접 다 먹을 거야\" — 그리고 그들은 정말로 부스러기 하나 남기지 않고 다 먹었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lrh-q1",
+        prompt: "Who helped the little red hen plant, cut, and bake the wheat?",
+        options: [
+          "No one — she did it all herself",
+          "The pig",
+          "The cat and the rat together",
+          "A farmer",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The pig, the cat, and the rat all refused to help every time, so the little red hen planted, cut, and baked the wheat entirely on her own.",
+      },
+      {
+        id: "lrh-q2",
+        prompt: "What did the pig, the cat, and the rat want to do when the bread was ready?",
+        options: [
+          "Eat it, even though they never helped",
+          "Bake a second loaf",
+          "Apologize to the hen",
+          "Plant more wheat",
+        ],
+        correctIndex: 0,
+        explanation:
+          "As soon as the bread's warm smell filled the farmyard, the pig, the cat, and the rat all came running and said, \"I will!\" when the hen asked who would eat it.",
+      },
+      {
+        id: "lrh-q3",
+        prompt: "Why did the little red hen refuse to share the bread?",
+        options: [
+          "Because they never helped plant, cut, or bake it",
+          "Because there was not enough bread",
+          "Because the bread was not fully baked",
+          "Because her chicks were too hungry to share",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The little red hen told the pig, the cat, and the rat that since they had not helped plant, cut, or bake the wheat, they would not share in eating the bread.",
+      },
+    ],
+  },
+  {
+    slug: "bartleby-the-scrivener",
+    title: "Bartleby, the Scrivener",
+    titleTranslation: "필경사 바틀비",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1853)",
+    coverEmoji: "🖋️",
+    coverImage: "/covers/bartleby-the-scrivener.svg",
+    source:
+      "Adapted from the opening of Herman Melville's short story \"Bartleby, the Scrivener: A Story of Wall-Street\" (1853; Project Gutenberg #11231, long in the public domain) — the first Melville pick on the shelf, flagged as \"still unclaimed\" in the backlog. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Bartleby said whenever the narrator asked him to do something, and how the narrator reacted.",
+    paragraphs: [
+      [
+        {
+          id: "btb-1",
+          text: "I am a lawyer who does quiet work on Wall Street, copying and preparing legal documents.",
+          translation: "저는 월스트리트에서 조용히 일하며, 문서를 베끼고 준비하는 변호사예요.",
+        },
+        {
+          id: "btb-2",
+          text: "When my business suddenly grew larger, I needed to hire another scrivener, so I placed an advertisement.",
+          translation: "사업이 갑자기 커지자 저는 필경사를 한 명 더 고용해야 했고, 그래서 구인 광고를 냈어요.",
+        },
+        {
+          id: "btb-3",
+          text: "One summer morning, a pale, quiet young man appeared in my office doorway; his name was Bartleby.",
+          translation: "어느 여름 아침, 창백하고 조용한 청년 한 명이 제 사무실 문 앞에 나타났는데, 그의 이름은 바틀비였어요.",
+        },
+      ],
+      [
+        {
+          id: "btb-4",
+          text: "Something about his calm, almost sad appearance made me hire him at once, hoping his steadiness might balance my two excitable clerks.",
+          translation: "차분하고 어딘가 쓸쓸해 보이는 그의 인상 때문에 저는 곧바로 그를 고용했는데, 그의 침착함이 성미 급한 두 서기와 균형을 이루어 주기를 바랐기 때문이었어요.",
+        },
+        {
+          id: "btb-5",
+          text: "I gave him a desk in the corner of my office, close to a small window that looked out at a blank brick wall.",
+          translation: "저는 그에게 사무실 구석의 책상을 내주었는데, 그곳은 텅 빈 벽돌 벽이 보이는 작은 창문 옆이었어요.",
+        },
+        {
+          id: "btb-6",
+          text: "At first, Bartleby copied documents with amazing speed, as if he had been starving for work.",
+          translation: "처음에 바틀비는 마치 일에 굶주려 있던 사람처럼 놀라운 속도로 문서를 베꼈어요.",
+        },
+      ],
+      [
+        {
+          id: "btb-7",
+          text: "He wrote silently by daylight and by candlelight, page after page, without ever pausing to rest.",
+          translation: "그는 낮에는 햇빛으로, 밤에는 촛불로, 쉬지도 않고 한 장 한 장 조용히 써 내려갔어요.",
+        },
+        {
+          id: "btb-8",
+          text: "I should have been delighted by such effort, but there was something mechanical and joyless in the way he worked.",
+          translation: "저는 그런 노력에 기뻐했어야 마땅했지만, 그가 일하는 방식에는 어딘가 기계적이고 무기력한 데가 있었어요.",
+        },
+        {
+          id: "btb-9",
+          text: "On the third day, I hurriedly called him over to help me check a short document against its copy.",
+          translation: "삼 일째 되던 날, 저는 서둘러 그를 불러 짧은 문서 하나를 원본과 대조해 달라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "btb-10",
+          text: "Without moving from behind his screen, Bartleby answered in a mild, steady voice: \"I would prefer not to.\"",
+          translation: "가림막 뒤에서 자리를 옮기지도 않은 채, 바틀비는 차분하고 흔들림 없는 목소리로 대답했어요. \"저는 그러지 않는 편을 택하겠습니다.\"",
+        },
+        {
+          id: "btb-11",
+          text: "I sat in stunned silence, certain I must have misheard him, and repeated my request more clearly.",
+          translation: "저는 놀라 잠시 말을 잃었고, 분명 잘못 들었을 거라 생각하며 요청을 더 또렷하게 다시 말했어요.",
+        },
+        {
+          id: "btb-12",
+          text: "But his answer came back exactly the same, as calm as before: \"I would prefer not to.\"",
+          translation: "하지만 그의 대답은 조금 전과 똑같이 차분하게 돌아왔어요. \"저는 그러지 않는 편을 택하겠습니다.\"",
+        },
+      ],
+      [
+        {
+          id: "btb-13",
+          text: "I stared at him, expecting some sign of anger or nervousness, but his face stayed perfectly composed.",
+          translation: "저는 그를 바라보며 화나거나 초조한 기색을 기대했지만, 그의 얼굴은 여전히 완벽하게 평온했어요.",
+        },
+        {
+          id: "btb-14",
+          text: "A few days later, I gathered all four of my clerks to check some important legal papers together.",
+          translation: "며칠 뒤, 저는 중요한 법률 서류들을 함께 대조하려고 네 명의 서기를 모두 불러 모았어요.",
+        },
+        {
+          id: "btb-15",
+          text: "\"Bartleby! Quick, I am waiting,\" I called, and heard only the slow scrape of his chair.",
+          translation: "\"바틀비! 어서, 기다리고 있네.\" 제가 부르자, 의자를 천천히 끄는 소리만 들려왔어요.",
+        },
+      ],
+      [
+        {
+          id: "btb-16",
+          text: "He appeared briefly at the edge of his corner and said, once again, \"I would prefer not to\" — then quietly disappeared behind his screen.",
+          translation: "그는 자기 자리 가장자리에 잠깐 나타나 다시 한번 \"저는 그러지 않는 편을 택하겠습니다\"라고 말하고는 조용히 가림막 뒤로 사라졌어요.",
+        },
+        {
+          id: "btb-17",
+          text: "For a moment I stood frozen, unable to understand how one mild little sentence could so completely stop a grown man from being ordered about.",
+          translation: "저는 한동안 얼어붙은 채 서 있었어요. 어떻게 그렇게 온화한 한마디가 다 자란 어른에게 명령하는 것을 이토록 완전히 멈추게 할 수 있는지 이해할 수 없었거든요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "btb-v1",
+        term: "scrivener",
+        partOfSpeech: "noun",
+        translation: "필경사",
+        example: "When my business suddenly grew larger, I needed to hire another scrivener, so I placed an advertisement.",
+        exampleTranslation: "사업이 갑자기 커지자 저는 필경사를 한 명 더 고용해야 했고, 그래서 구인 광고를 냈어요.",
+      },
+      {
+        id: "btb-v2",
+        term: "steadiness",
+        partOfSpeech: "noun",
+        translation: "차분함, 안정감",
+        example: "Something about his calm, almost sad appearance made me hire him at once, hoping his steadiness might balance my two excitable clerks.",
+        exampleTranslation: "차분하고 어딘가 쓸쓸해 보이는 그의 인상 때문에 저는 곧바로 그를 고용했는데, 그의 침착함이 성미 급한 두 서기와 균형을 이루어 주기를 바랐기 때문이었어요.",
+      },
+      {
+        id: "btb-v3",
+        term: "mechanical",
+        partOfSpeech: "adjective",
+        translation: "기계적인",
+        example: "I should have been delighted by such effort, but there was something mechanical and joyless in the way he worked.",
+        exampleTranslation: "저는 그런 노력에 기뻐했어야 마땅했지만, 그가 일하는 방식에는 어딘가 기계적이고 무기력한 데가 있었어요.",
+      },
+      {
+        id: "btb-v4",
+        term: "composed",
+        partOfSpeech: "adjective",
+        translation: "차분한, 평온한",
+        example: "I stared at him, expecting some sign of anger or nervousness, but his face stayed perfectly composed.",
+        exampleTranslation: "저는 그를 바라보며 화나거나 초조한 기색을 기대했지만, 그의 얼굴은 여전히 완벽하게 평온했어요.",
+      },
+      {
+        id: "btb-v5",
+        term: "scrape",
+        partOfSpeech: "noun",
+        translation: "긁히는 소리",
+        example: "\"Bartleby! Quick, I am waiting,\" I called, and heard only the slow scrape of his chair.",
+        exampleTranslation: "\"바틀비! 어서, 기다리고 있네.\" 제가 부르자, 의자를 천천히 끄는 소리만 들려왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "btb-q1",
+        prompt: "Why did the narrator decide to hire Bartleby?",
+        options: [
+          "His calm, steady manner seemed like it might balance his two excitable clerks",
+          "Bartleby had years of experience as a scrivener",
+          "Bartleby offered to work for very low pay",
+          "A friend recommended him strongly",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The narrator hired Bartleby at once, hoping his calm steadiness might balance the flighty temper of his two other clerks.",
+      },
+      {
+        id: "btb-q2",
+        prompt: "What did Bartleby say when the narrator first asked him to check a document?",
+        options: [
+          "\"I would prefer not to.\"",
+          "\"I am too busy right now.\"",
+          "\"Yes, sir, right away.\"",
+          "He said nothing at all.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Without moving from behind his screen, Bartleby answered in a mild, steady voice, \"I would prefer not to,\" and repeated the exact same words when asked again.",
+      },
+      {
+        id: "btb-q3",
+        prompt: "How did Bartleby react when the narrator called him to join the other three clerks?",
+        options: [
+          "He briefly appeared, repeated his usual refusal, and disappeared behind his screen",
+          "He apologized and joined the group at once",
+          "He quit his job on the spot",
+          "He asked another clerk to take his place",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Bartleby appeared briefly at the edge of his corner, said once again, \"I would prefer not to,\" and quietly disappeared behind his screen, leaving the narrator stunned.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

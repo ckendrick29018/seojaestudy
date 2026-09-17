@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Bartleby, the Scrivener, a short story by Herman Melville">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-30" y="18" width="60" height="16" rx="2" stroke-width="1.1" fill="#C9A66B" fill-opacity="0.14"/>
+    <line x1="-24" y1="24" x2="18" y2="24" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-24" y1="29" x2="10" y2="29" stroke-width="0.8" opacity="0.5"/>
+    <path d="M14 20 L34 -36 Q37 -42 31 -40 L-2 4 Z" stroke-width="1.2" fill="#C9A66B" fill-opacity="0.28"/>
+    <path d="M-2 4 L-8 12 L2 10 Z" stroke-width="1" fill="#C9A66B" fill-opacity="0.3"/>
+    <path d="M31 -40 Q36 -44 34 -36" stroke-width="1"/>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="0.5">Bartleby, the</text>
+  <text x="200" y="326" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="0.5">Scrivener</text>
+
+  <line x1="150" y1="354" x2="250" y2="354" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="384" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">I would prefer not to</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">HERMAN MELVILLE</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">1853</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
