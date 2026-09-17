@@ -2507,5 +2507,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/bartleby-the-scrivener.svg",
     "source": "Adapted from the opening of Herman Melville's short story \"Bartleby, the Scrivener: A Story of Wall-Street\" (1853; Project Gutenberg #11231, long in the public domain) — the first Melville pick on the shelf, flagged as \"still unclaimed\" in the backlog. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "old-woman-and-her-pig",
+    "title": "The Old Woman and Her Pig",
+    "titleTranslation": "할머니와 아기 돼지",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🐷",
+    "coverImage": "/covers/old-woman-and-her-pig.svg",
+    "source": "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"The Old Woman and Her Pig,\" a cumulative chain tale from the same collection as Henny-Penny and The Three Little Pigs. Genuinely gentle throughout: the chain of \"would not\" is a rhythmic game, not a real threat, and everyone gets home safe. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "the-legend-of-sleepy-hollow",
+    "title": "The Legend of Sleepy Hollow",
+    "titleTranslation": "슬리피 할로우의 전설",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Short story",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Washington Irving (1820)",
+    "coverEmoji": "🎃",
+    "coverImage": "/covers/the-legend-of-sleepy-hollow.svg",
+    "source": "Adapted from the opening of Washington Irving's short story \"The Legend of Sleepy Hollow\" (1820; Project Gutenberg #41, long in the public domain) — an entirely fresh author for the shelf, and a companion to the Gothic/ghost-story tone already set by Poe, Stoker, and Hawthorne. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

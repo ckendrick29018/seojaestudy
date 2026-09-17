@@ -170,6 +170,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 109 | Hans in Luck | Brothers Grimm (1863) | 2591 | A1 | whole (simplified retelling, 18 sentences; "Hans im Glück" — seven trades, each one worse than the last, ending with Hans losing everything and feeling luckier than ever; no peril, no softening needed) — a fifth non-Potter A1, and the next kind Grimm tale flagged in "Good next lessons to build" | ☑ |
 | 110 | The Brief Début of Tildy | O. Henry (1910) | 2776 | A2 | whole (simplified retelling, 18 sentences; the closing story of *The Four Million* — the overlooked waitress Tildy, a customer's drunken kiss she mistakes for real romance, and his sober apology three days later; gently handled, closing on Aileen's quiet kindness) — a fourth *Four Million* pick, the next non-Andersen A2 flagged in "Good next lessons to build" | ☑ |
 | 118 | The Little Red Hen | Florence White Williams (1918) | 18735 | A1 | whole (simplified retelling, 17 sentences; an old English/American nursery tale — the hen who plants, cuts, and bakes wheat into bread all by herself after the pig, the cat, and the rat refuse to help each time, then eats it herself with her chicks; genuinely gentle throughout, no softening needed) — the next English/American nursery tale after Henny-Penny, the "Little Red Hen" specifically flagged in "Good next lessons to build" | ☑ |
+| 120 | The Old Woman and Her Pig | Joseph Jacobs (1890) | 7439 | A1 | whole (simplified retelling, 17 sentences; a cumulative chain tale from the same collection as Henny-Penny and The Three Little Pigs — an old woman's pig won't jump a stile, so she asks a chain of dog, stick, fire, water, ox, butcher, rope, rat, and cat for help, until the cat's price of milk from the cow finally sets the whole chain moving; genuinely gentle throughout, "kill"/"hang" softened to "stop"/"tie up") — a third tale from Jacobs's English Fairy Tales, continuing past Henny-Penny into more English/American nursery tales as flagged in "Good next lessons to build" | ☑ |
 
 ### Tier 2 — novel openings / self-contained scenes (excerpt one chapter or scene)
 
@@ -238,6 +239,7 @@ has a genuine period cover/illustration in the public domain, download that into
 | 116 | The Celebrated Jumping Frog of Calaveras County | Mark Twain (1910) | 3189 | B1 | whole (simplified retelling, 17 sentences; trimmed of the framing narrator's digressions to focus on Smiley's bet and the stranger's trick with the frog) — first Twain fiction on the shelf | ☑ |
 | 117 | Dr. Heidegger's Experiment | Nathaniel Hawthorne (1864) | 508 | B1 | whole (simplified retelling, 17 sentences; the four friends briefly made young again by a magic elixir, and what they choose to do once its effect fades) — first Hawthorne on the shelf | ☑ |
 | 119 | Bartleby, the Scrivener | Herman Melville (1891) | 11231 | B2 | opening scene (simplified retelling, 17 sentences; the narrator hires the pale, quiet Bartleby as a scrivener, is delighted by his frantic copying, then is stopped cold the first time Bartleby refuses a request with "I would prefer not to") — the first Melville pick on the shelf, closing out the "still unclaimed" note in "Good next lessons to build" | ☑ |
+| 121 | The Legend of Sleepy Hollow | Washington Irving (1859) | 41 | B2 | opening scene (simplified retelling, 17 sentences; Sleepy Hollow's drowsy, enchanted valley, the legend of the Headless Horseman searching nightly for the head a cannonball carried away, and the introduction of the lanky schoolmaster Ichabod Crane, who whistles his way home after a good ghost story) — an entirely fresh author for the shelf, the "another fresh author" pick flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -247,10 +249,25 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (152 — 121 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (154 — 123 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  ninth round): **The Little Red Hen** (A1, classics) — Florence White
+  tenth round): **The Old Woman and Her Pig** (A1, classics) — a third
+  tale from Joseph Jacobs's English Fairy Tales (1890, PG#7439), the
+  cumulative chain tale of an old woman whose pig won't jump a stile,
+  so she asks a chain of dog, stick, fire, water, ox, butcher, rope,
+  rat, and cat for help until the cat's price of milk from the cow
+  finally sets the whole chain moving; genuinely gentle throughout,
+  continuing past Henny-Penny into more English/American nursery
+  tales as flagged in "Good next lessons to build"; and **The Legend
+  of Sleepy Hollow** (B2, classics) — the opening scene of Washington
+  Irving's 1820 short story (PG#41), an entirely fresh author for the
+  shelf: Sleepy Hollow's drowsy, enchanted valley, the legend of the
+  Headless Horseman searching nightly for the head a cannonball
+  carried away, and the introduction of the lanky schoolmaster
+  Ichabod Crane, who whistles his way home after a good ghost story.
+  Before that, an earlier batch the same day
+  (ninth round): **The Little Red Hen** (A1, classics) — Florence White
   Williams's 1918 retelling of the old English/American nursery tale
   (PG#18735), the tale of a hen who plants, cuts, and bakes wheat into
   bread entirely by herself after the pig, the cat, and the rat refuse
@@ -613,7 +630,11 @@ has a genuine period cover/illustration in the public domain, download that into
     too, and now **Bartleby, the Scrivener** (Herman Melville — the
     first Melville pick, closing out the "still unclaimed" note; the
     narrator hires Bartleby, is delighted by his frantic copying, then
-    is stopped cold by "I would prefer not to") is live too.
+    is stopped cold by "I would prefer not to") is live too, and now
+    **The Legend of Sleepy Hollow** (Washington Irving — an entirely
+    fresh author; the drowsy, enchanted valley, the Headless Horseman
+    legend, and the introduction of lanky schoolmaster Ichabod Crane)
+    is live too.
     Next: an eighth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -646,7 +667,10 @@ has a genuine period cover/illustration in the public domain, download that into
     Williams's 1918 retelling of the old English/American nursery tale —
     the hen who plants, cuts, and bakes the wheat herself after the pig,
     the cat, and the rat refuse to help at every step, genuinely gentle
-    throughout) is live too.
+    throughout) is live too, and now **The Old Woman and Her Pig** (a
+    third Jacobs's English Fairy Tales pick — the cumulative chain tale
+    of dog, stick, fire, water, ox, butcher, rope, rat, and cat, all
+    finally set in motion by a bowl of milk) is live too.
     Next: re-level a gentle A2 tale, or continue into more
     English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**

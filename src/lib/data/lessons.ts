@@ -32910,6 +32910,406 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "old-woman-and-her-pig",
+    title: "The Old Woman and Her Pig",
+    titleTranslation: "할머니와 아기 돼지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🐷",
+    coverImage: "/covers/old-woman-and-her-pig.svg",
+    source:
+      "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"The Old Woman and Her Pig,\" a cumulative chain tale from the same collection as Henny-Penny and The Three Little Pigs. Genuinely gentle throughout: the chain of \"would not\" is a rhythmic game, not a real threat, and everyone gets home safe. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the old woman finally got her pig to jump over the stile and go home.",
+    paragraphs: [
+      [
+        {
+          id: "owp-1",
+          text: "An old woman found a small silver coin while she was sweeping her house.",
+          translation: "한 할머니가 집을 청소하다가 작은 은화 한 닢을 발견했어요.",
+        },
+        {
+          id: "owp-2",
+          text: "\"I will go to market and buy myself a little pig,\" she said happily.",
+          translation: "\"시장에 가서 아기 돼지 한 마리를 사야겠다,\" 그녀가 기쁘게 말했어요.",
+        },
+        {
+          id: "owp-3",
+          text: "She bought a plump little pig, but on the way home, it would not jump over a stile.",
+          translation: "그녀는 통통한 아기 돼지를 샀지만, 집으로 오는 길에 돼지는 울타리 층계를 넘으려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "owp-4",
+          text: "She found a dog and said, \"Dog, bite the pig! It will not jump over the stile.\" But the dog would not.",
+          translation: "그녀는 개를 만나 말했어요. \"개야, 돼지를 물어! 돼지가 층계를 넘으려 하지 않아.\" 하지만 개는 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-5",
+          text: "She found a stick and said, \"Stick, hit the dog! It will not bite the pig.\" But the stick would not.",
+          translation: "그녀는 막대기를 만나 말했어요. \"막대기야, 개를 때려! 개가 돼지를 물려 하지 않아.\" 하지만 막대기는 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-6",
+          text: "She found a fire and said, \"Fire, burn the stick! It will not hit the dog.\" But the fire would not.",
+          translation: "그녀는 불을 만나 말했어요. \"불아, 막대기를 태워! 막대기가 개를 때리려 하지 않아.\" 하지만 불은 그러려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "owp-7",
+          text: "She found some water and said, \"Water, put out the fire! It will not burn the stick.\" But the water would not.",
+          translation: "그녀는 물을 만나 말했어요. \"물아, 불을 꺼! 불이 막대기를 태우려 하지 않아.\" 하지만 물은 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-8",
+          text: "She found an ox and said, \"Ox, drink the water! It will not put out the fire.\" But the ox would not.",
+          translation: "그녀는 황소를 만나 말했어요. \"황소야, 물을 마셔! 물이 불을 끄려 하지 않아.\" 하지만 황소는 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-9",
+          text: "She found a butcher and said, \"Butcher, stop the ox! It will not drink the water.\" But the butcher would not.",
+          translation: "그녀는 푸줏간 주인을 만나 말했어요. \"아저씨, 황소를 막아 주세요! 황소가 물을 마시려 하지 않아요.\" 하지만 그는 그러려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "owp-10",
+          text: "She found a rope and said, \"Rope, tie up the butcher! He will not stop the ox.\" But the rope would not.",
+          translation: "그녀는 밧줄을 만나 말했어요. \"밧줄아, 아저씨를 묶어! 아저씨가 황소를 막으려 하지 않아.\" 하지만 밧줄은 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-11",
+          text: "She found a rat and said, \"Rat, chew the rope! It will not tie up the butcher.\" But the rat would not.",
+          translation: "그녀는 쥐를 만나 말했어요. \"쥐야, 밧줄을 갉아 먹어! 밧줄이 아저씨를 묶으려 하지 않아.\" 하지만 쥐는 그러려 하지 않았어요.",
+        },
+        {
+          id: "owp-12",
+          text: "At last she found a cat and said, \"Cat, catch the rat! It will not chew the rope.\"",
+          translation: "마침내 그녀는 고양이를 만나 말했어요. \"고양이야, 쥐를 잡아! 쥐가 밧줄을 갉아 먹으려 하지 않아.\"",
+        },
+      ],
+      [
+        {
+          id: "owp-13",
+          text: "\"First bring me a bowl of milk from that cow, and then I will catch the rat,\" said the cat.",
+          translation: "\"먼저 저 젖소한테서 우유 한 그릇을 가져다주면, 내가 쥐를 잡을게,\" 고양이가 말했어요.",
+        },
+        {
+          id: "owp-14",
+          text: "The cow said, \"First bring me some hay from that haystack,\" so the old woman carried the hay to the cow.",
+          translation: "젖소가 말했어요. \"먼저 저 건초 더미에서 건초를 좀 가져다줘,\" 그래서 할머니는 건초를 젖소에게 가져다주었어요.",
+        },
+        {
+          id: "owp-15",
+          text: "As soon as the cow had her hay, she happily gave the old woman a bowl of milk for the cat.",
+          translation: "젖소는 건초를 먹자마자, 기쁘게 할머니에게 고양이를 위한 우유 한 그릇을 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "owp-16",
+          text: "The cat drank the milk and began to catch the rat, the rat began to chew the rope, the rope began to tie up the butcher, the butcher began to stop the ox, the ox began to drink the water, the water began to put out the fire, and the fire began to burn the stick.",
+          translation: "고양이는 우유를 마시고 쥐를 잡기 시작했고, 쥐는 밧줄을 갉기 시작했고, 밧줄은 아저씨를 묶기 시작했고, 아저씨는 황소를 막기 시작했고, 황소는 물을 마시기 시작했고, 물은 불을 끄기 시작했고, 불은 막대기를 태우기 시작했어요.",
+        },
+        {
+          id: "owp-17",
+          text: "The stick began to hit the dog, the dog began to bark at the pig, and the frightened little pig jumped straight over the stile — so the old woman got home safe and sound with her pig at last.",
+          translation: "막대기는 개를 때리기 시작했고, 개는 돼지를 향해 짖기 시작했고, 놀란 아기 돼지는 곧장 층계를 뛰어넘었어요 — 그렇게 할머니는 마침내 돼지와 함께 무사히 집에 도착했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "owp-v1",
+        term: "stile",
+        partOfSpeech: "noun",
+        translation: "울타리 층계 (담을 넘는 계단)",
+        example: "She bought a plump little pig, but on the way home, it would not jump over a stile.",
+        exampleTranslation: "그녀는 통통한 아기 돼지를 샀지만, 집으로 오는 길에 돼지는 울타리 층계를 넘으려 하지 않았어요.",
+      },
+      {
+        id: "owp-v2",
+        term: "plump",
+        partOfSpeech: "adjective",
+        translation: "통통한",
+        example: "She bought a plump little pig, but on the way home, it would not jump over a stile.",
+        exampleTranslation: "그녀는 통통한 아기 돼지를 샀지만, 집으로 오는 길에 돼지는 울타리 층계를 넘으려 하지 않았어요.",
+      },
+      {
+        id: "owp-v3",
+        term: "haystack",
+        partOfSpeech: "noun",
+        translation: "건초 더미",
+        example: "The cow said, \"First bring me some hay from that haystack,\" so the old woman carried the hay to the cow.",
+        exampleTranslation: "젖소가 말했어요. \"먼저 저 건초 더미에서 건초를 좀 가져다줘,\" 그래서 할머니는 건초를 젖소에게 가져다주었어요.",
+      },
+      {
+        id: "owp-v4",
+        term: "chew",
+        partOfSpeech: "verb",
+        translation: "갉아먹다, 씹다",
+        example: "She found a rat and said, \"Rat, chew the rope! It will not tie up the butcher.\" But the rat would not.",
+        exampleTranslation: "그녀는 쥐를 만나 말했어요. \"쥐야, 밧줄을 갉아 먹어! 밧줄이 아저씨를 묶으려 하지 않아.\" 하지만 쥐는 그러려 하지 않았어요.",
+      },
+      {
+        id: "owp-v5",
+        term: "bowl",
+        partOfSpeech: "noun",
+        translation: "그릇",
+        example: "\"First bring me a bowl of milk from that cow, and then I will catch the rat,\" said the cat.",
+        exampleTranslation: "\"먼저 저 젖소한테서 우유 한 그릇을 가져다주면, 내가 쥐를 잡을게,\" 고양이가 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "owp-q1",
+        prompt: "Why did the old woman's pig not get over the stile at first?",
+        options: [
+          "It simply refused to jump over",
+          "The stile was too high",
+          "The pig was too heavy",
+          "A dog was blocking the way",
+        ],
+        correctIndex: 0,
+        explanation:
+          "No special reason is given — the pig simply would not jump over the stile, which is the running joke that starts the whole chain of the story.",
+      },
+      {
+        id: "owp-q2",
+        prompt: "What did the old woman have to do before the cow would give her milk?",
+        options: [
+          "Bring the cow some hay from the haystack",
+          "Pay the cow with a coin",
+          "Milk the cow herself",
+          "Ask the butcher for help",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The cow told the old woman to first bring hay from the haystack, and only after she did that did the cow give her a bowl of milk for the cat.",
+      },
+      {
+        id: "owp-q3",
+        prompt: "How did the little pig finally get over the stile?",
+        options: [
+          "The whole chain of helpers finally worked, one after another, until the dog barked at the pig",
+          "The old woman carried the pig over herself",
+          "The pig got hungry and jumped on its own",
+          "The butcher chased the pig over it",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Starting with the cat, the chain of cat, rat, rope, butcher, ox, water, fire, and stick finally worked all the way through, and when the dog at last barked at the pig, the frightened pig jumped straight over the stile.",
+      },
+    ],
+  },
+  {
+    slug: "the-legend-of-sleepy-hollow",
+    title: "The Legend of Sleepy Hollow",
+    titleTranslation: "슬리피 할로우의 전설",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Washington Irving (1820)",
+    coverEmoji: "🎃",
+    coverImage: "/covers/the-legend-of-sleepy-hollow.svg",
+    source:
+      "Adapted from the opening of Washington Irving's short story \"The Legend of Sleepy Hollow\" (1820; Project Gutenberg #41, long in the public domain) — an entirely fresh author for the shelf, and a companion to the Gothic/ghost-story tone already set by Poe, Stoker, and Hawthorne. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what makes Sleepy Hollow feel enchanted, and who the Headless Horseman is said to be.",
+    paragraphs: [
+      [
+        {
+          id: "lsh-1",
+          text: "Not far from a sleepy market town on the Hudson River lies a small, quiet valley called Sleepy Hollow.",
+          translation: "허드슨강 변의 한 한적한 시장 마을에서 멀지 않은 곳에, 슬리피 할로우라는 작고 조용한 골짜기가 있어요.",
+        },
+        {
+          id: "lsh-2",
+          text: "A gentle stream runs through it, and the only sounds are a whistling quail or a tapping woodpecker.",
+          translation: "골짜기 사이로 잔잔한 시냇물이 흐르고, 들리는 소리라고는 메추라기의 휘파람 소리나 딱따구리가 나무를 쪼는 소리뿐이에요.",
+        },
+        {
+          id: "lsh-3",
+          text: "The people there say a strange, drowsy spell hangs over the whole valley, making everyone dream and see strange things.",
+          translation: "그곳 사람들은 골짜기 전체에 이상하고 나른한 마법이 걸려 있어서, 모두가 꿈을 꾸고 이상한 것들을 보게 된다고 말해요.",
+        },
+      ],
+      [
+        {
+          id: "lsh-4",
+          text: "The valley's most famous ghost is a horseman without a head, who gallops through the night on a huge black horse.",
+          translation: "그 골짜기에서 가장 유명한 유령은 머리 없는 기수인데, 그는 거대한 검은 말을 타고 밤마다 질주해요.",
+        },
+        {
+          id: "lsh-5",
+          text: "People say he was once a soldier whose head was carried away by a cannonball in an old war.",
+          translation: "사람들은 그가 오래전 어느 전쟁에서 대포알에 머리를 잃은 병사였다고 말해요.",
+        },
+        {
+          id: "lsh-6",
+          text: "Every night, they say, his ghost searches for its lost head, riding fastest just before he must return to the churchyard at dawn.",
+          translation: "사람들 말로는, 그의 유령이 밤마다 잃어버린 머리를 찾아다니며, 동틀 무렵 교회 묘지로 돌아가야 할 때가 가까워질수록 더욱 빠르게 달린다고 해요.",
+        },
+      ],
+      [
+        {
+          id: "lsh-7",
+          text: "Into this dreamy valley came a schoolteacher named Ichabod Crane, tall and thin, with long arms, big ears, and a nose like a weathervane.",
+          translation: "이 꿈결 같은 골짜기로 이카보드 크레인이라는 학교 선생님이 왔는데, 키가 크고 마른 몸에 팔이 길고 귀가 크며 코는 마치 풍향계 같았어요.",
+        },
+        {
+          id: "lsh-8",
+          text: "From a distance, striding along a hilltop in his loose, flapping clothes, he looked less like a man than a scarecrow escaped from a cornfield.",
+          translation: "멀리 언덕 위를 헐렁하고 펄럭이는 옷을 입고 성큼성큼 걷는 그를 보면, 사람이라기보다는 옥수수밭에서 도망 나온 허수아비처럼 보였어요.",
+        },
+        {
+          id: "lsh-9",
+          text: "His one-room schoolhouse stood by a brook, at the foot of a wooded hill, with a birch tree growing right beside the door.",
+          translation: "그의 작은 교실은 시냇가, 숲이 우거진 언덕 기슭에 자리잡고 있었고, 문 바로 옆에는 자작나무 한 그루가 자라고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "lsh-10",
+          text: "Ichabod ran his classroom with a firm hand, believing deeply in the old saying, \"Spare the rod and spoil the child.\"",
+          translation: "이카보드는 \"매를 아끼면 아이를 망친다\"는 옛말을 굳게 믿으며, 엄격한 손길로 교실을 이끌었어요.",
+        },
+        {
+          id: "lsh-11",
+          text: "Yet he was not truly cruel: he punished the weak little children gently and saved his sternest lessons for the biggest troublemakers.",
+          translation: "하지만 그가 정말로 매정한 것은 아니었어요. 그는 여리고 어린 아이들은 살살 벌주고, 가장 엄한 벌은 제일 말썽 많은 아이들을 위해 아껴 두었어요.",
+        },
+        {
+          id: "lsh-12",
+          text: "He liked to say he was only \"doing his duty\" by their parents, and somehow no child in Sleepy Hollow ever thought him unfair.",
+          translation: "그는 그저 부모님들에게 \"자신의 의무를 다하는 것\"이라 말하곤 했는데, 이상하게도 슬리피 할로우의 어떤 아이도 그를 불공평하다 여기지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "lsh-13",
+          text: "On quiet evenings, Ichabod loved nothing more than sitting by a farmhouse fire, listening to old wives tell ghost stories.",
+          translation: "조용한 저녁이면, 이카보드는 농가의 벽난로 곁에 앉아 늙은 아낙네들이 들려주는 귀신 이야기를 듣는 것을 무엇보다 좋아했어요.",
+        },
+        {
+          id: "lsh-14",
+          text: "He knew every local legend of witches, haunted bridges, and wandering spirits, and could tell them back even better than he heard them.",
+          translation: "그는 마녀와 귀신 들린 다리, 떠도는 영혼에 관한 그 지역의 온갖 전설을 알고 있었고, 들은 것보다 훨씬 더 실감나게 다시 이야기할 수 있었어요.",
+        },
+        {
+          id: "lsh-15",
+          text: "But the tale that gripped him most of all — and that he could never quite shake off on his long walks home in the dark — was the story of the Headless Horseman.",
+          translation: "하지만 그를 가장 사로잡은 이야기, 그리고 어두운 밤길을 혼자 걸어 집에 돌아갈 때마다 좀처럼 떨쳐낼 수 없었던 이야기는 바로 머리 없는 기수 이야기였어요.",
+        },
+      ],
+      [
+        {
+          id: "lsh-16",
+          text: "Walking home alone through the shadowy valley after such an evening, Ichabod would hear every rustling leaf and see a ghost in every bent old tree.",
+          translation: "그런 저녁을 보내고 어두운 골짜기를 혼자 걸어 집으로 돌아갈 때면, 이카보드는 바스락거리는 나뭇잎 소리 하나하나에도 귀를 기울였고, 구부러진 오래된 나무마다 유령을 보곤 했어요.",
+        },
+        {
+          id: "lsh-17",
+          text: "And so, wide awake with fright, the brave schoolmaster of Sleepy Hollow would hurry his steps and begin, quite loudly, to whistle.",
+          translation: "그래서 겁에 질려 정신이 바짝 든 채로, 슬리피 할로우의 용감한 선생님은 발걸음을 재촉하며 아주 큰 소리로 휘파람을 불기 시작했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lsh-v1",
+        term: "weathervane",
+        partOfSpeech: "noun",
+        translation: "풍향계",
+        example: "Into this dreamy valley came a schoolteacher named Ichabod Crane, tall and thin, with long arms, big ears, and a nose like a weathervane.",
+        exampleTranslation: "이 꿈결 같은 골짜기로 이카보드 크레인이라는 학교 선생님이 왔는데, 키가 크고 마른 몸에 팔이 길고 귀가 크며 코는 마치 풍향계 같았어요.",
+      },
+      {
+        id: "lsh-v2",
+        term: "gallop",
+        partOfSpeech: "verb",
+        translation: "질주하다, 전속력으로 달리다",
+        example: "The valley's most famous ghost is a horseman without a head, who gallops through the night on a huge black horse.",
+        exampleTranslation: "그 골짜기에서 가장 유명한 유령은 머리 없는 기수인데, 그는 거대한 검은 말을 타고 밤마다 질주해요.",
+      },
+      {
+        id: "lsh-v3",
+        term: "cannonball",
+        partOfSpeech: "noun",
+        translation: "대포알",
+        example: "People say he was once a soldier whose head was carried away by a cannonball in an old war.",
+        exampleTranslation: "사람들은 그가 오래전 어느 전쟁에서 대포알에 머리를 잃은 병사였다고 말해요.",
+      },
+      {
+        id: "lsh-v4",
+        term: "scarecrow",
+        partOfSpeech: "noun",
+        translation: "허수아비",
+        example: "From a distance, striding along a hilltop in his loose, flapping clothes, he looked less like a man than a scarecrow escaped from a cornfield.",
+        exampleTranslation: "멀리 언덕 위를 헐렁하고 펄럭이는 옷을 입고 성큼성큼 걷는 그를 보면, 사람이라기보다는 옥수수밭에서 도망 나온 허수아비처럼 보였어요.",
+      },
+      {
+        id: "lsh-v5",
+        term: "whistle",
+        partOfSpeech: "verb",
+        translation: "휘파람을 불다",
+        example: "And so, wide awake with fright, the brave schoolmaster of Sleepy Hollow would hurry his steps and begin, quite loudly, to whistle.",
+        exampleTranslation: "그래서 겁에 질려 정신이 바짝 든 채로, 슬리피 할로우의 용감한 선생님은 발걸음을 재촉하며 아주 큰 소리로 휘파람을 불기 시작했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lsh-q1",
+        prompt: "What do people say happens to Sleepy Hollow's Headless Horseman every night?",
+        options: [
+          "He gallops through the valley searching for the head he lost to a cannonball",
+          "He rings the church bells at midnight",
+          "He guards the schoolhouse until dawn",
+          "He turns into an owl and flies away",
+        ],
+        correctIndex: 0,
+        explanation:
+          "People say the Headless Horseman lost his head to a cannonball in an old war, and that his ghost gallops through the valley every night searching for it.",
+      },
+      {
+        id: "lsh-q2",
+        prompt: "How does Ichabod Crane look, as the story describes him?",
+        options: [
+          "Tall and thin, with long arms and a nose like a weathervane — more like a scarecrow than a man",
+          "Short and round, with rosy cheeks",
+          "Broad-shouldered and strong, like a soldier",
+          "Old and gray-haired, leaning on a cane",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Ichabod is tall and thin, with long arms, big ears, and a nose like a weathervane, so that from a distance he looked more like a scarecrow than a man.",
+      },
+      {
+        id: "lsh-q3",
+        prompt: "What does Ichabod do on his dark walks home after hearing ghost stories?",
+        options: [
+          "He gets frightened by every rustling leaf and starts whistling loudly to feel brave",
+          "He runs the whole way home without stopping",
+          "He stays the night at the farmhouse instead",
+          "He sings old church hymns",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Walking home alone in the dark, Ichabod hears every rustling leaf and sees a ghost in every bent tree, so, wide awake with fright, he hurries his steps and begins to whistle loudly.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Legend of Sleepy Hollow by Washington Irving">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-24 6 Q-26 -22 0 -24 Q26 -22 24 6 Q24 30 0 32 Q-24 30 -24 6 Z" stroke-width="1.3" fill="#C9A66B" fill-opacity="0.16"/>
+    <path d="M-12 -22 Q-14 6 -12 30 M0 -24 Q0 4 0 32 M12 -22 Q14 6 12 30" stroke-width="0.8" opacity="0.5"/>
+    <path d="M-4 -24 Q-4 -34 4 -34 Q8 -34 6 -28 Q2 -24 -4 -24 Z" stroke-width="1.1" fill="#C9A66B" fill-opacity="0.3"/>
+    <path d="M-14 0 L-6 0 L-10 -9 Z" stroke-width="1" fill="#A9663F" fill-opacity="0.9"/>
+    <path d="M14 0 L6 0 L10 -9 Z" stroke-width="1" fill="#A9663F" fill-opacity="0.9"/>
+    <path d="M-14 14 L-8 20 L-3 14 L3 20 L8 14 L14 20" stroke-width="1.2"/>
+    <path d="M28 -34 Q34 -30 30 -22 Q40 -26 38 -36 Q34 -40 28 -34 Z" stroke-width="1" fill="#C9A66B" fill-opacity="0.24"/>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2C2C2C" letter-spacing="0.5">The Legend of</text>
+  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2C2C2C" letter-spacing="0.5">Sleepy Hollow</text>
+
+  <line x1="150" y1="348" x2="250" y2="348" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="378" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">A headless horseman rides every night</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">WASHINGTON IRVING</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">A NEW YORK GHOST STORY</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
