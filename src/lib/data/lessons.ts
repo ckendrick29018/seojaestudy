@@ -32109,6 +32109,407 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "henny-penny",
+    title: "Henny-Penny",
+    titleTranslation: "헤니페니",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🐔",
+    coverImage: "/covers/henny-penny.svg",
+    source:
+      "Adapted from \"Henny-Penny\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — the same collection as The Three Little Pigs, and the tale better known in America as \"Chicken Little.\" The original ending, in which Foxy-woxy eats four of the five birds one by one, is softened here: Henny-penny discovers the trap in time and all five friends escape home safely. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Henny-penny discovered Foxy-woxy's trick and saved her friends.",
+    paragraphs: [
+      [
+        {
+          id: "hp-1",
+          text: "One day, something hard fell on Henny-penny's head while she was picking up corn in the yard, and she decided at once that the sky was falling.",
+          translation:
+            "어느 날, 헤니페니가 마당에서 낟알을 줍고 있는데 딱딱한 것이 머리 위에 떨어졌고, 그녀는 곧바로 하늘이 무너지고 있다고 확신했어요.",
+        },
+        {
+          id: "hp-2",
+          text: "\"I must go and tell the king!\" she said, and off she went down the road as fast as her legs could carry her.",
+          translation: "\"어서 가서 임금님께 알려야 해!\" 그녀는 말했고, 다리가 움직이는 한 빠르게 길을 나섰어요.",
+        },
+        {
+          id: "hp-3",
+          text: "On the way, she met Cocky-locky the rooster, who asked where she was hurrying, and joined her at once when he heard her news.",
+          translation: "가는 길에 그녀는 수탉 코키로키를 만났는데, 그는 왜 그리 서두르는지 물었고 소식을 듣자마자 함께 나섰어요.",
+        },
+      ],
+      [
+        {
+          id: "hp-4",
+          text: "One by one, they met Ducky-daddles the duck, Goosey-poosey the goose, and Turkey-lurkey the turkey.",
+          translation: "이어서 그들은 오리 더키대들, 거위 구시푸시, 칠면조 터키러키를 차례로 만났어요.",
+        },
+        {
+          id: "hp-5",
+          text: "Each new friend asked the very same question, heard the very same worried answer, and joined the little parade without a moment's doubt.",
+          translation: "새로 만난 친구들은 저마다 똑같은 질문을 던졌고, 똑같이 걱정스러운 대답을 들은 뒤, 조금도 망설이지 않고 작은 행렬에 합류했어요.",
+        },
+        {
+          id: "hp-6",
+          text: "Soon there were five of them, all hurrying together down the road to find the king.",
+          translation: "곧 다섯이 모여, 다 함께 임금님을 찾아 길을 서둘러 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "hp-7",
+          text: "Before long, they met Foxy-woxy, a sly fox with a clever, friendly smile.",
+          translation: "얼마 지나지 않아 그들은 교활한 여우 폭시욕시를 만났는데, 그는 영리하고 다정한 미소를 짓고 있었어요.",
+        },
+        {
+          id: "hp-8",
+          text: "\"This is not the way to the king's palace,\" said Foxy-woxy. \"I know a shortcut. Follow me, and I'll show you.\"",
+          translation: "\"그건 임금님 궁전으로 가는 길이 아니야.\" 폭시욕시가 말했어요. \"내가 지름길을 알아. 나를 따라오면 보여 줄게.\"",
+        },
+        {
+          id: "hp-9",
+          text: "So Foxy-woxy led the five friends straight toward a dark, narrow hole at the bottom of a hill.",
+          translation: "그렇게 폭시욕시는 다섯 친구를 언덕 아래에 있는 어둡고 좁은 굴로 곧장 데려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "hp-10",
+          text: "That hole was really the door to Foxy-woxy's own cave, though none of the birds knew it yet.",
+          translation: "그 굴은 사실 폭시욕시의 굴집 문이었지만, 새들 중 누구도 아직 그 사실을 몰랐어요.",
+        },
+        {
+          id: "hp-11",
+          text: "Henny-penny stopped just outside and peered into the darkness before anyone else could step in.",
+          translation: "헤니페니는 다른 누구도 들어가기 전에 굴 바로 앞에 멈춰 서서 어둠 속을 유심히 들여다보았어요.",
+        },
+        {
+          id: "hp-12",
+          text: "There, scattered across the floor, she saw old feathers, and her heart began to pound.",
+          translation: "그곳 바닥에 흩어진 낡은 깃털들이 보이자, 그녀의 심장이 쿵쾅거리기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "hp-13",
+          text: "\"This is no shortcut — it's a trap!\" Henny-penny cried, backing quickly away from the hole.",
+          translation: "\"이건 지름길이 아니야, 함정이야!\" 헤니페니가 외치며 굴에서 재빨리 물러났어요.",
+        },
+        {
+          id: "hp-14",
+          text: "She shouted a warning to Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey, and all four understood at once.",
+          translation: "그녀는 코키로키, 더키대들, 구시푸시, 터키러키에게 경고를 외쳤고, 넷 모두 곧바로 알아차렸어요.",
+        },
+        {
+          id: "hp-15",
+          text: "All five birds turned and ran, as fast as their legs and wings could carry them.",
+          translation: "다섯 마리 모두 몸을 돌려, 다리와 날개가 움직이는 한 빠르게 달아났어요.",
+        },
+      ],
+      [
+        {
+          id: "hp-16",
+          text: "Foxy-woxy chased them partway down the road, but the five friends were far too quick, and they reached home safely.",
+          translation: "폭시욕시는 길을 따라 그들을 얼마간 쫓아왔지만, 다섯 친구는 훨씬 더 빨랐고 무사히 집에 도착했어요.",
+        },
+        {
+          id: "hp-17",
+          text: "They never did tell the king the sky was falling, but they learned to look closely before ever following a stranger's \"shortcut\" again.",
+          translation: "그들은 결국 임금님께 하늘이 무너진다는 소식을 전하지 못했지만, 낯선 이의 \"지름길\"을 다시 따라가기 전에는 꼼꼼히 살펴봐야 한다는 것을 배웠어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hp-v1",
+        term: "shortcut",
+        partOfSpeech: "noun",
+        translation: "지름길",
+        example: "\"This is not the way to the king's palace,\" said Foxy-woxy. \"I know a shortcut. Follow me, and I'll show you.\"",
+        exampleTranslation: "\"그건 임금님 궁전으로 가는 길이 아니야.\" 폭시욕시가 말했어요. \"내가 지름길을 알아. 나를 따라오면 보여 줄게.\"",
+      },
+      {
+        id: "hp-v2",
+        term: "peer",
+        partOfSpeech: "verb",
+        translation: "유심히 들여다보다",
+        example: "Henny-penny stopped just outside and peered into the darkness before anyone else could step in.",
+        exampleTranslation: "헤니페니는 다른 누구도 들어가기 전에 굴 바로 앞에 멈춰 서서 어둠 속을 유심히 들여다보았어요.",
+      },
+      {
+        id: "hp-v3",
+        term: "scattered",
+        partOfSpeech: "adjective",
+        translation: "흩어진",
+        example: "There, scattered across the floor, she saw old feathers, and her heart began to pound.",
+        exampleTranslation: "그곳 바닥에 흩어진 낡은 깃털들이 보이자, 그녀의 심장이 쿵쾅거리기 시작했어요.",
+      },
+      {
+        id: "hp-v4",
+        term: "trap",
+        partOfSpeech: "noun",
+        translation: "함정",
+        example: "\"This is no shortcut — it's a trap!\" Henny-penny cried, backing quickly away from the hole.",
+        exampleTranslation: "\"이건 지름길이 아니야, 함정이야!\" 헤니페니가 외치며 굴에서 재빨리 물러났어요.",
+      },
+      {
+        id: "hp-v5",
+        term: "chase",
+        partOfSpeech: "verb",
+        translation: "쫓다",
+        example: "Foxy-woxy chased them partway down the road, but the five friends were far too quick, and they reached home safely.",
+        exampleTranslation: "폭시욕시는 길을 따라 그들을 얼마간 쫓아왔지만, 다섯 친구는 훨씬 더 빨랐고 무사히 집에 도착했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hp-q1",
+        prompt: "Why did Henny-penny think the sky was falling?",
+        options: [
+          "Something hard fell on her head",
+          "A bird told her so",
+          "She saw dark clouds",
+          "The king sent her a message",
+        ],
+        correctIndex: 0,
+        explanation:
+          "While Henny-penny was picking up corn in the yard, something hard fell on her head, and she decided at once that the sky must be falling.",
+      },
+      {
+        id: "hp-q2",
+        prompt: "What did Foxy-woxy pretend to offer the five friends?",
+        options: [
+          "A shortcut to the king's palace",
+          "A free meal",
+          "A ride in his cart",
+          "A place to sleep for the night",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Foxy-woxy claimed to know a shortcut to the king's palace and led the five birds toward a dark hole, which was really the door to his own cave.",
+      },
+      {
+        id: "hp-q3",
+        prompt: "How did Henny-penny save her friends?",
+        options: [
+          "She peered into the hole, saw old feathers, and warned everyone in time",
+          "She fought Foxy-woxy off with her wings",
+          "She flew ahead alone and left the others behind",
+          "She asked the king's soldiers for help",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Henny-penny stopped to peer into the dark hole before anyone else could step in, saw the scattered feathers, and shouted a warning that let all five friends escape.",
+      },
+    ],
+  },
+  {
+    slug: "madame-de-treymes",
+    title: "Madame de Treymes",
+    titleTranslation: "마담 드 트레임",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1907)",
+    coverEmoji: "🧤",
+    coverImage: "/covers/madame-de-treymes.svg",
+    source:
+      "Adapted from Chapter 1 of Edith Wharton's novella \"Madame de Treymes\" (1907; Project Gutenberg #4518, long in the public domain) — a seventh Wharton pick on the B2 shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Fanny de Malrive told Durham about her family, her son, and why she must live in France.",
+    paragraphs: [
+      [
+        {
+          id: "mdt-1",
+          text: "John Durham stood in the doorway of a Paris hotel, waiting while Madame de Malrive slowly buttoned her long white gloves.",
+          translation: "존 더럼은 파리의 한 호텔 입구에 서서, 드 말리브 부인이 긴 흰 장갑의 단추를 천천히 채우는 동안 기다리고 있었어요.",
+        },
+        {
+          id: "mdt-2",
+          text: "Beyond her, the afternoon light spread gold across the gardens of the Tuileries.",
+          translation: "그녀 너머로, 오후의 빛이 튈르리 정원 위에 금빛으로 펼쳐져 있었어요.",
+        },
+        {
+          id: "mdt-3",
+          text: "Durham had visited Europe many times before, but today Paris felt different — for the first time, its beauty seemed tied to one particular woman.",
+          translation: "더럼은 그전에도 유럽을 여러 번 방문했지만, 오늘 파리는 어쩐지 다르게 느껴졌어요. 처음으로, 그 아름다움이 한 특별한 여인과 이어져 있는 것 같았거든요.",
+        },
+      ],
+      [
+        {
+          id: "mdt-4",
+          text: "When her carriage was delayed, Fanny de Malrive turned to him suddenly. \"I shall walk home instead. Will you come with me through the gardens?\"",
+          translation: "마차가 늦어지자 패니 드 말리브는 갑자기 그를 돌아보았어요. \"그냥 걸어서 집에 갈게요. 저와 함께 정원을 지나가시겠어요?\"",
+        },
+        {
+          id: "mdt-5",
+          text: "Durham agreed at once, though her easy, natural manner surprised him — such an invitation was not usual among the people of her world.",
+          translation: "더럼은 곧바로 승낙했지만, 그녀의 편안하고 자연스러운 태도에는 놀랐어요. 그런 제안은 그녀가 속한 세계의 사람들 사이에서는 흔한 일이 아니었거든요.",
+        },
+        {
+          id: "mdt-6",
+          text: "They crossed the wide avenue together in silence, and climbed the steps to a quiet terrace above the gardens.",
+          translation: "그들은 말없이 넓은 대로를 함께 건너, 정원 위쪽의 조용한 테라스로 이어지는 계단을 올랐어요.",
+        },
+      ],
+      [
+        {
+          id: "mdt-7",
+          text: "\"I don't know when I have been so happy,\" Fanny said, sitting down at last.",
+          translation: "\"제가 언제 이렇게 행복했었는지 모르겠어요.\" 패니가 마침내 자리에 앉으며 말했어요.",
+        },
+        {
+          id: "mdt-8",
+          text: "\"It was only tea with your mother and sisters,\" she explained, \"but it felt wonderful to be with plain, honest Americans again.\"",
+          translation: "\"그저 당신 어머니와 누이들과 차 한잔 마신 것뿐이었는데.\" 그녀가 설명했어요. \"다시 소박하고 정직한 미국인들과 함께 있으니 정말 좋았어요.\"",
+        },
+        {
+          id: "mdt-9",
+          text: "Durham smiled, a little disappointed that her happiness had nothing to do with him.",
+          translation: "더럼은 미소 지었지만, 그녀의 행복이 자신과는 아무 상관이 없다는 사실에 조금 실망했어요.",
+        },
+      ],
+      [
+        {
+          id: "mdt-10",
+          text: "\"You don't know what that word means to me,\" Fanny went on. \"With your family, I feel as safe as money in a bank.\"",
+          translation: "\"그 말이 저에게 무슨 의미인지 당신은 모르실 거예요.\" 패니가 말을 이었어요. \"당신 가족과 함께 있으면, 저는 은행에 넣어 둔 돈처럼 안전하다고 느껴요.\"",
+        },
+        {
+          id: "mdt-11",
+          text: "She spoke fondly of old New York names, and even of a sister who spent her summers at a plain country house by a lake.",
+          translation: "그녀는 오래된 뉴욕 가문의 이름들을 그리워하며 이야기했고, 호숫가의 소박한 시골집에서 여름을 보내는 한 여동생 이야기까지 다정하게 늘어놓았어요.",
+        },
+        {
+          id: "mdt-12",
+          text: "\"It is fifteen years since I was in America,\" she said finally, with a long, quiet sigh.",
+          translation: "\"미국에 다녀온 지 벌써 십오 년이 되었네요.\" 그녀가 마침내 길고 조용한 한숨과 함께 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "mdt-13",
+          text: "\"Then why did you never go back?\" Durham asked.",
+          translation: "\"그런데 왜 한 번도 돌아가지 않으셨어요?\" 더럼이 물었어요.",
+        },
+        {
+          id: "mdt-14",
+          text: "Her face changed at once. \"It was impossible. My husband would not go, and since our separation, there have been family reasons.\"",
+          translation: "그녀의 얼굴빛이 순식간에 바뀌었어요. \"그럴 수 없었어요. 남편이 가려 하지 않았고, 저희가 별거한 뒤로는 집안 사정도 있었고요.\"",
+        },
+        {
+          id: "mdt-15",
+          text: "\"I must live in France,\" she explained, \"so that I may keep my son with me.\"",
+          translation: "\"저는 프랑스에 살아야 해요.\" 그녀가 설명했어요. \"그래야 제 아들을 제 곁에 둘 수 있거든요.\"",
+        },
+      ],
+      [
+        {
+          id: "mdt-16",
+          text: "Durham's heart beat faster, for the conversation had finally reached the very question he had been waiting to ask.",
+          translation: "더럼의 심장이 더 빠르게 뛰었어요. 대화가 마침내 그가 묻고 싶어 기다려 온 바로 그 질문에 다다랐기 때문이었어요.",
+        },
+        {
+          id: "mdt-17",
+          text: "He chose his next words carefully, sensing that everything between them now depended on how gently he asked them.",
+          translation: "그는 자신과 그녀 사이의 모든 것이 이제 자신이 얼마나 조심스럽게 묻느냐에 달려 있음을 느끼며, 다음 말을 신중하게 골랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdt-v1",
+        term: "terrace",
+        partOfSpeech: "noun",
+        translation: "테라스",
+        example: "They crossed the wide avenue together in silence, and climbed the steps to a quiet terrace above the gardens.",
+        exampleTranslation: "그들은 말없이 넓은 대로를 함께 건너, 정원 위쪽의 조용한 테라스로 이어지는 계단을 올랐어요.",
+      },
+      {
+        id: "mdt-v2",
+        term: "carriage",
+        partOfSpeech: "noun",
+        translation: "마차",
+        example: "When her carriage was delayed, Fanny de Malrive turned to him suddenly. \"I shall walk home instead. Will you come with me through the gardens?\"",
+        exampleTranslation: "마차가 늦어지자 패니 드 말리브는 갑자기 그를 돌아보았어요. \"그냥 걸어서 집에 갈게요. 저와 함께 정원을 지나가시겠어요?\"",
+      },
+      {
+        id: "mdt-v3",
+        term: "separation",
+        partOfSpeech: "noun",
+        translation: "별거, 이별",
+        example: "Her face changed at once. \"It was impossible. My husband would not go, and since our separation, there have been family reasons.\"",
+        exampleTranslation: "그녀의 얼굴빛이 순식간에 바뀌었어요. \"그럴 수 없었어요. 남편이 가려 하지 않았고, 저희가 별거한 뒤로는 집안 사정도 있었고요.\"",
+      },
+      {
+        id: "mdt-v4",
+        term: "fondly",
+        partOfSpeech: "adverb",
+        translation: "다정하게, 그리워하며",
+        example: "She spoke fondly of old New York names, and even of a sister who spent her summers at a plain country house by a lake.",
+        exampleTranslation: "그녀는 오래된 뉴욕 가문의 이름들을 그리워하며 이야기했고, 호숫가의 소박한 시골집에서 여름을 보내는 한 여동생 이야기까지 다정하게 늘어놓았어요.",
+      },
+      {
+        id: "mdt-v5",
+        term: "sigh",
+        partOfSpeech: "noun",
+        translation: "한숨",
+        example: "\"It is fifteen years since I was in America,\" she said finally, with a long, quiet sigh.",
+        exampleTranslation: "\"미국에 다녀온 지 벌써 십오 년이 되었네요.\" 그녀가 마침내 길고 조용한 한숨과 함께 말했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdt-q1",
+        prompt: "What was Fanny de Malrive doing when Durham waited for her?",
+        options: [
+          "Buttoning her long white gloves",
+          "Reading a letter from her son",
+          "Talking with the hotel manager",
+          "Paying the carriage driver",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Durham stood in the hotel doorway waiting while Fanny de Malrive slowly buttoned her long white gloves.",
+      },
+      {
+        id: "mdt-q2",
+        prompt: "Why was Fanny so happy about her visit with Durham's family?",
+        options: [
+          "It reminded her of plain, honest American life",
+          "They gave her an expensive gift",
+          "They agreed to visit her in France",
+          "They offered to help her get a divorce",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Fanny explained that simply having tea with Durham's mother and sisters felt wonderful because it reminded her of being with plain, honest Americans again.",
+      },
+      {
+        id: "mdt-q3",
+        prompt: "Why must Fanny live in France?",
+        options: [
+          "So that she may keep her son with her",
+          "Because her husband forbids her to leave",
+          "Because she has a job in Paris",
+          "Because she no longer likes America",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Fanny told Durham that since her separation, family reasons required her to live in France so that she could keep her son with her.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

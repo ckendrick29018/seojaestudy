@@ -2443,5 +2443,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/tess-of-the-durbervilles.svg",
     "source": "Adapted from Chapter 1 of Thomas Hardy's novel Tess of the d'Urbervilles (1891; Project Gutenberg #110, long in the public domain) — a second Hardy pick on the B2 shelf, after Far from the Madding Crowd. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "henny-penny",
+    "title": "Henny-Penny",
+    "titleTranslation": "헤니페니",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🐔",
+    "coverImage": "/covers/henny-penny.svg",
+    "source": "Adapted from \"Henny-Penny\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — the same collection as The Three Little Pigs, and the tale better known in America as \"Chicken Little.\" The original ending, in which Foxy-woxy eats four of the five birds one by one, is softened here: Henny-penny discovers the trap in time and all five friends escape home safely. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "madame-de-treymes",
+    "title": "Madame de Treymes",
+    "titleTranslation": "마담 드 트레임",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Edith Wharton (1907)",
+    "coverEmoji": "🧤",
+    "coverImage": "/covers/madame-de-treymes.svg",
+    "source": "Adapted from Chapter 1 of Edith Wharton's novella \"Madame de Treymes\" (1907; Project Gutenberg #4518, long in the public domain) — a seventh Wharton pick on the B2 shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

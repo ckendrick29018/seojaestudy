@@ -245,10 +245,24 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (148 — 118 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (150 — 120 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  seventh round), again filling the gaps flagged directly below: **The
+  eighth round), again filling the gaps flagged directly below: **Henny-
+  Penny** (A1, classics) — another Joseph Jacobs's English Fairy Tales
+  (1890, PG#7439) tale, the one better known in America as "Chicken
+  Little": Foxy-woxy's claim of a shortcut to the king's palace, really a
+  trick leading to his own cave; the source's darker ending (the fox
+  eating four of the five birds one by one) is softened here — Henny-
+  penny peers into the cave, spots old feathers, and warns everyone in
+  time for all five to escape home safely; and **Madame de Treymes**
+  (B2, classics) — Chapter 1 of Edith Wharton's novella (1907, PG#4518),
+  a seventh Wharton pick: John Durham waiting for Fanny de Malrive
+  outside a Paris hotel, their walk through the Tuileries, her homesick
+  affection for "plain, honest Americans," and her reveal that she must
+  live in France to keep her son with her — genuinely gentle throughout,
+  no softening needed. Before that, an earlier batch the same day
+  (seventh round): **The
   Three Little Pigs** (A1, classics) — Joseph Jacobs's English Fairy Tales
   (1890, PG#7439) version of the classic tale, the first non-Grimm A1 pick
   since the shelf's gentle-by-default Grimm well ran dry; the source's
@@ -577,7 +591,11 @@ has a genuine period cover/illustration in the public domain, download that into
     (Thomas Hardy — a second Hardy scene; Ch. 1, Parson Tringham's
     revelation that Durbeyfield is the last descendant of the extinct
     d'Urberville family, and Durbeyfield's delighted overreaction) is
-    live too. Next: a seventh Wharton, or Melville (still unclaimed).
+    live too, and now **Madame de Treymes** (Edith Wharton — a seventh
+    Wharton pick; Ch. 1, John Durham and Fanny de Malrive's walk through
+    the Tuileries, her homesick affection for "plain, honest Americans,"
+    and her reveal that she must live in France to keep her son) is live
+    too. Next: an eighth Wharton, or Melville (still unclaimed).
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
@@ -600,9 +618,14 @@ has a genuine period cover/illustration in the public domain, download that into
     now **The Three Little Pigs** (Joseph Jacobs's English Fairy Tales —
     the shelf's first non-Grimm A1 pick, now that the gentle-by-default
     Grimm well has run dry; straw, sticks, and bricks, with the source's
-    darker ending softened) is live too.
-    Next: re-level a gentle A2 tale, or continue past Grimm into more
-    English/American nursery tales (Little Red Hen, Chicken Little).
+    darker ending softened) is live too, and now **Henny-Penny** (also
+    from Jacobs's English Fairy Tales, the tale better known in America
+    as "Chicken Little" — Foxy-woxy's fake shortcut and the dark cave
+    that turns out to be his den, with the source's darker ending
+    softened so Henny-penny spots the trap in time and all five friends
+    escape) is live too.
+    Next: re-level a gentle A2 tale, or continue past Jacobs into more
+    English/American nursery tales (Little Red Hen).
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently
