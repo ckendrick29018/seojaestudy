@@ -2379,5 +2379,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/treasure-island.svg",
     "source": "Adapted from Chapter 1 (\"The Old Sea-dog at the Admiral Benbow\") of Robert Louis Stevenson's Treasure Island (1883; Project Gutenberg #120, long in the public domain) — a second Stevenson pick on the shelf, after Dr. Jekyll and Mr. Hyde. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "queen-bee",
+    "title": "The Queen Bee",
+    "titleTranslation": "여왕벌",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🐝",
+    "coverImage": "/covers/queen-bee.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"The Queen Bee\" (\"Die Bienenkönigin\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "the-ministers-black-veil",
+    "title": "The Minister's Black Veil",
+    "titleTranslation": "목사의 검은 베일",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Short story",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Nathaniel Hawthorne (1864)",
+    "coverEmoji": "🖤",
+    "coverImage": "/covers/the-ministers-black-veil.svg",
+    "source": "Adapted from Nathaniel Hawthorne's short story \"The Minister's Black Veil\" (1836), collected in Twice-Told Tales (Project Gutenberg #508, long in the public domain) — the first Hawthorne pick on the B2 shelf (a second Hawthorne overall, after Dr. Heidegger's Experiment on B1). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

@@ -31274,6 +31274,427 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "queen-bee",
+    title: "The Queen Bee",
+    titleTranslation: "여왕벌",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🐝",
+    coverImage: "/covers/queen-bee.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"The Queen Bee\" (\"Die Bienenkönigin\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the youngest brother's kindness to the ants, ducks, and bees helped him break the castle's spell.",
+    paragraphs: [
+      [
+        {
+          id: "qb-1",
+          text: "Two princes once went out into the world to seek their fortune, but they lived so foolishly that they never returned home.",
+          translation:
+            "두 왕자가 세상으로 나가 자신의 운을 찾기로 했지만, 너무 어리석게 살아서 결국 집으로 돌아오지 못했어요.",
+        },
+        {
+          id: "qb-2",
+          text: "Their youngest brother went to look for them, and when he finally found them, they only laughed at how small and simple he seemed.",
+          translation:
+            "막내 동생이 형들을 찾아 나섰고, 마침내 찾아냈을 때 형들은 그가 작고 순진해 보인다며 비웃기만 했어요.",
+        },
+        {
+          id: "qb-3",
+          text: "Still, the three brothers agreed to travel on together.",
+          translation: "그래도 세 형제는 함께 계속 여행하기로 했어요.",
+        },
+      ],
+      [
+        {
+          id: "qb-4",
+          text: "First they came to an anthill, and the two elder brothers wanted to knock it down just to watch the ants scatter in fright.",
+          translation:
+            "먼저 그들은 개미집에 다다랐고, 두 형은 개미들이 겁에 질려 흩어지는 모습을 구경하려고 개미집을 부수려 했어요.",
+        },
+        {
+          id: "qb-5",
+          text: "\"Let the poor things enjoy themselves,\" the youngest brother said, and he would not let them do it.",
+          translation: "\"불쌍한 것들이니 그냥 편히 살게 두자.\" 막내가 말하며 형들을 말렸어요.",
+        },
+        {
+          id: "qb-6",
+          text: "Next they came to a lake full of ducks, and again he stopped his brothers from catching any to roast.",
+          translation: "다음으로 그들은 오리들이 가득한 호수에 이르렀고, 이번에도 그는 형들이 오리를 잡아 구워 먹지 못하게 막았어요.",
+        },
+      ],
+      [
+        {
+          id: "qb-7",
+          text: "Then they found a hollow tree dripping with honey, and he would not let his brothers light a fire to smoke out the bees.",
+          translation: "그러다 꿀이 흘러내리는 속이 빈 나무를 발견했는데, 그는 형들이 불을 피워 벌들을 쫓아내지 못하게 했어요.",
+        },
+        {
+          id: "qb-8",
+          text: "\"Let the pretty insects enjoy themselves too,\" he insisted, and the ants, the ducks, and the bees all remembered his kindness.",
+          translation: "\"저 예쁜 곤충들도 그냥 편히 살게 두자.\" 그가 고집했고, 개미와 오리와 벌들 모두 그의 친절을 기억했어요.",
+        },
+        {
+          id: "qb-9",
+          text: "At last the brothers reached a silent castle, where every horse in the stable had been turned to marble and no person could be seen anywhere.",
+          translation:
+            "마침내 형제들은 조용한 성에 도착했는데, 마구간의 말들은 모두 대리석으로 변해 있었고 어디에도 사람은 보이지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "qb-10",
+          text: "A little grey old man appeared, fed them a fine supper, and showed each brother to a bed for the night.",
+          translation:
+            "작은 회색 노인이 나타나 그들에게 훌륭한 저녁을 대접하고, 각 형제에게 하룻밤 묵을 방을 안내해 주었어요.",
+        },
+        {
+          id: "qb-11",
+          text: "The next morning, he explained that the castle could only be freed from its spell by three difficult tasks.",
+          translation: "다음 날 아침, 그는 성에 걸린 마법을 풀려면 세 가지 어려운 과제를 해내야 한다고 설명했어요.",
+        },
+        {
+          id: "qb-12",
+          text: "The first task was to find a thousand pearls hidden in the forest moss before sunset, and the two elder brothers each failed and were turned to stone.",
+          translation:
+            "첫 번째 과제는 해가 지기 전에 숲 이끼 속에 숨겨진 진주 천 개를 찾는 것이었고, 두 형은 모두 실패하여 돌로 변하고 말았어요.",
+        },
+      ],
+      [
+        {
+          id: "qb-13",
+          text: "When the youngest brother's turn came, he sat down and wept at the impossible task, until the king of the ants arrived with five thousand ants to help him search.",
+          translation:
+            "막내의 차례가 되자, 그는 그 불가능해 보이는 일 앞에 주저앉아 울었고, 그때 개미 왕이 오천 마리의 개미를 이끌고 와 그를 도왔어요.",
+        },
+        {
+          id: "qb-14",
+          text: "Together they found every pearl before the sun went down.",
+          translation: "그들은 함께 해가 지기 전에 진주를 모두 찾아냈어요.",
+        },
+        {
+          id: "qb-15",
+          text: "For the second task, the ducks he had saved dove into the lake and brought up a golden key from the very bottom.",
+          translation: "두 번째 과제에서는, 그가 구해 준 오리들이 호수 밑바닥까지 잠수해 황금 열쇠를 가져다주었어요.",
+        },
+      ],
+      [
+        {
+          id: "qb-16",
+          text: "The last and hardest task was to pick out the youngest of three identical princesses, and the queen bee he had once saved from the fire landed gently on the very one who had secretly tasted honey.",
+          translation:
+            "마지막이자 가장 어려운 과제는 똑같이 생긴 세 공주 중 막내를 골라내는 것이었는데, 그가 불에서 구해 주었던 여왕벌이 몰래 꿀을 맛본 바로 그 공주 위에 살포시 내려앉았어요.",
+        },
+        {
+          id: "qb-17",
+          text: "The spell broke at once, his stone brothers woke and became princes again, and the youngest brother married the youngest princess and became king of the castle, kind to every small creature ever after.",
+          translation:
+            "그 즉시 마법이 풀려 돌로 변했던 형들도 깨어나 다시 왕자가 되었고, 막내는 막내 공주와 결혼해 성의 왕이 되어 이후로도 작은 생명들에게 늘 다정하게 대했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "qb-v1",
+        term: "fortune",
+        partOfSpeech: "noun",
+        translation: "행운, 재산",
+        example: "Two princes once went out into the world to seek their fortune, but they lived so foolishly that they never returned home.",
+        exampleTranslation:
+          "두 왕자가 세상으로 나가 자신의 운을 찾기로 했지만, 너무 어리석게 살아서 결국 집으로 돌아오지 못했어요.",
+      },
+      {
+        id: "qb-v2",
+        term: "scatter",
+        partOfSpeech: "verb",
+        translation: "흩어지다",
+        example: "First they came to an anthill, and the two elder brothers wanted to knock it down just to watch the ants scatter in fright.",
+        exampleTranslation:
+          "먼저 그들은 개미집에 다다랐고, 두 형은 개미들이 겁에 질려 흩어지는 모습을 구경하려고 개미집을 부수려 했어요.",
+      },
+      {
+        id: "qb-v3",
+        term: "hollow",
+        partOfSpeech: "adjective",
+        translation: "속이 빈",
+        example: "Then they found a hollow tree dripping with honey, and he would not let his brothers light a fire to smoke out the bees.",
+        exampleTranslation: "그러다 꿀이 흘러내리는 속이 빈 나무를 발견했는데, 그는 형들이 불을 피워 벌들을 쫓아내지 못하게 했어요.",
+      },
+      {
+        id: "qb-v4",
+        term: "identical",
+        partOfSpeech: "adjective",
+        translation: "똑같은",
+        example:
+          "The last and hardest task was to pick out the youngest of three identical princesses, and the queen bee he had once saved from the fire landed gently on the very one who had secretly tasted honey.",
+        exampleTranslation:
+          "마지막이자 가장 어려운 과제는 똑같이 생긴 세 공주 중 막내를 골라내는 것이었는데, 그가 불에서 구해 주었던 여왕벌이 몰래 꿀을 맛본 바로 그 공주 위에 살포시 내려앉았어요.",
+      },
+      {
+        id: "qb-v5",
+        term: "spell",
+        partOfSpeech: "noun",
+        translation: "마법, 주문",
+        example: "The spell broke at once, his stone brothers woke and became princes again, and the youngest brother married the youngest princess and became king of the castle, kind to every small creature ever after.",
+        exampleTranslation:
+          "그 즉시 마법이 풀려 돌로 변했던 형들도 깨어나 다시 왕자가 되었고, 막내는 막내 공주와 결혼해 성의 왕이 되어 이후로도 작은 생명들에게 늘 다정하게 대했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "qb-q1",
+        prompt: "How did the youngest brother treat the ants, ducks, and bees?",
+        options: [
+          "He protected them and would not let his brothers harm them",
+          "He ignored them completely",
+          "He caught and sold them",
+          "He was afraid of them",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Each time his brothers wanted to harm the ants, ducks, or bees, the youngest brother stopped them and let the creatures enjoy themselves.",
+      },
+      {
+        id: "qb-q2",
+        prompt: "What happened to the two elder brothers when they failed the first task?",
+        options: [
+          "They were sent home in shame",
+          "They were turned to stone",
+          "They were locked in a tower",
+          "They gave up and left the castle",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Both elder brothers failed to find all thousand pearls before sunset, so they were turned to stone, just as the tablet had warned.",
+      },
+      {
+        id: "qb-q3",
+        prompt: "How did the youngest brother complete the three tasks?",
+        options: [
+          "He solved them all by himself with clever tricks",
+          "He bribed the old man to help him",
+          "The ants, ducks, and bees he had once saved came to help him",
+          "He refused to attempt the tasks",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The ant king, the ducks, and the queen bee all repaid his earlier kindness by helping him find the pearls, the key, and the youngest princess.",
+      },
+    ],
+  },
+  {
+    slug: "the-ministers-black-veil",
+    title: "The Minister's Black Veil",
+    titleTranslation: "목사의 검은 베일",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Short story",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Nathaniel Hawthorne (1864)",
+    coverEmoji: "🖤",
+    coverImage: "/covers/the-ministers-black-veil.svg",
+    source:
+      "Adapted from Nathaniel Hawthorne's short story \"The Minister's Black Veil\" (1836), collected in Twice-Told Tales (Project Gutenberg #508, long in the public domain) — the first Hawthorne pick on the B2 shelf (a second Hawthorne overall, after Dr. Heidegger's Experiment on B1). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Mr. Hooper would not lift his black veil for Elizabeth, even though it cost him her love.",
+    paragraphs: [
+      [
+        {
+          id: "mbv-1",
+          text: "One Sunday morning in the village of Milford, the congregation gathered outside the meeting-house, waiting for their minister, Mr. Hooper.",
+          translation: "어느 일요일 아침, 밀퍼드 마을 사람들이 예배당 밖에 모여 목사인 후퍼 씨를 기다리고 있었어요.",
+        },
+        {
+          id: "mbv-2",
+          text: "When he finally appeared, a gasp ran through the crowd: swathed across his forehead and hanging down to his chin was a plain black veil.",
+          translation:
+            "마침내 그가 모습을 드러내자 사람들 사이에서 놀란 탄식이 터져 나왔어요. 그의 이마에서 턱까지 소박한 검은 베일이 드리워져 있었기 때문이었어요.",
+        },
+        {
+          id: "mbv-3",
+          text: "\"Our parson has gone mad!\" one villager cried, and the whispers followed Mr. Hooper all the way to the pulpit.",
+          translation: "\"우리 목사님이 미쳤나 봐!\" 한 마을 사람이 외쳤고, 후퍼 씨가 설교단에 오르는 내내 수군거림이 뒤따랐어요.",
+        },
+      ],
+      [
+        {
+          id: "mbv-4",
+          text: "He preached that morning on secret sin, the private guilt that everyone hides even from the people closest to them.",
+          translation: "그날 아침 그는 은밀한 죄, 즉 가장 가까운 사람에게도 감추는 개인적인 죄책감에 관해 설교했어요.",
+        },
+        {
+          id: "mbv-5",
+          text: "Every listener felt oddly certain that the veiled minister could somehow see straight into their own hidden thoughts.",
+          translation: "베일을 쓴 목사가 마치 자신의 숨은 생각을 꿰뚫어 보는 것 같다고 모든 청중이 이상하리만치 확신했어요.",
+        },
+        {
+          id: "mbv-6",
+          text: "When the service ended, people hurried outside, relieved to escape from beneath his gaze at last.",
+          translation: "예배가 끝나자 사람들은 마침내 그의 시선에서 벗어났다는 안도감에 서둘러 밖으로 나갔어요.",
+        },
+      ],
+      [
+        {
+          id: "mbv-7",
+          text: "In the days that followed, the whole village talked of nothing but the veil, yet no one dared to ask Mr. Hooper directly why he wore it.",
+          translation: "그 뒤 며칠 동안 마을 사람들은 온통 그 베일 이야기뿐이었지만, 아무도 후퍼 씨에게 직접 이유를 묻지 못했어요.",
+        },
+        {
+          id: "mbv-8",
+          text: "A group from the church finally visited him, but they sat in awkward silence and left without ever raising the subject.",
+          translation: "결국 교회 사람들이 그를 찾아갔지만, 그들은 어색한 침묵 속에 앉아 있다가 그 이야기를 꺼내지도 못하고 돌아갔어요.",
+        },
+        {
+          id: "mbv-9",
+          text: "Only one person in Milford was not afraid to face him about it: Elizabeth, the woman he was engaged to marry.",
+          translation: "밀퍼드에서 그 일을 마주할 용기가 있는 사람은 단 한 명, 그와 약혼한 여인 엘리자베스뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mbv-10",
+          text: "She came to him calmly and asked him plainly to lay the veil aside and tell her why he wore it.",
+          translation: "그녀는 침착하게 그를 찾아가 베일을 벗고 이유를 말해 달라고 솔직하게 부탁했어요.",
+        },
+        {
+          id: "mbv-11",
+          text: "\"There is an hour to come when all of us shall cast aside our veils,\" he told her gently. \"Take it not amiss if I wear this one until then.\"",
+          translation:
+            "\"언젠가 우리 모두가 각자의 베일을 벗을 때가 올 것이오.\" 그가 부드럽게 말했어요. \"그때까지 이 베일을 쓰는 것을 언짢게 여기지 말아 주오.\"",
+        },
+        {
+          id: "mbv-12",
+          text: "Elizabeth pressed him further, warning that people already whispered he was hiding some secret sin behind it.",
+          translation: "엘리자베스는 그가 그 뒤에 어떤 은밀한 죄를 숨기고 있다는 소문이 이미 돌고 있다고 경고하며 더 캐물었어요.",
+        },
+      ],
+      [
+        {
+          id: "mbv-13",
+          text: "\"If I hide my face for sorrow,\" he answered, \"there is cause enough; and if I cover it for secret sin, what mortal might not do the same?\"",
+          translation:
+            "\"슬픔 때문에 얼굴을 가린 것이라면\" 그가 대답했어요. \"그럴 만한 이유가 충분히 있고, 은밀한 죄 때문에 가린 것이라 해도, 그러지 않을 사람이 어디 있겠소?\"",
+        },
+        {
+          id: "mbv-14",
+          text: "\"Lift the veil but once, and look me in the face,\" Elizabeth pleaded, but he only answered, \"Never! It cannot be.\"",
+          translation:
+            "\"딱 한 번만 베일을 들고 제 얼굴을 봐 주세요.\" 엘리자베스가 애원했지만, 그는 그저 \"안 되오! 그럴 수 없소.\"라고만 답했어요.",
+        },
+        {
+          id: "mbv-15",
+          text: "\"Then farewell,\" she said quietly, and drew her arm from his grasp.",
+          translation: "\"그럼, 안녕히 계세요.\" 그녀가 조용히 말하며 그의 손아귀에서 팔을 빼냈어요.",
+        },
+      ],
+      [
+        {
+          id: "mbv-16",
+          text: "At the door she paused and looked back at him one last time, as if trying to see through the black crape at last, but then she turned and walked away for good.",
+          translation:
+            "문 앞에서 그녀는 잠시 멈춰 서서 마치 마지막으로 그 검은 천 너머를 보려는 듯 그를 돌아보았지만, 이내 돌아서서 영영 떠나갔어요.",
+        },
+        {
+          id: "mbv-17",
+          text: "Mr. Hooper never removed the veil again, not for any friend, not for any occasion, for the rest of his long life.",
+          translation: "후퍼 씨는 그 후로도 남은 평생 동안, 어떤 친구를 위해서도, 어떤 자리에서도 다시는 베일을 벗지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mbv-v1",
+        term: "congregation",
+        partOfSpeech: "noun",
+        translation: "신도, 회중",
+        example: "One Sunday morning in the village of Milford, the congregation gathered outside the meeting-house, waiting for their minister, Mr. Hooper.",
+        exampleTranslation: "어느 일요일 아침, 밀퍼드 마을 사람들이 예배당 밖에 모여 목사인 후퍼 씨를 기다리고 있었어요.",
+      },
+      {
+        id: "mbv-v2",
+        term: "veil",
+        partOfSpeech: "noun",
+        translation: "베일, 면사포",
+        example: "When he finally appeared, a gasp ran through the crowd: swathed across his forehead and hanging down to his chin was a plain black veil.",
+        exampleTranslation:
+          "마침내 그가 모습을 드러내자 사람들 사이에서 놀란 탄식이 터져 나왔어요. 그의 이마에서 턱까지 소박한 검은 베일이 드리워져 있었기 때문이었어요.",
+      },
+      {
+        id: "mbv-v3",
+        term: "guilt",
+        partOfSpeech: "noun",
+        translation: "죄책감",
+        example: "He preached that morning on secret sin, the private guilt that everyone hides even from the people closest to them.",
+        exampleTranslation: "그날 아침 그는 은밀한 죄, 즉 가장 가까운 사람에게도 감추는 개인적인 죄책감에 관해 설교했어요.",
+      },
+      {
+        id: "mbv-v4",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "Only one person in Milford was not afraid to face him about it: Elizabeth, the woman he was engaged to marry.",
+        exampleTranslation: "밀퍼드에서 그 일을 마주할 용기가 있는 사람은 단 한 명, 그와 약혼한 여인 엘리자베스뿐이었어요.",
+      },
+      {
+        id: "mbv-v5",
+        term: "plead",
+        partOfSpeech: "verb",
+        translation: "애원하다",
+        example: "\"Lift the veil but once, and look me in the face,\" Elizabeth pleaded, but he only answered, \"Never! It cannot be.\"",
+        exampleTranslation:
+          "\"딱 한 번만 베일을 들고 제 얼굴을 봐 주세요.\" 엘리자베스가 애원했지만, 그는 그저 \"안 되오! 그럴 수 없소.\"라고만 답했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mbv-q1",
+        prompt: "How did the congregation react when Mr. Hooper first appeared wearing the black veil?",
+        options: [
+          "They were shocked, whispered, and some thought he had gone mad",
+          "They admired his new fashion",
+          "They did not notice it at all",
+          "They laughed and applauded",
+        ],
+        correctIndex: 0,
+        explanation:
+          "A gasp ran through the crowd, one villager cried that the parson had gone mad, and whispers followed him all the way to the pulpit.",
+      },
+      {
+        id: "mbv-q2",
+        prompt: "What did Mr. Hooper say when Elizabeth asked why he covered his face?",
+        options: [
+          "He explained the exact secret in full detail",
+          "He said it was cause enough if it was for sorrow or secret sin, as any mortal might feel",
+          "He said it was simply a new church tradition",
+          "He promised to remove it the next day",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He told her that if he hid his face for sorrow there was cause enough, and if for secret sin, no mortal might do otherwise — but never explained exactly what lay behind it.",
+      },
+      {
+        id: "mbv-q3",
+        prompt: "What happened between Mr. Hooper and Elizabeth in the end?",
+        options: [
+          "She convinced him to remove the veil and they married happily",
+          "He removed the veil only for her, in private",
+          "She left him for good when he refused to lift the veil even once",
+          "They both agreed to ignore the veil forever",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When he refused to lift the veil even once for her, Elizabeth said \"Then farewell,\" drew her arm away, and left him — and he wore the veil for the rest of his life.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

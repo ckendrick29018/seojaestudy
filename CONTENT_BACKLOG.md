@@ -245,10 +245,23 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (144 — 114 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (146 — 116 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  fifth round), again filling gaps flagged directly below: **Snow-White
+  sixth round), again filling the gaps flagged directly below: **The
+  Queen Bee** (A1, classics) — the Brothers Grimm tale ("Die
+  Bienenkönigin," PG#2591) of a youngest brother whose kindness to an
+  anthill, a lake of ducks, and a hollow tree of bees is repaid when
+  those same creatures help him win a castle's three impossible tasks
+  and break the spell that turned his brothers to stone; genuinely
+  gentle throughout, no softening needed; and **The Minister's Black
+  Veil** (B2, classics) — Nathaniel Hawthorne's short story (1836,
+  Twice-Told Tales, PG#508), the second Hawthorne pick on the shelf and
+  the first specifically at B2 (after Dr. Heidegger's Experiment on
+  B1): the Reverend Mr. Hooper's black veil, the village's dread, and
+  his fiancée Elizabeth's failed plea for him to lift it even once — a
+  quiet, symbolic piece with no violence to soften. Before that, an
+  earlier batch the same day (fifth round): **Snow-White
   and Rose-Red** (A1, classics) — a different Brothers Grimm tale from
   the shelf's earlier "Snow White" ("Schneewittchen"); this one
   ("Schneeweißchen und Rosenrot," PG#2591) follows two sisters, a gentle
