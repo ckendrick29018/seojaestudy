@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Golden Bird, a Brothers Grimm tale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 176)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-10 6 Q -30 -18 -8 -30 Q 6 -38 16 -26 Q 30 -34 34 -18 Q 24 -12 20 -14 Q 22 2 6 10 Q 20 16 16 30 Q 4 34 -6 22 Q -14 30 -24 24 Q -18 12 -10 6 Z" stroke-width="1.5" fill="#C9A66B" fill-opacity="0.16"/>
+    <circle cx="18" cy="-20" r="1.6" fill="#A9663F" stroke="none"/>
+    <path d="M-34 40 q 34 12 68 0" stroke-width="1.1" opacity="0.45"/>
+    <path d="M-46 48 q 46 14 92 0" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <text x="200" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#2C2C2C" letter-spacing="1">The Golden Bird</text>
+
+  <line x1="150" y1="350" x2="250" y2="350" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">A fox, a feather, and a kept promise</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">BROTHERS GRIMM</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">DER GOLDENE VOGEL</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

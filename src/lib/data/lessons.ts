@@ -28351,6 +28351,819 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-golden-bird",
+    title: "The Golden Bird",
+    titleTranslation: "황금새",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🐦",
+    coverImage: "/covers/the-golden-bird.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"The Golden Bird\" (\"Der goldene Vogel\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story; the tale's darker turn — the older brothers' jealousy and betrayal, and the fox's request to be killed to break his spell — is left out, ending instead on the fox transforming once the young man treats him kindly.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the fox asked for at the end, and who the fox really turned out to be.",
+    paragraphs: [
+      [
+        {
+          id: "gb-1",
+          text: "A king had a beautiful garden with a tree that grew golden apples.",
+          translation: "어느 왕에게는 황금 사과가 열리는 나무가 있는 아름다운 정원이 있었어요.",
+        },
+        {
+          id: "gb-2",
+          text: "Every night, someone stole one apple, and no one ever saw who did it.",
+          translation: "매일 밤 누군가 사과를 하나씩 훔쳐 갔지만, 아무도 그가 누구인지 보지 못했어요.",
+        },
+        {
+          id: "gb-3",
+          text: "The king asked his three sons to guard the tree, one at a time.",
+          translation: "왕은 세 아들에게 하룻밤씩 돌아가며 나무를 지키라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "gb-4",
+          text: "The two older sons fell asleep, but on the third night, the youngest stayed wide awake.",
+          translation: "두 형은 그만 잠이 들어 버렸지만, 셋째 날 밤에는 막내아들이 끝까지 깨어 있었어요.",
+        },
+        {
+          id: "gb-5",
+          text: "At midnight, he saw a bird with feathers of pure gold eating an apple from the tree.",
+          translation: "한밤중에 그는 순금 깃털을 가진 새 한 마리가 사과를 먹고 있는 것을 보았어요.",
+        },
+        {
+          id: "gb-6",
+          text: "He tried to catch the bird, but it flew off and left behind only one golden feather.",
+          translation: "그가 새를 잡으려 했지만 새는 날아가 버렸고, 황금 깃털 하나만 남기고 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "gb-7",
+          text: "The king wanted the golden bird so much that he sent his sons out to find it.",
+          translation: "왕은 그 황금새를 너무나 갖고 싶어서 아들들을 그 새를 찾아오라고 보냈어요.",
+        },
+        {
+          id: "gb-8",
+          text: "On the road, the youngest son met a clever fox who offered to guide him.",
+          translation: "길을 가던 막내아들은 자신을 도와주겠다는 영리한 여우를 만났어요.",
+        },
+        {
+          id: "gb-9",
+          text: "The fox led him to a castle and warned him to choose the plain cage, never the golden one.",
+          translation: "여우는 그를 한 성으로 데려가, 화려한 금 새장이 아니라 반드시 평범한 새장을 고르라고 일러 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "gb-10",
+          text: "In his excitement, the young man reached for the golden cage instead, and guards captured him at once.",
+          translation: "하지만 그는 흥분한 나머지 금 새장에 손을 대고 말았고, 병사들에게 곧바로 붙잡혔어요.",
+        },
+        {
+          id: "gb-11",
+          text: "That castle's king agreed to free him and give him the golden bird, but only after he brought back a golden horse from another castle.",
+          translation: "그 성의 왕은 그를 풀어 주고 황금새도 주겠다고 했지만, 다른 성에서 황금 말을 먼저 데려와야 한다는 조건을 걸었어요.",
+        },
+      ],
+      [
+        {
+          id: "gb-12",
+          text: "The fox helped him again, warning him to use only the old leather saddle, never the golden one.",
+          translation: "여우는 다시 그를 도우며, 화려한 금 안장이 아니라 낡은 가죽 안장만 쓰라고 경고했어요.",
+        },
+        {
+          id: "gb-13",
+          text: "Once more the young man could not resist the golden saddle, and once more he was caught.",
+          translation: "하지만 그는 또다시 금 안장의 유혹을 이기지 못했고, 또 한 번 붙잡히고 말았어요.",
+        },
+        {
+          id: "gb-14",
+          text: "That king also offered a bargain: bring back the princess from the castle on the hill, and the golden horse would be his.",
+          translation: "그 성의 왕도 거래를 제안했어요. 언덕 위 성의 공주를 데려오면 황금 말을 주겠다는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "gb-15",
+          text: "This time the fox's plan worked perfectly, and the princess agreed to leave with the young man of her own free will.",
+          translation: "이번에는 여우의 계획이 완벽하게 성공했고, 공주는 스스로 그와 함께 떠나기로 했어요.",
+        },
+        {
+          id: "gb-16",
+          text: "One by one, with the fox's help, the young man carried home the princess, the golden horse, and the golden bird, and his father the king welcomed them all with joy.",
+          translation: "여우의 도움으로, 막내아들은 마침내 공주와 황금 말과 황금새를 모두 데리고 집으로 돌아왔고, 아버지인 왕은 기쁘게 그들을 맞이했어요.",
+        },
+        {
+          id: "gb-17",
+          text: "Before he left, the fox asked for one last kindness, and when the young man treated him gently, the fox turned into a prince — the princess's own long-lost brother, freed at last from an old spell.",
+          translation: "떠나기 전, 여우는 마지막 부탁을 했어요. 막내아들이 그를 다정하게 대하자, 여우는 왕자로 변했답니다. 그는 오래전 마법에 걸렸던 공주의 오빠였어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "gb-v1",
+        term: "guard",
+        partOfSpeech: "verb",
+        translation: "지키다, 감시하다",
+        example: "The king asked his three sons to guard the tree, one at a time.",
+        exampleTranslation: "왕은 세 아들에게 하룻밤씩 돌아가며 나무를 지키라고 했어요.",
+      },
+      {
+        id: "gb-v2",
+        term: "feather",
+        partOfSpeech: "noun",
+        translation: "깃털",
+        example: "it flew off and left behind only one golden feather.",
+        exampleTranslation: "새는 날아가 버렸고, 황금 깃털 하나만 남기고 갔어요.",
+      },
+      {
+        id: "gb-v3",
+        term: "leather",
+        partOfSpeech: "noun",
+        translation: "가죽",
+        example: "warning him to use only the old leather saddle, never the golden one.",
+        exampleTranslation: "화려한 금 안장이 아니라 낡은 가죽 안장만 쓰라고 경고했어요.",
+      },
+      {
+        id: "gb-v4",
+        term: "bargain",
+        partOfSpeech: "noun",
+        translation: "거래, 흥정",
+        example: "That king also offered a bargain.",
+        exampleTranslation: "그 성의 왕도 거래를 제안했어요.",
+      },
+      {
+        id: "gb-v5",
+        term: "spell",
+        partOfSpeech: "noun",
+        translation: "마법, 주문",
+        example: "freed at last from an old spell.",
+        exampleTranslation: "오래전 마법에 걸렸던 것에서 마침내 풀려났어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "gb-q1",
+        prompt: "Why did the young man get caught at the first castle?",
+        options: [
+          "He fell asleep on guard duty",
+          "He touched the golden cage instead of the plain one",
+          "He told the guards his whole plan",
+          "He forgot the fox's warning about the princess",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The fox warned him to choose the plain cage, but he reached for the golden one instead, and the guards captured him at once.",
+      },
+      {
+        id: "gb-q2",
+        prompt: "How did the young man finally win the princess?",
+        options: [
+          "He fought the castle guards",
+          "He bought her with gold",
+          "He followed the fox's plan, and she agreed to leave freely",
+          "He tricked her family into giving her up",
+        ],
+        correctIndex: 2,
+        explanation:
+          "This time the fox's plan worked perfectly, and the princess agreed to leave with the young man of her own free will.",
+      },
+      {
+        id: "gb-q3",
+        prompt: "Who did the fox turn out to be?",
+        options: [
+          "A wizard who had cursed the kingdom",
+          "The princess's long-lost brother, freed from a spell",
+          "The first castle king's advisor in disguise",
+          "A stranger with no connection to the princess",
+        ],
+        correctIndex: 1,
+        explanation:
+          "When the young man treated the fox kindly, the fox turned into a prince — the princess's own long-lost brother, freed at last from an old spell.",
+      },
+    ],
+  },
+  {
+    slug: "the-custom-of-the-country",
+    title: "The Custom of the Country",
+    titleTranslation: "관습의 나라",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Edith Wharton (1862–1937)",
+    coverEmoji: "🎭",
+    coverImage: "/covers/the-custom-of-the-country.svg",
+    source:
+      "Adapted from the opening chapter of Edith Wharton's novel \"The Custom of the Country\" (1913; Project Gutenberg #11052, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Undine demanded from her father, and how he responded despite his own worries.",
+    paragraphs: [
+      [
+        {
+          id: "coc-1",
+          text: "In a lavish but slightly gaudy New York hotel called the Stentorian, a young woman named Undine Spragg was waiting anxiously for a letter.",
+          translation: "화려하지만 다소 요란한 뉴욕의 한 호텔, 스텐토리안 호텔에서 언다인 스프래그라는 젊은 여성이 초조하게 편지 한 통을 기다리고 있었어요.",
+        },
+        {
+          id: "coc-2",
+          text: "Two years earlier, Undine and her parents had left their hometown of Apex to seek a grander life in New York.",
+          translation: "이 년 전, 언다인과 그녀의 부모님은 더 화려한 삶을 찾아 고향인 에이펙스를 떠나 뉴욕으로 왔어요.",
+        },
+        {
+          id: "coc-3",
+          text: "When a note finally arrived addressed to her mother, Undine opened it herself before Mrs. Spragg even saw it.",
+          translation: "마침내 어머니 앞으로 온 쪽지가 도착하자, 언다인은 어머니가 보기도 전에 먼저 그것을 뜯어 읽었어요.",
+        },
+      ],
+      [
+        {
+          id: "coc-4",
+          text: "Mrs. Heeny, the family's talkative manicurist, explained that the note was an invitation from Laura Fairford — the sister of a young man named Ralph Marvell, whom Undine had recently met at a hotel dance.",
+          translation: "수다스러운 손톱 관리사인 히니 부인은 그 쪽지가 로라 페어퍼드에게서 온 초대장이라고 설명해 주었어요. 로라는 언다인이 최근 호텔 무도회에서 만난 랠프 마벌이라는 청년의 누나였어요.",
+        },
+        {
+          id: "coc-5",
+          text: "\"When a young man in society wants to see a girl again,\" Mrs. Heeny said, \"he gets his sister to invite her first.\"",
+          translation: "히니 부인은 이렇게 말했어요. \"사교계의 청년이 어떤 아가씨를 다시 만나고 싶어 하면, 먼저 자기 누이를 시켜 초대를 하는 법이랍니다.\"",
+        },
+        {
+          id: "coc-6",
+          text: "Undine had never heard of such a custom, but she sensed at once that the Marvells belonged to the old, respected families she longed to join.",
+          translation: "언다인은 그런 관습을 들어 본 적이 없었지만, 마벌 집안이 자신이 그토록 들어가고 싶어 하던 유서 깊고 존경받는 가문임을 곧바로 알아차렸어요.",
+        },
+      ],
+      [
+        {
+          id: "coc-7",
+          text: "Mrs. Heeny advised her to write back as though she were only asking her mother's permission, to keep up the appearance of a proper young lady.",
+          translation: "히니 부인은 언다인에게 마치 어머니의 허락을 구하는 것처럼 답장을 쓰라고 조언했어요. 그래야 예의 바른 아가씨처럼 보일 수 있다는 것이었어요.",
+        },
+        {
+          id: "coc-8",
+          text: "Undine practiced her signature several times before finally sending a careful, polite acceptance in her mother's name.",
+          translation: "언다인은 서명을 몇 번이나 연습한 끝에, 결국 어머니의 이름으로 정중하고 신중한 수락 편지를 보냈어요.",
+        },
+      ],
+      [
+        {
+          id: "coc-9",
+          text: "Later, alone in her room, Undine stood before her mirror, imagining herself already welcomed into the elegant world she had only glimpsed from a distance.",
+          translation: "그날 저녁 홀로 방에 남은 언다인은 거울 앞에 서서, 자신이 멀리서만 바라보던 그 우아한 세계에 이미 받아들여진 모습을 상상해 보았어요.",
+        },
+        {
+          id: "coc-10",
+          text: "She thought back to an earlier disappointment — a brief, foolish engagement to a foreign riding instructor who had turned out to be no gentleman at all.",
+          translation: "문득 예전의 씁쓸한 기억이 떠올랐어요. 외국인 승마 강사와 짧게 약혼했었지만, 그는 알고 보니 전혀 신사가 아니었던 것이지요.",
+        },
+      ],
+      [
+        {
+          id: "coc-11",
+          text: "That evening, when her father came home, Undine announced that she needed a box at the opera for the coming season.",
+          translation: "그날 저녁, 아버지가 집에 돌아오자 언다인은 이번 시즌 오페라 전용석을 마련해 달라고 요구했어요.",
+        },
+        {
+          id: "coc-12",
+          text: "Mr. Spragg, worried about money, tried gently to explain that such an expense was more than they could easily afford just then.",
+          translation: "돈 걱정이 컸던 스프래그 씨는 지금 당장은 그런 큰 비용을 감당하기 어렵다고 조심스럽게 설명하려 했어요.",
+        },
+        {
+          id: "coc-13",
+          text: "Undine grew furious and declared that if she could not have proper opera seats, she would rather go straight back to Apex.",
+          translation: "언다인은 몹시 화를 내며, 제대로 된 오페라 좌석을 가질 수 없다면 차라리 에이펙스로 돌아가 버리겠다고 선언했어요.",
+        },
+      ],
+      [
+        {
+          id: "coc-14",
+          text: "Long after Undine had stormed off to her room, Mr. Spragg quietly told his wife that he intended to get the box anyway, whatever it cost him.",
+          translation: "언다인이 화를 내며 방으로 들어가 버린 한참 뒤, 스프래그 씨는 아내에게 무슨 일이 있어도 그 전용석을 마련해 주겠다고 조용히 말했어요.",
+        },
+        {
+          id: "coc-15",
+          text: "\"I'm bound to have her go around with these people she knows,\" he said. \"I want her to be with them all she can.\"",
+          translation: "그는 이렇게 말했어요. \"저 애가 아는 그 사람들과 어울려 다니게 해 줘야만 해. 될 수 있는 한 그들과 함께 지내게 해 주고 싶어.\"",
+        },
+      ],
+      [
+        {
+          id: "coc-16",
+          text: "A worry from his old business days in Apex still weighed on him, one he preferred to keep entirely from his daughter.",
+          translation: "예전 에이펙스 사업 시절부터 이어져 온 어떤 걱정거리가 여전히 그를 짓눌렀지만, 그는 그것만큼은 딸에게 절대 알리고 싶지 않았어요.",
+        },
+        {
+          id: "coc-17",
+          text: "But for now, he pushed that worry aside and thought only of how to give Undine the chance she wanted so badly.",
+          translation: "하지만 지금은 그 걱정을 잠시 밀어 두고, 그토록 원하던 것을 딸에게 어떻게 마련해 줄지만 생각했어요.",
+        },
+        {
+          id: "coc-18",
+          text: "The next evening, he came home with tickets to a parterre box at the opera, quietly determined, as always, to give his daughter everything within his power.",
+          translation: "다음 날 저녁, 그는 오페라 특별석 표를 들고 집으로 돌아왔어요. 언제나 그랬듯, 자신이 할 수 있는 모든 것을 딸에게 해 주고 싶은 조용한 결심과 함께였답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "coc-v1",
+        term: "gaudy",
+        partOfSpeech: "adjective",
+        translation: "화려하지만 요란한, 야한",
+        example: "a lavish but slightly gaudy New York hotel",
+        exampleTranslation: "화려하지만 다소 요란한 뉴욕의 한 호텔",
+      },
+      {
+        id: "coc-v2",
+        term: "custom",
+        partOfSpeech: "noun",
+        translation: "관습, 풍습",
+        example: "Undine had never heard of such a custom.",
+        exampleTranslation: "언다인은 그런 관습을 들어 본 적이 없었어요.",
+      },
+      {
+        id: "coc-v3",
+        term: "acceptance",
+        partOfSpeech: "noun",
+        translation: "수락, 승낙",
+        example: "a careful, polite acceptance in her mother's name",
+        exampleTranslation: "어머니의 이름으로 보낸 정중하고 신중한 수락 편지",
+      },
+      {
+        id: "coc-v4",
+        term: "furious",
+        partOfSpeech: "adjective",
+        translation: "몹시 화가 난",
+        example: "Undine grew furious.",
+        exampleTranslation: "언다인은 몹시 화를 냈어요.",
+      },
+      {
+        id: "coc-v5",
+        term: "parterre box",
+        partOfSpeech: "noun phrase",
+        translation: "(오페라 극장의) 특별 관람석",
+        example: "tickets to a parterre box at the opera",
+        exampleTranslation: "오페라 특별석 표",
+      },
+    ],
+    questions: [
+      {
+        id: "coc-q1",
+        prompt: "Why did Mrs. Heeny say Ralph Marvell's sister invited Undine to dinner?",
+        options: [
+          "Because Ralph was too shy to write to her himself",
+          "Because it was the custom for a young man's sister to invite a girl he wanted to see again",
+          "Because Undine's mother had requested it",
+          "Because Ralph had already left the city",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mrs. Heeny explained that when a young man in society wants to see a girl again, he gets his sister to invite her first — exactly what Laura Fairford had done for her brother Ralph.",
+      },
+      {
+        id: "coc-q2",
+        prompt: "What earlier disappointment did Undine remember while standing before her mirror?",
+        options: [
+          "A failed business deal of her own",
+          "A brief engagement to a foreign riding instructor who was no gentleman",
+          "A quarrel with Mabel Lipscomb",
+          "Losing her family's home in Apex",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Undine thought back to a brief, foolish engagement to a foreign riding instructor who had turned out to be no gentleman at all.",
+      },
+      {
+        id: "coc-q3",
+        prompt: "How did the chapter end?",
+        options: [
+          "Mr. Spragg refused to buy the opera box",
+          "Undine apologized to her father",
+          "Mr. Spragg quietly decided to get the opera box despite his money worries",
+          "The family decided to return to Apex",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Even though the expense worried him, Mr. Spragg quietly resolved to get the box anyway, and came home the next evening with the tickets.",
+      },
+    ],
+  },
+  {
+    slug: "the-old-man-with-the-lump",
+    title: "혹부리 영감",
+    titleTranslation: "The Old Man with the Lump",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Hokburi Yeonggam, oral tradition, anonymous)",
+    coverEmoji: "🎵",
+    coverImage: "/covers/the-old-man-with-the-lump.svg",
+    source:
+      "Based on 혹부리 영감 (Hokburi Yeonggam, \"The Old Man with the Lump\"), a well-known Korean folktale from the oral tradition, long in the public domain. This retelling and its English translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the goblins rewarded the first old man, and why the second old man ended up with two lumps instead of treasure.",
+    paragraphs: [
+      [
+        {
+          id: "og-1",
+          text: "옛날 어느 마을에 뺨에 커다란 혹이 달린 마음씨 착한 노인이 살았어요.",
+          translation: "Long ago, in a small village, there lived a kind-hearted old man with a large lump on his cheek.",
+        },
+        {
+          id: "og-2",
+          text: "어느 날 노인은 산에서 나무를 하다가 갑자기 날이 어두워져, 낡은 산속 오두막에서 하룻밤을 묵게 되었어요.",
+          translation: "One day, while gathering firewood in the mountains, night fell suddenly, and he had to spend the night in an old mountain hut.",
+        },
+        {
+          id: "og-3",
+          text: "심심했던 노인은 혼자 흥얼거리다가, 마침내 목청껏 노래를 부르기 시작했어요.",
+          translation: "Feeling bored, the old man hummed to himself for a while, and at last began to sing loudly.",
+        },
+      ],
+      [
+        {
+          id: "og-4",
+          text: "그런데 그 노랫소리를 들은 도깨비들이 하나둘 오두막 주위로 몰려들었어요.",
+          translation: "A group of goblins, called dokkaebi, heard his singing and gathered around the hut one by one.",
+        },
+        {
+          id: "og-5",
+          text: "도깨비들은 노인의 아름다운 노랫소리에 완전히 반해, 그 목소리가 대체 어디에서 나오는지 물었어요.",
+          translation: "The goblins were utterly charmed by the old man's beautiful voice and asked where such a wonderful sound could possibly come from.",
+        },
+        {
+          id: "og-6",
+          text: "노인은 장난삼아, 자신의 고운 목소리는 바로 뺨에 달린 혹에서 나온다고 대답했어요.",
+          translation: "Just for fun, the old man answered that his fine voice came straight from the lump on his cheek.",
+        },
+      ],
+      [
+        {
+          id: "og-7",
+          text: "그 말을 곧이곧대로 믿은 도깨비들은 그 혹을 자신들에게 팔라고 부탁했어요.",
+          translation: "Taking him at his word, the goblins begged him to sell them the lump.",
+        },
+        {
+          id: "og-8",
+          text: "노인이 고개를 끄덕이자, 도깨비들은 신기한 방망이로 혹을 깨끗이 떼어 내고 그 대가로 금은보화를 잔뜩 주었어요.",
+          translation: "When the old man nodded, the goblins used a magical club to cleanly remove the lump and gave him a huge pile of gold and treasure in return.",
+        },
+        {
+          id: "og-9",
+          text: "혹도 없어지고 부자까지 된 노인은 다음 날 아침 기쁜 마음으로 집으로 돌아갔어요.",
+          translation: "With his lump gone and now a wealthy man besides, the old man happily returned home the next morning.",
+        },
+      ],
+      [
+        {
+          id: "og-10",
+          text: "이웃 마을에는 똑같이 뺨에 혹이 달린, 욕심 많은 노인이 살고 있었어요.",
+          translation: "In a neighboring village lived another old man, greedy, who also had a lump on his cheek.",
+        },
+        {
+          id: "og-11",
+          text: "그는 이야기를 전해 듣고, 자기도 그 오두막에 가면 부자가 될 수 있으리라 믿었어요.",
+          translation: "Hearing the story, he became convinced that he too could grow rich by visiting the very same hut.",
+        },
+      ],
+      [
+        {
+          id: "og-12",
+          text: "그날 밤 오두막에 도착한 그는 노래는 잘 부르지도 못하면서, 도깨비들이 나타나자마자 대뜸 혹을 팔겠다고 나섰어요.",
+          translation: "Arriving at the hut that night, though he could barely sing at all, he blurted out an offer to sell his lump the moment the goblins appeared.",
+        },
+        {
+          id: "og-13",
+          text: "도깨비들은 그의 서투른 노래를 듣고는, 지난번 노인이 자신들을 속였다는 사실을 눈치챘어요.",
+          translation: "Hearing his clumsy singing, the goblins realized that the first old man must have tricked them.",
+        },
+        {
+          id: "og-14",
+          text: "화가 난 도깨비들은 \"그럼 이 혹도 필요 없다!\"라며, 먼저 떼어 두었던 혹까지 그의 다른 뺨에 붙여 버렸어요.",
+          translation: "Annoyed, the goblins declared, \"Then we don't need this lump either!\" and stuck the very first lump onto his other cheek.",
+        },
+      ],
+      [
+        {
+          id: "og-15",
+          text: "결국 그는 금은보화는커녕 혹만 두 개가 되어 터덜터덜 집으로 돌아가야 했어요.",
+          translation: "In the end, instead of gold and treasure, he ended up with two lumps and had to trudge home empty-handed.",
+        },
+        {
+          id: "og-16",
+          text: "그 뒤로 마을 사람들은 착한 노인의 이야기를 들려주며, 정직함이 결국 복을 가져다준다고 말했어요.",
+          translation: "After that, the villagers loved to tell the kind old man's story, saying that honesty brings good fortune in the end.",
+        },
+        {
+          id: "og-17",
+          text: "반면 욕심을 부리다 오히려 손해를 본 이웃의 이야기는, 지금까지도 사람들에게 웃음과 함께 큰 교훈을 전하고 있답니다.",
+          translation: "Meanwhile, the story of the greedy neighbor who lost out through his own greed still brings both laughter and a good lesson to people today.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "og-v1",
+        term: "혹",
+        reading: "hok",
+        partOfSpeech: "noun",
+        translation: "a lump or growth on the skin",
+        example: "뺨에 커다란 혹이 달린 마음씨 착한 노인이 살았어요.",
+        exampleTranslation: "There lived a kind-hearted old man with a large lump on his cheek.",
+      },
+      {
+        id: "og-v2",
+        term: "도깨비",
+        reading: "dokkaebi",
+        partOfSpeech: "noun",
+        translation: "a goblin or mischievous spirit from Korean folklore",
+        example: "도깨비들이 하나둘 오두막 주위로 몰려들었어요.",
+        exampleTranslation: "A group of goblins gathered around the hut one by one.",
+      },
+      {
+        id: "og-v3",
+        term: "반하다",
+        reading: "banhada",
+        partOfSpeech: "verb",
+        translation: "to be charmed or captivated by something",
+        example: "도깨비들은 노인의 노랫소리에 완전히 반했어요.",
+        exampleTranslation: "The goblins were utterly charmed by the old man's voice.",
+      },
+      {
+        id: "og-v4",
+        term: "곧이곧대로",
+        reading: "godigodaero",
+        partOfSpeech: "adverb",
+        translation: "literally, exactly as said, at face value",
+        example: "그 말을 곧이곧대로 믿은 도깨비들은 혹을 팔라고 부탁했어요.",
+        exampleTranslation: "Taking him at his word, the goblins begged him to sell them the lump.",
+      },
+      {
+        id: "og-v5",
+        term: "욕심",
+        reading: "yoksim",
+        partOfSpeech: "noun",
+        translation: "greed",
+        example: "욕심 많은 노인이 살고 있었어요.",
+        exampleTranslation: "There lived a greedy old man.",
+      },
+    ],
+    questions: [
+      {
+        id: "og-q1",
+        prompt: "노인은 왜 자신의 고운 목소리가 혹에서 나온다고 말했나요?",
+        options: [
+          "정말로 그것이 사실이라고 믿었기 때문에",
+          "도깨비들에게 장난삼아 대답했기 때문에",
+          "도깨비들이 시켜서 어쩔 수 없이 말했기 때문에",
+          "혹을 없애려고 미리 계획했기 때문에",
+        ],
+        correctIndex: 1,
+        explanation: "노인은 도깨비들의 질문에 그저 장난삼아, 자신의 고운 목소리가 혹에서 나온다고 대답했을 뿐이었어요.",
+      },
+      {
+        id: "og-q2",
+        prompt: "욕심 많은 이웃 노인은 왜 혹을 뗄 수 없었나요?",
+        options: [
+          "그가 도깨비들을 화나게 하는 말을 했기 때문에",
+          "그의 노래 솜씨가 형편없어 도깨비들이 속임수를 눈치챘기 때문에",
+          "그가 혹을 팔지 않겠다고 거절했기 때문에",
+          "도깨비들이 이미 잠들어 있었기 때문에",
+        ],
+        correctIndex: 1,
+        explanation: "그의 서투른 노래를 들은 도깨비들은 지난번 노인이 자신들을 속였다는 사실을 눈치채고 화를 냈어요.",
+      },
+      {
+        id: "og-q3",
+        prompt: "이 이야기가 전하는 교훈은 무엇인가요?",
+        options: [
+          "노래를 잘 불러야만 부자가 될 수 있다",
+          "정직하면 복을 받고, 욕심을 부리면 오히려 손해를 본다",
+          "도깨비는 항상 나쁜 존재이다",
+          "혹이 있으면 무조건 불행해진다",
+        ],
+        correctIndex: 1,
+        explanation: "착한 노인은 정직한 마음 덕분에 복을 받았지만, 욕심 많은 이웃은 남을 속이려다 오히려 혹만 두 개가 되었어요.",
+      },
+    ],
+  },
+  {
+    slug: "the-snail-bride",
+    title: "우렁각시",
+    titleTranslation: "The Snail Bride",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Ureong Gaksi, oral tradition, anonymous)",
+    coverEmoji: "🐚",
+    coverImage: "/covers/the-snail-bride.svg",
+    source:
+      "Based on 우렁각시 (Ureong Gaksi, \"The Snail Bride\"), a well-known Korean folktale from the oral tradition, long in the public domain; this retelling uses the gentler traditional ending in which the couple outwits the greedy magistrate and stays together, rather than the sadder variant in which they are separated. This retelling and its English translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the young farmer discovered who was cooking his meals, and what the greedy magistrate tried to do about it.",
+    paragraphs: [
+      [
+        {
+          id: "sb-1",
+          text: "옛날 한 마을에 홀로 논일을 하며 사는 가난하지만 성실한 총각이 있었어요.",
+          translation: "Long ago in a village, there lived a poor but hardworking young farmer who worked his rice field all alone.",
+        },
+        {
+          id: "sb-2",
+          text: "어느 날 그는 논에서 혼잣말로, \"이 많은 쌀로 밥을 지어 누구와 함께 먹을꼬\" 하며 한숨을 쉬었어요.",
+          translation: "One day, working alone, he sighed and muttered to himself, \"Who will I ever cook this rice for and share a meal with?\"",
+        },
+        {
+          id: "sb-3",
+          text: "그 순간 물속에서 처음 보는 커다란 우렁이 한 마리가 눈에 띄었어요.",
+          translation: "Just then, he noticed an unusually large snail he had never seen before, sitting in the water.",
+        },
+      ],
+      [
+        {
+          id: "sb-4",
+          text: "그는 신기한 마음에 우렁이를 집으로 가져와 물이 담긴 항아리 속에 넣어 두었어요.",
+          translation: "Curious, he brought the snail home and placed it in a jar filled with water.",
+        },
+        {
+          id: "sb-5",
+          text: "그런데 다음 날부터 밭일을 마치고 돌아올 때마다, 누군가 이미 따뜻한 밥상을 차려 놓고 있었어요.",
+          translation: "But starting the very next day, every time he came home from the field, a warm meal was already waiting for him.",
+        },
+        {
+          id: "sb-6",
+          text: "궁금증을 참지 못한 총각은 어느 날 몰래 숨어서 부엌을 지켜보기로 했어요.",
+          translation: "Unable to contain his curiosity, the young man decided one day to hide and secretly watch the kitchen.",
+        },
+      ],
+      [
+        {
+          id: "sb-7",
+          text: "놀랍게도, 항아리 속 우렁이 껍데기에서 아름다운 여인이 나와 정성껏 밥을 짓고 있었어요.",
+          translation: "To his astonishment, a beautiful woman emerged from the snail's shell in the jar and was carefully preparing the meal.",
+        },
+        {
+          id: "sb-8",
+          text: "여인이 다시 껍데기 속으로 들어가려는 순간, 총각은 급히 뛰어나가 그녀의 손을 붙잡았어요.",
+          translation: "Just as the woman was about to slip back inside the shell, the young man rushed out and caught her by the hand.",
+        },
+      ],
+      [
+        {
+          id: "sb-9",
+          text: "여인은 자신이 용궁에서 온 우렁각시이며, 원래는 백 일이 지나야 사람으로 완전히 변할 수 있었다고 말했어요.",
+          translation: "The woman explained that she was a snail maiden from the Dragon King's palace, and that she was meant to fully become human only after a hundred days had passed.",
+        },
+        {
+          id: "sb-10",
+          text: "하지만 이렇게 들키고 만 이상, 그녀는 이 세상에 남아 그와 부부의 연을 맺을 수밖에 없다고 했어요.",
+          translation: "But now that she had been discovered too soon, she said, she had no choice but to stay in this world and become his wife.",
+        },
+      ],
+      [
+        {
+          id: "sb-11",
+          text: "두 사람은 곧 혼인을 하였고, 우렁각시는 뛰어난 솜씨로 논밭을 가꾸어 살림이 눈에 띄게 넉넉해졌어요.",
+          translation: "The two were soon married, and with the snail bride's remarkable skill, their fields flourished and their household grew visibly prosperous.",
+        },
+        {
+          id: "sb-12",
+          text: "그러던 어느 날, 우렁각시의 아름다운 소문을 들은 욕심 많은 사또가 그녀를 빼앗으려는 마음을 먹었어요.",
+          translation: "One day, however, a greedy local magistrate heard of the snail bride's beauty and set his mind on taking her for himself.",
+        },
+      ],
+      [
+        {
+          id: "sb-13",
+          text: "사또는 총각을 억지로 불러들여 무리한 시합을 시키고, 그사이 가마를 보내 우렁각시를 데려오라 명령했어요.",
+          translation: "The magistrate forcibly summoned the young farmer to an unfair contest, and meanwhile sent a palanquin with orders to bring the snail bride to him.",
+        },
+        {
+          id: "sb-14",
+          text: "하지만 우렁각시는 침착하게 꾀를 내어, 사또의 부하들을 따돌리고 무사히 집으로 돌아왔어요.",
+          translation: "But the snail bride calmly devised a plan, slipped past the magistrate's men, and made her way safely back home.",
+        },
+      ],
+      [
+        {
+          id: "sb-15",
+          text: "시합에서 이기고 서둘러 돌아온 총각은 아내가 무사한 것을 보고 크게 안도했어요.",
+          translation: "The young farmer, having won the unfair contest and hurried home, was deeply relieved to find his wife safe.",
+        },
+        {
+          id: "sb-16",
+          text: "사또는 결국 자신의 욕심을 부끄러워하며 다시는 두 사람을 괴롭히지 않았어요.",
+          translation: "In the end, the magistrate grew ashamed of his own greed and never troubled the couple again.",
+        },
+        {
+          id: "sb-17",
+          text: "총각과 우렁각시는 그 뒤로 오래오래 논밭을 가꾸며 행복하게 살았답니다.",
+          translation: "The farmer and his snail bride went on to tend their fields together and lived happily ever after.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sb-v1",
+        term: "우렁이",
+        reading: "ureongi",
+        partOfSpeech: "noun",
+        translation: "a large freshwater snail",
+        example: "커다란 우렁이 한 마리가 눈에 띄었어요.",
+        exampleTranslation: "He noticed an unusually large snail sitting in the water.",
+      },
+      {
+        id: "sb-v2",
+        term: "항아리",
+        reading: "hangari",
+        partOfSpeech: "noun",
+        translation: "a large earthenware jar or crock",
+        example: "물이 담긴 항아리 속에 넣어 두었어요.",
+        exampleTranslation: "He placed it in a jar filled with water.",
+      },
+      {
+        id: "sb-v3",
+        term: "용궁",
+        reading: "yonggung",
+        partOfSpeech: "noun",
+        translation: "the undersea palace of the Dragon King in Korean folklore",
+        example: "자신이 용궁에서 온 우렁각시이며...",
+        exampleTranslation: "She explained that she was a snail maiden from the Dragon King's palace...",
+      },
+      {
+        id: "sb-v4",
+        term: "사또",
+        reading: "sattoo",
+        partOfSpeech: "noun",
+        translation: "a local magistrate in old Korea",
+        example: "욕심 많은 사또가 그녀를 빼앗으려는 마음을 먹었어요.",
+        exampleTranslation: "A greedy local magistrate set his mind on taking her for himself.",
+      },
+      {
+        id: "sb-v5",
+        term: "꾀를 내다",
+        reading: "kkoereul naeda",
+        partOfSpeech: "verb phrase",
+        translation: "to come up with a clever plan or trick",
+        example: "우렁각시는 침착하게 꾀를 내어 무사히 돌아왔어요.",
+        exampleTranslation: "The snail bride calmly devised a plan and made her way safely back home.",
+      },
+    ],
+    questions: [
+      {
+        id: "sb-q1",
+        prompt: "우렁각시는 왜 총각과 결혼하게 되었나요?",
+        options: [
+          "처음부터 결혼을 약속했기 때문에",
+          "백 일이 되기 전에 총각에게 들켰기 때문에",
+          "용궁으로 돌아갈 수 없었기 때문에",
+          "사또가 그렇게 명령했기 때문에",
+        ],
+        correctIndex: 1,
+        explanation: "우렁각시는 백 일이 지나야 완전한 사람이 될 수 있었지만, 그보다 일찍 총각에게 들켜 이 세상에 남아 부부의 연을 맺게 되었어요.",
+      },
+      {
+        id: "sb-q2",
+        prompt: "사또는 우렁각시를 데려가기 위해 어떤 방법을 썼나요?",
+        options: [
+          "직접 찾아가 정중히 부탁했다",
+          "총각에게 무리한 시합을 시키고 그사이 가마를 보냈다",
+          "우렁각시에게 큰돈을 주었다",
+          "총각을 다른 마을로 쫓아냈다",
+        ],
+        correctIndex: 1,
+        explanation: "사또는 총각을 무리한 시합에 붙잡아 두고, 그 틈에 가마를 보내 우렁각시를 데려오라고 명령했어요.",
+      },
+      {
+        id: "sb-q3",
+        prompt: "이야기는 결국 어떻게 끝나나요?",
+        options: [
+          "우렁각시가 용궁으로 돌아갔다",
+          "사또가 결국 우렁각시를 데려갔다",
+          "우렁각시가 꾀를 내어 무사히 돌아오고, 두 사람은 행복하게 오래 살았다",
+          "총각이 시합에서 져서 벌을 받았다",
+        ],
+        correctIndex: 2,
+        explanation: "우렁각시는 스스로 꾀를 내어 사또의 부하들을 따돌리고 무사히 집으로 돌아왔고, 두 사람은 그 뒤로 행복하게 오래 살았어요.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
