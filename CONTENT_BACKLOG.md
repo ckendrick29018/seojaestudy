@@ -245,19 +245,31 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (136 — 106 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (138 — 108 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
-  `collection`):** Two more lessons are the newest additions (2026-09-17),
-  again filling gaps flagged directly below: **The Fisherman and His Wife**
-  (A1, classics) — the Brothers Grimm tale of the magic flounder and the
-  wife whose wishes grow from a cottage to a castle to ruling the sun and
-  moon, ending back where they started (PG#2591, same collection as the
-  shelf's other Grimm picks); and **Amos Barton** (B2, classics) — the
-  opening of George Eliot's "The Sad Fortunes of the Reverend Amos Barton"
-  from Scenes of Clerical Life (PG#17780, her second pick on the shelf
-  after The Lifted Veil), the narrator's plea for sympathy toward an
-  unremarkable curate and his devoted wife Milly. Before that, an earlier
-  batch the same day: four new lessons directly fulfilling two "Good next
+  `collection`):** Two more lessons are the newest additions (2026-09-17,
+  second round), again filling gaps flagged directly below: **The Goose
+  Girl** (A1, classics) — the Brothers Grimm tale of a princess forced to
+  trade places with her disloyal servant on the road, kept company in
+  secret by her talking horse Falada, until an old king's quiet watching
+  uncovers the truth (PG#2591, same collection as the shelf's other Grimm
+  picks; the tale's violent ending — Falada's beheading and the impostor's
+  execution — is dropped for a gentler resolution where she is simply sent
+  away); and **Far from the Madding Crowd** (B2, classics) — the opening
+  scene of Thomas Hardy's novel, farmer Gabriel Oak watching a vain young
+  woman admire her own reflection from a passing wagon, then paying her
+  toll himself only to be ignored — an entirely fresh author for the B2
+  shelf (PG#27). Before that, an earlier batch the same day: **The
+  Fisherman and His Wife** (A1, classics) — the Brothers Grimm tale of the
+  magic flounder and the wife whose wishes grow from a cottage to a castle
+  to ruling the sun and moon, ending back where they started (PG#2591,
+  same collection as the shelf's other Grimm picks); and **Amos Barton**
+  (B2, classics) — the opening of George Eliot's "The Sad Fortunes of the
+  Reverend Amos Barton" from Scenes of Clerical Life (PG#17780, her second
+  pick on the shelf after The Lifted Veil), the narrator's plea for
+  sympathy toward an unremarkable curate and his devoted wife Milly.
+  Before that, an earlier batch the same day: four new lessons directly
+  fulfilling two "Good next
   lessons to build" picks below plus two fresh Korean folktale originals:
   **The Golden Bird** (A1, classics) —
   Brothers Grimm's "Der goldene Vogel" (PG#2591), the fox who helps a kind
@@ -451,8 +463,8 @@ has a genuine period cover/illustration in the public domain, download that into
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×21 (+The Fisherman and His Wife), A2 ×25, B1 ×27, B2 ×27 (+Amos
-  Barton) — 100 live; add the folktales shelf
+  A1 ×22 (+The Goose Girl), A2 ×25, B1 ×27, B2 ×28 (+Far from the Madding
+  Crowd) — 102 live; add the folktales shelf
   (A1 ×3, A2 ×10, B1 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
   Mother, Prince Sandalwood the Father of Korea, The Rabbit's Eyes, East
@@ -460,7 +472,7 @@ has a genuine period cover/illustration in the public domain, download that into
   the Magpie, Old White Whiskers and Mr. Bunny, The King of the Flowers,
   Why Cats and Dogs Don't Get Along, The Old Man with the Lump, The Snail
   Bride) for
-  115 lessons across both shelves. B1 and B2 are now
+  117 lessons across both shelves. B1 and B2 are now
   the largest classics bands; pick the level a new story genuinely fits
   rather than chasing a band.
   Sept 2026 batch: Mother Holle (A1), The Golden Key (A1), The Fir Tree
@@ -480,17 +492,21 @@ has a genuine period cover/illustration in the public domain, download that into
     her fourth pick), **The Reef** (Wharton's fifth pick — Ch. 1,
     Darrow and Sophy Viner on the Dover pier), **The Custom of
     the Country** (Wharton's sixth pick — Ch. 1, Undine Spragg's demand),
-    and now **Amos Barton** (Eliot's second pick, from *Scenes of
-    Clerical Life*) are live. A further B2 needs an entirely fresh
-    author or a seventh Wharton if the well isn't dry yet. Row 73
+    **Amos Barton** (Eliot's second pick, from *Scenes of
+    Clerical Life*), and now **Far from the Madding Crowd** (Thomas
+    Hardy — an entirely fresh author; Ch. 1, Gabriel Oak and the vain
+    young woman on the wagon) are live. Next: a second Hardy scene, a
+    seventh Wharton, or another fresh author. Row 73
     (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
     **The Golden Bird** (the fox, the golden horse, and the princess),
-    and now **The Fisherman and His Wife** (the flounder and the wife's
-    escalating wishes) are live. Next: another kind non-peril Grimm
-    (e.g. **The Goose Girl**, heavily softened to drop its violent
-    punishment scene), or re-level a gentle A2 tale.
+    **The Fisherman and His Wife** (the flounder and the wife's
+    escalating wishes), and now **The Goose Girl** (the hidden princess,
+    the talking horse Falada, and the old king's quiet watching — its
+    violent ending dropped) are live. Next: another softened Grimm tale
+    (e.g. **Rumpelstiltskin**, dropping its violent ending), or re-level
+    a gentle A2 tale.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently

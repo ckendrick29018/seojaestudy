@@ -29570,6 +29570,411 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-goose-girl",
+    title: "The Goose Girl",
+    titleTranslation: "거위 치는 소녀",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    coverEmoji: "🪿",
+    coverImage: "/covers/the-goose-girl.svg",
+    source:
+      "Adapted from the Brothers Grimm's tale \"The Goose-Girl\" (\"Die Gänsemagd\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This retelling softens the tale's ending for younger readers and is, along with its Korean translation, original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the old king finally learned who the goose girl really was.",
+    paragraphs: [
+      [
+        {
+          id: "ggr-1",
+          text: "A princess had to travel far away to marry a prince she had never met.",
+          translation: "한 공주가 한 번도 만난 적 없는 왕자와 결혼하기 위해 멀리 떠나야 했어요.",
+        },
+        {
+          id: "ggr-2",
+          text: "Her mother gave her a magic horse named Falada, who could talk.",
+          translation: "공주의 어머니는 말을 할 수 있는 마법의 말, 팔라다를 딸에게 선물로 주었어요.",
+        },
+        {
+          id: "ggr-3",
+          text: "A servant girl rode with her to help her on the long journey.",
+          translation: "시녀 한 명이 긴 여행길에서 공주를 돕기 위해 함께 말을 타고 갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ggr-4",
+          text: "On the road, the servant became unkind and made the princess trade clothes with her.",
+          translation: "길을 가던 중, 시녀는 못되게 굴며 공주에게 옷을 바꿔 입자고 시켰어요.",
+        },
+        {
+          id: "ggr-5",
+          text: "Then the servant took the princess's horse and her place as the bride-to-be.",
+          translation: "그러고 나서 시녀는 공주의 말과 신부가 될 자리까지 빼앗았어요.",
+        },
+        {
+          id: "ggr-6",
+          text: "The princess had to promise to say nothing, so she quietly became a goose girl instead.",
+          translation: "공주는 아무 말도 하지 않겠다고 약속해야 했고, 그래서 조용히 거위 치는 소녀가 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "ggr-7",
+          text: "At the castle, everyone believed the servant was the true princess.",
+          translation: "성에서는 모두가 그 시녀를 진짜 공주라고 믿었어요.",
+        },
+        {
+          id: "ggr-8",
+          text: "The real princess was sent to help a boy watch the king's geese every day.",
+          translation: "진짜 공주는 매일 한 소년을 도와 왕의 거위들을 돌보러 보내졌어요.",
+        },
+        {
+          id: "ggr-9",
+          text: "Kind stable hands let Falada stay safe and warm, and the princess visited him in secret.",
+          translation: "마음씨 착한 마구간지기들이 팔라다를 안전하고 따뜻하게 지내게 해 주었고, 공주는 몰래 팔라다를 찾아갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ggr-10",
+          text: "Every morning, she whispered softly to Falada, and he always answered with gentle words.",
+          translation: "매일 아침 그녀는 팔라다에게 조용히 속삭였고, 팔라다는 언제나 다정한 말로 대답해 주었어요.",
+        },
+        {
+          id: "ggr-11",
+          text: "Her hair was pure silver, and when the goose boy tried to touch it, she sang to the wind for help.",
+          translation:
+            "그녀의 머리카락은 순은처럼 빛났는데, 거위 치는 소년이 그것을 만지려 하면 그녀는 바람에게 노래를 불러 도움을 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "ggr-12",
+          text: "The wind always blew his hat far away, giving her time to hide her beautiful hair again.",
+          translation: "바람은 언제나 소년의 모자를 멀리 날려 보내 주었고, 그동안 그녀는 아름다운 머리카락을 다시 숨길 수 있었어요.",
+        },
+        {
+          id: "ggr-13",
+          text: "One day, the old king hid nearby and saw everything — the silver hair, and the sad words to Falada.",
+          translation: "어느 날, 늙은 왕이 근처에 숨어서 은빛 머리카락과 팔라다에게 하는 슬픈 말을 모두 지켜보았어요.",
+        },
+        {
+          id: "ggr-14",
+          text: "That evening, he gently asked her to tell him the whole truth.",
+          translation: "그날 저녁, 왕은 그녀에게 모든 진실을 말해 달라고 부드럽게 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "ggr-15",
+          text: "She was afraid, but she finally told him her real story from beginning to end.",
+          translation: "그녀는 두려웠지만, 마침내 처음부터 끝까지 자신의 진짜 이야기를 들려주었어요.",
+        },
+        {
+          id: "ggr-16",
+          text: "The old king dressed her in royal clothes again and told his son the truth.",
+          translation: "늙은 왕은 그녀에게 다시 왕족의 옷을 입혀 주었고, 아들에게 진실을 알렸어요.",
+        },
+        {
+          id: "ggr-17",
+          text: "The true princess married the young prince, the dishonest servant was sent far away, and Falada lived happily with them forever.",
+          translation:
+            "진짜 공주는 젊은 왕자와 결혼했고, 정직하지 못한 시녀는 멀리 쫓겨났으며, 팔라다는 그들과 함께 영원히 행복하게 살았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ggr-v1",
+        term: "servant",
+        partOfSpeech: "noun",
+        translation: "하인, 시종",
+        example: "A servant girl rode with her to help her on the long journey.",
+        exampleTranslation: "시녀 한 명이 긴 여행길에서 공주를 돕기 위해 함께 말을 타고 갔어요.",
+      },
+      {
+        id: "ggr-v2",
+        term: "unkind",
+        partOfSpeech: "adjective",
+        translation: "못된, 심술궂은",
+        example: "On the road, the servant became unkind and made the princess trade clothes with her.",
+        exampleTranslation: "길을 가던 중, 시녀는 못되게 굴며 공주에게 옷을 바꿔 입자고 시켰어요.",
+      },
+      {
+        id: "ggr-v3",
+        term: "secret",
+        partOfSpeech: "noun",
+        translation: "비밀",
+        example: "Kind stable hands let Falada stay safe and warm, and the princess visited him in secret.",
+        exampleTranslation: "마음씨 착한 마구간지기들이 팔라다를 안전하고 따뜻하게 지내게 해 주었고, 공주는 몰래 팔라다를 찾아갔어요.",
+      },
+      {
+        id: "ggr-v4",
+        term: "silver",
+        partOfSpeech: "adjective",
+        translation: "은빛의, 은색의",
+        example: "Her hair was pure silver, and when the goose boy tried to touch it, she sang to the wind for help.",
+        exampleTranslation:
+          "그녀의 머리카락은 순은처럼 빛났는데, 거위 치는 소년이 그것을 만지려 하면 그녀는 바람에게 노래를 불러 도움을 청했어요.",
+      },
+      {
+        id: "ggr-v5",
+        term: "truth",
+        partOfSpeech: "noun",
+        translation: "진실",
+        example: "That evening, he gently asked her to tell him the whole truth.",
+        exampleTranslation: "그날 저녁, 왕은 그녀에게 모든 진실을 말해 달라고 부드럽게 부탁했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ggr-q1",
+        prompt: "Why did the princess become a goose girl?",
+        options: [
+          "Because she wanted to learn about animals",
+          "Because the servant forced her to trade places during the journey",
+          "Because the prince asked her to work before the wedding",
+          "Because she got lost on the way to the castle",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the road, the unkind servant forced the princess to trade clothes, her horse, and her place as the bride — so the true princess quietly became a goose girl instead.",
+      },
+      {
+        id: "ggr-q2",
+        prompt: "How did the princess protect her silver hair from the goose boy?",
+        options: [
+          "She hid it under a hat",
+          "She cut it short",
+          "She sang to the wind, which blew his hat away",
+          "She asked the king for help",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Whenever the goose boy tried to touch her silver hair, she sang to the wind, which always blew his hat far away and gave her time to hide her hair again.",
+      },
+      {
+        id: "ggr-q3",
+        prompt: "How did the old king finally learn the truth?",
+        options: [
+          "Falada told him directly",
+          "The servant confessed on her own",
+          "He secretly watched and listened to the princess speaking with Falada",
+          "The prince recognized the princess immediately",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The old king hid nearby and saw the princess's silver hair and heard her sad, gentle words to Falada — and that evening, he gently asked her to tell him the whole truth.",
+      },
+    ],
+  },
+  {
+    slug: "far-from-the-madding-crowd",
+    title: "Far from the Madding Crowd",
+    titleTranslation: "성난 군중으로부터 멀리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Thomas Hardy (1874)",
+    coverEmoji: "🐑",
+    coverImage: "/covers/far-from-the-madding-crowd.svg",
+    source:
+      "Adapted from the opening of Chapter 1 (\"Description of Farmer Oak — An Incident\") of Thomas Hardy's Far from the Madding Crowd (1874; Project Gutenberg #27, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Gabriel means when he calls the young woman's fault \"vanity,\" and what the scene reveals about each of them.",
+    paragraphs: [
+      [
+        {
+          id: "ffmc-1",
+          text: "Gabriel Oak was twenty-eight years old, and everyone in Norcombe agreed he was a steady, decent farmer.",
+          translation: "가브리엘 오크는 스물여덟 살이었고, 노르콤 사람들은 모두 그가 착실하고 반듯한 농부라는 데 동의했어요.",
+        },
+        {
+          id: "ffmc-2",
+          text: "He was not a striking man to look at, but people trusted him, and his smile made his whole face crinkle with warmth.",
+          translation: "그는 눈에 띄게 잘생긴 남자는 아니었지만 사람들은 그를 믿었고, 그가 웃을 때면 얼굴 전체가 따뜻하게 주름졌어요.",
+        },
+        {
+          id: "ffmc-3",
+          text: "One quiet December morning, he was walking across his sloping field when he noticed a wagon coming down the hill road below.",
+          translation: "어느 조용한 12월 아침, 그는 경사진 밭을 가로질러 걷다가 저 아래 언덕길로 마차 한 대가 내려오는 것을 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "ffmc-4",
+          text: "The wagon was piled high with furniture, plants, and a caged canary, and on top of it all sat a young woman in a bright red jacket.",
+          translation:
+            "그 마차에는 가구와 화분, 새장에 든 카나리아까지 잔뜩 실려 있었고, 그 꼭대기에는 붉은 재킷을 입은 젊은 여성이 앉아 있었어요.",
+        },
+        {
+          id: "ffmc-5",
+          text: "The wagon stopped suddenly — the tailboard had fallen off somewhere on the road — and the driver ran back to find it.",
+          translation: "마차는 갑자기 멈춰 섰어요. 길 어딘가에서 짐받이 뒤판이 떨어져 나갔던 것이었고, 마부는 그것을 찾으러 되돌아 뛰어갔어요.",
+        },
+        {
+          id: "ffmc-6",
+          text: "Left alone on the load, the young woman waited, glancing now and then to check if he was returning.",
+          translation: "짐 위에 홀로 남겨진 젊은 여성은 마부가 돌아오는지 이따금 살피며 기다렸어요.",
+        },
+      ],
+      [
+        {
+          id: "ffmc-7",
+          text: "When she was sure no one was watching, she reached for a small package tied in paper and untied it.",
+          translation: "아무도 보고 있지 않다고 확신하자, 그녀는 종이로 싸인 작은 꾸러미를 꺼내 끈을 풀었어요.",
+        },
+        {
+          id: "ffmc-8",
+          text: "Inside was a little mirror, and she lifted it and studied her own reflection, smiling slowly at what she saw.",
+          translation: "그 안에는 작은 거울이 들어 있었고, 그녀는 거울을 들어 자신의 모습을 비춰 보며 천천히 미소 지었어요.",
+        },
+        {
+          id: "ffmc-9",
+          text: "Gabriel, still watching from behind the hedge, thought there had been no real reason for her to look at herself at all.",
+          translation: "산울타리 뒤에서 여전히 지켜보던 가브리엘은, 그녀가 그렇게 자신을 비춰 볼 특별한 이유가 없었을 거라고 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "ffmc-10",
+          text: "When the driver came back, she quickly hid the mirror away, and the wagon rolled on toward the tollgate at the bottom of the hill.",
+          translation: "마부가 돌아오자 그녀는 재빨리 거울을 숨겼고, 마차는 다시 언덕 아래 통행료 징수소를 향해 굴러갔어요.",
+        },
+        {
+          id: "ffmc-11",
+          text: "There, the gatekeeper and the driver argued over a few pennies of toll, and the young woman refused to pay a penny more.",
+          translation: "그곳에서 문지기와 마부는 몇 펜스의 통행료를 두고 실랑이를 벌였고, 젊은 여성은 한 푼도 더 내지 않겠다고 버텼어요.",
+        },
+      ],
+      [
+        {
+          id: "ffmc-12",
+          text: "Gabriel had followed on foot, and hearing the small dispute, he stepped forward and paid the missing pennies himself.",
+          translation: "걸어서 뒤따라온 가브리엘은 그 작은 실랑이를 듣고 앞으로 나서서, 모자란 통행료를 직접 내주었어요.",
+        },
+        {
+          id: "ffmc-13",
+          text: "The gatekeeper opened the gate, and the young woman glanced down at Gabriel for only a moment before telling her driver to move on.",
+          translation: "문지기가 문을 열어 주었고, 젊은 여성은 잠깐 가브리엘을 내려다보더니 마부에게 그만 가자고 말했어요.",
+        },
+        {
+          id: "ffmc-14",
+          text: "She did not thank him, not even with a word, though she must have known what he had done.",
+          translation: "그녀는 그가 무엇을 해 주었는지 분명 알았을 텐데도, 말 한마디로도 고맙다는 인사를 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ffmc-15",
+          text: "After the wagon disappeared down the road, the gatekeeper remarked that she was a handsome young woman.",
+          translation: "마차가 길 저편으로 사라진 뒤, 문지기는 그녀가 미인이라고 말했어요.",
+        },
+        {
+          id: "ffmc-16",
+          text: "\"She has her faults, though,\" Gabriel replied, thinking of the mirror behind the hedge.",
+          translation: "\"하지만 저 여자에게도 결점이 있지요.\" 가브리엘은 산울타리 뒤에서 본 거울을 떠올리며 대답했어요.",
+        },
+        {
+          id: "ffmc-17",
+          text: "When the gatekeeper asked what fault he meant, Gabriel said simply, \"Vanity\" — and walked on.",
+          translation: "문지기가 그게 무슨 결점이냐고 묻자, 가브리엘은 그저 이렇게 말했어요. \"허영심이지요.\" 그러고는 걸어갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ffmc-v1",
+        term: "steady",
+        partOfSpeech: "adjective",
+        translation: "착실한, 안정된",
+        example: "Gabriel Oak was twenty-eight years old, and everyone in Norcombe agreed he was a steady, decent farmer.",
+        exampleTranslation: "가브리엘 오크는 스물여덟 살이었고, 노르콤 사람들은 모두 그가 착실하고 반듯한 농부라는 데 동의했어요.",
+      },
+      {
+        id: "ffmc-v2",
+        term: "reflection",
+        partOfSpeech: "noun",
+        translation: "(거울 등에) 비친 모습",
+        example: "Inside was a little mirror, and she lifted it and studied her own reflection, smiling slowly at what she saw.",
+        exampleTranslation: "그 안에는 작은 거울이 들어 있었고, 그녀는 거울을 들어 자신의 모습을 비춰 보며 천천히 미소 지었어요.",
+      },
+      {
+        id: "ffmc-v3",
+        term: "tollgate",
+        partOfSpeech: "noun",
+        translation: "통행료 징수소",
+        example:
+          "When the driver came back, she quickly hid the mirror away, and the wagon rolled on toward the tollgate at the bottom of the hill.",
+        exampleTranslation: "마부가 돌아오자 그녀는 재빨리 거울을 숨겼고, 마차는 다시 언덕 아래 통행료 징수소를 향해 굴러갔어요.",
+      },
+      {
+        id: "ffmc-v4",
+        term: "dispute",
+        partOfSpeech: "noun",
+        translation: "다툼, 언쟁",
+        example: "Gabriel had followed on foot, and hearing the small dispute, he stepped forward and paid the missing pennies himself.",
+        exampleTranslation: "걸어서 뒤따라온 가브리엘은 그 작은 실랑이를 듣고 앞으로 나서서, 모자란 통행료를 직접 내주었어요.",
+      },
+      {
+        id: "ffmc-v5",
+        term: "vanity",
+        partOfSpeech: "noun",
+        translation: "허영심",
+        example: "When the gatekeeper asked what fault he meant, Gabriel said simply, \"Vanity\" — and walked on.",
+        exampleTranslation: "문지기가 그게 무슨 결점이냐고 묻자, 가브리엘은 그저 이렇게 말했어요. \"허영심이지요.\" 그러고는 걸어갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ffmc-q1",
+        prompt: "Why did the wagon suddenly stop on the hill road?",
+        options: [
+          "A wheel had broken",
+          "The tailboard had fallen off somewhere on the road",
+          "The horses refused to go further",
+          "The driver wanted to rest",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The wagon stopped because its tailboard had fallen off somewhere on the road, and the driver ran back to find it.",
+      },
+      {
+        id: "ffmc-q2",
+        prompt: "What did the young woman do while she waited alone on the wagon?",
+        options: [
+          "She fed the caged canary",
+          "She rearranged the furniture",
+          "She took out a small mirror and studied her own reflection",
+          "She called out to Gabriel for help",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Once she was sure no one was watching, she took out a small mirror, studied her own reflection, and smiled slowly at what she saw.",
+      },
+      {
+        id: "ffmc-q3",
+        prompt: "What fault does Gabriel name at the end of the scene, and why?",
+        options: [
+          "Rudeness, because she never spoke to him",
+          "Greed, because she argued over the toll",
+          "Vanity, because he had seen her admiring her own reflection",
+          "Laziness, because she let the driver do all the work",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Remembering how she had admired herself in the mirror when she thought no one was watching, Gabriel names her fault simply: \"Vanity.\"",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

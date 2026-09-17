@@ -2251,5 +2251,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/amos-barton.svg",
     "source": "Adapted from the opening chapter of \"The Sad Fortunes of the Reverend Amos Barton,\" the first story in George Eliot's Scenes of Clerical Life (1857; Project Gutenberg #17780, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "the-goose-girl",
+    "title": "The Goose Girl",
+    "titleTranslation": "거위 치는 소녀",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Brothers Grimm (Jacob, 1863; Wilhelm, 1859)",
+    "coverEmoji": "🪿",
+    "coverImage": "/covers/the-goose-girl.svg",
+    "source": "Adapted from the Brothers Grimm's tale \"The Goose-Girl\" (\"Die Gänsemagd\"), collected in Grimm's Household Tales (1812–1857; Project Gutenberg #2591, long in the public domain). This retelling softens the tale's ending for younger readers and is, along with its Korean translation, original text written for SeoJae Story.",
+    "readingMinutes": 2
+  },
+  {
+    "slug": "far-from-the-madding-crowd",
+    "title": "Far from the Madding Crowd",
+    "titleTranslation": "성난 군중으로부터 멀리",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Thomas Hardy (1874)",
+    "coverEmoji": "🐑",
+    "coverImage": "/covers/far-from-the-madding-crowd.svg",
+    "source": "Adapted from the opening of Chapter 1 (\"Description of Farmer Oak — An Incident\") of Thomas Hardy's Far from the Madding Crowd (1874; Project Gutenberg #27, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];
