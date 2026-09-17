@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { ARTICLES } from "@/lib/articles";
 import { QUOTES } from "@/lib/quotes";
 import { CONTENT_LAST_MODIFIED, SITE_URL } from "@/lib/site";

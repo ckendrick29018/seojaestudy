@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "audio": "tsx scripts/generate-audio.mjs",
-    "dict:check": "tsx scripts/check-dictionary.ts"
+    "dict:check": "tsx scripts/check-dictionary.ts",
+    "lessons:index": "tsx scripts/build-lesson-index.ts"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

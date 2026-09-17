@@ -48,8 +48,29 @@ export interface Highlight {
   sentenceId: string;
   /** The sentence text at the time it was highlighted (target language). */
   text: string;
+  /** The sentence's translation at the time it was highlighted. Optional because highlights saved before this field existed don't have one. */
+  translation?: string;
   createdAt: number;
 }
+
+/**
+ * A Lesson minus its heavy content fields (`paragraphs`, `vocab`, `questions`,
+ * `summaryPrompt`) — the shape shared by both a full `Lesson` (which has all
+ * of this plus the heavy fields, fine structurally) and `LessonMeta` below.
+ * Use this for helpers that only need title/level/author/etc. regardless of
+ * which one the caller happens to have on hand.
+ */
+export type LessonLight = Omit<Lesson, "paragraphs" | "vocab" | "questions" | "summaryPrompt">;
+
+/**
+ * Lightweight card/listing view of a Lesson, plus a precomputed
+ * `readingMinutes` (see `estimateReadingTime` in `utils.ts`, which needs
+ * `paragraphs` to compute it — this bakes that number in ahead of time so
+ * listing pages never need the full story text just to show a card).
+ * Generated into `src/lib/data/lessons-index.generated.ts` by
+ * `scripts/build-lesson-index.ts` — see that file for why this split exists.
+ */
+export type LessonMeta = LessonLight & { readingMinutes: number };
 
 export interface Lesson {
   slug: string;

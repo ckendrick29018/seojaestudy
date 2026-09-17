@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { useClub } from "@/components/providers/ClubProvider";
 import { useT } from "@/components/providers/LanguageProvider";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { MAX_CLUB_MEMBERS, clubJoinUrl } from "@/lib/club";
 import { SITE_URL } from "@/lib/site";
 import { Button } from "@/components/ui/Button";

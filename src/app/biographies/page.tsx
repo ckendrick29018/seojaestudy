@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { collectionPageJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { BiographiesClient } from "./BiographiesClient";

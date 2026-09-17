@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "@/components/home/ClassicCard";

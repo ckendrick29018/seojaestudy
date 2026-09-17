@@ -1,4 +1,4 @@
-import type { CEFRLevel, Lesson } from "./types";
+import type { CEFRLevel, LessonMeta } from "./types";
 import { targetLanguageFor, type LearnDirection } from "./onboarding";
 import { dayKey } from "./study";
 
@@ -134,7 +134,7 @@ function hashStr(s: string): number {
 }
 
 export interface DailyPickInput {
-  lessons: Lesson[];
+  lessons: LessonMeta[];
   level: CEFRLevel | null;
   interests: string[];
   direction: LearnDirection | null;
@@ -158,7 +158,7 @@ export function pickLessonOfDay({
   interests,
   direction,
   day = dayKey(),
-}: DailyPickInput): Lesson | null {
+}: DailyPickInput): LessonMeta | null {
   if (lessons.length === 0) return null;
 
   const readingLang = direction ? targetLanguageFor(direction) : null;

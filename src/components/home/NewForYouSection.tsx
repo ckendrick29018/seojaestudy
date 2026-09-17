@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";

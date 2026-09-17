@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { ReactNode } from "react";
-import { lessons } from "@/lib/data/lessons";
+import { LANDING_DEMO_LINES, LANDING_DEMO_TITLE, LANDING_DEMO_VOCAB } from "@/lib/data/landing-demo";
 import { useT } from "@/components/providers/LanguageProvider";
 import { ChevronLeftIcon, ChevronRightIcon, GlobeIcon, SpeakerIcon } from "@/components/ui/icons";
 
@@ -15,13 +15,8 @@ import { ChevronLeftIcon, ChevronRightIcon, GlobeIcon, SpeakerIcon } from "@/com
  * the design system. The word glosses here are a small hand-picked sample; in a
  * real lesson every word is covered by the built-in offline dictionary.
  */
-const DEMO =
-  lessons.find((l) => l.slug === "gift-of-the-magi") ??
-  lessons.find((l) => l.collection === "classics") ??
-  lessons[0];
-
-const LINES = DEMO.paragraphs[0].slice(0, 2);
-const VOCAB = DEMO.vocab;
+const LINES = LANDING_DEMO_LINES;
+const VOCAB = LANDING_DEMO_VOCAB;
 
 /** Sample word → meaning pairs for the first demo line (keyed by lower-case core). */
 const GLOSSES: Record<string, string> = {
@@ -51,7 +46,7 @@ function ReaderScreen() {
   return (
     <figure className="overflow-hidden rounded-3xl border border-rose-light/60 bg-cream shadow-soft">
       <ScreenBar
-        title={DEMO.title}
+        title={LANDING_DEMO_TITLE}
         trailing={
           <span className="inline-flex items-center gap-1 rounded-full border border-rose-soft/40 bg-white px-2 py-0.5 text-[11px] font-medium text-rose">
             <SpeakerIcon className="h-3 w-3" aria-hidden /> {t("listen")}

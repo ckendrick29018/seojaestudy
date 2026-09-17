@@ -383,7 +383,12 @@ has a genuine period cover/illustration in the public domain, download that into
   `src/lib/data/lessons.ts`. Every live
   lesson also has pre-generated narration audio — after adding one, run
   `npm run audio -- --lesson <slug>` and commit `public/audio/` +
-  `src/lib/audio-manifest.json` (see `scripts/README.md`).
+  `src/lib/audio-manifest.json` (see `scripts/README.md`). Card/listing pages
+  (home, classics, library, club, folktales, biographies, bookshelf) read a
+  generated lightweight index, not `lessons.ts` directly — after adding or
+  editing a lesson, also run `npm run lessons:index` and commit
+  `src/lib/data/lessons-index.generated.ts`, or the new lesson won't show up
+  on those pages (see `scripts/build-lesson-index.ts`).
 - Levels on the shelf now: A1 ×19 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,

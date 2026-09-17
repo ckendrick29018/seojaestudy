@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import type { Highlight, Lesson, VocabTerm } from "@/lib/types";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import {
   type StudyGrade,
   type StudyItem,
@@ -36,6 +36,7 @@ interface HighlightEntry {
   lessonSlug: string;
   sentenceId: string;
   text: string;
+  translation?: string;
 }
 
 interface StudyPlanContextValue {
@@ -54,7 +55,7 @@ interface StudyPlanContextValue {
 
   highlights: Highlight[];
   isSentenceHighlighted: (lessonSlug: string, sentenceId: string) => boolean;
-  toggleHighlight: (lessonSlug: string, sentenceId: string, text: string) => void;
+  toggleHighlight: (lessonSlug: string, sentenceId: string, text: string, translation?: string) => void;
   addHighlights: (entries: HighlightEntry[]) => void;
   removeHighlight: (id: string) => void;
   highlightsForLesson: (lessonSlug: string) => Highlight[];
@@ -197,12 +198,12 @@ export function StudyPlanProvider({ children }: { children: ReactNode }) {
     [highlights],
   );
 
-  const toggleHighlight = useCallback((lessonSlug: string, sentenceId: string, text: string) => {
+  const toggleHighlight = useCallback((lessonSlug: string, sentenceId: string, text: string, translation?: string) => {
     const id = highlightId(lessonSlug, sentenceId);
     setHighlights((prev) =>
       prev.some((h) => h.id === id)
         ? prev.filter((h) => h.id !== id)
-        : [...prev, { id, lessonSlug, sentenceId, text, createdAt: Date.now() }],
+        : [...prev, { id, lessonSlug, sentenceId, text, translation, createdAt: Date.now() }],
     );
   }, []);
 
@@ -212,7 +213,14 @@ export function StudyPlanProvider({ children }: { children: ReactNode }) {
       for (const e of entries) {
         const id = highlightId(e.lessonSlug, e.sentenceId);
         if (!next.some((h) => h.id === id)) {
-          next.push({ id, lessonSlug: e.lessonSlug, sentenceId: e.sentenceId, text: e.text, createdAt: Date.now() });
+          next.push({
+            id,
+            lessonSlug: e.lessonSlug,
+            sentenceId: e.sentenceId,
+            text: e.text,
+            translation: e.translation,
+            createdAt: Date.now(),
+          });
         }
       }
       return next.length === prev.length ? prev : next;

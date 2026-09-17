@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicsCarousel } from "./ClassicsCarousel";

@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import type { Lesson } from "@/lib/types";
+import type { LessonMeta } from "@/lib/types";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
-import { estimateReadingTime } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
 import { BookmarkIcon, LockIcon } from "@/components/ui/icons";
 
@@ -13,10 +12,10 @@ import { BookmarkIcon, LockIcon } from "@/components/ui/icons";
  * (`/classics`); the dashboard shows a compact, swipeable variant instead
  * (see ClassicsCarousel).
  */
-export function ClassicCard({ lesson, complete }: { lesson: Lesson; complete: boolean }) {
+export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete: boolean }) {
   const t = useT();
   const { isLessonSaved, saveLesson, unsaveLesson } = useProgress();
-  const minutes = estimateReadingTime(lesson);
+  const minutes = lesson.readingMinutes;
   const saved = isLessonSaved(lesson.slug);
 
   return (

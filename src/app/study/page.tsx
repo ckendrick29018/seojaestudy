@@ -4,8 +4,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { useT } from "@/components/providers/LanguageProvider";
-import { lessons } from "@/lib/data/lessons";
-import type { Highlight, StorySentence } from "@/lib/types";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
+import type { Highlight } from "@/lib/types";
 import { isDue, MAX_BOX, type StudyGrade, type StudyItem } from "@/lib/study";
 import { narrate, useSpeechSupported } from "@/lib/speech";
 import { Button } from "@/components/ui/Button";
@@ -305,9 +305,6 @@ function HighlightList({
     <div className="space-y-5">
       {groups.map(([slug, list]) => {
         const lesson = lessons.find((l) => l.slug === slug);
-        const sentences = new Map<string, StorySentence>(
-          lesson ? lesson.paragraphs.flat().map((s) => [s.id, s] as const) : [],
-        );
         return (
           <div key={slug}>
             <div className="mb-2 flex items-baseline justify-between gap-2">
@@ -326,8 +323,8 @@ function HighlightList({
                 >
                   <div className="min-w-0">
                     <p className="text-sm text-charcoal/80">{h.text}</p>
-                    {sentences.get(h.sentenceId)?.translation && (
-                      <p className="mt-0.5 text-xs text-charcoal/45">{sentences.get(h.sentenceId)!.translation}</p>
+                    {h.translation && (
+                      <p className="mt-0.5 text-xs text-charcoal/45">{h.translation}</p>
                     )}
                   </div>
                   <button

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { ClassicCard } from "@/components/home/ClassicCard";
 import { LandingPreview } from "@/components/home/LandingPreview";
 import { useT } from "@/components/providers/LanguageProvider";

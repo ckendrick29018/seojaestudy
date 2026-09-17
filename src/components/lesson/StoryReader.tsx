@@ -272,7 +272,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
     if (allOn) {
       sel.sentenceIds.forEach((id) => {
         const s = sentenceMap.get(id);
-        if (s) toggleHighlight(lesson.slug, id, s.text);
+        if (s) toggleHighlight(lesson.slug, id, s.text, s.translation);
       });
     } else {
       addHighlights(
@@ -280,6 +280,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
           lessonSlug: lesson.slug,
           sentenceId: id,
           text: sentenceMap.get(id)?.text ?? "",
+          translation: sentenceMap.get(id)?.translation,
         })),
       );
     }
@@ -328,7 +329,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   function toggleSheetHighlight() {
     if (!sheet?.sentence) return;
-    toggleHighlight(lesson.slug, sheet.sentence.id, sheet.sentence.text);
+    toggleHighlight(lesson.slug, sheet.sentence.id, sheet.sentence.text, sheet.sentence.translation);
     setSheet(null);
   }
 

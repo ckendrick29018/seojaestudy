@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { lessons } from "@/lib/data/lessons";
-import type { Lesson } from "@/lib/types";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
+import type { LessonMeta } from "@/lib/types";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "./ClassicCard";
 
@@ -17,7 +17,7 @@ const AUTO_ADVANCE_MS = 5000;
  * tap a dot to move; auto-advance pauses while the pointer or keyboard
  * focus is inside it, and is off entirely under `prefers-reduced-motion`.
  */
-export function ClassicsCarousel({ lessons: source }: { lessons?: Lesson[] } = {}) {
+export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] } = {}) {
   const { isLessonComplete } = useProgress();
   const items = (source ?? CLASSICS).slice(0, MAX_IN_CAROUSEL);
 

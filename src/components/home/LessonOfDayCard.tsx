@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useDaily } from "@/components/providers/DailyProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { useT } from "@/components/providers/LanguageProvider";
-import { estimateReadingTime } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
 import { CheckIcon, StarIcon } from "@/components/ui/icons";
 
@@ -20,7 +19,7 @@ export function LessonOfDayCard() {
 
   if (!lessonOfDay) return null;
 
-  const minutes = estimateReadingTime(lessonOfDay);
+  const minutes = lessonOfDay.readingMinutes;
   const done = isLessonComplete(lessonOfDay.slug);
   const href = `/lesson/${lessonOfDay.slug}`;
 

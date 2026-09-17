@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { SITE_NAME } from "@/lib/site";
 import { PLAYFAIR_DISPLAY_600_BASE64 } from "@/assets/fonts/playfair-display-600";
 

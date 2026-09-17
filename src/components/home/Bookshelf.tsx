@@ -3,8 +3,8 @@
 import { useMemo } from "react";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import type { Lesson } from "@/lib/types";
-import { lessons } from "@/lib/data/lessons";
+import type { LessonMeta } from "@/lib/types";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { useProgress } from "@/components/providers/ProgressProvider";
 
 /** Muted, on-palette spine colours; picked per book from its slug. */
@@ -16,8 +16,8 @@ function hashSlug(slug: string): number {
   return h;
 }
 
-/** Completed lessons, as full Lesson objects, in library order. */
-export function useCompletedBooks(): Lesson[] {
+/** Completed lessons, as lightweight lesson metadata, in library order. */
+export function useCompletedBooks(): LessonMeta[] {
   const { completedLessons } = useProgress();
   return useMemo(() => {
     const done = new Set(completedLessons);
@@ -37,7 +37,7 @@ export function BookSpine({
   interactive = true,
   compact = false,
 }: {
-  lesson: Lesson;
+  lesson: LessonMeta;
   index: number;
   interactive?: boolean;
   /** Smaller spines for the dashboard preview strip. */
@@ -92,7 +92,7 @@ export function BookSpine({
 }
 
 /** A wooden shelf holding a row of spines. */
-export function Shelf({ books, startIndex = 0 }: { books: Lesson[]; startIndex?: number }) {
+export function Shelf({ books, startIndex = 0 }: { books: LessonMeta[]; startIndex?: number }) {
   return (
     <div>
       <div className="flex items-end gap-[3px] overflow-hidden rounded-t-sm px-3 pt-8 lg:justify-center lg:gap-1">

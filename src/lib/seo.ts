@@ -1,4 +1,4 @@
-import type { Lesson } from "./types";
+import type { Lesson, LessonLight } from "./types";
 import type { Quote } from "./quotes";
 import { SITE_NAME, SITE_URL } from "./site";
 import { estimateReadingTime } from "./utils";
@@ -9,7 +9,7 @@ const LANGUAGE_NAME: Record<Lesson["targetLanguage"], string> = {
 };
 
 /** The support language a lesson translates into (the opposite of the target). */
-function nativeLanguageName(lesson: Lesson): string {
+function nativeLanguageName(lesson: LessonLight): string {
   return LANGUAGE_NAME[lesson.nativeLanguage];
 }
 
@@ -30,7 +30,7 @@ function storyWordCount(lesson: Lesson): number {
  * template). Leads with the work's title — the term people actually search —
  * then the signal that this is a free, bilingual, graded version to read online.
  */
-export function lessonMetaTitle(lesson: Lesson): string {
+export function lessonMetaTitle(lesson: LessonLight): string {
   const target = LANGUAGE_NAME[lesson.targetLanguage];
   const native = nativeLanguageName(lesson);
   const byline = lesson.author ? ` by ${stripDates(lesson.author)}` : "";
@@ -38,7 +38,7 @@ export function lessonMetaTitle(lesson: Lesson): string {
 }
 
 /** Marketing/meta description for a lesson, shared by <meta> tags and JSON-LD. */
-export function lessonDescription(lesson: Lesson): string {
+export function lessonDescription(lesson: LessonLight): string {
   const target = LANGUAGE_NAME[lesson.targetLanguage];
   const native = nativeLanguageName(lesson);
   const byline = lesson.author ? ` by ${stripDates(lesson.author)}` : "";
@@ -54,7 +54,7 @@ export function lessonDescription(lesson: Lesson): string {
  * Long-tail keyword set for a lesson page. Google reads the visible copy, but a
  * focused `keywords` list still helps some engines and is cheap to emit.
  */
-export function lessonKeywords(lesson: Lesson): string[] {
+export function lessonKeywords(lesson: LessonLight): string[] {
   const target = LANGUAGE_NAME[lesson.targetLanguage];
   const native = nativeLanguageName(lesson);
   const author = lesson.author ? stripDates(lesson.author) : null;
@@ -164,7 +164,7 @@ export function collectionPageJsonLd(opts: {
   path: string;
   name: string;
   description: string;
-  lessons: Lesson[];
+  lessons: LessonLight[];
   /** Optional intermediate breadcrumb, e.g. { name: "Classics", path: "/classics" }. */
   parent?: { name: string; path: string };
 }) {

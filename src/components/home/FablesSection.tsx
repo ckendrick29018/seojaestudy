@@ -1,6 +1,6 @@
 "use client";
 
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { useT } from "@/components/providers/LanguageProvider";
 import { ClassicsCarousel } from "./ClassicsCarousel";
 

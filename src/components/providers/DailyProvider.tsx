@@ -2,8 +2,8 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import type { Lesson } from "@/lib/types";
-import { lessons } from "@/lib/data/lessons";
+import type { LessonMeta } from "@/lib/types";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { dayKey } from "@/lib/study";
 import {
   EMPTY_DAILY,
@@ -35,7 +35,7 @@ interface DailyContextValue {
   /** Record that a lesson was completed today. Idempotent within a day. */
   recordReadDay: () => void;
   /** The deterministic "study this today" pick, personalised from onboarding. */
-  lessonOfDay: Lesson | null;
+  lessonOfDay: LessonMeta | null;
 }
 
 const DailyContext = createContext<DailyContextValue | null>(null);

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
 import { collectionPageJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";

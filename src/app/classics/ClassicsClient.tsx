@@ -2,9 +2,8 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { lessons } from "@/lib/data/lessons";
+import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
-import { estimateReadingTime } from "@/lib/utils";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "@/components/home/ClassicCard";
@@ -52,7 +51,7 @@ export function ClassicsClient() {
       );
     } else if (sort === "shortest") {
       sorted.sort(
-        (a, b) => estimateReadingTime(a.lesson) - estimateReadingTime(b.lesson) || a.i - b.i,
+        (a, b) => a.lesson.readingMinutes - b.lesson.readingMinutes || a.i - b.i,
       );
     }
     return sorted.map((x) => x.lesson);
