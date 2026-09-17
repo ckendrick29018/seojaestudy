@@ -31695,6 +31695,420 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-three-little-pigs",
+    title: "The Three Little Pigs",
+    titleTranslation: "아기 돼지 삼 형제",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🐷",
+    coverImage: "/covers/the-three-little-pigs.svg",
+    source:
+      "Adapted from \"The Story of the Three Little Pigs\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain). The original ending, in which the wolf eats the first two pigs and is then boiled and eaten himself, is softened here: the first two pigs escape to their brothers' houses, and the wolf is merely scalded and frightened off for good. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the third little pig's brick house and clever thinking saved all three pigs from the wolf.",
+    paragraphs: [
+      [
+        {
+          id: "tlp-1",
+          text: "Once there was a mother pig with three little pigs, and one day she told them it was time to leave home and build houses of their own.",
+          translation:
+            "옛날에 아기 돼지 세 마리를 둔 엄마 돼지가 있었는데, 어느 날 이제 집을 떠나 각자의 집을 지을 때가 되었다고 말했어요.",
+        },
+        {
+          id: "tlp-2",
+          text: "The first little pig met a man carrying straw and asked for enough of it to build a house.",
+          translation: "첫째 아기 돼지는 짚을 나르는 사람을 만나 집을 지을 만큼 짚을 달라고 부탁했어요.",
+        },
+        {
+          id: "tlp-3",
+          text: "The man gave him the straw, and the little pig built his house in a single afternoon.",
+          translation: "남자는 짚을 주었고, 첫째 아기 돼지는 하루 오후 만에 집을 다 지었어요.",
+        },
+      ],
+      [
+        {
+          id: "tlp-4",
+          text: "That evening, a hungry wolf knocked on the straw house door and said, \"Little pig, little pig, let me come in.\"",
+          translation:
+            "그날 저녁, 배고픈 늑대가 짚으로 만든 집 문을 두드리며 말했어요. \"아기 돼지야, 아기 돼지야, 나 좀 들어가게 해 줘.\"",
+        },
+        {
+          id: "tlp-5",
+          text: "\"Not by the hair of my chinny chin chin!\" the little pig answered.",
+          translation: "\"턱에 난 털 한 올만큼도 안 돼!\" 아기 돼지가 대답했어요.",
+        },
+        {
+          id: "tlp-6",
+          text: "\"Then I'll huff, and I'll puff, and I'll blow your house in,\" said the wolf, and he did.",
+          translation: "\"그럼 내가 훅 불고, 훅 불어서 네 집을 날려 버릴 거야.\" 늑대가 말했고, 정말로 그렇게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "tlp-7",
+          text: "The first little pig ran as fast as he could to his brother's house, which was built of sticks.",
+          translation: "첫째 아기 돼지는 있는 힘껏 달려 나뭇가지로 지은 둘째 형제의 집으로 도망쳤어요.",
+        },
+        {
+          id: "tlp-8",
+          text: "The wolf soon found them both and huffed and puffed until the stick house fell down too.",
+          translation: "늑대는 곧 둘을 찾아냈고, 훅훅 불어서 나뭇가지 집마저 무너뜨렸어요.",
+        },
+        {
+          id: "tlp-9",
+          text: "The two little pigs ran together to their third brother's house, which was built of bricks.",
+          translation: "두 아기 돼지는 함께 벽돌로 지은 셋째 형제의 집으로 달려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "tlp-10",
+          text: "The wolf huffed, and he puffed, and he puffed, and he huffed, but the brick house would not fall down.",
+          translation: "늑대는 훅 불고 훅 불고, 또 훅 불고 훅 불었지만, 벽돌집은 무너지지 않았어요.",
+        },
+        {
+          id: "tlp-11",
+          text: "Growing angrier by the minute, the wolf decided to climb down the chimney instead.",
+          translation: "점점 화가 난 늑대는 대신 굴뚝으로 내려가기로 했어요.",
+        },
+        {
+          id: "tlp-12",
+          text: "But the clever third little pig had a big pot of water boiling on the fire, right below the chimney.",
+          translation: "하지만 영리한 셋째 아기 돼지는 굴뚝 바로 아래 벽난로에 물이 펄펄 끓는 큰 냄비를 놓아두었어요.",
+        },
+      ],
+      [
+        {
+          id: "tlp-13",
+          text: "The wolf fell straight into the pot with a tremendous splash.",
+          translation: "늑대는 엄청난 물소리를 내며 냄비 속으로 곧장 떨어졌어요.",
+        },
+        {
+          id: "tlp-14",
+          text: "He jumped out with a yelp, dripping wet, and ran off into the forest as fast as his legs could carry him.",
+          translation: "그는 깨갱 소리를 지르며 흠뻑 젖은 채 뛰쳐나와, 다리가 움직이는 한 빠르게 숲속으로 도망쳤어요.",
+        },
+        {
+          id: "tlp-15",
+          text: "No one in that part of the forest ever saw the wolf again.",
+          translation: "그 숲 그쪽에서는 그 후로 아무도 늑대를 다시 보지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "tlp-16",
+          text: "The three little pigs lived together happily in the strong brick house from that day on.",
+          translation: "세 아기 돼지는 그날부터 튼튼한 벽돌집에서 함께 행복하게 살았어요.",
+        },
+        {
+          id: "tlp-17",
+          text: "And whenever they told the story, they always agreed: it pays to build something that lasts.",
+          translation: "그리고 이 이야기를 할 때마다 그들은 늘 이렇게 입을 모았어요. 오래가는 것을 짓는 게 결국 이득이라고.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tlp-v1",
+        term: "straw",
+        partOfSpeech: "noun",
+        translation: "짚",
+        example: "The first little pig met a man carrying straw and asked for enough of it to build a house.",
+        exampleTranslation: "첫째 아기 돼지는 짚을 나르는 사람을 만나 집을 지을 만큼 짚을 달라고 부탁했어요.",
+      },
+      {
+        id: "tlp-v2",
+        term: "huff",
+        partOfSpeech: "verb",
+        translation: "씩씩거리다, 훅 불다",
+        example: "\"Then I'll huff, and I'll puff, and I'll blow your house in,\" said the wolf, and he did.",
+        exampleTranslation: "\"그럼 내가 훅 불고, 훅 불어서 네 집을 날려 버릴 거야.\" 늑대가 말했고, 정말로 그렇게 했어요.",
+      },
+      {
+        id: "tlp-v3",
+        term: "chimney",
+        partOfSpeech: "noun",
+        translation: "굴뚝",
+        example: "Growing angrier by the minute, the wolf decided to climb down the chimney instead.",
+        exampleTranslation: "점점 화가 난 늑대는 대신 굴뚝으로 내려가기로 했어요.",
+      },
+      {
+        id: "tlp-v4",
+        term: "clever",
+        partOfSpeech: "adjective",
+        translation: "영리한",
+        example:
+          "But the clever third little pig had a big pot of water boiling on the fire, right below the chimney.",
+        exampleTranslation: "하지만 영리한 셋째 아기 돼지는 굴뚝 바로 아래 벽난로에 물이 펄펄 끓는 큰 냄비를 놓아두었어요.",
+      },
+      {
+        id: "tlp-v5",
+        term: "yelp",
+        partOfSpeech: "verb",
+        translation: "깨갱거리다, 비명을 지르다",
+        example:
+          "He jumped out with a yelp, dripping wet, and ran off into the forest as fast as his legs could carry him.",
+        exampleTranslation: "그는 깨갱 소리를 지르며 흠뻑 젖은 채 뛰쳐나와, 다리가 움직이는 한 빠르게 숲속으로 도망쳤어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tlp-q1",
+        prompt: "What did the wolf do to the straw and stick houses?",
+        options: [
+          "He blew them down",
+          "He ate them",
+          "He burned them down",
+          "He locked them up",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The wolf huffed and puffed until both the straw house and the stick house fell down, so the pigs had to run to their brother's house each time.",
+      },
+      {
+        id: "tlp-q2",
+        prompt: "Why couldn't the wolf blow down the third house?",
+        options: [
+          "It was built of bricks",
+          "It was underground",
+          "It was too far away",
+          "It was made of stone and iron",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The third little pig had built his house of bricks, which was far too strong for the wolf's huffing and puffing.",
+      },
+      {
+        id: "tlp-q3",
+        prompt: "What happened when the wolf tried to come down the chimney?",
+        options: [
+          "He fell into a pot of boiling water and ran away",
+          "He got stuck and had to be rescued",
+          "He caught the pigs and ate them",
+          "He gave up and went home",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The clever third little pig had a pot of boiling water waiting under the chimney, so the wolf fell in, yelped, and ran off into the forest for good.",
+      },
+    ],
+  },
+  {
+    slug: "tess-of-the-durbervilles",
+    title: "Tess of the d'Urbervilles",
+    titleTranslation: "더버빌가의 테스",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Thomas Hardy (1891)",
+    coverEmoji: "📜",
+    coverImage: "/covers/tess-of-the-durbervilles.svg",
+    source:
+      "Adapted from Chapter 1 of Thomas Hardy's novel Tess of the d'Urbervilles (1891; Project Gutenberg #110, long in the public domain) — a second Hardy pick on the B2 shelf, after Far from the Madding Crowd. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Parson Tringham told John Durbeyfield, and how Durbeyfield reacted to the news.",
+    paragraphs: [
+      [
+        {
+          id: "tess-1",
+          text: "One evening in May, John Durbeyfield, a poor peddler, was walking home along a country road with an empty basket on his arm.",
+          translation: "5월의 어느 저녁, 가난한 행상인 존 더비필드는 빈 바구니를 팔에 걸친 채 시골길을 따라 집으로 걸어가고 있었어요.",
+        },
+        {
+          id: "tess-2",
+          text: "An old parson named Mr. Tringham rode by on his gray mare and called out, \"Good evening, Sir John.\"",
+          translation: "트링엄이라는 늙은 목사가 회색 암말을 타고 지나가며 외쳤어요. \"안녕하시오, 존 경.\"",
+        },
+        {
+          id: "tess-3",
+          text: "Durbeyfield stopped in his tracks. \"Why do you call me Sir John? I'm plain Jack Durbeyfield, the peddler.\"",
+          translation: "더비필드는 걸음을 멈췄어요. \"왜 저를 존 경이라고 부르십니까? 저는 그냥 행상꾼 잭 더비필드일 뿐입니다.\"",
+        },
+      ],
+      [
+        {
+          id: "tess-4",
+          text: "The parson explained that, while researching old family records for the county history, he had discovered something surprising.",
+          translation: "목사는 지역 역사책을 위해 옛 가문 기록을 조사하던 중 놀라운 사실을 발견했다고 설명했어요.",
+        },
+        {
+          id: "tess-5",
+          text: "\"You are the last living descendant of the ancient and noble family of the d'Urbervilles,\" he said.",
+          translation: "\"당신은 유서 깊고 고귀한 더버빌 가문의 마지막 후손이오.\" 그가 말했어요.",
+        },
+        {
+          id: "tess-6",
+          text: "\"Your ancestors were great knights who came to England centuries ago and once owned manors all across this county.\"",
+          translation: "\"당신의 조상들은 수백 년 전 잉글랜드에 온 위대한 기사들이었고, 한때 이 지역 곳곳의 영지를 소유했었소.\"",
+        },
+      ],
+      [
+        {
+          id: "tess-7",
+          text: "Durbeyfield could hardly believe his ears. \"Never heard such a thing in my life! And where do we d'Urbervilles live now, then?\"",
+          translation: "더비필드는 자기 귀를 믿을 수 없었어요. \"평생 그런 얘기는 처음 듣습니다! 그럼 지금 저희 더버빌 가문은 어디에 살고 있습니까?\"",
+        },
+        {
+          id: "tess-8",
+          text: "\"You don't live anywhere as a noble family anymore,\" the parson admitted. \"Your line has died out. You're extinct, as they say.\"",
+          translation:
+            "\"귀족 가문으로서는 이제 어디에도 살고 있지 않소.\" 목사가 인정했어요. \"가문의 대가 끊겼거든. 말하자면 멸문한 셈이오.\"",
+        },
+        {
+          id: "tess-9",
+          text: "\"That's bad,\" said Durbeyfield, though he could not stop smiling at the thought of his grand ancestors.",
+          translation: "\"거참 안됐군요.\" 더비필드가 말했지만, 그는 위대한 조상들을 떠올리며 새어 나오는 미소를 멈출 수 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "tess-10",
+          text: "\"And our old family houses and lands, where are those?\" Durbeyfield asked eagerly.",
+          translation: "\"그럼 저희 가문의 옛 저택과 땅들은 어디에 있습니까?\" 더비필드가 열띤 목소리로 물었어요.",
+        },
+        {
+          id: "tess-11",
+          text: "\"Long gone,\" the parson said. \"Your family once held estates all through this part of England, but not one acre remains to you now.\"",
+          translation:
+            "\"오래전에 다 사라졌소.\" 목사가 말했어요. \"당신 가문은 한때 잉글랜드 이 지역 곳곳에 영지를 가지고 있었지만, 지금은 단 한 뙈기도 남아 있지 않소.\"",
+        },
+        {
+          id: "tess-12",
+          text: "\"Well, and what ought I to do about it, sir?\" Durbeyfield asked, scratching his head.",
+          translation: "\"그럼 제가 이걸 가지고 어찌해야 합니까?\" 더비필드가 머리를 긁적이며 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "tess-13",
+          text: "\"Nothing at all,\" the parson replied with a small laugh. \"It's merely a curious fact for the local historian — nothing more.\"",
+          translation: "\"아무것도 할 필요 없소.\" 목사가 작게 웃으며 대답했어요. \"그저 지역 역사가에게 흥미로운 사실일 뿐, 그 이상은 아니오.\"",
+        },
+        {
+          id: "tess-14",
+          text: "He wished Durbeyfield good evening and rode on, already regretting that he had mentioned the matter at all.",
+          translation: "그는 더비필드에게 저녁 인사를 건네고 말을 몰아 떠났는데, 벌써부터 그 얘기를 꺼낸 것을 후회하고 있었어요.",
+        },
+        {
+          id: "tess-15",
+          text: "Durbeyfield, however, sat down on the grassy bank beside the road, turning the astonishing news over and over in his mind.",
+          translation: "하지만 더비필드는 길가 풀밭 둔덕에 주저앉아, 그 놀라운 소식을 마음속으로 몇 번이고 곱씹었어요.",
+        },
+      ],
+      [
+        {
+          id: "tess-16",
+          text: "When a boy happened to pass by, Durbeyfield called out grandly, \"Take off your hat to me, boy — I am Sir John d'Urberville, lately discovered!\"",
+          translation:
+            "마침 한 소년이 지나가자 더비필드는 위풍당당하게 외쳤어요. \"얘야, 나에게 모자를 벗어라. 나는 최근에 밝혀진 존 더버빌 경이니라!\"",
+        },
+        {
+          id: "tess-17",
+          text: "He sent the boy running ahead to fetch a carriage, for a descendant of ancient knights, he decided, was much too grand a man to walk home on his own two feet.",
+          translation:
+            "그는 소년을 먼저 달려가게 하여 마차를 불러오게 했는데, 고대 기사의 후손이라면 제 발로 걸어서 집에 가기에는 너무나 대단한 사람이라고 그는 생각했기 때문이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tess-v1",
+        term: "descendant",
+        partOfSpeech: "noun",
+        translation: "후손",
+        example: "\"You are the last living descendant of the ancient and noble family of the d'Urbervilles,\" he said.",
+        exampleTranslation: "\"당신은 유서 깊고 고귀한 더버빌 가문의 마지막 후손이오.\" 그가 말했어요.",
+      },
+      {
+        id: "tess-v2",
+        term: "ancient",
+        partOfSpeech: "adjective",
+        translation: "고대의, 유서 깊은",
+        example:
+          "\"Your ancestors were great knights who came to England centuries ago and once owned manors all across this county.\"",
+        exampleTranslation: "\"당신의 조상들은 수백 년 전 잉글랜드에 온 위대한 기사들이었고, 한때 이 지역 곳곳의 영지를 소유했었소.\"",
+      },
+      {
+        id: "tess-v3",
+        term: "estate",
+        partOfSpeech: "noun",
+        translation: "영지, 사유지",
+        example:
+          "\"Long gone,\" the parson said. \"Your family once held estates all through this part of England, but not one acre remains to you now.\"",
+        exampleTranslation:
+          "\"오래전에 다 사라졌소.\" 목사가 말했어요. \"당신 가문은 한때 잉글랜드 이 지역 곳곳에 영지를 가지고 있었지만, 지금은 단 한 뙈기도 남아 있지 않소.\"",
+      },
+      {
+        id: "tess-v4",
+        term: "astonishing",
+        partOfSpeech: "adjective",
+        translation: "놀라운",
+        example:
+          "Durbeyfield, however, sat down on the grassy bank beside the road, turning the astonishing news over and over in his mind.",
+        exampleTranslation: "하지만 더비필드는 길가 풀밭 둔덕에 주저앉아, 그 놀라운 소식을 마음속으로 몇 번이고 곱씹었어요.",
+      },
+      {
+        id: "tess-v5",
+        term: "grandly",
+        partOfSpeech: "adverb",
+        translation: "위풍당당하게, 거창하게",
+        example:
+          "When a boy happened to pass by, Durbeyfield called out grandly, \"Take off your hat to me, boy — I am Sir John d'Urberville, lately discovered!\"",
+        exampleTranslation:
+          "마침 한 소년이 지나가자 더비필드는 위풍당당하게 외쳤어요. \"얘야, 나에게 모자를 벗어라. 나는 최근에 밝혀진 존 더버빌 경이니라!\"",
+      },
+    ],
+    questions: [
+      {
+        id: "tess-q1",
+        prompt: "What surprising news did Parson Tringham tell John Durbeyfield?",
+        options: [
+          "That he had won a large sum of money",
+          "That he was the last descendant of the noble d'Urberville family",
+          "That he had inherited a house nearby",
+          "That his son had become a knight",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The parson told Durbeyfield that his family records research had revealed Durbeyfield to be the last living descendant of the ancient, noble d'Urberville family.",
+      },
+      {
+        id: "tess-q2",
+        prompt: "What happened to the d'Urberville family's lands and houses?",
+        options: [
+          "They still belong to Durbeyfield's family",
+          "They were sold to the parson's family",
+          "None of them remain — they were lost long ago",
+          "They were destroyed in a fire",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The parson explained that although the family once held estates across the county, not one acre remained to Durbeyfield now.",
+      },
+      {
+        id: "tess-q3",
+        prompt: "How did Durbeyfield react to the news?",
+        options: [
+          "He was angry and did not believe the parson",
+          "He was proud and began acting like a nobleman",
+          "He was frightened and ran away",
+          "He ignored the news completely",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Durbeyfield could not stop smiling, and soon began calling himself \"Sir John\" and ordering a boy to fetch him a carriage instead of walking home.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -245,10 +245,23 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (146 — 116 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (148 — 118 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-17,
-  sixth round), again filling the gaps flagged directly below: **The
+  seventh round), again filling the gaps flagged directly below: **The
+  Three Little Pigs** (A1, classics) — Joseph Jacobs's English Fairy Tales
+  (1890, PG#7439) version of the classic tale, the first non-Grimm A1 pick
+  since the shelf's gentle-by-default Grimm well ran dry; the source's
+  darker ending is softened here — the first two pigs escape to their
+  brothers' houses instead of being eaten, and the wolf is merely scalded
+  and frightened off for good instead of being boiled and eaten; and
+  **Tess of the d'Urbervilles** (B2, classics) — Chapter 1 of Thomas
+  Hardy's novel (1891, PG#110), a second Hardy pick after Far from the
+  Madding Crowd: Parson Tringham's chance revelation to the peddler John
+  Durbeyfield that he is the last descendant of the ancient, extinct
+  d'Urberville family, and Durbeyfield's delighted, comic overreaction —
+  genuinely gentle and comedic, no softening needed. Before that, an
+  earlier batch the same day (sixth round): **The
   Queen Bee** (A1, classics) — the Brothers Grimm tale ("Die
   Bienenkönigin," PG#2591) of a youngest brother whose kindness to an
   anthill, a lake of ducks, and a hollow tree of bees is repaid when
@@ -513,8 +526,9 @@ has a genuine period cover/illustration in the public domain, download that into
   plus Elizabeth and Her German Garden (row 55, B1), The Lifted Veil
   (row 99, B2), Summer (row 101, B2), and The Snow Queen (row 102, A2).
   Classics-shelf bands are now
-  A1 ×25 (+Snow-White and Rose-Red), A2 ×25, B1 ×27, B2 ×31 (+Treasure
-  Island) — 108 live; add
+  A1 ×27 (+Snow-White and Rose-Red, +The Queen Bee, +The Three Little
+  Pigs), A2 ×25, B1 ×27, B2 ×33 (+Treasure Island, +The Minister's Black
+  Veil, +Tess of the d'Urbervilles) — 112 live; add
   the folktales shelf
   (A1 ×3, A2 ×10, B1 ×2 — A Bridegroom for Miss Mole, The Unmannerly Tiger,
   Tokgabi and the Kind Maid, The Sneezing Colossus, Cat-kin and the Queen
@@ -555,10 +569,16 @@ has a genuine period cover/illustration in the public domain, download that into
     villagers' charm against the evil eye) are live, and now **Treasure
     Island** (Robert Louis Stevenson — a second Stevenson scene, Ch. 1,
     the menacing captain at the Admiral Benbow and Dr. Livesey's
-    knife-point stand-off) is live too. Next: a second Hardy scene, a
-    seventh Wharton, or another fresh author (Hawthorne for B2
-    specifically, and Melville, are both still unclaimed). Row 73
-    (Sonnet 43) is a poem, a different lesson shape.
+    knife-point stand-off) is live too, and now **The Minister's Black
+    Veil** (Nathaniel Hawthorne — a second Hawthorne pick, the first
+    specifically at B2 after Dr. Heidegger's Experiment on B1; Rev. Mr.
+    Hooper's veil, the village's dread, and Elizabeth's failed plea for
+    him to lift it) is live too, and now **Tess of the d'Urbervilles**
+    (Thomas Hardy — a second Hardy scene; Ch. 1, Parson Tringham's
+    revelation that Durbeyfield is the last descendant of the extinct
+    d'Urberville family, and Durbeyfield's delighted overreaction) is
+    live too. Next: a seventh Wharton, or Melville (still unclaimed).
+    Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
     **The Golden Bird** (the fox, the golden horse, and the princess),
@@ -573,10 +593,16 @@ has a genuine period cover/illustration in the public domain, download that into
     into a hundred-year sleep and a kiss that wakes the whole castle),
     and now **Snow-White and Rose-Red** (a different Grimm tale from the
     shelf's existing "Snow White" — a gentle bear, a small ungrateful
-    dwarf, and a happy double wedding once his magic breaks) are live.
-    Next: re-level a gentle A2 tale, since the shelf's gentle-by-default
-    Grimm tales are now genuinely thin — most of the well-known gentle
-    ones are built.
+    dwarf, and a happy double wedding once his magic breaks) are live,
+    and now **The Queen Bee** (the youngest brother's kindness to an
+    anthill, a lake of ducks, and a hollow tree of bees, repaid when they
+    help him win the castle's three impossible tasks) is live too, and
+    now **The Three Little Pigs** (Joseph Jacobs's English Fairy Tales —
+    the shelf's first non-Grimm A1 pick, now that the gentle-by-default
+    Grimm well has run dry; straw, sticks, and bricks, with the source's
+    darker ending softened) is live too.
+    Next: re-level a gentle A2 tale, or continue past Grimm into more
+    English/American nursery tales (Little Red Hen, Chicken Little).
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently

@@ -2411,5 +2411,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-ministers-black-veil.svg",
     "source": "Adapted from Nathaniel Hawthorne's short story \"The Minister's Black Veil\" (1836), collected in Twice-Told Tales (Project Gutenberg #508, long in the public domain) — the first Hawthorne pick on the B2 shelf (a second Hawthorne overall, after Dr. Heidegger's Experiment on B1). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "the-three-little-pigs",
+    "title": "The Three Little Pigs",
+    "titleTranslation": "아기 돼지 삼 형제",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🐷",
+    "coverImage": "/covers/the-three-little-pigs.svg",
+    "source": "Adapted from \"The Story of the Three Little Pigs\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain). The original ending, in which the wolf eats the first two pigs and is then boiled and eaten himself, is softened here: the first two pigs escape to their brothers' houses, and the wolf is merely scalded and frightened off for good. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "tess-of-the-durbervilles",
+    "title": "Tess of the d'Urbervilles",
+    "titleTranslation": "더버빌가의 테스",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Thomas Hardy (1891)",
+    "coverEmoji": "📜",
+    "coverImage": "/covers/tess-of-the-durbervilles.svg",
+    "source": "Adapted from Chapter 1 of Thomas Hardy's novel Tess of the d'Urbervilles (1891; Project Gutenberg #110, long in the public domain) — a second Hardy pick on the B2 shelf, after Far from the Madding Crowd. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];
