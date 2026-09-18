@@ -5468,7 +5468,7 @@ export const COMPREHENSION_KO: Record<string, ComprehensionKo> = {
     ],
     explanation: "현명한 경고에도 불구하고, 고집스러운 충동이 크루소를 계속 이끌었고, 집으로 돌아가는 대신 런던에 남아 또 다른 항해를 찾아 나섰어요.",
   },
-  "hg-q1": {
+  "hng-q1": {
     prompt: "처음에는 조약돌을 떨어뜨리는 방법이 성공했지만, 두 번째에는 왜 빵 부스러기를 떨어뜨리는 방법이 실패했나요?",
     options: [
       "새들이 부스러기를 모두 먹어 버렸지만, 조약돌은 아무도 먹을 수 없었기 때문에",
@@ -5479,7 +5479,7 @@ export const COMPREHENSION_KO: Record<string, ComprehensionKo> = {
     explanation:
       "헨젤이 떨어뜨린 조약돌은 달빛에 반짝여 아이들을 무사히 집으로 이끌었지만, 두 번째에는 숲의 새들이 빵 부스러기를 모두 먹어 버려 따라갈 흔적이 남지 않았어요.",
   },
-  "hg-q2": {
+  "hng-q2": {
     prompt: "그레텔은 결국 어떻게 헨젤을 마녀에게서 구해 냈나요?",
     options: [
       "마녀를 뜨거운 화덕 안으로 밀어 넣고 문을 걸어 잠갔다",
@@ -5490,7 +5490,7 @@ export const COMPREHENSION_KO: Record<string, ComprehensionKo> = {
     explanation:
       "마녀가 화덕을 확인하는 법을 직접 보여 주려 하자, 그레텔은 마녀를 화덕 안으로 밀어 넣고 철문을 걸어 잠가 마녀를 영영 가두고 오빠를 구해 냈어요.",
   },
-  "hg-q3": {
+  "hng-q3": {
     prompt: "이야기 끝에서 헨젤과 그레텔은 무엇을 집으로 가져왔나요?",
     options: [
       "마녀의 집에서 찾은 진주와 보석이 담긴 상자",

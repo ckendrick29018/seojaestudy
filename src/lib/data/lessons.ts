@@ -15727,13 +15727,13 @@ export const lessons: Lesson[] = [
     paragraphs: [
       [
         {
-          id: "ag-1",
+          id: "aog-1",
           text: "All summer long, a grasshopper sang and played in the warm grass.",
           translation:
             "여름 내내 베짱이는 따뜻한 풀밭에서 노래하고 놀았어요.",
         },
         {
-          id: "ag-2",
+          id: "aog-2",
           text: "Near him, a line of ants worked hard, carrying seeds of corn to their nest.",
           translation:
             "그 옆에서는 개미들이 줄지어 옥수수 낟알을 집으로 나르며 열심히 일했어요.",
@@ -15741,13 +15741,13 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "ag-3",
+          id: "aog-3",
           text: "\"Why work on such a fine day?\" laughed the grasshopper. \"Come and sing with me!\"",
           translation:
             "\"이렇게 좋은 날에 왜 일을 해?\" 베짱이가 웃으며 말했어요. \"이리 와서 나랑 노래하자!\"",
         },
         {
-          id: "ag-4",
+          id: "aog-4",
           text: "\"We are storing food for the winter,\" said one ant. \"You should do the same.\"",
           translation:
             "\"우리는 겨울에 먹을 양식을 모으고 있어.\" 한 개미가 말했어요. \"너도 그렇게 해야 해.\"",
@@ -15755,37 +15755,37 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "ag-5",
+          id: "aog-5",
           text: "The grasshopper only laughed and went on singing.",
           translation: "베짱이는 그저 웃기만 하고 계속 노래를 불렀어요.",
         },
         {
-          id: "ag-6",
+          id: "aog-6",
           text: "Then summer ended, and cold winter came.",
           translation: "이윽고 여름이 끝나고, 추운 겨울이 왔어요.",
         },
       ],
       [
         {
-          id: "ag-7",
+          id: "aog-7",
           text: "The fields were bare, and snow covered the ground.",
           translation: "들판은 텅 비었고, 땅은 눈으로 덮였어요.",
         },
         {
-          id: "ag-8",
+          id: "aog-8",
           text: "The grasshopper had nothing to eat, and he was very hungry.",
           translation: "베짱이는 먹을 것이 하나도 없었고, 몹시 배가 고팠어요.",
         },
       ],
       [
         {
-          id: "ag-9",
+          id: "aog-9",
           text: "He came to the ants' door and asked them for a little food.",
           translation:
             "베짱이는 개미들의 문 앞에 와서 먹을 것을 조금만 달라고 부탁했어요.",
         },
         {
-          id: "ag-10",
+          id: "aog-10",
           text: "\"We told you so,\" said the ants, \"but come in out of the cold.\"",
           translation:
             "\"그러게 우리가 뭐랬어.\" 개미들이 말했어요. \"그래도 얼른 추운 데서 들어와.\"",
@@ -15793,7 +15793,7 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "ag-11",
+          id: "aog-11",
           text: "They shared a little food, and after that the grasshopper worked in summer too, so that he would be ready for the winter.",
           translation:
             "개미들은 먹을 것을 조금 나누어 주었고, 그 뒤로 베짱이도 여름에 일을 해서 겨울에 대비했어요.",
@@ -15802,7 +15802,7 @@ export const lessons: Lesson[] = [
     ],
     vocab: [
       {
-        id: "ag-v1",
+        id: "aog-v1",
         term: "grasshopper",
         partOfSpeech: "noun",
         translation: "베짱이, 메뚜기",
@@ -15810,7 +15810,7 @@ export const lessons: Lesson[] = [
         exampleTranslation: "베짱이는 일하지 않고 여름 내내 노래만 불렀어요.",
       },
       {
-        id: "ag-v2",
+        id: "aog-v2",
         term: "ant",
         partOfSpeech: "noun",
         translation: "개미",
@@ -15818,7 +15818,7 @@ export const lessons: Lesson[] = [
         exampleTranslation: "개미들이 줄지어 낟알을 집으로 날랐어요.",
       },
       {
-        id: "ag-v3",
+        id: "aog-v3",
         term: "store",
         partOfSpeech: "verb",
         translation: "모아 두다, 저장하다",
@@ -15826,7 +15826,7 @@ export const lessons: Lesson[] = [
         exampleTranslation: "\"우리는 겨울에 먹을 양식을 모으고 있어.\" 개미가 말했어요.",
       },
       {
-        id: "ag-v4",
+        id: "aog-v4",
         term: "bare",
         partOfSpeech: "adjective",
         translation: "텅 빈, 헐벗은",
@@ -15834,7 +15834,7 @@ export const lessons: Lesson[] = [
         exampleTranslation: "들판은 텅 비었고, 땅은 눈으로 덮였어요.",
       },
       {
-        id: "ag-v5",
+        id: "aog-v5",
         term: "prepare",
         partOfSpeech: "verb",
         translation: "대비하다, 준비하다",
@@ -35886,18 +35886,18 @@ export const lessons: Lesson[] = [
     paragraphs: [
       [
         {
-          id: "hg-1",
+          id: "hng-1",
           text: "Near a great forest there once lived a poor woodcutter with his wife and his two children, Hansel and Gretel.",
           translation: "어느 큰 숲 근처에, 가난한 나무꾼이 아내와 두 아이 헨젤과 그레텔과 함께 살고 있었어요.",
         },
         {
-          id: "hg-2",
+          id: "hng-2",
           text: "One year the harvest failed, and soon there was so little food in the house that the woodcutter lay awake at night, worrying how he could feed his family.",
           translation:
             "어느 해 흉년이 들어 집에 먹을 것이 거의 남지 않게 되자, 나무꾼은 밤마다 잠들지 못하고 가족을 어떻게 먹여 살릴지 걱정했어요.",
         },
         {
-          id: "hg-3",
+          id: "hng-3",
           text: "His wife told him there was only one answer: they must lead the children deep into the forest the next morning and leave them there.",
           translation:
             "아내는 답은 하나뿐이라고 말했어요. 다음 날 아침 아이들을 숲속 깊이 데려가 그곳에 두고 와야 한다는 것이었죠.",
@@ -35905,12 +35905,12 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-4",
+          id: "hng-4",
           text: "Hansel and Gretel lay awake too, and heard every word through the thin wall.",
           translation: "헨젤과 그레텔도 잠들지 못한 채 그 이야기를 얇은 벽 너머로 하나도 빠짐없이 들었어요.",
         },
         {
-          id: "hg-5",
+          id: "hng-5",
           text: "Gretel cried softly, but Hansel told her not to worry, crept outside, and filled his pockets with small white pebbles that glimmered in the moonlight.",
           translation:
             "그레텔은 조용히 울었지만, 헨젤은 걱정하지 말라며 밖으로 몰래 나가 달빛에 반짝이는 하얀 조약돌을 주머니 가득 채워 왔어요.",
@@ -35918,18 +35918,18 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-6",
+          id: "hng-6",
           text: "The next morning, as the family walked into the forest, Hansel quietly dropped one shining pebble after another along the path.",
           translation: "다음 날 아침, 가족이 숲으로 걸어 들어가는 동안 헨젤은 길을 따라 반짝이는 조약돌을 하나씩 조용히 떨어뜨렸어요.",
         },
         {
-          id: "hg-7",
+          id: "hng-7",
           text: "Deep among the trees, the parents lit a fire, told the children to rest, and slipped away, saying they would return before evening.",
           translation:
             "숲 깊은 곳에서 부모는 불을 피우고 아이들에게 쉬라고 말한 뒤, 저녁이 되기 전에 돌아오겠다며 몰래 자리를 떴어요.",
         },
         {
-          id: "hg-8",
+          id: "hng-8",
           text: "When night fell and no one had come back, Hansel took his sister's hand, followed the pebbles glowing under the full moon, and led her safely home by morning.",
           translation:
             "밤이 되어도 아무도 돌아오지 않자, 헨젤은 동생의 손을 잡고 보름달 아래 빛나는 조약돌을 따라가, 아침이 되기 전에 무사히 집으로 데려다주었어요.",
@@ -35937,19 +35937,19 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-9",
+          id: "hng-9",
           text: "Before long the family was hungry again, and this time the mother locked the door at night so Hansel could not gather more pebbles.",
           translation:
             "얼마 지나지 않아 가족은 다시 배가 고파졌고, 이번에는 어머니가 밤에 문을 잠가 헨젤이 조약돌을 더 모을 수 없게 만들었어요.",
         },
         {
-          id: "hg-10",
+          id: "hng-10",
           text: "He crumbled his piece of breakfast bread in his pocket instead, and scattered the crumbs behind him as the family walked deeper into the woods than ever before.",
           translation:
             "대신 헨젤은 아침 빵 한 조각을 주머니 속에서 잘게 부수어, 가족이 그 어느 때보다 깊은 숲속으로 걸어 들어가는 동안 뒤로 부스러기를 흩뿌렸어요.",
         },
         {
-          id: "hg-11",
+          id: "hng-11",
           text: "But when the children woke alone that night and looked for the trail, every single crumb was gone — the forest birds had eaten them all.",
           translation:
             "하지만 그날 밤 아이들이 혼자 깨어나 흔적을 찾아보니 부스러기는 하나도 남아 있지 않았어요. 숲의 새들이 모두 먹어 버린 거였죠.",
@@ -35957,18 +35957,18 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-12",
+          id: "hng-12",
           text: "Hansel and Gretel wandered through the forest for three days, hungry, tired, and hopelessly lost.",
           translation: "헨젤과 그레텔은 사흘 동안 숲속을 헤맸어요. 배고프고 지치고 완전히 길을 잃은 채였죠.",
         },
         {
-          id: "hg-13",
+          id: "hng-13",
           text: "At last they came upon a strange little house with walls of bread, a roof of cake, and windows made of clear sugar.",
           translation:
             "마침내 두 사람은 빵으로 된 벽과 케이크로 된 지붕, 맑은 설탕으로 만든 창문을 가진 이상한 작은 집을 발견했어요.",
         },
         {
-          id: "hg-14",
+          id: "hng-14",
           text: "Starving, they broke off pieces of the roof and the window to eat, until the door opened and a bent old woman invited them inside with a warm smile.",
           translation:
             "배가 고팠던 두 사람은 지붕과 창문 조각을 뜯어 먹기 시작했고, 이내 문이 열리며 등이 굽은 노파가 따뜻한 미소로 그들을 집 안으로 초대했어요.",
@@ -35976,19 +35976,19 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-15",
+          id: "hng-15",
           text: "The kind old woman fed them a wonderful supper and gave them soft beds, but she was secretly a wicked witch who had built the house only to trap hungry children.",
           translation:
             "그 다정해 보이는 노파는 두 사람에게 훌륭한 저녁을 차려 주고 포근한 잠자리도 내주었지만, 사실은 배고픈 아이들을 유인하려고 그 집을 지은 사악한 마녀였어요.",
         },
         {
-          id: "hg-16",
+          id: "hng-16",
           text: "The next morning she locked Hansel in a small cage in the yard and forced Gretel to cook rich meals to fatten him up.",
           translation:
             "다음 날 아침 마녀는 헨젤을 마당의 작은 우리에 가두고, 그레텔에게는 헨젤을 살찌우기 위한 진수성찬을 만들라고 시켰어요.",
         },
         {
-          id: "hg-17",
+          id: "hng-17",
           text: "Every few days the witch checked Hansel's finger to see if he was fat enough, but Hansel cleverly held out a thin old bone instead, and the witch's poor eyesight fooled her every time.",
           translation:
             "며칠에 한 번씩 마녀는 헨젤이 충분히 살쪘는지 손가락을 확인했지만, 헨젤은 영리하게도 대신 가늘고 오래된 뼈를 내밀었고, 시력이 나쁜 마녀는 매번 속아 넘어갔어요.",
@@ -35996,48 +35996,48 @@ export const lessons: Lesson[] = [
       ],
       [
         {
-          id: "hg-18",
+          id: "hng-18",
           text: "After weeks of waiting, the impatient witch decided to cook Hansel that very day, no matter how thin he still seemed.",
           translation: "몇 주를 기다린 끝에 조바심이 난 마녀는 헨젤이 아직 말랐어도 그날 당장 잡아먹기로 결심했어요.",
         },
         {
-          id: "hg-19",
+          id: "hng-19",
           text: "She heated the oven and told Gretel to climb in first to check if it was hot enough — but Gretel guessed the trick and asked, \"How do I do that?\"",
           translation:
             "마녀는 화덕을 달구고는 먼저 그레텔에게 들어가서 충분히 뜨거운지 확인하라고 시켰지만, 그레텔은 속셈을 눈치채고 \"어떻게 하는 건가요?\"라고 되물었어요.",
         },
         {
-          id: "hg-20",
+          id: "hng-20",
           text: "When the impatient witch pushed forward to show her how, Gretel gave her a hard shove into the oven and quickly bolted the iron door shut.",
           translation:
             "조바심이 난 마녀가 직접 보여 주려고 앞으로 나서자, 그레텔은 마녀를 화덕 안으로 세게 밀어 넣고 재빨리 철문을 걸어 잠갔어요.",
         },
         {
-          id: "hg-21",
+          id: "hng-21",
           text: "The witch was trapped for good, and Gretel raced to free her brother from his cage at last.",
           translation: "마녀는 그렇게 영영 갇히게 되었고, 그레텔은 곧장 달려가 마침내 오빠를 우리에서 풀어 주었어요.",
         },
       ],
       [
         {
-          id: "hg-22",
+          id: "hng-22",
           text: "Searching the witch's house, the children found chests overflowing with pearls and jewels, and filled their pockets with as much treasure as they could carry.",
           translation:
             "마녀의 집을 살펴보던 아이들은 진주와 보석이 가득한 상자들을 발견하고, 들 수 있는 만큼 최대한 많은 보물을 주머니에 채웠어요.",
         },
         {
-          id: "hg-23",
+          id: "hng-23",
           text: "On their way home a friendly white duck carried them one at a time across a wide stretch of water they could not cross alone.",
           translation:
             "집으로 돌아가는 길, 다정한 하얀 오리 한 마리가 그들이 혼자서는 건널 수 없던 넓은 물길을 한 명씩 등에 태워 건네주었어요.",
         },
         {
-          id: "hg-24",
+          id: "hng-24",
           text: "At last they saw their father's house in the distance and ran the rest of the way, throwing their arms around his neck.",
           translation: "마침내 저 멀리 아버지의 집이 보이자 두 사람은 남은 길을 뛰어가, 아버지의 목을 끌어안았어요.",
         },
         {
-          id: "hg-25",
+          id: "hng-25",
           text: "Their father wept with joy — he had never had one happy hour since leaving them in the forest — and with the witch's treasure, the three of them never went hungry again.",
           translation:
             "아버지는 기쁨의 눈물을 흘렸어요. 아이들을 숲에 두고 온 뒤로 단 한 시간도 마음이 편치 않았던 거예요. 그리고 마녀의 보물 덕분에 세 사람은 다시는 배를 곯지 않았답니다.",
@@ -36046,7 +36046,7 @@ export const lessons: Lesson[] = [
     ],
     vocab: [
       {
-        id: "hg-v1",
+        id: "hng-v1",
         term: "pebble",
         partOfSpeech: "noun",
         translation: "조약돌",
@@ -36056,7 +36056,7 @@ export const lessons: Lesson[] = [
           "그레텔은 조용히 울었지만, 헨젤은 걱정하지 말라며 밖으로 몰래 나가 달빛에 반짝이는 하얀 조약돌을 주머니 가득 채워 왔어요.",
       },
       {
-        id: "hg-v2",
+        id: "hng-v2",
         term: "crumb",
         partOfSpeech: "noun",
         translation: "부스러기",
@@ -36066,7 +36066,7 @@ export const lessons: Lesson[] = [
           "하지만 그날 밤 아이들이 혼자 깨어나 흔적을 찾아보니 부스러기는 하나도 남아 있지 않았어요. 숲의 새들이 모두 먹어 버린 거였죠.",
       },
       {
-        id: "hg-v3",
+        id: "hng-v3",
         term: "witch",
         partOfSpeech: "noun",
         translation: "마녀",
@@ -36076,7 +36076,7 @@ export const lessons: Lesson[] = [
           "그 다정해 보이는 노파는 두 사람에게 훌륭한 저녁을 차려 주고 포근한 잠자리도 내주었지만, 사실은 배고픈 아이들을 유인하려고 그 집을 지은 사악한 마녀였어요.",
       },
       {
-        id: "hg-v4",
+        id: "hng-v4",
         term: "cage",
         partOfSpeech: "noun",
         translation: "우리",
@@ -36086,7 +36086,7 @@ export const lessons: Lesson[] = [
           "다음 날 아침 마녀는 헨젤을 마당의 작은 우리에 가두고, 그레텔에게는 헨젤을 살찌우기 위한 진수성찬을 만들라고 시켰어요.",
       },
       {
-        id: "hg-v5",
+        id: "hng-v5",
         term: "treasure",
         partOfSpeech: "noun",
         translation: "보물",
@@ -36098,7 +36098,7 @@ export const lessons: Lesson[] = [
     ],
     questions: [
       {
-        id: "hg-q1",
+        id: "hng-q1",
         prompt:
           "Why did dropping pebbles work to find the way home the first time, but dropping bread crumbs failed the second time?",
         options: [
@@ -36112,7 +36112,7 @@ export const lessons: Lesson[] = [
           "Hansel's pebbles shone in the moonlight and led the children safely home the first time, but the second time the birds of the forest ate every one of the breadcrumbs, leaving no trail to follow.",
       },
       {
-        id: "hg-q2",
+        id: "hng-q2",
         prompt: "How did Gretel finally save Hansel from the witch?",
         options: [
           "She pushed the witch into the hot oven and bolted the door shut",
@@ -36125,7 +36125,7 @@ export const lessons: Lesson[] = [
           "When the witch tried to show Gretel how to check the oven, Gretel pushed her inside and bolted the iron door, trapping the witch for good and freeing her brother.",
       },
       {
-        id: "hg-q3",
+        id: "hng-q3",
         prompt: "What did Hansel and Gretel bring home with them at the end of the story?",
         options: [
           "Chests of pearls and jewels from the witch's house",
@@ -36379,6 +36379,444 @@ export const lessons: Lesson[] = [
         correctIndex: 0,
         explanation:
           "Intrigued by Basil's story, Lord Henry insists he must meet Dorian Gray himself, even as Basil warns him to stay away, fearing what his influence might do.",
+      },
+    ],
+  },
+  {
+    slug: "chunhyang",
+    title: "춘향전",
+    titleTranslation: "The Tale of Chunhyang",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "B1",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Chunhyangjeon, anonymous, Joseon era)",
+    coverEmoji: "🌸",
+    coverImage: "/covers/chunhyang.svg",
+    source:
+      "Based on Chunhyangjeon (춘향전), an anonymous traditional Korean pansori tale believed to date from the late Joseon era and long in the public domain — one of the most famous stories in Korean literature, and a deliberately popular pick for the shelf. This simplified retelling and its English translation are original text written for SeoJae Story; Byeon Hakdo's punishment of Chunhyang is kept to imprisonment only, omitting the harsher physical punishment described in some versions of the tale.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Chunhyang was imprisoned, and how Mongryong finally freed her.",
+    paragraphs: [
+      [
+        {
+          id: "chj-1",
+          text: "옛날 전라도 남원에 성춘향이라는 아름답고 총명한 처녀가 살았어요.",
+          translation: "Long ago in Namwon, Jeolla Province, there lived a beautiful and clever young woman named Seong Chunhyang.",
+        },
+        {
+          id: "chj-2",
+          text: "단오절이 되자 춘향은 몸종 향단과 함께 광한루 근처 그네를 타러 나갔어요.",
+          translation: "When the Dano festival came, Chunhyang went out with her maid Hyangdan to ride a swing near Gwanghalluu Pavilion.",
+        },
+        {
+          id: "chj-3",
+          text: "마침 그곳을 지나던 사또의 아들 이몽룡이 그네를 타는 춘향의 모습을 보고 한눈에 반하고 말았어요.",
+          translation: "Just then, Yi Mongryong, the son of the local magistrate, happened to pass by and fell in love with Chunhyang at first sight as he watched her on the swing.",
+        },
+      ],
+      [
+        {
+          id: "chj-4",
+          text: "몽룡은 향단을 통해 춘향에게 마음을 전했고, 두 사람은 그날 밤 춘향의 집에서 처음으로 이야기를 나누었어요.",
+          translation: "Mongryong sent word to Chunhyang through Hyangdan, and that night the two of them spoke together for the first time at Chunhyang's house.",
+        },
+        {
+          id: "chj-5",
+          text: "신분의 차이에도 불구하고 두 사람은 서로에게 깊이 끌렸고, 몽룡은 반드시 춘향을 아내로 맞이하겠다고 약속했어요.",
+          translation: "Despite the difference in their social status, the two were deeply drawn to each other, and Mongryong promised that he would surely make Chunhyang his wife.",
+        },
+        {
+          id: "chj-6",
+          text: "두 사람은 백년가약을 맺고, 매일 밤 함께 시간을 보내며 행복한 나날을 보냈어요.",
+          translation: "They pledged eternal devotion to one another and spent happy days together every night.",
+        },
+      ],
+      [
+        {
+          id: "chj-7",
+          text: "그러나 얼마 후 몽룡의 아버지가 한양으로 발령을 받으면서, 몽룡도 가족과 함께 남원을 떠나야만 했어요.",
+          translation: "But before long, Mongryong's father was reassigned to Hanyang, and Mongryong had to leave Namwon together with his family.",
+        },
+        {
+          id: "chj-8",
+          text: "몽룡은 춘향에게 반드시 과거에 급제하여 떳떳하게 돌아오겠다고 약속하며 눈물로 작별을 고했어요.",
+          translation: "Mongryong promised Chunhyang that he would surely pass the state exam and return to her with his head held high, and bid her farewell in tears.",
+        },
+        {
+          id: "chj-9",
+          text: "춘향은 몽룡이 돌아올 날만을 기다리며, 홀로 조용히 하루하루를 보냈어요.",
+          translation: "Chunhyang waited only for the day Mongryong would return, quietly passing her days alone.",
+        },
+      ],
+      [
+        {
+          id: "chj-10",
+          text: "얼마 후 남원에 변학도라는 새로운 사또가 부임해 왔는데, 그는 성품이 몹시 거만하고 탐욕스러운 사람이었어요.",
+          translation: "Soon after, a new magistrate named Byeon Hakdo arrived in Namwon, a man of extremely arrogant and greedy character.",
+        },
+        {
+          id: "chj-11",
+          text: "변학도는 춘향의 미모에 대한 소문을 듣고 그녀를 관아로 불러들여 자신의 수청을 들라고 명령했어요.",
+          translation: "Byeon Hakdo heard rumors of Chunhyang's beauty and summoned her to the government office, commanding her to attend and serve him.",
+        },
+        {
+          id: "chj-12",
+          text: "하지만 춘향은 이미 몽룡과 정혼한 몸이라며, 아무리 사또의 명령이라도 절대로 따를 수 없다고 단호히 거절했어요.",
+          translation: "But Chunhyang firmly refused, saying she was already pledged to Mongryong and could never obey, no matter whose order it was.",
+        },
+      ],
+      [
+        {
+          id: "chj-13",
+          text: "화가 난 변학도는 춘향의 뜻을 꺾으려 했지만, 춘향은 끝까지 굽히지 않고 자신의 정절을 지켰어요.",
+          translation: "The furious Byeon Hakdo tried to break Chunhyang's resolve, but she never once bent, holding fast to her devotion to the end.",
+        },
+        {
+          id: "chj-14",
+          text: "결국 변학도는 춘향을 옥에 가두었고, 춘향은 차디찬 감옥에서 몽룡을 그리워하며 하루하루를 견뎌 냈어요.",
+          translation: "In the end, Byeon Hakdo had Chunhyang locked in prison, and she endured her days in the cold cell, longing for Mongryong.",
+        },
+        {
+          id: "chj-15",
+          text: "마을 사람들은 모두 춘향의 처지를 안타까워했지만, 아무도 사또에게 맞설 용기를 내지 못했어요.",
+          translation: "Everyone in the village pitied Chunhyang's plight, but no one dared to stand up to the magistrate.",
+        },
+      ],
+      [
+        {
+          id: "chj-16",
+          text: "그 사이 한양에서 몽룡은 밤낮으로 열심히 공부하여 마침내 과거에 장원으로 급제했어요.",
+          translation: "Meanwhile in Hanyang, Mongryong studied diligently day and night and at last passed the state exam at the very top of his class.",
+        },
+        {
+          id: "chj-17",
+          text: "임금은 그의 재능을 높이 사, 몽룡에게 암행어사라는 비밀 임무를 내려 지방 관리들의 부정을 몰래 조사하게 했어요.",
+          translation: "The king, greatly impressed by his talent, gave Mongryong the secret duty of a royal secret inspector, to investigate the corruption of local officials in disguise.",
+        },
+        {
+          id: "chj-18",
+          text: "몽룡은 거지 행색으로 변장하고 남원으로 향하며, 마침내 춘향을 다시 만날 순간이 다가왔음을 느꼈어요.",
+          translation: "Mongryong disguised himself as a beggar and set off for Namwon, sensing that the moment to see Chunhyang again was finally at hand.",
+        },
+      ],
+      [
+        {
+          id: "chj-19",
+          text: "남원에 도착한 몽룡은 초라한 거지의 모습으로 옥에 갇힌 춘향을 몰래 찾아가, 그녀의 한결같은 마음을 확인했어요.",
+          translation: "Once in Namwon, Mongryong secretly visited the imprisoned Chunhyang in his shabby beggar's disguise, and confirmed that her heart had never once wavered.",
+        },
+        {
+          id: "chj-20",
+          text: "마침 변학도의 생일잔치가 열리던 날, 거지 행색의 몽룡도 그 자리에 초대받아 구석에 앉게 되었어요.",
+          translation: "On the very day of Byeon Hakdo's birthday banquet, Mongryong, still disguised as a beggar, was allowed into the feast and seated in a corner.",
+        },
+        {
+          id: "chj-21",
+          text: "몽룡은 잔치 자리에서 백성을 착취하는 탐관오리를 꾸짖는 시를 한 편 지어 좌중에게 읽어 주었어요.",
+          translation: "At the banquet, Mongryong composed a poem scolding corrupt officials who exploited the common people, and read it aloud to everyone present.",
+        },
+        {
+          id: "chj-22",
+          text: "그 순간 암행어사의 출두를 알리는 외침이 울려 퍼졌고, 몽룡은 마침내 자신의 진짜 신분을 드러냈어요.",
+          translation: "At that moment, a cry rang out announcing the arrival of the royal secret inspector, and Mongryong at last revealed his true identity.",
+        },
+      ],
+      [
+        {
+          id: "chj-23",
+          text: "몽룡은 그 자리에서 변학도의 죄를 낱낱이 밝히고 그를 벼슬에서 파직시켰으며, 춘향을 즉시 옥에서 풀어 주었어요.",
+          translation: "On the spot, Mongryong laid bare every one of Byeon Hakdo's crimes, stripped him of his post, and had Chunhyang released from prison at once.",
+        },
+        {
+          id: "chj-24",
+          text: "마침내 다시 만난 두 사람은 정식으로 혼인을 올렸고, 춘향의 한결같은 정절은 두고두고 사람들의 칭송을 받았답니다.",
+          translation: "The two, reunited at last, were properly married, and Chunhyang's unwavering devotion was praised by people for generations to come.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "chj-v1",
+        term: "정절",
+        reading: "jeongjeol",
+        partOfSpeech: "noun",
+        translation: "fidelity, devotion (especially to a betrothed or spouse)",
+        example: "춘향은 끝까지 굽히지 않고 자신의 정절을 지켰어요.",
+        exampleTranslation: "She never once bent, holding fast to her devotion to the end.",
+      },
+      {
+        id: "chj-v2",
+        term: "암행어사",
+        reading: "amhaengeosa",
+        partOfSpeech: "noun",
+        translation: "secret royal inspector (sent by the king to investigate local officials in disguise)",
+        example: "임금은 몽룡에게 암행어사라는 비밀 임무를 내렸어요.",
+        exampleTranslation: "The king gave Mongryong the secret duty of a royal secret inspector.",
+      },
+      {
+        id: "chj-v3",
+        term: "탐관오리",
+        reading: "tamgwanori",
+        partOfSpeech: "noun",
+        translation: "corrupt official",
+        example: "몽룡은 백성을 착취하는 탐관오리를 꾸짖는 시를 지었어요.",
+        exampleTranslation: "Mongryong composed a poem scolding corrupt officials who exploited the common people.",
+      },
+      {
+        id: "chj-v4",
+        term: "급제하다",
+        reading: "geupjehada",
+        partOfSpeech: "verb",
+        translation: "to pass a state exam",
+        example: "몽룡은 마침내 과거에 장원으로 급제했어요.",
+        exampleTranslation: "Mongryong at last passed the state exam at the very top of his class.",
+      },
+      {
+        id: "chj-v5",
+        term: "한결같다",
+        reading: "hangyeolgatda",
+        partOfSpeech: "adjective",
+        translation: "to be constant, unwavering",
+        example: "춘향의 한결같은 정절은 두고두고 사람들의 칭송을 받았답니다.",
+        exampleTranslation: "Chunhyang's unwavering devotion was praised by people for generations to come.",
+      },
+    ],
+    questions: [
+      {
+        id: "chj-q1",
+        prompt: "춘향은 왜 변학도의 명령을 거절했나요?",
+        options: [
+          "이미 몽룡과 정혼했기 때문에",
+          "변학도를 무서워해서",
+          "건강이 좋지 않아서",
+          "향단이 말려서",
+        ],
+        correctIndex: 0,
+        explanation: "춘향은 이미 몽룡과 정혼한 몸이라 사또의 명령이라도 따를 수 없다며 단호히 거절했어요.",
+      },
+      {
+        id: "chj-q2",
+        prompt: "몽룡은 한양에서 무엇을 하여 다시 남원으로 오게 되었나요?",
+        options: [
+          "장사를 하여 큰돈을 벌었다",
+          "과거에 장원으로 급제하고 암행어사가 되었다",
+          "몰래 도망쳐 나왔다",
+          "아버지의 명령으로 돌아왔다",
+        ],
+        correctIndex: 1,
+        explanation: "몽룡은 열심히 공부하여 과거에 장원으로 급제했고, 임금에게 암행어사의 임무를 받아 남원으로 향했어요.",
+      },
+      {
+        id: "chj-q3",
+        prompt: "이야기의 끝에서 몽룡은 변학도에게 어떤 벌을 내렸나요?",
+        options: [
+          "죄를 밝히고 벼슬에서 파직시켰다",
+          "큰 벌금을 물게 했다",
+          "그냥 용서해 주었다",
+          "다른 마을로 보내 버렸다",
+        ],
+        correctIndex: 0,
+        explanation: "몽룡은 암행어사로서 변학도의 죄를 낱낱이 밝히고 그를 벼슬에서 파직시켰으며, 춘향을 옥에서 풀어 주었어요.",
+      },
+    ],
+  },
+  {
+    slug: "the-rabbit-and-the-dragon-king",
+    title: "토끼전",
+    titleTranslation: "The Rabbit and the Dragon King",
+    targetLanguage: "ko",
+    nativeLanguage: "en",
+    topic: "Folktale",
+    level: "A2",
+    isFree: true,
+    collection: "folktales",
+    author: "Traditional Korean folktale (Tokkijeon, also called Byeoljubu-jeon, anonymous, Joseon era)",
+    coverEmoji: "🐰",
+    coverImage: "/covers/the-rabbit-and-the-dragon-king.svg",
+    source:
+      "Based on Tokkijeon (토끼전), also known as Byeoljubu-jeon (별주부전), an anonymous traditional Korean folktale believed to date from the Joseon era and long in the public domain — one of Korea's best-known animal fables, and a deliberately popular pick for the shelf. This simplified retelling and its English translation are original text written for SeoJae Story; this version ends with the rabbit escaping safely, leaving out harsher variants in which the terrapin is punished or dies of grief.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the rabbit tricked the Dragon King and escaped back to land.",
+    paragraphs: [
+      [
+        {
+          id: "tkj-1",
+          text: "깊은 바닷속 용궁에 사는 용왕님이 어느 날 갑자기 몹쓸 병에 걸리고 말았어요.",
+          translation: "One day, deep beneath the sea, the Dragon King who lived in the undersea palace suddenly fell gravely ill.",
+        },
+        {
+          id: "tkj-2",
+          text: "용궁의 의원은 용왕님의 병을 고치려면 오직 살아 있는 토끼의 간이 필요하다고 말했어요.",
+          translation: "The palace physician said that to cure the Dragon King's illness, only the liver of a live rabbit would do.",
+        },
+        {
+          id: "tkj-3",
+          text: "하지만 바닷속 신하들 가운데 육지에 사는 토끼의 얼굴을 아는 이는 아무도 없었어요.",
+          translation: "But among all the underwater officials, not a single one knew what a rabbit, a creature of the land, even looked like.",
+        },
+      ],
+      [
+        {
+          id: "tkj-4",
+          text: "그때 자라 한 마리가 앞으로 나서며, 자신이 육지에 다녀올 수 있으니 토끼를 데려오겠다고 말했어요.",
+          translation: "Just then, a terrapin stepped forward and said that since he alone could travel to land, he would go and bring back a rabbit.",
+        },
+        {
+          id: "tkj-5",
+          text: "용왕님은 크게 기뻐하며 자라에게 큰 상을 약속하고 어서 떠나라고 재촉했어요.",
+          translation: "The Dragon King was overjoyed, promised the terrapin a great reward, and urged him to set off at once.",
+        },
+      ],
+      [
+        {
+          id: "tkj-6",
+          text: "자라는 육지에 올라와 숲속을 헤매다가 마침내 풀밭에서 쉬고 있는 토끼를 만났어요.",
+          translation: "The terrapin climbed onto land, wandered through the forest, and at last came upon a rabbit resting in a meadow.",
+        },
+        {
+          id: "tkj-7",
+          text: "자라는 토끼에게 용궁이 얼마나 화려하고 살기 좋은 곳인지 침이 마르도록 칭찬했어요.",
+          translation: "The terrapin praised the undersea palace to the rabbit without pause, describing how splendid and wonderful a place it was to live.",
+        },
+        {
+          id: "tkj-8",
+          text: "자라는 용왕님이 토끼를 귀한 벼슬자리에 앉히고 싶어 한다고 말하며, 함께 용궁으로 가자고 꾀었어요.",
+          translation: "The terrapin said the Dragon King wished to give the rabbit an honored position, and lured him to come along to the palace.",
+        },
+      ],
+      [
+        {
+          id: "tkj-9",
+          text: "헛된 욕심이 생긴 토끼는 자라의 등에 올라타 기쁜 마음으로 바닷속 용궁을 향해 떠났어요.",
+          translation: "Filled with vain ambition, the rabbit climbed onto the terrapin's back and set off happily for the undersea palace.",
+        },
+      ],
+      [
+        {
+          id: "tkj-10",
+          text: "용궁에 도착하자마자 용왕님은 토끼에게 진실을 말했어요. 자신의 병을 고치려면 토끼의 간이 필요하다는 것이었죠.",
+          translation: "As soon as they arrived at the palace, the Dragon King told the rabbit the truth: he needed the rabbit's liver to cure his illness.",
+        },
+        {
+          id: "tkj-11",
+          text: "깜짝 놀란 토끼는 조금도 당황하지 않고 태연하게 꾀를 내었어요.",
+          translation: "Though startled, the rabbit did not panic at all and calmly came up with a clever scheme.",
+        },
+        {
+          id: "tkj-12",
+          text: "토끼는 자신의 간은 몸 밖에 꺼내 두고 가끔 깨끗이 씻어 말린다며, 마침 이번에도 간을 육지에 두고 왔다고 둘러댔어요.",
+          translation: "The rabbit claimed that he took his liver out of his body from time to time to wash and dry it, and that, as it happened, he had left it behind on land this very time.",
+        },
+        {
+          id: "tkj-13",
+          text: "토끼는 지금 자신을 죽이면 간을 영영 얻을 수 없을 것이라며 용왕님을 설득했어요.",
+          translation: "The rabbit persuaded the Dragon King that if they killed him now, they would never get the liver at all.",
+        },
+      ],
+      [
+        {
+          id: "tkj-14",
+          text: "용왕님은 토끼의 말을 그대로 믿고, 자라에게 토끼를 육지로 다시 데려다주라고 명령했어요.",
+          translation: "The Dragon King believed the rabbit completely and ordered the terrapin to carry him back to land at once.",
+        },
+        {
+          id: "tkj-15",
+          text: "무사히 육지에 도착하자, 토끼는 크게 웃으며 세상에 간을 몸 밖에 두고 사는 동물은 없다고 말했어요.",
+          translation: "Once safely back on land, the rabbit laughed heartily and said that no creature in the world could live with its liver outside its body.",
+        },
+        {
+          id: "tkj-16",
+          text: "토끼는 자라를 뒤로 하고 깡충깡충 숲속으로 뛰어 들어가, 다시는 붙잡히지 않았답니다.",
+          translation: "The rabbit left the terrapin behind and hopped away into the forest, never to be caught again.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tkj-v1",
+        term: "용왕",
+        reading: "yongwang",
+        partOfSpeech: "noun",
+        translation: "Dragon King",
+        example: "깊은 바닷속 용궁에 사는 용왕님이 몹쓸 병에 걸리고 말았어요.",
+        exampleTranslation: "Deep beneath the sea, the Dragon King who lived in the undersea palace fell gravely ill.",
+      },
+      {
+        id: "tkj-v2",
+        term: "자라",
+        reading: "jara",
+        partOfSpeech: "noun",
+        translation: "terrapin, soft-shelled turtle",
+        example: "그때 자라 한 마리가 앞으로 나서며 토끼를 데려오겠다고 말했어요.",
+        exampleTranslation: "Just then, a terrapin stepped forward and said he would go and bring back a rabbit.",
+      },
+      {
+        id: "tkj-v3",
+        term: "간",
+        reading: "gan",
+        partOfSpeech: "noun",
+        translation: "liver",
+        example: "용왕님의 병을 고치려면 오직 살아 있는 토끼의 간이 필요했어요.",
+        exampleTranslation: "To cure the Dragon King's illness, only the liver of a live rabbit would do.",
+      },
+      {
+        id: "tkj-v4",
+        term: "꾀를 내다",
+        reading: "kkoereul naeda",
+        partOfSpeech: "verb phrase",
+        translation: "to come up with a clever scheme",
+        example: "토끼는 조금도 당황하지 않고 태연하게 꾀를 내었어요.",
+        exampleTranslation: "The rabbit did not panic at all and calmly came up with a clever scheme.",
+      },
+      {
+        id: "tkj-v5",
+        term: "둘러대다",
+        reading: "dulleodaeda",
+        partOfSpeech: "verb",
+        translation: "to make up an excuse",
+        example: "토끼는 간을 육지에 두고 왔다고 둘러댔어요.",
+        exampleTranslation: "The rabbit made up an excuse that he had left his liver behind on land.",
+      },
+    ],
+    questions: [
+      {
+        id: "tkj-q1",
+        prompt: "용왕님의 병을 고치려면 무엇이 필요했나요?",
+        options: [
+          "살아 있는 토끼의 간",
+          "깊은 바닷속의 진주",
+          "특별한 약초",
+          "오래된 거북의 등딱지",
+        ],
+        correctIndex: 0,
+        explanation: "용궁의 의원은 용왕님의 병을 고치려면 오직 살아 있는 토끼의 간이 필요하다고 말했어요.",
+      },
+      {
+        id: "tkj-q2",
+        prompt: "자라는 토끼를 어떻게 용궁으로 데려갔나요?",
+        options: [
+          "용궁의 화려함을 칭찬하고 벼슬자리를 준다며 꾀었다",
+          "억지로 붙잡아 끌고 갔다",
+          "큰돈을 주고 데려갔다",
+          "다른 동물들을 시켜 잡아 왔다",
+        ],
+        correctIndex: 0,
+        explanation: "자라는 용궁이 얼마나 화려한지 칭찬하고 용왕님이 귀한 벼슬자리를 주고 싶어 한다고 말하며 토끼를 꾀어 데려갔어요.",
+      },
+      {
+        id: "tkj-q3",
+        prompt: "토끼는 용왕님 앞에서 어떻게 위기를 벗어났나요?",
+        options: [
+          "간을 육지에 두고 왔다고 속여 다시 육지로 돌아갔다",
+          "힘으로 용왕님과 싸웠다",
+          "자라에게 도움을 요청했다",
+          "눈물로 용서를 빌었다",
+        ],
+        correctIndex: 0,
+        explanation: "토끼는 간을 몸 밖에 두고 씻어 말리는 습관이 있다며 이번에도 육지에 두고 왔다고 속여, 다시 육지로 돌아가는 데 성공했어요.",
       },
     ],
   },

@@ -265,11 +265,33 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (166 — 135 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (168 — 135 classics + 24 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  seventeenth round, first under the new popularity-first selection
-  strategy): **Hansel and Gretel** (A1, classics) — one of the most famous
+  eighteenth round, continuing the popularity-first selection strategy):
+  **Chunhyangjeon** (춘향전, B1, folktales) — one of the most famous stories
+  in Korean literature, a pansori tale of the loyal Chunhyang, who refuses
+  a corrupt new magistrate's demand that she serve him because she is
+  already pledged to Yi Mongryong, is imprisoned for her refusal, and is
+  freed only when Mongryong returns from Hanyang as a secret royal
+  inspector (암행어사) and exposes the magistrate's crimes at his own
+  birthday banquet; softened to imprisonment only, omitting the harsher
+  physical punishment described in some versions of the tale; and
+  **Tokkijeon** (토끼전, also called Byeoljubu-jeon, A2, folktales) — Korea's
+  best-known animal fable: a terrapin lures a vain rabbit down to the
+  Dragon King's undersea palace to harvest his liver as medicine, and the
+  rabbit talks his way free by claiming he keeps his liver outside his
+  body and left it behind on land; ends with the rabbit's clean escape,
+  leaving out harsher variants where the terrapin is punished or dies of
+  grief. Both are `targetLanguage: "ko"` originals written directly from
+  the oral tradition, like Kongjwi and Patjwi / Sim Cheong / Hong Gildong
+  below, not translated from an English PD source — so, per the
+  check-dictionary.ts blind spot noted below, their real EN/KO tap-path
+  coverage was verified with a one-off direction-aware script rather than
+  the usual `npm run dict:check <slug>`.
+  Before that, an earlier batch the same day (seventeenth round, first
+  under the new popularity-first selection strategy): **Hansel and Gretel**
+  (A1, classics) — one of the most famous
   fairy tales in the world (Brothers Grimm, PG#2591), picked deliberately
   for its fame rather than to diversify away from Grimm: two attempts to
   abandon the children in the forest, the candy house, the witch who
@@ -905,7 +927,24 @@ has a genuine period cover/illustration in the public domain, download that into
     servant woman, cannot even call his own father "Father" under the
     era's strict status rules, and resolves to leave home and carve out
     his own destiny (the source's later assassination plot against him is
-    kept only as a vague, offstage danger).
+    kept only as a vague, offstage danger). Two more `targetLanguage: "ko"`
+    originals are now live (2026-09-18), the shelf's first picks made
+    under the new popularity-first selection strategy: Chunhyangjeon
+    (춘향전, B1) — one of the most famous stories in Korean literature, the
+    loyal Chunhyang's refusal of a corrupt magistrate and her rescue by
+    Yi Mongryong, now a secret royal inspector; softened to imprisonment
+    only, omitting the harsher physical punishment in some versions — and
+    Tokkijeon (토끼전, also called Byeoljubu-jeon, A2), Korea's best-known
+    animal fable, in which a clever rabbit talks his way free after a
+    terrapin lures him to the Dragon King's palace for his liver; ends
+    with the rabbit's clean escape, leaving out harsher variants where the
+    terrapin is punished or dies of grief. `hong-gildong`'s id prefix
+    (`hg-`) turned out to collide with `hansel-and-gretel`'s (added the
+    same day, unrelated commit) — Hansel and Gretel's ids were renamed to
+    `hng-` to fix it; see the "Dictionary coverage" note below for why a
+    plain `id` collision across two lessons is a real bug (it broke
+    flashcard dedup and cross-contaminated the comprehension-language
+    toggle), not just a style nit.
   Note:
   row 56 (A Room with a View) is **not**
   clear to build — Forster died 1970, so it is not public domain in
@@ -926,6 +965,24 @@ forms where the stemmer can fold to them, verbatim inflected forms where it
 can't. The Sept 2026 batch did this; the two prior batches (rows 74–85) did
 not, so a KO→EN back-log remains on the older lessons — `npm run dict:check`
 with no args shows the count. Do not add to it.
+
+**Lesson-internal ids must be globally unique, not just unique within the
+lesson.** `paragraphs[].id`, `vocab[].id`, and `questions[].id` all get
+abbreviated from the title (e.g. `hg-` for both "Hong Gildong" and, briefly,
+"Hansel and Gretel" — a real collision found and fixed 2026-09-18, renamed
+to `hng-`). This isn't just a style nit: `studyItemFromVocab` in
+`src/lib/study.ts` sets `id: term.id` with no lesson-slug namespacing, so
+`StudyPlanProvider.addVocab`'s dedup check silently no-ops when two lessons
+share a vocab id — a saved flashcard from one lesson blocks the
+identically-`id`'d word in the other from ever being added. Worse, the
+`COMPREHENSION_KO` merge in `lessons.ts` (see below) looks up
+`question.id` globally across every lesson, so a colliding question id
+cross-contaminates the *other* lesson's comprehension-language toggle with
+the wrong lesson's translated text. Before picking an id prefix for a new
+lesson, grep `src/lib/data/lessons.ts` for it first. (A second pre-existing
+collision, `ag-` between `anne-of-green-gables` and
+`the-ant-and-the-grasshopper`, was found the same day and flagged
+separately — not yet fixed as of this note.)
 
 **2026-09-11 sweep (1580 → 757):** `ko-stem.ts` was missing two whole
 inflection patterns — the future/volitional `겠` infix (가겠다고, 되겠습니다…)

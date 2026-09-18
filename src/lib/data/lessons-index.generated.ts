@@ -2763,5 +2763,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-picture-of-dorian-gray.svg",
     "source": "Adapted from Chapter 1 of Oscar Wilde's novel \"The Picture of Dorian Gray\" (1890; Project Gutenberg #174, long in the public domain) — one of the most famous novels in the English language, and a deliberately popular pick for the shelf: Basil Hallward's refusal to exhibit his masterpiece, and his account of the strange, fateful afternoon he first met Dorian Gray at Lady Brandon's party. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "chunhyang",
+    "title": "춘향전",
+    "titleTranslation": "The Tale of Chunhyang",
+    "targetLanguage": "ko",
+    "nativeLanguage": "en",
+    "topic": "Folktale",
+    "level": "B1",
+    "isFree": true,
+    "collection": "folktales",
+    "author": "Traditional Korean folktale (Chunhyangjeon, anonymous, Joseon era)",
+    "coverEmoji": "🌸",
+    "coverImage": "/covers/chunhyang.svg",
+    "source": "Based on Chunhyangjeon (춘향전), an anonymous traditional Korean pansori tale believed to date from the late Joseon era and long in the public domain — one of the most famous stories in Korean literature, and a deliberately popular pick for the shelf. This simplified retelling and its English translation are original text written for SeoJae Story; Byeon Hakdo's punishment of Chunhyang is kept to imprisonment only, omitting the harsher physical punishment described in some versions of the tale.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "the-rabbit-and-the-dragon-king",
+    "title": "토끼전",
+    "titleTranslation": "The Rabbit and the Dragon King",
+    "targetLanguage": "ko",
+    "nativeLanguage": "en",
+    "topic": "Folktale",
+    "level": "A2",
+    "isFree": true,
+    "collection": "folktales",
+    "author": "Traditional Korean folktale (Tokkijeon, also called Byeoljubu-jeon, anonymous, Joseon era)",
+    "coverEmoji": "🐰",
+    "coverImage": "/covers/the-rabbit-and-the-dragon-king.svg",
+    "source": "Based on Tokkijeon (토끼전), also known as Byeoljubu-jeon (별주부전), an anonymous traditional Korean folktale believed to date from the Joseon era and long in the public domain — one of Korea's best-known animal fables, and a deliberately popular pick for the shelf. This simplified retelling and its English translation are original text written for SeoJae Story; this version ends with the rabbit escaping safely, leaving out harsher variants in which the terrapin is punished or dies of grief.",
+    "readingMinutes": 2
   }
 ];
