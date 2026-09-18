@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Story of the Three Bears, an English fairy tale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 180)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-70 24 Q-70 40 -54 40 L-30 40 Q-14 40 -14 24 L-18 -6 L-66 -6 Z" stroke-width="1.2" fill="#C9A66B" fill-opacity="0.16"/>
+    <path d="M-66 -6 Q-42 -16 -18 -6" stroke-width="1"/>
+    <path d="M-58 4 Q-42 -2 -26 4" stroke-width="0.8" opacity="0.5"/>
+
+    <path d="M-16 30 Q-16 44 -4 44 L14 44 Q26 44 26 30 L23 4 L-13 4 Z" stroke-width="1.3" fill="#C9A66B" fill-opacity="0.22"/>
+    <path d="M-13 4 Q5 -8 23 4" stroke-width="1"/>
+    <path d="M-6 14 Q5 6 16 14" stroke-width="0.9" opacity="0.5"/>
+
+    <path d="M30 36 Q30 48 40 48 L58 48 Q68 48 68 36 L65 12 L33 12 Z" stroke-width="1.4" fill="#C9A66B" fill-opacity="0.28"/>
+    <path d="M33 12 Q49 0 65 12" stroke-width="1.1"/>
+    <path d="M39 20 Q49 13 59 20" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#2C2C2C" letter-spacing="0.5">The Story of the</text>
+  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#2C2C2C" letter-spacing="0.5">Three Bears</text>
+
+  <line x1="150" y1="348" x2="250" y2="348" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="378" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#C57B57">Not too hot, not too cold — just right</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">JOSEPH JACOBS</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">ENGLISH FAIRY TALES</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

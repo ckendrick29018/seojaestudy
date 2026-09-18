@@ -2539,5 +2539,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-legend-of-sleepy-hollow.svg",
     "source": "Adapted from the opening of Washington Irving's short story \"The Legend of Sleepy Hollow\" (1820; Project Gutenberg #41, long in the public domain) — an entirely fresh author for the shelf, and a companion to the Gothic/ghost-story tone already set by Poe, Stoker, and Hawthorne. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "the-story-of-the-three-bears",
+    "title": "The Story of the Three Bears",
+    "titleTranslation": "곰 세 마리 이야기",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🐻",
+    "coverImage": "/covers/the-story-of-the-three-bears.svg",
+    "source": "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"The Story of the Three Bears,\" a fourth pick from the same collection as Henny-Penny, The Three Little Pigs, and The Old Woman and Her Pig. Genuinely gentle already: an old woman gets a fright and runs off into the wood; the source's own vaguer, darker guesses about her fate are dropped. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "xingu",
+    "title": "Xingu",
+    "titleTranslation": "싱구",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Short story",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Edith Wharton (1916)",
+    "coverEmoji": "🏞️",
+    "coverImage": "/covers/xingu.svg",
+    "source": "Adapted from Edith Wharton's short story \"Xingu\" (1916; Project Gutenberg #24131, long in the public domain) — an eighth Wharton pick on the B2 shelf, and a change of tone: a comedy of pretension, about a club of society ladies who bluff their way through a conversation about a word none of them has ever actually heard before. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];
