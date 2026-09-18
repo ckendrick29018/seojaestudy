@@ -35866,6 +35866,522 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "hansel-and-gretel",
+    title: "Hansel and Gretel",
+    titleTranslation: "헨젤과 그레텔",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    coverEmoji: "🍬",
+    coverImage: "/covers/hansel-and-gretel.svg",
+    source:
+      "Adapted from the Brothers Grimm tale \"Hansel and Gretel\" (\"Hänsel und Gretel,\" collected 1812; long in the public domain, Project Gutenberg #2591) — one of the most famous fairy tales in the world, and a deliberately popular pick for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story; the witch's fate at the end is softened to being trapped for good rather than burned to death, though the central danger of the tale (the witch's plan to fatten and eat Hansel) is kept, as in most family-friendly retellings.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Hansel and Gretel escaped the witch, and what they brought home with them.",
+    paragraphs: [
+      [
+        {
+          id: "hg-1",
+          text: "Near a great forest there once lived a poor woodcutter with his wife and his two children, Hansel and Gretel.",
+          translation: "어느 큰 숲 근처에, 가난한 나무꾼이 아내와 두 아이 헨젤과 그레텔과 함께 살고 있었어요.",
+        },
+        {
+          id: "hg-2",
+          text: "One year the harvest failed, and soon there was so little food in the house that the woodcutter lay awake at night, worrying how he could feed his family.",
+          translation:
+            "어느 해 흉년이 들어 집에 먹을 것이 거의 남지 않게 되자, 나무꾼은 밤마다 잠들지 못하고 가족을 어떻게 먹여 살릴지 걱정했어요.",
+        },
+        {
+          id: "hg-3",
+          text: "His wife told him there was only one answer: they must lead the children deep into the forest the next morning and leave them there.",
+          translation:
+            "아내는 답은 하나뿐이라고 말했어요. 다음 날 아침 아이들을 숲속 깊이 데려가 그곳에 두고 와야 한다는 것이었죠.",
+        },
+      ],
+      [
+        {
+          id: "hg-4",
+          text: "Hansel and Gretel lay awake too, and heard every word through the thin wall.",
+          translation: "헨젤과 그레텔도 잠들지 못한 채 그 이야기를 얇은 벽 너머로 하나도 빠짐없이 들었어요.",
+        },
+        {
+          id: "hg-5",
+          text: "Gretel cried softly, but Hansel told her not to worry, crept outside, and filled his pockets with small white pebbles that glimmered in the moonlight.",
+          translation:
+            "그레텔은 조용히 울었지만, 헨젤은 걱정하지 말라며 밖으로 몰래 나가 달빛에 반짝이는 하얀 조약돌을 주머니 가득 채워 왔어요.",
+        },
+      ],
+      [
+        {
+          id: "hg-6",
+          text: "The next morning, as the family walked into the forest, Hansel quietly dropped one shining pebble after another along the path.",
+          translation: "다음 날 아침, 가족이 숲으로 걸어 들어가는 동안 헨젤은 길을 따라 반짝이는 조약돌을 하나씩 조용히 떨어뜨렸어요.",
+        },
+        {
+          id: "hg-7",
+          text: "Deep among the trees, the parents lit a fire, told the children to rest, and slipped away, saying they would return before evening.",
+          translation:
+            "숲 깊은 곳에서 부모는 불을 피우고 아이들에게 쉬라고 말한 뒤, 저녁이 되기 전에 돌아오겠다며 몰래 자리를 떴어요.",
+        },
+        {
+          id: "hg-8",
+          text: "When night fell and no one had come back, Hansel took his sister's hand, followed the pebbles glowing under the full moon, and led her safely home by morning.",
+          translation:
+            "밤이 되어도 아무도 돌아오지 않자, 헨젤은 동생의 손을 잡고 보름달 아래 빛나는 조약돌을 따라가, 아침이 되기 전에 무사히 집으로 데려다주었어요.",
+        },
+      ],
+      [
+        {
+          id: "hg-9",
+          text: "Before long the family was hungry again, and this time the mother locked the door at night so Hansel could not gather more pebbles.",
+          translation:
+            "얼마 지나지 않아 가족은 다시 배가 고파졌고, 이번에는 어머니가 밤에 문을 잠가 헨젤이 조약돌을 더 모을 수 없게 만들었어요.",
+        },
+        {
+          id: "hg-10",
+          text: "He crumbled his piece of breakfast bread in his pocket instead, and scattered the crumbs behind him as the family walked deeper into the woods than ever before.",
+          translation:
+            "대신 헨젤은 아침 빵 한 조각을 주머니 속에서 잘게 부수어, 가족이 그 어느 때보다 깊은 숲속으로 걸어 들어가는 동안 뒤로 부스러기를 흩뿌렸어요.",
+        },
+        {
+          id: "hg-11",
+          text: "But when the children woke alone that night and looked for the trail, every single crumb was gone — the forest birds had eaten them all.",
+          translation:
+            "하지만 그날 밤 아이들이 혼자 깨어나 흔적을 찾아보니 부스러기는 하나도 남아 있지 않았어요. 숲의 새들이 모두 먹어 버린 거였죠.",
+        },
+      ],
+      [
+        {
+          id: "hg-12",
+          text: "Hansel and Gretel wandered through the forest for three days, hungry, tired, and hopelessly lost.",
+          translation: "헨젤과 그레텔은 사흘 동안 숲속을 헤맸어요. 배고프고 지치고 완전히 길을 잃은 채였죠.",
+        },
+        {
+          id: "hg-13",
+          text: "At last they came upon a strange little house with walls of bread, a roof of cake, and windows made of clear sugar.",
+          translation:
+            "마침내 두 사람은 빵으로 된 벽과 케이크로 된 지붕, 맑은 설탕으로 만든 창문을 가진 이상한 작은 집을 발견했어요.",
+        },
+        {
+          id: "hg-14",
+          text: "Starving, they broke off pieces of the roof and the window to eat, until the door opened and a bent old woman invited them inside with a warm smile.",
+          translation:
+            "배가 고팠던 두 사람은 지붕과 창문 조각을 뜯어 먹기 시작했고, 이내 문이 열리며 등이 굽은 노파가 따뜻한 미소로 그들을 집 안으로 초대했어요.",
+        },
+      ],
+      [
+        {
+          id: "hg-15",
+          text: "The kind old woman fed them a wonderful supper and gave them soft beds, but she was secretly a wicked witch who had built the house only to trap hungry children.",
+          translation:
+            "그 다정해 보이는 노파는 두 사람에게 훌륭한 저녁을 차려 주고 포근한 잠자리도 내주었지만, 사실은 배고픈 아이들을 유인하려고 그 집을 지은 사악한 마녀였어요.",
+        },
+        {
+          id: "hg-16",
+          text: "The next morning she locked Hansel in a small cage in the yard and forced Gretel to cook rich meals to fatten him up.",
+          translation:
+            "다음 날 아침 마녀는 헨젤을 마당의 작은 우리에 가두고, 그레텔에게는 헨젤을 살찌우기 위한 진수성찬을 만들라고 시켰어요.",
+        },
+        {
+          id: "hg-17",
+          text: "Every few days the witch checked Hansel's finger to see if he was fat enough, but Hansel cleverly held out a thin old bone instead, and the witch's poor eyesight fooled her every time.",
+          translation:
+            "며칠에 한 번씩 마녀는 헨젤이 충분히 살쪘는지 손가락을 확인했지만, 헨젤은 영리하게도 대신 가늘고 오래된 뼈를 내밀었고, 시력이 나쁜 마녀는 매번 속아 넘어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "hg-18",
+          text: "After weeks of waiting, the impatient witch decided to cook Hansel that very day, no matter how thin he still seemed.",
+          translation: "몇 주를 기다린 끝에 조바심이 난 마녀는 헨젤이 아직 말랐어도 그날 당장 잡아먹기로 결심했어요.",
+        },
+        {
+          id: "hg-19",
+          text: "She heated the oven and told Gretel to climb in first to check if it was hot enough — but Gretel guessed the trick and asked, \"How do I do that?\"",
+          translation:
+            "마녀는 화덕을 달구고는 먼저 그레텔에게 들어가서 충분히 뜨거운지 확인하라고 시켰지만, 그레텔은 속셈을 눈치채고 \"어떻게 하는 건가요?\"라고 되물었어요.",
+        },
+        {
+          id: "hg-20",
+          text: "When the impatient witch pushed forward to show her how, Gretel gave her a hard shove into the oven and quickly bolted the iron door shut.",
+          translation:
+            "조바심이 난 마녀가 직접 보여 주려고 앞으로 나서자, 그레텔은 마녀를 화덕 안으로 세게 밀어 넣고 재빨리 철문을 걸어 잠갔어요.",
+        },
+        {
+          id: "hg-21",
+          text: "The witch was trapped for good, and Gretel raced to free her brother from his cage at last.",
+          translation: "마녀는 그렇게 영영 갇히게 되었고, 그레텔은 곧장 달려가 마침내 오빠를 우리에서 풀어 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "hg-22",
+          text: "Searching the witch's house, the children found chests overflowing with pearls and jewels, and filled their pockets with as much treasure as they could carry.",
+          translation:
+            "마녀의 집을 살펴보던 아이들은 진주와 보석이 가득한 상자들을 발견하고, 들 수 있는 만큼 최대한 많은 보물을 주머니에 채웠어요.",
+        },
+        {
+          id: "hg-23",
+          text: "On their way home a friendly white duck carried them one at a time across a wide stretch of water they could not cross alone.",
+          translation:
+            "집으로 돌아가는 길, 다정한 하얀 오리 한 마리가 그들이 혼자서는 건널 수 없던 넓은 물길을 한 명씩 등에 태워 건네주었어요.",
+        },
+        {
+          id: "hg-24",
+          text: "At last they saw their father's house in the distance and ran the rest of the way, throwing their arms around his neck.",
+          translation: "마침내 저 멀리 아버지의 집이 보이자 두 사람은 남은 길을 뛰어가, 아버지의 목을 끌어안았어요.",
+        },
+        {
+          id: "hg-25",
+          text: "Their father wept with joy — he had never had one happy hour since leaving them in the forest — and with the witch's treasure, the three of them never went hungry again.",
+          translation:
+            "아버지는 기쁨의 눈물을 흘렸어요. 아이들을 숲에 두고 온 뒤로 단 한 시간도 마음이 편치 않았던 거예요. 그리고 마녀의 보물 덕분에 세 사람은 다시는 배를 곯지 않았답니다.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hg-v1",
+        term: "pebble",
+        partOfSpeech: "noun",
+        translation: "조약돌",
+        example:
+          "Gretel cried softly, but Hansel told her not to worry, crept outside, and filled his pockets with small white pebbles that glimmered in the moonlight.",
+        exampleTranslation:
+          "그레텔은 조용히 울었지만, 헨젤은 걱정하지 말라며 밖으로 몰래 나가 달빛에 반짝이는 하얀 조약돌을 주머니 가득 채워 왔어요.",
+      },
+      {
+        id: "hg-v2",
+        term: "crumb",
+        partOfSpeech: "noun",
+        translation: "부스러기",
+        example:
+          "But when the children woke alone that night and looked for the trail, every single crumb was gone — the forest birds had eaten them all.",
+        exampleTranslation:
+          "하지만 그날 밤 아이들이 혼자 깨어나 흔적을 찾아보니 부스러기는 하나도 남아 있지 않았어요. 숲의 새들이 모두 먹어 버린 거였죠.",
+      },
+      {
+        id: "hg-v3",
+        term: "witch",
+        partOfSpeech: "noun",
+        translation: "마녀",
+        example:
+          "The kind old woman fed them a wonderful supper and gave them soft beds, but she was secretly a wicked witch who had built the house only to trap hungry children.",
+        exampleTranslation:
+          "그 다정해 보이는 노파는 두 사람에게 훌륭한 저녁을 차려 주고 포근한 잠자리도 내주었지만, 사실은 배고픈 아이들을 유인하려고 그 집을 지은 사악한 마녀였어요.",
+      },
+      {
+        id: "hg-v4",
+        term: "cage",
+        partOfSpeech: "noun",
+        translation: "우리",
+        example:
+          "The next morning she locked Hansel in a small cage in the yard and forced Gretel to cook rich meals to fatten him up.",
+        exampleTranslation:
+          "다음 날 아침 마녀는 헨젤을 마당의 작은 우리에 가두고, 그레텔에게는 헨젤을 살찌우기 위한 진수성찬을 만들라고 시켰어요.",
+      },
+      {
+        id: "hg-v5",
+        term: "treasure",
+        partOfSpeech: "noun",
+        translation: "보물",
+        example:
+          "Searching the witch's house, the children found chests overflowing with pearls and jewels, and filled their pockets with as much treasure as they could carry.",
+        exampleTranslation:
+          "마녀의 집을 살펴보던 아이들은 진주와 보석이 가득한 상자들을 발견하고, 들 수 있는 만큼 최대한 많은 보물을 주머니에 채웠어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hg-q1",
+        prompt:
+          "Why did dropping pebbles work to find the way home the first time, but dropping bread crumbs failed the second time?",
+        options: [
+          "Because birds ate all the crumbs, but nothing could eat the pebbles",
+          "Because Hansel forgot to drop the crumbs at all",
+          "Because the moon did not rise the second night",
+          "Because their mother followed and picked up the crumbs herself",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Hansel's pebbles shone in the moonlight and led the children safely home the first time, but the second time the birds of the forest ate every one of the breadcrumbs, leaving no trail to follow.",
+      },
+      {
+        id: "hg-q2",
+        prompt: "How did Gretel finally save Hansel from the witch?",
+        options: [
+          "She pushed the witch into the hot oven and bolted the door shut",
+          "She fed the witch until she fell asleep",
+          "She stole the witch's crutches so she could not walk",
+          "She asked the white duck to carry the witch away",
+        ],
+        correctIndex: 0,
+        explanation:
+          "When the witch tried to show Gretel how to check the oven, Gretel pushed her inside and bolted the iron door, trapping the witch for good and freeing her brother.",
+      },
+      {
+        id: "hg-q3",
+        prompt: "What did Hansel and Gretel bring home with them at the end of the story?",
+        options: [
+          "Chests of pearls and jewels from the witch's house",
+          "A magic pebble that never ran out",
+          "A pet duck that followed them home",
+          "Nothing — they came home empty-handed but safe",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Before leaving the witch's house, the children filled their pockets with pearls and jewels they found in her chests, and the treasure meant their family never went hungry again.",
+      },
+    ],
+  },
+  {
+    slug: "the-picture-of-dorian-gray",
+    title: "The Picture of Dorian Gray",
+    titleTranslation: "도리언 그레이의 초상",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Oscar Wilde (1854–1900)",
+    coverEmoji: "🖼️",
+    coverImage: "/covers/the-picture-of-dorian-gray.svg",
+    source:
+      "Adapted from Chapter 1 of Oscar Wilde's novel \"The Picture of Dorian Gray\" (1890; Project Gutenberg #174, long in the public domain) — one of the most famous novels in the English language, and a deliberately popular pick for the shelf: Basil Hallward's refusal to exhibit his masterpiece, and his account of the strange, fateful afternoon he first met Dorian Gray at Lady Brandon's party. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Basil refuses to exhibit the portrait, and how he first met Dorian Gray.",
+    paragraphs: [
+      [
+        {
+          id: "dg-1",
+          text: "Basil Hallward's studio was filled with the rich scent of roses drifting in from the garden, and in the middle of the room stood his latest painting: the full-length portrait of an astonishingly beautiful young man.",
+          translation:
+            "바질 홀워드의 화실에는 정원에서 흘러들어오는 짙은 장미 향기가 가득했고, 방 한가운데에는 그의 최신작인, 놀랍도록 아름다운 한 청년의 전신 초상화가 세워져 있었어요.",
+        },
+        {
+          id: "dg-2",
+          text: "Basil's friend, Lord Henry Wotton, lay stretched on a divan nearby, smoking one cigarette after another and admiring the canvas with open envy.",
+          translation:
+            "바질의 친구 헨리 워튼 경은 근처 소파에 길게 누워 담배를 연이어 피우며, 은근한 부러움을 담아 그 캔버스를 감상하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "dg-3",
+          text: "\"It's the best thing you've ever painted, Basil,\" Lord Henry said. \"You must send it to the gallery this year.\"",
+          translation: "\"자네가 그린 것 중 최고야, 바질.\" 헨리 경이 말했어요. \"올해 꼭 전시회에 보내야 해.\"",
+        },
+        {
+          id: "dg-4",
+          text: "\"I don't think I'll exhibit it at all,\" Basil answered, looking away. \"I've put too much of myself into this portrait.\"",
+          translation:
+            "\"이건 전혀 전시하지 않을 생각이야.\" 바질이 시선을 돌리며 대답했어요. \"이 초상화에 나 자신을 너무 많이 담아 버렸거든.\"",
+        },
+        {
+          id: "dg-5",
+          text: "Lord Henry laughed in surprise, insisting that no one could ever mistake Basil's own rough, thoughtful face for the flawless young man on the canvas.",
+          translation:
+            "헨리 경은 놀라서 웃음을 터뜨리며, 캔버스 속 흠 없는 청년과 바질의 투박하고 사려 깊은 얼굴을 누구도 혼동할 리 없다고 우겼어요.",
+        },
+      ],
+      [
+        {
+          id: "dg-6",
+          text: "\"You don't understand me,\" Basil said quietly. \"Every portrait painted with real feeling is a portrait of the artist, not of the person sitting for it.\"",
+          translation:
+            "\"자넨 날 이해하지 못해.\" 바질이 조용히 말했어요. \"진심을 담아 그린 초상화는 모델이 아니라 화가 자신의 초상이거든.\"",
+        },
+        {
+          id: "dg-7",
+          text: "\"The face on the canvas is only an accident. What it truly shows is the secret of my own soul, and that is exactly why I can never let it be shown.\"",
+          translation:
+            "\"캔버스 위의 얼굴은 그저 우연일 뿐이야. 진짜로 드러나는 건 내 영혼의 비밀이고, 그래서 절대 이걸 전시할 수 없는 거야.\"",
+        },
+      ],
+      [
+        {
+          id: "dg-8",
+          text: "Lord Henry pressed him for the real story, and at last Basil agreed to explain, though he warned that his friend would hardly believe it.",
+          translation: "헨리 경이 진짜 이유를 캐묻자, 바질은 마침내 설명하기로 했어요. 다만 친구가 도저히 믿지 못할 거라고 미리 경고했죠.",
+        },
+        {
+          id: "dg-9",
+          text: "Two months earlier, Basil said, he had gone to a crowded party at Lady Brandon's, dreading the usual dull small talk of the season.",
+          translation:
+            "두 달 전, 바질은 그 시즌의 지루한 잡담을 각오하며 레이디 브랜던의 붐비는 파티에 갔었다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "dg-10",
+          text: "Standing among the tedious guests, Basil suddenly felt someone watching him, turned, and saw a strikingly beautiful young man for the very first time.",
+          translation:
+            "따분한 손님들 사이에 서 있던 바질은 문득 누군가 자신을 보고 있다는 느낌에 돌아섰고, 그때 처음으로 놀랍도록 아름다운 한 청년을 보았어요.",
+        },
+        {
+          id: "dg-11",
+          text: "The instant their eyes met, Basil felt a strange rush of fear, sensing that this stranger's presence alone was powerful enough to take over his whole life and art.",
+          translation:
+            "눈이 마주친 순간 바질은 낯선 두려움을 느꼈어요. 이 낯선 이의 존재만으로도 자신의 삶과 예술 전체를 집어삼킬 수 있을 것 같았거든요.",
+        },
+        {
+          id: "dg-12",
+          text: "It was not his conscience warning him, he said, but something closer to plain cowardice, and he tried at once to slip quietly out of the room.",
+          translation:
+            "그건 양심의 경고라기보다는 차라리 비겁함에 가까웠다고 그는 말했고, 곧바로 조용히 자리를 빠져나가려 했어요.",
+        },
+      ],
+      [
+        {
+          id: "dg-13",
+          text: "But Lady Brandon caught him at the door before he could escape, and dragged him through the crowd toward the very young man he had been trying to avoid.",
+          translation:
+            "하지만 문 앞에서 레이디 브랜던에게 붙잡혔고, 그녀는 바질을 끌고 사람들 사이를 지나 그가 피하려던 바로 그 청년 앞으로 데려갔어요.",
+        },
+        {
+          id: "dg-14",
+          text: "Face to face at last, their eyes met again, and Basil felt certain, as the young man later admitted too, that they were somehow always meant to know each other.",
+          translation:
+            "마침내 마주 선 두 사람의 눈이 다시 마주쳤고, 바질은 확신했어요. 훗날 그 청년도 인정했듯, 둘은 어쩐지 서로를 알게 될 운명이었던 거예요.",
+        },
+        {
+          id: "dg-15",
+          text: "\"And who is this remarkable young man?\" Lord Henry asked, delighted by the story so far.",
+          translation: "\"그 놀라운 청년은 대체 누구인가?\" 헨리 경이 이야기에 흥미를 느끼며 물었어요.",
+        },
+        {
+          id: "dg-16",
+          text: "\"Dorian Gray,\" Basil said. \"Though I never meant to tell even you his name.\"",
+          translation: "\"도리언 그레이야.\" 바질이 말했어요. \"자네한테조차 이름을 알려줄 생각은 없었는데.\"",
+        },
+      ],
+      [
+        {
+          id: "dg-17",
+          text: "When Lady Brandon introduced them, she bungled the introduction so badly — mixing up his family, his talents, even what instrument he supposedly played — that both young men burst out laughing on the spot.",
+          translation:
+            "레이디 브랜던이 두 사람을 소개하며 가문이며 재능이며 심지어 무슨 악기를 연주하는지까지 죄다 뒤죽박죽으로 말하는 바람에, 두 청년은 그 자리에서 동시에 웃음을 터뜨리고 말았어요.",
+        },
+        {
+          id: "dg-18",
+          text: "\"Laughter is not a bad beginning for a friendship,\" Lord Henry said, and Basil admitted it was, in fact, exactly how theirs had begun.",
+          translation:
+            "\"웃음은 우정을 시작하기에 나쁘지 않은 방법이지.\" 헨리 경이 말하자, 바질도 실제로 자신들의 우정이 꼭 그렇게 시작되었다고 인정했어요.",
+        },
+        {
+          id: "dg-19",
+          text: "Lord Henry sat up with new interest and announced that he simply had to meet this Dorian Gray for himself.",
+          translation:
+            "헨리 경은 새삼 흥미가 동해 몸을 일으키며, 자신도 반드시 그 도리언 그레이를 직접 만나 봐야겠다고 선언했어요.",
+        },
+        {
+          id: "dg-20",
+          text: "Basil frowned, warning his friend not to come near Dorian at all — he feared, more than he could explain, what Lord Henry's clever, corrupting talk might do to someone so young and impressionable.",
+          translation:
+            "바질은 얼굴을 찌푸리며 친구에게 도리언 근처에 아예 오지 말라고 경고했어요. 그토록 어리고 영향받기 쉬운 청년에게 헨리 경의 영리하고 타락시키는 말솜씨가 무슨 짓을 할지, 스스로도 설명할 수 없을 만큼 두려웠거든요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dg-v1",
+        term: "portrait",
+        partOfSpeech: "noun",
+        translation: "초상화",
+        example:
+          "Basil Hallward's studio was filled with the rich scent of roses drifting in from the garden, and in the middle of the room stood his latest painting: the full-length portrait of an astonishingly beautiful young man.",
+        exampleTranslation:
+          "바질 홀워드의 화실에는 정원에서 흘러들어오는 짙은 장미 향기가 가득했고, 방 한가운데에는 그의 최신작인, 놀랍도록 아름다운 한 청년의 전신 초상화가 세워져 있었어요.",
+      },
+      {
+        id: "dg-v2",
+        term: "envy",
+        partOfSpeech: "noun",
+        translation: "부러움, 질투",
+        example:
+          "Basil's friend, Lord Henry Wotton, lay stretched on a divan nearby, smoking one cigarette after another and admiring the canvas with open envy.",
+        exampleTranslation:
+          "바질의 친구 헨리 워튼 경은 근처 소파에 길게 누워 담배를 연이어 피우며, 은근한 부러움을 담아 그 캔버스를 감상하고 있었어요.",
+      },
+      {
+        id: "dg-v3",
+        term: "cowardice",
+        partOfSpeech: "noun",
+        translation: "비겁함",
+        example:
+          "It was not his conscience warning him, he said, but something closer to plain cowardice, and he tried at once to slip quietly out of the room.",
+        exampleTranslation:
+          "그건 양심의 경고라기보다는 차라리 비겁함에 가까웠다고 그는 말했고, 곧바로 조용히 자리를 빠져나가려 했어요.",
+      },
+      {
+        id: "dg-v4",
+        term: "impressionable",
+        partOfSpeech: "adjective",
+        translation: "영향받기 쉬운",
+        example:
+          "Basil frowned, warning his friend not to come near Dorian at all — he feared, more than he could explain, what Lord Henry's clever, corrupting talk might do to someone so young and impressionable.",
+        exampleTranslation:
+          "바질은 얼굴을 찌푸리며 친구에게 도리언 근처에 아예 오지 말라고 경고했어요. 그토록 어리고 영향받기 쉬운 청년에게 헨리 경의 영리하고 타락시키는 말솜씨가 무슨 짓을 할지, 스스로도 설명할 수 없을 만큼 두려웠거든요.",
+      },
+      {
+        id: "dg-v5",
+        term: "bungle",
+        partOfSpeech: "verb",
+        translation: "서투르게 망치다",
+        example:
+          "When Lady Brandon introduced them, she bungled the introduction so badly — mixing up his family, his talents, even what instrument he supposedly played — that both young men burst out laughing on the spot.",
+        exampleTranslation:
+          "레이디 브랜던이 두 사람을 소개하며 가문이며 재능이며 심지어 무슨 악기를 연주하는지까지 죄다 뒤죽박죽으로 말하는 바람에, 두 청년은 그 자리에서 동시에 웃음을 터뜨리고 말았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dg-q1",
+        prompt: "Why does Basil refuse to exhibit the portrait of Dorian Gray?",
+        options: [
+          "He believes he has revealed the secret of his own soul in it",
+          "He thinks the portrait doesn't look enough like Dorian",
+          "He is worried Dorian will be angry about the painting",
+          "He plans to sell it privately for a higher price",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Basil explains that a portrait painted with real feeling shows the artist, not the sitter — and he fears this one reveals the secret of his own soul.",
+      },
+      {
+        id: "dg-q2",
+        prompt: "What happened when Basil first saw Dorian Gray at Lady Brandon's party?",
+        options: [
+          "He felt a sudden fear and tried to leave the room",
+          "He immediately introduced himself with great confidence",
+          "He didn't notice Dorian until they were introduced",
+          "He mistook Dorian for someone he already knew",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The moment their eyes met, Basil sensed that Dorian's presence could take over his whole life and art, and out of something like cowardice, he tried to slip away.",
+      },
+      {
+        id: "dg-q3",
+        prompt: "How does the chapter end regarding Lord Henry and Dorian Gray?",
+        options: [
+          "Lord Henry decides he must meet Dorian, despite Basil's warning",
+          "Lord Henry loses interest in Dorian entirely",
+          "Basil introduces Lord Henry to Dorian immediately",
+          "Lord Henry and Dorian turn out to already be old friends",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Intrigued by Basil's story, Lord Henry insists he must meet Dorian Gray himself, even as Basil warns him to stay away, fearing what his influence might do.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

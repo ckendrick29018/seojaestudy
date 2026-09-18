@@ -2731,5 +2731,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/robinson-crusoe.svg",
     "source": "Adapted from Daniel Defoe's Robinson Crusoe (1719; Project Gutenberg #521, long in the public domain) — the opening chapter: against his father's wishes, young Crusoe sails from Hull, survives a terrifying storm that sinks his first ship, ignores the warning, and sets out to sea again regardless. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "hansel-and-gretel",
+    "title": "Hansel and Gretel",
+    "titleTranslation": "헨젤과 그레텔",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Jacob & Wilhelm Grimm (1785–1863, 1786–1859)",
+    "coverEmoji": "🍬",
+    "coverImage": "/covers/hansel-and-gretel.svg",
+    "source": "Adapted from the Brothers Grimm tale \"Hansel and Gretel\" (\"Hänsel und Gretel,\" collected 1812; long in the public domain, Project Gutenberg #2591) — one of the most famous fairy tales in the world, and a deliberately popular pick for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story; the witch's fate at the end is softened to being trapped for good rather than burned to death, though the central danger of the tale (the witch's plan to fatten and eat Hansel) is kept, as in most family-friendly retellings.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "the-picture-of-dorian-gray",
+    "title": "The Picture of Dorian Gray",
+    "titleTranslation": "도리언 그레이의 초상",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Oscar Wilde (1854–1900)",
+    "coverEmoji": "🖼️",
+    "coverImage": "/covers/the-picture-of-dorian-gray.svg",
+    "source": "Adapted from Chapter 1 of Oscar Wilde's novel \"The Picture of Dorian Gray\" (1890; Project Gutenberg #174, long in the public domain) — one of the most famous novels in the English language, and a deliberately popular pick for the shelf: Basil Hallward's refusal to exhibit his masterpiece, and his account of the strange, fateful afternoon he first met Dorian Gray at Lady Brandon's party. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

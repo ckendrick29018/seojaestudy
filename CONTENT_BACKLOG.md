@@ -252,6 +252,10 @@ has a genuine period cover/illustration in the public domain, download that into
 | 131 | The Jungle Book | Rudyard Kipling (1894) | 236 | B2 | the opening of "Mowgli's Brothers" — Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 | 132 | Lazy Jack | Joseph Jacobs (1890) | 7439 | A1 | whole tale (simplified retelling, 25 sentences; an eighth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, The Three Sillies, and Johnny-Cake — Jack carries home each day's pay the way that would have worked for the *previous* day's pay, spilling milk in his pocket and wearing cheese on his head, until carrying a donkey upside down over his shoulders finally makes a rich man's mute daughter laugh for the first time in her life; already gentle and comic throughout, no softening needed) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
 | 133 | Robinson Crusoe | Daniel Defoe (1719) | 521 | B2 | the opening chapter (simplified retelling, 18 sentences; against his father's wishes and warning that the "middle station of life" is happiest, young Crusoe runs off to sea, survives a first storm that has him swearing off ships forever, forgets that promise within a day, then survives a second, far worse storm that sinks the ship entirely before a passing boat rescues the crew — and sails on regardless) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
+| 134 | Hansel and Gretel | Jacob & Wilhelm Grimm (1785–1863, 1786–1859) | 2591 | A1 | whole tale (simplified retelling, 25 sentences; two attempts by poor parents to abandon Hansel and Gretel in the forest — the first foiled by a pebble trail shining in the moonlight, the second failing when birds eat the breadcrumb trail — followed by the candy house, the witch who fattens Hansel while forcing Gretel to work, Gretel's finger-bone/oven trick that traps the witch for good, and the children's return home with a fortune in pearls and jewels) — a deliberately *popular* pick rather than a diversification pick; the witch's fate is softened from being burned to death to simply being trapped, since the central peril (fattening Hansel to eat him) is essential to the plot and kept, as in most family-friendly retellings | ☑ |
+| 135 | The Picture of Dorian Gray | Oscar Wilde (1890) | 174 | B2 | Chapter 1, opening scene (simplified retelling, 20 sentences; in Basil Hallward's rose-scented studio, Lord Henry Wotton urges Basil to exhibit his masterful portrait of a beautiful young man, but Basil refuses, explaining that a portrait painted with real feeling reveals the artist's soul, not the sitter's; pressed further, he recounts the afternoon two months earlier when he first saw Dorian Gray at Lady Brandon's party, felt an inexplicable fear at the young man's magnetic presence, tried to flee, was caught and introduced anyway, and ends the chapter warning Lord Henry — now determined to meet Dorian himself — away from him) — a second Wilde pick (after his three A1/A2 fairy tales), chosen for fame rather than freshness; fits naturally alongside the shelf's existing Gothic B2 cluster (Frankenstein, Dracula, Dr. Jekyll and Mr. Hyde, The Turn of the Screw, The Woman in White, The Minister's Black Veil) | ☑ |
+
+**Selection strategy update (2026-09-18):** going forward, prefer the most popular/famous public-domain work available over continuing deeper into one author's catalog or optimizing for author freshness — recognizability drives search traffic. Hansel and Gretel and The Picture of Dorian Gray are the first two picks made on this basis; both revisit authors already on the shelf (Grimm, Wilde) specifically because the *specific work* is far more famous than anything left in the "next" queue. Keep checking Gutenberg download counts / cultural fame as a tiebreaker when picking future lessons — a hugely famous title from an existing author beats an obscure title from a fresh one.
 
 ---
 
@@ -261,10 +265,30 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (164 — 133 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (166 — 135 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  sixteenth round): **Lazy Jack** (A1, classics) — an eighth tale from
+  seventeenth round, first under the new popularity-first selection
+  strategy): **Hansel and Gretel** (A1, classics) — one of the most famous
+  fairy tales in the world (Brothers Grimm, PG#2591), picked deliberately
+  for its fame rather than to diversify away from Grimm: two attempts to
+  abandon the children in the forest, the candy house, the witch who
+  fattens Hansel while forcing Gretel to work, Gretel's oven trick that
+  traps the witch for good, and the children's return home with a
+  fortune in pearls and jewels; the witch's fate is softened from being
+  burned to death to simply being trapped, while the central peril
+  (fattening Hansel to eat him) is kept since it's essential to the plot;
+  and **The Picture of Dorian Gray** (B2, classics) — Oscar Wilde's most
+  famous novel (1890, PG#174), Chapter 1's opening scene: Basil Hallward
+  refuses to exhibit his portrait of Dorian Gray, explaining a portrait
+  painted with feeling reveals the artist's soul, then recounts the
+  fateful afternoon he first met Dorian at Lady Brandon's party — ending
+  with Lord Henry, intrigued, determined to meet Dorian himself despite
+  Basil's fearful warning; a second Wilde pick (after his three
+  fairy tales) chosen for fame over freshness, and a natural fit
+  alongside the shelf's existing Gothic B2 cluster.
+  Before that, an earlier batch the same day (sixteenth round):
+  **Lazy Jack** (A1, classics) — an eighth tale from
   Joseph Jacobs's English Fairy Tales (1890, PG#7439): Jack carries each
   day's pay home the way that would have worked for the previous day's
   pay — pouring milk into his pocket, wearing cheese on his head, dragging
@@ -760,7 +784,11 @@ has a genuine period cover/illustration in the public domain, download that into
     chapter, young Crusoe's first storm that has him swearing off ships
     forever, forgotten within a day, and the second, far worse storm that
     sinks the ship for good) is live too.
-    Next: a ninth Wharton, or another fresh author.
+    Next: a ninth Wharton, or another fresh author. (Row 135, **The
+    Picture of Dorian Gray**, was picked instead of either option on
+    2026-09-18 under the new popularity-first strategy — a second Wilde
+    pick chosen for fame, not freshness. The ninth-Wharton /
+    fresh-author options above are both still open for a future round.)
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
     Golden Key**, **The Star Money**, **Hans in Luck** (seven trades),
@@ -823,7 +851,11 @@ has a genuine period cover/illustration in the public domain, download that into
     first time in her life; already gentle throughout, no softening
     needed) is live too.
     Next: re-level a gentle A2 tale, or continue into more
-    English/American nursery tales.
+    English/American nursery tales. (Row 134, **Hansel and Gretel**, was
+    picked instead of either option on 2026-09-18 under the new
+    popularity-first strategy — a return to Grimm chosen specifically
+    because this tale is world-famous, not to diversify the author list.
+    The re-level / nursery-tale options above are both still open.)
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently
