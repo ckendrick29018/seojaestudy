@@ -2699,5 +2699,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-jungle-book.svg",
     "source": "Adapted from Rudyard Kipling's The Jungle Book (1894; Project Gutenberg #236, long in the public domain) — the opening of \"Mowgli's Brothers\": Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "lazy-jack",
+    "title": "Lazy Jack",
+    "titleTranslation": "게으름뱅이 잭",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🥛",
+    "coverImage": "/covers/lazy-jack.svg",
+    "source": "Adapted from \"Lazy Jack\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — an eighth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, The Three Sillies, and Johnny-Cake. The original is already gentle and comic throughout, so nothing needed softening. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "robinson-crusoe",
+    "title": "Robinson Crusoe",
+    "titleTranslation": "로빈슨 크루소",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Daniel Defoe (1719)",
+    "coverEmoji": "⛵",
+    "coverImage": "/covers/robinson-crusoe.svg",
+    "source": "Adapted from Daniel Defoe's Robinson Crusoe (1719; Project Gutenberg #521, long in the public domain) — the opening chapter: against his father's wishes, young Crusoe sails from Hull, survives a terrifying storm that sinks his first ship, ignores the warning, and sets out to sea again regardless. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

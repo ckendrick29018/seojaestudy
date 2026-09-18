@@ -35376,6 +35376,496 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "lazy-jack",
+    title: "Lazy Jack",
+    titleTranslation: "게으름뱅이 잭",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🥛",
+    coverImage: "/covers/lazy-jack.svg",
+    source:
+      "Adapted from \"Lazy Jack\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — an eighth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, The Three Sillies, and Johnny-Cake. The original is already gentle and comic throughout, so nothing needed softening. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Jack carried home wrong each day, and how it finally made someone laugh.",
+    paragraphs: [
+      [
+        {
+          id: "lj-1",
+          text: "Jack lived alone with his mother in a small cottage, and though she loved him dearly, she often sighed that he was the laziest boy in the village.",
+          translation:
+            "잭은 어머니와 단둘이 작은 오두막에서 살았는데, 어머니는 잭을 몹시 아끼면서도 마을에서 가장 게으른 아이라며 자주 한숨을 쉬었어요.",
+        },
+        {
+          id: "lj-2",
+          text: "At last she told him that unless he found work and earned some money, she would have to turn him out to fend for himself.",
+          translation: "결국 어머니는 잭이 일자리를 찾아 돈을 벌지 않으면 스스로 살아가도록 내보낼 수밖에 없다고 말했어요.",
+        },
+        {
+          id: "lj-3",
+          text: "So on Monday, Jack hired himself out to a neighboring farmer, who paid him a single shiny coin at the end of the day.",
+          translation: "그래서 월요일에 잭은 이웃 농부의 집에서 일을 했고, 농부는 하루 일당으로 반짝이는 동전 한 닢을 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-4",
+          text: "Jack had never carried money before, so on the walk home he held the coin awkwardly in his hand, and it slipped out and fell into a stream without his noticing.",
+          translation:
+            "잭은 돈을 가져 본 적이 한 번도 없어서 집으로 오는 길에 동전을 손에 어색하게 쥐고 있었는데, 자기도 모르는 사이에 동전이 손에서 빠져나가 시냇물에 떨어지고 말았어요.",
+        },
+        {
+          id: "lj-5",
+          text: "\"You silly boy,\" his mother scolded when he told her. \"You should have put it in your pocket!\" \"I'll do so next time,\" Jack promised.",
+          translation:
+            "\"이런 바보 같으니.\" 잭의 이야기를 들은 어머니가 나무랐어요. \"주머니에 넣었어야지!\" \"다음에는 그렇게 할게요.\" 잭이 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-6",
+          text: "On Tuesday, Jack worked for a cowherd, who paid him with a jar of fresh milk.",
+          translation: "화요일에 잭은 소를 돌보는 사람 밑에서 일했고, 그 사람은 품삯으로 신선한 우유 한 병을 주었어요.",
+        },
+        {
+          id: "lj-7",
+          text: "Remembering his mother's advice exactly, Jack poured the milk straight into his coat pocket, and of course it had all spilled out by the time he reached home.",
+          translation:
+            "어머니의 조언을 그대로 기억한 잭은 우유를 외투 주머니에 바로 부어 넣었고, 당연히 집에 도착했을 때는 우유가 전부 쏟아져 버렸어요.",
+        },
+        {
+          id: "lj-8",
+          text: "\"You should have carried it on your head!\" his mother cried. \"I'll do so next time,\" Jack said cheerfully.",
+          translation: "\"머리에 이고 왔어야지!\" 어머니가 외쳤어요. \"다음에는 그렇게 할게요.\" 잭이 명랑하게 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-9",
+          text: "On Wednesday, Jack worked for a baker, who paid him with a large, soft cream cheese.",
+          translation: "수요일에 잭은 빵집에서 일했고, 빵집 주인은 품삯으로 크고 부드러운 크림치즈를 주었어요.",
+        },
+        {
+          id: "lj-10",
+          text: "Jack balanced the cheese carefully on top of his head, just as he had been told, but it crumbled and slid down into his hair and collar long before he was halfway home.",
+          translation:
+            "잭은 시킨 대로 치즈를 머리 위에 조심스럽게 얹었지만, 집에 절반도 가기 전에 치즈는 부스러져 머리카락과 옷깃 속으로 흘러내리고 말았어요.",
+        },
+        {
+          id: "lj-11",
+          text: "\"You should have carried it in your hands!\" his mother sighed. \"I'll do so next time,\" Jack said, not troubled in the least.",
+          translation: "\"손에 들고 왔어야지!\" 어머니가 한숨을 쉬었어요. \"다음에는 그렇게 할게요.\" 잭은 전혀 아랑곳하지 않고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-12",
+          text: "On Thursday, Jack worked for a butcher, who rewarded him with a fine young tomcat.",
+          translation: "목요일에 잭은 정육점에서 일했고, 정육점 주인은 보답으로 어린 고양이 한 마리를 주었어요.",
+        },
+        {
+          id: "lj-13",
+          text: "Jack held the cat firmly in his two hands the whole way, but it scratched and clawed at him so fiercely that by the time he arrived home it had torn itself free and run off.",
+          translation:
+            "잭은 오는 내내 고양이를 두 손으로 꼭 붙잡고 있었지만, 고양이가 어찌나 사납게 할퀴었는지 집에 도착할 무렵에는 몸을 빼내 도망쳐 버렸어요.",
+        },
+        {
+          id: "lj-14",
+          text: "\"You should have tied it with a string and dragged it behind you!\" his mother said. \"I'll do so next time,\" Jack agreed.",
+          translation: "\"끈으로 묶어서 뒤에서 끌고 왔어야지!\" 어머니가 말했어요. \"다음에는 그렇게 할게요.\" 잭이 대답했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-15",
+          text: "On Friday, Jack worked for another farmer, who gave him a shoulder of meat as his pay.",
+          translation: "금요일에 잭은 다른 농부 밑에서 일했고, 농부는 품삯으로 고기 한 덩이를 주었어요.",
+        },
+        {
+          id: "lj-16",
+          text: "Jack tied a string around the meat and dragged it home along the dusty road behind him, exactly as he had been told, until every dog in the village had followed him and eaten it clean away.",
+          translation:
+            "잭은 시킨 대로 고기에 끈을 묶어 먼지 나는 길을 따라 뒤에서 끌고 왔는데, 그러는 사이 마을의 개들이 모두 뒤따라와 고기를 깨끗이 먹어 치우고 말았어요.",
+        },
+        {
+          id: "lj-17",
+          text: "\"Oh, Jack,\" his mother said, shaking her head, \"you should have carried it on your shoulder!\" \"I'll do so next time,\" Jack said, quite unbothered.",
+          translation:
+            "\"아이고, 잭아.\" 어머니가 고개를 저으며 말했어요. \"어깨에 메고 왔어야지!\" \"다음에는 그렇게 할게요.\" 잭은 아무렇지 않게 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-18",
+          text: "On Saturday, Jack found work with a stable owner, who paid him with a donkey too old and stiff to be worth much else.",
+          translation:
+            "토요일에 잭은 마구간 주인 밑에서 일자리를 찾았고, 마구간 주인은 이제 나이가 들어 쓸모가 별로 없는 당나귀 한 마리를 주었어요.",
+        },
+        {
+          id: "lj-19",
+          text: "Jack struggled and heaved until he had hoisted the donkey onto his shoulders, and set off carrying it home exactly as his mother had told him to.",
+          translation: "잭은 낑낑대며 애를 써서 당나귀를 어깨 위에 짊어졌고, 어머니가 시킨 대로 당나귀를 짊어진 채 집으로 향했어요.",
+        },
+        {
+          id: "lj-20",
+          text: "Now, on his way, Jack passed the grand house of a rich man whose only daughter had never once laughed or spoken a single word in her whole life.",
+          translation: "그런데 가는 길에 잭은 어느 부자의 큰 저택을 지나쳤는데, 그 집의 외동딸은 평생 단 한 번도 웃거나 말을 한 적이 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-21",
+          text: "The doctors had long since given up hope, and it had been promised that whoever could make her laugh would be allowed to marry her.",
+          translation: "의사들도 오래전에 포기한 상태였고, 그 딸을 웃게 만드는 사람과 결혼시키겠다는 약속이 있었어요.",
+        },
+        {
+          id: "lj-22",
+          text: "As it happened, the poor girl was looking out of her window at the very moment Jack came trudging by with a donkey balanced upside down over his shoulders, its legs waving helplessly in the air.",
+          translation:
+            "마침 그 딸이 창밖을 내다보고 있던 바로 그 순간, 잭이 당나귀를 거꾸로 어깨에 짊어진 채 다리를 허공에 버둥거리게 하며 터벅터벅 걸어오고 있었어요.",
+        },
+        {
+          id: "lj-23",
+          text: "The sight was so wonderfully ridiculous that the girl burst out laughing for the very first time in her life, and could not stop.",
+          translation: "그 모습이 어찌나 우스꽝스러웠던지, 딸은 태어나서 처음으로 웃음을 터뜨렸고 도무지 멈추지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "lj-24",
+          text: "Her father was overjoyed and kept his promise at once, and Jack — donkey and all — was brought inside to marry her.",
+          translation: "아버지는 몹시 기뻐하며 곧바로 약속을 지켰고, 잭은 당나귀와 함께 집 안으로 들어와 딸과 결혼하게 되었어요.",
+        },
+        {
+          id: "lj-25",
+          text: "They lived happily together in the great house, and Jack's mother, who had worried over him for so long, came to live with them and never had to scold him again.",
+          translation:
+            "두 사람은 큰 저택에서 행복하게 살았고, 오랫동안 잭을 걱정해 온 어머니도 함께 살게 되어 다시는 잭을 나무랄 일이 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lj-v1",
+        term: "scold",
+        partOfSpeech: "verb",
+        translation: "나무라다",
+        example:
+          "\"You silly boy,\" his mother scolded when he told her. \"You should have put it in your pocket!\"",
+        exampleTranslation: "\"이런 바보 같으니.\" 잭의 이야기를 들은 어머니가 나무랐어요. \"주머니에 넣었어야지!\"",
+      },
+      {
+        id: "lj-v2",
+        term: "spill",
+        partOfSpeech: "verb",
+        translation: "쏟다",
+        example:
+          "Remembering his mother's advice exactly, Jack poured the milk straight into his coat pocket, and of course it had all spilled out by the time he reached home.",
+        exampleTranslation:
+          "어머니의 조언을 그대로 기억한 잭은 우유를 외투 주머니에 바로 부어 넣었고, 당연히 집에 도착했을 때는 우유가 전부 쏟아져 버렸어요.",
+      },
+      {
+        id: "lj-v3",
+        term: "crumble",
+        partOfSpeech: "verb",
+        translation: "부스러지다",
+        example:
+          "Jack balanced the cheese carefully on top of his head, just as he had been told, but it crumbled and slid down into his hair and collar long before he was halfway home.",
+        exampleTranslation:
+          "잭은 시킨 대로 치즈를 머리 위에 조심스럽게 얹었지만, 집에 절반도 가기 전에 치즈는 부스러져 머리카락과 옷깃 속으로 흘러내리고 말았어요.",
+      },
+      {
+        id: "lj-v4",
+        term: "drag",
+        partOfSpeech: "verb",
+        translation: "끌다",
+        example:
+          "Jack tied a string around the meat and dragged it home along the dusty road behind him, exactly as he had been told, until every dog in the village had followed him and eaten it clean away.",
+        exampleTranslation:
+          "잭은 시킨 대로 고기에 끈을 묶어 먼지 나는 길을 따라 뒤에서 끌고 왔는데, 그러는 사이 마을의 개들이 모두 뒤따라와 고기를 깨끗이 먹어 치우고 말았어요.",
+      },
+      {
+        id: "lj-v5",
+        term: "ridiculous",
+        partOfSpeech: "adjective",
+        translation: "우스꽝스러운",
+        example:
+          "The sight was so wonderfully ridiculous that the girl burst out laughing for the very first time in her life, and could not stop.",
+        exampleTranslation: "그 모습이 어찌나 우스꽝스러웠던지, 딸은 태어나서 처음으로 웃음을 터뜨렸고 도무지 멈추지 못했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lj-q1",
+        prompt: "What happened to the coin Jack earned on Monday?",
+        options: [
+          "He held it awkwardly and it slipped out and fell into a stream",
+          "He spent it all on the way home",
+          "He gave it to a stranger",
+          "He lost it gambling",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jack had never carried money before, so he held the coin awkwardly, and it slipped out and fell into a stream without his noticing.",
+      },
+      {
+        id: "lj-q2",
+        prompt: "Why did each of Jack's mother's pieces of advice fail the next time?",
+        options: [
+          "Because he applied the advice meant for one kind of pay to a completely different kind the next day",
+          "Because he never listened to her at all",
+          "Because he was too lazy to try",
+          "Because his mother kept changing her mind on purpose",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Each day Jack carefully followed the advice for the previous day's pay, which was wrong for the new item — pouring milk in his pocket, wearing cheese on his head, and so on.",
+      },
+      {
+        id: "lj-q3",
+        prompt: "How did Jack finally make the rich man's daughter laugh?",
+        options: [
+          "By walking past her window with a donkey balanced upside down over his shoulders",
+          "By telling her a funny story",
+          "By singing a song under her window",
+          "By tripping and falling in front of her",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The girl saw Jack trudging by with a donkey slung upside down over his shoulders, its legs waving in the air, and found the sight so ridiculous that she laughed for the first time in her life.",
+      },
+    ],
+  },
+  {
+    slug: "robinson-crusoe",
+    title: "Robinson Crusoe",
+    titleTranslation: "로빈슨 크루소",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Daniel Defoe (1719)",
+    coverEmoji: "⛵",
+    coverImage: "/covers/robinson-crusoe.svg",
+    source:
+      "Adapted from Daniel Defoe's Robinson Crusoe (1719; Project Gutenberg #521, long in the public domain) — the opening chapter: against his father's wishes, young Crusoe sails from Hull, survives a terrifying storm that sinks his first ship, ignores the warning, and sets out to sea again regardless. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Crusoe's father wanted him to stay home, and what happened on his first voyage.",
+    paragraphs: [
+      [
+        {
+          id: "rc-1",
+          text: "I was born in the city of York, the third son of a good family, and from my earliest years I had one overpowering wish: to go to sea.",
+          translation: "나는 요크시에서 좋은 가문의 셋째 아들로 태어났고, 아주 어릴 때부터 단 하나, 바다로 나가고 싶다는 강한 소망을 품고 있었어요.",
+        },
+        {
+          id: "rc-2",
+          text: "My father, a wise and sober man, called me into his room one day and asked, with real tears in his eyes, why I would ever want to leave a comfortable home for a life of hardship.",
+          translation:
+            "현명하고 신중한 아버지는 어느 날 나를 방으로 불러, 눈에 진짜 눈물을 글썽이며 왜 편안한 집을 떠나 고생스러운 삶을 살고 싶어 하느냐고 물으셨어요.",
+        },
+        {
+          id: "rc-3",
+          text: "He told me that the middle station of life, neither rich nor poor, was the happiest of all, and that only desperate men or restless dreamers ever ran off to sea.",
+          translation:
+            "아버지는 부유하지도 가난하지도 않은 중간 계층의 삶이야말로 가장 행복한 삶이며, 절박한 사람이나 마음이 들뜬 몽상가만이 바다로 도망친다고 말씀하셨어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-4",
+          text: "I promised him I would think seriously about staying, and for a while I almost believed I would keep that promise.",
+          translation: "나는 아버지께 집에 머무는 것을 진지하게 생각해 보겠다고 약속했고, 한동안은 정말 그 약속을 지킬 것 같았어요.",
+        },
+        {
+          id: "rc-5",
+          text: "But the restless wish never really left me, and about a year later, without telling my father or my mother a single word, I ran off to Hull to find a ship.",
+          translation:
+            "하지만 들뜬 마음은 결코 사라지지 않았고, 약 일 년 뒤, 아버지와 어머니에게 한마디도 하지 않은 채 나는 배를 구하러 헐로 도망쳤어요.",
+        },
+        {
+          id: "rc-6",
+          text: "There I met an old school friend whose father owned a ship bound for London, and he offered me a free passage if I would only come along.",
+          translation: "그곳에서 나는 옛 학교 친구를 만났는데, 그 친구의 아버지가 런던행 배를 소유하고 있었고, 함께 가기만 하면 무료로 태워 주겠다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-7",
+          text: "No sooner were we clear of the harbor than the wind began to rise, and the sea grew rougher than I had ever imagined it could be.",
+          translation: "항구를 벗어나자마자 바람이 거세지기 시작했고, 바다는 내가 상상했던 것보다 훨씬 거칠어졌어요.",
+        },
+        {
+          id: "rc-8",
+          text: "I was violently seasick and thoroughly frightened, and I promised myself over and over that if God would only spare me this once, I would go straight home and never set foot on a ship again.",
+          translation:
+            "나는 심하게 배멀미를 하며 몹시 두려워했고, 이번 한 번만 목숨을 건지게 해 주신다면 곧장 집으로 돌아가 다시는 배에 오르지 않겠다고 몇 번이고 스스로에게 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-9",
+          text: "The storm passed by evening, and the sea grew calm and beautiful, and my friend laughed at my fear and poured me a bowl of punch to celebrate.",
+          translation: "저녁이 되자 폭풍은 지나갔고 바다는 잔잔하고 아름다워졌으며, 친구는 내 두려움을 비웃으며 축하한다고 펀치 한 그릇을 따라 주었어요.",
+        },
+        {
+          id: "rc-10",
+          text: "Within a day, all my fine promises were entirely forgotten, and my old wish to see the world came flooding back as strong as ever.",
+          translation: "하루 만에 내가 했던 그 훌륭한 약속들은 모두 까맣게 잊혔고, 세상을 보고 싶다는 예전의 소망이 그 어느 때보다 강하게 다시 밀려왔어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-11",
+          text: "But our luck did not hold. A far greater storm caught us only days later, and the captain himself admitted he had never seen worse in all his years at sea.",
+          translation:
+            "하지만 운은 그리 오래가지 않았어요. 며칠 뒤 훨씬 더 큰 폭풍이 우리를 덮쳤고, 선장조차 평생 바다에서 이보다 심한 폭풍은 본 적이 없다고 인정했어요.",
+        },
+        {
+          id: "rc-12",
+          text: "Waves crashed over the deck, the sailors worked the pumps without rest, and at last the ship began to take on water faster than anyone could bail it out.",
+          translation:
+            "파도가 갑판 위로 부딪혀 왔고, 선원들은 쉬지 않고 펌프질을 했지만, 결국 배는 사람들이 물을 퍼내는 속도보다 더 빠르게 물이 차오르기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-13",
+          text: "A passing ship saw our distress signal and, at great risk to themselves, sent a small boat to pull every one of us to safety just before our ship went down.",
+          translation:
+            "지나가던 배가 우리의 조난 신호를 보고, 스스로 큰 위험을 감수하면서 작은 보트를 보내 우리 배가 가라앉기 직전 모두를 안전하게 구해 주었어요.",
+        },
+        {
+          id: "rc-14",
+          text: "Standing safely on the shore at Yarmouth, I finally had the sense to feel real shame at how quickly I had broken my promise to my father.",
+          translation: "야머스 해안에 안전하게 서서, 나는 마침내 아버지와의 약속을 그토록 빨리 저버린 것에 진심으로 부끄러움을 느꼈어요.",
+        },
+        {
+          id: "rc-15",
+          text: "My friend's own father, seeing us come ashore so shaken, warned me plainly that I was clearly not cut out for a sailor's life and should go home while I still could.",
+          translation:
+            "우리가 그렇게 넋이 나간 채 해안에 오르는 것을 본 친구의 아버지는, 내가 뱃사람의 삶에 전혀 맞지 않으니 아직 할 수 있을 때 집으로 돌아가라고 분명하게 경고했어요.",
+        },
+      ],
+      [
+        {
+          id: "rc-16",
+          text: "It was, I later came to believe, exactly the warning a wiser young man would have listened to.",
+          translation: "그것은 훗날 내가 깨닫게 되었듯, 더 현명한 청년이라면 마땅히 귀담아들었을 경고였어요.",
+        },
+        {
+          id: "rc-17",
+          text: "But some stubborn fate seemed to be driving me on against all reason, and rather than sail home to my father, I stayed in London and looked for another voyage instead.",
+          translation:
+            "하지만 어떤 고집스러운 운명이 이성을 거스르며 나를 계속 이끄는 듯했고, 나는 아버지가 계신 집으로 돌아가는 대신 런던에 남아 또 다른 항해를 찾아 나섰어요.",
+        },
+        {
+          id: "rc-18",
+          text: "It would be many years, and many far stranger adventures, before I ever saw my family or my country again.",
+          translation: "그 뒤로 오랜 세월과 훨씬 더 이상한 모험들을 겪고 나서야, 나는 가족과 조국을 다시 볼 수 있었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "rc-v1",
+        term: "restless",
+        partOfSpeech: "adjective",
+        translation: "들뜬, 안절부절못하는",
+        example:
+          "He told me that the middle station of life, neither rich nor poor, was the happiest of all, and that only desperate men or restless dreamers ever ran off to sea.",
+        exampleTranslation:
+          "아버지는 부유하지도 가난하지도 않은 중간 계층의 삶이야말로 가장 행복한 삶이며, 절박한 사람이나 마음이 들뜬 몽상가만이 바다로 도망친다고 말씀하셨어요.",
+      },
+      {
+        id: "rc-v2",
+        term: "seasick",
+        partOfSpeech: "adjective",
+        translation: "뱃멀미하는",
+        example:
+          "I was violently seasick and thoroughly frightened, and I promised myself over and over that if God would only spare me this once, I would go straight home and never set foot on a ship again.",
+        exampleTranslation:
+          "나는 심하게 배멀미를 하며 몹시 두려워했고, 이번 한 번만 목숨을 건지게 해 주신다면 곧장 집으로 돌아가 다시는 배에 오르지 않겠다고 몇 번이고 스스로에게 약속했어요.",
+      },
+      {
+        id: "rc-v3",
+        term: "distress",
+        partOfSpeech: "noun",
+        translation: "조난, 고난",
+        example:
+          "A passing ship saw our distress signal and, at great risk to themselves, sent a small boat to pull every one of us to safety just before our ship went down.",
+        exampleTranslation:
+          "지나가던 배가 우리의 조난 신호를 보고, 스스로 큰 위험을 감수하면서 작은 보트를 보내 우리 배가 가라앉기 직전 모두를 안전하게 구해 주었어요.",
+      },
+      {
+        id: "rc-v4",
+        term: "shame",
+        partOfSpeech: "noun",
+        translation: "부끄러움",
+        example:
+          "Standing safely on the shore at Yarmouth, I finally had the sense to feel real shame at how quickly I had broken my promise to my father.",
+        exampleTranslation: "야머스 해안에 안전하게 서서, 나는 마침내 아버지와의 약속을 그토록 빨리 저버린 것에 진심으로 부끄러움을 느꼈어요.",
+      },
+      {
+        id: "rc-v5",
+        term: "stubborn",
+        partOfSpeech: "adjective",
+        translation: "고집스러운",
+        example:
+          "But some stubborn fate seemed to be driving me on against all reason, and rather than sail home to my father, I stayed in London and looked for another voyage instead.",
+        exampleTranslation:
+          "하지만 어떤 고집스러운 운명이 이성을 거스르며 나를 계속 이끄는 듯했고, 나는 아버지가 계신 집으로 돌아가는 대신 런던에 남아 또 다른 항해를 찾아 나섰어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "rc-q1",
+        prompt: "What did Crusoe's father believe was the happiest way of life?",
+        options: [
+          "The middle station of life, neither rich nor poor",
+          "A life of adventure at sea",
+          "A life of great wealth",
+          "A simple life as a farmer",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Crusoe's father told him the middle station of life, neither rich nor poor, was the happiest of all, and that only desperate men or restless dreamers ran off to sea.",
+      },
+      {
+        id: "rc-q2",
+        prompt: "What did Crusoe promise himself during the first storm?",
+        options: [
+          "That he would go straight home and never set foot on a ship again",
+          "That he would become a ship's captain",
+          "That he would write to his father immediately",
+          "That he would ask his friend for more money",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Terrified and seasick during the storm, Crusoe promised himself that if he survived, he would go home and never sail again — a promise he forgot within a day of the storm passing.",
+      },
+      {
+        id: "rc-q3",
+        prompt: "What did Crusoe do after his friend's father warned him to go home?",
+        options: [
+          "He ignored the warning, stayed in London, and looked for another voyage",
+          "He returned home to his father immediately",
+          "He gave up the sea forever",
+          "He became a merchant in Yarmouth",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Despite the sensible warning, some stubborn urge kept driving Crusoe on, and instead of sailing home, he stayed in London and looked for another voyage.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

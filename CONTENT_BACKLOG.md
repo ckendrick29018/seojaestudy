@@ -250,6 +250,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 129 | The Turn of the Screw | Henry James (1916) | 209 | B2 | the framing chapter — on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin: a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 | 130 | Johnny-Cake | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 17 sentences; a seventh tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, and The Three Sillies — a runaway cake escapes an old man, an old woman, two well-diggers, two ditch-diggers, a bear, and a wolf, boasting to each in turn, until a clever fox tricks him close enough to nearly catch him; the original ending, in which the fox bites him in two and eats him, is softened to a narrow escape home) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
 | 131 | The Jungle Book | Rudyard Kipling (1894) | 236 | B2 | the opening of "Mowgli's Brothers" — Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
+| 132 | Lazy Jack | Joseph Jacobs (1890) | 7439 | A1 | whole tale (simplified retelling, 25 sentences; an eighth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, The Three Sillies, and Johnny-Cake — Jack carries home each day's pay the way that would have worked for the *previous* day's pay, spilling milk in his pocket and wearing cheese on his head, until carrying a donkey upside down over his shoulders finally makes a rich man's mute daughter laugh for the first time in her life; already gentle and comic throughout, no softening needed) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
+| 133 | Robinson Crusoe | Daniel Defoe (1719) | 521 | B2 | the opening chapter (simplified retelling, 18 sentences; against his father's wishes and warning that the "middle station of life" is happiest, young Crusoe runs off to sea, survives a first storm that has him swearing off ships forever, forgets that promise within a day, then survives a second, far worse storm that sinks the ship entirely before a passing boat rescues the crew — and sails on regardless) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -259,10 +261,28 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (162 — 131 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (164 — 133 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  fifteenth round): **Johnny-Cake** (A1, classics) — a seventh tale from
+  sixteenth round): **Lazy Jack** (A1, classics) — an eighth tale from
+  Joseph Jacobs's English Fairy Tales (1890, PG#7439): Jack carries each
+  day's pay home the way that would have worked for the previous day's
+  pay — pouring milk into his pocket, wearing cheese on his head, dragging
+  a cat behind him on a string — until carrying a donkey upside down over
+  his shoulders finally makes a rich man's mute daughter laugh for the
+  first time in her life; already gentle and comic throughout, no
+  softening needed; continuing the run of English/American nursery tales
+  flagged in "Good next lessons to build"; and **Robinson Crusoe** (B2,
+  classics) — the opening chapter of Daniel Defoe's 1719 novel (PG#521),
+  an entirely fresh author for the shelf: against his father's warning
+  that the "middle station of life" is happiest, young Crusoe runs off to
+  sea, survives a first storm that has him swearing off ships forever,
+  forgets that promise within a day, then survives a second, far worse
+  storm that sinks the ship entirely before a passing boat rescues the
+  crew — and sails on regardless; the "another fresh author" option
+  flagged in "Good next lessons to build."
+  Before that, an earlier batch the same day (fifteenth round):
+  **Johnny-Cake** (A1, classics) — a seventh tale from
   Joseph Jacobs's English Fairy Tales (1890, PG#7439): a runaway cake
   escapes an old man, an old woman, two well-diggers, two ditch-diggers,
   a bear, and a wolf, boasting to each in turn, until a clever fox tricks
@@ -735,7 +755,11 @@ has a genuine period cover/illustration in the public domain, download that into
     Kipling — another entirely fresh author; the opening of "Mowgli's
     Brothers," Tabaqui the jackal's warning that Shere Khan has moved
     into the Seeonee hills, and Mother Wolf standing down the tiger to
-    keep the man's cub she has taken in) is live too.
+    keep the man's cub she has taken in) is live too, and now **Robinson
+    Crusoe** (Daniel Defoe — another entirely fresh author; the opening
+    chapter, young Crusoe's first storm that has him swearing off ships
+    forever, forgotten within a day, and the second, far worse storm that
+    sinks the ship for good) is live too.
     Next: a ninth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -791,7 +815,13 @@ has a genuine period cover/illustration in the public domain, download that into
     man, an old woman, two well-diggers, two ditch-diggers, a bear, and a
     wolf as he outruns them all, until a clever fox tricks him close
     enough to nearly catch him; the original ending, in which the fox
-    eats him, softened to a narrow escape home) is live too.
+    eats him, softened to a narrow escape home) is live too, and now
+    **Lazy Jack** (an eighth Jacobs's English Fairy Tales pick — Jack
+    carries each day's pay home the way that would have worked for the
+    previous day's, until carrying a donkey upside down over his
+    shoulders finally makes a rich man's mute daughter laugh for the
+    first time in her life; already gentle throughout, no softening
+    needed) is live too.
     Next: re-level a gentle A2 tale, or continue into more
     English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
