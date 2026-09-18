@@ -2603,5 +2603,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-time-machine.svg",
     "source": "Adapted from H. G. Wells's The Time Machine (1895; Project Gutenberg #35, long in the public domain) — the opening chapters, \"Introduction\" and \"The Machine\": the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small model machine vanishing into time before his stunned dinner guests' eyes. An entirely fresh author for the shelf, and the first science-fiction pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "jack-and-the-beanstalk",
+    "title": "Jack and the Beanstalk",
+    "titleTranslation": "잭과 콩나무",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🌱",
+    "coverImage": "/covers/jack-and-the-beanstalk.svg",
+    "source": "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"Jack and the Beanstalk,\" a fifth pick from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, and The Story of the Three Bears. Whole tale, compressed: the poor widow's son trades his cow for five magic beans, climbs the beanstalk that grows overnight, and outwits a giant three times before chopping the beanstalk down to stop him for good; the source's account of the giant's death is softened to 'came crashing down... and was never seen again.' This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "the-woman-in-white",
+    "title": "The Woman in White",
+    "titleTranslation": "흰옷을 입은 여인",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Wilkie Collins (1859)",
+    "coverEmoji": "🌙",
+    "coverImage": "/covers/the-woman-in-white.svg",
+    "source": "Adapted from Wilkie Collins's The Woman in White (1859; Project Gutenberg #583, long in the public domain) — the Prologue, \"The Story Begun by Walter Hartright\": walking home alone on the lonely road to London late at night, the drawing master Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse. An entirely fresh author for the shelf, and the shelf's first Wilkie Collins pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

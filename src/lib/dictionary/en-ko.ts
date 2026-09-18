@@ -4306,4 +4306,30 @@ export const EN_KO: Record<string, string> = {
   thickness: "두께",
   trickery: "속임수, 사기",
   wire: "철사, 전선",
+
+  // added for "jack-and-the-beanstalk" (2026-09-18 batch, thirteenth round)
+  beanstalk: "콩나무, 콩줄기",
+  broil: "굽다, 불에 굽다",
+  englishman: "영국인",
+  "fee-fi-fo-fum": "피, 파이, 포, 펌 (동화 속 거인이 외치는, 뜻 없는 후렴구)",
+  harp: "하프",
+  "milky-white": "밀키화이트 (암소의 이름)",
+  riddle: "수수께끼",
+  roar: "으르렁거리다, 고함치다",
+  scramble: "허둥지둥 움직이다, 재빨리 기어가다",
+  toast: "토스트, 구운 빵",
+
+  // added for "the-woman-in-white" (2026-09-18 batch, thirteenth round)
+  alarmed: "놀란, 불안해하는",
+  anxious: "불안한, 걱정하는",
+  grateful: "고마워하는, 감사하는",
+  hartright: "하트라이트 (등장인물 이름)",
+  madhouse: "정신병원 (옛 표현)",
+  scarce: "드문, 거의 없는",
+  shaken: "떨리는, 충격받은 (shake의 과거분사)",
+  solitary: "외로운, 혼자인",
+  title: "직함, 작위; 제목",
+  trust: "믿다, 신뢰하다; 신뢰",
+  unease: "불안, 불안감",
+  urgent: "다급한, 긴급한",
 };

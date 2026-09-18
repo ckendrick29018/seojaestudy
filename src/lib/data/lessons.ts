@@ -34110,6 +34110,411 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "jack-and-the-beanstalk",
+    title: "Jack and the Beanstalk",
+    titleTranslation: "잭과 콩나무",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🌱",
+    coverImage: "/covers/jack-and-the-beanstalk.svg",
+    source:
+      "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"Jack and the Beanstalk,\" a fifth pick from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, and The Story of the Three Bears. Whole tale, compressed: the poor widow's son trades his cow for five magic beans, climbs the beanstalk that grows overnight, and outwits a giant three times before chopping the beanstalk down to stop him for good; the source's account of the giant's death is softened to 'came crashing down... and was never seen again.' This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Jack got the beanstalk, and how he finally stopped the giant from following him.",
+    paragraphs: [
+      [
+        {
+          id: "jack-1",
+          text: "Jack and his poor mother had only one cow, Milky-white, for milk to sell.",
+          translation: "가난한 잭과 그의 어머니에게는 팔 우유를 만들어 주는 소, 밀키화이트 한 마리뿐이었어요.",
+        },
+        {
+          id: "jack-2",
+          text: "One day the cow gave no milk at all, so Jack's mother told him to take her to market and sell her.",
+          translation: "어느 날 소가 우유를 전혀 내주지 않자, 잭의 어머니는 소를 장에 데려가 팔라고 말했어요.",
+        },
+        {
+          id: "jack-3",
+          text: "On the road, Jack met a strange old man who asked him a riddle about beans, then offered five magic beans for the cow, promising they would grow all the way to the sky.",
+          translation: "길을 가던 잭은 콩에 관한 수수께끼를 낸 이상한 노인을 만났고, 노인은 하늘까지 자랄 거라 약속하며 마법의 콩 다섯 알과 소를 바꾸자고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "jack-4",
+          text: "Jack traded the cow for the beans and hurried proudly home.",
+          translation: "잭은 소를 콩과 맞바꾸고는 자랑스럽게 서둘러 집으로 돌아갔어요.",
+        },
+        {
+          id: "jack-5",
+          text: "His mother was furious, called him a fool, threw the beans out the window, and sent him to bed without supper.",
+          translation: "어머니는 몹시 화가 나서 잭을 바보라고 부르며 콩을 창밖으로 던져 버리고는, 저녁도 주지 않고 잭을 잠자리로 보냈어요.",
+        },
+        {
+          id: "jack-6",
+          text: "When Jack woke the next morning, a huge beanstalk had grown right up into the clouds outside his window.",
+          translation: "다음 날 아침 잭이 잠에서 깨어 보니, 창밖에 거대한 콩나무가 자라 구름 속까지 뻗어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "jack-7",
+          text: "Jack climbed and climbed until he reached a long road leading to a giant's house.",
+          translation: "잭은 오르고 또 올라 마침내 거인의 집으로 이어지는 긴 길에 이르렀어요.",
+        },
+        {
+          id: "jack-8",
+          text: "The giant's wife took pity on hungry Jack and gave him breakfast, warning that her husband loved nothing better than boys broiled on toast.",
+          translation: "거인의 아내는 배고픈 잭을 가엾게 여겨 아침을 차려 주면서도, 남편이 소년을 구워 먹는 것을 세상에서 가장 좋아한다고 일러 주었어요.",
+        },
+        {
+          id: "jack-9",
+          text: "Suddenly the ground shook, and the giant thundered in, roaring \"Fee-fi-fo-fum, I smell the blood of an Englishman!\"",
+          translation: "그때 갑자기 땅이 흔들리더니 거인이 쿵쿵거리며 들어와 \"피, 파이, 포, 펌, 영국 사람의 피 냄새가 난다!\" 하고 으르렁댔어요.",
+        },
+      ],
+      [
+        {
+          id: "jack-10",
+          text: "The wife hid Jack inside the oven, and after breakfast the giant counted his bags of gold until he fell asleep.",
+          translation: "아내는 잭을 화덕 안에 숨겼고, 아침을 먹은 거인은 금화 자루를 세다가 그만 잠이 들어 버렸어요.",
+        },
+        {
+          id: "jack-11",
+          text: "Jack crept out, grabbed a bag of gold, and scrambled back down the beanstalk to his amazed mother.",
+          translation: "잭은 살금살금 빠져나와 금화 자루 하나를 움켜쥐고는 콩나무를 타고 내려가 깜짝 놀란 어머니에게 돌아갔어요.",
+        },
+        {
+          id: "jack-12",
+          text: "When the gold ran out, Jack climbed the beanstalk again and stole a hen that laid eggs of solid gold.",
+          translation: "금화가 다 떨어지자 잭은 다시 콩나무를 올라가 순금 알을 낳는 암탉을 훔쳐 왔어요.",
+        },
+      ],
+      [
+        {
+          id: "jack-13",
+          text: "Still not satisfied, Jack climbed a third time and stole a magic golden harp that could sing and talk all by itself.",
+          translation: "그래도 만족하지 못한 잭은 세 번째로 콩나무를 올라가, 스스로 노래하고 말할 수 있는 마법의 황금 하프를 훔쳤어요.",
+        },
+        {
+          id: "jack-14",
+          text: "But the harp cried out \"Master, master!\" as Jack ran, and the giant woke and chased him down the beanstalk.",
+          translation: "그런데 잭이 도망치자 하프가 \"주인님, 주인님!\" 하고 외쳤고, 잠에서 깬 거인이 콩나무를 타고 그를 뒤쫓기 시작했어요.",
+        },
+        {
+          id: "jack-15",
+          text: "Jack reached the ground first, grabbed an axe, and chopped the beanstalk down just as the giant was climbing after him.",
+          translation: "잭이 먼저 땅에 닿아 도끼를 집어 들었고, 거인이 뒤쫓아 내려오는 바로 그 순간 콩나무를 베어 넘어뜨렸어요.",
+        },
+      ],
+      [
+        {
+          id: "jack-16",
+          text: "The giant came crashing down with the beanstalk and was never seen again.",
+          translation: "거인은 콩나무와 함께 쿵 하고 떨어졌고, 그 뒤로 다시는 아무도 그를 보지 못했어요.",
+        },
+        {
+          id: "jack-17",
+          text: "Jack and his mother sold the golden eggs, kept the singing harp, and lived happily and comfortably for the rest of their days.",
+          translation: "잭과 어머니는 황금 알을 팔고 노래하는 하프는 간직한 채, 남은 평생을 행복하고 넉넉하게 살았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jack-v1",
+        term: "beanstalk",
+        partOfSpeech: "noun",
+        translation: "콩나무, 콩줄기",
+        example: "When Jack woke the next morning, a huge beanstalk had grown right up into the clouds outside his window.",
+        exampleTranslation: "다음 날 아침 잭이 잠에서 깨어 보니, 창밖에 거대한 콩나무가 자라 구름 속까지 뻗어 있었어요.",
+      },
+      {
+        id: "jack-v2",
+        term: "furious",
+        partOfSpeech: "adjective",
+        translation: "몹시 화난, 격노한",
+        example: "His mother was furious, called him a fool, threw the beans out the window, and sent him to bed without supper.",
+        exampleTranslation: "어머니는 몹시 화가 나서 잭을 바보라고 부르며 콩을 창밖으로 던져 버리고는, 저녁도 주지 않고 잭을 잠자리로 보냈어요.",
+      },
+      {
+        id: "jack-v3",
+        term: "roar",
+        partOfSpeech: "verb",
+        translation: "으르렁거리다, 고함치다",
+        example: "Suddenly the ground shook, and the giant thundered in, roaring \"Fee-fi-fo-fum, I smell the blood of an Englishman!\"",
+        exampleTranslation: "그때 갑자기 땅이 흔들리더니 거인이 쿵쿵거리며 들어와 \"피, 파이, 포, 펌, 영국 사람의 피 냄새가 난다!\" 하고 으르렁댔어요.",
+      },
+      {
+        id: "jack-v4",
+        term: "scramble",
+        partOfSpeech: "verb",
+        translation: "허둥지둥 움직이다, 재빨리 기어가다",
+        example: "Jack crept out, grabbed a bag of gold, and scrambled back down the beanstalk to his amazed mother.",
+        exampleTranslation: "잭은 살금살금 빠져나와 금화 자루 하나를 움켜쥐고는 콩나무를 타고 내려가 깜짝 놀란 어머니에게 돌아갔어요.",
+      },
+      {
+        id: "jack-v5",
+        term: "harp",
+        partOfSpeech: "noun",
+        translation: "하프",
+        example: "Still not satisfied, Jack climbed a third time and stole a magic golden harp that could sing and talk all by itself.",
+        exampleTranslation: "그래도 만족하지 못한 잭은 세 번째로 콩나무를 올라가, 스스로 노래하고 말할 수 있는 마법의 황금 하프를 훔쳤어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jack-q1",
+        prompt: "Why did Jack's mother send him to market?",
+        options: [
+          "Because their cow, Milky-white, had stopped giving milk",
+          "Because she wanted to buy magic beans",
+          "Because she was going on a journey",
+          "Because Jack had asked to see the town",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Their cow, Milky-white, gave no milk at all that day, so Jack's mother told him to take her to market and sell her.",
+      },
+      {
+        id: "jack-q2",
+        prompt: "What did the giant's wife warn Jack about?",
+        options: [
+          "That her husband, the giant, loved nothing better than boys broiled on toast",
+          "That the giant would give him gold if he behaved",
+          "That the giant was away and would not return",
+          "That the beanstalk would soon wither",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Even as she fed hungry Jack breakfast, the giant's wife warned him that her husband loved nothing better than boys broiled on toast.",
+      },
+      {
+        id: "jack-q3",
+        prompt: "How did Jack finally stop the giant from catching him?",
+        options: [
+          "He reached the ground first and chopped down the beanstalk with an axe",
+          "He locked the giant's wife's door",
+          "He threw the golden harp at the giant",
+          "He asked his mother for help",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jack reached the ground just ahead of the giant, grabbed an axe, and chopped the beanstalk down, sending the giant crashing down with it.",
+      },
+    ],
+  },
+  {
+    slug: "the-woman-in-white",
+    title: "The Woman in White",
+    titleTranslation: "흰옷을 입은 여인",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Wilkie Collins (1859)",
+    coverEmoji: "🌙",
+    coverImage: "/covers/the-woman-in-white.svg",
+    source:
+      "Adapted from Wilkie Collins's The Woman in White (1859; Project Gutenberg #583, long in the public domain) — the Prologue, \"The Story Begun by Walter Hartright\": walking home alone on the lonely road to London late at night, the drawing master Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse. An entirely fresh author for the shelf, and the shelf's first Wilkie Collins pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Walter Hartright met the woman in white, and what he learned about her right after she left.",
+    paragraphs: [
+      [
+        {
+          id: "wow-1",
+          text: "Walter Hartright, a young drawing master, was walking home to London late one summer night after visiting his mother's cottage near Hampstead.",
+          translation: "월터 하트라이트라는 젊은 미술 교사는 어느 여름밤 늦게, 햄스테드 근처 어머니의 오두막을 방문하고 런던으로 걸어 돌아가는 길이었어요.",
+        },
+        {
+          id: "wow-2",
+          text: "The road was lonely and silent, and low clouds hid most of the moon.",
+          translation: "길은 인적 없이 고요했고, 낮게 깔린 구름이 달빛 대부분을 가리고 있었어요.",
+        },
+        {
+          id: "wow-3",
+          text: "Lost in his own thoughts, he barely noticed how far he had walked when suddenly a hand touched his shoulder from behind.",
+          translation: "생각에 잠긴 채 자신이 얼마나 멀리 걸어왔는지도 거의 의식하지 못하던 그때, 갑자기 누군가의 손이 뒤에서 그의 어깨를 건드렸어요.",
+        },
+      ],
+      [
+        {
+          id: "wow-4",
+          text: "He spun around and found himself face to face with a solitary woman, dressed from head to foot in white, though there was no house or carriage anywhere in sight.",
+          translation: "그가 홱 돌아보니, 근처에 집이나 마차 한 대 보이지 않는데도 머리부터 발끝까지 온통 흰옷을 입은 외로운 여인이 서 있었어요.",
+        },
+        {
+          id: "wow-5",
+          text: "\"Is that the road to London?\" she asked, her voice trembling.",
+          translation: "\"이 길이 런던으로 가는 길인가요?\" 그녀가 떨리는 목소리로 물었어요.",
+        },
+        {
+          id: "wow-6",
+          text: "Walter answered that it was, and asked, with growing unease, if he could help her.",
+          translation: "월터는 그렇다고 대답하며, 점점 불안해하는 마음으로 도와드릴 일이 있는지 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "wow-7",
+          text: "\"I have met with a misfortune,\" she said, \"and I know no one in this great city I can trust.\"",
+          translation: "\"저는 불행한 일을 당했어요,\" 그녀가 말했어요. \"그리고 이 큰 도시에는 믿을 만한 사람이 아무도 없어요.\"",
+        },
+        {
+          id: "wow-8",
+          text: "Something about her strange, urgent manner made Walter uneasy, yet her voice was gentle, and he could not simply leave her alone on a dark road at midnight.",
+          translation: "그녀의 낯설고 다급한 태도에 불안해졌지만, 목소리는 온화했기에 월터는 한밤중 어두운 길에 그녀를 그냥 두고 갈 수 없었어요.",
+        },
+        {
+          id: "wow-9",
+          text: "He offered to walk with her toward London and find her a cab, and she accepted gratefully, her hand shaking as she took his arm.",
+          translation: "그는 런던 쪽으로 함께 걸으며 마차를 찾아 주겠다고 제안했고, 그녀는 떨리는 손으로 그의 팔을 붙잡으며 고마운 듯 그러겠다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "wow-10",
+          text: "As they walked, she asked him, almost in a whisper, whether he knew any titled family in London — and grew visibly frightened at the name of one particular gentleman.",
+          translation: "걸어가는 동안 그녀는 거의 속삭이듯, 런던에 사는 어느 귀족 가문을 아느냐고 물었고, 어떤 신사의 이름을 듣자 눈에 띄게 겁에 질렸어요.",
+        },
+        {
+          id: "wow-11",
+          text: "Walter could make no sense of her fear, but he judged it kinder to ask no further questions.",
+          translation: "월터는 그녀의 두려움을 도무지 이해할 수 없었지만, 더 캐묻지 않는 편이 낫겠다고 생각했어요.",
+        },
+        {
+          id: "wow-12",
+          text: "At last they reached a street where a cab stood waiting, and Walter helped the trembling woman climb inside.",
+          translation: "마침내 그들은 마차 한 대가 기다리고 있는 거리에 다다랐고, 월터는 떨고 있는 그녀가 마차에 오르도록 도와주었어요.",
+        },
+      ],
+      [
+        {
+          id: "wow-13",
+          text: "She thanked him softly, and the cab rattled away into the London night, swallowed almost at once by the darkness.",
+          translation: "그녀는 나직이 그에게 고맙다고 말했고, 마차는 곧 런던의 밤 속으로 덜컹거리며 사라져 갔어요.",
+        },
+        {
+          id: "wow-14",
+          text: "Walter stood alone in the empty street, oddly shaken, wondering who she could be and what misfortune had driven her out alone at such an hour.",
+          translation: "홀로 텅 빈 거리에 남겨진 월터는 이상하게도 마음이 떨려, 그녀가 누구이며 어떤 불행이 그녀를 이런 한밤중에 홀로 나서게 했는지 궁금해했어요.",
+        },
+        {
+          id: "wow-15",
+          text: "He had scarcely started walking again when a carriage came tearing up the road behind him and stopped sharply at his side.",
+          translation: "다시 걷기 시작한 지 얼마 되지 않아, 마차 한 대가 뒤에서 빠르게 달려오더니 그의 곁에서 급히 멈춰 섰어요.",
+        },
+      ],
+      [
+        {
+          id: "wow-16",
+          text: "Two anxious men leaned out and asked whether he had seen a woman passing by, dressed all in white.",
+          translation: "다급해 보이는 두 남자가 마차 밖으로 몸을 내밀고는, 온통 흰옷을 입은 여인이 지나가는 것을 보았느냐고 물었어요.",
+        },
+        {
+          id: "wow-17",
+          text: "When Walter admitted that he had helped just such a woman find a cab, the men exchanged an alarmed glance and said she had escaped from a madhouse that very night.",
+          translation: "월터가 방금 그런 여인이 마차를 찾도록 도와주었다고 말하자, 두 남자는 놀란 눈빛을 주고받으며 그녀가 바로 그날 밤 정신병원에서 도망쳐 나왔다고 말했어요.",
+        },
+        {
+          id: "wow-18",
+          text: "Walter walked on toward home in stunned silence, unable to shake the feeling that he had just helped a stranger escape into a fate he could not begin to guess.",
+          translation: "월터는 자신이 어떤 운명 속으로 낯선 이를 도망치게 도와준 것인지 짐작조차 할 수 없다는 느낌을 떨치지 못한 채, 충격에 잠긴 침묵 속에서 집으로 걸어갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wow-v1",
+        term: "solitary",
+        partOfSpeech: "adjective",
+        translation: "외로운, 혼자인",
+        example: "He spun around and found himself face to face with a solitary woman, dressed from head to foot in white, though there was no house or carriage anywhere in sight.",
+        exampleTranslation: "그가 홱 돌아보니, 근처에 집이나 마차 한 대 보이지 않는데도 머리부터 발끝까지 온통 흰옷을 입은 외로운 여인이 서 있었어요.",
+      },
+      {
+        id: "wow-v2",
+        term: "tremble",
+        partOfSpeech: "verb",
+        translation: "떨다, 떨리다",
+        example: "\"Is that the road to London?\" she asked, her voice trembling.",
+        exampleTranslation: "\"이 길이 런던으로 가는 길인가요?\" 그녀가 떨리는 목소리로 물었어요.",
+      },
+      {
+        id: "wow-v3",
+        term: "misfortune",
+        partOfSpeech: "noun",
+        translation: "불운, 불행",
+        example: "\"I have met with a misfortune,\" she said, \"and I know no one in this great city I can trust.\"",
+        exampleTranslation: "\"저는 불행한 일을 당했어요,\" 그녀가 말했어요. \"그리고 이 큰 도시에는 믿을 만한 사람이 아무도 없어요.\"",
+      },
+      {
+        id: "wow-v4",
+        term: "alarmed",
+        partOfSpeech: "adjective",
+        translation: "놀란, 불안해하는",
+        example: "When Walter admitted that he had helped just such a woman find a cab, the men exchanged an alarmed glance and said she had escaped from a madhouse that very night.",
+        exampleTranslation: "월터가 방금 그런 여인이 마차를 찾도록 도와주었다고 말하자, 두 남자는 놀란 눈빛을 주고받으며 그녀가 바로 그날 밤 정신병원에서 도망쳐 나왔다고 말했어요.",
+      },
+      {
+        id: "wow-v5",
+        term: "stunned",
+        partOfSpeech: "adjective",
+        translation: "충격받은, 얼떨떨한",
+        example: "Walter walked on toward home in stunned silence, unable to shake the feeling that he had just helped a stranger escape into a fate he could not begin to guess.",
+        exampleTranslation: "월터는 자신이 어떤 운명 속으로 낯선 이를 도망치게 도와준 것인지 짐작조차 할 수 없다는 느낌을 떨치지 못한 채, 충격에 잠긴 침묵 속에서 집으로 걸어갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wow-q1",
+        prompt: "What startled Walter Hartright on the lonely road to London?",
+        options: [
+          "A hand touched his shoulder from behind, and he turned to find a solitary woman dressed all in white",
+          "A carriage nearly ran him over",
+          "He heard someone calling his name from the bushes",
+          "A dog began barking loudly behind him",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Lost in thought on the empty road, Walter felt a hand touch his shoulder and turned to find a woman dressed entirely in white standing behind him, though no house or carriage was in sight.",
+      },
+      {
+        id: "wow-q2",
+        prompt: "Why did Walter agree to help the strange woman?",
+        options: [
+          "Her manner unsettled him, but her voice was gentle, and he could not leave her alone on a dark road at midnight",
+          "She offered to pay him generously",
+          "She reminded him of his sister",
+          "He recognized her from a portrait he had once painted",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Though her urgent, strange manner made him uneasy, her gentle voice moved him, and he felt he could not simply abandon her alone on the lonely midnight road.",
+      },
+      {
+        id: "wow-q3",
+        prompt: "What did Walter learn from the two men in the carriage?",
+        options: [
+          "That the woman had escaped from a madhouse that very night",
+          "That the woman was a famous actress",
+          "That the woman was his own long-lost relative",
+          "That the road ahead was dangerous and he should turn back",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The two anxious men revealed that the woman dressed in white had escaped from a madhouse that same night, leaving Walter stunned at what he had unknowingly helped happen.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

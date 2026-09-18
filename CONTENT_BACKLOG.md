@@ -244,6 +244,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 123 | Xingu | Edith Wharton (1916) | 24131 | B2 | whole (simplified retelling, 17 sentences; a pretentious ladies' Lunch Club, awaiting a visit from a celebrated novelist, bluffs its way through a conversation about "Xingu" — a word one member invents on the spot to rescue an awkward silence — only to discover, after their guest leaves, that Xingu is simply a river in Brazil) — an eighth Wharton pick, and a change of tone: a comedy of pretension rather than a somber opening chapter, the "eighth Wharton" option flagged in "Good next lessons to build" | ☑ |
 | 124 | The Wind in the Willows | Kenneth Grahame (1908) | 289 | A2 | Ch. 1 ("The River Bank") — Mole abandons his spring-cleaning, discovers the riverbank for the first time, and meets the Water Rat, who rows him across, tips them both into the water, and introduces him to a picnic basket and his philosophy that there is "nothing half so much worth doing as simply messing about in boats" (simplified retelling, 17 sentences) — an entirely fresh author for the shelf, and the next non-Andersen, non-O.-Henry A2 pick flagged in "Good next lessons to build" | ☑ |
 | 125 | The Time Machine | H. G. Wells (1895) | 35 | B2 | the opening chapters, "Introduction" and "The Machine" — the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small glittering model vanishing into time before his stunned dinner guests' eyes, and offers to show them the full-sized machine itself (simplified retelling, 17 sentences) — an entirely fresh author for the shelf, and the first science-fiction pick, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
+| 126 | Jack and the Beanstalk | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 17 sentences; a fifth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, and The Story of the Three Bears — the poor widow's son trades his cow for five magic beans, climbs the beanstalk that grows overnight, and outwits a giant three times before chopping the beanstalk down to stop him for good; the giant's death softened to "came crashing down... and was never seen again") — a fifth English/American nursery tale, continuing the run flagged in "Good next lessons to build" | ☑ |
+| 127 | The Woman in White | Wilkie Collins (1859) | 583 | B2 | the Prologue, "The Story Begun by Walter Hartright" — walking home alone on the lonely road to London late at night, Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -680,7 +682,12 @@ has a genuine period cover/illustration in the public domain, download that into
     first science-fiction pick; the Time Traveller argues that time is
     a fourth dimension, then proves it by sending a small model
     vanishing into time before his stunned dinner guests, and offers to
-    show them the real machine) is live too.
+    show them the real machine) is live too, and now **The Woman in
+    White** (Wilkie Collins — another entirely fresh author, and the
+    shelf's first Wilkie Collins pick; the Prologue, Walter Hartright's
+    midnight encounter with a mysterious solitary woman dressed all in
+    white on the lonely road to London, and his discovery moments
+    later that she has just escaped from a madhouse) is live too.
     Next: a ninth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -720,7 +727,13 @@ has a genuine period cover/illustration in the public domain, download that into
     Story of the Three Bears** (a fourth Jacobs's English Fairy Tales
     pick — the little old woman who tries each bowl of porridge, chair,
     and bed until she finds the smallest one "just right," then flees
-    when the three bears come home and find her) is live too.
+    when the three bears come home and find her) is live too, and now
+    **Jack and the Beanstalk** (a fifth Jacobs's English Fairy Tales
+    pick — the poor widow's son who trades his cow for five magic
+    beans, climbs the beanstalk that grows overnight, and outwits a
+    giant three times before chopping the beanstalk down for good; the
+    giant's death softened to "came crashing down... and was never
+    seen again") is live too.
     Next: re-level a gentle A2 tale, or continue into more
     English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
