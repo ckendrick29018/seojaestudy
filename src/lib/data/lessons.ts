@@ -34925,6 +34925,457 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "johnny-cake",
+    title: "Johnny-Cake",
+    titleTranslation: "조니케이크",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🌽",
+    coverImage: "/covers/johnny-cake.svg",
+    source:
+      "Adapted from \"Johnny-Cake\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — a seventh tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, and The Three Sillies. The original ending, in which a fox tricks the johnny-cake close enough to bite him in two and eat him, is softened here: the johnny-cake feels the trick coming just in time and rolls all the way home safely, having learned not to boast to strangers. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the johnny-cake nearly got caught by the fox, and how he escaped.",
+    paragraphs: [
+      [
+        {
+          id: "jc-1",
+          text: "An old man and an old woman lived with their little boy on a small farm, and one morning the old woman decided to bake him a johnny-cake for breakfast.",
+          translation:
+            "한 할아버지와 할머니가 어린 아들과 함께 작은 농장에서 살았는데, 어느 날 아침 할머니는 아침으로 조니케이크를 구워 주기로 했어요.",
+        },
+        {
+          id: "jc-2",
+          text: "She mixed the batter, shaped it into a round, flat cake, and set it carefully in the oven to bake.",
+          translation: "할머니는 반죽을 섞어 둥글고 납작한 케이크 모양을 만든 뒤, 조심스럽게 오븐에 넣어 구웠어요.",
+        },
+        {
+          id: "jc-3",
+          text: "But the moment she opened the oven door to check on it, the johnny-cake jumped out, rolled across the floor, and out the open door before anyone could catch it.",
+          translation:
+            "하지만 확인하려고 오븐 문을 여는 순간, 조니케이크는 밖으로 튀어나와 바닥을 굴러 아무도 붙잡기 전에 열린 문 밖으로 나가 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "jc-4",
+          text: "The old man and the old woman ran after it as fast as they could, but the johnny-cake only rolled faster, laughing as it went.",
+          translation: "할아버지와 할머니는 있는 힘껏 뒤쫓았지만, 조니케이크는 웃으면서 오히려 더 빠르게 굴러갔어요.",
+        },
+        {
+          id: "jc-5",
+          text: "Down the road it rolled, passing two men digging a well and two men digging a ditch, and every one of them dropped their tools to give chase.",
+          translation:
+            "조니케이크는 길을 따라 굴러가다가 우물을 파던 두 사람과 도랑을 파던 두 사람을 지나쳤고, 넷 모두 연장을 내려놓고 쫓아왔어요.",
+        },
+        {
+          id: "jc-6",
+          text: "\"I've outrun an old man, an old woman, two well-diggers, and two ditch-diggers,\" the johnny-cake called back over its shoulder, \"and I can outrun you too-o-o!\"",
+          translation:
+            "\"할아버지도, 할머니도, 우물 파던 두 사람도, 도랑 파던 두 사람도 다 따돌렸는걸.\" 조니케이크는 뒤돌아보며 외쳤어요. \"너희도 얼마든지 따돌릴 수 있어!\"",
+        },
+      ],
+      [
+        {
+          id: "jc-7",
+          text: "Soon a hungry bear lumbered out of the woods and joined the chase, certain that such a plump little cake would make an easy breakfast.",
+          translation:
+            "곧 배고픈 곰 한 마리가 숲에서 어슬렁어슬렁 나와 뒤쫓기 시작했는데, 통통한 케이크쯤은 쉬운 아침거리가 될 거라 확신했어요.",
+        },
+        {
+          id: "jc-8",
+          text: "But the johnny-cake only rolled faster still, and the bear was soon left far behind, huffing and puffing on the road.",
+          translation: "하지만 조니케이크는 오히려 더 빠르게 굴러갔고, 곰은 곧 길 위에서 헉헉대며 저 멀리 뒤처지고 말았어요.",
+        },
+        {
+          id: "jc-9",
+          text: "A sharp-toothed wolf tried next, running harder than anyone before him, yet the johnny-cake rolled on without slowing even once.",
+          translation:
+            "다음에는 이빨이 날카로운 늑대가 나서서 그 누구보다 힘껏 달렸지만, 조니케이크는 단 한 번도 속도를 늦추지 않고 계속 굴러갔어요.",
+        },
+      ],
+      [
+        {
+          id: "jc-10",
+          text: "At last the johnny-cake met a clever fox lying quietly in the grass, who did not chase it at all.",
+          translation: "마침내 조니케이크는 풀밭에 조용히 누워 있는 영리한 여우를 만났는데, 여우는 전혀 쫓아오지 않았어요.",
+        },
+        {
+          id: "jc-11",
+          text: "\"What a fine song you have,\" the fox said pleasantly. \"Won't you sing it again, a little closer? I'm afraid my old ears don't hear as well as they used to.\"",
+          translation:
+            "\"노래 솜씨가 참 좋구나.\" 여우가 상냥하게 말했어요. \"조금 더 가까이 와서 다시 불러 주지 않겠니? 늙어서 귀가 예전 같지 않아서 말이야.\"",
+        },
+        {
+          id: "jc-12",
+          text: "Flattered and a little too proud of himself, the johnny-cake rolled closer and closer to repeat his boastful little song.",
+          translation: "칭찬에 우쭐해진 조니케이크는 자랑스러운 노래를 다시 들려주려고 점점 더 가까이 굴러갔어요.",
+        },
+      ],
+      [
+        {
+          id: "jc-13",
+          text: "Just as the fox leaned in and opened his jaws to snap, the johnny-cake felt the danger and threw himself backward down the hill.",
+          translation:
+            "여우가 몸을 기울여 입을 벌려 낚아채려는 순간, 조니케이크는 위험을 느끼고 재빨리 몸을 뒤로 던져 언덕 아래로 굴러갔어요.",
+        },
+        {
+          id: "jc-14",
+          text: "The fox's teeth closed on nothing but air, and the johnny-cake went tumbling and rolling all the way home in one great hurry.",
+          translation: "여우의 이빨은 허공만 물었고, 조니케이크는 부랴부랴 데굴데굴 굴러 집까지 곧장 달아났어요.",
+        },
+        {
+          id: "jc-15",
+          text: "He rolled straight through the open door and stopped, out of breath, right at the old woman's feet.",
+          translation: "조니케이크는 열린 문을 통해 곧장 굴러 들어와 숨을 헐떡이며 할머니 발밑에서 멈춰 섰어요.",
+        },
+      ],
+      [
+        {
+          id: "jc-16",
+          text: "The old man and the old woman were overjoyed to see him roll safely through the door, and they scooped him up and set him by the warm fire to rest.",
+          translation:
+            "할아버지와 할머니는 조니케이크가 무사히 문으로 굴러 들어온 것을 보고 매우 기뻐하며, 따뜻한 난롯가에 눕혀 쉬게 해 주었어요.",
+        },
+        {
+          id: "jc-17",
+          text: "From that day on, Johnny-cake stayed close to home, and though he still loved to tell the story of outrunning a bear and a wolf, he never boasted to a stranger again.",
+          translation:
+            "그날 이후로 조니케이크는 집 가까이에 머물렀고, 곰과 늑대를 따돌렸던 이야기는 여전히 즐겨 들려주었지만, 다시는 낯선 이에게 뽐내지 않았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jc-v1",
+        term: "chase",
+        partOfSpeech: "noun",
+        translation: "추격",
+        example:
+          "Down the road it rolled, passing two men digging a well and two men digging a ditch, and every one of them dropped their tools to give chase.",
+        exampleTranslation:
+          "조니케이크는 길을 따라 굴러가다가 우물을 파던 두 사람과 도랑을 파던 두 사람을 지나쳤고, 넷 모두 연장을 내려놓고 쫓아왔어요.",
+      },
+      {
+        id: "jc-v2",
+        term: "lumber",
+        partOfSpeech: "verb",
+        translation: "느릿느릿 움직이다",
+        example:
+          "Soon a hungry bear lumbered out of the woods and joined the chase, certain that such a plump little cake would make an easy breakfast.",
+        exampleTranslation:
+          "곧 배고픈 곰 한 마리가 숲에서 어슬렁어슬렁 나와 뒤쫓기 시작했는데, 통통한 케이크쯤은 쉬운 아침거리가 될 거라 확신했어요.",
+      },
+      {
+        id: "jc-v3",
+        term: "flattered",
+        partOfSpeech: "adjective",
+        translation: "우쭐해진",
+        example:
+          "Flattered and a little too proud of himself, the johnny-cake rolled closer and closer to repeat his boastful little song.",
+        exampleTranslation: "칭찬에 우쭐해진 조니케이크는 자랑스러운 노래를 다시 들려주려고 점점 더 가까이 굴러갔어요.",
+      },
+      {
+        id: "jc-v4",
+        term: "snap",
+        partOfSpeech: "verb",
+        translation: "낚아채다",
+        example:
+          "Just as the fox leaned in and opened his jaws to snap, the johnny-cake felt the danger and threw himself backward down the hill.",
+        exampleTranslation:
+          "여우가 몸을 기울여 입을 벌려 낚아채려는 순간, 조니케이크는 위험을 느끼고 재빨리 몸을 뒤로 던져 언덕 아래로 굴러갔어요.",
+      },
+      {
+        id: "jc-v5",
+        term: "boast",
+        partOfSpeech: "verb",
+        translation: "뽐내다",
+        example:
+          "From that day on, Johnny-cake stayed close to home, and though he still loved to tell the story of outrunning a bear and a wolf, he never boasted to a stranger again.",
+        exampleTranslation:
+          "그날 이후로 조니케이크는 집 가까이에 머물렀고, 곰과 늑대를 따돌렸던 이야기는 여전히 즐겨 들려주었지만, 다시는 낯선 이에게 뽐내지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jc-q1",
+        prompt: "Why did the johnny-cake jump out of the oven?",
+        options: [
+          "It jumped out the moment the old woman opened the oven door",
+          "The old man dropped it while carrying it outside",
+          "It was baked outside from the very start",
+          "A gust of wind blew it out the window",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The moment the old woman opened the oven door to check on it, the johnny-cake jumped out, rolled across the floor, and out the open door.",
+      },
+      {
+        id: "jc-q2",
+        prompt: "What did the johnny-cake say to each new pursuer?",
+        options: [
+          "That he had already outrun everyone who had chased him so far, and could outrun them too",
+          "That he was too tired to keep running",
+          "That he wanted to make friends",
+          "That he was looking for the old woman",
+        ],
+        correctIndex: 0,
+        explanation:
+          "As he rolled past each new pursuer, the johnny-cake boasted that he had already outrun everyone before them and could outrun them too.",
+      },
+      {
+        id: "jc-q3",
+        prompt: "How did the fox almost catch the johnny-cake?",
+        options: [
+          "By pretending to be hard of hearing and asking him to come closer",
+          "By chasing him faster than the bear and the wolf",
+          "By offering him a ride home",
+          "By hiding inside the old woman's house",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Unlike the others, the fox did not chase at all — he pretended his hearing was poor and asked the johnny-cake to come closer and sing his song again, nearly catching him.",
+      },
+    ],
+  },
+  {
+    slug: "the-jungle-book",
+    title: "The Jungle Book",
+    titleTranslation: "정글북",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Rudyard Kipling (1894)",
+    coverEmoji: "🐺",
+    coverImage: "/covers/the-jungle-book.svg",
+    source:
+      "Adapted from Rudyard Kipling's The Jungle Book (1894; Project Gutenberg #236, long in the public domain) — the opening of \"Mowgli's Brothers\": Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the man's cub came to live with the wolves, and how Mother Wolf answered Shere Khan.",
+    paragraphs: [
+      [
+        {
+          id: "jb-1",
+          text: "High in the Seeonee hills, Father Wolf woke at dusk, stretched, and prepared to go hunting for the night, while Mother Wolf lay in their cave with their four cubs tumbling and squeaking around her.",
+          translation:
+            "시오니 언덕 높은 곳에서, 아버지 늑대는 해 질 무렵 잠에서 깨어 기지개를 켜고 밤사냥을 나갈 채비를 했고, 어머니 늑대는 굴 안에서 새끼 네 마리가 옆에서 뒹굴며 낑낑대는 소리를 들으며 누워 있었어요.",
+        },
+        {
+          id: "jb-2",
+          text: "Moonlight streamed in through the mouth of the cave, and the little family had just settled into a peaceful evening when a visitor arrived.",
+          translation: "달빛이 굴 입구로 흘러들었고, 작은 가족이 막 평화로운 저녁을 맞이하려던 참에 손님이 찾아왔어요.",
+        },
+        {
+          id: "jb-3",
+          text: "It was Tabaqui the jackal, a sly, whining creature that the wolves neither liked nor fully trusted, for he carried gossip and trouble wherever he went.",
+          translation:
+            "바로 자칼 타바키였는데, 늑대들은 이 교활하고 징징대는 짐승을 딱히 좋아하지도 완전히 믿지도 않았어요. 타바키가 가는 곳마다 소문과 말썽을 몰고 다녔기 때문이에요.",
+        },
+      ],
+      [
+        {
+          id: "jb-4",
+          text: "\"Shere Khan, the Big One, has shifted his hunting grounds,\" Tabaqui announced. \"He means to hunt among these hills for the rest of the moon.\"",
+          translation:
+            "\"덩치 큰 시어 칸이 사냥터를 옮겼습니다.\" 타바키가 알렸어요. \"이번 달이 다 가도록 이 언덕 일대에서 사냥할 생각이라는군요.\"",
+        },
+        {
+          id: "jb-5",
+          text: "Father Wolf's eyes flashed with anger, for it was against the law of the jungle for a tiger to hunt on another pack's ground without warning.",
+          translation:
+            "아버지 늑대의 눈에 분노가 번뜩였는데, 미리 알리지 않고 다른 무리의 사냥터에서 사냥하는 것은 정글의 법을 어기는 일이었기 때문이에요.",
+        },
+        {
+          id: "jb-6",
+          text: "Mother Wolf only sniffed, unimpressed. \"He is lame in one foot from hunting cattle instead of wild game,\" she said, \"and lame tigers make loud, careless enemies.\"",
+          translation:
+            "어머니 늑대는 대수롭지 않다는 듯 콧방귀를 뀌었어요. \"들짐승 대신 소를 사냥하다가 한쪽 다리를 절게 된 녀석이야.\" 어머니 늑대가 말했어요. \"다리를 저는 호랑이는 시끄럽고 부주의한 적이 되는 법이지.\"",
+        },
+      ],
+      [
+        {
+          id: "jb-7",
+          text: "Far off in the valley, the wolves heard the tiger's rough, angry roar echoing off the rocks, and Father Wolf rose to keep watch at the cave's mouth.",
+          translation:
+            "멀리 골짜기에서 호랑이의 거칠고 성난 포효가 바위에 부딪혀 울려 퍼지는 소리가 들려왔고, 아버지 늑대는 굴 입구에서 망을 보려고 일어섰어요.",
+        },
+        {
+          id: "jb-8",
+          text: "But instead of a tiger, something small and warm and entirely unexpected came stumbling into the firelight — a naked human baby, walking on all fours and laughing up at Father Wolf without a trace of fear.",
+          translation:
+            "하지만 호랑이 대신, 작고 따뜻하고 전혀 예상치 못한 무언가가 불빛 속으로 비틀비틀 들어왔어요 — 벌거벗은 아기 사람이 네 발로 기어 들어와 조금도 두려운 기색 없이 아버지 늑대를 올려다보며 웃었어요.",
+        },
+        {
+          id: "jb-9",
+          text: "\"A man's cub!\" Father Wolf said, startled into stillness. \"I have never seen one so close. Look at him — he is not afraid of us at all.\"",
+          translation:
+            "\"사람의 새끼잖아!\" 아버지 늑대가 놀라 굳어 버린 채 말했어요. \"이렇게 가까이서 본 건 처음이야. 봐, 우리를 조금도 무서워하지 않아.\"",
+        },
+      ],
+      [
+        {
+          id: "jb-10",
+          text: "Mother Wolf nosed her own cubs aside and pulled the man-cub gently in among them, where he nestled against her warm side as though he had always belonged there.",
+          translation:
+            "어머니 늑대는 자기 새끼들을 코로 슬쩍 밀어내고 사람의 새끼를 부드럽게 그 사이로 끌어당겼고, 아기는 마치 원래부터 그곳에 있었던 것처럼 따뜻한 옆구리에 파고들었어요.",
+        },
+        {
+          id: "jb-11",
+          text: "\"He shall not be harmed,\" she said firmly. \"I will call him Mowgli, the Frog, and he shall run with the Pack and hunt with the Pack, just as my own cubs do.\"",
+          translation:
+            "\"이 아이는 다치게 하지 않을 거야.\" 어머니 늑대가 단호하게 말했어요. \"개구리라는 뜻으로 모글리라고 부르겠어. 내 새끼들처럼 무리와 함께 뛰고 무리와 함께 사냥하게 될 거야.\"",
+        },
+        {
+          id: "jb-12",
+          text: "Father Wolf said nothing, but he did not argue — once Mother Wolf had decided something, there was little any wolf in Seeonee could do to change her mind.",
+          translation:
+            "아버지 늑대는 아무 말도 하지 않았지만 반대하지도 않았어요 — 어머니 늑대가 한번 마음을 정하면, 시오니의 그 어떤 늑대도 그 결심을 바꿀 수 없었거든요.",
+        },
+      ],
+      [
+        {
+          id: "jb-13",
+          text: "Moments later, Shere Khan's huge striped head and shoulders blocked the entrance to the cave, and behind him Tabaqui's thin voice urged him on.",
+          translation:
+            "잠시 후, 시어 칸의 커다란 줄무늬 머리와 어깨가 굴 입구를 가로막았고, 뒤에서는 타바키의 가느다란 목소리가 시어 칸을 부추기고 있었어요.",
+        },
+        {
+          id: "jb-14",
+          text: "\"The man's cub is mine,\" Shere Khan growled. \"Give him to me, for his people will come with fire and guns if you hide him among your cubs.\"",
+          translation:
+            "\"그 사람의 새끼는 내 것이다.\" 시어 칸이 으르렁거렸어요. \"내놓아라. 너희 새끼들 틈에 숨겨 두면 그 아이의 사람들이 불과 총을 들고 찾아올 테니까.\"",
+        },
+        {
+          id: "jb-15",
+          text: "Mother Wolf stepped forward, her eyes shining like two green moons in the dark, and stood squarely between the tiger and her new son.",
+          translation:
+            "어머니 늑대가 앞으로 나섰고, 어둠 속에서 두 눈이 초록빛 달처럼 빛났으며, 호랑이와 새로 얻은 아들 사이를 가로막고 섰어요.",
+        },
+      ],
+      [
+        {
+          id: "jb-16",
+          text: "\"The man's cub is mine now, Lungri,\" she answered, using his most insulting nickname, \"mine to keep, mine to run with the Pack — and one day, lame hunter, it is he who will hunt you!\"",
+          translation:
+            "\"이제 그 사람의 새끼는 내 것이다, 룽그리.\" 어머니 늑대는 시어 칸이 가장 싫어하는 그 별명을 부르며 대답했어요. \"내가 키울 것이고, 무리와 함께 뛰게 할 것이다 — 그리고 언젠가, 다리를 저는 사냥꾼아, 바로 이 아이가 너를 사냥하게 될 것이다!\"",
+        },
+        {
+          id: "jb-17",
+          text: "Shere Khan's roar shook the cave, but he could not fight past a mother wolf defending her own, and at last he backed slowly away into the night.",
+          translation:
+            "시어 칸의 포효에 굴이 흔들렸지만, 새끼를 지키는 어머니 늑대를 뚫고 나아갈 수는 없었고, 결국 천천히 뒷걸음질 쳐 어둠 속으로 물러났어요.",
+        },
+        {
+          id: "jb-18",
+          text: "From that night on, the man-cub Mowgli grew up among the wolves of Seeonee, the first of many strange chapters in his life in the jungle.",
+          translation:
+            "그날 밤 이후로 사람의 새끼 모글리는 시오니의 늑대들 사이에서 자라났으니, 이는 모글리의 정글 생활에서 펼쳐질 수많은 기이한 이야기들 중 첫 장에 불과했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jb-v1",
+        term: "roar",
+        partOfSpeech: "noun",
+        translation: "포효",
+        example:
+          "Far off in the valley, the wolves heard the tiger's rough, angry roar echoing off the rocks, and Father Wolf rose to keep watch at the cave's mouth.",
+        exampleTranslation:
+          "멀리 골짜기에서 호랑이의 거칠고 성난 포효가 바위에 부딪혀 울려 퍼지는 소리가 들려왔고, 아버지 늑대는 굴 입구에서 망을 보려고 일어섰어요.",
+      },
+      {
+        id: "jb-v2",
+        term: "startled",
+        partOfSpeech: "adjective",
+        translation: "놀란",
+        example:
+          "\"A man's cub!\" Father Wolf said, startled into stillness. \"I have never seen one so close. Look at him — he is not afraid of us at all.\"",
+        exampleTranslation:
+          "\"사람의 새끼잖아!\" 아버지 늑대가 놀라 굳어 버린 채 말했어요. \"이렇게 가까이서 본 건 처음이야. 봐, 우리를 조금도 무서워하지 않아.\"",
+      },
+      {
+        id: "jb-v3",
+        term: "nestle",
+        partOfSpeech: "verb",
+        translation: "파고들다",
+        example:
+          "Mother Wolf nosed her own cubs aside and pulled the man-cub gently in among them, where he nestled against her warm side as though he had always belonged there.",
+        exampleTranslation:
+          "어머니 늑대는 자기 새끼들을 코로 슬쩍 밀어내고 사람의 새끼를 부드럽게 그 사이로 끌어당겼고, 아기는 마치 원래부터 그곳에 있었던 것처럼 따뜻한 옆구리에 파고들었어요.",
+      },
+      {
+        id: "jb-v4",
+        term: "growl",
+        partOfSpeech: "verb",
+        translation: "으르렁거리다",
+        example:
+          "\"The man's cub is mine,\" Shere Khan growled. \"Give him to me, for his people will come with fire and guns if you hide him among your cubs.\"",
+        exampleTranslation:
+          "\"그 사람의 새끼는 내 것이다.\" 시어 칸이 으르렁거렸어요. \"내놓아라. 너희 새끼들 틈에 숨겨 두면 그 아이의 사람들이 불과 총을 들고 찾아올 테니까.\"",
+      },
+      {
+        id: "jb-v5",
+        term: "defend",
+        partOfSpeech: "verb",
+        translation: "지키다",
+        example:
+          "Shere Khan's roar shook the cave, but he could not fight past a mother wolf defending her own, and at last he backed slowly away into the night.",
+        exampleTranslation:
+          "시어 칸의 포효에 굴이 흔들렸지만, 새끼를 지키는 어머니 늑대를 뚫고 나아갈 수는 없었고, 결국 천천히 뒷걸음질 쳐 어둠 속으로 물러났어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jb-q1",
+        prompt: "Why did Tabaqui the jackal visit Father Wolf and Mother Wolf?",
+        options: [
+          "To warn them that Shere Khan the tiger had moved into their hunting grounds",
+          "To ask for a share of their next meal",
+          "To invite them to a gathering of the Pack",
+          "To warn them about hunters in the valley",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Tabaqui came to announce that Shere Khan had shifted his hunting grounds and meant to hunt among the Seeonee hills for the rest of the moon.",
+      },
+      {
+        id: "jb-q2",
+        prompt: "What did Father Wolf discover coming into the cave's firelight?",
+        options: [
+          "A naked human baby, crawling on all fours and unafraid of him",
+          "A lost wolf cub from another pack",
+          "Shere Khan the tiger, wounded and desperate",
+          "A hunter searching for his lost dog",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Instead of a tiger, a naked human baby came stumbling into the firelight on all fours, laughing up at Father Wolf without any fear.",
+      },
+      {
+        id: "jb-q3",
+        prompt: "How did Mother Wolf respond when Shere Khan demanded the man's cub?",
+        options: [
+          "She refused, declaring the cub was hers to keep and to run with the Pack",
+          "She agreed at once and handed the cub over",
+          "She asked Father Wolf to decide",
+          "She ran away with the cub to hide him",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Mother Wolf stood between the tiger and her new son, declaring that the man's cub was hers to keep and to run with the Pack, and that he would one day hunt Shere Khan himself.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

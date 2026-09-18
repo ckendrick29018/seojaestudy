@@ -2667,5 +2667,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-turn-of-the-screw.svg",
     "source": "Adapted from Henry James's The Turn of the Screw (1898; Project Gutenberg #209) — the framing chapter: on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin — a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "johnny-cake",
+    "title": "Johnny-Cake",
+    "titleTranslation": "조니케이크",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🌽",
+    "coverImage": "/covers/johnny-cake.svg",
+    "source": "Adapted from \"Johnny-Cake\" in Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439, long in the public domain) — a seventh tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, and The Three Sillies. The original ending, in which a fox tricks the johnny-cake close enough to bite him in two and eat him, is softened here: the johnny-cake feels the trick coming just in time and rolls all the way home safely, having learned not to boast to strangers. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "the-jungle-book",
+    "title": "The Jungle Book",
+    "titleTranslation": "정글북",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Rudyard Kipling (1894)",
+    "coverEmoji": "🐺",
+    "coverImage": "/covers/the-jungle-book.svg",
+    "source": "Adapted from Rudyard Kipling's The Jungle Book (1894; Project Gutenberg #236, long in the public domain) — the opening of \"Mowgli's Brothers\": Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

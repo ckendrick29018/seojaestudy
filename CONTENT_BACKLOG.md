@@ -248,6 +248,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 127 | The Woman in White | Wilkie Collins (1859) | 583 | B2 | the Prologue, "The Story Begun by Walter Hartright" — walking home alone on the lonely road to London late at night, Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 | 128 | The Three Sillies | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 18 sentences; a sixth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, and Jack and the Beanstalk — a farmer's daughter, her mother, and her father each cry over an imagined future tragedy involving a mallet stuck in the cellar beam, until the daughter's sweetheart laughs, removes the mallet, and sets out to find three people even sillier before he'll agree to marry her, which he does with ease) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
 | 129 | The Turn of the Screw | Henry James (1916) | 209 | B2 | the framing chapter — on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin: a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
+| 130 | Johnny-Cake | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 17 sentences; a seventh tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, Jack and the Beanstalk, and The Three Sillies — a runaway cake escapes an old man, an old woman, two well-diggers, two ditch-diggers, a bear, and a wolf, boasting to each in turn, until a clever fox tricks him close enough to nearly catch him; the original ending, in which the fox bites him in two and eats him, is softened to a narrow escape home) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
+| 131 | The Jungle Book | Rudyard Kipling (1894) | 236 | B2 | the opening of "Mowgli's Brothers" — Tabaqui the jackal brings word that Shere Khan the tiger has moved into the Seeonee hills, and a man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother Wolf resolves to raise him as her own and stands down the tiger who comes to claim him (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -257,10 +259,26 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (160 — 129 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (162 — 131 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  fourteenth round): **The Three Sillies** (A1, classics) — a sixth tale
+  fifteenth round): **Johnny-Cake** (A1, classics) — a seventh tale from
+  Joseph Jacobs's English Fairy Tales (1890, PG#7439): a runaway cake
+  escapes an old man, an old woman, two well-diggers, two ditch-diggers,
+  a bear, and a wolf, boasting to each in turn, until a clever fox tricks
+  him close enough to nearly catch him; the original ending, in which the
+  fox bites him in two and eats him, is softened to a narrow escape home;
+  continuing the run of English/American nursery tales flagged in "Good
+  next lessons to build"; and **The Jungle Book** (B2, classics) — the
+  opening of Rudyard Kipling's "Mowgli's Brothers" (1894, PG#236), an
+  entirely fresh author for the shelf: Tabaqui the jackal brings word
+  that Shere Khan the tiger has moved into the Seeonee hills, and a
+  man's cub crawls into Father Wolf and Mother Wolf's cave, where Mother
+  Wolf resolves to raise him as her own and stands down the tiger who
+  comes to claim him; the "another fresh author" option flagged in "Good
+  next lessons to build."
+  Before that, an earlier batch the same day
+  (fourteenth round): **The Three Sillies** (A1, classics) — a sixth tale
   from Joseph Jacobs's English Fairy Tales (1890, PG#7439): a farmer's
   daughter, her mother, and her father each cry over an imagined future
   tragedy involving a mallet stuck in the cellar beam, until the
@@ -713,7 +731,11 @@ has a genuine period cover/illustration in the public domain, download that into
     author; the framing chapter, Douglas's promise of a story stranger
     than any told, and the odd condition the Harley Street bachelor set
     for the governess he hired to take sole charge of his orphaned niece
-    and nephew at Bly) is live too.
+    and nephew at Bly) is live too, and now **The Jungle Book** (Rudyard
+    Kipling — another entirely fresh author; the opening of "Mowgli's
+    Brothers," Tabaqui the jackal's warning that Shere Khan has moved
+    into the Seeonee hills, and Mother Wolf standing down the tiger to
+    keep the man's cub she has taken in) is live too.
     Next: a ninth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -764,7 +786,12 @@ has a genuine period cover/illustration in the public domain, download that into
     and her father each cry over an imagined future tragedy involving a
     mallet stuck in the cellar beam, until the daughter's sweetheart
     laughs, removes the mallet, and finds three people even sillier
-    before marrying her) is live too.
+    before marrying her) is live too, and now **Johnny-Cake** (a seventh
+    Jacobs's English Fairy Tales pick — a runaway cake boasts to an old
+    man, an old woman, two well-diggers, two ditch-diggers, a bear, and a
+    wolf as he outruns them all, until a clever fox tricks him close
+    enough to nearly catch him; the original ending, in which the fox
+    eats him, softened to a narrow escape home) is live too.
     Next: re-level a gentle A2 tale, or continue into more
     English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
