@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Wind in the Willows by Kenneth Grahame">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-70 30 Q-30 14 10 30 Q50 14 70 30" stroke-width="1.6" fill="#C9A66B" fill-opacity="0.14"/>
+    <path d="M-70 30 Q-70 18 -60 18 M-40 18 Q-30 18 -20 30 M0 30 Q10 18 20 18 M50 18 Q60 18 70 30" stroke-width="1"/>
+
+    <path d="M-58 -6 Q-52 -34 -44 -6 Q-38 -30 -30 -6" stroke-width="1.1" opacity="0.7"/>
+    <path d="M22 -6 Q28 -34 36 -6 Q42 -30 50 -6" stroke-width="1.1" opacity="0.7"/>
+
+    <path d="M-56 6 L52 6 L44 24 L-48 24 Z" stroke-width="1.3" fill="#C9A66B" fill-opacity="0.22"/>
+    <path d="M-40 6 L-40 24 M-24 6 L-27 24 M-8 6 L-9 24 M8 6 L8 24 M24 6 L26 24" stroke-width="0.7" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#2C2C2C" letter-spacing="0.5">The Wind in the</text>
+  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#2C2C2C" letter-spacing="0.5">Willows</text>
+
+  <line x1="150" y1="348" x2="250" y2="348" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="378" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">Messing about in boats</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">KENNETH GRAHAME</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">THE RIVER BANK</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

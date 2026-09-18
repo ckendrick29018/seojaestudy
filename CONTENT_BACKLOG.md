@@ -242,6 +242,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 119 | Bartleby, the Scrivener | Herman Melville (1891) | 11231 | B2 | opening scene (simplified retelling, 17 sentences; the narrator hires the pale, quiet Bartleby as a scrivener, is delighted by his frantic copying, then is stopped cold the first time Bartleby refuses a request with "I would prefer not to") — the first Melville pick on the shelf, closing out the "still unclaimed" note in "Good next lessons to build" | ☑ |
 | 121 | The Legend of Sleepy Hollow | Washington Irving (1859) | 41 | B2 | opening scene (simplified retelling, 17 sentences; Sleepy Hollow's drowsy, enchanted valley, the legend of the Headless Horseman searching nightly for the head a cannonball carried away, and the introduction of the lanky schoolmaster Ichabod Crane, who whistles his way home after a good ghost story) — an entirely fresh author for the shelf, the "another fresh author" pick flagged in "Good next lessons to build" | ☑ |
 | 123 | Xingu | Edith Wharton (1916) | 24131 | B2 | whole (simplified retelling, 17 sentences; a pretentious ladies' Lunch Club, awaiting a visit from a celebrated novelist, bluffs its way through a conversation about "Xingu" — a word one member invents on the spot to rescue an awkward silence — only to discover, after their guest leaves, that Xingu is simply a river in Brazil) — an eighth Wharton pick, and a change of tone: a comedy of pretension rather than a somber opening chapter, the "eighth Wharton" option flagged in "Good next lessons to build" | ☑ |
+| 124 | The Wind in the Willows | Kenneth Grahame (1908) | 289 | A2 | Ch. 1 ("The River Bank") — Mole abandons his spring-cleaning, discovers the riverbank for the first time, and meets the Water Rat, who rows him across, tips them both into the water, and introduces him to a picnic basket and his philosophy that there is "nothing half so much worth doing as simply messing about in boats" (simplified retelling, 17 sentences) — an entirely fresh author for the shelf, and the next non-Andersen, non-O.-Henry A2 pick flagged in "Good next lessons to build" | ☑ |
+| 125 | The Time Machine | H. G. Wells (1895) | 35 | B2 | the opening chapters, "Introduction" and "The Machine" — the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small glittering model vanishing into time before his stunned dinner guests' eyes, and offers to show them the full-sized machine itself (simplified retelling, 17 sentences) — an entirely fresh author for the shelf, and the first science-fiction pick, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -251,10 +253,27 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (156 — 125 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (158 — 127 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  eleventh round): **The Story of the Three Bears** (A1, classics) — a
+  twelfth round): **The Wind in the Willows** (A2, classics) — Kenneth
+  Grahame's 1908 novel (PG#289), Ch. 1 "The River Bank": Mole abandons
+  his spring-cleaning, discovers the riverbank for the first time, and
+  meets the Water Rat, who rows him across, tips them both into the
+  water, and introduces him to a picnic basket and his philosophy that
+  there is "nothing half so much worth doing as simply messing about
+  in boats"; an entirely fresh author, and the next non-Andersen,
+  non-O.-Henry A2 pick flagged in "Good next lessons to build"; and
+  **The Time Machine** (B2, classics) — H. G. Wells's 1895 novel
+  (PG#35), the opening chapters "Introduction" and "The Machine": the
+  Time Traveller argues that time is simply a fourth dimension, then
+  proves it by sending a small glittering model vanishing into time
+  before his stunned dinner guests' eyes, and offers to show them the
+  full-sized machine itself; another entirely fresh author, and the
+  first science-fiction pick on the shelf, the "another fresh author"
+  option flagged in "Good next lessons to build."
+  Before that, an earlier batch the same day
+  (eleventh round): **The Story of the Three Bears** (A1, classics) — a
   fourth tale from Joseph Jacobs's English Fairy Tales (1890, PG#7439),
   the little old woman who lets herself into the bears' house, tries
   each bowl of porridge, chair, and bed until she finds the smallest
@@ -656,7 +675,12 @@ has a genuine period cover/illustration in the public domain, download that into
     pick, and a change of tone: a pretentious ladies' Lunch Club bluffs
     its way through a conversation about "Xingu," a word one member
     invents on the spot, only to discover after their guest leaves that
-    it's simply a river in Brazil) is live too.
+    it's simply a river in Brazil) is live too, and now **The Time
+    Machine** (H. G. Wells — another entirely fresh author, and the
+    first science-fiction pick; the Time Traveller argues that time is
+    a fourth dimension, then proves it by sending a small model
+    vanishing into time before his stunned dinner guests, and offers to
+    show them the real machine) is live too.
     Next: a ninth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -702,8 +726,12 @@ has a genuine period cover/illustration in the public domain, download that into
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**
     (row 102), and now **The Brief Début of Tildy** (a fourth *Four
     Million* pick, row 110 — the overlooked waitress Tildy, gently
-    handled) are live. Next: a non-Andersen, non-O.-Henry A2 pick for
-    further variety.
+    handled) are live, and now **The Wind in the Willows** (Kenneth
+    Grahame — an entirely fresh author, and the non-Andersen,
+    non-O.-Henry pick flagged below; Mole abandons his spring-cleaning,
+    discovers the riverbank, and meets the Water Rat and his boating
+    philosophy) is live too. Next: further A2 variety — another fresh
+    author, or a second Kenneth Grahame scene.
   - B1: **The Secret Garden: Martha** (row 50) and **Elizabeth and Her
     German Garden** (row 55) are now live — Tier 2 is fully built.
   - Folktales shelf (15 live: A Bridegroom for Miss Mole, The Unmannerly

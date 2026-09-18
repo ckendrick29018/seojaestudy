@@ -2571,5 +2571,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/xingu.svg",
     "source": "Adapted from Edith Wharton's short story \"Xingu\" (1916; Project Gutenberg #24131, long in the public domain) — an eighth Wharton pick on the B2 shelf, and a change of tone: a comedy of pretension, about a club of society ladies who bluff their way through a conversation about a word none of them has ever actually heard before. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "the-wind-in-the-willows",
+    "title": "The Wind in the Willows",
+    "titleTranslation": "버드나무에 부는 바람",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "A2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Kenneth Grahame (1908)",
+    "coverEmoji": "🛶",
+    "coverImage": "/covers/the-wind-in-the-willows.svg",
+    "source": "Adapted from Kenneth Grahame's The Wind in the Willows (1908; Project Gutenberg #289, long in the public domain) — Ch. 1, \"The River Bank\": Mole abandons his spring-cleaning, discovers the riverbank for the first time, and meets the Water Rat, who introduces him to boating, a picnic basket, and the mysterious, seldom-visited Wild Wood across the water. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "the-time-machine",
+    "title": "The Time Machine",
+    "titleTranslation": "타임머신",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "H. G. Wells (1895)",
+    "coverEmoji": "🕰️",
+    "coverImage": "/covers/the-time-machine.svg",
+    "source": "Adapted from H. G. Wells's The Time Machine (1895; Project Gutenberg #35, long in the public domain) — the opening chapters, \"Introduction\" and \"The Machine\": the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small model machine vanishing into time before his stunned dinner guests' eyes. An entirely fresh author for the shelf, and the first science-fiction pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

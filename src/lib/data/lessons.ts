@@ -33710,6 +33710,406 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-wind-in-the-willows",
+    title: "The Wind in the Willows",
+    titleTranslation: "버드나무에 부는 바람",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Kenneth Grahame (1908)",
+    coverEmoji: "🛶",
+    coverImage: "/covers/the-wind-in-the-willows.svg",
+    source:
+      "Adapted from Kenneth Grahame's The Wind in the Willows (1908; Project Gutenberg #289, long in the public domain) — Ch. 1, \"The River Bank\": Mole abandons his spring-cleaning, discovers the riverbank for the first time, and meets the Water Rat, who introduces him to boating, a picnic basket, and the mysterious, seldom-visited Wild Wood across the water. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Mole and Rat first met, and what Rat believes is the best thing in the world to do.",
+    paragraphs: [
+      [
+        {
+          id: "wtw-1",
+          text: "One spring morning, a Mole grew so tired of spring-cleaning his underground home that he threw down his brush, cried \"Bother spring-cleaning!\" and dug his way straight up into the sunlight.",
+          translation: "어느 봄날 아침, 두더지는 땅속 집을 봄맞이 대청소를 하다가 너무 지친 나머지 솔을 내던지며 \"봄맞이 대청소는 집어치워!\" 하고 외치고는, 곧장 위로 땅을 파고 올라가 햇빛 속으로 나왔어요.",
+        },
+        {
+          id: "wtw-2",
+          text: "He found himself in a great meadow, blinking in the warm sun, and felt he had never been so happy in his whole life.",
+          translation: "그는 어느새 넓은 초원에 나와 따뜻한 햇살에 눈을 깜박이고 있었고, 태어나서 이렇게 행복했던 적이 없다고 느꼈어요.",
+        },
+        {
+          id: "wtw-3",
+          text: "Wandering wherever he pleased, he brushed past a rude toll-collecting rabbit and rambled on through fields full of singing birds and budding flowers.",
+          translation: "발길 닿는 대로 돌아다니던 그는 통행료를 받으려는 무례한 토끼를 밀치고 지나가, 새들이 지저귀고 꽃봉오리가 맺힌 들판을 계속 걸었어요.",
+        },
+      ],
+      [
+        {
+          id: "wtw-4",
+          text: "At last he came to the edge of a river — and since he had never seen one before in his life, he sat down on the bank, entirely bewitched by its sparkle and chatter.",
+          translation: "마침내 그는 강가에 이르렀는데 — 태어나서 강을 본 적이 한 번도 없었기에, 강둑에 앉아 반짝임과 재잘거림에 완전히 홀린 듯 넋을 잃었어요.",
+        },
+        {
+          id: "wtw-5",
+          text: "As he stared at a dark hole in the opposite bank, a small brown face with whiskers slowly appeared: it was the Water Rat.",
+          translation: "맞은편 강둑의 어두운 굴을 바라보고 있는데, 수염 난 작은 갈색 얼굴이 천천히 나타났어요. 바로 물쥐였어요.",
+        },
+        {
+          id: "wtw-6",
+          text: "\"Hullo, Mole!\" called the Rat, and when Mole admitted he had never once been in a boat, the Rat looked utterly astonished.",
+          translation: "\"안녕, 두더지!\" 물쥐가 소리쳤고, 두더지가 배를 한 번도 타본 적이 없다고 털어놓자 물쥐는 몹시 놀란 표정을 지었어요.",
+        },
+      ],
+      [
+        {
+          id: "wtw-7",
+          text: "The Rat rowed across in his little blue-and-white boat, helped Mole climb carefully aboard, and pushed off down the river.",
+          translation: "물쥐는 파란색과 흰색으로 칠해진 작은 배를 저어 건너와, 두더지가 조심스럽게 배에 오르도록 도와준 뒤 강 아래쪽으로 노를 저어 나아갔어요.",
+        },
+        {
+          id: "wtw-8",
+          text: "\"Believe me,\" the Rat said dreamily, \"there is nothing — absolutely nothing — half so much worth doing as simply messing about in boats.\"",
+          translation: "\"내 말을 믿어,\" 물쥐가 꿈꾸듯 말했어요. \"그냥 배를 타고 빈둥거리는 것만큼 할 만한 가치가 있는 일은 — 정말이지 아무것도 — 없어.\"",
+        },
+        {
+          id: "wtw-9",
+          text: "He was still murmuring \"messing about in boats\" when the boat struck the bank and tipped him over backward, his heels waving in the air.",
+          translation: "그가 여전히 \"배를 타고 빈둥거리는 것\"이라고 중얼거리는 사이, 배가 강둑에 부딪혀 그는 뒤로 벌렁 넘어졌고 두 발꿈치가 허공에서 흔들렸어요.",
+        },
+      ],
+      [
+        {
+          id: "wtw-10",
+          text: "Picking himself up with a cheerful laugh, the Rat asked whether Mole had anything better to do than spend the whole day drifting down the river together.",
+          translation: "물쥐는 유쾌하게 웃으며 몸을 일으키더니, 두더지에게 오늘 하루 함께 강을 따라 떠내려가는 것보다 더 나은 할 일이 있느냐고 물었어요.",
+        },
+        {
+          id: "wtw-11",
+          text: "Mole, who could hardly believe his good fortune, begged him to start at once.",
+          translation: "자신의 행운을 도무지 믿을 수 없었던 두더지는 당장 출발하자고 졸랐어요.",
+        },
+        {
+          id: "wtw-12",
+          text: "The Rat fetched a fat picnic basket packed with more food than Mole could imagine — cold chicken, ham, sandwiches, and ginger beer — and they set off again.",
+          translation: "물쥐는 두더지가 상상도 못 할 만큼 많은 음식이 든 두툼한 소풍 바구니를 가져왔어요 — 차가운 닭고기, 햄, 샌드위치, 그리고 진저비어까지 — 그렇게 그들은 다시 출발했어요.",
+        },
+      ],
+      [
+        {
+          id: "wtw-13",
+          text: "Mole trailed a paw happily in the water, far too dazzled by the sunlight and the ripples to say a single word.",
+          translation: "두더지는 행복하게 물속에 발을 담근 채 끌었고, 햇빛과 잔물결에 너무나 눈이 부셔서 한마디도 할 수 없었어요.",
+        },
+        {
+          id: "wtw-14",
+          text: "\"I like your clothes,\" the Rat remarked after a while. \"I'm going to buy myself a smart velvet suit one day, once I can afford it.\"",
+          translation: "\"네 옷이 마음에 드는걸,\" 물쥐가 한참 뒤에 말했어요. \"나도 언젠가 여유가 생기면 멋진 벨벳 정장을 사 입을 거야.\"",
+        },
+        {
+          id: "wtw-15",
+          text: "\"And do you really live by the river?\" Mole asked in wonder. \"What a jolly life that must be!\"",
+          translation: "\"그런데 정말 강가에서 사는 거야?\" 두더지가 신기해하며 물었어요. \"정말 즐거운 삶이겠다!\"",
+        },
+      ],
+      [
+        {
+          id: "wtw-16",
+          text: "\"By it, with it, on it, and in it,\" the Rat answered proudly. \"It's brother and sister to me, and food and drink besides — I don't want any other world.\"",
+          translation: "\"강 옆에서, 강과 함께, 강 위에서, 강 속에서 살지,\" 물쥐가 자랑스럽게 대답했어요. \"강은 나에게 형제요 자매이고, 게다가 밥이자 물이기도 해 — 나는 다른 세상은 필요 없어.\"",
+        },
+        {
+          id: "wtw-17",
+          text: "When Mole pointed toward a dark stretch of trees across the water and asked what lay there, the Rat only said shortly, \"That's the Wild Wood — we river-bankers don't go there very much,\" and rowed steadily on.",
+          translation: "두더지가 강 건너편의 어둑한 나무숲을 가리키며 저기가 어디냐고 묻자, 물쥐는 짧게 \"저긴 야생 숲이야 — 우리 강가 사람들은 저기엔 잘 안 가,\"라고만 말하고는 묵묵히 노를 계속 저었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wtw-v1",
+        term: "meadow",
+        partOfSpeech: "noun",
+        translation: "초원, 목초지",
+        example: "He found himself in a great meadow, blinking in the warm sun, and felt he had never been so happy in his whole life.",
+        exampleTranslation: "그는 어느새 넓은 초원에 나와 따뜻한 햇살에 눈을 깜박이고 있었고, 태어나서 이렇게 행복했던 적이 없다고 느꼈어요.",
+      },
+      {
+        id: "wtw-v2",
+        term: "bewitched",
+        partOfSpeech: "adjective",
+        translation: "홀린, 매혹된",
+        example: "At last he came to the edge of a river — and since he had never seen one before in his life, he sat down on the bank, entirely bewitched by its sparkle and chatter.",
+        exampleTranslation: "마침내 그는 강가에 이르렀는데 — 태어나서 강을 본 적이 한 번도 없었기에, 강둑에 앉아 반짝임과 재잘거림에 완전히 홀린 듯 넋을 잃었어요.",
+      },
+      {
+        id: "wtw-v3",
+        term: "astonished",
+        partOfSpeech: "adjective",
+        translation: "몹시 놀란",
+        example: "\"Hullo, Mole!\" called the Rat, and when Mole admitted he had never once been in a boat, the Rat looked utterly astonished.",
+        exampleTranslation: "\"안녕, 두더지!\" 물쥐가 소리쳤고, 두더지가 배를 한 번도 타본 적이 없다고 털어놓자 물쥐는 몹시 놀란 표정을 지었어요.",
+      },
+      {
+        id: "wtw-v4",
+        term: "drift",
+        partOfSpeech: "verb",
+        translation: "떠내려가다, 표류하다",
+        example: "Picking himself up with a cheerful laugh, the Rat asked whether Mole had anything better to do than spend the whole day drifting down the river together.",
+        exampleTranslation: "물쥐는 유쾌하게 웃으며 몸을 일으키더니, 두더지에게 오늘 하루 함께 강을 따라 떠내려가는 것보다 더 나은 할 일이 있느냐고 물었어요.",
+      },
+      {
+        id: "wtw-v5",
+        term: "picnic",
+        partOfSpeech: "noun",
+        translation: "소풍",
+        example: "The Rat fetched a fat picnic basket packed with more food than Mole could imagine — cold chicken, ham, sandwiches, and ginger beer — and they set off again.",
+        exampleTranslation: "물쥐는 두더지가 상상도 못 할 만큼 많은 음식이 든 두툼한 소풍 바구니를 가져왔어요 — 차가운 닭고기, 햄, 샌드위치, 그리고 진저비어까지 — 그렇게 그들은 다시 출발했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wtw-q1",
+        prompt: "Why did Mole dig his way up out of his home that morning?",
+        options: [
+          "He had grown tired of spring-cleaning and felt the pull of spring in the air above him",
+          "He was chasing the toll-collecting rabbit",
+          "He wanted to find the Water Rat",
+          "He was frightened by something underground",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Mole simply grew tired of spring-cleaning, threw down his brush, and felt something calling him up toward the sunlight and the spring air above.",
+      },
+      {
+        id: "wtw-q2",
+        prompt: "What did the Rat believe was the best thing in the world to do?",
+        options: [
+          "Simply messing about in boats",
+          "Collecting tolls from travelers",
+          "Spring-cleaning his home",
+          "Reading by the fire all day",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The Rat told Mole dreamily that nothing was half so worth doing as simply messing about in boats.",
+      },
+      {
+        id: "wtw-q3",
+        prompt: "What did the Rat say when Mole asked about the dark trees across the water?",
+        options: [
+          "That it was called the Wild Wood, and the river-bankers didn't go there very much",
+          "That it was completely safe and worth exploring",
+          "That it belonged to the toll-collecting rabbits",
+          "That he had never noticed it before",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The Rat answered shortly that it was the Wild Wood, and that animals who lived by the river didn't go there very much, before rowing on.",
+      },
+    ],
+  },
+  {
+    slug: "the-time-machine",
+    title: "The Time Machine",
+    titleTranslation: "타임머신",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "H. G. Wells (1895)",
+    coverEmoji: "🕰️",
+    coverImage: "/covers/the-time-machine.svg",
+    source:
+      "Adapted from H. G. Wells's The Time Machine (1895; Project Gutenberg #35, long in the public domain) — the opening chapters, \"Introduction\" and \"The Machine\": the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small model machine vanishing into time before his stunned dinner guests' eyes. An entirely fresh author for the shelf, and the first science-fiction pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened when the Psychologist pushed the lever on the Time Traveller's model machine.",
+    paragraphs: [
+      [
+        {
+          id: "tim-1",
+          text: "After dinner, the Time Traveller settled into his armchair and announced to his guests that he was about to overturn everything they thought they knew about geometry.",
+          translation: "저녁 식사 후, 타임 트래블러는 안락의자에 앉아 손님들에게 자신이 곧 그들이 기하학에 대해 알고 있다고 믿는 모든 것을 뒤엎어 놓겠다고 선언했어요.",
+        },
+        {
+          id: "tim-2",
+          text: "He explained that any real object had to have four dimensions, not three — Length, Breadth, Thickness, and, he insisted, Time itself.",
+          translation: "그는 실재하는 어떤 물체든 세 가지가 아니라 네 가지 차원을 지녀야 한다고 설명했어요 — 길이, 너비, 두께, 그리고 그가 강조하기를, 시간 그 자체까지도요.",
+        },
+        {
+          id: "tim-3",
+          text: "Filby, a skeptical red-haired guest, argued that a solid object obviously existed without needing any fourth dimension — but the Time Traveller pressed him: could a cube that lasted no time at all really be called real?",
+          translation: "회의적인 빨간 머리 손님 필비는 단단한 물체는 네 번째 차원 같은 것 없이도 분명히 존재한다고 반박했지만, 타임 트래블러는 그를 몰아붙였어요. 조금도 지속되지 않는 정육면체를 과연 실재한다고 부를 수 있느냐고요.",
+        },
+      ],
+      [
+        {
+          id: "tim-4",
+          text: "Scientific people already knew, he went on, that time was simply another kind of space — and if a man could rise and fall through the dimension of height in a balloon, why shouldn't he one day move freely along the dimension of time as well?",
+          translation: "과학자들은 이미 시간이 그저 또 다른 종류의 공간일 뿐이라는 사실을 알고 있다고 그는 말을 이어갔어요 — 그리고 사람이 기구를 타고 높이라는 차원을 오르내릴 수 있다면, 언젠가 시간이라는 차원을 따라서도 자유롭게 움직이지 못할 이유가 있겠느냐고요.",
+        },
+        {
+          id: "tim-5",
+          text: "\"That is the germ of my great discovery,\" he said, and revealed that he had long dreamed of building a machine that could travel through time in either direction, exactly as its driver chose.",
+          translation: "\"그것이 바로 내 위대한 발견의 씨앗이지,\" 그가 말하며, 운전자가 선택하는 대로 시간을 어느 방향으로든 여행할 수 있는 기계를 오랫동안 만들고 싶어 했다고 밝혔어요.",
+        },
+        {
+          id: "tim-6",
+          text: "His guests only laughed at first — until he quietly left the room and returned holding a small, glittering model, no larger than a clock, made of metal, ivory, and glass.",
+          translation: "손님들은 처음엔 그저 웃기만 했어요 — 그가 조용히 방을 나갔다가, 시계보다 크지 않은 작고 반짝이는 모형을 들고 돌아오기 전까지는요. 그 모형은 금속과 상아, 유리로 만들어져 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "tim-7",
+          text: "He set it on a small table in the bright lamplight, where Filby, the Medical Man, the Psychologist, and the others could all watch it closely from every side.",
+          translation: "그는 그것을 밝은 램프 불빛 아래 작은 탁자 위에 올려놓았고, 필비와 의사, 심리학자, 그리고 다른 손님들 모두가 사방에서 가까이 지켜볼 수 있었어요.",
+        },
+        {
+          id: "tim-8",
+          text: "\"This is only a model,\" he told them, \"but it is my plan for a machine to travel through time. This lever sends it gliding into the future; this other one reverses the motion.\"",
+          translation: "\"이건 그저 모형일 뿐이지만,\" 그가 그들에게 말했어요, \"시간을 여행하는 기계에 대한 내 설계도야. 이 레버는 그것을 미래로 미끄러져 가게 하고, 이 다른 레버는 운동 방향을 되돌리지.\"",
+        },
+        {
+          id: "tim-9",
+          text: "He asked them to look closely at the table and the model itself, insisting he wanted no one accusing him of trickery afterward.",
+          translation: "그는 나중에 누구도 자신을 속임수를 썼다고 비난하지 않기를 바란다며, 탁자와 모형 자체를 자세히 살펴봐 달라고 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "tim-10",
+          text: "Then, changing his mind about pressing the lever himself, he asked the Psychologist to reach out and push it forward instead.",
+          translation: "그러다가 직접 레버를 누르려던 마음을 바꾸어, 대신 심리학자에게 손을 뻗어 레버를 밀어 달라고 부탁했어요.",
+        },
+        {
+          id: "tim-11",
+          text: "A breath of wind stirred through the room, the lamp flame jumped, and one candle on the mantel blew out.",
+          translation: "방 안에 한 줄기 바람이 스쳐 지나갔고, 램프 불꽃이 흔들렸으며, 벽난로 선반 위의 촛불 하나가 꺼졌어요.",
+        },
+        {
+          id: "tim-12",
+          text: "The little machine spun, flickered like a ghost for an instant, and vanished completely — leaving the table entirely bare.",
+          translation: "작은 기계는 빙그르르 돌더니 한순간 유령처럼 깜빡이다가, 완전히 사라져 버렸어요 — 탁자 위에는 아무것도 남지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "tim-13",
+          text: "For a full minute nobody spoke; then Filby swore under his breath, and the Psychologist ducked down to check beneath the table for hidden wires.",
+          translation: "꼬박 1분 동안 아무도 말을 하지 못했어요. 이윽고 필비가 나직이 욕설을 내뱉었고, 심리학자는 숨겨진 줄이 있는지 확인하려고 탁자 밑으로 몸을 숙였어요.",
+        },
+        {
+          id: "tim-14",
+          text: "\"Do you seriously believe that machine has traveled into time?\" the Medical Man finally asked. \"Certainly,\" the Time Traveller replied, calmly lighting his pipe.",
+          translation: "\"저 기계가 정말로 시간을 여행했다고 진심으로 믿으시는 겁니까?\" 마침내 의사가 물었어요. \"물론이지,\" 타임 트래블러는 담담하게 파이프에 불을 붙이며 대답했어요.",
+        },
+        {
+          id: "tim-15",
+          text: "He added that a full-sized version stood nearly finished in his laboratory, and that once it was ready, he meant to make the journey himself.",
+          translation: "그는 실물 크기의 기계가 자신의 실험실에 거의 완성된 채로 서 있으며, 준비가 되면 직접 그 여행을 떠날 생각이라고 덧붙였어요.",
+        },
+      ],
+      [
+        {
+          id: "tim-16",
+          text: "When the Psychologist reasoned aloud that the model must have slipped into the past, since it had not moved anywhere in space, the Time Traveller only smiled and let the argument run on.",
+          translation: "심리학자가 그 모형이 공간상으로는 전혀 움직이지 않았으니 분명 과거로 미끄러져 들어갔을 것이라고 소리 내어 추론하자, 타임 트래블러는 그저 미소만 지으며 논쟁이 계속되도록 내버려 두었어요.",
+        },
+        {
+          id: "tim-17",
+          text: "At last he picked up his lamp and asked his stunned guests a single question: would they like to see the real Time Machine for themselves?",
+          translation: "마침내 그는 램프를 집어 들고 어안이 벙벙해진 손님들에게 단 하나의 질문을 던졌어요. 진짜 타임머신을 직접 보고 싶으냐고요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "tim-v1",
+        term: "geometry",
+        partOfSpeech: "noun",
+        translation: "기하학",
+        example: "After dinner, the Time Traveller settled into his armchair and announced to his guests that he was about to overturn everything they thought they knew about geometry.",
+        exampleTranslation: "저녁 식사 후, 타임 트래블러는 안락의자에 앉아 손님들에게 자신이 곧 그들이 기하학에 대해 알고 있다고 믿는 모든 것을 뒤엎어 놓겠다고 선언했어요.",
+      },
+      {
+        id: "tim-v2",
+        term: "dimension",
+        partOfSpeech: "noun",
+        translation: "차원",
+        example: "He explained that any real object had to have four dimensions, not three — Length, Breadth, Thickness, and, he insisted, Time itself.",
+        exampleTranslation: "그는 실재하는 어떤 물체든 세 가지가 아니라 네 가지 차원을 지녀야 한다고 설명했어요 — 길이, 너비, 두께, 그리고 그가 강조하기를, 시간 그 자체까지도요.",
+      },
+      {
+        id: "tim-v3",
+        term: "skeptical",
+        partOfSpeech: "adjective",
+        translation: "회의적인, 의심 많은",
+        example: "Filby, a skeptical red-haired guest, argued that a solid object obviously existed without needing any fourth dimension — but the Time Traveller pressed him: could a cube that lasted no time at all really be called real?",
+        exampleTranslation: "회의적인 빨간 머리 손님 필비는 단단한 물체는 네 번째 차원 같은 것 없이도 분명히 존재한다고 반박했지만, 타임 트래블러는 그를 몰아붙였어요. 조금도 지속되지 않는 정육면체를 과연 실재한다고 부를 수 있느냐고요.",
+      },
+      {
+        id: "tim-v4",
+        term: "laboratory",
+        partOfSpeech: "noun",
+        translation: "실험실",
+        example: "He added that a full-sized version stood nearly finished in his laboratory, and that once it was ready, he meant to make the journey himself.",
+        exampleTranslation: "그는 실물 크기의 기계가 자신의 실험실에 거의 완성된 채로 서 있으며, 준비가 되면 직접 그 여행을 떠날 생각이라고 덧붙였어요.",
+      },
+      {
+        id: "tim-v5",
+        term: "mantel",
+        partOfSpeech: "noun",
+        translation: "벽난로 선반",
+        example: "A breath of wind stirred through the room, the lamp flame jumped, and one candle on the mantel blew out.",
+        exampleTranslation: "방 안에 한 줄기 바람이 스쳐 지나갔고, 램프 불꽃이 흔들렸으며, 벽난로 선반 위의 촛불 하나가 꺼졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "tim-q1",
+        prompt: "What did the Time Traveller argue was necessary for any real object to exist?",
+        options: [
+          "It must have four dimensions — Length, Breadth, Thickness, and Time",
+          "It must be built from metal, ivory, and glass",
+          "It must be visible to everyone in the room at once",
+          "It must be small enough to fit on a table",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The Time Traveller insisted that any real object needed four dimensions, not three — adding Time itself to Length, Breadth, and Thickness.",
+      },
+      {
+        id: "tim-q2",
+        prompt: "What happened when the Psychologist pushed the lever on the model machine?",
+        options: [
+          "The model spun, flickered like a ghost, and vanished completely, leaving the table bare",
+          "The model exploded into pieces",
+          "The model turned into a real, full-sized machine",
+          "Nothing happened, proving the whole thing was a trick",
+        ],
+        correctIndex: 0,
+        explanation:
+          "A breath of wind stirred the room, a candle blew out, and the little machine spun and vanished, leaving nothing behind on the table.",
+      },
+      {
+        id: "tim-q3",
+        prompt: "What did the Time Traveller reveal about his laboratory?",
+        options: [
+          "A full-sized time machine stood there, nearly finished, and he meant to travel in it himself",
+          "It had burned down the week before",
+          "It contained no machines at all, only books on geometry",
+          "Filby had built a rival time machine there",
+        ],
+        correctIndex: 0,
+        explanation:
+          "He told his guests that a full-sized version of the machine was nearly finished in his laboratory, and that once ready, he planned to travel in it himself.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
