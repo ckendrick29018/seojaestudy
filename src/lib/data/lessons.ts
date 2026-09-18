@@ -34515,6 +34515,416 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "the-three-sillies",
+    title: "The Three Sillies",
+    titleTranslation: "세 명의 바보",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Fairy tale",
+    level: "A1",
+    isFree: true,
+    collection: "classics",
+    author: "Joseph Jacobs (1890)",
+    coverEmoji: "🐄",
+    coverImage: "/covers/the-three-sillies.svg",
+    source:
+      "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"The Three Sillies,\" a sixth pick from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, and Jack and the Beanstalk. Whole tale, compressed: a farmer's daughter, her mother, and her father each cry over an imagined future tragedy involving a mallet stuck in the cellar beam, until the daughter's sweetheart laughs, removes the mallet, and sets out to find three people even sillier before he'll agree to marry her — which he does, easily. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the farmer's daughter, her mother, and her father were all crying in the cellar, and how the young gentleman decided whether to marry her.",
+    paragraphs: [
+      [
+        {
+          id: "sillies-1",
+          text: "A farmer's daughter was engaged to a kind young gentleman.",
+          translation: "농부의 딸은 상냥한 젊은 신사와 약혼한 사이였어요.",
+        },
+        {
+          id: "sillies-2",
+          text: "One evening her mother sent her down to the cellar to fetch beer for supper.",
+          translation: "어느 날 저녁, 어머니는 딸에게 저녁 식사에 쓸 맥주를 가져오라며 지하 저장고로 보냈어요.",
+        },
+        {
+          id: "sillies-3",
+          text: "In the cellar, the girl noticed an old wooden mallet stuck high in a beam.",
+          translation: "지하 저장고에서 소녀는 천장 들보에 낡은 나무 망치가 박혀 있는 것을 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "sillies-4",
+          text: "She stared up at it and began to imagine the future.",
+          translation: "소녀는 그것을 올려다보며 앞으로의 일을 상상하기 시작했어요.",
+        },
+        {
+          id: "sillies-5",
+          text: "\"If we marry and have a son, and he comes down here one day for beer, that mallet might fall and kill him!\"",
+          translation: "\"우리가 결혼해서 아들을 낳고, 그 애가 자라서 언젠가 여기로 맥주를 가지러 내려오면, 저 망치가 떨어져서 그 애를 죽일지도 몰라!\"",
+        },
+        {
+          id: "sillies-6",
+          text: "She sat down on a barrel and cried and cried.",
+          translation: "소녀는 통 위에 주저앉아 울고 또 울었어요.",
+        },
+      ],
+      [
+        {
+          id: "sillies-7",
+          text: "Upstairs, her mother wondered why the beer was taking so long and went down to look for her.",
+          translation: "위층에서 맥주가 왜 이렇게 오래 걸리나 궁금해하던 어머니는 딸을 찾으러 내려왔어요.",
+        },
+        {
+          id: "sillies-8",
+          text: "The girl told her mother the whole sad story about the mallet.",
+          translation: "소녀는 어머니에게 망치에 관한 슬픈 이야기를 모두 들려주었어요.",
+        },
+        {
+          id: "sillies-9",
+          text: "\"Oh, how terrible!\" said the mother, and she sat down and cried too.",
+          translation: "\"오, 정말 끔찍하구나!\" 어머니도 그렇게 말하며 주저앉아 함께 울었어요.",
+        },
+      ],
+      [
+        {
+          id: "sillies-10",
+          text: "Soon the father came looking for them both and heard the very same story, and he cried right along with them.",
+          translation: "곧 아버지도 두 사람을 찾으러 내려왔다가 똑같은 이야기를 듣고는, 함께 주저앉아 울었어요.",
+        },
+        {
+          id: "sillies-11",
+          text: "At last the young gentleman arrived for supper and found all three of them crying in the cellar over the mallet and a son who did not even exist yet.",
+          translation: "마침내 저녁 식사를 하러 온 젊은 신사는 지하 저장고에서 셋이 아직 태어나지도 않은 아들과 망치 때문에 울고 있는 것을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "sillies-12",
+          text: "He laughed and laughed, then pulled the old mallet down so it could never hurt anyone.",
+          translation: "그는 크게 웃고 나서, 낡은 망치를 뽑아내어 다시는 누구도 다치게 하지 못하게 했어요.",
+        },
+        {
+          id: "sillies-13",
+          text: "\"I have never seen such sillies,\" he said. \"I will travel the country and look for three people even sillier than you.\"",
+          translation: "\"이렇게 어리석은 사람들은 처음 보는군요.\" 그가 말했어요. \"이 나라를 돌아다니며 당신들보다 더 어리석은 사람 셋을 찾아보겠어요.\"",
+        },
+        {
+          id: "sillies-14",
+          text: "\"If I cannot find any, I will come straight home and marry you anyway.\"",
+          translation: "\"만약 찾지 못한다면, 곧장 돌아와 당신과 결혼하겠어요.\"",
+        },
+      ],
+      [
+        {
+          id: "sillies-15",
+          text: "On his travels he saw a woman trying to lead her cow up a ladder to eat grass growing on the roof.",
+          translation: "여행길에서 그는 지붕 위의 풀을 먹이려고 소를 사다리로 끌고 올라가려는 여인을 보았어요.",
+        },
+        {
+          id: "sillies-16",
+          text: "He saw a man wrestling with his own trousers, hung on a peg, as if they were an impossible puzzle to solve.",
+          translation: "그는 또 못에 걸린 바지와 씨름하며 마치 풀 수 없는 수수께끼처럼 애쓰는 남자도 보았어요.",
+        },
+        {
+          id: "sillies-17",
+          text: "He even saw a whole village raking a pond with rakes, because they believed the moon's reflection was the moon itself, fallen into the water.",
+          translation: "심지어 그는 못에 비친 달그림자를 진짜 달이 빠진 줄 알고 갈퀴로 건져 내려는 마을 사람들 전체도 보았어요.",
+        },
+        {
+          id: "sillies-18",
+          text: "Since he found three people even sillier than his sweetheart's family with ease, he went straight home, married her, and they lived happily together for the rest of their days.",
+          translation: "그는 신붓감의 가족보다 더 어리석은 사람 셋을 어렵지 않게 찾았기에, 곧장 집으로 돌아가 그녀와 결혼했고, 두 사람은 남은 평생을 행복하게 살았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sillies-v1",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "A farmer's daughter was engaged to a kind young gentleman.",
+        exampleTranslation: "농부의 딸은 상냥한 젊은 신사와 약혼한 사이였어요.",
+      },
+      {
+        id: "sillies-v2",
+        term: "cellar",
+        partOfSpeech: "noun",
+        translation: "지하 저장고, 지하실",
+        example: "One evening her mother sent her down to the cellar to fetch beer for supper.",
+        exampleTranslation: "어느 날 저녁, 어머니는 딸에게 저녁 식사에 쓸 맥주를 가져오라며 지하 저장고로 보냈어요.",
+      },
+      {
+        id: "sillies-v3",
+        term: "mallet",
+        partOfSpeech: "noun",
+        translation: "나무 망치, 방망이",
+        example: "In the cellar, the girl noticed an old wooden mallet stuck high in a beam.",
+        exampleTranslation: "지하 저장고에서 소녀는 천장 들보에 낡은 나무 망치가 박혀 있는 것을 보았어요.",
+      },
+      {
+        id: "sillies-v4",
+        term: "imagine",
+        partOfSpeech: "verb",
+        translation: "상상하다",
+        example: "She stared up at it and began to imagine the future.",
+        exampleTranslation: "소녀는 그것을 올려다보며 앞으로의 일을 상상하기 시작했어요.",
+      },
+      {
+        id: "sillies-v5",
+        term: "reflection",
+        partOfSpeech: "noun",
+        translation: "(물이나 거울에 비친) 그림자, 상",
+        example: "He even saw a whole village raking a pond with rakes, because they believed the moon's reflection was the moon itself, fallen into the water.",
+        exampleTranslation: "심지어 그는 못에 비친 달그림자를 진짜 달이 빠진 줄 알고 갈퀴로 건져 내려는 마을 사람들 전체도 보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sillies-q1",
+        prompt: "Why did the farmer's daughter start crying in the cellar?",
+        options: [
+          "She imagined a mallet might someday fall and kill a son she did not have yet",
+          "She had broken a jar of beer",
+          "She was afraid of the dark cellar",
+          "She missed her fiancé, who was late for supper",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Staring at the old mallet stuck in the beam, she imagined a future son coming down for beer one day and being killed by it, and the sad thought made her cry.",
+      },
+      {
+        id: "sillies-q2",
+        prompt: "What did the young gentleman do when he found all three of them crying?",
+        options: [
+          "He laughed, pulled the mallet down, and set off to test whether they were truly the silliest people around",
+          "He scolded them for wasting the evening",
+          "He refused to marry the daughter",
+          "He fetched a doctor for the family",
+        ],
+        correctIndex: 0,
+        explanation:
+          "He laughed at their story, pulled down the mallet so it could never hurt anyone, then decided to travel and see whether he could find three people even sillier before he agreed to marry the girl.",
+      },
+      {
+        id: "sillies-q3",
+        prompt: "What three sights convinced him that his sweetheart's family were not the silliest people he could find?",
+        options: [
+          "A woman leading a cow up a ladder to the roof, a man struggling with his own trousers, and a village raking a pond for the \"fallen\" moon",
+          "A king who lost his crown, a queen who forgot her name, and a prince who could not count",
+          "A baker who burned all his bread, a farmer who lost his sheep, and a fisherman who caught no fish",
+          "A boy who could not read, a girl who could not sing, and a dog who could not bark",
+        ],
+        correctIndex: 0,
+        explanation:
+          "On his travels he found a woman trying to get her cow onto the roof to graze, a man wrestling with his own trousers as if they were unsolvable, and villagers raking a pond because they mistook the moon's reflection for the real moon fallen in the water — three examples of foolishness beyond his sweetheart's family, so he went home and married her.",
+      },
+    ],
+  },
+  {
+    slug: "the-turn-of-the-screw",
+    title: "The Turn of the Screw",
+    titleTranslation: "나사의 회전",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Henry James (1916)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/the-turn-of-the-screw.svg",
+    source:
+      "Adapted from Henry James's The Turn of the Screw (1898; Project Gutenberg #209) — the framing chapter: on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin — a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what condition the wealthy bachelor set for the governess, and why she accepted the position anyway.",
+    paragraphs: [
+      [
+        {
+          id: "screw-1",
+          text: "On a dark Christmas Eve, a small group of guests sat by the fire in an old country house, taking turns telling each other ghost stories.",
+          translation: "어느 어두운 크리스마스이브, 오래된 시골 저택에 모인 손님들은 벽난로 곁에 둘러앉아 돌아가며 유령 이야기를 들려주고 있었어요.",
+        },
+        {
+          id: "screw-2",
+          text: "One guest named Douglas stayed quiet for a long while, then said he knew of a story far stranger and more terrible than anything told that night.",
+          translation: "더글러스라는 손님은 한참 동안 말이 없다가, 그날 밤 나온 그 어떤 이야기보다도 훨씬 기이하고 무서운 이야기를 알고 있다고 말했어요.",
+        },
+        {
+          id: "screw-3",
+          text: "The story, he explained, involved not one child but two, and he had never told it to anyone.",
+          translation: "그 이야기는 아이 한 명이 아니라 두 명이 얽혀 있으며, 그는 지금까지 누구에게도 이 이야기를 들려준 적이 없다고 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "screw-4",
+          text: "The others begged to hear it at once, but Douglas said the manuscript was locked away in a drawer at his home in London.",
+          translation: "사람들은 당장 들려 달라고 졸랐지만, 더글러스는 그 원고가 런던 집 서랍 속에 잠겨 있다고 말했어요.",
+        },
+        {
+          id: "screw-5",
+          text: "He promised that if someone would send for it, he would read the whole account aloud in a few days' time.",
+          translation: "그는 누군가 사람을 보내 그 원고를 가져오면, 며칠 안에 이야기 전체를 소리 내어 읽어 주겠다고 약속했어요.",
+        },
+        {
+          id: "screw-6",
+          text: "Before he began, Douglas told them a little about the woman who had actually written it down.",
+          translation: "이야기를 시작하기 전에, 더글러스는 그 글을 직접 쓴 여인에 대해 조금 이야기해 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "screw-7",
+          text: "She had been his own sister's governess many years before, and she had died only twenty years ago.",
+          translation: "그녀는 오래전 그의 여동생을 돌보던 가정교사였고, 세상을 떠난 지도 벌써 이십 년이 되었어요.",
+        },
+        {
+          id: "screw-8",
+          text: "He remembered her as young, charming, and unusually brave for the strange task she had once agreed to take on.",
+          translation: "그는 그녀를 젊고 매력적이며, 자신이 맡았던 그 이상한 일에 비해 유난히 용감했던 사람으로 기억하고 있었어요.",
+        },
+        {
+          id: "screw-9",
+          text: "The task had begun with a wealthy bachelor living alone on Harley Street in London.",
+          translation: "그 일은 런던 할리 스트리트에 홀로 살던 한 부유한 독신 남자로부터 시작되었어요.",
+        },
+      ],
+      [
+        {
+          id: "screw-10",
+          text: "When his younger brother died in India, this bachelor suddenly found himself the guardian of two small orphans, a boy and a girl.",
+          translation: "인도에서 남동생이 세상을 떠나자, 그는 갑자기 어린 남매의 후견인이 되어 버렸어요.",
+        },
+        {
+          id: "screw-11",
+          text: "Busy with his own comfortable life, he had neither the time nor the patience to raise two children himself.",
+          translation: "자신의 안락한 생활만으로도 바빴던 그는 아이 둘을 직접 키울 시간도 인내심도 없었어요.",
+        },
+        {
+          id: "screw-12",
+          text: "So he sent them to live at Bly, his quiet country house, and set out to hire a governess to take full charge of them there.",
+          translation: "그래서 그는 아이들을 조용한 시골 저택 블라이로 보내고, 그곳에서 아이들을 온전히 책임질 가정교사를 구하기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "screw-13",
+          text: "He interviewed several young women, but he made one condition that frightened most of them away.",
+          translation: "그는 여러 젊은 여성을 면접했지만, 그가 내건 한 가지 조건이 대부분을 겁먹게 해 떠나보냈어요.",
+        },
+        {
+          id: "screw-14",
+          text: "She must handle absolutely everything herself, and never, under any circumstances, trouble him with letters or complaints.",
+          translation: "그녀가 모든 일을 혼자서 처리해야 하며, 어떤 경우에도 편지나 불평으로 그를 귀찮게 해서는 안 된다는 조건이었어요.",
+        },
+        {
+          id: "screw-15",
+          text: "The young governess who eventually accepted was inexperienced and a little dazzled by her charming, wealthy employer.",
+          translation: "결국 그 자리를 받아들인 젊은 가정교사는 경험이 부족했고, 매력적이고 부유한 고용주에게 다소 마음을 빼앗긴 상태였어요.",
+        },
+      ],
+      [
+        {
+          id: "screw-16",
+          text: "Still, something about the strange condition — and about Bly itself — stayed with her long after she agreed to it.",
+          translation: "그럼에도 그 이상한 조건과 블라이라는 곳 자체가 무언가 그녀의 마음에 오래도록 남아 있었어요.",
+        },
+        {
+          id: "screw-17",
+          text: "When the manuscript finally arrived from London, Douglas sat by the fire and began to read her story aloud, word for word, exactly as she had written it.",
+          translation: "런던에서 마침내 원고가 도착하자, 더글러스는 벽난로 곁에 앉아 그녀가 쓴 그대로 한 글자씩 이야기를 읽어 내려가기 시작했어요.",
+        },
+        {
+          id: "screw-18",
+          text: "The guests leaned closer, sensing that whatever they were about to hear would be stranger than any ghost story they already knew.",
+          translation: "손님들은 몸을 더 가까이 기울였고, 지금부터 듣게 될 이야기가 이미 들은 그 어떤 유령 이야기보다 더 기이하리라는 것을 예감했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "screw-v1",
+        term: "manuscript",
+        partOfSpeech: "noun",
+        translation: "원고",
+        example: "The others begged to hear it at once, but Douglas said the manuscript was locked away in a drawer at his home in London.",
+        exampleTranslation: "사람들은 당장 들려 달라고 졸랐지만, 더글러스는 그 원고가 런던 집 서랍 속에 잠겨 있다고 말했어요.",
+      },
+      {
+        id: "screw-v2",
+        term: "bachelor",
+        partOfSpeech: "noun",
+        translation: "독신남, 미혼 남성",
+        example: "The task had begun with a wealthy bachelor living alone on Harley Street in London.",
+        exampleTranslation: "그 일은 런던 할리 스트리트에 홀로 살던 한 부유한 독신 남자로부터 시작되었어요.",
+      },
+      {
+        id: "screw-v3",
+        term: "orphan",
+        partOfSpeech: "noun",
+        translation: "고아",
+        example: "When his younger brother died in India, this bachelor suddenly found himself the guardian of two small orphans, a boy and a girl.",
+        exampleTranslation: "인도에서 남동생이 세상을 떠나자, 그는 갑자기 어린 남매의 후견인이 되어 버렸어요.",
+      },
+      {
+        id: "screw-v4",
+        term: "condition",
+        partOfSpeech: "noun",
+        translation: "조건",
+        example: "He interviewed several young women, but he made one condition that frightened most of them away.",
+        exampleTranslation: "그는 여러 젊은 여성을 면접했지만, 그가 내건 한 가지 조건이 대부분을 겁먹게 해 떠나보냈어요.",
+      },
+      {
+        id: "screw-v5",
+        term: "dazzled",
+        partOfSpeech: "adjective",
+        translation: "마음을 빼앗긴, 홀린",
+        example: "The young governess who eventually accepted was inexperienced and a little dazzled by her charming, wealthy employer.",
+        exampleTranslation: "결국 그 자리를 받아들인 젊은 가정교사는 경험이 부족했고, 매력적이고 부유한 고용주에게 다소 마음을 빼앗긴 상태였어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "screw-q1",
+        prompt: "Why wouldn't Douglas tell his ghost story that same night?",
+        options: [
+          "The manuscript containing it was locked in a drawer at his home in London, and he needed someone to send for it",
+          "He had forgotten most of the details and needed time to remember",
+          "The other guests refused to listen to anything scarier than what they'd already heard",
+          "He wanted to wait until Christmas Day itself",
+        ],
+        correctIndex: 0,
+        explanation:
+          "When the group begged to hear it immediately, Douglas explained that the actual manuscript was locked in a drawer at his London home, so he could only read it once someone sent for it, a few days later.",
+      },
+      {
+        id: "screw-q2",
+        prompt: "What unusual condition did the wealthy bachelor set for the governess he hired?",
+        options: [
+          "She must handle everything at Bly herself and never trouble him with letters or complaints",
+          "She must teach the children only in French",
+          "She must never leave the house after dark",
+          "She must report to him in person once a week",
+        ],
+        correctIndex: 0,
+        explanation:
+          "He made one strict condition that frightened off most applicants: whoever took the post had to deal with absolutely everything on her own, without ever writing to him or bothering him with complaints.",
+      },
+      {
+        id: "screw-q3",
+        prompt: "Why did the young governess accept the position despite the strange condition?",
+        options: [
+          "She was inexperienced and a little dazzled by her charming, wealthy employer",
+          "She desperately needed the money to support her family",
+          "She had always dreamed of living at Bly",
+          "She had already met and grown fond of the two children",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The narrator explains that the governess who eventually accepted the job was young and inexperienced, and somewhat dazzled by how charming and wealthy her prospective employer was.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -4332,4 +4332,28 @@ export const EN_KO: Record<string, string> = {
   trust: "믿다, 신뢰하다; 신뢰",
   unease: "불안, 불안감",
   urgent: "다급한, 긴급한",
+
+  // added for "the-three-sillies" (2026-09-18 batch, fourteenth round)
+  barrel: "통, 술통",
+  beam: "들보, 대들보",
+  kill: "죽이다",
+  mallet: "나무 망치, 방망이",
+  peg: "못, 고리",
+  puzzle: "수수께끼, 퍼즐",
+  rake: "갈퀴; (갈퀴로) 긁다, 긁어모으다",
+  sillier: "더 어리석은 (silly의 비교급)",
+  solve: "풀다, 해결하다",
+  sweetheart: "연인, 애인",
+  wrestle: "씨름하다, 몸싸움하다; 애쓰다",
+
+  // added for "the-turn-of-the-screw" (2026-09-18 batch, fourteenth round)
+  bly: "블라이 (이야기 속 시골 저택의 이름)",
+  douglas: "더글러스 (등장인물 이름)",
+  employer: "고용주",
+  handle: "다루다, 처리하다",
+  harley: "할리 (Harley Street, 런던의 거리 이름)",
+  inexperienced: "경험이 부족한, 미숙한",
+  interview: "면접하다, 면접",
+  involve: "관련시키다, 포함하다",
+  nor: "~도 아니다 (neither와 함께 쓰여 '~도 ~도 아니다')",
 };

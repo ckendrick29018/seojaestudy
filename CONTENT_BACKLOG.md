@@ -246,6 +246,8 @@ has a genuine period cover/illustration in the public domain, download that into
 | 125 | The Time Machine | H. G. Wells (1895) | 35 | B2 | the opening chapters, "Introduction" and "The Machine" — the Time Traveller argues that time is simply a fourth dimension, then proves it by sending a small glittering model vanishing into time before his stunned dinner guests' eyes, and offers to show them the full-sized machine itself (simplified retelling, 17 sentences) — an entirely fresh author for the shelf, and the first science-fiction pick, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 | 126 | Jack and the Beanstalk | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 17 sentences; a fifth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, and The Story of the Three Bears — the poor widow's son trades his cow for five magic beans, climbs the beanstalk that grows overnight, and outwits a giant three times before chopping the beanstalk down to stop him for good; the giant's death softened to "came crashing down... and was never seen again") — a fifth English/American nursery tale, continuing the run flagged in "Good next lessons to build" | ☑ |
 | 127 | The Woman in White | Wilkie Collins (1859) | 583 | B2 | the Prologue, "The Story Begun by Walter Hartright" — walking home alone on the lonely road to London late at night, Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
+| 128 | The Three Sillies | Joseph Jacobs (1890) | 7439 | A1 | whole tale, compressed (simplified retelling, 18 sentences; a sixth tale from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, and Jack and the Beanstalk — a farmer's daughter, her mother, and her father each cry over an imagined future tragedy involving a mallet stuck in the cellar beam, until the daughter's sweetheart laughs, removes the mallet, and sets out to find three people even sillier before he'll agree to marry her, which he does with ease) — continuing the run of English/American nursery tales flagged in "Good next lessons to build" | ☑ |
+| 129 | The Turn of the Screw | Henry James (1916) | 209 | B2 | the framing chapter — on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin: a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything (simplified retelling, 18 sentences) — an entirely fresh author for the shelf, the "another fresh author" option flagged in "Good next lessons to build" | ☑ |
 
 ---
 
@@ -255,10 +257,29 @@ has a genuine period cover/illustration in the public domain, download that into
   blank rather than guessed.
 - Tiers are by adaptation effort, not literary difficulty: Tier 1 works fit a
   lesson almost as-is; Tier 2/3 need a scene chosen and trimmed.
-- **Live now (158 — 127 classics + 22 folktales + 8 biographies; plus 5
+- **Live now (160 — 129 classics + 22 folktales + 8 biographies; plus 5
   Aesop's fables on the plain Library list, `topic: "Fables"`, no
   `collection`):** Two more lessons are the newest additions (2026-09-18,
-  twelfth round): **The Wind in the Willows** (A2, classics) — Kenneth
+  fourteenth round): **The Three Sillies** (A1, classics) — a sixth tale
+  from Joseph Jacobs's English Fairy Tales (1890, PG#7439): a farmer's
+  daughter, her mother, and her father each cry over an imagined future
+  tragedy involving a mallet stuck in the cellar beam, until the
+  daughter's sweetheart laughs, removes the mallet, and sets out to find
+  three people even sillier before he'll agree to marry her — which he
+  does with ease, after finding a woman leading her cow up a ladder to
+  the roof, a man wrestling his own trousers, and a village raking a
+  pond for the "fallen" moon; continuing the run of English/American
+  nursery tales flagged in "Good next lessons to build"; and **The Turn
+  of the Screw** (B2, classics) — the framing chapter of Henry James's
+  1898 novella (PG#209), an entirely fresh author for the shelf: on a
+  Christmas Eve gathering of ghost-story tellers, Douglas promises a
+  story stranger than any told, then explains its origin — a governess
+  he once knew, hired by a wealthy Harley Street bachelor to take sole
+  charge of his orphaned niece and nephew at Bly on the odd condition
+  that she never trouble him with anything; the "another fresh author"
+  option flagged in "Good next lessons to build."
+  Before that, an earlier batch the same day
+  (twelfth round): **The Wind in the Willows** (A2, classics) — Kenneth
   Grahame's 1908 novel (PG#289), Ch. 1 "The River Bank": Mole abandons
   his spring-cleaning, discovers the riverbank for the first time, and
   meets the Water Rat, who rows him across, tips them both into the
@@ -687,7 +708,12 @@ has a genuine period cover/illustration in the public domain, download that into
     shelf's first Wilkie Collins pick; the Prologue, Walter Hartright's
     midnight encounter with a mysterious solitary woman dressed all in
     white on the lonely road to London, and his discovery moments
-    later that she has just escaped from a madhouse) is live too.
+    later that she has just escaped from a madhouse) is live too, and
+    now **The Turn of the Screw** (Henry James — another entirely fresh
+    author; the framing chapter, Douglas's promise of a story stranger
+    than any told, and the odd condition the Harley Street bachelor set
+    for the governess he hired to take sole charge of his orphaned niece
+    and nephew at Bly) is live too.
     Next: a ninth Wharton, or another fresh author.
     Row 73 (Sonnet 43) is a poem, a different lesson shape.
   - A1 (keep diversifying away from Potter): **Mother Holle**, **The
@@ -733,7 +759,12 @@ has a genuine period cover/illustration in the public domain, download that into
     beans, climbs the beanstalk that grows overnight, and outwits a
     giant three times before chopping the beanstalk down for good; the
     giant's death softened to "came crashing down... and was never
-    seen again") is live too.
+    seen again") is live too, and now **The Three Sillies** (a sixth
+    Jacobs's English Fairy Tales pick — a farmer's daughter, her mother,
+    and her father each cry over an imagined future tragedy involving a
+    mallet stuck in the cellar beam, until the daughter's sweetheart
+    laughs, removes the mallet, and finds three people even sillier
+    before marrying her) is live too.
     Next: re-level a gentle A2 tale, or continue into more
     English/American nursery tales.
   - A2: **The Fir Tree**, **The Wild Swans**, **The Snow Queen**

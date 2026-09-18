@@ -2635,5 +2635,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/the-woman-in-white.svg",
     "source": "Adapted from Wilkie Collins's The Woman in White (1859; Project Gutenberg #583, long in the public domain) — the Prologue, \"The Story Begun by Walter Hartright\": walking home alone on the lonely road to London late at night, the drawing master Walter Hartright is stopped by a mysterious solitary woman dressed entirely in white, helps her find a cab, and moments later learns from two anxious pursuers that she has just escaped from a madhouse. An entirely fresh author for the shelf, and the shelf's first Wilkie Collins pick. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "the-three-sillies",
+    "title": "The Three Sillies",
+    "titleTranslation": "세 명의 바보",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Fairy tale",
+    "level": "A1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Joseph Jacobs (1890)",
+    "coverEmoji": "🐄",
+    "coverImage": "/covers/the-three-sillies.svg",
+    "source": "Adapted from Joseph Jacobs's English Fairy Tales (1890; Project Gutenberg #7439) — \"The Three Sillies,\" a sixth pick from the same collection as Henny-Penny, The Three Little Pigs, The Old Woman and Her Pig, The Story of the Three Bears, and Jack and the Beanstalk. Whole tale, compressed: a farmer's daughter, her mother, and her father each cry over an imagined future tragedy involving a mallet stuck in the cellar beam, until the daughter's sweetheart laughs, removes the mallet, and sets out to find three people even sillier before he'll agree to marry her — which he does, easily. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "the-turn-of-the-screw",
+    "title": "The Turn of the Screw",
+    "titleTranslation": "나사의 회전",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Henry James (1916)",
+    "coverEmoji": "🕯️",
+    "coverImage": "/covers/the-turn-of-the-screw.svg",
+    "source": "Adapted from Henry James's The Turn of the Screw (1898; Project Gutenberg #209) — the framing chapter: on a Christmas Eve gathering of ghost-story tellers, Douglas promises a story stranger than any told, then explains its origin — a governess he once knew, hired by a wealthy Harley Street bachelor to take sole charge of his orphaned niece and nephew at Bly on the odd condition that she never trouble him with anything. An entirely fresh author for the shelf. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

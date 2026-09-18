@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Three Sillies, a Joseph Jacobs fairy tale">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 178)" stroke="#A9663F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-6" y="-52" width="12" height="34" fill="#C9A66B" fill-opacity="0.22" stroke-width="1.4"/>
+    <rect x="-22" y="-58" width="44" height="14" rx="3" fill="#C9A66B" fill-opacity="0.28" stroke-width="1.4"/>
+    <circle cx="-30" cy="30" r="18" stroke-width="1" opacity="0.55"/>
+    <path d="M-40 30 Q-30 20 -20 30 Q-30 40 -40 30 Z" stroke-width="0.9" opacity="0.5"/>
+    <circle cx="30" cy="34" r="20" stroke-width="0.9" opacity="0.45"/>
+    <path d="M18 34 Q30 24 42 34" stroke-width="0.9" opacity="0.45"/>
+  </g>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="0.5">The Three</text>
+  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2C2C2C" letter-spacing="0.5">Sillies</text>
+
+  <line x1="150" y1="348" x2="250" y2="348" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="378" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-style="italic" fill="#C57B57">A mallet, a moon, and a cow on the roof</text>
+
+  <text x="200" y="456" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C57B57" letter-spacing="2">JOSEPH JACOBS</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#9A8F80" letter-spacing="2">ENGLISH FAIRY TALES</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>
