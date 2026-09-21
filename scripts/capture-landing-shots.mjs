@@ -14,6 +14,11 @@
  * The trade-off is that they go stale when the reader's UI changes — re-run this
  * after a visual change to the lesson page and commit the three images.
  *
+ * Capture against production (BASE_URL=https://www.seojaestory.app), not `npm run dev`:
+ * next/font fetches Google Fonts at build time, and a dev server that cannot reach
+ * them (a corporate/AV certificate, offline) silently falls back to Times/Arial, which
+ * is exactly what the previous shots baked in.
+ *
  * Needs Node 22+ (global WebSocket) and a local Chrome/Chromium/Edge. Override the
  * browser with CHROME_PATH and the site with BASE_URL.
  */
@@ -27,7 +32,7 @@ import { fileURLToPath } from "node:url";
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.resolve(HERE, "..", "public", "landing");
 const BASE_URL = (process.env.BASE_URL ?? "http://localhost:3000").replace(/\/$/, "");
-const VIEW = { width: 390, height: 780, dpr: 2 };
+const VIEW = { width: 390, height: 780, dpr: 3 };
 
 /** One shot per theme, each from a story whose mood suits it. `word` is the word tapped for its gloss. */
 const SCENES = [
@@ -195,7 +200,7 @@ async function main() {
       const theme = await evaluate(client, "document.documentElement.dataset.theme || 'light'");
       if (theme !== scene.theme) throw new Error(`${scene.slug}: expected ${scene.theme} theme, page is ${theme}`);
 
-      const { data } = await client.send("Page.captureScreenshot", { format: "webp", quality: 84 });
+      const { data } = await client.send("Page.captureScreenshot", { format: "webp", quality: 90 });
       const file = path.join(OUT_DIR, `reader-${scene.theme}.webp`);
       await writeFile(file, Buffer.from(data, "base64"));
       console.log(`${scene.theme.padEnd(5)} ${scene.slug}  →  ${path.relative(process.cwd(), file)}  (${Math.round((data.length * 3) / 4 / 1024)} KB)`);

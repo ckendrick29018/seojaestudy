@@ -103,6 +103,13 @@ body {
 
 body {
   -webkit-tap-highlight-color: transparent;
+  /*
+   * Korean wraps between any two syllables by default, which splits words across lines
+   * ("조 / 심스럽게"). keep-all wraps Korean only at spaces; Latin text is unaffected, and
+   * overflow-wrap still lets an over-long word or URL break instead of overflowing.
+   */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 /*

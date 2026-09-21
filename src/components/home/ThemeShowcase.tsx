@@ -34,9 +34,9 @@ const SHOTS: Record<ReadingTheme, { label: Key; note: Key; story: { slug: string
   },
 };
 
-/** Capture size (CSS px × 2), so the browser can reserve the space before the image loads. */
-const SHOT_WIDTH = 780;
-const SHOT_HEIGHT = 1560;
+/** Capture size (CSS px × 3), so the browser can reserve the space before the image loads. */
+const SHOT_WIDTH = 1170;
+const SHOT_HEIGHT = 2340;
 
 export function ThemeShowcase() {
   const t = useT();
