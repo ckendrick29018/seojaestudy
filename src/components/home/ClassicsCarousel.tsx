@@ -104,9 +104,11 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
           ))}
         </div>
 
-        {/* Soften the peeking neighbours so the strip reads as intentional. */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-6 bg-gradient-to-r from-cream to-transparent lg:w-10" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-cream to-transparent lg:w-10" />
+        {/* Soften the peeking neighbours so the strip reads as intentional. Not on the dark
+            theme: there the fade leaves grey, blurred slivers of the neighbouring covers at
+            each edge, which reads as tunnel vision — the plain hard-cut strip looks cleaner. */}
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-6 bg-gradient-to-r from-cream to-transparent lg:w-10 [[data-theme=dark]_&]:hidden" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-cream to-transparent lg:w-10 [[data-theme=dark]_&]:hidden" />
       </div>
 
       {items.length > 1 && (
