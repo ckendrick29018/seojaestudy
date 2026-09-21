@@ -520,6 +520,34 @@ export const dict = {
     ko: "상호작용형 어휘 플래시카드: 뒤집고, 수업에 나오는 단어들을 하나씩 넘겨 볼 수 있어요.",
   },
 
+  landingThemesTitle: {
+    en: "Read it your way: light, sepia or dark",
+    ko: "내 눈에 맞게 읽어요: 라이트, 세피아, 다크",
+  },
+  landingThemesBody: {
+    en: "Warm sepia for long afternoons, a true dark mode for late nights. Pick a look and the whole app follows. These are real screens from real stories.",
+    ko: "긴 오후에는 따뜻한 세피아로, 늦은 밤에는 진짜 다크 모드로 읽어 보세요. 하나를 고르면 앱 전체가 함께 바뀌어요. 아래는 실제 이야기의 실제 화면이에요.",
+  },
+  landingThemesTry: { en: "Try it on this page", ko: "이 페이지에서 바로 써 보기" },
+  landingThemeLightNote: {
+    en: "The classic cream page, crisp in daylight.",
+    ko: "낮에 또렷하게 읽기 좋은 클래식 크림 페이지예요.",
+  },
+  landingThemeSepiaNote: {
+    en: "Warm, paper-like tones that stay easy on the eyes for long reads.",
+    ko: "종이처럼 따뜻한 색감이라 오래 읽어도 눈이 편해요.",
+  },
+  landingThemeDarkNote: {
+    en: "A true dark page for reading in bed or on the night bus.",
+    ko: "잠자리나 밤 버스에서 읽기 좋은 진짜 다크 페이지예요.",
+  },
+  landingThemesFrom: { en: "From {title}", ko: "{title} 중에서" },
+  landingThemesAlt: {
+    en: "{theme} reading theme: a screen from {title}, with a tapped word and its Korean meaning",
+    ko: "{theme} 읽기 테마: {title}의 한 장면으로, 탭한 단어와 그 뜻이 보여요",
+  },
+  landingThemesShots: { en: "Reading theme screenshots", ko: "읽기 테마 화면 모음" },
+
   landingHowTitle: { en: "How a lesson works", ko: "수업은 이렇게 진행돼요" },
   landingStep1Title: { en: "Read a short story", ko: "짧은 이야기를 읽어요" },
   landingStep1Body: {
