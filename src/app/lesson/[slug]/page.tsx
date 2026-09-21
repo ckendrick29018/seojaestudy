@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { lessons } from "@/lib/data/lessons";
+import { getBookContext } from "@/lib/books";
 import { LessonView } from "@/components/lesson/LessonView";
 import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
@@ -67,13 +68,19 @@ export default async function LessonPage({ params }: { params: { slug: string } 
     !(await hasActiveSubscription()) &&
     !(await hasClubUnlockForLesson(lesson.slug));
 
+  const bookContext = getBookContext(lesson.slug);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(lessonJsonLd(lesson)) }}
       />
-      {locked ? <LessonPaywall lesson={lesson} /> : <LessonView lesson={lesson} />}
+      {locked ? (
+        <LessonPaywall lesson={lesson} bookContext={bookContext} />
+      ) : (
+        <LessonView lesson={lesson} bookContext={bookContext} />
+      )}
     </>
   );
 }

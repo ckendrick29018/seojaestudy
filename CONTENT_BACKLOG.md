@@ -679,6 +679,11 @@ has a genuine period cover/illustration in the public domain, download that into
   editing a lesson, also run `npm run lessons:index` and commit
   `src/lib/data/lessons-index.generated.ts`, or the new lesson won't show up
   on those pages (see `scripts/build-lesson-index.ts`).
+- **Chapters of a novel are grouped in `src/lib/data/books.ts`.** When a new
+  lesson is another chapter of a work that already has one, title it
+  `"Book title: Chapter subtitle"` and append its slug to that book's
+  `chapters` (reading order). `npm run lessons:index` validates the file. A
+  novel with only one lesson isn't a book yet; add an entry once it has two.
 - Levels on the shelf now: A1 ×19 (Cinderella, The Selfish Giant, The
   Emperor's New Clothes, The Princess and the Pea, Little Red Riding Hood,
   The Frog Prince, Pollyanna Ch. 1, The Tale of Peter Rabbit,

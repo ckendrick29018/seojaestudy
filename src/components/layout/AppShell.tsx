@@ -20,6 +20,7 @@ const MARKETING_PREFIXES = [
   "/settings",
   "/quotes",
   "/quote",
+  "/book",
   "/biographies",
 ];
 

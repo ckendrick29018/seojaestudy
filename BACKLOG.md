@@ -62,9 +62,41 @@ of a chapter, or a whole short story). Readers want to keep going past that.
 2. **Full multi-chapter graded versions for the most-requested titles.** Keep
    writing simplified retellings, but extend a work to Ch.1…Ch.N so KO readers
    get full coverage too. Demand-driven (per `seojae-content-categories`).
-3. **Model it as a `book`.** A `book` groups `chapters: (gradedSlug |
-   originalOnly)[]`; add a Book page, cross-chapter reading progress, and a
-   "Continue reading" row on the dashboard.
+3. **Model it as a `book`.** *(Graded-chapters half shipped 2026-09-21 — see
+   below.)* A `book` groups `chapters: (gradedSlug | originalOnly)[]`; add a Book
+   page, cross-chapter reading progress, and a "Continue reading" row on the
+   dashboard. The `originalOnly` chapter kind (item 1) is not modelled yet —
+   `Book.chapters` is `string[]` of lesson slugs today.
+
+**Shipped 2026-09-21 — multi-chapter book model (graded chapters).**
+`src/lib/data/books.ts` lists each book as `{ id, title, titleTranslation,
+chapters: lessonSlug[] }`; lessons stay standalone and un-edited, so nothing in
+the 36k-line `lessons.ts` changed. Six novels are registered (Pride and
+Prejudice, Jane Eyre, Little Women, Anne of Green Gables, A Little Princess, The
+Secret Garden — two parts each, already in the library as separate lessons).
+- **Lesson page:** a "Part 2 of 6 · Book title" pill under the title, and at the
+  end an "Up next" card + the part list with completion ticks
+  (`components/lesson/BookChapters.tsx`). The server page builds a small
+  `BookContext` prop so the lesson page doesn't ship the lesson index.
+- **`/book/[id]`:** part list, a Start / Continue-with-part-N button driven by
+  progress, `CollectionPage` JSON-LD, in the sitemap.
+- **Dashboard:** `ContinueReadingSection` (top of `/library`) shows up to 3 cards
+  — per book in progress, the part left open or else the part after the last one
+  finished, plus standalone stories opened in the last 14 days and never
+  completed. Progress rolls up from the existing `completedLessons`; "opened" is
+  a new device-local log (`src/lib/reading-log.ts`, `luminaread:reading-log`,
+  not synced to Supabase).
+- **Adding a chapter:** write the lesson (title `"Book: Subtitle"`), append its
+  slug to the book in `books.ts`, run `npm run lessons:index` (it now also
+  validates books: unknown slugs, a lesson in two books, one-chapter "books").
+- **Known gaps / ideas:** every part 2 is currently `isFree: false` (the
+  "Gate 5 novel-continuation lessons behind subscription" decision), so during
+  the closed test a tester following "Up next" lands on the paywall — the UI
+  marks those parts Premium, but see the Premium/pricing section before Play.
+  "Completed" is still the manual button in `SummaryBox`, so a part that was read
+  but not marked shows as "Continue". Cards on `/classics` don't yet flag "part
+  of a N-part book". Only 2 parts per book exist, so the model pays off as
+  chapters are added (content-first).
 
 **SEO bonus (ties into the `/learn` + FAQ work):** full-text chapter pages are a
 large, legitimate long-tail surface ("<book title> chapter 4 full text read

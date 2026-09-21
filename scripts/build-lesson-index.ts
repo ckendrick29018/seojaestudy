@@ -19,6 +19,7 @@
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { lessons } from "../src/lib/data/lessons";
+import { BOOKS } from "../src/lib/data/books";
 import { estimateReadingTime } from "../src/lib/utils";
 import type { LessonMeta } from "../src/lib/types";
 
@@ -29,6 +30,45 @@ const lessonIndex: LessonMeta[] = lessons.map((lesson) => {
   for (const field of HEAVY_FIELDS) delete meta[field];
   return meta;
 });
+
+// Books (src/lib/data/books.ts) reference lessons by slug, so a typo there would
+// silently drop a chapter from the UI. Fail the run instead.
+function validateBooks(): { errors: string[]; warnings: string[] } {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const titleBySlug = new Map(lessons.map((l) => [l.slug, l.title]));
+  const bookOfSlug = new Map<string, string>();
+  const ids = new Set<string>();
+
+  for (const book of BOOKS) {
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(book.id)) errors.push(`book "${book.id}": id must be lowercase-hyphenated`);
+    if (ids.has(book.id)) errors.push(`book "${book.id}": duplicate id`);
+    ids.add(book.id);
+    if (book.chapters.length < 2) errors.push(`book "${book.id}": needs at least two chapters (a single story is just a lesson)`);
+
+    for (const slug of book.chapters) {
+      const title = titleBySlug.get(slug);
+      if (title === undefined) {
+        errors.push(`book "${book.id}": no lesson with slug "${slug}"`);
+        continue;
+      }
+      const other = bookOfSlug.get(slug);
+      if (other) errors.push(`lesson "${slug}" is in both "${other}" and "${book.id}"`);
+      bookOfSlug.set(slug, book.id);
+      if (title !== book.title && !title.startsWith(`${book.title}: `)) {
+        warnings.push(`book "${book.id}": lesson "${slug}" is titled "${title}"; the chapter list will show that whole title instead of a short subtitle`);
+      }
+    }
+  }
+  return { errors, warnings };
+}
+
+const bookCheck = validateBooks();
+bookCheck.warnings.forEach((w) => console.warn(`warning: ${w}`));
+if (bookCheck.errors.length > 0) {
+  bookCheck.errors.forEach((e) => console.error(`error: ${e}`));
+  process.exit(1);
+}
 
 const outPath = join(__dirname, "..", "src", "lib", "data", "lessons-index.generated.ts");
 

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
+import { BOOKS } from "@/lib/data/books";
 import { ARTICLES } from "@/lib/articles";
 import { QUOTES } from "@/lib/quotes";
 import { CONTENT_LAST_MODIFIED, SITE_URL } from "@/lib/site";
@@ -62,6 +63,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const bookEntries: MetadataRoute.Sitemap = BOOKS.map((book) => ({
+    url: `${SITE_URL}/book/${book.id}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    alternates: bilingual(`/book/${book.id}`),
+  }));
+
   const lessonEntries: MetadataRoute.Sitemap = lessons.map((lesson) => ({
     url: `${SITE_URL}/lesson/${lesson.slug}`,
     lastModified,
@@ -70,5 +79,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: bilingual(`/lesson/${lesson.slug}`),
   }));
 
-  return [...staticEntries, ...articleEntries, ...quoteEntries, ...lessonEntries];
+  return [...staticEntries, ...articleEntries, ...quoteEntries, ...bookEntries, ...lessonEntries];
 }

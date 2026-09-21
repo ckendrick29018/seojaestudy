@@ -1,12 +1,14 @@
 "use client";
 
 import type { Lesson } from "@/lib/types";
+import type { BookContext } from "@/lib/books";
 import { Badge } from "@/components/ui/Badge";
 import { ClockIcon } from "@/components/ui/icons";
 import { useT } from "@/components/providers/LanguageProvider";
 import { estimateReadingTime } from "@/lib/utils";
+import { BookPartLink } from "./BookChapters";
 
-export function LessonHero({ lesson }: { lesson: Lesson }) {
+export function LessonHero({ lesson, bookContext }: { lesson: Lesson; bookContext?: BookContext }) {
   const t = useT();
   const minutes = estimateReadingTime(lesson);
 
@@ -30,6 +32,7 @@ export function LessonHero({ lesson }: { lesson: Lesson }) {
       <h1 className="mb-1 font-serif text-3xl font-semibold text-charcoal">{lesson.title}</h1>
       <p className="text-base text-charcoal/60">{lesson.titleTranslation}</p>
       {lesson.author && <p className="mt-0.5 text-sm text-charcoal/45">{lesson.author}</p>}
+      <BookPartLink context={bookContext} />
       <div className="mt-3 inline-flex items-center gap-1.5 text-sm text-charcoal/50">
         <ClockIcon className="h-4 w-4" />
         <span>

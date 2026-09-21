@@ -1,5 +1,6 @@
 "use client";
 
+import { ContinueReadingSection } from "@/components/home/ContinueReadingSection";
 import { LessonOfDayCard } from "@/components/home/LessonOfDayCard";
 import { BookshelfPreview } from "@/components/home/BookshelfPreview";
 import { SavedForLaterSection } from "@/components/home/SavedForLaterSection";
@@ -46,6 +47,7 @@ export function LibraryClient() {
       <p className="mb-8 inline-block rounded-full bg-sage/25 px-3.5 py-1.5 text-xs font-medium text-charcoal/70">
         {t("libraryGoalNote")}
       </p>
+      <ContinueReadingSection />
       <LessonOfDayCard />
       <BookshelfPreview />
       <SavedForLaterSection />

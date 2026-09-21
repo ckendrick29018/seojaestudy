@@ -50,6 +50,38 @@ export function lessonDescription(lesson: LessonLight): string {
   );
 }
 
+/** "B1" or "B1–B2" across a book's parts. */
+function levelRange(parts: LessonLight[]): string {
+  const order = ["A1", "A2", "B1", "B2"];
+  const ranks = parts.map((p) => order.indexOf(p.level)).filter((r) => r >= 0);
+  if (ranks.length === 0) return "";
+  const lo = order[Math.min(...ranks)];
+  const hi = order[Math.max(...ranks)];
+  return lo === hi ? lo : `${lo}–${hi}`;
+}
+
+/** The <title> for a book page. `parts` are the book's lessons in reading order. */
+export function bookMetaTitle(title: string, parts: LessonLight[]): string {
+  const first = parts[0];
+  const byline = first?.author ? ` by ${stripDates(first.author)}` : "";
+  const langs = first ? `${LANGUAGE_NAME[first.targetLanguage]}–${nativeLanguageName(first)} ` : "";
+  return `${title}${byline} — ${langs}Graded Reader in ${parts.length} Chapters`;
+}
+
+/** Marketing/meta description for a book page. */
+export function bookDescription(title: string, parts: LessonLight[]): string {
+  const first = parts[0];
+  const byline = first?.author ? ` by ${stripDates(first.author)}` : "";
+  const target = first ? LANGUAGE_NAME[first.targetLanguage] : "English";
+  const native = first ? nativeLanguageName(first) : "Korean";
+  const levels = levelRange(parts);
+  return (
+    `Read "${title}"${byline} chapter by chapter as a bilingual graded reader: ${parts.length} parts retold ` +
+    `in simple ${target}${levels ? ` (CEFR ${levels})` : ""}, each with a sentence-by-sentence ${native} translation, ` +
+    `audio narration, vocabulary flashcards, and a comprehension check. Start free.`
+  );
+}
+
 /**
  * Long-tail keyword set for a lesson page. Google reads the visible copy, but a
  * focused `keywords` list still helps some engines and is cheap to emit.

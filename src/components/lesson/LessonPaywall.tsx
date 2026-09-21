@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import type { Lesson } from "@/lib/types";
+import type { BookContext } from "@/lib/books";
 import { LessonHero } from "./LessonHero";
 import { useT } from "@/components/providers/LanguageProvider";
 import { LockIcon } from "@/components/ui/icons";
@@ -9,12 +10,12 @@ import { Button } from "@/components/ui/Button";
 
 /** Shown instead of <LessonView> when a lesson isn't free and the visitor
  *  doesn't currently have an active subscription. */
-export function LessonPaywall({ lesson }: { lesson: Lesson }) {
+export function LessonPaywall({ lesson, bookContext }: { lesson: Lesson; bookContext?: BookContext }) {
   const t = useT();
 
   return (
     <article className="pb-16">
-      <LessonHero lesson={lesson} />
+      <LessonHero lesson={lesson} bookContext={bookContext} />
       <div className="mx-5 flex flex-col items-center gap-3 rounded-xl2 border border-rose-light/50 bg-white/60 p-8 text-center shadow-soft">
         <LockIcon className="h-8 w-8 text-rose-soft" />
         <h2 className="font-serif text-xl font-semibold text-charcoal">{t("premiumLockedTitle")}</h2>
