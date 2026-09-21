@@ -83,6 +83,30 @@ export const BOOKS: Book[] = [
     titleTranslation: "드라큘라",
     chapters: ["dracula", "dracula-the-castle", "dracula-the-three-women"],
   },
+  {
+    id: "moby-dick",
+    title: "Moby Dick",
+    titleTranslation: "모비 딕",
+    chapters: ["moby-dick-loomings", "moby-dick-quarter-deck"],
+  },
+  {
+    id: "the-hound-of-the-baskervilles",
+    title: "The Hound of the Baskervilles",
+    titleTranslation: "바스커빌가의 개",
+    chapters: ["hound-of-the-baskervilles-holmes", "hound-of-the-baskervilles-curse"],
+  },
+  {
+    id: "dr-jekyll-and-mr-hyde",
+    title: "Dr. Jekyll and Mr. Hyde",
+    titleTranslation: "지킬 박사와 하이드 씨",
+    chapters: ["dr-jekyll-and-mr-hyde", "dr-jekyll-and-mr-hyde-carew-murder"],
+  },
+  {
+    id: "alices-adventures-in-wonderland",
+    title: "Alice's Adventures in Wonderland",
+    titleTranslation: "이상한 나라의 앨리스",
+    chapters: ["alice-in-wonderland", "alice-in-wonderland-tea-party"],
+  },
 ];
 
 /** Book that a lesson belongs to, with its 0-based position. Cheap: no lesson data. */

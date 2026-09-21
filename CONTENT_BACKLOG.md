@@ -1226,16 +1226,16 @@ summed where a title has several):
 | Work | ~Downloads | Status |
 |--|--|--|
 | Pride and Prejudice | 269k (#1342 + #42671) | 3 parts |
-| Moby Dick | 191k | not started |
+| Moby Dick | 191k | 2 parts |
 | Dracula | 172k (#345 + #45839) | 2 parts |
-| Jekyll & Hyde | 161k (#43 ×2) | 1 part |
+| Jekyll & Hyde | 161k (#43 ×2) | 2 parts |
 | Sense and Sensibility | 158k (#21839 + #161) | 2 parts |
 | Sherlock Holmes (Adventures) | 107k | 2 stories, not a book |
 | Jane Eyre | 104k | 3 parts |
-| Alice in Wonderland | 96k | 1 part |
+| Alice in Wonderland | 96k | 2 parts |
 | Middlemarch | 86k | 1 part |
 | Little Women | 79k | 2 parts |
-| Hound of the Baskervilles | 66k | not started |
+| Hound of the Baskervilles | 66k | 2 parts |
 
 **Left out on purpose:** *A Room with a View* (Forster d. 1970) and *A Farewell to
 Arms* (Hemingway d. 1961) rank high but are not life+70 PD (sourcing rule 1);
@@ -1269,7 +1269,7 @@ fuller B1 retelling (roughly 30 sentences) as its own lesson rather than a part 
 The Dracula chapter keeps the gothic menace but drops the sensual detail of the
 original scene (the source stays PG-13 in the retelling, like the rest of the shelf).
 
-**Wave 3a — written 2026-09-21** (uncommitted until asked):
+**Wave 3a — written 2026-09-21** (pushed):
 
 | Book | New chapter | Source | Level |
 |--|--|--|--|
@@ -1279,9 +1279,30 @@ original scene (the source stays PG-13 in the retelling, like the rest of the sh
 Both were checked against the Gutenberg text before writing (it is Meg, not Beth,
 who hears Jo cry; Aunt March sent the money with a grumpy note that Mrs. March burned).
 
+**Wave 3b — written 2026-09-21** (four new books; each needed two lessons to register):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Moby Dick → **new book**, part 1 | Loomings | Ch. 1 | B2 |
+| Moby Dick → part 2 | The Quarter-Deck | Ch. 36 | B2 |
+| The Hound of the Baskervilles → **new book**, part 1 | Mr. Sherlock Holmes | Ch. 1 | B1 |
+| The Hound of the Baskervilles → part 2 | The Curse of the Baskervilles | Ch. 2 | B1 |
+| Dr. Jekyll and Mr. Hyde → **new book**, part 2 | The Carew Murder Case | Ch. 4 | B2 |
+| Alice's Adventures in Wonderland → **new book**, part 2 | A Mad Tea-Party | Ch. 7 | A2 |
+
+Sources: Gutenberg #2701 (Moby Dick), #2852 (Hound), #43 (Jekyll), #11 (Alice). Our own
+retellings and Korean translations, as with every lesson. Covers are generated with the
+pinned palettes described below.
+
+**Cover palettes are pinned (2026-09-21).** `scripts/generate-covers.mjs` used to deal
+palettes by hash order over every book in a collection, so adding any book shifted the
+deal and recoloured covers readers already knew. `scripts/cover-palettes.json` (written by
+`node scripts/generate-covers.mjs --pin`, keyed `FAMILY:slug`) now fixes existing books;
+only new, unpinned books are dealt, each taking the collection's least-used palette. To
+freeze a fresh set of covers after adding books, run `--pin` **before** adding the new
+cover entries (with `BOOKS_TS` pointing at the previous `books.ts` if `books.ts` already
+changed), or hand-edit the JSON.
+
 **Wave 3 — remaining, suggested order:**
-1. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
-   Ch. 36 "The Quarter-Deck"), *The Hound of the Baskervilles*, *Dr Jekyll and Mr
-   Hyde* (a second lesson makes it a book), *Alice's Adventures in Wonderland*.
-2. Then part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the
-   second proposal; Jane Eyre: Ch. 26 the wedding).
+1. Part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the second
+   proposal; Jane Eyre: Ch. 26 the wedding).

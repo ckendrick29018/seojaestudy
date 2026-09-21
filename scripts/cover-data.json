@@ -3702,5 +3702,131 @@
    96,
    76
   ]
+ },
+ {
+  "slug": "moby-dick-loomings",
+  "aria": "Moby Dick: Loomings by Herman Melville",
+  "footer": "CLASSICS",
+  "title": "Moby Dick",
+  "tagline": "Loomings",
+  "author": [
+   "HERMAN MELVILLE"
+  ],
+  "meta": [
+   "CHAPTER 1",
+   "1851"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-30 6 L30 6 L22 18 L-22 18 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.16\"/>\n    <path d=\"M0 6 L0 -38\" stroke-width=\"1.5\"/>\n    <path d=\"M2 -34 Q 22 -22 24 0 L2 0 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-2 -28 Q -16 -16 -18 0 L-2 0 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-50 26 q 12.5 -8 25 0 t 25 0 t 25 0 t 25 0\" stroke-width=\"1.3\"/>\n    <path d=\"M-44 34 q 11 -7 22 0 t 22 0 t 22 0 t 22 0\" stroke-width=\"1.1\" opacity=\"0.5\"/>\n  </g>",
+  "bbox": [
+   150,
+   138,
+   100,
+   72
+  ]
+ },
+ {
+  "slug": "moby-dick-quarter-deck",
+  "aria": "Moby Dick: The Quarter-Deck by Herman Melville",
+  "footer": "CLASSICS",
+  "title": "Moby Dick",
+  "tagline": "The Quarter-Deck",
+  "author": [
+   "HERMAN MELVILLE"
+  ],
+  "meta": [
+   "CHAPTER 36",
+   "1851"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-32 -44 L-32 44 M32 -44 L32 44\" stroke-width=\"1.4\"/>\n    <circle cx=\"0\" cy=\"-2\" r=\"24\" stroke-width=\"1.6\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <circle cx=\"0\" cy=\"-2\" r=\"18\" stroke-width=\"1\" opacity=\"0.6\"/>\n    <path d=\"M0 -14 L3.5 -5 L13 -5 L5.5 1 L8.5 10 L0 4.5 L-8.5 10 L-5.5 1 L-13 -5 L-3.5 -5 Z\" stroke-width=\"1.2\" fill=\"#C9A66B\" fill-opacity=\"0.35\"/>\n    <circle cx=\"0\" cy=\"-32\" r=\"2.4\" fill=\"#A9663F\" stroke=\"none\"/>\n  </g>",
+  "bbox": [
+   168,
+   132,
+   64,
+   88
+  ]
+ },
+ {
+  "slug": "hound-of-the-baskervilles-holmes",
+  "aria": "The Hound of the Baskervilles: Mr. Sherlock Holmes by Arthur Conan Doyle",
+  "footer": "CLASSICS",
+  "title": "The Hound of the Baskervilles",
+  "tagline": "Mr. Sherlock Holmes",
+  "author": [
+   "ARTHUR CONAN DOYLE"
+  ],
+  "meta": [
+   "CHAPTER 1",
+   "1902"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M18 -22 Q 18 -44 0 -44 Q -10 -44 -10 -34\" stroke-width=\"2.6\"/>\n    <path d=\"M18 -22 L18 46\" stroke-width=\"2.6\"/>\n    <path d=\"M14 -14 h8 M14 -9 h8\" stroke-width=\"1.3\"/>\n    <circle cx=\"-12\" cy=\"12\" r=\"16\" stroke-width=\"1.6\" fill=\"#C9A66B\" fill-opacity=\"0.14\"/>\n    <path d=\"M-1 24 L12 38\" stroke-width=\"3.2\"/>\n  </g>",
+  "bbox": [
+   172,
+   132,
+   50,
+   90
+  ]
+ },
+ {
+  "slug": "hound-of-the-baskervilles-curse",
+  "aria": "The Hound of the Baskervilles: The Curse of the Baskervilles by Arthur Conan Doyle",
+  "footer": "CLASSICS",
+  "title": "The Hound of the Baskervilles",
+  "tagline": "The Curse of the Baskervilles",
+  "author": [
+   "ARTHUR CONAN DOYLE"
+  ],
+  "meta": [
+   "CHAPTER 2",
+   "1902"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-14 22 Q -14 4 0 4 Q 14 4 14 22 Q 8 30 0 26 Q -8 30 -14 22 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <ellipse cx=\"-24\" cy=\"-6\" rx=\"6\" ry=\"8\" transform=\"rotate(-25 -24 -6)\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <ellipse cx=\"-9\" cy=\"-20\" rx=\"6.5\" ry=\"9\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <ellipse cx=\"9\" cy=\"-20\" rx=\"6.5\" ry=\"9\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <ellipse cx=\"24\" cy=\"-6\" rx=\"6\" ry=\"8\" transform=\"rotate(25 24 -6)\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-46 40 Q -20 30 0 38 T 46 34\" stroke-width=\"1.2\" opacity=\"0.5\"/>\n  </g>",
+  "bbox": [
+   168,
+   146,
+   64,
+   72
+  ]
+ },
+ {
+  "slug": "dr-jekyll-and-mr-hyde-carew-murder",
+  "aria": "Dr. Jekyll and Mr. Hyde: The Carew Murder Case by Robert Louis Stevenson",
+  "footer": "CLASSICS",
+  "title": "Dr. Jekyll and Mr. Hyde",
+  "tagline": "The Carew Murder Case",
+  "author": [
+   "ROBERT LOUIS STEVENSON"
+  ],
+  "meta": [
+   "CHAPTER 4",
+   "1886"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-38 -32 L-6 0\" stroke-width=\"4\"/>\n    <path d=\"M-6 0 l6 -2 l-3 6 l6 -1\" stroke-width=\"1.3\"/>\n    <path d=\"M8 12 L38 42\" stroke-width=\"4\"/>\n    <path d=\"M8 12 l-6 2 l3 -6 l-6 1\" stroke-width=\"1.3\"/>\n    <path d=\"M30 -38 a 9 9 0 1 0 8 14 a 7 7 0 1 1 -8 -14 z\" stroke-width=\"1.2\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n  </g>",
+  "bbox": [
+   160,
+   138,
+   84,
+   82
+  ]
+ },
+ {
+  "slug": "alice-in-wonderland-tea-party",
+  "aria": "Alice’s Adventures in Wonderland: A Mad Tea-Party by Lewis Carroll",
+  "footer": "CLASSICS",
+  "title": "Alice’s Adventures in Wonderland",
+  "tagline": "A Mad Tea-Party",
+  "author": [
+   "LEWIS CARROLL"
+  ],
+  "meta": [
+   "CHAPTER 7",
+   "1865"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-24 -8 Q -26 22 0 24 Q 26 22 24 -8 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.16\"/>\n    <path d=\"M-16 -8 Q 0 -22 16 -8\" stroke-width=\"1.4\"/>\n    <circle cx=\"0\" cy=\"-24\" r=\"3\" stroke-width=\"1.3\"/>\n    <path d=\"M24 2 Q 36 4 44 -12\" stroke-width=\"1.6\"/>\n    <path d=\"M-24 0 Q -42 -2 -40 12 Q -38 22 -22 18\" stroke-width=\"1.5\"/>\n    <path d=\"M-6 -32 q -4 -6 0 -10 q 4 -4 0 -10\" stroke-width=\"1.2\" opacity=\"0.5\"/>\n  </g>",
+  "bbox": [
+   158,
+   124,
+   88,
+   78
+  ]
  }
 ]

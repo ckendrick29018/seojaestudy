@@ -6,6 +6,7 @@
  *   node scripts/generate-covers.mjs jane-eyre       # only slugs containing "jane-eyre"
  *   node scripts/generate-covers.mjs --out /tmp/prev # write somewhere else (preview)
  *   node scripts/generate-covers.mjs --sheet         # also write <out>/_sheet.html
+ *   node scripts/generate-covers.mjs --pin           # freeze today's colours into cover-palettes.json
  *
  * Why a generator: the covers are shown through <img>, where an SVG cannot use the
  * site's web fonts, so live <text> fell back to whatever "Georgia" resolved to on the
@@ -32,10 +33,12 @@ const FONT_DIR = (pkg) => path.join(ROOT, "node_modules", "@fontsource", pkg, "f
 const args = process.argv.slice(2);
 let outDir = path.join(ROOT, "public", "covers");
 let wantSheet = false;
+let wantPin = false;
 const filters = [];
 for (let i = 0; i < args.length; i++) {
   if (args[i] === "--out") outDir = path.resolve(args[++i]);
   else if (args[i] === "--sheet") wantSheet = true;
+  else if (args[i] === "--pin") wantPin = true;
   else filters.push(args[i]);
 }
 
@@ -232,7 +235,8 @@ const hash = (s) => {
 
 /** slug -> book id, so every chapter of a book wears the same colours. */
 function bookIndex() {
-  const src = readFileSync(path.join(ROOT, "src/lib/data/books.ts"), "utf8");
+  // BOOKS_TS lets --pin read an older books.ts (e.g. `git show HEAD:...`) to freeze the colours it produced.
+  const src = readFileSync(process.env.BOOKS_TS ?? path.join(ROOT, "src/lib/data/books.ts"), "utf8");
   const map = new Map();
   for (const m of src.matchAll(/id:\s*"([^"]+)"[\s\S]*?chapters:\s*\[([^\]]*)\]/g)) {
     for (const s of m[2].matchAll(/"([^"]+)"/g)) map.set(s[1], m[1]);
@@ -417,10 +421,47 @@ const keyOf = (d) => books.get(d.slug) ?? d.slug;
 
 // Spread palettes evenly within each collection: order the collection's books by a
 // stable hash and deal palettes out in turn, so no colour dominates and neighbours vary.
+//
+// The plain deal shifts for every book whenever a book is added, which would recolour
+// covers readers already know. So `cover-palettes.json` (written by --pin, keyed by
+// "FAMILY:slug") freezes existing books; only books with no pin are dealt, each taking
+// the least-used palette of its collection so far.
+const PIN_FILE = path.join(HERE, "cover-palettes.json");
+const pins = existsSync(PIN_FILE) ? JSON.parse(readFileSync(PIN_FILE, "utf8")) : {};
 const paletteFor = new Map();
 for (const family of Object.keys(PALETTES)) {
+  const n = PALETTES[family].length;
   const keys = [...new Set(data.filter((d) => d.footer === family).map(keyOf))].sort((a, b) => hash(a) - hash(b));
-  keys.forEach((k, i) => paletteFor.set(`${family}:${k}`, PALETTES[family][i % PALETTES[family].length]));
+  if (wantPin) {
+    keys.forEach((k, i) => paletteFor.set(`${family}:${k}`, i % n));
+    continue;
+  }
+  const used = new Array(n).fill(0);
+  for (const d of data.filter((x) => x.footer === family)) {
+    const pin = pins[`${family}:${d.slug}`];
+    const id = `${family}:${keyOf(d)}`;
+    if (pin !== undefined && !paletteFor.has(id)) {
+      paletteFor.set(id, pin);
+      used[pin]++;
+    }
+  }
+  for (const k of keys) {
+    const id = `${family}:${k}`;
+    if (paletteFor.has(id)) continue;
+    let best = 0;
+    for (let i = 1; i < n; i++) if (used[i] < used[best]) best = i;
+    paletteFor.set(id, best);
+    used[best]++;
+  }
+}
+const paletteOf = (d) => PALETTES[d.footer]?.[paletteFor.get(`${d.footer}:${keyOf(d)}`)] ?? PALETTES.CLASSICS[0];
+
+if (wantPin) {
+  const out = {};
+  for (const d of data) out[`${d.footer}:${d.slug}`] = paletteFor.get(`${d.footer}:${keyOf(d)}`);
+  writeFileSync(PIN_FILE, JSON.stringify(out, null, 1) + "\n");
+  console.log(`pinned ${Object.keys(out).length} covers → ${path.relative(process.cwd(), PIN_FILE)}`);
+  process.exit(0);
 }
 
 mkdirSync(outDir, { recursive: true });
@@ -428,7 +469,7 @@ const made = [];
 let bytes = 0;
 for (const d of data) {
   if (filters.length && !filters.some((f) => d.slug.includes(f))) continue;
-  const svg = buildCover(d, paletteFor.get(`${d.footer}:${keyOf(d)}`) ?? PALETTES.CLASSICS[0]);
+  const svg = buildCover(d, paletteOf(d));
   writeFileSync(path.join(outDir, `${d.slug}.svg`), svg);
   bytes += svg.length;
   made.push(d.slug);

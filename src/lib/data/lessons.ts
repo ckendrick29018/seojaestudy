@@ -38990,6 +38990,1308 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "moby-dick-loomings",
+    title: "Moby Dick: Loomings",
+    titleTranslation: "모비 딕: 어렴풋한 예감",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1819–1891)",
+    coverEmoji: "🐋",
+    coverImage: "/covers/moby-dick-loomings.svg",
+    source:
+      "Adapted from Chapter 1 (\"Loomings\") of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Ishmael goes to sea, and why he always goes as a simple sailor rather than as a passenger.",
+    paragraphs: [
+      [
+        {
+          id: "mdl-1",
+          text: "Call me Ishmael — some years ago, with little money in my purse and nothing to interest me on shore, I decided to sail about a little and see the watery part of the world.",
+          translation:
+            "저를 이슈메일이라고 불러 주세요. 몇 해 전, 지갑에는 돈이 별로 없고 뭍에는 마음을 끄는 것도 없어서, 저는 배를 타고 바다를 좀 돌아다니며 세상의 물로 된 부분을 구경해 보기로 했어요.",
+        },
+        {
+          id: "mdl-2",
+          text: "Whenever I grow grim about the mouth, and whenever it is a damp, drizzly November in my soul, I decide that it is high time to get to sea as soon as I can.",
+          translation:
+            "입가가 굳어지고 마음속이 축축하고 우중충한 11월 같아질 때마다, 저는 하루빨리 바다로 나가야 할 때라고 결심해요.",
+        },
+        {
+          id: "mdl-3",
+          text: "The sea is my cure for gloom, and I am sure that almost every man, sooner or later, feels much the same about the ocean as I do.",
+          translation:
+            "바다는 저에게 우울을 다스리는 약이에요. 그리고 거의 모든 사람이 언젠가는 바다에 대해 저와 비슷한 마음을 품는다고 저는 확신해요.",
+        },
+      ],
+      [
+        {
+          id: "mdl-4",
+          text: "Just look at the city of Manhattan, ringed with wharves like an island ringed with coral reefs, where every street to the left and right leads you down to the water.",
+          translation:
+            "맨해튼을 보세요. 섬이 산호초에 둘러싸이듯 부두에 빙 둘러싸여 있고, 좌우 어느 거리로 가든 결국 물가로 내려가게 돼요.",
+        },
+        {
+          id: "mdl-5",
+          text: "On a dreamy Sunday afternoon, thousands upon thousands of men stand like silent guards along the piers, lost in ocean reveries.",
+          translation:
+            "꿈결 같은 일요일 오후면 수천수만 명의 남자들이 말없는 파수꾼처럼 부두를 따라 서서 바다에 대한 몽상에 잠겨 있어요.",
+        },
+        {
+          id: "mdl-6",
+          text: "These are the same men who spend their weekdays shut up in offices, tied to counters and nailed to benches, so what are they doing here?",
+          translation:
+            "이 사람들은 평일에는 사무실에 갇혀 계산대에 묶이고 작업대에 못 박힌 듯 지내는 바로 그 사람들인데, 여기서 대체 무엇을 하고 있는 걸까요?",
+        },
+      ],
+      [
+        {
+          id: "mdl-7",
+          text: "Nothing will satisfy them except the very edge of the land, and they stand as near the water as they can without falling in.",
+          translation:
+            "그들은 땅의 맨 끝이 아니면 만족하지 못해서, 물에 빠지지 않는 한 최대한 물 가까이에 서 있어요.",
+        },
+        {
+          id: "mdl-8",
+          text: "Even in the quiet countryside, almost any path you take will lead you down to a pool in a stream, and even the most absent-minded dreamer will find his way to water.",
+          translation:
+            "조용한 시골에서도 어느 길을 택하든 십중팔구 시냇가의 웅덩이로 이어지고, 아무리 정신이 딴 데 팔린 몽상가라도 어느새 물가를 찾아가요.",
+        },
+        {
+          id: "mdl-9",
+          text: "Even a painter's most peaceful landscape would feel empty without water, so I ask you: why is almost every healthy boy, at some time or other, crazy to go to sea?",
+          translation:
+            "화가가 그린 가장 평화로운 풍경도 물이 없으면 허전하게 느껴질 거예요. 그러니 묻고 싶어요. 건강한 소년이라면 거의 누구나 한 번쯤 바다에 나가고 싶어 안달하는 이유가 무엇일까요?",
+        },
+        {
+          id: "mdl-10",
+          text: "I think the answer lies in Narcissus, who plunged into the water to grasp a lovely image and drowned; in every ocean we see that same image, the ungraspable phantom of life.",
+          translation:
+            "저는 그 답이 나르키소스에게 있다고 생각해요. 나르키소스는 물에 비친 아름다운 모습을 붙잡으려고 뛰어들었다가 빠져 죽었지요. 우리는 모든 바다에서 그와 똑같은 모습, 붙잡을 수 없는 삶의 환영을 보아요.",
+        },
+      ],
+      [
+        {
+          id: "mdl-11",
+          text: "When I go to sea, I never go as a passenger, because passengers need a full purse and get seasick and grow quarrelsome, and I never go as a captain or a cook either.",
+          translation:
+            "저는 바다로 나갈 때 절대 승객으로 가지 않아요. 승객에게는 두둑한 지갑이 필요한 데다 뱃멀미를 하고 걸핏하면 다투기 때문이에요. 선장이나 요리사로도 가지 않아요.",
+        },
+        {
+          id: "mdl-12",
+          text: "I go as a simple sailor, right up into the rigging, where the old captains order me about and make me jump from spar to spar like a grasshopper in a May meadow.",
+          translation:
+            "저는 평범한 선원으로 배를 타요. 돛줄을 타고 높이 올라가면, 늙은 선장들이 이래라저래라 하는 대로 5월 풀밭의 메뚜기처럼 이 활대에서 저 활대로 뛰어다니게 되지요.",
+        },
+        {
+          id: "mdl-13",
+          text: "At first this stings your pride, especially if you were lately a country schoolmaster with the tallest boys standing in awe of you, but even that wears off in time.",
+          translation:
+            "처음에는 자존심이 상해요. 얼마 전까지 시골 학교 선생님으로서 덩치 큰 아이들까지 벌벌 떨게 하던 사람이라면 더욱 그렇지요. 하지만 그것도 시간이 지나면 무뎌져요.",
+        },
+      ],
+      [
+        {
+          id: "mdl-14",
+          text: "Besides, a sailor is paid for his trouble while a passenger must pay, and there is all the difference in the world between paying and being paid.",
+          translation:
+            "게다가 선원은 수고한 대가를 받지만 승객은 돈을 내야 해요. 돈을 내는 것과 받는 것 사이에는 하늘과 땅 차이가 있지요.",
+        },
+        {
+          id: "mdl-15",
+          text: "Best of all, a sailor enjoys the healthy exercise and pure air of the forecastle deck, while the captain on the quarter-deck breathes his air second-hand from the crew.",
+          translation:
+            "무엇보다 좋은 점은, 선원은 선수루 갑판에서 건강한 운동과 맑은 공기를 누리는 반면 후갑판의 선장은 그 공기를 선원들에게서 간접적으로 얻어 마신다는 거예요.",
+        },
+      ],
+      [
+        {
+          id: "mdl-16",
+          text: "Why I chose a whaling voyage this time, I cannot say, but I imagine that Fate's playbill read: Grand Election for the Presidency, Whaling Voyage by One Ishmael, Bloody Battle in Afghanistan.",
+          translation:
+            "이번에는 왜 고래잡이 항해를 택했는지 저도 잘 모르겠어요. 하지만 운명의 공연 안내판에는 아마 이렇게 적혀 있었을 거예요. 대통령 선거, 이슈메일의 고래잡이 항해, 아프가니스탄의 피비린내 나는 전투.",
+        },
+        {
+          id: "mdl-17",
+          text: "Above all, it was the great whale himself, that mysterious monster of distant seas, who drew me on, and in my imagination one grand, hooded phantom rose among the whales like a snow hill in the air.",
+          translation:
+            "무엇보다 저를 끌어당긴 것은 먼바다에 사는 신비로운 괴물, 거대한 고래 그 자신이었어요. 상상 속에서 고래들의 행렬 한가운데로 두건을 쓴 듯한 웅장한 환영이 눈 덮인 산처럼 공중에 솟아올랐지요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdl-v1",
+        term: "reverie",
+        partOfSpeech: "noun",
+        translation: "몽상, 공상",
+        example: "Ishmael stood on the pier, lost in reverie.",
+        exampleTranslation: "이슈메일은 몽상에 잠겨 부두에 서 있었어요.",
+      },
+      {
+        id: "mdl-v2",
+        term: "wharf",
+        partOfSpeech: "noun",
+        translation: "부두, 선착장",
+        example: "Crowds gathered on the wharf to watch the ships.",
+        exampleTranslation: "사람들이 배를 구경하려고 부두에 모여들었어요.",
+      },
+      {
+        id: "mdl-v3",
+        term: "forecastle",
+        partOfSpeech: "noun",
+        translation: "선수루 (뱃머리 쪽 선원 숙소)",
+        example: "The sailors slept in the forecastle.",
+        exampleTranslation: "선원들은 선수루에서 잠을 잤어요.",
+      },
+      {
+        id: "mdl-v4",
+        term: "phantom",
+        partOfSpeech: "noun",
+        translation: "환영, 유령",
+        example: "A pale phantom seemed to rise above the waves.",
+        exampleTranslation: "창백한 환영이 파도 위로 솟아오르는 듯했어요.",
+      },
+      {
+        id: "mdl-v5",
+        term: "whaling",
+        partOfSpeech: "adjective",
+        translation: "고래잡이의",
+        example: "The whaling ship sailed from Nantucket.",
+        exampleTranslation: "고래잡이 배가 낸터킷에서 출항했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdl-q1",
+        prompt: "What does Ishmael do whenever it is a damp, drizzly November in his soul?",
+        options: [
+          "He writes long letters to his friends.",
+          "He takes a job in an office.",
+          "He decides it is high time to get to sea.",
+          "He goes back to teaching school.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Going to sea is Ishmael's cure for gloom: whenever he grows grim and low-spirited, he decides it is time to sail.",
+      },
+      {
+        id: "mdl-q2",
+        prompt: "What does Ishmael notice about the crowds on Manhattan's piers on a Sunday afternoon?",
+        options: [
+          "They are waiting to unload a ship from China.",
+          "They spend the week shut up in offices, yet they crowd as near the water as they can.",
+          "They are all sailors about to leave on a voyage.",
+          "They have come to hear a speech on the wharf.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "These men are tied to counters and desks all week, yet on Sunday they cannot help standing at the very edge of the sea. For Ishmael this shows how strongly water draws people.",
+      },
+      {
+        id: "mdl-q3",
+        prompt: "Why does Ishmael say he always goes to sea as a simple sailor rather than as a passenger?",
+        options: [
+          "Passengers are not allowed on whaling ships.",
+          "He hopes to become a captain soon.",
+          "He is afraid of the ship's officers.",
+          "Sailors are paid and get fresh air, while passengers must pay and get seasick.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "He points out that a sailor is paid instead of paying, and enjoys healthy exercise and pure air on the forecastle deck, while passengers pay, feel seasick and quarrel.",
+      },
+    ],
+  },
+  {
+    slug: "moby-dick-quarter-deck",
+    title: "Moby Dick: The Quarter-Deck",
+    titleTranslation: "모비 딕: 후갑판",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1819–1891)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/moby-dick-quarter-deck.svg",
+    source:
+      "Adapted from Chapter 36 (\"The Quarter-Deck\") of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Captain Ahab announces to his crew, and why Starbuck is uneasy about it.",
+    paragraphs: [
+      [
+        {
+          id: "mdq-1",
+          text: "All day long Captain Ahab paced the deck on his ivory leg, so lost in one dark thought that the boards under his feet were dented with his steps.",
+          translation:
+            "에이해브 선장은 하루 종일 상아 의족으로 갑판을 오갔고, 어두운 생각 하나에 깊이 빠져 있어서 발밑의 널빤지가 그의 걸음으로 움푹 패어 있었어요.",
+        },
+        {
+          id: "mdq-2",
+          text: "Near the end of the day he suddenly halted, set his ivory leg into a hole in the rail, gripped a rope with one hand, and ordered his first mate, Starbuck, to send every man aft.",
+          translation:
+            "해가 저물 무렵 에이해브는 갑자기 걸음을 멈추고, 난간의 구멍에 의족을 끼워 세운 채 한 손으로 밧줄을 붙잡고서, 일등항해사 스타벅에게 모든 선원을 후갑판으로 불러 모으라고 명령했어요.",
+        },
+        {
+          id: "mdq-3",
+          text: "Starbuck was astonished, because such an order is given on a ship only when something extraordinary is about to happen, but soon the whole crew stood gathered around their captain.",
+          translation:
+            "스타벅은 깜짝 놀랐어요. 그런 명령은 배 위에서 뭔가 특별한 일이 있을 때가 아니면 좀처럼 내려지지 않기 때문이에요. 하지만 곧 선원 전원이 선장 둘레에 모여 섰어요.",
+        },
+      ],
+      [
+        {
+          id: "mdq-4",
+          text: "Ahab asked them what they did when they sighted a whale, and the crew roared back, \"We sing out! We lower the boats and go after him!\"",
+          translation:
+            "에이해브가 고래를 발견하면 어떻게 하느냐고 묻자, 선원들은 \"소리쳐 알립니다! 보트를 내려 뒤쫓습니다!\" 하고 우렁차게 대답했어요.",
+        },
+        {
+          id: "mdq-5",
+          text: "Then he held up a gold coin worth sixteen dollars, nailed it to the mainmast with a hammer, and promised it to the first man who sighted a white whale with a wrinkled brow and a crooked jaw.",
+          translation:
+            "그러고 나서 16달러짜리 금화를 높이 치켜들고 망치로 주 돛대에 못 박더니, 주름진 이마와 굽은 턱을 가진 흰 고래를 가장 먼저 발견하는 사람에게 주겠다고 약속했어요.",
+        },
+        {
+          id: "mdq-6",
+          text: "The sailors cheered, but the three harpooners, Tashtego, Daggoo and Queequeg, gave a start at those words, as if each of them remembered something.",
+          translation:
+            "선원들은 환호했지만, 작살잡이 타슈테고와 다구와 퀴퀘그 세 사람은 그 말에 저마다 무언가를 떠올린 듯 흠칫 놀랐어요.",
+        },
+      ],
+      [
+        {
+          id: "mdq-7",
+          text: "\"That white whale must be the one some men call Moby Dick,\" said Tashtego, and Daggoo and Queequeg described his bushy spout and the old harpoons twisted in his hide like corkscrews.",
+          translation:
+            "\"그 흰 고래는 사람들이 모비 딕이라고 부르는 바로 그 고래가 틀림없습니다.\" 타슈테고가 말했고, 다구와 퀴퀘그는 그 고래의 덥수룩한 물줄기와 가죽에 코르크 따개처럼 비틀려 박힌 낡은 작살들을 이야기했어요.",
+        },
+        {
+          id: "mdq-8",
+          text: "When Starbuck asked whether it was Moby Dick that had taken his leg, Ahab answered with a wild sob that it was, and that the whale had left him standing on a dead stump.",
+          translation:
+            "스타벅이 다리를 앗아 간 것이 모비 딕이었느냐고 묻자, 에이해브는 거친 흐느낌을 터뜨리며 그렇다고, 그 고래가 자신을 죽은 나무 그루터기 위에 서 있게 만들었다고 대답했어요.",
+        },
+        {
+          id: "mdq-9",
+          text: "He swore that he would chase the white whale round the Cape of Good Hope, round Cape Horn, and even round the flames of hell before he gave him up, and he asked the men to join hands on it.",
+          translation:
+            "에이해브는 희망봉을 돌고 혼곶을 돌고 지옥의 불길 언저리까지 돌아서라도 그 흰 고래를 포기하지 않고 쫓겠다고 맹세하며, 선원들에게 손을 맞잡고 함께하자고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "mdq-10",
+          text: "The sailors shouted, \"A sharp eye for the white whale, and a sharp lance for Moby Dick!\" — but the honest first mate Starbuck stood silent, with a long face.",
+          translation:
+            "선원들은 \"흰 고래에겐 날카로운 눈을, 모비 딕에겐 날카로운 창을!\" 하고 외쳤지만, 정직한 일등항해사 스타벅만은 침울한 얼굴로 말이 없었어요.",
+        },
+        {
+          id: "mdq-11",
+          text: "\"I came here to hunt whales, not my captain's vengeance,\" he said, \"and it is madness to hate a dumb brute that only struck you out of blind instinct.\"",
+          translation:
+            "\"저는 고래를 잡으러 왔지, 선장님의 복수를 하러 온 것이 아닙니다.\" 스타벅이 말했어요. \"본능에 눈이 멀어 선장님을 친 말 못 하는 짐승을 미워하는 건 미친 짓입니다.\"",
+        },
+        {
+          id: "mdq-12",
+          text: "Ahab answered that everything we see is only a mask, and that behind the white whale he sensed a hidden, reasoning malice: \"If a man will strike, let him strike through the mask!\"",
+          translation:
+            "에이해브는 우리 눈에 보이는 모든 것은 가면에 불과하며, 흰 고래 뒤에서 이성을 지닌 숨은 악의가 느껴진다고 대답했어요. \"사람이 내리치려면, 가면을 뚫고 내리쳐야 하네!\"",
+        },
+      ],
+      [
+        {
+          id: "mdq-13",
+          text: "He said he would strike even the sun if it insulted him, and he pointed to the crew, who were all on his side, until Starbuck, unable to stand alone against the whole ship, fell silent.",
+          translation:
+            "에이해브는 태양이 자신을 모욕한다면 태양이라도 치겠다고 말하고 자기편에 선 선원들을 가리켰고, 결국 온 배를 상대로 혼자 맞설 수 없었던 스타벅은 입을 다물었어요.",
+        },
+        {
+          id: "mdq-14",
+          text: "Starbuck murmured, \"God keep me — keep us all!\" but Ahab, glad of his silence, did not hear him, nor the low laugh from the hold, nor the sails that flapped hollowly against the masts as if in warning.",
+          translation:
+            "스타벅은 \"하느님, 저를 지켜 주소서. 우리 모두를 지켜 주소서!\" 하고 낮게 중얼거렸지만, 스타벅이 잠잠해진 것이 기쁜 에이해브는 그 말도, 선창 속에서 들려온 낮은 웃음소리도, 경고라도 하듯 돛대에 허하게 펄럭이는 돛 소리도 듣지 못했어요.",
+        },
+        {
+          id: "mdq-15",
+          text: "First the whole crew passed a pewter flagon of strong drink round the circle; then Ahab told his three harpooners to take the iron heads off their harpoons and hold them up like goblets, and he filled each one to the brim.",
+          translation:
+            "먼저 선원 모두가 둥글게 서서 백랍 술병에 든 독한 술을 돌려 마셨어요. 그다음 에이해브는 작살잡이 세 사람에게 작살 쇠날을 뽑아 잔처럼 받쳐 들게 하고, 하나하나 가득 채웠어요.",
+        },
+      ],
+      [
+        {
+          id: "mdq-16",
+          text: "\"Drink, and swear!\" he cried. \"Death to Moby Dick! God hunt us all if we do not hunt Moby Dick to his death!\"",
+          translation:
+            "\"마시고 맹세하라!\" 에이해브가 외쳤어요. \"모비 딕에게 죽음을! 우리가 모비 딕을 죽을 때까지 쫓지 못한다면, 하느님이 우리 모두를 사냥하시기를!\"",
+        },
+        {
+          id: "mdq-17",
+          text: "The harpooners drank with a hiss and the crew cried out curses against the white whale, Starbuck turned pale and shivered, and Ahab waved them all away and went into his cabin.",
+          translation:
+            "작살잡이들이 쉭 소리를 내며 술을 들이켜자 선원들은 흰 고래를 향해 저주를 외쳤고, 스타벅은 창백해져 몸을 떨었어요. 에이해브는 모두를 손짓으로 물리치고 선실로 들어갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdq-v1",
+        term: "harpoon",
+        partOfSpeech: "noun",
+        translation: "작살",
+        example: "The harpooner raised his sharp harpoon.",
+        exampleTranslation: "작살잡이가 날카로운 작살을 치켜들었어요.",
+      },
+      {
+        id: "mdq-v2",
+        term: "vengeance",
+        partOfSpeech: "noun",
+        translation: "복수",
+        example: "Ahab wanted vengeance on the white whale.",
+        exampleTranslation: "에이해브는 흰 고래에게 복수하고 싶어 했어요.",
+      },
+      {
+        id: "mdq-v3",
+        term: "mast",
+        partOfSpeech: "noun",
+        translation: "돛대",
+        example: "The gold coin was nailed to the mast.",
+        exampleTranslation: "금화가 돛대에 못 박혀 있었어요.",
+      },
+      {
+        id: "mdq-v4",
+        term: "malice",
+        partOfSpeech: "noun",
+        translation: "악의",
+        example: "Ahab saw a cruel malice behind the whale's strength.",
+        exampleTranslation: "에이해브는 고래의 힘 뒤에서 잔인한 악의를 보았어요.",
+      },
+      {
+        id: "mdq-v5",
+        term: "swear",
+        partOfSpeech: "verb",
+        translation: "맹세하다",
+        example: "The crew swore to hunt the white whale.",
+        exampleTranslation: "선원들은 흰 고래를 사냥하겠다고 맹세했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdq-q1",
+        prompt: "What did Ahab nail to the mainmast?",
+        options: [
+          "A gold coin, promised to the first man who sighted the white whale.",
+          "A map of the whale's route.",
+          "A letter from the ship's owners.",
+          "A flag with a whale on it.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Ahab held up a gold coin, nailed it to the mainmast and promised it to whoever first sighted the white whale with the wrinkled brow and crooked jaw.",
+      },
+      {
+        id: "mdq-q2",
+        prompt: "Why did Starbuck object to Ahab's plan?",
+        options: [
+          "He was afraid of the sea.",
+          "He thought the ship was too small.",
+          "He had come to hunt whales for a living, not to help his captain take revenge on an animal.",
+          "He wanted the gold coin for himself.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Starbuck said that he had come to hunt whales, not his commander's vengeance, and that it was madness to hate a dumb brute that had only struck out of blind instinct.",
+      },
+      {
+        id: "mdq-q3",
+        prompt: "How did Ahab make the crew swear their oath?",
+        options: [
+          "They signed a paper in his cabin.",
+          "They drank strong drink, and the harpooners drank from their harpoon heads held like cups.",
+          "They sang an old sea song together.",
+          "They drew lots for the first watch.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After the crew had passed the flagon around, Ahab filled the iron heads of his harpooners' harpoons like goblets, and they drank and swore death to Moby Dick.",
+      },
+    ],
+  },
+  {
+    slug: "hound-of-the-baskervilles-holmes",
+    title: "The Hound of the Baskervilles: Mr. Sherlock Holmes",
+    titleTranslation: "바스커빌가의 개: 셜록 홈스 씨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "🔍",
+    coverImage: "/covers/hound-of-the-baskervilles-holmes.svg",
+    source:
+      "Adapted from Chapter 1 (\"Mr. Sherlock Holmes\") of Arthur Conan Doyle's novel \"The Hound of the Baskervilles\" (serialised 1901–1902; long in the public domain, Project Gutenberg #2852). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what Holmes worked out about Dr. Mortimer from his walking stick, and what Holmes got wrong.",
+    paragraphs: [
+      [
+        {
+          id: "hbh-1",
+          text: "One morning Sherlock Holmes sat at the breakfast table, and I stood on the hearth-rug, holding the walking stick that a visitor had left behind the night before.",
+          translation:
+            "어느 날 아침, 셜록 홈스는 아침 식탁에 앉아 있었고 저는 벽난로 앞 깔개 위에 서서, 전날 밤 방문객이 두고 간 지팡이를 들고 있었어요.",
+        },
+        {
+          id: "hbh-2",
+          text: "It was a fine, heavy stick with a silver band just under the handle, and on the band were engraved the words: \"To James Mortimer, from his friends of the C.C.H., 1884.\"",
+          translation:
+            "그 지팡이는 손잡이 바로 아래에 은띠가 둘린 튼튼하고 멋진 물건이었고, 띠에는 이렇게 새겨져 있었어요. \"제임스 모티머에게, C.C.H. 친구들이, 1884년.\"",
+        },
+        {
+          id: "hbh-3",
+          text: "Holmes, sitting with his back to me, asked, \"Well, Watson, what do you make of it?\" and when I wondered how he knew what I was doing, he pointed to the polished silver coffee-pot in front of him.",
+          translation:
+            "홈스는 저를 등지고 앉은 채 물었어요. \"자, 왓슨, 이걸 어떻게 생각하나?\" 제가 어떻게 제 행동을 알았느냐고 묻자, 홈스는 눈앞에 놓인 반짝이는 은 커피포트를 가리켰어요.",
+        },
+      ],
+      [
+        {
+          id: "hbh-4",
+          text: "I said that Dr. Mortimer must be an elderly, successful country doctor who did a great deal of walking, because the stick was so knocked about and its iron tip was worn down.",
+          translation:
+            "저는 모티머 박사가 나이 지긋하고 성공한 시골 의사이며 아주 많이 걸어 다니는 사람일 거라고 말했어요. 지팡이가 그토록 낡고 쇠로 된 끝이 닳아 있었기 때문이에요.",
+        },
+        {
+          id: "hbh-5",
+          text: "I added that C.C.H. probably stood for a local hunt whose members the doctor had helped, and Holmes cried, \"Excellent, Watson!\"",
+          translation:
+            "또 C.C.H.는 아마 의사가 도와준 적이 있는 지역 사냥 모임을 뜻할 거라고 덧붙이자, 홈스가 \"훌륭해, 왓슨!\" 하고 외쳤어요.",
+        },
+        {
+          id: "hbh-6",
+          text: "He even said that I might not be a genius myself, but I was a wonderful conductor of light, and I felt proud — until he added that most of my conclusions were wrong.",
+          translation:
+            "홈스는 제가 천재는 아닐지 몰라도 빛을 전해 주는 훌륭한 전도체라고까지 말했고, 저는 뿌듯했어요. 대부분의 결론이 틀렸다고 덧붙이기 전까지는요.",
+        },
+      ],
+      [
+        {
+          id: "hbh-7",
+          text: "Holmes examined the stick through a magnifying glass and said that C.C.H. more likely meant Charing Cross Hospital, because a gift to a doctor is more likely to come from a hospital than from a hunt.",
+          translation:
+            "홈스는 돋보기로 지팡이를 살펴본 뒤, C.C.H.는 채링 크로스 병원을 뜻할 가능성이 더 크다고 했어요. 의사에게 주는 선물은 사냥 모임보다 병원에서 오는 경우가 많기 때문이에요.",
+        },
+        {
+          id: "hbh-8",
+          text: "The gift must have been given five years earlier, when the doctor left the hospital to work in the country, and since only well-established doctors held the hospital's top jobs, he must have been only a young junior doctor.",
+          translation:
+            "그 선물은 5년 전, 의사가 병원을 떠나 시골에서 일하기 시작할 때 주어졌을 거라고 홈스는 말했어요. 병원의 높은 자리는 자리 잡은 의사들만 맡았으니, 모티머는 젊은 수련의였을 거라고요.",
+        },
+        {
+          id: "hbh-9",
+          text: "So the owner, Holmes announced, was not a grave, middle-aged man but a friendly, unambitious, absent-minded fellow under thirty, with a favourite dog that was bigger than a terrier and smaller than a mastiff.",
+          translation:
+            "그래서 지팡이 주인은 엄숙한 중년 남성이 아니라, 서른 살이 채 안 된 상냥하고 야심 없고 건망증이 있는 젊은이이며, 테리어보다 크고 마스티프보다 작은 개를 아낀다고 홈스는 선언했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbh-10",
+          text: "I laughed, but I took down the Medical Directory and found that a James Mortimer had been a junior doctor at Charing Cross Hospital from 1882 to 1884 and now lived in Grimpen, on Dartmoor.",
+          translation:
+            "저는 웃었지만 의사 명부를 꺼내 찾아보았고, 제임스 모티머라는 사람이 1882년부터 1884년까지 채링 크로스 병원의 수련의였고 지금은 다트무어의 그림펜에 산다는 사실을 알아냈어요.",
+        },
+        {
+          id: "hbh-11",
+          text: "\"And the dog?\" I asked, and Holmes explained that the marks of teeth in the middle of the stick showed the dog had carried it behind its master, and that the jaw was too broad for a terrier and too narrow for a mastiff: it was a spaniel with curly hair.",
+          translation:
+            "\"그럼 개는요?\" 제가 묻자, 홈스는 지팡이 가운데에 난 이빨 자국을 보면 개가 주인 뒤에서 이것을 물고 다녔다는 걸 알 수 있고, 턱 폭이 테리어에겐 너무 넓고 마스티프에겐 너무 좁으니 곱슬털 스패니얼이라고 설명했어요.",
+        },
+        {
+          id: "hbh-12",
+          text: "Then he stopped at the window and said, \"I can see the dog on our doorstep, and its owner is ringing the bell — this is the dramatic moment, Watson, when you hear a step on the stair that is walking into your life.\"",
+          translation:
+            "그러더니 홈스는 창가에서 걸음을 멈추고 말했어요. \"우리 집 문간에 그 개가 보이고, 주인이 초인종을 누르고 있군. 왓슨, 지금이 바로 극적인 순간이야. 계단 위 발소리가 자네 인생으로 걸어 들어오고 있다네.\"",
+        },
+      ],
+      [
+        {
+          id: "hbh-13",
+          text: "Dr. Mortimer came in: a very tall, thin man with a long nose like a beak, keen grey eyes behind his glasses, and a slightly untidy coat.",
+          translation:
+            "모티머 박사가 들어왔어요. 새 부리처럼 긴 코에 안경 뒤로 예리한 회색 눈이 빛나는 키가 크고 마른 남자였고, 외투는 조금 단정치 못했어요.",
+        },
+        {
+          id: "hbh-14",
+          text: "He ran to the stick with a cry of joy, said that he would not lose it for the world, and explained that his friends at Charing Cross Hospital had given it to him when he married.",
+          translation:
+            "박사는 기쁨의 탄성을 지르며 지팡이로 달려가 세상없어도 잃어버리고 싶지 않다고 말하고, 채링 크로스 병원의 친구들이 결혼할 때 선물해 준 것이라고 설명했어요.",
+        },
+        {
+          id: "hbh-15",
+          text: "\"Dear, dear, that's bad!\" said Holmes, because the doctor had spoiled one of his little deductions; yet the main points were right, for Mortimer had left the hospital to make a home in the country.",
+          translation:
+            "\"이런, 이런, 그건 곤란한데!\" 홈스가 말했어요. 의사 때문에 작은 추리 하나가 틀어졌기 때문이에요. 하지만 중요한 부분은 맞았어요. 모티머는 시골에서 가정을 꾸리려고 병원을 떠났으니까요.",
+        },
+      ],
+      [
+        {
+          id: "hbh-16",
+          text: "Dr. Mortimer said that he had come because he faced a most extraordinary problem and that Holmes was the second highest expert in Europe; when Holmes asked, a little sharply, who was the first, he named a French scientist, Bertillon.",
+          translation:
+            "모티머 박사는 아주 이상한 문제에 맞닥뜨려 찾아왔고 홈스가 유럽에서 두 번째로 뛰어난 전문가라고 말했어요. 홈스가 조금 날카롭게 첫 번째는 누구냐고 묻자, 박사는 프랑스 학자 베르티옹의 이름을 댔어요.",
+        },
+        {
+          id: "hbh-17",
+          text: "Holmes told him that he had better stop the compliments and explain plainly what the problem was, and so the strange case of the Hound of the Baskervilles began.",
+          translation:
+            "홈스는 칭찬은 그만하고 문제가 무엇인지 분명하게 설명하는 편이 좋겠다고 말했고, 그렇게 바스커빌가의 개를 둘러싼 기이한 사건이 시작되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hbh-v1",
+        term: "engrave",
+        partOfSpeech: "verb",
+        translation: "새기다",
+        example: "The words were engraved on the silver band.",
+        exampleTranslation: "그 글귀는 은띠에 새겨져 있었어요.",
+      },
+      {
+        id: "hbh-v2",
+        term: "deduction",
+        partOfSpeech: "noun",
+        translation: "추리, 추론",
+        example: "Holmes explained his deduction step by step.",
+        exampleTranslation: "홈스는 자신의 추리를 한 단계씩 설명했어요.",
+      },
+      {
+        id: "hbh-v3",
+        term: "absent-minded",
+        partOfSpeech: "adjective",
+        translation: "정신이 딴 데 팔린, 건망증이 있는",
+        example: "The absent-minded doctor left his stick behind.",
+        exampleTranslation: "정신이 딴 데 팔린 의사는 지팡이를 두고 갔어요.",
+      },
+      {
+        id: "hbh-v4",
+        term: "spaniel",
+        partOfSpeech: "noun",
+        translation: "스패니얼 (귀가 처진 사냥개 품종)",
+        example: "The doctor's spaniel waited at the door.",
+        exampleTranslation: "의사의 스패니얼이 문간에서 기다리고 있었어요.",
+      },
+      {
+        id: "hbh-v5",
+        term: "magnifying glass",
+        partOfSpeech: "noun",
+        translation: "돋보기",
+        example: "Holmes looked at the stick through a magnifying glass.",
+        exampleTranslation: "홈스는 돋보기로 지팡이를 들여다보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hbh-q1",
+        prompt: "How did Holmes know what Watson was doing, even with his back turned?",
+        options: [
+          "He heard Watson's footsteps on the hearth-rug.",
+          "He saw Watson in the polished silver coffee-pot.",
+          "He had a mirror on the wall in front of him.",
+          "The visitor had told him the night before.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Holmes sat with his back to Watson, but the polished silver coffee-pot in front of him showed everything behind him, like a small mirror.",
+      },
+      {
+        id: "hbh-q2",
+        prompt: "What picture of the stick's owner did Holmes draw, unlike Watson?",
+        options: [
+          "A young, friendly, absent-minded country doctor with a spaniel.",
+          "An old, successful town doctor who loved hunting.",
+          "A retired sea captain with a terrier.",
+          "A grave, middle-aged surgeon with a mastiff.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Watson guessed an elderly, successful doctor. Holmes argued from the date and the teeth marks that the owner was a young, unambitious, absent-minded man with a favourite dog.",
+      },
+      {
+        id: "hbh-q3",
+        prompt: "What did the letters C.C.H. on the stick really stand for?",
+        options: [
+          "A local hunt club.",
+          "The Country Cricket Hall.",
+          "Charing Cross Hospital.",
+          "The Church of the Holy Cross.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Watson guessed a local hunt, but Holmes reasoned that a gift to a doctor would come from a hospital, and Dr. Mortimer confirmed that his friends at Charing Cross Hospital had given him the stick.",
+      },
+    ],
+  },
+  {
+    slug: "hound-of-the-baskervilles-curse",
+    title: "The Hound of the Baskervilles: The Curse of the Baskervilles",
+    titleTranslation: "바스커빌가의 개: 바스커빌 가문의 저주",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "🌕",
+    coverImage: "/covers/hound-of-the-baskervilles-curse.svg",
+    source:
+      "Adapted from Chapter 2 (\"The Curse of the Baskervilles\") of Arthur Conan Doyle's novel \"The Hound of the Baskervilles\" (serialised 1901–1902; long in the public domain, Project Gutenberg #2852). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, retell the legend of Hugo Baskerville, and say what Dr. Mortimer revealed at the end of the chapter.",
+    paragraphs: [
+      [
+        {
+          id: "hbc-1",
+          text: "Dr. Mortimer took an old, yellow manuscript from his pocket, and Holmes guessed from the handwriting that it had been written in the early eighteenth century.",
+          translation:
+            "모티머 박사가 주머니에서 누렇게 바랜 낡은 원고를 꺼내자, 홈스는 필체를 보고 18세기 초에 쓰인 것이라고 짐작했어요.",
+        },
+        {
+          id: "hbc-2",
+          text: "Sir Charles Baskerville, who had died suddenly three months earlier, had left it in the doctor's care, and it told an old legend of a curse on the Baskerville family.",
+          translation:
+            "석 달 전 갑자기 세상을 떠난 찰스 바스커빌 경이 이것을 박사에게 맡겼는데, 바스커빌 가문에 내려오는 저주의 옛 전설이 적혀 있었어요.",
+        },
+        {
+          id: "hbc-3",
+          text: "Holmes leaned back and closed his eyes, and Dr. Mortimer began to read the strange old story in a high, cracking voice.",
+          translation:
+            "홈스는 몸을 뒤로 기대고 눈을 감았고, 모티머 박사는 높고 갈라지는 목소리로 그 기이한 옛이야기를 읽기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbc-4",
+          text: "Long ago, Hugo Baskerville, the master of Baskerville Hall, was a wild and cruel man whose name was known throughout the west of England.",
+          translation:
+            "오래전 바스커빌 저택의 주인 휴고 바스커빌은 거칠고 잔인한 사람이어서, 그의 이름은 잉글랜드 서부 전역에 알려져 있었어요.",
+        },
+        {
+          id: "hbc-5",
+          text: "One autumn day he and his drunken friends carried off a farmer's daughter, who feared his bad name and had always avoided him, while her father and brothers were away from home.",
+          translation:
+            "어느 가을날, 휴고는 술 취한 친구들과 함께 농부의 딸을 납치했어요. 그 딸은 휴고의 나쁜 평판이 무서워 늘 피해 다녔고, 마침 아버지와 형제들은 집을 비운 때였지요.",
+        },
+        {
+          id: "hbc-6",
+          text: "They shut her in an upstairs room and sat down below to eat, drink and shout, and the poor girl, half mad with fear, climbed down the ivy on the wall and ran home across the moor.",
+          translation:
+            "친구들은 소녀를 위층 방에 가두고 아래층에 앉아 먹고 마시며 고함을 질러 댔고, 겁에 질려 제정신이 아니던 소녀는 벽을 뒤덮은 담쟁이덩굴을 타고 내려와 황야를 가로질러 집으로 달아났어요.",
+        },
+      ],
+      [
+        {
+          id: "hbc-7",
+          text: "When Hugo found the room empty, he flew into a terrible rage, jumped onto the table, and cried that he would give his soul to the Powers of Evil if he could catch her that night.",
+          translation:
+            "방이 빈 것을 발견한 휴고는 불같이 화를 내며 식탁 위로 뛰어올라, 오늘 밤 그 아이를 붙잡을 수만 있다면 악마의 세력에게 영혼을 바치겠다고 외쳤어요.",
+        },
+        {
+          id: "hbc-8",
+          text: "He let his hounds out of their kennel, gave them a scarf of the girl's to smell, and galloped over the moor in the moonlight with the dogs in full cry, while thirteen of his friends took horses and followed.",
+          translation:
+            "휴고는 사냥개들을 우리에서 풀어 소녀의 스카프 냄새를 맡게 한 뒤, 개들이 짖어 대는 가운데 달빛 아래 황야를 내달렸고, 친구 열세 명도 말을 타고 그 뒤를 따랐어요.",
+        },
+        {
+          id: "hbc-9",
+          text: "On the way they met a frightened shepherd, who told them that Hugo had passed on a black mare with a huge silent hound of hell running behind him; then the mare galloped back with an empty saddle.",
+          translation:
+            "가는 길에 겁에 질린 양치기를 만났는데, 양치기는 휴고가 검은 암말을 타고 지나갔고 그 뒤를 지옥에서 온 거대한 개가 소리 없이 따라가더라고 말했어요. 곧이어 검은 암말이 빈 안장을 단 채 달려 돌아왔어요.",
+        },
+      ],
+      [
+        {
+          id: "hbc-10",
+          text: "The riders found Hugo's hounds whimpering at the head of a narrow valley, and only three of the boldest dared to ride down into it.",
+          translation:
+            "말 탄 사람들은 좁은 골짜기 어귀에서 낑낑대고 있는 휴고의 사냥개들을 발견했고, 가장 대담한 세 사람만이 용기를 내어 골짜기 안으로 말을 몰았어요.",
+        },
+        {
+          id: "hbc-11",
+          text: "In a clearing between two ancient standing stones they saw the girl, dead of fear and tiredness, and Hugo lying dead beside her, and over him stood a great black beast, shaped like a hound but larger than any hound that ever lived.",
+          translation:
+            "두 개의 오래된 선돌 사이 빈터에서 세 사람은 두려움과 피로로 숨진 소녀를 보았고, 그 곁에 죽어 누운 휴고와, 그 위에 서 있는 커다란 검은 짐승을 보았어요. 개의 모습을 했지만 세상에 존재한 어떤 개보다 컸어요.",
+        },
+        {
+          id: "hbc-12",
+          text: "The beast turned its burning eyes on the three men, and they screamed and rode for their lives; one of them died that very night from what he had seen, and the other two were broken men for the rest of their days.",
+          translation:
+            "짐승이 이글거리는 눈으로 세 사람을 쏘아보자 그들은 비명을 지르며 죽어라 말을 달렸고, 한 사람은 그날 밤 자신이 본 것 때문에 죽었으며 나머지 두 사람도 평생 쇠약한 몸으로 살았어요.",
+        },
+      ],
+      [
+        {
+          id: "hbc-13",
+          text: "Ever since then, the writer of the manuscript warned, the hound had troubled the family, and many Baskervilles had died suddenly and strangely, so he told his sons never to cross the moor at night, when the powers of evil are strong.",
+          translation:
+            "그 뒤로 그 개가 가문을 괴롭혀 왔고 많은 바스커빌 사람들이 갑작스럽고 기이하게 죽었다고 원고의 필자는 경고하며, 악의 힘이 강해지는 밤에는 절대 황야를 건너지 말라고 아들들에게 일렀어요.",
+        },
+        {
+          id: "hbc-14",
+          text: "\"Do you find it interesting?\" asked Dr. Mortimer, and Holmes yawned and answered that it was interesting only to a collector of fairy tales.",
+          translation:
+            "\"흥미롭지 않으십니까?\" 모티머 박사가 묻자, 홈스는 하품을 하며 요정 이야기를 모으는 사람에게나 흥미롭겠다고 대답했어요.",
+        },
+        {
+          id: "hbc-15",
+          text: "So the doctor took a newspaper from his pocket and read out the report of Sir Charles's death: his body had been found at the end of the yew alley in the grounds of Baskerville Hall, with no mark of violence on it.",
+          translation:
+            "그러자 박사는 주머니에서 신문을 꺼내 찰스 경의 죽음에 관한 기사를 읽었어요. 시신은 바스커빌 저택 정원의 주목 길 끝에서 발견되었고, 몸에는 폭행의 흔적이 없었지요.",
+        },
+      ],
+      [
+        {
+          id: "hbc-16",
+          text: "Then Dr. Mortimer admitted that Sir Charles had believed in the curse so strongly that he would not go out on the moor at night, and that the dead man's face had been twisted with horror.",
+          translation:
+            "이어서 모티머 박사는 찰스 경이 저주를 너무나 굳게 믿어 밤에는 황야에 나가려 하지 않았다는 것과, 죽은 이의 얼굴이 공포로 일그러져 있었다는 것을 털어놓았어요.",
+        },
+        {
+          id: "hbc-17",
+          text: "But the doctor had noticed something that the police had missed, a little distance from the body, fresh and clear in the ground, and he whispered: \"Mr. Holmes, they were the footprints of a gigantic hound!\"",
+          translation:
+            "하지만 박사는 경찰이 놓친 것을 시신에서 조금 떨어진 곳에서 발견했어요. 땅 위에 선명하게 찍힌 새 발자국이었지요. 박사는 속삭였어요. \"홈스 씨, 그것은 거대한 사냥개의 발자국이었습니다!\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hbc-v1",
+        term: "manuscript",
+        partOfSpeech: "noun",
+        translation: "원고, 필사본",
+        example: "The old manuscript was written in 1742.",
+        exampleTranslation: "그 오래된 원고는 1742년에 쓰였어요.",
+      },
+      {
+        id: "hbc-v2",
+        term: "legend",
+        partOfSpeech: "noun",
+        translation: "전설",
+        example: "The family had a strange legend about a black hound.",
+        exampleTranslation: "그 집안에는 검은 사냥개에 관한 기이한 전설이 있었어요.",
+      },
+      {
+        id: "hbc-v3",
+        term: "moor",
+        partOfSpeech: "noun",
+        translation: "황야 (나무가 거의 없는 넓은 들판)",
+        example: "No one dared to cross the moor at night.",
+        exampleTranslation: "밤에 황야를 건너려는 사람은 아무도 없었어요.",
+      },
+      {
+        id: "hbc-v4",
+        term: "hound",
+        partOfSpeech: "noun",
+        translation: "사냥개",
+        example: "A great black hound stood over the body.",
+        exampleTranslation: "커다란 검은 사냥개가 시신 위에 서 있었어요.",
+      },
+      {
+        id: "hbc-v5",
+        term: "curse",
+        partOfSpeech: "noun",
+        translation: "저주",
+        example: "Sir Charles believed in the family curse.",
+        exampleTranslation: "찰스 경은 가문의 저주를 믿었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hbc-q1",
+        prompt: "What did the farmer's daughter do when Hugo locked her in an upstairs room?",
+        options: [
+          "She waited for her father to rescue her.",
+          "She climbed down the ivy and ran home across the moor.",
+          "She begged Hugo to let her go.",
+          "She rode away on Hugo's black mare.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Half mad with fear, she climbed down the ivy on the wall of the Hall and ran home across the moor.",
+      },
+      {
+        id: "hbc-q2",
+        prompt: "What did the three bravest riders see in the clearing between the standing stones?",
+        options: [
+          "Hugo riding his black mare.",
+          "The girl, safe and well.",
+          "A great black beast like a hound standing over Hugo, who lay dead.",
+          "A fire burning between the stones.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "They found the girl dead of fear and tiredness and Hugo dead beside her, with a huge black beast, shaped like a hound, standing over him.",
+      },
+      {
+        id: "hbc-q3",
+        prompt: "What did Dr. Mortimer say he had found near Sir Charles's body?",
+        options: [
+          "A torn scarf.",
+          "A broken walking stick.",
+          "A letter from Hugo Baskerville.",
+          "The footprints of a gigantic hound.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The police had missed them, but Dr. Mortimer noticed fresh, clear footprints a little distance from the body, and he told Holmes they were those of a gigantic hound.",
+      },
+    ],
+  },
+  {
+    slug: "dr-jekyll-and-mr-hyde-carew-murder",
+    title: "Dr. Jekyll and Mr. Hyde: The Carew Murder Case",
+    titleTranslation: "지킬 박사와 하이드 씨: 커루 살인 사건",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Robert Louis Stevenson (1850–1894)",
+    coverEmoji: "🌫️",
+    coverImage: "/covers/dr-jekyll-and-mr-hyde-carew-murder.svg",
+    source:
+      "Adapted from Chapter 4 (\"The Carew Murder Case\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the maid saw Mr. Hyde do, and how Mr. Utterson connected the crime to Dr. Jekyll.",
+    paragraphs: [
+      [
+        {
+          id: "djc-1",
+          text: "Nearly a year later, in October, London was shaken by a crime of terrible violence, all the more shocking because of the high position of the victim.",
+          translation:
+            "거의 일 년이 지난 10월, 런던은 끔찍한 폭력 범죄에 발칵 뒤집혔고, 피해자의 높은 지위 때문에 충격은 더욱 컸어요.",
+        },
+        {
+          id: "djc-2",
+          text: "That night a maid, living alone in a house near the river, sat at her bedroom window dreaming in the light of the full moon, until she noticed an elderly gentleman with white hair coming along the lane.",
+          translation:
+            "그날 밤 강 근처 집에서 혼자 지내던 하녀는 보름달 빛 속에서 몽상에 잠겨 침실 창가에 앉아 있다가, 흰머리의 나이 지긋한 신사가 골목을 따라 다가오는 것을 알아챘어요.",
+        },
+        {
+          id: "djc-3",
+          text: "A much smaller man came to meet him, and the maid recognised him as Mr. Hyde, who had once visited her master and whom she had disliked at once.",
+          translation:
+            "훨씬 몸집이 작은 남자가 그를 마주 걸어왔는데, 하녀는 그가 예전에 주인을 찾아온 적이 있는 하이드 씨임을 알아보았어요. 그때부터 하이드가 싫었지요.",
+        },
+      ],
+      [
+        {
+          id: "djc-4",
+          text: "The old gentleman bowed politely and seemed to be asking the way, but Hyde, swinging a heavy cane, listened with growing impatience.",
+          translation:
+            "노신사는 공손히 인사하며 길을 묻는 듯했지만, 하이드는 묵직한 지팡이를 만지작거리며 점점 짜증을 내면서 듣고 있었어요.",
+        },
+        {
+          id: "djc-5",
+          text: "Suddenly he flew into a rage, stamping and waving the cane like a madman, and when the old man stepped back, surprised and hurt, Hyde struck him to the ground and attacked him with such savage fury that the maid fainted at the sounds.",
+          translation:
+            "갑자기 하이드는 미치광이처럼 발을 구르고 지팡이를 휘두르며 격노했어요. 노인이 놀라고 상처 입은 얼굴로 뒷걸음질 치자 하이드는 그를 때려눕히고 어찌나 잔혹하게 덤벼들었는지, 하녀는 그 소리에 그만 기절하고 말았어요.",
+        },
+        {
+          id: "djc-6",
+          text: "When she came to herself at two o'clock and called the police, the murderer was long gone.",
+          translation:
+            "새벽 두 시에 정신을 차린 하녀가 경찰을 불렀을 때, 살인자는 이미 오래전에 사라진 뒤였어요.",
+        },
+      ],
+      [
+        {
+          id: "djc-7",
+          text: "The dead man still had his purse and gold watch, and the only paper on him was a sealed letter addressed to Mr. Utterson; beside him lay half of the broken cane, and the murderer had taken the other half.",
+          translation:
+            "죽은 사람의 지갑과 금시계는 그대로였고, 몸에서 나온 종이라고는 어터슨 씨 앞으로 된 봉인된 편지 한 통뿐이었어요. 그 곁에는 부러진 지팡이의 반쪽이 떨어져 있었고, 나머지 반쪽은 살인자가 가져간 뒤였어요.",
+        },
+        {
+          id: "djc-8",
+          text: "Utterson identified the body as Sir Danvers Carew, and when the officer showed him the broken cane, he recognised it as one that he had himself given to Henry Jekyll many years before.",
+          translation:
+            "어터슨은 시신이 댄버스 커루 경이라고 확인해 주었고, 경관이 부러진 지팡이를 보여 주자 그것이 오래전 자신이 헨리 지킬에게 선물한 지팡이임을 알아보았어요.",
+        },
+        {
+          id: "djc-9",
+          text: "When he heard that Hyde was small and wicked in appearance, he offered to lead the police to Hyde's house, and the two men set out by cab through the first fog of the season.",
+          translation:
+            "어터슨은 하이드가 작은 체구에 사악해 보인다는 말을 듣고 경찰을 하이드의 집으로 안내하겠다고 나섰고, 두 사람은 올해 첫 안개 속을 뚫고 마차를 타고 출발했어요.",
+        },
+      ],
+      [
+        {
+          id: "djc-10",
+          text: "The cab crept through the streets of Soho, where the fog turned the day into a nightmare of brown twilight, and Utterson felt afraid even of the policeman sitting beside him.",
+          translation:
+            "마차는 소호의 거리를 기어가듯 나아갔고, 안개가 낮을 갈색 어스름의 악몽으로 바꿔 놓은 가운데, 어터슨은 곁에 앉은 경관조차 두렵게 느껴졌어요.",
+        },
+        {
+          id: "djc-11",
+          text: "It seemed strange that this dirty street was the home of the favourite of the respected Dr. Jekyll, a man who was heir to a quarter of a million pounds.",
+          translation:
+            "존경받는 지킬 박사가 아끼는 사람, 25만 파운드의 상속인이 이런 지저분한 거리에 산다는 것이 기이하게 느껴졌어요.",
+        },
+        {
+          id: "djc-12",
+          text: "An old woman with silvery hair and an evil face, smoothed over by false politeness, opened the door and said that Mr. Hyde was not at home, but when the lawyer introduced his companion as an inspector from Scotland Yard, a look of delighted spite crossed her face.",
+          translation:
+            "은빛 머리에 가식적인 공손함으로 얼굴의 사악함을 감춘 노파가 문을 열고 하이드 씨는 집에 없다고 말했어요. 하지만 변호사가 일행을 스코틀랜드 야드의 경감이라고 소개하자, 노파의 얼굴에 고소해하는 기색이 스쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "djc-13",
+          text: "Hyde used only two rooms in the house, but they were furnished with luxury and good taste, with a closet of fine wine, silver plate and a good painting, probably a gift from Jekyll, who loved art.",
+          translation:
+            "하이드가 쓰는 방은 집 안에서 단 두 칸뿐이었지만, 고급 포도주가 든 벽장과 은식기, 좋은 그림까지 호화롭고 취향 있게 꾸며져 있었어요. 그림은 미술을 사랑하는 지킬이 준 선물인 듯했지요.",
+        },
+        {
+          id: "djc-14",
+          text: "Now the rooms had been hastily ransacked: clothes lay on the floor, drawers stood open, and a pile of grey ashes in the fireplace showed that many papers had been burned.",
+          translation:
+            "그런데 방들은 서둘러 샅샅이 뒤진 흔적이 역력했어요. 옷가지가 바닥에 널려 있었고 서랍이 열려 있었으며, 벽난로에 쌓인 회색 재는 많은 서류가 불타 버렸음을 보여 주었어요.",
+        },
+        {
+          id: "djc-15",
+          text: "From the ashes the inspector pulled out half of a green cheque book, and behind the door he found the other half of the broken cane, which proved his suspicions.",
+          translation:
+            "경감은 재 속에서 초록색 수표책 반쪽을 건졌고, 문 뒤에서 부러진 지팡이의 나머지 반쪽을 찾아내 자신의 의심이 옳았음을 확인했어요.",
+        },
+      ],
+      [
+        {
+          id: "djc-16",
+          text: "A visit to the bank showed that thousands of pounds lay in Hyde's account, and the inspector felt certain of success: money was life to the man, and he would surely come to claim it.",
+          translation:
+            "은행에 가 보니 하이드의 계좌에는 수천 파운드가 들어 있었고, 경감은 성공을 확신했어요. 그 사람에게 돈은 생명이니 반드시 찾으러 올 것이라고요.",
+        },
+        {
+          id: "djc-17",
+          text: "But Hyde was not easy to find, for he had few friends, no family that could be traced and no photograph, and the few who had seen him agreed on only one thing: the haunting sense of deformity in his looks.",
+          translation:
+            "하지만 하이드는 찾기 쉽지 않았어요. 친구도 거의 없고, 행방을 추적할 가족도 없고, 사진 한 장 없었으며, 그를 본 몇 사람이 입을 모은 것은 오직 한 가지, 겉모습에서 풍기는 불길한 기형의 느낌뿐이었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "djc-v1",
+        term: "victim",
+        partOfSpeech: "noun",
+        translation: "피해자, 희생자",
+        example: "The victim was a well-known and respected man.",
+        exampleTranslation: "피해자는 널리 알려지고 존경받는 사람이었어요.",
+      },
+      {
+        id: "djc-v2",
+        term: "cane",
+        partOfSpeech: "noun",
+        translation: "지팡이",
+        example: "The heavy cane broke in two.",
+        exampleTranslation: "묵직한 지팡이가 두 동강 났어요.",
+      },
+      {
+        id: "djc-v3",
+        term: "fury",
+        partOfSpeech: "noun",
+        translation: "격노, 맹렬한 분노",
+        example: "He attacked the old man in a fury.",
+        exampleTranslation: "그는 격노하여 노인을 공격했어요.",
+      },
+      {
+        id: "djc-v4",
+        term: "ransack",
+        partOfSpeech: "verb",
+        translation: "샅샅이 뒤지다, 뒤집어엎다",
+        example: "Someone had ransacked the rooms in a hurry.",
+        exampleTranslation: "누군가 서둘러 방들을 샅샅이 뒤졌어요.",
+      },
+      {
+        id: "djc-v5",
+        term: "deformity",
+        partOfSpeech: "noun",
+        translation: "기형, 일그러진 모습",
+        example: "Everyone felt a strange sense of deformity about him.",
+        exampleTranslation: "누구나 그에게서 기이하게 일그러진 느낌을 받았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "djc-q1",
+        prompt: "What did the maid see from her window?",
+        options: [
+          "A fire in Dr. Jekyll's house.",
+          "Mr. Hyde attacking an elderly gentleman in the lane.",
+          "Mr. Utterson arguing with the police.",
+          "A thief breaking into her master's house.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "In the moonlight she saw Mr. Hyde fly into a rage and strike down a polite, white-haired old gentleman with his cane, and she fainted at the sounds of the attack.",
+      },
+      {
+        id: "djc-q2",
+        prompt: "How did Mr. Utterson connect the murder to Dr. Jekyll?",
+        options: [
+          "The dead man's letter mentioned Jekyll's name.",
+          "Jekyll came to the police station himself.",
+          "A servant told him where Jekyll lived.",
+          "He recognised the broken cane as one he had given to Jekyll.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Utterson had presented that cane to Henry Jekyll years before, so the weapon in Hyde's hand tied Hyde to Jekyll.",
+      },
+      {
+        id: "djc-q3",
+        prompt: "What did the inspector find in Hyde's rooms?",
+        options: [
+          "Signs of a hurried search, burned papers, half a cheque book and the other half of the cane.",
+          "Nothing at all, because the rooms were bare.",
+          "Hyde himself, hiding in a closet.",
+          "A letter confessing to the murder.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The rooms had been hurriedly ransacked and many papers burned, but half of a cheque book survived in the ashes and the other half of the broken cane lay behind the door.",
+      },
+    ],
+  },
+  {
+    slug: "alice-in-wonderland-tea-party",
+    title: "Alice's Adventures in Wonderland: A Mad Tea-Party",
+    titleTranslation: "이상한 나라의 앨리스: 미친 티파티",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🫖",
+    coverImage: "/covers/alice-in-wonderland-tea-party.svg",
+    source:
+      "Adapted from Chapter 7 (\"A Mad Tea-Party\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the tea party and say why Alice decides to leave.",
+    paragraphs: [
+      [
+        {
+          id: "atp-1",
+          text: "Under a tree in front of a house stood a long table, and the March Hare and the Hatter were having tea there.",
+          translation:
+            "집 앞 나무 아래에 긴 식탁이 놓여 있었고, 3월 토끼와 모자 장수가 거기서 차를 마시고 있었어요.",
+        },
+        {
+          id: "atp-2",
+          text: "Between them sat a sleepy Dormouse, and the two friends were using it as a cushion and talking over its head.",
+          translation:
+            "둘 사이에는 졸린 겨울잠쥐가 앉아 있었는데, 두 친구는 겨울잠쥐를 쿠션 삼아 기대고 그 머리 너머로 이야기를 나누고 있었어요.",
+        },
+        {
+          id: "atp-3",
+          text: "When they saw Alice coming, they cried, \"No room! No room!\" but Alice said, \"There is plenty of room!\" and sat down in a big armchair.",
+          translation:
+            "앨리스가 다가오는 것을 보자 둘은 \"자리 없어! 자리 없어!\" 하고 외쳤지만, 앨리스는 \"자리가 얼마든지 있잖아요!\" 하고는 커다란 안락의자에 앉았어요.",
+        },
+      ],
+      [
+        {
+          id: "atp-4",
+          text: "The March Hare said, \"Have some wine,\" but Alice looked all round the table and saw only tea.",
+          translation:
+            "3월 토끼가 \"포도주 좀 드시지요.\" 하고 권했지만, 앨리스가 식탁을 둘러보니 찻잔뿐이었어요.",
+        },
+        {
+          id: "atp-5",
+          text: "\"Then it wasn't very polite of you to offer it,\" said Alice, and the Hare answered that it wasn't very polite of her to sit down without being invited.",
+          translation:
+            "\"그럼 권하신 건 별로 예의 바르지 않네요.\" 하고 앨리스가 말하자, 토끼는 초대받지 않고 앉은 앨리스도 예의 바르지 않다고 받아쳤어요.",
+        },
+        {
+          id: "atp-6",
+          text: "The Hatter looked at her for a long time and said, \"Your hair needs cutting,\" and Alice told him that it was rude to make personal remarks.",
+          translation:
+            "모자 장수는 앨리스를 한참 바라보더니 \"머리를 잘라야겠는걸.\" 하고 말했고, 앨리스는 남의 외모를 함부로 말하는 것은 무례하다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "atp-7",
+          text: "Then the Hatter asked, \"Why is a raven like a writing desk?\" and Alice thought, \"Good, now we shall have some fun with riddles!\"",
+          translation:
+            "그때 모자 장수가 \"까마귀는 왜 책상과 같을까?\" 하고 물었고, 앨리스는 \"좋아, 이제 수수께끼로 재미있게 놀겠구나!\" 하고 생각했어요.",
+        },
+        {
+          id: "atp-8",
+          text: "Alice said that she could guess the answer, and that she meant what she said, but the Hatter cried that this was not the same thing at all, because \"I see what I eat\" is not the same as \"I eat what I see!\"",
+          translation:
+            "앨리스가 답을 맞힐 수 있을 것 같고 자기는 말한 그대로를 뜻한다고 하자, 모자 장수는 그건 전혀 같은 게 아니라며 소리쳤어요. \"내가 먹는 것을 본다\"와 \"내가 보는 것을 먹는다\"는 다르다는 거예요.",
+        },
+        {
+          id: "atp-9",
+          text: "In the end nobody knew the answer to the riddle, not even the Hatter, so Alice gave it up and sighed that they should not waste time on riddles with no answers.",
+          translation:
+            "결국 수수께끼의 답은 아무도 몰랐고 모자 장수조차 몰랐어요. 그래서 앨리스는 포기하고, 답 없는 수수께끼로 시간을 낭비하지 말라며 한숨을 쉬었어요.",
+        },
+      ],
+      [
+        {
+          id: "atp-10",
+          text: "Next the Hatter took out his watch, which told the day of the month but not the hour, and he grumbled that it was two days wrong because the March Hare had put butter in the works.",
+          translation:
+            "다음으로 모자 장수는 시계를 꺼냈는데, 그 시계는 몇 시인지는 알려 주지 않고 날짜만 알려 주었어요. 모자 장수는 3월 토끼가 시계 속에 버터를 넣은 탓에 이틀이나 틀렸다고 투덜거렸어요.",
+        },
+        {
+          id: "atp-11",
+          text: "\"Does your watch tell you what year it is?\" asked the Hatter, and Alice said that it did not, because one year lasts such a long time; \"Which is just the case with mine,\" said the Hatter.",
+          translation:
+            "\"네 시계는 지금이 몇 년인지 알려 주니?\" 모자 장수가 묻자 앨리스는 한 해가 워낙 오래 계속되니까 그렇지 않다고 했고, 모자 장수는 \"내 시계도 딱 그렇단다.\" 하고 말했어요.",
+        },
+        {
+          id: "atp-12",
+          text: "The Hatter said that he had sung at the Queen of Hearts' concert, and the Queen had shouted, \"He is murdering the time! Off with his head!\"",
+          translation:
+            "모자 장수는 하트 여왕의 음악회에서 노래를 불렀는데, 여왕이 \"저 자가 시간을 죽이고 있다! 목을 쳐라!\" 하고 소리쳤다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "atp-13",
+          text: "Since then Time would do nothing for him, so it was always six o'clock, and the friends kept moving round the table because there was never time to wash the cups.",
+          translation:
+            "그 뒤로 '시간'은 모자 장수를 위해 아무것도 해 주지 않아서 언제나 여섯 시였고, 친구들은 컵을 씻을 시간이 없어 식탁을 빙빙 돌며 자리를 옮겨 다녔어요.",
+        },
+        {
+          id: "atp-14",
+          text: "The March Hare then asked the Dormouse to tell a story, and the sleepy Dormouse began: three little sisters lived at the bottom of a well, and they lived on treacle.",
+          translation:
+            "그러자 3월 토끼가 겨울잠쥐에게 이야기를 해 달라고 했고, 졸린 겨울잠쥐는 이렇게 시작했어요. 세 자매가 우물 바닥에 살았는데, 당밀만 먹고 살았다고요.",
+        },
+        {
+          id: "atp-15",
+          text: "\"They would have been ill,\" said Alice, and the Dormouse agreed that they were very ill; but when Alice doubted that there could be a well full of treacle, the Dormouse said crossly, \"If you can't be polite, finish the story yourself.\"",
+          translation:
+            "\"그러면 병이 났겠어요.\" 앨리스가 말하자 겨울잠쥐는 정말 많이 아팠다고 맞장구쳤어요. 하지만 앨리스가 당밀로 가득 찬 우물이 있을 리 없다고 하자, 겨울잠쥐는 화를 내며 말했어요. \"예의 바르게 굴 수 없다면 이야기는 네가 끝내렴.\"",
+        },
+      ],
+      [
+        {
+          id: "atp-16",
+          text: "The Dormouse went on about the sisters learning to draw everything that begins with an M, such as mousetraps, the moon and memory, but when the Hatter told Alice that she should not talk if she had nothing to say, she stood up in disgust and walked away.",
+          translation:
+            "겨울잠쥐는 세 자매가 엠으로 시작하는 것을 모두 그리는 법을 배웠다는 이야기를 이어 갔어요. 쥐덫이며 달이며 기억 같은 것들이요. 하지만 모자 장수가 앨리스에게 할 말이 없으면 입을 다물라고 하자, 앨리스는 화가 나서 일어나 걸어 나갔어요.",
+        },
+        {
+          id: "atp-17",
+          text: "Looking back, she saw the Hatter and the March Hare trying to put the Dormouse into the teapot, and she said, \"It is the stupidest tea party I ever was at in all my life!\" — then she found a door in a tree, went in, and at last reached the beautiful garden.",
+          translation:
+            "돌아보니 모자 장수와 3월 토끼가 겨울잠쥐를 찻주전자에 넣으려 하고 있었어요. 앨리스는 \"내 평생 가 본 티파티 중에 제일 바보 같아!\" 하고 말한 뒤, 나무에 난 문을 발견해 안으로 들어갔고 마침내 아름다운 정원에 다다랐어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "atp-v1",
+        term: "riddle",
+        partOfSpeech: "noun",
+        translation: "수수께끼",
+        example: "Nobody knew the answer to the Hatter's riddle.",
+        exampleTranslation: "모자 장수의 수수께끼의 답은 아무도 몰랐어요.",
+      },
+      {
+        id: "atp-v2",
+        term: "dormouse",
+        partOfSpeech: "noun",
+        translation: "겨울잠쥐",
+        example: "The sleepy dormouse fell asleep in the middle of his story.",
+        exampleTranslation: "졸린 겨울잠쥐는 이야기 도중에 잠들어 버렸어요.",
+      },
+      {
+        id: "atp-v3",
+        term: "treacle",
+        partOfSpeech: "noun",
+        translation: "당밀 (진한 시럽)",
+        example: "The three sisters lived on treacle.",
+        exampleTranslation: "세 자매는 당밀만 먹고 살았어요.",
+      },
+      {
+        id: "atp-v4",
+        term: "polite",
+        partOfSpeech: "adjective",
+        translation: "예의 바른",
+        example: "It wasn't very polite to offer wine when there was none.",
+        exampleTranslation: "포도주가 없는데 권하는 것은 별로 예의 바르지 않았어요.",
+      },
+      {
+        id: "atp-v5",
+        term: "rude",
+        partOfSpeech: "adjective",
+        translation: "무례한",
+        example: "Alice thought it was rude to talk about her hair.",
+        exampleTranslation: "앨리스는 자기 머리 이야기를 하는 것이 무례하다고 생각했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "atp-q1",
+        prompt: "What did Alice do when the March Hare and the Hatter cried \"No room!\"?",
+        options: [
+          "She said there was plenty of room and sat down in an armchair.",
+          "She went away.",
+          "She squeezed in beside the Dormouse.",
+          "She asked the Hatter for a chair.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The table was large, so Alice said indignantly that there was plenty of room and sat down in a big armchair at one end.",
+      },
+      {
+        id: "atp-q2",
+        prompt: "According to the Hatter, why is it always tea-time at the party?",
+        options: [
+          "The Queen of Hearts ordered it.",
+          "The March Hare broke the clock.",
+          "The Hatter quarrelled with Time, so it is always six o'clock.",
+          "They love tea more than anything.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The Hatter said that Time would do nothing for him since the Queen's concert, so it stayed six o'clock, tea-time, and there was never time to wash the cups.",
+      },
+      {
+        id: "atp-q3",
+        prompt: "What was the Dormouse's story about?",
+        options: [
+          "A queen who lost her hat.",
+          "Three little sisters who lived at the bottom of a well and ate treacle.",
+          "A rabbit with a watch.",
+          "A raven and a writing desk.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Dormouse told of three little sisters, Elsie, Lacie and Tillie, who lived at the bottom of a treacle well and learned to draw everything beginning with an M.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
