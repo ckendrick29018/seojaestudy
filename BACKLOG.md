@@ -89,11 +89,14 @@ Secret Garden — two parts each, already in the library as separate lessons).
 - **Adding a chapter:** write the lesson (title `"Book: Subtitle"`), append its
   slug to the book in `books.ts`, run `npm run lessons:index` (it now also
   validates books: unknown slugs, a lesson in two books, one-chapter "books").
-- **Known gaps / ideas:** every part 2 is currently `isFree: false` (the
-  "Gate 5 novel-continuation lessons behind subscription" decision), so during
-  the closed test a tester following "Up next" lands on the paywall — the UI
-  marks those parts Premium, but see the Premium/pricing section before Play.
-  "Completed" is still the manual button in `SummaryBox`, so a part that was read
+- **Beta unlock (2026-09-21):** the five part-2 lessons were `isFree: false`
+  (commit 7f9916e "Gate 5 novel-continuation lessons behind subscription"), which
+  sent testers following "Up next" to the paywall. They're now `isFree: true`,
+  each tagged `// BETA-UNLOCK` in `lessons.ts` — `grep BETA-UNLOCK` to find them
+  and flip them back (then `npm run lessons:index`) when the Premium/pricing work
+  below re-gates. The Premium badges/lock icons in the book UI key off `isFree`,
+  so they reappear on their own.
+- **Known gaps / ideas:** "Completed" is still the manual button in `SummaryBox`, so a part that was read
   but not marked shows as "Continue". Cards on `/classics` don't yet flag "part
   of a N-part book". Only 2 parts per book exist, so the model pays off as
   chapters are added (content-first).
