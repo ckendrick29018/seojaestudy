@@ -37688,6 +37688,874 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "pride-and-prejudice-pemberley",
+    title: "Pride and Prejudice: Pemberley",
+    titleTranslation: "오만과 편견: 펨벌리",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🏡",
+    coverImage: "/covers/pride-and-prejudice-pemberley.svg",
+    source:
+      "Adapted from Chapter 43 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Elizabeth learned about Mr. Darcy from the housekeeper, and how he surprised her when they met.",
+    paragraphs: [
+      [
+        {
+          id: "ppm-1",
+          text: "As the carriage turned in at the gate, Elizabeth's heart was fluttering, and she watched for her first sight of Pemberley Woods with some anxiety.",
+          translation:
+            "마차가 문지기 집을 지나 안으로 들어서자 엘리자베스의 가슴은 두근거렸고, 그녀는 다소 불안한 마음으로 펨벌리의 숲이 처음 모습을 드러내기를 지켜보았어요.",
+        },
+        {
+          id: "ppm-2",
+          text: "They drove for half a mile through a beautiful wood, and when the trees ended, the great stone house appeared across the valley, standing on rising ground with wooded hills behind it and a bright stream before it.",
+          translation:
+            "그들은 아름다운 숲을 지나 반 마일쯤 올라갔고, 나무들이 끝나자 골짜기 건너편 언덕 위에 서 있는 커다란 석조 저택이 눈앞에 나타났어요. 저택 뒤에는 숲이 우거진 산등성이가, 앞에는 맑은 시냇물이 있었지요.",
+        },
+      ],
+      [
+        {
+          id: "ppm-3",
+          text: "Elizabeth had never seen a place where nature had done more and taste had spoiled less, and for a moment she thought that being mistress of Pemberley might be something indeed.",
+          translation:
+            "엘리자베스는 자연이 이토록 많은 것을 베풀고 사람의 취향이 이토록 덜 해친 곳을 본 적이 없었고, 잠시 펨벌리의 안주인이 된다면 참 근사하겠다는 생각이 들었어요.",
+        },
+        {
+          id: "ppm-4",
+          text: "Inside, the housekeeper, Mrs. Reynolds, showed them through rooms that were handsome without being showy, and she told them that her master was away and was not expected until the next day, which was a great relief to Elizabeth.",
+          translation:
+            "안으로 들어가자 가정부 레이놀즈 부인이 화려하지 않으면서도 품위 있는 방들을 차례로 안내해 주었어요. 그녀가 주인은 집을 비웠고 내일이 되어야 돌아온다고 알려 주어 엘리자베스는 크게 안도했어요.",
+        },
+        {
+          id: "ppm-5",
+          text: "\"I might have been the lady of all this,\" she thought, but she remembered at once that she would then never have been allowed to invite her uncle and aunt, and the thought saved her from regret.",
+          translation:
+            "\"이 모든 것의 안주인이 될 수도 있었는데.\" 하고 그녀는 생각했지만, 그랬다면 외삼촌 내외를 초대하는 것도 허락되지 않았으리라는 데 곧 생각이 미쳤고, 그 생각 덕분에 후회에 빠지지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ppm-6",
+          text: "In a small room full of miniature portraits she saw Mr. Wickham's face, and the housekeeper explained that he was the steward's son, raised at her late master's expense, but that she feared he had turned out very wild.",
+          translation:
+            "작은 초상화들이 빼곡히 걸린 방에서 엘리자베스는 위컴 씨의 얼굴을 발견했어요. 가정부는 그가 관리인의 아들로 돌아가신 주인의 비용으로 자랐지만, 아주 방탕한 사람이 되고 말았을까 걱정스럽다고 말했어요.",
+        },
+        {
+          id: "ppm-7",
+          text: "Then Mrs. Reynolds pointed to a portrait of Mr. Darcy and, learning that Elizabeth knew him, asked whether she did not think him very handsome, and Elizabeth, blushing, said that she did.",
+          translation:
+            "이어서 레이놀즈 부인은 다아시 씨의 초상화를 가리켰고, 엘리자베스가 그를 안다는 것을 알게 되자 아주 잘생기지 않았느냐고 물었어요. 엘리자베스는 얼굴을 붉히며 그렇다고 대답했어요.",
+        },
+        {
+          id: "ppm-8",
+          text: "The housekeeper added that her master had been the sweetest-tempered, most generous boy she had ever known, and that in all the years since he was four years old she had never heard a cross word from him.",
+          translation:
+            "가정부는 자신의 주인이 그녀가 아는 가장 마음씨 곱고 너그러운 소년이었으며, 네 살 때부터 지금까지 그에게서 화난 말 한마디 들어 본 적이 없다고 덧붙였어요.",
+        },
+      ],
+      [
+        {
+          id: "ppm-9",
+          text: "She called him the best landlord and the best master in the world, said that every tenant and servant spoke well of him, and explained that people who called him proud had simply noticed that he did not chatter like other young men.",
+          translation:
+            "그녀는 그가 세상에서 가장 훌륭한 지주이자 주인이라고 했고, 소작인과 하인 모두가 그를 좋게 말한다고 했으며, 그를 오만하다고 하는 사람들은 그가 다른 젊은이들처럼 수다스럽지 않은 것을 그렇게 보는 것뿐이라고 설명했어요.",
+        },
+        {
+          id: "ppm-10",
+          text: "Elizabeth listened in astonishment, for she had always believed him ill-tempered, and she began to think of how many people's happiness depended on him as a brother, a landlord and a master.",
+          translation:
+            "엘리자베스는 그가 성미가 고약하다고 굳게 믿어 왔기에 놀라서 귀를 기울였고, 오빠로서, 지주로서, 주인으로서 그에게 얼마나 많은 사람의 행복이 달려 있는지 생각하기 시작했어요.",
+        },
+        {
+          id: "ppm-11",
+          text: "In the gallery she found his portrait, with the same smile she had sometimes seen when he looked at her, and she stood before it for several minutes, feeling a warmer gratitude for his love than she had ever felt before.",
+          translation:
+            "화랑에서 그녀는 그의 초상화를 발견했는데, 그가 자신을 바라볼 때 이따금 보았던 것과 같은 미소를 띠고 있었어요. 그녀는 몇 분 동안 그 앞에 서서, 그의 사랑에 대해 전에 없이 따뜻한 고마움을 느꼈어요.",
+        },
+      ],
+      [
+        {
+          id: "ppm-12",
+          text: "As they were crossing the lawn toward the river, the owner of the house suddenly came round from the stables, a full day before he was expected, and when their eyes met, both of them blushed deeply.",
+          translation:
+            "그들이 잔디밭을 가로질러 강 쪽으로 걸어가는데, 마구간 쪽 길에서 저택의 주인이 불쑥 나타났어요. 예정보다 꼬박 하루나 일찍이었지요. 두 사람의 눈이 마주치자 둘 다 얼굴이 새빨개졌어요.",
+        },
+        {
+          id: "ppm-13",
+          text: "He seemed too surprised to speak at first, but he greeted her with perfect politeness, asked about her family twice in a hurried, awkward way, and then suddenly said goodbye, leaving Elizabeth ashamed that she had come at all.",
+          translation:
+            "그는 처음에는 놀라서 말을 잇지 못하는 듯했지만 더없이 예의 바르게 인사했고, 서두르는 어색한 말투로 그녀의 가족에 대해 같은 질문을 되풀이하다가 불쑥 작별을 고했어요. 엘리자베스는 자기가 이곳에 온 것 자체가 부끄러웠어요.",
+        },
+        {
+          id: "ppm-14",
+          text: "She could not understand his gentle manner, so different from the proud man who had handed her a letter at Rosings, and she walked on beside her uncle and aunt without seeing any of the lovely scenery.",
+          translation:
+            "그녀는 로징스에서 자신에게 편지를 건네던 그 오만한 사람과는 너무도 다른 그의 부드러운 태도를 이해할 수 없었고, 외삼촌 내외 곁에서 걸으면서도 아름다운 경치는 하나도 눈에 들어오지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "ppm-15",
+          text: "Later, by the river, he came toward them again and asked to be introduced to her relations; Elizabeth secretly expected him to hurry away from people in trade, but he stayed, and even invited Mr. Gardiner to fish in his stream whenever he liked.",
+          translation:
+            "잠시 후 강가에서 그가 다시 다가와 그녀의 친척들에게 소개해 달라고 청했어요. 엘리자베스는 그가 장사하는 사람들이라며 서둘러 자리를 뜰 줄 알았지만 그는 그러지 않았고, 오히려 가디너 씨에게 자기 시내에서 언제든 낚시를 하라고 권했어요.",
+        },
+        {
+          id: "ppm-16",
+          text: "Walking with her a little apart from the others, he told her that his sister would arrive the next day, and asked whether he might introduce Georgiana to her during her stay at Lambton.",
+          translation:
+            "다른 사람들에게서 조금 떨어져 그녀와 나란히 걷던 그는 다음 날 누이동생이 도착한다고 말하며, 그녀가 램턴에 머무는 동안 조지아나를 소개해도 되겠느냐고 물었어요.",
+        },
+        {
+          id: "ppm-17",
+          text: "Elizabeth was too surprised to answer well, but she understood that it was the highest compliment he could pay her, and that evening she could think of nothing except his kindness and his wish for her to know his sister.",
+          translation:
+            "엘리자베스는 너무 놀라 제대로 대답하지 못했지만, 그것이 그가 자신에게 보낼 수 있는 가장 큰 존중의 표시라는 것을 알았고, 그날 저녁 내내 그의 친절과 누이동생을 소개하고 싶어 하는 마음 말고는 아무것도 생각할 수 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ppm-v1",
+        term: "housekeeper",
+        partOfSpeech: "noun",
+        translation: "(저택의) 가정부, 살림을 맡은 사람",
+        example: "The housekeeper showed the visitors through the house.",
+        exampleTranslation: "가정부가 방문객들에게 저택을 구경시켜 주었어요.",
+      },
+      {
+        id: "ppm-v2",
+        term: "miniature",
+        partOfSpeech: "noun",
+        translation: "세밀 초상화, 손바닥만 한 작은 초상화",
+        example: "A miniature of her brother hung above the fireplace.",
+        exampleTranslation: "그녀의 오빠를 그린 작은 초상화가 벽난로 위에 걸려 있었어요.",
+      },
+      {
+        id: "ppm-v3",
+        term: "tenant",
+        partOfSpeech: "noun",
+        translation: "소작인, 세입자",
+        example: "Every tenant on the estate spoke well of him.",
+        exampleTranslation: "영지의 모든 소작인이 그를 좋게 말했어요.",
+      },
+      {
+        id: "ppm-v4",
+        term: "gallery",
+        partOfSpeech: "noun",
+        translation: "화랑, (저택의) 초상화 복도",
+        example: "The gallery was full of family portraits.",
+        exampleTranslation: "화랑에는 가족 초상화가 가득했어요.",
+      },
+      {
+        id: "ppm-v5",
+        term: "gratitude",
+        partOfSpeech: "noun",
+        translation: "고마움, 감사하는 마음",
+        example: "She felt a deep gratitude for his kindness.",
+        exampleTranslation: "그녀는 그의 친절에 깊은 고마움을 느꼈어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ppm-q1",
+        prompt: "What did Mrs. Reynolds say that most surprised Elizabeth?",
+        options: [
+          "That Mr. Darcy planned to sell Pemberley.",
+          "That Mr. Wickham was the true heir of the estate.",
+          "That Mr. Darcy had been kind and even-tempered since he was a boy, and was loved by his tenants and servants.",
+          "That Mr. Darcy had never wished to meet Elizabeth again.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Elizabeth had always thought Darcy ill-tempered, so the housekeeper's warm praise of him as a master, landlord and brother began to change her opinion.",
+      },
+      {
+        id: "ppm-q2",
+        prompt: "What did Mr. Darcy do that surprised Elizabeth during their meeting by the river?",
+        options: [
+          "He ordered the Gardiners to leave his land.",
+          "He asked to be introduced to her relations and invited her uncle to fish in his stream.",
+          "He asked her to marry him a second time.",
+          "He told her that Mr. Wickham had left England.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Instead of avoiding people he had once looked down on, Darcy was courteous to the Gardiners and offered Mr. Gardiner the fishing on his estate.",
+      },
+      {
+        id: "ppm-q3",
+        prompt: "What did Darcy ask Elizabeth as they walked together?",
+        options: [
+          "Whether she would forgive him for writing the letter.",
+          "Whether Mr. Bingley might visit her family at Longbourn.",
+          "Whether she would show him the way back to the inn at Lambton.",
+          "Whether he might introduce his sister Georgiana to her during her stay.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Darcy said his sister would arrive the next day and asked to introduce her; Elizabeth understood that this was the greatest compliment he could pay her.",
+      },
+    ],
+  },
+  {
+    slug: "sense-and-sensibility-london",
+    title: "Sense and Sensibility: The London Party",
+    titleTranslation: "이성과 감성: 런던의 파티",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/sense-and-sensibility-london.svg",
+    source:
+      "Adapted from Chapters 28 and 29 of Jane Austen's novel \"Sense and Sensibility\" (first published 1811; long in the public domain, Project Gutenberg #21839). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Willoughby treated Marianne at the party and what his letter said.",
+    paragraphs: [
+      [
+        {
+          id: "ssl-1",
+          text: "Marianne and Elinor were staying in London with their friend Mrs. Jennings, and for days Marianne waited for Willoughby to call, but he neither came nor wrote.",
+          translation:
+            "메리앤과 엘리너는 친구인 제닝스 부인의 집에 머물며 런던에 와 있었고, 메리앤은 며칠째 윌러비가 찾아오기를 기다렸지만 그는 오지도 편지를 쓰지도 않았어요.",
+        },
+        {
+          id: "ssl-2",
+          text: "One evening they went to a crowded party with Lady Middleton, and Marianne, pale and hopeless, sat on a chair near the card table without looking at anyone.",
+          translation:
+            "어느 날 저녁 그들은 미들턴 부인과 함께 사람들로 붐비는 파티에 갔고, 창백하고 희망을 잃은 메리앤은 아무도 쳐다보지 않은 채 카드놀이 탁자 가까운 의자에 앉아 있었어요.",
+        },
+        {
+          id: "ssl-3",
+          text: "Suddenly Elinor saw Willoughby standing a few steps away, talking closely with a fashionable young woman.",
+          translation:
+            "그때 엘리너는 몇 걸음 떨어진 곳에서 세련된 차림의 젊은 여성과 다정하게 이야기하고 있는 윌러비를 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssl-4",
+          text: "He bowed to Elinor but did not come over, and when Marianne saw him, her face lit up, and she called his name and held out her hand.",
+          translation:
+            "그는 엘리너에게 고개만 숙였을 뿐 다가오지 않았고, 그를 본 메리앤은 얼굴이 환해져서 이름을 부르며 손을 내밀었어요.",
+        },
+        {
+          id: "ssl-5",
+          text: "He came, but he spoke only to Elinor, asked coldly about Mrs. Dashwood, and hardly looked at Marianne.",
+          translation:
+            "그는 다가오긴 했지만 엘리너에게만 말을 걸어 대시우드 부인의 안부를 차갑게 물었을 뿐, 메리앤은 거의 쳐다보지도 않았어요.",
+        },
+        {
+          id: "ssl-6",
+          text: "\"Have you not received my letters?\" cried Marianne, but he only touched her hand for a moment, said stiffly that he had heard of her arrival, and walked away with a slight bow.",
+          translation:
+            "\"내 편지들을 받지 못했나요?\" 하고 메리앤이 외쳤지만, 그는 잠깐 그녀의 손을 잡았다 놓고는 그녀가 도착했다는 소식은 들었다고 딱딱하게 말한 뒤 가볍게 고개를 숙이고 가 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "ssl-7",
+          text: "Marianne turned white and sank into her chair, and Elinor hid her from the crowd while she begged to be taken home at once.",
+          translation:
+            "메리앤은 얼굴이 하얗게 질려 의자에 주저앉았고, 엘리너는 사람들의 시선에서 동생을 가려 주었으며, 메리앤은 당장 집에 데려다 달라고 애원했어요.",
+        },
+        {
+          id: "ssl-8",
+          text: "That night Marianne lay in bed without tears, too unhappy to speak, while Elinor thought over what she had seen and felt sure that Willoughby was tired of Marianne, though he still seemed ashamed of himself.",
+          translation:
+            "그날 밤 메리앤은 눈물도 흘리지 못한 채 말없이 침대에 누워 있었고, 엘리너는 낮에 본 일을 곰곰이 되짚어 보며 윌러비가 메리앤에게 싫증이 났다고 확신했어요. 그래도 그는 자신의 행동을 부끄러워하는 듯했지요.",
+        },
+        {
+          id: "ssl-9",
+          text: "Elinor also thought of her own trouble with Edward, but she knew that she could still respect him, while Marianne had lost even that comfort.",
+          translation:
+            "엘리너는 에드워드와 얽힌 자신의 괴로움도 떠올렸지만, 자신은 여전히 그를 존경할 수 있는 반면 메리앤에게는 그런 위안마저 없다는 것을 알았어요.",
+        },
+      ],
+      [
+        {
+          id: "ssl-10",
+          text: "The next morning Marianne was up before sunrise, writing another letter through her tears.",
+          translation:
+            "다음 날 아침 메리앤은 해가 뜨기도 전에 일어나, 눈물을 흘리며 또 한 통의 편지를 쓰고 있었어요.",
+        },
+        {
+          id: "ssl-11",
+          text: "At breakfast a letter arrived for her, and she ran out of the room; Mrs. Jennings laughed and said she had never seen a girl so much in love, and asked when the wedding would be.",
+          translation:
+            "아침 식사 때 그녀 앞으로 편지 한 통이 오자 메리앤은 방에서 뛰어나갔고, 제닝스 부인은 웃으면서 이렇게 사랑에 빠진 아가씨는 처음 본다며 결혼식이 언제냐고 물었어요.",
+        },
+        {
+          id: "ssl-12",
+          text: "Elinor answered seriously that her sister was not engaged to Mr. Willoughby, and then hurried upstairs, where she found Marianne on the bed, crying, with the letters in her hand.",
+          translation:
+            "엘리너는 진지하게 동생은 윌러비 씨와 약혼한 사이가 아니라고 대답한 뒤 서둘러 위층으로 올라갔고, 침대에 엎드려 울고 있는 메리앤의 손에 편지들이 쥐여 있는 것을 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "ssl-13",
+          text: "Willoughby's letter was polite but cruel: he said that he was sorry if he had given her a wrong idea of his feelings, that his heart had long belonged to someone else, and that he was returning her letters and the lock of her hair.",
+          translation:
+            "윌러비의 편지는 정중하지만 잔인했어요. 자신의 감정에 대해 잘못된 인상을 주었다면 미안하다고 썼고, 자신의 마음은 오래전부터 다른 사람에게 가 있었다고 했으며, 그녀의 편지들과 머리카락 한 다발을 돌려보낸다고 했어요.",
+        },
+        {
+          id: "ssl-14",
+          text: "Elinor read it again and again in anger, for he admitted no fault and showed no regret, and she felt that her sister had escaped from a man with no honour.",
+          translation:
+            "엘리너는 분노하며 그 편지를 읽고 또 읽었어요. 그는 잘못을 인정하지도, 미안해하지도 않았으니까요. 엘리너는 동생이 명예를 모르는 사람에게서 벗어난 것이라고 느꼈어요.",
+        },
+        {
+          id: "ssl-15",
+          text: "Marianne's own three letters were full of love and trust, and when Elinor asked about an engagement, Marianne said that there had been none in words, but that she had felt as bound to him as if they had signed a contract.",
+          translation:
+            "메리앤이 보낸 세 통의 편지에는 사랑과 믿음이 가득했고, 엘리너가 약혼했느냐고 묻자 메리앤은 말로 약속한 적은 없지만 서로 계약서에 서명한 것만큼이나 그에게 매여 있다고 느꼈다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssl-16",
+          text: "Marianne would not believe that Willoughby could be so cruel by his own choice, and she said that someone else must have turned his heart against her, and that she would rather be unhappy than pretend to be happy.",
+          translation:
+            "메리앤은 윌러비가 스스로 그렇게 잔인해졌다고는 믿으려 하지 않았고, 누군가가 그의 마음을 자신에게서 돌려놓았을 것이라고 했으며, 행복한 척하느니 차라리 불행한 채로 있겠다고 말했어요.",
+        },
+        {
+          id: "ssl-17",
+          text: "At last she cried that she wanted to go home to her mother, and Elinor gently told her that they could not leave Mrs. Jennings so suddenly, until, worn out, Marianne lay quiet on the bed.",
+          translation:
+            "마침내 메리앤은 엄마에게 돌아가고 싶다고 울부짖었고, 엘리너는 제닝스 부인을 그렇게 갑자기 떠날 수는 없다고 다독였어요. 지쳐 버린 메리앤은 마침내 침대에 조용히 누웠어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ssl-v1",
+        term: "fashionable",
+        partOfSpeech: "adjective",
+        translation: "세련된, 유행을 따르는",
+        example: "He was talking to a fashionable young woman.",
+        exampleTranslation: "그는 세련된 젊은 여성과 이야기하고 있었어요.",
+      },
+      {
+        id: "ssl-v2",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "Marianne was not engaged to Willoughby.",
+        exampleTranslation: "메리앤은 윌러비와 약혼한 사이가 아니었어요.",
+      },
+      {
+        id: "ssl-v3",
+        term: "cruel",
+        partOfSpeech: "adjective",
+        translation: "잔인한, 매정한",
+        example: "His polite letter was still cruel.",
+        exampleTranslation: "그의 편지는 정중했지만 그래도 잔인했어요.",
+      },
+      {
+        id: "ssl-v4",
+        term: "regret",
+        partOfSpeech: "noun",
+        translation: "후회, 유감",
+        example: "He showed no regret for what he had done.",
+        exampleTranslation: "그는 자신이 한 일에 대해 아무런 후회도 내비치지 않았어요.",
+      },
+      {
+        id: "ssl-v5",
+        term: "honour",
+        partOfSpeech: "noun",
+        translation: "명예, 신의",
+        example: "Elinor felt that he had no honour.",
+        exampleTranslation: "엘리너는 그에게 신의가 없다고 느꼈어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ssl-q1",
+        prompt: "How did Willoughby treat Marianne when they met at the party?",
+        options: [
+          "He greeted her warmly and asked her to dance.",
+          "He spoke mostly to Elinor, kept his answers cold, and soon walked away.",
+          "He begged her to forgive him in front of everyone.",
+          "He left the party as soon as he saw her.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Willoughby avoided Marianne's eyes, asked polite questions of Elinor, touched Marianne's hand only for a moment, and then went back to the young woman he had been talking to.",
+      },
+      {
+        id: "ssl-q2",
+        prompt: "What did Willoughby's letter to Marianne say?",
+        options: [
+          "That he was returning her letters and her lock of hair, and that his feelings had long belonged to another woman.",
+          "That he would visit Barton Cottage in the spring.",
+          "That he had never received her notes and was very sorry.",
+          "That he wanted to marry her as soon as possible.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The letter was politeness on the surface but cruel underneath: he denied any special love, mentioned a different engagement, and sent back her letters and her hair.",
+      },
+      {
+        id: "ssl-q3",
+        prompt: "What did Marianne say when Elinor asked whether she and Willoughby had been engaged?",
+        options: [
+          "That they had promised to marry in a letter.",
+          "That her mother had forbidden the engagement.",
+          "That nothing had been said in words, but she had felt as bound to him as by a contract.",
+          "That he had proposed at Barton, but she had refused.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Marianne admitted that no promise had ever been spoken aloud, yet she believed his looks and manner had bound them together, which is why his behaviour hurt so deeply.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-the-three-women",
+    title: "Dracula: The Three Women",
+    titleTranslation: "드라큘라: 세 여인",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🦇",
+    coverImage: "/covers/dracula-the-three-women.svg",
+    source:
+      "Adapted from Chapter 3 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Jonathan did against the Count's warning, and what the Count said when he stopped the three women.",
+    paragraphs: [
+      [
+        {
+          id: "drw-1",
+          text: "Jonathan Harker had come to Transylvania to help the Count buy a house in London, but he now understood that he was a prisoner in the castle, and after an hour of wildly trying every door he sat down to think.",
+          translation:
+            "조나단 하커는 백작이 런던에서 집을 사는 일을 돕기 위해 트란실바니아에 왔지만, 이제 자신이 성에 갇힌 죄수임을 깨달았고, 한 시간 동안 미친 듯이 모든 문을 열어 보려 한 끝에 자리에 앉아 생각에 잠겼어요.",
+        },
+        {
+          id: "drw-2",
+          text: "He decided to keep his fear to himself, for he had seen the Count make his own bed and lay his own table, and that meant there were no servants in the castle.",
+          translation:
+            "그는 두려움을 혼자만 간직하기로 했어요. 백작이 직접 침대를 정리하고 식탁을 차리는 것을 보고, 성에 하인이 한 명도 없다는 것을 알았기 때문이에요.",
+        },
+        {
+          id: "drw-3",
+          text: "That night the Count made him write letters saying that he would stay a whole month, and Jonathan, seeing the sharp teeth and the quiet smile, understood that every word he wrote would be read.",
+          translation:
+            "그날 밤 백작은 그가 한 달 내내 머무르겠다는 편지를 쓰게 했고, 조나단은 날카로운 이빨과 조용한 미소를 보며 자신이 쓰는 모든 글이 읽히리라는 것을 깨달았어요.",
+        },
+      ],
+      [
+        {
+          id: "drw-4",
+          text: "Before leaving, the Count warned him never to fall asleep in any other part of the castle, saying that it was old and that there were bad dreams for those who slept unwisely.",
+          translation:
+            "떠나기 전에 백작은 성의 다른 곳에서는 절대 잠들지 말라고 경고했어요. 성은 오래되었고, 함부로 잠든 사람에게는 나쁜 꿈이 찾아온다는 것이었지요.",
+        },
+        {
+          id: "drw-5",
+          text: "Later that night, looking out of a high window, Jonathan saw the Count climb out of his own window and crawl head first down the sheer castle wall, his cloak spreading around him like wings, exactly as a lizard moves.",
+          translation:
+            "그날 밤 늦게 높은 창밖을 내다보던 조나단은 백작이 자기 방 창문에서 나와, 망토를 날개처럼 펼친 채 가파른 성벽을 머리부터 도마뱀처럼 기어 내려가는 모습을 보았어요.",
+        },
+        {
+          id: "drw-6",
+          text: "Frozen with horror, he asked himself what kind of creature could look like a man and yet do this, and he knew there was no escape.",
+          translation:
+            "공포로 얼어붙은 그는 사람의 모습을 하고서 이런 짓을 하는 것이 대체 어떤 존재인지 자문했고, 달아날 길이 없다는 것을 알았어요.",
+        },
+      ],
+      [
+        {
+          id: "drw-7",
+          text: "A few days later, when the Count had gone out again in the same way, Jonathan searched the castle and found that every door was locked, and that the key to the great front door was gone.",
+          translation:
+            "며칠 뒤 백작이 같은 방식으로 다시 성을 나서자, 조나단은 성 안을 샅샅이 뒤졌지만 모든 문이 잠겨 있었고 커다란 정문의 열쇠도 사라지고 없었어요.",
+        },
+        {
+          id: "drw-8",
+          text: "At the top of a stairway he found a door that only seemed to be locked, and by forcing it he entered a wing where ladies had lived long ago, with soft old furniture and tall windows full of yellow moonlight.",
+          translation:
+            "계단 위에서 잠긴 것처럼 보일 뿐인 문 하나를 찾았고, 힘껏 밀어젖혀 들어가 보니 옛날 귀부인들이 지내던 별채였어요. 오래된 푹신한 가구와 노란 달빛이 가득 든 높은 창들이 있었지요.",
+        },
+        {
+          id: "drw-9",
+          text: "The room felt peaceful, and although he remembered the Count's warning, he wanted to disobey it, so he pulled a couch to the window and lay down to sleep.",
+          translation:
+            "그 방은 평화로워 보였고, 그는 백작의 경고를 떠올리면서도 일부러 어겨 보고 싶어져서 긴 의자를 창가로 끌어다 놓고 누워 잠을 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "drw-10",
+          text: "When he opened his eyes he was not alone: three young women in elegant dress stood in the moonlight, and although the light was behind them, they cast no shadow on the floor.",
+          translation:
+            "눈을 떴을 때 그는 혼자가 아니었어요. 우아한 옷차림의 젊은 여인 셋이 달빛 속에 서 있었는데, 빛이 등 뒤에서 비치는데도 바닥에는 그림자가 전혀 없었어요.",
+        },
+        {
+          id: "drw-11",
+          text: "Two were dark, with sharp noses like the Count's, and one was fair with golden hair, and all three had brilliant white teeth that shone like pearls when they laughed a hard, silvery laugh.",
+          translation:
+            "둘은 백작처럼 콧날이 날카롭고 머리색이 짙었고, 하나는 금빛 머리에 살결이 희었어요. 세 여인 모두 진주처럼 빛나는 하얀 이를 드러내고 맑지만 차가운 웃음소리를 냈어요.",
+        },
+        {
+          id: "drw-12",
+          text: "They whispered together, and the fair one moved toward him and bent over him until he could feel her breath on his neck, and he lay perfectly still, caught between terror and a strange, dangerous longing.",
+          translation:
+            "그들은 서로 귓속말을 나누었고, 금발의 여인이 그에게 다가와 그의 목에 숨결이 느껴질 만큼 몸을 숙였어요. 그는 공포와 묘하고 위험한 이끌림 사이에 사로잡혀 꼼짝도 하지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "drw-13",
+          text: "But at that moment the Count burst into the room in a storm of fury, seized the fair woman by the neck, and with a giant's strength hurled her away from Jonathan.",
+          translation:
+            "그 순간 백작이 폭풍 같은 분노를 뿜으며 방으로 뛰어들어 금발 여인의 목을 움켜쥐고는 엄청난 힘으로 조나단에게서 내던졌어요.",
+        },
+        {
+          id: "drw-14",
+          text: "His eyes blazed with a red light, and in a low voice that cut through the air like a knife, he cried, \"How dare you touch him? This man belongs to me!\"",
+          translation:
+            "그의 눈은 붉은빛으로 이글거렸고, 공기를 칼처럼 가르는 낮은 목소리로 그는 소리쳤어요. \"감히 그에게 손을 대다니! 이 사람은 내 것이다!\"",
+        },
+        {
+          id: "drw-15",
+          text: "The women only laughed and said that he had never loved anyone, but the Count answered in a soft whisper that he too could love, and promised that when he was done with the young man, they could have him.",
+          translation:
+            "여인들은 웃기만 하면서 그가 누구도 사랑해 본 적이 없다고 했지만, 백작은 나직이 속삭이며 자신도 사랑할 수 있다고 답했고, 이 청년을 다 쓰고 나면 그들에게 넘겨주겠다고 약속했어요.",
+        },
+      ],
+      [
+        {
+          id: "drw-16",
+          text: "\"Are we to have nothing tonight?\" one of them asked, pointing to a bag on the floor that the Count had brought, and Jonathan saw that something inside it was moving.",
+          translation:
+            "\"오늘 밤은 우리에게 아무것도 없나요?\" 하고 한 여인이 백작이 가져온 바닥의 자루를 가리키며 물었고, 조나단은 그 안에서 무언가가 움직이는 것을 보았어요.",
+        },
+        {
+          id: "drw-17",
+          text: "When the Count nodded, a gasp and a faint cry, like a smothered child's, came from the bag, and as the women closed around it, they faded into the moonlight and vanished, and Jonathan sank down unconscious.",
+          translation:
+            "백작이 고개를 끄덕이자 자루에서 숨 막힌 듯한 신음과 어린아이 같은 희미한 울음이 새어 나왔고, 여인들이 자루 주위로 모여들더니 달빛 속으로 스며들듯 사라졌으며, 조나단은 그대로 정신을 잃고 쓰러졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drw-v1",
+        term: "prisoner",
+        partOfSpeech: "noun",
+        translation: "죄수, 갇힌 사람",
+        example: "Jonathan realised that he was a prisoner in the castle.",
+        exampleTranslation: "조나단은 자신이 성에 갇힌 죄수라는 것을 깨달았어요.",
+      },
+      {
+        id: "drw-v2",
+        term: "crawl",
+        partOfSpeech: "verb",
+        translation: "기어가다, 기어 내려가다",
+        example: "The Count began to crawl down the wall.",
+        exampleTranslation: "백작은 성벽을 기어 내려가기 시작했어요.",
+      },
+      {
+        id: "drw-v3",
+        term: "shadow",
+        partOfSpeech: "noun",
+        translation: "그림자",
+        example: "The women cast no shadow on the floor.",
+        exampleTranslation: "여인들은 바닥에 그림자를 드리우지 않았어요.",
+      },
+      {
+        id: "drw-v4",
+        term: "fury",
+        partOfSpeech: "noun",
+        translation: "격노, 맹렬한 분노",
+        example: "The Count came in a storm of fury.",
+        exampleTranslation: "백작은 폭풍 같은 분노를 몰고 들어왔어요.",
+      },
+      {
+        id: "drw-v5",
+        term: "vanish",
+        partOfSpeech: "verb",
+        translation: "사라지다, 자취를 감추다",
+        example: "The women faded into the moonlight and vanished.",
+        exampleTranslation: "여인들은 달빛 속으로 스며들며 사라졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drw-q1",
+        prompt: "What did Jonathan conclude when he saw the Count making his own bed and laying the table?",
+        options: [
+          "That the Count was a poor man who could not afford servants.",
+          "That the Count wanted to be his friend.",
+          "That there were no servants in the castle.",
+          "That the Count was preparing to leave for London.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "A lord who does all these small jobs himself must have no one else to do them, which frightened Jonathan, because it meant the Count had also driven the coach that brought him.",
+      },
+      {
+        id: "drw-q2",
+        prompt: "What frightening thing did Jonathan see from the high window?",
+        options: [
+          "The Count climbing head first down the outside wall like a lizard.",
+          "Wolves gathering in the courtyard.",
+          "A carriage arriving at the castle gate at midnight.",
+          "The three women walking on the roof.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jonathan watched the Count crawl down the sheer wall with his cloak spread like wings, and he realised that he was dealing with something that was not an ordinary man.",
+      },
+      {
+        id: "drw-q3",
+        prompt: "Why did the Count stop the fair woman from touching Jonathan?",
+        options: [
+          "He was afraid that the neighbours would hear them.",
+          "He did not want Jonathan to be harmed in his own castle.",
+          "He said that Jonathan belonged to him, and promised the women could have him later.",
+          "He wanted to give Jonathan a chance to escape.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The Count still needed Jonathan for his business plans, so he claimed him — \"This man belongs to me\" — and promised the women they could have him once he was finished with him.",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre-orchard",
+    title: "Jane Eyre: The Orchard",
+    titleTranslation: "제인 에어: 과수원",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "🌳",
+    coverImage: "/covers/jane-eyre-orchard.svg",
+    source:
+      "Adapted from Chapter 23 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Jane wanted to leave Thornfield, and what Mr. Rochester asked her.",
+    paragraphs: [
+      [
+        {
+          id: "jeo-1",
+          text: "On a warm midsummer evening, after Adèle had gone to bed, Jane walked out into the orchard at Thornfield, where the air was heavy with the scent of flowers and ripening fruit.",
+          translation:
+            "따뜻한 한여름 저녁, 아델이 잠자리에 든 뒤 제인은 손필드의 과수원으로 걸어 나갔고, 그곳의 공기는 꽃향기와 익어 가는 과일 냄새로 가득했어요.",
+        },
+        {
+          id: "jeo-2",
+          text: "Suddenly she smelled Mr. Rochester's cigar, and she stepped into a corner among the ivy, hoping that he would soon go back and never see her.",
+          translation:
+            "갑자기 로체스터 씨의 시가 냄새가 났고, 제인은 그가 곧 돌아가서 자신을 보지 못하기를 바라며 담쟁이덩굴이 우거진 구석으로 몸을 숨겼어요.",
+        },
+        {
+          id: "jeo-3",
+          text: "But he walked slowly through the garden, and when a great moth landed on a flower near his feet, he said quietly, without turning around, \"Jane, come and look at this fellow.\"",
+          translation:
+            "하지만 그는 정원을 천천히 거닐다가 커다란 나방이 발치의 꽃 위에 내려앉자, 돌아보지도 않고 조용히 말했어요. \"제인, 와서 이 녀석 좀 봐요.\"",
+        },
+      ],
+      [
+        {
+          id: "jeo-4",
+          text: "He led her down the laurel walk toward an old chestnut tree and remarked that Thornfield was pleasant in summer, and that she must have grown fond of it, and of Adèle and Mrs. Fairfax too.",
+          translation:
+            "그는 그녀를 월계수 산책길로 이끌어 늙은 마로니에 나무 쪽으로 걸어가며, 손필드는 여름에 아름다운 곳이고 그녀가 이곳에도, 아델과 페어팩스 부인에게도 정이 들었을 것이라고 했어요.",
+        },
+        {
+          id: "jeo-5",
+          text: "Then he sighed and told her that she must leave Thornfield, because in about a month he would marry Miss Ingram, and Adèle would go to school.",
+          translation:
+            "그러고는 한숨을 쉬며, 한 달쯤 뒤에 잉그램 양과 결혼할 것이므로 그녀가 손필드를 떠나야 하고 아델은 기숙학교에 가게 될 것이라고 말했어요.",
+        },
+        {
+          id: "jeo-6",
+          text: "He had already found her a new position teaching five girls in Ireland, and he added kindly that once she was there, he would probably never see her again.",
+          translation:
+            "그는 이미 아일랜드에서 다섯 명의 딸을 가르치는 새 자리를 알아봐 두었다고 했고, 거기 가고 나면 자신은 아마 다시는 그녀를 보지 못할 것이라고 다정하게 덧붙였어요.",
+        },
+      ],
+      [
+        {
+          id: "jeo-7",
+          text: "Jane said that it was a long way, and when he asked what she feared, the answer escaped her before she could stop it: the sea would be a wall between her and him.",
+          translation:
+            "제인은 아주 먼 곳이라고 했고, 그가 무엇이 걱정이냐고 묻자 멈출 새도 없이 답이 새어 나왔어요. 바다가 자신과 그 사이에 놓인 벽이 되리라는 것이었어요.",
+        },
+        {
+          id: "jeo-8",
+          text: "Her tears broke out, and at last, unable to hide her feelings, she cried that she loved Thornfield because she had lived there a full and happy life among bright and kind minds, and above all because she knew him.",
+          translation:
+            "눈물이 터져 나왔고, 마침내 감정을 숨기지 못한 제인은 자신이 손필드를 사랑하는 까닭은 이곳에서 밝고 따뜻한 마음을 가진 사람들 곁에서 충만하고 행복한 삶을 살았기 때문이며, 무엇보다 로체스터 씨를 알게 되었기 때문이라고 외쳤어요.",
+        },
+        {
+          id: "jeo-9",
+          text: "She said that leaving him would feel like death, and when she reminded him that Miss Ingram was to be his bride, he swore that Jane must stay, but she insisted that she had to go.",
+          translation:
+            "그를 떠나는 것은 죽음과도 같으리라고 말했고, 잉그램 양이 그의 신부가 될 사람이라고 일깨우자 그는 제인이 남아야 한다고 맹세했지만, 제인은 떠나야만 한다고 우겼어요.",
+        },
+      ],
+      [
+        {
+          id: "jeo-10",
+          text: "Her voice grew strong as she asked him whether he thought that, because she was poor, plain and small, she had no soul and no heart, and she told him that she had as much of both as he did.",
+          translation:
+            "그녀의 목소리는 점점 힘을 얻었어요. 자신이 가난하고 평범하고 작다고 해서 영혼도 마음도 없는 줄 아느냐고 물으며, 자신에게도 그와 똑같이 영혼과 마음이 있다고 말했어요.",
+        },
+        {
+          id: "jeo-11",
+          text: "She said that if God had given her beauty and wealth, she would have made it as hard for him to leave her as it was now for her to leave him, and that in spirit they stood equal before God.",
+          translation:
+            "만약 신이 자신에게 아름다움과 부를 주었다면, 지금 자신이 그를 떠나기 힘든 만큼 그도 자신을 떠나기 힘들게 만들었을 것이며, 정신으로는 두 사람이 신 앞에 평등하다고 말했어요.",
+        },
+        {
+          id: "jeo-12",
+          text: "When he drew her toward him, she pulled herself free and said that she was no bird caught in a net, but a free human being with an independent will.",
+          translation:
+            "그가 그녀를 끌어안자 제인은 몸을 빼내며, 자신은 그물에 걸린 새가 아니라 스스로 뜻을 정할 수 있는 자유로운 인간이라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "jeo-13",
+          text: "Rochester answered that he did not love Miss Ingram and that she did not love him, and he asked Jane to be his wife, saying that she was his equal and his likeness.",
+          translation:
+            "로체스터는 자신이 잉그램 양을 사랑하지 않고 그녀 역시 자신을 사랑하지 않는다고 답하며, 제인이 자신과 대등하고 자신을 닮은 사람이라고 하면서 아내가 되어 달라고 청했어요.",
+        },
+        {
+          id: "jeo-14",
+          text: "Jane did not believe him at first, and only when she looked at his face in the moonlight and saw how shaken and sincere he was did she ask whether he truly loved her.",
+          translation:
+            "제인은 처음에는 그를 믿지 않았지만, 달빛 아래에서 그의 얼굴을 살펴보고 그가 얼마나 흥분하고 진지한지 알아본 뒤에야 정말로 자신을 사랑하느냐고 물었어요.",
+        },
+        {
+          id: "jeo-15",
+          text: "When he swore that he did, Jane accepted, and he called her his little wife and said, in a voice that sounded almost fierce with joy, that no one had any right to interfere.",
+          translation:
+            "그가 사랑한다고 맹세하자 제인은 청혼을 받아들였고, 그는 그녀를 나의 작은 아내라고 부르며 기쁨에 넘쳐 거의 사나울 만큼 격한 목소리로 아무도 간섭할 권리가 없다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "jeo-16",
+          text: "Just then the wind rose, thunder cracked, and rain rushed down, and Rochester hurried her into the house, where Mrs. Fairfax, standing pale and amazed in the hall, saw him kiss Jane goodnight.",
+          translation:
+            "바로 그때 바람이 일고 천둥이 치더니 비가 쏟아졌고, 로체스터는 서둘러 제인을 집 안으로 데려갔어요. 현관에서 창백하고 놀란 얼굴로 서 있던 페어팩스 부인은 그가 제인에게 입맞춤하며 밤 인사를 하는 것을 보았지요.",
+        },
+        {
+          id: "jeo-17",
+          text: "Jane felt no fear during the storm, but in the morning Adèle ran in to say that the great chestnut tree in the orchard, where they had sat, had been struck by lightning and split in half.",
+          translation:
+            "제인은 폭풍우가 치는 동안에도 두렵지 않았지만, 아침에 아델이 달려와, 두 사람이 앉았던 과수원의 그 커다란 마로니에가 벼락에 맞아 반으로 쪼개졌다고 알려 주었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jeo-v1",
+        term: "orchard",
+        partOfSpeech: "noun",
+        translation: "과수원",
+        example: "They walked together through the orchard at night.",
+        exampleTranslation: "그들은 밤에 함께 과수원을 걸었어요.",
+      },
+      {
+        id: "jeo-v2",
+        term: "moth",
+        partOfSpeech: "noun",
+        translation: "나방",
+        example: "A large moth landed on a flower.",
+        exampleTranslation: "커다란 나방 한 마리가 꽃 위에 내려앉았어요.",
+      },
+      {
+        id: "jeo-v3",
+        term: "independent",
+        partOfSpeech: "adjective",
+        translation: "독립적인, 자기 뜻대로 정하는",
+        example: "Jane was proud of her independent will.",
+        exampleTranslation: "제인은 자신의 독립적인 의지를 자랑스러워했어요.",
+      },
+      {
+        id: "jeo-v4",
+        term: "equal",
+        partOfSpeech: "noun",
+        translation: "대등한 사람, 동등한 존재",
+        example: "He called her his equal.",
+        exampleTranslation: "그는 그녀를 자신과 대등한 사람이라고 불렀어요.",
+      },
+      {
+        id: "jeo-v5",
+        term: "sincere",
+        partOfSpeech: "adjective",
+        translation: "진심 어린, 거짓이 없는",
+        example: "She saw that he was sincere.",
+        exampleTranslation: "그녀는 그가 진심이라는 것을 알아보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jeo-q1",
+        prompt: "Why did Jane say that she had to leave Thornfield?",
+        options: [
+          "Because Mrs. Fairfax had asked her to go.",
+          "Because she wanted to travel to Ireland.",
+          "Because Adèle was going to school and no longer needed her.",
+          "Because Rochester said he would marry Miss Ingram, and she could not bear to stay and mean nothing to him.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Rochester told her he was about to marry Miss Ingram, so Jane, who loved him, believed that she had to go. She refused to stay and become nothing to him.",
+      },
+      {
+        id: "jeo-q2",
+        prompt: "What did Jane say when Rochester tried to hold her back?",
+        options: [
+          "That she was a free human being with an independent will.",
+          "That she would ask Mrs. Fairfax for advice.",
+          "That she was too tired to argue any longer.",
+          "That she was afraid of the storm.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jane said that she was no bird caught in a net: she was a free person who chose to leave, which is why his later proposal, made among equals, mattered so much.",
+      },
+      {
+        id: "jeo-q3",
+        prompt: "What happened to the great chestnut tree that night?",
+        options: [
+          "A gardener cut it down the next day.",
+          "Adèle carved her name on it.",
+          "It was struck by lightning and split in half.",
+          "It blew over in the wind and fell across the laurel walk.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The tree where they had been sitting was split by lightning during the storm, which Brontë uses as a warning that their happiness would not be untroubled.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

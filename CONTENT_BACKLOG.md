@@ -1256,12 +1256,22 @@ free, A2, a whole-story retelling. It's a ~1,000-word short story, so it can't
 grow into a multi-part book; if the ask is "more of it", the honest option is a
 fuller B1 retelling (roughly 30 sentences) as its own lesson rather than a part 2.
 
-**Wave 2 — suggested order** (biggest existing readerships first, then new books):
-1. Pride and Prejudice part 4 — Ch. 43 (Elizabeth visits Pemberley).
-2. Dracula part 3 — Ch. 3 (the three women in the castle).
-3. Sense and Sensibility part 3 — Ch. 29 (Willoughby cuts Marianne at the London ball).
-4. Jane Eyre part 4 — Ch. 23 (the orchard proposal).
-5. Little Women part 3, Anne of Green Gables part 3 (both already 2-part books).
-6. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
+**Wave 2 — written 2026-09-21** (same checklist as wave 1):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Pride and Prejudice → part 4 | Pemberley | Ch. 43 | B2 |
+| Dracula → part 3 | The Three Women | Ch. 3 | B2 |
+| Sense and Sensibility → part 3 | The London Party | Ch. 28–29 | B1 |
+| Jane Eyre → part 4 | The Orchard | Ch. 23 | B2 |
+
+The Dracula chapter keeps the gothic menace but drops the sensual detail of the
+original scene (the source stays PG-13 in the retelling, like the rest of the shelf).
+
+**Wave 3 — suggested order:**
+1. Little Women part 3, Anne of Green Gables part 3 (both already 2-part books).
+2. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
    Ch. 36 "The Quarter-Deck"), *The Hound of the Baskervilles*, *Dr Jekyll and Mr
    Hyde* (a second lesson makes it a book), *Alice's Adventures in Wonderland*.
+3. Then part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the
+   second proposal; Jane Eyre: Ch. 26 the wedding).
