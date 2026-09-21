@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Noto_Sans_KR, Noto_Serif_KR, Playfair_Display } from "next/font/google";
+import { Inter, Literata, Noto_Sans_KR, Noto_Serif_KR, Playfair_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Providers } from "@/components/providers/Providers";
@@ -10,6 +10,9 @@ import { SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
+// Playfair is a high-contrast display face: great for titles, but its hairlines break up at
+// body sizes on phone screens. Story text uses Literata, a serif drawn for on-screen reading.
+const literata = Literata({ subsets: ["latin"], variable: "--font-literata", display: "swap" });
 // Noto Sans/Serif KR ship all Hangul glyphs in the font file regardless of the
 // `subsets` hint; next/font only uses `subsets` for preload <link> generation,
 // and Google's metadata for these families doesn't expose a `korean` subset
@@ -94,7 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${inter.variable} ${playfair.variable} ${notoSansKr.variable} ${notoSerifKr.variable}`}
+      className={`${inter.variable} ${playfair.variable} ${literata.variable} ${notoSansKr.variable} ${notoSerifKr.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />

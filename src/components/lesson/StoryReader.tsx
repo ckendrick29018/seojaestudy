@@ -11,10 +11,11 @@ import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon } from "@/
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
 import { Toast } from "@/components/ui/Toast";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
+import { smartQuotes } from "@/lib/utils";
 
 /** Strips leading/trailing punctuation so a tapped chunk can match the glossary. */
 function normalizeWord(raw: string): string {
-  return raw.toLowerCase().replace(/[^a-z가-힣0-9']/gi, "");
+  return raw.toLowerCase().replace(/[‘’]/g, "'").replace(/[^a-z가-힣0-9']/gi, "");
 }
 
 /** Short label for the reading-language toggle. */
@@ -108,9 +109,9 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
   const readingIsTarget = readingLang === lesson.targetLanguage;
   /** The story body in the chosen reading language. */
-  const bodyText = (s: StorySentence) => (readingIsTarget ? s.text : s.translation);
+  const bodyText = (s: StorySentence) => smartQuotes(readingIsTarget ? s.text : s.translation);
   /** The other language, shown on tap and via the globe button. */
-  const revealText = (s: StorySentence) => (readingIsTarget ? s.translation : s.text);
+  const revealText = (s: StorySentence) => smartQuotes(readingIsTarget ? s.translation : s.text);
 
   const sentenceMap = useMemo(() => {
     const m = new Map<string, StorySentence>();
@@ -375,7 +376,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
       <p className="mb-5 text-xs italic text-charcoal/40">{t("readerHint")}</p>
 
-      <div ref={storyRef} className="space-y-4 font-serif text-[1.05rem] leading-8 text-charcoal">
+      <div ref={storyRef} className="space-y-5 font-reading text-[1.075rem] leading-[1.95] text-charcoal">
         {lesson.paragraphs.map((paragraph, pIndex) => (
           <p key={pIndex}>
             {paragraph.map((sentence) => {
@@ -389,7 +390,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
                       <span
                         key={i}
                         onClick={() => handleWordTap(chunk, sentence)}
-                        className={`cursor-pointer rounded px-0.5 transition ${
+                        className={`-mx-0.5 cursor-pointer rounded px-0.5 transition ${
                           highlighted ? "bg-gold/25 hover:bg-gold/40" : "hover:bg-sage/50 active:bg-sage/70"
                         }`}
                       >

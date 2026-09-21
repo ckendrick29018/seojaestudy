@@ -24,7 +24,7 @@ export function LessonHero({ lesson, bookContext }: { lesson: Lesson; bookContex
         <img
           src={lesson.coverImage}
           alt={lesson.author ? `${lesson.title} by ${lesson.author}` : lesson.title}
-          className="mx-auto mb-3 h-40 w-auto rounded-xl2 border border-rose-light/60 shadow-soft"
+          className="mx-auto mb-4 h-60 w-auto rounded-xl2 border border-rose-light/60 shadow-soft"
         />
       ) : (
         <div className="mb-2 text-4xl">{lesson.coverEmoji}</div>
@@ -32,12 +32,14 @@ export function LessonHero({ lesson, bookContext }: { lesson: Lesson; bookContex
       <h1 className="mb-1 font-serif text-3xl font-semibold text-charcoal">{lesson.title}</h1>
       <p className="text-base text-charcoal/60">{lesson.titleTranslation}</p>
       {lesson.author && <p className="mt-0.5 text-sm text-charcoal/45">{lesson.author}</p>}
-      <BookPartLink context={bookContext} />
-      <div className="mt-3 inline-flex items-center gap-1.5 text-sm text-charcoal/50">
-        <ClockIcon className="h-4 w-4" />
-        <span>
-          {minutes} {t("minRead")}
-        </span>
+      <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+        <BookPartLink context={bookContext} />
+        <div className="inline-flex items-center gap-1.5 text-sm text-charcoal/50">
+          <ClockIcon className="h-4 w-4" />
+          <span>
+            {minutes} {t("minRead")}
+          </span>
+        </div>
       </div>
     </section>
   );

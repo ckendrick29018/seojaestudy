@@ -20,3 +20,16 @@ export function estimateReadingTime(lesson: Lesson): number {
     .reduce((sum, sentence) => sum + sentence.text.trim().split(/\s+/).filter(Boolean).length, 0);
   return Math.max(1, Math.round(totalWords / wordsPerMinute));
 }
+
+/**
+ * Typographic quotes for display only: straight " and ' become curly ones so
+ * story text reads like a printed book. Stored text stays plain ASCII (audio
+ * hashes, dictionary lookups and search all depend on it).
+ */
+export function smartQuotes(text: string): string {
+  return text
+    .replace(/(^|[\s([{—–-])"/g, "$1“")
+    .replace(/"/g, "”")
+    .replace(/(^|[\s([{—–“-])'/g, "$1‘")
+    .replace(/'/g, "’");
+}

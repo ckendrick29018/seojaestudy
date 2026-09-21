@@ -26,6 +26,7 @@ const config: Config = {
       },
       fontFamily: {
         serif: ["var(--font-playfair)", "var(--font-noto-serif-kr)", "serif"],
+        reading: ["var(--font-literata)", "var(--font-noto-serif-kr)", "serif"],
         sans: ["var(--font-inter)", "var(--font-noto-sans-kr)", "sans-serif"],
       },
       maxWidth: {

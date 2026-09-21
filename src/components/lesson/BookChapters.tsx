@@ -21,7 +21,7 @@ export function BookPartLink({ context }: { context?: BookContext }) {
   return (
     <Link
       href={`/book/${book.id}`}
-      className="mt-2 inline-flex max-w-full items-center gap-1 rounded-full bg-rose-light/40 px-3 py-1 text-xs font-medium text-rose transition hover:bg-rose-light/70"
+      className="inline-flex max-w-full items-center gap-1 rounded-full bg-rose-light/40 px-3 py-1 text-xs font-medium text-rose transition hover:bg-rose-light/70"
     >
       <span className="truncate">
         {fill(t("bookPartOf"), { n: index + 1, total: book.chapters.length })} · {book.title}
