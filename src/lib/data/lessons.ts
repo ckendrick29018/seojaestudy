@@ -36820,6 +36820,874 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "pride-and-prejudice-letter",
+    title: "Pride and Prejudice: Darcy's Letter",
+    titleTranslation: "오만과 편견: 다아시의 편지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "✉️",
+    coverImage: "/covers/pride-and-prejudice-letter.svg",
+    source:
+      "Adapted from Chapter 35 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Darcy admitted about Jane and Mr. Bingley, and what he revealed about Mr. Wickham.",
+    paragraphs: [
+      [
+        {
+          id: "ppl-1",
+          text: "Elizabeth woke the next morning to the same thoughts that had filled her mind until she fell asleep, and after breakfast she went out for some fresh air.",
+          translation:
+            "다음 날 아침 엘리자베스는 잠들 때까지 머릿속을 채웠던 바로 그 생각들과 함께 눈을 떴고, 아침을 먹은 뒤 바깥 공기를 쐬러 나갔어요.",
+        },
+        {
+          id: "ppl-2",
+          text: "Afraid of meeting Mr. Darcy on her favourite path in the park, she turned instead into a lane that ran along its edge.",
+          translation:
+            "즐겨 걷던 공원 산책길에서 다아시 씨와 마주칠까 봐, 그녀는 대신 공원 가장자리를 따라 이어진 좁은 길로 접어들었어요.",
+        },
+      ],
+      [
+        {
+          id: "ppl-3",
+          text: "She paused at a gate to admire the fresh spring leaves, and when she saw a gentleman among the trees she turned to go, but he called her name.",
+          translation:
+            "문가에 잠시 멈춰 서서 봄의 새잎들을 바라보던 그녀는 나무들 사이에서 한 신사를 발견하고 돌아서려 했지만, 그가 그녀의 이름을 불렀어요.",
+        },
+        {
+          id: "ppl-4",
+          text: "It was Mr. Darcy, who said he had been walking there for some time, hoping to meet her, and he held out a letter, which she took without thinking.",
+          translation:
+            "다아시 씨였어요. 그는 한참 전부터 그녀를 만나기를 바라며 그곳을 거닐고 있었다고 말하며 편지 한 통을 내밀었고, 그녀는 저도 모르게 받아 들었어요.",
+        },
+        {
+          id: "ppl-5",
+          text: "\"Will you do me the honour of reading this letter?\" he asked with cold politeness, and after a slight bow he walked back into the trees.",
+          translation:
+            "\"이 편지를 읽어 주시는 영광을 베풀어 주시겠습니까?\" 그는 차갑도록 정중하게 물은 뒤, 가볍게 인사하고 다시 나무들 사이로 걸어 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ppl-6",
+          text: "Full of curiosity, though expecting no pleasure, she opened two closely written pages; Darcy began by assuring her that he was not repeating his offer, and wrote only because his honour required her to know the truth.",
+          translation:
+            "기쁜 소식은 기대하지 않았지만 호기심만은 가득했던 그녀는 빽빽하게 적힌 두 장의 편지지를 펼쳤어요. 다아시는 청혼을 되풀이하려는 것이 아니며, 자신의 명예를 위해 그녀가 진실을 알아야 하기에 쓴다고 밝혔어요.",
+        },
+        {
+          id: "ppl-7",
+          text: "He admitted that he had parted Mr. Bingley from Jane, explaining that at the Netherfield ball, when Sir William Lucas spoke of their marriage as certain, he first saw how serious his friend's feelings were.",
+          translation:
+            "그는 빙리 씨를 제인에게서 떼어 놓았다고 인정하며, 네더필드 무도회에서 윌리엄 루카스 경이 두 사람의 결혼을 기정사실처럼 말하는 것을 듣고서야 친구의 마음이 얼마나 진지한지 깨달았다고 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppl-8",
+          text: "He had watched Jane closely and found her cheerful and kind to everyone, with no sign of special feeling, so he had honestly believed she was indifferent — though he admitted he might have been wrong.",
+          translation:
+            "그 뒤로 제인을 유심히 지켜보았는데, 그녀는 누구에게나 밝고 다정할 뿐 특별한 감정의 기색이 없어서 무관심하다고 진심으로 믿었다고 했어요. 다만 자신이 틀렸을 수도 있음은 인정했어요.",
+        },
+        {
+          id: "ppl-9",
+          text: "He also wrote plainly that he had objected to the match because of the poor manners of her mother, her three younger sisters, and sometimes even her father, while praising Elizabeth and Jane for behaving well.",
+          translation:
+            "또 그는 엘리자베스의 어머니와 어린 세 동생, 때로는 아버지까지도 예의를 지키지 못하는 것이 그 결혼을 반대한 이유였다고 솔직하게 썼지만, 엘리자베스와 제인은 처신이 바르다고 칭찬했어요.",
+        },
+        {
+          id: "ppl-10",
+          text: "In London he had persuaded Bingley that Jane did not love him, and he confessed that he had even hidden from his friend the fact that she was in town, though he still believed he had acted for the best.",
+          translation:
+            "런던에서 그는 제인이 빙리를 사랑하지 않는다고 설득했고, 제인이 런던에 와 있다는 사실까지 친구에게 숨겼음을 털어놓았어요. 그러면서도 자신은 최선을 다했다고 여겼지요.",
+        },
+      ],
+      [
+        {
+          id: "ppl-11",
+          text: "About Mr. Wickham, Darcy wrote that he was the son of the steward who had managed the Pemberley estate, and that Darcy's father, his godfather, had paid for his schooling and his years at Cambridge.",
+          translation:
+            "위컴 씨에 대해서는, 그가 펨벌리 영지를 관리하던 관리인의 아들이고, 그의 대부인 다아시의 아버지가 학비와 케임브리지 시절의 비용을 대 주었다고 썼어요.",
+        },
+        {
+          id: "ppl-12",
+          text: "When old Mr. Darcy died, he had left Wickham a valuable church position and a thousand pounds, but Wickham said he no longer wished to be a clergyman and asked for money instead, and Darcy gave him three thousand pounds.",
+          translation:
+            "다아시의 아버지가 세상을 떠나며 위컴에게 좋은 성직 자리와 천 파운드를 남겼지만, 위컴은 더는 성직자가 되고 싶지 않다며 대신 돈을 요구했고, 다아시는 그에게 삼천 파운드를 주었어요.",
+        },
+        {
+          id: "ppl-13",
+          text: "Three years later, poor and idle, Wickham demanded the church position after all, and when Darcy refused, he answered with bitter anger.",
+          translation:
+            "삼 년 뒤 가난하고 빈둥거리던 위컴은 결국 그 성직 자리를 내놓으라고 요구했고, 다아시가 거절하자 몹시 분개했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppl-14",
+          text: "The worst came last summer at Ramsgate, where Wickham, with the help of Georgiana's companion, Mrs. Younge, persuaded Darcy's fifteen-year-old sister that she loved him and should run away with him.",
+          translation:
+            "가장 나쁜 일은 지난여름 램스게이트에서 일어났어요. 위컴이 조지아나의 보호자였던 영 부인의 도움을 받아, 열다섯 살이던 다아시의 누이동생에게 자신을 사랑한다고, 함께 도망치자고 믿게 만들었거든요.",
+        },
+        {
+          id: "ppl-15",
+          text: "Darcy arrived unexpectedly a day or two before the planned elopement, and Georgiana, unable to bear hurting the brother she looked up to almost as a father, told him everything.",
+          translation:
+            "다아시가 도망 예정일 하루이틀 전에 불쑥 나타났고, 아버지처럼 따르던 오빠를 슬프게 할 수 없었던 조지아나는 모든 것을 털어놓았어요.",
+        },
+        {
+          id: "ppl-16",
+          text: "He believed Wickham wanted her thirty-thousand-pound fortune and a chance for revenge, and Wickham left the town at once when Darcy wrote to him.",
+          translation:
+            "다아시는 위컴이 그녀의 삼만 파운드 재산과 복수할 기회를 노렸다고 믿었고, 그가 편지를 보내자 위컴은 곧바로 그곳을 떠났어요.",
+        },
+        {
+          id: "ppl-17",
+          text: "To prove that every word was true, Darcy named his cousin, Colonel Fitzwilliam, as a witness, and he ended the letter with a short blessing and his full name.",
+          translation:
+            "다아시는 편지의 모든 내용이 사실임을 증명해 줄 증인으로 사촌인 피츠윌리엄 대령의 이름을 밝혔고, 짧은 축복의 말과 이름 전체를 적어 편지를 맺었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ppl-v1",
+        term: "indifferent",
+        partOfSpeech: "adjective",
+        translation: "무관심한, 특별한 감정이 없는",
+        example: "Darcy believed that Jane was indifferent to Mr. Bingley.",
+        exampleTranslation: "다아시는 제인이 빙리 씨에게 특별한 감정이 없다고 믿었어요.",
+      },
+      {
+        id: "ppl-v2",
+        term: "propriety",
+        partOfSpeech: "noun",
+        translation: "예의범절, 점잖은 처신",
+        example: "He blamed her family for their lack of propriety.",
+        exampleTranslation: "그는 그녀의 가족에게 예의범절이 부족하다고 나무랐어요.",
+      },
+      {
+        id: "ppl-v3",
+        term: "steward",
+        partOfSpeech: "noun",
+        translation: "(영지의) 관리인, 집사",
+        example: "Wickham's father was the steward of the Pemberley estate.",
+        exampleTranslation: "위컴의 아버지는 펨벌리 영지의 관리인이었어요.",
+      },
+      {
+        id: "ppl-v4",
+        term: "elopement",
+        partOfSpeech: "noun",
+        translation: "사랑의 도피, 몰래 달아나 결혼하는 것",
+        example: "Darcy stopped the elopement just in time.",
+        exampleTranslation: "다아시는 아슬아슬하게 그 도피 결혼을 막았어요.",
+      },
+      {
+        id: "ppl-v5",
+        term: "witness",
+        partOfSpeech: "noun",
+        translation: "증인, 목격자",
+        example: "He named his cousin as a witness to prove his story.",
+        exampleTranslation: "그는 자기 이야기를 증명하려고 사촌을 증인으로 내세웠어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ppl-q1",
+        prompt: "Why did Darcy say he was writing the letter?",
+        options: [
+          "To ask Elizabeth to reconsider his proposal.",
+          "Because his honour required her to know the truth, not to repeat his offer.",
+          "Because Colonel Fitzwilliam had begged him to apologise.",
+          "To warn her that Mr. Bingley was about to leave Netherfield.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Darcy opened by promising that the letter would not renew his proposal; he wrote only because his character demanded that Elizabeth hear his side of the two accusations.",
+      },
+      {
+        id: "ppl-q2",
+        prompt: "What made Darcy believe that Jane did not love Bingley deeply?",
+        options: [
+          "Jane told him herself at the Netherfield ball.",
+          "She refused to dance with Mr. Bingley all evening.",
+          "Sir William Lucas said that Jane cared little for Bingley.",
+          "She was as cheerful and kind to Bingley as to everyone else, showing no special feeling.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Darcy watched Jane closely and saw open, friendly manners with no sign of particular regard, so he honestly judged her indifferent — although he admitted he might have been mistaken.",
+      },
+      {
+        id: "ppl-q3",
+        prompt: "According to Darcy, what did Wickham try to do at Ramsgate?",
+        options: [
+          "Persuade Darcy's fifteen-year-old sister to elope with him, hoping for her fortune and revenge.",
+          "Borrow money from Georgiana and refuse to pay it back.",
+          "Tell Colonel Fitzwilliam that Darcy had cheated him.",
+          "Take a teaching post at Georgiana's school.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "With Mrs. Younge's help, Wickham convinced Georgiana she loved him and should run away with him; Darcy believed he wanted her thirty-thousand-pound fortune and a chance to punish Darcy.",
+      },
+    ],
+  },
+  {
+    slug: "sense-and-sensibility-willoughby",
+    title: "Sense and Sensibility: Willoughby",
+    titleTranslation: "이성과 감성: 윌러비",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🌧️",
+    coverImage: "/covers/sense-and-sensibility-willoughby.svg",
+    source:
+      "Adapted from Chapter 9 of Jane Austen's novel \"Sense and Sensibility\" (first published 1811; long in the public domain, Project Gutenberg #21839). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain how Marianne met Mr. Willoughby, and what Sir John Middleton could and could not tell the family about him.",
+    paragraphs: [
+      [
+        {
+          id: "ssw-1",
+          text: "The Dashwoods had settled into their new home at Barton, and they were soon comfortable and busy with their old hobbies again.",
+          translation:
+            "대시우드 가족은 바튼의 새 집에 자리를 잡았고, 곧 편안하게 지내며 예전처럼 취미 생활로 바쁜 나날을 보내게 되었어요.",
+        },
+        {
+          id: "ssw-2",
+          text: "All around them were lovely walks, and from almost every window of the cottage they could see high hills that seemed to invite them to climb.",
+          translation:
+            "주변에는 아름다운 산책길이 가득했고, 별장의 거의 모든 창문에서는 어서 올라와 보라는 듯한 높다란 언덕이 내다보였어요.",
+        },
+      ],
+      [
+        {
+          id: "ssw-3",
+          text: "After two days of rain, Marianne and Margaret could not bear to stay indoors any longer, and one showery morning they set off up the hill, while Elinor and their mother stayed home with their pencils and books.",
+          translation:
+            "이틀 동안 비가 내린 끝에 메리앤과 마거릿은 더는 집 안에 갇혀 있을 수 없었어요. 그래서 비가 오락가락하던 어느 아침, 엘리너와 어머니는 연필과 책을 벗 삼아 집에 남고 두 사람은 언덕으로 향했어요.",
+        },
+        {
+          id: "ssw-4",
+          text: "Marianne declared that the weather would turn fine, and for a while the wind and the patches of blue sky seemed to prove her right.",
+          translation:
+            "메리앤은 날씨가 곧 갤 거라고 장담했고, 한동안은 바람과 군데군데 보이는 푸른 하늘이 그녀가 옳다고 말해 주는 듯했어요.",
+        },
+        {
+          id: "ssw-5",
+          text: "\"Is there any happiness in the world greater than this?\" she cried, and the two girls walked on into the wind, laughing.",
+          translation:
+            "\"세상에 이보다 더 큰 행복이 있을까?\" 메리앤이 외쳤고, 두 사람은 웃으며 바람을 맞받아 걸어 올라갔어요.",
+        },
+        {
+          id: "ssw-6",
+          text: "But suddenly the clouds closed over their heads and a heavy rain drove into their faces, so they turned and ran down the steep hill toward home.",
+          translation:
+            "그런데 갑자기 구름이 머리 위로 모여들더니 굵은 비가 얼굴을 세차게 때렸고, 두 사람은 몸을 돌려 가파른 언덕을 뛰어 집으로 내려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "ssw-7",
+          text: "Marianne slipped and fell, spraining her ankle, and Margaret, who could not stop in time, ran on to the bottom without her.",
+          translation:
+            "메리앤이 미끄러져 넘어지며 발목을 삐었고, 멈추지 못한 마거릿은 그대로 언니를 두고 언덕 아래까지 달려 내려갔어요.",
+        },
+        {
+          id: "ssw-8",
+          text: "A gentleman with a gun and two dogs happened to be passing a few steps away, and he put down his gun and ran to help her.",
+          translation:
+            "마침 총을 든 신사가 사냥개 두 마리를 데리고 몇 걸음 떨어진 곳을 지나던 참이었는데, 그는 총을 내려놓고 달려와 그녀를 도왔어요.",
+        },
+        {
+          id: "ssw-9",
+          text: "Seeing that she could hardly stand, and that she was too shy to accept his help, he simply lifted her in his arms, carried her down the hill and into the house, and set her in a chair in the parlour.",
+          translation:
+            "그는 그녀가 제대로 서지도 못하는데도 수줍어서 도움을 사양하는 것을 보고는, 더 말하지 않고 그녀를 번쩍 안아 언덕을 내려와 집 안으로 들어가 거실 의자에 앉혀 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "ssw-10",
+          text: "Elinor and her mother stared in surprise, but the young man explained what had happened so frankly and gracefully that he seemed even more handsome than before.",
+          translation:
+            "엘리너와 어머니는 깜짝 놀라 그를 바라보았지만, 청년이 솔직하고 우아하게 사정을 설명하는 동안 그의 잘생긴 얼굴이 더욱 돋보였어요.",
+        },
+        {
+          id: "ssw-11",
+          text: "Mrs. Dashwood thanked him again and again, and he told her his name was Willoughby, that he was staying at Allenham, and that he hoped to call the next day to ask after Miss Dashwood.",
+          translation:
+            "대시우드 부인은 몇 번이고 고마워했고, 그는 자신의 이름이 윌러비이며 앨런엄에 머물고 있고, 내일 대시우드 양의 안부를 물으러 찾아뵙고 싶다고 말했어요.",
+        },
+        {
+          id: "ssw-12",
+          text: "He left in the pouring rain, and everyone praised his good looks; Marianne, blushing, had hardly looked at him, yet she felt he was exactly like the hero of her favourite stories.",
+          translation:
+            "그는 쏟아지는 빗속으로 떠났고, 모두가 그의 준수한 외모를 칭찬했어요. 얼굴이 새빨개진 메리앤은 그를 제대로 보지 못했지만, 그가 자신이 좋아하는 이야기 속 주인공과 꼭 닮았다고 느꼈어요.",
+        },
+      ],
+      [
+        {
+          id: "ssw-13",
+          text: "When Sir John Middleton visited, they asked if he knew a Mr. Willoughby at Allenham. \"Know him!\" he cried. \"He comes down here every year!\"",
+          translation:
+            "존 미들턴 경이 찾아오자, 그들은 앨런엄에 윌러비라는 분을 아느냐고 물었어요. \"알다마다요!\" 그가 외쳤어요. \"해마다 이곳에 내려오는걸요!\"",
+        },
+        {
+          id: "ssw-14",
+          text: "Sir John called him a bold rider and a fine shot, but when Marianne asked about his mind and his talents, he could only wonder whether the man's dog had been with him that day.",
+          translation:
+            "존 경은 그를 대담한 기수이자 훌륭한 사냥꾼이라고 했지만, 메리앤이 그의 지성과 재능에 대해 묻자 그날 그의 개가 함께 있었는지가 궁금하다고밖에 말하지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssw-15",
+          text: "Elinor asked where Mr. Willoughby came from, and Sir John explained that he would one day inherit the old lady's house at Allenham and already owned a small estate in Somerset.",
+          translation:
+            "엘리너가 윌러비 씨가 어디 출신인지 묻자, 존 경은 그가 언젠가 앨런엄의 노부인이 가진 저택을 물려받을 것이고 이미 서머싯에 작은 영지도 갖고 있다고 설명했어요.",
+        },
+        {
+          id: "ssw-16",
+          text: "He teased Marianne that she would soon be \"setting her cap\" at Willoughby, and that poor Colonel Brandon was already in love with her.",
+          translation:
+            "그는 메리앤이 곧 윌러비 씨에게 \"눈독을 들이게\" 될 거라며 놀렸고, 불쌍한 브랜던 대령은 벌써 그녀에게 홀딱 반했다고 덧붙였어요.",
+        },
+        {
+          id: "ssw-17",
+          text: "Marianne answered warmly that she hated such common phrases, and Sir John, who did not quite understand her, laughed as heartily as if he did.",
+          translation:
+            "메리앤은 그런 흔한 표현이 정말 싫다며 발끈했고, 그 뜻을 잘 알아듣지 못한 존 경은 알아들은 척 크게 웃었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ssw-v1",
+        term: "steep",
+        partOfSpeech: "adjective",
+        translation: "가파른, 경사가 급한",
+        example: "The girls ran down the steep hill in the rain.",
+        exampleTranslation: "소녀들은 빗속에서 가파른 언덕을 뛰어 내려갔어요.",
+      },
+      {
+        id: "ssw-v2",
+        term: "sprain",
+        partOfSpeech: "verb",
+        translation: "(발목 등을) 삐다",
+        example: "Marianne slipped and sprained her ankle.",
+        exampleTranslation: "메리앤은 미끄러져 발목을 삐었어요.",
+      },
+      {
+        id: "ssw-v3",
+        term: "gracefully",
+        partOfSpeech: "adverb",
+        translation: "우아하게, 품위 있게",
+        example: "He explained what had happened frankly and gracefully.",
+        exampleTranslation: "그는 일어난 일을 솔직하고 우아하게 설명했어요.",
+      },
+      {
+        id: "ssw-v4",
+        term: "inherit",
+        partOfSpeech: "verb",
+        translation: "상속받다, 물려받다",
+        example: "One day he will inherit the old lady's house.",
+        exampleTranslation: "그는 언젠가 그 노부인의 집을 물려받을 거예요.",
+      },
+      {
+        id: "ssw-v5",
+        term: "tease",
+        partOfSpeech: "verb",
+        translation: "놀리다, 장난스럽게 놀려 대다",
+        example: "Sir John teased Marianne about her new admirer.",
+        exampleTranslation: "존 경은 메리앤의 새로운 숭배자를 두고 그녀를 놀렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ssw-q1",
+        prompt: "Why did Marianne and Margaret climb the hill that morning?",
+        options: [
+          "Elinor had sent them to look for Mr. Willoughby.",
+          "They wanted to join Sir John Middleton's hunt.",
+          "They were tired of being shut indoors after two days of rain.",
+          "Their mother had asked them to pick flowers for the parlour.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "After two rainy days the girls could no longer bear staying inside, and Marianne felt sure the weather would stay fine, so they set off up the hill.",
+      },
+      {
+        id: "ssw-q2",
+        prompt: "How did Mr. Willoughby help Marianne?",
+        options: [
+          "He carried her down the hill and into the house after she sprained her ankle.",
+          "He ran to the village to fetch a doctor.",
+          "He lent her his coat and rode home for a carriage.",
+          "He called for Elinor to come and help but did not touch her.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Seeing that she could hardly stand, he lifted her in his arms and carried her all the way to a chair in the parlour before giving his name.",
+      },
+      {
+        id: "ssw-q3",
+        prompt: "What could Sir John Middleton tell the family about Mr. Willoughby?",
+        options: [
+          "That he had never visited Allenham before.",
+          "That he was a bold rider and a pleasant fellow who would inherit the old lady's house.",
+          "That he was already engaged to be married.",
+          "That he was Colonel Brandon's cousin.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Sir John praised his riding and good humour and knew that he would inherit the Allenham house, but he could say nothing about Willoughby's mind or talents, which was what Marianne wanted to hear.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-the-castle",
+    title: "Dracula: The Castle",
+    titleTranslation: "드라큘라: 성",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🏰",
+    coverImage: "/covers/dracula-the-castle.svg",
+    source:
+      "Adapted from Chapter 2 of Bram Stoker's Dracula (1897; Project Gutenberg #345, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Count Dracula welcomed Jonathan, and name two strange things Jonathan noticed about him.",
+    paragraphs: [
+      [
+        {
+          id: "drc-1",
+          text: "The coach stopped in the dark courtyard of a huge castle; the driver, whose hand was as strong as a steel clamp, helped Jonathan down, set his bags on the ground, and drove away through one of the black archways.",
+          translation:
+            "마차는 거대한 성의 어두운 안뜰에 멈춰 섰어요. 강철 집게처럼 힘센 손을 가진 마부는 조나단이 내리도록 도와주고 짐을 바닥에 내려놓은 뒤, 어두운 아치 사이로 사라졌어요.",
+        },
+        {
+          id: "drc-2",
+          text: "There was no bell and no knocker, and as Jonathan waited alone before the great iron-studded door, he wondered what kind of place he had come to, and he pinched himself to make sure he was not dreaming.",
+          translation:
+            "초인종도 문고리도 없었고, 조나단은 쇠못이 박힌 커다란 문 앞에 홀로 서서 자신이 어떤 곳에 온 것인지 궁금해하며 꿈이 아닌지 확인하려고 자기 몸을 꼬집어 보았어요.",
+        },
+      ],
+      [
+        {
+          id: "drc-3",
+          text: "At last he heard heavy footsteps, the rattle of chains and the grinding of a key, and the great door swung open.",
+          translation:
+            "마침내 묵직한 발소리와 쇠사슬이 덜컹거리는 소리, 열쇠가 삐걱거리며 돌아가는 소리가 들리더니 커다란 문이 열렸어요.",
+        },
+        {
+          id: "drc-4",
+          text: "Inside stood a tall old man, dressed in black from head to foot, holding an antique silver lamp whose flame flickered in the draught.",
+          translation:
+            "안쪽에는 머리끝부터 발끝까지 검은 옷을 입은 키 큰 노인이 서 있었고, 그가 든 오래된 은제 등잔의 불꽃이 바람에 흔들렸어요.",
+        },
+        {
+          id: "drc-5",
+          text: "\"Welcome to my house!\" he said in excellent English. \"Enter freely and of your own will!\"",
+          translation:
+            "\"제 집에 오신 것을 환영합니다! 자유로운 마음으로, 스스로 들어오십시오!\" 그는 유창한 영어로 말했어요.",
+        },
+        {
+          id: "drc-6",
+          text: "He did not move until Jonathan had stepped across the threshold; then he shook his hand with a strength that made Jonathan wince, and the hand was as cold as ice.",
+          translation:
+            "노인은 조나단이 문턱을 넘어설 때까지 꼼짝하지 않다가, 그가 들어서자 손을 잡았어요. 그 힘이 어찌나 센지 조나단은 움찔했고, 손은 얼음처럼 차가웠어요.",
+        },
+      ],
+      [
+        {
+          id: "drc-7",
+          text: "\"I am Dracula,\" he said, and with a courteous bow he picked up the luggage himself, saying that his servants were not available and that he would see to his guest's comfort.",
+          translation:
+            "\"제가 드라큘라입니다.\" 그는 정중하게 고개를 숙이며 말하더니, 하인들은 자리에 없으니 손님의 편의는 자신이 직접 돌보겠다며 짐을 손수 들었어요.",
+        },
+        {
+          id: "drc-8",
+          text: "He led Jonathan along cold stone passages to a room where a fire blazed and a table was laid for supper, and beyond it to a warm bedroom.",
+          translation:
+            "그는 차가운 돌 복도를 지나 조나단을 벽난로에 불이 활활 타오르고 저녁 식탁이 차려진 방으로 안내했고, 그 너머에 있는 따뜻한 침실도 보여 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "drc-9",
+          text: "Jonathan, hungry and relieved, sat down to roast chicken, cheese and wine, but the Count would not join him: \"I have dined already, and I do not sup.\"",
+          translation:
+            "배가 고팠고 마음도 놓인 조나단은 구운 닭고기와 치즈, 포도주가 차려진 식탁에 앉았지만, 백작은 함께 들지 않았어요. \"저는 이미 식사를 했고, 저녁은 들지 않습니다.\"",
+        },
+        {
+          id: "drc-10",
+          text: "The Count asked many polite questions about the journey and listened closely while Jonathan described everything he had seen.",
+          translation:
+            "백작은 여행에 대해 정중하게 이것저것 물었고, 조나단이 겪은 일을 모두 이야기하는 동안 귀 기울여 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "drc-11",
+          text: "Afterwards, by the fire, Jonathan studied his host at last: a strong, pale face with a thin curved nose, thick eyebrows that almost met, and a cruel-looking mouth with sharp white teeth.",
+          translation:
+            "식사 뒤 벽난로 곁에서 조나단은 비로소 집주인을 찬찬히 살펴보았어요. 창백하고 강인한 얼굴, 가늘고 굽은 코, 거의 맞붙은 짙은 눈썹, 그리고 뾰족한 흰 이가 드러난 잔인해 보이는 입이었어요.",
+        },
+        {
+          id: "drc-12",
+          text: "The Count's ears were pointed, his nails were long and sharp, and there were even hairs in the palms of his hands.",
+          translation:
+            "백작의 귀는 뾰족했고 손톱은 길고 날카로웠으며, 손바닥에는 털까지 나 있었어요.",
+        },
+        {
+          id: "drc-13",
+          text: "When the Count leaned close, Jonathan felt a sudden shudder of disgust that he could not hide, and the Count drew back with a grim smile.",
+          translation:
+            "백작이 몸을 가까이 기울이자 조나단은 갑자기 혐오감에 몸서리쳤고 그것을 감출 수 없었어요. 백작은 음산한 미소를 지으며 물러났어요.",
+        },
+      ],
+      [
+        {
+          id: "drc-14",
+          text: "Just then the first grey light of dawn appeared, and from far down in the valley came the howling of many wolves.",
+          translation:
+            "바로 그때 새벽의 첫 희미한 빛이 비쳐 들었고, 저 아래 골짜기에서 수많은 늑대의 울부짖음이 들려왔어요.",
+        },
+        {
+          id: "drc-15",
+          text: "The Count's eyes gleamed. \"Listen to them — the children of the night,\" he said. \"What music they make!\"",
+          translation:
+            "백작의 눈이 번뜩였어요. \"들어 보십시오. 밤의 아이들입니다. 저들이 어떤 음악을 만들어 내는지!\"",
+        },
+        {
+          id: "drc-16",
+          text: "Seeing Jonathan's face, he added that a man from the city could never understand the feelings of a hunter, and then he opened the bedroom door himself and told him to sleep well.",
+          translation:
+            "조나단의 표정을 보고 백작은 도시 사람은 사냥꾼의 마음을 결코 이해하지 못할 거라고 덧붙였고, 직접 침실 문을 열어 주며 편히 주무시라고 인사했어요.",
+        },
+        {
+          id: "drc-17",
+          text: "Alone at last, Jonathan wrote in his journal that he was in a sea of wonders, that he doubted and feared and thought strange things he dared not confess, and that he prayed to be kept safe for the sake of those he loved.",
+          translation:
+            "마침내 홀로 남은 조나단은 일기에 자신이 놀라운 일들의 바다 한가운데 있다고, 의심하고 두려워하며 감히 털어놓지 못할 이상한 생각을 하고 있다고, 사랑하는 이들을 위해서라도 무사하기를 기도한다고 적었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drc-v1",
+        term: "threshold",
+        partOfSpeech: "noun",
+        translation: "문턱, 입구",
+        example: "The Count waited until Jonathan crossed the threshold.",
+        exampleTranslation: "백작은 조나단이 문턱을 넘을 때까지 기다렸어요.",
+      },
+      {
+        id: "drc-v2",
+        term: "wince",
+        partOfSpeech: "verb",
+        translation: "움찔하다, (아파서) 얼굴을 찡그리다",
+        example: "His grip was so strong that Jonathan winced.",
+        exampleTranslation: "그의 악력이 어찌나 센지 조나단은 움찔했어요.",
+      },
+      {
+        id: "drc-v3",
+        term: "courteous",
+        partOfSpeech: "adjective",
+        translation: "정중한, 예의 바른",
+        example: "The Count was courteous, but his smile was strange.",
+        exampleTranslation: "백작은 정중했지만 그의 미소는 기묘했어요.",
+      },
+      {
+        id: "drc-v4",
+        term: "flicker",
+        partOfSpeech: "verb",
+        translation: "깜박이다, 흔들리며 타오르다",
+        example: "The lamp flickered in the cold draught.",
+        exampleTranslation: "등잔불이 차가운 바람에 깜박거렸어요.",
+      },
+      {
+        id: "drc-v5",
+        term: "shudder",
+        partOfSpeech: "noun",
+        translation: "몸서리, 오싹한 전율",
+        example: "A shudder ran through him when the Count leaned close.",
+        exampleTranslation: "백작이 가까이 몸을 기울이자 그의 온몸에 소름이 끼쳤어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drc-q1",
+        prompt: "How did Count Dracula welcome Jonathan when he arrived?",
+        options: [
+          "He sent a servant to carry the luggage and stayed in his study.",
+          "He greeted him politely and carried the luggage himself.",
+          "He refused to let Jonathan enter until morning.",
+          "He was away, and Jonathan found only a note on the door.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Count opened the door himself, welcomed Jonathan warmly, and insisted on carrying his bags because, he said, his servants were not available.",
+      },
+      {
+        id: "drc-q2",
+        prompt: "What did Jonathan notice when the Count shook his hand?",
+        options: [
+          "It was covered in rings and jewels.",
+          "It trembled with old age.",
+          "It was very strong and as cold as ice.",
+          "It was stained with ink.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The Count gripped his hand with a strength that made Jonathan wince, and it felt cold as ice — more like the hand of a dead man than a living one.",
+      },
+      {
+        id: "drc-q3",
+        prompt: "What did the Count say when the wolves began to howl?",
+        options: [
+          "That they were the children of the night, and what music they made.",
+          "That the wolves were dangerous and Jonathan should lock his door.",
+          "That the wolves had been silent for many years.",
+          "That he was afraid of them and wanted to leave the castle.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "His eyes gleamed as he called the wolves \"the children of the night\" and admired their music, adding that city people cannot understand the feelings of a hunter.",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre-rochester",
+    title: "Jane Eyre: Mr. Rochester",
+    titleTranslation: "제인 에어: 로체스터 씨",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "🐎",
+    coverImage: "/covers/jane-eyre-rochester.svg",
+    source:
+      "Adapted from Chapter 12 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what happened to the traveller in the lane, and how Jane learned who he was.",
+    paragraphs: [
+      [
+        {
+          id: "jer-1",
+          text: "Jane had spent the autumn at Thornfield Hall as governess to a small French girl named Adèle, and although her days were peaceful, she sometimes longed for a wider, more active life.",
+          translation:
+            "제인은 가을 내내 손필드 저택에서 아델이라는 어린 프랑스 소녀의 가정교사로 지냈고, 나날은 평온했지만 때로는 더 넓고 활기찬 삶을 갈망했어요.",
+        },
+        {
+          id: "jer-2",
+          text: "One cold, calm afternoon in January, tired of sitting indoors, she offered to carry the housekeeper's letter to the post office in the village of Hay, two miles away.",
+          translation:
+            "1월의 어느 춥고 고요한 오후, 집 안에 앉아 있는 데 지친 제인은 이 마일 떨어진 헤이 마을 우체국까지 가정부의 편지를 부치러 가겠다고 나섰어요.",
+        },
+      ],
+      [
+        {
+          id: "jer-3",
+          text: "Halfway there she rested on a stile and watched the moon rise over the hills, and the lane was so still that she could hear a horse coming from far away.",
+          translation:
+            "가는 길 중간에서 제인은 울타리 계단에 앉아 언덕 위로 달이 떠오르는 것을 바라보았고, 오솔길이 너무나 고요해서 멀리서 다가오는 말발굽 소리가 들렸어요.",
+        },
+        {
+          id: "jer-4",
+          text: "When she heard hooves on the frozen road, she remembered an old nursery story about the Gytrash, a spirit that haunted lonely lanes in the shape of a horse or a large dog.",
+          translation:
+            "얼어붙은 길 위에서 말발굽 소리가 들리자, 제인은 외딴 길에 말이나 커다란 개의 모습으로 출몰한다는 정령 기트래시에 관한 옛 동화가 떠올랐어요.",
+        },
+        {
+          id: "jer-5",
+          text: "A great black and white dog bounded past, followed by a horse and its rider, and Jane saw at once that this was no ghost, only a traveller taking the short way to Millcote.",
+          translation:
+            "커다란 흑백 얼룩 개가 뛰어 지나갔고 그 뒤로 말과 기수가 나타났어요. 제인은 그것이 유령이 아니라 밀코트로 가는 지름길을 택한 평범한 나그네임을 단번에 알아보았어요.",
+        },
+      ],
+      [
+        {
+          id: "jer-6",
+          text: "Suddenly the horse slipped on a sheet of ice and fell, and the rider was thrown to the ground while the dog barked until the hills echoed.",
+          translation:
+            "갑자기 말이 얼음판에 미끄러져 넘어졌고 기수는 땅에 내동댕이쳐졌으며, 개는 언덕이 메아리칠 만큼 짖어 댔어요.",
+        },
+        {
+          id: "jer-7",
+          text: "Jane asked if he was hurt and offered to help, and though he answered roughly at first, he finally admitted that he had only sprained his ankle.",
+          translation:
+            "제인이 다치지 않았는지 묻고 도울 일이 없느냐고 하자, 그는 처음에는 퉁명스럽게 대답하다가 발목을 삐었을 뿐이라고 인정했어요.",
+        },
+        {
+          id: "jer-8",
+          text: "He asked whose house stood on the hill below, and Jane answered that it was Mr. Rochester's, and that she had never seen him.",
+          translation:
+            "그는 저 아래 언덕에 있는 저택이 누구의 것이냐고 물었고, 제인은 로체스터 씨의 것이며 자신은 그분을 한 번도 본 적이 없다고 대답했어요.",
+        },
+      ],
+      [
+        {
+          id: "jer-9",
+          text: "\"Ah, the governess!\" he said, as if he had quite forgotten that such a person existed, and he looked over her plain dark clothes.",
+          translation:
+            "\"아, 가정교사로군!\" 그는 그런 사람이 있다는 사실을 까맣게 잊고 있었다는 듯 말하며 그녀의 수수한 어두운 옷차림을 훑어보았어요.",
+        },
+        {
+          id: "jer-10",
+          text: "Leaning heavily on her shoulder, he limped to his horse and pulled himself into the saddle, biting his lip at the pain in his ankle.",
+          translation:
+            "그는 그녀의 어깨에 무겁게 기대어 말 쪽으로 절뚝거리며 걸어가 안장 위로 올라탔고, 발목의 통증에 입술을 깨물었어요.",
+        },
+        {
+          id: "jer-11",
+          text: "\"Thank you,\" he said shortly. \"Now make haste with the letter to Hay, and return as fast as you can.\" Then he spurred his horse and galloped away with the dog at his heels.",
+          translation:
+            "\"고맙소.\" 그가 짧게 말했어요. \"자, 서둘러 헤이에 편지를 부치고 되도록 빨리 돌아가시오.\" 그러고는 박차를 가해 말을 몰았고, 개가 그 뒤를 쫓았어요.",
+        },
+      ],
+      [
+        {
+          id: "jer-12",
+          text: "It was only a tiny event, but Jane was pleased to have been needed, for she was weary of a life in which she did nothing but wait.",
+          translation:
+            "아주 사소한 사건이었지만 제인은 누군가에게 필요한 존재가 되었다는 사실이 기뻤어요. 그저 기다리기만 하는 삶에 지쳐 있었으니까요.",
+        },
+        {
+          id: "jer-13",
+          text: "His face stayed in her mind like a new picture hung in the gallery of her memory, for it was dark, strong and stern, unlike any face she knew.",
+          translation:
+            "그의 얼굴은 기억의 화랑에 새로 걸린 그림처럼 마음에 남았어요. 어둡고 강인하고 엄격한 그 얼굴은 그녀가 아는 어떤 얼굴과도 달랐거든요.",
+        },
+        {
+          id: "jer-14",
+          text: "On the way home she dreaded going back inside Thornfield, for it meant a silent hall, a lonely little room, and a long winter evening with only gentle Mrs. Fairfax for company.",
+          translation:
+            "집으로 돌아가는 길에 제인은 손필드로 다시 들어가기가 싫었어요. 고요한 현관과 외로운 작은 방, 상냥한 페어팩스 부인만이 곁에 있는 긴 겨울 저녁이 기다리고 있었으니까요.",
+        },
+      ],
+      [
+        {
+          id: "jer-15",
+          text: "In the housekeeper's room she found a great black and white dog sitting before the fire, exactly like the one from the lane, and when she said \"Pilot,\" it got up and came to her.",
+          translation:
+            "가정부의 방 벽난로 앞에는 오솔길에서 본 개와 꼭 닮은 커다란 흑백 얼룩 개가 앉아 있었고, 제인이 \"파일럿\" 하고 부르자 개는 일어나 그녀에게 다가왔어요.",
+        },
+        {
+          id: "jer-16",
+          text: "She rang the bell for a candle and asked the maid whose dog it was, and the maid answered, \"He came with master — Mr. Rochester. He has just arrived.\"",
+          translation:
+            "제인이 촛불을 가져오라고 종을 울리며 하녀에게 누구의 개인지 묻자, 하녀가 대답했어요. \"주인님과 함께 왔어요. 로체스터 씨요. 방금 도착하셨답니다.\"",
+        },
+        {
+          id: "jer-17",
+          text: "The maid added that the master had had an accident, that his horse had fallen on the ice in Hay Lane, and that a surgeon had been sent for to look at his sprained ankle.",
+          translation:
+            "하녀는 주인님이 사고를 당했다고, 헤이 길에서 말이 얼음에 미끄러져 넘어졌으며 삔 발목을 봐 줄 외과 의사를 부르러 사람이 갔다고 덧붙였어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jer-v1",
+        term: "stile",
+        partOfSpeech: "noun",
+        translation: "(울타리·담을 넘어가는) 디딤 계단",
+        example: "Jane sat on a stile and watched the moon rise.",
+        exampleTranslation: "제인은 울타리 계단에 앉아 달이 떠오르는 것을 바라보았어요.",
+      },
+      {
+        id: "jer-v2",
+        term: "governess",
+        partOfSpeech: "noun",
+        translation: "여자 가정교사",
+        example: "Jane worked as a governess for a little French girl.",
+        exampleTranslation: "제인은 어린 프랑스 소녀의 가정교사로 일했어요.",
+      },
+      {
+        id: "jer-v3",
+        term: "haunt",
+        partOfSpeech: "verb",
+        translation: "(유령 등이) 출몰하다, 자주 나타나다",
+        example: "The old story said a spirit haunted the lonely lane.",
+        exampleTranslation: "옛이야기에 따르면 한 정령이 그 외딴 길에 출몰한다고 했어요.",
+      },
+      {
+        id: "jer-v4",
+        term: "limp",
+        partOfSpeech: "verb",
+        translation: "절뚝거리며 걷다",
+        example: "He limped to his horse, leaning on Jane's shoulder.",
+        exampleTranslation: "그는 제인의 어깨에 기대어 절뚝거리며 말에게 걸어갔어요.",
+      },
+      {
+        id: "jer-v5",
+        term: "stern",
+        partOfSpeech: "adjective",
+        translation: "엄격한, 무뚝뚝하고 굳은",
+        example: "The stranger had a dark, stern face.",
+        exampleTranslation: "그 낯선 남자는 어둡고 엄격한 얼굴을 하고 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jer-q1",
+        prompt: "Why did Jane walk to Hay that afternoon?",
+        options: [
+          "To buy a doll for Adèle.",
+          "To meet Mr. Rochester at the village inn.",
+          "To post Mrs. Fairfax's letter and get out of the house.",
+          "To fetch a surgeon for the housekeeper.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "She was tired of sitting indoors, so she volunteered to carry the housekeeper's letter to the post office in Hay — a pleasant two-mile winter walk.",
+      },
+      {
+        id: "jer-q2",
+        prompt: "What happened to the horseman in the lane?",
+        options: [
+          "His dog attacked him.",
+          "His horse slipped on ice and fell, and he sprained his ankle.",
+          "He lost his way in the dark and asked for directions.",
+          "He was robbed by a stranger on the road.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The horse slipped on a sheet of ice and fell, throwing the rider; he told Jane he had broken no bones, only sprained his ankle.",
+      },
+      {
+        id: "jer-q3",
+        prompt: "How did Jane find out who the stranger was?",
+        options: [
+          "He told her his name before riding away.",
+          "She recognised him from a portrait at Thornfield.",
+          "Adèle ran out and called him by name.",
+          "A maid told her that the master, Mr. Rochester, had just arrived after his horse fell in Hay Lane.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "He never gave his name. Back at Thornfield, the maid said Mr. Rochester had just arrived, and her description of his fall on the ice in Hay Lane showed Jane that she had already met him.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

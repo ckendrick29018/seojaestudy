@@ -71,9 +71,11 @@ of a chapter, or a whole short story). Readers want to keep going past that.
 **Shipped 2026-09-21 — multi-chapter book model (graded chapters).**
 `src/lib/data/books.ts` lists each book as `{ id, title, titleTranslation,
 chapters: lessonSlug[] }`; lessons stay standalone and un-edited, so nothing in
-the 36k-line `lessons.ts` changed. Six novels are registered (Pride and
-Prejudice, Jane Eyre, Little Women, Anne of Green Gables, A Little Princess, The
-Secret Garden — two parts each, already in the library as separate lessons).
+the 36k-line `lessons.ts` changed. Eight novels are registered (Pride and
+Prejudice and Jane Eyre at three parts; Little Women, Anne of Green Gables, A Little
+Princess, The Secret Garden, Sense and Sensibility and Dracula at two — each part is a
+separate lesson in the library). See CONTENT_BACKLOG.md "Book-extension queue" for
+which chapters come next.
 - **Lesson page:** a "Part 2 of 6 · Book title" pill under the title, and at the
   end an "Up next" card + the part list with completion ticks
   (`components/lesson/BookChapters.tsx`). The server page builds a small

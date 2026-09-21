@@ -1207,3 +1207,61 @@ strong PD material in each:
   (2026-09-17): The Old Man with the Lump (혹부리 영감, B1) and The Snail
   Bride (우렁각시, B1, told with the gentler traditional ending) — both
   `targetLanguage: "ko"` originals in the same vein.
+
+---
+
+## Book-extension queue — which novels get more chapters next
+
+Added 2026-09-21, after the multi-chapter book model shipped (`src/lib/data/books.ts`).
+Testers asked to "read more of the book", so new chapters now matter more than new
+one-off stories. Picked from Project Gutenberg's Top 100 (last 30 days, snapshot
+2026-09-21) — but that list is noisy (bulk downloads, sensational filler), so the
+picks below also apply the usual filters: iconic work, PD in the US **and** life+70,
+and a fit with the app's adult, literary-fiction readership.
+
+**Gutenberg 30-day downloads for the works we cover or could cover** (editions
+summed where a title has several):
+
+| Work | ~Downloads | Status |
+|--|--|--|
+| Pride and Prejudice | 269k (#1342 + #42671) | 3 parts |
+| Moby Dick | 191k | not started |
+| Dracula | 172k (#345 + #45839) | 2 parts |
+| Jekyll & Hyde | 161k (#43 ×2) | 1 part |
+| Sense and Sensibility | 158k (#21839 + #161) | 2 parts |
+| Sherlock Holmes (Adventures) | 107k | 2 stories, not a book |
+| Jane Eyre | 104k | 3 parts |
+| Alice in Wonderland | 96k | 1 part |
+| Middlemarch | 86k | 1 part |
+| Little Women | 79k | 2 parts |
+| Hound of the Baskervilles | 66k | not started |
+
+**Left out on purpose:** *A Room with a View* (Forster d. 1970) and *A Farewell to
+Arms* (Hemingway d. 1961) rank high but are not life+70 PD (sourcing rule 1);
+*Romeo and Juliet* is a play (plays deferred 2026-09-16); *The Odyssey*, *Crime and
+Punishment* and *The Count of Monte Cristo* are very long and B2+ — later.
+
+**Wave 1 — written 2026-09-21** (each is a normal lesson: 17 sentences, 5 vocab,
+3 questions + KO, dictionary at 0 gaps, 39 audio clips, SVG cover):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Pride and Prejudice → part 3 | Darcy's Letter | Ch. 35 | B2 |
+| Jane Eyre → part 3 | Mr. Rochester | Ch. 12 | B2 |
+| Sense and Sensibility → **new book**, part 2 | Willoughby | Ch. 9 | B1 |
+| Dracula → **new book**, part 2 | The Castle | Ch. 2 | B2 |
+
+**The Story of an Hour** (requested by a tester) is already live — row 2 above,
+free, A2, a whole-story retelling. It's a ~1,000-word short story, so it can't
+grow into a multi-part book; if the ask is "more of it", the honest option is a
+fuller B1 retelling (roughly 30 sentences) as its own lesson rather than a part 2.
+
+**Wave 2 — suggested order** (biggest existing readerships first, then new books):
+1. Pride and Prejudice part 4 — Ch. 43 (Elizabeth visits Pemberley).
+2. Dracula part 3 — Ch. 3 (the three women in the castle).
+3. Sense and Sensibility part 3 — Ch. 29 (Willoughby cuts Marianne at the London ball).
+4. Jane Eyre part 4 — Ch. 23 (the orchard proposal).
+5. Little Women part 3, Anne of Green Gables part 3 (both already 2-part books).
+6. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
+   Ch. 36 "The Quarter-Deck"), *The Hound of the Baskervilles*, *Dr Jekyll and Mr
+   Hyde* (a second lesson makes it a book), *Alice's Adventures in Wonderland*.

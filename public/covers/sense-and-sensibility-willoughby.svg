@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Sense and Sensibility, Willoughby, by Jane Austen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFBF7"/>
+      <stop offset="1" stop-color="#F6F1E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#C57B57" stroke-width="2"/>
+  <rect x="30" y="30" width="340" height="540" fill="none" stroke="#D4A373" stroke-width="1"/>
+
+  <g transform="translate(200 168)" stroke="#C9A66B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-62 34 Q -30 -14 0 8 Q 26 -22 62 34" stroke-width="2"/>
+    <path d="M-70 40 L70 40" stroke-width="1.2" opacity="0.5"/>
+    <path d="M-40 -34 l-5 12 M-20 -44 l-5 12 M4 -38 l-5 12 M28 -46 l-5 12 M48 -32 l-5 12" stroke-width="1.6"/>
+    <path d="M-26 -22 l-4 9 M16 -22 l-4 9 M38 -14 l-4 9" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <text x="200" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="1" fill="#2C2C2C">Sense and</text>
+  <text x="200" y="353" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="1" fill="#2C2C2C">Sensibility</text>
+
+  <line x1="150" y1="388" x2="250" y2="388" stroke="#C57B57" stroke-width="1"/>
+
+  <text x="200" y="422" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" fill="#C57B57">Willoughby</text>
+  <text x="200" y="444" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="4" fill="#9A8F80">CHAPTER 9</text>
+
+  <text x="200" y="482" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="4" fill="#C57B57">JANE AUSTEN</text>
+  <text x="200" y="504" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2" fill="#9A8F80">1811</text>
+
+  <text x="200" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#B7C296" letter-spacing="3">SEOJAE STORY &#183; CLASSICS</text>
+</svg>

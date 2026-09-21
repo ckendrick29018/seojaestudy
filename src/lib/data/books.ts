@@ -34,13 +34,13 @@ export const BOOKS: Book[] = [
     id: "pride-and-prejudice",
     title: "Pride and Prejudice",
     titleTranslation: "오만과 편견",
-    chapters: ["pride-and-prejudice", "pride-and-prejudice-proposal"],
+    chapters: ["pride-and-prejudice", "pride-and-prejudice-proposal", "pride-and-prejudice-letter"],
   },
   {
     id: "jane-eyre",
     title: "Jane Eyre",
     titleTranslation: "제인 에어",
-    chapters: ["jane-eyre", "jane-eyre-lowood"],
+    chapters: ["jane-eyre", "jane-eyre-lowood", "jane-eyre-rochester"],
   },
   {
     id: "little-women",
@@ -65,6 +65,18 @@ export const BOOKS: Book[] = [
     title: "The Secret Garden",
     titleTranslation: "비밀의 화원",
     chapters: ["the-secret-garden", "the-secret-garden-martha"],
+  },
+  {
+    id: "sense-and-sensibility",
+    title: "Sense and Sensibility",
+    titleTranslation: "이성과 감성",
+    chapters: ["sense-and-sensibility", "sense-and-sensibility-willoughby"],
+  },
+  {
+    id: "dracula",
+    title: "Dracula",
+    titleTranslation: "드라큘라",
+    chapters: ["dracula", "dracula-the-castle"],
   },
 ];
 
