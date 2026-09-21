@@ -1,5 +1,37 @@
 # Shipping SeoJae Story to the Google Play Store
 
+## Current build steps (Capacitor)
+
+The Android shell is `android/` (package `com.seojaestory.app`). It is a native
+WebView pointed at the live site (`server.url` in `capacitor.config.ts`), so a
+new lesson or a site fix ships with a normal Vercel deploy — **the app only
+needs rebuilding/re-uploading when native things change** (icon, splash,
+plugins, `versionCode`). `webDir` is the tiny `native-shell/` folder (just the
+offline screen); never point it at `public/`, which bundles 300+ MB of audio.
+
+**One-time setup (your machine):**
+
+1. Create a [Play Console](https://play.google.com/console) developer account
+   ($25). Identity verification can take days — start this first.
+2. Install [Android Studio](https://developer.android.com/studio) (bundles the
+   JDK and Android SDK — this machine had neither as of 2026-09-21).
+
+**Each build:**
+
+1. `npx cap sync android` after any change to `capacitor.config.ts` or
+   `native-shell/`.
+2. `npx cap open android`, let Gradle sync, and run it on a real phone or
+   emulator. Check: brand icon + cream splash, header sits below the status
+   bar (not under it), hardware back button, and airplane mode shows the
+   "You're offline" screen.
+3. Bump `versionCode` in `android/app/build.gradle` (Play rejects a repeat).
+4. **Build → Generate Signed App Bundle → Android App Bundle.** First time:
+   create a new keystore (this is the *upload* key) and back up the file and
+   its passwords outside the repo. Keep Play App Signing enabled (the default).
+5. Upload the `.aab` to **Testing → Closed testing** in Play Console, add
+   the testers' Google accounts, and share the opt-in link. At least 12 must
+   stay opted in for 14 continuous days before you can apply for production.
+
 > **⚠️ Superseded (2026-09-16):** the TWA/Bubblewrap approach below has been
 > replaced by a **Capacitor** wrapper as the plan going forward, mainly so
 > the app can clear Google Play's "minimum functionality" bar with real
