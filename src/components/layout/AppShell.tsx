@@ -34,7 +34,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   if (isMarketingRoute(pathname)) {
     return (
-      <div className="flex min-h-dvh flex-col bg-cream">
+      // overflow-x-clip (not hidden, which would break sticky headers): if any block ever
+      // overflows sideways, iOS Safari zooms the whole page out to fit it.
+      <div className="flex min-h-dvh flex-col overflow-x-clip bg-cream">
         <MarketingHeader />
         <main className="flex-1">{children}</main>
       </div>
@@ -42,7 +44,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-app flex-col bg-cream sm:my-8 sm:min-h-[calc(100dvh-4rem)] sm:rounded-xl2 sm:border sm:border-rose-light sm:shadow-frame">
+    <div className="mx-auto flex min-h-dvh max-w-app flex-col overflow-x-clip bg-cream sm:my-8 sm:min-h-[calc(100dvh-4rem)] sm:rounded-xl2 sm:border sm:border-rose-light sm:shadow-frame">
       <SiteHeader />
       <main className="flex-1">{children}</main>
     </div>

@@ -112,9 +112,11 @@ export function ContinueReadingSection() {
       <p id="continue-reading-heading" className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose/70 lg:text-sm">
         {t("continueReadingTitle")}
       </p>
-      <ul className="grid gap-3 lg:grid-cols-3 lg:gap-4">
+      {/* grid-cols-1 is minmax(0,1fr): a bare `grid` has an auto column that grows to the
+          widest truncated line (a long folktale subtitle) and pushes the page sideways. */}
+      <ul className="grid grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-4">
         {entries.map((entry) => (
-          <li key={entry.key}>
+          <li key={entry.key} className="min-w-0">
             <Link
               href={`/lesson/${entry.slug}`}
               className="group flex h-full items-center gap-4 rounded-xl2 border border-rose-soft/40 bg-white/70 p-4 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
