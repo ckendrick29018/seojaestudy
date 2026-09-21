@@ -1303,6 +1303,29 @@ freeze a fresh set of covers after adding books, run `--pin` **before** adding t
 cover entries (with `BOOKS_TS` pointing at the previous `books.ts` if `books.ts` already
 changed), or hand-edit the JSON.
 
-**Wave 3 — remaining, suggested order:**
-1. Part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the second
-   proposal; Jane Eyre: Ch. 26 the wedding).
+**Wave 3b — pushed 2026-09-21** (commits d2086e4, ec05dbd, 235766b).
+
+**Wave 4 — written 2026-09-21** (same checklist; no new books, so every cover inherits its
+book's pinned palette):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Pride and Prejudice → part 5 | Lady Catherine's Visit | Ch. 56 | B2 |
+| Jane Eyre → part 5 | The Wedding | Ch. 26 | B2 |
+| Anne of Green Gables → part 4 | Diana Is Invited to Tea | Ch. 16 | B1 |
+| Alice's Adventures in Wonderland → part 3 | The Queen's Croquet-Ground | Ch. 8 | A2 |
+| The Hound of the Baskervilles → part 3 | Sir Henry Baskerville | Ch. 4 | B1 |
+| Dr. Jekyll and Mr. Hyde → part 3 | Henry Jekyll's Full Statement | Ch. 10 (first half) | B2 |
+
+Sources: Gutenberg #1342, #1260, #45, #11, #2852, #43. The Jane Eyre chapter keeps Bertha
+Mason human (a woman who is ill and cared for) rather than the source's animal imagery, and
+the Jekyll chapter stops at the point where the two months of restraint begin to fade.
+`--pin-new` (see the palette note above) was run after adding these covers, so the six
+wave 3b covers that were still being dealt are now pinned as well.
+
+**Remaining queue, suggested order:**
+1. P&P Ch. 58 (the second proposal); Jane Eyre Ch. 27 (Rochester's story) and Ch. 38
+   ("Reader, I married him").
+2. Moby Dick Ch. 41 ("Moby Dick") and Ch. 135 ("The Chase — Third Day"); Dracula Ch. 4;
+   Sense and Sensibility Ch. 44 (Willoughby's confession); Little Women Ch. 18 ("Dark Days").
+3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).

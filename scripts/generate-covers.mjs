@@ -7,6 +7,7 @@
  *   node scripts/generate-covers.mjs --out /tmp/prev # write somewhere else (preview)
  *   node scripts/generate-covers.mjs --sheet         # also write <out>/_sheet.html
  *   node scripts/generate-covers.mjs --pin           # freeze today's colours into cover-palettes.json
+ *   node scripts/generate-covers.mjs --pin-new       # pin only covers with no pin yet, at the colours they get today
  *
  * Why a generator: the covers are shown through <img>, where an SVG cannot use the
  * site's web fonts, so live <text> fell back to whatever "Georgia" resolved to on the
@@ -34,11 +35,13 @@ const args = process.argv.slice(2);
 let outDir = path.join(ROOT, "public", "covers");
 let wantSheet = false;
 let wantPin = false;
+let wantPinNew = false;
 const filters = [];
 for (let i = 0; i < args.length; i++) {
   if (args[i] === "--out") outDir = path.resolve(args[++i]);
   else if (args[i] === "--sheet") wantSheet = true;
   else if (args[i] === "--pin") wantPin = true;
+  else if (args[i] === "--pin-new") wantPinNew = true;
   else filters.push(args[i]);
 }
 
@@ -461,6 +464,23 @@ if (wantPin) {
   for (const d of data) out[`${d.footer}:${d.slug}`] = paletteFor.get(`${d.footer}:${keyOf(d)}`);
   writeFileSync(PIN_FILE, JSON.stringify(out, null, 1) + "\n");
   console.log(`pinned ${Object.keys(out).length} covers → ${path.relative(process.cwd(), PIN_FILE)}`);
+  process.exit(0);
+}
+
+if (wantPinNew) {
+  // Keeps every existing pin as-is and freezes only the books that were being dealt, so a
+  // later new book can't shuffle their colours.
+  const out = { ...pins };
+  let added = 0;
+  for (const d of data) {
+    const k = `${d.footer}:${d.slug}`;
+    if (out[k] === undefined) {
+      out[k] = paletteFor.get(`${d.footer}:${keyOf(d)}`);
+      added++;
+    }
+  }
+  writeFileSync(PIN_FILE, JSON.stringify(out, null, 1) + "\n");
+  console.log(`pinned ${added} new covers (${Object.keys(out).length} total) → ${path.relative(process.cwd(), PIN_FILE)}`);
   process.exit(0);
 }
 

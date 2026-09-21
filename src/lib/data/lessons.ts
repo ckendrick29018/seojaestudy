@@ -40292,6 +40292,1308 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "pride-and-prejudice-lady-catherine",
+    title: "Pride and Prejudice: Lady Catherine's Visit",
+    titleTranslation: "오만과 편견: 캐서린 부인의 방문",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "🚪",
+    coverImage: "/covers/pride-and-prejudice-lady-catherine.svg",
+    source:
+      "Adapted from Chapter 56 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Lady Catherine came to see Elizabeth, and how Elizabeth answered her.",
+    paragraphs: [
+      [
+        {
+          id: "ppk-1",
+          text: "One morning, about a week after Jane and Mr. Bingley became engaged, the Bennets heard a carriage on the lawn, and Mr. Bingley quickly led Jane away into the shrubbery to escape the unexpected visitor.",
+          translation:
+            "제인과 빙리 씨가 약혼하고 일주일쯤 지난 어느 날 아침, 베넷 가족은 잔디밭으로 들어서는 마차 소리를 들었고, 빙리 씨는 뜻밖의 손님을 피하려고 서둘러 제인을 데리고 관목 숲으로 나갔어요.",
+        },
+        {
+          id: "ppk-2",
+          text: "The visitor who swept into the room without a word, with a very ungracious air, was Lady Catherine de Bourgh, Mr. Darcy's proud aunt.",
+          translation:
+            "한마디 말도 없이 몹시 퉁명스러운 태도로 방에 들어선 손님은 다아시 씨의 오만한 이모, 캐서린 드 버그 부인이었어요.",
+        },
+        {
+          id: "ppk-3",
+          text: "After a few stiff remarks about the size of the park and the windows of the room, she asked Elizabeth to walk with her in the little wilderness beside the lawn, and Mrs. Bennet, flattered by such a grand guest, urged them to go.",
+          translation:
+            "정원의 크기와 방의 창문에 대해 딱딱한 말 몇 마디를 늘어놓은 뒤, 부인은 엘리자베스에게 잔디밭 옆 작은 숲길을 함께 거닐자고 청했어요. 그토록 귀한 손님이 찾아와 우쭐해진 베넷 부인은 어서 다녀오라고 재촉했지요.",
+        },
+      ],
+      [
+        {
+          id: "ppk-4",
+          text: "As soon as they were alone among the trees, Lady Catherine announced that an alarming report had reached her: that Jane would soon marry well, and that Elizabeth would soon be engaged to her own nephew, Mr. Darcy.",
+          translation:
+            "나무들 사이에서 둘만 남게 되자마자 캐서린 부인은 충격적인 소문이 자기 귀에 들어왔다고 밝혔어요. 제인이 곧 좋은 혼처를 만나고, 엘리자베스는 곧 자기 조카인 다아시 씨와 약혼하게 될 것이라는 소문이었지요.",
+        },
+        {
+          id: "ppk-5",
+          text: "She said that she knew it must be a scandalous lie, but she had travelled all this way to demand that Elizabeth contradict it at once.",
+          translation:
+            "부인은 그것이 틀림없이 추문에 불과한 거짓말이라는 것을 알지만, 엘리자베스가 당장 그 소문을 반박하도록 요구하려고 먼 길을 왔다고 말했어요.",
+        },
+        {
+          id: "ppk-6",
+          text: "Elizabeth answered coolly that such a journey would only make the rumour seem truer, and that she would not answer questions which Lady Catherine had no right to ask.",
+          translation:
+            "엘리자베스는 그런 먼 걸음을 하시면 오히려 소문이 더 그럴듯해 보일 뿐이라고, 그리고 캐서린 부인에게는 물을 권리가 없는 질문에는 대답하지 않겠다고 냉랭하게 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppk-7",
+          text: "Lady Catherine declared that Mr. Darcy was promised to her daughter, Miss de Bourgh, because the two sisters had planned the marriage when the children were still in their cradles.",
+          translation:
+            "캐서린 부인은 다아시 씨가 자기 딸 드 버그 양과 약혼한 사이라고 선언했어요. 두 자매가 아이들이 아직 요람에 누워 있을 때부터 그 혼인을 계획해 왔다는 이유였지요.",
+        },
+        {
+          id: "ppk-8",
+          text: "Elizabeth replied that if Mr. Darcy was bound to his cousin by neither honour nor his own wishes, nothing stopped him from choosing someone else, and nothing stopped her from accepting him.",
+          translation:
+            "엘리자베스는 다아시 씨가 명예로도 자신의 바람으로도 사촌에게 매여 있지 않다면, 그가 다른 사람을 택하지 못할 이유도, 자신이 그를 받아들이지 못할 이유도 없다고 대답했어요.",
+        },
+        {
+          id: "ppk-9",
+          text: "The old lady warned that if Elizabeth defied his family she would be despised by everyone connected with him, but Elizabeth answered that the wife of Mr. Darcy would have so many sources of happiness that she could not regret it.",
+          translation:
+            "노부인은 엘리자베스가 그의 가문에 맞서면 그와 연이 닿은 모든 사람에게 멸시받게 될 것이라고 경고했지만, 엘리자베스는 다아시 씨의 아내에게는 행복의 원천이 그토록 많을 테니 후회할 일이 없을 것이라고 대꾸했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppk-10",
+          text: "Lady Catherine grew angrier and sneered at Elizabeth's family and connections, but Elizabeth calmly said that Mr. Darcy was a gentleman, that she was a gentleman's daughter, and that so far they were equal.",
+          translation:
+            "캐서린 부인은 더욱 화를 내며 엘리자베스의 집안과 친척들을 깎아내렸지만, 엘리자베스는 다아시 씨는 신사이고 자신은 신사의 딸이니 그 점에서는 대등하다고 침착하게 말했어요.",
+        },
+        {
+          id: "ppk-11",
+          text: "Then Lady Catherine demanded to know whether she was engaged to him, and Elizabeth, who would never have answered to please her, admitted only that she was not.",
+          translation:
+            "이어서 캐서린 부인이 엘리자베스가 그와 약혼했는지 다그쳐 묻자, 부인의 기분을 맞추려고는 결코 대답하지 않았을 엘리자베스도 약혼하지 않았다는 사실만은 인정했어요.",
+        },
+        {
+          id: "ppk-12",
+          text: "When Lady Catherine tried to make her promise never to accept him, Elizabeth refused, saying that she would not be intimidated into anything so unreasonable, and that such a promise would not make his marriage to his cousin any more likely.",
+          translation:
+            "캐서린 부인이 절대 그를 받아들이지 않겠다고 약속하라고 다그치자 엘리자베스는 거절하며, 그렇게 터무니없는 일에 겁먹고 굴복하지 않을 것이며 그런 약속을 한다고 해서 그와 사촌의 결혼이 더 가능해지는 것도 아니라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppk-13",
+          text: "Lady Catherine then spoke of the disgrace of Lydia's elopement and asked whether such a girl and her husband, the steward's son, should become Mr. Darcy's relatives, but Elizabeth said that she had nothing more to say and turned back toward the house.",
+          translation:
+            "그러자 캐서린 부인은 리디아의 도피 행각이 남긴 불명예를 들먹이며, 그런 처녀와 관리인의 아들인 그 남편이 다아시 씨의 친척이 되어야겠느냐고 물었어요. 엘리자베스는 더 할 말이 없다고 하며 집 쪽으로 발길을 돌렸어요.",
+        },
+        {
+          id: "ppk-14",
+          text: "Lady Catherine called her selfish and ungrateful, but Elizabeth replied that she was resolved only to act in the way that would make her happy, without reference to Lady Catherine or to anyone else so wholly unconnected with her.",
+          translation:
+            "캐서린 부인이 이기적이고 배은망덕하다고 몰아붙였지만, 엘리자베스는 자신은 오직 스스로 행복해질 수 있다고 여기는 대로 행동하기로 결심했을 뿐, 캐서린 부인이든 자신과 아무 상관 없는 다른 누구든 개의치 않는다고 대답했어요.",
+        },
+        {
+          id: "ppk-15",
+          text: "At the carriage door Lady Catherine said that she took no leave of Elizabeth and sent no compliments to her mother, and she drove away, still determined to carry her point.",
+          translation:
+            "마차 문 앞에서 캐서린 부인은 엘리자베스에게 작별 인사도 하지 않고 그 어머니에게 안부도 전하지 않겠다고 말한 뒤, 여전히 자기 뜻을 관철하겠다는 결의를 품은 채 마차를 타고 떠났어요.",
+        },
+      ],
+      [
+        {
+          id: "ppk-16",
+          text: "Elizabeth walked calmly upstairs, where her mother asked why such a distinguished visitor would not come in again to rest, and Elizabeth answered only that she had not chosen to.",
+          translation:
+            "엘리자베스가 침착하게 위층으로 올라가자 어머니가 그토록 귀한 손님이 왜 다시 들어와 쉬지 않고 가셨느냐고 물었고, 엘리자베스는 부인이 그러고 싶지 않았던 것이라고만 대답했어요.",
+        },
+        {
+          id: "ppk-17",
+          text: "Elizabeth was then forced to tell a small lie, for she could not possibly explain to her mother what had really been said in the little wilderness.",
+          translation:
+            "엘리자베스는 작은 거짓말을 할 수밖에 없었어요. 숲길에서 실제로 오간 이야기를 어머니에게 도저히 설명할 수 없었으니까요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ppk-v1",
+        term: "shrubbery",
+        partOfSpeech: "noun",
+        translation: "관목 숲, 관목이 우거진 곳",
+        example: "They walked into the shrubbery to be alone.",
+        exampleTranslation: "그들은 둘이 있으려고 관목 숲으로 걸어 들어갔어요.",
+      },
+      {
+        id: "ppk-v2",
+        term: "contradict",
+        partOfSpeech: "verb",
+        translation: "반박하다, 부인하다",
+        example: "She demanded that he contradict the rumour.",
+        exampleTranslation: "그녀는 그가 그 소문을 반박하라고 요구했어요.",
+      },
+      {
+        id: "ppk-v3",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "Jane and Mr. Bingley became engaged in the autumn.",
+        exampleTranslation: "제인과 빙리 씨는 가을에 약혼했어요.",
+      },
+      {
+        id: "ppk-v4",
+        term: "intimidate",
+        partOfSpeech: "verb",
+        translation: "겁을 주어 굴복시키다, 위협하다",
+        example: "Nobody could intimidate her into changing her mind.",
+        exampleTranslation: "누구도 그녀를 겁주어 마음을 바꾸게 할 수는 없었어요.",
+      },
+      {
+        id: "ppk-v5",
+        term: "disgrace",
+        partOfSpeech: "noun",
+        translation: "불명예, 수치",
+        example: "The family feared that the scandal would bring disgrace on them.",
+        exampleTranslation: "그 가족은 추문이 자신들에게 불명예를 안길까 두려워했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ppk-q1",
+        prompt: "Why did Lady Catherine travel to Longbourn?",
+        options: [
+          "To invite the Bennets to a party at Rosings.",
+          "To demand that Elizabeth deny the rumour of her engagement to Mr. Darcy and promise never to accept him.",
+          "To bring Elizabeth a letter from Charlotte Collins.",
+          "To ask Mr. Bennet for permission to arrange Mr. Darcy's marriage.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lady Catherine had heard a rumour that Elizabeth would marry her nephew, and she came to insist that Elizabeth contradict it and promise never to accept him.",
+      },
+      {
+        id: "ppk-q2",
+        prompt: "How did Elizabeth answer when Lady Catherine demanded a promise?",
+        options: [
+          "She promised at once, to keep the peace.",
+          "She burst into tears and ran to her room.",
+          "She said that she must ask Mr. Darcy first.",
+          "She refused, saying that she would not be intimidated into such an unreasonable promise.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Elizabeth stayed calm and firm: she would make no promise, and she said that she would act in the way that she believed would make her happy.",
+      },
+      {
+        id: "ppk-q3",
+        prompt: "What reasons did Lady Catherine give for saying that the marriage could never happen?",
+        options: [
+          "He was promised to Miss de Bourgh, and Elizabeth's family, including Lydia's elopement, was far beneath his.",
+          "Mr. Bingley had asked her to stop it.",
+          "Mr. Darcy had already left England.",
+          "Elizabeth was too old for him.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "She said that the two sisters had planned Darcy's marriage to her daughter from the cradle, and that Elizabeth's connections and Lydia's disgrace made her an unfit wife for him.",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre-wedding",
+    title: "Jane Eyre: The Wedding",
+    titleTranslation: "제인 에어: 결혼식",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "🔔",
+    coverImage: "/covers/jane-eyre-wedding.svg",
+    source:
+      "Adapted from Chapter 26 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what stopped the wedding and what Jane learned about Mr. Rochester.",
+    paragraphs: [
+      [
+        {
+          id: "jew-1",
+          text: "On the morning of her wedding, Sophie took so long fastening Jane's plain veil that Mr. Rochester, impatient, sent up to ask why she had not come down.",
+          translation:
+            "결혼식 날 아침, 소피가 제인의 소박한 베일을 고정하는 데 어찌나 오래 걸렸는지, 참다못한 로체스터 씨는 왜 내려오지 않느냐고 사람을 올려 보냈어요.",
+        },
+        {
+          id: "jew-2",
+          text: "He met her at the foot of the stairs, called her a lingerer, said that his brain was on fire with impatience, and gave her only ten minutes to eat some breakfast before they left for the church.",
+          translation:
+            "그는 계단 아래에서 그녀를 맞으며 꾸물거린다고 나무랐고, 조바심에 머릿속이 타오를 지경이라고 하더니, 교회로 떠나기 전에 아침을 먹을 시간을 딱 10분만 주었어요.",
+        },
+        {
+          id: "jew-3",
+          text: "There were no guests, no bridesmaids and no relatives, only the two of them, and Mr. Rochester walked so fast, with such a grim, fixed look on his face, that Jane could hardly keep up.",
+          translation:
+            "하객도 신부 들러리도 친척도 없이 오직 두 사람뿐이었어요. 로체스터 씨는 어찌나 빨리, 그것도 굳고 어두운 표정으로 걸었던지 제인은 따라가기도 힘들었어요.",
+        },
+      ],
+      [
+        {
+          id: "jew-4",
+          text: "At the churchyard gate he stopped to let her catch her breath, and Jane noticed two strangers walking among the graves, who slipped into the church and stood quietly by the old Rochester tomb.",
+          translation:
+            "교회 묘지 문 앞에서 그는 그녀가 숨을 돌리도록 걸음을 멈췄고, 그때 제인은 무덤 사이를 거니는 낯선 두 사람을 눈여겨보았어요. 그들은 교회 안으로 슬며시 들어가 로체스터 가문의 오래된 무덤 곁에 조용히 서 있었지요.",
+        },
+        {
+          id: "jew-5",
+          text: "The clergyman, Mr. Wood, began the service, and when he asked whether anyone knew of an impediment to the marriage, Jane thought that hardly anyone ever answers such a question.",
+          translation:
+            "목사인 우드 씨가 예식을 시작해 결혼을 가로막을 장애가 있는지 아는 사람이 있느냐고 물었을 때, 제인은 그런 물음에 대답하는 사람은 좀처럼 없다고 생각했어요.",
+        },
+        {
+          id: "jew-6",
+          text: "But a clear voice behind them said, \"The marriage cannot go on: I declare the existence of an impediment,\" and Mr. Rochester, without turning his head, only said, \"Proceed.\"",
+          translation:
+            "그런데 뒤에서 또렷한 목소리가 들려왔어요. \"이 결혼은 계속될 수 없습니다. 결혼을 가로막는 장애가 있음을 선언합니다.\" 로체스터 씨는 고개도 돌리지 않은 채 한마디만 했어요. \"계속하시오.\"",
+        },
+      ],
+      [
+        {
+          id: "jew-7",
+          text: "The speaker was a London lawyer named Mr. Briggs, who calmly explained that fifteen years earlier Mr. Rochester had married a woman named Bertha Mason in Jamaica, and that this wife was still alive.",
+          translation:
+            "목소리의 주인은 브릭스라는 런던의 변호사였는데, 그는 15년 전 로체스터 씨가 자메이카에서 버사 메이슨이라는 여인과 결혼했으며 그 아내가 아직 살아 있다고 침착하게 밝혔어요.",
+        },
+        {
+          id: "jew-8",
+          text: "Mr. Rochester demanded proof that she was living, and Mr. Briggs answered that he had a witness, her own brother, who had seen her at Thornfield Hall the previous April.",
+          translation:
+            "로체스터 씨가 그녀가 살아 있다는 증거를 대라고 다그치자, 브릭스 씨는 증인이 있다고 대답했어요. 지난 4월 손필드 저택에서 그녀를 본 그녀의 남자 형제였지요.",
+        },
+        {
+          id: "jew-9",
+          text: "When the second stranger, Mr. Mason, stepped forward, Mr. Rochester glared at him so fiercely that it seemed he might strike him, but Mason only said in a faint voice that his sister was alive and living at Thornfield.",
+          translation:
+            "두 번째 낯선 사람인 메이슨 씨가 앞으로 나서자 로체스터 씨는 당장이라도 때릴 듯이 매섭게 노려보았고, 메이슨 씨는 누이가 손필드에 살아 있다고 기어들어 가는 목소리로 말할 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "jew-10",
+          text: "The clergyman protested that he had never heard of a Mrs. Rochester at Thornfield, and Mr. Rochester, with a bitter smile, replied that he had taken care that nobody should.",
+          translation:
+            "목사는 손필드에 로체스터 부인이 있다는 말은 들어 본 적이 없다고 항변했고, 로체스터 씨는 쓴웃음을 지으며 아무도 듣지 못하도록 자신이 신경 써 왔다고 대답했어요.",
+        },
+        {
+          id: "jew-11",
+          text: "He told the clergyman to close his book, since there would be no wedding that day, and he admitted openly that he had meant to marry Jane although he was already married.",
+          translation:
+            "그는 목사에게 오늘은 결혼식이 없을 테니 책을 덮으라고 말했고, 이미 결혼한 몸이면서도 제인과 결혼하려 했다는 사실을 숨김없이 인정했어요.",
+        },
+        {
+          id: "jew-12",
+          text: "He said that Jane had known nothing of this secret, that his wife's family had hidden her illness from him before the marriage, and he invited the three men to come to the house and see the truth for themselves.",
+          translation:
+            "그는 제인이 이 비밀을 전혀 몰랐다고, 아내의 가족이 결혼 전에 그녀의 병을 자신에게 숨겼다고 말한 뒤, 세 사람에게 저택으로 가서 진실을 직접 보라고 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "jew-13",
+          text: "On the third floor, behind a curtain of hangings, was a second room without a window, where Grace Poole, the servant whom Jane had long connected with the strange laughter in the night, was caring for a tall woman with wild dark hair: Bertha Mason.",
+          translation:
+            "3층에서 벽걸이 장식천 뒤로 창문 없는 또 다른 방이 나왔고, 그곳에서 제인이 오래도록 밤중의 기이한 웃음소리와 연결 지어 생각해 온 하녀 그레이스 풀이, 헝클어진 검은 머리의 키 큰 여인 버사 메이슨을 돌보고 있었어요.",
+        },
+        {
+          id: "jew-14",
+          text: "When Bertha saw her husband she attacked him, and they struggled until Mr. Rochester, who would not strike her, at last held her arms and bound her to a chair.",
+          translation:
+            "버사는 남편을 보자 덤벼들었고, 로체스터 씨는 그녀를 때리려 하지 않고 씨름하다가 마침내 그녀의 팔을 붙잡아 의자에 묶었어요.",
+        },
+        {
+          id: "jew-15",
+          text: "\"That is my wife,\" he said bitterly to the men, and then, laying a hand on Jane's shoulder, he said that she was the one he had wished for instead.",
+          translation:
+            "\"저 사람이 내 아내요.\" 그는 씁쓸하게 세 사람에게 말하고는, 제인의 어깨에 손을 얹으며 자신이 대신 바랐던 사람은 바로 이 여인이었다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "jew-16",
+          text: "As they left, Mr. Briggs told Jane that she was free of all blame, and that her uncle in Madeira, who had heard of the wedding and begged Mr. Mason to prevent it, was seriously ill.",
+          translation:
+            "그들이 떠나기 전 브릭스 씨는 제인에게 그녀는 아무 잘못이 없다고, 그리고 결혼 소식을 듣고 메이슨 씨에게 막아 달라고 간청한 마데이라의 그녀의 삼촌이 병세가 깊다고 알려 주었어요.",
+        },
+        {
+          id: "jew-17",
+          text: "Jane went to her room, locked the door, took off the wedding dress and sat alone, and she felt that her hopes had died in a single morning, like a summer that had suddenly turned to winter.",
+          translation:
+            "제인은 자기 방으로 가 문을 잠그고 웨딩드레스를 벗은 뒤 홀로 앉았고, 하루아침에 여름이 갑자기 겨울로 변해 버린 것처럼 자신의 희망이 단 한나절 만에 죽어 버렸다고 느꼈어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jew-v1",
+        term: "veil",
+        partOfSpeech: "noun",
+        translation: "베일, 면사포",
+        example: "The bride wore a plain white veil.",
+        exampleTranslation: "신부는 소박한 흰 베일을 썼어요.",
+      },
+      {
+        id: "jew-v2",
+        term: "clergyman",
+        partOfSpeech: "noun",
+        translation: "목사, 성직자",
+        example: "The clergyman opened his book and began to read.",
+        exampleTranslation: "목사는 책을 펴고 읽기 시작했어요.",
+      },
+      {
+        id: "jew-v3",
+        term: "impediment",
+        partOfSpeech: "noun",
+        translation: "장애, 걸림돌 (여기서는 결혼을 가로막는 법적 사유)",
+        example: "He declared that there was an impediment to the marriage.",
+        exampleTranslation: "그는 결혼을 가로막는 장애가 있다고 선언했어요.",
+      },
+      {
+        id: "jew-v4",
+        term: "witness",
+        partOfSpeech: "noun",
+        translation: "증인, 목격자",
+        example: "The lawyer brought a witness to the church.",
+        exampleTranslation: "변호사는 교회에 증인을 데려왔어요.",
+      },
+      {
+        id: "jew-v5",
+        term: "grim",
+        partOfSpeech: "adjective",
+        translation: "굳은, 험악한, 음울한",
+        example: "He walked on with a grim face.",
+        exampleTranslation: "그는 굳은 표정으로 계속 걸었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jew-q1",
+        prompt: "What stopped the wedding?",
+        options: [
+          "Jane suddenly said that she did not love Mr. Rochester.",
+          "The clergyman fell ill during the service.",
+          "A lawyer declared that Mr. Rochester was already married and that his wife was still alive.",
+          "Mrs. Fairfax burst into the church with a letter.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mr. Briggs spoke up at the moment when the clergyman asked for any impediment: Mr. Rochester had married Bertha Mason fifteen years earlier, and she was still living.",
+      },
+      {
+        id: "jew-q2",
+        prompt: "Who was Bertha Mason?",
+        options: [
+          "Jane's cousin from Madeira.",
+          "Mr. Rochester's wife, whom he had married fifteen years earlier and kept hidden at Thornfield.",
+          "A servant who had worked at Thornfield for many years.",
+          "Mr. Briggs's assistant.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. Rochester took the men upstairs and showed them his wife, who lived in a windowless room on the third floor, cared for by Grace Poole.",
+      },
+      {
+        id: "jew-q3",
+        prompt: "How did Mr. Briggs and Mr. Mason learn about the planned wedding?",
+        options: [
+          "Jane's uncle in Madeira, who had received her letter, told Mr. Mason, who happened to be staying with him.",
+          "Mrs. Fairfax wrote to them.",
+          "They read the news in a London newspaper.",
+          "Adèle told them by accident.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jane had written to her uncle about her engagement. He mentioned it to Mr. Mason, who told him the truth, and both men then acted through Mr. Briggs to stop the wedding.",
+      },
+    ],
+  },
+  {
+    slug: "anne-of-green-gables-diana-tea",
+    title: "Anne of Green Gables: Diana Is Invited to Tea",
+    titleTranslation: "빨간 머리 앤: 다이애나를 차에 초대하다",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🍇",
+    coverImage: "/covers/anne-of-green-gables-diana-tea.svg",
+    source:
+      "Adapted from Chapter 16 (\"Diana Is Invited to Tea with Tragic Results\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; in the public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what went wrong at Anne's tea party and how Mrs. Barry reacted.",
+    paragraphs: [
+      [
+        {
+          id: "agt-1",
+          text: "One Saturday in October, Marilla went to a meeting at Carmody and, to Anne's great joy, said that Anne could invite her friend Diana to tea.",
+          translation:
+            "10월의 어느 토요일, 마릴라는 카모디의 모임에 나가면서 앤이 친구 다이애나를 차에 초대해도 좋다고 허락했고, 앤은 뛸 듯이 기뻤어요.",
+        },
+        {
+          id: "agt-2",
+          text: "Marilla allowed the old brown tea set, fruit cake, cherry preserves and cookies, and she said that the girls could also have a bottle of raspberry cordial that stood on the second shelf of the sitting-room pantry.",
+          translation:
+            "마릴라는 낡은 갈색 찻잔 세트와 과일 케이크, 체리 잼, 쿠키를 써도 좋다고 했고, 거실 식품 저장실 둘째 선반에 있는 산딸기 코디얼 한 병도 두 아이가 마셔도 된다고 말했어요.",
+        },
+        {
+          id: "agt-3",
+          text: "Diana arrived in her second-best dress, knocked politely at the front door, and the two girls shook hands as seriously as if they had never met.",
+          translation:
+            "다이애나는 두 번째로 좋은 옷을 차려입고 와서 현관문을 얌전히 두드렸고, 두 소녀는 처음 만나는 사이처럼 진지하게 악수를 나누었어요.",
+        },
+      ],
+      [
+        {
+          id: "agt-4",
+          text: "This grown-up solemnity lasted only until Anne forgot to be dignified, jumped up and took Diana out to the orchard to pick apples.",
+          translation:
+            "이 어른스러운 엄숙함은 앤이 점잔 빼는 것을 잊고 벌떡 일어나 다이애나를 사과 따러 과수원으로 데려갈 때까지만 이어졌어요.",
+        },
+        {
+          id: "agt-5",
+          text: "They spent most of the afternoon in a grassy corner, eating apples while Diana told the news from school, until she mentioned Gilbert Blythe and Anne quickly said that it was time to go in for the cordial.",
+          translation:
+            "둘은 오후 대부분을 풀이 무성한 구석에서 사과를 먹으며 보냈고, 다이애나가 학교 소식을 들려주다 길버트 블라이스 이야기를 꺼내자 앤은 얼른 이제 코디얼을 마시러 들어가자고 했어요.",
+        },
+        {
+          id: "agt-6",
+          text: "Anne could not find the bottle on the second shelf, but she found one at the back of the top shelf, and she put it on a tray with a glass for Diana.",
+          translation:
+            "앤은 둘째 선반에서는 병을 찾지 못했지만 맨 위 선반 안쪽에서 한 병을 찾아냈고, 그것을 쟁반에 담아 다이애나가 쓸 유리잔과 함께 내놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "agt-7",
+          text: "Diana drank a glass, said that it was the nicest cordial she had ever tasted, and with a little encouragement from Anne she soon had a second glass and then a third.",
+          translation:
+            "다이애나는 한 잔을 마시더니 지금까지 맛본 코디얼 중 가장 맛있다고 했고, 앤이 조금 권하자 곧 두 잔째, 그리고 세 잔째까지 마셨어요.",
+        },
+        {
+          id: "agt-8",
+          text: "While Diana drank, Anne chattered about her many kitchen disasters, such as the cake she had baked without any flour.",
+          translation:
+            "다이애나가 마시는 동안 앤은 밀가루를 넣지 않고 구운 케이크 같은 자신의 숱한 부엌 대참사를 재잘재잘 늘어놓았어요.",
+        },
+        {
+          id: "agt-9",
+          text: "Suddenly Diana stood up unsteadily, put her hands to her head, and said that she felt sick and must go home at once, and she would not stay even for tea.",
+          translation:
+            "갑자기 다이애나가 비틀거리며 일어나 머리를 감싸 쥐고는 속이 안 좋으니 당장 집에 가야 한다고 했고, 차를 마시고 가라는 말에도 남으려 하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "agt-10",
+          text: "Anne walked her friend to the Barrys' fence in tears, and two days later, on Monday, Marilla sent her on an errand to Mrs. Lynde's.",
+          translation:
+            "앤은 울먹이며 친구를 배리 씨네 울타리까지 바래다주었고, 이틀 뒤인 월요일에 마릴라는 앤에게 린드 부인 댁에 심부름을 보냈어요.",
+        },
+        {
+          id: "agt-11",
+          text: "She came flying back in tears, for Mrs. Lynde had said that Mrs. Barry was furious, believing that Anne had made Diana drunk, and would never let the girls play together again.",
+          translation:
+            "앤은 눈물을 흘리며 날듯이 돌아왔어요. 린드 부인이 배리 부인이 앤이 다이애나를 취하게 했다고 믿고 몹시 화가 나서, 다시는 두 아이가 함께 놀지 못하게 하겠다고 했다고 전했기 때문이에요.",
+        },
+        {
+          id: "agt-12",
+          text: "Marilla went to the pantry and discovered that the bottle was her homemade currant wine, and that she herself had put the cordial in the cellar instead of the pantry.",
+          translation:
+            "마릴라가 식품 저장실에 가 보니 그 병은 직접 담근 커런트 포도주였고, 코디얼은 자신이 저장실이 아닌 지하 저장고에 넣어 두었다는 사실이 떠올랐어요.",
+        },
+      ],
+      [
+        {
+          id: "agt-13",
+          text: "Struggling not to laugh, she told Anne that it was all a mistake, and because Anne was afraid to face Mrs. Barry, Marilla went to Orchard Slope to explain.",
+          translation:
+            "웃음을 참느라 애를 쓰며 마릴라는 앤에게 모든 게 착오였다고 말했고, 앤이 배리 부인을 마주할 엄두를 내지 못하자 직접 오처드 슬로프로 가서 해명하기로 했어요.",
+        },
+        {
+          id: "agt-14",
+          text: "But Mrs. Barry, a woman of strong prejudices, did not believe her, and Marilla came home angry and said that she had never met a more unreasonable woman.",
+          translation:
+            "하지만 편견이 강한 배리 부인은 그 말을 믿지 않았고, 마릴라는 화가 나서 돌아와 그렇게 이치에 안 맞는 여자는 처음 봤다고 말했어요.",
+        },
+        {
+          id: "agt-15",
+          text: "That evening Anne went to Mrs. Barry herself, begged forgiveness in her most dramatic words and asked to see Diana just once to say goodbye, but Mrs. Barry shut the door on her.",
+          translation:
+            "그날 저녁 앤은 직접 배리 부인을 찾아가 가장 극적인 말로 용서를 빌고 작별 인사를 하게 다이애나를 딱 한 번만 만나게 해 달라고 청했지만, 배리 부인은 문을 닫아 버렸어요.",
+        },
+      ],
+      [
+        {
+          id: "agt-16",
+          text: "Anne told Marilla that there was nothing left to do but pray, though she doubted that even God could do much with someone as obstinate as Mrs. Barry.",
+          translation:
+            "앤은 이제 기도하는 수밖에 없다고 마릴라에게 말했지만, 하느님이라 해도 배리 부인처럼 고집 센 사람은 어쩌지 못할 것 같다고 덧붙였어요.",
+        },
+        {
+          id: "agt-17",
+          text: "Marilla scolded her, but that night she laughed as she told Matthew the story, and when she found Anne asleep with tears on her face, she gently kissed her cheek.",
+          translation:
+            "마릴라는 앤을 꾸짖었지만 그날 밤 매튜에게 이야기를 전하며 크게 웃었고, 앤이 눈물 자국 남은 얼굴로 잠든 것을 보고는 살며시 뺨에 입을 맞추었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "agt-v1",
+        term: "cordial",
+        partOfSpeech: "noun",
+        translation: "코디얼, 물에 타 마시는 달콤한 과일 음료",
+        example: "She poured a glass of cordial for her friend.",
+        exampleTranslation: "그녀는 친구에게 코디얼 한 잔을 따라 주었어요.",
+      },
+      {
+        id: "agt-v2",
+        term: "preserves",
+        partOfSpeech: "noun",
+        translation: "잼, 과일 설탕 조림",
+        example: "They ate bread with cherry preserves.",
+        exampleTranslation: "그들은 체리 잼을 바른 빵을 먹었어요.",
+      },
+      {
+        id: "agt-v3",
+        term: "dignified",
+        partOfSpeech: "adjective",
+        translation: "위엄 있는, 점잖은",
+        example: "She tried to look dignified in her best dress.",
+        exampleTranslation: "그녀는 가장 좋은 옷을 입고 점잖아 보이려고 애썼어요.",
+      },
+      {
+        id: "agt-v4",
+        term: "errand",
+        partOfSpeech: "noun",
+        translation: "심부름",
+        example: "Marilla sent her on an errand to the neighbour's house.",
+        exampleTranslation: "마릴라는 앤에게 이웃집 심부름을 보냈어요.",
+      },
+      {
+        id: "agt-v5",
+        term: "obstinate",
+        partOfSpeech: "adjective",
+        translation: "고집 센, 완고한",
+        example: "The obstinate woman would not change her mind.",
+        exampleTranslation: "그 고집 센 여자는 마음을 바꾸려 하지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "agt-q1",
+        prompt: "What did Diana really drink at Anne's tea party?",
+        options: [
+          "Raspberry cordial.",
+          "Apple juice.",
+          "Marilla's homemade currant wine.",
+          "Cold tea.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Marilla had put the cordial in the cellar by mistake, so Anne served the bottle of currant wine that stood in the pantry. Diana drank three glasses of it.",
+      },
+      {
+        id: "agt-q2",
+        prompt: "Why did Diana go home without having tea?",
+        options: [
+          "Her mother had called her home.",
+          "She felt dizzy and sick.",
+          "She was bored by Anne's stories.",
+          "It began to rain.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After three big glasses, Diana felt unwell and dizzy, and she kept saying that she must go home.",
+      },
+      {
+        id: "agt-q3",
+        prompt: "How did Mrs. Barry react when Marilla explained the mistake?",
+        options: [
+          "She laughed and forgave Anne at once.",
+          "She invited Anne to tea at Orchard Slope.",
+          "She blamed Diana and punished her.",
+          "She did not believe Marilla and still would not let Diana play with Anne.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Mrs. Barry was a woman of strong prejudices. She thought that Anne had done it on purpose, and she refused even to let the girls say goodbye.",
+      },
+    ],
+  },
+  {
+    slug: "alice-in-wonderland-croquet",
+    title: "Alice's Adventures in Wonderland: The Queen's Croquet-Ground",
+    titleTranslation: "이상한 나라의 앨리스: 여왕의 크로케 경기장",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "♥️",
+    coverImage: "/covers/alice-in-wonderland-croquet.svg",
+    source:
+      "Adapted from Chapter 8 (\"The Queen's Croquet-Ground\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Alice helped the gardeners and why the croquet game was so strange.",
+    paragraphs: [
+      [
+        {
+          id: "aqc-1",
+          text: "Near the entrance to a garden, Alice saw three gardeners painting the white roses on a big rose-tree red.",
+          translation:
+            "정원 입구 가까이에서 앨리스는 정원사 세 명이 커다란 장미나무의 흰 장미를 빨갛게 칠하고 있는 것을 보았어요.",
+        },
+        {
+          id: "aqc-2",
+          text: "They were playing cards, and their names were Two, Five and Seven.",
+          translation:
+            "그들은 트럼프 카드였고, 이름은 둘, 다섯, 일곱이었어요.",
+        },
+        {
+          id: "aqc-3",
+          text: "They told Alice that they had planted the wrong tree, and that if the Queen found out, she would cut off their heads.",
+          translation:
+            "그들은 앨리스에게 나무를 잘못 심었으며, 여왕이 알게 되면 자기들의 목을 베어 버릴 거라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "aqc-4",
+          text: "Suddenly the gardeners cried, \"The Queen! The Queen!\" and threw themselves flat on their faces.",
+          translation:
+            "갑자기 정원사들이 \"여왕님이다! 여왕님이다!\" 하고 외치며 땅바닥에 납작 엎드렸어요.",
+        },
+        {
+          id: "aqc-5",
+          text: "Soldiers, courtiers and royal children walked past, and last of all came the King and Queen of Hearts.",
+          translation:
+            "병사들과 신하들과 왕실 아이들이 줄줄이 지나갔고, 맨 끝에 하트 왕과 하트 여왕이 나타났어요.",
+        },
+        {
+          id: "aqc-6",
+          text: "Alice did not lie down, because she thought, \"What is the use of a procession if everybody lies on their faces and cannot see it?\"",
+          translation:
+            "앨리스는 엎드리지 않았어요. \"모두가 얼굴을 바닥에 대고 엎드려 있으면 아무도 행렬을 볼 수 없는데, 행렬이 무슨 소용이람?\" 하고 생각했거든요.",
+        },
+      ],
+      [
+        {
+          id: "aqc-7",
+          text: "The Queen stopped and asked Alice her name, and Alice answered politely, but she thought, \"They are only a pack of cards, so I need not be afraid.\"",
+          translation:
+            "여왕은 걸음을 멈추고 앨리스의 이름을 물었고, 앨리스는 공손히 대답했지만 속으로는 \"쟤들은 그저 카드 한 벌일 뿐이야, 무서워할 필요 없어.\" 하고 생각했어요.",
+        },
+        {
+          id: "aqc-8",
+          text: "When the Queen shouted, \"Off with her head!\" Alice said, \"Nonsense!\" in a loud voice, and the Queen was silent.",
+          translation:
+            "여왕이 \"저 아이의 목을 쳐라!\" 하고 소리치자 앨리스가 큰 소리로 \"말도 안 돼요!\" 하고 말했고, 여왕은 입을 다물었어요.",
+        },
+        {
+          id: "aqc-9",
+          text: "Then the Queen saw the painted roses and cried, \"Off with their heads!\" but Alice hid the poor gardeners in a flower-pot, and the soldiers could not find them.",
+          translation:
+            "그러다 여왕은 칠해진 장미를 보고 \"저들의 목을 쳐라!\" 하고 외쳤지만, 앨리스가 불쌍한 정원사들을 커다란 화분에 숨겨 준 덕분에 병사들은 그들을 찾지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "aqc-10",
+          text: "The Queen asked Alice, \"Can you play croquet?\" and Alice shouted, \"Yes!\" and joined the procession.",
+          translation:
+            "여왕이 앨리스에게 \"크로케를 할 줄 아느냐?\" 하고 묻자 앨리스는 \"네!\" 하고 외치며 행렬에 끼어들었어요.",
+        },
+        {
+          id: "aqc-11",
+          text: "The White Rabbit whispered to her that the Duchess was in great trouble, and Alice laughed when she heard why: the Duchess had hit the Queen on the ear.",
+          translation:
+            "하얀 토끼가 공작 부인이 큰일 났다고 속삭였고, 앨리스는 이유를 듣고 웃음을 터뜨렸어요. 공작 부인이 여왕의 뺨을 때렸다는 거예요.",
+        },
+        {
+          id: "aqc-12",
+          text: "The croquet-ground was full of hills and ditches, the balls were live hedgehogs, the mallets were living flamingoes, and the soldiers bent over to make the arches.",
+          translation:
+            "크로케 경기장은 둔덕과 고랑투성이였고, 공은 살아 있는 고슴도치, 채는 살아 있는 홍학이었으며, 병사들은 몸을 굽혀 문 모양의 아치가 되어 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "aqc-13",
+          text: "Alice found it very hard to play, because her flamingo kept twisting its neck to look at her, and her hedgehog kept unrolling and walking away.",
+          translation:
+            "앨리스는 경기를 하기가 몹시 어려웠어요. 홍학이 자꾸 목을 비틀어 앨리스를 쳐다보았고, 고슴도치는 자꾸 몸을 펴고 걸어가 버렸으니까요.",
+        },
+        {
+          id: "aqc-14",
+          text: "Nobody waited for a turn, everybody quarrelled, and the Queen walked about shouting \"Off with his head!\" almost every minute.",
+          translation:
+            "아무도 차례를 기다리지 않았고 모두 다투었으며, 여왕은 거의 일 분에 한 번씩 \"저자의 목을 쳐라!\" 하고 외치며 돌아다녔어요.",
+        },
+        {
+          id: "aqc-15",
+          text: "Alice began to feel afraid, and she wondered how anyone was left alive in a place where people loved cutting off heads.",
+          translation:
+            "앨리스는 겁이 나기 시작했고, 사람들이 목 베기를 그토록 좋아하는 이곳에서 어떻게 아직 살아 있는 사람이 있는지 궁금해졌어요.",
+        },
+      ],
+      [
+        {
+          id: "aqc-16",
+          text: "Then she saw a grin in the air, and it grew into the Cheshire Cat's head, so she had someone to talk to at last.",
+          translation:
+            "그때 공중에 씩 웃는 입 모양이 보이더니 점점 체셔 고양이의 머리로 자랐고, 앨리스는 드디어 이야기 나눌 상대가 생겼어요.",
+        },
+        {
+          id: "aqc-17",
+          text: "But when the King and the Queen wanted the Cat's head cut off, the executioner said that you could not cut off a head without a body, and before anything was decided, the Cat's head slowly faded away.",
+          translation:
+            "하지만 왕과 여왕이 고양이의 머리를 베라고 하자, 사형 집행인은 몸이 없으면 머리를 벨 수 없다고 했고, 아무것도 결정되기 전에 고양이의 머리는 서서히 사라졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aqc-v1",
+        term: "procession",
+        partOfSpeech: "noun",
+        translation: "행렬, 행진",
+        example: "A long procession walked through the garden.",
+        exampleTranslation: "긴 행렬이 정원을 지나갔어요.",
+      },
+      {
+        id: "aqc-v2",
+        term: "hedgehog",
+        partOfSpeech: "noun",
+        translation: "고슴도치",
+        example: "The hedgehog rolled itself into a ball.",
+        exampleTranslation: "고슴도치가 몸을 공처럼 말았어요.",
+      },
+      {
+        id: "aqc-v3",
+        term: "flamingo",
+        partOfSpeech: "noun",
+        translation: "홍학, 플라밍고",
+        example: "The pink flamingo stood on one leg.",
+        exampleTranslation: "분홍색 홍학이 한 다리로 서 있었어요.",
+      },
+      {
+        id: "aqc-v4",
+        term: "executioner",
+        partOfSpeech: "noun",
+        translation: "사형 집행인",
+        example: "The executioner said that he had never done such a thing.",
+        exampleTranslation: "사형 집행인은 그런 일은 해 본 적이 없다고 말했어요.",
+      },
+      {
+        id: "aqc-v5",
+        term: "grin",
+        partOfSpeech: "noun",
+        translation: "씩 웃는 웃음",
+        example: "The cat had a very wide grin.",
+        exampleTranslation: "고양이는 아주 크게 씩 웃고 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aqc-q1",
+        prompt: "Why were the gardeners painting the roses red?",
+        options: [
+          "The King had asked for a red garden.",
+          "They had planted a white rose-tree by mistake, and the Queen wanted red roses.",
+          "They wanted to win the croquet game.",
+          "Alice had asked them to.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The gardeners had planted the wrong tree, and they were afraid that the Queen would cut off their heads if she found white roses.",
+      },
+      {
+        id: "aqc-q2",
+        prompt: "How did Alice save the gardeners from the Queen?",
+        options: [
+          "She hid them in a large flower-pot.",
+          "She paid the soldiers.",
+          "She told the Queen a long story.",
+          "She ran away with them.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "When the Queen ordered the gardeners' heads cut off, Alice put them into a big flower-pot, and the soldiers marched away without finding them.",
+      },
+      {
+        id: "aqc-q3",
+        prompt: "What did the executioner say when the Queen wanted the Cat's head cut off?",
+        options: [
+          "He was too tired to work.",
+          "He said that the Cat belonged to the King.",
+          "He said that Alice must do it herself.",
+          "He said that you cannot cut off a head if there is no body.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The Cat showed only its head, so the executioner argued that he could not cut off a head without a body.",
+      },
+    ],
+  },
+  {
+    slug: "hound-of-the-baskervilles-sir-henry",
+    title: "The Hound of the Baskervilles: Sir Henry Baskerville",
+    titleTranslation: "바스커빌가의 개: 헨리 바스커빌 경",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "✉️",
+    coverImage: "/covers/hound-of-the-baskervilles-sir-henry.svg",
+    source:
+      "Adapted from Chapter 4 (\"Sir Henry Baskerville\") of Arthur Conan Doyle's novel \"The Hound of the Baskervilles\" (1902; long in the public domain, Project Gutenberg #2852). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the strange letter said and how Holmes worked out where its words came from.",
+    paragraphs: [
+      [
+        {
+          id: "hbs-1",
+          text: "At exactly ten o'clock the next morning, Dr. Mortimer brought the young baronet, Sir Henry Baskerville, to Baker Street, where Holmes was waiting in his dressing-gown.",
+          translation:
+            "다음 날 아침 정각 10시, 모티머 박사는 젊은 준남작 헨리 바스커빌 경을 베이커가로 데려왔고, 홈스는 실내 가운 차림으로 그들을 기다리고 있었어요.",
+        },
+        {
+          id: "hbs-2",
+          text: "Sir Henry was a small, sturdy man of about thirty, with thick black eyebrows and a strong face, and he had the weather-beaten look of someone who had spent most of his life outdoors in America and Canada.",
+          translation:
+            "헨리 경은 서른 살쯤 된 작고 다부진 체격의 남자로, 짙은 검은 눈썹에 강인한 얼굴을 하고 있었고, 미국과 캐나다에서 대부분의 세월을 야외에서 보낸 사람답게 비바람에 그을린 모습이었어요.",
+        },
+        {
+          id: "hbs-3",
+          text: "He said that he had received a puzzling letter that morning, and he laid on the table a grey envelope addressed in rough printed letters to \"Sir Henry Baskerville, Northumberland Hotel.\"",
+          translation:
+            "그는 그날 아침 수수께끼 같은 편지를 받았다며, 투박한 인쇄체로 \"노섬벌랜드 호텔, 헨리 바스커빌 경\"이라고 적힌 회색 봉투를 탁자 위에 내려놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "hbs-4",
+          text: "Nobody could have known that he would stay at that hotel, for he had decided only after meeting Dr. Mortimer, so Holmes said that someone was very interested in his movements.",
+          translation:
+            "그가 그 호텔에 묵으리라는 것은 아무도 알 수 없었어요. 모티머 박사를 만난 뒤에야 정했으니까요. 그래서 홈스는 누군가가 그의 행적에 몹시 관심을 두고 있다고 말했어요.",
+        },
+        {
+          id: "hbs-5",
+          text: "Inside was a half-sheet of paper on which a single sentence had been made from printed words pasted onto it: \"As you value your life or your reason keep away from the moor.\"",
+          translation:
+            "안에는 인쇄된 단어들을 오려 붙여 한 문장을 만든 반쪽짜리 종이가 들어 있었어요. \"목숨이나 이성이 소중하거든 황야에서 멀리 떨어져라.\"",
+        },
+        {
+          id: "hbs-6",
+          text: "Only the word \"moor\" was written in ink, and Sir Henry asked what in thunder it meant and who was so interested in his affairs.",
+          translation:
+            "잉크로 쓴 것은 \"황야\"라는 단어 하나뿐이었어요. 헨리 경은 도대체 이게 무슨 뜻이며 누가 그의 일에 이렇게까지 관심을 두는 것이냐고 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "hbs-7",
+          text: "Holmes asked Watson for yesterday's Times and read out a passage from an article on free trade, until Sir Henry said that they had wandered away from the trail.",
+          translation:
+            "홈스는 왓슨에게 어제자 타임스를 달라고 하더니 자유무역에 관한 기사의 한 대목을 소리 내어 읽었고, 결국 헨리 경이 단서를 쫓다가 옆길로 샜다고 한마디 했어요.",
+        },
+        {
+          id: "hbs-8",
+          text: "\"On the contrary,\" said Holmes, \"we are very hot on it,\" and he showed them that the words of the warning had been cut from that very article, and that two of the words had even been cut out in one piece.",
+          translation:
+            "\"오히려 정반대입니다. 우리는 단서에 바짝 다가갔어요.\" 홈스는 그렇게 말하며, 경고문의 단어들이 바로 그 기사에서 오려 낸 것이며 그중 두 단어는 한 덩어리로 오려졌다는 것을 보여 주었어요.",
+        },
+        {
+          id: "hbs-9",
+          text: "Dr. Mortimer, amazed, asked how he could know this, and Holmes replied that an expert in crime can tell one kind of printing from another, just as a doctor knows his own subject at a glance.",
+          translation:
+            "놀란 모티머 박사가 어떻게 그것을 알 수 있느냐고 묻자, 홈스는 의사가 자기 분야를 한눈에 알아보듯 범죄 전문가는 인쇄물의 종류를 한눈에 구별할 수 있다고 대답했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbs-10",
+          text: "Holmes added that the sender had used nail scissors, had pasted the words in a crooked line as if in a hurry, and was probably an educated man pretending not to be, since the Times is seldom read by anyone else.",
+          translation:
+            "홈스는 이어서, 발신자가 손톱가위를 썼고 서두른 듯 단어들을 삐뚤빼뚤 붙였으며, 타임스는 교육받은 사람이 아니면 좀처럼 읽지 않으므로 아마도 배우지 못한 척하는 학식 있는 사람일 것이라고 덧붙였어요.",
+        },
+        {
+          id: "hbs-11",
+          text: "He was almost sure that the address had been written in a hotel, because the pen had spluttered twice and run dry three times, which showed that the ink bottle was nearly empty.",
+          translation:
+            "그는 주소가 호텔에서 쓰였다고 거의 확신했어요. 펜이 두 번 튀고 세 번이나 잉크가 말랐다는 것은 잉크병이 거의 비어 있었다는 뜻이기 때문이었지요.",
+        },
+        {
+          id: "hbs-12",
+          text: "Then he asked whether anything else unusual had happened, and Sir Henry, smiling, said that he had lost one of his new brown boots, which he had put outside his door at the hotel to be cleaned.",
+          translation:
+            "이어서 홈스가 그 밖에 이상한 일이 없었느냐고 묻자, 헨리 경은 웃으며 호텔 방문 밖에 닦아 달라고 내놓은 새 갈색 구두 한 짝이 없어졌다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbs-13",
+          text: "Holmes called it a strangely useless thing to steal, and then Dr. Mortimer told the story of the hound again, which Sir Henry heard with the deepest attention, saying afterwards that he had known it since childhood but had never taken it seriously.",
+          translation:
+            "홈스는 훔치기에는 이상하리만큼 쓸모없는 물건이라고 했고, 이어 모티머 박사가 그 개 이야기를 다시 들려주자 헨리 경은 지극히 주의 깊게 듣더니, 어릴 때부터 알고 있었지만 진지하게 받아들인 적은 없다고 말했어요.",
+        },
+        {
+          id: "hbs-14",
+          text: "Holmes warned him that there seemed to be danger in going to Baskerville Hall, but Sir Henry, his dark face flushed, answered that no devil in hell and no man on earth could stop him from going to the home of his own people.",
+          translation:
+            "홈스가 바스커빌 저택에 가는 것은 위험해 보인다고 경고했지만, 헨리 경은 검은 얼굴을 붉히며 지옥의 어떤 악마도 지상의 어떤 사람도 자기 뿌리인 집으로 가는 길을 막을 수 없다고 답했어요.",
+        },
+        {
+          id: "hbs-15",
+          text: "He asked Holmes and Watson to lunch with him at two o'clock, and he left with Dr. Mortimer to walk back to the hotel.",
+          translation:
+            "그는 홈스와 왓슨에게 두 시에 함께 점심을 먹자고 청한 뒤, 모티머 박사와 함께 호텔까지 걸어서 돌아갔어요.",
+        },
+      ],
+      [
+        {
+          id: "hbs-16",
+          text: "The moment the door closed, Holmes changed from a dreamy man in a dressing-gown into a man of action, and he and Watson hurried after their visitors, keeping a hundred yards behind.",
+          translation:
+            "문이 닫히기가 무섭게 홈스는 실내 가운 차림의 몽상가에서 행동하는 사람으로 변했고, 그와 왓슨은 방문객들을 뒤쫓아 백 야드쯤 떨어져서 서둘러 따라갔어요.",
+        },
+        {
+          id: "hbs-17",
+          text: "Suddenly Holmes noticed a cab that was following the two men, and Watson glimpsed a bushy black beard and piercing eyes at its window, but the cab raced away before they could reach it.",
+          translation:
+            "갑자기 홈스는 두 사람을 뒤따르는 마차 한 대를 알아보았고, 왓슨은 그 창문 너머로 덥수룩한 검은 수염과 날카로운 눈을 흘끗 보았지만, 마차는 그들이 닿기도 전에 쏜살같이 달아났어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hbs-v1",
+        term: "baronet",
+        partOfSpeech: "noun",
+        translation: "준남작 (귀족 바로 아래의 세습 작위)",
+        example: "The young baronet had just arrived from Canada.",
+        exampleTranslation: "젊은 준남작은 캐나다에서 막 도착했어요.",
+      },
+      {
+        id: "hbs-v2",
+        term: "paste",
+        partOfSpeech: "verb",
+        translation: "풀로 붙이다",
+        example: "Someone pasted printed words onto a sheet of paper.",
+        exampleTranslation: "누군가 인쇄된 단어들을 종이에 풀로 붙였어요.",
+      },
+      {
+        id: "hbs-v3",
+        term: "weather-beaten",
+        partOfSpeech: "adjective",
+        translation: "비바람에 그을린, 햇볕에 검게 탄",
+        example: "The farmer had a weather-beaten face.",
+        exampleTranslation: "농부는 비바람에 그을린 얼굴을 하고 있었어요.",
+      },
+      {
+        id: "hbs-v4",
+        term: "expert",
+        partOfSpeech: "noun",
+        translation: "전문가",
+        example: "Holmes is an expert in crime.",
+        exampleTranslation: "홈스는 범죄 전문가예요.",
+      },
+      {
+        id: "hbs-v5",
+        term: "cab",
+        partOfSpeech: "noun",
+        translation: "삯마차, 택시",
+        example: "They took a cab across London.",
+        exampleTranslation: "그들은 삯마차를 타고 런던을 가로질렀어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hbs-q1",
+        prompt: "What did the letter to Sir Henry say?",
+        options: [
+          "It warned him to keep away from the moor.",
+          "It invited him to dinner at Baskerville Hall.",
+          "It asked him to sell the estate.",
+          "It told him to go back to Canada.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The message, made from words cut out of a newspaper, warned Sir Henry to keep away from the moor if he valued his life or his reason.",
+      },
+      {
+        id: "hbs-q2",
+        prompt: "How did Holmes know where the words of the letter had been cut from?",
+        options: [
+          "He saw the name of the newspaper on the back of the paper.",
+          "Sir Henry told him.",
+          "He recognised the type of a Times leading article, and two words had been cut out in one piece.",
+          "Dr. Mortimer had cut them out himself.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Holmes is an expert on printing. He knew the type of a Times leading article, and he found the same words in yesterday's issue.",
+      },
+      {
+        id: "hbs-q3",
+        prompt: "What happened when Holmes and Watson followed their visitors?",
+        options: [
+          "They lost Sir Henry in a crowd.",
+          "They found the missing boot.",
+          "They met Sir Henry's uncle.",
+          "They saw a man with a black beard in a cab, and he escaped.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "A man in a cab was following Sir Henry and Dr. Mortimer. Watson saw only a bushy black beard and sharp eyes before the cab sped away.",
+      },
+    ],
+  },
+  {
+    slug: "dr-jekyll-and-mr-hyde-full-statement",
+    title: "Dr. Jekyll and Mr. Hyde: Henry Jekyll's Full Statement",
+    titleTranslation: "지킬 박사와 하이드 씨: 헨리 지킬의 고백",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Robert Louis Stevenson (1850–1894)",
+    coverEmoji: "⚗️",
+    coverImage: "/covers/dr-jekyll-and-mr-hyde-full-statement.svg",
+    source:
+      "Adapted from Chapter 10 (\"Henry Jekyll's Full Statement of the Case\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Dr. Jekyll created Mr. Hyde and what warning he received that he was losing control.",
+    paragraphs: [
+      [
+        {
+          id: "djs-1",
+          text: "In a long letter left for his friend Mr. Utterson, Dr. Jekyll at last explained how Mr. Hyde had come into the world, and he began with his own youth.",
+          translation:
+            "지킬 박사는 친구 어터슨 씨에게 남긴 긴 편지에서 마침내 하이드 씨가 어떻게 세상에 나타났는지 설명했고, 자신의 젊은 시절부터 이야기를 시작했어요.",
+        },
+        {
+          id: "djs-2",
+          text: "He had been born rich and talented and eager for the respect of good people, but he had a cheerful, pleasure-loving side that he was ashamed of, so he hid it and lived a double life.",
+          translation:
+            "그는 부유하고 재능 있게 태어났고 훌륭한 사람들의 존경을 받고 싶어 했지만, 쾌활하고 쾌락을 좋아하는 면이 있어 그것을 부끄럽게 여겼고, 그래서 그 면을 감춘 채 이중생활을 했어요.",
+        },
+        {
+          id: "djs-3",
+          text: "The more he studied, the more he became convinced that every person is truly two, and he dreamed of separating the good self from the bad, so that each could live freely, without shame or guilt.",
+          translation:
+            "연구를 하면 할수록 그는 사람이 실은 누구나 둘이라는 확신을 굳혔고, 선한 자아와 악한 자아를 갈라놓아 각자가 부끄러움이나 죄책감 없이 자유롭게 살 수 있기를 꿈꿨어요.",
+        },
+      ],
+      [
+        {
+          id: "djs-4",
+          text: "In his laboratory he discovered that certain chemicals could shake the human body, as a wind shakes a curtain, and he prepared a drug that could replace his form with another.",
+          translation:
+            "실험실에서 그는 어떤 화학 물질이 바람이 커튼을 흔들듯 인간의 몸을 뒤흔들 수 있음을 발견했고, 자신의 모습을 다른 모습으로 바꿔 놓을 수 있는 약을 조제했어요.",
+        },
+        {
+          id: "djs-5",
+          text: "He knew that he might die, but the temptation was too great, and one night he mixed the drug, watched it boil and smoke, and drank it.",
+          translation:
+            "죽을 수도 있다는 것을 알았지만 유혹이 너무 컸고, 어느 날 밤 그는 약을 섞어 끓어오르며 연기를 내는 것을 지켜보다가 그것을 마셨어요.",
+        },
+        {
+          id: "djs-6",
+          text: "First he felt terrible pain and sickness, and then a strange sweet feeling of youth, lightness and reckless freedom, and he knew that he had become a much more wicked man than before.",
+          translation:
+            "처음에는 끔찍한 고통과 메스꺼움을 느꼈지만, 이어서 젊음과 가벼움과 무모한 자유로움이 뒤섞인 묘하게 달콤한 기분이 밀려왔고, 자신이 전보다 훨씬 더 사악한 사람이 되었음을 알았어요.",
+        },
+      ],
+      [
+        {
+          id: "djs-7",
+          text: "He also noticed that he was smaller, and creeping through his sleeping house to his bedroom mirror, he saw for the first time the face of Edward Hyde.",
+          translation:
+            "그는 자신의 키가 줄었다는 것도 알아챘고, 잠든 집 안을 살금살금 지나 침실 거울 앞에 서서 처음으로 에드워드 하이드의 얼굴을 보았어요.",
+        },
+        {
+          id: "djs-8",
+          text: "Hyde was smaller, younger and uglier than Jekyll, because Jekyll's evil side had been used far less than his good side, yet Jekyll felt no disgust, only a welcome, for he told himself that this too was himself.",
+          translation:
+            "하이드는 지킬보다 작고 젊고 추했어요. 지킬의 악한 면이 선한 면보다 훨씬 덜 쓰였기 때문이었지요. 그러나 지킬은 혐오감이 아니라 오히려 반가움을 느꼈어요. 이 역시 자기 자신이라고 스스로에게 말했으니까요.",
+        },
+        {
+          id: "djs-9",
+          text: "He noticed that people felt uneasy when they first came near Hyde, and he explained that this was because everyone else is a mixture of good and evil, but Hyde alone was pure evil.",
+          translation:
+            "그는 사람들이 하이드 가까이 다가가면 처음에는 불안해한다는 것을 알아챘고, 그 이유는 다른 모든 사람은 선과 악이 섞여 있지만 하이드만은 순수한 악이기 때문이라고 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "djs-10",
+          text: "He hurried back to the laboratory, drank the drug again and became Dr. Jekyll once more, and he later understood that if he had tried the experiment with a noble heart, the result might have been an angel instead of a monster.",
+          translation:
+            "그는 서둘러 실험실로 돌아가 약을 다시 마시고 다시 지킬 박사가 되었으며, 훗날 숭고한 마음으로 실험했더라면 괴물 대신 천사가 나타났을지도 모른다는 것을 깨달았어요.",
+        },
+        {
+          id: "djs-11",
+          text: "Soon he rented a house in Soho for Hyde, hired a silent housekeeper, told his servants that Mr. Hyde was to be welcome at his own house, and wrote the will that had so troubled Mr. Utterson.",
+          translation:
+            "곧 그는 하이드를 위해 소호에 집을 얻고 입이 무거운 가정부를 고용했으며, 하인들에게 하이드 씨를 자신의 집에서 환영하라고 일러두었고, 어터슨 씨를 그토록 심란하게 했던 그 유언장도 작성했어요.",
+        },
+        {
+          id: "djs-12",
+          text: "In this way Jekyll believed that he was completely safe, for whatever Hyde did, he had only to drink the drug in his laboratory, and Hyde would vanish like breath on a mirror while respectable Dr. Jekyll sat quietly at home.",
+          translation:
+            "이렇게 하면 완전히 안전하다고 지킬은 믿었어요. 하이드가 무슨 짓을 하든 실험실에서 약만 마시면 하이드는 거울에 서린 입김처럼 사라지고, 존경받는 지킬 박사는 집에서 조용히 앉아 있을 테니까요.",
+        },
+      ],
+      [
+        {
+          id: "djs-13",
+          text: "At first his pleasures were merely undignified, but in Hyde's hands they soon became cruel, and Jekyll would return home amazed and horrified at what he had done, though he told himself that only Hyde was guilty.",
+          translation:
+            "처음에 그의 쾌락은 그저 체면을 깎는 정도였지만 하이드의 손에서는 곧 잔인해졌고, 지킬은 집에 돌아올 때마다 자신이 벌인 일에 놀라고 두려워하면서도 죄가 있는 것은 오직 하이드뿐이라고 스스로에게 말했어요.",
+        },
+        {
+          id: "djs-14",
+          text: "Then, one morning about two months before the murder of Sir Danvers, he woke in his own bed and, looking at his hand, saw that it was lean, dark and hairy: he had gone to sleep as Henry Jekyll and woken as Edward Hyde.",
+          translation:
+            "그러던 어느 날 아침, 댄버스 경이 살해되기 두 달쯤 전에 그는 자기 침대에서 눈을 떴고, 자기 손을 보니 앙상하고 거무스름하며 털이 숭숭 난 손이었어요. 헨리 지킬로 잠들었는데 에드워드 하이드로 깨어난 거예요.",
+        },
+        {
+          id: "djs-15",
+          text: "Terrified, he had to slip across the house in Hyde's body to reach his drugs while the servant Bradshaw stared in surprise, and only ten minutes later was Dr. Jekyll again, sitting down to breakfast with a darkened brow.",
+          translation:
+            "겁에 질린 그는 하이드의 몸으로 집을 가로질러 약이 있는 곳까지 몰래 가야 했고, 하인 브래드쇼가 놀라서 빤히 쳐다보았으며, 불과 십 분 뒤에야 지킬 박사로 돌아와 어두운 얼굴로 아침 식탁에 앉았어요.",
+        },
+      ],
+      [
+        {
+          id: "djs-16",
+          text: "He now saw that he was slowly losing hold of his better self, for it had become harder to turn back into Jekyll than into Hyde, and he knew that he had to choose between them.",
+          translation:
+            "그는 이제 자신의 더 나은 자아를 서서히 놓치고 있음을 알았어요. 지킬로 돌아가기가 하이드가 되기보다 어려워졌으니까요. 그래서 둘 중 하나를 택해야 한다는 것도 알았어요.",
+        },
+        {
+          id: "djs-17",
+          text: "He chose to remain Dr. Jekyll and said farewell to Hyde's freedom, but he did not destroy Hyde's clothes or give up the house in Soho, and for two months he lived very strictly, until time began to wear away the freshness of his alarm.",
+          translation:
+            "그는 지킬 박사로 남기로 하고 하이드의 자유에 작별을 고했지만, 하이드의 옷을 태우지도 소호의 집을 버리지도 않았고, 두 달 동안은 아주 엄격하게 살았지만 시간이 흐르면서 그때의 섬뜩한 공포도 조금씩 무뎌지기 시작했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "djs-v1",
+        term: "laboratory",
+        partOfSpeech: "noun",
+        translation: "실험실",
+        example: "He worked late into the night in his laboratory.",
+        exampleTranslation: "그는 밤늦게까지 실험실에서 일했어요.",
+      },
+      {
+        id: "djs-v2",
+        term: "temptation",
+        partOfSpeech: "noun",
+        translation: "유혹",
+        example: "The temptation to try the drug was too strong.",
+        exampleTranslation: "약을 시험해 보고 싶은 유혹이 너무 강했어요.",
+      },
+      {
+        id: "djs-v3",
+        term: "reckless",
+        partOfSpeech: "adjective",
+        translation: "무모한, 분별없는",
+        example: "He felt strangely young and reckless.",
+        exampleTranslation: "그는 이상하게 젊어지고 무모해진 기분이었어요.",
+      },
+      {
+        id: "djs-v4",
+        term: "vanish",
+        partOfSpeech: "verb",
+        translation: "사라지다",
+        example: "The stranger seemed to vanish into the fog.",
+        exampleTranslation: "낯선 사람은 안개 속으로 사라지는 듯했어요.",
+      },
+      {
+        id: "djs-v5",
+        term: "respectable",
+        partOfSpeech: "adjective",
+        translation: "존경받는, 점잖은",
+        example: "He wanted to be known as a respectable doctor.",
+        exampleTranslation: "그는 존경받는 의사로 알려지고 싶어 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "djs-q1",
+        prompt: "What did Dr. Jekyll come to believe about human nature?",
+        options: [
+          "That good people never feel shame.",
+          "That all people are equally wicked.",
+          "That every person is truly two, a good self and a bad self.",
+          "That evil can be cured with medicine.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jekyll became convinced that man is not truly one but two, and he dreamed of separating the two selves so that each could live freely.",
+      },
+      {
+        id: "djs-q2",
+        prompt: "What did Jekyll feel when he first saw Hyde's face in the mirror?",
+        options: [
+          "Horror, so he decided never to try the drug again.",
+          "Not disgust but a kind of welcome, because he felt that this was also himself.",
+          "Relief, because he no longer looked old.",
+          "Nothing at all, because he was too tired.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Although Hyde was smaller and uglier, Jekyll felt no disgust; he welcomed the sight, telling himself that Hyde too was himself.",
+      },
+      {
+        id: "djs-q3",
+        prompt: "What alarming thing happened about two months before the murder of Sir Danvers?",
+        options: [
+          "Mr. Utterson visited him unexpectedly.",
+          "The police searched his laboratory.",
+          "His servants left the house.",
+          "He woke up in his own bed as Mr. Hyde, without having taken the drug.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Jekyll woke to find Hyde's hand on the bedclothes. He had changed in his sleep, which warned him that he was losing control of the change.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

@@ -39,13 +39,20 @@ export const BOOKS: Book[] = [
       "pride-and-prejudice-proposal",
       "pride-and-prejudice-letter",
       "pride-and-prejudice-pemberley",
+      "pride-and-prejudice-lady-catherine",
     ],
   },
   {
     id: "jane-eyre",
     title: "Jane Eyre",
     titleTranslation: "제인 에어",
-    chapters: ["jane-eyre", "jane-eyre-lowood", "jane-eyre-rochester", "jane-eyre-orchard"],
+    chapters: [
+      "jane-eyre",
+      "jane-eyre-lowood",
+      "jane-eyre-rochester",
+      "jane-eyre-orchard",
+      "jane-eyre-wedding",
+    ],
   },
   {
     id: "little-women",
@@ -57,7 +64,12 @@ export const BOOKS: Book[] = [
     id: "anne-of-green-gables",
     title: "Anne of Green Gables",
     titleTranslation: "빨간 머리 앤",
-    chapters: ["anne-of-green-gables", "anne-of-green-gables-with-an-e", "anne-of-green-gables-carrots"],
+    chapters: [
+      "anne-of-green-gables",
+      "anne-of-green-gables-with-an-e",
+      "anne-of-green-gables-carrots",
+      "anne-of-green-gables-diana-tea",
+    ],
   },
   {
     id: "a-little-princess",
@@ -93,19 +105,27 @@ export const BOOKS: Book[] = [
     id: "the-hound-of-the-baskervilles",
     title: "The Hound of the Baskervilles",
     titleTranslation: "바스커빌가의 개",
-    chapters: ["hound-of-the-baskervilles-holmes", "hound-of-the-baskervilles-curse"],
+    chapters: [
+      "hound-of-the-baskervilles-holmes",
+      "hound-of-the-baskervilles-curse",
+      "hound-of-the-baskervilles-sir-henry",
+    ],
   },
   {
     id: "dr-jekyll-and-mr-hyde",
     title: "Dr. Jekyll and Mr. Hyde",
     titleTranslation: "지킬 박사와 하이드 씨",
-    chapters: ["dr-jekyll-and-mr-hyde", "dr-jekyll-and-mr-hyde-carew-murder"],
+    chapters: [
+      "dr-jekyll-and-mr-hyde",
+      "dr-jekyll-and-mr-hyde-carew-murder",
+      "dr-jekyll-and-mr-hyde-full-statement",
+    ],
   },
   {
     id: "alices-adventures-in-wonderland",
     title: "Alice's Adventures in Wonderland",
     titleTranslation: "이상한 나라의 앨리스",
-    chapters: ["alice-in-wonderland", "alice-in-wonderland-tea-party"],
+    chapters: ["alice-in-wonderland", "alice-in-wonderland-tea-party", "alice-in-wonderland-croquet"],
   },
 ];
 
