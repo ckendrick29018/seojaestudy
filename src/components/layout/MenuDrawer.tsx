@@ -135,7 +135,7 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   return (
     <div className="fixed inset-0 z-50">
       <div
-        className={`absolute inset-0 bg-black/30 backdrop-blur-[2px] transition-opacity duration-200 ${
+        className={`absolute inset-0 bg-black/40 transition-opacity duration-200 ${
           shown ? "opacity-100" : "opacity-0"
         }`}
         onClick={onClose}

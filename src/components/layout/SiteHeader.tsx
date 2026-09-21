@@ -24,7 +24,7 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream/90 px-5 py-4 backdrop-blur">
+      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-rose-light/50 bg-cream px-5 py-4">
         <Link href="/library" className="flex items-center gap-2.5">
           <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl2 bg-rose-light/50 text-rose">
             <BrandMark className="h-5 w-5" />

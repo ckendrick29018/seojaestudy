@@ -36,7 +36,7 @@ export function MarketingHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 border-b border-rose-light/50 bg-cream/90 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b border-rose-light/50 bg-cream">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-3 sm:gap-4 sm:px-6 sm:py-4 lg:px-8">
           {/* min-w-0 + truncate: on a narrow phone (or with the larger text-size
               setting) the wordmark gives way instead of pushing the menu button

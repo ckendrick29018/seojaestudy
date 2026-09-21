@@ -93,7 +93,7 @@ export function ClassicsClient() {
       </nav>
 
       {/* Search / filter / sort — sticks below the header while the shelf scrolls. */}
-      <div className="sticky top-[52px] z-20 -mx-5 mb-5 border-b border-rose-light/50 bg-cream/95 px-5 pb-3 pt-1 backdrop-blur lg:-mx-8 lg:px-8">
+      <div className="sticky top-[52px] z-20 -mx-5 mb-5 border-b border-rose-light/50 bg-cream px-5 pb-3 pt-1 lg:-mx-8 lg:px-8">
         <div className="relative">
           <input
             type="search"

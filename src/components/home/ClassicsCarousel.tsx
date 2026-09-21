@@ -89,26 +89,20 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={() => setPaused(false)}
     >
-      <div className="relative">
-        <div
-          ref={trackRef}
-          className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth px-0.5 pb-2 pt-0.5 lg:gap-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-        >
-          {items.map((lesson) => (
-            <div
-              key={lesson.slug}
-              className="w-[64%] max-w-[230px] shrink-0 snap-center lg:w-[220px] lg:max-w-[260px]"
-            >
-              <ClassicCard lesson={lesson} complete={isLessonComplete(lesson.slug)} />
-            </div>
-          ))}
-        </div>
-
-        {/* Soften the peeking neighbours so the strip reads as intentional. Not on the dark
-            theme: there the fade leaves grey, blurred slivers of the neighbouring covers at
-            each edge, which reads as tunnel vision — the plain hard-cut strip looks cleaner. */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-6 bg-gradient-to-r from-cream to-transparent lg:w-10 [[data-theme=dark]_&]:hidden" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-cream to-transparent lg:w-10 [[data-theme=dark]_&]:hidden" />
+      {/* No edge fade over the peeking neighbours: a gradient there washes the covers into
+          blurry-looking slivers in every theme, which reads as a rendering glitch. */}
+      <div
+        ref={trackRef}
+        className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth px-0.5 pb-2 pt-0.5 lg:gap-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      >
+        {items.map((lesson) => (
+          <div
+            key={lesson.slug}
+            className="w-[64%] max-w-[230px] shrink-0 snap-center lg:w-[220px] lg:max-w-[260px]"
+          >
+            <ClassicCard lesson={lesson} complete={isLessonComplete(lesson.slug)} />
+          </div>
+        ))}
       </div>
 
       {items.length > 1 && (
