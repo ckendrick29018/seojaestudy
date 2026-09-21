@@ -62,12 +62,29 @@ const config: Config = {
           "25%": { opacity: "0.75" },
           "100%": { opacity: "0", transform: "translate(6px, -14px) scale(1.15)" },
         },
+        // Shelf-cat idle motion: sparkles, floating books and rising tea steam.
+        twinkle: {
+          "0%, 100%": { opacity: "0.35", transform: "scale(0.7)" },
+          "50%": { opacity: "1", transform: "scale(1.15)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-3px)" },
+        },
+        steam: {
+          "0%": { opacity: "0", transform: "translateY(3px)" },
+          "40%": { opacity: "0.85" },
+          "100%": { opacity: "0", transform: "translateY(-5px)" },
+        },
       },
       animation: {
         "fade-in": "fade-in 0.2s ease-out",
         "tail-sway": "tail-sway 3.5s ease-in-out infinite",
         wave: "wave 1.3s ease-in-out infinite",
         zzz: "zzz 3.4s ease-in-out infinite",
+        twinkle: "twinkle 2.6s ease-in-out infinite",
+        float: "float 3.6s ease-in-out infinite",
+        steam: "steam 2.6s ease-in-out infinite",
       },
     },
   },

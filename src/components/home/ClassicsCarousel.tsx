@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { LessonMeta } from "@/lib/types";
+import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "./ClassicCard";
 
@@ -13,17 +14,20 @@ const AUTO_ADVANCE_MS = 5000;
 
 /**
  * Dashboard classics: a swipeable, gently auto-rotating strip of portrait
- * cover cards — a preview of the full `/classics` shelf. Swipe (touch) or
- * tap a dot to move; auto-advance pauses while the pointer or keyboard
- * focus is inside it, and is off entirely under `prefers-reduced-motion`.
+ * cover cards — a preview of the full `/classics` shelf. Swipe (touch), use
+ * the arrow buttons (mouse), or tap a dot to move; auto-advance pauses while
+ * the pointer or keyboard focus is inside it, and is off entirely under
+ * `prefers-reduced-motion`.
  */
 export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] } = {}) {
+  const t = useT();
   const { isLessonComplete } = useProgress();
   const items = (source ?? CLASSICS).slice(0, MAX_IN_CAROUSEL);
 
   const trackRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [edge, setEdge] = useState({ start: true, end: false });
 
   const scrollToIndex = useCallback((i: number) => {
     const track = trackRef.current;
@@ -33,6 +37,15 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
       left: child.offsetLeft - (track.clientWidth - child.clientWidth) / 2,
       behavior: "smooth",
     });
+  }, []);
+
+  /** One card-width step, so scroll-snap lands on the next card rather than snapping back. */
+  const step = useCallback((dir: -1 | 1) => {
+    const track = trackRef.current;
+    const first = track?.children[0] as HTMLElement | undefined;
+    if (!track || !first) return;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    track.scrollBy({ left: dir * (first.clientWidth + gap), behavior: "smooth" });
   }, []);
 
   // Keep the active dot in sync with manual swipes.
@@ -55,11 +68,17 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
           }
         });
         setActive(best);
+        const start = track.scrollLeft <= 2;
+        const end = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+        setEdge((e) => (e.start === start && e.end === end ? e : { start, end }));
       });
     };
+    onScroll();
     track.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
     return () => {
       track.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
       cancelAnimationFrame(raf);
     };
   }, []);
@@ -91,6 +110,30 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
     >
       {/* No edge fade over the peeking neighbours: a gradient there washes the covers into
           blurry-looking slivers in every theme, which reads as a rendering glitch. */}
+      {items.length > 1 && (
+        <>
+          {/* Arrow buttons for mouse users, who can't swipe. Only on hover-capable devices, so
+              touch layouts stay clean; opaque (no blur) and hidden at the ends of the strip. */}
+          <button
+            type="button"
+            onClick={() => step(-1)}
+            aria-label={t("carouselPrev")}
+            disabled={edge.start}
+            className="absolute left-1 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-rose-light bg-white text-charcoal shadow-md transition hover:bg-cream-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose disabled:pointer-events-none disabled:opacity-0 [@media(hover:hover)]:flex"
+          >
+            <ChevronIcon direction="left" />
+          </button>
+          <button
+            type="button"
+            onClick={() => step(1)}
+            aria-label={t("carouselNext")}
+            disabled={edge.end}
+            className="absolute right-1 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-rose-light bg-white text-charcoal shadow-md transition hover:bg-cream-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose disabled:pointer-events-none disabled:opacity-0 [@media(hover:hover)]:flex"
+          >
+            <ChevronIcon direction="right" />
+          </button>
+        </>
+      )}
       <div
         ref={trackRef}
         className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth px-0.5 pb-2 pt-0.5 lg:gap-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
@@ -125,5 +168,22 @@ export function ClassicsCarousel({ lessons: source }: { lessons?: LessonMeta[] }
         </div>
       )}
     </div>
+  );
+}
+
+function ChevronIcon({ direction }: { direction: "left" | "right" }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2.2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d={direction === "left" ? "M15 5l-7 7 7 7" : "M9 5l7 7-7 7"} />
+    </svg>
   );
 }

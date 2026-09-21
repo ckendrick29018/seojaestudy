@@ -65,8 +65,11 @@ function SwapIcon(props: SVGProps<SVGSVGElement>) {
 
 function Cover({ lesson, className }: { lesson: LessonMeta; className: string }) {
   return (
+    // will-change-transform gives each cover its own compositor layer. Without it the tilted,
+    // rounded-clipped, heavy-shadowed cover was re-rasterised on every scroll frame, which made
+    // the club panel and closing row stutter.
     <div
-      className={`shrink-0 overflow-hidden rounded-xl2 border border-rose-light/60 bg-white shadow-frame ${className}`}
+      className={`shrink-0 overflow-hidden rounded-xl2 border border-rose-light/60 bg-white shadow-frame will-change-transform ${className}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img

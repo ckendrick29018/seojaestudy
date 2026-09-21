@@ -33,6 +33,8 @@ export const dict = {
     ko: "하루 몇 분이면 충분해요 — 모든 레슨은 짧고 완결된 이야기예요. 끝까지 읽어야 하는 장편소설이 아니에요.",
   },
   classicsSeeAll: { en: "See all", ko: "전체 보기" },
+  carouselPrev: { en: "Previous books", ko: "이전 책" },
+  carouselNext: { en: "Next books", ko: "다음 책" },
 
   // --- Classics shelf: search / filter / sort ---
   classicsSearchPlaceholder: { en: "Search by title or author", ko: "제목이나 작가로 검색" },
@@ -92,6 +94,12 @@ export const dict = {
     en: "Your shelf is empty for now. Finish a story to place your first book — your cat is waiting.",
     ko: "아직 책장이 비어 있어요. 이야기를 하나 완독하면 첫 책이 꽂혀요. 고양이가 기다리고 있어요.",
   },
+  bookshelfJourney: { en: "Your cat's journey", ko: "고양이의 성장 여정" },
+  bookshelfJourneySubtitle: {
+    en: "Ten stages, from a sleepy kitten to a crowned Grand Librarian. Each book you finish helps it grow.",
+    ko: "잠꾸러기 아기 고양이에서 왕관 쓴 전설의 대사서까지, 열 단계예요. 완독할 때마다 고양이가 자라요.",
+  },
+  catNow: { en: "Now", ko: "현재" },
   savedWords: { en: "Saved Words", ko: "저장한 단어" },
   minRead: { en: "min read", ko: "분 소요" },
 

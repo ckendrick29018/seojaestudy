@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { ChevronRightIcon } from "@/components/ui/icons";
-import { ReadingCat, catMoodFor } from "./ReadingCat";
+import { ReadingCat } from "./ReadingCat";
+import { catStageFor } from "./cat-stages";
 import { BookSpine, useCompletedBooks } from "./Bookshelf";
 
 const PREVIEW_MAX = 7;
@@ -19,6 +20,7 @@ export function BookshelfPreview() {
   const books = useCompletedBooks();
   if (books.length === 0) return null;
 
+  const stage = catStageFor(books.length);
   const shown = books.slice(-PREVIEW_MAX);
   const more = books.length - shown.length;
   const countLabel = lang === "ko" ? `${books.length}권` : String(books.length);
@@ -28,7 +30,7 @@ export function BookshelfPreview() {
       href="/bookshelf"
       className="mt-4 flex items-stretch gap-2.5 rounded-xl2 border border-rose-light/50 bg-white/50 p-3 transition hover:border-rose-soft/50 hover:bg-white/70 lg:gap-4 lg:p-4"
     >
-      <ReadingCat mood={catMoodFor(books.length)} className="h-12 w-12 shrink-0 self-center lg:h-14 lg:w-14" />
+      <ReadingCat stage={stage.id} still className="h-14 w-14 shrink-0 self-center lg:h-16 lg:w-16" />
       <div className="min-w-0 flex-1">
         <div className="mb-1.5 flex items-baseline justify-between gap-2">
           <p className="shrink-0 text-xs font-semibold uppercase tracking-wide text-rose/70 lg:text-sm">
@@ -46,6 +48,7 @@ export function BookshelfPreview() {
             <span className="ml-1 self-center text-[11px] font-medium text-charcoal/40">+{more}</span>
           )}
         </div>
+        <p className="mt-1.5 truncate text-[11px] font-medium text-charcoal/70">{stage.name[lang]}</p>
       </div>
     </Link>
   );
