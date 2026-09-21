@@ -2,6 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Reading themes. The palette lives in CSS variables (RGB channels, consumed by
+ * tailwind.config.ts) so switching theme is one attribute on <html> —
+ * PreferencesProvider sets data-theme, and an inline script in layout.tsx sets it
+ * before first paint so a saved dark/sepia choice never flashes light.
+ *
+ * Token meanings carry across themes: `cream` is the page, `white` the card
+ * surface lifted off it, `charcoal` the ink, `rose` the accent. Text set in
+ * `cream` on a `rose` fill (buttons) therefore flips to dark-on-accent in dark
+ * mode, which is what we want.
+ */
+:root,
+[data-theme="light"] {
+  --c-cream: 253 251 247;
+  --c-cream-dark: 246 241 231;
+  --c-white: 255 255 255;
+  --c-charcoal: 44 44 44;
+  --c-rose: 197 123 87;
+  --c-rose-soft: 212 163 115;
+  --c-rose-light: 239 217 201;
+  --c-sage: 233 237 201;
+  --c-sage-dark: 183 194 150;
+  --c-gold: 201 166 107;
+
+  --shadow-soft: 0 8px 30px rgba(44, 44, 44, 0.06);
+  --shadow-frame: 0 24px 64px -20px rgba(44, 44, 44, 0.28), 0 4px 16px -6px rgba(44, 44, 44, 0.08);
+  --shadow-drawer: -16px 0 48px -16px rgba(44, 44, 44, 0.3);
+
+  --stage-base: #ece2cd;
+  --stage-glow-a: rgba(239, 217, 201, 0.55);
+  --stage-glow-b: rgba(233, 237, 201, 0.4);
+  --stage-top: #faf5eb;
+  --stage-mid: #efe6d4;
+  --stage-bot: #e8ddc8;
+
+  color-scheme: light;
+}
+
+/* Sepia: warmer, lower-glare paper for long reading sessions. The accent is
+   darkened a step so rose text keeps readable contrast on the tinted page. */
+[data-theme="sepia"] {
+  --c-cream: 244 236 216;
+  --c-cream-dark: 234 223 196;
+  --c-white: 251 246 233;
+  --c-charcoal: 58 44 30;
+  --c-rose: 166 88 52;
+  --c-rose-soft: 196 142 94;
+  --c-rose-light: 230 207 174;
+  --c-sage: 222 226 184;
+  --c-sage-dark: 159 170 120;
+  --c-gold: 184 146 78;
+
+  --shadow-soft: 0 8px 30px rgba(74, 59, 42, 0.1);
+  --shadow-frame: 0 24px 64px -20px rgba(74, 59, 42, 0.35), 0 4px 16px -6px rgba(74, 59, 42, 0.12);
+  --shadow-drawer: -16px 0 48px -16px rgba(74, 59, 42, 0.35);
+
+  --stage-base: #d9c9a5;
+  --stage-glow-a: rgba(230, 207, 174, 0.5);
+  --stage-glow-b: rgba(222, 226, 184, 0.35);
+  --stage-top: #ece0c4;
+  --stage-mid: #e0d1ae;
+  --stage-bot: #d6c6a0;
+
+  color-scheme: light;
+}
+
+/* Dark: a warm near-black (not blue-black) so it stays on-brand, with the
+   accent lightened so it reads on the dark page. */
+[data-theme="dark"] {
+  --c-cream: 28 26 23;
+  --c-cream-dark: 36 33 29;
+  --c-white: 42 38 34;
+  --c-charcoal: 233 227 216;
+  --c-rose: 222 150 112;
+  --c-rose-soft: 201 150 104;
+  --c-rose-light: 74 52 40;
+  --c-sage: 52 58 40;
+  --c-sage-dark: 142 155 108;
+  --c-gold: 214 181 119;
+
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --shadow-frame: 0 24px 64px -20px rgba(0, 0, 0, 0.7), 0 4px 16px -6px rgba(0, 0, 0, 0.4);
+  --shadow-drawer: -16px 0 48px -16px rgba(0, 0, 0, 0.6);
+
+  --stage-base: #0f0e0c;
+  --stage-glow-a: rgba(74, 52, 40, 0.4);
+  --stage-glow-b: rgba(52, 58, 40, 0.3);
+  --stage-top: #161412;
+  --stage-mid: #100f0d;
+  --stage-bot: #0b0a09;
+
+  color-scheme: dark;
+}
+
 html,
 body {
   height: 100%;
@@ -19,16 +113,16 @@ body {
  * overlay so the surround is consistent.
  */
 .app-stage {
-  background-color: #ece2cd;
+  background-color: var(--stage-base);
   background-image:
-    radial-gradient(135% 55% at 50% -12%, rgba(239, 217, 201, 0.55), transparent 62%),
-    radial-gradient(120% 50% at 50% 115%, rgba(233, 237, 201, 0.4), transparent 60%),
-    linear-gradient(180deg, #faf5eb 0%, #efe6d4 58%, #e8ddc8 100%);
+    radial-gradient(135% 55% at 50% -12%, var(--stage-glow-a), transparent 62%),
+    radial-gradient(120% 50% at 50% 115%, var(--stage-glow-b), transparent 60%),
+    linear-gradient(180deg, var(--stage-top) 0%, var(--stage-mid) 58%, var(--stage-bot) 100%);
   background-attachment: fixed;
 }
 
 ::selection {
-  background-color: #e9edc9;
+  background-color: rgb(var(--c-sage));
 }
 
 /* Flashcard flip effect used by VocabFlashcards */

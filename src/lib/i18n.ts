@@ -323,6 +323,15 @@ export const dict = {
   fontSizeMd: { en: "Default", ko: "기본" },
   fontSizeLg: { en: "Large", ko: "크게" },
   fontSizeXl: { en: "Extra large", ko: "아주 크게" },
+  settingsThemeTitle: { en: "Reading theme", ko: "읽기 테마" },
+  settingsThemeHint: {
+    en: "Sepia is gentler on the eyes for long reads; Dark suits reading at night. Applies across the whole app.",
+    ko: "세피아는 오래 읽어도 눈이 편하고, 다크는 밤에 읽기 좋아요. 앱 전체에 적용돼요.",
+  },
+  themeLight: { en: "Light", ko: "라이트" },
+  themeSepia: { en: "Sepia", ko: "세피아" },
+  themeDark: { en: "Dark", ko: "다크" },
+  changeReadingTheme: { en: "Change reading theme", ko: "읽기 테마 바꾸기" },
 
   // --- Daily habit ---
   lessonOfDay: { en: "Today's story", ko: "오늘의 이야기" },

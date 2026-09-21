@@ -10,6 +10,7 @@ import { dictionaryReady, loadDictionary, lookupWordSync } from "@/lib/dictionar
 import { CheckIcon, GlobeIcon, HighlighterIcon, PlusIcon, SpeakerIcon } from "@/components/ui/icons";
 import { SelectionToolbar, type StorySelection } from "./SelectionToolbar";
 import { Toast } from "@/components/ui/Toast";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 /** Strips leading/trailing punctuation so a tapped chunk can match the glossary. */
 function normalizeWord(raw: string): string {
@@ -356,6 +357,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
               </button>
             ))}
           </div>
+          <ThemeToggle />
           {speechAvailable && playback === "idle" && (
             <button
               onClick={handlePlay}
@@ -430,7 +432,7 @@ export function StoryReader({ lesson }: { lesson: Lesson }) {
 
       {sheet && (
         <>
-          <div className="fixed inset-0 z-30 bg-charcoal/10" onClick={() => setSheet(null)} />
+          <div className="fixed inset-0 z-30 bg-black/10" onClick={() => setSheet(null)} />
           <div
             role="dialog"
             className="fixed inset-x-0 bottom-0 z-40 mx-auto max-w-app animate-fade-in rounded-t-xl2 border border-rose-light/60 bg-white p-5 shadow-soft"

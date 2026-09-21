@@ -4,20 +4,25 @@ const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      // Every palette colour is a CSS variable (RGB channels, so `/opacity`
+      // modifiers keep working) so the reading themes in globals.css can swap the
+      // whole palette by changing one attribute on <html>. `white` is the "card"
+      // surface, not literal white — it lifts off the page in every theme.
       colors: {
-        cream: "#FDFBF7",
-        "cream-dark": "#F6F1E7",
+        cream: "rgb(var(--c-cream) / <alpha-value>)",
+        "cream-dark": "rgb(var(--c-cream-dark) / <alpha-value>)",
+        white: "rgb(var(--c-white) / <alpha-value>)",
         rose: {
-          DEFAULT: "#C57B57",
-          soft: "#D4A373",
-          light: "#EFD9C9",
+          DEFAULT: "rgb(var(--c-rose) / <alpha-value>)",
+          soft: "rgb(var(--c-rose-soft) / <alpha-value>)",
+          light: "rgb(var(--c-rose-light) / <alpha-value>)",
         },
-        charcoal: "#2C2C2C",
+        charcoal: "rgb(var(--c-charcoal) / <alpha-value>)",
         sage: {
-          DEFAULT: "#E9EDC9",
-          dark: "#B7C296",
+          DEFAULT: "rgb(var(--c-sage) / <alpha-value>)",
+          dark: "rgb(var(--c-sage-dark) / <alpha-value>)",
         },
-        gold: "#C9A66B",
+        gold: "rgb(var(--c-gold) / <alpha-value>)",
       },
       fontFamily: {
         serif: ["var(--font-playfair)", "var(--font-noto-serif-kr)", "serif"],
@@ -27,12 +32,12 @@ const config: Config = {
         app: "480px",
       },
       boxShadow: {
-        soft: "0 8px 30px rgba(44, 44, 44, 0.06)",
+        soft: "var(--shadow-soft)",
         // The desktop app frame: a deeper, wider drop so the fixed-width column
         // reads as a deliberate device sitting on the stage, not a stray card.
-        frame: "0 24px 64px -20px rgba(44, 44, 44, 0.28), 0 4px 16px -6px rgba(44, 44, 44, 0.08)",
+        frame: "var(--shadow-frame)",
         // Left-cast lift for the slide-over menu.
-        drawer: "-16px 0 48px -16px rgba(44, 44, 44, 0.3)",
+        drawer: "var(--shadow-drawer)",
       },
       borderRadius: {
         xl2: "1.25rem",

@@ -56,7 +56,7 @@ export function QuoteTapText({ text, className = "" }: { text: string; className
 
       {active && (
         <>
-          <div className="fixed inset-0 z-30 bg-charcoal/10" onClick={() => setActive(null)} />
+          <div className="fixed inset-0 z-30 bg-black/10" onClick={() => setActive(null)} />
           <div
             role="dialog"
             className="fixed inset-x-0 bottom-0 z-40 mx-auto max-w-app animate-fade-in rounded-t-xl2 border border-rose-light/60 bg-white p-5 shadow-soft"

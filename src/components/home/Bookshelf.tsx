@@ -59,7 +59,7 @@ export function BookSpine({
 
   const label = (
     <span
-      className={`max-h-[82%] truncate px-0.5 font-semibold uppercase tracking-wide text-cream/95 [writing-mode:vertical-rl] ${
+      className={`max-h-[82%] truncate px-0.5 font-semibold uppercase tracking-wide text-[#FDFBF7]/95 [writing-mode:vertical-rl] ${
         compact ? "text-[7px]" : "text-[9px]"
       }`}
     >

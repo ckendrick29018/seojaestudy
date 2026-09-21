@@ -254,3 +254,13 @@ export function TrashIcon(props: IconProps) {
     </svg>
   );
 }
+
+/** Half-filled circle: the reading-theme switch (works as a light/dark glyph in any theme). */
+export function ThemeIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinejoin="round" {...props}>
+      <circle cx="10" cy="10" r="7" />
+      <path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}

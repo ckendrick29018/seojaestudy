@@ -7,39 +7,33 @@ Non-content work that isn't scheduled yet. Content adaptations live in
 
 ## Reading modes — dark / sepia theme
 
-**Status:** not started. **Priority: do next** — cheap, self-contained, no
-dependency on billing or any other in-flight work, and closes a real gap:
-today `PreferencesProvider` only offers a text-size slider (`fontScale`,
-`src/components/providers/PreferencesProvider.tsx`); there is no way to dim
-the reading surface for a long session, which is a baseline expectation for
-any reading app and the one concrete miss flagged when a generic third-party
-UX audit of the app was checked against the actual codebase (2026-09-15) —
-everything else that audit called "missing" (tap-word vocab, pre-generated
-audio, progress tracking, zero-auth reading, SEO, a freemium plan) was
-already shipped or already specced elsewhere in this file.
+**Status:** shipped 2026-09-21. A `readingTheme` (`light` | `sepia` | `dark`) in
+`PreferencesProvider`, stored under `luminaread:reading-theme`.
 
-**Recommended shape**, following the `fontScale` pattern already in
-`PreferencesProvider`:
+**How it works.** The whole palette (`cream`, `cream-dark`, `white`, `charcoal`,
+`rose*`, `sage*`, `gold`, plus the shadows and the desktop "stage" gradient) is
+CSS variables in `globals.css`, consumed by `tailwind.config.ts` as
+`rgb(var(--c-…) / <alpha-value>)`. A theme is just `data-theme` on `<html>`, so
+it re-colours the *entire app* (chrome, dashboard, landing), not only the reader,
+with no per-component edits. Token meanings carry across themes: `cream` = page,
+`white` = card surface (not literal white), `charcoal` = ink, so `text-cream` on a
+`bg-rose` button becomes dark-on-accent in dark mode. A blocking inline script in
+`layout.tsx` sets `data-theme` before first paint (no light flash); the provider
+takes over after hydration.
 
-- Add a `readingTheme: "light" | "sepia" | "dark"` alongside `fontScale`,
-  same `localStorage` persistence key convention (`luminaread:reading-theme`),
-  same hydration guard.
-- Apply it as a class/attribute on `<html>` (e.g. `data-theme`) rather than
-  inline styles, so both the story reader and the rest of the chrome
-  (header, cards, lesson hero) can pick it up via CSS variables — the app
-  already leans on Tailwind's rem-based scale for `fontScale`, so a parallel
-  CSS-variable palette swap is the same shape of change.
-- Surface the toggle in two places: `/settings` (next to the existing text
-  size control) and a quick-access control in the story reader itself
-  (`StoryReader`), since that's where a reader actually notices eye strain
-  mid-session — mirrors why the audio Pause/Resume controls live in
-  `SiteHeader` rather than only in settings.
-- Scope to reading surfaces first (story body, lesson hero, vocab
-  flashcards); dark-theming the full marketing/dashboard chrome is a larger,
-  separate effort and not required for this to ship real value.
-- Respecting `prefers-color-scheme` as the *default* (before any explicit
-  choice) is a nice-to-have, not a blocker — explicit user choice should
-  always win once set, same as `fontScale` today.
+**Where it's controlled:** `/settings` (three swatch cards) and a one-tap cycle
+button (`ThemeToggle`) in the `StoryReader` toolbar. In the Android app the
+provider also flips the status/nav-bar icon style via Capacitor `SystemBars`
+(untested on a device).
+
+**Rules for new UI:** use the palette tokens, never raw hex or stock Tailwind
+colours (`bg-black/…` is fine for scrims). Cover art / book-spine text is meant
+to stay fixed. Sepia's ink is deliberately darker than a "true" sepia so the
+grey `text-charcoal/50` secondary text keeps light-theme contrast.
+
+**Not done:** following `prefers-color-scheme` as the default (explicit choice
+only for now — a "System" option would be the way), and an audit of the
+`/login`, `/club`, `/subscribe` flows behind auth in dark.
 
 ---
 

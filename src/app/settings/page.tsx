@@ -4,7 +4,13 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
-import { FONT_SCALES, usePreferences, type FontScale } from "@/components/providers/PreferencesProvider";
+import {
+  FONT_SCALES,
+  READING_THEMES,
+  usePreferences,
+  type FontScale,
+  type ReadingTheme,
+} from "@/components/providers/PreferencesProvider";
 import {
   DIRECTION_BADGE,
   GOALS,
@@ -24,10 +30,24 @@ const FONT_SIZE_LABEL: Record<FontScale, "fontSizeSm" | "fontSizeMd" | "fontSize
   xl: "fontSizeXl",
 };
 
+const THEME_LABEL: Record<ReadingTheme, "themeLight" | "themeSepia" | "themeDark"> = {
+  light: "themeLight",
+  sepia: "themeSepia",
+  dark: "themeDark",
+};
+
+// Fixed swatch colours (page / ink / accent per theme) so each option previews
+// itself no matter which theme is currently active.
+const THEME_SWATCH: Record<ReadingTheme, { page: string; ink: string; accent: string }> = {
+  light: { page: "#FDFBF7", ink: "#2C2C2C", accent: "#C57B57" },
+  sepia: { page: "#F4ECD8", ink: "#3A2C1E", accent: "#A65834" },
+  dark: { page: "#1C1A17", ink: "#E9E3D8", accent: "#DE9670" },
+};
+
 export default function SettingsPage() {
   const t = useT();
   const { lang, setLang } = useLanguage();
-  const { fontScale, setFontScale } = usePreferences();
+  const { fontScale, setFontScale, readingTheme, setReadingTheme } = usePreferences();
   const { hydrated, data, restart } = useOnboarding();
   const router = useRouter();
 
@@ -138,6 +158,38 @@ export default function SettingsPage() {
             ))}
           </div>
           <p className="mt-3 text-xs text-charcoal/45">{t("settingsLanguageHint")}</p>
+        </section>
+
+        {/* Reading theme */}
+        <section className="rounded-xl2 border border-rose-light/50 bg-white/60 p-5 shadow-soft">
+          <SectionHeading title={t("settingsThemeTitle")} />
+          <div role="group" aria-label={t("settingsThemeTitle")} className="grid grid-cols-3 gap-2.5">
+            {READING_THEMES.map((theme) => {
+              const swatch = THEME_SWATCH[theme];
+              const selected = readingTheme === theme;
+              return (
+                <button
+                  key={theme}
+                  onClick={() => setReadingTheme(theme)}
+                  aria-pressed={selected}
+                  className={`flex flex-col items-center gap-2 rounded-xl2 border-2 p-2.5 text-sm font-medium transition ${
+                    selected ? "border-rose text-charcoal" : "border-rose-light/60 text-charcoal/60 hover:border-rose-soft"
+                  }`}
+                >
+                  <span
+                    aria-hidden
+                    className="flex h-14 w-full items-center justify-center rounded-lg border border-black/10 font-serif text-xl font-semibold"
+                    style={{ backgroundColor: swatch.page, color: swatch.ink }}
+                  >
+                    Aa
+                    <span className="ml-1 h-2 w-2 rounded-full" style={{ backgroundColor: swatch.accent }} />
+                  </span>
+                  {t(THEME_LABEL[theme])}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-xs text-charcoal/45">{t("settingsThemeHint")}</p>
         </section>
 
         {/* Text size */}

@@ -83,9 +83,22 @@ export const viewport: Viewport = {
   themeColor: "#FDFBF7",
 };
 
+// Runs before first paint: applies a saved sepia/dark reading theme to <html> so
+// the page never flashes light first. Must stay in sync with the storage key in
+// PreferencesProvider, which takes over once React hydrates.
+const THEME_BOOT_SCRIPT = `try{var t=localStorage.getItem("luminaread:reading-theme");if(t==="sepia"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} ${notoSansKr.variable} ${notoSerifKr.variable}`}>
+    // suppressHydrationWarning: THEME_BOOT_SCRIPT sets data-theme on <html> before React hydrates.
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${inter.variable} ${playfair.variable} ${notoSansKr.variable} ${notoSerifKr.variable}`}
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
+      </head>
       <body className="app-stage font-sans text-charcoal antialiased">
         <ServiceWorkerRegister />
         <Providers>
