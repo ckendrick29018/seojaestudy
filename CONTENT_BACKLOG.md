@@ -1268,10 +1268,19 @@ fuller B1 retelling (roughly 30 sentences) as its own lesson rather than a part 
 The Dracula chapter keeps the gothic menace but drops the sensual detail of the
 original scene (the source stays PG-13 in the retelling, like the rest of the shelf).
 
-**Wave 3 — suggested order:**
-1. Little Women part 3, Anne of Green Gables part 3 (both already 2-part books).
-2. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
+**Wave 3a — written 2026-09-21** (uncommitted until asked):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Little Women → part 3 | Jo's Hair | Ch. 15 "A Telegram" | B1 |
+| Anne of Green Gables → part 3 | Carrots | Ch. 15 "A Tempest in the School Teapot" | B1 |
+
+Both were checked against the Gutenberg text before writing (it is Meg, not Beth,
+who hears Jo cry; Aunt March sent the money with a grumpy note that Mrs. March burned).
+
+**Wave 3 — remaining, suggested order:**
+1. New books, each needs two lessons to register: *Moby Dick* (Ch. 1 "Loomings" +
    Ch. 36 "The Quarter-Deck"), *The Hound of the Baskervilles*, *Dr Jekyll and Mr
    Hyde* (a second lesson makes it a book), *Alice's Adventures in Wonderland*.
-3. Then part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the
+2. Then part 5 of the biggest books (P&P: Ch. 56 Lady Catherine's visit, Ch. 58 the
    second proposal; Jane Eyre: Ch. 26 the wedding).

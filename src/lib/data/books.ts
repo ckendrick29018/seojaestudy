@@ -51,13 +51,13 @@ export const BOOKS: Book[] = [
     id: "little-women",
     title: "Little Women",
     titleTranslation: "작은 아씨들",
-    chapters: ["little-women", "little-women-jo-and-amy"],
+    chapters: ["little-women", "little-women-jo-and-amy", "little-women-jos-hair"],
   },
   {
     id: "anne-of-green-gables",
     title: "Anne of Green Gables",
     titleTranslation: "빨간 머리 앤",
-    chapters: ["anne-of-green-gables", "anne-of-green-gables-with-an-e"],
+    chapters: ["anne-of-green-gables", "anne-of-green-gables-with-an-e", "anne-of-green-gables-carrots"],
   },
   {
     id: "a-little-princess",

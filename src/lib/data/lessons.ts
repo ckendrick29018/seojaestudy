@@ -38556,6 +38556,440 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "little-women-jos-hair",
+    title: "Little Women: Jo's Hair",
+    titleTranslation: "작은 아씨들: 조의 머리카락",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "✂️",
+    coverImage: "/covers/little-women-jos-hair.svg",
+    source:
+      "Adapted from Chapter 15 (\"A Telegram\") of Louisa May Alcott's novel \"Little Women\" (first published 1868; long in the public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what the telegram told the March family, and what Jo did to help.",
+    paragraphs: [
+      [
+        {
+          id: "lwh-1",
+          text: "One gray afternoon in November, the March sisters were complaining that nothing pleasant ever happened, when the servant Hannah came in holding a telegram as if it might explode.",
+          translation:
+            "11월의 어느 흐린 오후, 마치 자매들이 즐거운 일은 하나도 일어나지 않는다며 투덜대고 있을 때, 하녀 한나가 터지기라도 할 것처럼 조심스레 전보 한 통을 들고 들어왔어요.",
+        },
+        {
+          id: "lwh-2",
+          text: "Mrs. March read the two short lines and dropped back into her chair, white as paper, and Jo read them aloud in a frightened voice: \"Your husband is very ill. Come at once.\"",
+          translation:
+            "마치 부인은 짧은 두 줄을 읽고는 종이처럼 하얗게 질려 의자에 주저앉았고, 조가 겁에 질린 목소리로 소리 내어 읽었어요. \"남편분이 많이 편찮으십니다. 곧바로 오십시오.\"",
+        },
+        {
+          id: "lwh-3",
+          text: "Their father was away in the war, working as a chaplain, and the girls felt as if all their happiness were about to be taken from them; but their mother steadied herself and said, \"I shall go at once, but it may be too late.\"",
+          translation:
+            "아버지는 군목으로 일하러 전쟁터에 나가 있었고, 딸들은 자신들의 행복이 모조리 빼앗길 것만 같았지만, 어머니는 이내 마음을 다잡고 말했어요. \"지금 바로 떠나야겠구나. 하지만 너무 늦을지도 몰라.\"",
+        },
+      ],
+      [
+        {
+          id: "lwh-4",
+          text: "Hannah wiped her face on her apron, said that she would not waste time crying, and hurried off to work as hard as three people.",
+          translation:
+            "한나는 앞치마로 얼굴을 닦으며 울면서 시간을 낭비하지 않겠다고 말하고는, 세 사람 몫을 해내듯 부지런히 일하러 갔어요.",
+        },
+        {
+          id: "lwh-5",
+          text: "Mrs. March calmed herself and began to plan, and she asked Laurie, the boy next door, to send a telegram saying that she was coming and to leave a note for Aunt March, because the money for the long journey would have to be borrowed.",
+          translation:
+            "마치 부인은 마음을 가라앉히고 계획을 세우기 시작했어요. 옆집 소년 로리에게 곧 가겠다는 전보를 보내 달라고, 그리고 마치 고모할머니에게 쪽지를 전해 달라고 부탁했어요. 먼 길을 떠날 돈을 빌려야 했기 때문이에요.",
+        },
+        {
+          id: "lwh-6",
+          text: "She gave each daughter a job, and everyone scattered like leaves in a gust of wind, so that the quiet, happy house was broken up as suddenly as if the paper had been an evil spell.",
+          translation:
+            "그녀가 딸들에게 저마다 할 일을 맡기자 모두 바람에 날리는 나뭇잎처럼 흩어졌고, 조용하고 행복하던 집은 그 종이가 마법의 저주라도 되는 듯 순식간에 어수선해졌어요.",
+        },
+      ],
+      [
+        {
+          id: "lwh-7",
+          text: "Mr. Brooke, Laurie's tutor, kindly offered to travel with Mrs. March to Washington, and Meg was so grateful that she nearly dropped a cup of tea.",
+          translation:
+            "로리의 가정교사인 브룩 씨가 마치 부인과 함께 워싱턴까지 가겠다고 친절하게 나섰고, 메그는 너무 고마운 나머지 들고 있던 찻잔을 떨어뜨릴 뻔했어요.",
+        },
+        {
+          id: "lwh-8",
+          text: "Aunt March sent the money in a note saying that she had always said no good would come of Mr. March joining the army, and Mrs. March put the note in the fire and the money in her purse.",
+          translation:
+            "마치 고모할머니는 돈과 함께, 마치 씨가 군대에 들어가면 좋을 게 없을 거라고 늘 말해 왔다는 쪽지를 보내왔고, 마치 부인은 쪽지는 불 속에 넣고 돈은 지갑에 넣었어요.",
+        },
+        {
+          id: "lwh-9",
+          text: "The short afternoon wore away and every errand was done, but Jo, who had gone out to run some errands, had still not come home, and the family began to worry.",
+          translation:
+            "짧은 오후가 저물어 갔고 모든 심부름이 끝났지만, 심부름을 하러 나갔던 조는 아직도 돌아오지 않아서 가족들은 걱정하기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "lwh-10",
+          text: "At last Jo walked in with a strange look on her face, half fun and half fear, and laid a roll of bills before her mother, saying, \"That's my contribution toward making Father comfortable and bringing him home!\"",
+          translation:
+            "마침내 조가 반은 장난스럽고 반은 겁먹은 듯한 묘한 표정으로 들어오더니 어머니 앞에 지폐 뭉치를 내려놓으며 말했어요. \"이건 아버지를 편안하게 해 드리고 집으로 모셔 오는 데 보태는 제 몫이에요!\"",
+        },
+        {
+          id: "lwh-11",
+          text: "\"Twenty-five dollars! Jo, I hope you haven't done anything rash?\" said Mrs. March, but Jo answered that she had not begged, borrowed, or stolen it; she had only sold something that was her own.",
+          translation:
+            "\"25달러라니! 조, 무모한 짓을 한 건 아니겠지?\" 마치 부인이 물었지만, 조는 구걸하거나 빌리거나 훔친 돈이 아니라 자기 것을 팔았을 뿐이라고 대답했어요.",
+        },
+        {
+          id: "lwh-12",
+          text: "Then she took off her bonnet, and everyone cried out, for all of her thick brown hair had been cut short.",
+          translation:
+            "그러고는 보닛을 벗었고, 숱 많던 갈색 머리카락이 짧게 잘려 있자 모두가 소리를 질렀어요.",
+        },
+      ],
+      [
+        {
+          id: "lwh-13",
+          text: "\"Your hair! Your beautiful hair!\" cried Meg, and Beth hugged the cropped head tenderly, but Jo pretended not to mind, saying that it would be good for her vanity and that her head felt deliciously light and cool.",
+          translation:
+            "\"네 머리카락! 그 아름다운 머리카락을!\" 메그가 외쳤고 베스는 짧아진 머리를 다정하게 끌어안았지만, 조는 허영심에 오히려 좋을 거라며, 머리가 시원하고 가벼워서 기분이 좋다고 아무렇지 않은 척했어요.",
+        },
+        {
+          id: "lwh-14",
+          text: "Mrs. March said that it had not been necessary, but she knew how willingly Jo had given up the one thing she was proud of out of love for her father, and the look she gave her warmed Jo's heart.",
+          translation:
+            "마치 부인은 그럴 필요까지는 없었다고 말했지만, 조가 아버지를 향한 사랑 때문에 자신이 자랑스러워하던 단 하나를 기꺼이 내놓았다는 것을 알고 있었고, 그녀가 보낸 눈빛은 조의 마음을 따뜻하게 했어요.",
+        },
+        {
+          id: "lwh-15",
+          text: "Jo explained that she had seen tails of hair for sale in a barber's window and had walked in on an impulse, and that the barber's kind wife had talked him into buying it, then saved a long lock for Jo, which Jo gave to her mother to keep.",
+          translation:
+            "조는 이발소 진열창에서 머리채가 팔리는 것을 보고 충동적으로 들어갔다고 설명했어요. 이발사의 마음씨 좋은 아내가 남편을 설득해 조의 머리카락을 사게 해 주었고, 긴 머리 한 다발을 따로 남겨 주어서 조는 그것을 어머니께 드려 간직하게 했다고요.",
+        },
+      ],
+      [
+        {
+          id: "lwh-16",
+          text: "That night, in the dark bedroom, Meg heard a stifled sob and asked whether Jo was crying about Father, and Jo answered, \"No, not now — it's my hair!\"",
+          translation:
+            "그날 밤 어두운 침실에서 메그는 억눌린 흐느낌을 듣고 아버지 때문에 우는 거냐고 물었고, 조는 이렇게 대답했어요. \"아니, 지금은 아니야. 내 머리카락 때문이야!\"",
+        },
+        {
+          id: "lwh-17",
+          text: "\"I'm not sorry,\" she whispered; \"I'd do it again tomorrow\" — and at midnight Mrs. March moved quietly from bed to bed, kissing each of her sleeping daughters.",
+          translation:
+            "\"후회는 안 해.\" 조가 속삭였어요. \"내일이라도 다시 그럴 거야.\" 그리고 한밤중에 마치 부인이 조용히 침대를 하나씩 돌며 잠든 딸들에게 차례로 입을 맞추었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lwh-v1",
+        term: "telegram",
+        partOfSpeech: "noun",
+        translation: "전보",
+        example: "A telegram came with terrible news.",
+        exampleTranslation: "끔찍한 소식이 담긴 전보가 도착했어요.",
+      },
+      {
+        id: "lwh-v2",
+        term: "chaplain",
+        partOfSpeech: "noun",
+        translation: "군목, 성직자",
+        example: "Their father worked as a chaplain in the army.",
+        exampleTranslation: "그들의 아버지는 군대에서 군목으로 일했어요.",
+      },
+      {
+        id: "lwh-v3",
+        term: "contribution",
+        partOfSpeech: "noun",
+        translation: "보탬, 기여",
+        example: "This is my contribution to the family.",
+        exampleTranslation: "이것은 가족을 위한 제 보탬이에요.",
+      },
+      {
+        id: "lwh-v4",
+        term: "vanity",
+        partOfSpeech: "noun",
+        translation: "허영심",
+        example: "Losing her hair was good for her vanity.",
+        exampleTranslation: "머리카락을 잃은 것은 그녀의 허영심에 좋은 일이었어요.",
+      },
+      {
+        id: "lwh-v5",
+        term: "barber",
+        partOfSpeech: "noun",
+        translation: "이발사",
+        example: "The barber cut off her hair.",
+        exampleTranslation: "이발사가 그녀의 머리카락을 잘랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lwh-q1",
+        prompt: "What did the telegram tell the March family?",
+        options: [
+          "That Mr. March was coming home from the war.",
+          "That Mr. March was very ill and Mrs. March must come at once.",
+          "That Aunt March wanted to visit them.",
+          "That Laurie had won a prize at school.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The telegram said that the girls' father was very ill in a hospital in Washington and that their mother must come at once.",
+      },
+      {
+        id: "lwh-q2",
+        prompt: "Why did Jo cut off her hair?",
+        options: [
+          "She wanted to look like a boy.",
+          "Amy had spoiled it with scissors.",
+          "She sold it to get money to help her father.",
+          "Aunt March had told her to.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jo hated borrowing money, so she sold her thick hair to a barber for twenty-five dollars to help bring her father comfort and bring him home.",
+      },
+      {
+        id: "lwh-q3",
+        prompt: "What did Jo admit to Meg that night?",
+        options: [
+          "That she wished she had not gone to the barber's at all.",
+          "That she was afraid of the long journey.",
+          "That she was still angry with Aunt March.",
+          "That she was crying over her lost hair, though she was not sorry.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Jo said that she would do it again, but the vain part of her still mourned her one beauty, so she cried quietly in the dark.",
+      },
+    ],
+  },
+  {
+    slug: "anne-of-green-gables-carrots",
+    title: "Anne of Green Gables: Carrots",
+    titleTranslation: "빨간 머리 앤: 홍당무",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🥕",
+    coverImage: "/covers/anne-of-green-gables-carrots.svg",
+    source:
+      "Adapted from Chapter 15 (\"A Tempest in the School Teapot\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain why Anne struck Gilbert with her slate, and what she decided to do afterward.",
+    paragraphs: [
+      [
+        {
+          id: "agc-1",
+          text: "Anne had only just started at the Avonlea school, where her best friend Diana pointed out Gilbert Blythe, a tall boy with curly brown hair and a teasing smile.",
+          translation:
+            "앤은 이제 막 에이번리 학교에 다니기 시작했고, 단짝 친구 다이애나는 곱슬거리는 갈색 머리에 장난기 어린 미소를 띤 키 큰 소년 길버트 블라이스를 가리켜 보여 주었어요.",
+        },
+        {
+          id: "agc-2",
+          text: "Gilbert was famous for his jokes: that morning he pinned Ruby Gillis's long yellow braid to the back of her seat, and then he winked at Anne as if nothing had happened.",
+          translation:
+            "길버트는 장난으로 유명했어요. 그날 아침에도 루비 길리스의 길고 노란 땋은 머리를 의자 등받이에 핀으로 꽂아 놓고는, 아무 일도 없었다는 듯 앤에게 윙크를 했지요.",
+        },
+        {
+          id: "agc-3",
+          text: "Anne thought that he was handsome but very bold, and she decided that it was bad manners to wink at a girl you did not know.",
+          translation:
+            "앤은 그가 잘생기긴 했지만 무척 대담하다고 생각했고, 잘 모르는 여자아이에게 윙크하는 것은 예의가 아니라고 여겼어요.",
+        },
+      ],
+      [
+        {
+          id: "agc-4",
+          text: "That afternoon, while the teacher, Mr. Phillips, was busy in a corner, Anne sat with her chin on her hands, gazing at the blue lake through the window and dreaming.",
+          translation:
+            "그날 오후, 선생님인 필립스 씨가 교실 한구석에서 다른 일에 바쁜 사이, 앤은 턱을 괴고 창밖의 푸른 호수를 바라보며 꿈꾸듯 앉아 있었어요.",
+        },
+        {
+          id: "agc-5",
+          text: "Gilbert wanted her to look at him, and when she did not, he reached across the aisle, lifted the end of her long red braid, and whispered, \"Carrots! Carrots!\"",
+          translation:
+            "길버트는 앤이 자기를 봐 주기를 바랐고, 그녀가 돌아보지 않자 통로 너머로 손을 뻗어 그녀의 길고 붉은 땋은 머리 끝을 들어 올리며 속삭였어요. \"홍당무! 홍당무!\"",
+        },
+        {
+          id: "agc-6",
+          text: "Anne jumped to her feet, cried, \"You mean, hateful boy! How dare you!\" and brought her slate down on his head, cracking it clean across — the slate, not his head.",
+          translation:
+            "앤은 벌떡 일어나 \"이 비열하고 미운 녀석! 어떻게 감히!\" 하고 소리치며 석판으로 그의 머리를 내리쳤고, 석판이 반으로 쩍 갈라졌어요. 갈라진 건 석판이지 그의 머리가 아니었지요.",
+        },
+      ],
+      [
+        {
+          id: "agc-7",
+          text: "The whole school gasped in delighted horror, and Mr. Phillips marched down the aisle to ask what it meant, but Anne would not say, in front of everyone, that she had been called \"carrots.\"",
+          translation:
+            "학교 전체가 신이 난 듯 놀라서 숨을 삼켰고, 필립스 선생님이 성큼성큼 통로를 걸어와 무슨 일이냐고 물었지만, 앤은 모두가 보는 앞에서 자신이 \"홍당무\"라고 불렸다고 말할 수 없었어요.",
+        },
+        {
+          id: "agc-8",
+          text: "Gilbert spoke up and said that the fault was his, but Mr. Phillips ignored him and told Anne to stand on the platform in front of the blackboard for the rest of the afternoon.",
+          translation:
+            "길버트가 나서서 자기 잘못이라고 말했지만 필립스 선생님은 그를 무시하고, 앤에게 남은 오후 내내 칠판 앞 단상에 서 있으라고 했어요.",
+        },
+        {
+          id: "agc-9",
+          text: "He even wrote on the board above her head that she had a very bad temper, and Anne stood there with a white, set face, too angry to cry, and vowed that she would never look at Gilbert Blythe again.",
+          translation:
+            "선생님은 그녀의 머리 위 칠판에 앤이 성질이 아주 나쁘다고까지 써 놓았고, 앤은 하얗게 굳은 얼굴로 서 있었어요. 너무 화가 나서 울지도 않았고, 다시는 길버트 블라이스를 쳐다보지 않겠다고 다짐했어요.",
+        },
+      ],
+      [
+        {
+          id: "agc-10",
+          text: "When school was over, Gilbert tried to stop her at the door and whispered that he was awfully sorry for making fun of her hair, but Anne swept past him without a glance.",
+          translation:
+            "수업이 끝나자 길버트는 문간에서 앤을 붙잡으려 하며 머리카락을 놀려서 정말 미안하다고 속삭였지만, 앤은 눈길 한 번 주지 않고 그를 지나쳐 갔어요.",
+        },
+        {
+          id: "agc-11",
+          text: "The next day the pupils were told to be back in their seats on time, and Anne, who had been wandering happily in the woods with a wreath of flowers in her hair, ran in last.",
+          translation:
+            "이튿날 학생들은 제시간에 자리로 돌아오라는 말을 들었는데, 머리에 꽃 화관을 쓰고 숲속을 즐겁게 거닐던 앤이 가장 늦게 뛰어 들어왔어요.",
+        },
+        {
+          id: "agc-12",
+          text: "Mr. Phillips wanted someone to punish, so he told her to take the flowers out of her hair and sit beside Gilbert Blythe, and Anne felt that it was the end of all things and hid her face in her arms.",
+          translation:
+            "필립스 선생님은 벌줄 사람이 필요했던 터라 앤에게 머리의 꽃을 빼고 길버트 블라이스 옆에 앉으라고 했고, 앤은 세상이 끝난 것 같은 기분으로 두 팔에 얼굴을 묻었어요.",
+        },
+      ],
+      [
+        {
+          id: "agc-13",
+          text: "Gilbert quietly slipped a little pink candy heart marked \"You are sweet\" under her arm, but Anne dropped it on the floor and ground it to powder beneath her heel.",
+          translation:
+            "길버트는 \"넌 참 달콤해\"라고 적힌 작은 분홍색 사탕 하트를 살며시 그녀의 팔 밑에 밀어 넣었지만, 앤은 그것을 바닥에 떨어뜨려 발뒤꿈치로 가루가 되도록 짓뭉갰어요.",
+        },
+        {
+          id: "agc-14",
+          text: "When school ended, she carried all her books home and told Diana that she would never go back, though Diana begged her to return and listed all the fun she would miss.",
+          translation:
+            "학교가 끝나자 앤은 책을 모두 챙겨 집으로 가면서 다시는 학교에 가지 않겠다고 다이애나에게 말했어요. 다이애나가 돌아오라고 애원하며 앤이 놓치게 될 즐거운 일들을 줄줄이 늘어놓았지만요.",
+        },
+        {
+          id: "agc-15",
+          text: "Marilla said that it was nonsense, but she was wise enough to say nothing more that night, and instead she went to ask her neighbor, Mrs. Rachel Lynde, what to do.",
+          translation:
+            "마릴라는 말도 안 되는 소리라고 했지만, 그날 밤에는 더 말하지 않을 만큼 현명했고, 대신 이웃인 레이첼 린드 부인을 찾아가 어떻게 해야 할지 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "agc-16",
+          text: "Mrs. Lynde said that Mr. Phillips had been in the wrong, and she advised Marilla to let Anne stay at home until she wished to return of her own accord.",
+          translation:
+            "린드 부인은 필립스 선생님이 잘못했다고 말하며, 앤이 스스로 돌아가고 싶어 할 때까지 집에 있게 두라고 마릴라에게 조언했어요.",
+        },
+        {
+          id: "agc-17",
+          text: "So Anne studied at home and played with Diana in the purple autumn twilight, and each time she met Gilbert Blythe she walked past him with icy contempt, sure that she would hate him for the rest of her life.",
+          translation:
+            "그래서 앤은 집에서 공부하고 보랏빛 가을 해 질 녘에 다이애나와 놀았고, 길버트 블라이스를 마주칠 때마다 얼음처럼 차가운 경멸을 담아 그를 지나쳤어요. 평생 그를 미워하리라고 굳게 믿으면서요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "agc-v1",
+        term: "slate",
+        partOfSpeech: "noun",
+        translation: "석판",
+        example: "Anne broke her slate over his head.",
+        exampleTranslation: "앤은 그의 머리 위에서 석판을 깨뜨렸어요.",
+      },
+      {
+        id: "agc-v2",
+        term: "braid",
+        partOfSpeech: "noun",
+        translation: "땋은 머리",
+        example: "He pulled the end of her red braid.",
+        exampleTranslation: "그는 그녀의 붉은 땋은 머리 끝을 잡아당겼어요.",
+      },
+      {
+        id: "agc-v3",
+        term: "aisle",
+        partOfSpeech: "noun",
+        translation: "통로",
+        example: "The teacher walked down the aisle.",
+        exampleTranslation: "선생님이 통로를 따라 걸어왔어요.",
+      },
+      {
+        id: "agc-v4",
+        term: "contempt",
+        partOfSpeech: "noun",
+        translation: "경멸",
+        example: "She walked past him with icy contempt.",
+        exampleTranslation: "그녀는 얼음처럼 차가운 경멸을 담아 그를 지나쳤어요.",
+      },
+      {
+        id: "agc-v5",
+        term: "apologize",
+        partOfSpeech: "verb",
+        translation: "사과하다",
+        example: "Gilbert tried to apologize, but Anne would not listen.",
+        exampleTranslation: "길버트는 사과하려 했지만 앤은 듣지 않았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "agc-q1",
+        prompt: "Why did Anne hit Gilbert with her slate?",
+        options: [
+          "He had pinned Ruby Gillis's braid to her seat.",
+          "He had beaten her in a spelling contest.",
+          "He had pulled her red braid and called her \"Carrots.\"",
+          "He had broken Diana's slate.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Anne was sensitive about her red hair. When Gilbert lifted her braid and whispered \"Carrots!\", she struck him with her slate in a rage.",
+      },
+      {
+        id: "agc-q2",
+        prompt: "How did Mr. Phillips punish Anne the next day?",
+        options: [
+          "He sent her home for a week.",
+          "He made her sit beside Gilbert Blythe.",
+          "He made her write her name on the board fifty times.",
+          "He made her stand on the platform again.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "On the second day he needed someone to punish for being late, so he chose Anne and made her sit next to Gilbert, which she found unbearable.",
+      },
+      {
+        id: "agc-q3",
+        prompt: "What did Mrs. Lynde advise Marilla to do?",
+        options: [
+          "Send Anne back to school at once.",
+          "Write a letter to Mr. Phillips.",
+          "Let Anne stay at home until she wanted to go back.",
+          "Move Anne to a school in another town.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Lynde thought that Mr. Phillips was in the wrong and that Anne would cool off and return of her own accord if nobody forced her.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

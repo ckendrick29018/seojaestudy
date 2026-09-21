@@ -2923,5 +2923,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/jane-eyre-orchard.svg",
     "source": "Adapted from Chapter 23 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 5
+  },
+  {
+    "slug": "little-women-jos-hair",
+    "title": "Little Women: Jo's Hair",
+    "titleTranslation": "작은 아씨들: 조의 머리카락",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Louisa May Alcott (1832–1888)",
+    "coverEmoji": "✂️",
+    "coverImage": "/covers/little-women-jos-hair.svg",
+    "source": "Adapted from Chapter 15 (\"A Telegram\") of Louisa May Alcott's novel \"Little Women\" (first published 1868; long in the public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "anne-of-green-gables-carrots",
+    "title": "Anne of Green Gables: Carrots",
+    "titleTranslation": "빨간 머리 앤: 홍당무",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "L. M. Montgomery (1874–1942)",
+    "coverEmoji": "🥕",
+    "coverImage": "/covers/anne-of-green-gables-carrots.svg",
+    "source": "Adapted from Chapter 15 (\"A Tempest in the School Teapot\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
   }
 ];
