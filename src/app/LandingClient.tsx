@@ -3,22 +3,14 @@
 import Link from "next/link";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { ClassicCard } from "@/components/home/ClassicCard";
+import { LandingBottom } from "@/components/home/LandingBottom";
 import { LandingPreview } from "@/components/home/LandingPreview";
+import { CTA_BASE, WRAP } from "@/components/home/landing-styles";
 import { ThemeShowcase } from "@/components/home/ThemeShowcase";
 import { useT } from "@/components/providers/LanguageProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
-import {
-  BookOpenIcon,
-  BooksIcon,
-  CardsIcon,
-  CheckIcon,
-  GlobeIcon,
-  SpeakerIcon,
-  StarIcon,
-  TapIcon,
-  UsersIcon,
-} from "@/components/ui/icons";
+import { TapIcon } from "@/components/ui/icons";
 
 /** A handful of Classics to show the product on the landing page itself. */
 const FEATURED = lessons.filter((l) => l.collection === "classics");
@@ -28,9 +20,6 @@ const CLASSICS_COUNT = FEATURED.length;
  * make clear the library isn't only Western literature translated one way. */
 const FOLKTALES_FEATURED = lessons.filter((l) => l.collection === "folktales");
 const FOLKTALES_COUNT = FOLKTALES_FEATURED.length;
-
-const CTA_BASE =
-  "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition";
 
 const JSON_LD = {
   "@context": "https://schema.org",
@@ -75,27 +64,8 @@ const JSON_LD = {
   ],
 };
 
-/** Container used inside every full-bleed section band to cap line length on
- * wide desktop screens without touching the section's own background/border. */
-const WRAP = "mx-auto w-full max-w-6xl px-6 lg:px-8";
-
 export function LandingClient() {
   const t = useT();
-
-  const steps = [
-    { Icon: BookOpenIcon, title: t("landingStep1Title"), body: t("landingStep1Body") },
-    { Icon: GlobeIcon, title: t("landingStep2Title"), body: t("landingStep2Body") },
-    { Icon: CheckIcon, title: t("landingStep3Title"), body: t("landingStep3Body") },
-  ];
-
-  const features = [
-    { Icon: StarIcon, title: t("landingFeatureLevelTitle"), body: t("landingFeatureLevelBody") },
-    { Icon: GlobeIcon, title: t("landingFeatureDictTitle"), body: t("landingFeatureDictBody") },
-    { Icon: CardsIcon, title: t("landingFeatureFlashcardsTitle"), body: t("landingFeatureFlashcardsBody") },
-    { Icon: CheckIcon, title: t("landingFeatureCheckTitle"), body: t("landingFeatureCheckBody") },
-    { Icon: SpeakerIcon, title: t("landingFeatureListenTitle"), body: t("landingFeatureListenBody") },
-    { Icon: BookOpenIcon, title: t("landingFeatureBilingualTitle"), body: t("landingFeatureBilingualBody") },
-  ];
 
   // A small fanned stack of real covers for the desktop hero — shows a first-
   // time visitor actual books instead of asking them to scroll for proof.
@@ -249,89 +219,8 @@ export function LandingClient() {
       {/* Light / sepia / dark, shown on real story screens */}
       <ThemeShowcase />
 
-      {/* How a lesson works */}
-      <section className="border-t border-rose-light/40 bg-white/40 px-6 py-12 lg:py-16">
-        <div className={WRAP}>
-          <h2 className="mb-6 text-center font-serif text-2xl font-semibold text-charcoal lg:mb-10 lg:text-3xl">
-            {t("landingHowTitle")}
-          </h2>
-          <ol className="space-y-4 lg:grid lg:grid-cols-3 lg:gap-6 lg:space-y-0">
-            {steps.map(({ Icon, title, body }, i) => (
-              <li
-                key={title}
-                className="flex gap-4 rounded-xl2 border border-rose-light/50 bg-cream/70 p-4 lg:flex-col lg:gap-3 lg:p-6"
-              >
-                <span
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl2 bg-sage/50 text-charcoal/70"
-                  aria-hidden
-                >
-                  <Icon className="h-5 w-5" />
-                </span>
-                <div className="min-w-0">
-                  <p className="text-sm font-semibold text-charcoal">
-                    <span className="text-rose/60">{i + 1}.</span> {title}
-                  </p>
-                  <p className="mt-1 text-sm leading-relaxed text-charcoal/60">{body}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
-      {/* What makes it a language course */}
-      <section className="px-6 py-12 lg:py-16">
-        <div className={WRAP}>
-          <h2 className="text-center font-serif text-2xl font-semibold text-charcoal lg:text-3xl">
-            {t("landingFeaturesTitle")}
-          </h2>
-          <p className="mx-auto mb-6 mt-1.5 max-w-[38ch] text-center text-sm leading-relaxed text-charcoal/55 lg:mb-10">
-            {t("landingFeaturesLead")}
-          </p>
-          <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-6">
-            {features.map(({ Icon, title, body }) => (
-              <div key={title} className="rounded-xl2 border border-rose-light/50 bg-white/60 p-4 shadow-soft lg:p-6">
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl2 bg-sage/50 text-charcoal/70" aria-hidden>
-                  <Icon className="h-4 w-4" />
-                </span>
-                <p className="mt-2 text-sm font-semibold text-charcoal">{title}</p>
-                <p className="mt-1 text-xs leading-relaxed text-charcoal/55">{body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Read it together — book club */}
-      <section className="border-t border-rose-light/40 px-6 py-12 text-center lg:py-16">
-        <div className={WRAP}>
-          <UsersIcon className="mx-auto h-8 w-8 text-rose/50" aria-hidden />
-          <h2 className="mt-3 font-serif text-2xl font-semibold text-charcoal lg:text-3xl">{t("landingClubTitle")}</h2>
-          <p className="mx-auto mb-6 mt-1.5 max-w-[38ch] text-sm leading-relaxed text-charcoal/55">
-            {t("landingClubBody")}
-          </p>
-          <Link
-            href="/club"
-            className={`${CTA_BASE} border border-rose-soft/50 text-rose hover:bg-rose-light/30`}
-          >
-            {t("myBookClub")}
-          </Link>
-        </div>
-      </section>
-
-      {/* Closing CTA */}
-      <section className="px-6 py-14 text-center lg:py-20">
-        <BooksIcon className="mx-auto h-8 w-8 text-rose/50" aria-hidden />
-        <h2 className="mt-3 font-serif text-2xl font-semibold text-charcoal lg:text-3xl">
-          {t("landingClosingTitle")}
-        </h2>
-        <Link
-          href="/library"
-          className={`${CTA_BASE} mt-5 bg-rose text-cream shadow-soft hover:bg-rose/90`}
-        >
-          {t("landingClosingCta")}
-        </Link>
-      </section>
+      {/* How it works, the feature bento, book club, closing call to action */}
+      <LandingBottom />
 
       {/* Footer */}
       <footer className="border-t border-rose-light/40 px-6 py-8 text-center lg:py-10">

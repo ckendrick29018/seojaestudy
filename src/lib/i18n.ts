@@ -632,6 +632,13 @@ export const dict = {
     ko: "최대 10명이 함께하는 북클럽을 만들어요. 챕터를 공유하면 멤버십이 유효한 동안 클럽의 모두가 무료로 열어 읽고, 함께 이야기 나눌 수 있어요.",
   },
 
+  landingStatStories: { en: "stories to read", ko: "읽을 수 있는 이야기" },
+  landingStatLevels: { en: "graded levels (CEFR)", ko: "단계별 수준 (CEFR)" },
+  landingStatDirections: { en: "languages, read both ways", ko: "두 언어, 양방향으로" },
+  landingStatThemes: { en: "reading themes", ko: "읽기 테마" },
+  landingClubChip: { en: "Up to 10 readers", ko: "최대 10명" },
+  landingClubShared: { en: "Chapter shared with your club", ko: "클럽에 챕터를 공유했어요" },
+
   landingClosingTitle: { en: "Your first story is waiting.", ko: "첫 이야기가 기다리고 있어요." },
   landingClosingCta: { en: "Open the library", ko: "서재 열기" },
   landingFooterRights: {

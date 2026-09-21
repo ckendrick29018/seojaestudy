@@ -52,6 +52,11 @@ const config: Config = {
           "0%, 100%": { transform: "rotate(-7deg)" },
           "50%": { transform: "rotate(9deg)" },
         },
+        // Listening-tile waveform bars on the landing page.
+        wave: {
+          "0%, 100%": { transform: "scaleY(0.35)" },
+          "50%": { transform: "scaleY(1)" },
+        },
         zzz: {
           "0%": { opacity: "0", transform: "translate(0, 2px) scale(0.8)" },
           "25%": { opacity: "0.75" },
@@ -61,6 +66,7 @@ const config: Config = {
       animation: {
         "fade-in": "fade-in 0.2s ease-out",
         "tail-sway": "tail-sway 3.5s ease-in-out infinite",
+        wave: "wave 1.3s ease-in-out infinite",
         zzz: "zzz 3.4s ease-in-out infinite",
       },
     },
