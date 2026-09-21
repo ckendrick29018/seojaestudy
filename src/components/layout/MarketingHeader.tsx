@@ -37,12 +37,15 @@ export function MarketingHeader() {
   return (
     <>
       <header className="sticky top-0 z-30 border-b border-rose-light/50 bg-cream/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
-          <Link href="/" className="flex shrink-0 items-center gap-2.5">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-3 sm:gap-4 sm:px-6 sm:py-4 lg:px-8">
+          {/* min-w-0 + truncate: on a narrow phone (or with the larger text-size
+              setting) the wordmark gives way instead of pushing the menu button
+              off-screen. */}
+          <Link href="/" className="flex min-w-0 items-center gap-2.5">
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl2 bg-rose-light/50 text-rose">
               <BrandMark className="h-5 w-5" />
             </span>
-            <span className="font-serif text-xl font-semibold tracking-tight text-charcoal">
+            <span className="truncate font-serif text-lg font-semibold tracking-tight text-charcoal sm:text-xl">
               {t("appName")}
             </span>
           </Link>
@@ -55,11 +58,13 @@ export function MarketingHeader() {
             ))}
           </nav>
 
-          <div className="flex shrink-0 items-center gap-2">
+          <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+            {/* Hidden under 360px: the pill can't fit beside the wordmark and the
+                menu button there, and the landing hero carries the same CTA. */}
             {!inLibrary && (
               <Link
                 href="/library"
-                className="inline-flex items-center justify-center rounded-full bg-rose px-5 py-2 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-rose px-4 py-2 text-sm font-semibold text-cream shadow-soft transition hover:bg-rose/90 max-[359px]:hidden sm:px-5"
               >
                 {t("navStart")}
               </Link>
