@@ -23,7 +23,7 @@ export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete
       href={`/lesson/${lesson.slug}`}
       className="group flex flex-col overflow-hidden rounded-xl2 border border-rose-light/50 bg-white/60 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
     >
-      <div className="relative aspect-[3/4] w-full overflow-hidden bg-sage/40">
+      <div className="relative aspect-[2/3] w-full overflow-hidden bg-sage/40">
         {lesson.coverImage ? (
           // Local static asset (see public/covers); next/image would refuse the SVG and needs no optimization here.
           // eslint-disable-next-line @next/next/no-img-element

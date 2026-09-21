@@ -33,7 +33,7 @@ export function BookClient({ book }: { book: BookView }) {
           <img
             src={book.coverImage}
             alt={book.author ? `${book.title} by ${book.author}` : book.title}
-            className="h-36 w-auto shrink-0 rounded-xl2 border border-rose-light/60 shadow-soft lg:h-48"
+            className="h-36 w-auto shrink-0 rounded-lg border border-rose-light/60 shadow-soft lg:h-48"
           />
         ) : (
           <div className="text-5xl">{book.coverEmoji}</div>

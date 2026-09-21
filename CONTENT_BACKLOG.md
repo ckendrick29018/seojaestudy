@@ -72,10 +72,11 @@ author?: string;
 Gutenberg exposes a cover for most books at
 `https://www.gutenberg.org/cache/epub/<id>/pg<id>.cover.medium.jpg`, but for many
 older texts (e.g. #7256) it's an auto-generated green placeholder — off-brand and
-not worth vendoring. So: **hand-make a typographic SVG cover in the app palette**
-at `public/covers/<slug>.svg` (see `gift-of-the-magi.svg` — cream gradient, rose
-double frame, serif title, gold ornament, "SEOJAE STORY · CLASSICS" footer). SVG
-is tiny, sharp at any size, and needs no CSP/remote-image config. If a real book
+not worth vendoring. So: **use a generated typographic SVG cover.** Covers are no
+longer hand-drawn: add an entry to `scripts/cover-data.json` and run
+`node scripts/generate-covers.mjs <slug>` (see `scripts/README.md` › Book covers) —
+deep colourway per book, medallion motif, font-outlined title. SVG is sharp at any
+size and needs no CSP/remote-image config. If a real book
 has a genuine period cover/illustration in the public domain, download that into
 `public/covers/<slug>.jpg` instead. No image → `coverEmoji` tile.
 (If we ever want remote loading: add `images.remotePatterns` for

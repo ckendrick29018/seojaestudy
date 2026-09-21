@@ -125,3 +125,34 @@ Overrides: `PIPER_BIN`, `PIPER_VOICES`, `PIPER_MODEL_EN`, `PIPER_MODEL_KO`.
 The clip id is a hash of the exact text, so editing a sentence simply makes the
 app fall back to the browser voice for that line until you re-run `npm run
 audio` (add `--prune` to clear the now-orphaned old clip).
+
+---
+
+# Book covers
+
+Every SVG in `public/covers/` is **generated** — don't hand-edit them. `generate-covers.mjs`
+reads `cover-data.json` (one entry per cover: title, tagline, author lines, meta line such as
+`CHAPTER 15`, the collection, and a line-drawing motif with its bounding box) and draws a
+consistent cover: a deep colourway per book (all chapters of a book share it, assigned from
+`src/lib/data/books.ts`), a medallion with the motif, the title auto-fitted to 1–4 lines, and
+the author/meta/footer block.
+
+```bash
+npm i --no-save fontkit @fontsource/playfair-display @fontsource/inter @fontsource/noto-serif-kr
+node scripts/generate-covers.mjs                 # regenerate every cover
+node scripts/generate-covers.mjs jane-eyre       # only slugs containing "jane-eyre"
+node scripts/generate-covers.mjs --out /tmp/prev --sheet   # preview elsewhere + a contact-sheet HTML
+```
+
+All text is converted to font outlines (Playfair Display, Inter, Noto Serif KR). Covers are shown
+through `<img>`, where an SVG can't use the site's web fonts; live `<text>` used to fall back to
+whatever "Georgia" meant on the device. Outlines look identical everywhere.
+
+**To add a cover** (new lesson or chapter): append an entry to `cover-data.json` — copy a similar
+one, keep `footer` as `CLASSICS` / `FOLKTALES` / `BIOGRAPHIES` / `FABLES`, write the motif as a single
+`<g transform="translate(200 ~180)" stroke=… fill="none">…</g>` around ±60 units wide, and set `bbox`
+to its `getBBox()` (`[x, y, w, h]`). Then run the generator for that slug. `npm i --no-save` removes
+any earlier `--no-save` installs, so install all four packages in one command.
+
+Covers are ~26 KB each (outlined text); they compress well over the wire. The card image box is 2:3
+to match the cover, so nothing is cropped.
