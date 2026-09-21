@@ -41594,6 +41594,1308 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "pride-and-prejudice-second-proposal",
+    title: "Pride and Prejudice: The Second Proposal",
+    titleTranslation: "오만과 편견: 두 번째 청혼",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "💍",
+    coverImage: "/covers/pride-and-prejudice-second-proposal.svg",
+    source:
+      "Adapted from Chapter 58 of Jane Austen's novel \"Pride and Prejudice\" (first published 1813; long in the public domain, Project Gutenberg #1342). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Elizabeth told Mr. Darcy on their walk, and how Lady Catherine's visit had helped him.",
+    paragraphs: [
+      [
+        {
+          id: "ppq-1",
+          text: "A few days after Lady Catherine's visit, Mr. Bingley returned to Longbourn, and to Elizabeth's nervous surprise he brought Mr. Darcy with him.",
+          translation:
+            "캐서린 부인이 다녀간 지 며칠 뒤, 빙리 씨가 롱본으로 돌아왔는데, 뜻밖에도 다아시 씨를 함께 데려와서 엘리자베스는 마음이 조마조마했어요.",
+        },
+        {
+          id: "ppq-2",
+          text: "Mr. Bingley wanted to be alone with Jane, so he suggested a walk, and before long he and Jane had fallen far behind, leaving Elizabeth to walk on with Kitty and Mr. Darcy.",
+          translation:
+            "빙리 씨는 제인과 단둘이 있고 싶어서 산책을 하자고 제안했고, 얼마 지나지 않아 그와 제인은 저만치 뒤처져서 엘리자베스는 키티, 다아시 씨와 함께 앞서 걷게 되었어요.",
+        },
+        {
+          id: "ppq-3",
+          text: "Kitty was too afraid of Mr. Darcy to speak, Mr. Darcy said very little, and Elizabeth was secretly forming a desperate resolution.",
+          translation:
+            "키티는 다아시 씨가 너무 무서워서 입을 열지 못했고, 다아시 씨도 말수가 적었으며, 엘리자베스는 속으로 필사적인 결심을 굳히고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "ppq-4",
+          text: "When Kitty turned aside to visit her friend Maria Lucas, Elizabeth was left alone with Mr. Darcy, and she knew that the moment for her resolution had come.",
+          translation:
+            "키티가 친구 마리아 루카스를 만나러 길을 벗어나자 엘리자베스는 다아시 씨와 단둘이 남았고, 결심을 실행할 때가 왔음을 알았어요.",
+        },
+        {
+          id: "ppq-5",
+          text: "\"Mr. Darcy,\" she said boldly, \"I cannot keep from thanking you any longer for your great kindness to my poor sister, and my whole family would thank you too, if they knew of it.\"",
+          translation:
+            "\"다아시 씨.\" 그녀가 용기를 내어 말했어요. \"제 불쌍한 동생에게 베풀어 주신 큰 친절에 대해 더는 감사를 참을 수가 없어요. 가족이 이 일을 알았다면 모두 함께 감사드렸을 거예요.\"",
+        },
+        {
+          id: "ppq-6",
+          text: "Mr. Darcy answered, with surprise and feeling, that he was sorry she had ever been told, and that if she must thank him, it should be for herself alone, since he had thought only of her.",
+          translation:
+            "다아시 씨는 놀라움과 감동이 섞인 목소리로, 그녀가 그 일을 알게 되어 유감이라고 했고, 굳이 감사하려거든 오직 그녀 자신을 위해서만 해 달라고 했어요. 그는 오로지 그녀만을 생각했으니까요.",
+        },
+      ],
+      [
+        {
+          id: "ppq-7",
+          text: "Then he spoke plainly: if her feelings were still what they had been last April, she must tell him at once, for his own wishes had not changed, and one word from her would silence him forever.",
+          translation:
+            "이어서 그는 솔직하게 말했어요. 그녀의 마음이 지난 4월과 같다면 지금 곧바로 말해 달라고, 자신의 바람은 변하지 않았으며 그녀의 한마디면 영원히 입을 다물겠다고요.",
+        },
+        {
+          id: "ppq-8",
+          text: "Elizabeth forced herself to speak, and although she did so awkwardly, she made him understand that her feelings had changed so much that she now received his words with gratitude and pleasure.",
+          translation:
+            "엘리자베스는 애써 입을 열었고, 서툴렀지만 그동안 마음이 크게 바뀌어서 지금은 그의 말을 감사와 기쁨으로 받아들인다는 것을 그에게 알렸어요.",
+        },
+        {
+          id: "ppq-9",
+          text: "His joy was greater than any he had felt before, and he spoke as warmly as a man deeply in love can, while Elizabeth, too shy to meet his eyes, could at least listen.",
+          translation:
+            "그의 기쁨은 지금껏 느껴 본 그 어떤 기쁨보다 컸고, 그는 깊이 사랑에 빠진 남자가 할 수 있는 가장 따뜻한 말로 마음을 전했어요. 엘리자베스는 수줍어서 그의 눈을 마주 볼 수 없었지만, 귀 기울여 들을 수는 있었지요.",
+        },
+      ],
+      [
+        {
+          id: "ppq-10",
+          text: "They walked on without noticing where they were going, and she learned that Lady Catherine herself had brought them together, for she had told Mr. Darcy every word of their quarrel, hoping to make him promise never to marry Elizabeth.",
+          translation:
+            "두 사람은 어디로 가는지도 모른 채 계속 걸었고, 엘리자베스는 두 사람을 맺어 준 것이 바로 캐서린 부인이라는 것을 알게 되었어요. 부인이 다아시 씨에게 다시는 엘리자베스와 결혼하지 않겠다는 약속을 받아 내려고 두 사람이 나눈 말을 하나도 빼놓지 않고 전했기 때문이에요.",
+        },
+        {
+          id: "ppq-11",
+          text: "\"It taught me to hope,\" said Mr. Darcy, \"because I knew that if you had truly decided against me, you would have told her so frankly.\"",
+          translation:
+            "\"그 이야기가 제게 희망을 품게 했어요.\" 다아시 씨가 말했어요. \"당신이 정말로 저를 거절하기로 마음먹었다면 부인에게 솔직하게 그렇게 말했을 거라는 걸 알았으니까요.\"",
+        },
+        {
+          id: "ppq-12",
+          text: "Elizabeth blushed and laughed, and admitted that after abusing him so freely to his face, she could hardly have any scruples about abusing him to all his relations.",
+          translation:
+            "엘리자베스는 얼굴을 붉히며 웃었고, 그의 면전에서 그토록 마음껏 나쁘게 말했으니 그의 친척들 앞에서 나쁘게 말하는 것쯤은 조금도 망설일 이유가 없었다고 인정했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppq-13",
+          text: "Mr. Darcy said that he could not forgive himself for the way he had behaved at Hunsford, and that her reproof about his ungentlemanly manner had tormented him for months, until he admitted that she was right.",
+          translation:
+            "다아시 씨는 헌스퍼드에서의 자기 행동을 용서할 수 없다고 했고, 신사답지 못하다던 그녀의 꾸짖음이 몇 달 동안 자신을 괴롭혔다고, 결국에는 그녀가 옳았음을 인정하게 되었다고 했어요.",
+        },
+        {
+          id: "ppq-14",
+          text: "He confessed that all his life he had been taught to be good but never to control his pride, and that she had humbled him with a lesson that was hard at first and very valuable afterwards.",
+          translation:
+            "그는 평생 착하게 살라고는 배웠지만 자존심을 다스리는 법은 배운 적이 없다고 털어놓았고, 그녀가 처음에는 혹독하지만 나중에는 아주 값진 가르침으로 자신을 겸손하게 만들었다고 했어요.",
+        },
+        {
+          id: "ppq-15",
+          text: "Elizabeth told him that his letter had soon made her think better of him, and she begged him to remember the past only as far as the remembrance gave him pleasure.",
+          translation:
+            "엘리자베스는 그의 편지가 얼마 지나지 않아 그를 다시 보게 해 주었다고 말하며, 지난 일은 떠올려서 기쁜 만큼만 기억해 달라고 청했어요.",
+        },
+      ],
+      [
+        {
+          id: "ppq-16",
+          text: "Before they turned home, he told her that he had confessed to Mr. Bingley how wrong he had been to interfere, and that he had assured his friend that Jane's affection was real.",
+          translation:
+            "집으로 돌아서기 전에 그는 빙리 씨에게 자신이 끼어든 것이 얼마나 잘못이었는지 털어놓았고, 제인의 애정이 진심이라고 친구에게 확신시켜 주었다고 이야기했어요.",
+        },
+        {
+          id: "ppq-17",
+          text: "Elizabeth almost said how easily Mr. Bingley was guided, but she held her tongue, for he had not yet learned to be laughed at, and after walking for miles without noticing, the two of them parted quietly in the hall.",
+          translation:
+            "엘리자베스는 빙리 씨가 얼마나 쉽게 이끌리는 사람인지 말할 뻔했지만 꾹 참았어요. 그는 아직 놀림받는 법을 배우지 못했으니까요. 몇 마일을 걸은 줄도 모르고 걷던 두 사람은 현관 홀에서 조용히 헤어졌어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ppq-v1",
+        term: "resolution",
+        partOfSpeech: "noun",
+        translation: "결심, 다짐",
+        example: "She made a firm resolution to speak honestly.",
+        exampleTranslation: "그녀는 솔직하게 말하겠다고 굳게 결심했어요.",
+      },
+      {
+        id: "ppq-v2",
+        term: "affection",
+        partOfSpeech: "noun",
+        translation: "애정, 다정한 마음",
+        example: "He felt deep affection for her.",
+        exampleTranslation: "그는 그녀에게 깊은 애정을 느꼈어요.",
+      },
+      {
+        id: "ppq-v3",
+        term: "humble",
+        partOfSpeech: "verb",
+        translation: "겸손하게 만들다, 자존심을 꺾다",
+        example: "Failure can humble a proud person.",
+        exampleTranslation: "실패는 자존심 센 사람을 겸손하게 만들 수 있어요.",
+      },
+      {
+        id: "ppq-v4",
+        term: "frankly",
+        partOfSpeech: "adverb",
+        translation: "솔직하게",
+        example: "Please tell me frankly what you think.",
+        exampleTranslation: "어떻게 생각하는지 솔직하게 말해 주세요.",
+      },
+      {
+        id: "ppq-v5",
+        term: "interfere",
+        partOfSpeech: "verb",
+        translation: "간섭하다, 끼어들다",
+        example: "He should not have interfered in his friend's love.",
+        exampleTranslation: "그는 친구의 사랑에 끼어들지 말았어야 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ppq-q1",
+        prompt: "Why did Elizabeth begin the walk by thanking Mr. Darcy?",
+        options: [
+          "He had helped her sister Lydia and her family in their trouble.",
+          "He had brought Mr. Bingley back to Longbourn.",
+          "He had defended her against Lady Catherine.",
+          "He had invited her family to Pemberley.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Elizabeth had learned that Mr. Darcy had helped to save her sister Lydia from disgrace, and she could not rest without thanking him.",
+      },
+      {
+        id: "ppq-q2",
+        prompt: "How had Lady Catherine's visit helped Mr. Darcy?",
+        options: [
+          "It made him give up all hope of Elizabeth.",
+          "It made him angry with Mr. Bingley.",
+          "Her report of Elizabeth's frank answers gave him hope that Elizabeth's feelings had changed.",
+          "It taught him to be afraid of Elizabeth.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Lady Catherine repeated their quarrel to her nephew to stop him, but it had the opposite effect: he knew Elizabeth would have told her frankly if she were truly decided against him.",
+      },
+      {
+        id: "ppq-q3",
+        prompt: "What did Mr. Darcy say Elizabeth had taught him?",
+        options: [
+          "How to manage his estate.",
+          "To be humble and to control his pride.",
+          "How to write a good letter.",
+          "To like Mr. Bingley's sisters.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He said that he had been taught what was right but never to correct his temper, and that her refusal humbled him with a hard but valuable lesson.",
+      },
+    ],
+  },
+  {
+    slug: "jane-eyre-leaving-thornfield",
+    title: "Jane Eyre: Leaving Thornfield",
+    titleTranslation: "제인 에어: 손필드를 떠나며",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/jane-eyre-leaving-thornfield.svg",
+    source:
+      "Adapted from Chapter 27 of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Rochester asked of Jane, why she refused, and how she left Thornfield.",
+    paragraphs: [
+      [
+        {
+          id: "jef-1",
+          text: "Late in the afternoon Jane asked herself what she must do, and a voice inside her answered, \"Leave Thornfield at once,\" although she was sure she could not bear it.",
+          translation:
+            "오후 늦게 제인은 자신이 무엇을 해야 하는지 스스로에게 물었고, 마음속 목소리는 당장 손필드를 떠나라고 대답했지만, 그녀는 도저히 견딜 수 없을 것 같았어요.",
+        },
+        {
+          id: "jef-2",
+          text: "When she finally opened her door, weak and dizzy after a whole day without food, she nearly fell, but Mr. Rochester, who had been sitting outside her room waiting for her, caught her in his arms.",
+          translation:
+            "하루 종일 아무것도 먹지 못해 힘이 빠지고 어지러운 채 마침내 문을 열었을 때 그녀는 쓰러질 뻔했지만, 방 앞에 앉아 그녀를 기다리고 있던 로체스터 씨가 팔로 그녀를 붙잡았어요.",
+        },
+        {
+          id: "jef-3",
+          text: "He said that he had never meant to hurt her so, and Jane forgave him in her heart at once, for there was such sorrow in his eyes.",
+          translation:
+            "그는 이렇게까지 그녀에게 상처를 줄 생각은 결코 없었다고 말했고, 그의 눈에 너무나 깊은 슬픔이 서려 있어서 제인은 마음속으로 곧바로 그를 용서했어요.",
+        },
+      ],
+      [
+        {
+          id: "jef-4",
+          text: "He carried her downstairs to the library and gave her wine and food, and when she turned her face away from his kiss, he understood that she could not forget that he already had a wife.",
+          translation:
+            "그는 그녀를 안고 아래층 서재로 내려가 포도주와 음식을 주었고, 그녀가 그의 입맞춤을 피해 고개를 돌리자 자신에게 이미 아내가 있다는 사실을 그녀가 잊을 수 없다는 것을 알았어요.",
+        },
+        {
+          id: "jef-5",
+          text: "He told her that Thornfield would be shut up and Adèle sent to school, and then he asked her to come with him to a white villa in the south of France and live there as his wife in everything but law.",
+          translation:
+            "그는 손필드를 폐쇄하고 아델은 학교에 보내겠다고 하더니, 남프랑스의 하얀 저택으로 함께 가서 법만 빼고는 모든 면에서 자신의 아내로 살아 달라고 청했어요.",
+        },
+        {
+          id: "jef-6",
+          text: "Jane answered quietly that his wife was living, and that to live with him on such terms would be wrong, however he described it.",
+          translation:
+            "제인은 조용히 대답했어요. 그의 아내는 살아 있으며, 어떻게 말을 꾸미든 그런 조건으로 그와 함께 사는 것은 옳지 않다고요.",
+        },
+      ],
+      [
+        {
+          id: "jef-7",
+          text: "Rochester then told her his story: as a younger son, he had been sent to Jamaica to marry Bertha Mason, the daughter of a rich planter, whom his greedy father had chosen for her fortune.",
+          translation:
+            "그러자 로체스터는 자기 이야기를 들려주었어요. 차남이었던 그는 욕심 많은 아버지가 재산 때문에 골라 둔 부유한 농장주의 딸 버사 메이슨과 결혼하도록 자메이카로 보내졌다는 것이었어요.",
+        },
+        {
+          id: "jef-8",
+          text: "He had been young and dazzled by her beauty, and only after the wedding did he learn that her family had hidden from him a serious illness of the mind that ran in it.",
+          translation:
+            "그는 젊었고 그녀의 아름다움에 넋을 잃었으며, 결혼식을 올리고 나서야 그녀의 가족이 대대로 이어지는 심각한 마음의 병을 자신에게 숨겨 왔다는 것을 알게 되었어요.",
+        },
+        {
+          id: "jef-9",
+          text: "As Bertha grew worse, he brought her to England and had her cared for in secret at Thornfield by Grace Poole, and he spent the next years wandering across Europe, hoping to find someone good to love.",
+          translation:
+            "버사의 병이 깊어지자 그는 그녀를 영국으로 데려와 손필드에서 그레이스 풀이 몰래 돌보게 했고, 이후 여러 해 동안 사랑할 만한 좋은 사람을 찾기를 바라며 유럽 곳곳을 떠돌았어요.",
+        },
+      ],
+      [
+        {
+          id: "jef-10",
+          text: "Jane listened with pity, but when he begged her to say that she would be his, she answered, \"Mr. Rochester, I will not be yours.\"",
+          translation:
+            "제인은 안쓰러운 마음으로 이야기를 들었지만, 그가 자신의 사람이 되겠다고 말해 달라고 애원하자 이렇게 대답했어요. \"로체스터 씨, 저는 당신의 사람이 되지 않겠어요.\"",
+        },
+        {
+          id: "jef-11",
+          text: "He cried that she was condemning him to a wretched life, but she replied that she wished him to live without sin and die at peace, and that she still loved him but could not stay.",
+          translation:
+            "그는 그녀가 자신을 비참한 삶에 몰아넣고 있다고 소리쳤지만, 그녀는 그가 죄 없이 살고 평온하게 죽기를 바란다고, 여전히 그를 사랑하지만 남을 수는 없다고 대답했어요.",
+        },
+        {
+          id: "jef-12",
+          text: "In her heart a voice urged her to give in, but she answered it: \"I care for myself; the more lonely and friendless I am, the more I will respect myself, and I will keep the law that God has given.\"",
+          translation:
+            "마음속에서 한 목소리가 굴복하라고 재촉했지만 그녀는 이렇게 답했어요. \"나는 나 자신을 소중히 여긴다. 외롭고 의지할 곳 없을수록 나는 더욱 나 자신을 존중할 것이며, 하나님이 주신 법을 지킬 것이다.\"",
+        },
+      ],
+      [
+        {
+          id: "jef-13",
+          text: "Rochester's anger blazed and he caught hold of her, but when he looked into her steady eyes he knew that he might bend her body but never her spirit, and he let her go.",
+          translation:
+            "로체스터는 분노가 치밀어 그녀를 붙잡았지만, 그녀의 흔들림 없는 눈을 들여다보고는 그녀의 몸은 꺾을 수 있어도 영혼은 결코 꺾을 수 없음을 알고 그녀를 놓아주었어요.",
+        },
+        {
+          id: "jef-14",
+          text: "As she reached the door he threw himself on the sofa and sobbed, and Jane, unable to leave him like that, came back, kissed his cheek, and whispered, \"God bless you, my dear master.\"",
+          translation:
+            "그녀가 문가에 이르자 그는 소파에 몸을 던지고 흐느꼈고, 제인은 그를 그렇게 두고 갈 수 없어 되돌아와 그의 뺨에 입을 맞추고 속삭였어요. \"하나님의 축복이 있기를, 나의 소중한 주인님.\"",
+        },
+        {
+          id: "jef-15",
+          text: "That night she dreamed of the red-room of her childhood, where a shining figure like a mother told her, \"My daughter, flee temptation,\" and she woke and answered, \"Mother, I will.\"",
+          translation:
+            "그날 밤 그녀는 어린 시절의 붉은 방에 있는 꿈을 꾸었는데, 어머니 같은 빛나는 모습이 \"내 딸아, 유혹에서 달아나거라\" 하고 말했고, 잠에서 깬 그녀는 \"어머니, 그러겠어요\" 하고 대답했어요.",
+        },
+      ],
+      [
+        {
+          id: "jef-16",
+          text: "Before dawn she tied a few things in a bundle, took only the twenty shillings in her purse, left behind the pearl necklace he had given her, and crept past his door, where she heard him pacing and sighing.",
+          translation:
+            "새벽이 되기 전에 그녀는 몇 가지 물건을 보따리에 싸고, 지갑에 있던 20실링만 챙기고, 그가 준 진주 목걸이는 두고서, 그가 서성이며 한숨 쉬는 소리가 들리는 그의 방 앞을 살금살금 지나갔어요.",
+        },
+        {
+          id: "jef-17",
+          text: "Her hand moved toward his lock, but she drew it back, slipped out through the gate, and with her heart breaking took the first coach that passed, going as far as her little money would take her.",
+          translation:
+            "그녀의 손이 그의 방 문고리로 향했다가 도로 물러났고, 그녀는 문을 빠져나가 가슴이 찢어지는 듯한 마음으로 처음 지나가는 마차를 타고 얼마 되지 않는 돈으로 갈 수 있는 데까지 멀리 갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jef-v1",
+        term: "temptation",
+        partOfSpeech: "noun",
+        translation: "유혹",
+        example: "It is hard to resist temptation.",
+        exampleTranslation: "유혹을 뿌리치기는 어려워요.",
+      },
+      {
+        id: "jef-v2",
+        term: "dazzled",
+        partOfSpeech: "adjective",
+        translation: "넋을 잃은, 눈이 부신",
+        example: "He was dazzled by her beauty.",
+        exampleTranslation: "그는 그녀의 아름다움에 넋을 잃었어요.",
+      },
+      {
+        id: "jef-v3",
+        term: "wretched",
+        partOfSpeech: "adjective",
+        translation: "비참한",
+        example: "He felt wretched after she left.",
+        exampleTranslation: "그녀가 떠난 뒤 그는 비참함을 느꼈어요.",
+      },
+      {
+        id: "jef-v4",
+        term: "sob",
+        partOfSpeech: "verb",
+        translation: "흐느끼다",
+        example: "The child sobbed quietly in the corner.",
+        exampleTranslation: "아이는 구석에서 조용히 흐느꼈어요.",
+      },
+      {
+        id: "jef-v5",
+        term: "pace",
+        partOfSpeech: "verb",
+        translation: "서성거리다, 왔다 갔다 하다",
+        example: "He paced up and down the room all night.",
+        exampleTranslation: "그는 밤새 방 안을 이리저리 서성거렸어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jef-q1",
+        prompt: "What did Rochester ask Jane to do after she learned that he already had a wife?",
+        options: [
+          "To leave Thornfield alone and never return.",
+          "To go with him to the south of France and live as his wife.",
+          "To stay and keep teaching Adèle.",
+          "To wait for him in London.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "He wanted Jane to come to a villa in the south of France and live there as his wife in everything but law.",
+      },
+      {
+        id: "jef-q2",
+        prompt: "Why did Jane refuse to stay with him?",
+        options: [
+          "She no longer loved him.",
+          "She was afraid of Adèle.",
+          "She had promised Mrs. Fairfax.",
+          "She would not break God's law or lose her self-respect, although she still loved him.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Jane still loved Rochester, but she held to the law of God and to her own self-respect, even though it broke her heart.",
+      },
+      {
+        id: "jef-q3",
+        prompt: "How did Jane leave Thornfield?",
+        options: [
+          "Secretly before dawn, taking only twenty shillings and leaving the pearl necklace behind.",
+          "In a carriage that Rochester arranged for her.",
+          "With Adèle, after breakfast with Mrs. Fairfax.",
+          "With Mr. Mason, who offered to take her to Jamaica.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "She slipped away before dawn with a small bundle and the twenty shillings in her purse, leaving the necklace because it was not hers.",
+      },
+    ],
+  },
+  {
+    slug: "moby-dick-the-white-whale",
+    title: "Moby Dick: The White Whale",
+    titleTranslation: "모비 딕: 흰 고래",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1819–1891)",
+    coverEmoji: "🐋",
+    coverImage: "/covers/moby-dick-the-white-whale.svg",
+    source:
+      "Adapted from Chapter 41 (\"Moby Dick\") of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what made the white whale so feared and how his fight with Ahab changed the captain.",
+    paragraphs: [
+      [
+        {
+          id: "mdw-1",
+          text: "I, Ishmael, was one of that crew; I had shouted with the rest and sworn with the rest, and I shouted all the louder because of a strange dread in my soul.",
+          translation:
+            "저 이슈메일도 그 선원들 가운데 한 사람이었어요. 저는 다른 사람들과 함께 외쳤고 함께 맹세했으며, 마음속의 묘한 두려움 때문에 오히려 더 크게 외쳤어요.",
+        },
+        {
+          id: "mdw-2",
+          text: "A wild feeling had taken hold of me that Ahab's fierce quarrel was mine too, and I listened greedily to the history of the monster we had all sworn to hunt.",
+          translation:
+            "에이해브의 끈질긴 원한이 곧 제 원한 같다는 거친 감정이 저를 사로잡았고, 저는 우리 모두가 잡겠다고 맹세한 그 괴물의 내력을 게걸스럽게 귀 기울여 들었어요.",
+        },
+        {
+          id: "mdw-3",
+          text: "For some time the white whale had wandered alone in the far seas where sperm whalers sail, but few had seen him and fewer had fought him, because the ships were scattered across the oceans and news travelled slowly.",
+          translation:
+            "한동안 그 흰 고래는 향유고래 사냥꾼들이 드나드는 먼바다를 홀로 떠돌았지만, 그를 본 사람은 적었고 맞서 싸운 사람은 더 적었어요. 배들이 온 바다에 흩어져 있어서 소식이 느리게 퍼졌기 때문이에요.",
+        },
+      ],
+      [
+        {
+          id: "mdw-4",
+          text: "Those who did meet him usually lowered their boats as boldly as for any other whale, but their attacks ended in such disasters, with smashed boats, lost limbs and drowned men, that many brave hunters lost their nerve.",
+          translation:
+            "그를 만난 사람들은 대개 다른 고래를 만났을 때처럼 대담하게 보트를 내렸지만, 배가 부서지고 팔다리를 잃고 사람이 물에 빠져 죽는 참사로 끝나는 일이 되풀이되자 용감한 사냥꾼들도 많이 기가 꺾였어요.",
+        },
+        {
+          id: "mdw-5",
+          text: "Rumours grew wilder with every retelling, for sailors alone on the empty ocean are always ready to believe in wonders, and soon Moby Dick was said to be in two oceans at the same moment.",
+          translation:
+            "소문은 전해질 때마다 점점 과장되었어요. 텅 빈 바다에 홀로 떠 있는 선원들은 신기한 이야기를 쉽게 믿기 마련이라, 곧 모비 딕이 같은 순간 두 바다에 동시에 나타난다는 말까지 돌았어요.",
+        },
+        {
+          id: "mdw-6",
+          text: "Some whalemen even swore that he was immortal, and that if he were ever made to spout blood, it would be only a trick, for his clear white jet would appear again hundreds of miles away.",
+          translation:
+            "일부 고래잡이들은 그가 불사신이라고 맹세하기까지 했어요. 설령 피를 뿜게 만든다 해도 그것은 속임수일 뿐이고, 수백 마일 떨어진 곳에서 그의 맑고 하얀 물줄기가 다시 솟구칠 거라는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mdw-7",
+          text: "But even without these tales, there was enough in the whale himself to frighten a man, for besides his great size he had a snow-white wrinkled forehead, a high white hump and a twisted lower jaw.",
+          translation:
+            "하지만 이런 이야기가 없어도 그 고래 자체에 사람을 겁먹게 할 만한 것이 충분했어요. 엄청난 몸집 말고도 눈처럼 하얗고 주름진 이마, 높이 솟은 하얀 혹, 뒤틀린 아래턱을 가지고 있었으니까요.",
+        },
+        {
+          id: "mdw-8",
+          text: "The rest of his body was so streaked and marbled with the same ghostly white that he was known as the White Whale, and at noon, gliding through the dark blue sea, he left a creamy wake sparkling with gold.",
+          translation:
+            "몸의 나머지 부분도 똑같은 유령 같은 흰색으로 줄무늬와 대리석 무늬가 져 있어서 사람들은 그를 흰 고래라고 불렀고, 한낮에 짙푸른 바다를 미끄러져 갈 때면 그는 금빛으로 반짝이는 크림색 물결 자국을 남겼어요.",
+        },
+        {
+          id: "mdw-9",
+          text: "But more than his size or his colour, sailors feared his cunning, because he would pretend to flee, then suddenly turn and smash the boats of the men who chased him.",
+          translation:
+            "하지만 선원들은 그의 크기나 빛깔보다 그의 교활함을 더 두려워했어요. 그는 도망치는 척하다가 갑자기 돌아서서 자신을 쫓던 사람들의 보트를 박살 내곤 했으니까요.",
+        },
+      ],
+      [
+        {
+          id: "mdw-10",
+          text: "On one such day, with three boats splintered around him and men struggling in the water, one captain seized a short knife and rushed at the whale, and that captain was Ahab.",
+          translation:
+            "그런 날 가운데 하루, 보트 세 척이 그의 주위에서 산산조각 나고 사람들이 물속에서 허우적거리는 가운데 한 선장이 짧은 칼을 움켜쥐고 고래에게 달려들었는데, 그 선장이 바로 에이해브였어요.",
+        },
+        {
+          id: "mdw-11",
+          text: "Moby Dick swept his curved lower jaw beneath him and cut off Ahab's leg as easily as a farmer cuts a stalk of grass, and from that day Ahab nursed a wild hatred of him.",
+          translation:
+            "모비 딕은 굽은 아래턱을 아래로 휘둘러 농부가 풀 한 포기를 베듯 에이해브의 다리를 잘라 버렸고, 그날부터 에이해브는 그에 대한 거친 증오를 가슴에 품었어요.",
+        },
+        {
+          id: "mdw-12",
+          text: "During the long voyage home, as he lay in pain in his hammock, his suffering body and his wounded mind seemed to grow into one, until he saw in the white whale everything that torments a man, as if all the evil of the world had taken one shape that he could strike.",
+          translation:
+            "고향으로 돌아오는 긴 항해 내내 해먹에 누워 고통에 시달리는 동안 그의 괴로운 몸과 상처 입은 마음은 하나로 엉겨 붙은 듯했고, 마침내 그는 세상의 모든 악이 자신이 칠 수 있는 하나의 모습을 얻은 것처럼, 흰 고래에게서 사람을 괴롭히는 모든 것을 보게 되었어요.",
+        },
+      ],
+      [
+        {
+          id: "mdw-13",
+          text: "At times on that voyage he raved so wildly that his mates had to tie him down, and when he came out on deck again, calm and giving orders, they thanked God that the fit had passed.",
+          translation:
+            "그 항해 중에 그는 때때로 너무 격렬하게 날뛰어서 동료 선원들이 그를 묶어 두어야 했고, 다시 갑판에 나와 차분하게 명령을 내리자 그들은 발작이 지나갔다며 하느님께 감사했어요.",
+        },
+        {
+          id: "mdw-14",
+          text: "But it had not passed; it had only narrowed into a single fixed obsession, and all of Ahab's great intelligence now served that one purpose, so that he was more dangerous than ever.",
+          translation:
+            "하지만 발작은 지나간 것이 아니었어요. 오직 한 가지 집요한 집착으로 좁아졌을 뿐이었고, 이제 에이해브의 뛰어난 지성은 모두 그 하나의 목적을 섬겨서 그는 그 어느 때보다 위험한 사람이 되었어요.",
+        },
+        {
+          id: "mdw-15",
+          text: "When he stepped ashore on his ivory leg, the people of Nantucket thought him merely a man who had suffered a terrible loss, and some even thought his dark moods made him the right captain for a whale hunt.",
+          translation:
+            "상아 의족을 짚고 뭍에 올라섰을 때 낸터킷 사람들은 그를 끔찍한 상실을 겪은 사람으로만 여겼고, 어떤 이들은 그의 어두운 기분 덕분에 오히려 고래잡이에 알맞은 선장이라고까지 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "mdw-16",
+          text: "So Ahab had sailed on this voyage with one secret purpose, to hunt the White Whale, while his owners thought only of profit and his crew, drawn from every corner of the world, seemed picked to follow him.",
+          translation:
+            "그래서 에이해브는 흰 고래를 사냥하겠다는 단 하나의 비밀스러운 목적을 품고 이번 항해에 올랐어요. 선주들은 이익만 생각했고, 세계 곳곳에서 모인 선원들은 마치 그를 따르도록 뽑힌 사람들 같았지요.",
+        },
+        {
+          id: "mdw-17",
+          text: "Why the whole ship's company took up his hatred as their own I cannot fully explain, but for my part I gave myself up to the hour and the place, and in that whale I saw nothing but the deadliest enemy.",
+          translation:
+            "온 배의 사람들이 왜 그의 증오를 자기 것으로 삼았는지는 저도 다 설명할 수 없어요. 다만 저는 그 시간과 그 자리에 몸을 맡겼고, 그 고래에게서 가장 무서운 적밖에는 보지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdw-v1",
+        term: "rumour",
+        partOfSpeech: "noun",
+        translation: "소문",
+        example: "A wild rumour spread through the port.",
+        exampleTranslation: "터무니없는 소문이 항구에 퍼졌어요.",
+      },
+      {
+        id: "mdw-v2",
+        term: "immortal",
+        partOfSpeech: "adjective",
+        translation: "죽지 않는, 불멸의",
+        example: "The old sailors thought the whale was immortal.",
+        exampleTranslation: "늙은 선원들은 그 고래가 불멸이라고 생각했어요.",
+      },
+      {
+        id: "mdw-v3",
+        term: "cunning",
+        partOfSpeech: "noun",
+        translation: "교활함, 잔꾀",
+        example: "The fox escaped by cunning.",
+        exampleTranslation: "여우는 잔꾀로 달아났어요.",
+      },
+      {
+        id: "mdw-v4",
+        term: "hammock",
+        partOfSpeech: "noun",
+        translation: "해먹, 그물 침대",
+        example: "The sailor slept in a hammock below deck.",
+        exampleTranslation: "그 선원은 갑판 아래 해먹에서 잠을 잤어요.",
+      },
+      {
+        id: "mdw-v5",
+        term: "obsession",
+        partOfSpeech: "noun",
+        translation: "집착, 강박",
+        example: "Finding the whale became his only obsession.",
+        exampleTranslation: "고래를 찾는 것이 그의 유일한 집착이 되었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdw-q1",
+        prompt: "Why did many whalemen lose their nerve about hunting Moby Dick?",
+        options: [
+          "Their ships were too small for the far seas.",
+          "They had promised Captain Ahab that they would not.",
+          "Attacks on him had ended in disasters, and wild rumours made him seem even more terrible.",
+          "They believed that whales brought bad weather.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Repeated disasters — smashed boats, lost limbs and drowned men — together with wild rumours frightened many brave hunters.",
+      },
+      {
+        id: "mdw-q2",
+        prompt: "What let sailors recognise Moby Dick even from far away?",
+        options: [
+          "His snow-white wrinkled forehead and high white hump.",
+          "A red streak along his back.",
+          "His unusually small size.",
+          "A broken tail fin.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Besides his size, Moby Dick had a snow-white wrinkled forehead and a high white hump, and the rest of his body was streaked with the same ghostly white.",
+      },
+      {
+        id: "mdw-q3",
+        prompt: "How did Ahab lose his leg, and how did the loss change him?",
+        options: [
+          "A shark bit it off, and he gave up the sea.",
+          "A falling mast crushed it, and he became afraid of whales.",
+          "A storm took it, and he became kind to his crew.",
+          "Moby Dick's jaw cut it off, and his hatred grew into a fixed obsession.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The whale swept away Ahab's leg with his lower jaw. During the long voyage home, Ahab's pain and anger hardened into an obsession with hunting the White Whale.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-three-letters",
+    title: "Dracula: Three Letters",
+    titleTranslation: "드라큘라: 세 통의 편지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "📜",
+    coverImage: "/covers/dracula-three-letters.svg",
+    source:
+      "Adapted from Chapter 4 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why the Count made Jonathan write three letters with future dates, and what Jonathan found when he climbed into the Count's room.",
+    paragraphs: [
+      [
+        {
+          id: "drt-1",
+          text: "Jonathan Harker woke in his own bed and could not tell whether the terrible scene with the three women had been a dream, although his clothes were folded strangely and his watch, which he always wound at night, had stopped.",
+          translation:
+            "조나단 하커는 자기 침대에서 눈을 떴지만, 세 여인과 벌어진 그 끔찍한 장면이 꿈이었는지 알 수 없었어요. 옷은 이상한 모양으로 개켜져 있었고, 밤마다 꼭 감아 두던 시계는 멈춰 있었는데도요.",
+        },
+        {
+          id: "drt-2",
+          text: "In daylight he went back to the door of that room and found it shut so hard that the wood had splintered, and he understood with a sinking heart that it had been no dream.",
+          translation:
+            "낮이 되자 그는 그 방 문 앞으로 되돌아가 보았는데, 문이 어찌나 세게 닫혔는지 나무가 쪼개져 있었고, 그는 가슴이 철렁 내려앉으며 그것이 꿈이 아니었음을 깨달았어요.",
+        },
+        {
+          id: "drt-3",
+          text: "That evening the Count smoothly asked him to write three letters: one saying that his work was nearly done, one saying that he was leaving the next morning, and one saying that he had already left the castle and reached the town of Bistritz.",
+          translation:
+            "그날 저녁 백작은 부드러운 목소리로 편지 세 통을 쓰라고 청했어요. 하나는 일이 거의 끝났다는 내용, 또 하나는 다음 날 아침 떠난다는 내용, 마지막 하나는 이미 성을 떠나 비스트리츠 마을에 도착했다는 내용이었어요.",
+        },
+      ],
+      [
+        {
+          id: "drt-4",
+          text: "Jonathan wanted to refuse, but he was completely in the Count's power, so he pretended to agree and asked what dates to put on the letters.",
+          translation:
+            "조나단은 거절하고 싶었지만 완전히 백작의 손아귀에 있었기에 동의하는 척하며 편지에 어떤 날짜를 적어야 하느냐고 물었어요.",
+        },
+        {
+          id: "drt-5",
+          text: "The Count thought for a minute and said, \"The first should be June the twelfth, the second June the nineteenth, and the third June the twenty-ninth,\" and Jonathan knew at once that he had just been told how long he had to live.",
+          translation:
+            "백작은 잠시 계산해 보더니 이렇게 말했어요. \"첫 번째는 6월 12일, 두 번째는 6월 19일, 세 번째는 6월 29일로 하시오.\" 조나단은 자신이 살 날이 얼마나 남았는지를 방금 들었다는 것을 단번에 알았어요.",
+        },
+        {
+          id: "drt-6",
+          text: "A few days later a band of Szgany travellers camped in the courtyard, and Jonathan secretly threw two letters through the bars of his window with a gold coin, one for Mr. Hawkins, his employer, and one, written in shorthand, for his fiancée Mina.",
+          translation:
+            "며칠 뒤 체가니라는 떠돌이 무리가 안뜰에 천막을 쳤고, 조나단은 금화 한 닢과 함께 편지 두 통을 창살 사이로 몰래 던졌어요. 하나는 고용주인 호킨스 씨에게, 다른 하나는 속기로 쓴 약혼녀 미나에게 보내는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "drt-7",
+          text: "That evening the Count sat beside him with both letters in his hand and calmly burned one of them in the lamp, calling it an outrage upon hospitality, while politely handing the other back so that Jonathan could put it in a clean envelope.",
+          translation:
+            "그날 저녁 백작은 두 편지를 손에 쥐고 그의 곁에 앉아, 하나는 환대에 대한 모욕이라고 하며 태연히 등불에 태워 버렸고, 다른 하나는 정중하게 돌려주며 조나단이 새 봉투에 담게 했어요.",
+        },
+        {
+          id: "drt-8",
+          text: "After that he was kept locked in, and one morning he found that all his paper, his travel notes, his money papers and even his travelling suit and coat had vanished from his room.",
+          translation:
+            "그 뒤로 그는 갇혀 지냈고, 어느 날 아침 방에서 종이와 여행 메모, 돈과 관련된 서류, 심지어 여행할 때 입던 옷과 외투까지 모두 사라진 것을 발견했어요.",
+        },
+        {
+          id: "drt-9",
+          text: "Some days later two great wagons rolled into the courtyard carrying large empty boxes with rope handles, but when Jonathan cried out to the drivers from his window, they only laughed and turned away.",
+          translation:
+            "며칠 뒤 커다란 짐마차 두 대가 밧줄 손잡이가 달린 큼직한 빈 상자들을 싣고 안뜰로 들어왔는데, 조나단이 창문에서 마부들을 불러도 그들은 웃으며 고개를 돌릴 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "drt-10",
+          text: "On the night of June the twenty-fourth, Jonathan watched from a high window and saw the Count climb out of his own window, head first down the wall like a lizard, dressed in Jonathan's own travelling suit.",
+          translation:
+            "6월 24일 밤, 조나단은 높은 창가에서 지켜보다가 백작이 자기 방 창문에서 나와 도마뱀처럼 머리부터 벽을 타고 내려가는 것을 보았는데, 그는 조나단 자신의 여행복을 입고 있었어요.",
+        },
+        {
+          id: "drt-11",
+          text: "He understood the plan at once: villagers would see a man in Jonathan's clothes posting letters, and any crime the Count committed would be blamed on the real Jonathan.",
+          translation:
+            "그는 그 계획을 단번에 알아챘어요. 마을 사람들은 조나단의 옷을 입은 남자가 편지를 부치는 모습을 보게 될 것이고, 백작이 저지르는 어떤 범죄든 진짜 조나단의 탓이 될 것이었지요.",
+        },
+        {
+          id: "drt-12",
+          text: "Determined to find the key, Jonathan took off his boots the next morning and crept out along the narrow stone ledge outside his window, careful never to look down, until he reached the Count's window and climbed in.",
+          translation:
+            "열쇠를 찾겠다고 마음먹은 조나단은 이튿날 아침 부츠를 벗고 창밖의 좁은 돌 턱을 따라 기어 나갔고, 결코 아래를 내려다보지 않으려고 애쓰며 백작의 창문에 닿아 안으로 기어 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "drt-13",
+          text: "The room was empty and dusty, with a great heap of old gold in one corner, and a heavy door led to a stair that wound down to an old ruined chapel where fifty wooden boxes stood filled with fresh earth.",
+          translation:
+            "방은 텅 비어 있고 먼지투성이였으며 한쪽 구석에는 낡은 금화 더미가 수북했어요. 육중한 문 너머 나선 계단을 내려가면 폐허가 된 옛 예배당이 나왔고, 그곳에는 갓 파낸 흙이 담긴 나무 상자 쉰 개가 놓여 있었어요.",
+        },
+        {
+          id: "drt-14",
+          text: "In one of them lay the Count himself, so still that he seemed dead, yet his eyes were open and his lips were red, and when Jonathan searched for the key, the eyes held such hatred that he fled back the way he had come.",
+          translation:
+            "그중 한 상자에는 백작 본인이 누워 있었는데, 죽은 듯이 꼼짝도 하지 않으면서도 눈은 뜨고 있었고 입술은 붉었어요. 조나단이 열쇠를 찾으려 하자 그 눈에 서린 증오가 너무나 섬뜩해서 그는 왔던 길로 도망쳤어요.",
+        },
+        {
+          id: "drt-15",
+          text: "On June the twenty-ninth the Count announced that Jonathan might leave the next day, and to prove it he led him to the great front door, which swung open, but at the howling of wolves outside, Jonathan cried out that he would wait until morning.",
+          translation:
+            "6월 29일 백작은 조나단이 다음 날 떠나도 좋다고 알렸고, 그 말을 증명하려는 듯 커다란 정문으로 그를 데려가 문을 열어 보였지만, 밖에서 늑대 울음소리가 들려오자 조나단은 아침까지 기다리겠다고 소리쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "drt-16",
+          text: "At dawn the great door was locked again, and later, from the Count's room, Jonathan heard the Szgany hammer the boxes shut, carry them out and drive away.",
+          translation:
+            "새벽이 되자 커다란 문은 다시 잠겨 있었고, 조금 뒤 백작의 방에서 조나단은 체가니들이 상자에 못질을 하고 실어 나른 뒤 떠나는 소리를 들었어요.",
+        },
+        {
+          id: "drt-17",
+          text: "Left alone in the castle with the three women, and knowing that the Count's boxes were bound for London, Jonathan decided that he would rather risk climbing down the castle wall than wait for the night.",
+          translation:
+            "성에 세 여인과 단둘이 남겨진 조나단은 백작의 상자들이 런던으로 향한다는 것을 알면서도, 밤을 기다리느니 차라리 성벽을 타고 내려가는 위험을 감수하기로 마음먹었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drt-v1",
+        term: "ledge",
+        partOfSpeech: "noun",
+        translation: "(벽에서 튀어나온) 좁은 턱, 선반 모양의 턱",
+        example: "A bird stood on the narrow ledge.",
+        exampleTranslation: "새 한 마리가 좁은 턱 위에 서 있었어요.",
+      },
+      {
+        id: "drt-v2",
+        term: "shorthand",
+        partOfSpeech: "noun",
+        translation: "속기",
+        example: "She took notes in shorthand.",
+        exampleTranslation: "그녀는 속기로 메모를 했어요.",
+      },
+      {
+        id: "drt-v3",
+        term: "hospitality",
+        partOfSpeech: "noun",
+        translation: "환대, 손님 접대",
+        example: "The family showed us warm hospitality.",
+        exampleTranslation: "그 가족은 우리를 따뜻하게 환대해 주었어요.",
+      },
+      {
+        id: "drt-v4",
+        term: "vanish",
+        partOfSpeech: "verb",
+        translation: "사라지다",
+        example: "The letters vanished from the desk.",
+        exampleTranslation: "편지들이 책상에서 사라졌어요.",
+      },
+      {
+        id: "drt-v5",
+        term: "wagon",
+        partOfSpeech: "noun",
+        translation: "짐마차",
+        example: "The wagon was full of boxes.",
+        exampleTranslation: "짐마차는 상자로 가득 차 있었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drt-q1",
+        prompt: "Why did the Count ask Jonathan to write three letters with different dates?",
+        options: [
+          "So that Jonathan's friends would believe he was travelling home safely while he stayed a prisoner.",
+          "So that Mina could plan a welcome party.",
+          "So that Mr. Hawkins would send more money.",
+          "So that the Szgany could deliver them faster.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The letters were dated in advance so that people at home would think Jonathan was leaving and travelling as planned, while the Count kept him in the castle.",
+      },
+      {
+        id: "drt-q2",
+        prompt: "What did the Count do with the letter Jonathan wrote in shorthand?",
+        options: [
+          "He sent it on to Mina.",
+          "He kept it in his study.",
+          "He burned it in the flame of a lamp.",
+          "He gave it to Mr. Hawkins.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The Count burned the strange, unsigned letter in the lamp, calling it an outrage upon hospitality, and handed back only the letter to Mr. Hawkins.",
+      },
+      {
+        id: "drt-q3",
+        prompt: "What did Jonathan find after climbing into the Count's room?",
+        options: [
+          "The key to the great front door.",
+          "Mina waiting in the chapel.",
+          "A map showing the way to Bistritz.",
+          "A heap of old gold and, in a ruined chapel below, boxes of earth with the Count lying in one.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The room held a great heap of old gold, and a stair led down to a ruined chapel where fifty boxes of fresh earth stood, with the Count lying still in one of them.",
+      },
+    ],
+  },
+  {
+    slug: "sense-and-sensibility-confession",
+    title: "Sense and Sensibility: Willoughby's Confession",
+    titleTranslation: "이성과 감성: 윌러비의 고백",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Jane Austen (1775–1817)",
+    coverEmoji: "💌",
+    coverImage: "/covers/sense-and-sensibility-confession.svg",
+    source:
+      "Adapted from Chapter 44 of Jane Austen's novel \"Sense and Sensibility\" (first published 1811; long in the public domain, Project Gutenberg #161). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say why Willoughby came to Cleveland and what he confessed to Elinor.",
+    paragraphs: [
+      [
+        {
+          id: "ssc-1",
+          text: "One evening at Cleveland, where her sister Marianne had lain dangerously ill, Elinor was startled to see Mr. Willoughby walk into the room, and she turned at once to leave.",
+          translation:
+            "어느 저녁, 동생 메리앤이 위독하게 앓았던 클리블랜드에서 엘리너는 윌러비 씨가 방으로 들어오는 것을 보고 깜짝 놀라 곧바로 자리를 뜨려고 돌아섰어요.",
+        },
+        {
+          id: "ssc-2",
+          text: "\"Miss Dashwood, for half an hour, for ten minutes, I beg you to stay,\" he said, and after a moment she sat down, for she was curious in spite of herself.",
+          translation:
+            "\"대시우드 양, 삼십 분만, 아니 십 분만이라도 부디 머물러 주십시오.\" 그가 말했고, 그녀는 자기도 모르게 궁금해져서 잠시 망설이다 자리에 앉았어요.",
+        },
+        {
+          id: "ssc-3",
+          text: "He asked first whether Marianne was really out of danger, and when Elinor said that they hoped so, he asked with a strange, forced cheerfulness whether she thought him more of a knave or a fool.",
+          translation:
+            "그는 먼저 메리앤이 정말 위험한 고비를 넘겼느냐고 물었고, 엘리너가 그러길 바란다고 대답하자 어색하게 억지로 밝은 척하며 자신이 악당에 더 가깝냐 바보에 더 가깝냐고 물었어요.",
+        },
+      ],
+      [
+        {
+          id: "ssc-4",
+          text: "He explained that he had driven all day from London, and that he had come, not to defend himself, but to make her hate him a little less and to win some kind of forgiveness from her sister.",
+          translation:
+            "그는 런던에서 온종일 마차를 몰고 왔다며, 자신을 변호하려는 것이 아니라 그녀가 자신을 조금이라도 덜 미워하게 하고 그녀의 동생에게서 어떤 형태로든 용서를 얻고 싶어서 왔다고 설명했어요.",
+        },
+        {
+          id: "ssc-5",
+          text: "Elinor answered that Marianne had long ago forgiven him, and he said that she should forgive him again, on better grounds, once she heard the whole truth.",
+          translation:
+            "엘리너는 메리앤이 오래전에 이미 그를 용서했다고 대답했고, 그는 모든 진실을 듣고 나면 메리앤이 더 나은 이유로 다시 자신을 용서해야 할 것이라고 말했어요.",
+        },
+        {
+          id: "ssc-6",
+          text: "He admitted that when he first came to know the family he had only wanted to pass the time pleasantly, and that he had tried to win Marianne's love without ever meaning to return it.",
+          translation:
+            "그는 이 가족과 처음 가까워졌을 때는 그저 즐겁게 시간을 보내고 싶었을 뿐이며, 메리앤의 마음을 얻으려 애썼지만 그 마음에 보답할 생각은 전혀 없었다고 인정했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssc-7",
+          text: "He was poor and in debt, so he had planned to marry a rich woman, but little by little he had truly fallen in love with Marianne, and the happiest hours of his life had been spent with her.",
+          translation:
+            "그는 가난한 데다 빚까지 져서 부유한 여자와 결혼할 계획이었지만, 어느새 진심으로 메리앤을 사랑하게 되었고 그녀와 보낸 시간이 생애 가장 행복한 순간이었다고 했어요.",
+        },
+        {
+          id: "ssc-8",
+          text: "Then his rich old cousin, Mrs. Smith, learned that he had behaved shamefully towards another young woman, and in her anger she threw him out of her house and cut him off.",
+          translation:
+            "그러던 중 부유한 노부인인 그의 사촌 스미스 부인이 그가 다른 젊은 여인에게 부끄러운 짓을 했다는 것을 알게 되었고, 화가 난 그녀는 그를 집에서 내쫓고 인연을 끊어 버렸어요.",
+        },
+        {
+          id: "ssc-9",
+          text: "That night, afraid of poverty, he decided to give up Marianne and marry a woman with money, and he still remembered how miserable she had looked when he said goodbye.",
+          translation:
+            "그날 밤 가난이 두려웠던 그는 메리앤을 포기하고 돈 있는 여자와 결혼하기로 마음먹었고, 작별 인사를 할 때 메리앤이 얼마나 비참해 보였는지를 지금도 잊지 못한다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssc-10",
+          text: "In London, he said, her first note had pierced him like a dagger, but he was already engaged to Miss Grey, so he kept out of Marianne's sight and never answered her.",
+          translation:
+            "런던에서 메리앤의 첫 편지가 단검처럼 가슴을 찔렀지만, 그는 이미 그레이 양과 약혼한 몸이라 메리앤의 눈에 띄지 않으려 피했고 답장도 하지 않았다고 했어요.",
+        },
+        {
+          id: "ssc-11",
+          text: "The cruel letter that had wounded Marianne, he confessed, was in his own handwriting, but the words were copied from his jealous fiancée, who had opened Marianne's letter and made him answer it as she wished.",
+          translation:
+            "메리앤에게 상처를 준 그 잔인한 편지는 그의 필체로 쓰였지만, 실은 질투에 사로잡힌 약혼녀의 말을 옮겨 적은 것이라고 그는 고백했어요. 약혼녀가 메리앤의 편지를 뜯어 보고는 자기가 원하는 대로 답장을 쓰게 했다는 것이었어요.",
+        },
+        {
+          id: "ssc-12",
+          text: "Elinor reminded him that he was a married man now, that no one had forced him to choose as he did, and that his wife deserved his respect.",
+          translation:
+            "엘리너는 그가 이제 유부남이며, 그가 그렇게 선택하도록 아무도 강요하지 않았고, 그의 아내는 그의 존중을 받을 자격이 있다고 일깨웠어요.",
+        },
+      ],
+      [
+        {
+          id: "ssc-13",
+          text: "He asked whether he was any less guilty than before, and she answered that he had proved his heart less wicked than she had believed, though she hardly knew what could have made the misery he had caused any worse.",
+          translation:
+            "그는 자신이 전보다 조금이라도 덜 죄스러운지 물었고, 엘리너는 그가 자신이 생각했던 것보다 마음이 덜 악하다는 것을 보여 주었다고 대답했어요. 하지만 그가 안긴 고통이 더 나빠질 수 있었을지는 알기 어렵다고도 했지요.",
+        },
+        {
+          id: "ssc-14",
+          text: "He begged her to tell Marianne of his sorrow and regret, and to say that at this moment she was dearer to him than ever.",
+          translation:
+            "그는 메리앤에게 자신의 슬픔과 후회를 전해 달라고, 그리고 지금 이 순간 그녀가 그 어느 때보다 소중하다고 말해 달라고 애원했어요.",
+        },
+        {
+          id: "ssc-15",
+          text: "He told her that he had heard of Marianne's illness the night before from Sir John Middleton, and that at eight that morning, terrified that she might die believing him the worst of villains, he had set out in his carriage.",
+          translation:
+            "그는 전날 밤 존 미들턴 경에게서 메리앤이 앓고 있다는 소식을 들었고, 메리앤이 자신을 세상에서 가장 못된 악당으로 믿은 채 죽을지도 모른다는 생각에 겁이 나서 그날 아침 여덟 시에 마차를 타고 길을 나섰다고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "ssc-16",
+          text: "Elinor, thinking how vanity and extravagance had spoiled a man who had so much natural warmth, felt her anger soften into pity, and she wished him well and offered a little gentle advice.",
+          translation:
+            "타고난 따뜻함이 많은 사람이 허영과 사치 때문에 이토록 망가졌다는 생각에 엘리너는 분노가 연민으로 누그러지는 것을 느꼈고, 그의 앞날을 빌어 주며 부드러운 충고를 몇 마디 건넸어요.",
+        },
+        {
+          id: "ssc-17",
+          text: "But Willoughby only said that a happy home was out of the question for him, and that he would live in dread of one thing, Marianne's marrying someone else, and with a hasty \"Good-bye, and God bless you,\" he almost ran out of the room.",
+          translation:
+            "하지만 윌러비는 자신에게 행복한 가정은 가당치 않다며, 한 가지가 두려워 떨며 살게 될 것이라고, 바로 메리앤이 다른 사람과 결혼하는 일이라고만 말했어요. 그러고는 서둘러 \"안녕히, 신의 축복이 있기를\" 하고 인사하더니 거의 뛰다시피 방을 나갔어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "ssc-v1",
+        term: "knave",
+        partOfSpeech: "noun",
+        translation: "악당, 불한당",
+        example: "The knave lied to everyone in the village.",
+        exampleTranslation: "그 악당은 마을 사람들 모두에게 거짓말을 했어요.",
+      },
+      {
+        id: "ssc-v2",
+        term: "engaged",
+        partOfSpeech: "adjective",
+        translation: "약혼한",
+        example: "He was engaged to a rich young woman.",
+        exampleTranslation: "그는 부유한 젊은 여인과 약혼한 상태였어요.",
+      },
+      {
+        id: "ssc-v3",
+        term: "forgiveness",
+        partOfSpeech: "noun",
+        translation: "용서",
+        example: "She asked for his forgiveness.",
+        exampleTranslation: "그녀는 그의 용서를 구했어요.",
+      },
+      {
+        id: "ssc-v4",
+        term: "regret",
+        partOfSpeech: "noun",
+        translation: "후회",
+        example: "He spoke of his regret with tears in his eyes.",
+        exampleTranslation: "그는 눈물을 글썽이며 자신의 후회를 이야기했어요.",
+      },
+      {
+        id: "ssc-v5",
+        term: "deserve",
+        partOfSpeech: "verb",
+        translation: "~할 자격이 있다, ~을 받을 만하다",
+        example: "Everyone deserves respect.",
+        exampleTranslation: "누구나 존중받을 자격이 있어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "ssc-q1",
+        prompt: "Why did Willoughby come to Cleveland?",
+        options: [
+          "To ask Marianne to marry him.",
+          "To collect a debt from Colonel Brandon.",
+          "To explain himself and win some forgiveness.",
+          "To take Elinor back to London.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Willoughby said he had come to make Elinor hate him a little less and to win some kind of forgiveness from Marianne.",
+      },
+      {
+        id: "ssc-q2",
+        prompt: "Who was behind the cruel letter that Marianne received in London?",
+        options: [
+          "Colonel Brandon.",
+          "Mrs. Smith.",
+          "Willoughby alone, in his own words.",
+          "Willoughby's jealous fiancée: he copied out her words.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Miss Grey opened Marianne's letter and made Willoughby answer it as she wished. He copied her words in his own handwriting.",
+      },
+      {
+        id: "ssc-q3",
+        prompt: "How did Elinor feel about Willoughby at the end of the visit?",
+        options: [
+          "She was angrier than before.",
+          "She felt pity for him, although she still saw the harm he had done.",
+          "She wanted him to marry Marianne.",
+          "She felt nothing at all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Elinor still thought he had caused great misery, but his confession softened her anger into pity, and she wished him well.",
+      },
+    ],
+  },
+  {
+    slug: "little-women-dark-days",
+    title: "Little Women: Dark Days",
+    titleTranslation: "작은 아씨들: 어두운 나날",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Louisa May Alcott (1832–1888)",
+    coverEmoji: "❄️",
+    coverImage: "/covers/little-women-dark-days.svg",
+    source:
+      "Adapted from Chapter 18 (\"Dark Days\") of Louisa May Alcott's novel \"Little Women\" (first published 1868; long in the public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Laurie secretly did to help the March sisters, and what turned in the night.",
+    paragraphs: [
+      [
+        {
+          id: "lwd-1",
+          text: "Beth had caught scarlet fever from the sick baby she had been nursing, and she was much sicker than anyone but Hannah, the cook, and the doctor guessed.",
+          translation:
+            "베스는 돌봐 주던 아픈 아기에게서 성홍열이 옮았고, 요리사 해나와 의사 말고는 아무도 짐작하지 못할 만큼 훨씬 심하게 앓고 있었어요.",
+        },
+        {
+          id: "lwd-2",
+          text: "Their mother was far away in Washington nursing their father, and Hannah insisted that she must not be worried about a trifle, so Meg, feeling guilty, wrote cheerful letters that said nothing of Beth.",
+          translation:
+            "어머니는 멀리 워싱턴에서 아버지를 간호하고 있었고, 해나는 사소한 일로 어머니를 걱정시켜서는 안 된다고 고집했어요. 그래서 메그는 죄책감을 느끼면서도 베스 이야기는 한마디도 없는 밝은 편지를 썼어요.",
+        },
+        {
+          id: "lwd-3",
+          text: "Soon Beth began to talk in a hoarse, broken voice, to play on the blanket as if it were her little piano, and to call for her mother, and Jo grew frightened.",
+          translation:
+            "곧 베스는 쉬고 갈라진 목소리로 말하고, 담요를 작은 피아노처럼 치고, 어머니를 찾기 시작했고, 조는 겁이 났어요.",
+        },
+      ],
+      [
+        {
+          id: "lwd-4",
+          text: "The house felt sad and lonely, and Meg, crying quietly over her sewing, saw how rich they had always been in love, health and peace, things that no money could buy.",
+          translation:
+            "집 안은 쓸쓸하고 외로웠고, 바느질감 위로 조용히 눈물을 떨구던 메그는 사랑과 건강과 평화처럼 돈으로 살 수 없는 것들 속에서 자신들이 얼마나 풍요롭게 살아왔는지를 깨달았어요.",
+        },
+        {
+          id: "lwd-5",
+          text: "Jo, who never left the sickroom, saw how sweet and unselfish Beth really was, and when the milkman, the baker and the grocer all came to ask about her, the family was surprised at how many friends shy little Beth had made.",
+          translation:
+            "병실을 한 발짝도 떠나지 않던 조는 베스가 얼마나 다정하고 이기심 없는 아이인지 새삼 깨달았고, 우유 배달부와 빵집 주인, 식료품 가게 주인까지 모두 베스의 안부를 물으러 오자 가족은 수줍은 어린 베스에게 그렇게 많은 친구가 있었다는 데 놀랐어요.",
+        },
+        {
+          id: "lwd-6",
+          text: "Even in her fever Beth did not forget her old doll Joanna, who lay beside her, and she longed for her cats but would not let them come near, for fear they might get sick.",
+          translation:
+            "열에 시달리는 중에도 베스는 곁에 누워 있는 낡은 인형 조애나를 잊지 않았고, 고양이들이 보고 싶었지만 병이 옮을까 봐 가까이 오지 못하게 했어요.",
+        },
+      ],
+      [
+        {
+          id: "lwd-7",
+          text: "On the first of December, a bitter, snowy day, the doctor held Beth's hot hand for a long minute and told Hannah in a low voice that if Mrs. March could leave her husband, she had better be sent for.",
+          translation:
+            "12월 1일, 매섭게 춥고 눈이 내리는 날, 의사는 베스의 뜨거운 손을 오래도록 잡고 있다가 마치 부인이 남편 곁을 떠날 수 있다면 부르는 편이 좋겠다고 해나에게 낮은 목소리로 말했어요.",
+        },
+        {
+          id: "lwd-8",
+          text: "Meg sank into a chair, and Jo, pale as paper, snatched up the telegram they had kept ready and ran out into the storm to send it.",
+          translation:
+            "메그는 의자에 주저앉았고, 조는 종잇장처럼 하얗게 질려 준비해 두었던 전보를 낚아채 폭풍 속으로 뛰쳐나가 그것을 부쳤어요.",
+        },
+        {
+          id: "lwd-9",
+          text: "When she came back, she told Laurie in tears that Beth no longer knew them, that both parents were far away, and that God seemed so distant that she could not find Him.",
+          translation:
+            "돌아온 조는 눈물을 흘리며 로리에게 베스가 이제 자신들을 알아보지 못하고, 부모님 두 분이 모두 멀리 계시며, 하느님이 너무 멀리 계신 것 같아 찾을 수가 없다고 털어놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "lwd-10",
+          text: "Laurie took her hand and said, \"I'm here. Hold on to me, Jo, dear,\" and then said nothing more, only stroking her bowed head as her mother used to do, which comforted her better than any words.",
+          translation:
+            "로리는 조의 손을 잡고 말했어요. \"내가 여기 있어. 나를 꼭 붙잡아, 조.\" 그러고는 어머니가 그랬던 것처럼 숙인 그녀의 머리를 쓰다듬기만 했는데, 그것이 어떤 말보다도 더 큰 위로가 되었어요.",
+        },
+        {
+          id: "lwd-11",
+          text: "Then he ran upstairs and came back with a glass of wine to strengthen her, and told her with a shy, shining face that he had secretly telegraphed her mother the day before, and that Mr. Brooke had answered that she would arrive that night.",
+          translation:
+            "그런 다음 그는 위층으로 달려가 기운을 북돋아 줄 포도주 한 잔을 가져왔고, 수줍으면서도 환한 얼굴로 전날 몰래 조의 어머니께 전보를 쳤으며 브룩 씨가 오늘 밤 도착하실 거라고 답장했다고 말했어요.",
+        },
+        {
+          id: "lwd-12",
+          text: "Jo threw her arms around his neck in a rush of joy, and soon the whole house seemed to breathe again: Beth's bird began to chirp, and the sisters whispered to each other, \"Mother's coming!\"",
+          translation:
+            "조는 기쁨에 겨워 그의 목에 팔을 둘렀고, 곧 온 집 안이 다시 숨을 쉬는 듯했어요. 베스의 새가 지저귀기 시작했고, 자매들은 서로에게 속삭였어요. \"엄마가 오셔!\"",
+        },
+      ],
+      [
+        {
+          id: "lwd-13",
+          text: "All that day Beth lay in a heavy sleep with parched lips, and the doctor said that some change, for better or worse, would probably come around midnight.",
+          translation:
+            "그날 온종일 베스는 바짝 마른 입술로 깊은 잠에 빠져 있었고, 의사는 좋든 나쁘든 자정 무렵에 어떤 변화가 있을 것이라고 말했어요.",
+        },
+        {
+          id: "lwd-14",
+          text: "The sisters sat on either side of her bed all night, and Meg whispered that if God spared Beth she would never complain again, while Jo promised to love and serve Him all her life.",
+          translation:
+            "자매는 밤새 침대 양쪽에 앉아 있었고, 메그는 하느님이 베스를 살려 주신다면 다시는 불평하지 않겠다고 속삭였으며, 조는 평생 하느님을 사랑하고 섬기겠다고 약속했어요.",
+        },
+        {
+          id: "lwd-15",
+          text: "Toward morning Jo saw a great change come over Beth's face, and, thinking with terror that she was dying, she kissed her and whispered, \"Good-bye, my Beth!\"",
+          translation:
+            "새벽녘에 조는 베스의 얼굴에 커다란 변화가 찾아온 것을 보았고, 베스가 세상을 떠나는 줄 알고 겁에 질려 입을 맞추며 속삭였어요. \"잘 가, 나의 베스!\"",
+        },
+      ],
+      [
+        {
+          id: "lwd-16",
+          text: "But Hannah woke, felt Beth's hands, and cried, \"The fever's turned; she's sleeping naturally!\" and when the doctor came, he smiled and told the girls that their little Beth would pull through.",
+          translation:
+            "하지만 해나가 잠에서 깨어 베스의 손을 만져 보더니 외쳤어요. \"열이 꺾였어요. 자연스럽게 자고 있어요!\" 곧 온 의사도 미소를 지으며 어린 베스가 이번에는 이겨 낼 거라고 자매에게 말해 주었어요.",
+        },
+        {
+          id: "lwd-17",
+          text: "As the sun rose on the snowy world, Meg put a half-opened rose that had bloomed in the night beside Beth's bed, and then Jo heard sleigh bells at the door and Laurie's joyful whisper: \"Girls, she's come! She's come!\"",
+          translation:
+            "눈 덮인 세상 위로 해가 떠오르자 메그는 밤사이 피어난 반쯤 벌어진 장미를 베스의 침대 곁에 놓아 두었고, 그때 조는 문 앞에서 울리는 썰매 방울 소리와 로리의 기쁜 속삭임을 들었어요. \"얘들아, 어머니가 오셨어! 오셨어!\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "lwd-v1",
+        term: "hoarse",
+        partOfSpeech: "adjective",
+        translation: "목이 쉰, 쉰 목소리의",
+        example: "His voice was hoarse after the long speech.",
+        exampleTranslation: "긴 연설을 마친 뒤 그의 목소리는 쉬어 있었어요.",
+      },
+      {
+        id: "lwd-v2",
+        term: "telegram",
+        partOfSpeech: "noun",
+        translation: "전보",
+        example: "She sent a telegram to her mother.",
+        exampleTranslation: "그녀는 어머니께 전보를 보냈어요.",
+      },
+      {
+        id: "lwd-v3",
+        term: "parched",
+        partOfSpeech: "adjective",
+        translation: "바싹 마른, 목이 타는",
+        example: "His lips were parched from the fever.",
+        exampleTranslation: "열 때문에 그의 입술은 바싹 말라 있었어요.",
+      },
+      {
+        id: "lwd-v4",
+        term: "comfort",
+        partOfSpeech: "verb",
+        translation: "위로하다",
+        example: "A friend's quiet company can comfort you.",
+        exampleTranslation: "친구가 조용히 곁에 있어 주는 것만으로도 위로가 될 수 있어요.",
+      },
+      {
+        id: "lwd-v5",
+        term: "pull through",
+        partOfSpeech: "phrasal verb",
+        translation: "(병·위기를) 이겨 내다, 고비를 넘기다",
+        example: "The doctor said the patient would pull through.",
+        exampleTranslation: "의사는 환자가 고비를 넘길 거라고 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "lwd-q1",
+        prompt: "Why did Meg's letters to her mother say nothing about Beth's illness?",
+        options: [
+          "Beth had begged her not to tell.",
+          "Hannah insisted that their mother, already nursing their father, should not be worried.",
+          "The mail could not be sent in the snow.",
+          "Meg did not know that Beth was ill.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Hannah said Mrs. March should not be worried about a trifle, so Meg, though she felt guilty, wrote letters that did not mention Beth.",
+      },
+      {
+        id: "lwd-q2",
+        prompt: "What did Laurie do that made Jo so happy?",
+        options: [
+          "He found a new doctor for Beth.",
+          "He brought Beth's cats to her bedside.",
+          "He secretly telegraphed Mrs. March, and she was already on her way.",
+          "He wrote to Mr. March in Washington.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Laurie had secretly sent a telegram to Mrs. March the day before, and Mr. Brooke had answered that she would arrive that night.",
+      },
+      {
+        id: "lwd-q3",
+        prompt: "What did Hannah discover in the night?",
+        options: [
+          "The doctor had forgotten his bag.",
+          "Mrs. March had arrived.",
+          "The snow had finally stopped.",
+          "Beth's fever had turned, and she was sleeping naturally.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Hannah woke, felt Beth's hands and found that the fever had turned: Beth was sleeping naturally, and the doctor said she would pull through.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

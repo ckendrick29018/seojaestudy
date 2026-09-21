@@ -40,6 +40,7 @@ export const BOOKS: Book[] = [
       "pride-and-prejudice-letter",
       "pride-and-prejudice-pemberley",
       "pride-and-prejudice-lady-catherine",
+      "pride-and-prejudice-second-proposal",
     ],
   },
   {
@@ -52,13 +53,19 @@ export const BOOKS: Book[] = [
       "jane-eyre-rochester",
       "jane-eyre-orchard",
       "jane-eyre-wedding",
+      "jane-eyre-leaving-thornfield",
     ],
   },
   {
     id: "little-women",
     title: "Little Women",
     titleTranslation: "작은 아씨들",
-    chapters: ["little-women", "little-women-jo-and-amy", "little-women-jos-hair"],
+    chapters: [
+      "little-women",
+      "little-women-jo-and-amy",
+      "little-women-jos-hair",
+      "little-women-dark-days",
+    ],
   },
   {
     id: "anne-of-green-gables",
@@ -87,19 +94,29 @@ export const BOOKS: Book[] = [
     id: "sense-and-sensibility",
     title: "Sense and Sensibility",
     titleTranslation: "이성과 감성",
-    chapters: ["sense-and-sensibility", "sense-and-sensibility-willoughby", "sense-and-sensibility-london"],
+    chapters: [
+      "sense-and-sensibility",
+      "sense-and-sensibility-willoughby",
+      "sense-and-sensibility-london",
+      "sense-and-sensibility-confession",
+    ],
   },
   {
     id: "dracula",
     title: "Dracula",
     titleTranslation: "드라큘라",
-    chapters: ["dracula", "dracula-the-castle", "dracula-the-three-women"],
+    chapters: [
+      "dracula",
+      "dracula-the-castle",
+      "dracula-the-three-women",
+      "dracula-three-letters",
+    ],
   },
   {
     id: "moby-dick",
     title: "Moby Dick",
     titleTranslation: "모비 딕",
-    chapters: ["moby-dick-loomings", "moby-dick-quarter-deck"],
+    chapters: ["moby-dick-loomings", "moby-dick-quarter-deck", "moby-dick-the-white-whale"],
   },
   {
     id: "the-hound-of-the-baskervilles",

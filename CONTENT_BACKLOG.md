@@ -1305,8 +1305,8 @@ changed), or hand-edit the JSON.
 
 **Wave 3b — pushed 2026-09-21** (commits d2086e4, ec05dbd, 235766b).
 
-**Wave 4 — written 2026-09-21** (same checklist; no new books, so every cover inherits its
-book's pinned palette):
+**Wave 4 — pushed 2026-09-21** (commit feb8eab; same checklist, no new books, so every
+cover inherits its book's pinned palette):
 
 | Book | New chapter | Source | Level |
 |--|--|--|--|
@@ -1323,9 +1323,30 @@ the Jekyll chapter stops at the point where the two months of restraint begin to
 `--pin-new` (see the palette note above) was run after adding these covers, so the six
 wave 3b covers that were still being dealt are now pinned as well.
 
+**Wave 5 — written 2026-09-21** (same checklist; no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Pride and Prejudice → part 6 | The Second Proposal | Ch. 58 | B2 |
+| Jane Eyre → part 6 | Leaving Thornfield | Ch. 27 | B2 |
+| Moby Dick → part 3 | The White Whale | Ch. 41 | B2 |
+| Dracula → part 4 | Three Letters | Ch. 4 | B2 |
+| Sense and Sensibility → part 4 | Willoughby's Confession | Ch. 44 | B1 |
+| Little Women → part 4 | Dark Days | Ch. 18 | B1 |
+
+Sources: Gutenberg #1342, #1260, #2701, #345, #161, #37106. Handling notes: the Jane Eyre
+chapter keeps Bertha Mason human (a woman with a serious illness who is cared for) and
+leaves out Rochester's near-suicide and his account of his earlier lovers; the Dracula
+chapter stops before the child-and-wolves scene and the blood-gorged Count, and refers to
+the Szgany as travellers; the Sense and Sensibility chapter keeps the "another young woman"
+Willoughby wronged deliberately vague; Moby Dick describes Ahab's "fit" and "obsession"
+rather than the source's "lunatic" language.
+
 **Remaining queue, suggested order:**
-1. P&P Ch. 58 (the second proposal); Jane Eyre Ch. 27 (Rochester's story) and Ch. 38
-   ("Reader, I married him").
-2. Moby Dick Ch. 41 ("Moby Dick") and Ch. 135 ("The Chase — Third Day"); Dracula Ch. 4;
-   Sense and Sensibility Ch. 44 (Willoughby's confession); Little Women Ch. 18 ("Dark Days").
+1. Jane Eyre Ch. 38 ("Reader, I married him"); Moby Dick Ch. 135 ("The Chase — Third Day");
+   Dracula Ch. 5 (Mina's letters) or Ch. 7 (the Demeter).
+2. Hound of the Baskervilles Ch. 6 ("Baskerville Hall"); Dr. Jekyll Ch. 10 second half
+   (the transformation); Anne Ch. 21 ("A New Departure in Flavorings") or Ch. 37
+   ("The Reaper Whose Name Is Death"); Alice Ch. 9 ("The Mock Turtle's Story"); Secret Garden and A Little
+   Princess have two parts each and could get a third.
 3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
