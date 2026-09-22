@@ -1,11 +1,11 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { isAuthConfigured } from "@/lib/supabase/config";
 import { isActiveSubscription } from "@/lib/subscription";
 import { SubscribeView } from "@/components/billing/SubscribeView";
 
 export default async function SubscribePage() {
-  const authConfigured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-  if (!authConfigured) redirect("/library");
+  if (!isAuthConfigured()) redirect("/library");
 
   const supabase = createClient();
   const {

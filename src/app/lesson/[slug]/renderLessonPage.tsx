@@ -4,13 +4,13 @@ import { getBookContext } from "@/lib/books";
 import { LessonView } from "@/components/lesson/LessonView";
 import { LessonPaywall } from "@/components/lesson/LessonPaywall";
 import { createClient } from "@/lib/supabase/server";
+import { isAuthConfigured } from "@/lib/supabase/config";
 import { isActiveSubscription } from "@/lib/subscription";
 import { hasClubUnlockForLesson } from "@/lib/club-server";
 import { lessonJsonLd } from "@/lib/seo";
 
 async function hasActiveSubscription(): Promise<boolean> {
-  const authConfigured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-  if (!authConfigured) return false;
+  if (!isAuthConfigured()) return false;
 
   const supabase = createClient();
   const {

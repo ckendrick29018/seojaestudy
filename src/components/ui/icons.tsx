@@ -264,3 +264,14 @@ export function ThemeIcon(props: IconProps) {
     </svg>
   );
 }
+
+/** Circle with an exclamation mark — the error.tsx boundary. */
+export function WarningIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="10" cy="10" r="7.5" />
+      <path d="M10 6.5v4.5" />
+      <path d="M10 13.75v.05" />
+    </svg>
+  );
+}

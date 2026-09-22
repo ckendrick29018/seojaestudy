@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { isAuthConfigured } from "@/lib/supabase/config";
 import { isActiveSubscription } from "@/lib/subscription";
 import type { Database } from "@/lib/supabase/database.types";
 import type { ClubActionError, ClubMember, MyClub } from "@/lib/club";
@@ -29,10 +30,7 @@ function getAdmin(): Admin | null {
 }
 
 async function currentUserId(): Promise<string | null> {
-  const authConfigured = Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-  );
-  if (!authConfigured) return null;
+  if (!isAuthConfigured()) return null;
   const supabase = createClient();
   const {
     data: { user },

@@ -653,6 +653,21 @@ export const dict = {
     en: "Original retellings and translations © SeoJae Story. Source texts are in the public domain.",
     ko: "새로 옮긴 이야기와 번역의 저작권은 SeoJae Story에 있습니다. 원문은 모두 퍼블릭 도메인입니다.",
   },
+
+  // --- src/app/not-found.tsx, src/app/error.tsx ---
+  notFoundTitle: { en: "Page not found", ko: "페이지를 찾을 수 없어요" },
+  notFoundBody: {
+    en: "That page doesn't exist, or may have moved. Let's get you back to a story.",
+    ko: "찾으시는 페이지가 없거나 옮겨졌어요. 다시 이야기로 안내해 드릴게요.",
+  },
+  notFoundCta: { en: "Go to homepage", ko: "홈으로 가기" },
+  errorTitle: { en: "Something went wrong", ko: "문제가 발생했어요" },
+  errorBody: {
+    en: "This page hit an unexpected error. Try again, or head back home.",
+    ko: "이 페이지에서 예기치 않은 오류가 발생했어요. 다시 시도하거나 홈으로 돌아가 주세요.",
+  },
+  errorRetry: { en: "Try again", ko: "다시 시도" },
+  errorGoHome: { en: "Go home", ko: "홈으로" },
 } satisfies Dict;
 
 export function t(key: keyof typeof dict, lang: UiLang): string {

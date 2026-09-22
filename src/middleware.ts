@@ -1,5 +1,6 @@
 import type { NextRequest } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
+import { isAuthConfigured } from "@/lib/supabase/config";
 
 /**
  * Runs on every matched request to keep the Supabase auth session fresh.
@@ -8,7 +9,7 @@ import { updateSession } from "@/lib/supabase/middleware";
  * initial setup instead of erroring on every route.
  */
 export async function middleware(request: NextRequest) {
-  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+  if (!isAuthConfigured()) {
     return;
   }
 

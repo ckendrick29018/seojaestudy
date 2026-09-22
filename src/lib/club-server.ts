@@ -1,5 +1,6 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
+import { isAuthConfigured } from "@/lib/supabase/config";
 
 /**
  * The book-club side of the lesson paywall: true when the signed-in visitor
@@ -12,10 +13,7 @@ import { createClient } from "@/lib/supabase/server";
  * lesson-render path — it runs as the requesting user via auth.uid().
  */
 export async function hasClubUnlockForLesson(lessonSlug: string): Promise<boolean> {
-  const authConfigured = Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-  );
-  if (!authConfigured) return false;
+  if (!isAuthConfigured()) return false;
 
   const supabase = createClient();
   const {
