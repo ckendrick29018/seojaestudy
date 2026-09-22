@@ -42896,6 +42896,657 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "jane-eyre-married-him",
+    title: "Jane Eyre: Reader, I Married Him",
+    titleTranslation: "제인 에어: 독자여, 나는 그와 결혼했어요",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Charlotte Brontë (1816–1855)",
+    coverEmoji: "💍",
+    coverImage: "/covers/jane-eyre-married-him.svg",
+    source:
+      "Adapted from Chapter 38 (\"Conclusion\") of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the servants took the news of Jane's wedding, and how life turned out for Jane and Mr. Rochester ten years later.",
+    paragraphs: [
+      [
+        {
+          id: "jem-1",
+          text: "Jane began the last chapter of her story with the famous words, \"Reader, I married him,\" and she described a wedding so quiet that only the parson and the clerk were there to see it.",
+          translation:
+            "제인은 자기 이야기의 마지막 장을 \"독자여, 나는 그와 결혼했어요\"라는 유명한 말로 시작했고, 목사와 서기 말고는 아무도 지켜보지 않을 만큼 조용한 결혼식이었다고 들려주었어요.",
+        },
+        {
+          id: "jem-2",
+          text: "When they came home from church, she went straight into the kitchen and told Mary, the cook, that she had been married to Mr. Rochester that morning.",
+          translation:
+            "부부가 교회에서 돌아오자 제인은 곧장 부엌으로 가서 요리사 메리에게 오늘 아침 로체스터 씨와 결혼했다고 말했어요.",
+        },
+        {
+          id: "jem-3",
+          text: "Mary, who never made a fuss about anything, held her ladle still over the roasting chickens for three whole minutes and then said only, \"Have you, Miss? Well, for sure!\", while her husband John grinned from ear to ear and wished Jane joy.",
+          translation:
+            "무슨 일에도 호들갑을 떠는 법이 없는 메리는 굽고 있던 닭 위에서 국자를 꼬박 3분 동안 멈춘 채 들고 있다가 \"그러셨어요, 아가씨? 세상에, 정말이네요!\" 하고만 말했고, 남편 존은 입이 귀에 걸리도록 활짝 웃으며 제인에게 축하한다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "jem-4",
+          text: "Jane thanked them, gave John a five-pound note from Mr. Rochester, and as she left the kitchen she overheard the two servants saying that she would suit their master better than any grand lady, and that in his eyes she was beautiful.",
+          translation:
+            "제인은 고맙다고 인사하고 로체스터 씨가 보낸 5파운드 지폐를 존에게 건넸고, 부엌을 나서다가 두 하인이 제인은 어떤 귀부인보다 주인님께 더 잘 어울리는 사람이며 주인님의 눈에는 아름답게 보일 거라고 말하는 소리를 우연히 들었어요.",
+        },
+        {
+          id: "jem-5",
+          text: "She wrote at once to Diana and Mary Rivers, the cousins who had once sheltered her, and both approved of her marriage completely, although Diana said she would wait until the honeymoon was over before she came to visit.",
+          translation:
+            "제인은 한때 자신을 품어 준 사촌 다이애나와 메리 리버스에게 곧바로 편지를 썼고, 두 사람 모두 이 결혼을 전적으로 찬성했지만, 다이애나는 신혼 기간이 지나면 찾아오겠다고 했어요.",
+        },
+        {
+          id: "jem-6",
+          text: "\"Then she had better not wait, Jane,\" said Mr. Rochester, \"because our honeymoon will last our whole lives, and its light will fade only over your grave or mine.\"",
+          translation:
+            "\"그렇다면 기다리지 않는 게 좋겠어요, 제인.\" 로체스터 씨가 말했어요. \"우리의 신혼은 평생 계속될 테고, 그 빛은 당신이나 내 무덤 위에서나 사라질 테니까요.\"",
+        },
+      ],
+      [
+        {
+          id: "jem-7",
+          text: "Their brother St. John, the stern clergyman who had once wanted to take Jane to India, never answered her letter, but six months later he wrote again, calmly and kindly, without mentioning Mr. Rochester.",
+          translation:
+            "그들의 오빠 세인트 존은 한때 제인을 인도로 데려가고 싶어 했던 엄격한 목사였는데, 그 편지에는 답하지 않았지만 여섯 달 뒤 로체스터 씨는 언급하지 않은 채 차분하고 다정하게 다시 편지를 보내왔어요.",
+        },
+        {
+          id: "jem-8",
+          text: "Jane had not forgotten little Adèle either; she found the girl pale, thin and unhappy at her strict school, so she took her home and later chose a gentler school near enough to visit often.",
+          translation:
+            "제인은 어린 아델도 잊지 않았어요. 엄격한 학교에서 창백하고 야위어 불행해하는 아이를 보고는 집으로 데려왔고, 나중에 자주 찾아갈 수 있을 만큼 가까운 더 너그러운 학교를 골라 주었어요.",
+        },
+        {
+          id: "jem-9",
+          text: "There Adèle grew happy and did well, and by the time she left school she had become a pleasant, grateful young companion who repaid every small kindness Jane had shown her.",
+          translation:
+            "그곳에서 아델은 행복하게 지내며 공부도 잘해 냈고, 학교를 마칠 즈음에는 제인이 베푼 작은 친절을 하나하나 갚아 주는 유쾌하고 고마워할 줄 아는 젊은 벗이 되어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "jem-10",
+          text: "Jane wrote that she had now been married for ten years, and that she counted herself blessed beyond words, because she was her husband's whole life just as fully as he was hers.",
+          translation:
+            "제인은 결혼한 지 이제 십 년이 되었다고, 남편이 자신의 전부이듯 자신도 남편의 전부이기에 말로 다 할 수 없을 만큼 복 받은 사람이라고 썼어요.",
+        },
+        {
+          id: "jem-11",
+          text: "Neither ever grew weary of the other, they shared every secret, and they were so well matched in character that their life together was perfectly in harmony.",
+          translation:
+            "두 사람은 서로에게 싫증 내는 법이 없었고, 모든 비밀을 나누었으며, 성격이 너무나 잘 맞아서 함께하는 삶이 완벽하게 조화로웠어요.",
+        },
+        {
+          id: "jem-12",
+          text: "They talked all day long, and to talk together was, as Jane put it, only a livelier and more audible way of thinking.",
+          translation:
+            "그들은 하루 종일 이야기를 나누었고, 제인의 표현대로 서로 이야기를 나누는 것은 생각을 조금 더 활기차게, 소리 내어 하는 것과 다르지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "jem-13",
+          text: "Mr. Rochester stayed blind for the first two years of their marriage, and Jane was his eyes and his right hand, describing every field, cloud and river to him and reading to him without ever growing tired.",
+          translation:
+            "로체스터 씨는 결혼 후 처음 이 년 동안 앞을 보지 못했고, 제인은 남편의 눈이자 오른팔이 되어 들판과 구름과 강 하나하나를 말로 들려주고 지치지 않고 책을 읽어 주었어요.",
+        },
+        {
+          id: "jem-14",
+          text: "One morning, as she wrote a letter at his dictation, he leaned over her and asked whether she wore something glittering at her neck and a pale blue dress, and when she said yes, he told her that the darkness over one of his eyes was growing thinner.",
+          translation:
+            "어느 날 아침 제인이 남편이 불러 주는 대로 편지를 쓰고 있는데, 로체스터 씨가 몸을 숙이고 목에 반짝이는 것을 걸었는지, 연한 파란색 드레스를 입었는지 물었고, 제인이 그렇다고 하자 한쪽 눈을 가리던 어둠이 점점 옅어지고 있다고 말했어요.",
+        },
+        {
+          id: "jem-15",
+          text: "A London doctor helped him recover the sight of that eye, so that he could read a little and find his own way, and when their first son was placed in his arms, he saw that the boy had his own large, bright, black eyes and thanked God for his mercy.",
+          translation:
+            "런던의 의사가 도와준 덕분에 로체스터 씨는 한쪽 눈의 시력을 되찾아 조금은 글을 읽고 스스로 길을 찾을 수 있게 되었고, 첫아들을 품에 안았을 때 아이가 자신과 똑같은 크고 빛나는 검은 눈을 가진 것을 보고 하나님의 자비에 감사했어요.",
+        },
+      ],
+      [
+        {
+          id: "jem-16",
+          text: "Diana and Mary had each married a good man who loved them, and every year the sisters and their husbands came to visit Jane and Mr. Rochester, and they went to visit them in return.",
+          translation:
+            "다이애나와 메리는 각각 자신을 사랑해 주는 좋은 남자와 결혼했고, 해마다 자매와 남편들이 제인과 로체스터 씨를 찾아왔으며 제인 부부도 답례로 그들을 찾아갔어요.",
+        },
+        {
+          id: "jem-17",
+          text: "St. John had gone to India, where he worked bravely and faithfully for others, and although he would never marry and his life was drawing near its end, Jane knew from his last letter that he was ready and unafraid.",
+          translation:
+            "세인트 존은 인도로 건너가 다른 사람들을 위해 용감하고 성실하게 일했는데, 끝내 결혼하지 않을 것이었고 삶도 끝을 향해 가고 있었지만, 제인은 마지막 편지를 읽고 세인트 존이 두려움 없이 준비되어 있음을 알았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jem-v1",
+        term: "grin",
+        partOfSpeech: "verb",
+        translation: "활짝 웃다",
+        example: "The boy grinned when he saw the cake.",
+        exampleTranslation: "소년은 케이크를 보고 활짝 웃었어요.",
+      },
+      {
+        id: "jem-v2",
+        term: "overhear",
+        partOfSpeech: "verb",
+        translation: "우연히 엿듣다",
+        example: "I overheard them talking about a surprise party.",
+        exampleTranslation: "저는 그들이 깜짝 파티에 대해 이야기하는 것을 우연히 들었어요.",
+      },
+      {
+        id: "jem-v3",
+        term: "approve",
+        partOfSpeech: "verb",
+        translation: "찬성하다, 인정하다",
+        example: "Her parents approved of her decision.",
+        exampleTranslation: "그녀의 부모님은 그녀의 결정에 찬성하셨어요.",
+      },
+      {
+        id: "jem-v4",
+        term: "weary",
+        partOfSpeech: "adjective",
+        translation: "지친, 싫증 난",
+        example: "She never grew weary of his company.",
+        exampleTranslation: "그녀는 그와 함께 있는 것에 조금도 싫증 내지 않았어요.",
+      },
+      {
+        id: "jem-v5",
+        term: "recover",
+        partOfSpeech: "verb",
+        translation: "되찾다, 회복하다",
+        example: "He slowly recovered from his illness.",
+        exampleTranslation: "그는 병에서 서서히 회복했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jem-q1",
+        prompt: "How did Mary, the cook, react when Jane told her about the wedding?",
+        options: [
+          "She screamed with delight and ran to tell the whole household.",
+          "She dropped her ladle and refused to believe Jane.",
+          "She held her ladle still for a few minutes, said only \"Have you, Miss? Well, for sure!\", and went on cooking.",
+          "She asked Jane to leave the kitchen at once.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mary was not a woman to make a fuss: she stared, paused for about three minutes, then said calmly, \"Have you, Miss?\" and went back to her cooking.",
+      },
+      {
+        id: "jem-q2",
+        prompt: "Why did Jane move Adèle to a new school?",
+        options: [
+          "Her first school was too strict, and Adèle was pale, thin and unhappy there.",
+          "Adèle had asked to live in London.",
+          "Mr. Rochester wanted Adèle to go back to France.",
+          "The first school had closed down.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Jane found Adèle pale, thin and unhappy at a school with rules too strict for a child, so she took her home and then found a gentler school close enough to visit often.",
+      },
+      {
+        id: "jem-q3",
+        prompt: "What happened to Mr. Rochester's eyesight after about two years of marriage?",
+        options: [
+          "He lost the sight in his other eye as well.",
+          "Nothing changed; Jane remained his eyes for the rest of his life.",
+          "A doctor in Edinburgh cured him completely.",
+          "He recovered the sight of one eye, enough to find his way and to see his first son's eyes.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The darkness over one eye began to thin, and a London doctor helped him recover its sight, so he could not read much but could find his way and see that his son had his own bright black eyes.",
+      },
+    ],
+  },
+  {
+    slug: "moby-dick-third-day",
+    title: "Moby Dick: The Third Day",
+    titleTranslation: "모비 딕: 사흘째 추격",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1819–1891)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/moby-dick-third-day.svg",
+    source:
+      "Adapted from Chapter 135 (\"The Chase.—Third Day\") of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Ahab did on the third day of the chase and what happened to Ahab and the Pequod.",
+    paragraphs: [
+      [
+        {
+          id: "mdc-1",
+          text: "The third morning came fair and fresh, and every mast of the Pequod was crowded with lookouts, but for a long time there was no sign of Moby Dick.",
+          translation:
+            "사흘째 아침은 맑고 상쾌하게 밝았고, 피쿼드호의 돛대마다 망보는 선원들이 빼곡히 올라갔지만 한동안 모비 딕은 자취도 보이지 않았어요.",
+        },
+        {
+          id: "mdc-2",
+          text: "Ahab, staring at the empty sea, decided that he had sailed past the whale in the night and that Moby Dick was now the one chasing him, so he turned the ship around and had himself hauled up the mast once more.",
+          translation:
+            "텅 빈 바다를 바라보던 에이해브는 간밤에 고래를 지나쳐 온 것이 틀림없으며 이제는 모비 딕이 자신을 쫓고 있다고 판단하여 배를 돌리게 하고 다시 한번 돛대 꼭대기까지 자신을 끌어올리게 했어요.",
+        },
+        {
+          id: "mdc-3",
+          text: "At last he saw the white whale's spout far off, and from all three mastheads a great cry went up.",
+          translation:
+            "마침내 에이해브는 멀리서 흰 고래가 뿜어 올리는 물줄기를 보았고, 세 돛대 꼭대기에서 일제히 커다란 외침이 터져 나왔어요.",
+        },
+      ],
+      [
+        {
+          id: "mdc-4",
+          text: "Before he left the ship, Ahab told his first mate, Starbuck, that some ships sail from port and are never seen again, and that he felt old, so he asked to shake his hand.",
+          translation:
+            "배를 떠나기 전에 에이해브는 일등항해사 스타벅에게, 항구를 떠난 뒤 두 번 다시 모습을 보이지 않는 배도 있다고, 그리고 자신이 늙었다고 느낀다고 말하며 악수를 청했어요.",
+        },
+        {
+          id: "mdc-5",
+          text: "Starbuck, in tears, begged him not to go, but Ahab pushed his arm away and shouted, \"Lower away!\"",
+          translation:
+            "눈물을 흘리던 스타벅은 제발 가지 말라고 애원했지만, 에이해브는 스타벅의 팔을 밀쳐내며 \"보트를 내려라!\" 하고 외쳤어요.",
+        },
+        {
+          id: "mdc-6",
+          text: "As the boat pulled away, sharks rose from the dark water and snapped at its oars, and they followed Ahab's boat and none of the others.",
+          translation:
+            "보트가 배에서 멀어지자 어두운 물속에서 상어들이 떠올라 노를 덥석덥석 물어뜯었고, 다른 보트들은 그대로 두고 오직 에이해브의 보트만 따라왔어요.",
+        },
+      ],
+      [
+        {
+          id: "mdc-7",
+          text: "Suddenly the water swelled and trembled, and Moby Dick burst up from the deep, hung for a moment in the misty air, and fell back into the sea with a crash.",
+          translation:
+            "갑자기 물이 부풀어 오르며 흔들리더니 모비 딕이 깊은 곳에서 솟구쳐 올라 안개 낀 허공에 잠시 떠 있다가 요란한 소리와 함께 바다로 떨어졌어요.",
+        },
+        {
+          id: "mdc-8",
+          text: "The whale, maddened by the harpoons still lodged in his body, smashed two of the boats with his tail, and then the men saw, tied to his back by the tangled lines, the body of the Parsee, the strange prophet who had been lost the day before.",
+          translation:
+            "몸에 여전히 박혀 있는 작살들 때문에 미쳐 날뛰던 고래는 꼬리로 보트 두 척을 부숴 놓았고, 그때 사람들은 뒤엉킨 밧줄에 묶여 고래 등에 매달려 있는 파시교도, 전날 사라졌던 그 수상한 예언자의 몸을 보았어요.",
+        },
+        {
+          id: "mdc-9",
+          text: "Ahab remembered that the Parsee had promised him two hearses, one not made by human hands and one built of American wood, and that only rope could kill him, and now he believed he had seen the first hearse.",
+          translation:
+            "에이해브는 파시교도가 자신에게 두 대의 영구차, 곧 사람의 손으로 만들지 않은 것과 미국산 나무로 만든 것이 나타날 것이며 오직 밧줄만이 자신을 죽일 수 있다고 약속했던 것을 떠올렸고, 이제 첫 번째 영구차를 본 것이라고 믿었어요.",
+        },
+      ],
+      [
+        {
+          id: "mdc-10",
+          text: "Ahab sent the broken boats back to the ship and went on alone after the whale, though Starbuck cried out that it was Ahab who chased Moby Dick and not the other way around.",
+          translation:
+            "에이해브는 부서진 보트들을 배로 돌려보내고 혼자서 고래를 뒤쫓았고, 스타벅은 모비 딕이 에이해브를 쫓는 것이 아니라 에이해브가 모비 딕을 쫓고 있는 것이라고 소리쳤어요.",
+        },
+        {
+          id: "mdc-11",
+          text: "The sharks kept biting the oars until the blades were small and jagged, but Ahab told the rowers to ignore them and pull harder, and when the boat came alongside the whale, he threw his harpoon with all his strength.",
+          translation:
+            "상어들이 노를 계속 물어뜯어 노의 날이 작고 들쭉날쭉해졌지만 에이해브는 노꾼들에게 개의치 말고 더 힘껏 저으라고 했고, 보트가 고래 옆에 다다르자 온 힘을 다해 작살을 던졌어요.",
+        },
+        {
+          id: "mdc-12",
+          text: "The whale twisted so hard that three rowers were thrown into the sea, two of whom climbed back aboard, and when Ahab ordered the rope hauled in, the line snapped in the air.",
+          translation:
+            "고래가 세차게 몸을 비틀어 노꾼 세 명이 바다로 내던져졌고 그중 둘은 다시 보트로 기어올랐으며, 에이해브가 밧줄을 당기라고 명령하자 줄은 허공에서 뚝 끊어졌어요.",
+        },
+      ],
+      [
+        {
+          id: "mdc-13",
+          text: "Then the whale turned, saw the black hull of the Pequod as if it were the cause of all his pain, and rushed at the ship and drove his great white forehead into her side.",
+          translation:
+            "그러자 고래는 방향을 틀어 피쿼드호의 검은 선체를 보았고, 마치 그것이 자신의 모든 고통의 원인이라는 듯 배를 향해 돌진하여 커다란 흰 이마로 뱃전을 들이받았어요.",
+        },
+        {
+          id: "mdc-14",
+          text: "The ship began to sink at once, the sailors stood frozen with hammers and harpoons in their hands, and Ahab shouted from his boat that this was the second hearse, since its wood could only be American.",
+          translation:
+            "배는 곧바로 가라앉기 시작했고, 선원들은 망치와 작살을 손에 쥔 채 얼어붙어 서 있었으며, 에이해브는 보트에서 저 나무는 미국산일 수밖에 없으니 이것이 두 번째 영구차라고 소리쳤어요.",
+        },
+        {
+          id: "mdc-15",
+          text: "Cut off from his ship, Ahab made a last speech to the whale, swore to fight him to his last breath, and flung his harpoon, and the flying line caught him around the neck and swept him from the boat before his crew knew he was gone, just as the Parsee had foretold.",
+          translation:
+            "배와 떨어져 홀로 남은 에이해브는 고래에게 마지막 연설을 하고 마지막 숨이 다할 때까지 싸우겠다고 맹세하며 작살을 던졌는데, 쏜살같이 풀려나간 밧줄이 목을 감아 선원들이 에이해브가 사라진 것을 알아채기도 전에 보트 밖으로 끌고 갔고, 그것은 파시교도가 예언한 그대로였어요.",
+        },
+      ],
+      [
+        {
+          id: "mdc-16",
+          text: "The rowers looked for the ship and saw only her highest masts above the water, where the harpooneers still sat at their lookouts, and then a whirlpool drew boat, oars and men round and round and down out of sight.",
+          translation:
+            "노꾼들은 배를 찾았지만 물 위로 겨우 드러난 가장 높은 돛대들만 보였고, 그 꼭대기에는 작살잡이들이 여전히 망을 보며 앉아 있었으며, 이윽고 소용돌이가 보트와 노와 사람들을 빙빙 돌리며 아래로 끌어당겨 시야에서 사라지게 했어요.",
+        },
+        {
+          id: "mdc-17",
+          text: "At the last moment Tashtego, nailing the red flag to the sinking mast, caught a sky-hawk's wing under his hammer, so the bird went down with the ship, and the sea closed over the place and rolled on as it had rolled for five thousand years.",
+          translation:
+            "마지막 순간 가라앉는 돛대에 붉은 깃발을 못 박고 있던 타슈테고가 망치와 나무 사이에 하늘 매의 날개를 끼우고 말았고, 그 새는 배와 함께 가라앉았으며, 바다는 그 자리를 덮고 오천 년 전부터 그래 왔듯이 계속 굽이쳐 흘렀어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mdc-v1",
+        term: "lookout",
+        partOfSpeech: "noun",
+        translation: "망보는 사람, 망루",
+        example: "A lookout shouted from the top of the mast.",
+        exampleTranslation: "망보는 선원이 돛대 꼭대기에서 소리쳤어요.",
+      },
+      {
+        id: "mdc-v2",
+        term: "harpoon",
+        partOfSpeech: "noun",
+        translation: "작살",
+        example: "The sailor threw his harpoon at the whale.",
+        exampleTranslation: "선원은 고래를 향해 작살을 던졌어요.",
+      },
+      {
+        id: "mdc-v3",
+        term: "snap",
+        partOfSpeech: "verb",
+        translation: "뚝 끊어지다, 덥석 물다",
+        example: "The old rope snapped in the storm.",
+        exampleTranslation: "낡은 밧줄이 폭풍 속에서 뚝 끊어졌어요.",
+      },
+      {
+        id: "mdc-v4",
+        term: "hearse",
+        partOfSpeech: "noun",
+        translation: "영구차",
+        example: "A black hearse waited outside the church.",
+        exampleTranslation: "검은 영구차가 교회 밖에서 기다리고 있었어요.",
+      },
+      {
+        id: "mdc-v5",
+        term: "whirlpool",
+        partOfSpeech: "noun",
+        translation: "소용돌이",
+        example: "The small boat was pulled into the whirlpool.",
+        exampleTranslation: "작은 배는 소용돌이 속으로 끌려 들어갔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mdc-q1",
+        prompt: "What did the crew see tied to Moby Dick's back?",
+        options: [
+          "Ahab's lost leg.",
+          "The body of the Parsee, whom Ahab took to be the first hearse he had been promised.",
+          "Queequeg's coffin.",
+          "A flag from another ship.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The tangled lines had tied the Parsee's body to the whale's back, and Ahab decided that this was the first of the two hearses the Parsee had foretold.",
+      },
+      {
+        id: "mdc-q2",
+        prompt: "What did Moby Dick do after the line from Ahab's harpoon snapped?",
+        options: [
+          "He swam away and was never seen again.",
+          "He attacked only Ahab's boat and left the ship alone.",
+          "He dived deep and did not rise until the next day.",
+          "He turned and rammed the Pequod, which began to sink.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "The whale saw the ship's black hull as the cause of his pain, rushed at it and drove his forehead into her side, so the Pequod began to sink.",
+      },
+      {
+        id: "mdc-q3",
+        prompt: "How did Ahab die?",
+        options: [
+          "Sharks pulled him out of the boat.",
+          "He jumped into the sea to follow the whale down.",
+          "The harpoon line looped around his neck and swept him out of the boat, as the Parsee had foretold.",
+          "He went down with the Pequod.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "As Ahab threw his last harpoon, the flying line caught him around the neck and pulled him out of the boat; the Parsee had said that only rope could kill him.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-the-demeter",
+    title: "Dracula: The Demeter",
+    titleTranslation: "드라큘라: 데메테르호",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/dracula-the-demeter.svg",
+    source:
+      "Adapted from Chapter 7 (\"Cutting from 'The Dailygraph,' 8 August\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how the Demeter reached Whitby and what the captain's log revealed about her crew.",
+    paragraphs: [
+      [
+        {
+          id: "drd-1",
+          text: "One warm August evening the sky over the fishing town of Whitby glowed with the colours of sunset, and an old fisherman on the East Cliff warned that a sudden storm was coming.",
+          translation:
+            "8월의 어느 따뜻한 저녁, 어촌 마을 휘트비의 하늘이 노을빛으로 물들었고, 이스트 클리프에 있던 늙은 어부는 갑작스러운 폭풍이 오고 있다고 경고했어요.",
+        },
+        {
+          id: "drd-2",
+          text: "By midnight the air was still and heavy, and the only ship in sight was a foreign schooner with every sail set, whose officers, the watchers on the cliff agreed, must be foolish to leave so much canvas up.",
+          translation:
+            "자정 무렵 공기는 고요하고 무거웠으며, 눈에 보이는 배라고는 모든 돛을 활짝 펼친 외국 스쿠너 한 척뿐이었는데, 절벽 위에서 지켜보던 사람들은 저렇게 많은 돛을 펼쳐 둔 선원들이 어리석다고 입을 모았어요.",
+        },
+        {
+          id: "drd-3",
+          text: "Then the storm broke without warning, and within minutes the calm sea had become a roaring monster, with waves flying over the piers and cold white fog rolling in like ghosts.",
+          translation:
+            "그러다 아무 경고도 없이 폭풍이 몰아쳤고, 몇 분 만에 잔잔하던 바다는 으르렁대는 괴물로 변해 파도가 부두 위로 날아올랐으며 차가운 하얀 안개가 유령처럼 밀려들었어요.",
+        },
+      ],
+      [
+        {
+          id: "drd-4",
+          text: "The crowd on the cliff turned a new searchlight on the sea and saw the schooner racing toward the harbour, and they shuddered, for between her and the harbour mouth lay a reef where many good ships had been wrecked.",
+          translation:
+            "절벽 위의 사람들은 새로 설치한 탐조등을 바다로 돌렸다가 스쿠너가 항구를 향해 질주하는 것을 보고 몸서리쳤는데, 배와 항구 입구 사이에 수많은 훌륭한 배들이 난파했던 암초가 가로놓여 있었기 때문이에요.",
+        },
+        {
+          id: "drd-5",
+          text: "But when the fog tore apart, the ship leaped between the two piers and, to everyone's amazement, reached the safety of the harbour with all her sails still set.",
+          translation:
+            "하지만 안개가 갈라지자 배는 두 부두 사이로 뛰어들듯 들어와 모든 돛을 단 채로 모두가 놀라워하는 가운데 안전한 항구에 닿았어요.",
+        },
+        {
+          id: "drd-6",
+          text: "The searchlight followed her, and a horrible sight was revealed: lashed to the ship's wheel, with his head hanging, was a dead man, and no one else could be seen on deck.",
+          translation:
+            "탐조등이 배를 따라가자 끔찍한 광경이 드러났어요. 고개를 떨군 죽은 남자가 배의 키에 묶여 있었고, 갑판에는 그 밖에 아무도 보이지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "drd-7",
+          text: "The schooner drove up onto the sand of Tate Hill Pier, and at the instant she touched land an enormous dog sprang up from below, leapt onto the beach, and raced up toward the churchyard on the cliff until the darkness swallowed it.",
+          translation:
+            "스쿠너가 테이트 힐 부두의 모래톱으로 올라앉는 순간 거대한 개 한 마리가 갑판 아래에서 튀어나와 해변으로 뛰어내려 절벽 위 교회 묘지 쪽으로 달려가더니 어둠 속으로 삼켜지듯 사라졌어요.",
+        },
+        {
+          id: "drd-8",
+          text: "The coastguard who climbed aboard first found that the dead man's hands were tied to a spoke of the wheel, with a crucifix wound in the cords between his hands and the wood.",
+          translation:
+            "가장 먼저 배에 오른 해안 경비원은 죽은 남자의 두 손이 키의 손잡이에 묶여 있고 손과 나무 사이 끈에 십자가상이 감겨 있는 것을 발견했어요.",
+        },
+        {
+          id: "drd-9",
+          text: "A doctor said the man must have been dead for two days, and in his pocket was a tightly corked bottle that held a roll of paper, the last pages of the ship's log.",
+          translation:
+            "의사는 그 남자가 이틀은 죽어 있었을 것이라고 했고, 주머니에는 마개를 단단히 닫은 병이 하나 있었는데 그 안에는 항해 일지의 마지막 장이 둘둘 말려 들어 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "drd-10",
+          text: "The next day it was learned that the ship, the Demeter, had sailed from Varna on the Black Sea with a cargo of silver sand and a number of great wooden boxes filled with earth, which were addressed to a Whitby solicitor.",
+          translation:
+            "다음 날 그 배가 흑해의 바르나에서 출항한 데메테르호이며, 은빛 모래와 흙을 가득 채운 커다란 나무 상자 여러 개를 싣고 있었고 그 상자들이 휘트비의 변호사 앞으로 부쳐진 것이라는 사실이 밝혀졌어요.",
+        },
+        {
+          id: "drd-11",
+          text: "In the captain's log, the crew grew frightened as they passed through the Aegean and would say only that something was aboard the ship, and they crossed themselves.",
+          translation:
+            "선장의 일지에 따르면 선원들은 에게해를 지나면서 겁에 질려 배에 무언가가 타고 있다고만 말했고 성호를 그었어요.",
+        },
+        {
+          id: "drd-12",
+          text: "Then men began to vanish from their watches one by one, and when a sailor said he had seen a tall, thin stranger walking the deck, a search of the whole ship found no one.",
+          translation:
+            "그러다 선원들이 당번을 서던 중에 한 명씩 사라지기 시작했고, 한 선원이 키가 크고 마른 낯선 사람이 갑판을 걷는 것을 보았다고 하자 배 전체를 수색했지만 아무도 찾지 못했어요.",
+        },
+      ],
+      [
+        {
+          id: "drd-13",
+          text: "By the time the ship was off England, only the captain and his first mate were left, working her through thick fog and running before the wind because they dared not lower the sails.",
+          translation:
+            "배가 영국 앞바다에 이를 무렵에는 선장과 일등항해사만 남았고, 두 사람은 감히 돛을 내리지 못한 채 바람을 등지고 짙은 안개 속을 헤쳐 나갔어요.",
+        },
+        {
+          id: "drd-14",
+          text: "The mate, who swore he had seen a pale, tall figure that his knife passed through like air, went below to search the boxes, came up screaming, and threw himself into the sea.",
+          translation:
+            "칼이 공기처럼 통과해 버리는 창백하고 키 큰 형체를 보았다고 맹세하던 일등항해사는 상자들을 뒤지러 선창으로 내려갔다가 비명을 지르며 올라와 바다로 몸을 던졌어요.",
+        },
+        {
+          id: "drd-15",
+          text: "Alone in the fog, the captain wrote that he had seen \"It\" himself, and that, rather than abandon his ship, he would tie his hands to the wheel with a crucifix, which the creature dared not touch, so that he could save his soul and keep his honour as a captain.",
+          translation:
+            "안개 속에 홀로 남은 선장은 자신도 \"그것\"을 보았다고 적었고, 배를 버리느니 그것이 감히 손대지 못하는 십자가상과 함께 두 손을 키에 묶어 영혼을 지키고 선장으로서의 명예를 지키겠다고 썼어요.",
+        },
+      ],
+      [
+        {
+          id: "drd-16",
+          text: "The inquest could not decide what had happened, and the people of Whitby, who thought the captain a hero, gave him a great funeral, with more than a hundred boats following his coffin.",
+          translation:
+            "검시 심문에서도 무슨 일이 있었는지 결론을 내리지 못했고, 선장을 영웅이라 여긴 휘트비 사람들은 백 척이 넘는 배가 관을 뒤따르는 성대한 장례식을 치러 주었어요.",
+        },
+        {
+          id: "drd-17",
+          text: "The great dog was never found, and the boxes of earth were quietly carried off by the solicitor to whom they were addressed, and so the town closed the book on one more \"mystery of the sea,\" while Mina pasted the newspaper story into her journal.",
+          translation:
+            "그 커다란 개는 끝내 발견되지 않았고, 흙 상자들은 수취인인 변호사가 조용히 실어 갔으며, 그렇게 마을은 또 하나의 \"바다의 수수께끼\"를 덮어 두었고, 미나는 그 신문 기사를 자신의 일기장에 붙여 두었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drd-v1",
+        term: "schooner",
+        partOfSpeech: "noun",
+        translation: "스쿠너(돛대가 둘 이상인 범선)",
+        example: "A schooner sailed slowly into the harbour.",
+        exampleTranslation: "스쿠너 한 척이 천천히 항구로 들어왔어요.",
+      },
+      {
+        id: "drd-v2",
+        term: "reef",
+        partOfSpeech: "noun",
+        translation: "암초",
+        example: "The ship hit a reef near the coast.",
+        exampleTranslation: "그 배는 해안 근처에서 암초에 부딪혔어요.",
+      },
+      {
+        id: "drd-v3",
+        term: "lash",
+        partOfSpeech: "verb",
+        translation: "단단히 묶다",
+        example: "They lashed the boxes to the deck.",
+        exampleTranslation: "그들은 상자를 갑판에 단단히 묶었어요.",
+      },
+      {
+        id: "drd-v4",
+        term: "vanish",
+        partOfSpeech: "verb",
+        translation: "사라지다",
+        example: "The dog vanished into the darkness.",
+        exampleTranslation: "개는 어둠 속으로 사라졌어요.",
+      },
+      {
+        id: "drd-v5",
+        term: "inquest",
+        partOfSpeech: "noun",
+        translation: "검시 심문(사망 원인 조사)",
+        example: "The inquest could not explain the captain's death.",
+        exampleTranslation: "검시 심문은 선장의 죽음을 설명하지 못했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drd-q1",
+        prompt: "What did the crowd see on the deck of the schooner when the searchlight found her?",
+        options: [
+          "The whole crew waving for help.",
+          "A dead man tied to the ship's wheel, and no one else.",
+          "The captain asleep in a chair.",
+          "A large dog steering the ship.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The searchlight showed a dead man lashed to the wheel with his head hanging, and no other person could be seen on deck.",
+      },
+      {
+        id: "drd-q2",
+        prompt: "What was the Demeter carrying?",
+        options: [
+          "Silver sand and great wooden boxes filled with earth.",
+          "Coal and timber for the Whitby shipyards.",
+          "Wine and grain from Russia.",
+          "Passengers travelling from Varna to London.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The ship had sailed from Varna with silver sand and a number of great wooden boxes of earth addressed to a Whitby solicitor.",
+      },
+      {
+        id: "drd-q3",
+        prompt: "What did the captain say he would do to keep faith with his ship?",
+        options: [
+          "Lower the lifeboat and row to shore.",
+          "Signal to a passing steamer for help.",
+          "Hide in the hold until morning.",
+          "Tie his hands and a crucifix to the wheel so that he would not leave it.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "With the crew gone, the captain wrote that he would tie his hands to the wheel, together with the crucifix the creature dared not touch, to save his soul and keep his honour.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

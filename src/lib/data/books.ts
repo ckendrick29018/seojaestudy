@@ -54,6 +54,7 @@ export const BOOKS: Book[] = [
       "jane-eyre-orchard",
       "jane-eyre-wedding",
       "jane-eyre-leaving-thornfield",
+      "jane-eyre-married-him",
     ],
   },
   {
@@ -110,13 +111,19 @@ export const BOOKS: Book[] = [
       "dracula-the-castle",
       "dracula-the-three-women",
       "dracula-three-letters",
+      "dracula-the-demeter",
     ],
   },
   {
     id: "moby-dick",
     title: "Moby Dick",
     titleTranslation: "모비 딕",
-    chapters: ["moby-dick-loomings", "moby-dick-quarter-deck", "moby-dick-the-white-whale"],
+    chapters: [
+      "moby-dick-loomings",
+      "moby-dick-quarter-deck",
+      "moby-dick-the-white-whale",
+      "moby-dick-third-day",
+    ],
   },
   {
     id: "the-hound-of-the-baskervilles",

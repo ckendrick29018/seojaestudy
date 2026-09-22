@@ -1342,9 +1342,29 @@ the Szgany as travellers; the Sense and Sensibility chapter keeps the "another y
 Willoughby wronged deliberately vague; Moby Dick describes Ahab's "fit" and "obsession"
 rather than the source's "lunatic" language.
 
+**Wave 6 — written 2026-09-22** (same checklist; no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Jane Eyre → part 7 | Reader, I Married Him | Ch. 38 (Conclusion) | B2 |
+| Moby Dick → part 4 | The Third Day | Ch. 135 | B2 |
+| Dracula → part 5 | The Demeter | Ch. 7 | B2 |
+
+Sources: Gutenberg #1260, #2701, #345. Handling notes: the Jane Eyre chapter is the book's
+conclusion, and since no earlier lesson introduces the Rivers family (part 6 jumps from
+Thornfield to here) it adds one clause of context for Diana, Mary and St. John, and ends on
+St. John in India. The Moby Dick chapter keeps Ahab's death and the sinking but not
+graphically (the line "swept him from the boat"), names the harpooneers without the
+source's "pagan"/"barbarian" wording, and stops before the Epilogue (Ishmael's rescue).
+The Dracula chapter is the Whitby newspaper cutting plus the captain's log; it leaves out
+the corpse's wounds and the mastiff found dead the next morning, and it sits ahead of
+Ch. 5–6 (Mina and Lucy's letters, Mina's journal), which are still in the queue.
+Covers: a book with a ring, a whale's fluke over a whirlpool, and a schooner.
+
 **Remaining queue, suggested order:**
-1. Jane Eyre Ch. 38 ("Reader, I married him"); Moby Dick Ch. 135 ("The Chase — Third Day");
-   Dracula Ch. 5 (Mina's letters) or Ch. 7 (the Demeter).
+1. Moby Dick Epilogue ("And I only am escaped alone to tell thee" — short, could be its own
+   part 5); Dracula Ch. 5 (Mina and Lucy's letters) or Ch. 8 (Mina's journal, Lucy's
+   sleepwalking).
 2. Hound of the Baskervilles Ch. 6 ("Baskerville Hall"); Dr. Jekyll Ch. 10 second half
    (the transformation); Anne Ch. 21 ("A New Departure in Flavorings") or Ch. 37
    ("The Reaper Whose Name Is Death"); Alice Ch. 9 ("The Mock Turtle's Story"); Secret Garden and A Little

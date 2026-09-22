@@ -4080,5 +4080,68 @@
    78,
    88
   ]
+ },
+ {
+  "slug": "jane-eyre-married-him",
+  "aria": "Jane Eyre: Reader, I Married Him by Charlotte Brontë",
+  "footer": "CLASSICS",
+  "title": "Jane Eyre",
+  "tagline": "Reader, I Married Him",
+  "author": [
+   "CHARLOTTE BRONTË"
+  ],
+  "meta": [
+   "CHAPTER 38",
+   "1847"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M0 -12 C-14 -22 -34 -22 -50 -16 L-50 30 C-34 24 -14 24 0 34 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.16\"/>\n    <path d=\"M0 -12 C14 -22 34 -22 50 -16 L50 30 C34 24 14 24 0 34 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.22\"/>\n    <path d=\"M-42 -4 C-30 -8 -16 -7 -8 -2 M-42 6 C-30 2 -16 3 -8 8 M-42 16 C-30 12 -16 13 -8 18\" stroke-width=\"0.9\" opacity=\"0.55\"/>\n    <path d=\"M8 -2 C16 -7 30 -8 42 -4 M8 8 C16 3 30 2 42 6 M8 18 C16 13 30 12 42 16\" stroke-width=\"0.9\" opacity=\"0.55\"/>\n    <circle cx=\"0\" cy=\"-30\" r=\"8\" stroke-width=\"1.6\"/>\n    <path d=\"M-4 -37 L0 -43 L4 -37 Z\" stroke-width=\"1.2\" fill=\"#C9A66B\" fill-opacity=\"0.4\"/>\n  </g>",
+  "bbox": [
+   150,
+   133,
+   100,
+   77
+  ]
+ },
+ {
+  "slug": "moby-dick-third-day",
+  "aria": "Moby Dick: The Third Day by Herman Melville",
+  "footer": "CLASSICS",
+  "title": "Moby Dick",
+  "tagline": "The Third Day",
+  "author": [
+   "HERMAN MELVILLE"
+  ],
+  "meta": [
+   "CHAPTER 135",
+   "1851"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <ellipse cx=\"0\" cy=\"30\" rx=\"56\" ry=\"14\" stroke-width=\"1.3\" opacity=\"0.6\"/>\n    <ellipse cx=\"0\" cy=\"30\" rx=\"38\" ry=\"9\" stroke-width=\"1.3\" opacity=\"0.8\"/>\n    <ellipse cx=\"0\" cy=\"30\" rx=\"20\" ry=\"5\" stroke-width=\"1.4\"/>\n    <path d=\"M-3 8 L-5 30 M3 8 L5 30\" stroke-width=\"1.7\"/>\n    <path d=\"M-3 8 C-12 6 -30 0 -40 -16 C-28 -16 -14 -12 0 -8 C14 -12 28 -16 40 -16 C30 0 12 6 3 8 Z\" stroke-width=\"1.6\" fill=\"#C9A66B\" fill-opacity=\"0.22\"/>\n    <path d=\"M-24 -6 C-16 -6 -8 -5 -2 -3 M24 -6 C16 -6 8 -5 2 -3\" stroke-width=\"1\" opacity=\"0.6\"/>\n  </g>",
+  "bbox": [
+   144,
+   160,
+   112,
+   60
+  ]
+ },
+ {
+  "slug": "dracula-the-demeter",
+  "aria": "Dracula: The Demeter by Bram Stoker",
+  "footer": "CLASSICS",
+  "title": "Dracula",
+  "tagline": "The Demeter",
+  "author": [
+   "BRAM STOKER"
+  ],
+  "meta": [
+   "CHAPTER 7",
+   "WHITBY"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-46 20 L46 20 L36 34 L-36 34 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.14\"/>\n    <path d=\"M-12 20 L-12 -38 M18 20 L18 -26\" stroke-width=\"1.7\"/>\n    <path d=\"M-12 -34 L-12 14 L-42 14 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M18 -22 L18 14 L-6 14 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-12 -38 L-12 -44 M-12 -44 L-3 -41 L-12 -38\" stroke-width=\"1.1\"/>\n    <path d=\"M-52 44 q 13 -8 26 0 t 26 0 t 26 0 t 26 0\" stroke-width=\"1.3\" opacity=\"0.5\"/>\n  </g>",
+  "bbox": [
+   148,
+   132,
+   104,
+   92
+  ]
  }
 ]

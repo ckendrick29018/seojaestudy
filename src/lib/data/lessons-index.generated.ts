@@ -3243,5 +3243,53 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/little-women-dark-days.svg",
     "source": "Adapted from Chapter 18 (\"Dark Days\") of Louisa May Alcott's novel \"Little Women\" (first published 1868; long in the public domain, Project Gutenberg #37106). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 5
+  },
+  {
+    "slug": "jane-eyre-married-him",
+    "title": "Jane Eyre: Reader, I Married Him",
+    "titleTranslation": "제인 에어: 독자여, 나는 그와 결혼했어요",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Charlotte Brontë (1816–1855)",
+    "coverEmoji": "💍",
+    "coverImage": "/covers/jane-eyre-married-him.svg",
+    "source": "Adapted from Chapter 38 (\"Conclusion\") of Charlotte Brontë's novel \"Jane Eyre\" (first published 1847; long in the public domain, Project Gutenberg #1260). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "moby-dick-third-day",
+    "title": "Moby Dick: The Third Day",
+    "titleTranslation": "모비 딕: 사흘째 추격",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Herman Melville (1819–1891)",
+    "coverEmoji": "⚓",
+    "coverImage": "/covers/moby-dick-third-day.svg",
+    "source": "Adapted from Chapter 135 (\"The Chase.—Third Day\") of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "dracula-the-demeter",
+    "title": "Dracula: The Demeter",
+    "titleTranslation": "드라큘라: 데메테르호",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1847–1912)",
+    "coverEmoji": "⚓",
+    "coverImage": "/covers/dracula-the-demeter.svg",
+    "source": "Adapted from Chapter 7 (\"Cutting from 'The Dailygraph,' 8 August\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
   }
 ];
