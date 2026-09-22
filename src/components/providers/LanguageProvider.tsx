@@ -15,6 +15,22 @@ interface LanguageContextValue {
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 const STORAGE_KEY = "luminaread:ui-lang";
 
+/**
+ * True when the visitor's *primary* device/browser language is Korean. Used
+ * only to pick a first-visit default for direct (non-/ko) traffic — never to
+ * redirect — so it's fine that this is best-effort and client-only.
+ *
+ * Deliberately checks `navigator.language` (the single top preference) only,
+ * not the full `navigator.languages` list: a device can carry `ko` far down
+ * that list (an installed keyboard, a second locale) while the person's
+ * actual language is something else entirely, and defaulting those visitors
+ * to Korean chrome would be wrong far more often than it'd be right.
+ */
+function isKoreanDevice(): boolean {
+  if (typeof navigator === "undefined") return false;
+  return navigator.language?.toLowerCase().startsWith("ko") ?? false;
+}
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const [lang, setLangState] = useState<UiLang>(() => (isKoPath(pathname) ? "ko" : "en"));
@@ -27,13 +43,25 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   // when the first-loaded page is under /ko: that subtree's chrome language
   // is locked to Korean regardless of any stored preference (see the effect
   // below, and setLang/toggleLang further down).
+  //
+  // When there's no stored preference yet (a first visit) and the path isn't
+  // /ko, default to Korean if the device itself is set to Korean. This is a
+  // pure client-side default, not a redirect: the server-rendered HTML (what
+  // crawlers see) is unaffected, and a Korean searcher who lands via a /ko
+  // URL is already covered by the lock above regardless of device language.
+  // It only changes what a *direct* Korean-device visitor sees on first load.
   useEffect(() => {
     if (!isKoPath(pathname)) {
+      let stored: string | null = null;
       try {
-        const stored = window.localStorage.getItem(STORAGE_KEY);
-        if (stored === "en" || stored === "ko") setLangState(stored);
+        stored = window.localStorage.getItem(STORAGE_KEY);
       } catch {
         // localStorage unavailable (private mode, some WebViews) — fall back to default.
+      }
+      if (stored === "en" || stored === "ko") {
+        setLangState(stored);
+      } else if (isKoreanDevice()) {
+        setLangState("ko");
       }
     }
     setHydrated(true);
