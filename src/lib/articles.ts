@@ -379,7 +379,7 @@ export const ARTICLES: Article[] = [
       {
         heading: "Why it works when you do it right",
         paragraphs: [
-          "The idea behind it is the same one behind graded readers generally — comprehensible input. You learn a language fastest by understanding messages in it, slightly above what you can already produce yourself. Parallel text removes the one thing that normally breaks that process: getting stuck on a single word or sentence and losing the whole passage while you dig through a dictionary.",
+          "The idea behind it is the same one behind graded readers generally — [comprehensible input](/learn/comprehensible-input-explained). You learn a language fastest by understanding messages in it, slightly above what you can already produce yourself. Parallel text removes the one thing that normally breaks that process: getting stuck on a single word or sentence and losing the whole passage while you dig through a dictionary.",
           "Used well, the translation is a safety net, not a script. Most of your reading time is spent in the target language, guessing, half-understanding, and pattern-matching — exactly the effortful process that builds real comprehension. The translation just stops a single hard sentence from ending the session.",
         ],
       },
@@ -994,6 +994,313 @@ export const ARTICLES: Article[] = [
         heading: "Where to start",
         paragraphs: [
           "Pick your anchor moment today, not tomorrow, and read one short story there — something at or slightly below your level, so day one doesn't accidentally set an unsustainable bar. Browse the [library](/library) for something short enough to finish in one sitting.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "comprehensible-input-explained",
+    title: "Comprehensible Input: What It Is and Why It's the Fastest Way to Learn a Language",
+    description:
+      "The idea behind every method on this site, in plain terms: what comprehensible input is, why Krashen's input hypothesis holds up, and how to get more of it every day.",
+    lede: "One idea explains almost everything that works in language learning — understanding messages, slightly above what you can already produce.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/library", label: "Get some comprehensible input" },
+    keywords: [
+      "comprehensible input",
+      "what is comprehensible input",
+      "Krashen input hypothesis",
+      "comprehensible input method",
+      "i+1 language learning",
+    ],
+    sections: [
+      {
+        heading: "The one idea underneath everything else",
+        paragraphs: [
+          "Linguist Stephen Krashen's input hypothesis makes a simple, almost boring claim: you acquire a language by understanding messages in it — not by memorizing its rules, drilling its grammar, or forcing yourself to speak it before you're ready. Understanding comes first; the rest follows from enough of it, over enough time.",
+          "It's a strange idea to sit with, because it suggests most of what looks like \"studying\" a language — flashcard grinding in isolation, grammar tables, translation drills — is at best a supporting act, not the main event. The main event is simply understanding things, again and again, slightly beyond your current level.",
+        ],
+      },
+      {
+        heading: "What \"i+1\" actually means",
+        paragraphs: [
+          "Krashen describes the ideal input as \"i+1\" — your current level (i), plus a small stretch (+1). Text that's exactly at your level teaches you little that's new; text far above it is just noise you can't decode. The productive zone sits close to what [95–98% known words](/learn/how-many-words-do-you-need-to-read) describes elsewhere on this site — comfortable enough to follow, new enough to grow from.",
+          "This is also why comprehensible input has to be personal, not universal. A graded reader that's i+1 for a true beginner is i+0 — dull, no growth — for someone two levels up, and i+4 — incomprehensible — for someone who hasn't started yet. The level label matters more than the content.",
+        ],
+      },
+      {
+        heading: "Why comprehension has to come before production",
+        paragraphs: [
+          "A common instinct is to force output early — speak from day one, write full sentences before you've read many. Krashen's model suggests this gets the order backward: fluent output is what emerges after enough input, not what produces it. Reading a story you understand is quietly training the exact patterns that later show up, seemingly out of nowhere, in something you say or write.",
+          "This doesn't mean output is useless — it has its own value, especially for confidence and for noticing gaps. It means input isn't a warm-up before the real learning starts. For reading specifically, it is the real learning.",
+        ],
+      },
+      {
+        heading: "Why this favors reading over almost anything else",
+        paragraphs: [
+          "Reading is comprehensible input you can control precisely: you choose the level, you set the pace, you can stop, reread, or look something up without anyone waiting on you. A conversation partner can't pause mid-sentence while you process; a book can. That controllability is exactly why extensive reading at the right level is one of the most efficient sources of comprehensible input there is — see [extensive reading vs intensive reading](/learn/extensive-reading-vs-intensive-reading) for how to actually do the reading part of this.",
+          "Listening while reading extends the same idea to your ears — see [listening and reading together](/learn/listening-while-reading-method) — because the theory doesn't care which sense the input arrives through, only that it's understood.",
+        ],
+      },
+      {
+        heading: "How to get more of it, deliberately",
+        paragraphs: ["Chasing comprehensible input on purpose comes down to three habits:"],
+        list: [
+          "Pick material you mostly already understand — check with the two-minute level test in [CEFR levels explained](/learn/cefr-levels-explained).",
+          "Unblock the sentences you don't understand with a translation, rather than abandoning the page — see [parallel text reading](/learn/parallel-text-reading-method).",
+          "Do it often. A little most days beats a lot once a week — the whole argument for [a daily reading streak](/learn/build-a-daily-reading-streak).",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open the [library](/library), filter to a level where a page feels comfortable rather than easy or overwhelming, and read. That's the whole method — understanding one more message than you could yesterday, repeated for as long as you keep showing up.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "korean-particles-explained",
+    title: "Korean Particles Explained: 은/는, 이/가, 을/를 and More",
+    description:
+      "The handful of small syllables that do most of Korean grammar's work — what each particle marks, how to tell 은/는 apart from 이/가, and how to actually learn them by reading.",
+    lede: "A few small syllables carry most of Korean's grammar. Once you can spot them, sentences stop being a blur.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 8,
+    practiceCta: { href: "/lesson/heungbu-and-nolbu", label: "Spot particles in 흥부와 놀부" },
+    keywords: [
+      "Korean particles explained",
+      "은는이가 차이 difference",
+      "Korean topic marker vs subject marker",
+      "을를 particle Korean",
+      "how to learn Korean particles",
+    ],
+    sections: [
+      {
+        heading: "Why particles matter more than word order",
+        paragraphs: [
+          "English leans on word order to show who's doing what — \"the dog bites the man\" and \"the man bites the dog\" mean opposite things purely because of position. Korean leans on particles instead: small syllables attached to the end of a noun that mark its grammatical role, which is why Korean word order can move around far more freely than English's.",
+          "That trade-off means a handful of particles do an enormous share of the grammatical work in every sentence you read. Learn to spot them and a sentence stops being a wall of syllables — it becomes a subject, an object, a topic, each one tagged.",
+        ],
+      },
+      {
+        heading: "은/는 — the topic marker",
+        paragraphs: [
+          "은 follows a consonant, 는 follows a vowel; both mark what the sentence is about, setting up a frame for the sentence rather than naming who did the action. \"저는 학생이에요\" (\"as for me, [I'm] a student\") leans on 는 to introduce the topic — me — before saying something about it.",
+          "It's often used for contrast, too: 는 can quietly imply \"this one, as opposed to something else\" even without a competing sentence nearby. Native speakers use it constantly; a beginner mostly just needs to recognize it as \"here's what we're talking about.\"",
+        ],
+      },
+      {
+        heading: "이/가 — the subject marker",
+        paragraphs: [
+          "이 follows a consonant, 가 follows a vowel; both mark the grammatical subject — literally who or what is doing something, or the focus of a new piece of information. \"고양이가 뛰어요\" is close to \"a cat is running\" — 가 marks 고양이 (cat) as the one doing the running.",
+          "은/는 vs 이/가 is the single most-asked question about Korean grammar, and the honest short answer is: 는 introduces a topic and sets up context, while 가 answers a question or introduces new information. \"저는 학생이에요\" (as for me, I'm a student) reads differently from \"제가 학생이에요\" (I'm the student — emphasis on me specifically, as if answering \"who is?\"). Reading enough real sentences teaches the feel of this faster than any rule can.",
+        ],
+      },
+      {
+        heading: "을/를 — the object marker",
+        paragraphs: [
+          "을 follows a consonant, 를 follows a vowel; together they mark the direct object — the thing an action is being done to. \"책을 읽어요\" is \"[someone] reads a book\" — 을 marks 책 (book) as the thing being read.",
+          "This is usually the easiest of the core particles to get comfortable with, because English also marks objects, just by position instead of a suffix. The habit to build is noticing 을/를 as confirmation of what verb is about to come, since Korean verbs land at the end of the sentence.",
+        ],
+      },
+      {
+        heading: "A few more worth knowing early",
+        paragraphs: ["Beyond the core three, these come up constantly in graded reading:"],
+        list: [
+          "에 — a place or time a state exists in (\"학교에 있어요\", is at school) or a destination (\"집에 가요\", going home).",
+          "에서 — where an action happens (\"학교에서 공부해요\", studies at school) or \"from\" (\"서울에서 왔어요\", came from Seoul).",
+          "와/과, 랑/이랑 — \"and\" or \"with\", connecting nouns or naming who an action is done with.",
+          "도 — \"also / too\", added onto a noun to include it alongside something already mentioned.",
+          "로/으로 — \"by means of\", \"toward\", or \"as\", depending on context.",
+        ],
+      },
+      {
+        heading: "The fastest way to actually learn them: notice, don't memorize",
+        paragraphs: [
+          "A grammar table of ten particles is forgettable in isolation. What sticks is meeting 는 and 가 and 를 hundreds of times each, attached to real nouns, inside sentences whose meaning you already mostly understand — which is exactly what happens over a stack of graded stories. Tap a particle-marked word in the reader and the offline dictionary folds the particle off automatically to show you the base word, so you can watch the pattern without it blocking comprehension. See [how to learn Korean by reading](/learn/learn-korean-by-reading) for the fuller method these particles fit into.",
+          "Don't aim to explain the rule before you can feel it. Most fluent speakers of any language could not state their own grammar's rules precisely — they just know what sounds right, because they've heard and read it thousands of times. Particles are learned the same way.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open a short story on the [Korean folktales shelf](/folktales) or the [Korean classics](/classics), and for one page, just notice every 은/는/이/가/을/를 you see — don't translate the whole sentence, just spot the particle and guess its job. That single habit, repeated across a few stories, teaches more than any table.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "korean-folktales-for-language-learners",
+    title: "Korean Folktales for Language Learners: Where to Start",
+    description:
+      "Traditional Korean stories — not translations of Western tales — retold in simple Korean and English. Why folktales make excellent reading practice, and eight worth starting with.",
+    lede: "Before there was a Korean Cinderella retold for learners, there was 콩쥐팥쥐 — the real thing, older and stranger and worth reading on its own terms.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 8,
+    practiceCta: { href: "/folktales", label: "Browse Korean folktales" },
+    keywords: [
+      "Korean folktales for beginners",
+      "traditional Korean stories in English",
+      "learn Korean through folktales",
+      "Korean fairy tales reading practice",
+      "Korean folk stories retold",
+    ],
+    sections: [
+      {
+        heading: "Real Korean stories, not translations of Western ones",
+        paragraphs: [
+          "Most \"Korean reading practice\" material for learners is secretly Western: Cinderella or Snow White, translated into Korean so you can read something familiar. That's a legitimate starting point — [it's covered elsewhere](/learn/best-classic-novels-to-learn-korean) — but it also means you never actually meet the stories Korean children grow up on.",
+          "Traditional Korean folktales are a different, older tradition: tiger spirits, dutiful stepdaughters, clever peasants outwitting greedy landlords, moral lessons wrapped in stories retold for centuries before anyone wrote them down. Reading them is reading practice and a small window into the culture at the same time.",
+        ],
+      },
+      {
+        heading: "Why folktales make unusually good reading practice",
+        paragraphs: [
+          "Folktales share a set of traits that happen to be exactly what a language learner wants: short, self-contained, built from repeating patterns (three brothers, three tasks, three wishes), concrete everyday vocabulary, and endings that resolve cleanly. Nothing is left ambiguous the way literary fiction sometimes is — you always know, by the last line, whether the greedy brother got what was coming to him.",
+          "That repetition is a genuine teaching tool, not just a storytelling habit. When a tale repeats the same phrase three times with small variations, you're getting the same vocabulary and grammar pattern three times in one short story — close to free spaced repetition built into the text itself.",
+        ],
+      },
+      {
+        heading: "1. 흥부와 놀부 (Heungbu and Nolbu) — A2",
+        paragraphs: [
+          "Two brothers, one kind and poor, one greedy and rich, and a swallow whose broken leg changes both their fortunes. Simple, repetitive structure, and one of the most famous stories in Korea — the natural first folktale to read. [Read it](/lesson/heungbu-and-nolbu).",
+        ],
+      },
+      {
+        heading: "2. Tokgabi and the Kind Maid — A1",
+        paragraphs: [
+          "A dokkaebi — Korea's mischievous, magical folklore spirit, not quite a goblin and not quite a ghost — rewards a maid's kindness. The gentlest entry point on the shelf, and a good introduction to a creature that turns up across Korean folklore. [Read it](/lesson/tokgabi-and-the-kind-maid).",
+        ],
+      },
+      {
+        heading: "3. 콩쥐와 팥쥐 (Kongjwi and Patjwi) — A2",
+        paragraphs: [
+          "A kind stepdaughter, a cruel stepmother, and a magical helper who gets her to the festival after all — Korea's own version of a story shape you already know, with its own distinct details. [Read it](/lesson/kongjwi-and-patjwi).",
+        ],
+      },
+      {
+        heading: "4. 해와 달이 된 오누이 (The Sun and the Moon) — A2",
+        paragraphs: [
+          "Two siblings hide from a tiger disguised as their mother, then escape up a rope from the sky and become the sun and the moon. Vivid, a little frightening, and one of the best-known origin tales in Korea. [Read it](/lesson/the-sun-and-the-moon).",
+        ],
+      },
+      {
+        heading: "5. The Unmannerly Tiger — A2",
+        paragraphs: [
+          "A tiger claims he's owed respect as the forest's elder, and a clever rabbit humbles him instead. Korean folklore's tigers are constantly being outwitted by smaller animals — this is a classic of that pattern. [Read it](/lesson/the-unmannerly-tiger).",
+        ],
+      },
+      {
+        heading: "6. 심청전 (Sim Cheong) — B1",
+        paragraphs: [
+          "A blind father, a daughter who sells herself to sailors to pay for his cure, and a king who falls in love with her after the sea returns her. One of Korea's most famous stories of filial devotion, originally a sung pansori narrative before it was ever written down. [Read it](/lesson/sim-cheong).",
+        ],
+      },
+      {
+        heading: "7. 춘향전 (Chunhyang) — B1",
+        paragraphs: [
+          "A magistrate's son and a low-born woman fall in love in secret, tested when a corrupt new official demands she become his. Korea's best-known classical love story, still adapted into film and opera today. [Read it](/lesson/chunhyang).",
+        ],
+      },
+      {
+        heading: "8. 홍길동전 (Hong Gildong) — B1",
+        paragraphs: [
+          "An illegitimate son, forbidden from even calling his own father \"father,\" becomes an outlaw leader who steals from corrupt officials. Traditionally credited as the first Korean novel written in Hangul rather than Chinese characters — literary history as well as a good story. [Read it](/lesson/hong-gildong).",
+        ],
+      },
+      {
+        heading: "How to read them, the same way as any graded story",
+        paragraphs: [
+          "Nothing changes about the method here — read the tale straight through for the story first, switch the language toggle to 한국어 to read it in Korean directly, and tap the globe on a sentence only when it truly blocks you. See [how to learn Korean by reading](/learn/learn-korean-by-reading) for the fuller version of this, and [Korean particles explained](/learn/korean-particles-explained) for the small grammar markers that show up constantly in this kind of storytelling.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Start with [흥부와 놀부](/lesson/heungbu-and-nolbu) even if A1 feels almost too easy — the point of a first folktale is to get the flavor of how these stories are told, not to be challenged by the vocabulary. Then browse the [full folktales shelf](/folktales) for what's been added since.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "how-long-to-learn-a-language-by-reading",
+    title: "How Long Does It Take to Learn a Language by Reading?",
+    description:
+      "A realistic timeline for reading fluency at each CEFR level, why the honest answer depends more on consistency than talent, and how to set a pace you'll actually keep.",
+    lede: "Not as long as you think for the first real payoff — and longer than you'd like for the last one.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/a1", label: "Start at A1 today" },
+    keywords: [
+      "how long to learn a language by reading",
+      "how long to become fluent",
+      "language learning timeline",
+      "how long to reach B1 B2",
+      "realistic language learning expectations",
+    ],
+    sections: [
+      {
+        heading: "The honest short answer: it depends on the target, not on you",
+        paragraphs: [
+          "\"How long will this take\" is really three different questions wearing one sentence: how long until reading stops being exhausting (weeks), how long until you can read real short stories comfortably (months), and how long until you can pick up an unabridged novel (longer, and it varies a lot by language and how close it is to one you already know). Nobody can give you one number for \"fluent\" because fluent means something different at every one of those points.",
+          "What research on language acquisition does agree on is that consistency predicts outcomes far better than raw hours logged in one sitting, or any notion of natural talent. Twenty minutes a day for a year comfortably beats ten hours crammed into one weekend a month, even though the total time is similar.",
+        ],
+      },
+      {
+        heading: "A rough timeline by CEFR level",
+        paragraphs: [
+          "These are wide ranges, not promises — closely related languages move faster than distant ones, and daily minutes matter more than any calendar figure. As a rough shape, reading twenty to thirty minutes most days:",
+        ],
+        list: [
+          "A1, first steps — a few weeks. Short, direct sentences stop feeling like decoding.",
+          "A2, everyday language — a couple of months in. Simple stories read at a real pace, not word by word.",
+          "B1, the turning point — several months to about a year. Whole short stories, following motive and feeling, not just plot.",
+          "B2, reading for real — a year or more. Lightly adapted classic literature, where tone and irony land, not just the surface story.",
+        ],
+      },
+      {
+        heading: "Why the plateau in the middle is normal",
+        paragraphs: [
+          "Progress from A1 to A2 feels fast because almost everything you meet is new — every session is visibly, measurably easier than the last. Somewhere in B1, that feeling fades: sessions stop feeling like breakthroughs and start feeling like maintenance, even though real growth is still happening underneath. This is usually where learners quietly quit, mistaking a plateau in felt progress for an actual stall.",
+          "The fix isn't a different method — it's noticing the plateau for what it is and reading through it anyway. Rereading an old story from a few months back, one you remember struggling with, is the fastest way to see past the plateau: what used to take real effort now reads almost by itself, even if today's new material still feels hard.",
+        ],
+      },
+      {
+        heading: "What actually moves the timeline",
+        paragraphs: ["Three things shorten it more than anything else:"],
+        list: [
+          "Consistency over intensity — daily short sessions beat occasional long ones, for the reasons behind [a daily reading streak](/learn/build-a-daily-reading-streak).",
+          "Reading at the right level — too hard and you're decoding, not acquiring; see [how to find your level](/learn/cefr-levels-explained).",
+          "Volume — the single best predictor. A learner who finishes fifty short graded stories has simply met the common words far more times than one who reads five long, hard ones.",
+        ],
+      },
+      {
+        heading: "What doesn't move it, no matter how it feels",
+        paragraphs: [
+          "Grammar study in isolation feels productive — you can point at what you learned — but it rarely shortens the timeline to comfortable reading the way volume does, because [comprehensible input](/learn/comprehensible-input-explained), not rule memorization, is what the acquisition process actually runs on. A little explicit grammar helps you notice patterns faster; it's not a substitute for meeting those patterns in real sentences, repeatedly.",
+          "Neither does switching methods every few weeks looking for a faster one. The honest bottleneck for almost every learner isn't which method they're using — it's whether they're still doing it in three months.",
+        ],
+      },
+      {
+        heading: "Setting a pace you'll actually keep",
+        paragraphs: [
+          "Pick a daily amount you could sustain even on a bad week — one short story, most days — rather than the ambitious pace you can manage this particular motivated week. The timeline above assumes you're still reading in six months; an intense week followed by a two-month gap resets more than it seems to save.",
+          "If you want a number to aim at rather than just a range: read one story almost every day for three months, and check your comprehension against a story you couldn't get through on day one. That comparison, not a calendar, is the real answer to \"how long.\"",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "If you're not reading daily yet, that's the entire lever — not level, not method, just consistency. Start at [A1](/classics/a1) even if you suspect you're past it; finishing something easily on day one is worth more than struggling through something impressive.",
         ],
       },
     ],
