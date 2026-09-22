@@ -44429,6 +44429,446 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "alice-in-wonderland-mock-turtle",
+    title: "Alice's Adventures in Wonderland: The Mock Turtle's Story",
+    titleTranslation: "이상한 나라의 앨리스: 가짜 거북의 이야기",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🐢",
+    coverImage: "/covers/alice-in-wonderland-mock-turtle.svg",
+    source:
+      "Adapted from Chapter 9 (\"The Mock Turtle's Story\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain who the Mock Turtle is and what he was so sad about.",
+    paragraphs: [
+      [
+        {
+          id: "amt-1",
+          text: "The Duchess linked her arm through Alice's and said, \"I am so glad to see you again, my dear!\" in a surprisingly sweet voice.",
+          translation:
+            "공작 부인은 앨리스와 팔짱을 끼며 놀랍도록 다정한 목소리로 \"다시 만나서 정말 기뻐요, 얘야!\" 하고 말했어요.",
+        },
+        {
+          id: "amt-2",
+          text: "As they walked, the Duchess rested her sharp little chin on Alice's shoulder and said, \"Everything has a moral, if only you can find it.\"",
+          translation:
+            "걸어가면서 공작 부인은 뾰족한 턱을 앨리스의 어깨에 얹고 \"모든 일에는 교훈이 있단다, 찾기만 하면 말이야.\" 하고 말했어요.",
+        },
+        {
+          id: "amt-3",
+          text: "She found a strange little moral for almost everything Alice said, until Alice began to feel quite worried.",
+          translation:
+            "공작 부인은 앨리스가 하는 말마다 이상한 교훈을 찾아냈고, 앨리스는 점점 걱정스러워지기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "amt-4",
+          text: "Suddenly the Queen appeared in front of them, and the Duchess's voice died away in the middle of a word.",
+          translation:
+            "갑자기 여왕이 그들 앞에 나타났고, 공작 부인의 목소리는 말을 하다 말고 뚝 끊겼어요.",
+        },
+        {
+          id: "amt-5",
+          text: "\"Either you or your head must be off!\" the Queen shouted, and the Duchess hurried away without another word.",
+          translation:
+            "\"너든 네 머리든 사라져야겠다!\" 하고 여왕이 소리치자 공작 부인은 아무 말도 못 하고 서둘러 자리를 떠났어요.",
+        },
+        {
+          id: "amt-6",
+          text: "The croquet game went on, with the Queen quarrelling and shouting \"Off with his head!\" so often that soon almost every player had been led away by the soldiers.",
+          translation:
+            "크로케 경기는 계속됐고, 여왕이 걸핏하면 다투며 \"저자의 목을 쳐라!\" 하고 외치는 바람에 곧 거의 모든 선수가 병사들에게 끌려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "amt-7",
+          text: "At last the Queen asked Alice, \"Have you seen the Mock Turtle yet? It's the thing Mock Turtle Soup is made from.\"",
+          translation:
+            "마침내 여왕은 앨리스에게 \"가짜 거북을 본 적 있느냐? 가짜 거북 수프를 만드는 재료란다.\" 하고 물었어요.",
+        },
+        {
+          id: "amt-8",
+          text: "Alice had never heard of it, so the Queen led her to a Gryphon sleeping in the sun and said, \"Take this girl to hear the Mock Turtle's history,\" then hurried off.",
+          translation:
+            "앨리스는 들어 본 적이 없다고 했고, 여왕은 앨리스를 햇볕 아래 잠든 그리핀에게 데려가 \"이 아이를 데려가서 가짜 거북의 이야기를 들려줘라.\" 하고 말한 뒤 서둘러 가 버렸어요.",
+        },
+        {
+          id: "amt-9",
+          text: "Once the Queen was gone, the Gryphon chuckled and said, \"It's all her fancy — they never really execute anybody, you know.\"",
+          translation:
+            "여왕이 사라지자 그리핀은 킥킥 웃으며 \"다 여왕님 혼자만의 생각일 뿐이야. 사실 아무도 진짜로 처형하지는 않거든.\" 하고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "amt-10",
+          text: "They soon found the Mock Turtle sitting alone on a rock, sighing so sadly that Alice felt sorry for him at once.",
+          translation:
+            "그들은 곧 바위 위에 홀로 앉아 너무나 슬프게 한숨짓는 가짜 거북을 발견했고, 앨리스는 곧바로 그가 안쓰럽게 느껴졌어요.",
+        },
+        {
+          id: "amt-11",
+          text: "\"This young lady wants to hear your history,\" said the Gryphon, and the Mock Turtle answered in a deep, hollow voice, \"Sit down, and don't say a word until I've finished.\"",
+          translation:
+            "\"이 아가씨가 네 이야기를 듣고 싶어 한대.\" 하고 그리핀이 말하자 가짜 거북은 깊고 공허한 목소리로 \"앉아라, 그리고 내가 끝낼 때까지 한마디도 하지 마.\" 하고 대답했어요.",
+        },
+        {
+          id: "amt-12",
+          text: "\"Once,\" he began at last, with a deep sigh, \"I was a real Turtle,\" and then he cried for a long while before he could say anything more.",
+          translation:
+            "\"옛날에,\" 그가 깊은 한숨과 함께 마침내 입을 열었어요, \"나는 진짜 거북이었단다.\" 그러고는 한참을 울고 나서야 더 이야기를 이어 갈 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "amt-13",
+          text: "\"When we were young, we went to school under the sea,\" he said. \"The old master was a real turtle, but we called him the Tortoise, because he taught us.\"",
+          translation:
+            "\"우리가 어릴 때는 바닷속 학교에 다녔지.\" 그가 말했어요. \"늙은 선생님은 진짜 거북이였지만, 우리를 가르쳤기 때문에 '토터스(가르치는 거북)'라고 불렀단다.\"",
+        },
+        {
+          id: "amt-14",
+          text: "He counted the strange subjects on his flippers: Reeling and Writhing, and then Ambition, Distraction, Uglification, and Derision.",
+          translation:
+            "그는 지느러미를 하나씩 꼽으며 이상한 과목들을 나열했어요. 비틀비틀과 몸부림, 그리고 야망, 헷갈리기, 못생기게 하기, 놀리기까지.",
+        },
+        {
+          id: "amt-15",
+          text: "There was also Mystery, old and new, and Seaography, and a lesson called Fainting in Coils, taught once a week by an old conger-eel.",
+          translation:
+            "그 밖에도 신비학(옛것과 새것), 바다지리학, 그리고 늙은 붕장어가 일주일에 한 번 가르치는 '몸을 말고 기절하기'라는 수업도 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "amt-16",
+          text: "\"And how many hours of lessons a day?\" asked Alice. \"Ten hours the first day,\" said the Mock Turtle, \"nine the next, and so on.\"",
+          translation:
+            "\"하루에 수업을 몇 시간이나 들었어요?\" 앨리스가 물었어요. \"첫날은 열 시간,\" 가짜 거북이 말했어요. \"다음 날은 아홉 시간, 그런 식으로 줄어들었지.\"",
+        },
+        {
+          id: "amt-17",
+          text: "\"That's why they're called lessons,\" the Gryphon explained, \"because they lessen from day to day!\" — and before Alice could ask what happened on the twelfth day, he had already changed the subject to games.",
+          translation:
+            "\"그래서 '레슨(수업)'이라고 부르는 거야.\" 그리핀이 설명했어요. \"날마다 '레슨(줄어듦)'하니까 말이지!\" 앨리스가 열두 번째 날에는 어떻게 됐는지 묻기도 전에, 그리핀은 벌써 놀이 이야기로 화제를 돌려 버렸어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "amt-v1",
+        term: "moral",
+        partOfSpeech: "noun",
+        translation: "교훈",
+        example: "She believes every story has a moral.",
+        exampleTranslation: "그녀는 모든 이야기에는 교훈이 있다고 믿어요.",
+      },
+      {
+        id: "amt-v2",
+        term: "chuckle",
+        partOfSpeech: "verb",
+        translation: "킥킥 웃다",
+        example: "He chuckled quietly at the joke.",
+        exampleTranslation: "그는 그 농담에 조용히 킥킥 웃었어요.",
+      },
+      {
+        id: "amt-v3",
+        term: "execute",
+        partOfSpeech: "verb",
+        translation: "처형하다",
+        example: "The King secretly pardoned everyone he had sentenced to be executed.",
+        exampleTranslation: "왕은 처형하라고 선고했던 모두를 몰래 용서해 주었어요.",
+      },
+      {
+        id: "amt-v4",
+        term: "sigh",
+        partOfSpeech: "verb",
+        translation: "한숨을 쉬다",
+        example: "She sighed and looked out the window.",
+        exampleTranslation: "그녀는 한숨을 쉬며 창밖을 바라보았어요.",
+      },
+      {
+        id: "amt-v5",
+        term: "lessen",
+        partOfSpeech: "verb",
+        translation: "줄어들다, 줄이다 (발음이 'lesson(수업)'과 비슷해서 말장난에 쓰여요)",
+        example: "The pain began to lessen after an hour.",
+        exampleTranslation: "한 시간이 지나자 통증이 줄어들기 시작했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "amt-q1",
+        prompt: "Why did the Duchess suddenly hurry away?",
+        options: [
+          "She was tired of walking.",
+          "The Queen threatened to have her head cut off.",
+          "She wanted to find the Mock Turtle.",
+          "Alice asked her to leave.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Queen appeared and warned the Duchess that either she or her head \"must be off,\" so the Duchess left at once.",
+      },
+      {
+        id: "amt-q2",
+        prompt: "What did the Gryphon say about the Queen's threats to cut off people's heads?",
+        options: [
+          "He said the Queen was very cruel.",
+          "He said nobody was ever really executed — it was all just her fancy.",
+          "He said the soldiers refused to do it.",
+          "He said Alice should run away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The Gryphon chuckled and told Alice that no one was ever really executed — it was only something the Queen liked to imagine.",
+      },
+      {
+        id: "amt-q3",
+        prompt: "Why did the Mock Turtle and his classmates call their old teacher \"the Tortoise\"?",
+        options: [
+          "Because he really was a tortoise.",
+          "Because he moved very slowly.",
+          "Because he taught them.",
+          "Because he had a hard shell.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Even though the old teacher was a real turtle, the students called him \"the Tortoise\" as a joke, because — as the Mock Turtle explained — \"he taught us.\"",
+      },
+    ],
+  },
+  {
+    slug: "anne-of-green-gables-liniment-cake",
+    title: "Anne of Green Gables: The Liniment Cake",
+    titleTranslation: "빨간 머리 앤: 물약 케이크",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "L. M. Montgomery (1874–1942)",
+    coverEmoji: "🎂",
+    coverImage: "/covers/anne-of-green-gables-liniment-cake.svg",
+    source:
+      "Adapted from Chapter 21 (\"A New Departure in Flavorings\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, explain what went wrong with Anne's cake, and how Mrs. Allan responded.",
+    paragraphs: [
+      [
+        {
+          id: "alc-1",
+          text: "Marilla decided to invite the new minister, Mr. Allan, and his wife to tea, and Anne begged to be allowed to bake a layer cake for the occasion.",
+          translation:
+            "마릴라는 새로 온 목사님인 앨런 씨 부부를 차 모임에 초대하기로 했고, 앤은 이 특별한 날을 위해 레이어 케이크를 만들게 해 달라고 졸랐어요.",
+        },
+        {
+          id: "alc-2",
+          text: "Anne adored Mrs. Allan more than anyone else in Avonlea, and she wanted the cake to be perfect.",
+          translation:
+            "앤은 에이번리의 그 누구보다도 앨런 부인을 좋아했고, 케이크가 완벽하게 나오기를 바랐어요.",
+        },
+        {
+          id: "alc-3",
+          text: "On Wednesday morning she baked it with great care, and when it rose light and golden, she was overjoyed.",
+          translation:
+            "수요일 아침 앤은 온갖 정성을 다해 케이크를 구웠고, 케이크가 가볍고 노릇노릇하게 부풀어 오르자 뛸 듯이 기뻐했어요.",
+        },
+      ],
+      [
+        {
+          id: "alc-4",
+          text: "She filled it with layers of ruby-red jelly and imagined Mrs. Allan asking for a second slice.",
+          translation:
+            "앤은 보석처럼 빨간 젤리를 층층이 채워 넣고서, 앨런 부인이 한 조각 더 달라고 하는 모습을 상상했어요.",
+        },
+        {
+          id: "alc-5",
+          text: "That evening, Anne decorated the tea table with roses and ferns, and everyone agreed it looked lovely.",
+          translation:
+            "그날 저녁 앤은 장미와 고사리로 다과상을 꾸몄고, 모두가 그 모습이 아름답다고 입을 모았어요.",
+        },
+        {
+          id: "alc-6",
+          text: "Even shy Matthew came to the table in his best clothes, determined not to embarrass Anne.",
+          translation:
+            "수줍음 많은 매슈조차 앤을 부끄럽게 만들지 않으려고 가장 좋은 옷을 차려입고 자리에 함께했어요.",
+        },
+      ],
+      [
+        {
+          id: "alc-7",
+          text: "Everything went well until Anne's cake was finally passed around the table.",
+          translation:
+            "모든 것이 순조로웠지만, 마침내 앤의 케이크가 식탁 위로 돌려지면서 상황이 달라졌어요.",
+        },
+        {
+          id: "alc-8",
+          text: "Mrs. Allan took one bite, and a very strange look crossed her face — but she said nothing and kept eating politely.",
+          translation:
+            "앨런 부인은 한 입 베어 물었고, 얼굴에 아주 묘한 표정이 스쳤지만 아무 말 없이 계속 예의 바르게 먹었어요.",
+        },
+        {
+          id: "alc-9",
+          text: "Marilla tasted it too, and cried out at once, \"Anne Shirley! What on earth did you put into this cake?\"",
+          translation:
+            "마릴라도 케이크를 맛보고는 곧바로 소리쳤어요. \"앤 셜리! 대체 이 케이크에 뭘 넣은 거니?\"",
+        },
+        {
+          id: "alc-10",
+          text: "\"Nothing but vanilla, just like the recipe said!\" Anne answered, her face turning red with worry.",
+          translation:
+            "\"레시피에 쓰인 대로 바닐라만 넣었는걸요!\" 앤이 걱정스러운 얼굴로 새빨개져서 대답했어요.",
+        },
+      ],
+      [
+        {
+          id: "alc-11",
+          text: "Marilla sent Anne to fetch the bottle, and when she smelled it, her face turned pale.",
+          translation:
+            "마릴라는 앤에게 그 병을 가져오라고 했고, 냄새를 맡아 보더니 얼굴이 하얗게 질렸어요.",
+        },
+        {
+          id: "alc-12",
+          text: "\"This isn't vanilla — it's anodyne liniment!\" Marilla said. \"I broke the liniment bottle last week and poured what was left into an old, empty vanilla bottle. I should have warned you.\"",
+          translation:
+            "\"이건 바닐라가 아니라 물약이잖니!\" 마릴라가 말했어요. \"지난주에 물약 병을 깨뜨려서 남은 걸 빈 바닐라 병에 부어 놓았거든. 미리 말해 줬어야 했는데.\"",
+        },
+        {
+          id: "alc-13",
+          text: "Anne had a bad cold and simply hadn't been able to smell the difference.",
+          translation:
+            "앤은 심한 감기에 걸려 있어서 냄새의 차이를 전혀 알아채지 못했던 거예요.",
+        },
+      ],
+      [
+        {
+          id: "alc-14",
+          text: "Ashamed and heartbroken, Anne ran up to her room and threw herself on the bed, crying as if she would never stop.",
+          translation:
+            "부끄럽고 마음이 무너진 앤은 자기 방으로 뛰어 올라가 침대에 몸을 던지고는 그칠 줄 모르게 울었어요.",
+        },
+        {
+          id: "alc-15",
+          text: "\"I'm disgraced forever,\" she sobbed to herself. \"Everyone in Avonlea will hear about it, and Mrs. Allan will never want to see me again.\"",
+          translation:
+            "\"난 이제 영영 망신살이 뻗쳤어.\" 앤이 흐느끼며 혼잣말했어요. \"에이번리 사람들이 다 알게 될 거고, 앨런 부인도 다시는 날 보고 싶어 하지 않을 거야.\"",
+        },
+      ],
+      [
+        {
+          id: "alc-16",
+          text: "A moment later, Anne heard a light step on the stairs — it was Mrs. Allan herself, coming to comfort her.",
+          translation:
+            "잠시 후 앤은 계단에서 가벼운 발소리를 들었어요. 다름 아닌 앨런 부인이 그녀를 달래러 온 거였어요.",
+        },
+        {
+          id: "alc-17",
+          text: "\"My dear girl, you mustn't cry like this,\" Mrs. Allan said gently. \"It's just a funny mistake that anybody might make.\"",
+          translation:
+            "\"얘야, 이렇게 울면 안 돼.\" 앨런 부인이 다정하게 말했어요. \"이건 누구나 저지를 수 있는 재미있는 실수일 뿐이란다.\"",
+        },
+        {
+          id: "alc-18",
+          text: "She took Anne down to see her flower garden instead, and by the time the guests left, Anne decided that tomorrow would simply be a new day with no mistakes in it yet.",
+          translation:
+            "앨런 부인은 대신 앤을 데리고 내려가 꽃밭을 구경했고, 손님들이 떠날 무렵 앤은 내일은 그저 아직 실수가 하나도 없는 새로운 날이라고 마음먹었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "alc-v1",
+        term: "liniment",
+        partOfSpeech: "noun",
+        translation: "물약, 바르는 약",
+        example: "The doctor rubbed liniment on the sore muscle.",
+        exampleTranslation: "의사는 아픈 근육에 물약을 발라 주었어요.",
+      },
+      {
+        id: "alc-v2",
+        term: "mortified",
+        partOfSpeech: "adjective",
+        translation: "몹시 창피한, 굴욕감을 느끼는",
+        example: "She felt mortified when everyone stared at her.",
+        exampleTranslation: "모두가 그녀를 쳐다보자 그녀는 몹시 창피했어요.",
+      },
+      {
+        id: "alc-v3",
+        term: "disgrace",
+        partOfSpeech: "noun",
+        translation: "망신, 수치",
+        example: "He feared the mistake would bring disgrace on his family.",
+        exampleTranslation: "그는 그 실수가 가족에게 망신을 안길까 봐 두려웠어요.",
+      },
+      {
+        id: "alc-v4",
+        term: "recipe",
+        partOfSpeech: "noun",
+        translation: "조리법, 레시피",
+        example: "She followed the recipe exactly.",
+        exampleTranslation: "그녀는 조리법을 정확히 따랐어요.",
+      },
+      {
+        id: "alc-v5",
+        term: "comfort",
+        partOfSpeech: "verb",
+        translation: "위로하다",
+        example: "Her mother came to comfort her after the accident.",
+        exampleTranslation: "사고 후 어머니가 그녀를 위로하러 왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "alc-q1",
+        prompt: "Why did Anne's cake taste so strange?",
+        options: [
+          "She forgot to add sugar.",
+          "She used liniment instead of vanilla, without realizing it.",
+          "She burned it in the oven.",
+          "She used old, spoiled eggs.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Marilla had poured leftover liniment into an old vanilla bottle and forgotten to warn Anne, so Anne used it by mistake, thinking it was vanilla.",
+      },
+      {
+        id: "alc-q2",
+        prompt: "Why didn't Anne notice anything was wrong with the bottle?",
+        options: [
+          "She was in too much of a hurry.",
+          "She had a bad cold and couldn't smell it properly.",
+          "She never smells ingredients before using them.",
+          "The bottle had no smell at all.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Anne had caught a severe cold, so she couldn't smell that the bottle held liniment instead of vanilla.",
+      },
+      {
+        id: "alc-q3",
+        prompt: "How did Mrs. Allan respond when she found Anne crying?",
+        options: [
+          "She scolded Anne for being careless.",
+          "She laughed at Anne in front of the other guests.",
+          "She kindly said it was just a mistake anybody could make, and took Anne to see her garden.",
+          "She left without saying goodbye.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Mrs. Allan comforted Anne gently, calling it a funny mistake anyone might make, and invited her to show off her flower garden instead.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

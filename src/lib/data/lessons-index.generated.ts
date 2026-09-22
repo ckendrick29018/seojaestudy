@@ -3355,5 +3355,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/dr-jekyll-and-mr-hyde-the-last-change.svg",
     "source": "Adapted from the second half of Chapter 10 (\"Henry Jekyll's Full Statement of the Case\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 5
+  },
+  {
+    "slug": "alice-in-wonderland-mock-turtle",
+    "title": "Alice's Adventures in Wonderland: The Mock Turtle's Story",
+    "titleTranslation": "이상한 나라의 앨리스: 가짜 거북의 이야기",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "A2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Lewis Carroll (1832–1898)",
+    "coverEmoji": "🐢",
+    "coverImage": "/covers/alice-in-wonderland-mock-turtle.svg",
+    "source": "Adapted from Chapter 9 (\"The Mock Turtle's Story\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "anne-of-green-gables-liniment-cake",
+    "title": "Anne of Green Gables: The Liniment Cake",
+    "titleTranslation": "빨간 머리 앤: 물약 케이크",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "L. M. Montgomery (1874–1942)",
+    "coverEmoji": "🎂",
+    "coverImage": "/covers/anne-of-green-gables-liniment-cake.svg",
+    "source": "Adapted from Chapter 21 (\"A New Departure in Flavorings\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
   }
 ];

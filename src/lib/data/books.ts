@@ -77,6 +77,7 @@ export const BOOKS: Book[] = [
       "anne-of-green-gables-with-an-e",
       "anne-of-green-gables-carrots",
       "anne-of-green-gables-diana-tea",
+      "anne-of-green-gables-liniment-cake",
     ],
   },
   {
@@ -153,7 +154,12 @@ export const BOOKS: Book[] = [
     id: "alices-adventures-in-wonderland",
     title: "Alice's Adventures in Wonderland",
     titleTranslation: "이상한 나라의 앨리스",
-    chapters: ["alice-in-wonderland", "alice-in-wonderland-tea-party", "alice-in-wonderland-croquet"],
+    chapters: [
+      "alice-in-wonderland",
+      "alice-in-wonderland-tea-party",
+      "alice-in-wonderland-croquet",
+      "alice-in-wonderland-mock-turtle",
+    ],
   },
 ];
 

@@ -1384,9 +1384,30 @@ and the impure-salt ending, without restating the Carew murder itself.
 Covers: a coffin-lifebuoy in ripples, a quill over an open journal, a gate-and-hall
 silhouette with a moor hill, and a broken vial with a cracked mirror shard.
 
+**Wave 8 — written 2026-09-22** (no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Alice's Adventures in Wonderland → part 4 | The Mock Turtle's Story | Ch. 9 | A2 |
+| Anne of Green Gables → part 5 | The Liniment Cake | Ch. 21 ("A New Departure in Flavorings") | B1 |
+
+Sources: Gutenberg #11, #45. Both read from the actual chapter text (not a summary) before
+writing. Alice completes the Duchess's moralizing walk, the Queen's threat, the reveal that
+her executions are all fancy, and the Mock Turtle's school-in-the-sea backstory — keeps the
+"lessons lessen from day to day" pun and the Tortoise/"taught us" pun, both explained via a
+dictionary-entry note rather than translated literally (Korean has no equivalent wordplay).
+Ends on the Gryphon changing the subject to games, setting up (not yet adapted) Ch. 10. Anne
+is the famous liniment-cake scene — Marilla's own mistake (decanting leftover liniment into
+an old vanilla bottle, unlabeled) compounds Anne's, and Mrs. Allan's kindness is the emotional
+payoff; picked over Ch. 37 ("The Reaper Whose Name Is Death", too dark a tonal jump from
+Ch. 16) for a lighter, funnier continuation. Covers: a turtle-shell medallion with a small
+teardrop; a two-layer cake beside a tipped bottle (the visual pun). Dictionary: 0 EN→KO gaps
+(required project-wide) and, unusually, driven to 0 KO→EN gaps too for both new slugs — the
+project total KO→EN backlog did not grow.
+
 **Remaining queue, suggested order:**
 1. Dracula Ch. 6 (Mina's journal) or Ch. 8 (Lucy's sleepwalking) — same resequencing
-   trade-off noted above; Anne Ch. 21 ("A New Departure in Flavorings") or Ch. 37
-   ("The Reaper Whose Name Is Death"); Alice Ch. 9 ("The Mock Turtle's Story").
-2. Secret Garden and A Little Princess have two parts each and could get a third.
-3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
+   trade-off noted above.
+2. Alice Ch. 10 (The Lobster Quadrille) — direct continuation of the new Ch. 9 lesson.
+3. Secret Garden and A Little Princess have two parts each and could get a third.
+4. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
