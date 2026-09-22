@@ -109,7 +109,7 @@ export const ARTICLES: Article[] = [
       {
         heading: "Where to start",
         paragraphs: [
-          "Pick a story whose plot you already half-know — a fairy tale, or a classic you have heard of. Familiar plot means more attention left for the language. Our [pick of classic short stories for learners](/learn/best-classic-short-stories-for-learners) is a good shortlist, and every story on SeoJae Story is free to read with no account during the current test.",
+          "Pick a story whose plot you already half-know — a fairy tale, or a classic you have heard of. Familiar plot means more attention left for the language. Our [pick of classic short stories for learners](/learn/best-classic-short-stories-for-learners) is a good shortlist, and every story on SeoJae Story is free to read with no account during the current test. If you're a Korean speaker, [these four grammar patterns](/learn/common-english-mistakes-korean-speakers) are worth knowing before you start — reading fixes them faster than studying the rule does.",
         ],
       },
     ],
@@ -206,7 +206,7 @@ export const ARTICLES: Article[] = [
         heading: "What CEFR is",
         paragraphs: [
           "CEFR — the Common European Framework of Reference for Languages — is a shared scale for describing how much of a language you can use. It runs A1, A2 (basic), B1, B2 (independent), C1, C2 (proficient). Almost every language course, exam and graded reader is mapped to it, which is why SeoJae Story labels every story A1–B2.",
-          "For reading specifically, the level is really a promise about sentence length, how common the vocabulary is, and how much the text leans on context, idiom and tense.",
+          "For reading specifically, the level is really a promise about sentence length, how common the vocabulary is, and how much the text leans on context, idiom and tense — see [what a graded reader actually is](/learn/what-is-a-graded-reader) for how that promise gets built into a story in the first place.",
         ],
       },
       {
@@ -1301,6 +1301,270 @@ export const ARTICLES: Article[] = [
         heading: "Where to start",
         paragraphs: [
           "If you're not reading daily yet, that's the entire lever — not level, not method, just consistency. Start at [A1](/classics/a1) even if you suspect you're past it; finishing something easily on day one is worth more than struggling through something impressive.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "common-english-mistakes-korean-speakers",
+    title: "Common English Mistakes Korean Speakers Make — and How Reading Fixes Them",
+    description:
+      "Why articles, prepositions, plurals and word order trip up Korean English learners specifically, and how extensive reading corrects each one without grammar drills.",
+    lede: "These aren't careless errors — they're exactly where Korean and English grammar disagree.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 8,
+    practiceCta: { href: "/learn/comprehensible-input-explained", label: "Read: how comprehensible input works" },
+    keywords: [
+      "common English mistakes Korean speakers make",
+      "Korean English learner mistakes",
+      "English grammar mistakes for Korean speakers",
+      "article usage a an the mistakes",
+      "Korean speakers English prepositions",
+    ],
+    sections: [
+      {
+        heading: "Why these particular mistakes, and not others",
+        paragraphs: [
+          "Every language pair has its own predictable error list, and it comes from wherever the two grammars disagree, not from carelessness or a weak vocabulary. Korean and English disagree in a few specific, well-documented places: Korean has no articles, marks plurals only when it needs to, uses particles instead of prepositions, and orders a sentence subject–object–verb instead of English's subject–verb–object. A fluent, careful Korean speaker of English will still trip on these exact points long after their vocabulary is large, because the mistake isn't about knowing the word — it's about a grammatical habit that Korean simply never built.",
+          "That's actually good news for how to fix them. A gap like this responds far better to meeting the correct pattern hundreds of times in real sentences than to memorizing the rule that explains it — which is the whole case for reading over drilling, covered in more depth in [how comprehensible input works](/learn/comprehensible-input-explained).",
+        ],
+      },
+      {
+        heading: "1. Articles: a, an, the",
+        paragraphs: [
+          "Korean has no equivalent of \"a\" or \"the\" at all — a noun is just a noun, and whether it's specific or general is usually clear from context or left unmarked. English leans on articles to carry that same information, so Korean speakers often drop them (\"I bought book\") or use \"the\" everywhere out of caution (\"I bought the book\" for any book, not a specific one already mentioned).",
+          "The core rule is simpler than most textbooks make it sound: use \"the\" when both you and the listener already know which one you mean — because it was just mentioned, or there's only one — and \"a/an\" the first time you introduce something countable and unspecific. Reading is where this actually sinks in, because a story constantly re-uses the same noun first with \"a\" and then with \"the\" a sentence later (\"a fox appeared... the fox looked at her\"), which is the exact pattern a rule can describe but only repeated exposure makes automatic.",
+        ],
+      },
+      {
+        heading: "2. Prepositions: in, on, at, and the rest",
+        paragraphs: [
+          "Korean expresses location and direction with particles (에, 에서, 로) that don't map cleanly onto English's much larger set of prepositions, so a single Korean particle can correspond to three or four different English choices depending on the verb and noun involved. That's why \"I'm interested in music\" and \"I'm interested on music\" both feel equally plausible to a Korean speaker translating from 에 — the particle gives no clue which preposition English wants.",
+          "There's no shortcut rule that resolves this the way the article rule does; prepositions in English are largely a matter of which word usually goes with which, not logic. That makes them a nearly perfect case for reading over memorizing a list: the phrase \"interested in\" simply looks and sounds right after you've met it enough times, the same way a native speaker never consciously learned the rule either.",
+        ],
+      },
+      {
+        heading: "3. Dropping the plural -s",
+        paragraphs: [
+          "Korean doesn't require plural marking when the number is already clear — \"세 마리 개\" (three dog) is completely normal Korean, where English insists on \"three dogs\" even though \"three\" already says how many. Because the Korean sentence structure never forces the marking, it's easy to carry that habit into English and produce \"I have two cat\" or \"there were many people in the room, everyone was talking\" without the plural noun.",
+          "This one usually clears up fastest with reading, simply because the -s is highly frequent and highly visible on the page in a way it can slide past in fast speech — seeing \"dogs\", \"cats\", \"stories\" over and over does more than being told the rule once.",
+        ],
+      },
+      {
+        heading: "4. Word order in longer sentences",
+        paragraphs: [
+          "Korean builds a sentence subject–object–verb, with the verb arriving last no matter how long the sentence gets (\"나는 어제 시장에서 산 사과를 먹었어요\" — literally \"I yesterday market-at bought apple ate\"). English wants the verb much earlier, right after the subject, with everything else trailing behind it. Under time pressure — speaking quickly, or writing a first draft — it's common for a Korean speaker to reach for the Korean order and produce something like \"I yesterday at the market bought apple ate\", especially in longer sentences with a relative clause.",
+          "This is the hardest of the four to fix through explanation, because \"where does the verb go\" isn't really a rule you apply sentence by sentence — it's closer to a rhythm you internalize. Reading builds exactly that rhythm: a graded story puts a correctly-ordered English sentence in front of you every few seconds, which trains the ear (and the inner voice) to notice when an English sentence sounds off, long before you could explain why.",
+        ],
+      },
+      {
+        heading: "Why reading fixes what grammar study explains",
+        paragraphs: [
+          "Notice the pattern across all four: in every case, knowing the rule and applying it under real pressure are two different skills, and only the second one is what actually shows up in your English. Grammar explanations are useful for the first ten seconds of noticing a mistake — they're a poor tool for making the correct form automatic, because automaticity comes from repetition in context, not from understanding.",
+          "That's the entire case for reading a lot of comfortably-easy material rather than studying grammar rules in isolation: every sentence you read correctly is one more repetition of a native pattern, landing exactly where the mistake would otherwise have been. [Tap-any-word](/learn/learn-english-by-reading) makes the vocabulary side effortless, so the sentence structure is the only thing left to absorb.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Pick a level where you're not fighting for every word — [browse graded stories by CEFR level](/classics) — and read a little every day. You'll start noticing these four patterns (articles, prepositions, plurals, word order) landing correctly in your own writing within a few weeks, usually well before you could recite the rule that explains why.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "what-is-a-graded-reader",
+    title: "What Is a Graded Reader? A Complete Guide for Language Learners",
+    description:
+      "What graded readers are, how CEFR-based grading actually works, how they differ from authentic texts and textbooks, and how to pick your first one.",
+    lede: "The single most effective, least discussed tool in language learning — here's what it actually is.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics", label: "Browse graded readers by level" },
+    keywords: [
+      "what is a graded reader",
+      "graded reader definition",
+      "graded readers for language learners",
+      "graded readers vs authentic texts",
+      "CEFR graded reading",
+    ],
+    sections: [
+      {
+        heading: "The problem graded readers exist to solve",
+        paragraphs: [
+          "Pick up a real, unadapted novel in a language you're learning, and the odds are stacked against you long before the plot gets interesting: unfamiliar words on every line, sentence structures a textbook never taught, and cultural references that need their own footnote. Most learners who try this either give up within a chapter or read so slowly, dictionary in hand, that the story itself is lost. It's not a discipline problem — the text is simply calibrated for a native reader, not a learner.",
+          "A graded reader is a text deliberately written or rewritten to sit inside a learner's actual vocabulary and grammar range, so the story stays intact but the language is no longer the obstacle. The idea isn't new — it's been standard practice in English-as-a-second-language teaching for decades — but it's still the tool most self-taught learners never discover, because a bookstore's foreign-language shelf is mostly authentic novels and phrasebooks, with graded readers as a niche in between.",
+        ],
+      },
+      {
+        heading: "How the \"grading\" actually works",
+        paragraphs: [
+          "Grading means controlling two things at once: vocabulary and sentence complexity. A well-graded text at a given level sticks to a defined word list (or a level's expected vocabulary size) and avoids grammar the learner hasn't met yet — no third-conditional clauses at A2, no rare idioms at A1. The [CEFR scale](/learn/cefr-levels-explained) (A1 through C2) is the most common yardstick, and it's less about difficulty in the abstract than about a specific, learnable target: at B1, a reader can follow the main points of a clear text on familiar matters, and a well-graded B1 story is written to sit exactly there.",
+          "The target for comfortable reading is roughly 95–98% known vocabulary — enough unfamiliar words to keep growing, not so many that you're decoding instead of reading. That's the number a good grading process is actually aiming for, whether or not the label says so explicitly.",
+        ],
+      },
+      {
+        heading: "Graded readers vs. the alternatives",
+        paragraphs: [
+          "It helps to place graded readers next to the two things learners usually reach for instead:",
+        ],
+        list: [
+          "Authentic texts (real novels, news articles) — the real language, but calibrated for a native speaker's vocabulary and background knowledge, not a learner's. Best once you're already comfortable at B2 and above.",
+          "Textbook dialogues — carefully controlled language, but usually short, plot-free, and written to teach a specific grammar point rather than to be worth reading for its own sake, so there's little pull to keep going.",
+          "Graded readers — controlled language like a textbook, but built around an actual story with a beginning, middle and end, which is what makes finishing one (and wanting to start the next) so much easier.",
+        ],
+      },
+      {
+        heading: "What separates a good graded reader from a mediocre one",
+        paragraphs: [
+          "Vocabulary control alone doesn't make a graded reader worth reading — plenty of simplified texts are technically at the right level and still a chore to get through, because the story itself was thinned out along with the language. The best graded readers keep real narrative tension: a reason to turn the page that has nothing to do with practicing English.",
+          "On SeoJae Story, every story is a genuine retelling of a public-domain classic or an original piece, not a summary — full scenes, real dialogue, an actual ending — simplified in language but not gutted in substance. Every sentence has a Korean translation beside it, native-voice audio narration, tap-to-translate on any word, and a short comprehension check at the end, so the grading extends past just the vocabulary list into the whole reading experience.",
+        ],
+      },
+      {
+        heading: "How to pick your first one",
+        paragraphs: [
+          "Start one level lower than you think you need. The instinct is to pick something that looks appropriately challenging; the better strategy is to pick something you can finish in one sitting without reaching for a dictionary more than two or three times, because finishing — and feeling capable while doing it — is what makes you come back for the next one. [Browse by CEFR level](/classics) and start at A1 or A2 unless you're already reading full novels comfortably.",
+          "Once a level starts feeling easy rather than merely manageable, move up. There's no test to pass first — if you're breezing through, the story will tell you.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "english-pronunciation-tips-korean-speakers",
+    title: "English Pronunciation Tips for Korean Speakers",
+    description:
+      "Why L/R, F/V, final consonants and English stress patterns are specifically hard for Korean speakers, and a practical shadowing routine using audio narration.",
+    lede: "The sounds that give you away aren't random — Korean's sound system just doesn't have them.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/a1", label: "Read and listen to an A1 story" },
+    keywords: [
+      "English pronunciation tips for Korean speakers",
+      "Korean speakers English pronunciation",
+      "L and R pronunciation Korean",
+      "English pronunciation practice Korean learners",
+      "shadowing practice language learning",
+    ],
+    sections: [
+      {
+        heading: "Why pronunciation is its own separate skill",
+        paragraphs: [
+          "It's entirely possible to read and write English well while still finding certain sounds genuinely difficult to produce and even to hear — pronunciation runs on a different part of language ability than vocabulary or grammar. The specific sounds that are hard depend heavily on your first language, because your ear was trained from childhood to hear the sound categories Korean actually uses, and it takes real, deliberate practice to hear (not just produce) a distinction Korean never asked you to notice.",
+          "None of the patterns below are a sign of a weak ear or a bad accent — they're exactly where Korean's sound system and English's disagree, the same way the grammar mistakes covered in [common English mistakes Korean speakers make](/learn/common-english-mistakes-korean-speakers) come from where the two grammars disagree.",
+        ],
+      },
+      {
+        heading: "L and R",
+        paragraphs: [
+          "Korean has one sound (ㄹ) that shifts between an L-like and an R-like pronunciation depending on its position in a word, but never contrasts the two the way English does — \"light\" and \"right\" are two completely different English words, built on a distinction Korean's sound system doesn't require you to track. That's why this pair is the single most-cited pronunciation challenge for Korean English learners, and why it takes real listening practice, not just repetition, to fix: you have to train your ear to hear the difference before your mouth can reliably produce it.",
+        ],
+      },
+      {
+        heading: "F/P and V/B",
+        paragraphs: [
+          "Korean has ㅍ (roughly a P sound) but no true F, and ㅂ (roughly a B) but no true V — both English sounds are made by air passing through a narrow gap between teeth and lip, a manner of articulation Korean doesn't use at all. The result is a natural tendency to substitute the closest Korean sound: \"coffee\" leaning toward \"coppy\", \"very\" leaning toward \"berry\". Feeling your top teeth lightly touch your bottom lip — rather than closing your lips completely, as for P or B — is the physical adjustment that fixes both pairs at once.",
+        ],
+      },
+      {
+        heading: "Final consonants and consonant clusters",
+        paragraphs: [
+          "Korean syllables are built to end cleanly — on a vowel, or on one of a small set of consonants — and never stack two or three consonants together at the end of a syllable the way English constantly does (\"strengths\", \"asked\", \"desks\"). The instinctive fix, carried over from Korean's syllable shape, is to insert a small vowel sound to break the cluster up — \"strike\" edging toward \"seu-teu-rai-keu\" — which is exactly the pattern behind the stereotype of a heavy accent on English loanwords borrowed into Korean.",
+          "The fix isn't to somehow eliminate every trace of accent — it's to practice holding a consonant sound at the very end of a breath without adding a vowel after it, which is a physical habit, not a vocabulary problem, and one that responds well to slow, deliberate repetition.",
+        ],
+      },
+      {
+        heading: "Rhythm: why English sounds 'choppy' or 'sing-song' either way",
+        paragraphs: [
+          "Korean is syllable-timed — each syllable gets roughly equal time and weight, which gives Korean its even, steady rhythm. English is stress-timed instead: stressed syllables land at roughly even intervals, and everything in between gets compressed or swallowed to make room. That's why a Korean speaker reading English aloud syllable-by-syllable can sound clipped or overly even to a native ear, even with every individual sound pronounced correctly — the rhythm, not the sounds, is what's off.",
+          "This is genuinely hard to fix through explanation, because rhythm is closer to music than to vocabulary — you don't really learn it, you absorb it by hearing enough of it modeled correctly and trying to match it.",
+        ],
+      },
+      {
+        heading: "A practical shadowing routine",
+        paragraphs: [
+          "Shadowing — listening to a short line and immediately repeating it aloud, trying to match the rhythm and sounds as closely as possible — is the most effective practice for all of the above, because it trains ear and mouth together instead of one at a time. Every SeoJae Story lesson has native-voice audio narration built for exactly this: play a sentence with the **Listen** button, pause, repeat it aloud from memory, then play it again and compare.",
+        ],
+        list: [
+          "Pick a story at a level where you already understand the words — pronunciation practice works better once meaning isn't also a struggle.",
+          "Play one sentence at a time. Repeat it aloud immediately, trying to match rhythm as much as individual sounds.",
+          "Play it again right after your attempt, and notice the gap — don't judge it, just notice it.",
+          "Do this for five or ten sentences a day rather than a whole story at once; the habit matters more than the volume here.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Start with an [A1 story](/classics/a1) so the words themselves are no obstacle, and shadow it a sentence at a time using the built-in audio. The sounds above won't fix themselves overnight, but they respond reliably to this kind of short, repeated, attentive practice — far more than to being told the rule once.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "toeic-toefl-reading-practice",
+    title: "TOEIC and TOEFL Reading Practice: How Extensive Reading Helps Your Score",
+    description:
+      "Why vocabulary lists alone don't move TOEIC or TOEFL reading scores, what the reading sections actually measure, and how daily graded reading builds those skills.",
+    lede: "The reading sections don't test vocabulary you've memorized — they test reading you can actually do, fast.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/b1", label: "Build reading speed at B1" },
+    keywords: [
+      "TOEIC reading practice",
+      "TOEFL reading practice",
+      "how to improve TOEIC reading score",
+      "extensive reading for TOEIC",
+      "TOEIC TOEFL vocabulary reading",
+    ],
+    sections: [
+      {
+        heading: "What the reading sections actually measure",
+        paragraphs: [
+          "TOEIC's reading section (Parts 5–7) and TOEFL's reading passages both look, on the surface, like vocabulary and grammar tests — but the real bottleneck for most test-takers isn't knowing individual words, it's reading fast enough, under time pressure, to finish and still understand what you read. TOEFL gives you a set number of minutes per passage regardless of how carefully you'd like to read it; TOEIC's Part 7 reading passages are famous for running out the clock on test-takers who know the grammar perfectly well but simply can't process the passages fast enough to reach the last few questions.",
+          "That single fact reframes what \"studying for the reading section\" should actually mean. A study plan built entirely around vocabulary lists and grammar drills prepares you for a test with no clock. The real test has one.",
+        ],
+      },
+      {
+        heading: "Why vocabulary lists plateau",
+        paragraphs: [
+          "Memorized word lists are real, measurable progress — you can point at exactly what you learned — but they train recognition of a word in isolation, not the speed of pulling its meaning out of a full sentence you're reading under pressure. That gap between \"I know this word on a flashcard\" and \"I read this word instantly inside a sentence, without breaking stride\" is exactly what separates a test-taker who has studied a lot of vocabulary from one who reads quickly and accurately — and it's the second skill the test actually scores.",
+          "This is the same distinction covered in [comprehensible input explained](/learn/comprehensible-input-explained): meeting language in context, repeatedly, at a level you can mostly follow, is what turns \"recognized\" into \"instant\" — and instant is what a timed test rewards.",
+        ],
+      },
+      {
+        heading: "What extensive reading actually trains",
+        paragraphs: [
+          "Reading a lot of comfortably-easy material — well below the difficulty of the test itself — builds exactly the two things timed reading tests measure: raw reading speed (because fluent reading only comes from doing a lot of it) and the ability to infer an unfamiliar word's meaning from context without stopping (because that's what a graded story constantly asks of you, one level below where the test operates). Neither of these shows up on a vocabulary quiz, and neither is optional once you're facing a 20-minute time limit on a page of dense text.",
+          "This is also why B1–B2 level material is the sweet spot for TOEIC/TOEFL prep specifically, even though the tests themselves often sit closer to B2–C1: reading below the test's difficulty, but a lot of it, builds the underlying speed and inference skill faster than reading at-level, slowly, with a dictionary open.",
+        ],
+      },
+      {
+        heading: "A practical prep routine",
+        paragraphs: ["A combined routine, four to six weeks out from a test date:"],
+        list: [
+          "Daily (15–20 min): read one graded story straight through at a comfortable level — [B1](/classics/b1) is a reasonable default for most intermediate test-takers — timing yourself loosely but not stopping to look up every word.",
+          "2–3× a week: take a short, official timed practice passage at the test's real difficulty, and review only the questions you got wrong, not the whole passage.",
+          "Weekly: reread a story from two or three weeks ago and notice how much faster it goes — that's the speed gain the test will actually reward.",
+        ],
+      },
+      {
+        heading: "What this doesn't replace",
+        paragraphs: [
+          "None of this replaces learning the test's own format — question types, timing per section, how TOEIC Part 6 differs from Part 7 — which is genuinely test-specific knowledge worth studying directly from official materials. Extensive reading builds the underlying reading ability the test measures; it isn't a substitute for knowing what the test is actually going to ask you to do with that ability.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "If your reading feels accurate but slow under a timer, that's the extensive-reading gap specifically — start a daily story at [B1](/classics/b1) today, several weeks before your test date, since reading speed builds gradually rather than overnight.",
         ],
       },
     ],
