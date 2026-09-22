@@ -713,6 +713,291 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+  {
+    slug: "read-a-novel-in-another-language",
+    title: "How to Read a Full Novel in Another Language, One Chapter at a Time",
+    description:
+      "Short stories are a great start, but reading a whole novel changes how you learn. How to pick a book, pace yourself by chapter, and why the chapter numbers sometimes skip ahead.",
+    lede: "Short stories build the habit. A novel is where you find out you can actually read.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/book/moby-dick", label: "Start Moby Dick, chapter by chapter" },
+    keywords: [
+      "how to read a novel in a foreign language",
+      "read a full book in English as a beginner",
+      "graded reader full novel",
+      "read classic novels chapter by chapter",
+      "how to finish a book in a second language",
+    ],
+    sections: [
+      {
+        heading: "Why a short story stops being enough",
+        paragraphs: [
+          "A short story is the right place to start — one sitting, one clean arc, low risk if the level is wrong. But at some point it starts to feel thin. You finish it in ten minutes and you're back at the shelf, picking the next one, without ever living inside a book the way you do in your first language.",
+          "A novel is different. You carry the same characters, the same unresolved sentence, across days. That's not just a nicer reading experience — it's more practice with the same couple hundred words, repeated across chapters, which is exactly the kind of repetition that makes a language stick.",
+        ],
+      },
+      {
+        heading: "The problem with picking up the real thing",
+        paragraphs: [
+          "The instinct is to open the original — the actual Pride and Prejudice, the actual Dracula — and push through. For most learners this fails fast. Nineteenth-century prose is long-sentenced even for native readers, and a beginner hits three unknown words a line and gives up by chapter two.",
+          "The fix isn't a simpler book. It's the same book, written at a level you can actually read, released one chapter at a time so you don't have to translate three hundred pages before you find out if you like it.",
+        ],
+      },
+      {
+        heading: "How this works on SeoJae Story",
+        paragraphs: [
+          "Each classic on the [classics shelf](/classics) is a real novel, retold chapter by chapter at a [CEFR level](/learn/cefr-levels-explained) — not summarized, not abridged into a single page, but genuinely paced the way the original book is paced. A book's page shows every chapter released so far, in order, with a \"Part 2 of 6\" label so you always know where you are and how much is left.",
+          "Open a book once and the app remembers you're reading it: the next unread chapter surfaces on your dashboard under Continue reading, so picking it back up tomorrow doesn't mean hunting through the library for where you left off.",
+        ],
+      },
+      {
+        heading: "Pick a book, not just a story",
+        paragraphs: ["A few of the longer classics are far enough along to read as a real multi-chapter novel rather than a single excerpt:"],
+        list: [
+          "[Pride and Prejudice](/book/pride-and-prejudice) — 6 parts, Elizabeth and Darcy from the first ball to the proposal.",
+          "[Jane Eyre](/book/jane-eyre) — 7 parts, the longest book on the shelf.",
+          "[Moby Dick](/book/moby-dick) — 5 parts, opening to epilogue, complete.",
+          "[Dracula](/book/dracula) — 6 parts, told through letters and journal entries.",
+          "[Dr. Jekyll and Mr. Hyde](/book/dr-jekyll-and-mr-hyde) — 4 parts, complete.",
+          "[The Hound of the Baskervilles](/book/the-hound-of-the-baskervilles) — 4 parts and growing.",
+        ],
+      },
+      {
+        heading: "Why the chapter numbers sometimes jump",
+        paragraphs: [
+          "Open a book's chapter list and you'll sometimes see Chapter 1, then Chapter 36. That's not a gap in the translation — it's a choice. Each part is picked for being a complete, satisfying scene on its own, not just the next consecutive block of the original text, so a book can jump straight from its opening to a famous later chapter instead of routing you through slower connective chapters to get there.",
+          "It means every part you read stands on its own, even with chapters still missing between them. The gaps get filled over time as new chapters ship — check a book's page for the current count.",
+        ],
+      },
+      {
+        heading: "A pace that actually finishes a book",
+        paragraphs: [
+          "One chapter, two or three times a week, finishes most of these books in a month or two — slower than a native reader, but a real novel, genuinely read, is worth more than three abandoned ones. Resist the urge to binge every part the day a book catches your interest; the spacing does real work, letting new vocabulary resurface a few days later instead of all in one pass.",
+          "If a chapter feels heavier than the last one, that's normal — books get denser as they go. Replay the previous chapter's summary prompt in your head before you start the next; it costs thirty seconds and keeps the plot from slipping.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Pick a book whose story you already roughly know — Dracula, Alice in Wonderland, Pride and Prejudice — so the plot isn't a second thing to learn alongside the language. Read its first chapter on the [classics shelf](/classics), and if a chapter feels a level too hard or too easy, remember most books span more than one point on [the CEFR range](/learn/cefr-levels-explained) as they grow.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "how-many-words-do-you-need-to-read",
+    title: "How Many Words Do You Need to Know to Read in English or Korean?",
+    description:
+      "The real answer isn't a vocabulary size — it's a percentage. What 95–98% known words means, how many word families that takes at each level, and how to get there by reading.",
+    lede: "The number that matters isn't how many words you know. It's how many words on the page you already know.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 7,
+    practiceCta: { href: "/study", label: "Start your study plan" },
+    keywords: [
+      "how many words do I need to know to read English",
+      "vocabulary size for reading fluency",
+      "how many words to read Korean",
+      "reading vocabulary coverage",
+      "how many words to be fluent",
+    ],
+    sections: [
+      {
+        heading: "The question everyone asks wrong",
+        paragraphs: [
+          "\"How many words do I need?\" sounds like it has a clean number for an answer, so people go looking for one — 3,000 words, 5,000 words, 10,000 words. Those numbers exist and they're useful, but they answer a slightly different question than the one that actually determines whether you can read something: not how many words do you know in total, but what percentage of the words on this specific page do you already know.",
+        ],
+      },
+      {
+        heading: "The percentage that actually predicts comprehension",
+        paragraphs: [
+          "Reading research generally puts comfortable comprehension somewhere around 95–98% known words — one unknown word in every twenty to fifty. Below that, too many gaps appear too close together, and you spend more energy reconstructing meaning than absorbing it. Above it, almost nothing is new, which feels safe but teaches you very little.",
+          "This is why the same learner can read one book easily and find another, at a similar \"level\", genuinely hard — it was never really about the book's difficulty in the abstract. It's about how much of that book's specific vocabulary happens to overlap with what they already know.",
+        ],
+      },
+      {
+        heading: "Roughly, what that takes in word families",
+        paragraphs: [
+          "A \"word family\" bundles a base word with its close relatives — read, reads, reading, reader count as one, not four. As a rough guide for fiction, not an exact rule:",
+        ],
+        list: [
+          "~1,000–1,500 word families gets you through most A1–A2 graded readers comfortably.",
+          "~2,500–3,000 gets you through B1 — genuine short stories, simple novels.",
+          "~4,000–5,000 gets you through B2 — lightly adapted classic literature, most everyday writing.",
+          "8,000+ is roughly where unabridged native fiction opens up, jokes, idiom and all.",
+        ],
+      },
+      {
+        heading: "Why this is good news, not a wall to climb",
+        paragraphs: [
+          "Word frequency is extremely lopsided: a small set of the most common words covers a huge share of any ordinary text, and each additional thousand words you learn buys you less coverage than the last. That front-loaded curve is exactly why starting at A1 and reading a lot of it is such an efficient use of time — the first thousand words you truly know are worth far more, page for page, than the next five thousand.",
+          "It's also why a level chosen well feels almost easy: at 95–98% known words, most of what's on the page is already yours. The handful of new words are doing the actual teaching, one at a time, surrounded by things you already understand.",
+        ],
+      },
+      {
+        heading: "The shortcut: let level do the counting for you",
+        paragraphs: [
+          "You never actually need to count your vocabulary. A story labelled at the right [CEFR level](/learn/cefr-levels-explained) is, by construction, sitting near that 95–98% band for someone genuinely at that level — that's what the label is promising. If a page feels like a wall of unknowns, that's the level talking, not a verdict on your ability; drop down and the same story will likely read at that comfortable percentage.",
+          "Watch it directly, too: if you're tapping the dictionary more than once or twice a paragraph, you're below the band for that text. If you never tap it at all, you're probably above it and could move up.",
+        ],
+      },
+      {
+        heading: "Growing the number without ever counting it",
+        paragraphs: [
+          "The words that move your real count are the ones you meet in context, tap once, and see again a few days later — not the ones memorized off a frequency list in isolation. Every word you tap while reading on SeoJae Story can be saved straight to your [study plan](/study), where [spaced repetition](/learn/spaced-repetition-vocabulary-flashcards) resurfaces it right before you'd otherwise forget it.",
+          "Read enough stories at the right level and the count takes care of itself — you won't feel yourself crossing from 1,000 to 1,500 words, you'll just notice the next level down stops needing the dictionary at all.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "If you're not sure where your line currently sits, the two-minute check in [CEFR levels explained](/learn/cefr-levels-explained) finds it fast. Then open the [library](/library) at that level, or browse [classic stories retold at your level](/classics), and let the reading do the counting.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "extensive-reading-vs-intensive-reading",
+    title: "Extensive Reading vs Intensive Reading: What's the Difference?",
+    description:
+      "Two opposite reading habits, both useful for language learning: read a lot and loosely, or read a little and closely. What each one trains, and how to do both without slowing down.",
+    lede: "One habit is about reading a lot. The other is about reading closely. Language learning actually needs both.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 6,
+    practiceCta: { href: "/library", label: "Start reading extensively" },
+    keywords: [
+      "extensive reading vs intensive reading",
+      "extensive reading method",
+      "intensive reading language learning",
+      "difference between extensive and intensive reading",
+      "extensive reading benefits",
+    ],
+    sections: [
+      {
+        heading: "Two habits with the same raw material",
+        paragraphs: [
+          "Extensive and intensive reading use the exact same skill — reading in your target language — pointed at two different goals. Extensive reading is about volume: read a lot, loosely, for the story. Intensive reading is about depth: read a little, closely, for the language itself. Most language courses only really teach the second one, which is part of why fluent reading can feel so far away even after years of careful study.",
+        ],
+      },
+      {
+        heading: "What intensive reading looks like",
+        paragraphs: [
+          "Intensive reading is what a textbook passage or a classroom translation exercise usually asks for: a short text, read slowly, where you look up every unknown word, notice the grammar, and maybe translate a sentence or two by hand. It's precise, and it's how you truly learn a specific word or structure — but it's slow, and a page of it can take longer than a whole short story read the other way.",
+          "It has a real cost if it's the only mode you ever use: at one unknown word per sentence, dug into fully, a learner rarely reads more than a few pages a week — nowhere near enough raw exposure to build the pattern recognition that makes reading feel automatic.",
+        ],
+      },
+      {
+        heading: "What extensive reading looks like",
+        paragraphs: [
+          "Extensive reading flips the priorities: pick something easy enough that you rarely stop, read it mostly for the story, and let a few unknown words go by ungrossed. The target is usually that [95–98% known-word band](/learn/how-many-words-do-you-need-to-read) — comfortable, not effortless — so you can read a whole story in one sitting without the dictionary breaking your stride every few seconds.",
+          "This is the mode graded readers are built for, and it's the one that actually builds fluency: the sheer number of sentences you get through, each one processed close to real time, is what eventually makes reading feel like reading instead of decoding.",
+        ],
+      },
+      {
+        heading: "Why extensive reading wins for fluency, not vocabulary",
+        paragraphs: [
+          "If the goal is speed and comfort — reading without translating in your head, following a story without effort — extensive reading is the one that gets you there, because it's the only mode that gives you enough repetitions of common words and structures to make them automatic. Nobody becomes a fast reader by reading forty pages very carefully.",
+          "But extensive reading alone is a slower way to learn any single new word, because you often let it pass rather than stopping to study it. Left completely alone, it plateaus: you get very fluent at the words you already know, and new ones arrive more slowly than they could.",
+        ],
+      },
+      {
+        heading: "Running both at once, without slowing down",
+        paragraphs: [
+          "The two aren't rivals — the useful version of intensive reading is really just a five-second dip inside an extensive read, not a separate slow session. Read the story extensively, at pace, and reach for the dictionary only for the handful of words that actually block a sentence or keep recurring — that's [how tap-to-translate is meant to be used](/learn/parallel-text-reading-method), not as a running translation of every line.",
+          "Then take the intensive step after the extensive read is done, not during it: save the few words that mattered to your [study plan](/study), where a couple of minutes of [spaced repetition](/learn/spaced-repetition-vocabulary-flashcards) does the close, careful work extensive reading skipped — on your schedule, not the story's.",
+        ],
+      },
+      {
+        heading: "A routine that uses both",
+        paragraphs: ["A single story, read in two passes, gets you most of the benefit of both:"],
+        list: [
+          "First pass, extensive: read the whole thing at a comfortable pace, tapping the sentence translation only when truly stuck. Don't stop for single words.",
+          "Second pass, lightly intensive: reread it, this time tapping 3–5 words that mattered, and save them.",
+          "Everything else: read extensively, always. Save the close study for the words that earned it.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "If your instinct is to look up every unfamiliar word, that's a sign to swing toward extensive reading for a while — open the [library](/library), pick something at or slightly below your level, and read it in one sitting without stopping for the dictionary. You'll understand more of it than you expect.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "build-a-daily-reading-streak",
+    title: "How to Build a Daily Reading Streak That Actually Sticks",
+    description:
+      "Why streaks work, why most of them break in the first two weeks, and how to build a daily reading habit small enough to survive a bad day.",
+    lede: "A streak isn't motivation. It's a system for not needing motivation on the days you don't have any.",
+    datePublished: "2026-09-22",
+    dateModified: "2026-09-22",
+    readingMinutes: 6,
+    practiceCta: { href: "/library", label: "Read today's lesson" },
+    keywords: [
+      "how to build a daily reading habit",
+      "language learning streak tips",
+      "daily study habit language learning",
+      "how to not break a study streak",
+      "language learning motivation",
+    ],
+    sections: [
+      {
+        heading: "Why a streak works better than willpower",
+        paragraphs: [
+          "Motivation is unreliable by nature — it's high the week you start a language and unpredictable every week after. A streak sidesteps the problem by turning \"do I feel like reading today\" into \"do I want to lose the number\", which is a much easier fight to win on a tired Tuesday. This is loss aversion doing useful work: once a streak has a few days in it, not breaking it becomes its own reason to open the app, no motivation required.",
+          "That only works while the streak stays realistic to keep. The moment it demands more than a bad day can give, it stops protecting the habit and starts threatening it.",
+        ],
+      },
+      {
+        heading: "The mistake almost everyone makes on day one",
+        paragraphs: [
+          "Most streaks break in the first two weeks, and almost always for the same reason: day one was too big. A learner reads two chapters, feels great, and unconsciously sets that as the new minimum — so the first genuinely busy day, where even one chapter feels like too much, becomes the day the streak dies instead of just a smaller day.",
+          "The fix is almost insultingly simple: make the daily minimum small enough that you could do it while sick, tired, or fifteen minutes from bed. One short story. One page. Even one flashcard review in the [study plan](/study) is enough to keep the number alive — the streak is tracking that you showed up, not how much you read.",
+        ],
+      },
+      {
+        heading: "Attach it to something that already happens every day",
+        paragraphs: [
+          "A habit anchored to a specific moment survives far better than one that floats loosely somewhere in \"today\". Pick an existing daily anchor — after your morning coffee, on the commute, in bed before the light goes off — and read there, at that moment, rather than \"whenever there's time\", which on a busy day quietly becomes never.",
+          "The anchor matters more than the amount. A single graded story takes under ten minutes, which fits into almost any anchor you already have without needing to free up a real block of time.",
+        ],
+      },
+      {
+        heading: "Keep an easy fallback for the days that go wrong",
+        paragraphs: [
+          "Some days genuinely don't have ten free minutes. That's what a fallback is for: one A1 story you've already read once, kept in reserve, that you know you can get through in under three minutes even exhausted. It's not meant to teach you much — it's meant to keep the streak breathing until tomorrow, when a real session is possible again.",
+          "This is the whole reason difficulty levels matter beyond comprehension — an [A1 story](/classics/a1) slightly below your level is genuinely useless for learning and genuinely useful for not breaking a streak on your worst day.",
+        ],
+      },
+      {
+        heading: "Make the progress visible",
+        paragraphs: [
+          "A streak that lives only as an abstract number is easy to forget about. Visible progress is stickier — SeoJae Story tracks it with a star rather than a count you have to interpret, and the reading cat on your [bookshelf](/bookshelf) visibly grows through its own stages as you finish more books, so progress is something you can actually watch happen rather than something you're told is happening.",
+          "Whatever app you're using, find the version of this that exists for you and glance at it often. The point isn't vanity — it's giving your brain a concrete, visual reason the streak matters beyond the number itself.",
+        ],
+      },
+      {
+        heading: "What to do when you break it anyway",
+        paragraphs: [
+          "You will break a streak eventually — travel, illness, a genuinely impossible week. The habit doesn't die there; it dies in the week after, when a broken streak turns into \"well, I already ruined it\" and one missed day becomes ten. Read something the very next day no matter how short, and the break becomes a blip in the log, not the end of the habit.",
+          "A useful private rule: never miss two days in a row. Missing one is life. Missing two is the start of a new, worse habit, and it's much easier to stop at one than to restart after ten.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Pick your anchor moment today, not tomorrow, and read one short story there — something at or slightly below your level, so day one doesn't accidentally set an unsustainable bar. Browse the [library](/library) for something short enough to finish in one sitting.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
