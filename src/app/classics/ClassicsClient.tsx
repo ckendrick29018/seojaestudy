@@ -2,11 +2,13 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
 import { groupBookChapters } from "@/lib/books";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { localizePath } from "@/lib/locale-path";
 import { ClassicCard } from "@/components/home/ClassicCard";
 import { XIcon } from "@/components/ui/icons";
 
@@ -25,6 +27,7 @@ type SortKey = "default" | "title" | "level" | "shortest";
 
 export function ClassicsClient() {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonComplete } = useProgress();
 
   const [query, setQuery] = useState("");
@@ -90,7 +93,7 @@ export function ClassicsClient() {
         {LEVELS.map((lv) => (
           <Link
             key={lv}
-            href={`/classics/${lv.toLowerCase()}`}
+            href={localizePath(`/classics/${lv.toLowerCase()}`, pathname)}
             className="rounded-full bg-white/70 px-3 py-1 font-medium text-charcoal/60 transition hover:bg-sage/40 hover:text-charcoal"
           >
             {lv}

@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
 import { groupBookChapters } from "@/lib/books";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { localizePath } from "@/lib/locale-path";
 import { ClassicCard } from "@/components/home/ClassicCard";
 
 const CLASSICS = groupBookChapters(lessons.filter((lesson) => lesson.collection === "classics"));
@@ -13,6 +15,7 @@ const LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2"];
 
 export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonComplete } = useProgress();
 
   const books = CLASSICS.filter((lesson) => lesson.level === level);
@@ -34,7 +37,7 @@ export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
         className="mb-6 flex flex-wrap items-center gap-1.5 text-xs"
       >
         <Link
-          href="/classics"
+          href={localizePath("/classics", pathname)}
           className="rounded-full bg-white/70 px-3 py-1 font-medium text-charcoal/60 transition hover:bg-sage/40 hover:text-charcoal"
         >
           {t("classicsAllBooks")}
@@ -42,7 +45,7 @@ export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
         {LEVELS.map((lv) => (
           <Link
             key={lv}
-            href={`/classics/${lv.toLowerCase()}`}
+            href={localizePath(`/classics/${lv.toLowerCase()}`, pathname)}
             aria-current={lv === level ? "page" : undefined}
             className={
               lv === level
@@ -68,7 +71,7 @@ export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
       )}
 
       <Link
-        href="/classics"
+        href={localizePath("/classics", pathname)}
         className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline"
       >
         {t("classicsAllBooks")}

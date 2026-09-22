@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
-import { collectionPageJsonLd } from "@/lib/seo";
+import { collectionPageJsonLd, localeAlternates } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { BiographiesClient } from "./BiographiesClient";
 
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "public domain autobiography graded readers",
     "learn English through true stories",
   ],
-  alternates: { canonical: "/biographies" },
+  alternates: { canonical: "/biographies", ...localeAlternates("/biographies", true) },
   openGraph: { type: "website", url: "/biographies", title: SOCIAL_TITLE, description: DESCRIPTION },
   twitter: { card: "summary_large_image", title: SOCIAL_TITLE, description: DESCRIPTION },
 };

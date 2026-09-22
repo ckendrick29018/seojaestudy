@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
-import { collectionPageJsonLd } from "@/lib/seo";
+import { collectionPageJsonLd, localeAlternates } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { groupBookChapters } from "@/lib/books";
 import { ClassicsClient } from "./ClassicsClient";
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "learn English through classic stories",
     "learn Korean through stories",
   ],
-  alternates: { canonical: "/classics" },
+  alternates: { canonical: "/classics", ...localeAlternates("/classics", true) },
   openGraph: { type: "website", url: "/classics", title: SOCIAL_TITLE, description: DESCRIPTION },
   twitter: { card: "summary_large_image", title: SOCIAL_TITLE, description: DESCRIPTION },
 };

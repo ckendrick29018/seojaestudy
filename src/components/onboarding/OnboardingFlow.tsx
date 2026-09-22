@@ -29,8 +29,11 @@ export function OnboardingFlow() {
   }, [data.completed]);
 
   if (!hydrated || data.completed) return null;
-  // The marketing landing page lives at "/"; the app — and onboarding — start at "/library".
-  if (pathname === "/") return null;
+  // The marketing landing page lives at "/" (and its Korean-locale mirror
+  // "/ko"); the app — and onboarding — start at "/library". Only the exact
+  // home path is exempt, same as "/" — onboarding still shows on nested
+  // pages like "/ko/classics", matching how it already shows on "/classics".
+  if (pathname === "/" || pathname === "/ko") return null;
   if (HIDDEN_ON.some((p) => pathname.startsWith(p))) return null;
 
   const stepName = STEPS[step];

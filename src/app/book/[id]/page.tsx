@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BOOK_VIEWS, getBookLessons, getBookView } from "@/lib/books";
-import { bookDescription, bookMetaTitle, collectionPageJsonLd } from "@/lib/seo";
+import { bookDescription, bookMetaTitle, collectionPageJsonLd, localeAlternates } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { BookClient } from "./BookClient";
 
@@ -30,7 +30,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
       `${book.title} Korean translation`,
       ...(book.author ? [`${book.author.replace(/\s*\([^)]*\)\s*$/, "")} graded reader`] : []),
     ],
-    alternates: { canonical: path },
+    alternates: { canonical: path, ...localeAlternates(path, true) },
     openGraph: { type: "website", url: path, title: socialTitle, description },
     twitter: { card: "summary_large_image", title: socialTitle, description },
   };

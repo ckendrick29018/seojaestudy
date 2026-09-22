@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { lessons } from "@/lib/data/lessons";
-import { getBookContext } from "@/lib/books";
-import { LessonView } from "@/components/lesson/LessonView";
-import { LessonPaywall } from "@/components/lesson/LessonPaywall";
-import { createClient } from "@/lib/supabase/server";
-import { isActiveSubscription } from "@/lib/subscription";
-import { hasClubUnlockForLesson } from "@/lib/club-server";
-import { lessonDescription, lessonJsonLd, lessonKeywords, lessonMetaTitle } from "@/lib/seo";
+import { lessonDescription, lessonKeywords, lessonMetaTitle, localeAlternates } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
+import { renderLessonPage } from "./renderLessonPage";
 
 export function generateStaticParams() {
   return lessons.map((lesson) => ({ slug: lesson.slug }));
@@ -27,7 +21,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title,
     description,
     keywords: lessonKeywords(lesson),
-    alternates: { canonical: path },
+    alternates: { canonical: path, ...localeAlternates(path, true) },
     // og:image / twitter:image come from the sibling opengraph-image.tsx +
     // twitter-image.tsx route (a per-lesson card).
     openGraph: {
@@ -40,47 +34,6 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-async function hasActiveSubscription(): Promise<boolean> {
-  const authConfigured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-  if (!authConfigured) return false;
-
-  const supabase = createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) return false;
-
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("is_subscribed, subscription_current_period_end")
-    .eq("id", user.id)
-    .maybeSingle();
-
-  return isActiveSubscription(profile);
-}
-
 export default async function LessonPage({ params }: { params: { slug: string } }) {
-  const lesson = lessons.find((l) => l.slug === params.slug);
-  if (!lesson) notFound();
-
-  const locked =
-    !lesson.isFree &&
-    !(await hasActiveSubscription()) &&
-    !(await hasClubUnlockForLesson(lesson.slug));
-
-  const bookContext = getBookContext(lesson.slug);
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lessonJsonLd(lesson)) }}
-      />
-      {locked ? (
-        <LessonPaywall lesson={lesson} bookContext={bookContext} />
-      ) : (
-        <LessonView lesson={lesson} bookContext={bookContext} />
-      )}
-    </>
-  );
+  return renderLessonPage(params.slug);
 }

@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
+import { landingJsonLd, localeAlternates } from "@/lib/seo";
 import { LandingClient } from "./LandingClient";
 
-// The landing copy and its WebSite/Organization/WebApplication JSON-LD live in
-// LandingClient; this server wrapper only pins the canonical URL (a client
-// component can't export `metadata`).
+// The landing copy lives in LandingClient; this server wrapper pins the
+// canonical URL, the reciprocal Korean-locale hreflang, and the JSON-LD (a
+// client component can't export `metadata`, and locale-branched JSON-LD is
+// cleaner built once per server wrapper than threaded through as a prop).
 export const metadata: Metadata = {
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", ...localeAlternates("/", true) },
 };
 
 export default function Page() {
-  return <LandingClient />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(landingJsonLd("en")) }}
+      />
+      <LandingClient />
+    </>
+  );
 }

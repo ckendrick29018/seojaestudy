@@ -1,16 +1,19 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { BookView } from "@/lib/books";
 import { nextUnfinishedIndex } from "@/lib/data/books";
 import { fill } from "@/lib/utils";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { isKoPath, localizePath } from "@/lib/locale-path";
 import { Badge } from "@/components/ui/Badge";
 import { BookChapterList } from "@/components/lesson/BookChapters";
 
 export function BookClient({ book }: { book: BookView }) {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonComplete } = useProgress();
 
   const total = book.chapters.length;
@@ -55,7 +58,7 @@ export function BookClient({ book }: { book: BookView }) {
 
       <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
         <Link
-          href={`/lesson/${book.chapters[cta.index].slug}`}
+          href={localizePath(`/lesson/${book.chapters[cta.index].slug}`, pathname)}
           className="inline-flex items-center justify-center rounded-full bg-rose px-6 py-2.5 text-sm font-medium text-cream shadow-soft transition hover:bg-rose/90 lg:text-base"
         >
           {cta.label}
@@ -69,7 +72,12 @@ export function BookClient({ book }: { book: BookView }) {
         <BookChapterList book={book} />
       </div>
 
-      <Link href="/library" className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline">
+      {/* /ko/library doesn't exist this phase — the nearest real Korean
+          equivalent is /ko/classics, not a blind /ko prefix. */}
+      <Link
+        href={isKoPath(pathname) ? "/ko/classics" : "/library"}
+        className="mt-8 inline-block text-sm text-rose underline-offset-4 hover:underline"
+      >
         {t("backToLibrary")}
       </Link>
     </div>

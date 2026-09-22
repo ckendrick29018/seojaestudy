@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { ClassicCard } from "@/components/home/ClassicCard";
 import { LandingBottom } from "@/components/home/LandingBottom";
@@ -8,8 +9,9 @@ import { LandingPreview } from "@/components/home/LandingPreview";
 import { CTA_BASE, WRAP } from "@/components/home/landing-styles";
 import { ThemeShowcase } from "@/components/home/ThemeShowcase";
 import { useT } from "@/components/providers/LanguageProvider";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
+import { localizePath } from "@/lib/locale-path";
 import { TapIcon } from "@/components/ui/icons";
 
 /** A handful of Classics to show the product on the landing page itself. */
@@ -21,51 +23,15 @@ const CLASSICS_COUNT = FEATURED.length;
 const FOLKTALES_FEATURED = lessons.filter((l) => l.collection === "folktales");
 const FOLKTALES_COUNT = FOLKTALES_FEATURED.length;
 
-const JSON_LD = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": `${SITE_URL}/#website`,
-      url: `${SITE_URL}/`,
-      name: SITE_NAME,
-      description: SITE_DESCRIPTION,
-      inLanguage: ["en", "ko"],
-      publisher: { "@id": `${SITE_URL}/#org` },
-      hasPart: [
-        { "@id": `${SITE_URL}/classics#page` },
-        { "@id": `${SITE_URL}/library#page` },
-        { "@id": `${SITE_URL}/folktales#page` },
-        { "@id": `${SITE_URL}/learn#page` },
-      ],
-    },
-    {
-      "@type": "Organization",
-      "@id": `${SITE_URL}/#org`,
-      name: SITE_NAME,
-      url: `${SITE_URL}/`,
-      logo: `${SITE_URL}/icons/icon-512.png`,
-    },
-    {
-      "@type": "WebApplication",
-      name: SITE_NAME,
-      url: `${SITE_URL}/`,
-      applicationCategory: "EducationalApplication",
-      operatingSystem: "Web, Android",
-      inLanguage: ["en", "ko"],
-      description: SITE_DESCRIPTION,
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "USD",
-        description: "Free first lessons; optional Premium subscription unlocks the full library.",
-      },
-    },
-  ],
-};
+// WebSite/Organization/WebApplication JSON-LD lives in `landingJsonLd()`
+// (src/lib/seo.ts), rendered by the server wrapper (src/app/page.tsx and
+// src/app/ko/page.tsx) — a client component can't export locale-branched
+// JSON-LD as cleanly as those two thin wrappers can each call it directly.
 
 export function LandingClient() {
   const t = useT();
+  const pathname = usePathname();
+  const href = (path: string) => localizePath(path, pathname);
 
   // A small fanned stack of real covers for the desktop hero — shows a first-
   // time visitor actual books instead of asking them to scroll for proof.
@@ -74,11 +40,6 @@ export function LandingClient() {
 
   return (
     <div className="flex flex-col">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
-      />
-
       {/* Hero */}
       <section className="px-6 pb-12 pt-14 text-center lg:pb-20 lg:pt-20">
         <div className={`${WRAP} lg:grid lg:grid-cols-2 lg:items-center lg:gap-16 lg:text-left`}>
@@ -111,7 +72,7 @@ export function LandingClient() {
                 {t("landingCtaPrimary")}
               </Link>
               <Link
-                href="/classics"
+                href={href("/classics")}
                 className={`${CTA_BASE} w-full border border-rose-soft/50 text-rose hover:bg-rose-light/30 sm:w-auto`}
               >
                 {t("landingCtaSecondary")}
@@ -130,7 +91,7 @@ export function LandingClient() {
               {HERO_COVERS.map((lesson, i) => (
                 <Link
                   key={lesson.slug}
-                  href={`/lesson/${lesson.slug}`}
+                  href={href(`/lesson/${lesson.slug}`)}
                   style={{
                     zIndex: i,
                     marginLeft: i === 0 ? 0 : -64,
@@ -174,7 +135,7 @@ export function LandingClient() {
               ))}
             </div>
             <Link
-              href="/classics"
+              href={href("/classics")}
               className="mt-6 block text-center text-sm font-medium text-rose underline-offset-4 hover:underline lg:mt-10"
             >
               {t("landingClassicsSeeAll").replace("{count}", String(CLASSICS_COUNT))}
@@ -228,7 +189,7 @@ export function LandingClient() {
         <p className="mt-1 text-xs text-charcoal/50">{t("tagline")}</p>
         <nav className="mt-4 flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs font-medium text-charcoal/60">
           <Link href="/library" className="hover:text-charcoal">{t("library")}</Link>
-          <Link href="/classics" className="hover:text-charcoal">{t("classics")}</Link>
+          <Link href={href("/classics")} className="hover:text-charcoal">{t("classics")}</Link>
           <Link href="/learn" className="hover:text-charcoal">{t("learnGuides")}</Link>
           <Link href="/faq" className="hover:text-charcoal">{t("faq")}</Link>
           {SHOW_AUTH_PROMPTS && (

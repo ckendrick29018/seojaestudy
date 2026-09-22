@@ -78,6 +78,12 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/icons/icon-180.png", sizes: "180x180", type: "image/png" }],
   },
+  // Naver Search Advisor (네이버 서치어드바이저) site-ownership check. Unset in
+  // environments that haven't registered (local dev, previews) — no tag
+  // renders at all rather than a broken/placeholder one.
+  ...(process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION
+    ? { verification: { other: { "naver-site-verification": process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION } } }
+    : {}),
 };
 
 export const viewport: Viewport = {

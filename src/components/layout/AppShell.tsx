@@ -8,7 +8,8 @@ import { MarketingHeader } from "./MarketingHeader";
 // the homepage, every SEO/marketing hub (and their sub-routes, e.g.
 // /classics/a1 or /learn/cefr-levels-explained), plus the personal
 // collection/account pages (/folktales, /bookshelf, /club, /settings,
-// /biographies) that share the same hub styling.
+// /biographies) that share the same hub styling. "/ko" covers the whole
+// Korean-locale route tree the same way — see src/lib/locale-path.ts.
 const MARKETING_PREFIXES = [
   "/classics",
   "/library",
@@ -22,6 +23,7 @@ const MARKETING_PREFIXES = [
   "/quote",
   "/book",
   "/biographies",
+  "/ko",
 ];
 
 function isMarketingRoute(pathname: string) {

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
+import { localizePath } from "@/lib/locale-path";
 import { BrandMark, MenuIcon } from "@/components/ui/icons";
 import { MenuDrawer } from "./MenuDrawer";
 
@@ -28,7 +29,7 @@ export function MarketingHeader() {
   const inLibrary = pathname === "/library" || pathname.startsWith("/library/");
 
   const navLinks = [
-    { href: "/classics", label: t("classics") },
+    { href: localizePath("/classics", pathname), label: t("classics") },
     { href: "/library", label: t("library") },
     { href: "/learn", label: t("learnGuides") },
     { href: "/faq", label: t("faq") },
@@ -41,7 +42,7 @@ export function MarketingHeader() {
           {/* min-w-0 + truncate: on a narrow phone (or with the larger text-size
               setting) the wordmark gives way instead of pushing the menu button
               off-screen. */}
-          <Link href="/" className="flex min-w-0 items-center gap-2.5">
+          <Link href={localizePath("/", pathname)} className="flex min-w-0 items-center gap-2.5">
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl2 bg-rose-light/50 text-rose">
               <BrandMark className="h-5 w-5" />
             </span>

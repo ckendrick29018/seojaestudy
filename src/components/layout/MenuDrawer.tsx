@@ -7,6 +7,7 @@ import { useLanguage, useT } from "@/components/providers/LanguageProvider";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { useStudyPlan } from "@/components/providers/StudyPlanProvider";
 import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
+import { isKoPath, localizePath } from "@/lib/locale-path";
 import type { UiLang } from "@/lib/i18n";
 import {
   BookOpenIcon,
@@ -109,8 +110,8 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
   const navItems = [
     { href: "/library", label: t("library"), Icon: HomeIcon, badge: 0 },
     { href: "/bookshelf", label: t("bookshelf"), Icon: CatIcon, badge: 0 },
-    { href: "/classics", label: t("classics"), Icon: BooksIcon, badge: 0 },
-    { href: "/biographies", label: t("biographiesTitle"), Icon: BooksIcon, badge: 0 },
+    { href: localizePath("/classics", pathname), label: t("classics"), Icon: BooksIcon, badge: 0 },
+    { href: localizePath("/biographies", pathname), label: t("biographiesTitle"), Icon: BooksIcon, badge: 0 },
     { href: "/folktales", label: t("folktalesTitle"), Icon: BooksIcon, badge: 0 },
     { href: "/saved", label: t("savedWords"), Icon: BookOpenIcon, badge: 0 },
     { href: "/study", label: t("studyPlan"), Icon: CardsIcon, badge: dueItems.length },
@@ -125,10 +126,14 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
     "flex items-center gap-3 rounded-xl2 px-3 py-2.5 text-sm font-medium transition text-charcoal/70 hover:bg-sage/40 hover:text-charcoal";
 
   // Return the user to the page they opened the menu from after signing in,
-  // never to /login or /auth themselves (and never to "/", which just bounces
-  // straight back to the marketing page).
+  // never to /login or /auth themselves (and never to "/" or "/ko", which
+  // just bounce straight back to a marketing page).
   const loginNext =
-    !pathname || pathname === "/" || pathname.startsWith("/login") || pathname.startsWith("/auth")
+    !pathname ||
+    pathname === "/" ||
+    pathname === "/ko" ||
+    pathname.startsWith("/login") ||
+    pathname.startsWith("/auth")
       ? "/library"
       : pathname;
 
@@ -205,29 +210,33 @@ export function MenuDrawer({ open, onClose }: { open: boolean; onClose: () => vo
               </Link>
             </nav>
 
-            <div className="border-t border-rose-light/40 pt-2">
-              <p className="px-3 pb-1.5 text-xs font-semibold uppercase tracking-wide text-charcoal/40">
-                {t("settingsLanguageTitle")}
-              </p>
-              <div
-                role="group"
-                aria-label={t("settingsLanguageTitle")}
-                className="mx-3 inline-flex rounded-full border border-rose-soft/40 bg-white/70 p-0.5 text-xs font-medium"
-              >
-                {UI_LANGS.map(({ code, label }) => (
-                  <button
-                    key={code}
-                    onClick={() => setLang(code)}
-                    aria-pressed={lang === code}
-                    className={`rounded-full px-3 py-1 transition ${
-                      lang === code ? "bg-rose text-cream" : "text-charcoal/50 hover:text-charcoal/80"
-                    }`}
-                  >
-                    {label}
-                  </button>
-                ))}
+            {/* Hidden under /ko: chrome language is locked to Korean there
+                (see LanguageProvider), so a toggle would just be inert. */}
+            {!isKoPath(pathname) && (
+              <div className="border-t border-rose-light/40 pt-2">
+                <p className="px-3 pb-1.5 text-xs font-semibold uppercase tracking-wide text-charcoal/40">
+                  {t("settingsLanguageTitle")}
+                </p>
+                <div
+                  role="group"
+                  aria-label={t("settingsLanguageTitle")}
+                  className="mx-3 inline-flex rounded-full border border-rose-soft/40 bg-white/70 p-0.5 text-xs font-medium"
+                >
+                  {UI_LANGS.map(({ code, label }) => (
+                    <button
+                      key={code}
+                      onClick={() => setLang(code)}
+                      aria-pressed={lang === code}
+                      className={`rounded-full px-3 py-1 transition ${
+                        lang === code ? "bg-rose text-cream" : "text-charcoal/50 hover:text-charcoal/80"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {authAvailable && (SHOW_AUTH_PROMPTS || user) && (
               <div className="border-t border-rose-light/40 pt-2">

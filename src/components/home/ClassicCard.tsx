@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { LessonMeta } from "@/lib/types";
 import { findBookForLesson } from "@/lib/data/books";
 import { fill } from "@/lib/utils";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { localizePath } from "@/lib/locale-path";
 import { Badge } from "@/components/ui/Badge";
 import { BookmarkIcon, LockIcon } from "@/components/ui/icons";
 
@@ -16,6 +18,7 @@ import { BookmarkIcon, LockIcon } from "@/components/ui/icons";
  */
 export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete: boolean }) {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonSaved, saveLesson, unsaveLesson } = useProgress();
   const minutes = lesson.readingMinutes;
   const saved = isLessonSaved(lesson.slug);
@@ -23,7 +26,7 @@ export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete
 
   return (
     <Link
-      href={`/lesson/${lesson.slug}`}
+      href={localizePath(`/lesson/${lesson.slug}`, pathname)}
       className="group flex flex-col overflow-hidden rounded-xl2 border border-rose-light/50 bg-white/60 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
     >
       <div className="relative aspect-[2/3] w-full overflow-hidden bg-sage/40">

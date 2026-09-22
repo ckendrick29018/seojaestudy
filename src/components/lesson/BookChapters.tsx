@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { BookContext, BookView } from "@/lib/books";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { localizePath } from "@/lib/locale-path";
 import { Badge } from "@/components/ui/Badge";
 import { CheckIcon, ChevronRightIcon, LockIcon } from "@/components/ui/icons";
 import { fill } from "@/lib/utils";
@@ -15,12 +17,13 @@ import { fill } from "@/lib/utils";
  */
 export function BookPartLink({ context }: { context?: BookContext }) {
   const t = useT();
+  const pathname = usePathname();
   if (!context) return null;
   const { book, index } = context;
 
   return (
     <Link
-      href={`/book/${book.id}`}
+      href={localizePath(`/book/${book.id}`, pathname)}
       className="inline-flex max-w-full items-center gap-1 rounded-full bg-rose-light/40 px-3 py-1 text-xs font-medium text-rose transition hover:bg-rose-light/70"
     >
       <span className="truncate">
@@ -38,6 +41,7 @@ export function BookPartLink({ context }: { context?: BookContext }) {
  */
 export function BookChapters({ context }: { context?: BookContext }) {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonComplete } = useProgress();
   if (!context) return null;
   const { book, index } = context;
@@ -51,7 +55,10 @@ export function BookChapters({ context }: { context?: BookContext }) {
         <h2 id="book-chapters-heading" className="text-xs font-semibold uppercase tracking-widest text-rose/70">
           {t("bookInThisBook")}
         </h2>
-        <Link href={`/book/${book.id}`} className="shrink-0 text-xs font-medium text-rose underline-offset-4 hover:underline">
+        <Link
+          href={localizePath(`/book/${book.id}`, pathname)}
+          className="shrink-0 text-xs font-medium text-rose underline-offset-4 hover:underline"
+        >
           {t("bookBackToBook")} →
         </Link>
       </div>
@@ -61,7 +68,7 @@ export function BookChapters({ context }: { context?: BookContext }) {
 
       {next ? (
         <Link
-          href={`/lesson/${next.slug}`}
+          href={localizePath(`/lesson/${next.slug}`, pathname)}
           className="group mb-4 flex items-center gap-3 rounded-xl2 border border-rose-soft/40 bg-gradient-to-br from-rose-light/45 via-white/70 to-sage/25 p-4 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
         >
           <div className="min-w-0 flex-1">
@@ -97,6 +104,7 @@ export function BookChapters({ context }: { context?: BookContext }) {
 /** The numbered part list with completion ticks; `currentIndex` highlights the part being read. */
 export function BookChapterList({ book, currentIndex }: { book: BookView; currentIndex?: number }) {
   const t = useT();
+  const pathname = usePathname();
   const { isLessonComplete } = useProgress();
 
   return (
@@ -107,7 +115,7 @@ export function BookChapterList({ book, currentIndex }: { book: BookView; curren
         return (
           <li key={chapter.slug}>
             <Link
-              href={`/lesson/${chapter.slug}`}
+              href={localizePath(`/lesson/${chapter.slug}`, pathname)}
               aria-current={current ? "page" : undefined}
               className={`flex items-center gap-3 px-4 py-3 transition hover:bg-rose-light/20 ${current ? "bg-rose-light/25" : ""}`}
             >
