@@ -112,6 +112,7 @@ export const BOOKS: Book[] = [
       "dracula-the-three-women",
       "dracula-three-letters",
       "dracula-the-demeter",
+      "dracula-lucy-and-mina",
     ],
   },
   {
@@ -123,6 +124,7 @@ export const BOOKS: Book[] = [
       "moby-dick-quarter-deck",
       "moby-dick-the-white-whale",
       "moby-dick-third-day",
+      "moby-dick-epilogue",
     ],
   },
   {
@@ -133,6 +135,7 @@ export const BOOKS: Book[] = [
       "hound-of-the-baskervilles-holmes",
       "hound-of-the-baskervilles-curse",
       "hound-of-the-baskervilles-sir-henry",
+      "hound-of-the-baskervilles-baskerville-hall",
     ],
   },
   {
@@ -143,6 +146,7 @@ export const BOOKS: Book[] = [
       "dr-jekyll-and-mr-hyde",
       "dr-jekyll-and-mr-hyde-carew-murder",
       "dr-jekyll-and-mr-hyde-full-statement",
+      "dr-jekyll-and-mr-hyde-the-last-change",
     ],
   },
   {

@@ -1361,12 +1361,32 @@ the corpse's wounds and the mastiff found dead the next morning, and it sits ahe
 Ch. 5–6 (Mina and Lucy's letters, Mina's journal), which are still in the queue.
 Covers: a book with a ring, a whale's fluke over a whirlpool, and a schooner.
 
+**Wave 7 — written 2026-09-22** (same checklist; no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Moby Dick → part 5 | The Epilogue | Epilogue | B2 |
+| Dracula → part 6 | Letters — Lucy and Mina | Ch. 5 | B2 |
+| The Hound of the Baskervilles → part 4 | Baskerville Hall | Ch. 6 | B1 |
+| Dr. Jekyll and Mr. Hyde → part 4 | The Last Change | Ch. 10 (second half) | B2 |
+
+Sources: Gutenberg #2701, #345, #2852, #43. Handling notes: the Moby Dick Epilogue is the
+whole (very short) source chapter — Ishmael's survival on Queequeg's coffin-turned-life-buoy
+and the Rachel's rescue — and completes the book at 5 parts. The Dracula chapter is Ch. 5
+("Letters—Lucy and Mina"), chronologically earlier than the already-published Ch. 7 Demeter
+chapter (part 5); it was added as part 6 rather than resequencing the book, so existing
+readers' part 5 doesn't shift — Ch. 6 (Mina's journal, Lucy's sleepwalking) is still in the
+queue and would need to slot in with the same trade-off. The Hound chapter keeps the
+"woman sobbing in the night" cliffhanger but doesn't reveal who she is. The Jekyll chapter
+completes the book at 4 parts: it keeps the Regent's Park spontaneous transformation, the
+Lanyon rescue (already dramatized from Lanyon's side in part 3), the escalating relapses,
+and the impure-salt ending, without restating the Carew murder itself.
+Covers: a coffin-lifebuoy in ripples, a quill over an open journal, a gate-and-hall
+silhouette with a moor hill, and a broken vial with a cracked mirror shard.
+
 **Remaining queue, suggested order:**
-1. Moby Dick Epilogue ("And I only am escaped alone to tell thee" — short, could be its own
-   part 5); Dracula Ch. 5 (Mina and Lucy's letters) or Ch. 8 (Mina's journal, Lucy's
-   sleepwalking).
-2. Hound of the Baskervilles Ch. 6 ("Baskerville Hall"); Dr. Jekyll Ch. 10 second half
-   (the transformation); Anne Ch. 21 ("A New Departure in Flavorings") or Ch. 37
-   ("The Reaper Whose Name Is Death"); Alice Ch. 9 ("The Mock Turtle's Story"); Secret Garden and A Little
-   Princess have two parts each and could get a third.
+1. Dracula Ch. 6 (Mina's journal) or Ch. 8 (Lucy's sleepwalking) — same resequencing
+   trade-off noted above; Anne Ch. 21 ("A New Departure in Flavorings") or Ch. 37
+   ("The Reaper Whose Name Is Death"); Alice Ch. 9 ("The Mock Turtle's Story").
+2. Secret Garden and A Little Princess have two parts each and could get a third.
 3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).

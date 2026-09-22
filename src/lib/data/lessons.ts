@@ -43547,6 +43547,888 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "moby-dick-epilogue",
+    title: "Moby Dick: The Epilogue",
+    titleTranslation: "모비 딕: 에필로그",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Herman Melville (1819–1891)",
+    coverEmoji: "⚓",
+    coverImage: "/covers/moby-dick-epilogue.svg",
+    source:
+      "Adapted from the \"Epilogue\" of Herman Melville's novel \"Moby-Dick; or, The Whale\" (first published 1851; long in the public domain, Project Gutenberg #2701). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say how Ishmael survived the sinking of the Pequod and how he was found.",
+    paragraphs: [
+      [
+        {
+          id: "mde-1",
+          text: "Ishmael, the narrator of this story, was the only man aboard the Pequod who lived to tell what happened, and he explained afterward how such a thing was possible.",
+          translation:
+            "이 이야기의 화자 이슈메일은 피쿼드호에서 유일하게 살아남아 이 이야기를 전한 사람이었고, 나중에 그것이 어떻게 가능했는지 설명해 주었어요.",
+        },
+        {
+          id: "mde-2",
+          text: "Days before, when the mysterious sailor called the Parsee vanished at sea, Ishmael had been the man chosen to fill his empty place in Ahab's own boat.",
+          translation:
+            "며칠 전, 파시교도라 불리던 수수께끼의 선원이 바다에서 사라졌을 때, 에이해브의 보트에서 그 빈자리를 채우도록 선택된 사람이 바로 이슈메일이었어요.",
+        },
+        {
+          id: "mde-3",
+          text: "On the last day of the chase, when Ahab's boat was thrown about and three men were flung into the water, Ishmael was thrown clear, farthest of them all from the sinking wreck.",
+          translation:
+            "추격 마지막 날, 에이해브의 보트가 뒤흔들리며 선원 세 명이 물속으로 내던져졌을 때, 이슈메일은 그들 중 가장 멀리, 가라앉는 배에서 제일 멀리 떨어진 곳으로 내던져졌어요.",
+        },
+      ],
+      [
+        {
+          id: "mde-4",
+          text: "Floating alone at the edge of the disaster, he watched the Pequod go under and felt the sea slowly begin to pull him toward the whirlpool she left behind.",
+          translation:
+            "재난의 가장자리에서 홀로 떠 있던 이슈메일은 피쿼드호가 가라앉는 것을 지켜보았고, 바다가 서서히 자신을 배가 남긴 소용돌이 쪽으로 끌어당기기 시작하는 것을 느꼈어요.",
+        },
+        {
+          id: "mde-5",
+          text: "The great circle of spinning water grew narrower and narrower, and round and round he was drawn, closer each time to its dark, silent center.",
+          translation:
+            "빙빙 도는 거대한 물의 원은 점점 좁아졌고, 이슈메일은 어둡고 고요한 중심을 향해 매번 더 가까이 끌려가며 빙글빙글 돌았어요.",
+        },
+        {
+          id: "mde-6",
+          text: "Just as he reached that center, something rose up from far below: a shape burst out of the sea and into the open air.",
+          translation:
+            "마침내 그 중심에 다다랐을 때, 저 아래 깊은 곳에서 무언가가 솟아올라 바다를 뚫고 허공으로 터져 나왔어요.",
+        },
+      ],
+      [
+        {
+          id: "mde-7",
+          text: "It was Queequeg's coffin, the same one the ship's carpenter had built and the sailors had later sealed shut and fitted out as a life buoy.",
+          translation:
+            "그것은 퀴퀘그의 관이었는데, 배의 목수가 짜 놓았다가 나중에 선원들이 못질해 봉하고 구명부표로 고쳐 만든 바로 그 관이었어요.",
+        },
+        {
+          id: "mde-8",
+          text: "Carried up by its own buoyancy, the coffin shot lengthwise out of the water, tipped over, and floated down softly beside him.",
+          translation:
+            "자체의 부력에 떠밀려 관은 길게 물 밖으로 솟구쳤다가 뒤집히더니 이슈메일 곁으로 사뿐히 떠내려왔어요.",
+        },
+        {
+          id: "mde-9",
+          text: "Ishmael caught hold of it at once, and it kept him afloat, drifting on the quiet sea for almost a full day and night.",
+          translation:
+            "이슈메일은 곧바로 그것을 붙잡았고, 관 덕분에 거의 하루 밤낮을 고요한 바다 위에 떠 있을 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "mde-10",
+          text: "Sharks glided close by but left him alone, and sea-hawks circled low overhead but never once struck at him.",
+          translation:
+            "상어들이 가까이 지나갔지만 건드리지 않았고, 바다매들이 낮게 맴돌았지만 한 번도 덮치지 않았어요.",
+        },
+        {
+          id: "mde-11",
+          text: "On the second day, a distant sail appeared on the horizon and slowly grew larger as it drew nearer.",
+          translation:
+            "이틀째 되는 날, 수평선에 돛이 하나 나타나더니 서서히 가까워졌어요.",
+        },
+      ],
+      [
+        {
+          id: "mde-12",
+          text: "The ship was the Rachel, a whaler that had lost her own captain's young son somewhere on these same waters only days before.",
+          translation:
+            "그 배는 레이첼호였는데, 바로 그 며칠 전 같은 바다 어딘가에서 선장의 어린 아들을 잃은 포경선이었어요.",
+        },
+        {
+          id: "mde-13",
+          text: "She was still sailing back and forth in wide circles, searching every stretch of ocean for her own missing boats and men.",
+          translation:
+            "레이첼호는 자기 배의 보트와 선원들을 찾아 넓게 원을 그리며 여전히 바다를 오가고 있었어요.",
+        },
+        {
+          id: "mde-14",
+          text: "Instead of the sons she was looking for, the Rachel's lookouts found only one more lonely survivor, floating on an old wooden coffin.",
+          translation:
+            "레이첼호의 망꾼들은 자신들이 찾던 아들 대신, 낡은 나무 관 위에 홀로 떠 있는 또 한 명의 외로운 생존자를 발견했을 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mde-15",
+          text: "Her sailors lowered a boat, pulled Ishmael up out of the water, and brought him safely aboard.",
+          translation:
+            "선원들은 보트를 내려 이슈메일을 물 밖으로 끌어올려 무사히 배에 태웠어요.",
+        },
+        {
+          id: "mde-16",
+          text: "So the Pequod, Captain Ahab, and every other man who had sailed with them were lost beneath the sea, and the whale swam on.",
+          translation:
+            "이렇게 피쿼드호와 에이해브 선장, 그리고 그들과 함께 항해했던 다른 모든 선원은 바닷속으로 사라졌고, 고래는 헤엄쳐 떠났어요.",
+        },
+        {
+          id: "mde-17",
+          text: "Only Ishmael was left to carry the story home, just as it is written: \"And I only am escaped alone to tell thee.\"",
+          translation:
+            "오직 이슈메일만 남아 이 이야기를 전했으니, 기록된 그대로였어요: \"나만이 홀로 빠져나와 그대에게 전하러 왔노라.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mde-v1",
+        term: "buoy",
+        partOfSpeech: "noun",
+        translation: "구명부표, 부표",
+        example: "The sailors turned an old coffin into a life buoy.",
+        exampleTranslation: "선원들은 낡은 관을 구명부표로 만들었어요.",
+      },
+      {
+        id: "mde-v2",
+        term: "vanish",
+        partOfSpeech: "verb",
+        translation: "사라지다",
+        example: "The strange sailor seemed to vanish into the sea.",
+        exampleTranslation: "그 낯선 선원은 바닷속으로 사라진 것 같았어요.",
+      },
+      {
+        id: "mde-v3",
+        term: "whirlpool",
+        partOfSpeech: "noun",
+        translation: "소용돌이",
+        example: "The sinking ship left a wide whirlpool behind it.",
+        exampleTranslation: "가라앉는 배는 뒤에 넓은 소용돌이를 남겼어요.",
+      },
+      {
+        id: "mde-v4",
+        term: "glide",
+        partOfSpeech: "verb",
+        translation: "미끄러지듯 움직이다",
+        example: "The shark glided past without touching him.",
+        exampleTranslation: "상어는 이슈메일을 건드리지 않고 미끄러지듯 지나갔어요.",
+      },
+      {
+        id: "mde-v5",
+        term: "drift",
+        partOfSpeech: "verb",
+        translation: "표류하다, 떠다니다",
+        example: "He drifted on the calm sea for a whole day.",
+        exampleTranslation: "이슈메일은 잔잔한 바다 위를 하루 종일 표류했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mde-q1",
+        prompt: "Why was Ishmael in Ahab's own boat on the last day of the chase?",
+        options: [
+          "He asked Ahab for the honor.",
+          "He took the place of the Parsee, who had vanished earlier in the chase.",
+          "He was the ship's best oarsman.",
+          "Starbuck ordered him into that boat.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Days before, the Parsee vanished at sea, leaving an empty place in Ahab's boat, and Ishmael was the one chosen to fill it.",
+      },
+      {
+        id: "mde-q2",
+        prompt: "What saved Ishmael's life after the Pequod sank?",
+        options: [
+          "He swam to a nearby island.",
+          "Another whaleboat picked him up immediately.",
+          "Queequeg's coffin, turned into a life buoy, burst up from the whirlpool and floated beside him.",
+          "He clung to a piece of the ship's mast.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "At the center of the whirlpool, Queequeg's coffin, fitted out as a life buoy, shot up and floated beside Ishmael, keeping him afloat for almost a day and night.",
+      },
+      {
+        id: "mde-q3",
+        prompt: "Which ship rescued Ishmael, and why was she still searching those waters?",
+        options: [
+          "The Rachel, searching for her own captain's missing son.",
+          "The Pequod's sister ship, sent to check on her.",
+          "A passing merchant ship bound for England.",
+          "The Rachel, delivering mail to whalers.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "The Rachel had lost her own captain's young son in these same waters days before and was still sailing in circles, searching for him, when she found Ishmael instead.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-lucy-and-mina",
+    title: "Dracula: Letters — Lucy and Mina",
+    titleTranslation: "드라큘라: 루시와 미나의 편지",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "💌",
+    coverImage: "/covers/dracula-lucy-and-mina.svg",
+    source:
+      "Adapted from Chapter 5 (\"Letters—Lucy and Mina\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened to Lucy in one day and which proposal she accepted.",
+    paragraphs: [
+      [
+        {
+          id: "drl-1",
+          text: "Mina Murray wrote to her dear friend Lucy Westenra, apologizing for her long silence and explaining that she had been busy learning shorthand and typewriting so that she could one day help her fiancé, Jonathan Harker, with his work.",
+          translation:
+            "미나 머레이는 절친한 친구 루시 웨스텐라에게 편지를 써서 오랫동안 소식을 전하지 못한 것을 사과했고, 속기와 타자를 배우느라 바빴다고, 언젠가 약혼자 조나단 하커의 일을 돕고 싶어서라고 설명했어요.",
+        },
+        {
+          id: "drl-2",
+          text: "She mentioned that Jonathan was still away in Transylvania but would be home again within the week, and she teased Lucy for having no news to share, especially about a certain \"tall, handsome, curly-haired man.\"",
+          translation:
+            "조나단은 아직 트란실바니아에 있지만 일주일 안에 돌아올 거라고 전하며, 미나는 \"키 크고 잘생긴 곱슬머리 남자\"에 대해 아무 소식도 전하지 않는 루시를 놀렸어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-3",
+          text: "Lucy wrote back that the curly-haired man was only Mr. Arthur Holmwood, who often called on her and her mother and got along with them very well.",
+          translation:
+            "루시는 답장에서 그 곱슬머리 남자는 그저 아서 홈우드 씨일 뿐이며, 아서는 자주 찾아와 자신과 어머니 둘 다와 아주 잘 어울린다고 전했어요.",
+        },
+        {
+          id: "drl-4",
+          text: "She also mentioned a new friend, Dr. John Seward, a clever young doctor who ran a large asylum and had a curious habit of studying people's faces as if trying to read their thoughts.",
+          translation:
+            "루시는 또 새로 사귄 존 수어드 박사도 언급했는데, 수어드는 큰 정신병원을 운영하는 영리한 젊은 의사로, 마치 사람의 속마음을 읽으려는 듯 얼굴을 유심히 살피는 독특한 버릇이 있었어요.",
+        },
+        {
+          id: "drl-5",
+          text: "Lucy admitted, blushing as she wrote, that she was secretly in love with Arthur, though he had not yet told her in words that he loved her too.",
+          translation:
+            "루시는 얼굴을 붉히며, 아서를 남몰래 사랑하고 있지만 아직 사랑한다는 말은 듣지 못했다고 고백했어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-6",
+          text: "A few weeks later, Lucy wrote again with astonishing news: in a single day, she had received not one but three proposals of marriage.",
+          translation:
+            "몇 주 뒤 루시는 다시 편지를 보내 놀라운 소식을 전했는데, 하루 만에 청혼을 한 번도 아니고 무려 세 번이나 받았다는 것이었어요.",
+        },
+        {
+          id: "drl-7",
+          text: "The first, just before lunch, was Dr. Seward, who spoke to her plainly and gently, and asked only whether her heart already belonged to someone else.",
+          translation:
+            "첫 번째는 점심 직전에 찾아온 수어드 박사로, 담담하고 다정하게 말을 건네며 오직 루시의 마음이 이미 다른 사람에게 가 있는지만 물었어요.",
+        },
+        {
+          id: "drl-8",
+          text: "When Lucy admitted that it did, Seward stood up, wished her happiness, and asked only that she think of him as a true friend from then on.",
+          translation:
+            "루시가 그렇다고 인정하자 수어드는 자리에서 일어나 행복을 빌어 주었고, 앞으로 자신을 진정한 친구로 여겨 달라고만 부탁했어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-9",
+          text: "The second, that same afternoon, was Mr. Quincey Morris, an easygoing American from Texas, who asked for her hand in his own joking, warm way, comparing marriage to two horses driving in \"double harness.\"",
+          translation:
+            "두 번째는 그날 오후에 찾아온 퀸시 모리스로, 텍사스 출신의 소탈한 미국인이었는데, 결혼을 \"한 쌍의 말이 나란히 마차를 끄는 것\"에 빗대며 자기 식의 농담 섞인 다정한 말투로 청혼했어요.",
+        },
+        {
+          id: "drl-10",
+          text: "Seeing that his teasing had not entirely won her over, he grew serious and asked the same honest question Seward had: was there already someone else she loved?",
+          translation:
+            "농담이 루시의 마음을 완전히 사로잡지 못했다는 것을 알아챈 모리스는 진지해져서, 수어드와 똑같이 솔직한 질문을 던졌어요: 이미 사랑하는 사람이 있느냐고.",
+        },
+        {
+          id: "drl-11",
+          text: "When Lucy told him yes, Morris took her answer with grace, called himself a good loser, asked for one kiss to remember her by, and left, wishing the unknown rival good luck.",
+          translation:
+            "루시가 그렇다고 답하자 모리스는 담담하게 받아들이며 스스로를 \"패배를 아는 사람\"이라 칭했고, 루시를 기억할 수 있도록 입맞춤 한 번을 청한 뒤, 이름 모를 연적에게 행운을 빌며 떠났어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-12",
+          text: "Lucy confessed to Mina that she could not bring herself to describe the third proposal in any detail, except to say that it was Arthur Holmwood, and that within moments his arms were around her and he was kissing her.",
+          translation:
+            "루시는 미나에게 세 번째 청혼만큼은 자세히 이야기할 수 없다고 고백하며, 다만 아서 홈우드였다는 것과, 순식간에 두 팔이 자신을 감싸고 입을 맞추고 있었다는 것만 전했어요.",
+        },
+        {
+          id: "drl-13",
+          text: "She was, she wrote, happier than she had ever been in her life, and she made Mina promise to keep the whole story a secret from everyone but Jonathan.",
+          translation:
+            "루시는 태어나서 이보다 더 행복한 적이 없었다고 썼고, 이 모든 이야기를 조나단 말고는 아무에게도 비밀로 해 달라고 미나에게 다짐받았어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-14",
+          text: "That same evening, Dr. Seward wrote sadly in his diary that he had lost his appetite and could not rest, so he threw himself back into his work at the asylum instead.",
+          translation:
+            "그날 저녁 수어드 박사는 일기에 식욕을 잃고 잠도 이루지 못한다고 서글프게 적으며, 대신 정신병원 일에 다시 몰두했어요.",
+        },
+        {
+          id: "drl-15",
+          text: "He turned his attention to one patient in particular, a strange, powerful man named Renfield, whose fixed ideas and sudden fits of gloom Seward was determined to understand.",
+          translation:
+            "수어드는 특히 한 환자, 렌필드라는 강인하고 기이한 남자에게 관심을 쏟았는데, 렌필드의 고정관념과 갑작스러운 우울 발작의 원인을 반드시 알아내겠다고 다짐했어요.",
+        },
+      ],
+      [
+        {
+          id: "drl-16",
+          text: "Meanwhile, Quincey Morris wrote to his old friend Arthur, recalling their adventures together from campfires on the prairie to the shores of Lake Titicaca, and invited him to a quiet dinner the next night with himself and Seward.",
+          translation:
+            "한편 퀸시 모리스는 오랜 친구 아서에게 편지를 보내, 초원의 모닥불가에서 티티카카 호숫가에 이르기까지 함께했던 모험들을 떠올리며, 다음 날 밤 수어드와 셋이서 조용히 저녁을 함께하자고 청했어요.",
+        },
+        {
+          id: "drl-17",
+          text: "It was his way of saying that there were no hard feelings between the three friends, now that all of them understood how matters stood with Lucy.",
+          translation:
+            "이는 이제 세 사람 모두 루시와의 일을 이해하게 된 만큼, 서로에게 아무런 앙금도 없다는 뜻을 전하려는 것이었어요.",
+        },
+        {
+          id: "drl-18",
+          text: "None of them yet knew how soon they would all be needed together, for a far stranger trouble than a broken heart was already gathering around Lucy.",
+          translation:
+            "하지만 세 사람 중 누구도, 실연보다 훨씬 기이한 위험이 이미 루시 주위에 모여들고 있다는 것을, 그리고 곧 다 함께 그 위험에 맞서야 하리라는 것을 아직 알지 못했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drl-v1",
+        term: "proposal",
+        partOfSpeech: "noun",
+        translation: "청혼",
+        example: "Lucy received three proposals of marriage in a single day.",
+        exampleTranslation: "루시는 하루 만에 세 번의 청혼을 받았어요.",
+      },
+      {
+        id: "drl-v2",
+        term: "asylum",
+        partOfSpeech: "noun",
+        translation: "정신병원, 수용시설",
+        example: "Dr. Seward ran a large asylum for the mentally ill.",
+        exampleTranslation: "수어드 박사는 큰 정신병원을 운영했어요.",
+      },
+      {
+        id: "drl-v3",
+        term: "rival",
+        partOfSpeech: "noun",
+        translation: "연적, 경쟁자",
+        example: "Morris wished his unknown rival good luck.",
+        exampleTranslation: "모리스는 이름 모를 연적에게 행운을 빌었어요.",
+      },
+      {
+        id: "drl-v4",
+        term: "blush",
+        partOfSpeech: "verb",
+        translation: "얼굴을 붉히다",
+        example: "Lucy blushed as she wrote about her secret love.",
+        exampleTranslation: "루시는 남몰래 품은 사랑을 쓰며 얼굴을 붉혔어요.",
+      },
+      {
+        id: "drl-v5",
+        term: "gloom",
+        partOfSpeech: "noun",
+        translation: "우울, 암울함",
+        example: "Renfield's sudden fits of gloom puzzled the doctor.",
+        exampleTranslation: "렌필드의 갑작스러운 우울 발작은 의사를 어리둥절하게 했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drl-q1",
+        prompt: "How many marriage proposals did Lucy receive in a single day, and how did she feel about it?",
+        options: [
+          "Two, and she refused them both immediately.",
+          "Three, and she was amazed and overjoyed even though she felt sorry for the two men she turned down.",
+          "One, from Arthur Holmwood, whom she accepted at once.",
+          "Three, and she accepted all three out of politeness.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lucy received three proposals in one day and was overjoyed, but she also felt genuinely sorry for the two men whose proposals she had to refuse.",
+      },
+      {
+        id: "drl-q2",
+        prompt: "What did Dr. Seward and Quincey Morris have in common in how they responded to Lucy's refusal?",
+        options: [
+          "Both grew angry and left without a word.",
+          "Both asked her not to tell anyone about the proposal.",
+          "Both asked whether her heart already belonged to someone else, and accepted her answer gracefully.",
+          "Both proposed to her again the next day.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Both Seward and Morris asked Lucy honestly whether she loved someone else, and when she said yes, both accepted it gracefully and offered to remain her friend.",
+      },
+      {
+        id: "drl-q3",
+        prompt: "What did Dr. Seward do to distract himself after Lucy turned him down?",
+        options: [
+          "He left London for a long holiday.",
+          "He asked Arthur Holmwood for advice.",
+          "He threw himself into studying a patient at his asylum named Renfield.",
+          "He wrote to Mina Murray for comfort.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Having lost his appetite and unable to rest, Seward returned to his work and focused closely on a patient named Renfield, determined to understand him.",
+      },
+    ],
+  },
+  {
+    slug: "hound-of-the-baskervilles-baskerville-hall",
+    title: "The Hound of the Baskervilles: Baskerville Hall",
+    titleTranslation: "바스커빌가의 개: 바스커빌 저택",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Arthur Conan Doyle (1859–1930)",
+    coverEmoji: "🕯️",
+    coverImage: "/covers/hound-of-the-baskervilles-baskerville-hall.svg",
+    source:
+      "Adapted from Chapter 6 (\"Baskerville Hall\") of Arthur Conan Doyle's novel \"The Hound of the Baskervilles\" (first published 1902; long in the public domain, Project Gutenberg #2852). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Watson noticed on the way to Baskerville Hall and what he heard that first night.",
+    paragraphs: [
+      [
+        {
+          id: "hbl-1",
+          text: "Watson, Sir Henry, and Dr. Mortimer left London by train and travelled all day, watching the tidy green fields slowly give way to the wilder, emptier country of Devonshire.",
+          translation:
+            "왓슨과 헨리 경, 모티머 박사는 런던을 떠나 기차를 타고 하루 종일 이동하며, 가지런한 초록 들판이 점점 데번셔의 더 거칠고 텅 빈 시골 풍경으로 바뀌어 가는 것을 지켜보았어요.",
+        },
+        {
+          id: "hbl-2",
+          text: "As the train carried them further from London, Sir Henry gazed hungrily out of the window, seeing for the first time as a grown man the wild moorland that his family had owned for centuries.",
+          translation:
+            "기차가 런던에서 점점 멀어질수록 헨리 경은 창밖을 애타게 바라보았고, 몇 세대에 걸쳐 자기 가문이 소유해 온 그 황량한 황무지를 어른이 되어 처음으로 마주했어요.",
+        },
+        {
+          id: "hbl-3",
+          text: "At last they stepped down at a small country station, where a driver named Perkins was waiting with a wagonette to carry them and their luggage the rest of the way.",
+          translation:
+            "마침내 일행은 작은 시골 역에 내렸고, 그곳에는 마부 퍼킨스가 짐마차를 끌고 나와 그들과 짐을 나머지 길까지 실어다 줄 준비를 하고 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "hbl-4",
+          text: "Watson noticed two armed soldiers standing guard at the station gate and learned that a dangerous convict named Selden had escaped from the prison nearby and was still hiding somewhere out on the moor.",
+          translation:
+            "왓슨은 역 정문에 무장한 경비병 두 명이 서 있는 것을 보고, 근처 감옥에서 탈출한 위험한 죄수 셀던이 아직 황무지 어딘가에 숨어 있다는 사실을 알게 되었어요.",
+        },
+        {
+          id: "hbl-5",
+          text: "The wagonette carried them along narrow lanes with high green banks, and as the light began to fail, the moor around them grew steadily more bare and lonely.",
+          translation:
+            "짐마차는 초록빛 둑이 높이 솟은 좁은 길을 따라 그들을 실어 날랐고, 빛이 스러지기 시작하자 주위의 황무지는 점점 더 삭막하고 쓸쓸해졌어요.",
+        },
+        {
+          id: "hbl-6",
+          text: "Sir Henry stayed cheerful and full of questions the whole way, but Watson felt a quiet, growing unease that he could not fully explain, even to himself.",
+          translation:
+            "헨리 경은 가는 내내 명랑하게 이런저런 질문을 던졌지만, 왓슨은 스스로도 뚜렷이 설명할 수 없는 조용한 불안이 점점 커지는 것을 느꼈어요.",
+        },
+      ],
+      [
+        {
+          id: "hbl-7",
+          text: "Suddenly the road opened onto an avenue of ancient, dark yew trees, and Watson realized with a chill that this was the very alley where Sir Charles Baskerville had died.",
+          translation:
+            "그때 갑자기 길이 트이며 오래된 검은 주목나무 가로수 길이 나타났고, 왓슨은 이곳이 바로 찰스 바스커빌 경이 숨을 거둔 그 길이라는 것을 깨닫고 오싹해졌어요.",
+        },
+        {
+          id: "hbl-8",
+          text: "Beyond the yew alley, Baskerville Hall itself rose up out of the dusk: a huge, grim old house with twin towers and ivy climbing thick and heavy over its stone walls.",
+          translation:
+            "주목나무 길을 지나자 바스커빌 저택이 어스름 속에서 모습을 드러냈는데, 쌍둥이 탑이 솟아 있고 담쟁이덩굴이 두껍게 돌벽을 뒤덮은 거대하고 음산한 옛집이었어요.",
+        },
+        {
+          id: "hbl-9",
+          text: "Inside, a tall man with a black beard came forward to greet them: Barrymore, the butler, who had looked after the house since Sir Charles's time.",
+          translation:
+            "저택 안에서는 검은 수염을 기른 키 큰 남자가 나와 그들을 맞이했는데, 찰스 경 시절부터 저택을 돌봐 온 집사 배리모어였어요.",
+        },
+      ],
+      [
+        {
+          id: "hbl-10",
+          text: "Despite its size and its fine old furniture, the hall felt cold and unwelcoming to Watson, as though the house itself had not yet decided whether to accept its new master.",
+          translation:
+            "웅장한 규모와 고급스러운 옛 가구에도 불구하고 저택은 왓슨에게 차갑고 서먹하게 느껴졌는데, 마치 집 자체가 아직 새 주인을 받아들일지 결정하지 못한 듯했어요.",
+        },
+        {
+          id: "hbl-11",
+          text: "Over a quiet dinner, Sir Henry admitted that he too felt a strange gloom settling over him, though he tried to laugh it off as nothing more than tiredness after the journey.",
+          translation:
+            "조용한 저녁 식사 자리에서 헨리 경도 이상한 우울함이 자신을 짓누른다고 인정했지만, 여정에 지쳐서일 뿐이라며 애써 웃어넘기려 했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbl-12",
+          text: "That night, Watson lay awake for a long time in his unfamiliar room, listening to the wind moaning outside among the old trees.",
+          translation:
+            "그날 밤 왓슨은 낯선 방에서 오랫동안 잠들지 못한 채, 오래된 나무들 사이로 신음하듯 부는 바람 소리를 듣고 있었어요.",
+        },
+        {
+          id: "hbl-13",
+          text: "Then, somewhere deep in the great house, he heard a low, choking sound: a woman, crying as if her heart would break.",
+          translation:
+            "그때 저택 깊숙한 어딘가에서 낮고 목메는 소리가 들려왔는데, 마치 여자가 가슴이 찢어지도록 흐느끼는 소리 같았어요.",
+        },
+        {
+          id: "hbl-14",
+          text: "Watson sat up and listened for a long time, but the sound was never repeated, and by morning he could almost have believed he had dreamed it.",
+          translation:
+            "왓슨은 몸을 일으켜 앉아 한참을 귀 기울였지만 그 소리는 다시 들리지 않았고, 아침이 되자 꿈이었다고 믿어 버릴 뻔했어요.",
+        },
+      ],
+      [
+        {
+          id: "hbl-15",
+          text: "When he mentioned it at breakfast, Barrymore insisted that no woman in the house had been crying in the night, though Watson noticed that the butler would not quite meet his eyes as he said it.",
+          translation:
+            "아침 식사 때 그 이야기를 꺼내자 배리모어는 집 안에 밤에 운 여자는 아무도 없다고 잘라 말했지만, 왓슨은 그렇게 말하는 배리모어가 자신과 눈을 제대로 마주치지 않는다는 것을 알아챘어요.",
+        },
+        {
+          id: "hbl-16",
+          text: "Watson wrote it all down carefully, certain that even the smallest detail might matter once he began to search for the truth behind Sir Charles's death.",
+          translation:
+            "왓슨은 아무리 사소한 것이라도 찰스 경의 죽음 뒤에 숨은 진실을 밝히는 데 중요할지 모른다고 여겨 모든 것을 꼼꼼히 적어 두었어요.",
+        },
+        {
+          id: "hbl-17",
+          text: "Already, on his very first morning at Baskerville Hall, he felt sure that the case was far stranger, and the house far less empty, than anyone had told him.",
+          translation:
+            "바스커빌 저택에서 맞은 첫 아침부터 벌써, 왓슨은 이 사건이 누구도 말해 주지 않은 만큼 훨씬 기이하고, 이 집이 훨씬 덜 텅 비어 있다는 것을 확신하게 되었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "hbl-v1",
+        term: "convict",
+        partOfSpeech: "noun",
+        translation: "죄수, 기결수",
+        example: "An escaped convict was hiding somewhere on the moor.",
+        exampleTranslation: "탈출한 죄수가 황무지 어딘가에 숨어 있었어요.",
+      },
+      {
+        id: "hbl-v2",
+        term: "avenue",
+        partOfSpeech: "noun",
+        translation: "가로수 길",
+        example: "A dark avenue of yew trees led up to the hall.",
+        exampleTranslation: "어두운 주목나무 가로수 길이 저택까지 이어져 있었어요.",
+      },
+      {
+        id: "hbl-v3",
+        term: "ivy",
+        partOfSpeech: "noun",
+        translation: "담쟁이덩굴",
+        example: "Thick ivy covered the old stone walls.",
+        exampleTranslation: "두꺼운 담쟁이덩굴이 오래된 돌벽을 뒤덮고 있었어요.",
+      },
+      {
+        id: "hbl-v4",
+        term: "butler",
+        partOfSpeech: "noun",
+        translation: "집사",
+        example: "Barrymore, the butler, greeted them at the door.",
+        exampleTranslation: "집사 배리모어가 문 앞에서 그들을 맞이했어요.",
+      },
+      {
+        id: "hbl-v5",
+        term: "unease",
+        partOfSpeech: "noun",
+        translation: "불안감",
+        example: "Watson felt a quiet unease he could not explain.",
+        exampleTranslation: "왓슨은 설명할 수 없는 조용한 불안감을 느꼈어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "hbl-q1",
+        prompt: "What did Watson learn was hiding somewhere on the moor?",
+        options: [
+          "A pack of wild dogs.",
+          "An escaped convict named Selden.",
+          "Sir Charles's ghost.",
+          "A gang of smugglers.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Watson learned that a dangerous convict named Selden had escaped from a nearby prison and was still hiding somewhere on the moor.",
+      },
+      {
+        id: "hbl-q2",
+        prompt: "What did Watson realize when the road opened onto the yew alley?",
+        options: [
+          "That they had taken a wrong turn.",
+          "That this was where Sir Charles Baskerville had died.",
+          "That it led to the village church.",
+          "That Barrymore had planted it recently.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Watson realized with a chill that the avenue of yew trees was the very alley where Sir Charles Baskerville had died.",
+      },
+      {
+        id: "hbl-q3",
+        prompt: "What happened on Watson's first night at Baskerville Hall?",
+        options: [
+          "He saw a strange light on the moor.",
+          "He heard a woman sobbing somewhere in the house.",
+          "He found a mysterious letter under his door.",
+          "The convict Selden broke into the hall.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "That night, Watson heard a low, choking sound deep in the house, as if a woman were sobbing.",
+      },
+    ],
+  },
+  {
+    slug: "dr-jekyll-and-mr-hyde-the-last-change",
+    title: "Dr. Jekyll and Mr. Hyde: The Last Change",
+    titleTranslation: "지킬 박사와 하이드 씨: 마지막 변화",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Robert Louis Stevenson (1850–1894)",
+    coverEmoji: "🧪",
+    coverImage: "/covers/dr-jekyll-and-mr-hyde-the-last-change.svg",
+    source:
+      "Adapted from the second half of Chapter 10 (\"Henry Jekyll's Full Statement of the Case\") of Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886; Project Gutenberg #43, long in the public domain). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened to Jekyll in Regent's Park and why he could no longer stay himself.",
+    paragraphs: [
+      [
+        {
+          id: "jhe-1",
+          text: "After the murder of Sir Danvers Carew, Jekyll swore to himself that he would never again become Hyde, and for two months he kept that promise, living quietly and doing good.",
+          translation:
+            "대니버스 커루 경을 살해한 뒤, 지킬은 다시는 하이드가 되지 않겠다고 스스로 맹세했고, 두 달 동안 그 약속을 지키며 조용히 선행을 베풀며 살았어요.",
+        },
+        {
+          id: "jhe-2",
+          text: "He almost believed that the monstrous side of himself was gone for good, and one fine January afternoon he sat down on a bench in Regent's Park to enjoy the winter sunshine.",
+          translation:
+            "자신의 괴물 같은 면이 마침내 사라졌다고 거의 믿게 된 어느 맑은 1월 오후, 지킬은 겨울 햇살을 즐기려 리젠트 공원의 벤치에 앉았어요.",
+        },
+        {
+          id: "jhe-3",
+          text: "As he sat there comparing himself kindly to other men, a sudden wave of nausea and trembling came over him, followed by a strange new boldness and a contempt for danger.",
+          translation:
+            "그렇게 앉아 스스로를 다른 사람들과 너그럽게 견주어 보던 중, 갑자기 메스꺼움과 떨림이 몰려오더니 뒤이어 낯선 대담함과 위험을 얕보는 마음이 밀려왔어요.",
+        },
+      ],
+      [
+        {
+          id: "jhe-4",
+          text: "He looked down at his own hand resting on his knee and saw, with horror, that it had become thick, corded, and hairy: without taking any drug at all, he had turned into Edward Hyde.",
+          translation:
+            "무릎 위에 놓인 자기 손을 내려다본 지킬은 손이 두껍고 힘줄이 불거지고 털투성이로 변해 있는 것을 보고 공포에 휩싸였는데, 약을 전혀 먹지 않았는데도 에드워드 하이드로 변해 버린 것이었어요.",
+        },
+        {
+          id: "jhe-5",
+          text: "A moment before he had been a respected, wealthy man with a home waiting for him; now he was a hunted murderer with nothing but the clothes hanging loosely on Hyde's smaller frame.",
+          translation:
+            "조금 전까지만 해도 존경받는 부유한 신사로 집에서 저녁상이 차려지길 기다리는 처지였지만, 이제는 하이드의 작은 몸에 헐렁하게 걸쳐진 옷 말고는 아무것도 없는 쫓기는 살인자 신세였어요.",
+        },
+        {
+          id: "jhe-6",
+          text: "His drugs were locked away in his own cabinet, and as Hyde he could not simply walk in through his own front door without his servants calling for the police.",
+          translation:
+            "약은 자기 방 서랍장에 잠겨 있었고, 하이드의 모습으로는 하인들이 경찰을 부를 것이 뻔해 제 집 현관으로 그냥 걸어 들어갈 수도 없었어요.",
+        },
+      ],
+      [
+        {
+          id: "jhe-7",
+          text: "So he thought of Dr. Lanyon, an old friend who could get into the cabinet for him, and he realized that one part of his old self remained: he could still write in Henry Jekyll's own hand.",
+          translation:
+            "그래서 서랍장에 대신 들어가 줄 수 있는 오랜 친구 래니언 박사를 떠올렸고, 예전 자아 중 한 조각만은 여전히 남아 있다는 것을 깨달았어요: 헨리 지킬 자신의 필체로 글을 쓸 수 있다는 것이었어요.",
+        },
+        {
+          id: "jhe-8",
+          text: "He hired a cab to a hotel, wrote urgent letters to Lanyon and to his butler Poole, and had them sent by registered post so that he could be certain they arrived.",
+          translation:
+            "지킬은 마차를 불러 어느 호텔로 가서 래니언과 집사 풀에게 급한 편지를 썼고, 반드시 도착하도록 등기 우편으로 보냈어요.",
+        },
+        {
+          id: "jhe-9",
+          text: "Then he waited out the long day and night in a private room, shaking with fear and fury, until at last he made his way, in borrowed, ill-fitting clothes, to Lanyon's house.",
+          translation:
+            "그러고는 두려움과 분노에 떨며 개인실에서 긴 하루와 밤을 견뎌 낸 뒤, 마침내 남의 옷을 맞지 않게 걸치고 래니언의 집으로 향했어요.",
+        },
+      ],
+      [
+        {
+          id: "jhe-10",
+          text: "What happened there broke something in Lanyon forever, but for Jekyll it was, for the moment, a rescue: he drank his own drug in front of his old friend and became himself again.",
+          translation:
+            "그곳에서 일어난 일은 래니언에게 돌이킬 수 없는 상처를 남겼지만, 지킬에게는 그 순간만큼은 구원이었어요: 옛 친구 앞에서 자신의 약을 마시고 다시 지킬로 돌아온 것이었어요.",
+        },
+        {
+          id: "jhe-11",
+          text: "He woke the next morning shaken but relieved, grateful simply to be safe at home again, close to his cabinet and his drugs.",
+          translation:
+            "다음 날 아침 지킬은 겁에 질린 채로 깨어났지만 안도감도 느꼈는데, 그저 서랍장과 약 가까이, 집에 무사히 있다는 것만으로 고마웠어요.",
+        },
+      ],
+      [
+        {
+          id: "jhe-12",
+          text: "But that very same morning, crossing his own courtyard after breakfast, the same sickness seized him again, and he barely reached his cabinet before he changed into Hyde a second time.",
+          translation:
+            "하지만 바로 그날 아침, 아침 식사를 마치고 마당을 가로지르던 중 같은 증세가 다시 덮쳐, 서랍장에 겨우 다다르자마자 두 번째로 하이드가 되고 말았어요.",
+        },
+        {
+          id: "jhe-13",
+          text: "From then on it took a heavy dose of the drug just to hold the shape of Jekyll at all, and the change would come on him unasked, in his sleep or at any idle moment.",
+          translation:
+            "그때부터는 지킬의 모습을 유지하는 데만도 많은 양의 약이 필요했고, 잠든 사이나 무심코 있는 순간에도 청하지 않은 변화가 찾아오곤 했어요.",
+        },
+        {
+          id: "jhe-14",
+          text: "Jekyll and Hyde had come to hate each other completely: Jekyll saw Hyde as something less than human sharing his own body, while Hyde raged at being only a fearful, hunted part instead of a whole person.",
+          translation:
+            "지킬과 하이드는 서로를 완전히 미워하게 되었는데, 지킬은 하이드를 자신의 몸을 나눠 쓰는 사람 이하의 존재로 여겼고, 하이드는 온전한 한 사람이 아니라 두려움에 쫓기는 일부일 뿐이라는 사실에 분노했어요.",
+        },
+      ],
+      [
+        {
+          id: "jhe-15",
+          text: "Worn down by sleeplessness and terror, Jekyll might have gone on suffering this way for years, but then his last piece of luck ran out entirely.",
+          translation:
+            "잠도 못 자고 공포에 시달려 지쳐 갔지만 지킬은 이런 고통을 몇 년이고 견뎌 냈을지도 모르는데, 그때 마지막 남은 행운마저 다하고 말았어요.",
+        },
+        {
+          id: "jhe-16",
+          text: "The original salt he needed for the drug finally ran low, and when he sent for more and mixed a fresh batch, it simply did not work.",
+          translation:
+            "약에 필요한 원래의 그 소금이 마침내 바닥났고, 더 주문해 새로 반죽을 섞었지만 이번에는 전혀 듣지 않았어요.",
+        },
+        {
+          id: "jhe-17",
+          text: "He now believed that his first supply must have held some unknown impurity, one that no new batch of the same salt could ever be relied on to reproduce.",
+          translation:
+            "지킬은 이제 처음 구했던 재료에 어떤 알 수 없는 불순물이 섞여 있었을 것이며, 같은 소금으로 새로 만든 어떤 반죽도 그 효과를 다시는 재현할 수 없으리라고 믿게 되었어요.",
+        },
+        {
+          id: "jhe-18",
+          text: "Writing this final confession with the very last of his old powder, Jekyll understood that Henry Jekyll would soon cease to exist and that whatever became of Hyde afterward was no longer his concern.",
+          translation:
+            "남은 옛 가루의 마지막 한 줌으로 이 마지막 고백을 쓰며, 지킬은 머지않아 헨리 지킬이라는 존재가 사라지리라는 것과, 그 뒤 하이드가 어떻게 되든 더 이상 자신의 일이 아니라는 것을 깨달았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "jhe-v1",
+        term: "nausea",
+        partOfSpeech: "noun",
+        translation: "메스꺼움",
+        example: "A sudden wave of nausea came over him.",
+        exampleTranslation: "갑작스러운 메스꺼움이 밀려왔어요.",
+      },
+      {
+        id: "jhe-v2",
+        term: "impurity",
+        partOfSpeech: "noun",
+        translation: "불순물",
+        example: "He believed some unknown impurity had made the first batch work.",
+        exampleTranslation: "지킬은 어떤 알 수 없는 불순물이 첫 번째 반죽을 효과 있게 만들었다고 믿었어요.",
+      },
+      {
+        id: "jhe-v3",
+        term: "courtyard",
+        partOfSpeech: "noun",
+        translation: "마당, 안뜰",
+        example: "He was crossing the courtyard when the change struck him.",
+        exampleTranslation: "마당을 가로지르던 중 갑자기 변화가 찾아왔어요.",
+      },
+      {
+        id: "jhe-v4",
+        term: "confession",
+        partOfSpeech: "noun",
+        translation: "고백",
+        example: "Jekyll wrote his final confession with the last of the powder.",
+        exampleTranslation: "지킬은 남은 마지막 가루로 최후의 고백을 썼어요.",
+      },
+      {
+        id: "jhe-v5",
+        term: "contempt",
+        partOfSpeech: "noun",
+        translation: "얕보는 마음, 경멸",
+        example: "He felt a strange contempt for danger.",
+        exampleTranslation: "지킬은 위험을 얕보는 낯선 마음을 느꼈어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "jhe-q1",
+        prompt: "What happened to Jekyll one afternoon in Regent's Park, even though he had taken no drug?",
+        options: [
+          "He fell asleep and dreamed he was Hyde.",
+          "He suddenly and involuntarily changed into Hyde.",
+          "He saw Hyde walking past him.",
+          "He felt Hyde's presence but did not change.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Without taking any drug, Jekyll felt a sudden nausea and trembling and then found that he had involuntarily turned into Hyde.",
+      },
+      {
+        id: "jhe-q2",
+        prompt: "How did Jekyll manage to change back into himself after the Regent's Park incident?",
+        options: [
+          "He waited for the effect to wear off on its own.",
+          "He found a chemist's shop still open at night.",
+          "He asked Dr. Lanyon to fetch his drugs and drank the potion in front of him.",
+          "He confessed everything to Poole, who helped him.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jekyll asked Dr. Lanyon to bring the drugs from his cabinet, and drank the drug in front of Lanyon, turning back into Jekyll.",
+      },
+      {
+        id: "jhe-q3",
+        prompt: "Why could Jekyll no longer reliably become himself again by the end of his statement?",
+        options: [
+          "He had lost the recipe for the drug.",
+          "His original supply of salt, now used up, seemed to have held an impurity that no new batch could reproduce.",
+          "Hyde had destroyed the last of the drug on purpose.",
+          "Poole refused to buy any more of the salt.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Jekyll's original salt ran out, and the fresh batch he mixed did not work, leading him to believe the first supply had held an unknown impurity that could not be reproduced.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

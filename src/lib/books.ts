@@ -89,3 +89,27 @@ export function getBookLessons(id: string): LessonMeta[] {
 export function getLessonMeta(slug: string): LessonMeta | undefined {
   return LESSON_BY_SLUG.get(slug);
 }
+
+/**
+ * Reorders a lesson list so every book's chapters sit next to each other, at
+ * the position the book first appears in `list`'s own order — parts stay in
+ * reading order within that cluster. Standalone lessons keep their normal
+ * relative order. Without this, a shelf listing lessons in write order (new
+ * chapters appended as they ship) scatters a 6-part book's cards across the
+ * whole grid, which makes "read the next part of Dracula" a scroll-and-hunt.
+ */
+export function groupBookChapters<T extends { slug: string }>(list: T[]): T[] {
+  const firstSeenAt = new Map<string, number>();
+  list.forEach((lesson, i) => {
+    const hit = findBookForLesson(lesson.slug);
+    if (hit && !firstSeenAt.has(hit.book.id)) firstSeenAt.set(hit.book.id, i);
+  });
+  return list
+    .map((lesson, i) => {
+      const hit = findBookForLesson(lesson.slug);
+      const key: [number, number] = hit ? [firstSeenAt.get(hit.book.id)!, hit.index] : [i, 0];
+      return { lesson, key };
+    })
+    .sort((a, b) => a.key[0] - b.key[0] || a.key[1] - b.key[1])
+    .map((x) => x.lesson);
+}

@@ -4,13 +4,19 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
+import { groupBookChapters } from "@/lib/books";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "@/components/home/ClassicCard";
 import { XIcon } from "@/components/ui/icons";
 
-/** Every lesson curated into the "Classics" collection, in library order. */
-const CLASSICS = lessons.filter((lesson) => lesson.collection === "classics");
+/**
+ * Every lesson curated into the "Classics" collection, library order —
+ * except a book's chapters are pulled together (see `groupBookChapters`) so
+ * "part 4 of Dracula" sits right after "part 3" instead of wherever it
+ * happened to ship.
+ */
+const CLASSICS = groupBookChapters(lessons.filter((lesson) => lesson.collection === "classics"));
 
 const LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2"];
 const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };

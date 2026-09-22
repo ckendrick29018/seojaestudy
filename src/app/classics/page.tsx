@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { collectionPageJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
+import { groupBookChapters } from "@/lib/books";
 import { ClassicsClient } from "./ClassicsClient";
 
-/** Every lesson curated into the "Classics" collection, in library order. */
-const CLASSICS = lessons.filter((lesson) => lesson.collection === "classics");
+/** Every lesson curated into the "Classics" collection, grouped by book (see ClassicsClient). */
+const CLASSICS = groupBookChapters(lessons.filter((lesson) => lesson.collection === "classics"));
 
 const NAME = "Classic Stories as Bilingual Graded Readers";
 const DESCRIPTION =

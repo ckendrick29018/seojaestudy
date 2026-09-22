@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import type { LessonMeta } from "@/lib/types";
+import { findBookForLesson } from "@/lib/data/books";
+import { fill } from "@/lib/utils";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { Badge } from "@/components/ui/Badge";
@@ -17,6 +19,7 @@ export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete
   const { isLessonSaved, saveLesson, unsaveLesson } = useProgress();
   const minutes = lesson.readingMinutes;
   const saved = isLessonSaved(lesson.slug);
+  const bookHit = findBookForLesson(lesson.slug);
 
   return (
     <Link
@@ -76,6 +79,11 @@ export function ClassicCard({ lesson, complete }: { lesson: LessonMeta; complete
           {lesson.title}
         </h3>
         {lesson.author && <p className="truncate text-xs text-charcoal/55">{lesson.author}</p>}
+        {bookHit && (
+          <p className="truncate text-xs font-medium text-rose">
+            {fill(t("bookPartOf"), { n: bookHit.index + 1, total: bookHit.book.chapters.length })} · {bookHit.book.title}
+          </p>
+        )}
         <p className="mt-0.5 text-xs text-charcoal/50">
           {minutes} {t("minRead")}
         </p>

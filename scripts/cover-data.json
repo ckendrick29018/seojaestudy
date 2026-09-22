@@ -4143,5 +4143,89 @@
    104,
    92
   ]
+ },
+ {
+  "slug": "moby-dick-epilogue",
+  "aria": "Moby Dick: The Epilogue by Herman Melville",
+  "footer": "CLASSICS",
+  "title": "Moby Dick",
+  "tagline": "The Epilogue",
+  "author": [
+   "HERMAN MELVILLE"
+  ],
+  "meta": [
+   "EPILOGUE",
+   "1851"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <ellipse cx=\"0\" cy=\"34\" rx=\"52\" ry=\"12\" stroke-width=\"1.3\" opacity=\"0.6\"/>\n    <ellipse cx=\"0\" cy=\"34\" rx=\"34\" ry=\"8\" stroke-width=\"1.3\" opacity=\"0.85\"/>\n    <path d=\"M-20 -30 L20 -30 L26 -14 L14 18 L-14 18 L-26 -14 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.22\"/>\n    <path d=\"M-20 -30 L-14 18 M20 -30 L14 18\" stroke-width=\"1\"/>\n    <path d=\"M-14 -30 L0 -42 L14 -30\" stroke-width=\"1.3\"/>\n    <path d=\"M-30 -2 C-22 -6 -10 -6 -2 -2 M18 4 C26 0 34 0 40 4\" stroke-width=\"1\" opacity=\"0.55\"/>\n  </g>",
+  "bbox": [
+   148,
+   134,
+   104,
+   88
+  ]
+ },
+ {
+  "slug": "dracula-lucy-and-mina",
+  "aria": "Dracula: Letters — Lucy and Mina by Bram Stoker",
+  "footer": "CLASSICS",
+  "title": "Dracula",
+  "tagline": "Letters — Lucy and Mina",
+  "author": [
+   "BRAM STOKER"
+  ],
+  "meta": [
+   "CHAPTER 5",
+   "1897"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-44 10 C-30 2 -10 2 0 10 L0 34 C-10 26 -30 26 -44 34 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.16\"/>\n    <path d=\"M44 10 C30 2 10 2 0 10 L0 34 C10 26 30 26 44 34 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.22\"/>\n    <path d=\"M-36 14 C-26 10 -12 10 -4 14 M-36 22 C-26 18 -12 18 -4 22\" stroke-width=\"0.8\" opacity=\"0.5\"/>\n    <path d=\"M4 14 C12 10 26 10 36 14 M4 22 C12 18 26 18 36 22\" stroke-width=\"0.8\" opacity=\"0.5\"/>\n    <path d=\"M-28 -8 C-14 -32 16 -36 32 -48 C22 -22 -4 -16 -28 -8 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.3\"/>\n    <path d=\"M-28 -8 C-6 -22 16 -32 32 -48\" stroke-width=\"1\" opacity=\"0.6\"/>\n    <path d=\"M-28 -8 L-36 2\" stroke-width=\"1.5\"/>\n  </g>",
+  "bbox": [
+   156,
+   128,
+   88,
+   82
+  ]
+ },
+ {
+  "slug": "hound-of-the-baskervilles-baskerville-hall",
+  "aria": "The Hound of the Baskervilles: Baskerville Hall by Arthur Conan Doyle",
+  "footer": "CLASSICS",
+  "title": "The Hound of the Baskervilles",
+  "tagline": "Baskerville Hall",
+  "author": [
+   "ARTHUR CONAN DOYLE"
+  ],
+  "meta": [
+   "CHAPTER 6",
+   "1902"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-40 34 L-40 -18 L-30 -30 L-20 -18 L-20 34 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M20 34 L20 -18 L30 -30 L40 -18 L40 34 Z\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-20 34 L-20 -2 L0 -20 L20 -2 L20 34 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.28\"/>\n    <path d=\"M-6 34 L-6 10 L6 10 L6 34 Z\" stroke-width=\"1.2\"/>\n    <path d=\"M-40 -18 L-46 -18 M40 -18 L46 -18\" stroke-width=\"1\"/>\n    <path d=\"M-44 40 q 22 -10 44 0 t 44 0\" stroke-width=\"1.2\" opacity=\"0.5\"/>\n  </g>",
+  "bbox": [
+   154,
+   146,
+   92,
+   75
+  ]
+ },
+ {
+  "slug": "dr-jekyll-and-mr-hyde-the-last-change",
+  "aria": "Dr. Jekyll and Mr. Hyde: The Last Change by Robert Louis Stevenson",
+  "footer": "CLASSICS",
+  "title": "Dr. Jekyll and Mr. Hyde",
+  "tagline": "The Last Change",
+  "author": [
+   "ROBERT LOUIS STEVENSON"
+  ],
+  "meta": [
+   "CHAPTER 10",
+   "1886"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-8 -40 L-8 -20 L-20 10 C-22 22 -14 30 0 30 C14 30 22 22 20 10 L8 -20 L8 -40 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.18\"/>\n    <path d=\"M-8 -40 L-12 -44 L12 -44 L8 -40 Z\" stroke-width=\"1.2\"/>\n    <path d=\"M-16 6 C-8 2 8 2 16 6 L18 12 C6 8 -6 8 -18 12 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.3\"/>\n    <path d=\"M-6 -18 L6 -18 M-10 -6 L10 -6\" stroke-width=\"1\"/>\n    <path d=\"M26 -30 L34 -14 L20 -10 Z\" stroke-width=\"1.2\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-30 20 L-22 28 M-34 28 L-26 20\" stroke-width=\"1\"/>\n  </g>",
+  "bbox": [
+   166,
+   132,
+   68,
+   74
+  ]
  }
 ]

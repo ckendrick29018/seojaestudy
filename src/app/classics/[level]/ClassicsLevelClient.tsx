@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import type { CEFRLevel } from "@/lib/types";
+import { groupBookChapters } from "@/lib/books";
 import { useT } from "@/components/providers/LanguageProvider";
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { ClassicCard } from "@/components/home/ClassicCard";
 
-const CLASSICS = lessons.filter((lesson) => lesson.collection === "classics");
+const CLASSICS = groupBookChapters(lessons.filter((lesson) => lesson.collection === "classics"));
 const LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2"];
 
 export function ClassicsLevelClient({ level }: { level: CEFRLevel }) {
