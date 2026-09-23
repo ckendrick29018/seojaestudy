@@ -8,11 +8,16 @@ import { DIRECTION_BADGE, LEVELS, INTERESTS, GOALS, labelFor, uiLanguageFor, typ
 import type { CEFRLevel } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
 import { CheckIcon, ChevronLeftIcon } from "@/components/ui/icons";
+import { useReadingLog } from "@/lib/reading-log";
 
 const STEPS = ["direction", "level", "interests", "goal", "summary"] as const;
 const DOT_COUNT = 4; // direction..goal; summary is the finale
 
 const HIDDEN_ON = ["/login", "/subscribe", "/auth"];
+
+function isLessonPath(path: string): boolean {
+  return path.startsWith("/lesson/") || path.startsWith("/ko/lesson/");
+}
 
 export function OnboardingFlow() {
   const pathname = usePathname();
@@ -20,6 +25,7 @@ export function OnboardingFlow() {
   const { lang, setLang } = useLanguage();
   const t = useT();
   const [step, setStep] = useState(0);
+  const readingLog = useReadingLog();
 
   // When the flow re-opens (first run, or "Redo onboarding" from Settings),
   // always start from the first question. Depends only on `completed`, so it
@@ -35,6 +41,15 @@ export function OnboardingFlow() {
   // pages like "/ko/classics", matching how it already shows on "/classics".
   if (pathname === "/" || pathname === "/ko") return null;
   if (HIDDEN_ON.some((p) => pathname.startsWith(p))) return null;
+  // Never interrupt someone who's actually reading a story.
+  if (isLessonPath(pathname)) return null;
+  // A first-time visitor gets to open and read a story before the quiz ever
+  // shows — the landing page promises "no sign-up, try it below", so gating
+  // /library on the very first click contradicted that. `reading-log` (an
+  // existing device-local log, keyed by lesson slug) is the signal: once
+  // it's non-empty, they've reached at least one story, and onboarding is
+  // free to show on their next visit to a non-lesson page.
+  if (Object.keys(readingLog).length === 0) return null;
 
   const stepName = STEPS[step];
   const go = (n: number) => setStep(Math.min(Math.max(n, 0), STEPS.length - 1));
