@@ -44869,6 +44869,440 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "dracula-the-sleepwalker",
+    title: "Dracula: The Sleepwalker",
+    titleTranslation: "드라큘라: 몽유병자",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🌙",
+    coverImage: "/covers/dracula-the-sleepwalker.svg",
+    source:
+      "Adapted from Chapter 8 (\"Mina Murray's Journal\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Mina found when she followed Lucy to the churchyard that night, and what she noticed on Lucy's throat afterward.",
+    paragraphs: [
+      [
+        {
+          id: "dsw-1",
+          text: "Mina woke suddenly in the middle of the night with a strange, cold fear, and reached across the dark room for Lucy — but Lucy's bed was empty.",
+          translation:
+            "미나는 한밤중에 이상하고 서늘한 두려움을 느끼며 갑자기 잠에서 깨어나 어두운 방 저편으로 손을 뻗어 루시를 찾았지만, 루시의 침대는 비어 있었어요.",
+        },
+        {
+          id: "dsw-2",
+          text: "She lit a match and saw that Lucy's dressing-gown and dress were still hanging in their place, so Lucy could not have gone far in only her nightdress.",
+          translation:
+            "성냥을 켜 보니 루시의 실내복과 드레스는 여전히 제자리에 걸려 있었고, 그래서 루시가 잠옷 차림으로는 멀리 가지 못했을 거라고 생각했어요.",
+        },
+        {
+          id: "dsw-3",
+          text: "Mina threw a big shawl over her own shoulders and hurried downstairs, where she found the front door standing open.",
+          translation:
+            "미나는 커다란 숄을 어깨에 두르고 서둘러 아래층으로 내려갔고, 현관문이 열려 있는 것을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "dsw-4",
+          text: "She ran along the cliff path in the moonlight, and across the harbour, on their favorite seat by the old abbey, she saw a pale, half-reclining figure in white.",
+          translation:
+            "그녀는 달빛 아래 절벽 길을 달려갔고, 항구 건너편 오래된 수도원 옆 그들이 즐겨 앉던 자리에서 하얀 옷을 입고 비스듬히 기댄 창백한 사람의 모습을 보았어요.",
+        },
+        {
+          id: "dsw-5",
+          text: "Something long and dark seemed to be bending over it, though Mina could not tell if it was a man or an animal.",
+          translation:
+            "길고 검은 무언가가 그 위로 몸을 숙이고 있는 것 같았지만, 미나는 그것이 사람인지 짐승인지 알 수 없었어요.",
+        },
+        {
+          id: "dsw-6",
+          text: "Terrified, she raced down to the bridge and up the hundreds of steps toward the churchyard, calling, \"Lucy! Lucy!\"",
+          translation:
+            "겁에 질린 미나는 다리로 뛰어 내려갔다가 교회 묘지를 향해 수백 개의 계단을 뛰어 올라가며 \"루시! 루시!\" 하고 외쳤어요.",
+        },
+      ],
+      [
+        {
+          id: "dsw-7",
+          text: "For one moment something lifted its head, and Mina glimpsed a pale face and two eyes that gleamed red in the moonlight.",
+          translation:
+            "한순간 무언가가 고개를 들었고, 미나는 창백한 얼굴과 달빛 속에서 붉게 빛나는 두 눈을 언뜻 보았어요.",
+        },
+        {
+          id: "dsw-8",
+          text: "By the time she reached the seat, though, Lucy was alone, fast asleep, breathing in long, heavy gasps as if she could not get enough air.",
+          translation:
+            "하지만 미나가 그 자리에 도착했을 때 루시는 혼자였고, 깊이 잠든 채 마치 숨이 부족한 듯 길고 무겁게 헐떡이고 있었어요.",
+        },
+        {
+          id: "dsw-9",
+          text: "Mina wrapped the warm shawl tightly around her and fastened it at her throat with a safety pin, then gently woke her.",
+          translation:
+            "미나는 따뜻한 숄을 루시에게 단단히 두르고 안전핀으로 목 부분을 고정한 뒤, 부드럽게 그녀를 깨웠어요.",
+        },
+      ],
+      [
+        {
+          id: "dsw-10",
+          text: "Lucy did not seem frightened, only dazed, and let Mina lead her home like an obedient child, never losing her usual grace even barefoot in a churchyard at midnight.",
+          translation:
+            "루시는 무서워하기보다는 멍한 듯했고, 순종적인 아이처럼 미나를 따라 집으로 향했으며, 한밤중 교회 묘지에서 맨발이었는데도 평소의 우아함을 잃지 않았어요.",
+        },
+        {
+          id: "dsw-11",
+          text: "To hide her own bare, aching feet from anyone they might meet, Mina rubbed mud onto them so no one would notice, and the two got home without being seen.",
+          translation:
+            "미나는 혹시 마주칠 사람이 자신의 맨발을 눈치채지 못하도록 발에 진흙을 문질러 감추었고, 두 사람은 아무에게도 들키지 않고 집에 돌아왔어요.",
+        },
+        {
+          id: "dsw-12",
+          text: "Before falling back asleep, Lucy begged Mina not to tell anyone — not even her mother — about the sleepwalking, and Mina agreed, locking the door and tying the key to her own wrist.",
+          translation:
+            "다시 잠들기 전 루시는 이 몽유병 일을 어머니에게도 말하지 말아 달라고 미나에게 간청했고, 미나는 그러겠다고 약속한 뒤 문을 잠그고 열쇠를 자신의 손목에 묶었어요.",
+        },
+      ],
+      [
+        {
+          id: "dsw-13",
+          text: "The next morning Mina was troubled to find two tiny red marks on Lucy's throat, like pinpricks, and a single drop of blood on her nightdress.",
+          translation:
+            "다음 날 아침 미나는 루시의 목에 바늘로 찌른 듯한 작은 붉은 자국 두 개와 잠옷에 묻은 핏방울 하나를 발견하고 걱정스러워졌어요.",
+        },
+        {
+          id: "dsw-14",
+          text: "She apologized, certain she must have pricked Lucy with the safety pin in her hurry, but Lucy only laughed and said she had not even felt it.",
+          translation:
+            "미나는 급한 마음에 안전핀으로 루시를 찔렀을 거라 확신하며 사과했지만, 루시는 그저 웃으며 아무 느낌도 없었다고 말했어요.",
+        },
+        {
+          id: "dsw-15",
+          text: "In the days that followed, Lucy slept and ate well and seemed cheerful, yet the roses kept fading from her cheeks, and at night Mina heard her gasping for breath.",
+          translation:
+            "그 뒤로 며칠 동안 루시는 잘 자고 잘 먹었으며 명랑해 보였지만, 뺨의 장밋빛은 점점 사라져 갔고 밤이면 미나는 그녀가 숨을 헐떡이는 소리를 들었어요.",
+        },
+      ],
+      [
+        {
+          id: "dsw-16",
+          text: "The two small marks on Lucy's throat did not heal; instead they grew a little larger, with strange white edges around the red centers.",
+          translation:
+            "루시의 목에 난 그 작은 자국 두 개는 낫지 않았고, 오히려 조금씩 커져서 붉은 중심 주위로 이상하게 하얀 테두리가 생겼어요.",
+        },
+        {
+          id: "dsw-17",
+          text: "Mina told herself it was surely nothing, but she watched the marks anxiously, and decided that if they had not healed within a day or two, she would insist on calling the doctor.",
+          translation:
+            "미나는 스스로에게 별일 아닐 거라고 말했지만 그 자국을 불안하게 지켜보았고, 하루나 이틀 안에 낫지 않으면 반드시 의사를 부르겠다고 마음먹었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dsw-v1",
+        term: "shawl",
+        partOfSpeech: "noun",
+        translation: "숄",
+        example: "She wrapped a warm shawl around her shoulders.",
+        exampleTranslation: "그녀는 따뜻한 숄을 어깨에 둘렀어요.",
+      },
+      {
+        id: "dsw-v2",
+        term: "gasp",
+        partOfSpeech: "verb",
+        translation: "헐떡이다",
+        example: "He was gasping for breath after the long run.",
+        exampleTranslation: "그는 오래 달린 뒤 숨을 헐떡였어요.",
+      },
+      {
+        id: "dsw-v3",
+        term: "gleam",
+        partOfSpeech: "verb",
+        translation: "반짝이다, 빛나다",
+        example: "Her eyes gleamed with excitement.",
+        exampleTranslation: "그녀의 눈이 흥분으로 반짝였어요.",
+      },
+      {
+        id: "dsw-v4",
+        term: "obedient",
+        partOfSpeech: "adjective",
+        translation: "순종적인, 말을 잘 듣는",
+        example: "The obedient dog sat quietly by the door.",
+        exampleTranslation: "그 순종적인 개는 문 옆에 조용히 앉아 있었어요.",
+      },
+      {
+        id: "dsw-v5",
+        term: "heal",
+        partOfSpeech: "verb",
+        translation: "(상처가) 낫다, 아물다",
+        example: "The small cut healed within a week.",
+        exampleTranslation: "작은 상처는 일주일 만에 나았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dsw-q1",
+        prompt: "Why did Mina think Lucy could not have gone far?",
+        options: [
+          "She was wearing a heavy coat.",
+          "Her dressing-gown and dress were still in the room, so she was only in her nightdress.",
+          "The front door was locked from the inside.",
+          "Lucy was too weak to walk far.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mina saw that Lucy's dressing-gown and dress were both still hanging in their place, so she realized Lucy must be out in only her nightdress and could not be far.",
+      },
+      {
+        id: "dsw-q2",
+        prompt: "What did Mina see when she looked toward their favorite seat by the abbey?",
+        options: [
+          "Lucy sitting calmly and reading a book.",
+          "An empty seat with no one on it.",
+          "A pale figure in white with something dark bending over it.",
+          "Several other people gathered around Lucy.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Across the harbour, Mina saw a pale, half-reclining figure in white on their seat, with something long and dark seeming to bend over it.",
+      },
+      {
+        id: "dsw-q3",
+        prompt: "What worried Mina most about the marks on Lucy's throat in the days that followed?",
+        options: [
+          "They were extremely painful.",
+          "They left a large, ugly scar right away.",
+          "They healed almost instantly.",
+          "They did not heal and instead grew slightly larger.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "Instead of healing, the two small marks on Lucy's throat grew a little larger over the following days, with odd white edges around their red centers — which is why Mina decided to call the doctor if they did not improve soon.",
+      },
+    ],
+  },
+  {
+    slug: "alice-in-wonderland-lobster-quadrille",
+    title: "Alice's Adventures in Wonderland: The Lobster Quadrille",
+    titleTranslation: "이상한 나라의 앨리스: 바닷가재 카드리유",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🦞",
+    coverImage: "/covers/alice-in-wonderland-lobster-quadrille.svg",
+    source:
+      "Adapted from Chapter 10 (\"The Lobster Quadrille\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe the Lobster Quadrille and say what happened just as the Mock Turtle finished his song.",
+    paragraphs: [
+      [
+        {
+          id: "alq-1",
+          text: "The Mock Turtle finally stopped crying and said that under the sea, everyone learns to dance something called the Lobster Quadrille.",
+          translation:
+            "가짜 거북은 마침내 울음을 그치고, 바닷속에서는 누구나 '바닷가재 카드리유'라는 춤을 배운다고 말했어요.",
+        },
+        {
+          id: "alq-2",
+          text: "He and the Gryphon explained it together, both talking at once: first you form two lines along the shore and clear away the jellyfish.",
+          translation:
+            "그와 그리핀은 동시에 말하며 함께 설명했어요. 먼저 바닷가를 따라 두 줄로 서서 해파리들을 치운다고 했어요.",
+        },
+        {
+          id: "alq-3",
+          text: "Then you advance twice, each with a lobster as your partner, and change lobsters as you go.",
+          translation:
+            "그러고 나서 바닷가재를 짝으로 삼아 두 번 앞으로 나아가고, 춤을 추면서 바닷가재를 바꾼다고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "alq-4",
+          text: "Next, they said, you throw the lobsters as far out to sea as you can, swim after them, turn a somersault in the water, and swim back to land — and that was only the first figure.",
+          translation:
+            "그다음에는 바닷가재를 있는 힘껏 멀리 바다로 던지고, 그것을 따라 헤엄쳐 가서 물속에서 공중제비를 돈 뒤 다시 육지로 헤엄쳐 돌아온다고 했는데, 그것이 겨우 첫 번째 동작이었어요.",
+        },
+        {
+          id: "alq-5",
+          text: "Alice said it must be a very pretty dance, so the Mock Turtle offered to show her, even without real lobsters to dance with.",
+          translation:
+            "앨리스는 틀림없이 아주 예쁜 춤일 거라고 말했고, 그러자 가짜 거북은 진짜 바닷가재가 없어도 보여 주겠다고 했어요.",
+        },
+        {
+          id: "alq-6",
+          text: "The two creatures began dancing solemnly around her, waving their flippers and treading on her toes, while the Mock Turtle sang a slow, sad song about a whiting who begged a snail to join the dance.",
+          translation:
+            "두 생물은 지느러미발을 흔들고 앨리스의 발을 밟아 가며 그녀 주위를 진지하게 돌며 춤을 추기 시작했고, 가짜 거북은 대구가 달팽이에게 춤에 함께하자고 애원하는 느리고 슬픈 노래를 불렀어요.",
+        },
+      ],
+      [
+        {
+          id: "alq-7",
+          text: "When the song ended, Alice said politely that she liked the part about the whiting, which led to a long, puzzling talk about fish and shoes and why no wise fish ever goes anywhere without a \"porpoise.\"",
+          translation:
+            "노래가 끝나자 앨리스는 대구가 나오는 부분이 마음에 든다고 공손히 말했고, 그로 인해 물고기와 신발, 그리고 현명한 물고기라면 반드시 '쇠돌고래'와 함께 다닌다는 이야기로 길고 아리송한 대화가 이어졌어요.",
+        },
+        {
+          id: "alq-8",
+          text: "\"Porpoise\" sounded exactly like \"purpose,\" and Alice could not tell if the Mock Turtle was joking or simply mixing up his words.",
+          translation:
+            "'쇠돌고래(porpoise)'는 '목적(purpose)'과 발음이 완전히 똑같아서, 앨리스는 가짜 거북이 농담을 하는 건지 그냥 말을 헷갈리는 건지 알 수 없었어요.",
+        },
+        {
+          id: "alq-9",
+          text: "The Gryphon then asked Alice to stand and recite a poem, so she tried \"'Tis the voice of the Lobster\" — but her head was so full of the dance that, just like every poem she had tried in Wonderland, the words came out strange and wrong.",
+          translation:
+            "그리핀은 앨리스에게 일어나서 시를 암송해 보라고 했고, 앨리스는 \"바닷가재의 목소리가 들리네\"를 시작해 보았지만, 머릿속이 온통 그 춤으로 가득 차 있어서 이상한 나라에서 시도했던 다른 모든 시처럼 말이 이상하고 엉뚱하게 나왔어요.",
+        },
+      ],
+      [
+        {
+          id: "alq-10",
+          text: "The Mock Turtle kept interrupting to ask what the odd lines meant, and Alice grew more and more flustered trying to explain something that made no sense even to her.",
+          translation:
+            "가짜 거북은 그 이상한 구절이 무슨 뜻이냐고 계속 끼어들며 물었고, 앨리스는 자신도 이해되지 않는 것을 설명하려 애쓰다 점점 더 당황했어요.",
+        },
+        {
+          id: "alq-11",
+          text: "At last the Gryphon said there was no use in reciting more poems that nobody could explain, and asked the Mock Turtle to sing his favorite song instead.",
+          translation:
+            "마침내 그리핀은 아무도 설명할 수 없는 시를 더 암송해 봐야 소용없다고 말하며, 대신 가짜 거북에게 그가 가장 좋아하는 노래를 불러 달라고 했어요.",
+        },
+        {
+          id: "alq-12",
+          text: "So the Mock Turtle sighed deeply and, in a voice choked with sobs, began to sing about \"beautiful, beautiful Soup\" — how no one would give up even a spoonful of it for any other dish in the world.",
+          translation:
+            "그러자 가짜 거북은 깊이 한숨을 쉬고는 흐느낌으로 목이 멘 목소리로 '아름답고 아름다운 수프'에 대해 노래하기 시작했어요. 세상 그 어떤 요리를 준대도 그 수프 한 숟가락조차 포기할 사람은 없을 거라는 내용이었어요.",
+        },
+      ],
+      [
+        {
+          id: "alq-13",
+          text: "Just as the Gryphon called for the chorus to be sung all over again, a cry rang out in the distance: \"The trial's beginning!\"",
+          translation:
+            "그리핀이 후렴구를 다시 부르라고 외치던 바로 그때, 멀리서 \"재판이 시작됩니다!\" 하는 외침이 들려왔어요.",
+        },
+        {
+          id: "alq-14",
+          text: "The Gryphon seized Alice's hand and rushed off at once, without waiting to hear the rest of the song.",
+          translation:
+            "그리핀은 노래의 나머지 부분을 듣지도 않고 곧바로 앨리스의 손을 붙잡고 달려갔어요.",
+        },
+        {
+          id: "alq-15",
+          text: "\"What trial is it?\" Alice asked breathlessly as they ran, but the Gryphon only called back \"Come on!\" and ran even faster.",
+          translation:
+            "\"무슨 재판이에요?\" 앨리스가 달리면서 숨차게 물었지만, 그리핀은 그저 \"어서 와!\" 하고 외치며 더욱 빨리 달릴 뿐이었어요.",
+        },
+      ],
+      [
+        {
+          id: "alq-16",
+          text: "Behind them, fainter and fainter, came the Mock Turtle's mournful voice, still singing about the beautiful Soup.",
+          translation:
+            "그들 뒤에서는 가짜 거북의 구슬픈 목소리가 점점 희미해지며, 여전히 아름다운 수프에 대해 노래하고 있었어요.",
+        },
+        {
+          id: "alq-17",
+          text: "Alice had no idea what trial the Gryphon meant, but she was quite sure her strange adventures in Wonderland were not over yet.",
+          translation:
+            "앨리스는 그리핀이 말한 재판이 무엇인지 전혀 알 수 없었지만, 이상한 나라에서의 기이한 모험이 아직 끝나지 않았다는 것만은 확실히 느꼈어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "alq-v1",
+        term: "quadrille",
+        partOfSpeech: "noun",
+        translation: "카드리유 (네 쌍이 마주 보고 추는 춤)",
+        example: "They danced a lively quadrille at the ball.",
+        exampleTranslation: "그들은 무도회에서 활기찬 카드리유를 췄어요.",
+      },
+      {
+        id: "alq-v2",
+        term: "flipper",
+        partOfSpeech: "noun",
+        translation: "지느러미발",
+        example: "The seal clapped its flippers together.",
+        exampleTranslation: "물개는 지느러미발을 마주 쳤어요.",
+      },
+      {
+        id: "alq-v3",
+        term: "recite",
+        partOfSpeech: "verb",
+        translation: "암송하다",
+        example: "The students had to recite a poem from memory.",
+        exampleTranslation: "학생들은 시를 외워서 암송해야 했어요.",
+      },
+      {
+        id: "alq-v4",
+        term: "mournful",
+        partOfSpeech: "adjective",
+        translation: "구슬픈, 애처로운",
+        example: "A mournful song drifted from the window.",
+        exampleTranslation: "창가에서 구슬픈 노래가 흘러나왔어요.",
+      },
+      {
+        id: "alq-v5",
+        term: "porpoise",
+        partOfSpeech: "noun",
+        translation: "쇠돌고래 (발음이 'purpose(목적)'와 똑같아서 이 장에서 말장난으로 쓰여요)",
+        example: "A porpoise leaped beside the boat.",
+        exampleTranslation: "쇠돌고래 한 마리가 배 옆에서 뛰어올랐어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "alq-q1",
+        prompt: "According to the Mock Turtle and the Gryphon, what do you do right after throwing the lobsters out to sea?",
+        options: [
+          "You sit down and rest for a while.",
+          "You swim after them and turn a somersault in the water.",
+          "You catch new lobsters from the shore.",
+          "The dance ends immediately.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "After throwing the lobsters out to sea, dancers swim after them and turn a somersault in the water before swimming back to land and changing lobsters again.",
+      },
+      {
+        id: "alq-q2",
+        prompt: "Why did Alice's recitation of \"'Tis the voice of the Lobster\" come out strange?",
+        options: [
+          "She had completely forgotten the words.",
+          "The Gryphon kept interrupting her before she could speak.",
+          "Her head was so full of the Lobster Quadrille that the words came out wrong, just like her earlier poems.",
+          "She was too tired to speak clearly.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Just as with every other poem Alice had tried to recite in Wonderland, her head was too full of other things — this time the Lobster Quadrille — for the words to come out right.",
+      },
+      {
+        id: "alq-q3",
+        prompt: "What interrupted the Mock Turtle's song and made the Gryphon run off with Alice?",
+        options: [
+          "A sudden storm began.",
+          "The Queen sent for Alice.",
+          "A voice cried out that \"The trial's beginning!\"",
+          "The Mock Turtle fell asleep mid-song.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Just as the Gryphon called for the chorus to be repeated, a cry rang out in the distance that the trial was beginning, and the Gryphon rushed off with Alice at once.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

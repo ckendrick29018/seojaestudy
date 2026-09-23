@@ -3387,5 +3387,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/anne-of-green-gables-liniment-cake.svg",
     "source": "Adapted from Chapter 21 (\"A New Departure in Flavorings\") of L. M. Montgomery's novel \"Anne of Green Gables\" (first published 1908; public domain, Project Gutenberg #45). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 3
+  },
+  {
+    "slug": "dracula-the-sleepwalker",
+    "title": "Dracula: The Sleepwalker",
+    "titleTranslation": "드라큘라: 몽유병자",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1847–1912)",
+    "coverEmoji": "🌙",
+    "coverImage": "/covers/dracula-the-sleepwalker.svg",
+    "source": "Adapted from Chapter 8 (\"Mina Murray's Journal\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
+    "slug": "alice-in-wonderland-lobster-quadrille",
+    "title": "Alice's Adventures in Wonderland: The Lobster Quadrille",
+    "titleTranslation": "이상한 나라의 앨리스: 바닷가재 카드리유",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "A2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Lewis Carroll (1832–1898)",
+    "coverEmoji": "🦞",
+    "coverImage": "/covers/alice-in-wonderland-lobster-quadrille.svg",
+    "source": "Adapted from Chapter 10 (\"The Lobster Quadrille\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

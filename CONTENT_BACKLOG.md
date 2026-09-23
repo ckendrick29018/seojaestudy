@@ -1405,9 +1405,37 @@ teardrop; a two-layer cake beside a tipped bottle (the visual pun). Dictionary: 
 (required project-wide) and, unusually, driven to 0 KO→EN gaps too for both new slugs — the
 project total KO→EN backlog did not grow.
 
+**Wave 9 — written 2026-09-23** (no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Dracula → part 7 | The Sleepwalker | Ch. 8 (the churchyard rescue scene) | B2 |
+| Alice's Adventures in Wonderland → part 5 | The Lobster Quadrille | Ch. 10 | A2 |
+
+Sources: Gutenberg #345, #11 (both re-fetched and read in full before writing, not
+from memory). The Dracula chapter is Mina's rescue of sleepwalking Lucy from the
+abbey churchyard — the dark figure bending over her and the red gleaming eyes are
+kept, but left unidentified (same "cliffhanger kept, not resolved" handling as
+Hound of the Baskervilles part 4); ends on the throat marks failing to heal, setting
+up the still-unadapted Ch. 17 (Lucy's death) and Ch. 6/9 gap noted below. This picks
+Ch. 8 over Ch. 6 ("Mina Murray's Journal") from the two options flagged after wave 7:
+Ch. 6 is scenic/atmospheric (Whitby description, old Mr. Swales, a Renfield diary
+aside) with little forward plot, where Ch. 8 has a complete, dramatic scene that
+reads well as a single lesson — Ch. 6 (and Ch. 9, Renfield's "the Master is at hand")
+are still in the queue and carry the same resequencing trade-off as Ch. 5's earlier
+placement. The Alice chapter is a direct continuation of the wave-8 Mock Turtle
+lesson — the Lobster Quadrille dance demonstrated around Alice, the porpoise/purpose
+pun (explained via a dictionary-entry note, same treatment as the lessons/lessen pun),
+Alice's garbled "'Tis the voice of the Lobster" recitation, and the Mock Turtle's
+"Beautiful Soup" song, cut off by the cry of "The trial's beginning!" — sets up
+(not yet adapted) Ch. 11. Covers: a crescent moon over a gabled roof and cross, and
+a lobster-claw medallion. Dictionary: 0 EN→KO gaps and 0 KO→EN gaps for both new
+slugs (same as wave 8 — the project-wide KO→EN backlog did not grow).
+
 **Remaining queue, suggested order:**
-1. Dracula Ch. 6 (Mina's journal) or Ch. 8 (Lucy's sleepwalking) — same resequencing
-   trade-off noted above.
-2. Alice Ch. 10 (The Lobster Quadrille) — direct continuation of the new Ch. 9 lesson.
+1. Dracula Ch. 6 ("Mina Murray's Journal") or Ch. 9 (Renfield's "the Master is at
+   hand," the escape to Carfax) — same resequencing trade-off noted above.
+2. Alice Ch. 11 ("Who Stole the Tarts?") — direct continuation of the new Ch. 10
+   lesson; likely the book's closing chapter alongside Ch. 12.
 3. Secret Garden and A Little Princess have two parts each and could get a third.
 4. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
