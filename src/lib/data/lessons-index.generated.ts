@@ -3483,5 +3483,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/alice-in-wonderland-alices-evidence.svg",
     "source": "Adapted from Chapter 12 (\"Alice's Evidence\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "dracula-reunited",
+    "title": "Dracula: Reunited",
+    "titleTranslation": "드라큘라: 재회",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1847–1912)",
+    "coverEmoji": "💍",
+    "coverImage": "/covers/dracula-reunited.svg",
+    "source": "Adapted from Chapter 9 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 5
+  },
+  {
+    "slug": "the-secret-garden-the-door-in-the-wall",
+    "title": "The Secret Garden: The Door in the Wall",
+    "titleTranslation": "비밀의 화원: 담장 속의 문",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Frances Hodgson Burnett (1849–1924)",
+    "coverEmoji": "🌹",
+    "coverImage": "/covers/the-secret-garden-the-door-in-the-wall.svg",
+    "source": "Adapted from Chapters 8–9 (\"The Robin Who Showed the Way\" and \"The Strangest House Anyone Ever Lived In\") of Frances Hodgson Burnett's novel \"The Secret Garden\" (first published 1911, Project Gutenberg #113), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];

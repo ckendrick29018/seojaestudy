@@ -90,7 +90,11 @@ export const BOOKS: Book[] = [
     id: "the-secret-garden",
     title: "The Secret Garden",
     titleTranslation: "비밀의 화원",
-    chapters: ["the-secret-garden", "the-secret-garden-martha"],
+    chapters: [
+      "the-secret-garden",
+      "the-secret-garden-martha",
+      "the-secret-garden-the-door-in-the-wall",
+    ],
   },
   {
     id: "sense-and-sensibility",
@@ -117,6 +121,7 @@ export const BOOKS: Book[] = [
       "dracula-the-old-sailor",
       "dracula-the-sleepwalker",
       "dracula-renfield-master",
+      "dracula-reunited",
     ],
   },
   {

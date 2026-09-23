@@ -1496,10 +1496,53 @@ a heart pip) for the Alice finale. Dictionary: 0 EN→KO gaps and 0 KO→EN gaps
 both new slugs (same as waves 8–10 — the project-wide KO→EN backlog did not grow;
 it shrank slightly again, from 926 to 921).
 
+**Wave 12 — written 2026-09-23** (no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Dracula → part 10 (final) | Reunited | Ch. 9 (Mina reunited with Jonathan in Budapest) | B2 |
+| The Secret Garden → part 3 | The Door in the Wall | Ch. 8–9 ("The Robin Who Showed the Way" / "The Strangest House Anyone Ever Lived In") | B1 |
+
+Sources: Gutenberg #345, #113 (both re-fetched and read in full before writing).
+The Dracula chapter adapts Ch. 9 in full — Mina's letter describing Jonathan
+"a wreck of himself" in a Budapest hospital, his notebook handed to her sealed
+with the request never to speak of its contents unless solemn duty demands it,
+their hospital-bed wedding, Mina wrapping and sealing the notebook with wax and
+her wedding ring, plus a Dr. Seward diary aside on Renfield's new moonrise/dawn
+mood pattern and the bat seen flying steadily westward the night he escaped
+again — the bat is described but never identified as Dracula, the same
+"cliffhanger kept, not resolved" handling as every other Dracula/Hound chapter.
+This closes out the "letters and journals" arc (Ch. 4–9) that the last several
+waves have been filling in — Dracula is at 10 chapters now, but the novel is
+far from finished: Ch. 11 onward (Lucy's decline and death, Renfield's death,
+the vampire hunt, the chase back to Transylvania) is a large, still-untouched,
+very iconic stretch and stays an open queue item for a future wave, not
+attempted this time. The
+Secret Garden chapter adapts Ch. 8–9 together as a single scene — Martha's
+skipping-rope gift, Mary's daily practice in the garden, the robin leading her
+to the ivy-hidden door-knob, the key finally turning, her first steps into the
+walled garden's eerie stillness, and her discovery of tiny green shoots proving
+the garden wasn't entirely dead — the book's single most iconic moment, picked
+over A Little Princess's queue slot this wave for that reason. Covers: a ring
+and wax-sealed letter (Dracula's wedding/notebook-sealing scene), an arched
+garden door with rose vines (the Secret Garden's door). Dictionary: 18 EN + 56
+KO for Dracula, 12 EN + 31 KO for the Secret Garden (one KO entry, `rope`,
+turned out to already exist unquoted at an earlier line — caught by a `tsc`
+duplicate-key error, not by the dictionary checker or a pre-check grep, the
+same class of miss as wave 7's `hbh` prefix collision) — both driven to 0/0;
+project-wide KO→EN total shrank again, 921 → 918. Both `npm run audio -- --lesson
+<slug>` calls completed cleanly (39 clips each, 0 failures). Verified both
+lessons live via dev-server preview — correct "Part 10 of 10 · Dracula" and
+"Part 3 of 3 · The Secret Garden" context strings, correct chapter-list
+ordering on both `/book/*` pages, no console errors.
+
 **Remaining queue, suggested order:**
-1. Dracula Ch. 9 (Mina reunited with Jonathan in Budapest) — the only unadapted
-   Dracula chapter left before the story moves into the vampire-hunt chapters.
-2. Secret Garden and A Little Princess have two parts each and could get a third.
-3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
+1. A Little Princess has two parts and could get a third (a natural pick is
+   Ch. 15, "The Magic" — the mysterious transformation of Sara's cold attic).
+2. Dracula Ch. 11 onward (Lucy's decline and death, Renfield's death, the
+   vampire hunt, the chase back to Transylvania) is a large, still-untouched,
+   iconic stretch of the novel — a strong candidate for the next Dracula wave.
+3. Middlemarch is still a single lesson (it cannot be a book until it has a
+   second part).
 4. Alice's Adventures in Wonderland is complete (7 parts, ends at Ch. 12) — no
    further chapters to add.

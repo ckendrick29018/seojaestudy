@@ -46173,6 +46173,439 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "dracula-reunited",
+    title: "Dracula: Reunited",
+    titleTranslation: "드라큘라: 재회",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "💍",
+    coverImage: "/covers/dracula-reunited.svg",
+    source:
+      "Adapted from Chapter 9 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Jonathan asked Mina to do with his notebook, and what strange pattern Dr. Seward was noticing in Renfield.",
+    paragraphs: [
+      [
+        {
+          id: "mhb-1",
+          text: "Mina's letter to Lucy described how she had finally reached Jonathan in Budapest, only to find him painfully thin, pale, and weak, with none of his old steady confidence left in his eyes.",
+          translation:
+            "루시에게 보낸 편지에서 미나는 마침내 부다페스트에 있는 조너선에게 도착했지만, 그가 고통스러울 만큼 야위고 창백하고 쇠약해져 있었으며, 눈빛에서 예전의 흔들림 없던 자신감을 전혀 찾아볼 수 없었다고 적었어요.",
+        },
+        {
+          id: "mhb-2",
+          text: "He remembered almost nothing of what had happened to him, and the kind nun caring for him, Sister Agatha, said only that his fevered ravings had not been about any wrongdoing of his own, but about things too terrible and strange for her to repeat.",
+          translation:
+            "그는 자신에게 무슨 일이 있었는지 거의 기억하지 못했고, 그를 돌보던 다정한 수녀 아가사 수녀님은 그가 열에 들떠 헛소리를 했을 때 그것이 그 자신의 잘못에 관한 것은 아니었지만, 너무 끔찍하고 이상해서 차마 다시 말할 수 없는 것들에 관한 것이었다고만 말해 주었어요.",
+        },
+        {
+          id: "mhb-3",
+          text: "Mina sat by his bedside, relieved beyond words simply to have found him alive.",
+          translation: "미나는 그의 침대맡에 앉아, 그저 그가 살아 있는 것을 찾아냈다는 사실만으로도 이루 말할 수 없이 안도했어요.",
+        },
+      ],
+      [
+        {
+          id: "mhb-4",
+          text: "When Jonathan woke, he asked for his coat and drew out a small notebook, holding it tightly as he spoke to her with unusual solemnity.",
+          translation:
+            "조너선은 잠에서 깨자 자신의 코트를 달라고 하더니 작은 수첩을 꺼냈고, 그것을 꼭 쥔 채 평소와 다르게 근엄한 목소리로 그녀에게 말하기 시작했어요.",
+        },
+        {
+          id: "mhb-5",
+          text: "He told her he had suffered a terrible shock, and did not know himself whether it had truly happened or had only been the fever's dreaming — and that he did not want to know, only to begin their married life together.",
+          translation:
+            "그는 자신이 끔찍한 충격을 겪었으며, 그것이 정말로 일어난 일인지 아니면 열병이 만든 꿈일 뿐인지 스스로도 알 수 없다고 말했어요. 그리고 그것을 알고 싶지 않으며, 오직 그녀와 결혼 생활을 시작하고 싶을 뿐이라고 했어요.",
+        },
+        {
+          id: "mhb-6",
+          text: "He asked if she was willing to share his ignorance, and handed her the notebook, telling her to keep it, read it if she wished, but never speak of it to him unless some solemn duty demanded it.",
+          translation:
+            "그는 그녀가 자신과 함께 그 무지를 나누어 가질 수 있겠느냐고 물으며 수첩을 건넸어요. 그것을 간직하고, 원한다면 읽어도 좋지만, 어떤 엄숙한 의무가 요구하지 않는 한 그에게는 절대 그 이야기를 꺼내지 말아 달라고 했어요.",
+        },
+      ],
+      [
+        {
+          id: "mhb-7",
+          text: "Mina agreed at once, and within the hour a chaplain was sent for so they could be married that very afternoon, before Jonathan had even fully recovered his strength.",
+          translation:
+            "미나는 즉시 동의했고, 한 시간도 채 지나지 않아 사제가 불려 왔어요. 조너선이 완전히 기력을 회복하기도 전인 바로 그날 오후에 두 사람은 결혼식을 올리기로 했어요.",
+        },
+        {
+          id: "mhb-8",
+          text: "Propped up on pillows in his hospital bed, he answered his vows firmly, and Mina found she could hardly speak for happiness.",
+          translation:
+            "병상에서 베개에 기대앉은 채, 그는 굳건한 목소리로 서약에 답했고, 미나는 행복에 겨워 말을 거의 잇지 못할 지경이었어요.",
+        },
+        {
+          id: "mhb-9",
+          text: "It was, she wrote to Lucy, the first time in her whole life she had written the words \"my husband.\"",
+          translation: "그녀가 루시에게 쓴 대로, 그것은 그녀 평생 처음으로 \"나의 남편\"이라는 말을 써 본 순간이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mhb-10",
+          text: "Once they were alone, Mina wrapped the notebook in white paper, tied it with a pale blue ribbon from around her own neck, and sealed the knot with wax, pressing her new wedding ring into it as a seal.",
+          translation:
+            "둘만 남게 되자, 미나는 수첩을 흰 종이로 싸서 자기 목에 걸려 있던 옅은 파란 리본으로 묶고, 매듭 위에 밀랍을 부어 자신의 새 결혼반지로 도장을 찍었어요.",
+        },
+        {
+          id: "mhb-11",
+          text: "She promised Jonathan she would never open it unless it were for his own sake, or for some grave and pressing duty — a visible sign, she told him, that they would always trust one another completely.",
+          translation:
+            "그녀는 조너선에게, 그를 위해서거나 어떤 중대하고 긴급한 의무가 있을 때가 아니면 절대 그것을 열어 보지 않겠다고 약속했어요. 이는 두 사람이 언제나 서로를 온전히 믿는다는 눈에 보이는 증표라고 말했어요.",
+        },
+        {
+          id: "mhb-12",
+          text: "Lucy wrote back with happy news of her own: she had stopped walking in her sleep entirely, and she and Arthur were to be married on the twenty-eighth of September.",
+          translation:
+            "루시도 답장에 자신의 기쁜 소식을 전했어요. 몽유병 증세는 완전히 사라졌고, 자신과 아서는 9월 28일에 결혼하기로 했다는 것이었어요.",
+        },
+      ],
+      [
+        {
+          id: "mhb-13",
+          text: "Far away at the asylum, Dr. Seward noticed something strange settling over Renfield: each night, the moment the moon rose, his violence quieted, and he murmured only, \"Now I can wait; now I can wait.\"",
+          translation:
+            "저 멀리 수용소에서, 수어드 박사는 렌필드에게 이상한 변화가 자리 잡는 것을 알아차렸어요. 밤마다 달이 뜨는 순간 그의 난폭함이 잦아들었고, 그는 그저 \"이제 기다릴 수 있어, 이제 기다릴 수 있어\"라고만 중얼거렸어요.",
+        },
+        {
+          id: "mhb-14",
+          text: "By dawn the calm always broke, and he grew wild again — a pattern so regular that Dr. Seward began to suspect some outside influence was coming and going with the moon itself.",
+          translation:
+            "새벽이 되면 그 평온은 어김없이 깨졌고, 그는 다시 난폭해졌어요. 너무나 규칙적인 패턴이라, 수어드 박사는 달 자체와 함께 오고 가는 어떤 외부의 영향력이 있는 것은 아닌지 의심하기 시작했어요.",
+        },
+        {
+          id: "mhb-15",
+          text: "One night, hoping to learn more, Dr. Seward let Renfield's door stand open — but instead of testing his freedom, the patient escaped anyway, slipping past an attendant and racing straight for the old chapel door at Carfax.",
+          translation:
+            "어느 날 밤, 더 알아내고 싶었던 수어드 박사는 렌필드의 방문을 열어 두었어요. 하지만 환자는 그 자유를 시험해 보는 대신 곧장 탈출해 버렸고, 간병인을 지나쳐 카팩스의 낡은 예배당 문을 향해 곧장 달려갔어요.",
+        },
+      ],
+      [
+        {
+          id: "mhb-16",
+          text: "As the attendants struggled to hold him, Renfield suddenly grew calm and still, his eyes fixed on the night sky, where Dr. Seward could see nothing but a single large bat flying steadily westward, as if it knew exactly where it was going.",
+          translation:
+            "간병인들이 그를 붙들려 애쓰는 동안, 렌필드는 갑자기 차분하고 고요해지더니 시선을 밤하늘에 고정했어요. 수어드 박사의 눈에는 마치 어디로 가야 할지 정확히 아는 것처럼 서쪽을 향해 꾸준히 날아가는 커다란 박쥐 한 마리만 보일 뿐이었어요.",
+        },
+        {
+          id: "mhb-17",
+          text: "\"You needn't tie me; I shall go quietly,\" Renfield said — and though the patient walked back peacefully enough, Dr. Seward could not shake the feeling that there was something deeply ominous in his sudden calm.",
+          translation:
+            "\"묶지 않아도 됩니다. 얌전히 가겠습니다.\" 렌필드가 말했어요. 그는 순순히 걸어서 돌아왔지만, 수어드 박사는 그 갑작스러운 평온함 속에 무언가 몹시 불길한 것이 있다는 느낌을 떨칠 수 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "mhb-v1",
+        term: "solemn",
+        partOfSpeech: "adjective",
+        translation: "근엄한, 엄숙한",
+        example: "He spoke in a solemn voice about the accident.",
+        exampleTranslation: "그는 그 사고에 대해 엄숙한 목소리로 말했어요.",
+      },
+      {
+        id: "mhb-v2",
+        term: "chaplain",
+        partOfSpeech: "noun",
+        translation: "군목, 성직자",
+        example: "The chaplain arrived to perform the wedding.",
+        exampleTranslation: "결혼식을 집전하기 위해 사제가 도착했어요.",
+      },
+      {
+        id: "mhb-v3",
+        term: "westward",
+        partOfSpeech: "adverb",
+        translation: "서쪽으로",
+        example: "The bird flew steadily westward.",
+        exampleTranslation: "그 새는 꾸준히 서쪽으로 날아갔어요.",
+      },
+      {
+        id: "mhb-v4",
+        term: "ominous",
+        partOfSpeech: "adjective",
+        translation: "불길한, 조짐이 나쁜",
+        example: "There was something ominous about his sudden calm.",
+        exampleTranslation: "그의 갑작스러운 평온함에는 무언가 불길한 것이 있었어요.",
+      },
+      {
+        id: "mhb-v5",
+        term: "influence",
+        partOfSpeech: "noun",
+        translation: "영향, 영향력",
+        example: "She suspected some outside influence was at work.",
+        exampleTranslation: "그녀는 어떤 외부의 영향력이 작용하고 있다고 의심했어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "mhb-q1",
+        prompt: "What did Jonathan do with his notebook when Mina wanted to know what had happened to him?",
+        options: [
+          "He read it aloud to her immediately.",
+          "He burned it before she could see it.",
+          "He gave it to her to keep, asking her never to speak of its contents unless a solemn duty required it.",
+          "He hid it from her and refused to explain.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Jonathan handed Mina the notebook and told her to keep it, read it if she wished, but never to speak of it to him unless some solemn duty demanded it — trusting her completely despite not knowing what it contained.",
+      },
+      {
+        id: "mhb-q2",
+        prompt: "What did Mina do with the notebook after their wedding?",
+        options: [
+          "She threw it into the fire.",
+          "She wrapped it in paper, tied it with ribbon, and sealed it with wax and her wedding ring.",
+          "She mailed it to Lucy for safekeeping.",
+          "She hid it in Jonathan's coat pocket.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mina wrapped the notebook in white paper, tied it with a ribbon from her own neck, and sealed the knot with wax using her wedding ring — a visible symbol of the couple's trust.",
+      },
+      {
+        id: "mhb-q3",
+        prompt:
+          "What strange pattern did Dr. Seward notice in Renfield, and what did he see in the sky the night Renfield escaped again?",
+        options: [
+          "Renfield grew calm at moonrise and violent by dawn; Dr. Seward saw a bat flying steadily westward.",
+          "Renfield stopped eating entirely; Dr. Seward saw nothing unusual.",
+          "Renfield began speaking a foreign language; Dr. Seward saw a flock of birds.",
+          "Renfield asked for a Bible; Dr. Seward saw smoke over Carfax.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Renfield's violence quieted every night at moonrise and returned by dawn; the night he escaped again, Dr. Seward saw only a single large bat flying steadily westward, as if it knew exactly where it was going.",
+      },
+    ],
+  },
+  {
+    slug: "the-secret-garden-the-door-in-the-wall",
+    title: "The Secret Garden: The Door in the Wall",
+    titleTranslation: "비밀의 화원: 담장 속의 문",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "🌹",
+    coverImage: "/covers/the-secret-garden-the-door-in-the-wall.svg",
+    source:
+      "Adapted from Chapters 8–9 (\"The Robin Who Showed the Way\" and \"The Strangest House Anyone Ever Lived In\") of Frances Hodgson Burnett's novel \"The Secret Garden\" (first published 1911, Project Gutenberg #113), long in the public domain. This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe how Mary finally found her way into the secret garden, and what she discovered once she was inside.",
+    paragraphs: [
+      [
+        {
+          id: "sgr-1",
+          text: "Martha's mother had sent Mary a present from her own scarce wages: a skipping-rope with red and blue handles, the first Mary had ever seen.",
+          translation:
+            "마사의 어머니는 얼마 되지 않는 품삯을 쪼개어 메리에게 선물을 보내 주었어요. 빨간색과 파란색 손잡이가 달린 줄넘기 줄이었는데, 메리가 태어나서 처음 보는 물건이었어요.",
+        },
+        {
+          id: "sgr-2",
+          text: "Martha showed her how to use it, skipping easily up to a hundred, and told Mary the fresh air and exercise would do her nothing but good.",
+          translation:
+            "마사는 줄넘기하는 법을 보여 주며 손쉽게 백 개까지 뛰어넘었고, 메리에게 신선한 공기를 쐬며 운동하면 몸에 좋기만 할 거라고 말해 주었어요.",
+        },
+        {
+          id: "sgr-3",
+          text: "Out in the garden, Mary practiced skipping every day, her cheeks growing redder and her legs growing stronger, until even old Ben Weatherstaff admitted he could hardly believe the change in her.",
+          translation:
+            "정원에 나가 메리는 매일 줄넘기를 연습했고, 볼은 점점 더 발그레해지고 다리는 점점 더 튼튼해졌어요. 나이 든 벤 웨더스태프조차 그녀가 이렇게 달라진 것을 믿기 힘들다고 인정할 정도였어요.",
+        },
+      ],
+      [
+        {
+          id: "sgr-4",
+          text: "One day, while skipping down her favorite walk, she noticed the robin swaying on a branch of ivy that grew thick along the old garden wall.",
+          translation:
+            "어느 날, 가장 좋아하는 오솔길을 따라 줄넘기를 하던 메리는 오래된 정원 담장을 따라 빽빽하게 자란 담쟁이덩굴의 한 가지 위에서 울새가 흔들거리고 있는 것을 알아챘어요.",
+        },
+        {
+          id: "sgr-5",
+          text: "\"You showed me where the key was yesterday,\" she said to it. \"You ought to show me the door today — but I don't believe you know!\"",
+          translation:
+            "\"어제는 열쇠가 어디 있는지 보여 줬잖아.\" 그녀가 울새에게 말했어요. \"오늘은 문을 보여 줘야지. 그런데 넌 문이 어디 있는지 모를 것 같아!\"",
+        },
+        {
+          id: "sgr-6",
+          text: "Just then a gust of wind swung the ivy aside, and Mary saw, half-hidden beneath the leaves, a round iron knob she had never noticed before.",
+          translation:
+            "바로 그때 한 줄기 바람이 불어 담쟁이덩굴을 옆으로 젖혔고, 메리는 나뭇잎 아래 반쯤 가려진, 이전에는 본 적 없는 둥근 쇠 손잡이를 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "sgr-7",
+          text: "Her heart pounding, she pulled the leaves aside with both hands, and underneath found a keyhole set into an old wooden door.",
+          translation:
+            "심장이 쿵쿵 뛰는 채로 그녀는 두 손으로 나뭇잎을 걷어 냈고, 그 아래에서 낡은 나무 문에 박힌 열쇠 구멍을 발견했어요.",
+        },
+        {
+          id: "sgr-8",
+          text: "She took the key from her pocket, fit it into the lock, and turned it with both hands until, at last, it gave way.",
+          translation:
+            "그녀는 주머니에서 열쇠를 꺼내 자물쇠에 끼워 넣고 두 손으로 힘껏 돌렸어요. 마침내 자물쇠가 풀렸어요.",
+        },
+        {
+          id: "sgr-9",
+          text: "She looked behind her to make sure no one was watching, pushed the old door slowly open, and slipped through it into the secret garden at last.",
+          translation:
+            "그녀는 아무도 보고 있지 않은지 뒤를 돌아 확인한 뒤, 낡은 문을 천천히 밀어 열고는 마침내 비밀의 화원 안으로 미끄러지듯 들어갔어요.",
+        },
+      ],
+      [
+        {
+          id: "sgr-10",
+          text: "Inside, the walls were covered with the bare, tangled stems of climbing roses, and gray branches arched between the trees like the ruins of some forgotten, fairy-tale house.",
+          translation:
+            "안으로 들어가자, 담장은 잎이 없는 뒤엉킨 장미 덩굴 줄기로 뒤덮여 있었고, 잿빛 나뭇가지들이 나무와 나무 사이에 아치를 이루어, 마치 잊혀진 동화 속 집의 폐허처럼 보였어요.",
+        },
+        {
+          id: "sgr-11",
+          text: "\"How still it is,\" Mary whispered to herself. \"I am the first person who has spoken in here for ten years.\"",
+          translation:
+            "\"참 고요하기도 하지.\" 메리는 혼잣말을 속삭였어요. \"여기서 십 년 만에 처음으로 말을 하는 사람이 나구나.\"",
+        },
+        {
+          id: "sgr-12",
+          text: "She walked slowly beneath the gray archways, wondering whether the whole garden was quite dead, or whether some of it might still be alive underneath.",
+          translation:
+            "그녀는 잿빛 아치들 아래를 천천히 걸으며, 이 정원 전체가 완전히 죽어 버린 것인지, 아니면 그 아래 어딘가에는 여전히 살아 있는 것이 남아 있는지 궁금해했어요.",
+        },
+      ],
+      [
+        {
+          id: "sgr-13",
+          text: "Near one of the old flowerbeds, she knelt down and found tiny pale-green points pushing up out of the black earth.",
+          translation:
+            "오래된 화단 하나 가까이에서 그녀는 무릎을 꿇고 앉았고, 검은 흙을 뚫고 올라온 작고 연둣빛인 새싹들을 발견했어요.",
+        },
+        {
+          id: "sgr-14",
+          text: "\"It isn't a quite dead garden!\" she cried out softly. \"Even if the roses are dead, there are other things alive.\"",
+          translation:
+            "\"완전히 죽은 정원이 아니야!\" 그녀는 작게 외쳤어요. \"장미들은 죽었더라도, 살아 있는 다른 것들이 있어.\"",
+        },
+        {
+          id: "sgr-15",
+          text: "She found a sharp piece of wood and began clearing away the weeds and thick grass crowding around the tiny green shoots, so they could breathe.",
+          translation:
+            "그녀는 뾰족한 나뭇조각 하나를 찾아, 작은 초록 새싹들 주위를 뒤덮고 있던 잡초와 무성한 풀을 걷어 내기 시작했어요. 새싹들이 숨을 쉴 수 있도록 말이에요.",
+        },
+      ],
+      [
+        {
+          id: "sgr-16",
+          text: "She worked happily for hours, clearing space around dozens of the little points, until at last she remembered it was long past time for her midday dinner.",
+          translation:
+            "그녀는 몇 시간 동안 즐겁게 작업하며 수십 개의 작은 싹들 주위에 공간을 만들어 주었고, 마침내 점심 식사 시간이 한참 지났다는 것을 떠올렸어요.",
+        },
+        {
+          id: "sgr-17",
+          text: "\"I shall come back this afternoon,\" she said, looking all around at what already felt like a whole new kingdom of her very own.",
+          translation:
+            "\"오늘 오후에 다시 올 거야.\" 그녀는 이미 자신만의 새로운 왕국처럼 느껴지는 그곳을 둘러보며 말했어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sgr-v1",
+        term: "gust",
+        partOfSpeech: "noun",
+        translation: "돌풍, 한 줄기 바람",
+        example: "A sudden gust of wind blew her hat away.",
+        exampleTranslation: "갑작스러운 돌풍이 그녀의 모자를 날려 버렸어요.",
+      },
+      {
+        id: "sgr-v2",
+        term: "ivy",
+        partOfSpeech: "noun",
+        translation: "담쟁이덩굴",
+        example: "The old wall was covered in thick ivy.",
+        exampleTranslation: "오래된 담장은 무성한 담쟁이덩굴로 뒤덮여 있었어요.",
+      },
+      {
+        id: "sgr-v3",
+        term: "keyhole",
+        partOfSpeech: "noun",
+        translation: "열쇠 구멍",
+        example: "She peered through the keyhole into the dark room.",
+        exampleTranslation: "그녀는 열쇠 구멍으로 어두운 방 안을 들여다보았어요.",
+      },
+      {
+        id: "sgr-v4",
+        term: "archway",
+        partOfSpeech: "noun",
+        translation: "아치형 통로",
+        example: "They walked together under the stone archway.",
+        exampleTranslation: "그들은 함께 돌 아치형 통로 아래를 걸었어요.",
+      },
+      {
+        id: "sgr-v5",
+        term: "shoot",
+        partOfSpeech: "noun",
+        translation: "새싹, 순",
+        example: "Tiny green shoots pushed up through the soil.",
+        exampleTranslation: "작은 초록 새싹들이 흙을 뚫고 올라왔어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sgr-q1",
+        prompt: "How did Mary finally find the hidden door in the garden wall?",
+        options: [
+          "Ben Weatherstaff showed her where it was.",
+          "A gust of wind swung aside the ivy and revealed an iron door-knob she had never noticed.",
+          "She dug under the wall and found a tunnel.",
+          "Martha gave her a map of the garden.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "A strong gust of wind swept the trailing ivy aside, revealing a round iron knob hidden beneath the leaves — which turned out to be the handle of the long-hidden garden door.",
+      },
+      {
+        id: "sgr-q2",
+        prompt: "What did Mary notice about the garden once she was inside?",
+        options: [
+          "It was full of blooming flowers already.",
+          "It looked completely ordinary, no different from any other garden.",
+          "It seemed like a forgotten, silent place of gray, tangled branches, but she found tiny green shoots that showed some of it was still alive.",
+          "It was locked from the inside as well.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "The garden looked mysterious and untouched, its roses gray and tangled and everything eerily still — but Mary found tiny pale-green shoots pushing up through the earth, proving the garden wasn't entirely dead.",
+      },
+      {
+        id: "sgr-q3",
+        prompt: "What did Mary do once she found the tiny green shoots?",
+        options: [
+          "She picked them and took them back to her room.",
+          "She cleared away the weeds and grass crowding around them so they could grow.",
+          "She covered them with soil to protect them from the cold.",
+          "She told Ben Weatherstaff about them right away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mary used a sharp piece of wood to clear the weeds and thick grass away from the tiny green shoots, giving them room to breathe and grow, and worked happily for hours doing it.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer
