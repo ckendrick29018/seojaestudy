@@ -28,6 +28,18 @@ import {
  * large or decorative elements, where it clears contrast.
  */
 
+// The feature-bento mockups below are decorative (aria-hidden) and use a
+// handful of fixed Korean words to show off bilingual features. Left on the
+// site's branded Noto Sans/Serif KR, those few words pull in the *entire*
+// Korean webfont (hundreds of KB of @font-face definitions + glyph subsets,
+// on top of Inter/Playfair/Literata) for this page alone. Almost every real
+// device already ships a system Korean font, so render these specific
+// strings through a system-font stack instead — free on the vast majority of
+// visits, falling back to the branded Noto webfont only on the rare device
+// with no Korean font installed at all. Never use this for real, readable
+// story content — only for this kind of small decorative mockup text.
+const KO_MOCKUP_FONT = '"Malgun Gothic","Apple SD Gothic Neo",var(--font-noto-sans-kr),sans-serif';
+
 type IconType = ComponentType<SVGProps<SVGSVGElement>>;
 
 /** One cover per book (its first chapter), so a row of covers never repeats a novel. */
@@ -205,7 +217,7 @@ function FeatureBento() {
                 <p className="text-sm text-charcoal/80">
                   <span className="font-serif font-semibold text-charcoal">lantern</span>
                   <span className="text-charcoal/40"> — </span>
-                  등불, 손전등
+                  <span style={{ fontFamily: KO_MOCKUP_FONT }}>등불, 손전등</span>
                 </p>
               </div>
             </div>
@@ -236,7 +248,7 @@ function FeatureBento() {
               <div className="absolute inset-x-2 top-5 flex h-28 flex-col items-center justify-center rounded-2xl border border-rose-light/60 bg-white shadow-soft">
                 <p className="text-[10px] font-semibold uppercase tracking-widest text-rose/70">noun</p>
                 <p className="font-serif text-2xl font-semibold text-charcoal">lantern</p>
-                <p className="text-sm text-charcoal/60">등불</p>
+                <p className="text-sm text-charcoal/60" style={{ fontFamily: KO_MOCKUP_FONT }}>등불</p>
               </div>
             </div>
           </Tile>
@@ -307,8 +319,12 @@ function FeatureBento() {
                 <SwapIcon className="h-5 w-5 rotate-90 sm:rotate-0" />
               </span>
               <div className="flex-1 rounded-2xl border border-rose-light/60 bg-cream p-4 text-center shadow-soft">
-                <p className="text-[10px] font-semibold uppercase tracking-widest text-rose/70">한국어</p>
-                <p className="mt-1 font-reading text-base text-charcoal lg:text-lg">등불이 켜졌어요.</p>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-rose/70" style={{ fontFamily: KO_MOCKUP_FONT }}>
+                  한국어
+                </p>
+                <p className="mt-1 text-base text-charcoal lg:text-lg" style={{ fontFamily: KO_MOCKUP_FONT }}>
+                  등불이 켜졌어요.
+                </p>
               </div>
             </div>
           </Tile>
