@@ -10,11 +10,13 @@ import { OnboardingProvider } from "./OnboardingProvider";
 import { DailyProvider } from "./DailyProvider";
 import { ClubProvider } from "./ClubProvider";
 import { NowPlayingProvider } from "./NowPlayingProvider";
+import { NativeBackButton } from "./NativeBackButton";
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <LanguageProvider>
       <PreferencesProvider>
+        <NativeBackButton />
         <AuthProvider>
           <OnboardingProvider>
             <ProgressProvider>
