@@ -358,6 +358,22 @@ export const dict = {
   themeSepia: { en: "Sepia", ko: "세피아" },
   themeDark: { en: "Dark", ko: "다크" },
   changeReadingTheme: { en: "Change reading theme", ko: "읽기 테마 바꾸기" },
+  settingsReminderTitle: { en: "Daily reading reminder", ko: "매일 읽기 알림" },
+  settingsReminderHint: {
+    en: "A quiet nudge at 7 PM on days you haven't read yet. Off by default — nothing is sent unless you turn this on.",
+    ko: "아직 오늘 읽지 않았다면 저녁 7시에 조용히 알려드려요. 기본값은 꺼짐이며, 켜기 전에는 아무 알림도 보내지 않아요.",
+  },
+  settingsReminderOn: { en: "On", ko: "켜짐" },
+  settingsReminderOff: { en: "Off", ko: "꺼짐" },
+  settingsReminderPermissionDenied: {
+    en: "Notifications are blocked for this app in your phone's settings — enable them there first.",
+    ko: "휴대폰 설정에서 이 앱의 알림이 차단되어 있어요. 먼저 설정에서 알림을 허용해 주세요.",
+  },
+  readingReminderNotifTitle: { en: "Keep your streak going", ko: "스트릭을 이어가 보세요" },
+  readingReminderNotifBody: {
+    en: "You haven't read today yet — a few minutes keeps it alive.",
+    ko: "아직 오늘 안 읽으셨네요 — 몇 분이면 스트릭을 이어갈 수 있어요.",
+  },
 
   // --- Daily habit ---
   lessonOfDay: { en: "Today's story", ko: "오늘의 이야기" },

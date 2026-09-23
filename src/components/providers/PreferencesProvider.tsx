@@ -3,7 +3,9 @@
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import { SystemBars, SystemBarsStyle } from "@capacitor/core";
+import { LocalNotifications } from "@capacitor/local-notifications";
 import { isRunningInNativeApp } from "@/lib/platform";
+import { useT } from "./LanguageProvider";
 
 /** Accessibility text-size choice. `md` is the untouched browser default. */
 export type FontScale = "sm" | "md" | "lg" | "xl";
@@ -38,12 +40,32 @@ interface PreferencesContextValue {
   setReadingTheme: (theme: ReadingTheme) => void;
   /** Step light → sepia → dark → light; the reader's one-tap control. */
   cycleReadingTheme: () => void;
+  /** Opt-in daily local notification (native app only). Off by default. */
+  readingReminder: boolean;
+  /**
+   * Turns the reminder on/off. Requests OS notification permission the first
+   * time it's enabled; if that's denied, the reminder stays off and this
+   * resolves to `false` so the caller can tell the user why.
+   */
+  setReadingReminder: (enabled: boolean) => Promise<boolean>;
 }
 
 const PreferencesContext = createContext<PreferencesContextValue | null>(null);
 const STORAGE_KEY = "luminaread:font-scale";
 // Also read by the boot script in app/layout.tsx — change both together.
 const THEME_STORAGE_KEY = "luminaread:reading-theme";
+const REMINDER_STORAGE_KEY = "luminaread:reading-reminder";
+// Arbitrary fixed id for the one recurring reminder notification this app schedules.
+const REMINDER_NOTIFICATION_ID = 1001;
+const REMINDER_HOUR = 19; // 7 PM local time — not user-configurable yet.
+
+/** The next 7 PM, local time — today's if it hasn't passed yet, else tomorrow's. */
+function nextReminderTime(): Date {
+  const next = new Date();
+  next.setHours(REMINDER_HOUR, 0, 0, 0);
+  if (next.getTime() <= Date.now()) next.setDate(next.getDate() + 1);
+  return next;
+}
 
 function isFontScale(value: unknown): value is FontScale {
   return value === "sm" || value === "md" || value === "lg" || value === "xl";
@@ -54,8 +76,10 @@ function isReadingTheme(value: unknown): value is ReadingTheme {
 }
 
 export function PreferencesProvider({ children }: { children: ReactNode }) {
+  const t = useT();
   const [fontScale, setFontScaleState] = useState<FontScale>("md");
   const [readingTheme, setReadingThemeState] = useState<ReadingTheme>("light");
+  const [readingReminder, setReadingReminderState] = useState(false);
   const [hydrated, setHydrated] = useState(false);
 
   // Load the saved choices once, before we start persisting changes.
@@ -65,6 +89,7 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
       if (isFontScale(stored)) setFontScaleState(stored);
       const storedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
       if (isReadingTheme(storedTheme)) setReadingThemeState(storedTheme);
+      setReadingReminderState(window.localStorage.getItem(REMINDER_STORAGE_KEY) === "true");
     } catch {
       // localStorage unavailable (private mode, some WebViews) — keep the default.
     }
@@ -113,6 +138,52 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     setReadingThemeState((current) => READING_THEMES[(READING_THEMES.indexOf(current) + 1) % READING_THEMES.length]);
   }, []);
 
+  // Persist the reminder choice the same best-effort way as the other prefs.
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      window.localStorage.setItem(REMINDER_STORAGE_KEY, String(readingReminder));
+    } catch {
+      // best-effort persistence only
+    }
+  }, [readingReminder, hydrated]);
+
+  const setReadingReminder = useCallback(
+    async (enabled: boolean): Promise<boolean> => {
+      if (!isRunningInNativeApp()) {
+        // No native scheduler on the web build — just remember the choice.
+        setReadingReminderState(enabled);
+        return enabled;
+      }
+
+      if (!enabled) {
+        await LocalNotifications.cancel({ notifications: [{ id: REMINDER_NOTIFICATION_ID }] }).catch(() => {});
+        setReadingReminderState(false);
+        return false;
+      }
+
+      const permission = await LocalNotifications.requestPermissions().catch(() => ({ display: "denied" as const }));
+      if (permission.display !== "granted") {
+        setReadingReminderState(false);
+        return false;
+      }
+
+      await LocalNotifications.schedule({
+        notifications: [
+          {
+            id: REMINDER_NOTIFICATION_ID,
+            title: t("readingReminderNotifTitle"),
+            body: t("readingReminderNotifBody"),
+            schedule: { at: nextReminderTime(), every: "day", allowWhileIdle: true },
+          },
+        ],
+      }).catch(() => {});
+      setReadingReminderState(true);
+      return true;
+    },
+    [t],
+  );
+
   const value: PreferencesContextValue = {
     hydrated,
     fontScale,
@@ -120,6 +191,8 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     readingTheme,
     setReadingTheme: setReadingThemeState,
     cycleReadingTheme,
+    readingReminder,
+    setReadingReminder,
   };
 
   return <PreferencesContext.Provider value={value}>{children}</PreferencesContext.Provider>;

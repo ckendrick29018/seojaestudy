@@ -13,6 +13,7 @@ import { CheckIcon, UsersIcon } from "@/components/ui/icons";
 import { MAX_CLUB_MEMBERS, clubJoinUrl } from "@/lib/club";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
+import { shareUrl } from "@/lib/native-share";
 
 /**
  * Bottom-of-lesson card: share this chapter into your book club so its members
@@ -63,24 +64,9 @@ export function ShareWithClub({ lesson }: { lesson: Lesson }) {
     const code = club?.club.joinCode;
     if (!code) return;
     const url = clubJoinUrl(code, lesson.slug, SITE_URL);
-    try {
-      if (typeof navigator !== "undefined" && navigator.share) {
-        await navigator.share({
-          title: `${lesson.title} · ${SITE_NAME}`,
-          text: t("clubShareInviteText"),
-          url,
-        });
-        return;
-      }
-    } catch {
-      // user dismissed the share sheet — fall through to copy
-    }
-    try {
-      await navigator.clipboard.writeText(url);
-      setToast(t("clubLinkCopied"));
-    } catch {
-      setToast(url);
-    }
+    const result = await shareUrl({ title: `${lesson.title} · ${SITE_NAME}`, text: t("clubShareInviteText"), url });
+    if (result === "copied") setToast(t("clubLinkCopied"));
+    else if (result === "shown") setToast(url);
   }
 
   if (!club) {

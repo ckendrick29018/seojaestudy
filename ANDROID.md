@@ -14,7 +14,34 @@ offline screen); never point it at `public/`, which bundles 300+ MB of audio.
 1. Create a [Play Console](https://play.google.com/console) developer account
    ($25). Identity verification can take days — start this first.
 2. Install [Android Studio](https://developer.android.com/studio) (bundles the
-   JDK and Android SDK — this machine had neither as of 2026-09-21).
+   Android SDK — done 2026-09-23, `winget install -e --id Google.AndroidStudio`).
+   Run it once so its first-launch wizard downloads the SDK and accepts the
+   licenses.
+3. **Don't build with the JDK Android Studio bundles (its `jbr/` folder).**
+   As of 2026-09-23 that JBR is Java 25, but Gradle 8.14.3 (this project's
+   pinned wrapper version) can't run buildscripts on anything newer than
+   Java 24 — fails with `Unsupported class file major version 69`.
+   Capacitor 8's own Android modules (`@capacitor/android`, and any plugin
+   under it, including `@capacitor/share` and `@capacitor/local-notifications`)
+   require Java **21** specifically (`sourceCompatibility`/`targetCompatibility
+   JavaVersion.VERSION_21` in their `build.gradle`) — Java 17 builds fail with
+   "Cannot find a Java installation... matching languageVersion=21". Install a
+   standalone JDK 21 (`winget install -e --id EclipseAdoptium.Temurin.21.JDK`)
+   and point `JAVA_HOME` at it for command-line builds, separate from whatever
+   JDK Android Studio's IDE itself uses.
+   > If antivirus/corporate software does TLS interception (this machine:
+   > AVG Web/Mail Shield), the Gradle wrapper's HTTPS download fails with a
+   > `PKIX path building failed` / `unable to find valid certification path`
+   > SSLHandshakeException even though the OS trusts the connection fine —
+   > Java's own `cacerts` truststore doesn't know about the interception
+   > root CA. Fix without touching the protected JDK install: export that
+   > root CA from `Cert:\CurrentUser\Root` (`Export-Certificate`), copy the
+   > JDK's `cacerts` file somewhere user-writable, `keytool -importcert` the
+   > root CA into that copy, then point the JVM at it via
+   > `-Djavax.net.ssl.trustStore=<path> -Djavax.net.ssl.trustStorePassword=changeit`
+   > (`JAVA_TOOL_OPTIONS` env var covers Gradle's own wrapper-bootstrap JVM;
+   > a user-level `~/.gradle/gradle.properties` `org.gradle.jvmargs` only
+   > covers the daemon, started after the bootstrap already needs it).
 
 **Each build:**
 

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
@@ -20,8 +21,10 @@ import {
   labelFor,
 } from "@/lib/onboarding";
 import type { UiLang } from "@/lib/i18n";
+import { isRunningInNativeApp } from "@/lib/platform";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Toast } from "@/components/ui/Toast";
 
 const FONT_SIZE_LABEL: Record<FontScale, "fontSizeSm" | "fontSizeMd" | "fontSizeLg" | "fontSizeXl"> = {
   sm: "fontSizeSm",
@@ -47,9 +50,26 @@ const THEME_SWATCH: Record<ReadingTheme, { page: string; ink: string; accent: st
 export default function SettingsPage() {
   const t = useT();
   const { lang, setLang } = useLanguage();
-  const { fontScale, setFontScale, readingTheme, setReadingTheme } = usePreferences();
+  const {
+    hydrated: prefsHydrated,
+    fontScale,
+    setFontScale,
+    readingTheme,
+    setReadingTheme,
+    readingReminder,
+    setReadingReminder,
+  } = usePreferences();
   const { hydrated, data, restart } = useOnboarding();
   const router = useRouter();
+  const [reminderBusy, setReminderBusy] = useState(false);
+  const [reminderToast, setReminderToast] = useState<string | null>(null);
+
+  async function toggleReminder(next: boolean) {
+    setReminderBusy(true);
+    const result = await setReadingReminder(next);
+    setReminderBusy(false);
+    if (next && !result) setReminderToast(t("settingsReminderPermissionDenied"));
+  }
 
   function redoOnboarding() {
     restart();
@@ -217,6 +237,33 @@ export default function SettingsPage() {
           </div>
           <p className="mt-3 text-xs text-charcoal/45">{t("settingsFontSizeHint")}</p>
         </section>
+
+        {/* Daily reading reminder — native app only, opt-in local notification */}
+        {prefsHydrated && isRunningInNativeApp() && (
+          <section className="rounded-xl2 border border-rose-light/50 bg-white/60 p-5 shadow-soft">
+            <div className="flex items-center justify-between gap-3">
+              <SectionHeading title={t("settingsReminderTitle")} />
+              <div role="group" aria-label={t("settingsReminderTitle")} className="inline-flex shrink-0 rounded-full border border-rose-light/60 p-1">
+                {[false, true].map((option) => (
+                  <button
+                    key={String(option)}
+                    onClick={() => toggleReminder(option)}
+                    disabled={reminderBusy}
+                    aria-pressed={readingReminder === option}
+                    className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition disabled:opacity-50 ${
+                      readingReminder === option
+                        ? "bg-rose text-cream shadow-soft"
+                        : "text-charcoal/50 hover:text-charcoal/80"
+                    }`}
+                  >
+                    {t(option ? "settingsReminderOn" : "settingsReminderOff")}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <p className="mt-3 text-xs text-charcoal/45">{t("settingsReminderHint")}</p>
+          </section>
+        )}
       </div>
 
       <Link href="/library" className="mt-10 inline-block text-sm text-rose underline-offset-4 hover:underline">
@@ -227,6 +274,7 @@ export default function SettingsPage() {
           Privacy Policy
         </Link>
       </div>
+      <Toast message={reminderToast} onDone={() => setReminderToast(null)} />
     </div>
   );
 }

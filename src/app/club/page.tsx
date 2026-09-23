@@ -9,6 +9,7 @@ import { useT } from "@/components/providers/LanguageProvider";
 import { lessonIndex as lessons } from "@/lib/data/lessons-index.generated";
 import { MAX_CLUB_MEMBERS, clubJoinUrl } from "@/lib/club";
 import { SITE_URL } from "@/lib/site";
+import { shareUrl } from "@/lib/native-share";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Toast } from "@/components/ui/Toast";
@@ -117,20 +118,9 @@ export default function ClubPage() {
   const inviteUrl = clubJoinUrl(club.club.joinCode, undefined, SITE_URL);
 
   const copyInvite = async () => {
-    try {
-      if (typeof navigator !== "undefined" && navigator.share) {
-        await navigator.share({ title: club.club.name, url: inviteUrl });
-        return;
-      }
-    } catch {
-      /* dismissed — fall through to copy */
-    }
-    try {
-      await navigator.clipboard.writeText(inviteUrl);
-      notify(t("clubLinkCopied"));
-    } catch {
-      notify(inviteUrl);
-    }
+    const result = await shareUrl({ title: club.club.name, url: inviteUrl });
+    if (result === "copied") notify(t("clubLinkCopied"));
+    else if (result === "shown") notify(inviteUrl);
   };
 
   return frame(
