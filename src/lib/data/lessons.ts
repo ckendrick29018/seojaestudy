@@ -45737,6 +45737,442 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "dracula-the-old-sailor",
+    title: "Dracula: The Old Sailor",
+    titleTranslation: "드라큘라: 늙은 뱃사람",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🪦",
+    coverImage: "/covers/dracula-the-old-sailor.svg",
+    source:
+      "Adapted from Chapter 6 (\"Mina Murray's Journal\") of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Mr. Swales revealed about the tombstones in the churchyard, and what strange pattern Dr. Seward was noticing in Renfield.",
+    paragraphs: [
+      [
+        {
+          id: "sws-1",
+          text: "Mina wrote in her journal that she had found the nicest spot in all of Whitby: an old churchyard on the cliff above the town, beside the ruins of Whitby Abbey, with a view straight down over the harbour.",
+          translation:
+            "미나는 일기에 자신이 휘트비에서 가장 좋아하는 장소를 찾았다고 썼어요. 마을 위 절벽에 있는 오래된 교회 묘지였는데, 휘트비 수도원 폐허 옆에 자리해 항구가 곧장 내려다보이는 곳이었어요.",
+        },
+        {
+          id: "sws-2",
+          text: "Every day she came to sit and write, and every day an ancient sailor named Mr. Swales came to sit near her, for he said he was almost a hundred years old and had nothing left to do but talk.",
+          translation:
+            "그녀는 매일 그곳에 와서 앉아 글을 썼고, 스웨일스 씨라는 늙은 뱃사람도 매일 그녀 곁에 와서 앉았어요. 그는 자신이 거의 백 살이 다 되었고, 이제는 이야기하는 것 말고는 할 일이 없다고 말했어요.",
+        },
+        {
+          id: "sws-3",
+          text: "One afternoon, Mina asked him about the local legends — the bells that were said to ring out at sea whenever a ship was lost, and the white lady who was said to haunt one of the abbey's windows.",
+          translation:
+            "어느 오후, 미나는 그에게 이 지역 전설에 대해 물었어요. 배가 난파될 때마다 바다에서 종소리가 울린다는 이야기와, 수도원의 어느 창가에 하얀 여인의 유령이 나타난다는 이야기였어요.",
+        },
+      ],
+      [
+        {
+          id: "sws-4",
+          text: "Mr. Swales only laughed and told her not to fash herself over such things, for they were nothing but fool-talk invented to please gullible tourists, not sensible young ladies like her.",
+          translation:
+            "스웨일스 씨는 그저 웃으며 그런 일로 걱정하지 말라고 했어요. 그런 이야기들은 잘 속는 관광객들을 즐겁게 해 주려고 지어낸 헛소리일 뿐, 그녀처럼 똑똑한 아가씨가 믿을 만한 게 아니라고 했어요.",
+        },
+        {
+          id: "sws-5",
+          text: "A few days later, though, Lucy got him talking about something else — the gravestones scattered all around them — and his mood turned strangely fierce.",
+          translation:
+            "그런데 며칠 뒤, 루시가 그에게 다른 이야기를 꺼내게 했어요. 주위에 흩어진 묘비들에 관한 이야기였는데, 그러자 그의 태도가 이상하리만치 격렬해졌어요.",
+        },
+        {
+          id: "sws-6",
+          text: "\"It be all lies, lock, stock, and barrel,\" he told them, striking his walking stick against the ground for emphasis.",
+          translation:
+            "\"모조리 거짓말이오. 하나도 빠짐없이 다 거짓말이지.\" 그는 지팡이로 땅을 탁탁 치며 힘주어 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "sws-7",
+          text: "He pointed to one stone that claimed a sailor was \"murdered by pirates off the coast of Andres\" and said he happened to know the man had really drowned off Greenland, his bones lost forever at the bottom of the sea.",
+          translation:
+            "그는 어느 묘비를 가리켰어요. 그 비석에는 한 선원이 \"안드레스 해안에서 해적에게 살해당했다\"라고 적혀 있었는데, 스웨일스 씨는 그 남자가 사실은 그린란드 앞바다에서 익사했고, 그의 뼈는 영영 바다 밑바닥에 남아 있다는 것을 자신이 알고 있다고 말했어요.",
+        },
+        {
+          id: "sws-8",
+          text: "\"Do ye think all these men will come rushing back to Whitby when the trumpet sounds?\" he asked, cackling, \"they'd be jostling one another something terrible, trying to drag their tombstones along with them!\"",
+          translation:
+            "\"나팔 소리가 울리면 이 사람들이 전부 휘트비로 달려올 것 같소?\" 그는 낄낄거리며 물었어요. \"저마다 자기 묘비를 끌고 오겠다고 서로 밀치고 부딪치느라 아주 난리가 날 게요!\"",
+        },
+        {
+          id: "sws-9",
+          text: "Uneasy at his dark humor, Lucy pointed to a different, gentler stone near their feet and read its inscription aloud: a mother's tribute to a son who had died \"in the hope of a glorious resurrection.\"",
+          translation:
+            "그의 음산한 농담에 불편해진 루시는 발치에 있던 다른, 더 온화해 보이는 비석을 가리키며 그 위에 새겨진 글을 소리 내어 읽었어요. \"영광스러운 부활의 소망 속에\" 세상을 떠난 아들을 기리는 어머니의 헌사였어요.",
+        },
+      ],
+      [
+        {
+          id: "sws-10",
+          text: "Mr. Swales snorted and said the truth was far uglier — the son secretly despised his cruel mother, and had shot himself with an old musket rather than let her collect the insurance money she had taken out on his life.",
+          translation:
+            "스웨일스 씨는 코웃음을 치며 진실은 훨씬 추악하다고 말했어요. 그 아들은 사실 매정한 어머니를 몰래 미워했고, 어머니가 자신의 생명 보험금을 받지 못하게 하려고 낡은 총으로 스스로 목숨을 끊었다는 것이었어요.",
+        },
+        {
+          id: "sws-11",
+          text: "Lucy went pale and cried that it was her favorite seat, and now she would always know she had been sitting over a suicide's grave.",
+          translation:
+            "루시는 얼굴이 창백해지며 외쳤어요. 이곳은 그녀가 가장 좋아하는 자리였는데, 이제는 자신이 자살한 사람의 무덤 위에 앉아 있었다는 걸 영원히 알게 되어 버렸다고요.",
+        },
+        {
+          id: "sws-12",
+          text: "\"That won't harm ye, my pretty,\" the old man said kindly, patting her hand, \"I've sat here nigh on twenty years myself, and it's never once troubled me.\"",
+          translation:
+            "\"그런다고 해될 건 없소, 아가씨.\" 노인은 그녀의 손을 다정하게 토닥이며 말했어요. \"나도 여기 앉은 지 거의 이십 년이 다 되었는데, 단 한 번도 문제가 된 적이 없었소.\"",
+        },
+      ],
+      [
+        {
+          id: "sws-13",
+          text: "Miles away, Dr. Seward was keeping his own private record — of a patient named Renfield, whose strange hobby had begun with catching flies.",
+          translation:
+            "저 멀리에서는 수어드 박사가 자신만의 기록을 남기고 있었어요. 렌필드라는 환자에 관한 기록이었는데, 그의 이상한 취미는 파리를 잡는 것에서 시작되었어요.",
+        },
+        {
+          id: "sws-14",
+          text: "Over the following weeks, Renfield fed his flies to a growing collection of spiders, then fed his spiders to a flock of sparrows he had tamed, each pet larger and hungrier than the last.",
+          translation:
+            "그 후 몇 주 동안 렌필드는 잡은 파리를 점점 늘어나는 거미들에게 먹이로 주었고, 그다음에는 그 거미들을 길들인 참새 떼에게 먹였어요. 그의 애완동물은 갈수록 더 크고 더 굶주려 있었어요.",
+        },
+        {
+          id: "sws-15",
+          text: "When Renfield finally begged Dr. Seward for a cat to feed his sparrows to, the doctor refused — and began to suspect he was watching a dangerous, escalating pattern of hunger take shape.",
+          translation:
+            "마침내 렌필드가 참새들을 먹이겠다며 고양이를 달라고 애원하자, 수어드 박사는 거절했어요. 그리고 자신이 점점 커지는 위험한 굶주림의 패턴을 지켜보고 있는 것은 아닐지 의심하기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "sws-16",
+          text: "Back in Whitby, Mina's own worries were growing: it had been weeks since her last letter from Jonathan, and Lucy had quietly begun sleepwalking again, drifting through their room each night.",
+          translation:
+            "휘트비로 돌아와 보면, 미나의 걱정도 점점 커지고 있었어요. 조너선에게서 마지막 편지를 받은 지 몇 주가 지났고, 루시는 또다시 조용히 몽유병 증세를 보이며 밤마다 방 안을 떠돌기 시작했어요.",
+        },
+        {
+          id: "sws-17",
+          text: "As a heavy grey storm gathered out at sea, the old coastguard pointed to a strange ship struggling offshore, unable to decide whether to run for open water or risk the harbour — and Mina could not shake the feeling that something was coming with it.",
+          translation:
+            "바다 위로 짙은 잿빛 폭풍이 몰려오는 가운데, 늙은 해안 경비대원은 앞바다에서 고전하는 낯선 배를 가리켰어요. 그 배는 먼바다로 도망칠지 위험을 무릅쓰고 항구로 들어올지 정하지 못하고 있었고, 미나는 그 배와 함께 무언가가 다가오고 있다는 느낌을 떨칠 수 없었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "sws-v1",
+        term: "legend",
+        partOfSpeech: "noun",
+        translation: "전설",
+        example: "The old sailor told her a legend about ghosts at sea.",
+        exampleTranslation: "그 늙은 뱃사람은 그녀에게 바다 유령에 관한 전설을 들려주었어요.",
+      },
+      {
+        id: "sws-v2",
+        term: "tombstone",
+        partOfSpeech: "noun",
+        translation: "묘비",
+        example: "Rain had worn away the words on the old tombstone.",
+        exampleTranslation: "비가 내려 오래된 묘비의 글씨가 지워졌어요.",
+      },
+      {
+        id: "sws-v3",
+        term: "inscription",
+        partOfSpeech: "noun",
+        translation: "비문, 새겨진 글귀",
+        example: "She could barely read the faded inscription.",
+        exampleTranslation: "그녀는 희미해진 비문을 거의 읽을 수 없었어요.",
+      },
+      {
+        id: "sws-v4",
+        term: "insurance",
+        partOfSpeech: "noun",
+        translation: "보험",
+        example: "He bought life insurance to protect his family.",
+        exampleTranslation: "그는 가족을 보호하기 위해 생명 보험에 가입했어요.",
+      },
+      {
+        id: "sws-v5",
+        term: "coastguard",
+        partOfSpeech: "noun",
+        translation: "해안 경비대(원)",
+        example: "The coastguard watched the ship through his spy-glass.",
+        exampleTranslation: "해안 경비대원은 망원경으로 그 배를 지켜보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "sws-q1",
+        prompt:
+          "Why did Mr. Swales say Mina shouldn't worry about the local legends of bells at sea and a white lady in the abbey?",
+        options: [
+          "Because he had seen the white lady himself and knew she was harmless.",
+          "Because he believed they were just fool-talk made up to entertain gullible tourists, not things a sensible person should believe.",
+          "Because the legends had already been proven false by scientists.",
+          "Because Mina had already heard the same story from someone else.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mr. Swales laughed off the legends as \"fool-talk\" invented to please gullible tourists, insisting a sensible young lady like Mina shouldn't take them seriously.",
+      },
+      {
+        id: "sws-q2",
+        prompt:
+          "What did Mr. Swales reveal about the young man honored by the \"glorious resurrection\" tombstone?",
+        options: [
+          "He had actually drowned at sea like the other sailors.",
+          "He was still alive and had moved away from Whitby.",
+          "He had secretly killed himself so his cruel mother could not collect his life insurance.",
+          "He had been murdered by pirates.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Despite the gentle inscription, Mr. Swales revealed the son had secretly hated his mother and shot himself rather than let her collect the insurance money she had taken out on his life.",
+      },
+      {
+        id: "sws-q3",
+        prompt: "What worrying pattern did Dr. Seward begin to notice in Renfield's behavior?",
+        options: [
+          "Renfield was refusing to eat anything at all.",
+          "Renfield was feeding smaller creatures to progressively larger ones, each pet hungrier than the last.",
+          "Renfield had stopped talking entirely.",
+          "Renfield had started giving his pets away to other patients.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Renfield fed flies to spiders, then spiders to sparrows, and finally begged for a cat to feed the sparrows to — an escalating, dangerous pattern of hunger that troubled Dr. Seward.",
+      },
+    ],
+  },
+  {
+    slug: "alice-in-wonderland-alices-evidence",
+    title: "Alice's Adventures in Wonderland: Alice's Evidence",
+    titleTranslation: "이상한 나라의 앨리스: 앨리스의 증언",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🃏",
+    coverImage: "/covers/alice-in-wonderland-alices-evidence.svg",
+    source:
+      "Adapted from Chapter 12 (\"Alice's Evidence\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what happened when the White Rabbit read the mysterious verses as evidence, and how Alice's adventure came to an end.",
+    paragraphs: [
+      [
+        {
+          id: "aev-1",
+          text: "In her excitement Alice jumped to her feet without remembering how enormous she had grown, and her skirt swept the jury-box right over, spilling all twelve jurors onto the heads of the crowd below.",
+          translation:
+            "신이 난 앨리스는 자신이 얼마나 커졌는지도 깜빡 잊은 채 벌떡 일어났고, 그녀의 치맛자락이 배심원석을 쓸어 넘어뜨리는 바람에 배심원 열두 명이 모두 아래 군중들 머리 위로 쏟아져 버렸어요.",
+        },
+        {
+          id: "aev-2",
+          text: "\"Oh, I beg your pardon!\" she cried, and began scooping the jurors up as fast as she could, terrified they might die if she didn't get them back into their box at once.",
+          translation:
+            "\"어머, 죄송해요!\" 그녀는 외치며 최대한 서둘러 배심원들을 주워 담기 시작했어요. 얼른 상자 안에 돌려놓지 않으면 그들이 죽어 버릴 것만 같아 무서웠거든요.",
+        },
+        {
+          id: "aev-3",
+          text: "She discovered she had accidentally set the Lizard in head-first, its little tail waving helplessly, and quickly turned it right side up again.",
+          translation:
+            "그녀는 자신이 도마뱀을 거꾸로 집어넣었다는 것을 알아채고는, 힘없이 꼬리만 흔들고 있는 그것을 재빨리 다시 똑바로 세워 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "aev-4",
+          text: "\"The trial cannot proceed,\" the King announced gravely, \"until every juryman is back in his proper place — every one,\" he added, staring hard at Alice.",
+          translation:
+            "\"재판은 계속될 수 없다.\" 왕이 근엄하게 선언했어요. \"배심원 전원이 제자리로 돌아갈 때까지는 말이다. 전원 말이다.\" 그는 앨리스를 뚫어지게 바라보며 덧붙였어요.",
+        },
+        {
+          id: "aev-5",
+          text: "\"What do you know about this business?\" he demanded of her. \"Nothing,\" Alice answered, and when he pressed her further, she repeated, \"Nothing whatever.\"",
+          translation:
+            "\"이 일에 대해 무엇을 알고 있느냐?\" 왕이 그녀에게 다그쳐 물었어요. \"아무것도요.\" 앨리스가 대답했고, 왕이 다시 캐묻자 그녀는 \"정말 아무것도 몰라요.\"라고 되풀이했어요.",
+        },
+        {
+          id: "aev-6",
+          text: "\"That's very important,\" the King told the jury — until the White Rabbit whispered a correction, and the King hurriedly agreed that he had, of course, meant unimportant.",
+          translation:
+            "\"그것 참 중요하군.\" 왕이 배심원들에게 말했어요. 그러다 흰토끼가 속삭이며 정정해 주자, 왕은 황급히 \"중요하지 않다는 뜻이었다.\"라고 고쳐 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "aev-7",
+          text: "Suddenly the King pulled a small book from his pocket and read out, \"Rule Forty-two: All persons more than a mile high to leave the court.\"",
+          translation:
+            "갑자기 왕은 주머니에서 작은 수첩을 꺼내더니 이렇게 읽었어요. \"제42조. 키가 1마일이 넘는 사람은 모두 법정에서 나가야 한다.\"",
+        },
+        {
+          id: "aev-8",
+          text: "\"I'm not a mile high,\" Alice protested, but the King and Queen insisted she was nearly two — until Alice pointed out that he had clearly just invented the rule that very moment.",
+          translation:
+            "\"저는 1마일이나 안 돼요.\" 앨리스가 항의했지만, 왕과 여왕은 그녀가 거의 2마일은 될 거라고 우겼어요. 그러다 앨리스가 그 규칙을 방금 왕이 즉석에서 지어냈다는 걸 지적하자 상황이 뒤바뀌었어요.",
+        },
+        {
+          id: "aev-9",
+          text: "\"Then it ought to be Number One,\" she said, and the King, looking flustered, snapped his notebook shut and told the jury to consider their verdict.",
+          translation:
+            "\"그럼 그건 제1조가 되어야죠.\" 그녀가 말하자, 당황한 왕은 수첩을 탁 덮고는 배심원들에게 평결을 내리라고 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "aev-10",
+          text: "Before they could, the White Rabbit leapt up with fresh evidence: a folded paper that had just been found, addressed to no one and signed by no one, containing only a set of strange verses.",
+          translation:
+            "그들이 그렇게 하기도 전에, 흰토끼가 새로운 증거를 들고 벌떡 일어났어요. 방금 발견되었다는 접힌 종이였는데, 받는 사람도 보낸 사람도 적혀 있지 않고 이상한 시 몇 구절만 적혀 있었어요.",
+        },
+        {
+          id: "aev-11",
+          text: "\"He must have imitated somebody else's handwriting,\" the King decided, and though nobody could find a single clear meaning in the verses, he insisted on reading deep significance into every line.",
+          translation:
+            "\"틀림없이 다른 사람의 필체를 흉내 낸 것이다.\" 왕이 단정 지었어요. 아무도 그 시에서 뚜렷한 의미를 찾아내지 못했는데도, 왕은 한 줄 한 줄마다 깊은 뜻이 있다며 억지로 해석해 나갔어요.",
+        },
+        {
+          id: "aev-12",
+          text: "\"There they are!\" he cried triumphantly, pointing at the tarts on the table, certain he had matched a line about giving and returning to the theft itself, though Alice was sure it was nonsense from beginning to end.",
+          translation:
+            "\"저기 있지 않느냐!\" 왕은 의기양양하게 탁자 위의 타르트를 가리키며 외쳤어요. 주고받는다는 구절이 도난 사건 그 자체를 가리킨다고 확신했지만, 앨리스는 그 시가 처음부터 끝까지 아무 의미도 없다고 확신했어요.",
+        },
+      ],
+      [
+        {
+          id: "aev-13",
+          text: "\"Let the jury consider their verdict,\" the King said for perhaps the twentieth time that day, but the Queen cut him off entirely.",
+          translation:
+            "\"배심원들은 평결을 고려하라.\" 그날만 벌써 스무 번째로 왕이 말했지만, 여왕이 그의 말을 완전히 가로막았어요.",
+        },
+        {
+          id: "aev-14",
+          text: "\"No, no!\" she shouted. \"Sentence first — verdict afterwards!\" \"Stuff and nonsense!\" Alice said loudly. \"The idea of having the sentence first!\"",
+          translation:
+            "\"안 돼요, 안 돼!\" 여왕이 소리쳤어요. \"판결부터 하고 평결은 나중에!\" \"말도 안 돼요!\" 앨리스가 큰 소리로 말했어요. \"판결을 먼저 내린다는 게 말이 되나요!\"",
+        },
+        {
+          id: "aev-15",
+          text: "\"Off with her head!\" the Queen screamed at the top of her voice — but by now Alice had grown to her full size, and nobody in the courtroom moved an inch.",
+          translation:
+            "\"저 아이의 목을 쳐라!\" 여왕이 목청껏 소리쳤지만, 그때는 이미 앨리스가 원래 크기로 완전히 자란 뒤였고, 법정 안 그 누구도 꿈쩍하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "aev-16",
+          text: "\"Who cares for you?\" Alice said. \"You're nothing but a pack of cards!\" At that, the whole pack rose into the air and came flying down on top of her, and she gave a small scream and batted them away.",
+          translation:
+            "\"누가 당신들을 신경이나 쓴대?\" 앨리스가 말했어요. \"당신들은 그냥 트럼프 카드 한 벌일 뿐이잖아!\" 그러자 카드 전부가 허공으로 날아올라 그녀를 향해 쏟아져 내렸고, 그녀는 작게 비명을 지르며 카드를 쳐 냈어요.",
+        },
+        {
+          id: "aev-17",
+          text: "She opened her eyes to find herself lying on the riverbank after all, her head in her sister's lap, who was gently brushing away some dead leaves — and Alice realized, with a mix of relief and disappointment, that her whole wonderful, terrible adventure had only ever been a dream.",
+          translation:
+            "눈을 떠 보니 그녀는 강둑에 누워 있었고, 언니의 무릎을 베고 있었는데, 언니는 그녀의 얼굴 위로 떨어진 마른 나뭇잎들을 가만히 털어 내고 있었어요. 앨리스는 안도와 아쉬움이 뒤섞인 기분으로, 그 멋지고도 오싹했던 모험이 전부 꿈이었다는 것을 깨달았어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "aev-v1",
+        term: "verdict",
+        partOfSpeech: "noun",
+        translation: "평결",
+        example: "The jury reached its verdict after a long discussion.",
+        exampleTranslation: "배심원단은 긴 논의 끝에 평결을 내렸어요.",
+      },
+      {
+        id: "aev-v2",
+        term: "sentence",
+        partOfSpeech: "noun",
+        translation: "판결, 선고",
+        example: "The judge announced the sentence in a calm voice.",
+        exampleTranslation: "판사는 차분한 목소리로 판결을 발표했어요.",
+      },
+      {
+        id: "aev-v3",
+        term: "triumphant",
+        partOfSpeech: "adjective",
+        translation: "의기양양한, 승리감에 찬",
+        example: "He gave a triumphant smile after winning the race.",
+        exampleTranslation: "그는 경주에서 이긴 뒤 의기양양한 미소를 지었어요.",
+      },
+      {
+        id: "aev-v4",
+        term: "riverbank",
+        partOfSpeech: "noun",
+        translation: "강둑",
+        example: "They had a picnic on the riverbank.",
+        exampleTranslation: "그들은 강둑에서 소풍을 즐겼어요.",
+      },
+      {
+        id: "aev-v5",
+        term: "disappointment",
+        partOfSpeech: "noun",
+        translation: "실망, 아쉬움",
+        example: "She hid her disappointment with a smile.",
+        exampleTranslation: "그녀는 미소로 실망감을 감추었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "aev-q1",
+        prompt: "What happened right after Alice jumped up in surprise?",
+        options: [
+          "She accidentally knocked over the jury-box, spilling all the jurors onto the crowd.",
+          "She was arrested for interrupting the trial.",
+          "She shrank down to a tiny size.",
+          "The King ordered her to leave the courtroom immediately.",
+        ],
+        correctIndex: 0,
+        explanation:
+          "Forgetting how large she had grown, Alice jumped up and swept the jury-box over with her skirt, tipping all twelve jurors out onto the crowd below.",
+      },
+      {
+        id: "aev-q2",
+        prompt: "How did Alice respond when the King read out \"Rule Forty-two\"?",
+        options: [
+          "She quietly left the courtroom as ordered.",
+          "She pointed out that he had clearly just invented the rule, and refused to leave.",
+          "She agreed that she was over a mile high and apologized.",
+          "She asked the jury to vote on whether the rule was fair.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Alice refused to accept the rule, pointing out that the King had obviously just made it up — and that if it were truly the oldest rule in the book, it ought to be Number One.",
+      },
+      {
+        id: "aev-q3",
+        prompt: "What finally happened when the Queen shouted \"Off with her head!\"?",
+        options: [
+          "The guards seized Alice at once.",
+          "Alice apologized and the Queen forgave her.",
+          "Nobody moved, because Alice had grown to her full size and called the court \"nothing but a pack of cards\" — then she woke up to find it had all been a dream.",
+          "The King intervened and stopped the execution.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "By then Alice had grown to her full size and was no longer afraid; she declared the court was \"nothing but a pack of cards,\" the cards flew at her, and she woke up on the riverbank to discover the whole trial had been a dream.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

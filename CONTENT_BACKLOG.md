@@ -1462,11 +1462,44 @@ new slugs (same as waves 8–9 — the project-wide KO→EN backlog did not grow
 shrank slightly, from ~930 to 926, since one of the newly added KO→EN entries also
 closed a pre-existing gap in an older lesson).
 
+**Wave 11 — written 2026-09-23** (no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Dracula → part 7 | The Old Sailor | Ch. 6 ("Mina Murray's Journal") | B2 |
+| Alice's Adventures in Wonderland → part 7 (final) | Alice's Evidence | Ch. 12 | A2 |
+
+Sources: Gutenberg #345, #11 (both re-fetched and read in full before writing). The
+Dracula chapter adapts Ch. 6 in full: Mina's Whitby churchyard scenery, old Mr.
+Swales's dialect-heavy monologue about the tombstones around him being "all lies"
+(including the George Canon stone's hidden suicide, cut to protect a mother from
+losing her son's life-insurance payout), plus the Dr. Seward diary aside from the
+same chapter tracking Renfield's escalating fly→spider→sparrow→(wants a cat)
+"zoophagous" feeding pattern — ends on Mina's growing anxiety (no word from
+Jonathan, Lucy's sleepwalking returning) and the strange ship struggling offshore
+as a storm gathers, the same "cliffhanger kept, not resolved" handling as other
+Dracula chapters. This closes the wave-7/9/10 note about Ch. 6 being scenic/thin on
+plot by pairing it with the Renfield aside for narrative weight; inserted between
+"Letters — Lucy and Mina" (Ch. 5) and "The Sleepwalker" (Ch. 8) to keep chapter
+order — "The Demeter" (Ch. 7) already sits earlier in the array than "Letters —
+Lucy and Mina" (Ch. 5), a pre-existing ordering quirk from an earlier wave that
+was left alone rather than reshuffled. Ch. 9 (Mina reunited with Jonathan in
+Budapest) remains unadapted and is the only open Dracula chapter left. The Alice
+chapter adapts Ch. 12 in full — Alice knocking over the jury-box, the King's
+invented "Rule Forty-two," the White Rabbit's unsigned nonsense-verse "evidence,"
+the Queen's "Sentence first — verdict afterwards!," and Alice's "nothing but a pack
+of cards" — ending on Alice waking on the riverbank to find it was all a dream, the
+book's actual final chapter. Alice's Adventures in Wonderland is therefore now a
+complete 7-chapter book; no further Alice chapters remain in the queue. Covers: a
+tombstone medallion for the Dracula chapter, three tumbling playing cards (one with
+a heart pip) for the Alice finale. Dictionary: 0 EN→KO gaps and 0 KO→EN gaps for
+both new slugs (same as waves 8–10 — the project-wide KO→EN backlog did not grow;
+it shrank slightly again, from 926 to 921).
+
 **Remaining queue, suggested order:**
-1. Dracula Ch. 6 ("Mina Murray's Journal") — Whitby scenery, old Mr. Swales, a
-   Renfield diary aside; thinner on forward plot than other picks, but next in
-   sequence. Ch. 9 (Mina reunited with Jonathan in Budapest) is also open.
-2. Alice Ch. 12 ("Alice's Evidence") — the trial's conclusion and the book's likely
-   final chapter; direct continuation of the new Ch. 11 lesson.
-3. Secret Garden and A Little Princess have two parts each and could get a third.
-4. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
+1. Dracula Ch. 9 (Mina reunited with Jonathan in Budapest) — the only unadapted
+   Dracula chapter left before the story moves into the vampire-hunt chapters.
+2. Secret Garden and A Little Princess have two parts each and could get a third.
+3. Middlemarch is still a single lesson (it cannot be a book until it has a second part).
+4. Alice's Adventures in Wonderland is complete (7 parts, ends at Ch. 12) — no
+   further chapters to add.
