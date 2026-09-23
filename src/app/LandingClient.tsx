@@ -13,6 +13,7 @@ import { SITE_NAME } from "@/lib/site";
 import { SHOW_AUTH_PROMPTS } from "@/lib/beta";
 import { localizePath } from "@/lib/locale-path";
 import { TapIcon } from "@/components/ui/icons";
+import { trackCtaStartReadingClicked } from "@/lib/analytics";
 
 /** A handful of Classics to show the product on the landing page itself. */
 const FEATURED = lessons.filter((l) => l.collection === "classics");
@@ -68,7 +69,11 @@ export function LandingClient() {
             </div>
 
             <div className="mt-5 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
-              <Link href="/library" className={`${CTA_BASE} w-full bg-rose text-cream shadow-soft hover:bg-rose/90 sm:w-auto`}>
+              <Link
+                href="/library"
+                onClick={() => trackCtaStartReadingClicked()}
+                className={`${CTA_BASE} w-full bg-rose text-cream shadow-soft hover:bg-rose/90 sm:w-auto`}
+              >
                 {t("landingCtaPrimary")}
               </Link>
               <Link

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useOnboarding } from "@/components/providers/OnboardingProvider";
 import { useLanguage, useT } from "@/components/providers/LanguageProvider";
@@ -9,6 +9,7 @@ import type { CEFRLevel } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
 import { CheckIcon, ChevronLeftIcon } from "@/components/ui/icons";
 import { useReadingLog } from "@/lib/reading-log";
+import { trackOnboardingShown, trackOnboardingSkipped, trackOnboardingCompleted } from "@/lib/analytics";
 
 const STEPS = ["direction", "level", "interests", "goal", "summary"] as const;
 const DOT_COUNT = 4; // direction..goal; summary is the finale
@@ -27,6 +28,26 @@ export function OnboardingFlow() {
   const [step, setStep] = useState(0);
   const readingLog = useReadingLog();
 
+  // The marketing landing page lives at "/" (and its Korean-locale mirror
+  // "/ko"); the app — and onboarding — start at "/library". Only the exact
+  // home path is exempt, same as "/" — onboarding still shows on nested
+  // pages like "/ko/classics", matching how it already shows on "/classics".
+  // Never interrupt someone who's actually reading a story (lesson paths).
+  // And a first-time visitor gets to open and read a story before the quiz
+  // ever shows — the landing page promises "no sign-up, try it below", so
+  // gating /library on the very first click contradicted that. `reading-log`
+  // (an existing device-local log, keyed by lesson slug) is the signal: once
+  // it's non-empty, they've reached at least one story, and onboarding is
+  // free to show on their next visit to a non-lesson page.
+  const isEligible =
+    hydrated &&
+    !data.completed &&
+    pathname !== "/" &&
+    pathname !== "/ko" &&
+    !HIDDEN_ON.some((p) => pathname.startsWith(p)) &&
+    !isLessonPath(pathname) &&
+    Object.keys(readingLog).length > 0;
+
   // When the flow re-opens (first run, or "Redo onboarding" from Settings),
   // always start from the first question. Depends only on `completed`, so it
   // never fires between steps mid-flow.
@@ -34,22 +55,16 @@ export function OnboardingFlow() {
     if (!data.completed) setStep(0);
   }, [data.completed]);
 
-  if (!hydrated || data.completed) return null;
-  // The marketing landing page lives at "/" (and its Korean-locale mirror
-  // "/ko"); the app — and onboarding — start at "/library". Only the exact
-  // home path is exempt, same as "/" — onboarding still shows on nested
-  // pages like "/ko/classics", matching how it already shows on "/classics".
-  if (pathname === "/" || pathname === "/ko") return null;
-  if (HIDDEN_ON.some((p) => pathname.startsWith(p))) return null;
-  // Never interrupt someone who's actually reading a story.
-  if (isLessonPath(pathname)) return null;
-  // A first-time visitor gets to open and read a story before the quiz ever
-  // shows — the landing page promises "no sign-up, try it below", so gating
-  // /library on the very first click contradicted that. `reading-log` (an
-  // existing device-local log, keyed by lesson slug) is the signal: once
-  // it's non-empty, they've reached at least one story, and onboarding is
-  // free to show on their next visit to a non-lesson page.
-  if (Object.keys(readingLog).length === 0) return null;
+  // Fire exactly once per time the flow actually becomes visible — not on
+  // every render while it stays visible, and not for the (many) renders
+  // where it's eligible-false and returns null below.
+  const wasEligibleRef = useRef(false);
+  useEffect(() => {
+    if (isEligible && !wasEligibleRef.current) trackOnboardingShown();
+    wasEligibleRef.current = isEligible;
+  }, [isEligible]);
+
+  if (!isEligible) return null;
 
   const stepName = STEPS[step];
   const go = (n: number) => setStep(Math.min(Math.max(n, 0), STEPS.length - 1));
@@ -65,7 +80,9 @@ export function OnboardingFlow() {
     go(2);
   }
 
-  function finish() {
+  function finish(outcome: "skipped" | "completed") {
+    if (outcome === "skipped") trackOnboardingSkipped(stepName);
+    else trackOnboardingCompleted();
     if (data.direction) setLang(uiLanguageFor(data.direction));
     complete();
   }
@@ -78,7 +95,10 @@ export function OnboardingFlow() {
         <div className="mb-6 flex items-center justify-between">
           <span className="font-serif text-lg font-semibold tracking-tight text-charcoal">{t("appName")}</span>
           {stepName !== "summary" && (
-            <button onClick={finish} className="text-xs font-medium text-charcoal/40 transition hover:text-charcoal/70">
+            <button
+              onClick={() => finish("skipped")}
+              className="text-xs font-medium text-charcoal/40 transition hover:text-charcoal/70"
+            >
               {t("onbSkip")}
             </button>
           )}
@@ -244,7 +264,7 @@ export function OnboardingFlow() {
           )}
           <div className="flex-1" />
           {stepName === "summary" ? (
-            <Button onClick={finish}>{t("onbStart")}</Button>
+            <Button onClick={() => finish("completed")}>{t("onbStart")}</Button>
           ) : stepName === "direction" ? null : (
             <Button onClick={() => go(step + 1)} disabled={!canContinue}>
               {t("onbContinue")}

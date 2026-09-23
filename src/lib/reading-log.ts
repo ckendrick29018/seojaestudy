@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { trackFirstLessonOpened } from "@/lib/analytics";
 
 /**
  * "Which lessons has this reader opened, and when?" — the signal behind the
@@ -72,6 +73,10 @@ export function recordLessonOpened(slug: string): void {
   const now = Date.now();
   const current = getSnapshot();
   if (now - (current[slug] ?? 0) < REWRITE_AFTER_MS) return;
+
+  // Empty log means this device has never opened a lesson before now — the
+  // funnel signal for whether a first-time visitor ever reaches a story.
+  if (Object.keys(current).length === 0) trackFirstLessonOpened(slug);
 
   const next: ReadingLog = { ...current, [slug]: now };
   const entries = Object.entries(next);
