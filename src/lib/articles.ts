@@ -2004,6 +2004,209 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+  {
+    slug: "english-articles-a-an-the-korean-speakers",
+    title: "Why 'A,' 'An,' and 'The' Are So Hard for Korean Speakers",
+    description:
+      "Advanced Korean English learners still drop or misuse articles constantly — not from carelessness, but because Korean has no grammatical equivalent to map them onto. Why that makes articles uniquely hard, and what actually builds the instinct.",
+    lede: "A learner who can handle relative clauses and the present perfect will still write \"I bought book\" — and it isn't because the rule wasn't taught.",
+    datePublished: "2026-09-25",
+    dateModified: "2026-09-25",
+    readingMinutes: 6,
+    practiceCta: { href: "/classics/a1", label: "Read at A1 and notice every a, an, and the" },
+    keywords: [
+      "영어 관사 사용법",
+      "a an the rules for Korean speakers",
+      "why articles are hard in English",
+      "English article mistakes Korean learners",
+      "when to use the in English",
+    ],
+    sections: [
+      {
+        heading: "A mistake that survives every other level of progress",
+        paragraphs: [
+          "It's a specific, familiar pattern for Korean English teachers and learners alike: a student who can untangle a long relative clause, use the present perfect correctly, and write a grammatically solid paragraph — and still drop, add, or swap \"a,\" \"an,\" and \"the\" in ways a native speaker never would. Article mistakes don't fade out the way most other errors do as a learner's level rises. They're often the last thing standing, still there in otherwise fluent writing. That's a real clue about what kind of problem this is.",
+        ],
+      },
+      {
+        heading: "Why Korean gives you nothing to map this onto",
+        paragraphs: [
+          "Spanish, French, and German learners of English struggle with articles too, but less severely — their own languages have article systems, so the concept \"a noun can be marked as specific or non-specific\" already exists, and the task is mostly learning English's specific rules for it. Korean has no articles at all. Nouns appear bare; whether \"책\" means \"a book,\" \"the book,\" or \"books\" in general is carried entirely by context and word order, never by a word attached to the noun itself. This isn't a smaller version of the same problem other learners have — it's a genuinely different task, building a category of meaning from nothing rather than remapping one that already exists.",
+          "That's also why articles resist being \"fixed\" by more grammar study the way other errors do. A relative clause is a structure you can learn to build correctly once and then apply. Article choice is a running judgment call, made word by word, about whether the listener already knows which one you mean — closer to a reflex than a rule, which is exactly the kind of thing rule-based study is worst at installing.",
+        ],
+      },
+      {
+        heading: "Why the textbook rules only get you partway",
+        paragraphs: [
+          "The standard rules — \"the\" for something already mentioned or uniquely identifiable, \"a/an\" for one unspecified member of a category, no article for plurals or uncountable nouns in general statements — are all true, and all worth knowing. But real English is full of cases the rules don't cleanly resolve without native intuition: \"go to school\" but \"go to the hospital\" in American English and \"go to hospital\" in British English; \"play the piano\" but \"play chess\"; \"have a headache\" but \"have insomnia,\" no article. These aren't exceptions to memorize one by one — there are too many. They're evidence that fluent article use isn't really rule-following at all, it's pattern recognition built from having encountered the correct version thousands of times.",
+        ],
+      },
+      {
+        heading: "What actually builds the instinct",
+        paragraphs: [
+          "This is a direct case for [comprehensible input](/learn/comprehensible-input-explained): the fix isn't a longer list of article rules, it's enough real, understandable sentences that the correct pattern — \"the\" here, \"a\" there, nothing at all over there — gets absorbed the way it was for every native speaker, none of whom studied an article rulebook before age five. Reading widely at a level where the story itself isn't a struggle lets you notice article choices as part of following the meaning, rather than as an isolated grammar drill disconnected from any sentence you'd actually want to write.",
+          "A concrete habit that helps: while reading, don't just read past \"a,\" \"an,\" and \"the\" — briefly notice each one and, for a moment, ask why that one and not a different choice. Over enough pages, that noticing turns into the same instinct a native speaker has, without ever requiring you to consciously apply a rule while writing or speaking in real time.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Start at a level where you're reading for the story, not fighting the vocabulary — [A1 stories](/classics/a1) work well precisely because the sentences are simple enough that article choices stand out clearly against everything else you already understand.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "phrasal-verbs-for-korean-speakers",
+    title: "Why Phrasal Verbs Break Korean Speakers' English (Even at Advanced Levels)",
+    description:
+      "'Give up,' 'look into,' 'run into' — phrasal verbs don't translate word by word, and Korean has no equivalent structure to reach for. Why they're one of the hardest categories for Korean learners, and how reading fixes what a dictionary can't.",
+    lede: "\"Look\" plus \"up\" plus \"give\" plus \"up\" share a word and mean almost nothing alike — and a dictionary lookup of the pieces won't tell you that.",
+    datePublished: "2026-09-25",
+    dateModified: "2026-09-25",
+    readingMinutes: 6,
+    practiceCta: { href: "/classics/b1", label: "Read at B1 and collect phrasal verbs in context" },
+    keywords: [
+      "영어 구동사 공부법",
+      "phrasal verbs for Korean speakers",
+      "why phrasal verbs are hard",
+      "how to learn English phrasal verbs",
+      "English phrasal verb list meaning",
+    ],
+    sections: [
+      {
+        heading: "A wall that shows up right after the basics feel solid",
+        paragraphs: [
+          "\"Give up,\" \"look into,\" \"run into,\" \"put off,\" \"get over\" — a Korean learner who knows \"give,\" \"look,\" \"run,\" \"put,\" and \"get\" perfectly well can still be lost the moment one of them pairs with a small word like \"up,\" \"into,\" or \"off.\" This is a near-universal stage in learning English as a Korean speaker: vocabulary and grammar both feel solid, and then real English — conversation, novels, news — turns out to be full of these two- and three-word combinations that don't mean what their parts mean separately.",
+        ],
+      },
+      {
+        heading: "Why word-by-word translation fails here specifically",
+        paragraphs: [
+          "Most English vocabulary survives being looked up one word at a time. Phrasal verbs don't: \"give\" means 주다, \"up\" means 위로, and \"give up\" means neither combined — it means 포기하다, to abandon or quit. This is genuinely different from ordinary vocabulary, where a dictionary lookup of an unfamiliar word gets you most of the way to understanding a sentence. With a phrasal verb, looking up each piece separately actively misleads you, because the combination creates a meaning the parts don't predict.",
+        ],
+      },
+      {
+        heading: "Why Korean offers no structural shortcut",
+        paragraphs: [
+          "Korean builds meaning onto a verb through suffixes and particles attached directly to the verb stem, not through a separate small word placed after it the way English does with \"up,\" \"off,\" \"into,\" and \"over.\" There's no equivalent category in Korean grammar to file phrasal verbs under, which is part of why they resist being taught as a rule — unlike, for example, [Korean particles](/learn/korean-particles-explained), which do map onto something learners can reason about systematically once explained. A phrasal verb has to be learned as its own unit, essentially as a new vocabulary word that happens to be spelled with two words.",
+        ],
+      },
+      {
+        heading: "Why extensive reading is the actual fix",
+        paragraphs: [
+          "Because phrasal verbs are opaque from their parts, they have to be learned the way any vocabulary chunk is learned best: encountered repeatedly, in real sentences, until the whole two- or three-word unit is recognized instantly as a single meaning rather than reassembled from pieces each time. A memorized list of 200 phrasal verbs and their Korean translations, studied in isolation, tends to fade fast precisely because it skips the step where the phrase gets tied to a real situation. Meeting \"give up\" inside an actual story — a character who almost quits, then doesn't — attaches the meaning to something memorable in a way a flashcard rarely does.",
+          "This is the same mechanism behind [Konglish false friends](/learn/konglish-vs-real-english): both are cases where translating word-for-word actively produces the wrong answer, and both are fixed the same way — enough real exposure that the correct whole-unit meaning becomes the automatic one, without a translation step in between at all.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Rather than memorizing a phrasal-verb list cold, keep a short running note of the ones you meet while reading — when you hit one in [a B1-level story](/classics/b1), pause, notice it as a unit, and let the surrounding sentence teach you the meaning the dictionary alone can't.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "present-perfect-tense-korean-speakers",
+    title: "Why the Present Perfect ('I Have Finished') Confuses Korean Speakers",
+    description:
+      "Korean has no direct equivalent to 'have + past participle,' so Korean learners often avoid the present perfect entirely or misuse simple past instead. What the present perfect is actually doing, and how reading builds a feel for it that rules don't.",
+    lede: "\"I have lost my keys\" and \"I lost my keys\" translate to roughly the same Korean sentence — but they don't mean the same thing in English.",
+    datePublished: "2026-09-25",
+    dateModified: "2026-09-25",
+    readingMinutes: 6,
+    practiceCta: { href: "/classics/b1", label: "Read at B1 and watch for have + past participle" },
+    keywords: [
+      "현재완료 시제 설명",
+      "present perfect for Korean speakers",
+      "present perfect vs past simple",
+      "why present perfect is hard for Koreans",
+      "have you ever English grammar explained",
+    ],
+    sections: [
+      {
+        heading: "A tense that gets avoided rather than mastered",
+        paragraphs: [
+          "Many Korean English learners quietly avoid the present perfect — \"I have finished,\" \"I have been to Japan,\" \"She has already left\" — and default to simple past instead, even when it changes the meaning. This usually isn't a gap in knowing the rule; most learners can recite \"have/has + past participle\" correctly. The trouble is knowing when to actually reach for it, and that's a harder, less rule-shaped problem.",
+        ],
+      },
+      {
+        heading: "Why Korean doesn't hand you this distinction",
+        paragraphs: [
+          "Korean marks past events with 았/었, and that single marker covers ground that English splits across simple past and present perfect. \"저는 열쇠를 잃어버렸어요\" works whether the English equivalent is \"I lost my keys\" (a finished event, done and over) or \"I have lost my keys\" (a past event whose result — no keys, right now — is the actual point). Korean speakers aren't missing a grammar rule here; they're missing a distinction their own language never forced them to make, because context carries it in Korean instead of a dedicated verb form.",
+        ],
+      },
+      {
+        heading: "What the present perfect is actually doing",
+        paragraphs: [
+          "The present perfect's real job is connecting a past action to right now — either because its result still matters (\"I've lost my keys\" = I don't have them at this moment, a present problem) or because the time window is still open (\"I've read three books this month\" — the month isn't over). Simple past cuts that connection and plants the action in a closed, finished period (\"I read three books last month\" — that month is done). Once framed this way, it stops being an arbitrary grammar rule and becomes a real, meaningful choice: is this past action still relevant right now, or is it sealed off in the past? English forces you to answer that question every time; Korean doesn't.",
+        ],
+      },
+      {
+        heading: "Why more rule study rarely closes this gap",
+        paragraphs: [
+          "Because the choice is about meaning and relevance, not sentence structure, it's a genuinely bad fit for the kind of explicit rule study that works well for something like word order. What actually builds the instinct is meeting the present perfect over and over inside real stories, where the surrounding context makes obvious why the writer chose \"has lived here for ten years\" over \"lived here for ten years\" — and, just as usefully, meeting the simple past just as often, so the contrast itself becomes familiar rather than each tense studied in isolation.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Read a [B1-level story](/classics/b1) and simply notice every \"have/has + past participle\" you pass — ask yourself, for each one, what would change if the writer had used simple past instead. That question, repeated across enough sentences, is what eventually turns into the instinct itself.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "why-english-spelling-doesnt-match-pronunciation",
+    title: "Why English Spelling Doesn't Match Pronunciation (and Why That's Extra Hard for Korean Speakers)",
+    description:
+      "Hangul is nearly perfectly phonetic — what you write is what you say. English spelling isn't, and that mismatch trips up Korean learners in a specific way. Why it happens, and how reading (not sounding-out) builds real word recognition.",
+    lede: "\"Knight,\" \"through,\" \"colonel,\" \"island\" — none of them sound the way they're spelled, and for a reader used to Hangul, that isn't a minor inconvenience.",
+    datePublished: "2026-09-25",
+    dateModified: "2026-09-25",
+    readingMinutes: 6,
+    practiceCta: { href: "/classics/a2", label: "Read at A2 and let sight recognition build" },
+    keywords: [
+      "영어 스펠링 발음 차이",
+      "English spelling pronunciation mismatch",
+      "why English spelling is irregular",
+      "Hangul vs English writing system",
+      "silent letters in English explained",
+    ],
+    sections: [
+      {
+        heading: "A frustration that's easy to underestimate",
+        paragraphs: [
+          "\"Colonel\" is pronounced like \"kernel.\" \"Island\" has a silent s. \"Through,\" \"though,\" \"thought,\" and \"tough\" share four letters and rhyme with almost nothing. For a Korean speaker, this isn't a small quirk to shrug off — it's a genuine mismatch with what writing is supposed to do, and it causes real, specific trouble: mispronouncing words you've only ever seen in print, or failing to recognize a word you know perfectly well when it's spoken aloud.",
+        ],
+      },
+      {
+        heading: "Why Hangul sets a different expectation",
+        paragraphs: [
+          "Hangul was deliberately designed, in the 15th century, so that a word's spelling maps almost exactly onto its pronunciation — a rare thing among the world's writing systems. A Korean reader can sound out an unfamiliar word correctly on sight almost every time, because the system was built for exactly that. English spelling was never designed at all; it accumulated over roughly a thousand years, absorbing words from Old English, Old Norse, Norman French, and Latin, each arriving with its own spelling habits and rarely getting fully reconciled with how English pronunciation kept drifting afterward. \"Knight\" still has its silent k and gh because that's genuinely how it was pronounced centuries ago — the spelling fossilized while the sound kept changing.",
+        ],
+      },
+      {
+        heading: "Why this creates a specific, avoidable trap",
+        paragraphs: [
+          "A reader used to a phonetic system reasonably expects that decoding a word letter by letter will produce its correct pronunciation, and keeps applying that strategy in English even after it repeatedly fails. This shows up as two separate problems: mispronouncing real words with unpredictable spelling (reading \"colonel\" as it's spelled instead of as it's said), and, just as often, not recognizing a familiar spoken word because its spelling looked nothing like what the ear expected. Neither is a vocabulary gap — the word is already known. It's a mismatch between two systems that Korean never trained a reader to expect.",
+        ],
+      },
+      {
+        heading: "Why more phonics rules aren't really the fix",
+        paragraphs: [
+          "English does have spelling patterns, and they're worth knowing, but there are enough genuine exceptions that rules alone can't get you all the way to fluent, confident reading. What actually works is the same thing that works for native English-speaking children: enough repeated exposure to each specific word in print that it's recognized instantly as a whole shape, the way a fluent reader doesn't sound out \"the\" or \"said\" letter by letter every time. This is sight-word recognition, and it's built by volume of reading, not by memorizing more spelling rules. [Listening while reading](/learn/listening-while-reading-method) accelerates it directly, since it pairs the correct sound with the exact spelling at the same moment, closing the gap in the one place phonics rules can't reach.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Read [an A2-level story](/classics/a2) with the audio playing alongside the text — every irregular word you meet that way gets its correct sound attached directly to its spelling, which does more for real recognition than any list of spelling exceptions.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
