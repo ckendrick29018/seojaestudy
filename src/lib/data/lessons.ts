@@ -13215,6 +13215,223 @@ export const lessons: Lesson[] = [
     ],
   },
   {
+    slug: "a-little-princess-the-magic",
+    title: "A Little Princess: The Magic",
+    titleTranslation: "소공녀: 마법",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B1",
+    isFree: true,
+    collection: "classics",
+    author: "Frances Hodgson Burnett (1849–1924)",
+    coverEmoji: "✨",
+    coverImage: "/covers/a-little-princess-the-magic.svg",
+    source:
+      "Adapted from Chapter 15 (\"The Magic\") of Frances Hodgson Burnett's novel \"A Little Princess\" (first published 1905; long in the public domain, Project Gutenberg #146). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what Sara, Ermengarde, and Becky did in the attic, and what Sara discovered when she woke up.",
+    paragraphs: [
+      [
+        {
+          id: "alm-1",
+          text: "Sara climbed the three long flights to her attic, aching with hunger after a hard evening of errands, only cold bread from the kitchen in her stomach.",
+          translation:
+            "세라는 힘든 저녁 심부름을 마치고 배고픔에 시달리며 다락방까지 이어지는 세 층의 긴 계단을 올라갔어요. 배 속에는 부엌에서 얻은 차가운 빵 한 조각뿐이었어요.",
+        },
+        {
+          id: "alm-2",
+          text: "She found Ermengarde waiting for her, wrapped in a red shawl and worried about a pile of difficult books her father had sent, which she was sure she would never manage to read.",
+          translation:
+            "다락방에는 빨간 숄을 두른 에르멘가르드가 그녀를 기다리고 있었어요. 그녀는 아버지가 보내온 어려운 책들이 잔뜩 쌓여 걱정이었고, 도저히 다 읽어낼 수 없을 것 같다고 했어요.",
+        },
+        {
+          id: "alm-3",
+          text: "Sara offered to read the books herself and retell every story so vividly that Ermengarde would remember it all — because, she said, being kind mattered more than being clever.",
+          translation:
+            "세라는 그 책들을 자신이 대신 읽고, 에르멘가르드가 전부 기억할 수 있도록 생생하게 다시 들려주겠다고 제안했어요. 영리한 것보다 다정한 것이 더 중요하다고 그녀는 말했어요.",
+        },
+      ],
+      [
+        {
+          id: "alm-4",
+          text: "Just then they heard Miss Minchin's angry voice on the stairs below, scolding Becky for supposedly stealing a meat pie that the cook had really given to her own policeman friend.",
+          translation:
+            "바로 그때, 아래층 계단에서 민친 선생님의 화난 목소리가 들려왔어요. 요리사가 자기 경찰관 친구에게 몰래 준 고기 파이를 베키가 훔쳤다며 나무라고 있었어요.",
+        },
+        {
+          id: "alm-5",
+          text: "Sara clenched her fists in the dark, furious that Becky was being punished for someone else's theft, and burst into tears — the first time proud, unconquerable Sara had ever cried in front of her friend.",
+          translation:
+            "어둠 속에서 세라는 주먹을 꽉 쥐었어요. 다른 사람의 도둑질 때문에 베키가 벌을 받는다는 사실에 화가 치밀어 눈물을 터뜨리고 말았어요. 자존심 강하고 꺾이지 않던 세라가 친구 앞에서 우는 것은 그날이 처음이었어요.",
+        },
+        {
+          id: "alm-6",
+          text: "Startled, Ermengarde gently asked whether Sara herself was ever hungry, and the truth spilled out at last: Sara admitted she was starving too.",
+          translation:
+            "놀란 에르멘가르드는 세라에게 혹시 배가 고프냐고 조심스레 물었고, 마침내 진실이 흘러나왔어요. 세라도 몹시 배가 고프다고 고백한 거예요.",
+        },
+      ],
+      [
+        {
+          id: "alm-7",
+          text: "Ermengarde suddenly remembered a hamper of cakes, pies, and fruit her aunt had sent that very afternoon, still untouched in her room.",
+          translation:
+            "에르멘가르드는 문득 그날 오후 이모가 보내 준, 아직 손도 대지 않은 케이크와 파이와 과일이 가득한 바구니를 떠올렸어요.",
+        },
+        {
+          id: "alm-8",
+          text: "Overjoyed, the girls decided to invite Becky and hold a secret feast in the attic, pretending it was a grand banquet in a castle hall.",
+          translation:
+            "뛸 듯이 기뻐하며 두 사람은 베키도 불러 다락방에서 은밀한 잔치를 열기로 했어요. 성의 웅장한 연회장에서 벌어지는 잔치인 척 상상하면서요.",
+        },
+        {
+          id: "alm-9",
+          text: "Using only an old red shawl, some handkerchiefs from Sara's trunk, and a few paper flowers, Sara's imagination transformed the bare attic into something that felt, for a few minutes, almost like magic.",
+          translation:
+            "낡은 빨간 숄 하나와 세라의 트렁크에서 꺼낸 손수건 몇 장, 그리고 종이꽃 몇 송이만으로, 세라의 상상력은 텅 빈 다락방을 몇 분 동안이나마 거의 마법 같은 곳으로 바꾸어 놓았어요.",
+        },
+      ],
+      [
+        {
+          id: "alm-10",
+          text: "They had barely lifted the first pieces of cake to their mouths when heavy footsteps came pounding up the stairs — Miss Minchin, tipped off by a jealous classmate, had discovered them.",
+          translation:
+            "케이크를 겨우 한 입 베어 물었을 때, 계단을 쿵쿵 올라오는 무거운 발소리가 들렸어요. 질투심 많은 급우가 일러바친 덕에 민친 선생님이 그들을 찾아낸 것이었어요.",
+        },
+        {
+          id: "alm-11",
+          text: "Furious, she swept the whole feast back into the hamper, sent Becky away in tears, and told Sara she would go without breakfast, dinner, and supper the next day as punishment.",
+          translation:
+            "화가 머리끝까지 난 민친 선생님은 잔치 음식을 전부 도로 바구니에 쓸어 담고, 베키를 울며 돌려보냈어요. 그리고 세라에게는 벌로 다음 날 아침도 점심도 저녁도 주지 않겠다고 했어요.",
+        },
+        {
+          id: "alm-12",
+          text: "Left alone in the cold, dark attic, Sara hugged her doll Emily and whispered that there was no banquet left now, and no princess — only the prisoner in the attic.",
+          translation:
+            "춥고 어두운 다락방에 홀로 남은 세라는 인형 에밀리를 끌어안고 속삭였어요. 이제 연회도, 공주도 없다고, 오직 다락방에 갇힌 죄수만 남았다고요.",
+        },
+      ],
+      [
+        {
+          id: "alm-13",
+          text: "Too tired and hungry to do anything else, Sara climbed into bed and murmured a last, small wish into the darkness: that the grate held a bright fire, and the bed was warm and soft.",
+          translation:
+            "너무 지치고 배고파 아무것도 할 수 없었던 세라는 침대에 기어들어 가 어둠 속에서 작은 소망 하나를 중얼거렸어요. 벽난로에 환한 불이 타오르고, 침대가 따뜻하고 포근하기를 바란다고요.",
+        },
+        {
+          id: "alm-14",
+          text: "Exhausted, she fell into a deep sleep and did not stir, even when the skylight clicked softly, as if something had slipped away across the roof outside.",
+          translation:
+            "기진맥진한 그녀는 곧 깊은 잠에 빠져들었고, 지붕 채광창이 살며시 딸깍이는 소리가 나며 무언가가 지붕 위로 슬며시 사라져 갈 때조차도 깨어나지 않았어요.",
+        },
+        {
+          id: "alm-15",
+          text: "When Sara woke, she felt so warm and comfortable that she was sure she was still dreaming — until she opened her eyes and saw a blazing fire, a steaming kettle, a table laid with hot food, and thick new blankets on her bed.",
+          translation:
+            "잠에서 깬 세라는 몸이 너무 따뜻하고 편안해서 아직 꿈을 꾸고 있는 게 틀림없다고 생각했어요. 하지만 눈을 뜨자 활활 타오르는 불과 김이 나는 주전자, 따뜻한 음식이 차려진 식탁, 그리고 두꺼운 새 담요가 눈에 들어왔어요.",
+        },
+      ],
+      [
+        {
+          id: "alm-16",
+          text: "She touched everything with trembling hands, and on top of a stack of new books she found a note that read simply, \"To the little girl in the attic. From a friend.\"",
+          translation:
+            "떨리는 손으로 하나하나 만져 보던 세라는 쌓여 있는 새 책들 위에서 쪽지 한 장을 발견했어요. 쪽지에는 그저 이렇게 적혀 있었어요. \"다락방의 어린 소녀에게. 어떤 친구로부터.\"",
+        },
+        {
+          id: "alm-17",
+          text: "In tears of wonder, Sara ran to wake Becky, pulling her into the warm, glowing room and crying that the Magic — the same Magic that never let the worst things quite happen — had come while they slept.",
+          translation:
+            "감격의 눈물을 흘리며 세라는 베키를 깨우러 달려갔어요. 그녀를 따뜻하고 환한 방 안으로 끌어당기며, 최악의 일이 일어나지 않게 막아 주는 바로 그 마법이 자신들이 잠든 사이에 찾아왔다고 외쳤어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "alm-v1",
+        term: "hamper",
+        partOfSpeech: "noun",
+        translation: "바구니, 식품 바구니",
+        example: "Ermengarde's aunt had sent her a hamper full of cakes and fruit.",
+        exampleTranslation: "에르멘가르드의 이모는 케이크와 과일이 가득한 바구니를 보내 주었어요.",
+      },
+      {
+        id: "alm-v2",
+        term: "banquet",
+        partOfSpeech: "noun",
+        translation: "연회, 잔치",
+        example: "They pretended the attic feast was a grand banquet.",
+        exampleTranslation: "그들은 다락방의 잔치가 성대한 연회인 척했어요.",
+      },
+      {
+        id: "alm-v3",
+        term: "grate",
+        partOfSpeech: "noun",
+        translation: "벽난로, 화격자",
+        example: "Sara wished for a bright fire in the grate.",
+        exampleTranslation: "세라는 벽난로에 환한 불이 타오르기를 바랐어요.",
+      },
+      {
+        id: "alm-v4",
+        term: "skylight",
+        partOfSpeech: "noun",
+        translation: "천창, 지붕창",
+        example: "The skylight clicked softly as she slept.",
+        exampleTranslation: "그녀가 잠든 사이 지붕 채광창이 살며시 딸깍였어요.",
+      },
+      {
+        id: "alm-v5",
+        term: "trembling",
+        partOfSpeech: "adjective",
+        translation: "떨고 있는",
+        example: "She touched the new blankets with trembling hands.",
+        exampleTranslation: "그녀는 떨리는 손으로 새 담요를 만졌어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "alm-q1",
+        prompt: "Why did Sara suddenly burst into tears while Ermengarde was visiting?",
+        options: [
+          "She was angry that Ermengarde would not lend her the books.",
+          "She was upset that Miss Minchin was unfairly punishing Becky for a theft the cook had actually committed.",
+          "She was frightened by a noise on the roof.",
+          "She had just learned her father had died.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Sara overheard Miss Minchin scolding Becky for stealing a meat pie that the cook had really given away herself; the injustice made proud, unconquerable Sara cry in front of her friend for the first time.",
+      },
+      {
+        id: "alm-q2",
+        prompt: "What happened when Miss Minchin discovered the secret feast?",
+        options: [
+          "She joined the party and let the girls finish eating.",
+          "She swept the food away, sent Becky off in tears, and punished Sara by taking away her meals the next day.",
+          "She was too tired to notice and went back to bed.",
+          "She rewarded the girls for their creativity.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Tipped off by a jealous classmate, Miss Minchin burst in, swept the pretend banquet back into the hamper, sent a weeping Becky away, and told Sara she would have no breakfast, dinner, or supper the next day.",
+      },
+      {
+        id: "alm-q3",
+        prompt: "What did Sara discover when she woke up later that night?",
+        options: [
+          "Nothing had changed; the attic was still cold and bare.",
+          "Ermengarde had secretly come back with more food.",
+          "The attic had been mysteriously transformed with a fire, hot food, warm blankets, and new books, with a note from an unknown friend.",
+          "Miss Minchin had come to apologize.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Sara woke to find the bare attic transformed: a blazing fire, hot food, warm blankets, and new books with a note reading \"To the little girl in the attic. From a friend\" — a mystery she could only credit to \"the Magic.\"",
+      },
+    ],
+  },
+  {
     slug: "a-pair-of-silk-stockings",
     title: "A Pair of Silk Stockings",
     titleTranslation: "실크 스타킹 한 켤레",
@@ -46386,6 +46603,223 @@ export const lessons: Lesson[] = [
         correctIndex: 0,
         explanation:
           "Renfield's violence quieted every night at moonrise and returned by dawn; the night he escaped again, Dr. Seward saw only a single large bat flying steadily westward, as if it knew exactly where it was going.",
+      },
+    ],
+  },
+  {
+    slug: "dracula-the-wolf-at-the-window",
+    title: "Dracula: The Wolf at the Window",
+    titleTranslation: "드라큘라: 창가의 늑대",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🐺",
+    coverImage: "/covers/dracula-the-wolf-at-the-window.svg",
+    source:
+      "Adapted from Chapter 11 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened to Lucy's mother that night, and what Lucy discovered about her servants afterward.",
+    paragraphs: [
+      [
+        {
+          id: "dww-1",
+          text: "Lucy seemed to be growing stronger, and everyone privately thanked Dr. Van Helsing, who visited daily and always draped strange white flowers — garlic blossoms — around her neck and across her window, though he never fully explained why.",
+          translation:
+            "루시는 점점 튼튼해지는 듯 보였고, 모두가 남몰래 반 헬싱 박사에게 고마워했어요. 그는 매일 찾아와 마늘꽃이라는 이상한 흰 꽃들을 늘 그녀의 목과 창가에 둘러 놓았지만, 왜 그래야 하는지는 한 번도 제대로 설명해 주지 않았어요.",
+        },
+        {
+          id: "dww-2",
+          text: "He warned Mrs. Westenra, Lucy's gentle and anxious mother, never to remove so much as a single flower from the sickroom, no matter how strong their smell.",
+          translation:
+            "그는 루시의 다정하고 근심 많은 어머니 웨스텐라 부인에게, 그 병실에서 꽃을 단 한 송이도 치우지 말라고, 냄새가 아무리 강해도 절대 안 된다고 당부했어요.",
+        },
+        {
+          id: "dww-3",
+          text: "But one evening, finding her daughter deeply asleep in a stuffy room thick with the flowers' heavy scent, Mrs. Westenra could not resist gathering them all up and opening the window for fresh air, certain she was only doing a kindness.",
+          translation:
+            "하지만 어느 날 저녁, 딸이 꽃의 짙은 향기로 후텁지근해진 방에서 깊이 잠든 것을 본 웨스텐라 부인은 그 꽃들을 전부 치우고 창문을 열어 신선한 공기를 들이지 않고는 견딜 수 없었어요. 그저 딸을 위한 배려라고만 생각했지요.",
+        },
+      ],
+      [
+        {
+          id: "dww-4",
+          text: "That night Lucy woke to a soft flapping at the window, yet felt strangely unafraid, for her mother had come in to sit beside her and even climbed into bed to keep her company.",
+          translation:
+            "그날 밤 루시는 창가에서 나는 부드러운 퍼덕이는 소리에 잠에서 깼지만, 이상하게도 두렵지 않았어요. 어머니가 곁에 와 앉아 있었고, 심지어 함께 침대에 누워 그녀와 있어 주었기 때문이에요.",
+        },
+        {
+          id: "dww-5",
+          text: "Before long, a low howl rose from the dark shrubbery outside — deeper and far fiercer than any dog she had ever heard.",
+          translation:
+            "얼마 지나지 않아, 어두운 관목 사이에서 낮은 울부짖음이 들려왔어요. 그녀가 지금껏 들어 본 어떤 개보다도 낮고 사나운 소리였어요.",
+        },
+        {
+          id: "dww-6",
+          text: "Then, with a sudden crash of shattering glass, the head of an enormous grey wolf appeared, framed in the broken window.",
+          translation:
+            "그러다 갑자기 유리가 와장창 깨지는 소리와 함께, 부서진 창틀 사이로 거대한 회색 늑대의 머리가 나타났어요.",
+        },
+      ],
+      [
+        {
+          id: "dww-7",
+          text: "In her terror, Mrs. Westenra clutched wildly at whatever was nearest — and her grasping hand caught the wreath of flowers around Lucy's neck and tore it away.",
+          translation:
+            "공포에 질린 웨스텐라 부인은 손에 닿는 것은 무엇이든 마구 움켜쥐었고, 그 손이 루시의 목에 걸린 꽃 화환을 붙잡아 뜯어내고 말았어요.",
+        },
+        {
+          id: "dww-8",
+          text: "She gave one strange, gurgling cry, then fell back across the bed and did not move again; her frightened heart had simply stopped.",
+          translation:
+            "부인은 목에서 이상한 그르렁거리는 소리를 한 번 내더니 침대 위로 쓰러져 다시는 움직이지 않았어요. 놀란 심장이 그대로 멈춰 버린 것이었어요.",
+        },
+        {
+          id: "dww-9",
+          text: "The wolf drew its head back from the window, and in its place came a whirling swarm of tiny specks, pouring through the broken glass like dust caught in a desert wind.",
+          translation:
+            "늑대는 창가에서 머리를 거두었고, 그 자리로 자잘한 알갱이들이 소용돌이치며 밀려들었어요. 마치 사막의 모래바람에 휘말린 먼지처럼, 깨진 유리창 사이로 쏟아져 들어왔어요.",
+        },
+      ],
+      [
+        {
+          id: "dww-10",
+          text: "When Lucy could think clearly again, her mother's body lay cold and heavy across her, and an unnatural stillness had settled over the room.",
+          translation:
+            "루시가 다시 정신을 차렸을 때, 어머니의 몸은 차갑고 무겁게 그녀 위에 걸쳐져 있었고, 방 안에는 부자연스러운 고요함이 내려앉아 있었어요.",
+        },
+        {
+          id: "dww-11",
+          text: "She called for the maids, and when the four of them rushed in and saw what lay on the bed, they screamed and fled downstairs for a calming glass of wine.",
+          translation:
+            "그녀는 하녀들을 불렀고, 네 명이 달려와 침대 위에 놓인 것을 보고는 비명을 지르며 마음을 가라앉힐 포도주를 찾으러 아래층으로 달아났어요.",
+        },
+        {
+          id: "dww-12",
+          text: "But none of them ever came back, and when a badly shaken Lucy finally went looking for them, she found all four lying senseless and unmoving on the dining-room floor.",
+          translation:
+            "하지만 그들은 아무도 돌아오지 않았고, 몹시 놀란 루시가 결국 그들을 찾으러 갔을 때, 네 명 모두 식당 바닥에 의식을 잃은 채 쓰러져 있는 것을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "dww-13",
+          text: "A strange, bitter smell hung over the half-empty sherry decanter, and Lucy realized with horror that someone had emptied her mother's entire bottle of sleeping medicine into it.",
+          translation:
+            "반쯤 빈 셰리주 디캔터 위로 이상하고 씁쓸한 냄새가 감돌았고, 루시는 누군가 어머니의 수면제 병을 통째로 그 안에 비워 놓았다는 사실을 소름 끼치도록 깨달았어요.",
+        },
+        {
+          id: "dww-14",
+          text: "She was alone now — with her dead mother, her drugged servants, and that same low howl still sounding somewhere beyond the shattered window.",
+          translation:
+            "이제 그녀는 혼자였어요. 죽은 어머니와, 약에 취해 잠든 하인들과, 부서진 창문 너머 어딘가에서 여전히 들려오는 그 낮은 울부짖음과 함께요.",
+        },
+        {
+          id: "dww-15",
+          text: "With trembling hands and failing strength, Lucy began to write down everything that had happened, determined that the truth should survive even if she did not.",
+          translation:
+            "떨리는 손과 점점 스러져 가는 기운으로, 루시는 자신이 살아남지 못하더라도 진실만은 남아야 한다는 각오로 그날 밤 있었던 모든 일을 적어 내려가기 시작했어요.",
+        },
+      ],
+      [
+        {
+          id: "dww-16",
+          text: "She folded the paper and hid it against her chest, so that whoever found her would also find her account of that terrible night.",
+          translation:
+            "그녀는 종이를 접어 가슴에 품듯 숨겨 두었어요. 누구든 자신을 발견하는 사람이 그 끔찍한 밤의 기록도 함께 찾을 수 있도록요.",
+        },
+        {
+          id: "dww-17",
+          text: "\"God shield me from harm this night,\" she wrote. \"Good-bye, dear Arthur, if I should not survive.\"",
+          translation:
+            "\"오늘 밤 저를 해로부터 지켜 주소서.\" 그녀는 이렇게 적었어요. \"사랑하는 아서, 제가 이 밤을 넘기지 못한다면, 안녕히.\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "dww-v1",
+        term: "wreath",
+        partOfSpeech: "noun",
+        translation: "화관, 화환",
+        example: "Mrs. Westenra tore the wreath of flowers from Lucy's neck.",
+        exampleTranslation: "웨스텐라 부인은 루시의 목에 걸린 꽃 화환을 뜯어냈어요.",
+      },
+      {
+        id: "dww-v2",
+        term: "shrubbery",
+        partOfSpeech: "noun",
+        translation: "관목 숲, 덤불",
+        example: "A low howl rose from the dark shrubbery outside.",
+        exampleTranslation: "어두운 관목 사이에서 낮은 울부짖음이 들려왔어요.",
+      },
+      {
+        id: "dww-v3",
+        term: "decanter",
+        partOfSpeech: "noun",
+        translation: "디캔터, 유리 술병",
+        example: "A strange smell hung over the sherry decanter.",
+        exampleTranslation: "셰리주 디캔터 위로 이상한 냄새가 감돌았어요.",
+      },
+      {
+        id: "dww-v4",
+        term: "senseless",
+        partOfSpeech: "adjective",
+        translation: "의식을 잃은",
+        example: "The maids lay senseless on the dining-room floor.",
+        exampleTranslation: "하녀들은 식당 바닥에 의식을 잃은 채 쓰러져 있었어요.",
+      },
+      {
+        id: "dww-v5",
+        term: "shield",
+        partOfSpeech: "verb",
+        translation: "보호하다, 지키다",
+        example: "\"God shield me from harm this night,\" Lucy wrote.",
+        exampleTranslation: "\"오늘 밤 저를 해로부터 지켜 주소서,\" 루시가 적었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "dww-q1",
+        prompt: "Why did Mrs. Westenra remove the flowers from Lucy's room, and what was the result?",
+        options: [
+          "She removed them out of spite and wanted Lucy to suffer.",
+          "She removed them out of love, thinking only of Lucy's comfort, not knowing the flowers were protecting her.",
+          "Van Helsing asked her to remove them himself.",
+          "The flowers had already died, so she threw them away.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Mrs. Westenra found the room stuffy with the flowers' heavy scent and, worried only about her weak daughter's comfort, carried them all away and opened the window — never knowing Van Helsing had placed them there for Lucy's protection.",
+      },
+      {
+        id: "dww-q2",
+        prompt: "What happened to Mrs. Westenra during the attack at the window?",
+        options: [
+          "She fainted quietly and was carried to safety.",
+          "She fought off the wolf with a fireplace poker.",
+          "In her terror she tore the flower wreath from Lucy's neck, cried out, and then fell back dead, her heart stopped by fright.",
+          "She ran from the room to get help and never returned.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Startled by the wolf's head crashing through the window, Mrs. Westenra clutched wildly at Lucy's flower wreath and tore it away, then gave a strange cry and collapsed — her frightened heart simply stopping.",
+      },
+      {
+        id: "dww-q3",
+        prompt: "What did Lucy find when she went looking for the maids, and what did she do afterward?",
+        options: [
+          "She found them calmly cleaning the dining room and asked them to fetch a doctor.",
+          "She found all four lying senseless on the floor, drugged by laudanum in the sherry, and — alone with her dead mother — wrote down everything that had happened.",
+          "She found them fast asleep in their own beds and did not disturb them.",
+          "She found the house empty, as the maids had fled outside.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Lucy discovered all four maids lying senseless in the dining room, drugged by sleeping medicine someone had poured into the sherry decanter; alone with her dead mother and the wolf still howling outside, she used her last strength to write down the night's events before it was too late.",
       },
     ],
   },

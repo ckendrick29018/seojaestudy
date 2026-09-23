@@ -84,7 +84,11 @@ export const BOOKS: Book[] = [
     id: "a-little-princess",
     title: "A Little Princess",
     titleTranslation: "소공녀",
-    chapters: ["a-little-princess", "a-little-princess-the-attic"],
+    chapters: [
+      "a-little-princess",
+      "a-little-princess-the-attic",
+      "a-little-princess-the-magic",
+    ],
   },
   {
     id: "the-secret-garden",
@@ -122,6 +126,7 @@ export const BOOKS: Book[] = [
       "dracula-the-sleepwalker",
       "dracula-renfield-master",
       "dracula-reunited",
+      "dracula-the-wolf-at-the-window",
     ],
   },
   {

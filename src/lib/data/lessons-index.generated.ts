@@ -997,6 +997,22 @@ export const lessonIndex: LessonMeta[] = [
     "readingMinutes": 2
   },
   {
+    "slug": "a-little-princess-the-magic",
+    "title": "A Little Princess: The Magic",
+    "titleTranslation": "소공녀: 마법",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B1",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Frances Hodgson Burnett (1849–1924)",
+    "coverEmoji": "✨",
+    "coverImage": "/covers/a-little-princess-the-magic.svg",
+    "source": "Adapted from Chapter 15 (\"The Magic\") of Frances Hodgson Burnett's novel \"A Little Princess\" (first published 1905; long in the public domain, Project Gutenberg #146). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
+  },
+  {
     "slug": "a-pair-of-silk-stockings",
     "title": "A Pair of Silk Stockings",
     "titleTranslation": "실크 스타킹 한 켤레",
@@ -3499,6 +3515,22 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/dracula-reunited.svg",
     "source": "Adapted from Chapter 9 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 5
+  },
+  {
+    "slug": "dracula-the-wolf-at-the-window",
+    "title": "Dracula: The Wolf at the Window",
+    "titleTranslation": "드라큘라: 창가의 늑대",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1847–1912)",
+    "coverEmoji": "🐺",
+    "coverImage": "/covers/dracula-the-wolf-at-the-window.svg",
+    "source": "Adapted from Chapter 11 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   },
   {
     "slug": "the-secret-garden-the-door-in-the-wall",

@@ -1536,13 +1536,57 @@ lessons live via dev-server preview — correct "Part 10 of 10 · Dracula" and
 "Part 3 of 3 · The Secret Garden" context strings, correct chapter-list
 ordering on both `/book/*` pages, no console errors.
 
+## Wave 13 — written 2026-09-23
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| A Little Princess → part 3 (final) | The Magic | Ch. 15 ("The Magic") | B1 |
+| Dracula → part 11 | The Wolf at the Window | Ch. 11 (opening — Lucy Westenra's Diary / Dr. Seward's Diary) | B2 |
+
+Sources: Gutenberg #146, #345 (both re-fetched and read in full before
+writing). The Little Princess chapter adapts Ch. 15 in full — Sara's furious
+tears over Miss Minchin unjustly blaming Becky for the cook's own theft,
+Ermengarde's discovery that Sara is starving too, the secret "pretend banquet"
+built from a hamper, an old shawl, and trunk odds and ends, Miss Minchin's
+punishment after a jealous classmate's tip-off, and Sara falling asleep on a
+small whispered wish — only to wake and find the attic mysteriously
+transformed with a fire, hot food, warm blankets, and a note signed "From a
+friend." This closes out A Little Princess at 3 parts; the book is genuinely
+complete (the note's author, the Indian Gentleman next door, is never named
+here, matching the original chapter). The Dracula chapter opens the long
+Ch. 11+ arc flagged as an open queue item last wave: Van Helsing's garlic
+flowers protecting Lucy, Mrs. Westenra's well-meaning removal of them, the
+wolf crashing through the window, Mrs. Westenra's death from fright, the
+swarm of drifting specks, and Lucy's discovery of her drugged, senseless
+maids — ending on Lucy's own memorandum written in case she doesn't survive.
+As with every prior Dracula chapter, the wolf/specks are described faithfully
+but never named as anything supernatural ("cliffhanger kept, not resolved").
+**Important:** this is only the opening scene of Ch. 11 — Lucy's own decline
+and death, Renfield's death, and the vampire hunt proper are all still ahead
+and remain an open queue item; Dracula is not close to finished. Covers: a
+sparkling fireplace/hearth motif (A Little Princess's "the Magic" reveal), a
+broken window with a wolf's head breaking through (Dracula's attack). Both
+covers inherited their book's existing pinned palette automatically (verified
+via gradient `stop-color` diffing), no `cover-palettes.json` edit needed —
+6th consecutive wave this has held. Dictionary: 14 EN + 8 KO for A Little
+Princess, 17 EN + 35 KO for Dracula — both driven to 0/0; project-wide KO→EN
+total shrank again, 918 → 915 (EN→KO stayed at project-wide 0, as always).
+Both `npm run audio -- --lesson <slug>` calls completed cleanly (37-38 clips
+each, 0 failures). Verified both lessons live via dev-server preview —
+correct "Part 3 of 3 · A Little Princess" and "Part 11 of 11 · Dracula"
+context strings, correct chapter-list ordering on both `/book/*` pages, the
+tap-word dictionary confirmed working on a newly-added word (`hamper`), and
+no console errors.
+
 **Remaining queue, suggested order:**
-1. A Little Princess has two parts and could get a third (a natural pick is
-   Ch. 15, "The Magic" — the mysterious transformation of Sara's cold attic).
-2. Dracula Ch. 11 onward (Lucy's decline and death, Renfield's death, the
-   vampire hunt, the chase back to Transylvania) is a large, still-untouched,
-   iconic stretch of the novel — a strong candidate for the next Dracula wave.
-3. Middlemarch is still a single lesson (it cannot be a book until it has a
+1. Dracula Ch. 11 onward is a large arc and this wave only adapted its
+   opening scene (Mrs. Westenra's death). Lucy's own decline and death,
+   Renfield's death, and the vampire hunt proper are all still ahead — a
+   strong candidate for the next Dracula wave (continue directly from
+   "The Wolf at the Window").
+2. Middlemarch is still a single lesson (it cannot be a book until it has a
    second part).
+3. A Little Princess is complete (3 parts, ends at Ch. 15) — no further
+   chapters to add.
 4. Alice's Adventures in Wonderland is complete (7 parts, ends at Ch. 12) — no
    further chapters to add.
