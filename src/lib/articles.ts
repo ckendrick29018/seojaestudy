@@ -1762,6 +1762,248 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+
+  {
+    slug: "why-10-years-of-english-class-doesnt-work",
+    title: "Why 10 Years of English Class Doesn't Make You Fluent",
+    description:
+      "Strong grammar scores, a huge memorized vocabulary, and still can't read a simple paragraph at speed. Why that gap exists, and what actually closes it.",
+    lede: "It isn't a personal failing. It's what the method you were taught was actually optimized to produce.",
+    datePublished: "2026-09-24",
+    dateModified: "2026-09-24",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/a2", label: "Start reading today, not another rule" },
+    keywords: [
+      "why can't I speak English after years of study",
+      "Korean English education problem",
+      "why grammar study isn't enough",
+      "how to actually become fluent in English",
+      "why is my English still bad",
+    ],
+    sections: [
+      {
+        heading: "The gap between grades and fluency",
+        paragraphs: [
+          "A specific, common pattern: years of English class, strong grammar test scores, a genuinely large memorized vocabulary — and still, a simple paragraph in a novel or a news article takes visible effort to get through, and ordinary spoken English is hard to follow at speed. If this describes your own experience, it isn't a sign you're bad at languages or didn't study hard enough. It's closer to a design flaw in what the studying was actually optimized to produce.",
+        ],
+      },
+      {
+        heading: "What a typical English class actually trains",
+        paragraphs: [
+          "Most classroom English instruction, especially exam-oriented instruction, is built around the grammar-translation method: analyzing a sentence's structure, translating it piece by piece, memorizing grammar rules and their exceptions, and building vocabulary from word-pair lists — an English word and its Korean translation, reviewed in isolation, disconnected from any sentence it actually belongs in. Assessment weights grammatical accuracy and rule recall heavily; it rarely measures how fast you can extract meaning from a page you've never seen before, under no particular time pressure to translate it perfectly.",
+          "This isn't a bad method at what it actually teaches — it produces real, useful knowledge about how English works. The problem is that \"knowing about a language\" and \"being able to use it in real time\" are two different skills, and only the first one is what this method trains directly.",
+        ],
+      },
+      {
+        heading: "Why that produces exactly this pattern",
+        paragraphs: [
+          "Knowing a grammar rule precisely and applying it automatically while reading at speed are genuinely separate abilities — the same split covered, in one specific case, in [why relative clauses feel backwards](/learn/korean-english-relative-clauses-word-order): you can know exactly what \"that\" is doing in a sentence and still slow to a crawl parsing a long one live. Vocabulary has the same split: a word studied as an isolated Korean translation is often not recognized instantly inside a real sentence, especially inflected or combined with other words in ways the flashcard never showed.",
+          "Put differently, ten years of grammar-translation study builds a large, accurate reference manual in your head. It doesn't, by itself, build the reflex of reading the manual's content without consciously consulting it — and that reflex is what \"fluent\" actually describes.",
+        ],
+      },
+      {
+        heading: "What actually closes the gap",
+        paragraphs: [
+          "The reflex comes from volume: understanding a large number of real sentences, at a level where you're not fighting for every word, again and again, until recognizing them stops requiring conscious effort. This is the [comprehensible input](/learn/comprehensible-input-explained) idea directly — acquisition comes from understanding messages, not from studying more rules about how messages are built — and it's why [extensive reading](/learn/extensive-reading-vs-intensive-reading) at a comfortable level moves the needle that more grammar study, past a certain point, stops moving.",
+          "This is also why the fix isn't \"unlearn\" what a decade of class built. Grammar knowledge is genuinely useful scaffolding once it's paired with enough real exposure — a reader who already knows what a relative clause is will recognize the pattern in a real sentence faster than someone meeting the concept for the first time. The grammar was never the problem. Stopping there was.",
+        ],
+      },
+      {
+        heading: "What this looks like in practice",
+        paragraphs: ["Nothing about this requires abandoning what you already know — it means adding the piece that was missing:"],
+        list: [
+          "Read something you mostly understand, every day, rather than something you have to translate.",
+          "Let the grammar you already studied recognize itself in real sentences, instead of studying more grammar in isolation.",
+          "Notice speed, not just accuracy — the goal is reading a paragraph without translating it in your head, not being able to explain why every sentence is correct.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open the [library](/library) and pick something a level below where your grammar knowledge \"should\" put you — the point isn't to be challenged, it's to read enough real sentences, fast enough, that the years of rules you already have finally get the practice they were always missing.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "korean-english-relative-clauses-word-order",
+    title: "Why English Relative Clauses Feel Backwards to Korean Speakers",
+    description:
+      "Korean puts a description before the noun; English puts it after, introduced by who, that or which. Why this one structural flip makes long English sentences hard — and how to stop fighting it.",
+    lede: "Korean says \"yesterday-bought book.\" English says \"the book that I bought yesterday.\" Same idea, opposite direction.",
+    datePublished: "2026-09-24",
+    dateModified: "2026-09-24",
+    readingMinutes: 7,
+    practiceCta: { href: "/lesson/pride-and-prejudice", label: "See long sentences in Pride and Prejudice" },
+    keywords: [
+      "English relative clauses for Korean speakers",
+      "관계대명사 영어 구조 설명",
+      "English word order for Korean speakers",
+      "who that which explained",
+      "why English sentences feel backwards",
+    ],
+    sections: [
+      {
+        heading: "The one structural flip that makes long sentences hard",
+        paragraphs: [
+          "Korean puts a modifying clause before the noun it describes: 어제 산 책 is literally \"yesterday bought book\" — the description comes first, the noun it's describing arrives last. English does the exact reverse: the noun comes first, and the description trails after it, usually introduced by who, that or which — \"the book that I bought yesterday.\"",
+          "For one short clause, flipping the order in your head isn't especially hard. It becomes genuinely difficult inside a longer sentence with more happening, because a reading instinct trained on Korean expects the noun to show up at the end, once the full description is complete — and English keeps putting the noun near the front instead, with the description still to come.",
+        ],
+      },
+      {
+        heading: "What this looks like side by side",
+        paragraphs: [
+          "제가 어제 시장에서 산 사과 — literally \"I, yesterday, at the market, bought, apple\" — reads as one long build-up that resolves on the final word, 사과 (apple). The equivalent English sentence front-loads the noun instead: \"the apple that I bought at the market yesterday.\" You know what's being talked about — the apple — from word two, and everything after that is filling in detail about an object you've already been told.",
+          "Nest a second clause and the gap widens further: \"the apple that I bought at the market that was near my old school\" asks you to hold two nouns (apple, market) open at once, each waiting for its own trailing description, in an order that has no equivalent shape in Korean at all.",
+        ],
+      },
+      {
+        heading: "Why \"who / that / which\" don't map onto a single Korean word",
+        paragraphs: [
+          "Korean's modifier doesn't need a separate marker word at all — the verb itself takes an adnominal ending (roughly -(으)ㄴ or -는 attached to the stem) and the whole clause simply sits in front of the noun, no linking word required. English requires a visible marker: who for people, which for things, that for either, or — a detail that often surprises learners — sometimes no word at all, when the missing piece is the object of the clause (\"the book [that] I bought\" is correct with or without \"that\").",
+          "Because Korean has no direct equivalent to translate, this marker gets either dropped where English actually needs it, or applied inconsistently between people and things. There's no single Korean word being mistranslated here — the whole slot is simply absent in Korean's version of the sentence.",
+        ],
+      },
+      {
+        heading: "Why this responds to reading, not memorizing",
+        paragraphs: [
+          "The rule itself is short enough to state in one sentence: who for people, which for things, that for either, and it's sometimes optional. Reciting that rule is not the hard part. The hard part is applying it live, inside a real sentence, at reading speed, while three other things are also happening in the same clause — and that specific skill, applying a known rule automatically under time pressure, is exactly what [ten years of grammar study alone tends not to build](/learn/why-10-years-of-english-class-doesnt-work).",
+          "It's the same argument made about [common English mistakes Korean speakers make](/learn/common-english-mistakes-korean-speakers): the fix isn't a better explanation of the rule, which you likely already have. It's meeting the pattern, correctly ordered, hundreds of times in real sentences, until the reordering stops being a conscious step.",
+        ],
+      },
+      {
+        heading: "A habit to try while reading",
+        paragraphs: [
+          "When a long sentence starts to feel like it's circling back on itself, stop and find the main noun near the front — often right after the subject and verb. Once you've spotted it, read everything after who/that/which as its description, arriving in Korean's usual position just late instead of early. Over enough sentences, this becomes automatic instead of a conscious two-step translation.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "[Pride and Prejudice](/lesson/pride-and-prejudice), even in its graded retelling, keeps its long, clause-heavy sentences — good, deliberate practice for exactly this pattern. Read it once for the story, then reread one long sentence slowly, finding the main noun first each time.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "how-to-remember-english-words-without-word-lists",
+    title: "Why 단어장 Word Lists Don't Make Vocabulary Stick — and What Does",
+    description:
+      "You memorize the list, ace the list, then blank on the same word inside a real sentence. Why bare word-translation pairs don't transfer, and what actually makes a word stick.",
+    lede: "You knew the word on the flashcard. You just didn't know it in the sentence.",
+    datePublished: "2026-09-24",
+    dateModified: "2026-09-24",
+    readingMinutes: 6,
+    practiceCta: { href: "/study", label: "Build your study plan from real sentences" },
+    keywords: [
+      "단어장 효과 없는 이유",
+      "how to memorize English vocabulary",
+      "vocabulary word list vs reading",
+      "best way to learn English words",
+      "context based vocabulary learning",
+    ],
+    sections: [
+      {
+        heading: "The familiar cycle",
+        paragraphs: [
+          "Buy or download a word list, grind through it until you can recognize every entry on the list itself, feel genuinely accomplished — then meet one of those exact words inside a real sentence a week later and draw a complete blank. This is an extremely common complaint, and it isn't a memory failure. It's a mismatch between how the word was learned and how it actually needs to be used.",
+        ],
+      },
+      {
+        heading: "What a word list actually teaches",
+        paragraphs: [
+          "A standard vocabulary list gives you a bare pairing: an English word and its Korean translation, reviewed in isolation. No sentence, no sense of which of a word's several possible meanings applies where, no feel for which other words it normally shows up next to. You learn the label attached to the word. You don't learn how the word actually behaves once it's inside a sentence doing a job.",
+        ],
+      },
+      {
+        heading: "Why that's not enough for real reading",
+        paragraphs: [
+          "Real comprehension needs a word recognized instantly, inside a sentence, often inflected or combined with other words in ways a bare pair never demonstrated. A learner who memorized \"condition — 상태\" from a list can still freeze on \"on the condition that\" or \"his condition improved,\" because neither matches the flashcard's single isolated translation. The word wasn't wrong. The learning method just never showed you its range.",
+        ],
+      },
+      {
+        heading: "What actually works: meet it, then review it in context",
+        paragraphs: [
+          "This is exactly the method behind [spaced repetition flashcards](/learn/spaced-repetition-vocabulary-flashcards) done well: save a word from something you're actually reading, with its real sentence attached, rather than from a pre-made list with none. Word lists and this method use the same underlying mechanism — spaced, repeated review — so it isn't that repetition itself is the missing ingredient. It's where the word came from, and what's still attached to it when you review it.",
+        ],
+      },
+      {
+        heading: "A word list isn't useless — it's just doing the wrong job",
+        paragraphs: [
+          "Frequency-ranked word lists are genuinely useful for one specific thing: telling you which few thousand words are worth prioritizing at all, since [word frequency is heavily lopsided](/learn/how-many-words-do-you-need-to-read) and a small core vocabulary covers most of what you'll actually read. Use a list to decide what's worth learning. Let reading — meeting that word for real, more than once, in context — be how you actually learn it.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Read a story in the [library](/library) at your level, and instead of opening a word list afterward, save the words you tapped straight into your [study plan](/study) — each one arrives with the sentence you actually met it in, which is the one thing a list was never able to give it.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "english-listening-practice-for-korean-speakers",
+    title: "Why English Listening Feels Harder Than Reading for Korean Speakers",
+    description:
+      "Reading a passage comfortably and still losing the same words spoken aloud isn't a lower listening level — it's connected speech, and Korean's own rhythm makes the gap wider. How to close it.",
+    lede: "You can read the sentence. Spoken at native speed, the exact same sentence disappears — and that's not a contradiction, it's a different skill.",
+    datePublished: "2026-09-24",
+    dateModified: "2026-09-24",
+    readingMinutes: 6,
+    practiceCta: { href: "/lesson/the-happy-prince", label: "Listen and read The Happy Prince" },
+    keywords: [
+      "영어 리스닝이 안되는 이유",
+      "English listening practice for Korean speakers",
+      "why is English listening so hard",
+      "improve English listening comprehension",
+      "connected speech for English learners",
+    ],
+    sections: [
+      {
+        heading: "A familiar, frustrating gap",
+        paragraphs: [
+          "A pattern many Korean English learners recognize immediately: reading a passage, even a fairly advanced one, without much trouble — and then feeling genuinely lost listening to that same content spoken aloud at a natural pace. This isn't a lower \"level\" in listening than in reading. It's a separately trained skill, and Korean's own sound system, covered from the speaking side in [English pronunciation tips for Korean speakers](/learn/english-pronunciation-tips-korean-speakers), makes this particular gap wider than it is for some other learners.",
+        ],
+      },
+      {
+        heading: "Why connected speech is the real obstacle",
+        paragraphs: [
+          "Natural spoken English doesn't pronounce words as separate, evenly-spaced units the way a careful textbook recording does — sounds link across word boundaries, drop out, and blend together. \"What are you doing\" compresses toward \"whaddaya doin'\"; \"did you\" toward \"didja.\" A learner who studied each word's dictionary pronunciation individually, correctly, hits a wall the moment those same familiar words run together at real speed — not because the words changed, but because the version reaching their ear was never the one they practiced.",
+        ],
+      },
+      {
+        heading: "Why Korean's rhythm makes this specific gap wider",
+        paragraphs: [
+          "Korean is syllable-timed — each syllable gets roughly even time and weight, giving Korean speech its steady, even rhythm. English is stress-timed instead: stressed syllables land at roughly even intervals, and everything between them gets compressed to make room, which is exactly the mechanism behind connected speech. This means the \"smearing together\" that trips up listening isn't just an unfamiliar accent to get used to — it's a rhythm Korean has no real equivalent for, which is why it can feel specifically harder than it does for a learner whose first language already works this way.",
+        ],
+      },
+      {
+        heading: "Why listening-while-reading closes the gap, not more isolated listening",
+        paragraphs: [
+          "[Listening while reading](/learn/listening-while-reading-method) is the direct fix, because it puts the connected, compressed real version of a sentence in your ear at the exact moment your eyes are holding its full, correctly-spelled form — closing the gap between what you expected to hear and what actually got said, sentence by sentence, instead of leaving you to guess. Isolated listening practice — audio with no text — asks you to close that gap blind, which is much slower and far more frustrating for the same amount of practice time.",
+        ],
+      },
+      {
+        heading: "A shadowing routine for listening specifically",
+        paragraphs: ["This builds on the shadowing technique from the pronunciation guide, aimed here at listening comprehension rather than your own pronunciation:"],
+        list: [
+          "Play one sentence with the text hidden. Notice exactly what you caught and what blurred past.",
+          "Reveal the text and reread the sentence, matching what you actually heard against what was really said.",
+          "Play it once more, text visible, following along — this is where the compressed version and the full version link up in your ear.",
+          "Move to the next sentence. A few minutes of this most days does more than an hour once a week.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "Open any story at your level in the [library](/library) and use the Listen control alongside the text rather than instead of it — that pairing, not more standalone listening drills, is what actually trains your ear for how English really sounds.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
