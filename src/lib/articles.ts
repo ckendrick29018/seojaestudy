@@ -1569,6 +1569,199 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+
+  {
+    slug: "konglish-vs-real-english",
+    title: "Konglish vs Real English: Korean Loanwords That Don't Mean What You Think",
+    description:
+      "핸드폰, 서비스, 원피스, 컨디션 — words that look like English but aren't quite. Why Konglish false friends trip up reading comprehension, and how extensive reading fixes them.",
+    lede: "Some English-looking words in Korean were never really English at all — and the ones that were don't always mean what they used to.",
+    datePublished: "2026-09-23",
+    dateModified: "2026-09-23",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/a2", label: "Read at A2 and watch for false friends" },
+    keywords: [
+      "Konglish vs English",
+      "Korean English loanwords",
+      "false friends Korean English",
+      "Konglish mistakes",
+      "English words that mean something different in Korean",
+    ],
+    sections: [
+      {
+        heading: "Why Korean has so many almost-English words",
+        paragraphs: [
+          "Korean has absorbed thousands of English-sourced words over the past century, through trade, the long US military presence, Japanese colonial-era mediated borrowing, and more recently film, music and tech. But a word doesn't have to keep its source meaning once it's naturalized into another language — Korean reshaped many of these borrowings locally: some got trimmed (에어컨, from \"air conditioner\"), some picked up a new, narrower meaning (서비스), and some were assembled from English parts into words that were never English sentences to begin with (핸드폰, 오피스텔). This whole category is usually called Konglish, and it isn't bad Korean — it's simply its own vocabulary that happens to be spelled with English sounds.",
+        ],
+      },
+      {
+        heading: "Words that exist in Korean but not really in English",
+        paragraphs: [
+          "A handful of common Konglish words have no real English equivalent at all — they were built, not borrowed:",
+        ],
+        list: [
+          "핸드폰 (hand phone) — a mobile phone. English speakers say \"cell phone\" or \"mobile\"; \"hand phone\" isn't used.",
+          "오피스텔 (officetel) — a studio apartment zoned for both living and small office use. An invented Korean compound; there's no single English word for this building type.",
+          "스킨십 (skinship) — affectionate physical contact between friends, family or a couple. Reads like an English word; isn't one.",
+          "화이팅/파이팅 (fighting) — a cheer meaning roughly \"you can do it!\" English \"fighting\" never means this — shouted at someone in English, it sounds like an invitation to a brawl.",
+          "스펙 (spec, short for \"specification\") — a person's qualifications and credentials (degree, test scores, certificates). English \"specs\" refers to a product's technical details, not a résumé.",
+        ],
+      },
+      {
+        heading: "Words that exist in both, but drifted apart",
+        paragraphs: [
+          "More dangerous than an invented word is a real English word borrowed into Korean and then quietly repurposed — because it still looks completely familiar:",
+        ],
+        list: [
+          "서비스 (service) — in Korean, usually something free or complimentary a business throws in (\"이거 서비스예요\", this one's on the house). In English, \"service\" is the broad idea of assistance or work done for a customer, not specifically something free.",
+          "컨디션 (condition) — in Korean, almost always your physical or mental state (\"컨디션이 안 좋아요\", I'm not feeling well). English \"condition\" is far broader and rarely means this by itself.",
+          "사이다 (cider) — in Korean, a clear lemon-lime soda, closer to Sprite. In English, \"cider\" is usually an apple drink, often alcoholic.",
+          "노트북 (notebook) — in Korean, a laptop computer. In English, a \"notebook\" is something you write in by hand.",
+          "미팅 (meeting) — among younger Korean speakers, often a group blind date. In English, a \"meeting\" is a scheduled discussion, almost never a date.",
+          "사인 (sign) — in Korean, a celebrity's autograph. In English, you'd ask for an \"autograph,\" not a \"sign.\"",
+        ],
+      },
+      {
+        heading: "Why these specifically trip up reading comprehension",
+        paragraphs: [
+          "An ordinary unfamiliar word announces itself — you don't recognize it, so you look it up or let it pass. A false friend like these doesn't announce anything. It looks completely known, so the Korean sense quietly fills in the meaning without the reader ever noticing a mismatch. Reading \"the hotel offered a shuttle service\" through the Korean sense of 서비스 produces a confident, wrong picture — free shuttle rather than the hotel's transport offering, however priced — and nothing about the sentence feels off enough to stop and check.",
+          "This is a different, quieter kind of gap than the grammar mistakes covered in [common English mistakes Korean speakers make](/learn/common-english-mistakes-korean-speakers). Those show up in what you produce and are usually caught eventually. A false friend can sit uncorrected in your reading comprehension for years, because it never once felt like a mistake.",
+        ],
+      },
+      {
+        heading: "How extensive reading fixes false friends specifically",
+        paragraphs: [
+          "Because false friends don't feel wrong on first contact, the usual fix — look it up when you're stuck — doesn't reliably catch them; you're not stuck, you just think you understood. What actually works is meeting the real word in enough different, correctly-used English sentences that the Konglish sense eventually stops quite fitting. Seeing \"service\" describe a restaurant's overall quality, a mechanic's repair work, and a phone plan — never once meaning \"free extra\" — is what slowly replaces the borrowed meaning with the real one, far more reliably than any warning list, including this one.",
+          "This is really the same case made in [how comprehensible input works](/learn/comprehensible-input-explained): a pattern sinks in through repeated genuine exposure, not through being told the rule once and moving on.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "You don't need to hunt for these words specifically — they'll turn up on their own in ordinary reading. Read a story at your level in the [library](/library), and if a familiar-looking word makes a sentence feel slightly off, that's worth a second look: tap it and check whether the meaning you expected is really the one on the page.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "suneung-english-reading-practice",
+    title: "수능 영어 독해 (CSAT English Reading): How Extensive Reading Helps",
+    description:
+      "구문독해 alone builds precision, not speed — and Korea's CSAT English reading section runs on a strict clock. How daily extensive reading complements traditional 수능 prep.",
+    lede: "구문독해 teaches you to parse any sentence correctly. It doesn't teach you to do it before the clock runs out.",
+    datePublished: "2026-09-23",
+    dateModified: "2026-09-23",
+    readingMinutes: 7,
+    practiceCta: { href: "/classics/b2", label: "Read at B2, the level the test assumes" },
+    keywords: [
+      "수능 영어 독해",
+      "CSAT English reading practice",
+      "수능영어 공부법",
+      "Korean CSAT English reading",
+      "extensive reading for 수능",
+    ],
+    sections: [
+      {
+        heading: "What the CSAT English reading section actually tests",
+        paragraphs: [
+          "Korea's 대학수학능력시험 (CSAT, commonly 수능) English section is a strictly timed, standardized reading and listening test, graded on an absolute scale rather than against other students — but the reading demands are still real, and they're not mainly about literal recall. Passages are drawn from opinion writing, popular science and literary-adjacent prose well into the B2 range and above, and the questions ask for main idea, inference, the writer's intent, or how a passage is structured — the kind of comprehension that requires actually following an argument, not just locating a sentence that contains the right words.",
+          "The part that catches most students isn't the reading skill itself — it's the clock. Every item carries a real time budget, with no credit for an answer you would have gotten right given another minute.",
+        ],
+      },
+      {
+        heading: "Why 구문독해 (sentence-structure analysis) alone plateaus",
+        paragraphs: [
+          "Most Korean CSAT English prep leans heavily on 구문독해 — breaking a long English sentence into its grammatical pieces, marking subordinate clauses, and translating piece by piece until the sentence resolves. It's a genuinely useful skill, and most students spend years building it, because English's clause structure often runs in the opposite order from Korean's. But it's slow by design — built for precision on one hard sentence at a time, not for speed across a full passage.",
+          "That creates a specific, common failure mode: a student who can correctly parse any sentence on the test, given enough time, still runs out of time on the later passages — a different problem from not understanding the grammar, but one that costs exactly the same points.",
+        ],
+      },
+      {
+        heading: "What extensive reading adds that grammar analysis doesn't",
+        paragraphs: [
+          "Extensive reading at a level comfortably below the test's own difficulty — [B1 to B2](/learn/cefr-levels-explained) — builds a different, complementary skill: processing a sentence's meaning close to automatically, without consciously parsing every clause, and inferring what a passage is doing from its shape and a few key signals rather than a full grammatical breakdown. That's closer to what a fast, accurate reader is actually doing under real time pressure, even one who was originally trained through careful 구문독해.",
+          "This is the same finding behind [TOEIC and TOEFL reading practice](/learn/toeic-toefl-reading-practice): a timed reading test rewards automatic processing speed at least as much as it rewards depth of grammatical analysis on any single sentence. 수능 English adds its own strict per-item clock on top of that, which makes the speed side of the equation harder to skip.",
+        ],
+      },
+      {
+        heading: "A routine that fits around 수능 prep, not instead of it",
+        paragraphs: ["This isn't a replacement for official practice — it runs alongside it:"],
+        list: [
+          "Daily (15–20 min): read one graded story at B1–B2, straight through, without stopping to formally parse each sentence — just follow the meaning at a comfortable pace.",
+          "On your usual schedule: keep doing official 기출문제 and 모의고사 sets, strictly timed, exactly as before.",
+          "After each official set: go back only to the sentences that actually caused trouble, and do the slow, careful 구문 breakdown there — extensive reading builds volume and speed; grammar analysis is for repair, not for every sentence.",
+          "Weekly: reread a graded story from a few weeks back and notice how much faster it goes — that's the same gain you're trying to bring to the real test.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "If your official practice scores show accurate answers but too many unanswered questions at the end, that's the extensive-reading gap specifically. Start a daily story at [B2](/classics/b2) — roughly the level CSAT reading passages assume — and keep it running for the weeks leading up to the test, since reading speed, unlike a grammar rule, builds gradually rather than overnight.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "english-idioms-in-classic-literature",
+    title: "English Idioms You'll Meet in Classic Literature (and What They Actually Mean)",
+    description:
+      "Idioms like 'sour grapes' and 'bah, humbug' can't be read word by word. Where common English idioms come from, why they trip up careful readers, and how to handle them.",
+    lede: "Every word in the sentence can be one you know, and the sentence can still mean something else entirely.",
+    datePublished: "2026-09-23",
+    dateModified: "2026-09-23",
+    readingMinutes: 6,
+    practiceCta: { href: "/lesson/fox-and-grapes", label: "Read the story behind \"sour grapes\"" },
+    keywords: [
+      "English idioms explained",
+      "idioms in classic literature",
+      "common English idioms for learners",
+      "figurative language English learners",
+      "idioms that come from stories",
+    ],
+    sections: [
+      {
+        heading: "Why idioms break the read-it-literally strategy",
+        paragraphs: [
+          "Most unfamiliar words can be handled with a quick lookup, because the word still means what a dictionary says it means — you were simply missing the definition. An idiom is a different kind of problem: every individual word can be completely familiar, and the sentence can still mean something else entirely. \"It's raining cats and dogs\" isn't about animals; \"that was the last straw\" isn't about hay. A careful reader — exactly the kind extensive reading and grammar study both try to build — can hit an idiom and produce a confident, fully-parsed, completely wrong literal reading, which is arguably a worse spot to be in than simply not understanding, because nothing about it feels like a mistake.",
+        ],
+      },
+      {
+        heading: "Idioms that started as an actual scene in a story",
+        paragraphs: [
+          "A few common idioms are easy to remember precisely because you can watch the moment they come from, still playing out in the original story:",
+        ],
+        list: [
+          "\"Sour grapes\" — from Aesop's fable, where a fox that can't reach a bunch of grapes decides out loud that they were probably sour anyway. The idiom now describes anyone who dismisses something as worthless only after failing to get it. [Read the original story](/lesson/fox-and-grapes).",
+          "\"Bah, humbug\" and \"Scrooge\" — from Charles Dickens's A Christmas Carol. \"Humbug\" meant nonsense even before Dickens, but Scrooge's grumbling use of it made the phrase famous, and \"a Scrooge\" is now simply English for a stingy, joyless person. [Read the opening stave](/lesson/a-christmas-carol).",
+        ],
+      },
+      {
+        heading: "A handful more that show up constantly in classic prose",
+        paragraphs: ["These aren't tied to one specific story, but you'll meet them across almost any collection of classic English writing:"],
+        list: [
+          "\"Turn over a new leaf\" — to start behaving better going forward, leaving past mistakes behind.",
+          "\"Keep a stiff upper lip\" — to stay outwardly calm and composed despite hardship; especially common in British writing.",
+          "\"A wild goose chase\" — a pursuit that turns out to be hopeless or pointless from the start.",
+          "\"A blessing in disguise\" — something that seemed bad at first but turns out to have a good outcome.",
+          "\"Raining cats and dogs\" — raining very heavily; no animals involved.",
+        ],
+      },
+      {
+        heading: "Why tap-to-translate can't fully save you here",
+        paragraphs: [
+          "Tapping an individual word inside an idiom usually returns that word's ordinary, literal meaning — which for an idiom is close to useless, and sometimes actively misleading. Tapping \"straw\" in \"the last straw\" gets you a piece of dried grain, which explains nothing about why someone just lost their patience.",
+          "What actually works is the sentence-level translation instead of the word-level one — the globe, not the tap. A good sentence translation renders what the idiom actually means in context, rather than translating it piece by piece the way a word lookup does. Treat an idiom as one unit to learn whole, not as several words to look up separately.",
+        ],
+      },
+      {
+        heading: "Where to start",
+        paragraphs: [
+          "[Fox and Grapes](/lesson/fox-and-grapes) is a two-minute read and hands you \"sour grapes\" for free — a good first idiom because you watch it get made, in real time, inside the story. From there, [A Christmas Carol](/lesson/a-christmas-carol) and the rest of the [classic short stories for learners](/learn/best-classic-short-stories-for-learners) will keep surfacing more, a few at a time, in exactly the context that makes them stick.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
