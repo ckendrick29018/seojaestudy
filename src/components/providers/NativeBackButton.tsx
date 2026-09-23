@@ -30,12 +30,8 @@ export function NativeBackButton() {
 
     App.addListener("backButton", () => {
       const before = window.location.href;
-      // eslint-disable-next-line no-console
-      console.log(`[NativeBackButton] before=${before} historyLength=${window.history.length}`);
       window.history.back();
       window.setTimeout(() => {
-        // eslint-disable-next-line no-console
-        console.log(`[NativeBackButton] after=${window.location.href} changed=${window.location.href !== before}`);
         if (window.location.href === before) App.exitApp();
       }, 300);
     }).then((h) => {
