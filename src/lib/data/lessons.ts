@@ -45303,6 +45303,440 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "dracula-renfield-master",
+    title: "Dracula: Renfield's Master",
+    titleTranslation: "드라큘라: 렌필드의 주인님",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "B2",
+    isFree: true,
+    collection: "classics",
+    author: "Bram Stoker (1847–1912)",
+    coverEmoji: "🕷️",
+    coverImage: "/covers/dracula-renfield-master.svg",
+    source:
+      "Adapted from Dr. Seward's diary entries in Chapter 8 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, say what happened to Renfield that night, and what he was doing when Dr. Seward found him at Carfax.",
+    paragraphs: [
+      [
+        {
+          id: "drm-1",
+          text: "That evening, around eight o'clock, Renfield suddenly grew excited and began sniffing at the air like a dog on the hunt.",
+          translation:
+            "그날 저녁 여덟 시쯤, 렌필드는 갑자기 흥분하며 사냥감을 쫓는 개처럼 공기 냄새를 맡기 시작했어요.",
+        },
+        {
+          id: "drm-2",
+          text: "He would not speak to the attendant at all that night, and when Dr. Seward visited him an hour later, Renfield only said, in a haughty voice, \"I don't want to talk to you: you don't count now; the Master is at hand.\"",
+          translation:
+            "그날 밤 그는 간병인과는 아예 말을 하려 하지 않았고, 한 시간 뒤 수어드 박사가 찾아갔을 때도 거만한 목소리로 이렇게만 말했어요. \"당신과 이야기하고 싶지 않소. 이제 당신은 중요하지 않으니까. 주인님이 가까이 오고 계시오.\"",
+        },
+        {
+          id: "drm-3",
+          text: "It looked like some sudden religious mania — and combined with his history of violence, Dr. Seward worried that a man this strong could be truly dangerous.",
+          translation:
+            "그것은 갑작스러운 일종의 종교적 광기처럼 보였고, 폭력적인 전력까지 있는 그가 이렇게 힘이 세다면 정말 위험할 수 있다고 수어드 박사는 걱정했어요.",
+        },
+      ],
+      [
+        {
+          id: "drm-4",
+          text: "To test whether Renfield's calm was real, Dr. Seward tried to draw him into his usual favorite subject: his pet spiders.",
+          translation:
+            "렌필드의 차분함이 진짜인지 확인하려고 수어드 박사는 그가 평소 가장 좋아하던 화제인 애완 거미 이야기를 꺼내려 했어요.",
+        },
+        {
+          id: "drm-5",
+          text: "\"Bother them all — I don't care a pin about them,\" Renfield snapped, though spiders had been his obsession for weeks.",
+          translation:
+            "\"그깟 것들 다 귀찮소. 조금도 관심 없소.\" 렌필드가 쏘아붙였어요. 몇 주 동안이나 거미에 푹 빠져 있던 그였는데 말이에요.",
+        },
+        {
+          id: "drm-6",
+          text: "When pressed further, he only answered strangely, about bridesmaids waiting for a bride who was drawing near, and would explain nothing more.",
+          translation:
+            "더 물어보아도 그는 신부가 가까이 다가올 때 들러리들이 기뻐한다는 둥, 이상한 말만 할 뿐 더는 아무것도 설명하지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "drm-7",
+          text: "Tired and low in spirits, Dr. Seward thought about taking a sleeping draught, but decided to stay sleepless and alert instead.",
+          translation:
+            "지치고 마음이 무거웠던 수어드 박사는 수면제를 먹을까 생각했지만, 대신 잠들지 않고 깨어 있기로 했어요.",
+        },
+        {
+          id: "drm-8",
+          text: "He was glad he had, because not long after, the night-watchman rushed in to say that Renfield had escaped.",
+          translation:
+            "그 결정을 내린 것을 다행으로 여겼는데, 얼마 지나지 않아 야간 감시인이 달려와 렌필드가 탈출했다고 알렸기 때문이에요.",
+        },
+        {
+          id: "drm-9",
+          text: "The attendant explained that he had heard a window being wrenched open, and had seen only Renfield's bare feet disappear through it.",
+          translation:
+            "간병인은 창문이 억지로 열리는 소리를 들었고, 렌필드의 맨발이 창밖으로 사라지는 것만 보았다고 설명했어요.",
+        },
+      ],
+      [
+        {
+          id: "drm-10",
+          text: "Dr. Seward threw on his clothes and ran outside, and through the trees he glimpsed a white figure scaling the high wall that separated the asylum grounds from the deserted house next door.",
+          translation:
+            "수어드 박사는 급히 옷을 걸치고 밖으로 뛰어나갔고, 나무들 사이로 수용소 부지와 옆의 버려진 저택을 가르는 높은 담을 넘어가는 하얀 사람 형체를 언뜻 보았어요.",
+        },
+        {
+          id: "drm-11",
+          text: "He sent the watchman for more men, grabbed a ladder, climbed over the wall himself, and dropped down into the grounds of Carfax.",
+          translation:
+            "그는 감시인에게 사람들을 더 불러오라고 시킨 뒤, 사다리를 가져와 직접 담을 넘어 카팩스 저택 안으로 뛰어내렸어요.",
+        },
+        {
+          id: "drm-12",
+          text: "On the far side of the old house, he found Renfield pressed close against the ironbound door of the chapel, talking urgently to someone Dr. Seward could not see.",
+          translation:
+            "낡은 저택 저편에서 그는 렌필드가 예배당의 철제 문에 바짝 몸을 붙인 채, 보이지 않는 누군가에게 다급히 말하고 있는 것을 발견했어요.",
+        },
+      ],
+      [
+        {
+          id: "drm-13",
+          text: "\"I am here to do Your bidding, Master,\" Renfield was saying. \"I am Your slave, and You will reward me, for I shall be faithful.\"",
+          translation:
+            "\"저는 주인님의 명을 받들러 왔습니다.\" 렌필드가 말하고 있었어요. \"저는 당신의 종이며, 충실할 테니 반드시 보답해 주실 겁니다.\"",
+        },
+        {
+          id: "drm-14",
+          text: "As the men closed in around him, Renfield fought back with astonishing strength, more like a wild beast than a man.",
+          translation:
+            "사람들이 그를 둘러싸며 다가서자, 렌필드는 사람이라기보다 야수처럼 놀라운 힘으로 맞서 싸웠어요.",
+        },
+        {
+          id: "drm-15",
+          text: "It took every one of them together to finally subdue him and drag him back to the asylum.",
+          translation:
+            "그들 모두가 힘을 합치고서야 마침내 그를 제압해 수용소로 끌고 돌아올 수 있었어요.",
+        },
+      ],
+      [
+        {
+          id: "drm-16",
+          text: "Back in the padded room, they restrained him in a strait-waistcoat and chained him to the wall, safely out of harm's way at last.",
+          translation:
+            "패드가 덧대진 방으로 돌아온 그들은 그에게 구속복을 입히고 벽에 사슬로 묶어, 마침내 위험 없이 안전하게 가두었어요.",
+        },
+        {
+          id: "drm-17",
+          text: "Just before falling silent, Renfield spoke one last coherent sentence: \"I shall be patient, Master. It is coming — coming — coming!\"",
+          translation:
+            "조용해지기 직전, 렌필드는 마지막으로 조리 있는 한 문장을 내뱉었어요. \"주인님, 기다리겠습니다. 오고 있어요… 오고 있어… 오고 있어요!\"",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "drm-v1",
+        term: "sniff",
+        partOfSpeech: "verb",
+        translation: "냄새를 맡다, 킁킁거리다",
+        example: "The dog sniffed at the strange package.",
+        exampleTranslation: "개는 낯선 소포의 냄새를 맡았어요.",
+      },
+      {
+        id: "drm-v2",
+        term: "haughty",
+        partOfSpeech: "adjective",
+        translation: "거만한, 오만한",
+        example: "She gave a haughty reply and walked away.",
+        exampleTranslation: "그녀는 거만하게 대답하고 자리를 떠났어요.",
+      },
+      {
+        id: "drm-v3",
+        term: "bidding",
+        partOfSpeech: "noun",
+        translation: "명령, 지시",
+        example: "The servant obeyed his master's bidding.",
+        exampleTranslation: "그 하인은 주인의 명령에 따랐어요.",
+      },
+      {
+        id: "drm-v4",
+        term: "restrain",
+        partOfSpeech: "verb",
+        translation: "제지하다, 억누르다",
+        example: "Two guards had to restrain the angry man.",
+        exampleTranslation: "경비원 두 명이 화난 남자를 제지해야 했어요.",
+      },
+      {
+        id: "drm-v5",
+        term: "coherent",
+        partOfSpeech: "adjective",
+        translation: "조리 있는, 일관성 있는",
+        example: "He was too tired to give a coherent answer.",
+        exampleTranslation: "그는 너무 지쳐서 조리 있는 대답을 할 수 없었어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "drm-q1",
+        prompt: "Why did Renfield's remark \"the Master is at hand\" worry Dr. Seward?",
+        options: [
+          "Because Renfield had never spoken before.",
+          "Because it looked like a religious mania that, combined with his strength and history of violence, could be dangerous.",
+          "Because it meant Renfield wanted to leave the asylum permanently.",
+          "Because Dr. Seward thought Renfield was lying to escape punishment.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Dr. Seward recognized the remark as a sign of religious mania, and worried that combined with Renfield's great physical strength and history of violence, it could make him dangerous.",
+      },
+      {
+        id: "drm-q2",
+        prompt: "How did Renfield escape from his room?",
+        options: [
+          "He convinced the attendant to unlock the door.",
+          "He wrenched open the window and climbed out.",
+          "He broke down the door.",
+          "He hid inside a laundry cart.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "The attendant heard the sound of the window being wrenched open, then saw Renfield's bare feet disappear through it as he climbed out.",
+      },
+      {
+        id: "drm-q3",
+        prompt: "What happened when Dr. Seward and his men finally caught up with Renfield at Carfax?",
+        options: [
+          "Renfield calmly surrendered without a struggle.",
+          "Renfield had already disappeared into the chapel.",
+          "Renfield fought with astonishing strength before finally being restrained.",
+          "Renfield attacked Dr. Seward with a weapon.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "When the men closed in, Renfield fought back with the strength of a wild beast; it took all of them together to subdue him and bring him back to be restrained in the padded room.",
+      },
+    ],
+  },
+  {
+    slug: "alice-in-wonderland-who-stole-the-tarts",
+    title: "Alice's Adventures in Wonderland: Who Stole the Tarts?",
+    titleTranslation: "이상한 나라의 앨리스: 누가 타르트를 훔쳤을까?",
+    targetLanguage: "en",
+    nativeLanguage: "ko",
+    topic: "Novel excerpt",
+    level: "A2",
+    isFree: true,
+    collection: "classics",
+    author: "Lewis Carroll (1832–1898)",
+    coverEmoji: "🥧",
+    coverImage: "/covers/alice-in-wonderland-who-stole-the-tarts.svg",
+    source:
+      "Adapted from Chapter 11 (\"Who Stole the Tarts?\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    summaryPrompt:
+      "In 1–2 sentences, describe what happened during the Hatter's testimony, and who the White Rabbit called as the next witness at the end.",
+    paragraphs: [
+      [
+        {
+          id: "wst-1",
+          text: "When Alice and the Gryphon arrived, the King and Queen of Hearts were seated on their thrones, with a huge crowd of birds, animals, and playing cards gathered around them.",
+          translation:
+            "앨리스와 그리핀이 도착했을 때, 하트 왕과 하트 여왕은 왕좌에 앉아 있었고, 그 주위에는 새와 짐승들, 그리고 트럼프 카드 전체로 이루어진 엄청난 군중이 모여 있었어요.",
+        },
+        {
+          id: "wst-2",
+          text: "The Knave of Hearts stood in chains, guarded by two soldiers, while the White Rabbit waited nearby with a trumpet in one hand and a scroll of parchment in the other.",
+          translation:
+            "하트의 잭은 사슬에 묶인 채 병사 두 명의 감시를 받으며 서 있었고, 흰토끼는 한 손에는 나팔을, 다른 손에는 양피지 두루마리를 든 채 옆에서 기다리고 있었어요.",
+        },
+        {
+          id: "wst-3",
+          text: "In the middle of the court stood a table piled with a large dish of tarts, and they looked so delicious that Alice secretly hoped the trial would finish quickly so everyone could eat.",
+          translation:
+            "법정 한가운데 놓인 탁자 위에는 커다란 타르트 접시가 있었는데, 어찌나 맛있어 보이던지 앨리스는 재판이 빨리 끝나서 다들 그걸 먹을 수 있으면 좋겠다고 몰래 생각했어요.",
+        },
+      ],
+      [
+        {
+          id: "wst-4",
+          text: "Alice had never been inside a courtroom before, but she had read about them in books, and she was pleased to recognize the judge — the King himself, wearing his crown awkwardly on top of his wig.",
+          translation:
+            "앨리스는 법정에 와 본 적이 한 번도 없었지만 책에서 읽은 적이 있었고, 판사가 커다란 가발 위에 왕관을 어색하게 얹은 왕이라는 것을 알아보고 기뻐했어요.",
+        },
+        {
+          id: "wst-5",
+          text: "She also spotted the jury box, where twelve odd little creatures — some animals, some birds — sat writing busily on slates.",
+          translation:
+            "그녀는 또한 배심원석도 알아보았는데, 그곳에는 동물도 있고 새도 있는 열두 마리의 이상한 생물들이 앉아 석판에 무언가를 열심히 쓰고 있었어요.",
+        },
+        {
+          id: "wst-6",
+          text: "When she whispered to the Gryphon to ask what they were writing, he explained that the jurors were putting down their own names, for fear they might forget them before the trial was even over.",
+          translation:
+            "앨리스가 그리핀에게 무엇을 쓰고 있느냐고 속삭이며 묻자, 그리핀은 배심원들이 재판이 끝나기도 전에 자기 이름을 잊어버릴까 봐 미리 자기 이름을 적어 두는 거라고 설명해 주었어요.",
+        },
+      ],
+      [
+        {
+          id: "wst-7",
+          text: "\"Stupid things!\" Alice said, a little too loudly — and she was startled to see all twelve jurors calmly write \"stupid things\" onto their own slates.",
+          translation:
+            "\"바보 같아!\" 앨리스가 조금 너무 크게 말했는데, 놀랍게도 열두 명의 배심원 모두가 태연하게 자기 석판에 \"바보 같아\"라고 받아 적었어요.",
+        },
+        {
+          id: "wst-8",
+          text: "The White Rabbit blew three blasts on his trumpet and read out the official charge: \"The Queen of Hearts, she made some tarts... The Knave of Hearts, he stole those tarts, and took them quite away!\"",
+          translation:
+            "흰토끼는 나팔을 세 번 불고 나서 공식 기소장을 읽었어요. \"하트 여왕이 어느 여름날 타르트를 만들었네. 하트의 잭이 그 타르트를 훔쳐서 몽땅 가져가 버렸다네!\"",
+        },
+        {
+          id: "wst-9",
+          text: "\"Call the first witness!\" cried the King, and the Hatter was led in, still clutching a teacup in one hand and a piece of bread-and-butter in the other.",
+          translation:
+            "\"첫 번째 증인을 부르시오!\" 왕이 외치자, 모자 장수가 한 손에는 찻잔을, 다른 손에는 버터 바른 빵 한 조각을 여전히 쥔 채 끌려 들어왔어요.",
+        },
+      ],
+      [
+        {
+          id: "wst-10",
+          text: "The Hatter apologized for not finishing his tea, and grew so nervous under the King's sharp questions and the Queen's fixed stare that he bit a piece out of his teacup instead of his bread.",
+          translation:
+            "모자 장수는 차를 다 마시지 못했다며 사과했고, 왕의 날카로운 질문과 여왕의 매서운 눈초리에 어찌나 긴장했던지 빵 대신 찻잔을 한 입 베어 물고 말았어요.",
+        },
+        {
+          id: "wst-11",
+          text: "Threatened repeatedly with execution if he could not remember what the March Hare and the Dormouse had said, the poor Hatter dropped to one knee, insisting only that he was a poor man.",
+          translation:
+            "3월 토끼와 겨울잠쥐가 뭐라고 했는지 기억해 내지 못하면 처형하겠다는 위협을 거듭 받자, 가엾은 모자 장수는 한쪽 무릎을 꿇고서 자신은 그저 가난한 사람일 뿐이라는 말만 되풀이했어요.",
+        },
+        {
+          id: "wst-12",
+          text: "At last the King grew tired of him and let him go — and the Hatter dashed out of the court so fast that he left without even putting his shoes back on.",
+          translation:
+            "결국 왕도 그에게 질려서 그만 나가라고 했고, 모자 장수는 신발도 채 신지 못한 채 서둘러 법정을 뛰쳐나갔어요.",
+        },
+      ],
+      [
+        {
+          id: "wst-13",
+          text: "Just then Alice felt a strange, familiar sensation: she was beginning to grow larger again, which annoyed the Dormouse squeezed in beside her, though she decided to stay exactly where she was.",
+          translation:
+            "바로 그때 앨리스는 낯익은 이상한 느낌을 받았어요. 다시 몸이 커지고 있었던 거예요. 옆에 바짝 붙어 앉은 겨울잠쥐는 그 때문에 짜증을 냈지만, 앨리스는 그 자리에 그대로 있기로 했어요.",
+        },
+        {
+          id: "wst-14",
+          text: "The next witness, the Duchess's cook, flatly refused to give any evidence at all, and when the King finally managed to ask what tarts were made of, she answered, \"Pepper, mostly\" — until a sleepy voice behind her called out, \"Treacle!\"",
+          translation:
+            "다음 증인인 공작 부인의 요리사는 증언을 아예 거부했고, 왕이 겨우 타르트가 무엇으로 만들어졌는지 묻자 요리사는 \"주로 후추요\"라고 대답했는데, 그때 뒤에서 졸린 목소리가 \"당밀이요!\"라고 외쳤어요.",
+        },
+        {
+          id: "wst-15",
+          text: "The Queen instantly shrieked for the Dormouse to be turned out of court, and in the confusion that followed, the cook quietly slipped away and was never called back.",
+          translation:
+            "여왕은 곧바로 겨울잠쥐를 법정에서 내쫓으라고 소리쳤고, 그 혼란을 틈타 요리사는 조용히 사라져 다시는 불려 오지 않았어요.",
+        },
+      ],
+      [
+        {
+          id: "wst-16",
+          text: "\"Call the next witness!\" said the King, looking greatly relieved to be done with the cook.",
+          translation:
+            "\"다음 증인을 부르시오!\" 왕이 요리사 문제가 끝나서 몹시 홀가분하다는 듯 말했어요.",
+        },
+        {
+          id: "wst-17",
+          text: "The White Rabbit fumbled over his list — and then, to Alice's utter astonishment, read out, at the top of his shrill little voice, the name \"Alice!\"",
+          translation:
+            "흰토끼는 목록을 뒤적이더니, 앨리스가 도저히 믿을 수 없게도, 가장 높고 날카로운 목소리로 \"앨리스!\" 라는 이름을 읽었어요.",
+        },
+      ],
+    ],
+    vocab: [
+      {
+        id: "wst-v1",
+        term: "witness",
+        partOfSpeech: "noun",
+        translation: "증인",
+        example: "The witness described what she saw.",
+        exampleTranslation: "그 증인은 자신이 본 것을 설명했어요.",
+      },
+      {
+        id: "wst-v2",
+        term: "jury",
+        partOfSpeech: "noun",
+        translation: "배심원단",
+        example: "The jury listened carefully to every witness.",
+        exampleTranslation: "배심원단은 모든 증인의 말을 주의 깊게 들었어요.",
+      },
+      {
+        id: "wst-v3",
+        term: "evidence",
+        partOfSpeech: "noun",
+        translation: "증거",
+        example: "The police looked for more evidence.",
+        exampleTranslation: "경찰은 더 많은 증거를 찾았어요.",
+      },
+      {
+        id: "wst-v4",
+        term: "threaten",
+        partOfSpeech: "verb",
+        translation: "위협하다",
+        example: "The teacher threatened to give extra homework.",
+        exampleTranslation: "선생님은 숙제를 더 내주겠다고 위협했어요.",
+      },
+      {
+        id: "wst-v5",
+        term: "astonishment",
+        partOfSpeech: "noun",
+        translation: "놀라움, 경악",
+        example: "She stared at him in astonishment.",
+        exampleTranslation: "그녀는 놀라움에 그를 쳐다보았어요.",
+      },
+    ],
+    questions: [
+      {
+        id: "wst-q1",
+        prompt: "Why did all twelve jurors write \"stupid things\" on their slates?",
+        options: [
+          "The King ordered them to.",
+          "They misheard the White Rabbit's trumpet call.",
+          "Alice muttered the words a little too loudly, and the jurors copied them down without understanding why.",
+          "It was the answer to the King's first question.",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Alice muttered \"Stupid things!\" about the jurors' odd note-taking habit, not realizing they would simply copy down whatever they heard — so all twelve wrote \"stupid things\" on their own slates.",
+      },
+      {
+        id: "wst-q2",
+        prompt: "What happened to the Hatter while he was giving his evidence?",
+        options: [
+          "He calmly answered every question.",
+          "He grew so nervous that he bit into his teacup instead of his bread, and was finally allowed to leave.",
+          "He fell asleep in the middle of his testimony.",
+          "He was immediately sentenced to be executed.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Under the King's questions and the Queen's stare, the flustered Hatter bit a piece out of his teacup by mistake; the King eventually grew tired of questioning him and let him go.",
+      },
+      {
+        id: "wst-q3",
+        prompt: "What interrupted the confusion after the cook's evidence, and what happened at the very end?",
+        options: [
+          "The Knave confessed to the crime himself.",
+          "The trial was suddenly postponed.",
+          "The cook was arrested on the spot.",
+          "The cook slipped away in the chaos, and the White Rabbit then called Alice's own name as the next witness.",
+        ],
+        correctIndex: 3,
+        explanation:
+          "While the court was busy ejecting the Dormouse, the cook quietly disappeared; when the King called for the next witness, the White Rabbit astonished Alice by reading out her own name.",
+      },
+    ],
+  },
 ];
 
 // Attach the Korean question text (data/comprehension-ko.ts) so every consumer

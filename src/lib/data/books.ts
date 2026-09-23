@@ -115,6 +115,7 @@ export const BOOKS: Book[] = [
       "dracula-the-demeter",
       "dracula-lucy-and-mina",
       "dracula-the-sleepwalker",
+      "dracula-renfield-master",
     ],
   },
   {
@@ -161,6 +162,7 @@ export const BOOKS: Book[] = [
       "alice-in-wonderland-croquet",
       "alice-in-wonderland-mock-turtle",
       "alice-in-wonderland-lobster-quadrille",
+      "alice-in-wonderland-who-stole-the-tarts",
     ],
   },
 ];

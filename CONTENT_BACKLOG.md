@@ -1432,10 +1432,41 @@ Alice's garbled "'Tis the voice of the Lobster" recitation, and the Mock Turtle'
 a lobster-claw medallion. Dictionary: 0 EN→KO gaps and 0 KO→EN gaps for both new
 slugs (same as wave 8 — the project-wide KO→EN backlog did not grow).
 
+**Wave 10 — written 2026-09-23** (no new books, palettes inherited):
+
+| Book | New chapter | Source | Level |
+|--|--|--|--|
+| Dracula → part 8 | Renfield's Master | Ch. 8, Dr. Seward's diary (Renfield's escape to Carfax) | B2 |
+| Alice's Adventures in Wonderland → part 6 | Who Stole the Tarts? | Ch. 11 | A2 |
+
+Sources: Gutenberg #345, #11 (both re-fetched and read in full before writing). The
+"Ch. 9 Renfield" note from wave 9 turned out to be a mislabeling — checking the actual
+Gutenberg text, "the Master is at hand" and the escape over the wall into Carfax are
+both still within Chapter 8 (interleaved with Mina's Whitby journal, which wave 9
+already adapted as "The Sleepwalker"); this is Dr. Seward's diary portion of the same
+chapter, a separate scene from a different narrator. It covers Renfield's sudden
+transformation, his escape through the window, and Seward finding him pledging
+devotion to "the Master" at the chapel door before being restrained — ends on his last
+coherent line ("It is coming—coming—coming!") without identifying the Master, the same
+"cliffhanger kept, not resolved" handling as other Dracula/Hound chapters. Chapter 6
+("Mina Murray's Journal," Whitby scenery, old Mr. Swales, a Renfield diary aside) and
+Chapter 9 (Mina reunited with Jonathan in Budapest) are both still unadapted and remain
+in the queue. The Alice chapter is a direct continuation of wave 9's Lobster Quadrille —
+the tart-theft trial before the King and Queen of Hearts, the jury writing "stupid
+things," the Hatter's flustered testimony, and the cook's escape in the Dormouse
+commotion — ending on the cliffhanger of the White Rabbit calling Alice herself as the
+next witness, setting up (not yet adapted) Ch. 12, the book's likely closing chapter.
+Covers: a spiderweb with a small spider (Renfield's obsession), and a lattice-topped
+tart with a small crown above it. Dictionary: 0 EN→KO gaps and 0 KO→EN gaps for both
+new slugs (same as waves 8–9 — the project-wide KO→EN backlog did not grow; it actually
+shrank slightly, from ~930 to 926, since one of the newly added KO→EN entries also
+closed a pre-existing gap in an older lesson).
+
 **Remaining queue, suggested order:**
-1. Dracula Ch. 6 ("Mina Murray's Journal") or Ch. 9 (Renfield's "the Master is at
-   hand," the escape to Carfax) — same resequencing trade-off noted above.
-2. Alice Ch. 11 ("Who Stole the Tarts?") — direct continuation of the new Ch. 10
-   lesson; likely the book's closing chapter alongside Ch. 12.
+1. Dracula Ch. 6 ("Mina Murray's Journal") — Whitby scenery, old Mr. Swales, a
+   Renfield diary aside; thinner on forward plot than other picks, but next in
+   sequence. Ch. 9 (Mina reunited with Jonathan in Budapest) is also open.
+2. Alice Ch. 12 ("Alice's Evidence") — the trial's conclusion and the book's likely
+   final chapter; direct continuation of the new Ch. 11 lesson.
 3. Secret Garden and A Little Princess have two parts each and could get a third.
 4. Middlemarch is still a single lesson (it cannot be a book until it has a second part).

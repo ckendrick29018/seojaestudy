@@ -4292,6 +4292,48 @@
   ]
  },
  {
+  "slug": "dracula-renfield-master",
+  "aria": "Dracula: Renfield's Master by Bram Stoker",
+  "footer": "CLASSICS",
+  "title": "Dracula",
+  "tagline": "Renfield's Master",
+  "author": [
+   "BRAM STOKER"
+  ],
+  "meta": [
+   "CHAPTER 8",
+   "1897"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M0 -36 L0 36 M-31 -18 L31 18 M-31 18 L31 -18 M-20 -32 L20 32 M20 -32 L-20 32\" stroke-width=\"1\"/>\n    <path d=\"M0 -36 Q-16 -20 -12 0 Q-8 20 0 36\" stroke-width=\"1\" opacity=\"0.6\"/>\n    <path d=\"M0 -36 Q16 -20 12 0 Q8 20 0 36\" stroke-width=\"1\" opacity=\"0.6\"/>\n    <ellipse cx=\"0\" cy=\"6\" rx=\"7\" ry=\"9\" stroke-width=\"1.4\" fill=\"#C9A66B\" fill-opacity=\"0.25\"/>\n    <path d=\"M-6 2 L-16 -4 M-6 6 L-18 6 M-6 10 L-16 16 M6 2 L16 -4 M6 6 L18 6 M6 10 L16 16\" stroke-width=\"1.1\"/>\n  </g>",
+  "bbox": [
+   156,
+   128,
+   88,
+   96
+  ]
+ },
+ {
+  "slug": "alice-in-wonderland-who-stole-the-tarts",
+  "aria": "Alice’s Adventures in Wonderland, Who Stole the Tarts?, by Lewis Carroll",
+  "footer": "CLASSICS",
+  "title": "Alice’s Adventures in Wonderland",
+  "tagline": "Who Stole the Tarts?",
+  "author": [
+   "LEWIS CARROLL"
+  ],
+  "meta": [
+   "CHAPTER 11",
+   "1865"
+  ],
+  "art": "<g transform=\"translate(200 176)\" stroke=\"#A9663F\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M-32 10 A32 14 0 1 0 32 10 A32 14 0 1 0 -32 10 Z\" stroke-width=\"1.5\" fill=\"#C9A66B\" fill-opacity=\"0.2\"/>\n    <path d=\"M-24 6 L24 6 M-18 -2 L18 14 M18 -2 L-18 14 M-10 -6 L-10 16 M10 -6 L10 16\" stroke-width=\"1\"/>\n    <path d=\"M-10 -22 L-6 -32 L0 -24 L6 -32 L10 -22 Z\" stroke-width=\"1.3\" fill=\"#C9A66B\" fill-opacity=\"0.22\"/>\n  </g>",
+  "bbox": [
+   156,
+   140,
+   88,
+   74
+  ]
+ },
+ {
   "slug": "anne-of-green-gables-liniment-cake",
   "aria": "Anne of Green Gables, The Liniment Cake, by L. M. Montgomery",
   "footer": "CLASSICS",

@@ -3419,5 +3419,37 @@ export const lessonIndex: LessonMeta[] = [
     "coverImage": "/covers/alice-in-wonderland-lobster-quadrille.svg",
     "source": "Adapted from Chapter 10 (\"The Lobster Quadrille\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
     "readingMinutes": 4
+  },
+  {
+    "slug": "dracula-renfield-master",
+    "title": "Dracula: Renfield's Master",
+    "titleTranslation": "드라큘라: 렌필드의 주인님",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "B2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Bram Stoker (1847–1912)",
+    "coverEmoji": "🕷️",
+    "coverImage": "/covers/dracula-renfield-master.svg",
+    "source": "Adapted from Dr. Seward's diary entries in Chapter 8 of Bram Stoker's novel \"Dracula\" (first published 1897; long in the public domain, Project Gutenberg #345). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 3
+  },
+  {
+    "slug": "alice-in-wonderland-who-stole-the-tarts",
+    "title": "Alice's Adventures in Wonderland: Who Stole the Tarts?",
+    "titleTranslation": "이상한 나라의 앨리스: 누가 타르트를 훔쳤을까?",
+    "targetLanguage": "en",
+    "nativeLanguage": "ko",
+    "topic": "Novel excerpt",
+    "level": "A2",
+    "isFree": true,
+    "collection": "classics",
+    "author": "Lewis Carroll (1832–1898)",
+    "coverEmoji": "🥧",
+    "coverImage": "/covers/alice-in-wonderland-who-stole-the-tarts.svg",
+    "source": "Adapted from Chapter 11 (\"Who Stole the Tarts?\") of Lewis Carroll's novel \"Alice's Adventures in Wonderland\" (first published 1865; long in the public domain, Project Gutenberg #11). This simplified retelling and its Korean translation are original text written for SeoJae Story.",
+    "readingMinutes": 4
   }
 ];
